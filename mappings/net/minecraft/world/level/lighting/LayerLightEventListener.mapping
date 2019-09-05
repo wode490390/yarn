@@ -1,0 +1,18 @@
+CLASS ckz net/minecraft/world/level/lighting/LayerLightEventListener
+	CLASS a DummyLightLayerEventListener
+		FIELD a INSTANCE Lckz$a;
+		FIELD b $VALUES [Lckz$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a hasLightWork ()Z
+		METHOD a runUpdates (IZZ)I
+		METHOD a enableLightSources (Lbhd;Z)V
+		METHOD a checkBlock (Lew;)V
+		METHOD a onBlockEmissionIncrease (Lew;I)V
+		METHOD a getDataLayerData (Lfp;)Lbxn;
+		METHOD a updateSectionStatus (Lfp;Z)V
+		METHOD b getLightValue (Lew;)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lckz$a;
+		METHOD values values ()[Lckz$a;
+	METHOD a getDataLayerData (Lfp;)Lbxn;
+	METHOD b getLightValue (Lew;)I

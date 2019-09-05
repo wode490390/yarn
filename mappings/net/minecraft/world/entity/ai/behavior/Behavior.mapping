@@ -1,0 +1,30 @@
+CLASS ajy net/minecraft/world/entity/ai/behavior/Behavior
+	CLASS a Status
+		FIELD a STOPPED Lajy$a;
+		FIELD b RUNNING Lajy$a;
+		FIELD c $VALUES [Lajy$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lajy$a;
+		METHOD values values ()[Lajy$a;
+	FIELD a entryCondition Ljava/util/Map;
+	FIELD b status Lajy$a;
+	FIELD c endTimestamp J
+	FIELD d minDuration I
+	FIELD e maxDuration I
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD <init> <init> (Ljava/util/Map;I)V
+	METHOD <init> <init> (Ljava/util/Map;II)V
+	METHOD a getStatus ()Lajy$a;
+	METHOD a timedOut (J)Z
+	METHOD a hasRequiredMemories (Laix;)Z
+	METHOD a lambda$hasRequiredMemories$0 (Laix;Ljava/util/Map$Entry;)Z
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD b tryStart (Lvk;Laix;J)Z
+	METHOD c tickOrStop (Lvk;Laix;J)V
+	METHOD d tick (Lvk;Laix;J)V
+	METHOD e doStop (Lvk;Laix;J)V
+	METHOD f stop (Lvk;Laix;J)V
+	METHOD g canStillUse (Lvk;Laix;J)Z
+	METHOD toString toString ()Ljava/lang/String;

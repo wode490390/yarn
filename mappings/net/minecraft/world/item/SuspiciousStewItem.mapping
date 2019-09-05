@@ -1,0 +1,4 @@
+CLASS bdl net/minecraft/world/item/SuspiciousStewItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a saveMobEffect (Lbcj;Laig;I)V
+	METHOD a finishUsingItem (Lbcj;Lbhr;Laix;)Lbcj;

@@ -1,0 +1,10 @@
+CLASS cmn net/minecraft/world/level/newbiome/layer/RareBiomeLargeLayer
+	FIELD a INSTANCE Lcmn;
+	FIELD b JUNGLE I
+	FIELD c BAMBOO_JUNGLE I
+	FIELD d $VALUES [Lcmn;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcly;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmn;
+	METHOD values values ()[Lcmn;

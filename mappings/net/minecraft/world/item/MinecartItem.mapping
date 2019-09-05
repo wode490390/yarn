@@ -1,0 +1,12 @@
+CLASS bcq net/minecraft/world/item/MinecartItem
+	CLASS 1 1
+		FIELD b defaultDispenseItemBehavior Lfw;
+		METHOD <init> <init> ()V
+		METHOD a playSound (Lex;)V
+		METHOD a execute (Lex;Lbcj;)Lbcj;
+	FIELD a DISPENSE_ITEM_BEHAVIOR Lfx;
+	FIELD b type Laxu$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laxu$a;Lbce$a;)V
+	METHOD a access$000 (Lbcq;)Laxu$a;
+	METHOD a useOn (Lbdu;)Lahj;

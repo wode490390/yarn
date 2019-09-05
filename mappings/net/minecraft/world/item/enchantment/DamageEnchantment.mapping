@@ -1,0 +1,15 @@
+CLASS bfp net/minecraft/world/item/enchantment/DamageEnchantment
+	FIELD a type I
+	FIELD d NAMES [Ljava/lang/String;
+	FIELD e MIN_COST [I
+	FIELD f LEVEL_COST [I
+	FIELD g LEVEL_COST_SPAN [I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbfs$a;I[Lait;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a getDamageBonus (ILajb;)F
+	METHOD a doPostAttack (Laix;Laio;I)V
+	METHOD a canEnchant (Lbcj;)Z
+	METHOD a checkCompatibility (Lbfs;)Z
+	METHOD b getMaxCost (I)I

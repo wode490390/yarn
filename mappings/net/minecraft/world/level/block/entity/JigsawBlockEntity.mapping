@@ -1,0 +1,16 @@
+CLASS bum net/minecraft/world/level/block/entity/JigsawBlockEntity
+	FIELD a attachementType Lqv;
+	FIELD b targetPool Lqv;
+	FIELD c finalState Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbtx;)V
+	METHOD a getUpdatePacket ()Lkq;
+	METHOD a load (Lid;)V
+	METHOD a setFinalState (Ljava/lang/String;)V
+	METHOD a setAttachementType (Lqv;)V
+	METHOD b getUpdateTag ()Lid;
+	METHOD b save (Lid;)Lid;
+	METHOD b setTargetPool (Lqv;)V
+	METHOD d getAttachementType ()Lqv;
+	METHOD f getTargetPool ()Lqv;
+	METHOD g getFinalState ()Ljava/lang/String;

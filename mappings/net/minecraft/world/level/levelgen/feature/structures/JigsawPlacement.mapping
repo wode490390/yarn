@@ -1,0 +1,32 @@
+CLASS cfo net/minecraft/world/level/levelgen/feature/structures/JigsawPlacement
+	CLASS 1 1
+	CLASS a PieceFactory
+		METHOD create create (Lcjp;Lcfr;Lew;ILbrg;Lcic;)Lcip;
+	CLASS b PieceState
+		FIELD a piece Lcip;
+		FIELD b free Ljava/util/concurrent/atomic/AtomicReference;
+		FIELD c boundsTop I
+		FIELD d depth I
+		METHOD <init> <init> (Lcip;Ljava/util/concurrent/atomic/AtomicReference;II)V
+		METHOD <init> <init> (Lcip;Ljava/util/concurrent/atomic/AtomicReference;IILcfo$1;)V
+		METHOD a access$100 (Lcfo$b;)Lcip;
+		METHOD b access$200 (Lcfo$b;)Ljava/util/concurrent/atomic/AtomicReference;
+		METHOD c access$300 (Lcfo$b;)I
+		METHOD d access$400 (Lcfo$b;)I
+	CLASS c Placer
+		FIELD a maxDepth I
+		FIELD b factory Lcfo$a;
+		FIELD c chunkGenerator Lbxi;
+		FIELD d structureManager Lcjp;
+		FIELD e pieces Ljava/util/List;
+		FIELD f random Ljava/util/Random;
+		FIELD g placing Ljava/util/Deque;
+		METHOD <init> <init> (Lqv;ILcfo$a;Lbxi;Lcjp;Lew;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a lambda$tryPlacingChildren$0 (Lcic;Lcjt$b;)I
+		METHOD a tryPlacingChildren (Lcip;Ljava/util/concurrent/atomic/AtomicReference;II)V
+	FIELD a POOLS Lcfu;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$500 ()Lorg/apache/logging/log4j/Logger;
+	METHOD a addPieces (Lqv;ILcfo$a;Lbxi;Lcjp;Lew;Ljava/util/List;Ljava/util/Random;)V

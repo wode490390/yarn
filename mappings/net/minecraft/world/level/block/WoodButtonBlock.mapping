@@ -1,0 +1,3 @@
+CLASS btl net/minecraft/world/level/block/WoodButtonBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getSound (Z)Lyo;

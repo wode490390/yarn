@@ -1,0 +1,77 @@
+CLASS aug net/minecraft/world/entity/monster/Drowned
+	CLASS a DrownedAttackGoal
+		FIELD d drowned Laug;
+		METHOD <init> <init> (Laug;DZ)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+	CLASS b DrownedGoToBeachGoal
+		FIELD g drowned Laug;
+		METHOD <init> <init> (Laug;D)V
+		METHOD a canUse ()Z
+		METHOD a isValidTarget (Lbhu;Lew;)Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+	CLASS c DrownedGoToWaterGoal
+		FIELD a mob Laje;
+		FIELD b wantedX D
+		FIELD c wantedY D
+		FIELD d wantedZ D
+		FIELD e speedModifier D
+		FIELD f level Lbhr;
+		METHOD <init> <init> (Laje;D)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD g getWaterPos ()Lcsi;
+	CLASS d DrownedMoveControl
+		FIELD i drowned Laug;
+		METHOD <init> <init> (Laug;)V
+		METHOD a tick ()V
+	CLASS e DrownedSwimUpGoal
+		FIELD a drowned Laug;
+		FIELD b speedModifier D
+		FIELD c seaLevel I
+		FIELD d stuck Z
+		METHOD <init> <init> (Laug;DI)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS f DrownedTridentAttackGoal
+		FIELD a drowned Laug;
+		METHOD <init> <init> (Lauy;DIF)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+	FIELD b waterNavigation Lapr;
+	FIELD bz searchingForLand Z
+	FIELD c groundNavigation Lapo;
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a populateDefaultEquipmentSlots (Lahh;)V
+	METHOD a performRangedAttack (Laix;F)V
+	METHOD a access$100 (Laug;)Z
+	METHOD a access$002 (Laug;Lapp;)Lapp;
+	METHOD a canReplaceCurrentItem (Lbcj;Lbcj;Lait;)Z
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD a isDeepEnoughToSpawn (Lbhs;Lew;)Z
+	METHOD a checkSpawnObstruction (Lbhu;)Z
+	METHOD ai getSwimSound ()Lyo;
+	METHOD ax updateSwimming ()V
+	METHOD b checkDrownedSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD b access$200 (Laug;)Z
+	METHOD bE isPushedByWater ()Z
+	METHOD cH getDeathSound ()Lyo;
+	METHOD dV supportsBreakDoorGoal ()Z
+	METHOD dW getStepSound ()Lyo;
+	METHOD dX getSkull ()Lbcj;
+	METHOD dY convertsInWater ()Z
+	METHOD dZ closeToNextPos ()Z
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD e travel (Lcsi;)V
+	METHOD ee wantsToSwim ()Z
+	METHOD h okTarget (Laix;)Z
+	METHOD l addBehaviourGoals ()V
+	METHOD r setSearchingForLand (Z)V

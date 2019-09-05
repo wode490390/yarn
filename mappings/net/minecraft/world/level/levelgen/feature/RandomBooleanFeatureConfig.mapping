@@ -1,0 +1,8 @@
+CLASS cdp net/minecraft/world/level/levelgen/feature/RandomBooleanFeatureConfig
+	FIELD a featureTrue Lcal;
+	FIELD b featureFalse Lcal;
+	METHOD <init> <init> (Lcal;Lcal;)V
+	METHOD <init> <init> (Lcbn;Lcbo;Lcbn;Lcbo;)V
+	METHOD a getFeature (Lcbn;Lcbo;)Lcal;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdp;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

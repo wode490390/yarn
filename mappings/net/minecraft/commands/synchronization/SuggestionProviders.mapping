@@ -1,0 +1,24 @@
+CLASS em net/minecraft/commands/synchronization/SuggestionProviders
+	CLASS a Wrapper
+		FIELD a delegate Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+		FIELD b name Lqv;
+		METHOD <init> <init> (Lqv;Lcom/mojang/brigadier/suggestion/SuggestionProvider;)V
+		METHOD a access$000 (Lem$a;)Lqv;
+		METHOD getSuggestions getSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	FIELD a ASK_SERVER Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD b ALL_RECIPES Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD c AVAILABLE_SOUNDS Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD d SUMMONABLE_ENTITIES Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD e PROVIDERS_BY_NAME Ljava/util/Map;
+	FIELD f DEFAULT_NAME Lqv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$null$3 (Lais;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$static$4 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a getName (Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lqv;
+	METHOD a getProvider (Lqv;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD a register (Lqv;Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD b lambda$static$2 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD b safelySwap (Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD c lambda$static$1 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD d lambda$static$0 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;

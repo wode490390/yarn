@@ -1,0 +1,9 @@
+CLASS ago net/minecraft/util/profiling/ResultField
+	FIELD a percentage D
+	FIELD b globalPercentage D
+	FIELD c count J
+	FIELD d name Ljava/lang/String;
+	METHOD <init> <init> (Ljava/lang/String;DDJ)V
+	METHOD a getColor ()I
+	METHOD a compareTo (Lago;)I
+	METHOD compareTo compareTo (Ljava/lang/Object;)I

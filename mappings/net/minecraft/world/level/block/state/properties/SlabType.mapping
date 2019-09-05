@@ -1,0 +1,12 @@
+CLASS bwz net/minecraft/world/level/block/state/properties/SlabType
+	FIELD a TOP Lbwz;
+	FIELD b BOTTOM Lbwz;
+	FIELD c DOUBLE Lbwz;
+	FIELD d name Ljava/lang/String;
+	FIELD e $VALUES [Lbwz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD m getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbwz;
+	METHOD values values ()[Lbwz;

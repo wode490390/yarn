@@ -1,0 +1,19 @@
+CLASS oa net/minecraft/network/protocol/game/ServerboundClientInformationPacket
+	FIELD a language Ljava/lang/String;
+	FIELD b viewDistance I
+	FIELD c chatVisibility Lawe;
+	FIELD d chatColors Z
+	FIELD e modelCustomisation I
+	FIELD f mainHand Laiw;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILawe;ZILaiw;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getLanguage ()Ljava/lang/String;
+	METHOD b write (Lje;)V
+	METHOD c getViewDistance ()I
+	METHOD d getChatVisibility ()Lawe;
+	METHOD e getChatColors ()Z
+	METHOD f getModelCustomisation ()I
+	METHOD g getMainHand ()Laiw;

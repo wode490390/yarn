@@ -1,0 +1,11 @@
+CLASS azt net/minecraft/world/inventory/ResultSlot
+	FIELD a craftSlots Layw;
+	FIELD b player Lawg;
+	FIELD g removeCount I
+	METHOD <init> <init> (Lawg;Layw;Lahc;III)V
+	METHOD a remove (I)Lbcj;
+	METHOD a onTake (Lawg;Lbcj;)Lbcj;
+	METHOD a mayPlace (Lbcj;)Z
+	METHOD a onQuickCraft (Lbcj;I)V
+	METHOD b onSwapCraft (I)V
+	METHOD c checkTakeAchievements (Lbcj;)V

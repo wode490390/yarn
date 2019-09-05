@@ -1,0 +1,9 @@
+CLASS cko net/minecraft/world/level/levelgen/synth/PerlinNoise
+	FIELD a noiseLevels [Lckn;
+	METHOD <init> <init> (Ljava/util/Random;I)V
+	METHOD a wrap (D)D
+	METHOD a getValue (DD)D
+	METHOD a getValue (DDD)D
+	METHOD a getSurfaceNoiseValue (DDDD)D
+	METHOD a getValue (DDDDDZ)D
+	METHOD a getOctaveNoise (I)Lckn;

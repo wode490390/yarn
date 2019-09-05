@@ -1,0 +1,32 @@
+CLASS auc net/minecraft/world/entity/monster/Blaze
+	CLASS a BlazeAttackGoal
+		FIELD a blaze Lauc;
+		FIELD b attackStep I
+		FIELD c attackTime I
+		FIELD d lastSeen I
+		METHOD <init> <init> (Lauc;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+		METHOD g getFollowDistance ()D
+	FIELD b allowedHeightOffset F
+	FIELD c nextHeightOffsetChangeTick I
+	FIELD d DATA_FLAGS_ID Lqk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD L customServerAiStep ()V
+	METHOD a access$000 (Lauc;Z)V
+	METHOD aE getLightColor ()I
+	METHOD aF getBrightness ()F
+	METHOD b causeFallDamage (FF)V
+	METHOD bc isOnFire ()Z
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cl registerAttributes ()V
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD k aiStep ()V
+	METHOD l isCharged ()Z
+	METHOD n registerGoals ()V
+	METHOD r setCharged (Z)V
+	METHOD u_ defineSynchedData ()V

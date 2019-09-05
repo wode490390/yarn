@@ -1,0 +1,3 @@
+CLASS qg net/minecraft/network/protocol/status/ServerStatusPacketListener
+	METHOD a handlePingRequest (Lqh;)V
+	METHOD a handleStatusRequest (Lqi;)V

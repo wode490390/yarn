@@ -1,0 +1,4 @@
+CLASS bkd net/minecraft/world/level/biome/ModifiedBadlandsPlateauBiome
+	METHOD <init> <init> ()V
+	METHOD a getFoliageColor (Lew;)I
+	METHOD b getGrassColor (Lew;)I

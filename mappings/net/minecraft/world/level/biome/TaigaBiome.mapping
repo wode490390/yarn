@@ -1,0 +1,2 @@
+CLASS blh net/minecraft/world/level/biome/TaigaBiome
+	METHOD <init> <init> ()V

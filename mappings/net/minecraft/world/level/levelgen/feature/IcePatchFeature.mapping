@@ -1,0 +1,5 @@
+CLASS ccg net/minecraft/world/level/levelgen/feature/IcePatchFeature
+	FIELD a block Lbmv;
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbp;)Z

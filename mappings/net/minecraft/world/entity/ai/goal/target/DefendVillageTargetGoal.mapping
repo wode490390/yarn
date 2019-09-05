@@ -1,0 +1,7 @@
+CLASS aow net/minecraft/world/entity/ai/goal/target/DefendVillageTargetGoal
+	FIELD a golem Lari;
+	FIELD b potentialTarget Laix;
+	FIELD c attackTargeting Laqi;
+	METHOD <init> <init> (Lari;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V

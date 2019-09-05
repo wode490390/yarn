@@ -1,0 +1,13 @@
+CLASS kq net/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket
+	FIELD a pos Lew;
+	FIELD b type I
+	FIELD c tag Lid;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lew;ILid;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getPos ()Lew;
+	METHOD b write (Lje;)V
+	METHOD c getType ()I
+	METHOD d getTag ()Lid;

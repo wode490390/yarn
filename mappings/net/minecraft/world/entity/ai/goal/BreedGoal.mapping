@@ -1,0 +1,17 @@
+CLASS amq net/minecraft/world/entity/ai/goal/BreedGoal
+	FIELD a animal Lara;
+	FIELD b level Lbhr;
+	FIELD c partner Lara;
+	FIELD d PARTNER_TARGETING Laqi;
+	FIELD e partnerClass Ljava/lang/Class;
+	FIELD f loveTime I
+	FIELD g speedModifier D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lara;D)V
+	METHOD <init> <init> (Lara;DLjava/lang/Class;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g breed ()V
+	METHOD h getFreePartner ()Lara;

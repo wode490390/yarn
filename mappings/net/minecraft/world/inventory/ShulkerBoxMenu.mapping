@@ -1,0 +1,7 @@
+CLASS azu net/minecraft/world/inventory/ShulkerBoxMenu
+	FIELD c container Lahc;
+	METHOD <init> <init> (ILawf;)V
+	METHOD <init> <init> (ILawf;Lahc;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;

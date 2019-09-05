@@ -1,0 +1,25 @@
+CLASS aon net/minecraft/world/entity/ai/goal/TemptGoal
+	FIELD a mob Laje;
+	FIELD b player Lawg;
+	FIELD c TEMP_TARGETING Laqi;
+	FIELD d speedModifier D
+	FIELD e px D
+	FIELD f py D
+	FIELD g pz D
+	FIELD h pRotX D
+	FIELD i pRotY D
+	FIELD j calmDown I
+	FIELD k isRunning Z
+	FIELD l items Lbeo;
+	FIELD m canScare Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laje;DLbeo;Z)V
+	METHOD <init> <init> (Laje;DZLbeo;)V
+	METHOD a canUse ()Z
+	METHOD a shouldFollowItem (Lbcj;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g canScare ()Z
+	METHOD h isRunning ()Z

@@ -1,0 +1,5 @@
+CLASS bzg net/minecraft/world/level/levelgen/PatrolSpawner
+	FIELD a nextTick I
+	METHOD <init> <init> ()V
+	METHOD a spawnPatrolMember (Lbhr;Lew;Ljava/util/Random;Z)Z
+	METHOD a tick (Lvk;ZZ)I

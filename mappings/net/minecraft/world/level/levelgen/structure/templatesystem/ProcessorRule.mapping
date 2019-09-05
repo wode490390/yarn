@@ -1,0 +1,13 @@
+CLASS cjj net/minecraft/world/level/levelgen/structure/templatesystem/ProcessorRule
+	FIELD a inputPredicate Lcjn;
+	FIELD b locPredicate Lcjn;
+	FIELD c outputState Lbvt;
+	FIELD d outputTag Lid;
+	METHOD <init> <init> (Lcjn;Lcjn;Lbvt;)V
+	METHOD <init> <init> (Lcjn;Lcjn;Lbvt;Lid;)V
+	METHOD a getOutputState ()Lbvt;
+	METHOD a test (Lbvt;Lbvt;Ljava/util/Random;)Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcjj;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b getOutputTag ()Lid;
+	METHOD b lambda$deserialize$0 (Lcom/mojang/datafixers/Dynamic;)Liu;

@@ -1,0 +1,24 @@
+CLASS brq net/minecraft/world/level/block/SkullBlock
+	CLASS a Type
+	CLASS b Types
+		FIELD a SKELETON Lbrq$b;
+		FIELD b WITHER_SKELETON Lbrq$b;
+		FIELD c PLAYER Lbrq$b;
+		FIELD d ZOMBIE Lbrq$b;
+		FIELD e CREEPER Lbrq$b;
+		FIELD f DRAGON Lbrq$b;
+		FIELD g $VALUES [Lbrq$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbrq$b;
+		METHOD values values ()[Lbrq$b;
+	FIELD a ROTATION Lbwt;
+	FIELD b SHAPE Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbrq$a;Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD h getOcclusionShape (Lbvt;Lbhb;Lew;)Lctc;

@@ -1,0 +1,5 @@
+CLASS vt net/minecraft/server/level/progress/ChunkProgressListener
+	METHOD a start ()V
+	METHOD a updateSpawnPos (Lbhd;)V
+	METHOD a onStatusChange (Lbhd;Lbxm;)V
+	METHOD b stop ()V

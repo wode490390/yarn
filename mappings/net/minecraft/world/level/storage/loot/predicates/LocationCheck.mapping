@@ -1,0 +1,16 @@
+CLASS cri net/minecraft/world/level/storage/loot/predicates/LocationCheck
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcri;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcri;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a predicate Lbg;
+	METHOD <init> <init> (Lbg;)V
+	METHOD <init> <init> (Lbg;Lcri$1;)V
+	METHOD a checkLocation (Lbg$a;)Lcrk$a;
+	METHOD a test (Lcoy;)Z
+	METHOD a access$000 (Lcri;)Lbg;
+	METHOD b lambda$checkLocation$0 (Lbg$a;)Lcrk;
+	METHOD test test (Ljava/lang/Object;)Z

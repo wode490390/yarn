@@ -1,0 +1,12 @@
+CLASS yt net/minecraft/stats/ServerRecipeBook
+	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD l manager Lbes;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbes;)V
+	METHOD a fromNbt (Lid;)V
+	METHOD a loadRecipes (Lik;Ljava/util/function/Consumer;)V
+	METHOD a addRecipes (Ljava/util/Collection;Lvl;)I
+	METHOD a sendRecipes (Lmg$a;Lvl;Ljava/util/List;)V
+	METHOD a sendInitialRecipeBook (Lvl;)V
+	METHOD b removeRecipes (Ljava/util/Collection;Lvl;)I
+	METHOD i toNbt ()Lid;

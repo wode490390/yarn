@@ -1,0 +1,25 @@
+CLASS ayb net/minecraft/world/entity/vehicle/MinecartHopper
+	FIELD d enabled Z
+	FIELD e cooldownTime I
+	FIELD f lastPosition Lew;
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDD)V
+	METHOD A getLevelY ()D
+	METHOD B getLevelZ ()D
+	METHOD C suckInItems ()Z
+	METHOD D isOnCooldown ()Z
+	METHOD M_ getContainerSize ()I
+	METHOD a activateMinecart (IIIZ)V
+	METHOD a createMenu (ILawf;)Layk;
+	METHOD a destroy (Lahx;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD h tick ()V
+	METHOD m setCooldown (I)V
+	METHOD n setEnabled (Z)V
+	METHOD o getMinecartType ()Laxu$a;
+	METHOD q getDefaultDisplayBlockState ()Lbvt;
+	METHOD s getDefaultDisplayOffset ()I
+	METHOD v isEnabled ()Z
+	METHOD w getLevel ()Lbhr;
+	METHOD z getLevelX ()D

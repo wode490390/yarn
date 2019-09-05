@@ -1,0 +1,11 @@
+CLASS aom net/minecraft/world/entity/ai/goal/TakeFlowerGoal
+	FIELD a villager Lavt;
+	FIELD b golem Lari;
+	FIELD c pickupTick I
+	FIELD d takeFlower Z
+	METHOD <init> <init> (Lavt;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

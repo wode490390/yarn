@@ -1,20 +1,19 @@
-CLASS net/minecraft/class_2520 net/minecraft/nbt/Tag
-	FIELD field_11591 AQUA Lnet/minecraft/class_124;
-	FIELD field_11592 TYPES [Ljava/lang/String;
-	FIELD field_11593 GOLD Lnet/minecraft/class_124;
-	FIELD field_11594 GREEN Lnet/minecraft/class_124;
-	FIELD field_11595 RED Lnet/minecraft/class_124;
-	METHOD method_10707 copy ()Lnet/minecraft/class_2520;
-	METHOD method_10708 createTag (B)Lnet/minecraft/class_2520;
-		ARG 0 id
-	METHOD method_10709 read (Ljava/io/DataInput;ILnet/minecraft/class_2505;)V
-		ARG 1 input
-		ARG 2 depth
-	METHOD method_10710 toText (Ljava/lang/String;I)Lnet/minecraft/class_2561;
-		ARG 1 indent
-	METHOD method_10711 getType ()B
-	METHOD method_10712 idToString (I)Ljava/lang/String;
-		ARG 0 id
-	METHOD method_10713 write (Ljava/io/DataOutput;)V
-	METHOD method_10714 asString ()Ljava/lang/String;
-	METHOD method_10715 toText ()Lnet/minecraft/class_2561;
+CLASS iu net/minecraft/nbt/Tag
+	FIELD a TAG_NAMES [Ljava/lang/String;
+	FIELD b SYNTAX_HIGHLIGHTING_KEY Lc;
+	FIELD c SYNTAX_HIGHLIGHTING_STRING Lc;
+	FIELD d SYNTAX_HIGHLIGHTING_NUMBER Lc;
+	FIELD e SYNTAX_HIGHLIGHTING_NUMBER_TYPE Lc;
+	METHOD <clinit> <clinit> ()V
+	METHOD a getId ()B
+	METHOD a newTag (B)Liu;
+	METHOD a load (Ljava/io/DataInput;ILin;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Ljo;
+	METHOD b copy ()Liu;
+	METHOD b_ stripEmptyChildren ()V
+	METHOD c_ getAsString ()Ljava/lang/String;
+	METHOD isEmpty isEmpty ()Z
+	METHOD k getPrettyDisplay ()Ljo;
+	METHOD l getTagTypeName (I)Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;

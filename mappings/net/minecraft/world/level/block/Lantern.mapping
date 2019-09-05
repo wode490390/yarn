@@ -1,0 +1,15 @@
+CLASS bpv net/minecraft/world/level/block/Lantern
+	FIELD a HANGING Lbwl;
+	FIELD b AABB Lctc;
+	FIELD c HANGING_AABB Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a canSurvive (Lbvt;Lbhu;Lew;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD c getRenderLayer ()Lbhc;
+	METHOD i getPistonPushReaction (Lbvt;)Lclq;
+	METHOD j getConnectedDirection (Lbvt;)Lfb;

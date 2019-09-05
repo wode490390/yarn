@@ -1,0 +1,24 @@
+CLASS asi net/minecraft/world/entity/animal/horse/TraderLlama
+	CLASS a TraderLlamaDefendWanderingTraderGoal
+		FIELD a this$0 Lasi;
+		FIELD b llama Lase;
+		FIELD c ownerLastHurtBy Laix;
+		FIELD d timestamp I
+		METHOD <init> <init> (Lasi;Lase;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+	FIELD bI despawnDelay I
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD eB isTraderLlama ()Z
+	METHOD eF makeBabyLlama ()Lase;
+	METHOD eK maybeDespawn ()V
+	METHOD eL canDespawn ()Z
+	METHOD eM isLeashedToWanderingTrader ()Z
+	METHOD eN isLeashedToSomethingOtherThanTheWanderingTrader ()Z
+	METHOD g doPlayerRide (Lawg;)V
+	METHOD k aiStep ()V
+	METHOD n registerGoals ()V
+	METHOD w setDespawnDelay (I)V

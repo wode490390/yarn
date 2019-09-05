@@ -1,0 +1,10 @@
+CLASS cmo net/minecraft/world/level/newbiome/layer/RareBiomeSpotLayer
+	FIELD a INSTANCE Lcmo;
+	FIELD b PLAINS I
+	FIELD c SUNFLOWER_PLAINS I
+	FIELD d $VALUES [Lcmo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcly;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmo;
+	METHOD values values ()[Lcmo;

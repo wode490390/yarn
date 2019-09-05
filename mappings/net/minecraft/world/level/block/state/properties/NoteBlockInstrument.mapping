@@ -1,0 +1,27 @@
+CLASS bwu net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+	FIELD a HARP Lbwu;
+	FIELD b BASEDRUM Lbwu;
+	FIELD c SNARE Lbwu;
+	FIELD d HAT Lbwu;
+	FIELD e BASS Lbwu;
+	FIELD f FLUTE Lbwu;
+	FIELD g BELL Lbwu;
+	FIELD h GUITAR Lbwu;
+	FIELD i CHIME Lbwu;
+	FIELD j XYLOPHONE Lbwu;
+	FIELD k IRON_XYLOPHONE Lbwu;
+	FIELD l COW_BELL Lbwu;
+	FIELD m DIDGERIDOO Lbwu;
+	FIELD n BIT Lbwu;
+	FIELD o BANJO Lbwu;
+	FIELD p PLING Lbwu;
+	FIELD q name Ljava/lang/String;
+	FIELD r soundEvent Lyo;
+	FIELD s $VALUES [Lbwu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lyo;)V
+	METHOD a getSoundEvent ()Lyo;
+	METHOD a byState (Lbvt;)Lbwu;
+	METHOD m getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbwu;
+	METHOD values values ()[Lbwu;

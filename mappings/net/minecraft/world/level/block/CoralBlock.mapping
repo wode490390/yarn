@@ -1,0 +1,7 @@
+CLASS bnt net/minecraft/world/level/block/CoralBlock
+	FIELD a deadBlock Lbmv;
+	METHOD <init> <init> (Lbmv;Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a scanForWater (Lbhb;Lew;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V

@@ -1,0 +1,4 @@
+CLASS baz net/minecraft/world/item/ComplexItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD O_ isComplex ()Z
+	METHOD a getUpdatePacket (Lbcj;Lbhr;Lawg;)Lkc;

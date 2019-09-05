@@ -1,0 +1,5 @@
+CLASS csu net/minecraft/world/phys/shapes/IndexMerger
+	CLASS a IndexConsumer
+		METHOD merge merge (III)Z
+	METHOD a getList ()Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	METHOD a forMergedIndexes (Lcsu$a;)Z

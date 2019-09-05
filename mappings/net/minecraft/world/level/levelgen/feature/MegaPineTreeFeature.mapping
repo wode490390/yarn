@@ -1,0 +1,12 @@
+CLASS cct net/minecraft/world/level/levelgen/feature/MegaPineTreeFeature
+	FIELD aV TRUNK Lbvt;
+	FIELD aW LEAF Lbvt;
+	FIELD aX PODZOL Lbvt;
+	FIELD aY isSpruce Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;ZZ)V
+	METHOD a createCrown (Lbhw;IIIILjava/util/Random;Lcic;Ljava/util/Set;)V
+	METHOD a postPlaceTree (Lbhw;Ljava/util/Random;Lew;)V
+	METHOD a doPlace (Ljava/util/Set;Lbhw;Ljava/util/Random;Lew;Lcic;)Z
+	METHOD b placePodzolCircle (Lbhw;Lew;)V
+	METHOD c placePodzolAt (Lbhw;Lew;)V

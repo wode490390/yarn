@@ -1,0 +1,5 @@
+CLASS chh net/minecraft/world/level/levelgen/placement/LakeChanceDecoratorConfig
+	FIELD a chance I
+	METHOD <init> <init> (I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lchh;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

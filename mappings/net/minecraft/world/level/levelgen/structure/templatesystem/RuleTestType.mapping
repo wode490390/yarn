@@ -1,0 +1,10 @@
+CLASS cjo net/minecraft/world/level/levelgen/structure/templatesystem/RuleTestType
+	FIELD b ALWAYS_TRUE_TEST Lcjo;
+	FIELD c BLOCK_TEST Lcjo;
+	FIELD d BLOCKSTATE_TEST Lcjo;
+	FIELD e TAG_TEST Lcjo;
+	FIELD f RANDOM_BLOCK_TEST Lcjo;
+	FIELD g RANDOM_BLOCKSTATE_TEST Lcjo;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$0 (Lcom/mojang/datafixers/Dynamic;)Lcjn;
+	METHOD a register (Ljava/lang/String;Lcjo;)Lcjo;

@@ -1,0 +1,12 @@
+CLASS ccu net/minecraft/world/level/levelgen/feature/MegaTreeFeature
+	FIELD a baseHeight I
+	FIELD aS trunk Lbvt;
+	FIELD aT leaf Lbvt;
+	FIELD aU heightInterval I
+	METHOD <init> <init> (Ljava/util/function/Function;ZIILbvt;Lbvt;)V
+	METHOD a prepareTree (Lbhw;Lew;I)Z
+	METHOD a placeDoubleTrunkLeaves (Lbhw;Lew;ILcic;Ljava/util/Set;)V
+	METHOD a checkIsFree (Lbhx;Lew;I)Z
+	METHOD a calcTreeHeigth (Ljava/util/Random;)I
+	METHOD b makeDirtFloor (Lbhw;Lew;)Z
+	METHOD b placeSingleTrunkLeaves (Lbhw;Lew;ILcic;Ljava/util/Set;)V

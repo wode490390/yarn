@@ -1,0 +1,14 @@
+CLASS axr net/minecraft/world/entity/schedule/ScheduleBuilder
+	CLASS a ActivityTransition
+		FIELD a time I
+		FIELD b activity Laxo;
+		METHOD <init> <init> (ILaxo;)V
+		METHOD a getTime ()I
+		METHOD b getActivity ()Laxo;
+	FIELD a schedule Laxq;
+	FIELD b transitions Ljava/util/List;
+	METHOD <init> <init> (Laxq;)V
+	METHOD a build ()Laxq;
+	METHOD a changeActivityAt (ILaxo;)Laxr;
+	METHOD a lambda$build$1 (Laxr$a;)V
+	METHOD a lambda$null$0 (Laxr$a;Laxs;)V

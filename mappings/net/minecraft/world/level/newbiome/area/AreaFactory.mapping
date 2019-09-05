@@ -1,0 +1,2 @@
+CLASS clu net/minecraft/world/level/newbiome/area/AreaFactory
+	METHOD make make ()Lclt;

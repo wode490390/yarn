@@ -1,0 +1,16 @@
+CLASS mv net/minecraft/network/protocol/game/ClientboundSetEntityMotionPacket
+	FIELD a id I
+	FIELD b xa I
+	FIELD c ya I
+	FIELD d za I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILcsi;)V
+	METHOD <init> <init> (Laio;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getId ()I
+	METHOD b write (Lje;)V
+	METHOD c getXa ()I
+	METHOD d getYa ()I
+	METHOD e getZa ()I

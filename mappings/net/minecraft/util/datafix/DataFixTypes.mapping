@@ -1,0 +1,18 @@
+CLASS aaj net/minecraft/util/datafix/DataFixTypes
+	FIELD a LEVEL Laaj;
+	FIELD b PLAYER Laaj;
+	FIELD c CHUNK Laaj;
+	FIELD d HOTBAR Laaj;
+	FIELD e OPTIONS Laaj;
+	FIELD f STRUCTURE Laaj;
+	FIELD g STATS Laaj;
+	FIELD h SAVED_DATA Laaj;
+	FIELD i ADVANCEMENTS Laaj;
+	FIELD j POI_CHUNK Laaj;
+	FIELD k type Lcom/mojang/datafixers/DSL$TypeReference;
+	FIELD l $VALUES [Laaj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILcom/mojang/datafixers/DSL$TypeReference;)V
+	METHOD a getType ()Lcom/mojang/datafixers/DSL$TypeReference;
+	METHOD valueOf valueOf (Ljava/lang/String;)Laaj;
+	METHOD values values ()[Laaj;

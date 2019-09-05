@@ -1,0 +1,2 @@
+CLASS aab net/minecraft/util/Serializable
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;

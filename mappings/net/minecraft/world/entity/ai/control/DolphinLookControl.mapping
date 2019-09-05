@@ -1,0 +1,4 @@
+CLASS amf net/minecraft/world/entity/ai/control/DolphinLookControl
+	FIELD h maxYRotFromCenter I
+	METHOD <init> <init> (Laiy;I)V
+	METHOD a tick ()V

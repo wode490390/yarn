@@ -1,0 +1,11 @@
+CLASS gn net/minecraft/data/advancements/AdvancementProvider
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d generator Lgk;
+	FIELD e tabs Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgk;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a run (Lgm;)V
+	METHOD a createPath (Ljava/nio/file/Path;Lq;)Ljava/nio/file/Path;
+	METHOD a lambda$run$0 (Ljava/util/Set;Ljava/nio/file/Path;Lgm;Lq;)V

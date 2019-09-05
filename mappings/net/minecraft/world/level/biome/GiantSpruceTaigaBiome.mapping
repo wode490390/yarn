@@ -1,0 +1,2 @@
+CLASS bjt net/minecraft/world/level/biome/GiantSpruceTaigaBiome
+	METHOD <init> <init> ()V

@@ -1,0 +1,14 @@
+CLASS bqy net/minecraft/world/level/block/RedStoneOreBlock
+	FIELD a LIT Lbwl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a spawnParticles (Lbhr;Lew;)V
+	METHOD a stepOn (Lbhr;Lew;Laio;)V
+	METHOD a getLightEmission (Lbvt;)I
+	METHOD a attack (Lbvt;Lbhr;Lew;Lawg;)V
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a spawnAfterBreak (Lbvt;Lbhr;Lew;Lbcj;)V
+	METHOD a animateTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD d interact (Lbvt;Lbhr;Lew;)V

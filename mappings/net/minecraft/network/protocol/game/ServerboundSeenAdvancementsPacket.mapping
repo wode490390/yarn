@@ -1,0 +1,21 @@
+CLASS oy net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket
+	CLASS a Action
+		FIELD a OPENED_TAB Loy$a;
+		FIELD b CLOSED_SCREEN Loy$a;
+		FIELD c $VALUES [Loy$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Loy$a;
+		METHOD values values ()[Loy$a;
+	FIELD a action Loy$a;
+	FIELD b tab Lqv;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Loy$a;Lqv;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD a openedTab (Lq;)Loy;
+	METHOD b closedScreen ()Loy;
+	METHOD b write (Lje;)V
+	METHOD c getAction ()Loy$a;
+	METHOD d getTab ()Lqv;

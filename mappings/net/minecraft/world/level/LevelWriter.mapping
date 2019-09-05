@@ -1,0 +1,5 @@
+CLASS bhz net/minecraft/world/level/LevelWriter
+	METHOD a setBlock (Lew;Lbvt;I)Z
+	METHOD a removeBlock (Lew;Z)Z
+	METHOD b destroyBlock (Lew;Z)Z
+	METHOD c addFreshEntity (Laio;)Z

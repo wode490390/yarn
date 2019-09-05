@@ -1,0 +1,3 @@
+CLASS cqe net/minecraft/world/level/storage/loot/functions/FunctionUserBuilder
+	METHOD b apply (Lcqh$a;)Ljava/lang/Object;
+	METHOD c unwrap ()Ljava/lang/Object;

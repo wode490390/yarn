@@ -1,0 +1,28 @@
+CLASS bdz net/minecraft/world/item/alchemy/PotionBrewing
+	CLASS a Mix
+		FIELD a from Ljava/lang/Object;
+		FIELD b ingredient Lbeo;
+		FIELD c to Ljava/lang/Object;
+		METHOD <init> <init> (Ljava/lang/Object;Lbeo;Ljava/lang/Object;)V
+		METHOD a access$000 (Lbdz$a;)Lbeo;
+		METHOD b access$100 (Lbdz$a;)Ljava/lang/Object;
+		METHOD c access$200 (Lbdz$a;)Ljava/lang/Object;
+	FIELD a POTION_MIXES Ljava/util/List;
+	FIELD b CONTAINER_MIXES Ljava/util/List;
+	FIELD c ALLOWED_CONTAINERS Ljava/util/List;
+	FIELD d ALLOWED_CONTAINER Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootStrap ()V
+	METHOD a addContainer (Lbce;)V
+	METHOD a addContainerRecipe (Lbce;Lbce;Lbce;)V
+	METHOD a isIngredient (Lbcj;)Z
+	METHOD a hasMix (Lbcj;Lbcj;)Z
+	METHOD a isBrewablePotion (Lbdy;)Z
+	METHOD a addMix (Lbdy;Lbce;Lbdy;)V
+	METHOD b isContainerIngredient (Lbcj;)Z
+	METHOD b hasContainerMix (Lbcj;Lbcj;)Z
+	METHOD c isPotionIngredient (Lbcj;)Z
+	METHOD c hasPotionMix (Lbcj;Lbcj;)Z
+	METHOD d lambda$static$0 (Lbcj;)Z
+	METHOD d mix (Lbcj;Lbcj;)Lbcj;

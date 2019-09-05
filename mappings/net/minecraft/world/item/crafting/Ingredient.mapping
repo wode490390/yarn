@@ -1,0 +1,49 @@
+CLASS beo net/minecraft/world/item/crafting/Ingredient
+	CLASS 1 1
+	CLASS a ItemValue
+		FIELD a item Lbcj;
+		METHOD <init> <init> (Lbcj;)V
+		METHOD <init> <init> (Lbcj;Lbeo$1;)V
+		METHOD a getItems ()Ljava/util/Collection;
+		METHOD b serialize ()Lcom/google/gson/JsonObject;
+	CLASS b TagValue
+		FIELD a tag Lzg;
+		METHOD <init> <init> (Lzg;)V
+		METHOD <init> <init> (Lzg;Lbeo$1;)V
+		METHOD a getItems ()Ljava/util/Collection;
+		METHOD b serialize ()Lcom/google/gson/JsonObject;
+	CLASS c Value
+		METHOD a getItems ()Ljava/util/Collection;
+		METHOD b serialize ()Lcom/google/gson/JsonObject;
+	FIELD a EMPTY Lbeo;
+	FIELD b NON_ALL_EMPTY Ljava/util/function/Predicate;
+	FIELD c values [Lbeo$c;
+	FIELD d itemStacks [Lbcj;
+	FIELD e stackingIds Lit/unimi/dsi/fastutil/ints/IntList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/stream/Stream;)V
+	METHOD a getItems ()[Lbcj;
+	METHOD a lambda$dissolve$3 (I)[Lbcj;
+	METHOD a test (Lbcj;)Z
+	METHOD a lambda$dissolve$2 (Lbeo$c;)Ljava/util/stream/Stream;
+	METHOD a lambda$of$4 (Lbhq;)Lbeo$a;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbeo;
+	METHOD a valueFromJson (Lcom/google/gson/JsonObject;)Lbeo$c;
+	METHOD a fromValues (Ljava/util/stream/Stream;)Lbeo;
+	METHOD a toNetwork (Lje;)V
+	METHOD a lambda$valueFromJson$8 (Lqv;)Lcom/google/gson/JsonSyntaxException;
+	METHOD a of (Lzg;)Lbeo;
+	METHOD a of ([Lbcj;)Lbeo;
+	METHOD a of ([Lbhq;)Lbeo;
+	METHOD b getStackingIds ()Lit/unimi/dsi/fastutil/ints/IntList;
+	METHOD b lambda$new$1 (I)[Lbeo$c;
+	METHOD b lambda$of$5 (Lbcj;)Lbeo$a;
+	METHOD b lambda$static$0 (Lbeo$c;)Z
+	METHOD b lambda$fromJson$7 (Lcom/google/gson/JsonElement;)Lbeo$c;
+	METHOD b fromNetwork (Lje;)Lbeo;
+	METHOD c toJson ()Lcom/google/gson/JsonElement;
+	METHOD c lambda$fromNetwork$6 (Lje;)Lbeo$a;
+	METHOD d isEmpty ()Z
+	METHOD e of ()Lbeo;
+	METHOD f dissolve ()V
+	METHOD test test (Ljava/lang/Object;)Z

@@ -1,0 +1,6 @@
+CLASS cse net/minecraft/world/phys/EntityHitResult
+	FIELD b entity Laio;
+	METHOD <init> <init> (Laio;)V
+	METHOD <init> <init> (Laio;Lcsi;)V
+	METHOD a getEntity ()Laio;
+	METHOD c getType ()Lcsf$a;

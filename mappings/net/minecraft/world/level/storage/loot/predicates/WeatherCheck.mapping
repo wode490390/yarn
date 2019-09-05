@@ -1,0 +1,25 @@
+CLASS crr net/minecraft/world/level/storage/loot/predicates/WeatherCheck
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a isRaining Ljava/lang/Boolean;
+		FIELD b isThundering Ljava/lang/Boolean;
+		METHOD <init> <init> ()V
+		METHOD a setRaining (Ljava/lang/Boolean;)Lcrr$a;
+		METHOD b build ()Lcrr;
+		METHOD b setThundering (Ljava/lang/Boolean;)Lcrr$a;
+		METHOD build build ()Lcrk;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrr;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrr;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a isRaining Ljava/lang/Boolean;
+	FIELD b isThundering Ljava/lang/Boolean;
+	METHOD <init> <init> (Ljava/lang/Boolean;Ljava/lang/Boolean;)V
+	METHOD <init> <init> (Ljava/lang/Boolean;Ljava/lang/Boolean;Lcrr$1;)V
+	METHOD a test (Lcoy;)Z
+	METHOD a access$100 (Lcrr;)Ljava/lang/Boolean;
+	METHOD b weather ()Lcrr$a;
+	METHOD b access$200 (Lcrr;)Ljava/lang/Boolean;
+	METHOD test test (Ljava/lang/Object;)Z

@@ -1,0 +1,4 @@
+CLASS aif net/minecraft/world/effect/InstantenousMobEffect
+	METHOD <init> <init> (Laih;I)V
+	METHOD a isInstantenous ()Z
+	METHOD a isDurationEffectTick (II)Z

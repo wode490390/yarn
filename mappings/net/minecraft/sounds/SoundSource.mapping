@@ -1,0 +1,21 @@
+CLASS yq net/minecraft/sounds/SoundSource
+	FIELD a MASTER Lyq;
+	FIELD b MUSIC Lyq;
+	FIELD c RECORDS Lyq;
+	FIELD d WEATHER Lyq;
+	FIELD e BLOCKS Lyq;
+	FIELD f HOSTILE Lyq;
+	FIELD g NEUTRAL Lyq;
+	FIELD h PLAYERS Lyq;
+	FIELD i AMBIENT Lyq;
+	FIELD j VOICE Lyq;
+	FIELD k BY_NAME Ljava/util/Map;
+	FIELD l name Ljava/lang/String;
+	FIELD m $VALUES [Lyq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a byName (Ljava/lang/String;)Lyq;
+	METHOD b getNames ()Ljava/util/Set;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lyq;
+	METHOD values values ()[Lyq;

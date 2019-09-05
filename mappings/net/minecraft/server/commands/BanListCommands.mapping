@@ -1,0 +1,8 @@
+CLASS rq net/minecraft/server/commands/BanListCommands
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a showList (Lcd;Ljava/util/Collection;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

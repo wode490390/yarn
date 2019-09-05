@@ -1,0 +1,62 @@
+CLASS coy net/minecraft/world/level/storage/loot/LootContext
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a level Lvk;
+		FIELD b params Ljava/util/Map;
+		FIELD c dynamicDrops Ljava/util/Map;
+		FIELD d random Ljava/util/Random;
+		FIELD e luck F
+		METHOD <init> <init> (Lvk;)V
+		METHOD a getLevel ()Lvk;
+		METHOD a withLuck (F)Lcoy$a;
+		METHOD a withOptionalRandomSeed (J)Lcoy$a;
+		METHOD a withOptionalRandomSeed (JLjava/util/Random;)Lcoy$a;
+		METHOD a getParameter (Lcqw;)Ljava/lang/Object;
+		METHOD a withParameter (Lcqw;Ljava/lang/Object;)Lcoy$a;
+		METHOD a create (Lcqx;)Lcoy;
+		METHOD a withRandom (Ljava/util/Random;)Lcoy$a;
+		METHOD a withDynamicDrop (Lqv;Lcoy$b;)Lcoy$a;
+		METHOD b getOptionalParameter (Lcqw;)Ljava/lang/Object;
+		METHOD b withOptionalParameter (Lcqw;Ljava/lang/Object;)Lcoy$a;
+	CLASS b DynamicDrop
+		METHOD add add (Lcoy;Ljava/util/function/Consumer;)V
+	CLASS c EntityTarget
+		CLASS a Serializer
+			METHOD <init> <init> ()V
+			METHOD a read (Lcom/google/gson/stream/JsonReader;)Lcoy$c;
+			METHOD a write (Lcom/google/gson/stream/JsonWriter;Lcoy$c;)V
+			METHOD read read (Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;
+			METHOD write write (Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V
+		FIELD a THIS Lcoy$c;
+		FIELD b KILLER Lcoy$c;
+		FIELD c DIRECT_KILLER Lcoy$c;
+		FIELD d KILLER_PLAYER Lcoy$c;
+		FIELD e name Ljava/lang/String;
+		FIELD f param Lcqw;
+		FIELD g $VALUES [Lcoy$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lcqw;)V
+		METHOD a getParam ()Lcqw;
+		METHOD a access$100 (Lcoy$c;)Ljava/lang/String;
+		METHOD a getByName (Ljava/lang/String;)Lcoy$c;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcoy$c;
+		METHOD values values ()[Lcoy$c;
+	FIELD a random Ljava/util/Random;
+	FIELD b luck F
+	FIELD c level Lvk;
+	FIELD d lootTables Lcpd;
+	FIELD e visitedTables Ljava/util/Set;
+	FIELD f params Ljava/util/Map;
+	FIELD g dynamicDrops Ljava/util/Map;
+	METHOD <init> <init> (Ljava/util/Random;FLvk;Lcpd;Ljava/util/Map;Ljava/util/Map;)V
+	METHOD <init> <init> (Ljava/util/Random;FLvk;Lcpd;Ljava/util/Map;Ljava/util/Map;Lcoy$1;)V
+	METHOD a getLootTables ()Lcpd;
+	METHOD a addVisitedTable (Lcpb;)Z
+	METHOD a hasParam (Lcqw;)Z
+	METHOD a addDynamicDrops (Lqv;Ljava/util/function/Consumer;)V
+	METHOD b getRandom ()Ljava/util/Random;
+	METHOD b removeVisitedTable (Lcpb;)V
+	METHOD b getParam (Lcqw;)Ljava/lang/Object;
+	METHOD c getLuck ()F
+	METHOD c getParamOrNull (Lcqw;)Ljava/lang/Object;
+	METHOD d getLevel ()Lvk;

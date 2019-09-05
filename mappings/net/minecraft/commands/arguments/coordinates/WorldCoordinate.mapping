@@ -1,0 +1,14 @@
+CLASS ds net/minecraft/commands/arguments/coordinates/WorldCoordinate
+	FIELD a ERROR_EXPECTED_DOUBLE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_EXPECTED_INT Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c relative Z
+	FIELD d value D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ZD)V
+	METHOD a isRelative ()Z
+	METHOD a get (D)D
+	METHOD a parseInt (Lcom/mojang/brigadier/StringReader;)Lds;
+	METHOD a parseDouble (Lcom/mojang/brigadier/StringReader;Z)Lds;
+	METHOD b isRelative (Lcom/mojang/brigadier/StringReader;)Z
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

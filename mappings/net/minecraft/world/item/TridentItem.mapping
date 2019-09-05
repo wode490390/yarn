@@ -1,0 +1,16 @@
+CLASS bds net/minecraft/world/item/TridentItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a getDefaultAttributeModifiers (Lait;)Lcom/google/common/collect/Multimap;
+	METHOD a lambda$mineBlock$3 (Laix;)V
+	METHOD a lambda$releaseUsing$1 (Laix;Lawg;)V
+	METHOD a hurtEnemy (Lbcj;Laix;Laix;)Z
+	METHOD a releaseUsing (Lbcj;Lbhr;Laix;I)V
+	METHOD a mineBlock (Lbcj;Lbhr;Lbvt;Lew;Laix;)Z
+	METHOD a use (Lbhr;Lawg;Lahi;)Lahk;
+	METHOD a canAttackBlock (Lbvt;Lbhr;Lew;Lawg;)Z
+	METHOD b lambda$hurtEnemy$2 (Laix;)V
+	METHOD b lambda$new$0 (Lbcj;Lbhr;Laix;)F
+	METHOD c getEnchantmentValue ()I
+	METHOD d_ isFoil (Lbcj;)Z
+	METHOD e_ getUseAnimation (Lbcj;)Lbdt;
+	METHOD f_ getUseDuration (Lbcj;)I

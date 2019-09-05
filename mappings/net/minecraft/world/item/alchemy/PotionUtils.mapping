@@ -1,0 +1,16 @@
+CLASS bea net/minecraft/world/item/alchemy/PotionUtils
+	METHOD <init> <init> ()V
+	METHOD a getMobEffects (Lbcj;)Ljava/util/List;
+	METHOD a setPotion (Lbcj;Lbdy;)Lbcj;
+	METHOD a setCustomEffects (Lbcj;Ljava/util/Collection;)Lbcj;
+	METHOD a addPotionTooltip (Lbcj;Ljava/util/List;F)V
+	METHOD a getColor (Lbdy;)I
+	METHOD a getAllEffects (Lbdy;Ljava/util/Collection;)Ljava/util/List;
+	METHOD a getAllEffects (Lid;)Ljava/util/List;
+	METHOD a getCustomEffects (Lid;Ljava/util/List;)V
+	METHOD a getColor (Ljava/util/Collection;)I
+	METHOD b getCustomEffects (Lbcj;)Ljava/util/List;
+	METHOD b getCustomEffects (Lid;)Ljava/util/List;
+	METHOD c getColor (Lbcj;)I
+	METHOD c getPotion (Lid;)Lbdy;
+	METHOD d getPotion (Lbcj;)Lbdy;

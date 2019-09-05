@@ -1,0 +1,10 @@
+CLASS asj net/minecraft/world/entity/animal/horse/ZombieHorse
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a getBreedOffspring (Laim;)Laim;
+	METHOD a mobInteract (Lawg;Lahi;)Z
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cQ getMobType ()Lajb;
+	METHOD cl registerAttributes ()V
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD ee addBehaviourGoals ()V

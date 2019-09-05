@@ -1,0 +1,8 @@
+CLASS anw net/minecraft/world/entity/ai/goal/OpenDoorGoal
+	FIELD a closeDoor Z
+	FIELD b forgetTime I
+	METHOD <init> <init> (Laiy;Z)V
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

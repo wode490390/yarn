@@ -1,0 +1,4 @@
+CLASS ano net/minecraft/world/entity/ai/goal/MoveBackToVillage
+	METHOD <init> <init> (Laje;D)V
+	METHOD a canUse ()Z
+	METHOD g getPosition ()Lcsi;

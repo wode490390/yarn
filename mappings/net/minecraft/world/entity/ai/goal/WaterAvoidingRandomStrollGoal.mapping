@@ -1,0 +1,5 @@
+CLASS aos net/minecraft/world/entity/ai/goal/WaterAvoidingRandomStrollGoal
+	FIELD h probability F
+	METHOD <init> <init> (Laje;D)V
+	METHOD <init> <init> (Laje;DF)V
+	METHOD g getPosition ()Lcsi;

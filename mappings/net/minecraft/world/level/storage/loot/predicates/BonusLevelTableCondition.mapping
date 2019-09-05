@@ -1,0 +1,20 @@
+CLASS crc net/minecraft/world/level/storage/loot/predicates/BonusLevelTableCondition
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrc;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrc;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$0 (Lqv;)Lcom/google/gson/JsonParseException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a enchantment Lbfs;
+	FIELD b values [F
+	METHOD <init> <init> (Lbfs;[F)V
+	METHOD <init> <init> (Lbfs;[FLcrc$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a bonusLevelFlatChance (Lbfs;[F)Lcrk$a;
+	METHOD a test (Lcoy;)Z
+	METHOD a access$000 (Lcrc;)Lbfs;
+	METHOD b lambda$bonusLevelFlatChance$0 (Lbfs;[F)Lcrk;
+	METHOD b access$100 (Lcrc;)[F
+	METHOD test test (Ljava/lang/Object;)Z

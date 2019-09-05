@@ -1,0 +1,21 @@
+CLASS lg net/minecraft/network/protocol/game/ClientboundCustomSoundPacket
+	FIELD a name Lqv;
+	FIELD b source Lyq;
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f volume F
+	FIELD g pitch F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lqv;Lyq;Lcsi;FF)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getName ()Lqv;
+	METHOD b write (Lje;)V
+	METHOD c getSource ()Lyq;
+	METHOD d getX ()D
+	METHOD e getY ()D
+	METHOD f getZ ()D
+	METHOD g getVolume ()F
+	METHOD h getPitch ()F

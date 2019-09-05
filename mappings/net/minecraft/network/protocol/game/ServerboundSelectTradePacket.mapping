@@ -1,0 +1,9 @@
+CLASS oz net/minecraft/network/protocol/game/ServerboundSelectTradePacket
+	FIELD a item I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getItem ()I
+	METHOD b write (Lje;)V

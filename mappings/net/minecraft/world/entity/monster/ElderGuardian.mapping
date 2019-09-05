@@ -1,0 +1,13 @@
+CLASS auh net/minecraft/world/entity/monster/ElderGuardian
+	FIELD b ELDER_SIZE_SCALE F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD L customServerAiStep ()V
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cl registerAttributes ()V
+	METHOD d lambda$customServerAiStep$0 (Lvl;)Z
+	METHOD dV setGhost ()V
+	METHOD dW getFlopSound ()Lyo;
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD l getAttackDuration ()I

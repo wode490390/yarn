@@ -1,0 +1,34 @@
+CLASS avg net/minecraft/world/entity/monster/Spider
+	CLASS a SpiderAttackGoal
+		METHOD <init> <init> (Lavg;)V
+		METHOD a canUse ()Z
+		METHOD a getAttackReachSqr (Laix;)D
+		METHOD b canContinueToUse ()Z
+	CLASS b SpiderEffectsGroupData
+		FIELD a effect Laig;
+		METHOD <init> <init> ()V
+		METHOD a setRandomEffect (Ljava/util/Random;)V
+	CLASS c SpiderTargetGoal
+		METHOD <init> <init> (Lavg;Ljava/lang/Class;)V
+		METHOD a canUse ()Z
+	FIELD b DATA_FLAGS_ID Lqk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD a makeStuckInBlock (Lbvt;Lcsi;)V
+	METHOD a playStepSound (Lew;Lbvt;)V
+	METHOD aP getRideHeight ()D
+	METHOD b getStandingEyeHeight (Lajh;Laip;)F
+	METHOD b createNavigation (Lbhr;)Lapp;
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cQ getMobType ()Lajb;
+	METHOD cl registerAttributes ()V
+	METHOD d canBeAffected (Laii;)Z
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD h tick ()V
+	METHOD l isClimbing ()Z
+	METHOD n registerGoals ()V
+	METHOD r setClimbing (Z)V
+	METHOD u_ defineSynchedData ()V
+	METHOD w_ onLadder ()Z

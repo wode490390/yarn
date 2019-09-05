@@ -1,0 +1,8 @@
+CLASS cay net/minecraft/world/level/levelgen/feature/DecoratorCountRange
+	FIELD a count I
+	FIELD b bottomOffset I
+	FIELD c topOffset I
+	FIELD d maximum I
+	METHOD <init> <init> (IIII)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcay;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

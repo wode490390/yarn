@@ -1,0 +1,10 @@
+CLASS cjx net/minecraft/world/level/levelgen/surfacebuilders/ConfiguredSurfaceBuilder
+	FIELD a surfaceBuilder Lckh;
+	FIELD b config Lckj;
+	METHOD <init> <init> (Lckh;Lckj;)V
+	METHOD <init> <init> (Lckh;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getSurfaceBuilderConfiguration ()Lckj;
+	METHOD a initNoise (J)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcjx;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a apply (Ljava/util/Random;Lbxh;Lbio;IIIDLbvt;Lbvt;IJ)V

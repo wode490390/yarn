@@ -1,0 +1,19 @@
+CLASS crp net/minecraft/world/level/storage/loot/predicates/LootItemRandomChanceWithLootingCondition
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrp;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrp;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a percent F
+	FIELD b lootingMultiplier F
+	METHOD <init> <init> (FF)V
+	METHOD <init> <init> (FFLcrp$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a randomChanceAndLootingBoost (FF)Lcrk$a;
+	METHOD a test (Lcoy;)Z
+	METHOD a access$000 (Lcrp;)F
+	METHOD b lambda$randomChanceAndLootingBoost$0 (FF)Lcrk;
+	METHOD b access$100 (Lcrp;)F
+	METHOD test test (Ljava/lang/Object;)Z

@@ -1,0 +1,25 @@
+CLASS awl net/minecraft/world/entity/projectile/AbstractHurtingProjectile
+	FIELD b owner Laix;
+	FIELD c xPower D
+	FIELD d yPower D
+	FIELD e zPower D
+	FIELD f life I
+	FIELD g flightTime I
+	METHOD <init> <init> (Lais;DDDDDDLbhr;)V
+	METHOD <init> <init> (Lais;Laix;DDDLbhr;)V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD K_ shouldBurn ()Z
+	METHOD N getAddEntityPacket ()Lkc;
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a hurt (Lahx;F)Z
+	METHOD a onHit (Lcsf;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD aE getLightColor ()I
+	METHOD aF getBrightness ()F
+	METHOD aH isPickable ()Z
+	METHOD aS getPickRadius ()F
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD h tick ()V
+	METHOD i getTrailParticle ()Lgf;
+	METHOD k getInertia ()F
+	METHOD u_ defineSynchedData ()V

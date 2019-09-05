@@ -1,0 +1,22 @@
+CLASS aua net/minecraft/world/entity/monster/AbstractIllager
+	CLASS a IllagerArmPose
+		FIELD a CROSSED Laua$a;
+		FIELD b ATTACKING Laua$a;
+		FIELD c SPELLCASTING Laua$a;
+		FIELD d BOW_AND_ARROW Laua$a;
+		FIELD e CROSSBOW_HOLD Laua$a;
+		FIELD f CROSSBOW_CHARGE Laua$a;
+		FIELD g CELEBRATING Laua$a;
+		FIELD h $VALUES [Laua$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Laua$a;
+		METHOD values values ()[Laua$a;
+	CLASS b RaiderOpenDoorGoal
+		FIELD a this$0 Laua;
+		METHOD <init> <init> (Laua;Laxl;)V
+		METHOD a canUse ()Z
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD cQ getMobType ()Lajb;
+	METHOD l getArmPose ()Laua$a;
+	METHOD n registerGoals ()V

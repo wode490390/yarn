@@ -1,0 +1,6 @@
+CLASS csw net/minecraft/world/phys/shapes/IntPointRange
+	FIELD a parts I
+	FIELD b origin I
+	METHOD <init> <init> (II)V
+	METHOD getDouble getDouble (I)D
+	METHOD size size ()I

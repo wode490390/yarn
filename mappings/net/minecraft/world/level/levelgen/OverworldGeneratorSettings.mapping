@@ -1,0 +1,11 @@
+CLASS bze net/minecraft/world/level/levelgen/OverworldGeneratorSettings
+	FIELD t biomeSize I
+	FIELD u riverSize I
+	FIELD v fixedBiome I
+	FIELD w seaLevel I
+	METHOD <init> <init> ()V
+	METHOD u getBedrockFloorPosition ()I
+	METHOD v getBiomeSize ()I
+	METHOD w getRiverSize ()I
+	METHOD x getFixedBiome ()I
+	METHOD y getSeaLevel ()I

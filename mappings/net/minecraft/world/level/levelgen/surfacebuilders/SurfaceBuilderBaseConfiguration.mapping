@@ -1,0 +1,10 @@
+CLASS cki net/minecraft/world/level/levelgen/surfacebuilders/SurfaceBuilderBaseConfiguration
+	FIELD a topMaterial Lbvt;
+	FIELD b underMaterial Lbvt;
+	FIELD c underwaterMaterial Lbvt;
+	METHOD <init> <init> (Lbvt;Lbvt;Lbvt;)V
+	METHOD a getTopMaterial ()Lbvt;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcki;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b getUnderMaterial ()Lbvt;
+	METHOD c getUnderwaterMaterial ()Lbvt;

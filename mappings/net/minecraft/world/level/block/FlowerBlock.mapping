@@ -1,0 +1,10 @@
+CLASS boy net/minecraft/world/level/block/FlowerBlock
+	FIELD a SHAPE Lctc;
+	FIELD b suspiciousStewEffect Laig;
+	FIELD c effectDuration I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laig;ILbmv$c;)V
+	METHOD R_ getOffsetType ()Lbmv$b;
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD d getSuspiciousStewEffect ()Laig;
+	METHOD e getEffectDuration ()I

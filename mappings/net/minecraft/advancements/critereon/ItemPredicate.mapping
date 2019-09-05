@@ -1,0 +1,36 @@
+CLASS bc net/minecraft/advancements/critereon/ItemPredicate
+	CLASS a Builder
+		FIELD a enchantments Ljava/util/List;
+		FIELD b item Lbce;
+		FIELD c tag Lzg;
+		FIELD d count Lbi$d;
+		FIELD e durability Lbi$d;
+		FIELD f potion Lbdy;
+		FIELD g nbt Lbk;
+		METHOD <init> <init> ()V
+		METHOD a item ()Lbc$a;
+		METHOD a hasEnchantment (Laq;)Lbc$a;
+		METHOD a isPotion (Lbdy;)Lbc$a;
+		METHOD a of (Lbhq;)Lbc$a;
+		METHOD a withCount (Lbi$d;)Lbc$a;
+		METHOD a hasNbt (Lid;)Lbc$a;
+		METHOD a of (Lzg;)Lbc$a;
+		METHOD b build ()Lbc;
+		METHOD b hasDurability (Lbi$d;)Lbc$a;
+	FIELD a ANY Lbc;
+	FIELD b tag Lzg;
+	FIELD c item Lbce;
+	FIELD d count Lbi$d;
+	FIELD e durability Lbi$d;
+	FIELD f enchantments [Laq;
+	FIELD g potion Lbdy;
+	FIELD h nbt Lbk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lzg;Lbce;Lbi$d;Lbi$d;[Laq;Lbdy;Lbk;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a matches (Lbcj;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbc;
+	METHOD a lambda$fromJson$1 (Lqv;)Lcom/google/gson/JsonSyntaxException;
+	METHOD b fromJsonArray (Lcom/google/gson/JsonElement;)[Lbc;
+	METHOD b lambda$fromJson$0 (Lqv;)Lcom/google/gson/JsonSyntaxException;

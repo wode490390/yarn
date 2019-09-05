@@ -1,0 +1,4 @@
+CLASS bmx net/minecraft/world/level/block/BonemealableBlock
+	METHOD a isValidBonemealTarget (Lbhb;Lew;Lbvt;Z)Z
+	METHOD a isBonemealSuccess (Lbhr;Ljava/util/Random;Lew;Lbvt;)Z
+	METHOD b performBonemeal (Lbhr;Ljava/util/Random;Lew;Lbvt;)V

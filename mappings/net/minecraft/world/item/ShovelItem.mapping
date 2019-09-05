@@ -1,0 +1,8 @@
+CLASS bdd net/minecraft/world/item/ShovelItem
+	FIELD a FLATTENABLES Ljava/util/Map;
+	FIELD e DIGGABLES Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbdn;FFLbce$a;)V
+	METHOD a useOn (Lbdu;)Lahj;
+	METHOD a lambda$useOn$0 (Lbdu;Lawg;)V
+	METHOD b canDestroySpecial (Lbvt;)Z

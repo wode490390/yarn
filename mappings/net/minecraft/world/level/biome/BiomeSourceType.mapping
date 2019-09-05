@@ -1,0 +1,12 @@
+CLASS bis net/minecraft/world/level/biome/BiomeSourceType
+	FIELD a CHECKERBOARD Lbis;
+	FIELD b FIXED Lbis;
+	FIELD c VANILLA_LAYERED Lbis;
+	FIELD d THE_END Lbis;
+	FIELD e factory Ljava/util/function/Function;
+	FIELD f settingsFactory Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Supplier;)V
+	METHOD a createSettings ()Lbir;
+	METHOD a create (Lbir;)Lbiq;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Function;Ljava/util/function/Supplier;)Lbis;

@@ -1,0 +1,8 @@
+CLASS cau net/minecraft/world/level/levelgen/feature/DecoratedFeatureConfiguration
+	FIELD a feature Lcal;
+	FIELD b decorator Lcgg;
+	METHOD <init> <init> (Lcal;Lcgg;)V
+	METHOD <init> <init> (Lcbn;Lcbo;Lche;Lcax;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcau;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD toString toString ()Ljava/lang/String;

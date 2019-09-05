@@ -1,0 +1,10 @@
+CLASS bwp net/minecraft/world/level/block/state/properties/DoorHingeSide
+	FIELD a LEFT Lbwp;
+	FIELD b RIGHT Lbwp;
+	FIELD c $VALUES [Lbwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD m getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbwp;
+	METHOD values values ()[Lbwp;

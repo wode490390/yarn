@@ -1,0 +1,3 @@
+CLASS bpj net/minecraft/world/level/block/HayBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a fallOn (Lbhr;Lew;Laio;F)V

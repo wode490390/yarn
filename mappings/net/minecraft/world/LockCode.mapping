@@ -1,0 +1,8 @@
+CLASS ahl net/minecraft/world/LockCode
+	FIELD a NO_LOCK Lahl;
+	FIELD b key Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a unlocksWith (Lbcj;)Z
+	METHOD a addToTag (Lid;)V
+	METHOD b fromTag (Lid;)Lahl;

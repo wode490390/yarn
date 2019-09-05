@@ -1,0 +1,26 @@
+CLASS ayn net/minecraft/world/inventory/BeaconMenu
+	CLASS 1 1
+		FIELD a this$0 Layn;
+		METHOD <init> <init> (Layn;I)V
+		METHOD J_ getMaxStackSize ()I
+		METHOD b canPlaceItem (ILbcj;)Z
+	CLASS a PaymentSlot
+		FIELD a this$0 Layn;
+		METHOD <init> <init> (Layn;Lahc;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbcj;)Z
+	FIELD c beacon Lahc;
+	FIELD d paymentSlot Layn$a;
+	FIELD e access Layu;
+	FIELD f beaconData Layt;
+	METHOD <init> <init> (ILahc;)V
+	METHOD <init> <init> (ILahc;Layt;Layu;)V
+	METHOD a setData (II)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;
+	METHOD c updateEffects (II)V
+	METHOD e getLevels ()I
+	METHOD f getPrimaryEffect ()Laig;
+	METHOD g getSecondaryEffect ()Laig;
+	METHOD h hasPayment ()Z

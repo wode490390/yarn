@@ -1,0 +1,25 @@
+CLASS akf net/minecraft/world/entity/ai/behavior/GiveGiftToHero
+	FIELD a gifts Ljava/util/Map;
+	FIELD b timeUntilNextGift I
+	FIELD c giftGivenDuringThisRun Z
+	FIELD d timeSinceStart J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD a getItemToThrow (Lavt;)Ljava/util/List;
+	METHOD a throwGift (Lavt;Laix;)V
+	METHOD a isWithinThrowingDistance (Lavt;Lawg;)Z
+	METHOD a isHero (Lawg;)Z
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V
+	METHOD a calculateTimeUntilNextGift (Lvk;)I
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a checkExtraStartConditions (Lvk;Lavt;)Z
+	METHOD a start (Lvk;Lavt;J)V
+	METHOD b isHeroVisible (Lavt;)Z
+	METHOD b canStillUse (Lvk;Lavt;J)Z
+	METHOD c getNearestTargetableHero (Lavt;)Ljava/util/Optional;
+	METHOD c tick (Lvk;Lavt;J)V
+	METHOD d tick (Lvk;Laix;J)V
+	METHOD d stop (Lvk;Lavt;J)V
+	METHOD f stop (Lvk;Laix;J)V
+	METHOD g canStillUse (Lvk;Laix;J)Z

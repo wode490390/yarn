@@ -1,0 +1,4 @@
+CLASS ceb net/minecraft/world/level/levelgen/feature/SeaPickleFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcaq;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z

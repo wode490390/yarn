@@ -1,0 +1,37 @@
+CLASS arj net/minecraft/world/entity/animal/MushroomCow
+	CLASS a MushroomType
+		FIELD a RED Larj$a;
+		FIELD b BROWN Larj$a;
+		FIELD c type Ljava/lang/String;
+		FIELD d blockState Lbvt;
+		FIELD e $VALUES [Larj$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lbvt;)V
+		METHOD a getBlockState ()Lbvt;
+		METHOD a access$000 (Larj$a;)Ljava/lang/String;
+		METHOD a access$200 (Ljava/lang/String;)Larj$a;
+		METHOD b access$100 (Larj$a;)Lbvt;
+		METHOD b byType (Ljava/lang/String;)Larj$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Larj$a;
+		METHOD values values ()[Larj$a;
+	FIELD bA effect Laig;
+	FIELD bB effectDuration I
+	FIELD bC lastLightningBoltUUID Ljava/util/UUID;
+	FIELD bz DATA_TYPE Lqk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD a lambda$mobInteract$0 (Lahi;Lawg;)V
+	METHOD a getBreedOffspring (Laim;)Laim;
+	METHOD a setMushroomType (Larj$a;)V
+	METHOD a getOffspringType (Larj;)Larj$a;
+	METHOD a thunderHit (Latu;)V
+	METHOD a mobInteract (Lawg;Lahi;)Z
+	METHOD a getWalkTargetValue (Lew;Lbhu;)F
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b getBreedOffspring (Laim;)Lare;
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c getBreedOffspring (Laim;)Larj;
+	METHOD c checkMushroomSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD dV getMushroomType ()Larj$a;
+	METHOD j getEffectFromItemStack (Lbcj;)Lorg/apache/commons/lang3/tuple/Pair;
+	METHOD u_ defineSynchedData ()V

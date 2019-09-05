@@ -1,0 +1,23 @@
+CLASS csh net/minecraft/world/phys/Vec2
+	FIELD a ZERO Lcsh;
+	FIELD b ONE Lcsh;
+	FIELD c UNIT_X Lcsh;
+	FIELD d NEG_UNIT_X Lcsh;
+	FIELD e UNIT_Y Lcsh;
+	FIELD f NEG_UNIT_Y Lcsh;
+	FIELD g MAX Lcsh;
+	FIELD h MIN Lcsh;
+	FIELD i x F
+	FIELD j y F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FF)V
+	METHOD a normalized ()Lcsh;
+	METHOD a scale (F)Lcsh;
+	METHOD a dot (Lcsh;)F
+	METHOD b length ()F
+	METHOD b add (F)Lcsh;
+	METHOD b add (Lcsh;)Lcsh;
+	METHOD c lengthSquared ()F
+	METHOD c equals (Lcsh;)Z
+	METHOD d negated ()Lcsh;
+	METHOD d distanceToSqr (Lcsh;)F

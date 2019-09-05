@@ -1,0 +1,6 @@
+CLASS so net/minecraft/server/commands/KillCommand
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a kill (Lcd;Ljava/util/Collection;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

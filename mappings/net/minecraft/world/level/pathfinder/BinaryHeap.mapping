@@ -1,0 +1,15 @@
+CLASS cnm net/minecraft/world/level/pathfinder/BinaryHeap
+	FIELD a heap [Lcnp;
+	FIELD b size I
+	METHOD <init> <init> ()V
+	METHOD a clear ()V
+	METHOD a upHeap (I)V
+	METHOD a insert (Lcnp;)Lcnp;
+	METHOD a changeCost (Lcnp;F)V
+	METHOD b peek ()Lcnp;
+	METHOD b downHeap (I)V
+	METHOD b remove (Lcnp;)V
+	METHOD c pop ()Lcnp;
+	METHOD d size ()I
+	METHOD e isEmpty ()Z
+	METHOD f getHeap ()[Lcnp;

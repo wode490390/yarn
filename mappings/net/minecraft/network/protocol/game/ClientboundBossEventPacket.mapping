@@ -1,0 +1,42 @@
+CLASS kt net/minecraft/network/protocol/game/ClientboundBossEventPacket
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$network$protocol$game$ClientboundBossEventPacket$Operation [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Operation
+		FIELD a ADD Lkt$a;
+		FIELD b REMOVE Lkt$a;
+		FIELD c UPDATE_PCT Lkt$a;
+		FIELD d UPDATE_NAME Lkt$a;
+		FIELD e UPDATE_STYLE Lkt$a;
+		FIELD f UPDATE_PROPERTIES Lkt$a;
+		FIELD g $VALUES [Lkt$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lkt$a;
+		METHOD values values ()[Lkt$a;
+	FIELD a id Ljava/util/UUID;
+	FIELD b operation Lkt$a;
+	FIELD c name Ljo;
+	FIELD d pct F
+	FIELD e color Lagz$a;
+	FIELD f overlay Lagz$b;
+	FIELD g darkenScreen Z
+	FIELD h playMusic Z
+	FIELD i createWorldFog Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lkt$a;Lagz;)V
+	METHOD a decodeProperties (I)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getId ()Ljava/util/UUID;
+	METHOD b write (Lje;)V
+	METHOD c getOperation ()Lkt$a;
+	METHOD d getName ()Ljo;
+	METHOD e getPercent ()F
+	METHOD f getColor ()Lagz$a;
+	METHOD g getOverlay ()Lagz$b;
+	METHOD h shouldDarkenScreen ()Z
+	METHOD i shouldPlayMusic ()Z
+	METHOD j shouldCreateWorldFog ()Z
+	METHOD k encodeProperties ()I

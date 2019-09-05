@@ -1,0 +1,37 @@
+CLASS bmt net/minecraft/world/level/block/BellBlock
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$state$properties$BellAttachType [I
+		METHOD <clinit> <clinit> ()V
+	FIELD a FACING Lbwo;
+	FIELD b ATTACHMENT Lbwr;
+	FIELD c NORTH_SOUTH_FLOOR_SHAPE Lctc;
+	FIELD d EAST_WEST_FLOOR_SHAPE Lctc;
+	FIELD e BELL_TOP_SHAPE Lctc;
+	FIELD f BELL_BOTTOM_SHAPE Lctc;
+	FIELD g BELL_SHAPE Lctc;
+	FIELD h NORTH_SOUTH_BETWEEN Lctc;
+	FIELD i EAST_WEST_BETWEEN Lctc;
+	FIELD j TO_WEST Lctc;
+	FIELD k TO_EAST Lctc;
+	FIELD w TO_NORTH Lctc;
+	FIELD x TO_SOUTH Lctc;
+	FIELD y CEILING_SHAPE Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a onHit (Lbhr;Lbvt;Lbtw;Lcsd;Lawg;Z)Z
+	METHOD a onProjectileHit (Lbhr;Lbvt;Lcsd;Laio;)V
+	METHOD a ring (Lbhr;Lew;)V
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a canSurvive (Lbvt;Lbhu;Lew;)Z
+	METHOD a isProperHit (Lbvt;Lfb;D)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b getCollisionShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD c getRenderShape (Lbvt;)Lbrd;
+	METHOD i getPistonPushReaction (Lbvt;)Lclq;
+	METHOD j getVoxelShape (Lbvt;)Lctc;
+	METHOD q getConnectedDirection (Lbvt;)Lfb;

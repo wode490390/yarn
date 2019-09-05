@@ -1,0 +1,12 @@
+CLASS bro net/minecraft/world/level/block/SignBlock
+	FIELD a WATERLOGGED Lbwl;
+	FIELD b SHAPE Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD S_ isPossibleToRespawnInThis ()Z
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD d hasCustomBreakingProgress (Lbvt;)Z
+	METHOD g getFluidState (Lbvt;)Lclk;

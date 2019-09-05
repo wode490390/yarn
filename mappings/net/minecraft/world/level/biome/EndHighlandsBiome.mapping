@@ -1,0 +1,3 @@
+CLASS bjk net/minecraft/world/level/biome/EndHighlandsBiome
+	METHOD <init> <init> ()V
+	METHOD a getSkyColor (F)I

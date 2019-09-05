@@ -1,0 +1,9 @@
+CLASS awn net/minecraft/world/entity/projectile/DragonFireball
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDDDDD)V
+	METHOD <init> <init> (Lbhr;Laix;DDD)V
+	METHOD K_ shouldBurn ()Z
+	METHOD a hurt (Lahx;F)Z
+	METHOD a onHit (Lcsf;)V
+	METHOD aH isPickable ()Z
+	METHOD i getTrailParticle ()Lgf;

@@ -1,0 +1,21 @@
+CLASS bam net/minecraft/world/item/BlockItem
+	FIELD a block Lbmv;
+	METHOD <init> <init> (Lbmv;Lbce$a;)V
+	METHOD a getDescriptionId ()Ljava/lang/String;
+	METHOD a place (Lban;)Lahj;
+	METHOD a placeBlock (Lban;Lbvt;)Z
+	METHOD a fillItemCategory (Lbba;Lfk;)V
+	METHOD a appendHoverText (Lbcj;Lbhr;Ljava/util/List;Lbdr;)V
+	METHOD a useOn (Lbdu;)Lahj;
+	METHOD a updateCustomBlockEntityTag (Lbhr;Lawg;Lew;Lbcj;)Z
+	METHOD a getPlaceSound (Lbvt;)Lyo;
+	METHOD a lambda$updateState$0 (Lbvt;Lbww;Ljava/lang/Comparable;)Lbvt;
+	METHOD a updateState (Lbvt;Lbww;Ljava/lang/String;)Lbvt;
+	METHOD a updateCustomBlockEntityTag (Lew;Lbhr;Lawg;Lbcj;Lbvt;)Z
+	METHOD a updateBlockStateFromTag (Lew;Lbhr;Lbcj;Lbvt;)Lbvt;
+	METHOD a registerBlocks (Ljava/util/Map;Lbce;)V
+	METHOD b updatePlacementContext (Lban;)Lban;
+	METHOD b canPlace (Lban;Lbvt;)Z
+	METHOD c getPlacementState (Lban;)Lbvt;
+	METHOD d mustSurvive ()Z
+	METHOD e getBlock ()Lbmv;

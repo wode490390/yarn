@@ -1,0 +1,21 @@
+CLASS cqm net/minecraft/world/level/storage/loot/functions/SetContainerLootTable
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqm;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a name Lqv;
+	FIELD c seed J
+	METHOD <init> <init> ([Lcrk;Lqv;J)V
+	METHOD <init> <init> ([Lcrk;Lqv;JLcqm$1;)V
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a validate (Lcpc;Ljava/util/function/Function;Ljava/util/Set;Lcqx;)V
+	METHOD a access$000 (Lcqm;)Lqv;
+	METHOD a withLootTable (Lqv;)Lcqg$a;
+	METHOD a withLootTable (Lqv;J)Lcqg$a;
+	METHOD a lambda$withLootTable$1 (Lqv;J[Lcrk;)Lcqh;
+	METHOD a lambda$withLootTable$0 (Lqv;[Lcrk;)Lcqh;
+	METHOD b access$100 (Lcqm;)J

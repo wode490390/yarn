@@ -1,0 +1,7 @@
+CLASS bsu net/minecraft/world/level/block/TrappedChestBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a getSignal (Lbvt;Lbhb;Lew;Lfb;)I
+	METHOD b getDirectSignal (Lbvt;Lbhb;Lew;Lfb;)I
+	METHOD d getOpenChestStat ()Lyv;
+	METHOD h isSignalSource (Lbvt;)Z

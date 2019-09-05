@@ -1,0 +1,8 @@
+CLASS bpp net/minecraft/world/level/block/IronBarsBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a skipRendering (Lbvt;Lbvt;Lfb;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a attachsTo (Lbvt;Z)Z
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD c getRenderLayer ()Lbhc;

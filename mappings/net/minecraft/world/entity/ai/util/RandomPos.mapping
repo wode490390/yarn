@@ -1,0 +1,15 @@
+CLASS aqk net/minecraft/world/entity/ai/util/RandomPos
+	METHOD <init> <init> ()V
+	METHOD a getPos (Laje;II)Lcsi;
+	METHOD a getPosTowards (Laje;IILcsi;)Lcsi;
+	METHOD a getPosTowards (Laje;IILcsi;D)Lcsi;
+	METHOD a generateRandomPos (Laje;IILcsi;ZDLjava/util/function/ToDoubleFunction;)Lcsi;
+	METHOD a getPosTowards (Laje;IILfb;D)Lcsi;
+	METHOD a getLandPos (Laje;IILjava/util/function/ToDoubleFunction;)Lcsi;
+	METHOD a moveAboveSolid (Lew;Laje;)Lew;
+	METHOD a getRandomDelta (Ljava/util/Random;IILcsi;D)Lew;
+	METHOD b getLandPos (Laje;II)Lcsi;
+	METHOD b getLandPosAvoid (Laje;IILcsi;)Lcsi;
+	METHOD b isWaterDestination (Lew;Laje;)Z
+	METHOD c getPosAvoid (Laje;IILcsi;)Lcsi;
+	METHOD d generateRandomPos (Laje;IILcsi;)Lcsi;

@@ -1,0 +1,4 @@
+CLASS gq net/minecraft/data/advancements/NetherAdvancements
+	METHOD <init> <init> ()V
+	METHOD a accept (Ljava/util/function/Consumer;)V
+	METHOD accept accept (Ljava/lang/Object;)V

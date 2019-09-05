@@ -1,0 +1,8 @@
+CLASS vz net/minecraft/server/network/LegacyQueryHandler
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b serverConnectionListener Lwb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lwb;)V
+	METHOD a sendFlushAndClose (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;)V
+	METHOD a createReply (Ljava/lang/String;)Lio/netty/buffer/ByteBuf;
+	METHOD channelRead channelRead (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V

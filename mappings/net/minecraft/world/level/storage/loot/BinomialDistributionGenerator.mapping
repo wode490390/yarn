@@ -1,0 +1,15 @@
+CLASS cou net/minecraft/world/level/storage/loot/BinomialDistributionGenerator
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcou;
+		METHOD a serialize (Lcou;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+	FIELD d n I
+	FIELD e p F
+	METHOD <init> <init> (IF)V
+	METHOD a getType ()Lqv;
+	METHOD a binomial (IF)Lcou;
+	METHOD a access$000 (Lcou;)I
+	METHOD a getInt (Ljava/util/Random;)I
+	METHOD b access$100 (Lcou;)F

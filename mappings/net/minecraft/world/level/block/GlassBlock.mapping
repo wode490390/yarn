@@ -1,0 +1,3 @@
+CLASS bpc net/minecraft/world/level/block/GlassBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD c getRenderLayer ()Lbhc;

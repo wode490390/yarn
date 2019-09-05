@@ -1,0 +1,16 @@
+CLASS ge net/minecraft/core/particles/ItemParticleOption
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lgg;Lcom/mojang/brigadier/StringReader;)Lge;
+		METHOD a fromNetwork (Lgg;Lje;)Lge;
+		METHOD b fromCommand (Lgg;Lcom/mojang/brigadier/StringReader;)Lgf;
+		METHOD b fromNetwork (Lgg;Lje;)Lgf;
+	FIELD a DESERIALIZER Lgf$a;
+	FIELD b type Lgg;
+	FIELD c itemStack Lbcj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgg;Lbcj;)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a writeToNetwork (Lje;)V
+	METHOD b getType ()Lgg;
+	METHOD c getItem ()Lbcj;

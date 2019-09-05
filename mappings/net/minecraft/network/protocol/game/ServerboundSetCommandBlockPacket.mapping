@@ -1,0 +1,19 @@
+CLASS pc net/minecraft/network/protocol/game/ServerboundSetCommandBlockPacket
+	FIELD a pos Lew;
+	FIELD b command Ljava/lang/String;
+	FIELD c trackOutput Z
+	FIELD d conditional Z
+	FIELD e automatic Z
+	FIELD f mode Lbub$a;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lew;Ljava/lang/String;Lbub$a;ZZZ)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getPos ()Lew;
+	METHOD b write (Lje;)V
+	METHOD c getCommand ()Ljava/lang/String;
+	METHOD d isTrackOutput ()Z
+	METHOD e isConditional ()Z
+	METHOD f isAutomatic ()Z
+	METHOD g getMode ()Lbub$a;

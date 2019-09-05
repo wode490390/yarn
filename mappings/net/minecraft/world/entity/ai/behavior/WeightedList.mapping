@@ -1,0 +1,22 @@
+CLASS ama net/minecraft/world/entity/ai/behavior/WeightedList
+	CLASS 1 1
+	CLASS a WeightedEntry
+		FIELD a this$0 Lama;
+		FIELD b data Ljava/lang/Object;
+		FIELD c weight I
+		FIELD d randWeight D
+		METHOD <init> <init> (Lama;Ljava/lang/Object;I)V
+		METHOD <init> <init> (Lama;Ljava/lang/Object;ILama$1;)V
+		METHOD a getRandWeight ()D
+		METHOD a setRandom (F)V
+		METHOD b getData ()Ljava/lang/Object;
+		METHOD toString toString ()Ljava/lang/String;
+	FIELD a entries Ljava/util/List;
+	FIELD b random Ljava/util/Random;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Random;)V
+	METHOD a shuffle ()V
+	METHOD a lambda$shuffle$0 (Lama$a;)V
+	METHOD a add (Ljava/lang/Object;I)V
+	METHOD b stream ()Ljava/util/stream/Stream;
+	METHOD toString toString ()Ljava/lang/String;

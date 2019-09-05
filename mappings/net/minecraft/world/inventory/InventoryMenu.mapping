@@ -1,0 +1,34 @@
+CLASS azh net/minecraft/world/inventory/InventoryMenu
+	CLASS 1 1
+		FIELD a val$slot Lait;
+		FIELD b this$0 Lazh;
+		METHOD <init> <init> (Lazh;Lahc;IIILait;)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPickup (Lawg;)Z
+		METHOD a mayPlace (Lbcj;)Z
+		METHOD c getNoItemIcon ()Ljava/lang/String;
+	CLASS 2 2
+		FIELD a this$0 Lazh;
+		METHOD <init> <init> (Lazh;Lahc;III)V
+		METHOD c getNoItemIcon ()Ljava/lang/String;
+	FIELD c active Z
+	FIELD d TEXTURE_EMPTY_SLOTS [Ljava/lang/String;
+	FIELD e SLOT_IDS [Lait;
+	FIELD f craftSlots Layw;
+	FIELD g resultSlots Lazs;
+	FIELD h owner Lawg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lawf;ZLawg;)V
+	METHOD a slotsChanged (Lahc;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a fillCraftSlotsStackedContents (Lawi;)V
+	METHOD a canTakeItemForPickAll (Lbcj;Lazx;)Z
+	METHOD a recipeMatches (Lber;)Z
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;
+	METHOD e clearCraftingContent ()V
+	METHOD f getResultSlotIndex ()I
+	METHOD g getGridWidth ()I
+	METHOD h getGridHeight ()I
+	METHOD i getSize ()I
+	METHOD j access$000 ()[Ljava/lang/String;

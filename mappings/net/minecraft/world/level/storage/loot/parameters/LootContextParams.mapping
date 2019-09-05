@@ -1,0 +1,14 @@
+CLASS cqz net/minecraft/world/level/storage/loot/parameters/LootContextParams
+	FIELD a THIS_ENTITY Lcqw;
+	FIELD b LAST_DAMAGE_PLAYER Lcqw;
+	FIELD c DAMAGE_SOURCE Lcqw;
+	FIELD d KILLER_ENTITY Lcqw;
+	FIELD e DIRECT_KILLER_ENTITY Lcqw;
+	FIELD f BLOCK_POS Lcqw;
+	FIELD g BLOCK_STATE Lcqw;
+	FIELD h BLOCK_ENTITY Lcqw;
+	FIELD i TOOL Lcqw;
+	FIELD j EXPLOSION_RADIUS Lcqw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a create (Ljava/lang/String;)Lcqw;

@@ -1,0 +1,15 @@
+CLASS amu net/minecraft/world/entity/ai/goal/DoorInteractGoal
+	FIELD a passed Z
+	FIELD b doorOpenDirX F
+	FIELD c doorOpenDirZ F
+	FIELD d mob Laiy;
+	FIELD e doorPos Lew;
+	FIELD f hasDoor Z
+	METHOD <init> <init> (Laiy;)V
+	METHOD a canUse ()Z
+	METHOD a isDoor (Lbhr;Lew;)Z
+	METHOD a setOpen (Z)V
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD e tick ()V
+	METHOD g isOpen ()Z

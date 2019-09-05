@@ -1,0 +1,12 @@
+CLASS cpc net/minecraft/world/level/storage/loot/LootTableProblemCollector
+	FIELD a problems Lcom/google/common/collect/Multimap;
+	FIELD b context Ljava/util/function/Supplier;
+	FIELD c contextCache Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcom/google/common/collect/Multimap;Ljava/util/function/Supplier;)V
+	METHOD a getProblems ()Lcom/google/common/collect/Multimap;
+	METHOD a reportProblem (Ljava/lang/String;)V
+	METHOD b getContext ()Ljava/lang/String;
+	METHOD b forChild (Ljava/lang/String;)Lcpc;
+	METHOD c lambda$new$0 ()Ljava/lang/String;
+	METHOD c lambda$forChild$1 (Ljava/lang/String;)Ljava/lang/String;

@@ -1,0 +1,7 @@
+CLASS bgv net/minecraft/world/item/trading/MerchantOffers
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lid;)V
+	METHOD a createTag ()Lid;
+	METHOD a getRecipeFor (Lbcj;Lbcj;I)Lbgu;
+	METHOD a writeToStream (Lje;)V
+	METHOD b createFromStream (Lje;)Lbgv;

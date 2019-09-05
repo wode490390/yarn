@@ -1,0 +1,2 @@
+CLASS bmo net/minecraft/world/level/block/BeaconBeamBlock
+	METHOD a getColor ()Lbbg;

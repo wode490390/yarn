@@ -1,0 +1,14 @@
+CLASS ciy net/minecraft/world/level/levelgen/structure/TemplateStructurePiece
+	FIELD a template Lcjt;
+	FIELD b placeSettings Lcjq;
+	FIELD c templatePosition Lew;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcev;I)V
+	METHOD <init> <init> (Lcev;Lid;)V
+	METHOD X_ getRotation ()Lbrg;
+	METHOD a move (III)V
+	METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+	METHOD a setup (Lcjt;Lew;Lcjq;)V
+	METHOD a addAdditionalSaveData (Lid;)V
+	METHOD a handleDataMarker (Ljava/lang/String;Lew;Lbhs;Ljava/util/Random;Lcic;)V

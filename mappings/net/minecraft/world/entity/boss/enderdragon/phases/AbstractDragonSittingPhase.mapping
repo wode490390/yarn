@@ -1,0 +1,4 @@
+CLASS ass net/minecraft/world/entity/boss/enderdragon/phases/AbstractDragonSittingPhase
+	METHOD <init> <init> (Lasp;)V
+	METHOD a isSitting ()Z
+	METHOD a onHurt (Lahx;F)F

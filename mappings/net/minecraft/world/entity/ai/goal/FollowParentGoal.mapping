@@ -1,0 +1,11 @@
+CLASS and net/minecraft/world/entity/ai/goal/FollowParentGoal
+	FIELD a animal Lara;
+	FIELD b parent Lara;
+	FIELD c speedModifier D
+	FIELD d timeToRecalcPath I
+	METHOD <init> <init> (Lara;D)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

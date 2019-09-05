@@ -1,0 +1,9 @@
+CLASS bau net/minecraft/world/item/BucketItem
+	FIELD a content Lclj;
+	METHOD <init> <init> (Lclj;Lbce$a;)V
+	METHOD a emptyBucket (Lawg;Lbhr;Lew;Lcsd;)Z
+	METHOD a playEmptySound (Lawg;Lbhs;Lew;)V
+	METHOD a getEmptySuccessItem (Lbcj;Lawg;)Lbcj;
+	METHOD a createResultItem (Lbcj;Lawg;Lbce;)Lbcj;
+	METHOD a use (Lbhr;Lawg;Lahi;)Lahk;
+	METHOD a checkExtraContent (Lbhr;Lbcj;Lew;)V

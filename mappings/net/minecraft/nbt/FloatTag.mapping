@@ -1,4 +1,20 @@
-CLASS net/minecraft/class_2494 net/minecraft/nbt/FloatTag
-	FIELD field_11523 value F
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
+CLASS ih net/minecraft/nbt/FloatTag
+	FIELD f data F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (F)V
+	METHOD a getId ()B
+	METHOD a load (Ljava/io/DataInput;ILin;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Ljo;
+	METHOD b copy ()Liu;
+	METHOD c copy ()Lih;
+	METHOD d getAsLong ()J
+	METHOD e getAsInt ()I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getAsShort ()S
+	METHOD g getAsByte ()B
+	METHOD h getAsDouble ()D
+	METHOD hashCode hashCode ()I
+	METHOD i getAsFloat ()F
+	METHOD j getAsNumber ()Ljava/lang/Number;
+	METHOD toString toString ()Ljava/lang/String;

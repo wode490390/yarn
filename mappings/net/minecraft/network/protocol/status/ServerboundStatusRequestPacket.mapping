@@ -1,0 +1,6 @@
+CLASS qi net/minecraft/network/protocol/status/ServerboundStatusRequestPacket
+	METHOD <init> <init> ()V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lqg;)V
+	METHOD b write (Lje;)V

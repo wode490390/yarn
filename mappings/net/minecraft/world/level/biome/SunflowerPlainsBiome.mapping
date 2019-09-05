@@ -1,0 +1,2 @@
+CLASS ble net/minecraft/world/level/biome/SunflowerPlainsBiome
+	METHOD <init> <init> ()V

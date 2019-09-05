@@ -1,0 +1,13 @@
+CLASS ajh net/minecraft/world/entity/Pose
+	FIELD a STANDING Lajh;
+	FIELD b FALL_FLYING Lajh;
+	FIELD c SLEEPING Lajh;
+	FIELD d SWIMMING Lajh;
+	FIELD e SPIN_ATTACK Lajh;
+	FIELD f SNEAKING Lajh;
+	FIELD g DYING Lajh;
+	FIELD h $VALUES [Lajh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lajh;
+	METHOD values values ()[Lajh;

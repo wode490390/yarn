@@ -1,0 +1,9 @@
+CLASS ani net/minecraft/world/entity/ai/goal/LandOnOwnersShoulderGoal
+	FIELD a entity Lart;
+	FIELD b owner Lvl;
+	FIELD c isSittingOnShoulder Z
+	METHOD <init> <init> (Lart;)V
+	METHOD C_ isInterruptable ()Z
+	METHOD a canUse ()Z
+	METHOD c start ()V
+	METHOD e tick ()V

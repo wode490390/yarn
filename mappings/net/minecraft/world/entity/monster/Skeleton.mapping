@@ -1,0 +1,7 @@
+CLASS avd net/minecraft/world/entity/monster/Skeleton
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a dropCustomDeathLoot (Lahx;IZ)V
+	METHOD cH getDeathSound ()Lyo;
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD l getStepSound ()Lyo;

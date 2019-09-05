@@ -1,0 +1,13 @@
+CLASS aox net/minecraft/world/entity/ai/goal/target/HurtByTargetGoal
+	FIELD a HURT_BY_TARGETING Laqi;
+	FIELD b alertSameType Z
+	FIELD c timestamp I
+	FIELD d toIgnoreDamage [Ljava/lang/Class;
+	FIELD i toIgnoreAlert [Ljava/lang/Class;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laje;[Ljava/lang/Class;)V
+	METHOD a canUse ()Z
+	METHOD a alertOther (Laiy;Laix;)V
+	METHOD a setAlertOthers ([Ljava/lang/Class;)Laox;
+	METHOD c start ()V
+	METHOD g alertOthers ()V

@@ -1,0 +1,7 @@
+CLASS sl net/minecraft/server/commands/GiveCommand
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a giveItem (Lcd;Ldx;Ljava/util/Collection;I)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

@@ -1,0 +1,3 @@
+CLASS ccf net/minecraft/world/level/levelgen/feature/IceBlockPileFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getBlockState (Lbhs;)Lbvt;

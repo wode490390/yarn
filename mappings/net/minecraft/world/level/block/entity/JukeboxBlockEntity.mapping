@@ -1,0 +1,8 @@
+CLASS bun net/minecraft/world/level/block/entity/JukeboxBlockEntity
+	FIELD a record Lbcj;
+	METHOD <init> <init> ()V
+	METHOD L_ clearContent ()V
+	METHOD a setRecord (Lbcj;)V
+	METHOD a load (Lid;)V
+	METHOD b save (Lid;)Lid;
+	METHOD d getRecord ()Lbcj;

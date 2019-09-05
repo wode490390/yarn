@@ -1,0 +1,6 @@
+CLASS bbw net/minecraft/world/item/FireworkStarItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a getColorName (I)Ljo;
+	METHOD a appendHoverText (Lbcj;Lbhr;Ljava/util/List;Lbdr;)V
+	METHOD a appendHoverText (Lid;Ljava/util/List;)V
+	METHOD a appendColors (Ljo;[I)Ljo;

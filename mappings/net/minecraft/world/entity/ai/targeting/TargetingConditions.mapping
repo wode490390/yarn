@@ -1,0 +1,19 @@
+CLASS aqi net/minecraft/world/entity/ai/targeting/TargetingConditions
+	FIELD a DEFAULT Laqi;
+	FIELD b range D
+	FIELD c allowInvulnerable Z
+	FIELD d allowSameTeam Z
+	FIELD e allowUnseeable Z
+	FIELD f allowNonAttackable Z
+	FIELD g testInvisible Z
+	FIELD h selector Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a allowInvulnerable ()Laqi;
+	METHOD a range (D)Laqi;
+	METHOD a test (Laix;Laix;)Z
+	METHOD a selector (Ljava/util/function/Predicate;)Laqi;
+	METHOD b allowSameTeam ()Laqi;
+	METHOD c allowUnseeable ()Laqi;
+	METHOD d allowNonAttackable ()Laqi;
+	METHOD e ignoreInvisibilityTesting ()Laqi;

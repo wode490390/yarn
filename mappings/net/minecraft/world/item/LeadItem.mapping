@@ -1,0 +1,4 @@
+CLASS bcm net/minecraft/world/item/LeadItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a bindPlayerMobs (Lawg;Lbhr;Lew;)Z
+	METHOD a useOn (Lbdu;)Lahj;

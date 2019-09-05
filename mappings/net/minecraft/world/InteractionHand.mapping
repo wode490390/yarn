@@ -1,0 +1,8 @@
+CLASS ahi net/minecraft/world/InteractionHand
+	FIELD a MAIN_HAND Lahi;
+	FIELD b OFF_HAND Lahi;
+	FIELD c $VALUES [Lahi;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lahi;
+	METHOD values values ()[Lahi;

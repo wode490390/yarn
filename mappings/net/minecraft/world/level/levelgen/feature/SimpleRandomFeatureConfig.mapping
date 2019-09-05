@@ -1,0 +1,9 @@
+CLASS cei net/minecraft/world/level/levelgen/feature/SimpleRandomFeatureConfig
+	FIELD a features Ljava/util/List;
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD <init> <init> ([Lcbn;[Lcbo;)V
+	METHOD a getConfiguredFeature (Lcbn;Lcbo;)Lcal;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcei;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$1 (Lcom/mojang/datafixers/types/DynamicOps;Lcal;)Ljava/lang/Object;
+	METHOD a lambda$new$0 ([Lcbn;[Lcbo;I)Lcal;

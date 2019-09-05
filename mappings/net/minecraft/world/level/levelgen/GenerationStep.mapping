@@ -1,0 +1,34 @@
+CLASS byz net/minecraft/world/level/levelgen/GenerationStep
+	CLASS a Carving
+		FIELD a AIR Lbyz$a;
+		FIELD b LIQUID Lbyz$a;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		FIELD e $VALUES [Lbyz$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a lambda$static$0 (Lbyz$a;)Lbyz$a;
+		METHOD a byName (Ljava/lang/String;)Lbyz$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbyz$a;
+		METHOD values values ()[Lbyz$a;
+	CLASS b Decoration
+		FIELD a RAW_GENERATION Lbyz$b;
+		FIELD b LOCAL_MODIFICATIONS Lbyz$b;
+		FIELD c UNDERGROUND_STRUCTURES Lbyz$b;
+		FIELD d SURFACE_STRUCTURES Lbyz$b;
+		FIELD e UNDERGROUND_ORES Lbyz$b;
+		FIELD f UNDERGROUND_DECORATION Lbyz$b;
+		FIELD g VEGETAL_DECORATION Lbyz$b;
+		FIELD h TOP_LAYER_MODIFICATION Lbyz$b;
+		FIELD i BY_NAME Ljava/util/Map;
+		FIELD j name Ljava/lang/String;
+		FIELD k $VALUES [Lbyz$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a lambda$static$0 (Lbyz$b;)Lbyz$b;
+		METHOD a byName (Ljava/lang/String;)Lbyz$b;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbyz$b;
+		METHOD values values ()[Lbyz$b;
+	METHOD <init> <init> ()V

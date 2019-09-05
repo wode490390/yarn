@@ -1,0 +1,24 @@
+CLASS asg net/minecraft/world/entity/animal/horse/SkeletonHorse
+	FIELD bI skeletonTrapGoal Lash;
+	FIELD bJ isTrap Z
+	FIELD bK trapTime I
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a getBreedOffspring (Laim;)Laim;
+	METHOD a mobInteract (Lawg;Lahi;)Z
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD aP getRideHeight ()D
+	METHOD ai getSwimSound ()Lyo;
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD bf rideableUnderWater ()Z
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cQ getMobType ()Lajb;
+	METHOD cl registerAttributes ()V
+	METHOD d playSwimSound (F)V
+	METHOD dV isTrap ()Z
+	METHOD da getWaterSlowDown ()F
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD ee addBehaviourGoals ()V
+	METHOD ev playJumpSound ()V
+	METHOD k aiStep ()V
+	METHOD r setTrap (Z)V

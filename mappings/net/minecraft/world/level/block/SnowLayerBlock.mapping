@@ -1,0 +1,18 @@
+CLASS brv net/minecraft/world/level/block/SnowLayerBlock
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$pathfinder$PathComputationType [I
+		METHOD <clinit> <clinit> ()V
+	FIELD a LAYERS Lbwt;
+	FIELD b SHAPE_BY_LAYER [Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a canBeReplaced (Lbvt;Lban;)Z
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a canSurvive (Lbvt;Lbhu;Lew;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b getCollisionShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD n useShapeForLightOcclusion (Lbvt;)Z

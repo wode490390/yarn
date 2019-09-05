@@ -1,0 +1,7 @@
+CLASS um net/minecraft/server/dedicated/DedicatedServerSettings
+	FIELD a source Ljava/nio/file/Path;
+	FIELD b properties Lul;
+	METHOD <init> <init> (Ljava/nio/file/Path;)V
+	METHOD a getProperties ()Lul;
+	METHOD a update (Ljava/util/function/UnaryOperator;)Lum;
+	METHOD b forceSave ()V

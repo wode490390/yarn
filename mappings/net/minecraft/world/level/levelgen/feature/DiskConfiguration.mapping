@@ -1,0 +1,9 @@
+CLASS cbe net/minecraft/world/level/levelgen/feature/DiskConfiguration
+	FIELD a state Lbvt;
+	FIELD b radius I
+	FIELD c ySize I
+	FIELD d targets Ljava/util/List;
+	METHOD <init> <init> (Lbvt;IILjava/util/List;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcbe;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lbvt;)Ljava/lang/Object;

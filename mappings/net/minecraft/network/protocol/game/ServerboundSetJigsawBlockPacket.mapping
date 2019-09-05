@@ -1,0 +1,15 @@
+CLASS pf net/minecraft/network/protocol/game/ServerboundSetJigsawBlockPacket
+	FIELD a pos Lew;
+	FIELD b attachementType Lqv;
+	FIELD c targetPool Lqv;
+	FIELD d finalState Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lew;Lqv;Lqv;Ljava/lang/String;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getPos ()Lew;
+	METHOD b write (Lje;)V
+	METHOD c getTargetPool ()Lqv;
+	METHOD d getAttachementType ()Lqv;
+	METHOD e getFinalState ()Ljava/lang/String;

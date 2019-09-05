@@ -1,0 +1,22 @@
+CLASS aja net/minecraft/world/entity/MobSpawnType
+	FIELD a NATURAL Laja;
+	FIELD b CHUNK_GENERATION Laja;
+	FIELD c SPAWNER Laja;
+	FIELD d STRUCTURE Laja;
+	FIELD e BREEDING Laja;
+	FIELD f MOB_SUMMONED Laja;
+	FIELD g JOCKEY Laja;
+	FIELD h EVENT Laja;
+	FIELD i CONVERSION Laja;
+	FIELD j REINFORCEMENT Laja;
+	FIELD k TRIGGERED Laja;
+	FIELD l BUCKET Laja;
+	FIELD m SPAWN_EGG Laja;
+	FIELD n COMMAND Laja;
+	FIELD o DISPENSER Laja;
+	FIELD p PATROL Laja;
+	FIELD q $VALUES [Laja;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Laja;
+	METHOD values values ()[Laja;

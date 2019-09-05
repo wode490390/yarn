@@ -1,0 +1,6 @@
+CLASS bso net/minecraft/world/level/block/TallFlowerBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a isValidBonemealTarget (Lbhb;Lew;Lbvt;Z)Z
+	METHOD a isBonemealSuccess (Lbhr;Ljava/util/Random;Lew;Lbvt;)Z
+	METHOD a canBeReplaced (Lbvt;Lban;)Z
+	METHOD b performBonemeal (Lbhr;Ljava/util/Random;Lew;Lbvt;)V

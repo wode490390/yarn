@@ -1,0 +1,11 @@
+CLASS anz net/minecraft/world/entity/ai/goal/PlayGoal
+	FIELD a mob Lavt;
+	FIELD b followFriend Laix;
+	FIELD c speedModifier D
+	FIELD d playTime I
+	METHOD <init> <init> (Lavt;D)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

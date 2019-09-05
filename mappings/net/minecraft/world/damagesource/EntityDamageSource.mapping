@@ -1,0 +1,10 @@
+CLASS ahy net/minecraft/world/damagesource/EntityDamageSource
+	FIELD x entity Laio;
+	FIELD y isThorns Z
+	METHOD <init> <init> (Ljava/lang/String;Laio;)V
+	METHOD c getLocalizedDeathMessage (Laix;)Ljo;
+	METHOD k getEntity ()Laio;
+	METHOD s scalesWithDifficulty ()Z
+	METHOD w getSourcePosition ()Lcsi;
+	METHOD x setThorns ()Lahy;
+	METHOD y isThorns ()Z

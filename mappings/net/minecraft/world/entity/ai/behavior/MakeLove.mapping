@@ -1,0 +1,21 @@
+CLASS akr net/minecraft/world/entity/ai/behavior/MakeLove
+	FIELD a birthTimestamp J
+	METHOD <init> <init> ()V
+	METHOD a getBreedingTarget (Lavt;)Lavt;
+	METHOD a breed (Lavt;Lavt;)Ljava/util/Optional;
+	METHOD a canReach (Lavt;Lew;)Z
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a checkExtraStartConditions (Lvk;Lavt;)Z
+	METHOD a canStillUse (Lvk;Lavt;J)Z
+	METHOD a tryToGiveBirth (Lvk;Lavt;Lavt;)V
+	METHOD a giveBedToChild (Lvk;Lavt;Lew;)V
+	METHOD b isBreedingPossible (Lavt;)Z
+	METHOD b lambda$takeVacantBed$0 (Lavt;Lew;)Z
+	METHOD b takeVacantBed (Lvk;Lavt;)Ljava/util/Optional;
+	METHOD b start (Lvk;Lavt;J)V
+	METHOD c tick (Lvk;Lavt;J)V
+	METHOD d tick (Lvk;Laix;J)V
+	METHOD d stop (Lvk;Lavt;J)V
+	METHOD f stop (Lvk;Laix;J)V
+	METHOD g canStillUse (Lvk;Laix;J)Z

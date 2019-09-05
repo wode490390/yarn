@@ -1,0 +1,55 @@
+CLASS cif net/minecraft/world/level/levelgen/structure/EndCityPieces
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a init ()V
+		METHOD a generate (Lcjp;ILcif$a;Lew;Ljava/util/List;Ljava/util/Random;)Z
+	CLASS 2 2
+		METHOD <init> <init> ()V
+		METHOD a init ()V
+		METHOD a generate (Lcjp;ILcif$a;Lew;Ljava/util/List;Ljava/util/Random;)Z
+	CLASS 3 3
+		FIELD a shipCreated Z
+		METHOD <init> <init> ()V
+		METHOD a init ()V
+		METHOD a generate (Lcjp;ILcif$a;Lew;Ljava/util/List;Ljava/util/Random;)Z
+	CLASS 4 4
+		METHOD <init> <init> ()V
+		METHOD a init ()V
+		METHOD a generate (Lcjp;ILcif$a;Lew;Ljava/util/List;Ljava/util/Random;)Z
+	CLASS a EndCityPiece
+		FIELD d templateName Ljava/lang/String;
+		FIELD e rotation Lbrg;
+		FIELD f overwrite Z
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD <init> <init> (Lcjp;Ljava/lang/String;Lew;Lbrg;Z)V
+		METHOD a loadTemplate (Lcjp;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a handleDataMarker (Ljava/lang/String;Lew;Lbhs;Ljava/util/Random;Lcic;)V
+	CLASS b SectionGenerator
+		METHOD a init ()V
+		METHOD a generate (Lcjp;ILcif$a;Lew;Ljava/util/List;Ljava/util/Random;)Z
+	FIELD a OVERWRITE Lcjq;
+	FIELD b INSERT Lcjq;
+	FIELD c HOUSE_TOWER_GENERATOR Lcif$b;
+	FIELD d TOWER_BRIDGES Ljava/util/List;
+	FIELD e TOWER_GENERATOR Lcif$b;
+	FIELD f TOWER_BRIDGE_GENERATOR Lcif$b;
+	FIELD g FAT_TOWER_BRIDGES Ljava/util/List;
+	FIELD h FAT_TOWER_GENERATOR Lcif$b;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Lcjq;
+	METHOD a access$200 (Lcjp;Lcif$a;Lew;Ljava/lang/String;Lbrg;Z)Lcif$a;
+	METHOD a access$500 (Lcjp;Lcif$b;ILcif$a;Lew;Ljava/util/List;Ljava/util/Random;)Z
+	METHOD a startHouseTower (Lcjp;Lew;Lbrg;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a access$300 (Ljava/util/List;Lcif$a;)Lcif$a;
+	METHOD b access$100 ()Lcjq;
+	METHOD b addPiece (Lcjp;Lcif$a;Lew;Ljava/lang/String;Lbrg;Z)Lcif$a;
+	METHOD b recursiveChildren (Lcjp;Lcif$b;ILcif$a;Lew;Ljava/util/List;Ljava/util/Random;)Z
+	METHOD b addHelper (Ljava/util/List;Lcif$a;)Lcif$a;
+	METHOD c access$400 ()Lcif$b;
+	METHOD d access$600 ()Ljava/util/List;
+	METHOD e access$700 ()Lcif$b;
+	METHOD f access$800 ()Lcif$b;
+	METHOD g access$900 ()Lcif$b;
+	METHOD h access$1000 ()Ljava/util/List;

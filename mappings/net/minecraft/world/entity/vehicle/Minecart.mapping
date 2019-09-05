@@ -1,0 +1,6 @@
+CLASS axx net/minecraft/world/entity/vehicle/Minecart
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDD)V
+	METHOD a activateMinecart (IIIZ)V
+	METHOD b interact (Lawg;Lahi;)Z
+	METHOD o getMinecartType ()Laxu$a;

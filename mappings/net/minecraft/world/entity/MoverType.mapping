@@ -1,0 +1,11 @@
+CLASS ajc net/minecraft/world/entity/MoverType
+	FIELD a SELF Lajc;
+	FIELD b PLAYER Lajc;
+	FIELD c PISTON Lajc;
+	FIELD d SHULKER_BOX Lajc;
+	FIELD e SHULKER Lajc;
+	FIELD f $VALUES [Lajc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lajc;
+	METHOD values values ()[Lajc;

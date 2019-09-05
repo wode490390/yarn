@@ -1,0 +1,11 @@
+CLASS zw net/minecraft/util/LimitedCapacityList
+	FIELD a items [Ljava/lang/Object;
+	FIELD b clazz Ljava/lang/Class;
+	FIELD c locks Ljava/util/concurrent/locks/ReadWriteLock;
+	FIELD d size I
+	FIELD e head I
+	METHOD <init> <init> (Ljava/lang/Class;I)V
+	METHOD a getSize ()I
+	METHOD a add (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD b getMaxSize ()I
+	METHOD c getItems ()[Ljava/lang/Object;

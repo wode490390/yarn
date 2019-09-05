@@ -1,0 +1,6 @@
+CLASS bbk net/minecraft/world/item/DyeableLeatherItem
+	METHOD a hasCustomColor (Lbcj;)Z
+	METHOD a setColor (Lbcj;I)V
+	METHOD a dyeArmor (Lbcj;Ljava/util/List;)Lbcj;
+	METHOD b getColor (Lbcj;)I
+	METHOD c clearColor (Lbcj;)V

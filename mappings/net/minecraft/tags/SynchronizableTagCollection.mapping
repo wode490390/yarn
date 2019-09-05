@@ -1,0 +1,5 @@
+CLASS zf net/minecraft/tags/SynchronizableTagCollection
+	FIELD a registry Lfn;
+	METHOD <init> <init> (Lfn;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a serializeToNetwork (Lje;)V
+	METHOD b loadFromNetwork (Lje;)V

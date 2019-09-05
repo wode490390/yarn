@@ -1,0 +1,8 @@
+CLASS adu net/minecraft/util/datafix/fixes/RecipesFix
+	FIELD a RECIPES Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$makeRule$2 (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;
+	METHOD a lambda$null$1 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$0 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

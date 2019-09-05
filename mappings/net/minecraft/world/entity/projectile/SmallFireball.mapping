@@ -1,0 +1,7 @@
+CLASS awy net/minecraft/world/entity/projectile/SmallFireball
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDDDDD)V
+	METHOD <init> <init> (Lbhr;Laix;DDD)V
+	METHOD a hurt (Lahx;F)Z
+	METHOD a onHit (Lcsf;)V
+	METHOD aH isPickable ()Z

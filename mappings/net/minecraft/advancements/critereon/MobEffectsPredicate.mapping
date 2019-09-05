@@ -1,0 +1,24 @@
+CLASS bj net/minecraft/advancements/critereon/MobEffectsPredicate
+	CLASS a MobEffectInstancePredicate
+		FIELD a amplifier Lbi$d;
+		FIELD b duration Lbi$d;
+		FIELD c ambient Ljava/lang/Boolean;
+		FIELD d visible Ljava/lang/Boolean;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbi$d;Lbi$d;Ljava/lang/Boolean;Ljava/lang/Boolean;)V
+		METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD a matches (Laii;)Z
+		METHOD a fromJson (Lcom/google/gson/JsonObject;)Lbj$a;
+	FIELD a ANY Lbj;
+	FIELD b effects Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD a effects ()Lbj;
+	METHOD a and (Laig;)Lbj;
+	METHOD a and (Laig;Lbj$a;)Lbj;
+	METHOD a matches (Laio;)Z
+	METHOD a matches (Laix;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbj;
+	METHOD a matches (Ljava/util/Map;)Z
+	METHOD a lambda$fromJson$0 (Lqv;)Lcom/google/gson/JsonSyntaxException;
+	METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

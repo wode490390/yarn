@@ -1,0 +1,10 @@
+CLASS atg net/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhaseManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b dragon Lasp;
+	FIELD c phases [Lasz;
+	FIELD d currentPhase Lasz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;)V
+	METHOD a getCurrentPhase ()Lasz;
+	METHOD a setPhase (Latf;)V
+	METHOD b getPhase (Latf;)Lasz;

@@ -1,0 +1,49 @@
+CLASS aum net/minecraft/world/entity/monster/Ghast
+	CLASS a GhastLookGoal
+		FIELD a ghast Laum;
+		METHOD <init> <init> (Laum;)V
+		METHOD a canUse ()Z
+		METHOD e tick ()V
+	CLASS b GhastMoveControl
+		FIELD i ghast Laum;
+		FIELD j floatDuration I
+		METHOD <init> <init> (Laum;)V
+		METHOD a tick ()V
+		METHOD a canReach (Lcsi;I)Z
+	CLASS c GhastShootFireballGoal
+		FIELD a chargeTime I
+		FIELD b ghast Laum;
+		METHOD <init> <init> (Laum;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS d RandomFloatAroundGoal
+		FIELD a ghast Laum;
+		METHOD <init> <init> (Laum;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+	FIELD b DATA_IS_CHARGING Lqk;
+	FIELD c explosionPower I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a hurt (Lahx;F)Z
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b checkGhastSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD b getStandingEyeHeight (Lajh;Laip;)F
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cU getSoundVolume ()F
+	METHOD cc getSoundSource ()Lyq;
+	METHOD cl registerAttributes ()V
+	METHOD dC getMaxSpawnClusterSize ()I
+	METHOD dT getExplosionPower ()I
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD h tick ()V
+	METHOD h lambda$registerGoals$0 (Laix;)Z
+	METHOD l isCharging ()Z
+	METHOD n registerGoals ()V
+	METHOD r setCharging (Z)V
+	METHOD u_ defineSynchedData ()V

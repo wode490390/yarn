@@ -1,0 +1,8 @@
+CLASS apz net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor
+	FIELD a TARGETING Laqi;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a lambda$doTick$1 (Laix;Laix;)Z
+	METHOD a doTick (Lvk;Laix;)V
+	METHOD b lambda$doTick$0 (Laix;Laix;)Z

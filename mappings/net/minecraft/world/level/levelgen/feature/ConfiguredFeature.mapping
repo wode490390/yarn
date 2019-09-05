@@ -1,0 +1,8 @@
+CLASS cal net/minecraft/world/level/levelgen/feature/ConfiguredFeature
+	FIELD a feature Lcbn;
+	FIELD b config Lcbo;
+	METHOD <init> <init> (Lcbn;Lcbo;)V
+	METHOD <init> <init> (Lcbn;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;)Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcal;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

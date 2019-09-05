@@ -1,0 +1,32 @@
+CLASS azl net/minecraft/world/inventory/MenuType
+	CLASS a MenuSupplier
+		METHOD create create (ILawf;)Layk;
+	FIELD a GENERIC_9x1 Lazl;
+	FIELD b GENERIC_9x2 Lazl;
+	FIELD c GENERIC_9x3 Lazl;
+	FIELD d GENERIC_9x4 Lazl;
+	FIELD e GENERIC_9x5 Lazl;
+	FIELD f GENERIC_9x6 Lazl;
+	FIELD g GENERIC_3x3 Lazl;
+	FIELD h ANVIL Lazl;
+	FIELD i BEACON Lazl;
+	FIELD j BLAST_FURNACE Lazl;
+	FIELD k BREWING_STAND Lazl;
+	FIELD l CRAFTING Lazl;
+	FIELD m ENCHANTMENT Lazl;
+	FIELD n FURNACE Lazl;
+	FIELD o GRINDSTONE Lazl;
+	FIELD p HOPPER Lazl;
+	FIELD q LECTERN Lazl;
+	FIELD r LOOM Lazl;
+	FIELD s MERCHANT Lazl;
+	FIELD t SHULKER_BOX Lazl;
+	FIELD u SMOKER Lazl;
+	FIELD v CARTOGRAPHY Lazl;
+	FIELD w STONECUTTER Lazl;
+	FIELD x constructor Lazl$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lazl$a;)V
+	METHOD a create (ILawf;)Layk;
+	METHOD a register (Ljava/lang/String;Lazl$a;)Lazl;
+	METHOD b lambda$static$0 (ILawf;)Lazi;

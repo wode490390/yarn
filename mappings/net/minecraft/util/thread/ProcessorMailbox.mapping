@@ -1,0 +1,22 @@
+CLASS agt net/minecraft/util/thread/ProcessorMailbox
+	FIELD a queue Lagv;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c status Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD d dispatcher Ljava/util/concurrent/Executor;
+	FIELD e name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lagv;Ljava/util/concurrent/Executor;Ljava/lang/String;)V
+	METHOD a setAsScheduled ()Z
+	METHOD a lambda$run$0 (I)Z
+	METHOD a pollUntil (Lit/unimi/dsi/fastutil/ints/Int2BooleanFunction;)I
+	METHOD a tell (Ljava/lang/Object;)V
+	METHOD a create (Ljava/util/concurrent/Executor;Ljava/lang/String;)Lagt;
+	METHOD b setAsIdle ()V
+	METHOD bf name ()Ljava/lang/String;
+	METHOD c canBeScheduled ()Z
+	METHOD close close ()V
+	METHOD d shouldProcess ()Z
+	METHOD e pollTask ()Z
+	METHOD f registerForExecution ()V
+	METHOD run run ()V
+	METHOD toString toString ()Ljava/lang/String;

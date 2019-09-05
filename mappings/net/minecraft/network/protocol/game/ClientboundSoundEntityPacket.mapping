@@ -1,0 +1,17 @@
+CLASS ng net/minecraft/network/protocol/game/ClientboundSoundEntityPacket
+	FIELD a sound Lyo;
+	FIELD b source Lyq;
+	FIELD c id I
+	FIELD d volume F
+	FIELD e pitch F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lyo;Lyq;Laio;FF)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getSound ()Lyo;
+	METHOD b write (Lje;)V
+	METHOD c getSource ()Lyq;
+	METHOD d getId ()I
+	METHOD e getVolume ()F
+	METHOD f getPitch ()F

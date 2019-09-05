@@ -1,0 +1,17 @@
+CLASS cre net/minecraft/world/level/storage/loot/predicates/DamageSourceCondition
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcre;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcre;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a predicate Lam;
+	METHOD <init> <init> (Lam;)V
+	METHOD <init> <init> (Lam;Lcre$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a hasDamageSource (Lam$a;)Lcrk$a;
+	METHOD a test (Lcoy;)Z
+	METHOD a access$000 (Lcre;)Lam;
+	METHOD b lambda$hasDamageSource$0 (Lam$a;)Lcrk;
+	METHOD test test (Ljava/lang/Object;)Z

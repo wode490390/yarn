@@ -1,0 +1,55 @@
+CLASS cij net/minecraft/world/level/levelgen/structure/MineShaftPieces
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$levelgen$feature$MineshaftFeature$Type [I
+		FIELD b $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a MineShaftCorridor
+		FIELD b hasRails Z
+		FIELD c spiderCorridor Z
+		FIELD d hasPlacedSpider Z
+		FIELD e numSections I
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;Lccy$b;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a placeSupport (Lbhs;Lcic;IIIIILjava/util/Random;)V
+		METHOD a placeCobWeb (Lbhs;Lcic;Ljava/util/Random;FIII)V
+		METHOD a createChest (Lbhs;Lcic;Ljava/util/Random;IIILqv;)Z
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a findCorridorSize (Ljava/util/List;Ljava/util/Random;IIILfb;)Lcic;
+	CLASS b MineShaftCrossing
+		FIELD b direction Lfb;
+		FIELD c isTwoFloored Z
+		METHOD <init> <init> (ILcic;Lfb;Lccy$b;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a placeSupportPillar (Lbhs;Lcic;IIII)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a findCrossing (Ljava/util/List;Ljava/util/Random;IIILfb;)Lcic;
+	CLASS c MineShaftPiece
+		FIELD a type Lccy$b;
+		METHOD <init> <init> (Lcev;ILccy$b;)V
+		METHOD <init> <init> (Lcev;Lid;)V
+		METHOD a getPlanksBlock ()Lbvt;
+		METHOD a isSupportingBox (Lbhb;Lcic;IIII)Z
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD b getFenceBlock ()Lbvt;
+	CLASS d MineShaftRoom
+		FIELD b childEntranceBoxes Ljava/util/List;
+		METHOD <init> <init> (ILjava/util/Random;IILccy$b;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a move (III)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+	CLASS e MineShaftStairs
+		METHOD <init> <init> (ILcic;Lfb;Lccy$b;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a findStairs (Ljava/util/List;Ljava/util/Random;IIILfb;)Lcic;
+	METHOD <init> <init> ()V
+	METHOD a access$000 (Lciv;Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcij$c;
+	METHOD a createRandomShaftPiece (Ljava/util/List;Ljava/util/Random;IIILfb;ILccy$b;)Lcij$c;
+	METHOD b generateAndAddPiece (Lciv;Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcij$c;

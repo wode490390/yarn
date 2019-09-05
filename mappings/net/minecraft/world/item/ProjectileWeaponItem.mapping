@@ -1,0 +1,19 @@
+CLASS bcv net/minecraft/world/item/ProjectileWeaponItem
+	CLASS a Type
+		FIELD a BOW Lbcv$a;
+		FIELD b CROSSBOW Lbcv$a;
+		FIELD c $VALUES [Lbcv$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbcv$a;
+		METHOD values values ()[Lbcv$a;
+	FIELD a ARROW_ONLY Ljava/util/function/Predicate;
+	FIELD b ARROW_OR_FIREWORK Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a getHeldProjectile (Laix;Ljava/util/function/Predicate;)Lbcj;
+	METHOD b getAllSupportedProjectiles ()Ljava/util/function/Predicate;
+	METHOD c getEnchantmentValue ()I
+	METHOD d getSupportedHeldProjectiles ()Ljava/util/function/Predicate;
+	METHOD e lambda$static$1 (Lbcj;)Z
+	METHOD j lambda$static$0 (Lbcj;)Z

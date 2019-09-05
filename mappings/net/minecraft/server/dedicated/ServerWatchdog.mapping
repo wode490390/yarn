@@ -1,0 +1,12 @@
+CLASS un net/minecraft/server/dedicated/ServerWatchdog
+	CLASS 1 1
+		FIELD a this$0 Lun;
+		METHOD <init> <init> (Lun;)V
+		METHOD run run ()V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b server Luk;
+	FIELD c maxTickTime J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Luk;)V
+	METHOD a exit ()V
+	METHOD run run ()V

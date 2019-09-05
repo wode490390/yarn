@@ -1,0 +1,5 @@
+CLASS bdw net/minecraft/world/item/WritableBookItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a useOn (Lbdu;)Lahj;
+	METHOD a use (Lbhr;Lawg;Lahi;)Lahk;
+	METHOD b makeSureTagIsValid (Lid;)Z

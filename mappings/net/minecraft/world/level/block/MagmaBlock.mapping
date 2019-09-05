@@ -1,0 +1,11 @@
+CLASS bqe net/minecraft/world/level/block/MagmaBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a stepOn (Lbhr;Lew;Laio;)V
+	METHOD a getTickDelay (Lbhu;)I
+	METHOD a getLightColor (Lbvt;Lbgz;Lew;)I
+	METHOD a isValidSpawn (Lbvt;Lbhb;Lew;Lais;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD b onPlace (Lbvt;Lbhr;Lew;Lbvt;Z)V
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD c randomTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD g hasPostProcess (Lbvt;Lbhb;Lew;)Z

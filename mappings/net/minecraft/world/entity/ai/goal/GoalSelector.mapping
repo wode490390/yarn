@@ -1,0 +1,35 @@
+CLASS anf net/minecraft/world/entity/ai/goal/GoalSelector
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a canUse ()Z
+	CLASS 2 2
+		METHOD <init> <init> (ILane;)V
+		METHOD g isRunning ()Z
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b NO_GOAL Laot;
+	FIELD c lockedFlags Ljava/util/Map;
+	FIELD d availableGoals Ljava/util/Set;
+	FIELD e profiler Lagn;
+	FIELD f disabledFlags Ljava/util/EnumSet;
+	FIELD g newGoalRate I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lagn;)V
+	METHOD a tick ()V
+	METHOD a setNewGoalRate (I)V
+	METHOD a addGoal (ILane;)V
+	METHOD a disableControlFlag (Lane$a;)V
+	METHOD a lambda$tick$3 (Lane$a;Laot;)V
+	METHOD a setControlFlag (Lane$a;Z)V
+	METHOD a removeGoal (Lane;)V
+	METHOD a lambda$removeGoal$1 (Lane;Laot;)Z
+	METHOD a lambda$tick$9 (Laot;)V
+	METHOD a lambda$null$8 (Laot;Lane$a;)V
+	METHOD b getAvailableGoals ()Ljava/util/Set;
+	METHOD b enableControlFlag (Lane$a;)V
+	METHOD b lambda$removeGoal$0 (Lane;Laot;)Z
+	METHOD b lambda$tick$7 (Laot;)Z
+	METHOD b lambda$null$6 (Laot;Lane$a;)Z
+	METHOD c getRunningGoals ()Ljava/util/stream/Stream;
+	METHOD c lambda$tick$5 (Laot;)Z
+	METHOD d lambda$tick$4 (Laot;)Z
+	METHOD e lambda$tick$2 (Laot;)Z

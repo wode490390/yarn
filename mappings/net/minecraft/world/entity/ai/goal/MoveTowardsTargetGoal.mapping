@@ -1,0 +1,13 @@
+CLASS ant net/minecraft/world/entity/ai/goal/MoveTowardsTargetGoal
+	FIELD a mob Laje;
+	FIELD b target Laix;
+	FIELD c wantedX D
+	FIELD d wantedY D
+	FIELD e wantedZ D
+	FIELD f speedModifier D
+	FIELD g within F
+	METHOD <init> <init> (Laje;DF)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

@@ -1,0 +1,6 @@
+CLASS bfr net/minecraft/world/item/enchantment/DiggingEnchantment
+	METHOD <init> <init> (Lbfs$a;[Lait;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a canEnchant (Lbcj;)Z
+	METHOD b getMaxCost (I)I

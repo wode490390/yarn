@@ -1,0 +1,15 @@
+CLASS abc net/minecraft/util/datafix/fixes/BlockStateData
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b MAP [Lcom/mojang/datafixers/Dynamic;
+	FIELD c ID_BY_OLD Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	FIELD d ID_BY_OLD_NAME Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a upgradeBlock (I)Ljava/lang/String;
+	METHOD a register (ILjava/lang/String;[Ljava/lang/String;)V
+	METHOD a upgradeBlockStateTag (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$static$1 (Lit/unimi/dsi/fastutil/objects/Object2IntOpenHashMap;)V
+	METHOD a upgradeBlock (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b getTag (I)Lcom/mojang/datafixers/Dynamic;
+	METHOD b lambda$static$0 (Lit/unimi/dsi/fastutil/objects/Object2IntOpenHashMap;)V
+	METHOD b parse (Ljava/lang/String;)Lcom/mojang/datafixers/Dynamic;

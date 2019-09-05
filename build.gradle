@@ -66,7 +66,7 @@ def intermediaryJar = file("${minecraft_version}-intermediary.jar")
 def yarnJar = file("${minecraft_version}-yarn.jar")
 def namedJar = file("${minecraft_version}-named.jar")
 def versionFile = new File(cacheFilesMinecraft, "${minecraft_version}.json")
-def clientJar = new File(cacheFilesMinecraft, "${minecraft_version}-client.jar")
+def clientJar = new File(cacheFilesMinecraft, "${minecraft_version}-server.jar")
 def serverJar = new File(cacheFilesMinecraft, "${minecraft_version}-server.jar")
 def libraries = new File(cacheFilesMinecraft, "libraries")
 def libs = new File("build/libs/")
@@ -153,7 +153,7 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 
 	outputs.upToDateWhen {
 		def version = new JsonSlurper().parseText(FileUtils.readFileToString(versionFile))
-		return clientJar.exists() && serverJar.exists() && validateChecksum(clientJar, version.downloads.client.sha1) && validateChecksum(serverJar, version.downloads.server.sha1)
+		return serverJar.exists() && validateChecksum(serverJar, version.downloads.server.sha1)
 	}
 
 	doLast {
@@ -166,11 +166,6 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 
 		logger.lifecycle(":downloading minecraft jars")
 
-		if (!clientJar.exists() || !validateChecksum(clientJar, version.downloads.client.sha1)) {
-			logger.lifecycle(":downloading minecraft client")
-			FileUtils.copyURLToFile(new URL(version.downloads.client.url), clientJar)
-		}
-
 		if (!serverJar.exists() || !validateChecksum(serverJar, version.downloads.server.sha1)) {
 			logger.lifecycle(":downloading minecraft server")
 			FileUtils.copyURLToFile(new URL(version.downloads.server.url), serverJar)
@@ -180,7 +175,7 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 
 task downloadIntermediary(type: Download){
 	group = buildMappingGroup
-	def url = "https://github.com/FabricMC/intermediary/raw/master/mappings/${minecraft_version}.tiny"
+	def url = "https://github.com/wode490390/yarn/raw/mojang-1.14.4/temp.tiny"
 	src UrlEscapers.urlFragmentEscaper().escape(url)
 	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary.tiny")
 }
@@ -192,7 +187,7 @@ task mergeJars(dependsOn: downloadMcJars) {
 
 	doLast {
 		logger.lifecycle(":merging jars")
-		def client = inputs.files.files.find {it.name.endsWith("-client.jar")}
+		def client = inputs.files.files.find {it.name.endsWith("-server.jar")}
 		def server = inputs.files.files.find {it.name.endsWith("-server.jar")}
 		def merged = mergedFile
 

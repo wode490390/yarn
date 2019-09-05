@@ -1,0 +1,3 @@
+CLASS bdj net/minecraft/world/item/SplashPotionItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a use (Lbhr;Lawg;Lahi;)Lahk;

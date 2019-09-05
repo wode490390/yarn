@@ -1,0 +1,5 @@
+CLASS chb net/minecraft/world/level/levelgen/placement/EmeraldPlacementDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Ljava/util/Random;Lcax;Lew;)Ljava/util/stream/Stream;
+	METHOD a place (Ljava/util/Random;Lcdc;Lew;)Ljava/util/stream/Stream;
+	METHOD a lambda$place$0 (Ljava/util/Random;Lew;I)Lew;

@@ -1,0 +1,17 @@
+CLASS hc net/minecraft/data/loot/GiftLoot
+	METHOD <init> <init> ()V
+	METHOD a lambda$accept$12 (Lid;)V
+	METHOD a accept (Ljava/util/function/BiConsumer;)V
+	METHOD accept accept (Ljava/lang/Object;)V
+	METHOD b lambda$accept$11 (Lid;)V
+	METHOD c lambda$accept$10 (Lid;)V
+	METHOD d lambda$accept$9 (Lid;)V
+	METHOD e lambda$accept$8 (Lid;)V
+	METHOD f lambda$accept$7 (Lid;)V
+	METHOD g lambda$accept$6 (Lid;)V
+	METHOD h lambda$accept$5 (Lid;)V
+	METHOD i lambda$accept$4 (Lid;)V
+	METHOD j lambda$accept$3 (Lid;)V
+	METHOD k lambda$accept$2 (Lid;)V
+	METHOD l lambda$accept$1 (Lid;)V
+	METHOD m lambda$accept$0 (Lid;)V

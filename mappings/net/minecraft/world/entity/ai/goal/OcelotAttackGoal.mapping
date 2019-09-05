@@ -1,0 +1,10 @@
+CLASS anu net/minecraft/world/entity/ai/goal/OcelotAttackGoal
+	FIELD a level Lbhb;
+	FIELD b mob Laiy;
+	FIELD c target Laix;
+	FIELD d attackTime I
+	METHOD <init> <init> (Laiy;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V

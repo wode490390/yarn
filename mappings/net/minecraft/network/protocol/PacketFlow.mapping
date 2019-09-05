@@ -1,0 +1,9 @@
+CLASS kd net/minecraft/network/protocol/PacketFlow
+	FIELD a SERVERBOUND Lkd;
+	FIELD b CLIENTBOUND Lkd;
+	FIELD c $VALUES [Lkd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a getOpposite ()Lkd;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lkd;
+	METHOD values values ()[Lkd;

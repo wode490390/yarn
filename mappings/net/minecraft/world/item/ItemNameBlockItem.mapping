@@ -1,0 +1,3 @@
+CLASS bch net/minecraft/world/item/ItemNameBlockItem
+	METHOD <init> <init> (Lbmv;Lbce$a;)V
+	METHOD a getDescriptionId ()Ljava/lang/String;

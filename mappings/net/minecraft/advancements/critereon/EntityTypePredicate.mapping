@@ -1,0 +1,25 @@
+CLASS aw net/minecraft/advancements/critereon/EntityTypePredicate
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD a matches (Lais;)Z
+	CLASS a TagPredicate
+		FIELD b tag Lzg;
+		METHOD <init> <init> (Lzg;)V
+		METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD a matches (Lais;)Z
+	CLASS b TypePredicate
+		FIELD b type Lais;
+		METHOD <init> <init> (Lais;)V
+		METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD a matches (Lais;)Z
+	FIELD a ANY Law;
+	FIELD b COMMA_JOINER Lcom/google/common/base/Joiner;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a matches (Lais;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Law;
+	METHOD a lambda$fromJson$0 (Lqv;)Lcom/google/gson/JsonSyntaxException;
+	METHOD a of (Lzg;)Law;
+	METHOD b of (Lais;)Law;

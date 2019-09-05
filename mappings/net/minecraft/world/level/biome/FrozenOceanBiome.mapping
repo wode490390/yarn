@@ -1,0 +1,5 @@
+CLASS bjr net/minecraft/world/level/biome/FrozenOceanBiome
+	FIELD u FROZEN_TEMPERATURE_NOISE Lckp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD c getTemperatureNoCache (Lew;)F

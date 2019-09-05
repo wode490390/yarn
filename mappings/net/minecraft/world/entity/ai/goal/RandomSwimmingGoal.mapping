@@ -1,0 +1,3 @@
+CLASS aoc net/minecraft/world/entity/ai/goal/RandomSwimmingGoal
+	METHOD <init> <init> (Laje;DI)V
+	METHOD g getPosition ()Lcsi;

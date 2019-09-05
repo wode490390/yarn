@@ -1,0 +1,6 @@
+CLASS cdb net/minecraft/world/level/levelgen/feature/NetherSpringFeature
+	FIELD a NETHERRACK Lbvt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lccb;)Z

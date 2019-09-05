@@ -1,0 +1,9 @@
+CLASS aao net/minecraft/util/datafix/fixes/AdvancementsFix
+	FIELD a renames Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$2 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$null$1 (Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$0 (Lcom/mojang/datafixers/Dynamic;Ljava/lang/String;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$makeRule$3 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

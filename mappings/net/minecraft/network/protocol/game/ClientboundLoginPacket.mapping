@@ -1,0 +1,23 @@
+CLASS ls net/minecraft/network/protocol/game/ClientboundLoginPacket
+	FIELD a playerId I
+	FIELD b hardcore Z
+	FIELD c gameType Lbho;
+	FIELD d dimension Lbyn;
+	FIELD e maxPlayers I
+	FIELD f levelType Lbhy;
+	FIELD g chunkRadius I
+	FIELD h reducedDebugInfo Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILbho;ZLbyn;ILbhy;IZ)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getPlayerId ()I
+	METHOD b write (Lje;)V
+	METHOD c isHardcore ()Z
+	METHOD d getGameType ()Lbho;
+	METHOD e getDimension ()Lbyn;
+	METHOD f getMaxPlayers ()I
+	METHOD g getLevelType ()Lbhy;
+	METHOD h getChunkRadius ()I
+	METHOD i isReducedDebugInfo ()Z

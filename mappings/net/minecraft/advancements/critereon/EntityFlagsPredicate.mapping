@@ -1,0 +1,28 @@
+CLASS at net/minecraft/advancements/critereon/EntityFlagsPredicate
+	CLASS a Builder
+		FIELD a isOnFire Ljava/lang/Boolean;
+		FIELD b isSneaking Ljava/lang/Boolean;
+		FIELD c isSprinting Ljava/lang/Boolean;
+		FIELD d isSwimming Ljava/lang/Boolean;
+		FIELD e isBaby Ljava/lang/Boolean;
+		METHOD <init> <init> ()V
+		METHOD a flags ()Lat$a;
+		METHOD a setOnFire (Ljava/lang/Boolean;)Lat$a;
+		METHOD b build ()Lat;
+		METHOD b setSneaking (Ljava/lang/Boolean;)Lat$a;
+		METHOD c setSprinting (Ljava/lang/Boolean;)Lat$a;
+		METHOD d setSwimming (Ljava/lang/Boolean;)Lat$a;
+		METHOD e setIsBaby (Ljava/lang/Boolean;)Lat$a;
+	FIELD a ANY Lat;
+	FIELD b isOnFire Ljava/lang/Boolean;
+	FIELD c isSneaking Ljava/lang/Boolean;
+	FIELD d isSprinting Ljava/lang/Boolean;
+	FIELD e isSwimming Ljava/lang/Boolean;
+	FIELD f isBaby Ljava/lang/Boolean;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a matches (Laio;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lat;
+	METHOD a getOptionalBoolean (Lcom/google/gson/JsonObject;Ljava/lang/String;)Ljava/lang/Boolean;
+	METHOD a addOptionalBoolean (Lcom/google/gson/JsonObject;Ljava/lang/String;Ljava/lang/Boolean;)V

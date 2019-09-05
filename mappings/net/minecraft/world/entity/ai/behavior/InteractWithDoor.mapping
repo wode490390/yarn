@@ -1,0 +1,11 @@
+CLASS akl net/minecraft/world/entity/ai/behavior/InteractWithDoor
+	METHOD <init> <init> ()V
+	METHOD a lambda$start$0 (Lcnp;)Lew;
+	METHOD a lambda$closeAllOpenedDoors$4 (Ljava/util/List;Lvk;ILaix;Ljava/util/Set;)V
+	METHOD a lambda$openOrCloseDoors$3 (Ljava/util/List;Lvk;ILajm;Lew;)V
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a lambda$getDoorsThatAreOnMyPath$1 (Lvk;Lfd;)Z
+	METHOD a closeAllOpenedDoors (Lvk;Ljava/util/List;ILaix;Lajm;)V
+	METHOD a getDoorsThatAreOnMyPath (Lvk;Ljava/util/List;Ljava/util/List;)Ljava/util/Set;
+	METHOD a openOrCloseDoors (Lvk;Ljava/util/List;Ljava/util/Set;ILaix;Lajm;)V
+	METHOD a lambda$null$2 (ZLfd;Ljava/util/Set;)V

@@ -1,0 +1,23 @@
+CLASS yu net/minecraft/stats/ServerStatsCounter
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c server Lnet/minecraft/server/MinecraftServer;
+	FIELD d file Ljava/io/File;
+	FIELD e dirty Ljava/util/Set;
+	FIELD f lastStatRequest I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;)V
+	METHOD a save ()V
+	METHOD a setValue (Lawg;Lyv;I)V
+	METHOD a fromJson (Lcom/google/gson/JsonObject;)Lid;
+	METHOD a parseLocal (Lcom/mojang/datafixers/DataFixer;Ljava/lang/String;)V
+	METHOD a lambda$null$0 (Lid;Ljava/lang/String;Lyv;)V
+	METHOD a lambda$parseLocal$2 (Lid;Ljava/lang/String;Lyx;)V
+	METHOD a lambda$parseLocal$3 (Ljava/lang/String;)V
+	METHOD a sendStats (Lvl;)V
+	METHOD a lambda$toJson$4 (Lyx;)Lcom/google/gson/JsonObject;
+	METHOD a getStat (Lyx;Ljava/lang/String;)Ljava/util/Optional;
+	METHOD b toJson ()Ljava/lang/String;
+	METHOD b lambda$null$1 (Ljava/lang/String;)V
+	METHOD b getKey (Lyv;)Lqv;
+	METHOD c markAllDirty ()V
+	METHOD d getDirty ()Ljava/util/Set;

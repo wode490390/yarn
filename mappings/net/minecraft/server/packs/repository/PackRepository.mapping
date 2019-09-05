@@ -1,0 +1,16 @@
+CLASS wx net/minecraft/server/packs/repository/PackRepository
+	FIELD a sources Ljava/util/Set;
+	FIELD b available Ljava/util/Map;
+	FIELD c selected Ljava/util/List;
+	FIELD d constructor Lxa$b;
+	METHOD <init> <init> (Lxa$b;)V
+	METHOD a reload ()V
+	METHOD a getPack (Ljava/lang/String;)Lxa;
+	METHOD a setSelected (Ljava/util/Collection;)V
+	METHOD a lambda$sortAvailable$0 (Ljava/util/Map$Entry;)V
+	METHOD a addSource (Lwy;)V
+	METHOD b getAvailable ()Ljava/util/Collection;
+	METHOD c getUnselected ()Ljava/util/Collection;
+	METHOD close close ()V
+	METHOD d getSelected ()Ljava/util/Collection;
+	METHOD e sortAvailable ()V

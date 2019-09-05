@@ -1,0 +1,13 @@
+CLASS bwd net/minecraft/world/level/block/state/predicate/BlockStatePredicate
+	FIELD a ANY Ljava/util/function/Predicate;
+	FIELD b definition Lbvu;
+	FIELD c properties Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbvu;)V
+	METHOD a forBlock (Lbmv;)Lbwd;
+	METHOD a test (Lbvt;)Z
+	METHOD a applies (Lbvt;Lbww;Ljava/util/function/Predicate;)Z
+	METHOD a forDefinition (Lbvu;)Lbwd;
+	METHOD a where (Lbww;Ljava/util/function/Predicate;)Lbwd;
+	METHOD b lambda$static$0 (Lbvt;)Z
+	METHOD test test (Ljava/lang/Object;)Z

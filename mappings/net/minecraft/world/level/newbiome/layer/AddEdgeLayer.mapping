@@ -1,0 +1,26 @@
+CLASS cmc net/minecraft/world/level/newbiome/layer/AddEdgeLayer
+	CLASS a CoolWarm
+		FIELD a INSTANCE Lcmc$a;
+		FIELD b $VALUES [Lcmc$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Lcly;IIIII)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcmc$a;
+		METHOD values values ()[Lcmc$a;
+	CLASS b HeatIce
+		FIELD a INSTANCE Lcmc$b;
+		FIELD b $VALUES [Lcmc$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Lcly;IIIII)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcmc$b;
+		METHOD values values ()[Lcmc$b;
+	CLASS c IntroduceSpecial
+		FIELD a INSTANCE Lcmc$c;
+		FIELD b $VALUES [Lcmc$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Lcly;I)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcmc$c;
+		METHOD values values ()[Lcmc$c;
+	METHOD <init> <init> ()V

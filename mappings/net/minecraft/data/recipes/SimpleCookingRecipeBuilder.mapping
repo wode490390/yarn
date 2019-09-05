@@ -1,0 +1,36 @@
+CLASS hk net/minecraft/data/recipes/SimpleCookingRecipeBuilder
+	CLASS a Result
+		FIELD a id Lqv;
+		FIELD b group Ljava/lang/String;
+		FIELD c ingredient Lbeo;
+		FIELD d result Lbce;
+		FIELD e experience F
+		FIELD f cookingTime I
+		FIELD g advancement Lq$a;
+		FIELD h advancementId Lqv;
+		FIELD i serializer Lbet;
+		METHOD <init> <init> (Lqv;Ljava/lang/String;Lbeo;Lbce;FILq$a;Lqv;Lbet;)V
+		METHOD a serializeRecipeData (Lcom/google/gson/JsonObject;)V
+		METHOD b getId ()Lqv;
+		METHOD c getType ()Lbet;
+		METHOD d serializeAdvancement ()Lcom/google/gson/JsonObject;
+		METHOD e getAdvancementId ()Lqv;
+	FIELD a result Lbce;
+	FIELD b ingredient Lbeo;
+	FIELD c experience F
+	FIELD d cookingTime I
+	FIELD e advancement Lq$a;
+	FIELD f group Ljava/lang/String;
+	FIELD g serializer Lbfa;
+	METHOD <init> <init> (Lbhq;Lbeo;FILbfa;)V
+	METHOD a campfireCooking (Lbeo;Lbhq;FI)Lhk;
+	METHOD a cooking (Lbeo;Lbhq;FILbfa;)Lhk;
+	METHOD a group (Ljava/lang/String;)Lhk;
+	METHOD a unlocks (Ljava/lang/String;Ly;)Lhk;
+	METHOD a save (Ljava/util/function/Consumer;)V
+	METHOD a save (Ljava/util/function/Consumer;Ljava/lang/String;)V
+	METHOD a save (Ljava/util/function/Consumer;Lqv;)V
+	METHOD a ensureValid (Lqv;)V
+	METHOD b blasting (Lbeo;Lbhq;FI)Lhk;
+	METHOD c smelting (Lbeo;Lbhq;FI)Lhk;
+	METHOD d smoking (Lbeo;Lbhq;FI)Lhk;

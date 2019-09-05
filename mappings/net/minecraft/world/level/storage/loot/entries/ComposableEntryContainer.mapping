@@ -1,0 +1,11 @@
+CLASS cpi net/minecraft/world/level/storage/loot/entries/ComposableEntryContainer
+	FIELD a ALWAYS_FALSE Lcpi;
+	FIELD b ALWAYS_TRUE Lcpi;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$1 (Lcoy;Ljava/util/function/Consumer;)Z
+	METHOD a and (Lcpi;)Lcpi;
+	METHOD a lambda$or$3 (Lcpi;Lcoy;Ljava/util/function/Consumer;)Z
+	METHOD b lambda$static$0 (Lcoy;Ljava/util/function/Consumer;)Z
+	METHOD b or (Lcpi;)Lcpi;
+	METHOD b lambda$and$2 (Lcpi;Lcoy;Ljava/util/function/Consumer;)Z
+	METHOD expand expand (Lcoy;Ljava/util/function/Consumer;)Z

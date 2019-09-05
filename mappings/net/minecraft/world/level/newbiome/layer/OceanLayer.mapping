@@ -1,0 +1,8 @@
+CLASS cml net/minecraft/world/level/newbiome/layer/OceanLayer
+	FIELD a INSTANCE Lcml;
+	FIELD b $VALUES [Lcml;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Lcly;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcml;
+	METHOD values values ()[Lcml;

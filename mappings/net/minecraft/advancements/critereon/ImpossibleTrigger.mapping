@@ -1,0 +1,13 @@
+CLASS az net/minecraft/advancements/critereon/ImpossibleTrigger
+	CLASS a TriggerInstance
+		METHOD <init> <init> ()V
+	FIELD a ID Lqv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lqv;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ly;
+	METHOD a removePlayerListeners (Lre;)V
+	METHOD a addPlayerListener (Lre;Lx$a;)V
+	METHOD b access$000 ()Lqv;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Laz$a;
+	METHOD b removePlayerListener (Lre;Lx$a;)V

@@ -1,0 +1,3 @@
+CLASS coz net/minecraft/world/level/storage/loot/LootContextUser
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a validate (Lcpc;Ljava/util/function/Function;Ljava/util/Set;Lcqx;)V

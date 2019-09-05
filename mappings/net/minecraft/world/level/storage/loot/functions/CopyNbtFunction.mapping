@@ -1,0 +1,90 @@
+CLASS cpz net/minecraft/world/level/storage/loot/functions/CopyNbtFunction
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a source Lcpz$c;
+		FIELD b ops Ljava/util/List;
+		METHOD <init> <init> (Lcpz$c;)V
+		METHOD <init> <init> (Lcpz$c;Lcpz$1;)V
+		METHOD a getThis ()Lcpz$a;
+		METHOD a copy (Ljava/lang/String;Ljava/lang/String;)Lcpz$a;
+		METHOD a copy (Ljava/lang/String;Ljava/lang/String;Lcpz$d;)Lcpz$a;
+		METHOD b build ()Lcqh;
+		METHOD d getThis ()Lcqg$a;
+	CLASS b CopyOperation
+		FIELD a sourcePathText Ljava/lang/String;
+		FIELD b sourcePath Lcr$h;
+		FIELD c targetPathText Ljava/lang/String;
+		FIELD d targetPath Lcr$h;
+		FIELD e op Lcpz$d;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Lcpz$d;)V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Lcpz$d;Lcpz$1;)V
+		METHOD a toJson ()Lcom/google/gson/JsonObject;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;)Lcpz$b;
+		METHOD a apply (Ljava/util/function/Supplier;Liu;)V
+	CLASS c DataSource
+		FIELD a THIS Lcpz$c;
+		FIELD b KILLER Lcpz$c;
+		FIELD c KILLER_PLAYER Lcpz$c;
+		FIELD d BLOCK_ENTITY Lcpz$c;
+		FIELD e name Ljava/lang/String;
+		FIELD f param Lcqw;
+		FIELD g getter Ljava/util/function/Function;
+		FIELD h $VALUES [Lcpz$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lcqw;Ljava/util/function/Function;)V
+		METHOD a lambda$new$0 (Lcqw;Ljava/util/function/Function;Lcoy;)Liu;
+		METHOD a getByName (Ljava/lang/String;)Lcpz$c;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcpz$c;
+		METHOD values values ()[Lcpz$c;
+	CLASS d MergeStrategy
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a merge (Liu;Lcr$h;Ljava/util/List;)V
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a merge (Liu;Lcr$h;Ljava/util/List;)V
+			METHOD a lambda$null$0 (Liu;Liu;)V
+			METHOD a lambda$merge$1 (Ljava/util/List;Liu;)V
+		CLASS 3 3
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a merge (Liu;Lcr$h;Ljava/util/List;)V
+			METHOD a lambda$null$0 (Liu;Liu;)V
+			METHOD a lambda$merge$1 (Ljava/util/List;Liu;)V
+		FIELD a REPLACE Lcpz$d;
+		FIELD b APPEND Lcpz$d;
+		FIELD c MERGE Lcpz$d;
+		FIELD d name Ljava/lang/String;
+		FIELD e $VALUES [Lcpz$d;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lcpz$1;)V
+		METHOD a access$100 (Lcpz$d;)Ljava/lang/String;
+		METHOD a merge (Liu;Lcr$h;Ljava/util/List;)V
+		METHOD a getByName (Ljava/lang/String;)Lcpz$d;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcpz$d;
+		METHOD values values ()[Lcpz$d;
+	CLASS e Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcpz;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpz;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a source Lcpz$c;
+	FIELD c operations Ljava/util/List;
+	FIELD d ENTITY_GETTER Ljava/util/function/Function;
+	FIELD e BLOCK_ENTITY_GETTER Ljava/util/function/Function;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Lcrk;Lcpz$c;Ljava/util/List;)V
+	METHOD <init> <init> ([Lcrk;Lcpz$c;Ljava/util/List;Lcpz$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a lambda$run$0 (Lbcj;Liu;Lcpz$b;)V
+	METHOD a lambda$static$1 (Lbtw;)Liu;
+	METHOD a copyData (Lcpz$c;)Lcpz$a;
+	METHOD a access$800 (Lcpz;)Lcpz$c;
+	METHOD a access$000 (Ljava/lang/String;)Lcr$h;
+	METHOD b access$600 ()Ljava/util/function/Function;
+	METHOD b access$900 (Lcpz;)Ljava/util/List;
+	METHOD b compileNbtPath (Ljava/lang/String;)Lcr$h;
+	METHOD c access$700 ()Ljava/util/function/Function;

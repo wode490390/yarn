@@ -1,0 +1,11 @@
+CLASS bpt net/minecraft/world/level/block/KelpPlantBlock
+	FIELD a top Lbps;
+	METHOD <init> <init> (Lbps;Lbmv$c;)V
+	METHOD a getCloneItemStack (Lbhb;Lew;Lbvt;)Lbcj;
+	METHOD a canPlaceLiquid (Lbhb;Lew;Lbvt;Lclj;)Z
+	METHOD a placeLiquid (Lbhs;Lew;Lbvt;Lclk;)Z
+	METHOD a canSurvive (Lbvt;Lbhu;Lew;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD c getRenderLayer ()Lbhc;
+	METHOD g getFluidState (Lbvt;)Lclk;

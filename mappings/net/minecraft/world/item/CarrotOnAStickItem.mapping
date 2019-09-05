@@ -1,0 +1,4 @@
+CLASS bav net/minecraft/world/item/CarrotOnAStickItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a lambda$use$0 (Lahi;Lawg;)V
+	METHOD a use (Lbhr;Lawg;Lahi;)Lahk;

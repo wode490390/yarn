@@ -1,0 +1,9 @@
+CLASS cs net/minecraft/commands/arguments/NbtTagArgument
+	FIELD a EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a nbtTag ()Lcs;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Liu;
+	METHOD a getNbtTag (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Liu;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

@@ -1,0 +1,4 @@
+CLASS cdd net/minecraft/world/level/levelgen/feature/NoneFeatureConfiguration
+	METHOD <init> <init> ()V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdd;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,9 @@
+CLASS si net/minecraft/server/commands/FunctionCommand
+	FIELD a SUGGEST_FUNCTION Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$1 (Lcd;)Z
+	METHOD a runFunction (Lcd;Ljava/util/Collection;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$static$0 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;

@@ -1,0 +1,7 @@
+CLASS cdu net/minecraft/world/level/levelgen/feature/RandomScatteredFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getSpacing (Lbxi;)I
+	METHOD a isFeatureChunk (Lbxi;Ljava/util/Random;II)Z
+	METHOD a getPotentialFeatureChunkFromLocationWithOffset (Lbxi;Ljava/util/Random;IIII)Lbhd;
+	METHOD b getSeparation (Lbxi;)I
+	METHOD d getRandomSalt ()I

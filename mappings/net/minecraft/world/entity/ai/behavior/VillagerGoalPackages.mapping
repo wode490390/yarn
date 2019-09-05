@@ -1,0 +1,14 @@
+CLASS alx net/minecraft/world/entity/ai/behavior/VillagerGoalPackages
+	METHOD <init> <init> ()V
+	METHOD a getFullLookBehavior ()Lcom/mojang/datafixers/util/Pair;
+	METHOD a getPlayPackage (F)Lcom/google/common/collect/ImmutableList;
+	METHOD a getCorePackage (Lavw;F)Lcom/google/common/collect/ImmutableList;
+	METHOD b getMinimalLookBehavior ()Lcom/mojang/datafixers/util/Pair;
+	METHOD b getWorkPackage (Lavw;F)Lcom/google/common/collect/ImmutableList;
+	METHOD c getRestPackage (Lavw;F)Lcom/google/common/collect/ImmutableList;
+	METHOD d getMeetPackage (Lavw;F)Lcom/google/common/collect/ImmutableList;
+	METHOD e getIdlePackage (Lavw;F)Lcom/google/common/collect/ImmutableList;
+	METHOD f getPanicPackage (Lavw;F)Lcom/google/common/collect/ImmutableList;
+	METHOD g getPreRaidPackage (Lavw;F)Lcom/google/common/collect/ImmutableList;
+	METHOD h getRaidPackage (Lavw;F)Lcom/google/common/collect/ImmutableList;
+	METHOD i getHidePackage (Lavw;F)Lcom/google/common/collect/ImmutableList;

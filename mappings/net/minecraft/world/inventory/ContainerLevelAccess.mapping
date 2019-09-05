@@ -1,0 +1,16 @@
+CLASS ayu net/minecraft/world/inventory/ContainerLevelAccess
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a evaluate (Ljava/util/function/BiFunction;)Ljava/util/Optional;
+	CLASS 2 2
+		FIELD b val$level Lbhr;
+		FIELD c val$pos Lew;
+		METHOD <init> <init> (Lbhr;Lew;)V
+		METHOD a evaluate (Ljava/util/function/BiFunction;)Ljava/util/Optional;
+	FIELD a NULL Layu;
+	METHOD <clinit> <clinit> ()V
+	METHOD a create (Lbhr;Lew;)Layu;
+	METHOD a execute (Ljava/util/function/BiConsumer;)V
+	METHOD a lambda$execute$0 (Ljava/util/function/BiConsumer;Lbhr;Lew;)Ljava/util/Optional;
+	METHOD a evaluate (Ljava/util/function/BiFunction;)Ljava/util/Optional;
+	METHOD a evaluate (Ljava/util/function/BiFunction;Ljava/lang/Object;)Ljava/lang/Object;

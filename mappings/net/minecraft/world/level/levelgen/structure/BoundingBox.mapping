@@ -1,0 +1,37 @@
+CLASS cic net/minecraft/world/level/levelgen/structure/BoundingBox
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V
+	FIELD a x0 I
+	FIELD b y0 I
+	FIELD c z0 I
+	FIELD d x1 I
+	FIELD e y1 I
+	FIELD f z1 I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IIII)V
+	METHOD <init> <init> (IIIIII)V
+	METHOD <init> <init> (Lcic;)V
+	METHOD <init> <init> (Lfs;Lfs;)V
+	METHOD <init> <init> ([I)V
+	METHOD a getUnknownBox ()Lcic;
+	METHOD a move (III)V
+	METHOD a intersects (IIII)Z
+	METHOD a createProper (IIIIII)Lcic;
+	METHOD a orientBox (IIIIIIIIILfb;)Lcic;
+	METHOD a isInsideOf (Lcic;)Z
+	METHOD a move (Lfs;)V
+	METHOD a intersects (Lfs;Lfs;)Z
+	METHOD b getLength ()Lfs;
+	METHOD b moved (III)Lcic;
+	METHOD b intersects (IIIIII)Z
+	METHOD b intersects (Lcic;)Z
+	METHOD b isInside (Lfs;)Z
+	METHOD c getXSpan ()I
+	METHOD c expand (Lcic;)V
+	METHOD d getYSpan ()I
+	METHOD d getIntersection (Lcic;)Lcic;
+	METHOD e getZSpan ()I
+	METHOD f getCenter ()Lfs;
+	METHOD g createTag ()Lii;
+	METHOD toString toString ()Ljava/lang/String;

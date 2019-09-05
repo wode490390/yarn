@@ -1,0 +1,13 @@
+CLASS boz net/minecraft/world/level/block/FlowerPotBlock
+	FIELD a SHAPE Lctc;
+	FIELD b POTTED_BY_CONTENT Ljava/util/Map;
+	FIELD c content Lbmv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv;Lbmv$c;)V
+	METHOD a getCloneItemStack (Lbhb;Lew;Lbvt;)Lbcj;
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD c getRenderLayer ()Lbhc;
+	METHOD c getRenderShape (Lbvt;)Lbrd;
+	METHOD d getContent ()Lbmv;

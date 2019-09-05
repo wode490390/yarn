@@ -1,0 +1,36 @@
+CLASS ov net/minecraft/network/protocol/game/ServerboundRecipeBookUpdatePacket
+	CLASS a Purpose
+		FIELD a SHOWN Lov$a;
+		FIELD b SETTINGS Lov$a;
+		FIELD c $VALUES [Lov$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lov$a;
+		METHOD values values ()[Lov$a;
+	FIELD a purpose Lov$a;
+	FIELD b recipe Lqv;
+	FIELD c guiOpen Z
+	FIELD d filteringCraftable Z
+	FIELD e furnaceGuiOpen Z
+	FIELD f furnaceFilteringCraftable Z
+	FIELD g blastFurnaceGuiOpen Z
+	FIELD h blastFurnaceFilteringCraftable Z
+	FIELD i smokerGuiOpen Z
+	FIELD j smokerFilteringCraftable Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lber;)V
+	METHOD <init> <init> (ZZZZZZ)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getPurpose ()Lov$a;
+	METHOD b write (Lje;)V
+	METHOD c getRecipe ()Lqv;
+	METHOD d isGuiOpen ()Z
+	METHOD e isFilteringCraftable ()Z
+	METHOD f isFurnaceGuiOpen ()Z
+	METHOD g isFurnaceFilteringCraftable ()Z
+	METHOD h isBlastFurnaceGuiOpen ()Z
+	METHOD i isBlastFurnaceFilteringCraftable ()Z
+	METHOD j isSmokerGuiOpen ()Z
+	METHOD k isSmokerFilteringCraftable ()Z

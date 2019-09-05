@@ -1,0 +1,7 @@
+CLASS cab net/minecraft/world/level/levelgen/feature/BlockPileFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getBlockState (Lbhs;)Lbvt;
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcdd;)Z
+	METHOD a mayPlaceOn (Lbhs;Lew;Ljava/util/Random;)Z
+	METHOD b tryPlaceBlock (Lbhs;Lew;Ljava/util/Random;)V

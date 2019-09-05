@@ -1,0 +1,4 @@
+CLASS bqf net/minecraft/world/level/block/MelonBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD d getStem ()Lbsg;
+	METHOD e getAttachedStem ()Lbmb;

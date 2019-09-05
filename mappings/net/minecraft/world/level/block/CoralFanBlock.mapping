@@ -1,0 +1,6 @@
+CLASS bnu net/minecraft/world/level/block/CoralFanBlock
+	FIELD a deadBlock Lbmv;
+	METHOD <init> <init> (Lbmv;Lbmv$c;)V
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD b onPlace (Lbvt;Lbhr;Lew;Lbvt;Z)V
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V

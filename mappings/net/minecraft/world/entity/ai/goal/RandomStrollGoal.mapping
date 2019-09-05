@@ -1,0 +1,16 @@
+CLASS aob net/minecraft/world/entity/ai/goal/RandomStrollGoal
+	FIELD a mob Laje;
+	FIELD b wantedX D
+	FIELD c wantedY D
+	FIELD d wantedZ D
+	FIELD e speedModifier D
+	FIELD f interval I
+	FIELD g forceTrigger Z
+	METHOD <init> <init> (Laje;D)V
+	METHOD <init> <init> (Laje;DI)V
+	METHOD a canUse ()Z
+	METHOD a setInterval (I)V
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD g getPosition ()Lcsi;
+	METHOD h trigger ()V

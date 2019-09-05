@@ -1,0 +1,7 @@
+CLASS bnh net/minecraft/world/level/block/CartographyTableBlock
+	FIELD a CONTAINER_TITLE Ljy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a lambda$getMenuProvider$0 (Lbhr;Lew;ILawf;Lawg;)Layk;
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD b getMenuProvider (Lbvt;Lbhr;Lew;)Lahm;

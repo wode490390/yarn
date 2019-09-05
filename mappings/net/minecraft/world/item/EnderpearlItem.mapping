@@ -1,0 +1,3 @@
+CLASS bbs net/minecraft/world/item/EnderpearlItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a use (Lbhr;Lawg;Lahi;)Lahk;

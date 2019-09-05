@@ -1,0 +1,64 @@
+CLASS cjt net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		FIELD b $SwitchMap$net$minecraft$world$level$block$Mirror [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a SimplePalette
+		FIELD a DEFAULT_BLOCK_STATE Lbvt;
+		FIELD b ids Lff;
+		FIELD c lastId I
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcjt$1;)V
+		METHOD a stateFor (I)Lbvt;
+		METHOD a idFor (Lbvt;)I
+		METHOD a addMapping (Lbvt;I)V
+		METHOD iterator iterator ()Ljava/util/Iterator;
+	CLASS b StructureBlockInfo
+		FIELD a pos Lew;
+		FIELD b state Lbvt;
+		FIELD c nbt Lid;
+		METHOD <init> <init> (Lew;Lbvt;Lid;)V
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c StructureEntityInfo
+		FIELD a pos Lcsi;
+		FIELD b blockPos Lew;
+		FIELD c nbt Lid;
+		METHOD <init> <init> (Lcsi;Lew;Lid;)V
+	FIELD a palettes Ljava/util/List;
+	FIELD b entityInfoList Ljava/util/List;
+	FIELD c size Lew;
+	FIELD d author Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD a getSize ()Lew;
+	METHOD a lambda$updateShapeAtEdge$1 (IIILbhs;ILfb;III)V
+	METHOD a lambda$fillEntityList$0 (Laio;)Z
+	METHOD a fillEntityList (Lbhr;Lew;Lew;)V
+	METHOD a fillFromWorld (Lbhr;Lew;Lew;ZLbmv;)V
+	METHOD a updateShapeAtEdge (Lbhs;ILcsr;III)V
+	METHOD a placeEntities (Lbhs;Lew;Lbqg;Lbrg;Lew;Lcic;)V
+	METHOD a placeInWorldChunk (Lbhs;Lew;Lcjq;)V
+	METHOD a placeInWorld (Lbhs;Lew;Lcjq;I)Z
+	METHOD a processBlockInfos (Lbhs;Lew;Lcjq;Ljava/util/List;)Ljava/util/List;
+	METHOD a createEntityIgnoreException (Lbhs;Lid;)Ljava/util/Optional;
+	METHOD a lambda$placeEntities$2 (Lbqg;Lbrg;Lcsi;Lbhs;Laio;)V
+	METHOD a getSize (Lbrg;)Lew;
+	METHOD a mirrorAABB (Lbrg;IILcic;Lfb;Lfb;)V
+	METHOD a calculateRelativePosition (Lcjq;Lew;)Lew;
+	METHOD a calculateConnectedPosition (Lcjq;Lew;Lcjq;Lew;)Lew;
+	METHOD a lambda$loadPalette$3 (Lcjt$b;)I
+	METHOD a transform (Lcsi;Lbqg;Lbrg;Lew;)Lcsi;
+	METHOD a getZeroPositionWithTransform (Lew;Lbqg;Lbrg;)Lew;
+	METHOD a getZeroPositionWithTransform (Lew;Lbqg;Lbrg;II)Lew;
+	METHOD a transform (Lew;Lbqg;Lbrg;Lew;)Lew;
+	METHOD a filterBlocks (Lew;Lcjq;Lbmv;)Ljava/util/List;
+	METHOD a filterBlocks (Lew;Lcjq;Lbmv;Z)Ljava/util/List;
+	METHOD a save (Lid;)Lid;
+	METHOD a loadPalette (Lik;Lik;)V
+	METHOD a setAuthor (Ljava/lang/String;)V
+	METHOD a newDoubleList ([D)Lik;
+	METHOD a newIntegerList ([I)Lik;
+	METHOD b getAuthor ()Ljava/lang/String;
+	METHOD b placeInWorld (Lbhs;Lew;Lcjq;)V
+	METHOD b getBoundingBox (Lcjq;Lew;)Lcic;
+	METHOD b load (Lid;)V

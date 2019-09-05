@@ -1,0 +1,8 @@
+CLASS cfg net/minecraft/world/level/levelgen/feature/VoidStartPlatformFeature
+	FIELD a PLATFORM_ORIGIN Lew;
+	FIELD aS PLATFORM_ORIGIN_CHUNK Lbhd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a checkerboardDistance (IIII)I
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcdd;)Z

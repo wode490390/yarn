@@ -1,0 +1,3 @@
+CLASS box net/minecraft/world/level/block/FletchingTableBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z

@@ -1,0 +1,6 @@
+CLASS bqr net/minecraft/world/level/block/PotatoBlock
+	FIELD a SHAPE_BY_AGE [Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD f getBaseSeedId ()Lbhq;

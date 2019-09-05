@@ -1,0 +1,14 @@
+CLASS atq net/minecraft/world/entity/decoration/Painting
+	FIELD e motive Latp;
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;Lew;Lfb;)V
+	METHOD <init> <init> (Lbhr;Lew;Lfb;Latp;)V
+	METHOD N getAddEntityPacket ()Lkc;
+	METHOD a lerpTo (DDDFFIZ)V
+	METHOD a dropItem (Laio;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b moveTo (DDDFF)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD k getWidth ()I
+	METHOD l getHeight ()I
+	METHOD m playPlacementSound ()V

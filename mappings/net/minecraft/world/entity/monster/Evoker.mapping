@@ -1,0 +1,69 @@
+CLASS aul net/minecraft/world/entity/monster/Evoker
+	CLASS 1 1
+	CLASS a EvokerAttackSpellGoal
+		FIELD a this$0 Laul;
+		METHOD <init> <init> (Laul;)V
+		METHOD <init> <init> (Laul;Laul$1;)V
+		METHOD a createSpellEntity (DDDDFI)V
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Lyo;
+		METHOD l getSpell ()Lavf$a;
+	CLASS b EvokerCastingSpellGoal
+		FIELD a this$0 Laul;
+		METHOD <init> <init> (Laul;)V
+		METHOD <init> <init> (Laul;Laul$1;)V
+		METHOD e tick ()V
+	CLASS c EvokerSummonSpellGoal
+		FIELD a this$0 Laul;
+		FIELD e vexCountTargeting Laqi;
+		METHOD <init> <init> (Laul;)V
+		METHOD <init> <init> (Laul;Laul$1;)V
+		METHOD a canUse ()Z
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Lyo;
+		METHOD l getSpell ()Lavf$a;
+	CLASS d EvokerWololoSpellGoal
+		FIELD a this$0 Laul;
+		FIELD e wololoTargeting Laqi;
+		METHOD <init> <init> (Laul;)V
+		METHOD a canUse ()Z
+		METHOD a lambda$new$0 (Laix;)Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Lyo;
+		METHOD l getSpell ()Lavf$a;
+		METHOD m getCastWarmupTime ()I
+	FIELD bz wololoTarget Lars;
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD L customServerAiStep ()V
+	METHOD a applyRaidBuffs (IZ)V
+	METHOD a setWololoTarget (Lars;)V
+	METHOD a access$300 (Laul;)Lars;
+	METHOD a access$900 (Laul;Lars;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b access$400 (Laul;)Ljava/util/Random;
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c access$500 (Laul;)Ljava/util/Random;
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cl registerAttributes ()V
+	METHOD d access$600 (Laul;)Ljava/util/Random;
+	METHOD dV getCelebrateSound ()Lyo;
+	METHOD dW getCastingSoundEvent ()Lyo;
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD e access$700 (Laul;)Ljava/util/Random;
+	METHOD ep getWololoTarget ()Lars;
+	METHOD f access$800 (Laul;)Ljava/util/Random;
+	METHOD h tick ()V
+	METHOD n registerGoals ()V
+	METHOD r isAlliedTo (Laio;)Z
+	METHOD u_ defineSynchedData ()V

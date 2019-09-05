@@ -1,0 +1,4 @@
+CLASS bsh net/minecraft/world/level/block/StemGrownBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD d getStem ()Lbsg;
+	METHOD e getAttachedStem ()Lbmb;

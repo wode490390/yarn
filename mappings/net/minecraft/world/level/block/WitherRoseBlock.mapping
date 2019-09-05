@@ -1,0 +1,5 @@
+CLASS bti net/minecraft/world/level/block/WitherRoseBlock
+	METHOD <init> <init> (Laig;Lbmv$c;)V
+	METHOD a entityInside (Lbvt;Lbhr;Lew;Laio;)V
+	METHOD a animateTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD a_ mayPlaceOn (Lbvt;Lbhb;Lew;)Z

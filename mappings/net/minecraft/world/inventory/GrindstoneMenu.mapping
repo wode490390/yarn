@@ -1,0 +1,37 @@
+CLASS aze net/minecraft/world/inventory/GrindstoneMenu
+	CLASS 1 1
+		FIELD a this$0 Laze;
+		METHOD <init> <init> (Laze;I)V
+		METHOD e setChanged ()V
+	CLASS 2 2
+		FIELD a this$0 Laze;
+		METHOD <init> <init> (Laze;Lahc;III)V
+		METHOD a mayPlace (Lbcj;)Z
+	CLASS 3 3
+		FIELD a this$0 Laze;
+		METHOD <init> <init> (Laze;Lahc;III)V
+		METHOD a mayPlace (Lbcj;)Z
+	CLASS 4 4
+		FIELD a val$access Layu;
+		FIELD b this$0 Laze;
+		METHOD <init> <init> (Laze;Lahc;IIILayu;)V
+		METHOD a onTake (Lawg;Lbcj;)Lbcj;
+		METHOD a mayPlace (Lbcj;)Z
+		METHOD a getExperienceAmount (Lbhr;)I
+		METHOD a lambda$onTake$0 (Lbhr;Lew;)V
+		METHOD e getExperienceFromItem (Lbcj;)I
+	FIELD c resultSlots Lahc;
+	FIELD d repairSlots Lahc;
+	FIELD e access Layu;
+	METHOD <init> <init> (ILawf;)V
+	METHOD <init> <init> (ILawf;Layu;)V
+	METHOD a slotsChanged (Lahc;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a lambda$removed$1 (Lawg;Lbhr;Lew;)V
+	METHOD a access$000 (Laze;)Lahc;
+	METHOD a removeNonCurses (Lbcj;II)Lbcj;
+	METHOD a lambda$removeNonCurses$0 (Ljava/util/Map$Entry;)Z
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;
+	METHOD b mergeEnchants (Lbcj;Lbcj;)Lbcj;
+	METHOD e createResult ()V

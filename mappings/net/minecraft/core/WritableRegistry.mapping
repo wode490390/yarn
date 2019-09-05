@@ -1,0 +1,5 @@
+CLASS ft net/minecraft/core/WritableRegistry
+	METHOD <init> <init> ()V
+	METHOD a registerMapping (ILqv;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a register (Lqv;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD c isEmpty ()Z

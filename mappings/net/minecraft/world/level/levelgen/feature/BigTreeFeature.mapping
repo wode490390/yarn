@@ -1,0 +1,22 @@
+CLASS bzx net/minecraft/world/level/levelgen/feature/BigTreeFeature
+	CLASS a FoliageCoords
+		FIELD b branchBase I
+		METHOD <init> <init> (Lew;I)V
+		METHOD r getBranchBase ()I
+	FIELD a LOG Lbvt;
+	FIELD aS LEAVES Lbvt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Z)V
+	METHOD a foliageShape (I)F
+	METHOD a treeShape (II)F
+	METHOD a makeFoliage (Lbhw;ILew;Ljava/util/List;Lcic;Ljava/util/Set;)V
+	METHOD a crossSection (Lbhw;Lew;FLcic;Ljava/util/Set;)V
+	METHOD a foliageCluster (Lbhw;Lew;Lcic;Ljava/util/Set;)V
+	METHOD a getSteps (Lew;)I
+	METHOD a getLogAxis (Lew;Lew;)Lfb$a;
+	METHOD a makeBranches (Ljava/util/Set;Lbhw;ILew;Ljava/util/List;Lcic;)V
+	METHOD a makeTrunk (Ljava/util/Set;Lbhw;Lew;ILcic;)V
+	METHOD a makeLimb (Ljava/util/Set;Lbhw;Lew;Lew;ZLcic;)I
+	METHOD a doPlace (Ljava/util/Set;Lbhw;Ljava/util/Random;Lew;Lcic;)Z
+	METHOD b trimBranches (II)Z
+	METHOD b checkLocation (Ljava/util/Set;Lbhw;Lew;ILcic;)I

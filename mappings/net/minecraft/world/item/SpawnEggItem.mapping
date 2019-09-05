@@ -1,0 +1,14 @@
+CLASS bdh net/minecraft/world/item/SpawnEggItem
+	FIELD a BY_ID Ljava/util/Map;
+	FIELD b color1 I
+	FIELD c color2 I
+	FIELD d defaultType Lais;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;IILbce$a;)V
+	METHOD a getColor (I)I
+	METHOD a byId (Lais;)Lbdh;
+	METHOD a useOn (Lbdu;)Lahj;
+	METHOD a use (Lbhr;Lawg;Lahi;)Lahk;
+	METHOD a spawnsEntity (Lid;Lais;)Z
+	METHOD b getType (Lid;)Lais;
+	METHOD d eggs ()Ljava/lang/Iterable;

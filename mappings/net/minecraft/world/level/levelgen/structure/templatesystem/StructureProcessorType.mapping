@@ -1,0 +1,11 @@
+CLASS cjs net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorType
+	FIELD b BLOCK_IGNORE Lcjs;
+	FIELD c BLOCK_ROT Lcjs;
+	FIELD d GRAVITY Lcjs;
+	FIELD e JIGSAW_REPLACEMENT Lcjs;
+	FIELD f RULE Lcjs;
+	FIELD g NOP Lcjs;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$1 (Lcom/mojang/datafixers/Dynamic;)Lcjr;
+	METHOD a register (Ljava/lang/String;Lcjs;)Lcjs;
+	METHOD b lambda$static$0 (Lcom/mojang/datafixers/Dynamic;)Lcjr;

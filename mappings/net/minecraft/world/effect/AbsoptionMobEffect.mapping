@@ -1,0 +1,4 @@
+CLASS aic net/minecraft/world/effect/AbsoptionMobEffect
+	METHOD <init> <init> (Laih;I)V
+	METHOD a removeAttributeModifiers (Laix;Lajr;I)V
+	METHOD b addAttributeModifiers (Laix;Lajr;I)V

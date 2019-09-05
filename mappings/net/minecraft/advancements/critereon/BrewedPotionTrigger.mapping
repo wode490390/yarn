@@ -1,0 +1,28 @@
+CLASS af net/minecraft/advancements/critereon/BrewedPotionTrigger
+	CLASS a PlayerListeners
+		FIELD a player Lre;
+		FIELD b listeners Ljava/util/Set;
+		METHOD <init> <init> (Lre;)V
+		METHOD a isEmpty ()Z
+		METHOD a trigger (Lbdy;)V
+		METHOD a addListener (Lx$a;)V
+		METHOD b removeListener (Lx$a;)V
+	CLASS b TriggerInstance
+		FIELD a potion Lbdy;
+		METHOD <init> <init> (Lbdy;)V
+		METHOD a matches (Lbdy;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD c brewedPotion ()Laf$b;
+	FIELD a ID Lqv;
+	FIELD b players Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lqv;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ly;
+	METHOD a lambda$createInstance$0 (Lqv;)Lcom/google/gson/JsonSyntaxException;
+	METHOD a removePlayerListeners (Lre;)V
+	METHOD a addPlayerListener (Lre;Lx$a;)V
+	METHOD a trigger (Lvl;Lbdy;)V
+	METHOD b access$000 ()Lqv;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Laf$b;
+	METHOD b removePlayerListener (Lre;Lx$a;)V

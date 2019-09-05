@@ -1,0 +1,4 @@
+CLASS bcz net/minecraft/world/item/ScaffoldingBlockItem
+	METHOD <init> <init> (Lbmv;Lbce$a;)V
+	METHOD b updatePlacementContext (Lban;)Lban;
+	METHOD d mustSurvive ()Z

@@ -1,0 +1,2 @@
+CLASS bkq net/minecraft/world/level/biome/PlainsBiome
+	METHOD <init> <init> ()V

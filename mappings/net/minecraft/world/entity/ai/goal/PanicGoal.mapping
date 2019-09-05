@@ -1,0 +1,12 @@
+CLASS anx net/minecraft/world/entity/ai/goal/PanicGoal
+	FIELD a mob Laje;
+	FIELD b speedModifier D
+	FIELD c posX D
+	FIELD d posY D
+	FIELD e posZ D
+	METHOD <init> <init> (Laje;D)V
+	METHOD a canUse ()Z
+	METHOD a lookForWater (Lbhb;Laio;II)Lew;
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD g findRandomPosition ()Z

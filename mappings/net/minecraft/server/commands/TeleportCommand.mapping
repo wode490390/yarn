@@ -1,0 +1,23 @@
+CLASS tv net/minecraft/server/commands/TeleportCommand
+	CLASS a LookAt
+		FIELD a position Lcsi;
+		FIELD b entity Laio;
+		FIELD c anchor Lck$a;
+		METHOD <init> <init> (Laio;Lck$a;)V
+		METHOD <init> <init> (Lcsi;)V
+		METHOD a perform (Lcd;Laio;)V
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$9 (Lcd;)Z
+	METHOD a performTeleport (Lcd;Laio;Lvk;DDDLjava/util/Set;FFLtv$a;)V
+	METHOD a teleportToEntity (Lcd;Ljava/util/Collection;Laio;)I
+	METHOD a teleportToPos (Lcd;Ljava/util/Collection;Lvk;Ldl;Ldl;Ltv$a;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$8 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$register$0 (Lcd;)Z
+	METHOD b lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD g lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD h lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

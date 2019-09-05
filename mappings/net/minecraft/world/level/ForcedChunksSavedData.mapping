@@ -1,0 +1,6 @@
+CLASS bhm net/minecraft/world/level/ForcedChunksSavedData
+	FIELD a chunks Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD <init> <init> ()V
+	METHOD a getChunks ()Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD a load (Lid;)V
+	METHOD b save (Lid;)Lid;

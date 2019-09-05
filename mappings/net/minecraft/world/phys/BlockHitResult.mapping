@@ -1,0 +1,13 @@
+CLASS csd net/minecraft/world/phys/BlockHitResult
+	FIELD b direction Lfb;
+	FIELD c blockPos Lew;
+	FIELD d miss Z
+	FIELD e inside Z
+	METHOD <init> <init> (Lcsi;Lfb;Lew;Z)V
+	METHOD <init> <init> (ZLcsi;Lfb;Lew;Z)V
+	METHOD a getBlockPos ()Lew;
+	METHOD a miss (Lcsi;Lfb;Lew;)Lcsd;
+	METHOD a withDirection (Lfb;)Lcsd;
+	METHOD b getDirection ()Lfb;
+	METHOD c getType ()Lcsf$a;
+	METHOD d isInside ()Z

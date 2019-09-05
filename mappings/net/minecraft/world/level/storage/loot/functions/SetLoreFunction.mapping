@@ -1,0 +1,30 @@
+CLASS cqp net/minecraft/world/level/storage/loot/functions/SetLoreFunction
+	CLASS a Builder
+		FIELD a replace Z
+		FIELD b resolutionContext Lcoy$c;
+		FIELD c lore Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Lcqp$a;
+		METHOD a setResolutionContext (Lcoy$c;)Lcqp$a;
+		METHOD a addLine (Ljo;)Lcqp$a;
+		METHOD a setReplace (Z)Lcqp$a;
+		METHOD b build ()Lcqh;
+		METHOD d getThis ()Lcqg$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqp;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqp;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a replace Z
+	FIELD c lore Ljava/util/List;
+	FIELD d resolutionContext Lcoy$c;
+	METHOD <init> <init> ([Lcrk;ZLjava/util/List;Lcoy$c;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a getLoreTag (Lbcj;Z)Lik;
+	METHOD a access$000 (Lcqp;)Z
+	METHOD b setLore ()Lcqp$a;
+	METHOD b access$100 (Lcqp;)Ljava/util/List;
+	METHOD c access$200 (Lcqp;)Lcoy$c;

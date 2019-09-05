@@ -1,0 +1,11 @@
+CLASS b com/mojang/math/Vector3f
+	FIELD a values [F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcsi;)V
+	METHOD a x ()F
+	METHOD a set (FFF)V
+	METHOD a transform (La;)V
+	METHOD b y ()F
+	METHOD c z ()F
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

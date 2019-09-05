@@ -1,0 +1,4 @@
+CLASS bbq net/minecraft/world/item/EndCrystalItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a useOn (Lbdu;)Lahj;
+	METHOD d_ isFoil (Lbcj;)Z

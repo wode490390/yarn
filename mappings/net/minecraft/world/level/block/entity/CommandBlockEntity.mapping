@@ -1,0 +1,41 @@
+CLASS bub net/minecraft/world/level/block/entity/CommandBlockEntity
+	CLASS 1 1
+		FIELD b this$0 Lbub;
+		METHOD <init> <init> (Lbub;)V
+		METHOD a writeCoordinates (Lio/netty/buffer/ByteBuf;)V
+		METHOD a setCommand (Ljava/lang/String;)V
+		METHOD d getLevel ()Lvk;
+		METHOD e onUpdated ()V
+		METHOD f getPosition ()Lcsi;
+		METHOD h createCommandSourceStack ()Lcd;
+	CLASS a Mode
+		FIELD a SEQUENCE Lbub$a;
+		FIELD b AUTO Lbub$a;
+		FIELD c REDSTONE Lbub$a;
+		FIELD d $VALUES [Lbub$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbub$a;
+		METHOD values values ()[Lbub$a;
+	FIELD a powered Z
+	FIELD b auto Z
+	FIELD c conditionMet Z
+	FIELD g sendToClient Z
+	FIELD h commandBlock Lbgx;
+	METHOD <init> <init> ()V
+	METHOD a getUpdatePacket ()Lkq;
+	METHOD a load (Lid;)V
+	METHOD a setPowered (Z)V
+	METHOD b save (Lid;)Lid;
+	METHOD b setAutomatic (Z)V
+	METHOD c setSendToClient (Z)V
+	METHOD d getCommandBlock ()Lbgx;
+	METHOD f isPowered ()Z
+	METHOD g isAutomatic ()Z
+	METHOD h wasConditionMet ()Z
+	METHOD n clearRemoved ()V
+	METHOD p onlyOpCanSetNbt ()Z
+	METHOD s markConditionMet ()Z
+	METHOD t isSendToClient ()Z
+	METHOD u getMode ()Lbub$a;
+	METHOD v isConditional ()Z

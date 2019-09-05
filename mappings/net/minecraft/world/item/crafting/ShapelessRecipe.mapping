@@ -1,0 +1,28 @@
+CLASS bex net/minecraft/world/item/crafting/ShapelessRecipe
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a itemsFromJson (Lcom/google/gson/JsonArray;)Lfk;
+		METHOD a toNetwork (Lje;Lber;)V
+		METHOD a toNetwork (Lje;Lbex;)V
+		METHOD a fromJson (Lqv;Lcom/google/gson/JsonObject;)Lber;
+		METHOD a fromNetwork (Lqv;Lje;)Lber;
+		METHOD b fromJson (Lqv;Lcom/google/gson/JsonObject;)Lbex;
+		METHOD b fromNetwork (Lqv;Lje;)Lbex;
+	FIELD a id Lqv;
+	FIELD b group Ljava/lang/String;
+	FIELD c result Lbcj;
+	FIELD d ingredients Lfk;
+	METHOD <init> <init> (Lqv;Ljava/lang/String;Lbcj;Lfk;)V
+	METHOD Q_ getSerializer ()Lbet;
+	METHOD a getIngredients ()Lfk;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lahc;)Lbcj;
+	METHOD a matches (Lahc;Lbhr;)Z
+	METHOD a assemble (Layw;)Lbcj;
+	METHOD a matches (Layw;Lbhr;)Z
+	METHOD a access$000 (Lbex;)Ljava/lang/String;
+	METHOD b access$100 (Lbex;)Lfk;
+	METHOD c getResultItem ()Lbcj;
+	METHOD c access$200 (Lbex;)Lbcj;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD f getId ()Lqv;

@@ -1,0 +1,6 @@
+CLASS qt net/minecraft/recipebook/ServerPlaceSmeltingRecipe
+	FIELD e recipeMatchesPlaced Z
+	METHOD <init> <init> (Lazq;)V
+	METHOD a clearGrid ()V
+	METHOD a placeRecipe (ILit/unimi/dsi/fastutil/ints/IntList;)V
+	METHOD a handleRecipeClicked (Lber;Z)V

@@ -1,0 +1,49 @@
+CLASS arv net/minecraft/world/entity/animal/Squid
+	CLASS 1 1
+	CLASS a SquidFleeGoal
+		FIELD a this$0 Larv;
+		FIELD b fleeTicks I
+		METHOD <init> <init> (Larv;)V
+		METHOD <init> <init> (Larv;Larv$1;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS b SquidRandomMovementGoal
+		FIELD a this$0 Larv;
+		FIELD b squid Larv;
+		METHOD <init> <init> (Larv;Larv;)V
+		METHOD a canUse ()Z
+		METHOD e tick ()V
+	FIELD bA tentacleMovement F
+	FIELD bB oldTentacleMovement F
+	FIELD bC tentacleAngle F
+	FIELD bD oldTentacleAngle F
+	FIELD bE speed F
+	FIELD b xBodyRot F
+	FIELD bF tentacleSpeed F
+	FIELD bG rotateSpeed F
+	FIELD bH tx F
+	FIELD bI ty F
+	FIELD bJ tz F
+	FIELD bz zBodyRotO F
+	FIELD c xBodyRotO F
+	FIELD d zBodyRot F
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a handleEntityEvent (B)V
+	METHOD a setMovementVector (FFF)V
+	METHOD a hurt (Lahx;F)Z
+	METHOD a access$100 (Larv;)Z
+	METHOD ap makeStepSound ()Z
+	METHOD b checkSquidSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD b getStandingEyeHeight (Lajh;Laip;)F
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cU getSoundVolume ()F
+	METHOD cl registerAttributes ()V
+	METHOD dV spawnInk ()V
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD e travel (Lcsi;)V
+	METHOD f rotateVector (Lcsi;)Lcsi;
+	METHOD k aiStep ()V
+	METHOD l hasMovementVector ()Z
+	METHOD n registerGoals ()V

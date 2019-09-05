@@ -1,0 +1,3 @@
+CLASS crd net/minecraft/world/level/storage/loot/predicates/ConditionUserBuilder
+	METHOD b when (Lcrk$a;)Ljava/lang/Object;
+	METHOD c unwrap ()Ljava/lang/Object;

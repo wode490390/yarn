@@ -1,0 +1,14 @@
+CLASS cfm net/minecraft/world/level/levelgen/feature/structures/FeaturePoolElement
+	FIELD a feature Lcal;
+	FIELD b defaultJigsawNBT Lid;
+	METHOD <init> <init> (Lcal;)V
+	METHOD <init> <init> (Lcal;Lcft$a;)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getType ()Lcfs;
+	METHOD a place (Lcjp;Lbhs;Lew;Lbrg;Lcic;Ljava/util/Random;)Z
+	METHOD a getSize (Lcjp;Lbrg;)Lew;
+	METHOD a getBoundingBox (Lcjp;Lew;Lbrg;)Lcic;
+	METHOD a getShuffledJigsawBlocks (Lcjp;Lew;Lbrg;Ljava/util/Random;)Ljava/util/List;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b fillDefaultJigsawNBT ()Lid;
+	METHOD toString toString ()Ljava/lang/String;

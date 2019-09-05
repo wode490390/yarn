@@ -1,0 +1,3 @@
+CLASS acl net/minecraft/util/datafix/fixes/EntityTippedArrowFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a rename (Ljava/lang/String;)Ljava/lang/String;

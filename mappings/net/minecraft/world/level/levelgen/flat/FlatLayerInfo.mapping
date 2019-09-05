@@ -1,0 +1,10 @@
+CLASS cfw net/minecraft/world/level/levelgen/flat/FlatLayerInfo
+	FIELD a blockState Lbvt;
+	FIELD b height I
+	FIELD c start I
+	METHOD <init> <init> (ILbmv;)V
+	METHOD a getHeight ()I
+	METHOD a setStart (I)V
+	METHOD b getBlockState ()Lbvt;
+	METHOD c getStart ()I
+	METHOD toString toString ()Ljava/lang/String;

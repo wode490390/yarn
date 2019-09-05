@@ -1,0 +1,9 @@
+CLASS bxy net/minecraft/world/level/chunk/Palette
+	METHOD a getSerializedSize ()I
+	METHOD a valueFor (I)Ljava/lang/Object;
+	METHOD a read (Lik;)V
+	METHOD a idFor (Ljava/lang/Object;)I
+	METHOD a read (Lje;)V
+	METHOD b getSize ()I
+	METHOD b maybeHas (Ljava/lang/Object;)Z
+	METHOD b write (Lje;)V

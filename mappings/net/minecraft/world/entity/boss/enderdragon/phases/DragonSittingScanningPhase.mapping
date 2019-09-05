@@ -1,0 +1,10 @@
+CLASS atc net/minecraft/world/entity/boss/enderdragon/phases/DragonSittingScanningPhase
+	FIELD b CHARGE_TARGETING Laqi;
+	FIELD c scanTargeting Laqi;
+	FIELD d scanningTime I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;)V
+	METHOD a lambda$new$0 (Lasp;Laix;)Z
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD i getPhase ()Latf;

@@ -1,0 +1,13 @@
+CLASS bta net/minecraft/world/level/block/WallBlock
+	FIELD i UP Lbwl;
+	FIELD j shapeWithPostByIndex [Lctc;
+	FIELD k collisionShapeWithPostByIndex [Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a connectsTo (Lbvt;ZLfb;)Z
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b getCollisionShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;

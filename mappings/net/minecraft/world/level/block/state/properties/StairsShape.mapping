@@ -1,0 +1,14 @@
+CLASS bxa net/minecraft/world/level/block/state/properties/StairsShape
+	FIELD a STRAIGHT Lbxa;
+	FIELD b INNER_LEFT Lbxa;
+	FIELD c INNER_RIGHT Lbxa;
+	FIELD d OUTER_LEFT Lbxa;
+	FIELD e OUTER_RIGHT Lbxa;
+	FIELD f name Ljava/lang/String;
+	FIELD g $VALUES [Lbxa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD m getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbxa;
+	METHOD values values ()[Lbxa;

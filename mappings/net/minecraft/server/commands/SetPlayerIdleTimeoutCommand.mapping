@@ -1,0 +1,6 @@
+CLASS tl net/minecraft/server/commands/SetPlayerIdleTimeoutCommand
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a setIdleTimeout (Lcd;I)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

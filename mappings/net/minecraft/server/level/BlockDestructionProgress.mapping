@@ -1,0 +1,12 @@
+CLASS uu net/minecraft/server/level/BlockDestructionProgress
+	FIELD a id I
+	FIELD b pos Lew;
+	FIELD c progress I
+	FIELD d updatedRenderTick I
+	METHOD <init> <init> (ILew;)V
+	METHOD a getId ()I
+	METHOD a setProgress (I)V
+	METHOD b getPos ()Lew;
+	METHOD b updateTick (I)V
+	METHOD c getProgress ()I
+	METHOD d getUpdatedRenderTick ()I

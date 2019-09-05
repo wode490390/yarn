@@ -1,0 +1,5 @@
+CLASS zq net/minecraft/util/Deserializer
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;Lfn;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD deserialize deserialize (Lcom/mojang/datafixers/Dynamic;)Ljava/lang/Object;

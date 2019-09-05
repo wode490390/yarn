@@ -1,0 +1,20 @@
+CLASS akk net/minecraft/world/entity/ai/behavior/InteractWith
+	FIELD a maxDist I
+	FIELD b speed F
+	FIELD c type Lais;
+	FIELD d interactionRangeSqr I
+	FIELD e targetFilter Ljava/util/function/Predicate;
+	FIELD f selfFilter Ljava/util/function/Predicate;
+	FIELD g memory Lapj;
+	METHOD <init> <init> (Lais;ILjava/util/function/Predicate;Ljava/util/function/Predicate;Lapj;FI)V
+	METHOD a of (Lais;ILapj;FI)Lakk;
+	METHOD a lambda$null$4 (Laix;)Laix;
+	METHOD a lambda$null$5 (Laix;Laix;)Z
+	METHOD a lambda$start$7 (Laix;Lajm;Ljava/util/List;)V
+	METHOD a lambda$null$6 (Lajm;Laix;)V
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD b lambda$null$3 (Laix;)Z
+	METHOD c lambda$checkExtraStartConditions$2 (Laix;)Z
+	METHOD d lambda$of$1 (Laix;)Z
+	METHOD e lambda$of$0 (Laix;)Z

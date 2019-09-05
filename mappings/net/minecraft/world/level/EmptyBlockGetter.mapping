@@ -1,0 +1,10 @@
+CLASS bhh net/minecraft/world/level/EmptyBlockGetter
+	FIELD a INSTANCE Lbhh;
+	FIELD b $VALUES [Lbhh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD b getFluidState (Lew;)Lclk;
+	METHOD d getBlockEntity (Lew;)Lbtw;
+	METHOD e_ getBlockState (Lew;)Lbvt;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbhh;
+	METHOD values values ()[Lbhh;

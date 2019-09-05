@@ -1,0 +1,8 @@
+CLASS ex net/minecraft/core/BlockSource
+	METHOD a x ()D
+	METHOD b y ()D
+	METHOD c z ()D
+	METHOD d getPos ()Lew;
+	METHOD e getBlockState ()Lbvt;
+	METHOD f getMaterial ()Lclo;
+	METHOD g getEntity ()Lbtw;

@@ -1,0 +1,2 @@
+CLASS bpy net/minecraft/world/level/block/LevelEvent
+	METHOD <init> <init> ()V

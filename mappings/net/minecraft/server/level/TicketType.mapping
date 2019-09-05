@@ -1,0 +1,21 @@
+CLASS vp net/minecraft/server/level/TicketType
+	FIELD a START Lvp;
+	FIELD b DRAGON Lvp;
+	FIELD c PLAYER Lvp;
+	FIELD d FORCED Lvp;
+	FIELD e LIGHT Lvp;
+	FIELD f PORTAL Lvp;
+	FIELD g POST_TELEPORT Lvp;
+	FIELD h UNKNOWN Lvp;
+	FIELD i name Ljava/lang/String;
+	FIELD j comparator Ljava/util/Comparator;
+	FIELD k timeout J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;Ljava/util/Comparator;J)V
+	METHOD a getComparator ()Ljava/util/Comparator;
+	METHOD a lambda$static$1 (Laag;Laag;)I
+	METHOD a create (Ljava/lang/String;Ljava/util/Comparator;)Lvp;
+	METHOD a create (Ljava/lang/String;Ljava/util/Comparator;I)Lvp;
+	METHOD b timeout ()J
+	METHOD b lambda$static$0 (Laag;Laag;)I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,44 @@
+CLASS jo net/minecraft/network/chat/Component
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$ChatFormatting [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Serializer
+		FIELD a GSON Lcom/google/gson/Gson;
+		FIELD b JSON_READER_POS Ljava/lang/reflect/Field;
+		FIELD c JSON_READER_LINESTART Ljava/lang/reflect/Field;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD a lambda$static$2 ()Ljava/lang/reflect/Field;
+		METHOD a fromJson (Lcom/google/gson/JsonElement;)Ljo;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljo;
+		METHOD a getPos (Lcom/google/gson/stream/JsonReader;)I
+		METHOD a fromJson (Lcom/mojang/brigadier/StringReader;)Ljo;
+		METHOD a fromJson (Ljava/lang/String;)Ljo;
+		METHOD a toJson (Ljo;)Ljava/lang/String;
+		METHOD a serialize (Ljo;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a serializeStyle (Ljw;Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b lambda$static$1 ()Ljava/lang/reflect/Field;
+		METHOD b fromJsonLenient (Ljava/lang/String;)Ljo;
+		METHOD b toJsonTree (Ljo;)Lcom/google/gson/JsonElement;
+		METHOD c lambda$static$0 ()Lcom/google/gson/Gson;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+	METHOD a getSiblings ()Ljava/util/List;
+	METHOD a getString (I)Ljava/lang/String;
+	METHOD a withStyle (Lc;)Ljo;
+	METHOD a append (Ljava/lang/String;)Ljo;
+	METHOD a lambda$getString$0 (Ljava/lang/StringBuilder;Ljo;)V
+	METHOD a withStyle (Ljava/util/function/Consumer;)Ljo;
+	METHOD a append (Ljo;)Ljo;
+	METHOD a setStyle (Ljw;)Ljo;
+	METHOD a withStyle ([Lc;)Ljo;
+	METHOD b getStyle ()Ljw;
+	METHOD b flattenStyle (Ljo;)Ljo;
+	METHOD c stream ()Ljava/util/stream/Stream;
+	METHOD d getContents ()Ljava/lang/String;
+	METHOD e getColoredString ()Ljava/lang/String;
+	METHOD f flatStream ()Ljava/util/stream/Stream;
+	METHOD g copy ()Ljo;
+	METHOD getString getString ()Ljava/lang/String;
+	METHOD h deepCopy ()Ljo;
+	METHOD iterator iterator ()Ljava/util/Iterator;

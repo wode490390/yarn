@@ -1,0 +1,37 @@
+CLASS bog net/minecraft/world/level/block/DoorBlock
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		FIELD b $SwitchMap$net$minecraft$world$level$pathfinder$PathComputationType [I
+		METHOD <clinit> <clinit> ()V
+	FIELD a FACING Lbwo;
+	FIELD b OPEN Lbwl;
+	FIELD c HINGE Lbwr;
+	FIELD d POWERED Lbwl;
+	FIELD e HALF Lbwr;
+	FIELD f SOUTH_AABB Lctc;
+	FIELD g NORTH_AABB Lctc;
+	FIELD h WEST_AABB Lctc;
+	FIELD i EAST_AABB Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a playerDestroy (Lbhr;Lawg;Lew;Lbvt;Lbtw;Lbcj;)V
+	METHOD a setPlacedBy (Lbhr;Lew;Lbvt;Laix;Lbcj;)V
+	METHOD a playerWillDestroy (Lbhr;Lew;Lbvt;Lawg;)V
+	METHOD a setOpen (Lbhr;Lew;Z)V
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a neighborChanged (Lbvt;Lbhr;Lew;Lbmv;Lew;Z)V
+	METHOD a canSurvive (Lbvt;Lbhu;Lew;)Z
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a getSeed (Lbvt;Lew;)J
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b getHinge (Lban;)Lbwp;
+	METHOD b playSound (Lbhr;Lew;Z)V
+	METHOD c getRenderLayer ()Lbhc;
+	METHOD d getCloseSound ()I
+	METHOD e getOpenSound ()I
+	METHOD i getPistonPushReaction (Lbvt;)Lclq;

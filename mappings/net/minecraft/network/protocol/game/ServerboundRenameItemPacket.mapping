@@ -1,0 +1,9 @@
+CLASS ow net/minecraft/network/protocol/game/ServerboundRenameItemPacket
+	FIELD a name Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b write (Lje;)V

@@ -1,0 +1,19 @@
+CLASS cjp net/minecraft/world/level/levelgen/structure/templatesystem/StructureManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b structureRepository Ljava/util/Map;
+	FIELD c fixerUpper Lcom/mojang/datafixers/DataFixer;
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	FIELD e generatedDir Ljava/nio/file/Path;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;Lcom/mojang/datafixers/DataFixer;)V
+	METHOD a readStructure (Ljava/io/InputStream;)Lcjt;
+	METHOD a getOrCreate (Lqv;)Lcjt;
+	METHOD a createPathToStructure (Lqv;Ljava/lang/String;)Ljava/nio/file/Path;
+	METHOD a onResourceManagerReload (Lxi;)V
+	METHOD b get (Lqv;)Lcjt;
+	METHOD b createAndValidatePathToStructure (Lqv;Ljava/lang/String;)Ljava/nio/file/Path;
+	METHOD c save (Lqv;)Z
+	METHOD d remove (Lqv;)V
+	METHOD e loadFromResource (Lqv;)Lcjt;
+	METHOD f loadFromGenerated (Lqv;)Lcjt;
+	METHOD g lambda$get$0 (Lqv;)Lcjt;

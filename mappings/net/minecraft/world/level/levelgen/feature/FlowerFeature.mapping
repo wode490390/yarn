@@ -1,0 +1,5 @@
+CLASS cbr net/minecraft/world/level/levelgen/feature/FlowerFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcdd;)Z
+	METHOD a getRandomFlower (Ljava/util/Random;Lew;)Lbvt;

@@ -1,0 +1,7 @@
+CLASS tf net/minecraft/server/commands/SaveOnCommand
+	FIELD a ERROR_ALREADY_ON Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

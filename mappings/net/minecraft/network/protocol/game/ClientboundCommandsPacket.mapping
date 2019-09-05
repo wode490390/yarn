@@ -1,0 +1,24 @@
+CLASS ky net/minecraft/network/protocol/game/ClientboundCommandsPacket
+	CLASS 1 1
+	CLASS a Entry
+		FIELD a builder Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		FIELD b flags B
+		FIELD c redirect I
+		FIELD d children [I
+		FIELD e node Lcom/mojang/brigadier/tree/CommandNode;
+		METHOD <init> <init> (Lcom/mojang/brigadier/builder/ArgumentBuilder;BI[I)V
+		METHOD <init> <init> (Lcom/mojang/brigadier/builder/ArgumentBuilder;BI[ILky$1;)V
+		METHOD a lambda$build$0 (Lcom/mojang/brigadier/context/CommandContext;)I
+		METHOD a access$000 (Lky$a;)Lcom/mojang/brigadier/tree/CommandNode;
+		METHOD a build ([Lky$a;)Z
+	FIELD a root Lcom/mojang/brigadier/tree/RootCommandNode;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcom/mojang/brigadier/tree/RootCommandNode;)V
+	METHOD a read (Lje;)V
+	METHOD a createBuilder (Lje;B)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	METHOD a writeNode (Lje;Lcom/mojang/brigadier/tree/CommandNode;Ljava/util/Map;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getRoot ()Lcom/mojang/brigadier/tree/RootCommandNode;
+	METHOD b write (Lje;)V
+	METHOD c readNode (Lje;)Lky$a;

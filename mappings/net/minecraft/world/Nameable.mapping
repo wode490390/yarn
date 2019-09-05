@@ -1,0 +1,5 @@
+CLASS ahn net/minecraft/world/Nameable
+	METHOD O getName ()Ljo;
+	METHOD P hasCustomName ()Z
+	METHOD Q getCustomName ()Ljo;
+	METHOD d getDisplayName ()Ljo;

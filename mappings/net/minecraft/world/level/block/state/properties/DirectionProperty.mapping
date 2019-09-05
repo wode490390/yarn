@@ -1,0 +1,6 @@
+CLASS bwo net/minecraft/world/level/block/state/properties/DirectionProperty
+	METHOD <init> <init> (Ljava/lang/String;Ljava/util/Collection;)V
+	METHOD a create (Ljava/lang/String;)Lbwo;
+	METHOD a create (Ljava/lang/String;Ljava/util/Collection;)Lbwo;
+	METHOD a create (Ljava/lang/String;Ljava/util/function/Predicate;)Lbwo;
+	METHOD a create (Ljava/lang/String;[Lfb;)Lbwo;

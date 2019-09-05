@@ -1,0 +1,6 @@
+CLASS pq net/minecraft/network/protocol/login/ClientLoginPacketListener
+	METHOD a handleCustomQuery (Lpr;)V
+	METHOD a handleGameProfile (Lps;)V
+	METHOD a handleHello (Lpt;)V
+	METHOD a handleCompression (Lpu;)V
+	METHOD a handleDisconnect (Lpv;)V

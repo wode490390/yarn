@@ -1,0 +1,20 @@
+CLASS btz net/minecraft/world/level/block/entity/CampfireBlockEntity
+	FIELD a items Lfk;
+	FIELD b cookingProgress [I
+	FIELD c cookingTime [I
+	METHOD <init> <init> ()V
+	METHOD L_ clearContent ()V
+	METHOD T_ tick ()V
+	METHOD a getUpdatePacket ()Lkq;
+	METHOD a lambda$cook$0 (Lahc;Lbei;)Lbcj;
+	METHOD a getCookableRecipe (Lbcj;)Ljava/util/Optional;
+	METHOD a placeFood (Lbcj;I)Z
+	METHOD a load (Lid;)V
+	METHOD b getUpdateTag ()Lid;
+	METHOD b save (Lid;)Lid;
+	METHOD d getItems ()Lfk;
+	METHOD d saveMetadataAndItems (Lid;)Lid;
+	METHOD f dowse ()V
+	METHOD h cook ()V
+	METHOD s makeParticles ()V
+	METHOD t markUpdated ()V

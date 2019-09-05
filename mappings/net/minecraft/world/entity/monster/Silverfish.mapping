@@ -1,0 +1,32 @@
+CLASS avc net/minecraft/world/entity/monster/Silverfish
+	CLASS a SilverfishMergeWithStoneGoal
+		FIELD h selectedDirection Lfb;
+		FIELD i doMerge Z
+		METHOD <init> <init> (Lavc;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+	CLASS b SilverfishWakeUpFriendsGoal
+		FIELD a silverfish Lavc;
+		FIELD b lookForFriends I
+		METHOD <init> <init> (Lavc;)V
+		METHOD a canUse ()Z
+		METHOD e tick ()V
+		METHOD g notifyHurt ()V
+	FIELD b friendsGoal Lavc$b;
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a hurt (Lahx;F)Z
+	METHOD a getWalkTargetValue (Lew;Lbhu;)F
+	METHOD a playStepSound (Lew;Lbvt;)V
+	METHOD aO getRidingHeight ()D
+	METHOD ap makeStepSound ()Z
+	METHOD b checkSliverfishSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD b getStandingEyeHeight (Lajh;Laip;)F
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cQ getMobType ()Lajb;
+	METHOD cl registerAttributes ()V
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD h tick ()V
+	METHOD l setYBodyRot (F)V
+	METHOD n registerGoals ()V

@@ -1,0 +1,11 @@
+CLASS alo net/minecraft/world/entity/ai/behavior/StrollToPoi
+	FIELD a memoryType Lapj;
+	FIELD b closeEnoughDist I
+	FIELD c maxDistanceFromPoi I
+	FIELD d nextOkStartTime J
+	METHOD <init> <init> (Lapj;II)V
+	METHOD a lambda$start$0 (Lajm;Lfd;)V
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a checkExtraStartConditions (Lvk;Laje;)Z
+	METHOD a start (Lvk;Laje;J)V

@@ -1,0 +1,14 @@
+CLASS byc net/minecraft/world/level/chunk/ProtoTickList
+	FIELD a ignore Ljava/util/function/Predicate;
+	FIELD b chunkPos Lbhd;
+	FIELD c toBeTicked [Lit/unimi/dsi/fastutil/shorts/ShortList;
+	METHOD <init> <init> (Ljava/util/function/Predicate;Lbhd;)V
+	METHOD <init> <init> (Ljava/util/function/Predicate;Lbhd;Lik;)V
+	METHOD a size ()I
+	METHOD a copyOut (Lbig;Ljava/util/function/Function;)V
+	METHOD a lambda$addAll$0 (Lbih;)V
+	METHOD a hasScheduledTick (Lew;Ljava/lang/Object;)Z
+	METHOD a scheduleTick (Lew;Ljava/lang/Object;ILbii;)V
+	METHOD a addAll (Ljava/util/stream/Stream;)V
+	METHOD b save ()Lik;
+	METHOD b willTickThisTick (Lew;Ljava/lang/Object;)Z

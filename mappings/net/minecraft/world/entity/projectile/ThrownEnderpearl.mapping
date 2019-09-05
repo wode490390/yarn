@@ -1,0 +1,9 @@
+CLASS axe net/minecraft/world/entity/projectile/ThrownEnderpearl
+	FIELD e originalOwner Laix;
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDD)V
+	METHOD <init> <init> (Lbhr;Laix;)V
+	METHOD a changeDimension (Lbyn;)Laio;
+	METHOD a onHit (Lcsf;)V
+	METHOD h tick ()V
+	METHOD i getDefaultItem ()Lbce;

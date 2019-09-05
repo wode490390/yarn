@@ -1,0 +1,6 @@
+CLASS cgz net/minecraft/world/level/levelgen/placement/DecoratorRange
+	FIELD a min I
+	FIELD b max I
+	METHOD <init> <init> (II)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcgz;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

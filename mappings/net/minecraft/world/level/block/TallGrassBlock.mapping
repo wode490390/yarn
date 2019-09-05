@@ -1,0 +1,9 @@
+CLASS bsp net/minecraft/world/level/block/TallGrassBlock
+	FIELD a SHAPE Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD R_ getOffsetType ()Lbmv$b;
+	METHOD a isValidBonemealTarget (Lbhb;Lew;Lbvt;Z)Z
+	METHOD a isBonemealSuccess (Lbhr;Ljava/util/Random;Lew;Lbvt;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD b performBonemeal (Lbhr;Ljava/util/Random;Lew;Lbvt;)V

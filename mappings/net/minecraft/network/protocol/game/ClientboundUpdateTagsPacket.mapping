@@ -1,0 +1,9 @@
+CLASS nr net/minecraft/network/protocol/game/ClientboundUpdateTagsPacket
+	FIELD a tags Lzi;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lzi;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getTags ()Lzi;
+	METHOD b write (Lje;)V

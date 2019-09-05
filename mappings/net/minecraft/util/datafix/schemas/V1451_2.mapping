@@ -1,0 +1,4 @@
+CLASS aez net/minecraft/util/datafix/schemas/V1451_2
+	METHOD <init> <init> (ILcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a lambda$registerBlockEntities$0 (Lcom/mojang/datafixers/schemas/Schema;Ljava/lang/String;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD registerBlockEntities registerBlockEntities (Lcom/mojang/datafixers/schemas/Schema;)Ljava/util/Map;

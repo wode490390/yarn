@@ -1,0 +1,3 @@
+CLASS cdl net/minecraft/world/level/levelgen/feature/PlainFlowerFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getRandomFlower (Ljava/util/Random;Lew;)Lbvt;

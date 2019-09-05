@@ -1,0 +1,19 @@
+CLASS cod net/minecraft/world/level/saveddata/maps/MapBanner
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$item$DyeColor [I
+		METHOD <clinit> <clinit> ()V
+	FIELD a pos Lew;
+	FIELD b color Lbbg;
+	FIELD c name Ljo;
+	METHOD <init> <init> (Lew;Lbbg;Ljo;)V
+	METHOD a getPos ()Lew;
+	METHOD a fromWorld (Lbhb;Lew;)Lcod;
+	METHOD a load (Lid;)Lcod;
+	METHOD b getColor ()Lbbg;
+	METHOD b lambda$fromWorld$0 (Lbhb;Lew;)Lbvt;
+	METHOD c getDecoration ()Lcoe$a;
+	METHOD d getName ()Ljo;
+	METHOD e save ()Lid;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getId ()Ljava/lang/String;
+	METHOD hashCode hashCode ()I

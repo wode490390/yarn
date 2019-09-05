@@ -1,0 +1,18 @@
+CLASS cpk net/minecraft/world/level/storage/loot/entries/DynamicLoot
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcrk;[Lcqh;)Lcpk;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpr;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcrk;[Lcqh;)Lcpr;
+	FIELD c TYPE Lqv;
+	FIELD h name Lqv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lqv;II[Lcrk;[Lcqh;)V
+	METHOD <init> <init> (Lqv;II[Lcrk;[Lcqh;Lcpk$1;)V
+	METHOD a access$000 (Lcpk;)Lqv;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Lcoy;)V
+	METHOD a dynamicEntry (Lqv;)Lcpr$a;
+	METHOD a lambda$dynamicEntry$0 (Lqv;II[Lcrk;[Lcqh;)Lcpr;

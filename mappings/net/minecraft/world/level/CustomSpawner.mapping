@@ -1,0 +1,2 @@
+CLASS bhg net/minecraft/world/level/CustomSpawner
+	METHOD a tick (Lvk;ZZ)I

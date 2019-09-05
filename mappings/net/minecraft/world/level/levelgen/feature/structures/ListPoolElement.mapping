@@ -1,0 +1,17 @@
+CLASS cfp net/minecraft/world/level/levelgen/feature/structures/ListPoolElement
+	FIELD a elements Ljava/util/List;
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD <init> <init> (Ljava/util/List;Lcft$a;)V
+	METHOD a getType ()Lcfs;
+	METHOD a setProjection (Lcft$a;)Lcfr;
+	METHOD a lambda$setProjectionOnEachElement$2 (Lcft$a;Lcfr;)V
+	METHOD a place (Lcjp;Lbhs;Lew;Lbrg;Lcic;Ljava/util/Random;)Z
+	METHOD a getSize (Lcjp;Lbrg;)Lew;
+	METHOD a getBoundingBox (Lcjp;Lew;Lbrg;)Lcic;
+	METHOD a getShuffledJigsawBlocks (Lcjp;Lew;Lbrg;Ljava/util/Random;)Ljava/util/List;
+	METHOD a lambda$new$0 (Lcom/mojang/datafixers/Dynamic;)Lcfr;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$getDynamic$1 (Lcom/mojang/datafixers/types/DynamicOps;Lcfr;)Ljava/lang/Object;
+	METHOD b setProjectionOnEachElement (Lcft$a;)V
+	METHOD toString toString ()Ljava/lang/String;

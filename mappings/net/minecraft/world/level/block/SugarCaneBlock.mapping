@@ -1,0 +1,11 @@
+CLASS bsm net/minecraft/world/level/block/SugarCaneBlock
+	FIELD a AGE Lbwt;
+	FIELD b SHAPE Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a canSurvive (Lbvt;Lbhu;Lew;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD c getRenderLayer ()Lbhc;

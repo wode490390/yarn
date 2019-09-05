@@ -1,0 +1,21 @@
+CLASS aty net/minecraft/world/entity/item/PrimedTnt
+	FIELD b DATA_FUSE_ID Lqk;
+	FIELD c owner Laix;
+	FIELD d life I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDDLaix;)V
+	METHOD N getAddEntityPacket ()Lkc;
+	METHOD a setFuse (I)V
+	METHOD a getEyeHeight (Lajh;Laip;)F
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD a onSyncedDataUpdated (Lqk;)V
+	METHOD aH isPickable ()Z
+	METHOD ap makeStepSound ()Z
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD f getOwner ()Laix;
+	METHOD h tick ()V
+	METHOD i getFuse ()I
+	METHOD k getLife ()I
+	METHOD l explode ()V
+	METHOD u_ defineSynchedData ()V

@@ -1,0 +1,31 @@
+CLASS bm net/minecraft/advancements/critereon/PlacedBlockTrigger
+	CLASS a PlayerListeners
+		FIELD a player Lre;
+		FIELD b listeners Ljava/util/Set;
+		METHOD <init> <init> (Lre;)V
+		METHOD a isEmpty ()Z
+		METHOD a trigger (Lbvt;Lew;Lvk;Lbcj;)V
+		METHOD a addListener (Lx$a;)V
+		METHOD b removeListener (Lx$a;)V
+	CLASS b TriggerInstance
+		FIELD a block Lbmv;
+		FIELD b state Ljava/util/Map;
+		FIELD c location Lbg;
+		FIELD d item Lbc;
+		METHOD <init> <init> (Lbmv;Ljava/util/Map;Lbg;Lbc;)V
+		METHOD a placedBlock (Lbmv;)Lbm$b;
+		METHOD a matches (Lbvt;Lew;Lvk;Lbcj;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+	FIELD a ID Lqv;
+	FIELD b players Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lqv;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ly;
+	METHOD a lambda$createInstance$0 (Lqv;)Lcom/google/gson/JsonSyntaxException;
+	METHOD a removePlayerListeners (Lre;)V
+	METHOD a addPlayerListener (Lre;Lx$a;)V
+	METHOD a trigger (Lvl;Lew;Lbcj;)V
+	METHOD b access$000 ()Lqv;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbm$b;
+	METHOD b removePlayerListener (Lre;Lx$a;)V

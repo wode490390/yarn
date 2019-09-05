@@ -1,0 +1,32 @@
+CLASS aut net/minecraft/world/entity/monster/PatrollingMonster
+	CLASS a LongDistancePatrolGoal
+		FIELD a mob Laut;
+		FIELD b speedModifier D
+		FIELD c leaderSpeedModifier D
+		METHOD <init> <init> (Laut;DD)V
+		METHOD a canUse ()Z
+		METHOD a lambda$tick$0 (Laut;)Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+		METHOD g moveRandomly ()V
+	FIELD b patrolTarget Lew;
+	FIELD c patrolLeader Z
+	FIELD d patrolling Z
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD aO getRidingHeight ()D
+	METHOD b checkPatrollingMonsterSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c removeWhenFarAway (D)Z
+	METHOD dX canBeLeader ()Z
+	METHOD dY getPatrolTarget ()Lew;
+	METHOD dZ hasPatrolTarget ()Z
+	METHOD ea isPatrolLeader ()Z
+	METHOD ec canJoinPatrol ()Z
+	METHOD ed findPatrolTarget ()V
+	METHOD ee isPatrolling ()Z
+	METHOD g setPatrolTarget (Lew;)V
+	METHOD n registerGoals ()V
+	METHOD r setPatrolLeader (Z)V

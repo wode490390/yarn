@@ -1,0 +1,5 @@
+CLASS ad net/minecraft/advancements/critereon/AbstractCriterionTriggerInstance
+	FIELD a criterion Lqv;
+	METHOD <init> <init> (Lqv;)V
+	METHOD a getCriterion ()Lqv;
+	METHOD toString toString ()Ljava/lang/String;

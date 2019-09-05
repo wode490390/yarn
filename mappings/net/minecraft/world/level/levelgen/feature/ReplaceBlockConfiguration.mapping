@@ -1,0 +1,6 @@
+CLASS cdx net/minecraft/world/level/levelgen/feature/ReplaceBlockConfiguration
+	FIELD a target Lbvt;
+	FIELD b state Lbvt;
+	METHOD <init> <init> (Lbvt;Lbvt;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdx;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

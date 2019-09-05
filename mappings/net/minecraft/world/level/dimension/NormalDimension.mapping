@@ -1,0 +1,11 @@
+CLASS byp net/minecraft/world/level/dimension/NormalDimension
+	METHOD <init> <init> (Lbhr;Lbyn;)V
+	METHOD a isFoggyAt (II)Z
+	METHOD a getValidSpawnPosition (IIZ)Lew;
+	METHOD a getTimeOfDay (JF)F
+	METHOD a getSpawnPosInChunk (Lbhd;Z)Lew;
+	METHOD b getFogColor (FF)Lcsi;
+	METHOD m createRandomLevelGenerator ()Lbxi;
+	METHOD n isNaturalDimension ()Z
+	METHOD o mayRespawn ()Z
+	METHOD p getType ()Lbyn;

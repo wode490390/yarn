@@ -1,0 +1,21 @@
+CLASS ek net/minecraft/commands/synchronization/ArgumentTypes
+	CLASS 1 1
+	CLASS a Entry
+		FIELD a clazz Ljava/lang/Class;
+		FIELD b serializer Lej;
+		FIELD c name Lqv;
+		METHOD <init> <init> (Ljava/lang/Class;Lej;Lqv;)V
+		METHOD <init> <init> (Ljava/lang/Class;Lej;Lqv;Lek$1;)V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b BY_CLASS Ljava/util/Map;
+	FIELD c BY_NAME Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootStrap ()V
+	METHOD a serializeToJson (Lcom/google/gson/JsonObject;Lcom/mojang/brigadier/arguments/ArgumentType;)V
+	METHOD a serializeNodeToJson (Lcom/mojang/brigadier/CommandDispatcher;Lcom/mojang/brigadier/tree/CommandNode;)Lcom/google/gson/JsonObject;
+	METHOD a get (Lcom/mojang/brigadier/arguments/ArgumentType;)Lek$a;
+	METHOD a register (Ljava/lang/String;Ljava/lang/Class;Lej;)V
+	METHOD a deserialize (Lje;)Lcom/mojang/brigadier/arguments/ArgumentType;
+	METHOD a serialize (Lje;Lcom/mojang/brigadier/arguments/ArgumentType;)V
+	METHOD a get (Lqv;)Lek$a;

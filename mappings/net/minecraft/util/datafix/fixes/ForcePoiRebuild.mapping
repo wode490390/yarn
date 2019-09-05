@@ -1,0 +1,9 @@
+CLASS acp net/minecraft/util/datafix/fixes/ForcePoiRebuild
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a cap (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$makeRule$1 (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;
+	METHOD a lambda$null$3 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD b lambda$cap$4 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b lambda$null$0 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD c lambda$null$2 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

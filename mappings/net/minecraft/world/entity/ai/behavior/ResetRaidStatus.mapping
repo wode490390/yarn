@@ -1,0 +1,4 @@
+CLASS akz net/minecraft/world/entity/ai/behavior/ResetRaidStatus
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V

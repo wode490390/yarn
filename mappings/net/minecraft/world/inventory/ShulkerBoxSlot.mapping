@@ -1,0 +1,3 @@
+CLASS azv net/minecraft/world/inventory/ShulkerBoxSlot
+	METHOD <init> <init> (Lahc;III)V
+	METHOD a mayPlace (Lbcj;)Z

@@ -1,0 +1,13 @@
+CLASS amv net/minecraft/world/entity/ai/goal/EatBlockGoal
+	FIELD a IS_TALL_GRASS Ljava/util/function/Predicate;
+	FIELD b mob Laiy;
+	FIELD c level Lbhr;
+	FIELD d eatAnimationTick I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laiy;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g getEatAnimationTick ()I

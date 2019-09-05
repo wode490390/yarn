@@ -1,0 +1,7 @@
+CLASS cku net/minecraft/world/level/lighting/BlockLightSectionStorage
+	CLASS a BlockDataLayerStorageMap
+		METHOD <init> <init> (Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;)V
+		METHOD a copy ()Lcku$a;
+		METHOD b copy ()Lckv;
+	METHOD <init> <init> (Lbxv;)V
+	METHOD d getLightValue (J)I

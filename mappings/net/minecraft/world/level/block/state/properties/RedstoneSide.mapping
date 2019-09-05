@@ -1,0 +1,12 @@
+CLASS bwy net/minecraft/world/level/block/state/properties/RedstoneSide
+	FIELD a UP Lbwy;
+	FIELD b SIDE Lbwy;
+	FIELD c NONE Lbwy;
+	FIELD d name Ljava/lang/String;
+	FIELD e $VALUES [Lbwy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD m getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbwy;
+	METHOD values values ()[Lbwy;

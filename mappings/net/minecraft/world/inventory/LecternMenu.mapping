@@ -1,0 +1,14 @@
+CLASS azi net/minecraft/world/inventory/LecternMenu
+	CLASS 1 1
+		FIELD a this$0 Lazi;
+		METHOD <init> <init> (Lazi;Lahc;III)V
+		METHOD d setChanged ()V
+	FIELD c lectern Lahc;
+	FIELD d lecternData Layt;
+	METHOD <init> <init> (I)V
+	METHOD <init> <init> (ILahc;Layt;)V
+	METHOD a setData (II)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a clickMenuButton (Lawg;I)Z
+	METHOD e getBook ()Lbcj;
+	METHOD f getPage ()I

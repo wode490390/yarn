@@ -1,0 +1,10 @@
+CLASS boi net/minecraft/world/level/block/DragonEggBlock
+	FIELD a SHAPE Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getTickDelay (Lbhu;)I
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a attack (Lbvt;Lbhr;Lew;Lawg;)V
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD d teleport (Lbvt;Lbhr;Lew;)V

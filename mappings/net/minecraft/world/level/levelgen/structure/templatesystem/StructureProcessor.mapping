@@ -1,0 +1,6 @@
+CLASS cjr net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor
+	METHOD <init> <init> ()V
+	METHOD a getType ()Lcjs;
+	METHOD a processBlock (Lbhu;Lew;Lcjt$b;Lcjt$b;Lcjq;)Lcjt$b;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

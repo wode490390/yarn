@@ -1,0 +1,13 @@
+CLASS yv net/minecraft/stats/Stat
+	FIELD o formatter Lyw;
+	FIELD p value Ljava/lang/Object;
+	FIELD q type Lyx;
+	METHOD <init> <init> (Lyx;Ljava/lang/Object;Lyw;)V
+	METHOD a getType ()Lyx;
+	METHOD a format (I)Ljava/lang/String;
+	METHOD a locationToKey (Lqv;)Ljava/lang/String;
+	METHOD a buildName (Lyx;Ljava/lang/Object;)Ljava/lang/String;
+	METHOD b getValue ()Ljava/lang/Object;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

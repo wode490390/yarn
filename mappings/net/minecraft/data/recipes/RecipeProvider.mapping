@@ -1,0 +1,18 @@
+CLASS hh net/minecraft/data/recipes/RecipeProvider
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d generator Lgk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgk;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a has (Lbhq;)Lba$b;
+	METHOD a has (Lbi$d;Lbhq;)Lba$b;
+	METHOD a insideOf (Lbmv;)Lar$b;
+	METHOD a run (Lgm;)V
+	METHOD a saveRecipe (Lgm;Lcom/google/gson/JsonObject;Ljava/nio/file/Path;)V
+	METHOD a lambda$run$0 (Ljava/util/Set;Lgm;Ljava/nio/file/Path;Lhg;)V
+	METHOD a buildShapelessRecipes (Ljava/util/function/Consumer;)V
+	METHOD a cookRecipes (Ljava/util/function/Consumer;Ljava/lang/String;Lbfa;I)V
+	METHOD a has (Lzg;)Lba$b;
+	METHOD a inventoryTrigger ([Lbc;)Lba$b;
+	METHOD b saveAdvancement (Lgm;Lcom/google/gson/JsonObject;Ljava/nio/file/Path;)V

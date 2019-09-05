@@ -1,0 +1,30 @@
+CLASS ck net/minecraft/commands/arguments/EntityAnchorArgument
+	CLASS a Anchor
+		FIELD a FEET Lck$a;
+		FIELD b EYES Lck$a;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		FIELD e transform Ljava/util/function/BiFunction;
+		FIELD f $VALUES [Lck$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ljava/util/function/BiFunction;)V
+		METHOD a access$000 ()Ljava/util/Map;
+		METHOD a apply (Laio;)Lcsi;
+		METHOD a apply (Lcd;)Lcsi;
+		METHOD a lambda$static$1 (Lcsi;Laio;)Lcsi;
+		METHOD a getByName (Ljava/lang/String;)Lck$a;
+		METHOD a lambda$static$2 (Ljava/util/HashMap;)V
+		METHOD b lambda$static$0 (Lcsi;Laio;)Lcsi;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lck$a;
+		METHOD values values ()[Lck$a;
+	FIELD a EXAMPLES Ljava/util/Collection;
+	FIELD b ERROR_INVALID Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a anchor ()Lck;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lck$a;
+	METHOD a getAnchor (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lck$a;
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

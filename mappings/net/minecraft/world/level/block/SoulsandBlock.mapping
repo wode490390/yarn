@@ -1,0 +1,13 @@
+CLASS brx net/minecraft/world/level/block/SoulsandBlock
+	FIELD a SHAPE Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getTickDelay (Lbhu;)I
+	METHOD a isValidSpawn (Lbvt;Lbhb;Lew;Lais;)Z
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a entityInside (Lbvt;Lbhr;Lew;Laio;)V
+	METHOD a neighborChanged (Lbvt;Lbhr;Lew;Lbmv;Lew;Z)V
+	METHOD b getCollisionShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD b onPlace (Lbvt;Lbhr;Lew;Lbvt;Z)V
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD d isRedstoneConductor (Lbvt;Lbhb;Lew;)Z

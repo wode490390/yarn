@@ -1,0 +1,13 @@
+CLASS mw net/minecraft/network/protocol/game/ClientboundSetEquippedItemPacket
+	FIELD a entity I
+	FIELD b slot Lait;
+	FIELD c itemStack Lbcj;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILait;Lbcj;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getItem ()Lbcj;
+	METHOD b write (Lje;)V
+	METHOD c getEntity ()I
+	METHOD d getSlot ()Lait;

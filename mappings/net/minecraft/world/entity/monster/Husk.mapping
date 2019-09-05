@@ -1,0 +1,12 @@
+CLASS aup net/minecraft/world/entity/monster/Husk
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD C doHurtTarget (Laio;)Z
+	METHOD G getAmbientSound ()Lyo;
+	METHOD I_ isSunSensitive ()Z
+	METHOD b checkHuskSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD cH getDeathSound ()Lyo;
+	METHOD dW getStepSound ()Lyo;
+	METHOD dX getSkull ()Lbcj;
+	METHOD dY convertsInWater ()Z
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD ea doUnderWaterConversion ()V

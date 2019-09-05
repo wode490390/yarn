@@ -1,0 +1,15 @@
+CLASS bxk net/minecraft/world/level/chunk/ChunkGeneratorType
+	FIELD a SURFACE Lbxk;
+	FIELD b CAVES Lbxk;
+	FIELD c FLOATING_ISLANDS Lbxk;
+	FIELD d DEBUG Lbxk;
+	FIELD e FLAT Lbxk;
+	FIELD f factory Lbxj;
+	FIELD g isPublic Z
+	FIELD h settingsFactory Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbxj;ZLjava/util/function/Supplier;)V
+	METHOD a createSettings ()Lbyv;
+	METHOD a register (Ljava/lang/String;Lbxj;Ljava/util/function/Supplier;Z)Lbxk;
+	METHOD b isPublic ()Z
+	METHOD create create (Lbhr;Lbiq;Lbyv;)Lbxi;

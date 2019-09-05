@@ -1,0 +1,8 @@
+CLASS cmi net/minecraft/world/level/newbiome/layer/IslandLayer
+	FIELD a INSTANCE Lcmi;
+	FIELD b $VALUES [Lcmi;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Lcly;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmi;
+	METHOD values values ()[Lcmi;

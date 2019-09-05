@@ -1,0 +1,7 @@
+CLASS cex net/minecraft/world/level/levelgen/feature/SwampTreeFeature
+	FIELD a TRUNK Lbvt;
+	FIELD aS LEAF Lbvt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a addVine (Lbhw;Lew;Lbwl;)V
+	METHOD a doPlace (Ljava/util/Set;Lbhw;Ljava/util/Random;Lew;Lcic;)Z

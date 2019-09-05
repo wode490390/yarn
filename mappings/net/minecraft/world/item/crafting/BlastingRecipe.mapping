@@ -1,0 +1,4 @@
+CLASS beg net/minecraft/world/item/crafting/BlastingRecipe
+	METHOD <init> <init> (Lqv;Ljava/lang/String;Lbeo;Lbcj;FI)V
+	METHOD Q_ getSerializer ()Lbet;
+	METHOD h getToastSymbol ()Lbcj;

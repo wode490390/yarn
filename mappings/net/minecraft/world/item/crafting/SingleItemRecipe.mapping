@@ -1,0 +1,27 @@
+CLASS bfc net/minecraft/world/item/crafting/SingleItemRecipe
+	CLASS a Serializer
+		CLASS a SingleItemMaker
+			METHOD create create (Lqv;Ljava/lang/String;Lbeo;Lbcj;)Lbfc;
+		FIELD u factory Lbfc$a$a;
+		METHOD <init> <init> (Lbfc$a$a;)V
+		METHOD a toNetwork (Lje;Lber;)V
+		METHOD a toNetwork (Lje;Lbfc;)V
+		METHOD a fromJson (Lqv;Lcom/google/gson/JsonObject;)Lber;
+		METHOD a fromNetwork (Lqv;Lje;)Lber;
+		METHOD b fromJson (Lqv;Lcom/google/gson/JsonObject;)Lbfc;
+		METHOD b fromNetwork (Lqv;Lje;)Lbfc;
+	FIELD a ingredient Lbeo;
+	FIELD b result Lbcj;
+	FIELD c id Lqv;
+	FIELD d group Ljava/lang/String;
+	FIELD e type Lbeu;
+	FIELD f serializer Lbet;
+	METHOD <init> <init> (Lbeu;Lbet;Lqv;Ljava/lang/String;Lbeo;Lbcj;)V
+	METHOD Q_ getSerializer ()Lbet;
+	METHOD a getIngredients ()Lfk;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lahc;)Lbcj;
+	METHOD c getResultItem ()Lbcj;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD f getId ()Lqv;
+	METHOD g getType ()Lbeu;

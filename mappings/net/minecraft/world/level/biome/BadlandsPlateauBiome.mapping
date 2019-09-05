@@ -1,0 +1,4 @@
+CLASS bik net/minecraft/world/level/biome/BadlandsPlateauBiome
+	METHOD <init> <init> ()V
+	METHOD a getFoliageColor (Lew;)I
+	METHOD b getGrassColor (Lew;)I

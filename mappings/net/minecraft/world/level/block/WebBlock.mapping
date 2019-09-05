@@ -1,0 +1,4 @@
+CLASS btf net/minecraft/world/level/block/WebBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a entityInside (Lbvt;Lbhr;Lew;Laio;)V
+	METHOD c getRenderLayer ()Lbhc;

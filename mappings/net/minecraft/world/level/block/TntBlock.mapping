@@ -1,0 +1,15 @@
+CLASS bsr net/minecraft/world/level/block/TntBlock
+	FIELD a UNSTABLE Lbwl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a lambda$use$0 (Lahi;Lawg;)V
+	METHOD a dropFromExplosion (Lbhk;)Z
+	METHOD a onProjectileHit (Lbhr;Lbvt;Lcsd;Laio;)V
+	METHOD a explode (Lbhr;Lew;)V
+	METHOD a explode (Lbhr;Lew;Laix;)V
+	METHOD a wasExploded (Lbhr;Lew;Lbhk;)V
+	METHOD a playerWillDestroy (Lbhr;Lew;Lbvt;Lawg;)V
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a neighborChanged (Lbvt;Lbhr;Lew;Lbmv;Lew;Z)V
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b onPlace (Lbvt;Lbhr;Lew;Lbvt;Z)V

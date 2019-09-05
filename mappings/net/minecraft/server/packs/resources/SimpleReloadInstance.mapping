@@ -1,0 +1,35 @@
+CLASS xm net/minecraft/server/packs/resources/SimpleReloadInstance
+	CLASS 1 1
+		FIELD a val$mainThreadExecutor Ljava/util/concurrent/Executor;
+		FIELD b val$listener Lxd;
+		FIELD c val$previousTask Ljava/util/concurrent/CompletableFuture;
+		FIELD d this$0 Lxm;
+		METHOD <init> <init> (Lxm;Ljava/util/concurrent/Executor;Lxd;Ljava/util/concurrent/CompletableFuture;)V
+		METHOD a wait (Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;
+		METHOD a lambda$wait$1 (Ljava/lang/Object;Laag;Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a lambda$wait$0 (Lxd;)V
+	CLASS a StateFactory
+		METHOD create create (Lxd$a;Lxi;Lxd;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	FIELD a resourceManager Lxi;
+	FIELD b allPreparations Ljava/util/concurrent/CompletableFuture;
+	FIELD c allDone Ljava/util/concurrent/CompletableFuture;
+	FIELD d preparingListeners Ljava/util/Set;
+	FIELD e listenerCount I
+	FIELD f startedReloads I
+	FIELD g finishedReloads I
+	FIELD h startedTaskCounter Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD i doneTaskCounter Ljava/util/concurrent/atomic/AtomicInteger;
+	METHOD <init> <init> (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Lxi;Ljava/util/List;Lxm$a;Ljava/util/concurrent/CompletableFuture;)V
+	METHOD a done ()Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$null$3 (Ljava/lang/Runnable;)V
+	METHOD a lambda$done$5 (Ljava/util/List;)Laag;
+	METHOD a lambda$new$4 (Ljava/util/concurrent/Executor;Ljava/lang/Runnable;)V
+	METHOD a lambda$of$0 (Ljava/util/concurrent/Executor;Lxd$a;Lxi;Lxd;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a of (Lxi;Ljava/util/List;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)Lxm;
+	METHOD a access$000 (Lxm;)Ljava/util/Set;
+	METHOD b getActualProgress ()F
+	METHOD b lambda$null$1 (Ljava/lang/Runnable;)V
+	METHOD b lambda$new$2 (Ljava/util/concurrent/Executor;Ljava/lang/Runnable;)V
+	METHOD c isApplying ()Z
+	METHOD d isDone ()Z
+	METHOD e checkExceptions ()V

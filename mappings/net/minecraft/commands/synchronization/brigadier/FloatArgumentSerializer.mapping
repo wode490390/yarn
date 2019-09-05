@@ -1,0 +1,8 @@
+CLASS ep net/minecraft/commands/synchronization/brigadier/FloatArgumentSerializer
+	METHOD <init> <init> ()V
+	METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
+	METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/ArgumentType;Lje;)V
+	METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/FloatArgumentType;Lcom/google/gson/JsonObject;)V
+	METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/FloatArgumentType;Lje;)V
+	METHOD a deserializeFromNetwork (Lje;)Lcom/mojang/brigadier/arguments/FloatArgumentType;
+	METHOD b deserializeFromNetwork (Lje;)Lcom/mojang/brigadier/arguments/ArgumentType;

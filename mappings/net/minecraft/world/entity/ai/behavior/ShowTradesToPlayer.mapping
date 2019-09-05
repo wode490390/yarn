@@ -1,0 +1,23 @@
+CLASS alk net/minecraft/world/entity/ai/behavior/ShowTradesToPlayer
+	FIELD a playerItemStack Lbcj;
+	FIELD b displayItems Ljava/util/List;
+	FIELD c cycleCounter I
+	FIELD d displayIndex I
+	FIELD e lookTime I
+	METHOD <init> <init> (II)V
+	METHOD a findItemsToDisplay (Laix;Lavt;)V
+	METHOD a displayFirstItem (Lavt;)V
+	METHOD a playerItemStackMatchesCostOfOffer (Lbgu;)Z
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a checkExtraStartConditions (Lvk;Lavt;)Z
+	METHOD a canStillUse (Lvk;Lavt;J)Z
+	METHOD b updateDisplayItems (Lavt;)V
+	METHOD b start (Lvk;Lavt;J)V
+	METHOD c lookAtTarget (Lavt;)Laix;
+	METHOD c tick (Lvk;Lavt;J)V
+	METHOD d displayCyclingItems (Lavt;)V
+	METHOD d tick (Lvk;Laix;J)V
+	METHOD d stop (Lvk;Lavt;J)V
+	METHOD f stop (Lvk;Laix;J)V
+	METHOD g canStillUse (Lvk;Laix;J)Z

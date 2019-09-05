@@ -1,0 +1,8 @@
+CLASS aqy net/minecraft/world/entity/animal/AbstractGolem
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD A getAmbientSoundInterval ()I
+	METHOD G getAmbientSound ()Lyo;
+	METHOD b causeFallDamage (FF)V
+	METHOD c removeWhenFarAway (D)Z
+	METHOD cH getDeathSound ()Lyo;
+	METHOD e getHurtSound (Lahx;)Lyo;

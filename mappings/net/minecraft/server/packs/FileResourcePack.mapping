@@ -1,0 +1,12 @@
+CLASS wj net/minecraft/server/packs/FileResourcePack
+	FIELD b SPLITTER Lcom/google/common/base/Splitter;
+	FIELD c zipFile Ljava/util/zip/ZipFile;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD a getNamespaces (Lwm;)Ljava/util/Set;
+	METHOD a getResources (Lwm;Ljava/lang/String;ILjava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD b getOrCreateZipFile ()Ljava/util/zip/ZipFile;
+	METHOD c hasResource (Ljava/lang/String;)Z
+	METHOD close close ()V
+	METHOD finalize finalize ()V

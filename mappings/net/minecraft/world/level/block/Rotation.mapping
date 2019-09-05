@@ -1,0 +1,18 @@
+CLASS brg net/minecraft/world/level/block/Rotation
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		METHOD <clinit> <clinit> ()V
+	FIELD a NONE Lbrg;
+	FIELD b CLOCKWISE_90 Lbrg;
+	FIELD c CLOCKWISE_180 Lbrg;
+	FIELD d COUNTERCLOCKWISE_90 Lbrg;
+	FIELD e $VALUES [Lbrg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a rotate (II)I
+	METHOD a getRotated (Lbrg;)Lbrg;
+	METHOD a rotate (Lfb;)Lfb;
+	METHOD a getRandom (Ljava/util/Random;)Lbrg;
+	METHOD b getShuffled (Ljava/util/Random;)Ljava/util/List;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbrg;
+	METHOD values values ()[Lbrg;

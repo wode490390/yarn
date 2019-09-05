@@ -1,0 +1,30 @@
+CLASS mg net/minecraft/network/protocol/game/ClientboundRecipePacket
+	CLASS a State
+		FIELD a INIT Lmg$a;
+		FIELD b ADD Lmg$a;
+		FIELD c REMOVE Lmg$a;
+		FIELD d $VALUES [Lmg$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lmg$a;
+		METHOD values values ()[Lmg$a;
+	FIELD a state Lmg$a;
+	FIELD b recipes Ljava/util/List;
+	FIELD c toHighlight Ljava/util/List;
+	FIELD d guiOpen Z
+	FIELD e filteringCraftable Z
+	FIELD f furnaceGuiOpen Z
+	FIELD g furnaceFilteringCraftable Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lmg$a;Ljava/util/Collection;Ljava/util/Collection;ZZZZ)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getRecipes ()Ljava/util/List;
+	METHOD b write (Lje;)V
+	METHOD c getHighlights ()Ljava/util/List;
+	METHOD d isGuiOpen ()Z
+	METHOD e isFilteringCraftable ()Z
+	METHOD f isFurnaceGuiOpen ()Z
+	METHOD g isFurnaceFilteringCraftable ()Z
+	METHOD h getState ()Lmg$a;

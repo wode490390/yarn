@@ -1,0 +1,23 @@
+CLASS lj net/minecraft/network/protocol/game/ClientboundExplodePacket
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d power F
+	FIELD e toBlow Ljava/util/List;
+	FIELD f knockbackX F
+	FIELD g knockbackY F
+	FIELD h knockbackZ F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (DDDFLjava/util/List;Lcsi;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getKnockbackX ()F
+	METHOD b write (Lje;)V
+	METHOD c getKnockbackY ()F
+	METHOD d getKnockbackZ ()F
+	METHOD e getX ()D
+	METHOD f getY ()D
+	METHOD g getZ ()D
+	METHOD h getPower ()F
+	METHOD i getToBlow ()Ljava/util/List;

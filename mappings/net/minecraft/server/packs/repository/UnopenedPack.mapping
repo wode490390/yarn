@@ -1,0 +1,40 @@
+CLASS xa net/minecraft/server/packs/repository/UnopenedPack
+	CLASS a Position
+		FIELD a TOP Lxa$a;
+		FIELD b BOTTOM Lxa$a;
+		FIELD c $VALUES [Lxa$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a opposite ()Lxa$a;
+		METHOD a insert (Ljava/util/List;Ljava/lang/Object;Ljava/util/function/Function;Z)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lxa$a;
+		METHOD values values ()[Lxa$a;
+	CLASS b UnopenedPackConstructor
+		METHOD create create (Ljava/lang/String;ZLjava/util/function/Supplier;Lwl;Lwq;Lxa$a;)Lxa;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b BROKEN_ASSETS_FALLBACK Lwq;
+	FIELD c id Ljava/lang/String;
+	FIELD d supplier Ljava/util/function/Supplier;
+	FIELD e title Ljo;
+	FIELD f description Ljo;
+	FIELD g compatibility Lww;
+	FIELD h defaultPosition Lxa$a;
+	FIELD i required Z
+	FIELD j fixedPosition Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ZLjava/util/function/Supplier;Ljo;Ljo;Lww;Lxa$a;Z)V
+	METHOD <init> <init> (Ljava/lang/String;ZLjava/util/function/Supplier;Lwl;Lwq;Lxa$a;)V
+	METHOD a getTitle ()Ljo;
+	METHOD a create (Ljava/lang/String;ZLjava/util/function/Supplier;Lxa$b;Lxa$a;)Lxa;
+	METHOD a getChatLink (Z)Ljo;
+	METHOD a lambda$getChatLink$0 (ZLjw;)V
+	METHOD b getDescription ()Ljo;
+	METHOD c getCompatibility ()Lww;
+	METHOD close close ()V
+	METHOD d open ()Lwl;
+	METHOD e getId ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f isRequired ()Z
+	METHOD g isFixedPosition ()Z
+	METHOD h getDefaultPosition ()Lxa$a;
+	METHOD hashCode hashCode ()I

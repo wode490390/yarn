@@ -1,0 +1,22 @@
+CLASS aiz net/minecraft/world/entity/MobCategory
+	FIELD a MONSTER Laiz;
+	FIELD b CREATURE Laiz;
+	FIELD c AMBIENT Laiz;
+	FIELD d WATER_CREATURE Laiz;
+	FIELD e MISC Laiz;
+	FIELD f BY_NAME Ljava/util/Map;
+	FIELD g max I
+	FIELD h isFriendly Z
+	FIELD i isPersistent Z
+	FIELD j name Ljava/lang/String;
+	FIELD k $VALUES [Laiz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;IZZ)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a lambda$static$0 (Laiz;)Laiz;
+	METHOD a byName (Ljava/lang/String;)Laiz;
+	METHOD b getMaxInstancesPerChunk ()I
+	METHOD c isFriendly ()Z
+	METHOD d isPersistent ()Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Laiz;
+	METHOD values values ()[Laiz;

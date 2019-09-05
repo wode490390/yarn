@@ -1,0 +1,2 @@
+CLASS bke net/minecraft/world/level/biome/ModifiedGravellyMountainsBiome
+	METHOD <init> <init> ()V

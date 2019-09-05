@@ -1,0 +1,12 @@
+CLASS de net/minecraft/commands/arguments/blocks/BlockInput
+	FIELD a state Lbvt;
+	FIELD b properties Ljava/util/Set;
+	FIELD c tag Lid;
+	METHOD <init> <init> (Lbvt;Ljava/util/Set;Lid;)V
+	METHOD a getState ()Lbvt;
+	METHOD a test (Lbvx;)Z
+	METHOD a test (Lvk;Lew;)Z
+	METHOD a place (Lvk;Lew;I)Z
+	METHOD b getTag ()Lid;
+	METHOD c getDefinedProperties ()Ljava/util/Set;
+	METHOD test test (Ljava/lang/Object;)Z

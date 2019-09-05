@@ -1,0 +1,11 @@
+CLASS ban net/minecraft/world/item/BlockPlaceContext
+	FIELD a replaceClicked Z
+	FIELD g relativePos Lew;
+	METHOD <init> <init> (Lbdu;)V
+	METHOD <init> <init> (Lbhr;Lawg;Lahi;Lbcj;Lcsd;)V
+	METHOD a getClickedPos ()Lew;
+	METHOD a at (Lban;Lew;Lfb;)Lban;
+	METHOD b canPlace ()Z
+	METHOD c replacingClickedOnBlock ()Z
+	METHOD d getNearestLookingDirection ()Lfb;
+	METHOD e getNearestLookingDirections ()[Lfb;

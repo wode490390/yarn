@@ -1,0 +1,6 @@
+CLASS bwc net/minecraft/world/level/block/state/predicate/BlockPredicate
+	FIELD a block Lbmv;
+	METHOD <init> <init> (Lbmv;)V
+	METHOD a forBlock (Lbmv;)Lbwc;
+	METHOD a test (Lbvt;)Z
+	METHOD test test (Ljava/lang/Object;)Z

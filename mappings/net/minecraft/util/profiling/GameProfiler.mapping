@@ -1,0 +1,32 @@
+CLASS agj net/minecraft/util/profiling/GameProfiler
+	CLASS 1 1
+	CLASS a Profiler
+		METHOD a isEnabled ()Z
+		METHOD b disable ()Lagm;
+		METHOD c getResults ()Lagm;
+		METHOD d enable ()V
+	CLASS b ProfilerImpl
+		FIELD a collector Lagl;
+		FIELD b this$0 Lagj;
+		METHOD <init> <init> (Lagj;)V
+		METHOD <init> <init> (Lagj;Lagj$1;)V
+		METHOD a isEnabled ()Z
+		METHOD b disable ()Lagm;
+		METHOD c getResults ()Lagm;
+		METHOD d enable ()V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b MAXIMUM_TICK_TIME_NANOS J
+	FIELD c getTickTime Ljava/util/function/IntSupplier;
+	FIELD d continuous Lagj$b;
+	FIELD e perTick Lagj$b;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/IntSupplier;)V
+	METHOD a startTick ()V
+	METHOD a access$100 (Lagj;)Ljava/util/function/IntSupplier;
+	METHOD a push (Ljava/lang/String;)V
+	METHOD a push (Ljava/util/function/Supplier;)V
+	METHOD b endTick ()V
+	METHOD b popPush (Ljava/lang/String;)V
+	METHOD b popPush (Ljava/util/function/Supplier;)V
+	METHOD c pop ()V
+	METHOD d continuous ()Lagj$a;

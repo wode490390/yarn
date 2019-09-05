@@ -1,0 +1,2 @@
+CLASS fh net/minecraft/core/Location
+	METHOD h getLevel ()Lbhr;

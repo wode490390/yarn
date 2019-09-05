@@ -1,0 +1,19 @@
+CLASS cnx net/minecraft/world/level/pathfinder/WalkNodeEvaluator
+	FIELD j oldWaterCost F
+	METHOD <init> <init> ()V
+	METHOD a done ()V
+	METHOD a getGoal (DDD)Lcnv;
+	METHOD a getLandNode (IIIIDLfb;)Lcnp;
+	METHOD a getBlockPathType (Laiy;III)Lcnn;
+	METHOD a getBlockPathType (Laiy;Lew;)Lcnn;
+	METHOD a getBlockPathType (Lbhb;III)Lcnn;
+	METHOD a getBlockPathTypes (Lbhb;IIIIIIZZLjava/util/EnumSet;Lcnn;Lew;)Lcnn;
+	METHOD a getBlockPathType (Lbhb;IIILaiy;IIIZZ)Lcnn;
+	METHOD a checkNeighbourBlocks (Lbhb;IIILcnn;)Lcnn;
+	METHOD a getFloorLevel (Lbhb;Lew;)D
+	METHOD a evaluateBlockPathType (Lbhb;ZZLew;Lcnn;)Lcnn;
+	METHOD a prepare (Lbhu;Laiy;)V
+	METHOD a isDiagonalValid (Lcnp;Lcnp;Lcnp;Lcnp;)Z
+	METHOD a getNeighbors ([Lcnp;Lcnp;)I
+	METHOD b getStart ()Lcnp;
+	METHOD b getBlockPathTypeRaw (Lbhb;III)Lcnn;

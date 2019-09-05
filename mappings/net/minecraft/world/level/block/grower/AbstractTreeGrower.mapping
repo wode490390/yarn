@@ -1,0 +1,4 @@
+CLASS bvd net/minecraft/world/level/block/grower/AbstractTreeGrower
+	METHOD <init> <init> ()V
+	METHOD a growTree (Lbhs;Lew;Lbvt;Ljava/util/Random;)Z
+	METHOD b getFeature (Ljava/util/Random;)Lbzv;

@@ -1,0 +1,17 @@
+CLASS nz net/minecraft/network/protocol/game/ServerboundClientCommandPacket
+	CLASS a Action
+		FIELD a PERFORM_RESPAWN Lnz$a;
+		FIELD b REQUEST_STATS Lnz$a;
+		FIELD c $VALUES [Lnz$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lnz$a;
+		METHOD values values ()[Lnz$a;
+	FIELD a action Lnz$a;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lnz$a;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getAction ()Lnz$a;
+	METHOD b write (Lje;)V

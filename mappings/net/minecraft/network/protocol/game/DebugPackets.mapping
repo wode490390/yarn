@@ -1,0 +1,27 @@
+CLASS ns net/minecraft/network/protocol/game/DebugPackets
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getMemoryDescriptions (JLajm;)Ljava/util/List;
+	METHOD a sendEntityBrain (Laix;)V
+	METHOD a writeBrain (Laix;Lje;)V
+	METHOD a lambda$sendPoiPacketsForChunk$0 (Laqs;)Z
+	METHOD a sendGoalSelector (Lbhr;Laiy;Lanf;)V
+	METHOD a sendPathFindingPacket (Lbhr;Laiy;Lcnr;F)V
+	METHOD a sendNeighborsUpdatePacket (Lbhr;Lew;)V
+	METHOD a sendStructurePacket (Lbhs;Lciw;)V
+	METHOD a getShortDescription (Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a lambda$null$6 (Ljava/util/List;Ljava/lang/String;Laph;Ljava/lang/Integer;)V
+	METHOD a lambda$writeBrain$7 (Ljava/util/List;Ljava/util/UUID;Lit/unimi/dsi/fastutil/objects/Object2IntMap;)V
+	METHOD a lambda$sendGoalSelector$2 (Lje;Laot;)V
+	METHOD a lambda$sendRaids$3 (Lje;Laxk;)V
+	METHOD a lambda$writeBrain$4 (Lje;Laxo;)V
+	METHOD a lambda$writeBrain$5 (Lje;Ljava/lang/String;)V
+	METHOD a lambda$sendPoiPacketsForChunk$1 (Lvk;Laqq;)V
+	METHOD a sendPoiPacketsForChunk (Lvk;Lbhd;)V
+	METHOD a sendPoiAddedPacket (Lvk;Lew;)V
+	METHOD a sendRaids (Lvk;Ljava/util/Collection;)V
+	METHOD a sendPacketToAllPlayers (Lvk;Lje;Lqv;)V
+	METHOD b sendPoiRemovedPacket (Lvk;Lew;)V
+	METHOD c sendPoiTicketCountPacket (Lvk;Lew;)V
+	METHOD d sendVillageSectionsPacket (Lvk;Lew;)V

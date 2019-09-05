@@ -1,0 +1,22 @@
+CLASS cit net/minecraft/world/level/levelgen/structure/StructureFeatureIO
+	FIELD a MINESHAFT Lceu;
+	FIELD b PILLAGER_OUTPOST Lceu;
+	FIELD c NETHER_FORTRESS Lceu;
+	FIELD d STRONGHOLD Lceu;
+	FIELD e JUNGLE_PYRAMID Lceu;
+	FIELD f OCEAN_RUIN Lceu;
+	FIELD g DESERT_PYRAMID Lceu;
+	FIELD h IGLOO Lceu;
+	FIELD i SWAMP_HUT Lceu;
+	FIELD j OCEAN_MONUMENT Lceu;
+	FIELD k END_CITY Lceu;
+	FIELD l WOODLAND_MANSION Lceu;
+	FIELD m BURIED_TREASURE Lceu;
+	FIELD n SHIPWRECK Lceu;
+	FIELD o VILLAGE Lceu;
+	FIELD p LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V
+	METHOD a loadStaticStart (Lbxi;Lcjp;Lbiq;Lid;)Lciw;
+	METHOD a register (Ljava/lang/String;Lceu;)Lceu;

@@ -1,0 +1,27 @@
+CLASS bto net/minecraft/world/level/block/entity/BannerBlockEntity
+	FIELD a name Ljo;
+	FIELD b baseColor Lbbg;
+	FIELD c itemPatterns Lik;
+	FIELD g receivedData Z
+	FIELD h patterns Ljava/util/List;
+	FIELD i colors Ljava/util/List;
+	FIELD j textureHashName Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbbg;)V
+	METHOD O getName ()Ljo;
+	METHOD Q getCustomName ()Ljo;
+	METHOD a getUpdatePacket ()Lkq;
+	METHOD a getPatternCount (Lbcj;)I
+	METHOD a fromItem (Lbcj;Lbbg;)V
+	METHOD a getItem (Lbvt;)Lbcj;
+	METHOD a load (Lid;)V
+	METHOD a getBaseColor (Ljava/util/function/Supplier;)Lbbg;
+	METHOD a setCustomName (Ljo;)V
+	METHOD b getUpdateTag ()Lid;
+	METHOD b removeLastPattern (Lbcj;)V
+	METHOD b lambda$getItem$0 (Lbvt;)Lbvt;
+	METHOD b save (Lid;)Lid;
+	METHOD c getPatterns ()Ljava/util/List;
+	METHOD f getColors ()Ljava/util/List;
+	METHOD g getTextureHashName ()Ljava/lang/String;
+	METHOD h createPatternList ()V

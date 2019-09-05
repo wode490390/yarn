@@ -1,0 +1,5 @@
+CLASS ccl net/minecraft/world/level/levelgen/feature/JungleGrassFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcdd;)Z
+	METHOD a getState (Ljava/util/Random;)Lbvt;

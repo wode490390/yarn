@@ -1,0 +1,16 @@
+CLASS cmx net/minecraft/world/level/newbiome/layer/ZoomLayer
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a modeOrRandom (Lclx;IIII)I
+	FIELD a NORMAL Lcmx;
+	FIELD b FUZZY Lcmx;
+	FIELD c $VALUES [Lcmx;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD <init> <init> (Ljava/lang/String;ILcmx$1;)V
+	METHOD a getParentX (I)I
+	METHOD a modeOrRandom (Lclx;IIII)I
+	METHOD a applyPixel (Lclx;Lclt;II)I
+	METHOD b getParentY (I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmx;
+	METHOD values values ()[Lcmx;

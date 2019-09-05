@@ -1,0 +1,5 @@
+CLASS chl net/minecraft/world/level/levelgen/placement/MonsterRoomPlacementDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getPositions (Lbhs;Lbxi;Ljava/util/Random;Lcax;Lew;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lbhs;Lbxi;Ljava/util/Random;Lchk;Lew;)Ljava/util/stream/Stream;
+	METHOD a lambda$getPositions$0 (Ljava/util/Random;Lbxi;Lew;I)Lew;

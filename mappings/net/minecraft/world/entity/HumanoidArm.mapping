@@ -1,0 +1,11 @@
+CLASS aiw net/minecraft/world/entity/HumanoidArm
+	FIELD a LEFT Laiw;
+	FIELD b RIGHT Laiw;
+	FIELD c name Ljo;
+	FIELD d $VALUES [Laiw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjo;)V
+	METHOD a getOpposite ()Laiw;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Laiw;
+	METHOD values values ()[Laiw;

@@ -1,0 +1,8 @@
+CLASS ckp net/minecraft/world/level/levelgen/synth/PerlinSimplexNoise
+	FIELD a noiseLevels [Lckq;
+	FIELD b levels I
+	METHOD <init> <init> (Ljava/util/Random;I)V
+	METHOD a getValue (DD)D
+	METHOD a getValue (DDD)D
+	METHOD a getSurfaceNoiseValue (DDDD)D
+	METHOD a getValue (DDZ)D

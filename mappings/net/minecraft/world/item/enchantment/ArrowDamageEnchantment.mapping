@@ -1,0 +1,5 @@
+CLASS bfj net/minecraft/world/item/enchantment/ArrowDamageEnchantment
+	METHOD <init> <init> (Lbfs$a;[Lait;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD b getMaxCost (I)I

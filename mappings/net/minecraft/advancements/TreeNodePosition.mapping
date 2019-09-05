@@ -1,0 +1,26 @@
+CLASS ac net/minecraft/advancements/TreeNodePosition
+	FIELD a advancement Lq;
+	FIELD b parent Lac;
+	FIELD c previousSibling Lac;
+	FIELD d childIndex I
+	FIELD e children Ljava/util/List;
+	FIELD f ancestor Lac;
+	FIELD g thread Lac;
+	FIELD h x I
+	FIELD i y F
+	FIELD j mod F
+	FIELD k change F
+	FIELD l shift F
+	METHOD <init> <init> (Lq;Lac;Lac;II)V
+	METHOD a firstWalk ()V
+	METHOD a thirdWalk (F)V
+	METHOD a secondWalk (FIF)F
+	METHOD a apportion (Lac;)Lac;
+	METHOD a moveSubtree (Lac;F)V
+	METHOD a getAncestor (Lac;Lac;)Lac;
+	METHOD a run (Lq;)V
+	METHOD a addChild (Lq;Lac;)Lac;
+	METHOD b executeShifts ()V
+	METHOD c previousOrThread ()Lac;
+	METHOD d nextOrThread ()Lac;
+	METHOD e finalizePosition ()V

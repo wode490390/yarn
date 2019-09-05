@@ -1,0 +1,16 @@
+CLASS cnt net/minecraft/world/level/pathfinder/PathFinder
+	FIELD a openSet Lcnm;
+	FIELD b closedSet Ljava/util/Set;
+	FIELD c neighbors [Lcnp;
+	FIELD d maxVisitedNodes I
+	FIELD e nodeEvaluator Lcnq;
+	METHOD <init> <init> (Lcnq;I)V
+	METHOD a findPath (Lbhu;Laiy;Ljava/util/Set;FI)Lcnr;
+	METHOD a lambda$findPath$1 (Lcnp;ILcnv;)Z
+	METHOD a reconstructPath (Lcnp;Lew;Z)Lcnr;
+	METHOD a findPath (Lcnp;Ljava/util/Map;FI)Lcnr;
+	METHOD a getBestH (Lcnp;Ljava/util/Set;)F
+	METHOD a setNodeEvaluator (Lcnq;)V
+	METHOD a lambda$findPath$0 (Lew;)Lcnv;
+	METHOD a lambda$findPath$3 (Ljava/util/Map;Lcnv;)Lcnr;
+	METHOD b lambda$findPath$2 (Ljava/util/Map;Lcnv;)Lcnr;

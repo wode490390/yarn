@@ -1,0 +1,4 @@
+CLASS cdc net/minecraft/world/level/levelgen/feature/NoneDecoratorConfiguration
+	METHOD <init> <init> ()V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdc;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,11 @@
+CLASS cdr net/minecraft/world/level/levelgen/feature/RandomFeatureConfig
+	FIELD a features Ljava/util/List;
+	FIELD b defaultFeature Lcal;
+	METHOD <init> <init> (Ljava/util/List;Lcal;)V
+	METHOD <init> <init> ([Lcbn;[Lcbo;[FLcbn;Lcbo;)V
+	METHOD a getDefaultFeature (Lcbn;Lcbo;)Lcal;
+	METHOD a getWeightedConfiguredFeature (Lcbn;Lcbo;F)Lcfi;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdr;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$1 (Lcom/mojang/datafixers/types/DynamicOps;Lcfi;)Ljava/lang/Object;
+	METHOD a lambda$new$0 ([Lcbn;[Lcbo;[FI)Lcfi;

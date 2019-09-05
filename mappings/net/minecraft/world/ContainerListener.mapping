@@ -1,0 +1,2 @@
+CLASS ahe net/minecraft/world/ContainerListener
+	METHOD a containerChanged (Lahc;)V

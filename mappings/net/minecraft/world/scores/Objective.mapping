@@ -1,0 +1,16 @@
+CLASS ctf net/minecraft/world/scores/Objective
+	FIELD a scoreboard Lcti;
+	FIELD b name Ljava/lang/String;
+	FIELD c criteria Lctl;
+	FIELD d displayName Ljo;
+	FIELD e renderType Lctl$a;
+	METHOD <init> <init> (Lcti;Ljava/lang/String;Lctl;Ljo;Lctl$a;)V
+	METHOD a getScoreboard ()Lcti;
+	METHOD a setRenderType (Lctl$a;)V
+	METHOD a setDisplayName (Ljo;)V
+	METHOD a lambda$getFormattedDisplayName$0 (Ljw;)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getCriteria ()Lctl;
+	METHOD d getDisplayName ()Ljo;
+	METHOD e getFormattedDisplayName ()Ljo;
+	METHOD f getRenderType ()Lctl$a;

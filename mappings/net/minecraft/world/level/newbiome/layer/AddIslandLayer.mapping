@@ -1,0 +1,8 @@
+CLASS cmd net/minecraft/world/level/newbiome/layer/AddIslandLayer
+	FIELD a INSTANCE Lcmd;
+	FIELD b $VALUES [Lcmd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcly;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmd;
+	METHOD values values ()[Lcmd;

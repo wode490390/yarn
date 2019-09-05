@@ -1,0 +1,36 @@
+CLASS re net/minecraft/server/PlayerAdvancements
+	CLASS 1 1
+		METHOD <init> <init> ()V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c TYPE_TOKEN Lcom/google/gson/reflect/TypeToken;
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	FIELD e file Ljava/io/File;
+	FIELD f advancements Ljava/util/Map;
+	FIELD g visible Ljava/util/Set;
+	FIELD h visibilityChanged Ljava/util/Set;
+	FIELD i progressChanged Ljava/util/Set;
+	FIELD j player Lvl;
+	FIELD k lastSelectedTab Lq;
+	FIELD l isFirstPacket Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;Lvl;)V
+	METHOD a stopListening ()V
+	METHOD a setSelectedTab (Lq;)V
+	METHOD a award (Lq;Ljava/lang/String;)Z
+	METHOD a startProgress (Lq;Ls;)V
+	METHOD a setPlayer (Lvl;)V
+	METHOD b reload ()V
+	METHOD b getOrStartProgress (Lq;)Ls;
+	METHOD b revoke (Lq;Ljava/lang/String;)Z
+	METHOD b flushDirty (Lvl;)V
+	METHOD c save ()V
+	METHOD c registerListeners (Lq;)V
+	METHOD d registerListeners ()V
+	METHOD d unregisterListeners (Lq;)V
+	METHOD e ensureAllVisible ()V
+	METHOD e ensureVisibility (Lq;)V
+	METHOD f checkForAutomaticTriggers ()V
+	METHOD f shouldBeVisible (Lq;)Z
+	METHOD g load ()V
+	METHOD g hasCompletedChildrenOrSelf (Lq;)Z

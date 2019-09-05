@@ -1,0 +1,19 @@
+CLASS bdu net/minecraft/world/item/UseOnContext
+	FIELD b player Lawg;
+	FIELD c hand Lahi;
+	FIELD d hitResult Lcsd;
+	FIELD e level Lbhr;
+	FIELD f itemStack Lbcj;
+	METHOD <init> <init> (Lawg;Lahi;Lcsd;)V
+	METHOD <init> <init> (Lbhr;Lawg;Lahi;Lbcj;Lcsd;)V
+	METHOD a getClickedPos ()Lew;
+	METHOD f getHorizontalDirection ()Lfb;
+	METHOD g isSneaking ()Z
+	METHOD h getRotation ()F
+	METHOD i getClickedFace ()Lfb;
+	METHOD j getClickLocation ()Lcsi;
+	METHOD k isInside ()Z
+	METHOD l getItemInHand ()Lbcj;
+	METHOD m getPlayer ()Lawg;
+	METHOD n getHand ()Lahi;
+	METHOD o getLevel ()Lbhr;

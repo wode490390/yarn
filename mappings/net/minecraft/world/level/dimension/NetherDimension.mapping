@@ -1,0 +1,18 @@
+CLASS byo net/minecraft/world/level/dimension/NetherDimension
+	CLASS 1 1
+		FIELD a this$0 Lbyo;
+		METHOD <init> <init> (Lbyo;)V
+		METHOD g getCenterX ()D
+		METHOD h getCenterZ ()D
+	METHOD <init> <init> (Lbhr;Lbyn;)V
+	METHOD a updateLightRamp ()V
+	METHOD a isFoggyAt (II)Z
+	METHOD a getValidSpawnPosition (IIZ)Lew;
+	METHOD a getTimeOfDay (JF)F
+	METHOD a getSpawnPosInChunk (Lbhd;Z)Lew;
+	METHOD b getFogColor (FF)Lcsi;
+	METHOD j createWorldBorder ()Lbxf;
+	METHOD m createRandomLevelGenerator ()Lbxi;
+	METHOD n isNaturalDimension ()Z
+	METHOD o mayRespawn ()Z
+	METHOD p getType ()Lbyn;

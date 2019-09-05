@@ -1,0 +1,161 @@
+CLASS cis net/minecraft/world/level/levelgen/structure/StrongholdPieces
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/Class;II)V
+		METHOD a doPlace (I)Z
+	CLASS 2 2
+		METHOD <init> <init> (Ljava/lang/Class;II)V
+		METHOD a doPlace (I)Z
+	CLASS 3 3
+		FIELD a $SwitchMap$net$minecraft$world$level$levelgen$structure$StrongholdPieces$StrongholdPiece$SmallDoorType [I
+		FIELD b $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a ChestCorridor
+		FIELD a hasPlacedChest Z
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcis$a;
+	CLASS b FillerCorridor
+		FIELD a steps I
+		METHOD <init> <init> (ILcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a findPieceBox (Ljava/util/List;Ljava/util/Random;IIILfb;)Lcic;
+	CLASS c FiveCrossing
+		FIELD a leftLow Z
+		FIELD b leftHigh Z
+		FIELD c rightLow Z
+		FIELD e rightHigh Z
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcis$c;
+	CLASS d LeftTurn
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcis$d;
+	CLASS e Library
+		FIELD a isTall Z
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcis$e;
+	CLASS f PieceWeight
+		FIELD a pieceClass Ljava/lang/Class;
+		FIELD b weight I
+		FIELD c placeCount I
+		FIELD d maxPlaceCount I
+		METHOD <init> <init> (Ljava/lang/Class;II)V
+		METHOD a isValid ()Z
+		METHOD a doPlace (I)Z
+	CLASS g PortalRoom
+		FIELD a hasPlacedSpawner Z
+		METHOD <init> <init> (ILcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a createPiece (Ljava/util/List;IIILfb;I)Lcis$g;
+	CLASS h PrisonHall
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcis$h;
+	CLASS i RightTurn
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcis$i;
+	CLASS j RoomCrossing
+		FIELD a type I
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcis$j;
+	CLASS k SmoothStoneSelector
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcis$1;)V
+		METHOD a next (Ljava/util/Random;IIIZ)V
+	CLASS l StairsDown
+		FIELD a isSource Z
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcev;ILjava/util/Random;II)V
+		METHOD <init> <init> (Lcev;Lid;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcis$l;
+	CLASS m StartPiece
+		FIELD a previousPiece Lcis$f;
+		FIELD b portalRoomPiece Lcis$g;
+		FIELD c pendingChildren Ljava/util/List;
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD <init> <init> (Ljava/util/Random;II)V
+		METHOD W_ getLocatorPosition ()Lew;
+	CLASS n Straight
+		FIELD a leftChild Z
+		FIELD b rightChild Z
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcis$n;
+	CLASS o StraightStairsDown
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcis$o;
+	CLASS p StrongholdPiece
+		CLASS a SmallDoorType
+			FIELD a OPENING Lcis$p$a;
+			FIELD b WOOD_DOOR Lcis$p$a;
+			FIELD c GRATES Lcis$p$a;
+			FIELD d IRON_DOOR Lcis$p$a;
+			FIELD e $VALUES [Lcis$p$a;
+			METHOD <clinit> <clinit> ()V
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD valueOf valueOf (Ljava/lang/String;)Lcis$p$a;
+			METHOD values values ()[Lcis$p$a;
+		FIELD d entryDoor Lcis$p$a;
+		METHOD <init> <init> (Lcev;I)V
+		METHOD <init> <init> (Lcev;Lid;)V
+		METHOD a generateSmallDoor (Lbhs;Ljava/util/Random;Lcic;Lcis$p$a;III)V
+		METHOD a isOkBox (Lcic;)Z
+		METHOD a generateSmallDoorChildForward (Lcis$m;Ljava/util/List;Ljava/util/Random;II)Lciv;
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a randomSmallDoor (Ljava/util/Random;)Lcis$p$a;
+		METHOD b generateSmallDoorChildLeft (Lcis$m;Ljava/util/List;Ljava/util/Random;II)Lciv;
+		METHOD c generateSmallDoorChildRight (Lcis$m;Ljava/util/List;Ljava/util/Random;II)Lciv;
+	CLASS q Turn
+		METHOD <init> <init> (Lcev;I)V
+		METHOD <init> <init> (Lcev;Lid;)V
+	FIELD a STRONGHOLD_PIECE_WEIGHTS [Lcis$f;
+	FIELD b currentPieces Ljava/util/List;
+	FIELD c imposedPiece Ljava/lang/Class;
+	FIELD d totalWeight I
+	FIELD e SMOOTH_STONE_SELECTOR Lcis$k;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a resetPieces ()V
+	METHOD a access$000 (Lcis$m;Ljava/util/List;Ljava/util/Random;IIILfb;I)Lciv;
+	METHOD a access$102 (Ljava/lang/Class;)Ljava/lang/Class;
+	METHOD a findAndCreatePieceFactory (Ljava/lang/Class;Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcis$p;
+	METHOD b access$200 ()Lcis$k;
+	METHOD b generatePieceFromSmallDoor (Lcis$m;Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcis$p;
+	METHOD c updatePieceWeight ()Z
+	METHOD c generateAndAddPiece (Lcis$m;Ljava/util/List;Ljava/util/Random;IIILfb;I)Lciv;

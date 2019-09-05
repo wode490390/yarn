@@ -1,0 +1,11 @@
+CLASS pk net/minecraft/network/protocol/game/ServerboundUseItemOnPacket
+	FIELD a blockHit Lcsd;
+	FIELD b hand Lahi;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lahi;Lcsd;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getHand ()Lahi;
+	METHOD b write (Lje;)V
+	METHOD c getHitResult ()Lcsd;

@@ -1,0 +1,22 @@
+CLASS bsx net/minecraft/world/level/block/TurtleEggBlock
+	FIELD a HATCH Lbwt;
+	FIELD b EGGS Lbwt;
+	FIELD c ONE_EGG_AABB Lctc;
+	FIELD d MULTIPLE_EGGS_AABB Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a onSand (Lbhb;Lew;)Z
+	METHOD a shouldUpdateHatchLevel (Lbhr;)Z
+	METHOD a canDestroyEgg (Lbhr;Laio;)Z
+	METHOD a playerDestroy (Lbhr;Lawg;Lew;Lbvt;Lbtw;Lbcj;)V
+	METHOD a stepOn (Lbhr;Lew;Laio;)V
+	METHOD a fallOn (Lbhr;Lew;Laio;F)V
+	METHOD a destroyEgg (Lbhr;Lew;Laio;I)V
+	METHOD a decreaseEggs (Lbhr;Lew;Lbvt;)V
+	METHOD a canBeReplaced (Lbvt;Lban;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b onPlace (Lbvt;Lbhr;Lew;Lbvt;Z)V
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD c getRenderLayer ()Lbhc;

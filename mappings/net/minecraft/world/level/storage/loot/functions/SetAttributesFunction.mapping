@@ -1,0 +1,55 @@
+CLASS cqk net/minecraft/world/level/storage/loot/functions/SetAttributesFunction
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$entity$ai$attributes$AttributeModifier$Operation [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Builder
+		FIELD a modifiers Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Lcqk$a;
+		METHOD a withModifier (Lcqk$c;)Lcqk$a;
+		METHOD b build ()Lcqh;
+		METHOD d getThis ()Lcqg$a;
+	CLASS b Modifier
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Ljava/lang/String;
+		FIELD c operation Lajp$a;
+		FIELD d amount Lcpg;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots [Lait;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Lajp$a;Lcpg;[Lait;Ljava/util/UUID;)V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Lajp$a;Lcpg;[Lait;Ljava/util/UUID;Lcqk$1;)V
+		METHOD a operationToString (Lajp$a;)Ljava/lang/String;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcqk$b;
+		METHOD a serialize (Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonObject;
+		METHOD a access$000 (Lcqk$b;)Ljava/util/UUID;
+		METHOD a operationFromString (Ljava/lang/String;)Lajp$a;
+		METHOD b access$100 (Lcqk$b;)[Lait;
+		METHOD c access$200 (Lcqk$b;)Ljava/lang/String;
+		METHOD d access$300 (Lcqk$b;)Ljava/lang/String;
+		METHOD e access$400 (Lcqk$b;)Lcpg;
+		METHOD f access$500 (Lcqk$b;)Lajp$a;
+	CLASS c ModifierBuilder
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Ljava/lang/String;
+		FIELD c operation Lajp$a;
+		FIELD d amount Lcpg;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots Ljava/util/Set;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Lajp$a;Lcpg;)V
+		METHOD a build ()Lcqk$b;
+		METHOD a forSlot (Lait;)Lcqk$c;
+		METHOD a withUuid (Ljava/util/UUID;)Lcqk$c;
+	CLASS d Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqk;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a modifiers Ljava/util/List;
+	METHOD <init> <init> ([Lcrk;Ljava/util/List;)V
+	METHOD <init> <init> ([Lcrk;Ljava/util/List;Lcqk$1;)V
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a access$800 (Lcqk;)Ljava/util/List;
+	METHOD a modifier (Ljava/lang/String;Ljava/lang/String;Lajp$a;Lcpg;)Lcqk$c;
+	METHOD b setAttributes ()Lcqk$a;

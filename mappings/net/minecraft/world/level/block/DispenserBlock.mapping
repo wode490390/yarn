@@ -1,0 +1,25 @@
+CLASS bof net/minecraft/world/level/block/DispenserBlock
+	FIELD a FACING Lbwo;
+	FIELD b TRIGGERED Lbwl;
+	FIELD c DISPENSER_REGISTRY Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a getDispenseMethod (Lbcj;)Lfx;
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a registerBehavior (Lbhq;Lfx;)V
+	METHOD a dispenseFrom (Lbhr;Lew;)V
+	METHOD a setPlacedBy (Lbhr;Lew;Lbvt;Laix;Lbcj;)V
+	METHOD a getTickDelay (Lbhu;)I
+	METHOD a getAnalogOutputSignal (Lbvt;Lbhr;Lew;)I
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a neighborChanged (Lbvt;Lbhr;Lew;Lbmv;Lew;Z)V
+	METHOD a onRemove (Lbvt;Lbhr;Lew;Lbvt;Z)V
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD a getDispensePosition (Lex;)Lfl;
+	METHOD a lambda$static$0 (Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;)V
+	METHOD b hasAnalogOutputSignal (Lbvt;)Z
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD c getRenderShape (Lbvt;)Lbrd;

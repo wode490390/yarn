@@ -1,0 +1,16 @@
+CLASS anl net/minecraft/world/entity/ai/goal/LookAtPlayerGoal
+	FIELD a mob Laiy;
+	FIELD b lookAt Laio;
+	FIELD c lookDistance F
+	FIELD d lookAtType Ljava/lang/Class;
+	FIELD e lookAtContext Laqi;
+	FIELD f lookTime I
+	FIELD g probability F
+	METHOD <init> <init> (Laiy;Ljava/lang/Class;F)V
+	METHOD <init> <init> (Laiy;Ljava/lang/Class;FF)V
+	METHOD a canUse ()Z
+	METHOD a lambda$new$0 (Laiy;Laix;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

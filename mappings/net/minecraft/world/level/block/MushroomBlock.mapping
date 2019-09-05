@@ -1,0 +1,13 @@
+CLASS bqh net/minecraft/world/level/block/MushroomBlock
+	FIELD a SHAPE Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a isValidBonemealTarget (Lbhb;Lew;Lbvt;Z)Z
+	METHOD a isBonemealSuccess (Lbhr;Ljava/util/Random;Lew;Lbvt;)Z
+	METHOD a growMushroom (Lbhs;Lew;Lbvt;Ljava/util/Random;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a canSurvive (Lbvt;Lbhu;Lew;)Z
+	METHOD a_ mayPlaceOn (Lbvt;Lbhb;Lew;)Z
+	METHOD b performBonemeal (Lbhr;Ljava/util/Random;Lew;Lbvt;)V
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD g hasPostProcess (Lbvt;Lbhb;Lew;)Z

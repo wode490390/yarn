@@ -1,0 +1,7 @@
+CLASS cio net/minecraft/world/level/levelgen/structure/PillagerOutpostPieces
+	CLASS a PillagerOutpostPiece
+		METHOD <init> <init> (Lcjp;Lcfr;Lew;ILbrg;Lcic;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a addPieces (Lbxi;Lcjp;Lew;Ljava/util/List;Lbzk;)V

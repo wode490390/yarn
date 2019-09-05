@@ -1,0 +1,13 @@
+CLASS gi net/minecraft/core/particles/SimpleParticleType
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lgg;Lcom/mojang/brigadier/StringReader;)Lgi;
+		METHOD a fromNetwork (Lgg;Lje;)Lgi;
+		METHOD b fromCommand (Lgg;Lcom/mojang/brigadier/StringReader;)Lgf;
+		METHOD b fromNetwork (Lgg;Lje;)Lgf;
+	FIELD a DESERIALIZER Lgf$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a writeToNetwork (Lje;)V
+	METHOD b getType ()Lgg;

@@ -1,0 +1,8 @@
+CLASS bpq net/minecraft/world/level/block/JigsawBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD a canAttach (Lcjt$b;Lcjt$b;)Z

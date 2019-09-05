@@ -1,0 +1,4 @@
+CLASS bdv net/minecraft/world/item/WaterLilyBlockItem
+	METHOD <init> <init> (Lbmv;Lbce$a;)V
+	METHOD a useOn (Lbdu;)Lahj;
+	METHOD a use (Lbhr;Lawg;Lahi;)Lahk;

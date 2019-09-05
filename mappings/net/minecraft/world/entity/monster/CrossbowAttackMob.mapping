@@ -1,0 +1,4 @@
+CLASS auf net/minecraft/world/entity/monster/CrossbowAttackMob
+	METHOD a shootProjectile (Laix;Lbcj;Lawv;F)V
+	METHOD a setChargingCrossbow (Z)V
+	METHOD w getTarget ()Laix;

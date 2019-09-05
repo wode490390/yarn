@@ -1,0 +1,2 @@
+CLASS bhq net/minecraft/world/level/ItemLike
+	METHOD g asItem ()Lbce;

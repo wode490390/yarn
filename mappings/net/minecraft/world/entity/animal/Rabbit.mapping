@@ -1,0 +1,89 @@
+CLASS arq net/minecraft/world/entity/animal/Rabbit
+	CLASS a EvilRabbitAttackGoal
+		METHOD <init> <init> (Larq;)V
+		METHOD a getAttackReachSqr (Laix;)D
+	CLASS b RabbitAvoidEntityGoal
+		FIELD i rabbit Larq;
+		METHOD <init> <init> (Larq;Ljava/lang/Class;FDD)V
+		METHOD a canUse ()Z
+	CLASS c RabbitGroupData
+		FIELD a rabbitType I
+		METHOD <init> <init> (I)V
+	CLASS d RabbitJumpControl
+		FIELD b this$0 Larq;
+		FIELD c rabbit Larq;
+		FIELD d canJump Z
+		METHOD <init> <init> (Larq;Larq;)V
+		METHOD a setCanJump (Z)V
+		METHOD b tick ()V
+		METHOD c wantJump ()Z
+		METHOD d canJump ()Z
+	CLASS e RabbitMoveControl
+		FIELD i rabbit Larq;
+		FIELD j nextJumpSpeed D
+		METHOD <init> <init> (Larq;)V
+		METHOD a tick ()V
+		METHOD a setWantedPosition (DDDD)V
+	CLASS f RabbitPanicGoal
+		FIELD f rabbit Larq;
+		METHOD <init> <init> (Larq;D)V
+		METHOD e tick ()V
+	CLASS g RaidGardenGoal
+		FIELD g rabbit Larq;
+		FIELD h wantsToRaid Z
+		FIELD i canRaid Z
+		METHOD <init> <init> (Larq;)V
+		METHOD a canUse ()Z
+		METHOD a isValidTarget (Lbhu;Lew;)Z
+		METHOD b canContinueToUse ()Z
+		METHOD e tick ()V
+	FIELD bA KILLER_BUNNY Lqv;
+	FIELD bB jumpTicks I
+	FIELD bC jumpDuration I
+	FIELD bD wasOnGround Z
+	FIELD bE jumpDelayTicks I
+	FIELD bF moreCarrotTicks I
+	FIELD bz DATA_TYPE_ID Lqk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD C doHurtTarget (Laio;)Z
+	METHOD G getAmbientSound ()Lyo;
+	METHOD L customServerAiStep ()V
+	METHOD a handleEntityEvent (B)V
+	METHOD a hurt (Lahx;F)Z
+	METHOD a getBreedOffspring (Laim;)Laim;
+	METHOD a access$000 (Larq;)Z
+	METHOD a access$302 (Larq;I)I
+	METHOD a getRandomRabbitType (Lbhs;)I
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD aA updateSprintingState ()V
+	METHOD a_ setJumping (Z)V
+	METHOD b facePoint (DD)V
+	METHOD b getBreedOffspring (Laim;)Larq;
+	METHOD b access$100 (Larq;)Lamh;
+	METHOD b isTemptingItem (Lbce;)Z
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c checkRabbitSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD c access$200 (Larq;)Z
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cX getJumpPower ()F
+	METHOD cY jumpFromGround ()V
+	METHOD cc getSoundSource ()Lyq;
+	METHOD cl registerAttributes ()V
+	METHOD d setSpeedModifier (D)V
+	METHOD dV startJumping ()V
+	METHOD dW getJumpSound ()Lyo;
+	METHOD dX getRabbitType ()I
+	METHOD dY enableJumpControl ()V
+	METHOD dZ disableJumpControl ()V
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD ee setLandingDelay ()V
+	METHOD ef checkLandingDelay ()V
+	METHOD eg wantsMoreFood ()Z
+	METHOD i isFood (Lbcj;)Z
+	METHOD k aiStep ()V
+	METHOD n registerGoals ()V
+	METHOD s setRabbitType (I)V
+	METHOD u_ defineSynchedData ()V
+	METHOD v getJumpCompletion (F)F

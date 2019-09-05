@@ -1,0 +1,15 @@
+CLASS clh net/minecraft/world/level/material/EmptyFluid
+	METHOD <init> <init> ()V
+	METHOD a getRenderLayer ()Lbhc;
+	METHOD a getFlow (Lbhb;Lew;Lclk;)Lcsi;
+	METHOD a getTickDelay (Lbhu;)I
+	METHOD a getOwnHeight (Lclk;)F
+	METHOD a getHeight (Lclk;Lbhb;Lew;)F
+	METHOD a canBeReplacedWith (Lclk;Lbhb;Lew;Lclj;Lfb;)Z
+	METHOD b getBucket ()Lbce;
+	METHOD b createLegacyBlock (Lclk;)Lbvt;
+	METHOD b getShape (Lclk;Lbhb;Lew;)Lctc;
+	METHOD c isEmpty ()Z
+	METHOD c isSource (Lclk;)Z
+	METHOD d getExplosionResistance ()F
+	METHOD d getAmount (Lclk;)I

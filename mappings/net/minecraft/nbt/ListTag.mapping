@@ -1,20 +1,39 @@
-CLASS net/minecraft/class_2499 net/minecraft/nbt/ListTag
-	FIELD field_11550 value Ljava/util/List;
-	FIELD field_11551 type B
-	METHOD add (ILjava/lang/Object;)V
-		ARG 1 value
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
-	METHOD method_10600 getInt (I)I
-	METHOD method_10601 getListType ()I
-	METHOD method_10602 getCompoundTag (I)Lnet/minecraft/class_2487;
-	METHOD method_10603 getListTag (I)Lnet/minecraft/class_2499;
-	METHOD method_10604 getFloat (I)F
-	METHOD method_10605 canAdd (Lnet/minecraft/class_2520;)Z
-	METHOD method_10608 getString (I)Ljava/lang/String;
-	METHOD method_10609 getShort (I)S
-	METHOD method_10610 getIntArray (I)[I
-	METHOD method_10611 getDouble (I)D
-	METHOD method_17809 forgetTypeIfEmpty ()V
-	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
-		ARG 1 index
+CLASS ik net/minecraft/nbt/ListTag
+	FIELD f list Ljava/util/List;
+	FIELD g type B
+	METHOD <init> <init> ()V
+	METHOD a getId ()B
+	METHOD a getCompound (I)Lid;
+	METHOD a setTag (ILiu;)Z
+	METHOD a updateType (Liu;)Z
+	METHOD a load (Ljava/io/DataInput;ILin;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Ljo;
+	METHOD a_ getElementType ()I
+	METHOD add add (ILjava/lang/Object;)V
+	METHOD b copy ()Liu;
+	METHOD b getList (I)Lik;
+	METHOD b addTag (ILiu;)Z
+	METHOD b_ stripEmptyChildren ()V
+	METHOD c copy ()Lik;
+	METHOD c remove (I)Liu;
+	METHOD c add (ILiu;)V
+	METHOD clear clear ()V
+	METHOD d getShort (I)S
+	METHOD d set (ILiu;)Liu;
+	METHOD e getInt (I)I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f updateTypeAfterRemove ()V
+	METHOD f getIntArray (I)[I
+	METHOD g getLongArray (I)[J
+	METHOD get get (I)Ljava/lang/Object;
+	METHOD h getDouble (I)D
+	METHOD hashCode hashCode ()I
+	METHOD i getFloat (I)F
+	METHOD isEmpty isEmpty ()Z
+	METHOD j getString (I)Ljava/lang/String;
+	METHOD k get (I)Liu;
+	METHOD remove remove (I)Ljava/lang/Object;
+	METHOD set set (ILjava/lang/Object;)Ljava/lang/Object;
+	METHOD size size ()I
+	METHOD toString toString ()Ljava/lang/String;

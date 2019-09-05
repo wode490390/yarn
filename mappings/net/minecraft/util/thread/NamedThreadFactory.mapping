@@ -1,0 +1,9 @@
+CLASS agr net/minecraft/util/thread/NamedThreadFactory
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b group Ljava/lang/ThreadGroup;
+	FIELD c threadNumber Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD d namePrefix Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a lambda$newThread$0 (Ljava/lang/Runnable;Ljava/lang/Thread;Ljava/lang/Throwable;)V
+	METHOD newThread newThread (Ljava/lang/Runnable;)Ljava/lang/Thread;

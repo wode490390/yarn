@@ -1,0 +1,15 @@
+CLASS qx net/minecraft/server/Bootstrap
+	FIELD a STDOUT Ljava/io/PrintStream;
+	FIELD b isBootstrapped Z
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootStrap ()V
+	METHOD a checkTranslations (Lfn;Ljava/util/function/Function;Ljava/util/Set;)V
+	METHOD a realStdoutPrintln (Ljava/lang/String;)V
+	METHOD a lambda$checkTranslations$0 (Ljava/util/function/Function;Lhy;Ljava/util/Set;Ljava/lang/Object;)V
+	METHOD a lambda$getMissingTranslations$1 (Lqv;)Ljava/lang/String;
+	METHOD b getMissingTranslations ()Ljava/util/Set;
+	METHOD b lambda$validate$2 (Ljava/lang/String;)V
+	METHOD c validate ()V
+	METHOD d wrapStreams ()V

@@ -1,0 +1,16 @@
+CLASS aa net/minecraft/advancements/FrameType
+	FIELD a TASK Laa;
+	FIELD b CHALLENGE Laa;
+	FIELD c GOAL Laa;
+	FIELD d name Ljava/lang/String;
+	FIELD e texture I
+	FIELD f chatColor Lc;
+	FIELD g $VALUES [Laa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;ILc;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a byName (Ljava/lang/String;)Laa;
+	METHOD b getTexture ()I
+	METHOD c getChatColor ()Lc;
+	METHOD valueOf valueOf (Ljava/lang/String;)Laa;
+	METHOD values values ()[Laa;

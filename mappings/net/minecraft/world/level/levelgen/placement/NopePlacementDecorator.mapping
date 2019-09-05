@@ -1,0 +1,4 @@
+CLASS cho net/minecraft/world/level/levelgen/placement/NopePlacementDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Ljava/util/Random;Lcax;Lew;)Ljava/util/stream/Stream;
+	METHOD a place (Ljava/util/Random;Lcdc;Lew;)Ljava/util/stream/Stream;

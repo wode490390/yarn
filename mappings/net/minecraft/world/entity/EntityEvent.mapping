@@ -1,0 +1,2 @@
+CLASS aiq net/minecraft/world/entity/EntityEvent
+	METHOD <init> <init> ()V

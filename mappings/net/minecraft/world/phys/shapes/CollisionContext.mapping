@@ -1,0 +1,6 @@
+CLASS csn net/minecraft/world/phys/shapes/CollisionContext
+	METHOD a empty ()Lcsn;
+	METHOD a of (Laio;)Lcsn;
+	METHOD a isHoldingItem (Lbce;)Z
+	METHOD a isAbove (Lctc;Lew;Z)Z
+	METHOD b isSneaking ()Z

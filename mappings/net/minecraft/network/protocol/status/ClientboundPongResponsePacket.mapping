@@ -1,0 +1,9 @@
+CLASS qd net/minecraft/network/protocol/status/ClientboundPongResponsePacket
+	FIELD a time J
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (J)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lqc;)V
+	METHOD b getTime ()J
+	METHOD b write (Lje;)V

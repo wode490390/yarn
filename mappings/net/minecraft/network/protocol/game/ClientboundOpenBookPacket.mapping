@@ -1,0 +1,9 @@
+CLASS lx net/minecraft/network/protocol/game/ClientboundOpenBookPacket
+	FIELD a hand Lahi;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lahi;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getHand ()Lahi;
+	METHOD b write (Lje;)V

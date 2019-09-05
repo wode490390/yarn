@@ -1,0 +1,9 @@
+CLASS akh net/minecraft/world/entity/ai/behavior/GoToClosestVillage
+	FIELD a speed F
+	FIELD b closeEnoughDistance I
+	METHOD <init> <init> (FI)V
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a checkExtraStartConditions (Lvk;Lavt;)Z
+	METHOD a start (Lvk;Lavt;J)V
+	METHOD a lambda$start$0 (Lvk;Lew;)D

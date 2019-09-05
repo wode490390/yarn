@@ -1,0 +1,10 @@
+CLASS cpl net/minecraft/world/level/storage/loot/entries/EmptyLootItem
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcrk;[Lcqh;)Lcpl;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcrk;[Lcqh;)Lcpr;
+	METHOD <init> <init> (II[Lcrk;[Lcqh;)V
+	METHOD <init> <init> (II[Lcrk;[Lcqh;Lcpl$1;)V
+	METHOD a emptyItem ()Lcpr$a;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Lcoy;)V

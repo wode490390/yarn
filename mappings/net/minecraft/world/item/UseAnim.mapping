@@ -1,0 +1,13 @@
+CLASS bdt net/minecraft/world/item/UseAnim
+	FIELD a NONE Lbdt;
+	FIELD b EAT Lbdt;
+	FIELD c DRINK Lbdt;
+	FIELD d BLOCK Lbdt;
+	FIELD e BOW Lbdt;
+	FIELD f SPEAR Lbdt;
+	FIELD g CROSSBOW Lbdt;
+	FIELD h $VALUES [Lbdt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbdt;
+	METHOD values values ()[Lbdt;

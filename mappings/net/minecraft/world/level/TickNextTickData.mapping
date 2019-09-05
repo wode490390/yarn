@@ -1,0 +1,15 @@
+CLASS bih net/minecraft/world/level/TickNextTickData
+	FIELD a pos Lew;
+	FIELD b delay J
+	FIELD c priority Lbii;
+	FIELD d counter J
+	FIELD e type Ljava/lang/Object;
+	FIELD f c J
+	METHOD <init> <init> (Lew;Ljava/lang/Object;)V
+	METHOD <init> <init> (Lew;Ljava/lang/Object;JLbii;)V
+	METHOD a createTimeComparator ()Ljava/util/Comparator;
+	METHOD a lambda$createTimeComparator$0 (Lbih;Lbih;)I
+	METHOD b getType ()Ljava/lang/Object;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

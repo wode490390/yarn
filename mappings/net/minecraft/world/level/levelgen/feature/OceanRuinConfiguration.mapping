@@ -1,0 +1,7 @@
+CLASS cdf net/minecraft/world/level/levelgen/feature/OceanRuinConfiguration
+	FIELD a biomeTemp Lcim$b;
+	FIELD b largeProbability F
+	FIELD c clusterProbability F
+	METHOD <init> <init> (Lcim$b;FF)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdf;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

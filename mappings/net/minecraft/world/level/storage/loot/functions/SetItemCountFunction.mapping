@@ -1,0 +1,16 @@
+CLASS cqn net/minecraft/world/level/storage/loot/functions/SetItemCountFunction
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqn;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqn;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a value Lcpe;
+	METHOD <init> <init> ([Lcrk;Lcpe;)V
+	METHOD <init> <init> ([Lcrk;Lcpe;Lcqn$1;)V
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a setCount (Lcpe;)Lcqg$a;
+	METHOD a lambda$setCount$0 (Lcpe;[Lcrk;)Lcqh;
+	METHOD a access$000 (Lcqn;)Lcpe;

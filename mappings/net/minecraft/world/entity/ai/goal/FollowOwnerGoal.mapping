@@ -1,0 +1,17 @@
+CLASS anc net/minecraft/world/entity/ai/goal/FollowOwnerGoal
+	FIELD a tamable Lajl;
+	FIELD b level Lbhu;
+	FIELD c owner Laix;
+	FIELD d speedModifier D
+	FIELD e navigation Lapp;
+	FIELD f timeToRecalcPath I
+	FIELD g stopDistance F
+	FIELD h startDistance F
+	FIELD i oldWaterCost F
+	METHOD <init> <init> (Lajl;DFF)V
+	METHOD a canUse ()Z
+	METHOD a isTeleportFriendlyBlock (Lew;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

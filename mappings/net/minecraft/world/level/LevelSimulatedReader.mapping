@@ -1,0 +1,4 @@
+CLASS bhx net/minecraft/world/level/LevelSimulatedReader
+	METHOD a getHeightmapPos (Lbza$a;Lew;)Lew;
+	METHOD a isStateAtPosition (Lew;Ljava/util/function/Predicate;)Z
+	METHOD b isFluidAtPosition (Lew;Ljava/util/function/Predicate;)Z

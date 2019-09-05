@@ -1,0 +1,10 @@
+CLASS cms net/minecraft/world/level/newbiome/layer/RiverLayer
+	FIELD a INSTANCE Lcms;
+	FIELD b RIVER I
+	FIELD c $VALUES [Lcms;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcly;IIIII)I
+	METHOD c riverFilter (I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcms;
+	METHOD values values ()[Lcms;

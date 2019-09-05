@@ -1,0 +1,4 @@
+CLASS xj net/minecraft/server/packs/resources/ResourceManagerReloadListener
+	METHOD a reload (Lxd$a;Lxi;Lagn;Lagn;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a onResourceManagerReload (Lxi;)V
+	METHOD b lambda$reload$0 (Lxi;)V

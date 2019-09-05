@@ -1,0 +1,21 @@
+CLASS cpj net/minecraft/world/level/storage/loot/entries/CompositeEntryBase
+	CLASS 1 1
+		FIELD a val$constructor Lcpj$a;
+		METHOD <init> <init> (Lqv;Ljava/lang/Class;Lcpj$a;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcpq;[Lcrk;)Lcpj;
+	CLASS a CompositeEntryConstructor
+		METHOD create create ([Lcpq;[Lcrk;)Lcpj;
+	CLASS b Serializer
+		METHOD <init> <init> (Lqv;Ljava/lang/Class;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcpq;[Lcrk;)Lcpj;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcpj;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpj;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcpq;
+	FIELD c children [Lcpq;
+	FIELD e composedChildren Lcpi;
+	METHOD <init> <init> ([Lcpq;[Lcrk;)V
+	METHOD a validate (Lcpc;Ljava/util/function/Function;Ljava/util/Set;Lcqx;)V
+	METHOD a createSerializer (Lqv;Ljava/lang/Class;Lcpj$a;)Lcpj$b;
+	METHOD a compose ([Lcpi;)Lcpi;
+	METHOD expand expand (Lcoy;Ljava/util/function/Consumer;)Z

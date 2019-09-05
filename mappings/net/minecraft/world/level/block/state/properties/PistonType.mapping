@@ -1,0 +1,11 @@
+CLASS bwv net/minecraft/world/level/block/state/properties/PistonType
+	FIELD a DEFAULT Lbwv;
+	FIELD b STICKY Lbwv;
+	FIELD c name Ljava/lang/String;
+	FIELD d $VALUES [Lbwv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD m getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbwv;
+	METHOD values values ()[Lbwv;

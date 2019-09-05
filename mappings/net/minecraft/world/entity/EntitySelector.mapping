@@ -1,0 +1,24 @@
+CLASS air net/minecraft/world/entity/EntitySelector
+	CLASS a MobCanWearArmourEntitySelector
+		FIELD a itemStack Lbcj;
+		METHOD <init> <init> (Lbcj;)V
+		METHOD a test (Laio;)Z
+		METHOD test test (Ljava/lang/Object;)Z
+	FIELD a ENTITY_STILL_ALIVE Ljava/util/function/Predicate;
+	FIELD b LIVING_ENTITY_STILL_ALIVE Ljava/util/function/Predicate;
+	FIELD c ENTITY_NOT_BEING_RIDDEN Ljava/util/function/Predicate;
+	FIELD d CONTAINER_ENTITY_SELECTOR Ljava/util/function/Predicate;
+	FIELD e NO_CREATIVE_OR_SPECTATOR Ljava/util/function/Predicate;
+	FIELD f NO_SPECTATORS Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a withinDistance (DDDD)Ljava/util/function/Predicate;
+	METHOD a lambda$withinDistance$4 (DDDDLaio;)Z
+	METHOD a pushableBy (Laio;)Ljava/util/function/Predicate;
+	METHOD a lambda$notRiding$6 (Laio;Laio;)Z
+	METHOD a lambda$pushableBy$5 (Laio;Lctk;Lctk$a;Laio;)Z
+	METHOD b notRiding (Laio;)Ljava/util/function/Predicate;
+	METHOD c lambda$static$3 (Laio;)Z
+	METHOD d lambda$static$2 (Laio;)Z
+	METHOD e lambda$static$1 (Laio;)Z
+	METHOD f lambda$static$0 (Laio;)Z

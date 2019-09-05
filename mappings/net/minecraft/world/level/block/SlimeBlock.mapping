@@ -1,0 +1,6 @@
+CLASS brs net/minecraft/world/level/block/SlimeBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a updateEntityAfterFallOn (Lbhb;Laio;)V
+	METHOD a stepOn (Lbhr;Lew;Laio;)V
+	METHOD a fallOn (Lbhr;Lew;Laio;F)V
+	METHOD c getRenderLayer ()Lbhc;

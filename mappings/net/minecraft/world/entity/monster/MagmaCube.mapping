@@ -1,0 +1,22 @@
+CLASS aur net/minecraft/world/entity/monster/MagmaCube
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD H getDefaultLootTable ()Lqv;
+	METHOD a setSize (IZ)V
+	METHOD a checkSpawnObstruction (Lbhu;)Z
+	METHOD aE getLightColor ()I
+	METHOD aF getBrightness ()F
+	METHOD b causeFallDamage (FF)V
+	METHOD b checkMagmaCubeSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD bc isOnFire ()Z
+	METHOD c jumpInLiquid (Lzg;)V
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cY jumpFromGround ()V
+	METHOD cl registerAttributes ()V
+	METHOD dT getJumpDelay ()I
+	METHOD dU decreaseSquish ()V
+	METHOD dV isDealsDamage ()Z
+	METHOD dW getAttackDamage ()I
+	METHOD dX getSquishSound ()Lyo;
+	METHOD dY getJumpSound ()Lyo;
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD l getParticleType ()Lgf;

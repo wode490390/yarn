@@ -1,0 +1,8 @@
+CLASS cmq net/minecraft/world/level/newbiome/layer/RemoveTooMuchOceanLayer
+	FIELD a INSTANCE Lcmq;
+	FIELD b $VALUES [Lcmq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcly;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmq;
+	METHOD values values ()[Lcmq;

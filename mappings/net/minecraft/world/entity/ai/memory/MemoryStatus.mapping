@@ -1,0 +1,9 @@
+CLASS apk net/minecraft/world/entity/ai/memory/MemoryStatus
+	FIELD a VALUE_PRESENT Lapk;
+	FIELD b VALUE_ABSENT Lapk;
+	FIELD c REGISTERED Lapk;
+	FIELD d $VALUES [Lapk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lapk;
+	METHOD values values ()[Lapk;

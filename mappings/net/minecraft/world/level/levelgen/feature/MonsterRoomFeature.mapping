@@ -1,0 +1,9 @@
+CLASS ccz net/minecraft/world/level/levelgen/feature/MonsterRoomFeature
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD aS MOBS [Lais;
+	FIELD aT AIR Lbvt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcdd;)Z
+	METHOD a randomEntityId (Ljava/util/Random;)Lais;

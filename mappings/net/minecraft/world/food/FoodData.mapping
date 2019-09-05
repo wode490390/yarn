@@ -1,0 +1,21 @@
+CLASS ayg net/minecraft/world/food/FoodData
+	FIELD a foodLevel I
+	FIELD b saturationLevel F
+	FIELD c exhaustionLevel F
+	FIELD d tickTimer I
+	FIELD e lastFoodLevel I
+	METHOD <init> <init> ()V
+	METHOD a getFoodLevel ()I
+	METHOD a addExhaustion (F)V
+	METHOD a setFoodLevel (I)V
+	METHOD a eat (IF)V
+	METHOD a tick (Lawg;)V
+	METHOD a eat (Lbce;Lbcj;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b getLastFoodLevel ()I
+	METHOD b setSaturation (F)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c needsFood ()Z
+	METHOD c setExhaustion (F)V
+	METHOD d getExhaustionLevel ()F
+	METHOD e getSaturationLevel ()F

@@ -1,0 +1,11 @@
+CLASS st net/minecraft/server/commands/OpCommand
+	FIELD a ERROR_ALREADY_OP Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a opPlayers (Lcd;Ljava/util/Collection;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$null$2 (Lvl;)Ljava/lang/String;
+	METHOD a lambda$null$1 (Lxv;Lvl;)Z

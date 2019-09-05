@@ -1,0 +1,10 @@
+CLASS cos net/minecraft/world/level/storage/McRegionUpgrader
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a convertRegion (Ljava/io/File;Ljava/io/File;Lbiq;IILzz;)V
+	METHOD a convertRegions (Ljava/io/File;Ljava/lang/Iterable;Lbiq;IILzz;)V
+	METHOD a lambda$addRegionFiles$0 (Ljava/io/File;Ljava/lang/String;)Z
+	METHOD a addRegionFiles (Ljava/io/File;Ljava/util/Collection;)V
+	METHOD a convertLevel (Ljava/nio/file/Path;Lcom/mojang/datafixers/DataFixer;Ljava/lang/String;Lzz;)Z
+	METHOD a makeMcrLevelDatBackup (Ljava/nio/file/Path;Ljava/lang/String;)V

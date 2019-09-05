@@ -1,0 +1,33 @@
+CLASS csr net/minecraft/world/phys/shapes/DiscreteVoxelShape
+	CLASS a IntFaceConsumer
+		METHOD consume consume (Lfb;III)V
+	CLASS b IntLineConsumer
+		METHOD consume consume (IIIIII)V
+	FIELD a xSize I
+	FIELD b ySize I
+	FIELD c zSize I
+	FIELD d AXIS_VALUES [Lfb$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (III)V
+	METHOD a isEmpty ()Z
+	METHOD a isZStripFull (IIII)Z
+	METHOD a isXZRectangleFull (IIIII)Z
+	METHOD a setZStrip (IIIIZ)V
+	METHOD a setFull (IIIZZ)V
+	METHOD a forAllFaces (Lcsr$a;)V
+	METHOD a forAllAxisFaces (Lcsr$a;Lev;)V
+	METHOD a forAllAxisEdges (Lcsr$b;Lev;Z)V
+	METHOD a forAllEdges (Lcsr$b;Z)V
+	METHOD a isFullWide (Lev;III)Z
+	METHOD a firstFull (Lfb$a;)I
+	METHOD a firstFull (Lfb$a;II)I
+	METHOD b getXSize ()I
+	METHOD b isFull (III)Z
+	METHOD b forAllBoxes (Lcsr$b;Z)V
+	METHOD b isFull (Lev;III)Z
+	METHOD b lastFull (Lfb$a;)I
+	METHOD b lastFull (Lfb$a;II)I
+	METHOD c getYSize ()I
+	METHOD c isFullWide (III)Z
+	METHOD c getSize (Lfb$a;)I
+	METHOD d getZSize ()I

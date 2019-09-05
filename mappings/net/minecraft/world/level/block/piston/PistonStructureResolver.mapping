@@ -1,0 +1,17 @@
+CLASS bvq net/minecraft/world/level/block/piston/PistonStructureResolver
+	FIELD a level Lbhr;
+	FIELD b pistonPos Lew;
+	FIELD c extending Z
+	FIELD d startPos Lew;
+	FIELD e pushDirection Lfb;
+	FIELD f toPush Ljava/util/List;
+	FIELD g toDestroy Ljava/util/List;
+	FIELD h pistonDirection Lfb;
+	METHOD <init> <init> (Lbhr;Lew;Lfb;Z)V
+	METHOD a resolve ()Z
+	METHOD a reorderListAtCollision (II)V
+	METHOD a addBranchingBlocks (Lew;)Z
+	METHOD a addBlockLine (Lew;Lfb;)Z
+	METHOD b getPushDirection ()Lfb;
+	METHOD c getToPush ()Ljava/util/List;
+	METHOD d getToDestroy ()Ljava/util/List;

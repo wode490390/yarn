@@ -1,0 +1,137 @@
+CLASS cik net/minecraft/world/level/levelgen/structure/NetherBridgePieces
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a BridgeCrossing
+		METHOD <init> <init> (ILcic;Lfb;)V
+		METHOD <init> <init> (Lcev;Lid;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD <init> <init> (Ljava/util/Random;II)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;IIILfb;I)Lcik$a;
+	CLASS b BridgeEndFiller
+		FIELD a selfSeed I
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcik$b;
+	CLASS c BridgeStraight
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcik$c;
+	CLASS d CastleCorridorStairsPiece
+		METHOD <init> <init> (ILcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;IIILfb;I)Lcik$d;
+	CLASS e CastleCorridorTBalconyPiece
+		METHOD <init> <init> (ILcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;IIILfb;I)Lcik$e;
+	CLASS f CastleEntrance
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcik$f;
+	CLASS g CastleSmallCorridorCrossingPiece
+		METHOD <init> <init> (ILcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;IIILfb;I)Lcik$g;
+	CLASS h CastleSmallCorridorLeftTurnPiece
+		FIELD a isNeedingChest Z
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcik$h;
+	CLASS i CastleSmallCorridorPiece
+		METHOD <init> <init> (ILcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;IIILfb;I)Lcik$i;
+	CLASS j CastleSmallCorridorRightTurnPiece
+		FIELD a isNeedingChest Z
+		METHOD <init> <init> (ILjava/util/Random;Lcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a createPiece (Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcik$j;
+	CLASS k CastleStalkRoom
+		METHOD <init> <init> (ILcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;IIILfb;I)Lcik$k;
+	CLASS l MonsterThrone
+		FIELD a hasPlacedSpawner Z
+		METHOD <init> <init> (ILcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a createPiece (Ljava/util/List;IIIILfb;)Lcik$l;
+	CLASS m NetherBridgePiece
+		METHOD <init> <init> (Lcev;I)V
+		METHOD <init> <init> (Lcev;Lid;)V
+		METHOD a generateLightPostFacingRight (Lbhs;Ljava/util/Random;Lcic;III)V
+		METHOD a generateLightPost (Lbhs;Ljava/util/Random;Lcic;IIIII)V
+		METHOD a isOkBox (Lcic;)Z
+		METHOD a generatePiece (Lcik$q;Ljava/util/List;Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcik$m;
+		METHOD a generateAndAddPiece (Lcik$q;Ljava/util/List;Ljava/util/Random;IIILfb;IZ)Lciv;
+		METHOD a generateChildForward (Lcik$q;Ljava/util/List;Ljava/util/Random;IIZ)Lciv;
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a updatePieceWeight (Ljava/util/List;)I
+		METHOD b generateLightPostFacingLeft (Lbhs;Ljava/util/Random;Lcic;III)V
+		METHOD b generateChildLeft (Lcik$q;Ljava/util/List;Ljava/util/Random;IIZ)Lciv;
+		METHOD c generateLightPostFacingUp (Lbhs;Ljava/util/Random;Lcic;III)V
+		METHOD c generateChildRight (Lcik$q;Ljava/util/List;Ljava/util/Random;IIZ)Lciv;
+		METHOD d generateLightPostFacingDown (Lbhs;Ljava/util/Random;Lcic;III)V
+	CLASS n PieceWeight
+		FIELD a pieceClass Ljava/lang/Class;
+		FIELD b weight I
+		FIELD c placeCount I
+		FIELD d maxPlaceCount I
+		FIELD e allowInRow Z
+		METHOD <init> <init> (Ljava/lang/Class;II)V
+		METHOD <init> <init> (Ljava/lang/Class;IIZ)V
+		METHOD a isValid ()Z
+		METHOD a doPlace (I)Z
+	CLASS o RoomCrossing
+		METHOD <init> <init> (ILcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;IIILfb;I)Lcik$o;
+	CLASS p StairsRoom
+		METHOD <init> <init> (ILcic;Lfb;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+		METHOD a addChildren (Lciv;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a createPiece (Ljava/util/List;IIIILfb;)Lcik$p;
+	CLASS q StartPiece
+		FIELD a previousPiece Lcik$n;
+		FIELD b availableBridgePieces Ljava/util/List;
+		FIELD c availableCastlePieces Ljava/util/List;
+		FIELD d pendingChildren Ljava/util/List;
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD <init> <init> (Ljava/util/Random;II)V
+	FIELD a BRIDGE_PIECE_WEIGHTS [Lcik$n;
+	FIELD b CASTLE_PIECE_WEIGHTS [Lcik$n;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$100 ()[Lcik$n;
+	METHOD a access$000 (Lcik$n;Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcik$m;
+	METHOD b access$200 ()[Lcik$n;
+	METHOD b findAndCreateBridgePieceFactory (Lcik$n;Ljava/util/List;Ljava/util/Random;IIILfb;I)Lcik$m;

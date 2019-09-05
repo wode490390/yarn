@@ -1,0 +1,8 @@
+CLASS anj net/minecraft/world/entity/ai/goal/LeapAtTargetGoal
+	FIELD a mob Laiy;
+	FIELD b target Laix;
+	FIELD c yd F
+	METHOD <init> <init> (Laiy;F)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V

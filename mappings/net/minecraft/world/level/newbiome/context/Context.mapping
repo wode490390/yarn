@@ -1,0 +1,3 @@
+CLASS cly net/minecraft/world/level/newbiome/context/Context
+	METHOD a getBiomeNoise ()Lckn;
+	METHOD a nextRandom (I)I

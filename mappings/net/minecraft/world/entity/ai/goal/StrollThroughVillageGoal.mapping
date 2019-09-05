@@ -1,0 +1,10 @@
+CLASS aok net/minecraft/world/entity/ai/goal/StrollThroughVillageGoal
+	FIELD a mob Laje;
+	FIELD b interval I
+	FIELD c wantedPos Lew;
+	METHOD <init> <init> (Laje;I)V
+	METHOD a canUse ()Z
+	METHOD a lambda$canUse$0 (Lvk;Lew;)D
+	METHOD b canContinueToUse ()Z
+	METHOD e tick ()V
+	METHOD g moveRandomly ()V

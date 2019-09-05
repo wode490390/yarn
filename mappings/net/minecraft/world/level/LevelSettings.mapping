@@ -1,0 +1,22 @@
+CLASS bhv net/minecraft/world/level/LevelSettings
+	FIELD a seed J
+	FIELD b gameType Lbho;
+	FIELD c generateMapFeatures Z
+	FIELD d hardcore Z
+	FIELD e levelType Lbhy;
+	FIELD f allowCommands Z
+	FIELD g startingBonusItems Z
+	FIELD h levelTypeOptions Lcom/google/gson/JsonElement;
+	METHOD <init> <init> (JLbho;ZZLbhy;)V
+	METHOD <init> <init> (Lcom;)V
+	METHOD a enableStartingBonusItems ()Lbhv;
+	METHOD a setLevelTypeOptions (Lcom/google/gson/JsonElement;)Lbhv;
+	METHOD b enableSinglePlayerCommands ()Lbhv;
+	METHOD c hasStartingBonusItems ()Z
+	METHOD d getSeed ()J
+	METHOD e getGameType ()Lbho;
+	METHOD f isHardcore ()Z
+	METHOD g isGenerateMapFeatures ()Z
+	METHOD h getLevelType ()Lbhy;
+	METHOD i getAllowCommands ()Z
+	METHOD j getLevelTypeOptions ()Lcom/google/gson/JsonElement;

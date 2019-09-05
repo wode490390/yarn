@@ -1,0 +1,4 @@
+CLASS brp net/minecraft/world/level/block/SimpleWaterloggedBlock
+	METHOD a canPlaceLiquid (Lbhb;Lew;Lbvt;Lclj;)Z
+	METHOD a placeLiquid (Lbhs;Lew;Lbvt;Lclk;)Z
+	METHOD b takeLiquid (Lbhs;Lew;Lbvt;)Lclj;

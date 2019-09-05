@@ -1,0 +1,13 @@
+CLASS ctb net/minecraft/world/phys/shapes/SubShape
+	FIELD d parent Lcsr;
+	FIELD e startX I
+	FIELD f startY I
+	FIELD g startZ I
+	FIELD h endX I
+	FIELD i endY I
+	FIELD j endZ I
+	METHOD <init> <init> (Lcsr;IIIIII)V
+	METHOD a setFull (IIIZZ)V
+	METHOD a firstFull (Lfb$a;)I
+	METHOD b isFull (III)Z
+	METHOD b lastFull (Lfb$a;)I

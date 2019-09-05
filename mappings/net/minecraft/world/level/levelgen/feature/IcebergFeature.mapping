@@ -1,0 +1,18 @@
+CLASS ccj net/minecraft/world/level/levelgen/feature/IcebergFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getEllipseC (III)I
+	METHOD a signedDistanceEllipse (IILew;IID)D
+	METHOD a signedDistanceCircle (IILew;ILjava/util/Random;)D
+	METHOD a carve (IILew;Lbhs;ZDLew;II)V
+	METHOD a belowIsAir (Lbhb;Lew;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcci;)Z
+	METHOD a removeFloatingSnowLayer (Lbhs;Lew;)V
+	METHOD a smooth (Lbhs;Lew;IIZI)V
+	METHOD a generateIcebergBlock (Lbhs;Ljava/util/Random;Lew;IIIIIIZIDZLbvt;)V
+	METHOD a isIcebergBlock (Lbmv;)Z
+	METHOD a setIcebergBlock (Lew;Lbhs;Ljava/util/Random;IIZZLbvt;)V
+	METHOD a heightDependentRadiusRound (Ljava/util/Random;III)I
+	METHOD a generateCutOut (Ljava/util/Random;Lbhs;IILew;ZIDI)V
+	METHOD b heightDependentRadiusEllipse (III)I
+	METHOD b heightDependentRadiusSteep (Ljava/util/Random;III)I

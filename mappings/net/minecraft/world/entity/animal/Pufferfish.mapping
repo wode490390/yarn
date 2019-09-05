@@ -1,0 +1,36 @@
+CLASS arp net/minecraft/world/entity/animal/Pufferfish
+	CLASS a PufferfishPuffGoal
+		FIELD a fish Larp;
+		METHOD <init> <init> (Larp;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+	FIELD b PUFF_STATE Lqk;
+	FIELD bz NO_SPECTATORS_AND_NO_WATER_MOB Ljava/util/function/Predicate;
+	FIELD c inflateCounter I
+	FIELD d deflateTimer I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a touch (Laiy;)V
+	METHOD a getDimensions (Lajh;)Laip;
+	METHOD a access$102 (Larp;I)I
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD a onSyncedDataUpdated (Lqk;)V
+	METHOD b setPuffState (I)V
+	METHOD b access$202 (Larp;I)I
+	METHOD b playerTouch (Lawg;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD cH getDeathSound ()Lyo;
+	METHOD dW getFlopSound ()Lyo;
+	METHOD dX getPuffState ()I
+	METHOD dY access$000 ()Ljava/util/function/Predicate;
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD h tick ()V
+	METHOD h lambda$static$0 (Laix;)Z
+	METHOD k aiStep ()V
+	METHOD l getBucketItemStack ()Lbcj;
+	METHOD n registerGoals ()V
+	METHOD r getScale (I)F
+	METHOD u_ defineSynchedData ()V

@@ -1,0 +1,40 @@
+CLASS aym net/minecraft/world/inventory/AnvilMenu
+	CLASS 1 1
+		FIELD a this$0 Laym;
+		METHOD <init> <init> (Laym;I)V
+		METHOD e setChanged ()V
+	CLASS 2 2
+		FIELD a val$access Layu;
+		FIELD b this$0 Laym;
+		METHOD <init> <init> (Laym;Lahc;IIILayu;)V
+		METHOD a mayPickup (Lawg;)Z
+		METHOD a onTake (Lawg;Lbcj;)Lbcj;
+		METHOD a lambda$onTake$0 (Lawg;Lbhr;Lew;)V
+		METHOD a mayPlace (Lbcj;)Z
+	CLASS 3 3
+		FIELD a $SwitchMap$net$minecraft$world$item$enchantment$Enchantment$Rarity [I
+		METHOD <clinit> <clinit> ()V
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d resultSlots Lahc;
+	FIELD e repairSlots Lahc;
+	FIELD f cost Layy;
+	FIELD g access Layu;
+	FIELD h repairItemCountCost I
+	FIELD i itemName Ljava/lang/String;
+	FIELD j player Lawg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILawf;)V
+	METHOD <init> <init> (ILawf;Layu;)V
+	METHOD a slotsChanged (Lahc;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a lambda$stillValid$1 (Lawg;Lbhr;Lew;)Ljava/lang/Boolean;
+	METHOD a access$000 (Laym;)Layy;
+	METHOD a setItemName (Ljava/lang/String;)V
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;
+	METHOD b lambda$removed$0 (Lawg;Lbhr;Lew;)V
+	METHOD b access$100 (Laym;)Lahc;
+	METHOD c access$200 (Laym;)I
+	METHOD d calculateIncreasedRepairCost (I)I
+	METHOD e createResult ()V
+	METHOD f getCost ()I

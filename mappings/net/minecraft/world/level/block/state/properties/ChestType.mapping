@@ -1,0 +1,14 @@
+CLASS bwm net/minecraft/world/level/block/state/properties/ChestType
+	FIELD a SINGLE Lbwm;
+	FIELD b LEFT Lbwm;
+	FIELD c RIGHT Lbwm;
+	FIELD d BY_ID [Lbwm;
+	FIELD e name Ljava/lang/String;
+	FIELD f opposite I
+	FIELD g $VALUES [Lbwm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;I)V
+	METHOD a getOpposite ()Lbwm;
+	METHOD m getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbwm;
+	METHOD values values ()[Lbwm;

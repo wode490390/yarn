@@ -1,0 +1,12 @@
+CLASS bbd net/minecraft/world/item/DiggerItem
+	FIELD a blocks Ljava/util/Set;
+	FIELD b speed F
+	FIELD c attackDamage F
+	FIELD d attackSpeed F
+	METHOD <init> <init> (FFLbdn;Ljava/util/Set;Lbce$a;)V
+	METHOD a getDefaultAttributeModifiers (Lait;)Lcom/google/common/collect/Multimap;
+	METHOD a lambda$mineBlock$1 (Laix;)V
+	METHOD a hurtEnemy (Lbcj;Laix;Laix;)Z
+	METHOD a mineBlock (Lbcj;Lbhr;Lbvt;Lew;Laix;)Z
+	METHOD a getDestroySpeed (Lbcj;Lbvt;)F
+	METHOD b lambda$hurtEnemy$0 (Laix;)V

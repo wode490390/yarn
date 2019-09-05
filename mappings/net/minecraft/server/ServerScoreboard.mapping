@@ -1,0 +1,33 @@
+CLASS rj net/minecraft/server/ServerScoreboard
+	CLASS a Method
+		FIELD a CHANGE Lrj$a;
+		FIELD b REMOVE Lrj$a;
+		FIELD c $VALUES [Lrj$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lrj$a;
+		METHOD values values ()[Lrj$a;
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b trackedObjectives Ljava/util/Set;
+	FIELD c dirtyListeners [Ljava/lang/Runnable;
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+	METHOD a getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD a setDisplayObjective (ILctf;)V
+	METHOD a onObjectiveAdded (Lctf;)V
+	METHOD a onTeamAdded (Lctg;)V
+	METHOD a onScoreChanged (Lcth;)V
+	METHOD a addDirtyListener (Ljava/lang/Runnable;)V
+	METHOD a onPlayerRemoved (Ljava/lang/String;)V
+	METHOD a onPlayerScoreRemoved (Ljava/lang/String;Lctf;)V
+	METHOD a addPlayerToTeam (Ljava/lang/String;Lctg;)Z
+	METHOD b setDirty ()V
+	METHOD b onObjectiveChanged (Lctf;)V
+	METHOD b onTeamChanged (Lctg;)V
+	METHOD b removePlayerFromTeam (Ljava/lang/String;Lctg;)V
+	METHOD c onObjectiveRemoved (Lctf;)V
+	METHOD c onTeamRemoved (Lctg;)V
+	METHOD d getStartTrackingPackets (Lctf;)Ljava/util/List;
+	METHOD e startTrackingObjective (Lctf;)V
+	METHOD f getStopTrackingPackets (Lctf;)Ljava/util/List;
+	METHOD g stopTrackingObjective (Lctf;)V
+	METHOD h getObjectiveDisplaySlotCount (Lctf;)I

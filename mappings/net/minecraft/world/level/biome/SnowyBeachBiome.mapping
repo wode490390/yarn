@@ -1,0 +1,2 @@
+CLASS bkx net/minecraft/world/level/biome/SnowyBeachBiome
+	METHOD <init> <init> ()V

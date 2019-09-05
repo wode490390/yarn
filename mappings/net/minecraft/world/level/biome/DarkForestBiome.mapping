@@ -1,0 +1,3 @@
+CLASS biz net/minecraft/world/level/biome/DarkForestBiome
+	METHOD <init> <init> ()V
+	METHOD b getGrassColor (Lew;)I

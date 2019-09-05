@@ -1,0 +1,8 @@
+CLASS agn net/minecraft/util/profiling/ProfilerFiller
+	METHOD a startTick ()V
+	METHOD a push (Ljava/lang/String;)V
+	METHOD a push (Ljava/util/function/Supplier;)V
+	METHOD b endTick ()V
+	METHOD b popPush (Ljava/lang/String;)V
+	METHOD b popPush (Ljava/util/function/Supplier;)V
+	METHOD c pop ()V

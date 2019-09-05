@@ -1,0 +1,8 @@
+CLASS bnr net/minecraft/world/level/block/ConcretePowderBlock
+	FIELD a concrete Lbvt;
+	METHOD <init> <init> (Lbmv;Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a touchesLiquid (Lbhb;Lew;)Z
+	METHOD a onLand (Lbhr;Lew;Lbvt;Lbvt;)V
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD r canSolidify (Lbvt;)Z

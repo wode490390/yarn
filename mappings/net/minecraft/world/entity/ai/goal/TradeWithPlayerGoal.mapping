@@ -1,0 +1,6 @@
+CLASS aoo net/minecraft/world/entity/ai/goal/TradeWithPlayerGoal
+	FIELD a mob Lavp;
+	METHOD <init> <init> (Lavp;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

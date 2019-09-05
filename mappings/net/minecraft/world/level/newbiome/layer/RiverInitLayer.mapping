@@ -1,0 +1,8 @@
+CLASS cmr net/minecraft/world/level/newbiome/layer/RiverInitLayer
+	FIELD a INSTANCE Lcmr;
+	FIELD b $VALUES [Lcmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcly;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmr;
+	METHOD values values ()[Lcmr;

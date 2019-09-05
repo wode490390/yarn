@@ -1,3 +1,11 @@
-CLASS net/minecraft/class_2491 net/minecraft/nbt/EndTag
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
+CLASS ig net/minecraft/nbt/EndTag
+	METHOD <init> <init> ()V
+	METHOD a getId ()B
+	METHOD a load (Ljava/io/DataInput;ILin;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Ljo;
+	METHOD b copy ()Liu;
+	METHOD c copy ()Lig;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

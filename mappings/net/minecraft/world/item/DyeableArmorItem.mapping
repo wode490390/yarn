@@ -1,0 +1,2 @@
+CLASS bbi net/minecraft/world/item/DyeableArmorItem
+	METHOD <init> <init> (Lbae;Lait;Lbce$a;)V

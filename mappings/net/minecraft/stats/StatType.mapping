@@ -1,0 +1,12 @@
+CLASS yx net/minecraft/stats/StatType
+	FIELD a registry Lfn;
+	FIELD b map Ljava/util/Map;
+	METHOD <init> <init> (Lfn;)V
+	METHOD a getRegistry ()Lfn;
+	METHOD a contains (Ljava/lang/Object;)Z
+	METHOD a get (Ljava/lang/Object;Lyw;)Lyv;
+	METHOD a lambda$get$0 (Lyw;Ljava/lang/Object;)Lyv;
+	METHOD b size ()I
+	METHOD b get (Ljava/lang/Object;)Lyv;
+	METHOD c getTranslationKey ()Ljava/lang/String;
+	METHOD iterator iterator ()Ljava/util/Iterator;

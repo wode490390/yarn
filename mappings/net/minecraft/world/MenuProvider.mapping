@@ -1,0 +1,2 @@
+CLASS ahm net/minecraft/world/MenuProvider
+	METHOD d getDisplayName ()Ljo;

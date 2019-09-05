@@ -1,0 +1,47 @@
+CLASS baa net/minecraft/world/inventory/StonecutterMenu
+	CLASS 1 1
+		FIELD a this$0 Lbaa;
+		METHOD <init> <init> (Lbaa;I)V
+		METHOD e setChanged ()V
+	CLASS 2 2
+		FIELD a val$access Layu;
+		FIELD b this$0 Lbaa;
+		METHOD <init> <init> (Lbaa;Lahc;IIILayu;)V
+		METHOD a onTake (Lawg;Lbcj;)Lbcj;
+		METHOD a mayPlace (Lbcj;)Z
+		METHOD a lambda$onTake$0 (Lbhr;Lew;)V
+	FIELD c validItems Lcom/google/common/collect/ImmutableList;
+	FIELD d inputSlot Lazx;
+	FIELD e resultSlot Lazx;
+	FIELD f container Lahc;
+	FIELD g access Layu;
+	FIELD h selectedRecipeIndex Layy;
+	FIELD i level Lbhr;
+	FIELD j recipes Ljava/util/List;
+	FIELD k input Lbcj;
+	FIELD l lastSoundTime J
+	FIELD m slotUpdateListener Ljava/lang/Runnable;
+	FIELD n resultContainer Lazs;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILawf;)V
+	METHOD <init> <init> (ILawf;Layu;)V
+	METHOD a getType ()Lazl;
+	METHOD a slotsChanged (Lahc;)V
+	METHOD a setupRecipeList (Lahc;Lbcj;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a clickMenuButton (Lawg;I)Z
+	METHOD a lambda$removed$1 (Lawg;Lbhr;Lew;)V
+	METHOD a access$000 (Lbaa;)Ljava/lang/Runnable;
+	METHOD a access$202 (Lbaa;J)J
+	METHOD a canTakeItemForPickAll (Lbcj;Lazx;)Z
+	METHOD a registerUpdateListener (Ljava/lang/Runnable;)V
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;
+	METHOD b access$100 (Lbaa;)V
+	METHOD c access$200 (Lbaa;)J
+	METHOD e getSelectedRecipeIndex ()I
+	METHOD f getRecipes ()Ljava/util/List;
+	METHOD g getNumRecipes ()I
+	METHOD h hasInputItem ()Z
+	METHOD i setupResultSlot ()V
+	METHOD j lambda$new$0 ()V

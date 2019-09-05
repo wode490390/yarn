@@ -1,0 +1,19 @@
+CLASS ox net/minecraft/network/protocol/game/ServerboundResourcePackPacket
+	CLASS a Action
+		FIELD a SUCCESSFULLY_LOADED Lox$a;
+		FIELD b DECLINED Lox$a;
+		FIELD c FAILED_DOWNLOAD Lox$a;
+		FIELD d ACCEPTED Lox$a;
+		FIELD e $VALUES [Lox$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lox$a;
+		METHOD values values ()[Lox$a;
+	FIELD a action Lox$a;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lox$a;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getAction ()Lox$a;
+	METHOD b write (Lje;)V

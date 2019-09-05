@@ -1,0 +1,57 @@
+CLASS azj net/minecraft/world/inventory/LoomMenu
+	CLASS 1 1
+		FIELD a this$0 Lazj;
+		METHOD <init> <init> (Lazj;I)V
+		METHOD e setChanged ()V
+	CLASS 2 2
+		FIELD a this$0 Lazj;
+		METHOD <init> <init> (Lazj;I)V
+		METHOD e setChanged ()V
+	CLASS 3 3
+		FIELD a this$0 Lazj;
+		METHOD <init> <init> (Lazj;Lahc;III)V
+		METHOD a mayPlace (Lbcj;)Z
+	CLASS 4 4
+		FIELD a this$0 Lazj;
+		METHOD <init> <init> (Lazj;Lahc;III)V
+		METHOD a mayPlace (Lbcj;)Z
+	CLASS 5 5
+		FIELD a this$0 Lazj;
+		METHOD <init> <init> (Lazj;Lahc;III)V
+		METHOD a mayPlace (Lbcj;)Z
+	CLASS 6 6
+		FIELD a val$access Layu;
+		FIELD b this$0 Lazj;
+		METHOD <init> <init> (Lazj;Lahc;IIILayu;)V
+		METHOD a onTake (Lawg;Lbcj;)Lbcj;
+		METHOD a mayPlace (Lbcj;)Z
+		METHOD a lambda$onTake$0 (Lbhr;Lew;)V
+	FIELD c access Layu;
+	FIELD d selectedBannerPatternIndex Layy;
+	FIELD e slotUpdateListener Ljava/lang/Runnable;
+	FIELD f bannerSlot Lazx;
+	FIELD g dyeSlot Lazx;
+	FIELD h patternSlot Lazx;
+	FIELD i resultSlot Lazx;
+	FIELD j inputContainer Lahc;
+	FIELD k outputContainer Lahc;
+	METHOD <init> <init> (ILawf;)V
+	METHOD <init> <init> (ILawf;Layu;)V
+	METHOD a slotsChanged (Lahc;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a clickMenuButton (Lawg;I)Z
+	METHOD a lambda$removed$1 (Lawg;Lbhr;Lew;)V
+	METHOD a access$000 (Lazj;)Ljava/lang/Runnable;
+	METHOD a registerUpdateListener (Ljava/lang/Runnable;)V
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;
+	METHOD b access$100 (Lazj;)Lazx;
+	METHOD c access$200 (Lazj;)Lazx;
+	METHOD d access$300 (Lazj;)Layy;
+	METHOD e getSelectedBannerPatternIndex ()I
+	METHOD f getBannerSlot ()Lazx;
+	METHOD g getDyeSlot ()Lazx;
+	METHOD h getPatternSlot ()Lazx;
+	METHOD i getResultSlot ()Lazx;
+	METHOD j setupResultSlot ()V
+	METHOD k lambda$new$0 ()V

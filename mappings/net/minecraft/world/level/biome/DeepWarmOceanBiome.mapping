@@ -1,0 +1,2 @@
+CLASS bjf net/minecraft/world/level/biome/DeepWarmOceanBiome
+	METHOD <init> <init> ()V

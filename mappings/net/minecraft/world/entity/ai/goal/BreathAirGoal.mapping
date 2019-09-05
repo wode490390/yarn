@@ -1,0 +1,10 @@
+CLASS amp net/minecraft/world/entity/ai/goal/BreathAirGoal
+	FIELD a mob Laje;
+	METHOD <init> <init> (Laje;)V
+	METHOD C_ isInterruptable ()Z
+	METHOD a canUse ()Z
+	METHOD a givesAir (Lbhu;Lew;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD e tick ()V
+	METHOD g findAirPosition ()V

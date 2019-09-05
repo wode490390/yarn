@@ -1,0 +1,14 @@
+CLASS ali net/minecraft/world/entity/ai/behavior/SetWalkTargetFromBlockMemory
+	FIELD a memoryType Lapj;
+	FIELD b speed F
+	FIELD c closeEnoughDist I
+	FIELD d tooFarDistance I
+	FIELD e tooLongUnreachableDuration I
+	METHOD <init> <init> (Lapj;FIII)V
+	METHOD a dropPOI (Lavt;J)V
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a tiredOfTryingToFindTarget (Lvk;Lavt;)Z
+	METHOD a start (Lvk;Lavt;J)V
+	METHOD a lambda$start$0 (Lvk;Lavt;JLajm;Lfd;)V
+	METHOD a tooFar (Lvk;Lavt;Lfd;)Z
+	METHOD b closeEnough (Lvk;Lavt;Lfd;)Z

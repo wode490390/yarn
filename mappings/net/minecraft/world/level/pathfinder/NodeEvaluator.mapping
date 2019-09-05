@@ -1,0 +1,26 @@
+CLASS cnq net/minecraft/world/level/pathfinder/NodeEvaluator
+	FIELD a level Lbhu;
+	FIELD b mob Laiy;
+	FIELD c nodes Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD d entityWidth I
+	FIELD e entityHeight I
+	FIELD f entityDepth I
+	FIELD g canPassDoors Z
+	FIELD h canOpenDoors Z
+	FIELD i canFloat Z
+	METHOD <init> <init> ()V
+	METHOD a done ()V
+	METHOD a getGoal (DDD)Lcnv;
+	METHOD a getNode (III)Lcnp;
+	METHOD a lambda$getNode$0 (IIII)Lcnp;
+	METHOD a getBlockPathType (Lbhb;III)Lcnn;
+	METHOD a getBlockPathType (Lbhb;IIILaiy;IIIZZ)Lcnn;
+	METHOD a prepare (Lbhu;Laiy;)V
+	METHOD a setCanPassDoors (Z)V
+	METHOD a getNeighbors ([Lcnp;Lcnp;)I
+	METHOD b getStart ()Lcnp;
+	METHOD b setCanOpenDoors (Z)V
+	METHOD c canPassDoors ()Z
+	METHOD c setCanFloat (Z)V
+	METHOD d canOpenDoors ()Z
+	METHOD e canFloat ()Z

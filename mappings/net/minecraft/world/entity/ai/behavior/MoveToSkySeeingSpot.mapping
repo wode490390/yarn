@@ -1,0 +1,8 @@
+CLASS aks net/minecraft/world/entity/ai/behavior/MoveToSkySeeingSpot
+	FIELD a speed F
+	METHOD <init> <init> (F)V
+	METHOD a lambda$start$0 (Lcsi;)Lapl;
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD b hasNoBlocksAbove (Lvk;Laix;)Z
+	METHOD c getOutdoorPosition (Lvk;Laix;)Lcsi;

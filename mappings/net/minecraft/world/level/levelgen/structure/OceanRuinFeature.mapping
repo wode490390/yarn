@@ -1,0 +1,24 @@
+CLASS cim net/minecraft/world/level/levelgen/structure/OceanRuinFeature
+	CLASS a OceanRuinStart
+		METHOD <init> <init> (Lceu;IILbio;Lcic;IJ)V
+		METHOD a generatePieces (Lbxi;Lcjp;IILbio;)V
+	CLASS b Type
+		FIELD a WARM Lcim$b;
+		FIELD b COLD Lcim$b;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		FIELD e $VALUES [Lcim$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a lambda$static$0 (Lcim$b;)Lcim$b;
+		METHOD a byName (Ljava/lang/String;)Lcim$b;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcim$b;
+		METHOD values values ()[Lcim$b;
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lceu$a;
+	METHOD a getSpacing (Lbxi;)I
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD b getSeparation (Lbxi;)I
+	METHOD c getLookupRange ()I
+	METHOD d getRandomSalt ()I

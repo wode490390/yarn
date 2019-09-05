@@ -1,0 +1,23 @@
+CLASS ccy net/minecraft/world/level/levelgen/feature/MineshaftFeature
+	CLASS a MineShaftStart
+		METHOD <init> <init> (Lceu;IILbio;Lcic;IJ)V
+		METHOD a generatePieces (Lbxi;Lcjp;IILbio;)V
+	CLASS b Type
+		FIELD a NORMAL Lccy$b;
+		FIELD b MESA Lccy$b;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		FIELD e $VALUES [Lccy$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byId (I)Lccy$b;
+		METHOD a lambda$static$0 (Lccy$b;)Lccy$b;
+		METHOD a byName (Ljava/lang/String;)Lccy$b;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lccy$b;
+		METHOD values values ()[Lccy$b;
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lceu$a;
+	METHOD a isFeatureChunk (Lbxi;Ljava/util/Random;II)Z
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD c getLookupRange ()I

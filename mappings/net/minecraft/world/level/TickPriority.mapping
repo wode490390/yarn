@@ -1,0 +1,16 @@
+CLASS bii net/minecraft/world/level/TickPriority
+	FIELD a EXTREMELY_HIGH Lbii;
+	FIELD b VERY_HIGH Lbii;
+	FIELD c HIGH Lbii;
+	FIELD d NORMAL Lbii;
+	FIELD e LOW Lbii;
+	FIELD f VERY_LOW Lbii;
+	FIELD g EXTREMELY_LOW Lbii;
+	FIELD h value I
+	FIELD i $VALUES [Lbii;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD a getValue ()I
+	METHOD a byValue (I)Lbii;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbii;
+	METHOD values values ()[Lbii;

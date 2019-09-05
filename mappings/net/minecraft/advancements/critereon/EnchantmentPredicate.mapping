@@ -1,0 +1,12 @@
+CLASS aq net/minecraft/advancements/critereon/EnchantmentPredicate
+	FIELD a ANY Laq;
+	FIELD b enchantment Lbfs;
+	FIELD c level Lbi$d;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbfs;Lbi$d;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Laq;
+	METHOD a containedIn (Ljava/util/Map;)Z
+	METHOD a lambda$fromJson$0 (Lqv;)Lcom/google/gson/JsonSyntaxException;
+	METHOD b fromJsonArray (Lcom/google/gson/JsonElement;)[Laq;

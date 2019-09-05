@@ -1,0 +1,36 @@
+CLASS auv net/minecraft/world/entity/monster/PigZombie
+	CLASS a PigZombieAngerTargetGoal
+		METHOD <init> <init> (Lauv;)V
+		METHOD a canUse ()Z
+	CLASS b PigZombieHurtByOtherGoal
+		METHOD <init> <init> (Lauv;)V
+		METHOD a alertOther (Laiy;Laix;)V
+	FIELD bA playAngrySoundIn I
+	FIELD bB lastHurtByUUID Ljava/util/UUID;
+	FIELD b SPEED_MODIFIER_ATTACKING_UUID Ljava/util/UUID;
+	FIELD bz angerTime I
+	FIELD c SPEED_MODIFIER_ATTACKING Lajp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD L customServerAiStep ()V
+	METHOD a populateDefaultEquipmentSlots (Lahh;)V
+	METHOD a hurt (Lahx;F)Z
+	METHOD a makeAngry (Laio;)Z
+	METHOD a setLastHurtByMob (Laix;)V
+	METHOD a access$100 (Lauv;)Z
+	METHOD a access$000 (Lauv;Laio;)Z
+	METHOD a mobInteract (Lawg;Lahi;)Z
+	METHOD a checkSpawnObstruction (Lbhu;)Z
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b checkPigZombieSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cl registerAttributes ()V
+	METHOD dX getSkull ()Lbcj;
+	METHOD dY convertsInWater ()Z
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD e isPreventingPlayerRest (Lawg;)Z
+	METHOD ee getAngerTime ()I
+	METHOD ef isAngry ()Z
+	METHOD l addBehaviourGoals ()V

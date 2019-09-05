@@ -1,0 +1,7 @@
+CLASS blx net/minecraft/world/level/block/AbstractGlassBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getShadeBrightness (Lbvt;Lbhb;Lew;)F
+	METHOD a isValidSpawn (Lbvt;Lbhb;Lew;Lais;)Z
+	METHOD b propagatesSkylightDown (Lbvt;Lbhb;Lew;)Z
+	METHOD c isViewBlocking (Lbvt;Lbhb;Lew;)Z
+	METHOD d isRedstoneConductor (Lbvt;Lbhb;Lew;)Z

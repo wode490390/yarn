@@ -1,0 +1,9 @@
+CLASS bia net/minecraft/world/level/LightLayer
+	FIELD a SKY Lbia;
+	FIELD b BLOCK Lbia;
+	FIELD c surrounding I
+	FIELD d $VALUES [Lbia;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbia;
+	METHOD values values ()[Lbia;

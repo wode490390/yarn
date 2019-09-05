@@ -1,0 +1,28 @@
+CLASS bv net/minecraft/advancements/critereon/UsedTotemTrigger
+	CLASS a PlayerListeners
+		FIELD a player Lre;
+		FIELD b listeners Ljava/util/Set;
+		METHOD <init> <init> (Lre;)V
+		METHOD a isEmpty ()Z
+		METHOD a trigger (Lbcj;)V
+		METHOD a addListener (Lx$a;)V
+		METHOD b removeListener (Lx$a;)V
+	CLASS b TriggerInstance
+		FIELD a item Lbc;
+		METHOD <init> <init> (Lbc;)V
+		METHOD a usedTotem (Lbc;)Lbv$b;
+		METHOD a matches (Lbcj;)Z
+		METHOD a usedTotem (Lbhq;)Lbv$b;
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+	FIELD a ID Lqv;
+	FIELD b players Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lqv;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ly;
+	METHOD a removePlayerListeners (Lre;)V
+	METHOD a addPlayerListener (Lre;Lx$a;)V
+	METHOD a trigger (Lvl;Lbcj;)V
+	METHOD b access$000 ()Lqv;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbv$b;
+	METHOD b removePlayerListener (Lre;Lx$a;)V

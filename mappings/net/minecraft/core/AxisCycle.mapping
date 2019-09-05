@@ -1,0 +1,35 @@
+CLASS ev net/minecraft/core/AxisCycle
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a inverse ()Lev;
+		METHOD a cycle (DDDLfb$a;)D
+		METHOD a cycle (IIILfb$a;)I
+		METHOD a cycle (Lfb$a;)Lfb$a;
+	CLASS 2 2
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a inverse ()Lev;
+		METHOD a cycle (DDDLfb$a;)D
+		METHOD a cycle (IIILfb$a;)I
+		METHOD a cycle (Lfb$a;)Lfb$a;
+	CLASS 3 3
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a inverse ()Lev;
+		METHOD a cycle (DDDLfb$a;)D
+		METHOD a cycle (IIILfb$a;)I
+		METHOD a cycle (Lfb$a;)Lfb$a;
+	FIELD a NONE Lev;
+	FIELD b FORWARD Lev;
+	FIELD c BACKWARD Lev;
+	FIELD d AXIS_VALUES [Lfb$a;
+	FIELD e VALUES [Lev;
+	FIELD f $VALUES [Lev;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD <init> <init> (Ljava/lang/String;ILev$1;)V
+	METHOD a inverse ()Lev;
+	METHOD a cycle (DDDLfb$a;)D
+	METHOD a cycle (IIILfb$a;)I
+	METHOD a cycle (Lfb$a;)Lfb$a;
+	METHOD a between (Lfb$a;Lfb$a;)Lev;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lev;
+	METHOD values values ()[Lev;

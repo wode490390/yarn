@@ -1,0 +1,7 @@
+CLASS cgx net/minecraft/world/level/levelgen/placement/DecoratorFrequencyWithExtraChance
+	FIELD a count I
+	FIELD b extraChance F
+	FIELD c extraCount I
+	METHOD <init> <init> (IFI)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcgx;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

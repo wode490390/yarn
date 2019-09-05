@@ -1,0 +1,26 @@
+CLASS bo net/minecraft/advancements/critereon/RecipeUnlockedTrigger
+	CLASS a PlayerListeners
+		FIELD a player Lre;
+		FIELD b listeners Ljava/util/Set;
+		METHOD <init> <init> (Lre;)V
+		METHOD a isEmpty ()Z
+		METHOD a trigger (Lber;)V
+		METHOD a addListener (Lx$a;)V
+		METHOD b removeListener (Lx$a;)V
+	CLASS b TriggerInstance
+		FIELD a recipe Lqv;
+		METHOD <init> <init> (Lqv;)V
+		METHOD a matches (Lber;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+	FIELD a ID Lqv;
+	FIELD b players Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lqv;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ly;
+	METHOD a removePlayerListeners (Lre;)V
+	METHOD a addPlayerListener (Lre;Lx$a;)V
+	METHOD a trigger (Lvl;Lber;)V
+	METHOD b access$000 ()Lqv;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbo$b;
+	METHOD b removePlayerListener (Lre;Lx$a;)V

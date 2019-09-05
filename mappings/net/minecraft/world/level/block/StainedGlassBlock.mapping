@@ -1,0 +1,5 @@
+CLASS bsc net/minecraft/world/level/block/StainedGlassBlock
+	FIELD a color Lbbg;
+	METHOD <init> <init> (Lbbg;Lbmv$c;)V
+	METHOD a getColor ()Lbbg;
+	METHOD c getRenderLayer ()Lbhc;

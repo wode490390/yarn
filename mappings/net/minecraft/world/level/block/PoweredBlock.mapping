@@ -1,0 +1,4 @@
+CLASS bqs net/minecraft/world/level/block/PoweredBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getSignal (Lbvt;Lbhb;Lew;Lfb;)I
+	METHOD h isSignalSource (Lbvt;)Z

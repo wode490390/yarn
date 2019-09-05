@@ -1,0 +1,7 @@
+CLASS abu net/minecraft/util/datafix/fixes/EntityHealthFix
+	FIELD a ENTITIES Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a fixTag (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$makeRule$0 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

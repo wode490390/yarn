@@ -1,0 +1,21 @@
+CLASS bys net/minecraft/world/level/dimension/end/TheEndDimension
+	FIELD f END_SPAWN_POINT Lew;
+	FIELD g dragonFight Lbyr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbhr;Lbyn;)V
+	METHOD a getSunriseColor (FF)[F
+	METHOD a isFoggyAt (II)Z
+	METHOD a getValidSpawnPosition (IIZ)Lew;
+	METHOD a getTimeOfDay (JF)F
+	METHOD a getSpawnPosInChunk (Lbhd;Z)Lew;
+	METHOD b getCloudHeight ()F
+	METHOD b getFogColor (FF)Lcsi;
+	METHOD c hasGround ()Z
+	METHOD d getDimensionSpecificSpawn ()Lew;
+	METHOD k saveData ()V
+	METHOD l tick ()V
+	METHOD m createRandomLevelGenerator ()Lbxi;
+	METHOD n isNaturalDimension ()Z
+	METHOD o mayRespawn ()Z
+	METHOD p getType ()Lbyn;
+	METHOD q getDragonFight ()Lbyr;

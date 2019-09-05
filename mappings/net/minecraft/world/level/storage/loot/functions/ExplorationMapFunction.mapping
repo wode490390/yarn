@@ -1,0 +1,43 @@
+CLASS cqc net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a destination Ljava/lang/String;
+		FIELD b mapDecoration Lcoe$a;
+		FIELD c zoom B
+		FIELD d searchRadius I
+		FIELD e skipKnownStructures Z
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Lcqc$a;
+		METHOD a setZoom (B)Lcqc$a;
+		METHOD a setSearchRadius (I)Lcqc$a;
+		METHOD a setMapDecoration (Lcoe$a;)Lcqc$a;
+		METHOD a setDestination (Ljava/lang/String;)Lcqc$a;
+		METHOD a setSkipKnownStructures (Z)Lcqc$a;
+		METHOD b build ()Lcqh;
+		METHOD d getThis ()Lcqg$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqc;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqc;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a DEFAULT_DECORATION Lcoe$a;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d destination Ljava/lang/String;
+	FIELD e mapDecoration Lcoe$a;
+	FIELD f zoom B
+	FIELD g searchRadius I
+	FIELD h skipKnownStructures Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Lcrk;Ljava/lang/String;Lcoe$a;BIZ)V
+	METHOD <init> <init> ([Lcrk;Ljava/lang/String;Lcoe$a;BIZLcqc$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a access$100 (Lcqc;)Ljava/lang/String;
+	METHOD b makeExplorationMap ()Lcqc$a;
+	METHOD b access$200 (Lcqc;)Lcoe$a;
+	METHOD c access$600 ()Lorg/apache/logging/log4j/Logger;
+	METHOD c access$300 (Lcqc;)B
+	METHOD d access$400 (Lcqc;)I
+	METHOD e access$500 (Lcqc;)Z

@@ -1,0 +1,28 @@
+CLASS cqj net/minecraft/world/level/storage/loot/functions/LootingEnchantFunction
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a count Lcpg;
+		FIELD b limit I
+		METHOD <init> <init> (Lcpg;)V
+		METHOD a getThis ()Lcqj$a;
+		METHOD a setLimit (I)Lcqj$a;
+		METHOD b build ()Lcqh;
+		METHOD d getThis ()Lcqg$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqj;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqj;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a value Lcpg;
+	FIELD c limit I
+	METHOD <init> <init> ([Lcrk;Lcpg;I)V
+	METHOD <init> <init> ([Lcrk;Lcpg;ILcqj$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a lootingMultiplier (Lcpg;)Lcqj$a;
+	METHOD a access$100 (Lcqj;)Lcpg;
+	METHOD b hasLimit ()Z
+	METHOD b access$200 (Lcqj;)Z
+	METHOD c access$300 (Lcqj;)I

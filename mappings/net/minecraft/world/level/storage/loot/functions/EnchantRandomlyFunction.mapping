@@ -1,0 +1,27 @@
+CLASS cqa net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a enchantments Ljava/util/Set;
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Lcqa$a;
+		METHOD a withEnchantment (Lbfs;)Lcqa$a;
+		METHOD b build ()Lcqh;
+		METHOD d getThis ()Lcqg$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqa;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqa;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$0 (Ljava/lang/String;)Lcom/google/gson/JsonSyntaxException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c enchantments Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Lcrk;Ljava/util/Collection;)V
+	METHOD <init> <init> ([Lcrk;Ljava/util/Collection;Lcqa$1;)V
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a access$100 (Lcqa;)Ljava/util/List;
+	METHOD a lambda$randomApplicableEnchantment$0 ([Lcrk;)Lcqh;
+	METHOD b randomEnchantment ()Lcqa$a;
+	METHOD c randomApplicableEnchantment ()Lcqg$a;

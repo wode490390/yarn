@@ -1,0 +1,43 @@
+CLASS ayq net/minecraft/world/inventory/CartographyMenu
+	CLASS 1 1
+		FIELD a this$0 Layq;
+		METHOD <init> <init> (Layq;I)V
+		METHOD e setChanged ()V
+	CLASS 2 2
+		FIELD a this$0 Layq;
+		METHOD <init> <init> (Layq;)V
+		METHOD e setChanged ()V
+	CLASS 3 3
+		FIELD a this$0 Layq;
+		METHOD <init> <init> (Layq;Lahc;III)V
+		METHOD a mayPlace (Lbcj;)Z
+	CLASS 4 4
+		FIELD a this$0 Layq;
+		METHOD <init> <init> (Layq;Lahc;III)V
+		METHOD a mayPlace (Lbcj;)Z
+	CLASS 5 5
+		FIELD a val$access Layu;
+		FIELD b this$0 Layq;
+		METHOD <init> <init> (Layq;Lahc;IIILayu;)V
+		METHOD a remove (I)Lbcj;
+		METHOD a onTake (Lawg;Lbcj;)Lbcj;
+		METHOD a mayPlace (Lbcj;)Z
+		METHOD a onQuickCraft (Lbcj;I)V
+		METHOD a lambda$remove$0 (Lbcj;Lbhr;Lew;)Lbcj;
+		METHOD a lambda$onTake$1 (Lbhr;Lew;)V
+	FIELD c container Lahc;
+	FIELD d access Layu;
+	FIELD e quickMoved Z
+	FIELD f resultContainer Lazs;
+	METHOD <init> <init> (ILawf;)V
+	METHOD <init> <init> (ILawf;Layu;)V
+	METHOD a slotsChanged (Lahc;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a lambda$removed$2 (Lawg;Lbhr;Lew;)V
+	METHOD a access$000 (Layq;)Z
+	METHOD a canTakeItemForPickAll (Lbcj;Lazx;)Z
+	METHOD a setupResultSlot (Lbcj;Lbcj;Lbcj;)V
+	METHOD a lambda$setupResultSlot$0 (Lbcj;Lbcj;Lbcj;Lbhr;Lew;)V
+	METHOD a lambda$quickMoveStack$1 (Lbcj;Lbhr;Lew;)Lbcj;
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;

@@ -1,0 +1,11 @@
+CLASS atb net/minecraft/world/entity/boss/enderdragon/phases/DragonSittingFlamingPhase
+	FIELD b flameTicks I
+	FIELD c flameCount I
+	FIELD d flame Lain;
+	METHOD <init> <init> (Lasp;)V
+	METHOD b doClientTick ()V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD e end ()V
+	METHOD i getPhase ()Latf;
+	METHOD j resetFlameCount ()V

@@ -1,0 +1,11 @@
+CLASS ms net/minecraft/network/protocol/game/ClientboundSetDisplayObjectivePacket
+	FIELD a slot I
+	FIELD b objectiveName Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILctf;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getSlot ()I
+	METHOD b write (Lje;)V
+	METHOD c getObjectiveName ()Ljava/lang/String;

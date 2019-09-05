@@ -1,0 +1,14 @@
+CLASS bln net/minecraft/world/level/biome/TheEndBiomeSource
+	FIELD c islandNoise Lckq;
+	FIELD d random Lbzk;
+	FIELD e possibleBiomes [Lbio;
+	METHOD <init> <init> (Lblo;)V
+	METHOD a getBiome (II)Lbio;
+	METHOD a getBiomesWithin (III)Ljava/util/Set;
+	METHOD a getBiomeBlock (IIIIZ)[Lbio;
+	METHOD a containsOnly (IIILjava/util/List;)Z
+	METHOD a findBiome (IIILjava/util/List;Ljava/util/Random;)Lew;
+	METHOD a canGenerateStructure (Lceu;)Z
+	METHOD b getSurfaceBlocks ()Ljava/util/Set;
+	METHOD b lambda$canGenerateStructure$0 (Lceu;)Ljava/lang/Boolean;
+	METHOD c getHeightValue (II)F

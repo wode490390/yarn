@@ -1,0 +1,10 @@
+CLASS aoq net/minecraft/world/entity/ai/goal/UseItemGoal
+	FIELD a mob Laiy;
+	FIELD b item Lbcj;
+	FIELD c canUseSelector Ljava/util/function/Predicate;
+	FIELD d finishUsingSound Lyo;
+	METHOD <init> <init> (Laiy;Lbcj;Lyo;Ljava/util/function/Predicate;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

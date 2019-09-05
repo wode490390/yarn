@@ -1,0 +1,18 @@
+CLASS crh net/minecraft/world/level/storage/loot/predicates/InvertedLootItemCondition
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrh;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a term Lcrk;
+	METHOD <init> <init> (Lcrk;)V
+	METHOD <init> <init> (Lcrk;Lcrh$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a test (Lcoy;)Z
+	METHOD a validate (Lcpc;Ljava/util/function/Function;Ljava/util/Set;Lcqx;)V
+	METHOD a access$000 (Lcrh;)Lcrk;
+	METHOD a invert (Lcrk$a;)Lcrk$a;
+	METHOD b lambda$invert$0 (Lcrh;)Lcrk;
+	METHOD test test (Ljava/lang/Object;)Z

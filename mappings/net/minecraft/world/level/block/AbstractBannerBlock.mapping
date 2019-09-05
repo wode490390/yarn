@@ -1,0 +1,8 @@
+CLASS blv net/minecraft/world/level/block/AbstractBannerBlock
+	FIELD a color Lbbg;
+	METHOD <init> <init> (Lbbg;Lbmv$c;)V
+	METHOD S_ isPossibleToRespawnInThis ()Z
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a getCloneItemStack (Lbhb;Lew;Lbvt;)Lbcj;
+	METHOD a setPlacedBy (Lbhr;Lew;Lbvt;Laix;Lbcj;)V
+	METHOD b getColor ()Lbbg;

@@ -1,0 +1,14 @@
+CLASS bql net/minecraft/world/level/block/NoteBlock
+	FIELD a INSTRUMENT Lbwr;
+	FIELD b POWERED Lbwl;
+	FIELD c NOTE Lbwt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a playNote (Lbhr;Lew;)V
+	METHOD a triggerEvent (Lbvt;Lbhr;Lew;II)Z
+	METHOD a attack (Lbvt;Lbhr;Lew;Lawg;)V
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a neighborChanged (Lbvt;Lbhr;Lew;Lbmv;Lew;Z)V
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V

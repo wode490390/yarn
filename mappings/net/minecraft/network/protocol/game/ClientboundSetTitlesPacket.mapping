@@ -1,0 +1,31 @@
+CLASS nf net/minecraft/network/protocol/game/ClientboundSetTitlesPacket
+	CLASS a Type
+		FIELD a TITLE Lnf$a;
+		FIELD b SUBTITLE Lnf$a;
+		FIELD c ACTIONBAR Lnf$a;
+		FIELD d TIMES Lnf$a;
+		FIELD e CLEAR Lnf$a;
+		FIELD f RESET Lnf$a;
+		FIELD g $VALUES [Lnf$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lnf$a;
+		METHOD values values ()[Lnf$a;
+	FIELD a type Lnf$a;
+	FIELD b text Ljo;
+	FIELD c fadeInTime I
+	FIELD d stayTime I
+	FIELD e fadeOutTime I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Lnf$a;Ljo;)V
+	METHOD <init> <init> (Lnf$a;Ljo;III)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getType ()Lnf$a;
+	METHOD b write (Lje;)V
+	METHOD c getText ()Ljo;
+	METHOD d getFadeInTime ()I
+	METHOD e getStayTime ()I
+	METHOD f getFadeOutTime ()I

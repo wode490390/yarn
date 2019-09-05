@@ -1,0 +1,3 @@
+CLASS ajd net/minecraft/world/entity/OwnableEntity
+	METHOD A_ getOwnerUUID ()Ljava/util/UUID;
+	METHOD B_ getOwner ()Laio;

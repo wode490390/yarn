@@ -1,0 +1,4 @@
+CLASS boe net/minecraft/world/level/block/DirectionalBlock
+	FIELD a FACING Lbwo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V

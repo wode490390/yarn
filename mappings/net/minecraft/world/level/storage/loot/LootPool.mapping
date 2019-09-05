@@ -1,0 +1,44 @@
+CLASS cpa net/minecraft/world/level/storage/loot/LootPool
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		FIELD b conditions Ljava/util/List;
+		FIELD c functions Ljava/util/List;
+		FIELD d rolls Lcpe;
+		FIELD e bonusRolls Lcpg;
+		METHOD <init> <init> ()V
+		METHOD a unwrap ()Lcpa$a;
+		METHOD a setRolls (Lcpe;)Lcpa$a;
+		METHOD a setBonusRolls (Lcpg;)Lcpa$a;
+		METHOD a add (Lcpq$a;)Lcpa$a;
+		METHOD a apply (Lcqh$a;)Lcpa$a;
+		METHOD a when (Lcrk$a;)Lcpa$a;
+		METHOD b build ()Lcpa;
+		METHOD b apply (Lcqh$a;)Ljava/lang/Object;
+		METHOD b when (Lcrk$a;)Ljava/lang/Object;
+		METHOD c unwrap ()Ljava/lang/Object;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcpa;
+		METHOD a serialize (Lcpa;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+	FIELD a entries [Lcpq;
+	FIELD b conditions [Lcrk;
+	FIELD c compositeCondition Ljava/util/function/Predicate;
+	FIELD d functions [Lcqh;
+	FIELD e compositeFunction Ljava/util/function/BiFunction;
+	FIELD f rolls Lcpe;
+	FIELD g bonusRolls Lcpg;
+	METHOD <init> <init> ([Lcpq;[Lcrk;[Lcqh;Lcpe;Lcpg;)V
+	METHOD <init> <init> ([Lcpq;[Lcrk;[Lcqh;Lcpe;Lcpg;Lcpa$1;)V
+	METHOD a lootPool ()Lcpa$a;
+	METHOD a lambda$addRandomItem$0 (Lcoy;Ljava/util/List;Lorg/apache/commons/lang3/mutable/MutableInt;Lcpp;)V
+	METHOD a access$100 (Lcpa;)Lcpe;
+	METHOD a validate (Lcpc;Ljava/util/function/Function;Ljava/util/Set;Lcqx;)V
+	METHOD a addRandomItems (Ljava/util/function/Consumer;Lcoy;)V
+	METHOD b access$200 (Lcpa;)[Lcpq;
+	METHOD b addRandomItem (Ljava/util/function/Consumer;Lcoy;)V
+	METHOD c access$300 (Lcpa;)Lcpg;
+	METHOD d access$400 (Lcpa;)[Lcrk;
+	METHOD e access$500 (Lcpa;)[Lcqh;

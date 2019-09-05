@@ -1,0 +1,9 @@
+CLASS axy net/minecraft/world/entity/vehicle/MinecartChest
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDD)V
+	METHOD M_ getContainerSize ()I
+	METHOD a createMenu (ILawf;)Layk;
+	METHOD a destroy (Lahx;)V
+	METHOD o getMinecartType ()Laxu$a;
+	METHOD q getDefaultDisplayBlockState ()Lbvt;
+	METHOD s getDefaultDisplayOffset ()I

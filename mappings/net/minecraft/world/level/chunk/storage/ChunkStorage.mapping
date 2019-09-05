@@ -1,0 +1,7 @@
+CLASS byg net/minecraft/world/level/chunk/storage/ChunkStorage
+	FIELD a legacyStructureHandler Lcii;
+	FIELD b fixerUpper Lcom/mojang/datafixers/DataFixer;
+	METHOD <init> <init> (Ljava/io/File;Lcom/mojang/datafixers/DataFixer;)V
+	METHOD a write (Lbhd;Lid;)V
+	METHOD a upgradeChunkTag (Lbyn;Ljava/util/function/Supplier;Lid;)Lid;
+	METHOD a getVersion (Lid;)I

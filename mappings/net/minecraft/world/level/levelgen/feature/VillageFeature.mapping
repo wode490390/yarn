@@ -1,0 +1,11 @@
+CLASS cfd net/minecraft/world/level/levelgen/feature/VillageFeature
+	CLASS a FeatureStart
+		METHOD <init> <init> (Lceu;IILbio;Lcic;IJ)V
+		METHOD a generatePieces (Lbxi;Lcjp;IILbio;)V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lceu$a;
+	METHOD a isFeatureChunk (Lbxi;Ljava/util/Random;II)Z
+	METHOD a getPotentialFeatureChunkFromLocationWithOffset (Lbxi;Ljava/util/Random;IIII)Lbhd;
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD c getLookupRange ()I
+	METHOD g supportsProjection ()Z

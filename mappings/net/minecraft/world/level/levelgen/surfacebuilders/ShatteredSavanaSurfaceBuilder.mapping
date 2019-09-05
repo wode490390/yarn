@@ -1,0 +1,4 @@
+CLASS ckg net/minecraft/world/level/levelgen/surfacebuilders/ShatteredSavanaSurfaceBuilder
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a apply (Ljava/util/Random;Lbxh;Lbio;IIIDLbvt;Lbvt;IJLcki;)V
+	METHOD a apply (Ljava/util/Random;Lbxh;Lbio;IIIDLbvt;Lbvt;IJLckj;)V

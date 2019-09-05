@@ -1,0 +1,15 @@
+CLASS cfb net/minecraft/world/level/levelgen/feature/TreeFeature
+	FIELD a baseHeight I
+	FIELD aS DEFAULT_TRUNK Lbvt;
+	FIELD aT DEFAULT_LEAF Lbvt;
+	FIELD aU addJungleFeatures Z
+	FIELD aV trunk Lbvt;
+	FIELD aW leaf Lbvt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Z)V
+	METHOD <init> <init> (Ljava/util/function/Function;ZILbvt;Lbvt;Z)V
+	METHOD a addHangingVine (Lbhw;Lew;Lbwl;)V
+	METHOD a placeCocoa (Lbhz;ILew;Lfb;)V
+	METHOD a addVine (Lbhz;Lew;Lbwl;)V
+	METHOD a getTreeHeight (Ljava/util/Random;)I
+	METHOD a doPlace (Ljava/util/Set;Lbhw;Ljava/util/Random;Lew;Lcic;)Z

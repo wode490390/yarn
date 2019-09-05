@@ -1,0 +1,4 @@
+CLASS cbx net/minecraft/world/level/levelgen/feature/GrassFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbw;)Z

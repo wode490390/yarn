@@ -1,0 +1,11 @@
+CLASS cnv net/minecraft/world/level/pathfinder/Target
+	FIELD m bestHeuristic F
+	FIELD n bestNode Lcnp;
+	FIELD o reached Z
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Lcnp;)V
+	METHOD a updateBest (FLcnp;)V
+	METHOD c createFromStream (Lje;)Lcnv;
+	METHOD d getBestNode ()Lcnp;
+	METHOD e setReached ()V
+	METHOD f isReached ()Z

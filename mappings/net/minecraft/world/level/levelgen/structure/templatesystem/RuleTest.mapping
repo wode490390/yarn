@@ -1,0 +1,6 @@
+CLASS cjn net/minecraft/world/level/levelgen/structure/templatesystem/RuleTest
+	METHOD <init> <init> ()V
+	METHOD a getType ()Lcjo;
+	METHOD a test (Lbvt;Ljava/util/Random;)Z
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

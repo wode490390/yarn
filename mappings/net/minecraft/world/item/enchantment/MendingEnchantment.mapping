@@ -1,0 +1,6 @@
+CLASS bgc net/minecraft/world/item/enchantment/MendingEnchantment
+	METHOD <init> <init> (Lbfs$a;[Lait;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD b isTreasureOnly ()Z
+	METHOD b getMaxCost (I)I

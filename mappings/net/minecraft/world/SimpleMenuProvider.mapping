@@ -1,0 +1,6 @@
+CLASS ahp net/minecraft/world/SimpleMenuProvider
+	FIELD a title Ljo;
+	FIELD b menuConstructor Lazk;
+	METHOD <init> <init> (Lazk;Ljo;)V
+	METHOD createMenu createMenu (ILawf;Lawg;)Layk;
+	METHOD d getDisplayName ()Ljo;

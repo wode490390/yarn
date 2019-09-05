@@ -1,0 +1,35 @@
+CLASS bhk net/minecraft/world/level/Explosion
+	CLASS a BlockInteraction
+		FIELD a NONE Lbhk$a;
+		FIELD b BREAK Lbhk$a;
+		FIELD c DESTROY Lbhk$a;
+		FIELD d $VALUES [Lbhk$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbhk$a;
+		METHOD values values ()[Lbhk$a;
+	FIELD a fire Z
+	FIELD b blockInteraction Lbhk$a;
+	FIELD c random Ljava/util/Random;
+	FIELD d level Lbhr;
+	FIELD e x D
+	FIELD f y D
+	FIELD g z D
+	FIELD h source Laio;
+	FIELD i radius F
+	FIELD j damageSource Lahx;
+	FIELD k toBlow Ljava/util/List;
+	FIELD l hitPlayers Ljava/util/Map;
+	METHOD <init> <init> (Lbhr;Laio;DDDF)V
+	METHOD <init> <init> (Lbhr;Laio;DDDFLjava/util/List;)V
+	METHOD <init> <init> (Lbhr;Laio;DDDFZLbhk$a;)V
+	METHOD <init> <init> (Lbhr;Laio;DDDFZLbhk$a;Ljava/util/List;)V
+	METHOD a explode ()V
+	METHOD a setDamageSource (Lahx;)V
+	METHOD a getSeenPercent (Lcsi;Laio;)F
+	METHOD a finalizeExplosion (Z)V
+	METHOD b getDamageSource ()Lahx;
+	METHOD c getHitPlayers ()Ljava/util/Map;
+	METHOD d getSourceMob ()Laix;
+	METHOD e clearToBlow ()V
+	METHOD f getToBlow ()Ljava/util/List;

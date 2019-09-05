@@ -1,0 +1,33 @@
+CLASS cln net/minecraft/world/level/material/LavaFluid
+	CLASS a Flowing
+		METHOD <init> <init> ()V
+		METHOD a createFluidStateDefinition (Lbvu$a;)V
+		METHOD c isSource (Lclk;)Z
+		METHOD d getAmount (Lclk;)I
+	CLASS b Source
+		METHOD <init> <init> ()V
+		METHOD c isSource (Lclk;)Z
+		METHOD d getAmount (Lclk;)I
+	METHOD <init> <init> ()V
+	METHOD a getRenderLayer ()Lbhc;
+	METHOD a getSpreadDelay (Lbhr;Lew;Lclk;Lclk;)I
+	METHOD a animateTick (Lbhr;Lew;Lclk;Ljava/util/Random;)V
+	METHOD a fizz (Lbhs;Lew;)V
+	METHOD a beforeDestroyingBlock (Lbhs;Lew;Lbvt;)V
+	METHOD a spreadTo (Lbhs;Lew;Lbvt;Lfb;Lclk;)V
+	METHOD a getTickDelay (Lbhu;)I
+	METHOD a hasFlammableNeighbours (Lbhu;Lew;)Z
+	METHOD a isSame (Lclj;)Z
+	METHOD a canBeReplacedWith (Lclk;Lbhb;Lew;Lclj;Lfb;)Z
+	METHOD b getBucket ()Lbce;
+	METHOD b randomTick (Lbhr;Lew;Lclk;Ljava/util/Random;)V
+	METHOD b getSlopeFindDistance (Lbhu;)I
+	METHOD b isFlammable (Lbhu;Lew;)Z
+	METHOD b createLegacyBlock (Lclk;)Lbvt;
+	METHOD c getDropOff (Lbhu;)I
+	METHOD d getExplosionResistance ()F
+	METHOD e getFlowing ()Lclj;
+	METHOD f getSource ()Lclj;
+	METHOD g canConvertToSource ()Z
+	METHOD j getDripParticle ()Lgf;
+	METHOD k isRandomlyTicking ()Z

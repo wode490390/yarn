@@ -1,0 +1,4 @@
+CLASS cbh net/minecraft/world/level/levelgen/feature/DoublePlantFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbg;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z

@@ -1,0 +1,25 @@
+CLASS ub net/minecraft/server/commands/WhitelistCommand
+	FIELD a ERROR_ALREADY_ENABLED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_ALREADY_DISABLED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c ERROR_ALREADY_WHITELISTED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD d ERROR_NOT_WHITELISTED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a reload (Lcd;)I
+	METHOD a addPlayers (Lcd;Ljava/util/Collection;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$10 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$8 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$null$5 (Lvl;)Ljava/lang/String;
+	METHOD a lambda$null$4 (Lxv;Lvl;)Z
+	METHOD b enableWhitelist (Lcd;)I
+	METHOD b removePlayers (Lcd;Ljava/util/Collection;)I
+	METHOD b lambda$register$9 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD c disableWhitelist (Lcd;)I
+	METHOD c lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d showList (Lcd;)I
+	METHOD d lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$0 (Lcd;)Z
+	METHOD e lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

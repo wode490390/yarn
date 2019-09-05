@@ -1,0 +1,4 @@
+CLASS ahv net/minecraft/world/damagesource/CombatRules
+	METHOD <init> <init> ()V
+	METHOD a getDamageAfterMagicAbsorb (FF)F
+	METHOD a getDamageAfterAbsorb (FFF)F

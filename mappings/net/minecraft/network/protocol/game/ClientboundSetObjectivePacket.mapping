@@ -1,0 +1,15 @@
+CLASS mz net/minecraft/network/protocol/game/ClientboundSetObjectivePacket
+	FIELD a objectiveName Ljava/lang/String;
+	FIELD b displayName Ljo;
+	FIELD c renderType Lctl$a;
+	FIELD d method I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lctf;I)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getObjectiveName ()Ljava/lang/String;
+	METHOD b write (Lje;)V
+	METHOD c getDisplayName ()Ljo;
+	METHOD d getMethod ()I
+	METHOD e getRenderType ()Lctl$a;

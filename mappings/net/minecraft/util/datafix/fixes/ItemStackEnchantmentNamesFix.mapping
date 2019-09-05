@@ -1,0 +1,14 @@
+CLASS ada net/minecraft/util/datafix/fixes/ItemStackEnchantmentNamesFix
+	FIELD a MAP Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a fixTag (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$makeRule$2 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$1 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$static$0 (Lit/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap;)V
+	METHOD a lambda$null$6 (Ljava/util/stream/Stream;)Ljava/util/stream/Stream;
+	METHOD b lambda$fixTag$7 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b lambda$fixTag$4 (Ljava/util/stream/Stream;)Ljava/util/stream/Stream;
+	METHOD c lambda$null$5 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD d lambda$null$3 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

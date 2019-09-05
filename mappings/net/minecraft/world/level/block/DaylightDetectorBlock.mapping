@@ -1,0 +1,15 @@
+CLASS boa net/minecraft/world/level/block/DaylightDetectorBlock
+	FIELD a POWER Lbwt;
+	FIELD b INVERTED Lbwl;
+	FIELD c SHAPE Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a getSignal (Lbvt;Lbhb;Lew;Lfb;)I
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD c getRenderShape (Lbvt;)Lbrd;
+	METHOD d updateSignalStrength (Lbvt;Lbhr;Lew;)V
+	METHOD h isSignalSource (Lbvt;)Z
+	METHOD n useShapeForLightOcclusion (Lbvt;)Z

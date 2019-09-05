@@ -1,0 +1,83 @@
+CLASS bba net/minecraft/world/item/CreativeModeTab
+	CLASS 1 1
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbcj;
+	CLASS 2 10
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbcj;
+	CLASS 3 11
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD a fillItemList (Lfk;)V
+		METHOD f makeIcon ()Lbcj;
+		METHOD n isAlignedRight ()Z
+	CLASS 4 12
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbcj;
+	CLASS 5 2
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbcj;
+	CLASS 6 3
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbcj;
+	CLASS 7 4
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbcj;
+	CLASS 8 5
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbcj;
+	CLASS 9 6
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbcj;
+	CLASS 10 7
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbcj;
+	CLASS 11 8
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbcj;
+	CLASS 12 9
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbcj;
+	FIELD a TABS [Lbba;
+	FIELD b TAB_BUILDING_BLOCKS Lbba;
+	FIELD c TAB_DECORATIONS Lbba;
+	FIELD d TAB_REDSTONE Lbba;
+	FIELD e TAB_TRANSPORTATION Lbba;
+	FIELD f TAB_MISC Lbba;
+	FIELD g TAB_SEARCH Lbba;
+	FIELD h TAB_FOOD Lbba;
+	FIELD i TAB_TOOLS Lbba;
+	FIELD j TAB_COMBAT Lbba;
+	FIELD k TAB_BREWING Lbba;
+	FIELD l TAB_MATERIALS Lbba;
+	FIELD m TAB_HOTBAR Lbba;
+	FIELD n TAB_INVENTORY Lbba;
+	FIELD o id I
+	FIELD p langId Ljava/lang/String;
+	FIELD q recipeFolderName Ljava/lang/String;
+	FIELD r backgroundSuffix Ljava/lang/String;
+	FIELD s canScroll Z
+	FIELD t showTitle Z
+	FIELD u enchantmentCategories [Lbft;
+	FIELD v iconItemStack Lbcj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILjava/lang/String;)V
+	METHOD a getId ()I
+	METHOD a hasEnchantmentCategory (Lbft;)Z
+	METHOD a fillItemList (Lfk;)V
+	METHOD a setBackgroundSuffix (Ljava/lang/String;)Lbba;
+	METHOD a setEnchantmentCategories ([Lbft;)Lbba;
+	METHOD b getLangId ()Ljava/lang/String;
+	METHOD b setRecipeFolderName (Ljava/lang/String;)Lbba;
+	METHOD c getRecipeFolderName ()Ljava/lang/String;
+	METHOD d getName ()Ljava/lang/String;
+	METHOD e getIconItem ()Lbcj;
+	METHOD f makeIcon ()Lbcj;
+	METHOD g getBackgroundSuffix ()Ljava/lang/String;
+	METHOD h showTitle ()Z
+	METHOD i hideTitle ()Lbba;
+	METHOD j canScroll ()Z
+	METHOD k hideScroll ()Lbba;
+	METHOD l getColumn ()I
+	METHOD m isTopRow ()Z
+	METHOD n isAlignedRight ()Z
+	METHOD o getEnchantmentCategories ()[Lbft;

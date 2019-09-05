@@ -1,0 +1,13 @@
+CLASS cqh net/minecraft/world/level/storage/loot/functions/LootItemFunction
+	CLASS a Builder
+		METHOD b build ()Lcqh;
+	CLASS b Serializer
+		FIELD a name Lqv;
+		FIELD b clazz Ljava/lang/Class;
+		METHOD <init> <init> (Lqv;Ljava/lang/Class;)V
+		METHOD a getName ()Lqv;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getFunctionClass ()Ljava/lang/Class;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcqh;
+	METHOD a decorate (Ljava/util/function/BiFunction;Ljava/util/function/Consumer;Lcoy;)Ljava/util/function/Consumer;
+	METHOD a lambda$decorate$0 (Ljava/util/function/Consumer;Ljava/util/function/BiFunction;Lcoy;Lbcj;)V

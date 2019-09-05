@@ -1,0 +1,2 @@
+CLASS bku net/minecraft/world/level/biome/ShatteredSavannaBiome
+	METHOD <init> <init> ()V

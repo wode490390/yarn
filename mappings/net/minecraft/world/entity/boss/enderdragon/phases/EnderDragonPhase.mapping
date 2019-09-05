@@ -1,0 +1,25 @@
+CLASS atf net/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhase
+	FIELD a HOLDING_PATTERN Latf;
+	FIELD b STRAFE_PLAYER Latf;
+	FIELD c LANDING_APPROACH Latf;
+	FIELD d LANDING Latf;
+	FIELD e TAKEOFF Latf;
+	FIELD f SITTING_FLAMING Latf;
+	FIELD g SITTING_SCANNING Latf;
+	FIELD h SITTING_ATTACKING Latf;
+	FIELD i CHARGING_PLAYER Latf;
+	FIELD j DYING Latf;
+	FIELD k HOVERING Latf;
+	FIELD l phases [Latf;
+	FIELD m instanceClass Ljava/lang/Class;
+	FIELD n id I
+	FIELD o name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILjava/lang/Class;Ljava/lang/String;)V
+	METHOD a getConstructor ()Ljava/lang/reflect/Constructor;
+	METHOD a getById (I)Latf;
+	METHOD a createInstance (Lasp;)Lasz;
+	METHOD a create (Ljava/lang/Class;Ljava/lang/String;)Latf;
+	METHOD b getId ()I
+	METHOD c getCount ()I
+	METHOD toString toString ()Ljava/lang/String;

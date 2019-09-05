@@ -1,0 +1,20 @@
+CLASS bco net/minecraft/world/item/MapItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a makeKey (I)Ljava/lang/String;
+	METHOD a getSavedData (Lbcj;Lbhr;)Lcoh;
+	METHOD a scaleMap (Lbcj;Lbhr;I)V
+	METHOD a createAndStoreSavedData (Lbcj;Lbhr;IIIZZLbyn;)Lcoh;
+	METHOD a inventoryTick (Lbcj;Lbhr;Laio;IZ)V
+	METHOD a getUpdatePacket (Lbcj;Lbhr;Lawg;)Lkc;
+	METHOD a appendHoverText (Lbcj;Lbhr;Ljava/util/List;Lbdr;)V
+	METHOD a useOn (Lbdu;)Lahj;
+	METHOD a create (Lbhr;IIBZZ)Lbcj;
+	METHOD a update (Lbhr;Laio;Lcoh;)V
+	METHOD a renderBiomePreviewMap (Lbhr;Lbcj;)V
+	METHOD a getCorrectStateForFluidBlock (Lbhr;Lbvt;Lew;)Lbvt;
+	METHOD a isLand ([Lbio;III)Z
+	METHOD b getOrCreateSavedData (Lbcj;Lbhr;)Lcoh;
+	METHOD b onCraftedBy (Lbcj;Lbhr;Lawg;)V
+	METHOD b lockMap (Lbhr;Lbcj;)Lbcj;
+	METHOD e getMapId (Lbcj;)I
+	METHOD j getColor (Lbcj;)I

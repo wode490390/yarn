@@ -1,0 +1,7 @@
+CLASS brz net/minecraft/world/level/block/SpawnerBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a getCloneItemStack (Lbhb;Lew;Lbvt;)Lbcj;
+	METHOD a spawnAfterBreak (Lbvt;Lbhr;Lew;Lbcj;)V
+	METHOD c getRenderLayer ()Lbhc;
+	METHOD c getRenderShape (Lbvt;)Lbrd;

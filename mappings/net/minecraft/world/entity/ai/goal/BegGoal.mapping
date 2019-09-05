@@ -1,0 +1,14 @@
+CLASS amm net/minecraft/world/entity/ai/goal/BegGoal
+	FIELD a wolf Larz;
+	FIELD b player Lawg;
+	FIELD c level Lbhr;
+	FIELD d lookDistance F
+	FIELD e lookTime I
+	FIELD f begTargeting Laqi;
+	METHOD <init> <init> (Larz;F)V
+	METHOD a canUse ()Z
+	METHOD a playerHoldingInteresting (Lawg;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

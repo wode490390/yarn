@@ -1,0 +1,8 @@
+CLASS ajb net/minecraft/world/entity/MobType
+	FIELD a UNDEFINED Lajb;
+	FIELD b UNDEAD Lajb;
+	FIELD c ARTHROPOD Lajb;
+	FIELD d ILLAGER Lajb;
+	FIELD e WATER Lajb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V

@@ -1,0 +1,18 @@
+CLASS ayc net/minecraft/world/entity/vehicle/MinecartSpawner
+	CLASS 1 1
+		FIELD a this$0 Layc;
+		METHOD <init> <init> (Layc;)V
+		METHOD a getLevel ()Lbhr;
+		METHOD a broadcastEvent (I)V
+		METHOD b getPos ()Lew;
+	FIELD b spawner Lbgy;
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDD)V
+	METHOD a handleEntityEvent (B)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD bT onlyOpCanSetNbt ()Z
+	METHOD h tick ()V
+	METHOD o getMinecartType ()Laxu$a;
+	METHOD q getDefaultDisplayBlockState ()Lbvt;
+	METHOD v getSpawner ()Lbgy;

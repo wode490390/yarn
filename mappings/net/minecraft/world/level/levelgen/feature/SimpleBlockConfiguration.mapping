@@ -1,0 +1,12 @@
+CLASS ceg net/minecraft/world/level/levelgen/feature/SimpleBlockConfiguration
+	FIELD a toPlace Lbvt;
+	FIELD b placeOn Ljava/util/List;
+	FIELD c placeIn Ljava/util/List;
+	FIELD d placeUnder Ljava/util/List;
+	METHOD <init> <init> (Lbvt;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
+	METHOD <init> <init> (Lbvt;[Lbvt;[Lbvt;[Lbvt;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lceg;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$2 (Lcom/mojang/datafixers/types/DynamicOps;Lbvt;)Ljava/lang/Object;
+	METHOD b lambda$serialize$1 (Lcom/mojang/datafixers/types/DynamicOps;Lbvt;)Ljava/lang/Object;
+	METHOD c lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lbvt;)Ljava/lang/Object;

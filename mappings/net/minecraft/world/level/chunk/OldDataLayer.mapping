@@ -1,0 +1,9 @@
+CLASS bxx net/minecraft/world/level/chunk/OldDataLayer
+	FIELD a data [B
+	FIELD b depthBits I
+	FIELD c depthBitsPlusFour I
+	METHOD <init> <init> ([BI)V
+	METHOD a isValid ()Z
+	METHOD a setAll (I)V
+	METHOD a get (III)I
+	METHOD a set (IIII)V

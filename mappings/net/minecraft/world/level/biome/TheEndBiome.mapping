@@ -1,0 +1,3 @@
+CLASS blm net/minecraft/world/level/biome/TheEndBiome
+	METHOD <init> <init> ()V
+	METHOD a getSkyColor (F)I

@@ -1,0 +1,57 @@
+CLASS byd net/minecraft/world/level/chunk/UpgradeData
+	CLASS 1 1
+	CLASS a BlockFixer
+		METHOD a processChunk (Lbhs;)V
+		METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	CLASS b BlockFixers
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;I[Lbmv;)V
+			METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;I[Lbmv;)V
+			METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+		CLASS 3 3
+			METHOD <init> <init> (Ljava/lang/String;I[Lbmv;)V
+			METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+		CLASS 4 4
+			FIELD g queue Ljava/lang/ThreadLocal;
+			METHOD <init> <init> (Ljava/lang/String;IZ[Lbmv;)V
+			METHOD a lambda$$0 ()Ljava/util/List;
+			METHOD a processChunk (Lbhs;)V
+			METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+		CLASS 5 5
+			METHOD <init> <init> (Ljava/lang/String;I[Lbmv;)V
+			METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+		FIELD a BLACKLIST Lbyd$b;
+		FIELD b DEFAULT Lbyd$b;
+		FIELD c CHEST Lbyd$b;
+		FIELD d LEAVES Lbyd$b;
+		FIELD e STEM_BLOCK Lbyd$b;
+		FIELD f DIRECTIONS [Lfb;
+		FIELD g $VALUES [Lbyd$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IZ[Lbmv;)V
+		METHOD <init> <init> (Ljava/lang/String;IZ[Lbmv;Lbyd$1;)V
+		METHOD <init> <init> (Ljava/lang/String;I[Lbmv;)V
+		METHOD <init> <init> (Ljava/lang/String;I[Lbmv;Lbyd$1;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbyd$b;
+		METHOD values values ()[Lbyd$b;
+	FIELD a EMPTY Lbyd;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c DIRECTIONS [Lfc;
+	FIELD d sides Ljava/util/EnumSet;
+	FIELD e index [[I
+	FIELD f MAP Ljava/util/Map;
+	FIELD g CHUNKY_FIXERS Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lid;)V
+	METHOD a isEmpty ()Z
+	METHOD a lambda$upgrade$0 (Lbhr;Lbyd$a;)V
+	METHOD a updateState (Lbvt;Lfb;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a upgrade (Lbxt;)V
+	METHOD a upgradeSides (Lbxt;Lfc;)V
+	METHOD b write ()Lid;
+	METHOD b upgradeInside (Lbxt;)V
+	METHOD c access$200 ()Ljava/util/Map;
+	METHOD d access$300 ()Ljava/util/Set;

@@ -1,0 +1,5 @@
+CLASS aqa net/minecraft/world/entity/ai/sensing/PlayerSensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a lambda$doTick$0 (Laix;Lvl;)Z
+	METHOD a doTick (Lvk;Laix;)V

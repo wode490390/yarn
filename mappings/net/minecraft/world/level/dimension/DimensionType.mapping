@@ -1,0 +1,24 @@
+CLASS byn net/minecraft/world/level/dimension/DimensionType
+	FIELD a OVERWORLD Lbyn;
+	FIELD b NETHER Lbyn;
+	FIELD c THE_END Lbyn;
+	FIELD d id I
+	FIELD e fileSuffix Ljava/lang/String;
+	FIELD f folder Ljava/lang/String;
+	FIELD g factory Ljava/util/function/BiFunction;
+	FIELD h hasSkylight Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILjava/lang/String;Ljava/lang/String;Ljava/util/function/BiFunction;Z)V
+	METHOD a getAllTypes ()Ljava/lang/Iterable;
+	METHOD a getById (I)Lbyn;
+	METHOD a create (Lbhr;)Lbym;
+	METHOD a getName (Lbyn;)Lqv;
+	METHOD a of (Lcom/mojang/datafixers/Dynamic;)Lbyn;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a getStorageFolder (Ljava/io/File;)Ljava/io/File;
+	METHOD a register (Ljava/lang/String;Lbyn;)Lbyn;
+	METHOD a getByName (Lqv;)Lbyn;
+	METHOD b getId ()I
+	METHOD c getFileSuffix ()Ljava/lang/String;
+	METHOD d hasSkyLight ()Z
+	METHOD toString toString ()Ljava/lang/String;

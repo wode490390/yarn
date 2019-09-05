@@ -1,0 +1,30 @@
+CLASS hl net/minecraft/data/recipes/SingleItemRecipeBuilder
+	CLASS a Result
+		FIELD a id Lqv;
+		FIELD b group Ljava/lang/String;
+		FIELD c ingredient Lbeo;
+		FIELD d result Lbce;
+		FIELD e count I
+		FIELD f advancement Lq$a;
+		FIELD g advancementId Lqv;
+		FIELD h type Lbet;
+		METHOD <init> <init> (Lqv;Lbet;Ljava/lang/String;Lbeo;Lbce;ILq$a;Lqv;)V
+		METHOD a serializeRecipeData (Lcom/google/gson/JsonObject;)V
+		METHOD b getId ()Lqv;
+		METHOD c getType ()Lbet;
+		METHOD d serializeAdvancement ()Lcom/google/gson/JsonObject;
+		METHOD e getAdvancementId ()Lqv;
+	FIELD a result Lbce;
+	FIELD b ingredient Lbeo;
+	FIELD c count I
+	FIELD d advancement Lq$a;
+	FIELD e group Ljava/lang/String;
+	FIELD f type Lbet;
+	METHOD <init> <init> (Lbet;Lbeo;Lbhq;I)V
+	METHOD a stonecutting (Lbeo;Lbhq;)Lhl;
+	METHOD a stonecutting (Lbeo;Lbhq;I)Lhl;
+	METHOD a group (Ljava/lang/String;)Lhl;
+	METHOD a unlocks (Ljava/lang/String;Ly;)Lhl;
+	METHOD a save (Ljava/util/function/Consumer;Ljava/lang/String;)V
+	METHOD a save (Ljava/util/function/Consumer;Lqv;)V
+	METHOD a ensureValid (Lqv;)V

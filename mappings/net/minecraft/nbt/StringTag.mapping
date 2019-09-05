@@ -1,5 +1,16 @@
-CLASS net/minecraft/class_2519 net/minecraft/nbt/StringTag
-	FIELD field_11590 value Ljava/lang/String;
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
-	METHOD method_10706 escape (Ljava/lang/String;)Ljava/lang/String;
+CLASS it net/minecraft/nbt/StringTag
+	FIELD f data Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a getId ()B
+	METHOD a load (Ljava/io/DataInput;ILin;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a quoteAndEscape (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Ljo;
+	METHOD b copy ()Liu;
+	METHOD c copy ()Lit;
+	METHOD c_ getAsString ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD isEmpty isEmpty ()Z
+	METHOD toString toString ()Ljava/lang/String;

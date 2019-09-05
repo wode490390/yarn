@@ -1,0 +1,2 @@
+CLASS wn net/minecraft/server/packs/ResourcePackFileNotFoundException
+	METHOD <init> <init> (Ljava/io/File;Ljava/lang/String;)V

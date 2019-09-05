@@ -1,0 +1,13 @@
+CLASS crv net/minecraft/world/level/timers/FunctionCallback
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lid;)Lcrv;
+		METHOD a serialize (Lid;Lcrv;)V
+		METHOD a serialize (Lid;Lcrx;)V
+		METHOD b deserialize (Lid;)Lcrx;
+	FIELD a functionId Lqv;
+	METHOD <init> <init> (Lqv;)V
+	METHOD a access$000 (Lcrv;)Lqv;
+	METHOD a handle (Ljava/lang/Object;Lcrz;J)V
+	METHOD a handle (Lnet/minecraft/server/MinecraftServer;Lcrz;J)V
+	METHOD a lambda$handle$0 (Lrh;Lca;)V

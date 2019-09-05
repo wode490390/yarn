@@ -1,0 +1,4 @@
+CLASS adx net/minecraft/util/datafix/fixes/RenamedCoralFansFix
+	FIELD a RENAMED_IDS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V

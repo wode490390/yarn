@@ -1,0 +1,11 @@
+CLASS csg net/minecraft/world/phys/PosAndRot
+	FIELD a pos Lcsi;
+	FIELD b xRot F
+	FIELD c yRot F
+	METHOD <init> <init> (Lcsi;FF)V
+	METHOD a pos ()Lcsi;
+	METHOD b xRot ()F
+	METHOD c yRot ()F
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

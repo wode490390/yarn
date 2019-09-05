@@ -1,0 +1,7 @@
+CLASS caz net/minecraft/world/level/levelgen/feature/DecoratorNoiseDependant
+	FIELD a noiseLevel D
+	FIELD b belowNoise I
+	FIELD c aboveNoise I
+	METHOD <init> <init> (DII)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcaz;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

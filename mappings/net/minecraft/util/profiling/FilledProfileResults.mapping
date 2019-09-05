@@ -1,0 +1,22 @@
+CLASS agi net/minecraft/util/profiling/FilledProfileResults
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b times Ljava/util/Map;
+	FIELD c counts Ljava/util/Map;
+	FIELD d startTimeNano J
+	FIELD e startTimeTicks I
+	FIELD f endTimeNano J
+	FIELD g endTimeTicks I
+	FIELD h tickDuration I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/Map;Ljava/util/Map;JIJI)V
+	METHOD a getStartTimeNano ()J
+	METHOD a appendProfilerResults (ILjava/lang/String;Ljava/lang/StringBuilder;)V
+	METHOD a getProfilerResults (JI)Ljava/lang/String;
+	METHOD a saveResults (Ljava/io/File;)Z
+	METHOD a getTimes (Ljava/lang/String;)Ljava/util/List;
+	METHOD b getStartTimeTicks ()I
+	METHOD c getEndTimeNano ()J
+	METHOD d getEndTimeTicks ()I
+	METHOD e getProfilerResults ()Ljava/lang/String;
+	METHOD f getTickDuration ()I
+	METHOD h getComment ()Ljava/lang/String;

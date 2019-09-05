@@ -1,0 +1,4 @@
+CLASS bvh net/minecraft/world/level/block/grower/JungleTreeGrower
+	METHOD <init> <init> ()V
+	METHOD a getMegaFeature (Ljava/util/Random;)Lbzv;
+	METHOD b getFeature (Ljava/util/Random;)Lbzv;

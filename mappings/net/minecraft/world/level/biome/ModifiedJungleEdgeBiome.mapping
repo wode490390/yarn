@@ -1,0 +1,2 @@
+CLASS bkg net/minecraft/world/level/biome/ModifiedJungleEdgeBiome
+	METHOD <init> <init> ()V

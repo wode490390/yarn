@@ -1,0 +1,3 @@
+CLASS cbz net/minecraft/world/level/levelgen/feature/HayBlockPileFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getBlockState (Lbhs;)Lbvt;

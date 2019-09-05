@@ -1,0 +1,13 @@
+CLASS ays net/minecraft/world/inventory/ClickType
+	FIELD a PICKUP Lays;
+	FIELD b QUICK_MOVE Lays;
+	FIELD c SWAP Lays;
+	FIELD d CLONE Lays;
+	FIELD e THROW Lays;
+	FIELD f QUICK_CRAFT Lays;
+	FIELD g PICKUP_ALL Lays;
+	FIELD h $VALUES [Lays;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lays;
+	METHOD values values ()[Lays;

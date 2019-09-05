@@ -1,0 +1,116 @@
+CLASS auu net/minecraft/world/entity/monster/Phantom
+	CLASS 1 1
+	CLASS a AttackPhase
+		FIELD a CIRCLE Lauu$a;
+		FIELD b SWOOP Lauu$a;
+		FIELD c $VALUES [Lauu$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lauu$a;
+		METHOD values values ()[Lauu$a;
+	CLASS b PhantomAttackPlayerTargetGoal
+		FIELD a this$0 Lauu;
+		FIELD b attackTargeting Laqi;
+		FIELD c nextScanTick I
+		METHOD <init> <init> (Lauu;)V
+		METHOD <init> <init> (Lauu;Lauu$1;)V
+		METHOD a canUse ()Z
+		METHOD a lambda$canUse$0 (Lawg;Lawg;)I
+		METHOD b canContinueToUse ()Z
+	CLASS c PhantomAttackStrategyGoal
+		FIELD a this$0 Lauu;
+		FIELD b nextSweepTick I
+		METHOD <init> <init> (Lauu;)V
+		METHOD <init> <init> (Lauu;Lauu$1;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+		METHOD g setAnchorAboveTarget ()V
+	CLASS d PhantomBodyRotationControl
+		FIELD a this$0 Lauu;
+		METHOD <init> <init> (Lauu;Laiy;)V
+		METHOD a clientTick ()V
+	CLASS e PhantomCircleAroundAnchorGoal
+		FIELD a this$0 Lauu;
+		FIELD c angle F
+		FIELD d distance F
+		FIELD e height F
+		FIELD f clockwise F
+		METHOD <init> <init> (Lauu;)V
+		METHOD <init> <init> (Lauu;Lauu$1;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+		METHOD h selectNext ()V
+	CLASS f PhantomLookControl
+		FIELD h this$0 Lauu;
+		METHOD <init> <init> (Lauu;Laiy;)V
+		METHOD a tick ()V
+	CLASS g PhantomMoveControl
+		FIELD i this$0 Lauu;
+		FIELD j speed F
+		METHOD <init> <init> (Lauu;Laiy;)V
+		METHOD a tick ()V
+	CLASS h PhantomMoveTargetGoal
+		FIELD b this$0 Lauu;
+		METHOD <init> <init> (Lauu;)V
+		METHOD g touchingTarget ()Z
+	CLASS i PhantomSweepAttackGoal
+		FIELD a this$0 Lauu;
+		METHOD <init> <init> (Lauu;)V
+		METHOD <init> <init> (Lauu;Lauu$1;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	FIELD b ID_SIZE Lqk;
+	FIELD bz attackPhase Lauu$a;
+	FIELD c moveTargetPoint Lcsi;
+	FIELD d anchorPoint Lew;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD L customServerAiStep ()V
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a setPhantomSize (I)V
+	METHOD a canAttackType (Lais;)Z
+	METHOD a getDimensions (Lajh;)Laip;
+	METHOD a access$400 (Lauu;)Lcsi;
+	METHOD a access$502 (Lauu;Lauu$a;)Lauu$a;
+	METHOD a access$402 (Lauu;Lcsi;)Lcsi;
+	METHOD a access$1402 (Lauu;Lew;)Lew;
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD a onSyncedDataUpdated (Lqk;)V
+	METHOD b getStandingEyeHeight (Lajh;Laip;)F
+	METHOD b access$500 (Lauu;)Lauu$a;
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c access$600 (Lauu;)Ljava/util/Random;
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cQ getMobType ()Lajb;
+	METHOD cU getSoundVolume ()F
+	METHOD cc getSoundSource ()Lyq;
+	METHOD cl registerAttributes ()V
+	METHOD d access$700 (Lauu;)Ljava/util/Random;
+	METHOD dT getMovementTarget ()Lcsi;
+	METHOD dU updatePhantomSizeInfo ()V
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD e access$800 (Lauu;)Ljava/util/Random;
+	METHOD f access$900 (Lauu;)Ljava/util/Random;
+	METHOD g access$1000 (Lauu;)Ljava/util/Random;
+	METHOD h tick ()V
+	METHOD h access$1100 (Lauu;)Ljava/util/Random;
+	METHOD i access$1200 (Lauu;)Ljava/util/Random;
+	METHOD j access$1300 (Lauu;)Ljava/util/Random;
+	METHOD k aiStep ()V
+	METHOD k access$1400 (Lauu;)Lew;
+	METHOD l getPhantomSize ()I
+	METHOD l access$1500 (Lauu;)Ljava/util/Random;
+	METHOD m access$1600 (Lauu;)Ljava/util/Random;
+	METHOD n registerGoals ()V
+	METHOD n access$1700 (Lauu;)Ljava/util/Random;
+	METHOD o createBodyControl ()Lamd;
+	METHOD o access$1800 (Lauu;)Ljava/util/Random;
+	METHOD u_ defineSynchedData ()V

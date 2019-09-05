@@ -1,0 +1,21 @@
+CLASS azg net/minecraft/world/inventory/HorseInventoryMenu
+	CLASS 1 1
+		FIELD a val$horse Lasb;
+		FIELD b this$0 Lazg;
+		METHOD <init> <init> (Lazg;Lahc;IIILasb;)V
+		METHOD a mayPlace (Lbcj;)Z
+		METHOD b isActive ()Z
+	CLASS 2 2
+		FIELD a val$horse Lasb;
+		FIELD b this$0 Lazg;
+		METHOD <init> <init> (Lazg;Lahc;IIILasb;)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbcj;)Z
+		METHOD b isActive ()Z
+	FIELD c horseContainer Lahc;
+	FIELD d horse Lasb;
+	METHOD <init> <init> (ILawf;Lahc;Lasb;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;
+	METHOD e getContainer ()Lahc;

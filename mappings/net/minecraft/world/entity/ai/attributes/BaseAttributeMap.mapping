@@ -1,0 +1,14 @@
+CLASS ajr net/minecraft/world/entity/ai/attributes/BaseAttributeMap
+	FIELD a attributesByObject Ljava/util/Map;
+	FIELD b attributesByName Ljava/util/Map;
+	FIELD c descendantsByParent Lcom/google/common/collect/Multimap;
+	METHOD <init> <init> ()V
+	METHOD a getAttributes ()Ljava/util/Collection;
+	METHOD a getInstance (Lajn;)Lajo;
+	METHOD a onAttributeModified (Lajo;)V
+	METHOD a removeAttributeModifiers (Lcom/google/common/collect/Multimap;)V
+	METHOD a getInstance (Ljava/lang/String;)Lajo;
+	METHOD b registerAttribute (Lajn;)Lajo;
+	METHOD b addAttributeModifiers (Lcom/google/common/collect/Multimap;)V
+	METHOD c createAttributeInstance (Lajn;)Lajo;
+	METHOD d getDescendants (Lajn;)Ljava/util/Collection;

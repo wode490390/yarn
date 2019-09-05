@@ -1,0 +1,9 @@
+CLASS la net/minecraft/network/protocol/game/ClientboundContainerClosePacket
+	FIELD a containerId I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getContainerId ()I
+	METHOD b write (Lje;)V

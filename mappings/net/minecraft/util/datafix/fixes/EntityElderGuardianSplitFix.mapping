@@ -1,0 +1,3 @@
+CLASS abs net/minecraft/util/datafix/fixes/EntityElderGuardianSplitFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a getNewNameAndTag (Ljava/lang/String;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/util/Pair;

@@ -1,0 +1,10 @@
+CLASS ckt net/minecraft/world/level/lighting/BlockLightEngine
+	FIELD e DIRECTIONS [Lfb;
+	FIELD f pos Lew$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbxv;)V
+	METHOD a checkNeighborsAfterUpdate (JIZ)V
+	METHOD a getComputedLevel (JJI)I
+	METHOD a onBlockEmissionIncrease (Lew;I)V
+	METHOD b computeLevelFromNeighbor (JJI)I
+	METHOD d getLightEmission (J)I

@@ -1,0 +1,18 @@
+CLASS asa net/minecraft/world/entity/animal/horse/AbstractChestedHorse
+	FIELD bI DATA_ID_CHEST Lqk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD a mobInteract (Lawg;Lahi;)Z
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD aP getRideHeight ()D
+	METHOD a_ setSlot (ILbcj;)Z
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD cF dropEquipment ()V
+	METHOD cl registerAttributes ()V
+	METHOD dV hasChest ()Z
+	METHOD dW getInventorySize ()I
+	METHOD dX getAngrySound ()Lyo;
+	METHOD dY playChestEquipsSound ()V
+	METHOD dZ getInventoryColumns ()I
+	METHOD r setChest (Z)V
+	METHOD u_ defineSynchedData ()V

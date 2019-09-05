@@ -1,0 +1,12 @@
+CLASS ve net/minecraft/server/level/FeatureSimulator
+	FIELD a minPos Lew$a;
+	FIELD b maxPos Lew$a;
+	METHOD <init> <init> ()V
+	METHOD a getBoundingBox ()Lcic;
+	METHOD a getHeightmapPos (Lbza$a;Lew;)Lew;
+	METHOD a setBlock (Lew;Lbvt;I)Z
+	METHOD a isStateAtPosition (Lew;Ljava/util/function/Predicate;)Z
+	METHOD a removeBlock (Lew;Z)Z
+	METHOD b isFluidAtPosition (Lew;Ljava/util/function/Predicate;)Z
+	METHOD b destroyBlock (Lew;Z)Z
+	METHOD toString toString ()Ljava/lang/String;

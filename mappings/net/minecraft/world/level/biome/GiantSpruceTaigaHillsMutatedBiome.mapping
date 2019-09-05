@@ -1,0 +1,2 @@
+CLASS bju net/minecraft/world/level/biome/GiantSpruceTaigaHillsMutatedBiome
+	METHOD <init> <init> ()V

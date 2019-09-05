@@ -1,0 +1,9 @@
+CLASS mr net/minecraft/network/protocol/game/ClientboundSetChunkCacheRadiusPacket
+	FIELD a radius I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getRadius ()I
+	METHOD b write (Lje;)V

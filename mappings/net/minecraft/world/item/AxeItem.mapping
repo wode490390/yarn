@@ -1,0 +1,8 @@
+CLASS bai net/minecraft/world/item/AxeItem
+	FIELD a STRIPABLES Ljava/util/Map;
+	FIELD e DIGGABLES Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbdn;FFLbce$a;)V
+	METHOD a getDestroySpeed (Lbcj;Lbvt;)F
+	METHOD a useOn (Lbdu;)Lahj;
+	METHOD a lambda$useOn$0 (Lbdu;Lawg;)V

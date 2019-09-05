@@ -1,0 +1,20 @@
+CLASS aki net/minecraft/world/entity/ai/behavior/HarvestFarmland
+	FIELD a aboveFarmlandPos Lew;
+	FIELD b canPlantStuff Z
+	FIELD c wantsToReapStuff Z
+	FIELD d nextOkStartTime J
+	FIELD e timeWorkedSoFar I
+	FIELD f validFarmlandAroundVillager Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD a validPos (Lew;Lvk;)Z
+	METHOD a getValidFarmland (Lvk;)Lew;
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a checkExtraStartConditions (Lvk;Lavt;)Z
+	METHOD a start (Lvk;Lavt;J)V
+	METHOD b stop (Lvk;Lavt;J)V
+	METHOD c tick (Lvk;Lavt;J)V
+	METHOD d tick (Lvk;Laix;J)V
+	METHOD d canStillUse (Lvk;Lavt;J)Z
+	METHOD f stop (Lvk;Laix;J)V
+	METHOD g canStillUse (Lvk;Laix;J)Z

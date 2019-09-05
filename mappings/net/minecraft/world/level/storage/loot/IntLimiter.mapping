@@ -1,0 +1,23 @@
+CLASS cox net/minecraft/world/level/storage/loot/IntLimiter
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcox;
+		METHOD a serialize (Lcox;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+	FIELD a min Ljava/lang/Integer;
+	FIELD b max Ljava/lang/Integer;
+	FIELD c op Ljava/util/function/IntUnaryOperator;
+	METHOD <init> <init> (Ljava/lang/Integer;Ljava/lang/Integer;)V
+	METHOD <init> <init> (Ljava/lang/Integer;Ljava/lang/Integer;Lcox$1;)V
+	METHOD a lowerBound (I)Lcox;
+	METHOD a clamp (II)Lcox;
+	METHOD a lambda$new$3 (III)I
+	METHOD a access$100 (Lcox;)Ljava/lang/Integer;
+	METHOD applyAsInt applyAsInt (I)I
+	METHOD b upperBound (I)Lcox;
+	METHOD b lambda$new$2 (II)I
+	METHOD b access$200 (Lcox;)Ljava/lang/Integer;
+	METHOD c lambda$new$0 (I)I
+	METHOD c lambda$new$1 (II)I

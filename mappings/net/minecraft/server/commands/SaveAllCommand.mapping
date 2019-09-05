@@ -1,0 +1,9 @@
+CLASS td net/minecraft/server/commands/SaveAllCommand
+	FIELD a ERROR_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a saveAll (Lcd;Z)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

@@ -1,0 +1,12 @@
+CLASS bcx net/minecraft/world/item/RecordItem
+	FIELD a BY_NAME Ljava/util/Map;
+	FIELD b analogOutput I
+	FIELD c sound Lyo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILyo;Lbce$a;)V
+	METHOD a appendHoverText (Lbcj;Lbhr;Ljava/util/List;Lbdr;)V
+	METHOD a useOn (Lbdu;)Lahj;
+	METHOD a getBySound (Lyo;)Lbcx;
+	METHOD d getAnalogOutput ()I
+	METHOD e getDisplayName ()Ljo;
+	METHOD t getSound ()Lyo;

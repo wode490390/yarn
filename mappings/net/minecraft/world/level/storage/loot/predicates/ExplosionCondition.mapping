@@ -1,0 +1,16 @@
+CLASS crg net/minecraft/world/level/storage/loot/predicates/ExplosionCondition
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrg;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a INSTANCE Lcrg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a test (Lcoy;)Z
+	METHOD b survivesExplosion ()Lcrk$a;
+	METHOD c access$000 ()Lcrg;
+	METHOD d lambda$survivesExplosion$0 ()Lcrk;
+	METHOD test test (Ljava/lang/Object;)Z

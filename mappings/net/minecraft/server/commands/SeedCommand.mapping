@@ -1,0 +1,6 @@
+CLASS tj net/minecraft/server/commands/SeedCommand
+	METHOD <init> <init> ()V
+	METHOD a lambda$null$1 (JLjw;)V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I

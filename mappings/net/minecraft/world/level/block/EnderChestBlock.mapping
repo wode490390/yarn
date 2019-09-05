@@ -1,0 +1,21 @@
+CLASS bop net/minecraft/world/level/block/EnderChestBlock
+	FIELD a FACING Lbwo;
+	FIELD b WATERLOGGED Lbwl;
+	FIELD c SHAPE Lctc;
+	FIELD d CONTAINER_TITLE Ljy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a lambda$use$0 (Lazp;ILawf;Lawg;)Layk;
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a animateTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD c getRenderShape (Lbvt;)Lbrd;
+	METHOD d hasCustomBreakingProgress (Lbvt;)Z
+	METHOD g getFluidState (Lbvt;)Lclk;

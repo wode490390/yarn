@@ -1,0 +1,27 @@
+CLASS akm net/minecraft/world/entity/ai/behavior/JumpOnBed
+	FIELD a speed F
+	FIELD b targetBed Lew;
+	FIELD c remainingTimeToReachBed I
+	FIELD d remainingJumps I
+	FIELD e remainingCooldownUntilNextJump I
+	METHOD <init> <init> (F)V
+	METHOD a timedOut (J)Z
+	METHOD a getNearestBed (Laiy;)Ljava/util/Optional;
+	METHOD a startWalkingTowardsBed (Laiy;Lew;)V
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a checkExtraStartConditions (Lvk;Laiy;)Z
+	METHOD a start (Lvk;Laiy;J)V
+	METHOD a lambda$start$0 (Lvk;Laiy;Lew;)V
+	METHOD a isBed (Lvk;Lew;)Z
+	METHOD b nearBed (Lvk;Laiy;)Z
+	METHOD b stop (Lvk;Laiy;J)V
+	METHOD c onOrOverBed (Lvk;Laiy;)Z
+	METHOD c canStillUse (Lvk;Laiy;J)Z
+	METHOD d tick (Lvk;Laix;J)V
+	METHOD d onBedSurface (Lvk;Laiy;)Z
+	METHOD d tick (Lvk;Laiy;J)V
+	METHOD e tiredOfWalking (Lvk;Laiy;)Z
+	METHOD f stop (Lvk;Laix;J)V
+	METHOD f tiredOfJumping (Lvk;Laiy;)Z
+	METHOD g canStillUse (Lvk;Laix;J)Z

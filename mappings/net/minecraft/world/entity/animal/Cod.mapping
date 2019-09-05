@@ -1,0 +1,7 @@
+CLASS ard net/minecraft/world/entity/animal/Cod
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD cH getDeathSound ()Lyo;
+	METHOD dW getFlopSound ()Lyo;
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD l getBucketItemStack ()Lbcj;

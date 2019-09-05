@@ -1,0 +1,17 @@
+CLASS ri net/minecraft/server/ServerInterface
+	METHOD A getPlayerCount ()I
+	METHOD B getMaxPlayers ()I
+	METHOD C getPlayerNames ()[Ljava/lang/String;
+	METHOD E isDebugging ()Z
+	METHOD K getLevelIdName ()Ljava/lang/String;
+	METHOD a_ runCommand (Ljava/lang/String;)Ljava/lang/String;
+	METHOD d_ getProperties ()Lul;
+	METHOD e getServerPort ()I
+	METHOD e info (Ljava/lang/String;)V
+	METHOD e_ getServerIp ()Ljava/lang/String;
+	METHOD f warn (Ljava/lang/String;)V
+	METHOD f_ getServerName ()Ljava/lang/String;
+	METHOD g error (Ljava/lang/String;)V
+	METHOD h debug (Ljava/lang/String;)V
+	METHOD o getPluginNames ()Ljava/lang/String;
+	METHOD z getServerVersion ()Ljava/lang/String;

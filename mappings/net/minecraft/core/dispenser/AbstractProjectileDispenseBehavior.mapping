@@ -1,0 +1,7 @@
+CLASS fu net/minecraft/core/dispenser/AbstractProjectileDispenseBehavior
+	METHOD <init> <init> ()V
+	METHOD a getUncertainty ()F
+	METHOD a getProjectile (Lbhr;Lfl;Lbcj;)Lawv;
+	METHOD a playSound (Lex;)V
+	METHOD a execute (Lex;Lbcj;)Lbcj;
+	METHOD b getPower ()F

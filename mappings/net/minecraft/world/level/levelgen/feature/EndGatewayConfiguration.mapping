@@ -1,0 +1,14 @@
+CLASS cbj net/minecraft/world/level/levelgen/feature/EndGatewayConfiguration
+	FIELD a exit Ljava/util/Optional;
+	FIELD b exact Z
+	METHOD <init> <init> (Ljava/util/Optional;Z)V
+	METHOD a delayedExitSearch ()Lcbj;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcbj;
+	METHOD a lambda$deserialize$3 (Lcom/mojang/datafixers/Dynamic;Ljava/lang/Number;)Ljava/util/Optional;
+	METHOD a lambda$null$2 (Lcom/mojang/datafixers/Dynamic;Ljava/lang/Number;Ljava/lang/Number;)Ljava/util/Optional;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lew;)Ljava/lang/Object;
+	METHOD a knownExit (Lew;Z)Lcbj;
+	METHOD a lambda$null$1 (Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;)Lew;
+	METHOD b getExit ()Ljava/util/Optional;
+	METHOD c isExitExact ()Z

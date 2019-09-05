@@ -1,0 +1,10 @@
+CLASS aip net/minecraft/world/entity/EntityDimensions
+	FIELD a width F
+	FIELD b height F
+	FIELD c fixed Z
+	METHOD <init> <init> (FFZ)V
+	METHOD a scale (F)Laip;
+	METHOD a scale (FF)Laip;
+	METHOD b scalable (FF)Laip;
+	METHOD c fixed (FF)Laip;
+	METHOD toString toString ()Ljava/lang/String;

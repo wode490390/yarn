@@ -1,0 +1,25 @@
+CLASS bu net/minecraft/advancements/critereon/UsedEnderEyeTrigger
+	CLASS a PlayerListeners
+		FIELD a player Lre;
+		FIELD b listeners Ljava/util/Set;
+		METHOD <init> <init> (Lre;)V
+		METHOD a isEmpty ()Z
+		METHOD a trigger (D)V
+		METHOD a addListener (Lx$a;)V
+		METHOD b removeListener (Lx$a;)V
+	CLASS b TriggerInstance
+		FIELD a level Lbi$c;
+		METHOD <init> <init> (Lbi$c;)V
+		METHOD a matches (D)Z
+	FIELD a ID Lqv;
+	FIELD b players Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lqv;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ly;
+	METHOD a removePlayerListeners (Lre;)V
+	METHOD a addPlayerListener (Lre;Lx$a;)V
+	METHOD a trigger (Lvl;Lew;)V
+	METHOD b access$000 ()Lqv;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbu$b;
+	METHOD b removePlayerListener (Lre;Lx$a;)V

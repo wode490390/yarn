@@ -1,0 +1,5 @@
+CLASS tw net/minecraft/server/commands/TellRawCommand
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

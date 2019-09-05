@@ -1,0 +1,3 @@
+CLASS bqi net/minecraft/world/level/block/MyceliumBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a animateTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V

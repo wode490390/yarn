@@ -1,0 +1,12 @@
+CLASS bhc net/minecraft/world/level/BlockLayer
+	FIELD a SOLID Lbhc;
+	FIELD b CUTOUT_MIPPED Lbhc;
+	FIELD c CUTOUT Lbhc;
+	FIELD d TRANSLUCENT Lbhc;
+	FIELD e name Ljava/lang/String;
+	FIELD f $VALUES [Lbhc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbhc;
+	METHOD values values ()[Lbhc;

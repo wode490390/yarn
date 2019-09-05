@@ -1,0 +1,10 @@
+CLASS azq net/minecraft/world/inventory/RecipeBookMenu
+	METHOD <init> <init> (Lazl;I)V
+	METHOD a fillCraftSlotsStackedContents (Lawi;)V
+	METHOD a recipeMatches (Lber;)Z
+	METHOD a handlePlacement (ZLber;Lvl;)V
+	METHOD e clearCraftingContent ()V
+	METHOD f getResultSlotIndex ()I
+	METHOD g getGridWidth ()I
+	METHOD h getGridHeight ()I
+	METHOD i getSize ()I

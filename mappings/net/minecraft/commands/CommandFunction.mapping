@@ -1,0 +1,32 @@
+CLASS ca net/minecraft/commands/CommandFunction
+	CLASS a CacheableFunction
+		FIELD a NONE Lca$a;
+		FIELD b id Lqv;
+		FIELD c resolved Z
+		FIELD d function Ljava/util/Optional;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Lca;)V
+		METHOD <init> <init> (Lqv;)V
+		METHOD a getId ()Lqv;
+		METHOD a lambda$getId$0 (Lca;)Lqv;
+		METHOD a get (Lrh;)Ljava/util/Optional;
+	CLASS b CommandEntry
+		FIELD a parse Lcom/mojang/brigadier/ParseResults;
+		METHOD <init> <init> (Lcom/mojang/brigadier/ParseResults;)V
+		METHOD a execute (Lrh;Lcd;Ljava/util/ArrayDeque;I)V
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c Entry
+		METHOD a execute (Lrh;Lcd;Ljava/util/ArrayDeque;I)V
+	CLASS d FunctionEntry
+		FIELD a function Lca$a;
+		METHOD <init> <init> (Lca;)V
+		METHOD a lambda$execute$0 (ILjava/util/ArrayDeque;Lrh;Lcd;Lca;)V
+		METHOD a execute (Lrh;Lcd;Ljava/util/ArrayDeque;I)V
+		METHOD toString toString ()Ljava/lang/String;
+	FIELD a entries [Lca$c;
+	FIELD b id Lqv;
+	METHOD <init> <init> (Lqv;[Lca$c;)V
+	METHOD a getId ()Lqv;
+	METHOD a access$000 (Lca;)Lqv;
+	METHOD a fromLines (Lqv;Lrh;Ljava/util/List;)Lca;
+	METHOD b getEntries ()[Lca$c;

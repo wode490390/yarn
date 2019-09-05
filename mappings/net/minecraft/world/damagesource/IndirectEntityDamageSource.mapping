@@ -1,0 +1,6 @@
+CLASS ahz net/minecraft/world/damagesource/IndirectEntityDamageSource
+	FIELD y owner Laio;
+	METHOD <init> <init> (Ljava/lang/String;Laio;Laio;)V
+	METHOD c getLocalizedDeathMessage (Laix;)Ljo;
+	METHOD j getDirectEntity ()Laio;
+	METHOD k getEntity ()Laio;

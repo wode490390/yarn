@@ -1,0 +1,10 @@
+CLASS caf net/minecraft/world/level/levelgen/feature/BuriedTreasureFeature
+	CLASS a BuriedTreasureStart
+		METHOD <init> <init> (Lceu;IILbio;Lcic;IJ)V
+		METHOD a getLocatePos ()Lew;
+		METHOD a generatePieces (Lbxi;Lcjp;IILbio;)V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lceu$a;
+	METHOD a isFeatureChunk (Lbxi;Ljava/util/Random;II)Z
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD c getLookupRange ()I

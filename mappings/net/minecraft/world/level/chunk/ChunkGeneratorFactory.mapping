@@ -1,0 +1,2 @@
+CLASS bxj net/minecraft/world/level/chunk/ChunkGeneratorFactory
+	METHOD create create (Lbhr;Lbiq;Lbyv;)Lbxi;

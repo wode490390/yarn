@@ -1,0 +1,5 @@
+CLASS bjo net/minecraft/world/level/biome/FixedBiomeSourceSettings
+	FIELD a biome Lbio;
+	METHOD <init> <init> ()V
+	METHOD a getBiome ()Lbio;
+	METHOD a setBiome (Lbio;)Lbjo;

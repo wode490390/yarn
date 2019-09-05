@@ -1,0 +1,26 @@
+CLASS axc net/minecraft/world/entity/projectile/ThrowableProjectile
+	FIELD ar ownerId Ljava/util/UUID;
+	FIELD as entityToIgnore Laio;
+	FIELD at timeToIgnore I
+	FIELD b inGround Z
+	FIELD c shakeTime I
+	FIELD d owner Laix;
+	FIELD e xBlock I
+	FIELD f yBlock I
+	FIELD g zBlock I
+	METHOD <init> <init> (Lais;DDDLbhr;)V
+	METHOD <init> <init> (Lais;Laix;Lbhr;)V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD N getAddEntityPacket ()Lkc;
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a lambda$tick$1 (Laio;)Z
+	METHOD a shootFromRotation (Laio;FFFFF)V
+	METHOD a onHit (Lcsf;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b lambda$tick$0 (Laio;)Z
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c shoot (DDDFF)V
+	METHOD h tick ()V
+	METHOD h lerpMotion (DDD)V
+	METHOD l getGravity ()F
+	METHOD m getOwner ()Laix;

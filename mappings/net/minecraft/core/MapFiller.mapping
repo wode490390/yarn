@@ -1,0 +1,5 @@
+CLASS fi net/minecraft/core/MapFiller
+	METHOD <init> <init> ()V
+	METHOD a hashMapFrom (Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/Map;
+	METHOD a from (Ljava/lang/Iterable;Ljava/lang/Iterable;Ljava/util/Map;)Ljava/util/Map;
+	METHOD b linkedHashMapFrom (Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/Map;

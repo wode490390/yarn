@@ -1,0 +1,4 @@
+CLASS cea net/minecraft/world/level/levelgen/feature/SavannaVillagePools
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V

@@ -1,0 +1,25 @@
+CLASS aof net/minecraft/world/entity/ai/goal/RangedCrossbowAttackGoal
+	CLASS a CrossbowState
+		FIELD a UNCHARGED Laof$a;
+		FIELD b CHARGING Laof$a;
+		FIELD c CHARGED Laof$a;
+		FIELD d READY_TO_ATTACK Laof$a;
+		FIELD e $VALUES [Laof$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Laof$a;
+		METHOD values values ()[Laof$a;
+	FIELD a mob Laus;
+	FIELD b crossbowState Laof$a;
+	FIELD c speedModifier D
+	FIELD d attackRadiusSqr F
+	FIELD e seeTime I
+	FIELD f attackDelay I
+	METHOD <init> <init> (Laus;DF)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g isHoldingCrossbow ()Z
+	METHOD h isValidTarget ()Z
+	METHOD j canRun ()Z

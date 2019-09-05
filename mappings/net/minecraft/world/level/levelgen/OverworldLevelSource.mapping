@@ -1,0 +1,20 @@
+CLASS bzf net/minecraft/world/level/levelgen/OverworldLevelSource
+	FIELD h BIOME_WEIGHTS [F
+	FIELD i depthNoise Lcko;
+	FIELD j isAmplified Z
+	FIELD k phantomSpawner Lbzh;
+	FIELD l patrolSpawner Lbzg;
+	FIELD m catSpawner Lavq;
+	FIELD n villageSiege Laqn;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbhs;Lbiq;Lbze;)V
+	METHOD a getYOffset (DDI)D
+	METHOD a getDepthAndScale (II)[D
+	METHOD a getMobsAt (Laiz;Lew;)Ljava/util/List;
+	METHOD a tickCustomSpawners (Lvk;ZZ)V
+	METHOD a fillNoiseColumn ([DII)V
+	METHOD a lambda$static$0 ([F)V
+	METHOD b getSpawnHeight ()I
+	METHOD b spawnOriginalMobs (Lvq;)V
+	METHOD c getRdepth (II)D
+	METHOD f getSeaLevel ()I

@@ -1,0 +1,5 @@
+CLASS brm net/minecraft/world/level/block/ShearableDoublePlantBlock
+	FIELD b HALF Lbwr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a canBeReplaced (Lbvt;Lban;)Z

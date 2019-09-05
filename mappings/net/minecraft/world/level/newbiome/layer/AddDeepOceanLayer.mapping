@@ -1,0 +1,8 @@
+CLASS cmb net/minecraft/world/level/newbiome/layer/AddDeepOceanLayer
+	FIELD a INSTANCE Lcmb;
+	FIELD b $VALUES [Lcmb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcly;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmb;
+	METHOD values values ()[Lcmb;

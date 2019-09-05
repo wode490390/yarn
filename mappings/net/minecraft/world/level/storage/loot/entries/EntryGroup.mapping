@@ -1,0 +1,13 @@
+CLASS cpm net/minecraft/world/level/storage/loot/entries/EntryGroup
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		METHOD <init> <init> ([Lcpq$a;)V
+		METHOD a getThis ()Lcpm$a;
+		METHOD b build ()Lcpq;
+		METHOD b append (Lcpq$a;)Lcpm$a;
+		METHOD d getThis ()Lcpq$a;
+	METHOD <init> <init> ([Lcpq;[Lcrk;)V
+	METHOD a lambda$compose$0 (Lcpi;Lcpi;Lcoy;Ljava/util/function/Consumer;)Z
+	METHOD a compose ([Lcpi;)Lcpi;
+	METHOD a lambda$compose$1 ([Lcpi;Lcoy;Ljava/util/function/Consumer;)Z
+	METHOD a list ([Lcpq$a;)Lcpm$a;

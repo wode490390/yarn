@@ -1,0 +1,12 @@
+CLASS aqm net/minecraft/world/entity/ai/village/ReputationEventType
+	CLASS 1 1
+		FIELD f val$name Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD toString toString ()Ljava/lang/String;
+	FIELD a ZOMBIE_VILLAGER_CURED Laqm;
+	FIELD b GOLEM_KILLED Laqm;
+	FIELD c VILLAGER_HURT Laqm;
+	FIELD d VILLAGER_KILLED Laqm;
+	FIELD e TRADE Laqm;
+	METHOD <clinit> <clinit> ()V
+	METHOD a register (Ljava/lang/String;)Laqm;

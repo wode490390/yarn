@@ -1,0 +1,14 @@
+CLASS aqg net/minecraft/world/entity/ai/sensing/VillagerHostilesSensor
+	FIELD a ACCEPTABLE_DISTANCE_FROM_HOSTILES Lcom/google/common/collect/ImmutableMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a getNearestHostile (Laix;)Ljava/util/Optional;
+	METHOD a isClose (Laix;Laix;)Z
+	METHOD a compareMobDistance (Laix;Laix;Laix;)I
+	METHOD a lambda$getNearestHostile$2 (Laix;Ljava/util/List;)Ljava/util/Optional;
+	METHOD a doTick (Lvk;Laix;)V
+	METHOD b getVisibleEntities (Laix;)Ljava/util/Optional;
+	METHOD b lambda$null$0 (Laix;Laix;)Z
+	METHOD b lambda$null$1 (Laix;Laix;Laix;)I
+	METHOD c isHostile (Laix;)Z

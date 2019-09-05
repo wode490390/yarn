@@ -1,0 +1,5 @@
+CLASS bgz net/minecraft/world/level/BlockAndBiomeGetter
+	METHOD a getBrightness (Lbia;Lew;)I
+	METHOD b getLightColor (Lew;I)I
+	METHOD c getBiome (Lew;)Lbio;
+	METHOD f canSeeSky (Lew;)Z

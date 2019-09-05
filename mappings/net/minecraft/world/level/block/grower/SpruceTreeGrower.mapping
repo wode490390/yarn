@@ -1,0 +1,4 @@
+CLASS bvj net/minecraft/world/level/block/grower/SpruceTreeGrower
+	METHOD <init> <init> ()V
+	METHOD a getMegaFeature (Ljava/util/Random;)Lbzv;
+	METHOD b getFeature (Ljava/util/Random;)Lbzv;

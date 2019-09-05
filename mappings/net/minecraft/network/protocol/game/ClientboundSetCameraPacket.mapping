@@ -1,0 +1,9 @@
+CLASS mo net/minecraft/network/protocol/game/ClientboundSetCameraPacket
+	FIELD a cameraId I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laio;)V
+	METHOD a getEntity (Lbhr;)Laio;
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b write (Lje;)V

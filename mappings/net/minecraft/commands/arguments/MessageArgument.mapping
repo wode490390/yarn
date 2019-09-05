@@ -1,0 +1,26 @@
+CLASS cp net/minecraft/commands/arguments/MessageArgument
+	CLASS a Message
+		FIELD a text Ljava/lang/String;
+		FIELD b parts [Lcp$b;
+		METHOD <init> <init> (Ljava/lang/String;[Lcp$b;)V
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a toComponent (Lcd;Z)Ljo;
+		METHOD a parseText (Lcom/mojang/brigadier/StringReader;Z)Lcp$a;
+		METHOD b getParts ()[Lcp$b;
+	CLASS b Part
+		FIELD a start I
+		FIELD b end I
+		FIELD c selector Lec;
+		METHOD <init> <init> (IILec;)V
+		METHOD a getStart ()I
+		METHOD a toComponent (Lcd;)Ljo;
+		METHOD b getEnd ()I
+		METHOD c getSelector ()Lec;
+	FIELD a EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a message ()Lcp;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lcp$a;
+	METHOD a getMessage (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljo;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

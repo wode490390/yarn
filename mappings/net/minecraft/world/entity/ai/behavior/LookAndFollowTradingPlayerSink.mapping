@@ -1,0 +1,15 @@
+CLASS akp net/minecraft/world/entity/ai/behavior/LookAndFollowTradingPlayerSink
+	FIELD a speed F
+	METHOD <init> <init> (F)V
+	METHOD a timedOut (J)Z
+	METHOD a followPlayer (Lavt;)V
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a checkExtraStartConditions (Lvk;Lavt;)Z
+	METHOD a canStillUse (Lvk;Lavt;J)Z
+	METHOD b start (Lvk;Lavt;J)V
+	METHOD c stop (Lvk;Lavt;J)V
+	METHOD d tick (Lvk;Laix;J)V
+	METHOD d tick (Lvk;Lavt;J)V
+	METHOD f stop (Lvk;Laix;J)V
+	METHOD g canStillUse (Lvk;Laix;J)Z

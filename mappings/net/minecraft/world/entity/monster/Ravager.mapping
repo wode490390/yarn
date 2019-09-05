@@ -1,0 +1,50 @@
+CLASS auz net/minecraft/world/entity/monster/Ravager
+	CLASS 1 1
+	CLASS a RavagerMeleeAttackGoal
+		FIELD d this$0 Lauz;
+		METHOD <init> <init> (Lauz;)V
+		METHOD a getAttackReachSqr (Laix;)D
+	CLASS b RavagerNavigation
+		METHOD <init> <init> (Laiy;Lbhr;)V
+		METHOD a createPathFinder (I)Lcnt;
+	CLASS c RavagerNodeEvaluator
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lauz$1;)V
+		METHOD a evaluateBlockPathType (Lbhb;ZZLew;Lcnn;)Lcnn;
+	FIELD bA stunnedTick I
+	FIELD bB roarTick I
+	FIELD b NO_RAVAGER_AND_ALIVE Ljava/util/function/Predicate;
+	FIELD bz attackTick I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD C doHurtTarget (Laio;)Z
+	METHOD E canSee (Laio;)Z
+	METHOD F updateControlFlags ()V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a handleEntityEvent (B)V
+	METHOD a applyRaidBuffs (IZ)V
+	METHOD a strongKnockback (Laio;)V
+	METHOD a checkSpawnObstruction (Lbhu;)Z
+	METHOD a playStepSound (Lew;Lbvt;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD aP getRideHeight ()D
+	METHOD b lambda$static$0 (Laio;)Z
+	METHOD b createNavigation (Lbhr;)Lapp;
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD bV getControllingPassenger ()Laio;
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cW isImmobile ()Z
+	METHOD cl registerAttributes ()V
+	METHOD dA getMaxHeadYRot ()I
+	METHOD dD canBeControlledByRider ()Z
+	METHOD dV getCelebrateSound ()Lyo;
+	METHOD dW getStunnedTick ()I
+	METHOD dX canBeLeader ()Z
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD e blockedByShield (Laix;)V
+	METHOD ef getRoarTick ()I
+	METHOD eg stunEffect ()V
+	METHOD eh roar ()V
+	METHOD k aiStep ()V
+	METHOD l getAttackTick ()I
+	METHOD n registerGoals ()V

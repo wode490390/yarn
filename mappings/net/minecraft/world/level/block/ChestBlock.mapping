@@ -1,0 +1,64 @@
+CLASS bnk net/minecraft/world/level/block/ChestBlock
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a acceptSingle (Lbua;)Lahc;
+		METHOD a acceptDouble (Lbua;Lbua;)Lahc;
+		METHOD b acceptSingle (Lbua;)Ljava/lang/Object;
+		METHOD b acceptDouble (Lbua;Lbua;)Ljava/lang/Object;
+	CLASS 2 2
+		CLASS 1 1
+			FIELD a val$first Lbua;
+			FIELD b val$second Lbua;
+			FIELD c val$container Lahc;
+			FIELD d this$0 Lbnk$2;
+			METHOD <init> <init> (Lbnk$2;Lbua;Lbua;Lahc;)V
+			METHOD createMenu createMenu (ILawf;Lawg;)Layk;
+			METHOD d getDisplayName ()Ljo;
+		METHOD <init> <init> ()V
+		METHOD a acceptSingle (Lbua;)Lahm;
+		METHOD a acceptDouble (Lbua;Lbua;)Lahm;
+		METHOD b acceptSingle (Lbua;)Ljava/lang/Object;
+		METHOD b acceptDouble (Lbua;Lbua;)Ljava/lang/Object;
+	CLASS 3 3
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a ChestSearchCallback
+		METHOD b acceptSingle (Lbua;)Ljava/lang/Object;
+		METHOD b acceptDouble (Lbua;Lbua;)Ljava/lang/Object;
+	FIELD a FACING Lbwo;
+	FIELD b TYPE Lbwr;
+	FIELD c WATERLOGGED Lbwl;
+	FIELD d NORTH_AABB Lctc;
+	FIELD e SOUTH_AABB Lctc;
+	FIELD f WEST_AABB Lctc;
+	FIELD g EAST_AABB Lctc;
+	FIELD h AABB Lctc;
+	FIELD i CHEST_COMBINER Lbnk$a;
+	FIELD j MENU_PROVIDER_COMBINER Lbnk$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a candidatePartnerFacing (Lban;Lfb;)Lfb;
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a isBlockedChestByBlock (Lbhb;Lew;)Z
+	METHOD a setPlacedBy (Lbhr;Lew;Lbvt;Laix;Lbcj;)V
+	METHOD a isChestBlockedAt (Lbhs;Lew;)Z
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a getAnalogOutputSignal (Lbvt;Lbhr;Lew;)I
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a onRemove (Lbvt;Lbhr;Lew;Lbvt;Z)V
+	METHOD a getContainer (Lbvt;Lbhr;Lew;Z)Lahc;
+	METHOD a combineWithNeigbour (Lbvt;Lbhs;Lew;ZLbnk$a;)Ljava/lang/Object;
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b isCatSittingOnChest (Lbhs;Lew;)Z
+	METHOD b hasAnalogOutputSignal (Lbvt;)Z
+	METHOD b getMenuProvider (Lbvt;Lbhr;Lew;)Lahm;
+	METHOD c getRenderShape (Lbvt;)Lbrd;
+	METHOD d getOpenChestStat ()Lyv;
+	METHOD d hasCustomBreakingProgress (Lbvt;)Z
+	METHOD g getFluidState (Lbvt;)Lclk;
+	METHOD j getConnectedDirection (Lbvt;)Lfb;

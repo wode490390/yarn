@@ -1,0 +1,9 @@
+CLASS xw net/minecraft/server/players/ServerOpList
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getUserList ()[Ljava/lang/String;
+	METHOD a createEntry (Lcom/google/gson/JsonObject;)Lxy;
+	METHOD a getOpLevel (Lcom/mojang/authlib/GameProfile;)I
+	METHOD a getKeyForUser (Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a find (Ljava/lang/String;)Lcom/mojang/authlib/GameProfile;
+	METHOD b canBypassPlayerLimit (Lcom/mojang/authlib/GameProfile;)Z
+	METHOD c getKeyForUser (Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;

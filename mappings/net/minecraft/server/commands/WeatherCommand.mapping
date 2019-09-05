@@ -1,0 +1,13 @@
+CLASS ua net/minecraft/server/commands/WeatherCommand
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a setClear (Lcd;I)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b setRain (Lcd;I)I
+	METHOD b lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c setThunder (Lcd;I)I
+	METHOD c lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

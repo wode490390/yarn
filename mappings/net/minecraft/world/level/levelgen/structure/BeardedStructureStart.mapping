@@ -1,0 +1,3 @@
+CLASS cib net/minecraft/world/level/levelgen/structure/BeardedStructureStart
+	METHOD <init> <init> (Lceu;IILbio;Lcic;IJ)V
+	METHOD b calculateBoundingBox ()V

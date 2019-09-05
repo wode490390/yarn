@@ -1,0 +1,17 @@
+CLASS a com/mojang/math/Quaternion
+	FIELD a values [F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (FFFF)V
+	METHOD <init> <init> (La;)V
+	METHOD <init> <init> (Lb;FZ)V
+	METHOD a i ()F
+	METHOD a cos (F)F
+	METHOD a mul (La;)V
+	METHOD b j ()F
+	METHOD b sin (F)F
+	METHOD c k ()F
+	METHOD d r ()F
+	METHOD e conj ()V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

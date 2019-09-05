@@ -1,0 +1,36 @@
+CLASS hj net/minecraft/data/recipes/ShapelessRecipeBuilder
+	CLASS a Result
+		FIELD a id Lqv;
+		FIELD b result Lbce;
+		FIELD c count I
+		FIELD d group Ljava/lang/String;
+		FIELD e ingredients Ljava/util/List;
+		FIELD f advancement Lq$a;
+		FIELD g advancementId Lqv;
+		METHOD <init> <init> (Lqv;Lbce;ILjava/lang/String;Ljava/util/List;Lq$a;Lqv;)V
+		METHOD a serializeRecipeData (Lcom/google/gson/JsonObject;)V
+		METHOD b getId ()Lqv;
+		METHOD c getType ()Lbet;
+		METHOD d serializeAdvancement ()Lcom/google/gson/JsonObject;
+		METHOD e getAdvancementId ()Lqv;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b result Lbce;
+	FIELD c count I
+	FIELD d ingredients Ljava/util/List;
+	FIELD e advancement Lq$a;
+	FIELD f group Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbhq;I)V
+	METHOD a requires (Lbeo;)Lhj;
+	METHOD a requires (Lbeo;I)Lhj;
+	METHOD a shapeless (Lbhq;)Lhj;
+	METHOD a shapeless (Lbhq;I)Lhj;
+	METHOD a group (Ljava/lang/String;)Lhj;
+	METHOD a unlocks (Ljava/lang/String;Ly;)Lhj;
+	METHOD a save (Ljava/util/function/Consumer;)V
+	METHOD a save (Ljava/util/function/Consumer;Ljava/lang/String;)V
+	METHOD a save (Ljava/util/function/Consumer;Lqv;)V
+	METHOD a ensureValid (Lqv;)V
+	METHOD a requires (Lzg;)Lhj;
+	METHOD b requires (Lbhq;)Lhj;
+	METHOD b requires (Lbhq;I)Lhj;

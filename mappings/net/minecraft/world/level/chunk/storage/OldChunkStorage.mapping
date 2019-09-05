@@ -1,0 +1,18 @@
+CLASS byh net/minecraft/world/level/chunk/storage/OldChunkStorage
+	CLASS a OldLevelChunk
+		FIELD a lastUpdated J
+		FIELD b terrainPopulated Z
+		FIELD c heightmap [B
+		FIELD d blockLight Lbxx;
+		FIELD e skyLight Lbxx;
+		FIELD f data Lbxx;
+		FIELD g blocks [B
+		FIELD h entities Lik;
+		FIELD i blockEntities Lik;
+		FIELD j blockTicks Lik;
+		FIELD k x I
+		FIELD l z I
+		METHOD <init> <init> (II)V
+	METHOD <init> <init> ()V
+	METHOD a convertToAnvilFormat (Lbyh$a;Lid;Lbiq;)V
+	METHOD a load (Lid;)Lbyh$a;

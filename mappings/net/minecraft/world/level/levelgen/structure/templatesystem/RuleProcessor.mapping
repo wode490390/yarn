@@ -1,0 +1,8 @@
+CLASS cjm net/minecraft/world/level/levelgen/structure/templatesystem/RuleProcessor
+	FIELD a rules Lcom/google/common/collect/ImmutableList;
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a getType ()Lcjs;
+	METHOD a processBlock (Lbhu;Lew;Lcjt$b;Lcjt$b;Lcjq;)Lcjt$b;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$getDynamic$0 (Lcom/mojang/datafixers/types/DynamicOps;Lcjj;)Ljava/lang/Object;

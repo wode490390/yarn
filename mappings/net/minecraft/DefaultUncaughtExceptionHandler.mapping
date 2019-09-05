@@ -1,0 +1,4 @@
+CLASS g net/minecraft/DefaultUncaughtExceptionHandler
+	FIELD a logger Lorg/apache/logging/log4j/Logger;
+	METHOD <init> <init> (Lorg/apache/logging/log4j/Logger;)V
+	METHOD uncaughtException uncaughtException (Ljava/lang/Thread;Ljava/lang/Throwable;)V

@@ -1,0 +1,3 @@
+CLASS ang net/minecraft/world/entity/ai/goal/InteractGoal
+	METHOD <init> <init> (Laiy;Ljava/lang/Class;F)V
+	METHOD <init> <init> (Laiy;Ljava/lang/Class;FF)V

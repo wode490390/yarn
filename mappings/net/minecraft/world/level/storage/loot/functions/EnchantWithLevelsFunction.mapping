@@ -1,0 +1,25 @@
+CLASS cqb net/minecraft/world/level/storage/loot/functions/EnchantWithLevelsFunction
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a levels Lcpe;
+		FIELD b treasure Z
+		METHOD <init> <init> (Lcpe;)V
+		METHOD a getThis ()Lcqb$a;
+		METHOD b build ()Lcqh;
+		METHOD d getThis ()Lcqg$a;
+		METHOD e allowTreasure ()Lcqb$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqb;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqb;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a levels Lcpe;
+	FIELD c treasure Z
+	METHOD <init> <init> ([Lcrk;Lcpe;Z)V
+	METHOD <init> <init> ([Lcrk;Lcpe;ZLcqb$1;)V
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a enchantWithLevels (Lcpe;)Lcqb$a;
+	METHOD a access$100 (Lcqb;)Lcpe;
+	METHOD b access$200 (Lcqb;)Z

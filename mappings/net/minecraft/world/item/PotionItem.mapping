@@ -1,0 +1,11 @@
+CLASS bcu net/minecraft/world/item/PotionItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a fillItemCategory (Lbba;Lfk;)V
+	METHOD a finishUsingItem (Lbcj;Lbhr;Laix;)Lbcj;
+	METHOD a appendHoverText (Lbcj;Lbhr;Ljava/util/List;Lbdr;)V
+	METHOD a use (Lbhr;Lawg;Lahi;)Lahk;
+	METHOD d_ isFoil (Lbcj;)Z
+	METHOD e_ getUseAnimation (Lbcj;)Lbdt;
+	METHOD f getDescriptionId (Lbcj;)Ljava/lang/String;
+	METHOD f_ getUseDuration (Lbcj;)I
+	METHOD q getDefaultInstance ()Lbcj;

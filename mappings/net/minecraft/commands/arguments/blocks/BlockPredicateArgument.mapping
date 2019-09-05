@@ -1,0 +1,32 @@
+CLASS df net/minecraft/commands/arguments/blocks/BlockPredicateArgument
+	CLASS 1 1
+	CLASS a BlockPredicate
+		FIELD a state Lbvt;
+		FIELD b properties Ljava/util/Set;
+		FIELD c nbt Lid;
+		METHOD <init> <init> (Lbvt;Ljava/util/Set;Lid;)V
+		METHOD a test (Lbvx;)Z
+		METHOD test test (Ljava/lang/Object;)Z
+	CLASS b Result
+		METHOD create create (Lzi;)Ljava/util/function/Predicate;
+	CLASS c TagPredicate
+		FIELD a tag Lzg;
+		FIELD b nbt Lid;
+		FIELD c vagueProperties Ljava/util/Map;
+		METHOD <init> <init> (Lzg;Ljava/util/Map;Lid;)V
+		METHOD <init> <init> (Lzg;Ljava/util/Map;Lid;Ldf$1;)V
+		METHOD a test (Lbvx;)Z
+		METHOD test test (Ljava/lang/Object;)Z
+	FIELD a EXAMPLES Ljava/util/Collection;
+	FIELD b ERROR_UNKNOWN_TAG Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a blockPredicate ()Ldf;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ldf$b;
+	METHOD a getBlockPredicate (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/function/Predicate;
+	METHOD a lambda$parse$1 (Ldf$a;Lzi;)Ljava/util/function/Predicate;
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$parse$2 (Lqv;Ldh;Lzi;)Ljava/util/function/Predicate;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

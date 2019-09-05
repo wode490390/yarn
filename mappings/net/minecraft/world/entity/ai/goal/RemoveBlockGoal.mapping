@@ -1,0 +1,14 @@
+CLASS aog net/minecraft/world/entity/ai/goal/RemoveBlockGoal
+	FIELD g blockToRemove Lbmv;
+	FIELD h removerMob Laiy;
+	FIELD i ticksSinceReachedGoal I
+	METHOD <init> <init> (Lbmv;Laje;DI)V
+	METHOD a canUse ()Z
+	METHOD a playBreakSound (Lbhr;Lew;)V
+	METHOD a playDestroyProgressSound (Lbhs;Lew;)V
+	METHOD a isValidTarget (Lbhu;Lew;)Z
+	METHOD a getPosWithBlock (Lew;Lbhb;)Lew;
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD m tryFindBlock ()Z

@@ -1,0 +1,6 @@
+CLASS art net/minecraft/world/entity/animal/ShoulderRidingEntity
+	FIELD bC rideCooldownCounter I
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD d setEntityOnShoulder (Lvl;)Z
+	METHOD eh canSitOnShoulder ()Z
+	METHOD h tick ()V

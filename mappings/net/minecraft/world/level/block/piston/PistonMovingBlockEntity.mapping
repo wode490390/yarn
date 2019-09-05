@@ -1,0 +1,47 @@
+CLASS bvp net/minecraft/world/level/block/piston/PistonMovingBlockEntity
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a initialValue ()Lfb;
+		METHOD initialValue initialValue ()Ljava/lang/Object;
+	CLASS 2 2
+		FIELD a $SwitchMap$net$minecraft$core$Direction$Axis [I
+		FIELD b $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V
+	FIELD a movedState Lbvt;
+	FIELD b direction Lfb;
+	FIELD c extending Z
+	FIELD g isSourcePiston Z
+	FIELD h NOCLIP Ljava/lang/ThreadLocal;
+	FIELD i progress F
+	FIELD j progressO F
+	FIELD k lastTicked J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbvt;Lfb;ZZ)V
+	METHOD T_ tick ()V
+	METHOD a getProgress (F)F
+	METHOD a fixEntityWithinPistonBase (Laio;Lfb;D)V
+	METHOD a getCollisionShape (Lbhb;Lew;)Lctc;
+	METHOD a moveByPositionAndProgress (Lcsc;)Lcsc;
+	METHOD a getMovementArea (Lcsc;Lfb;D)Lcsc;
+	METHOD a getMovement (Lcsc;Lfb;Lcsc;)D
+	METHOD a load (Lid;)V
+	METHOD a getMinMaxPiecesAABB (Ljava/util/List;)Lcsc;
+	METHOD b getUpdateTag ()Lid;
+	METHOD b getXOff (F)F
+	METHOD b getDeltaX (Lcsc;Lfb;Lcsc;)D
+	METHOD b save (Lid;)Lid;
+	METHOD c getYOff (F)F
+	METHOD c getDeltaY (Lcsc;Lfb;Lcsc;)D
+	METHOD d isExtending ()Z
+	METHOD d getZOff (F)F
+	METHOD d getDeltaZ (Lcsc;Lfb;Lcsc;)D
+	METHOD e getExtendedProgress (F)F
+	METHOD f getDirection ()Lfb;
+	METHOD f moveCollidedEntities (F)V
+	METHOD h isSourcePiston ()Z
+	METHOD s getMovementDirection ()Lfb;
+	METHOD t getMovedState ()Lbvt;
+	METHOD u finalTick ()V
+	METHOD v getLastTicked ()J
+	METHOD x getCollisionRelatedBlockState ()Lbvt;

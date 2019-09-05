@@ -1,0 +1,4 @@
+CLASS aid net/minecraft/world/effect/AttackDamageMobEffect
+	FIELD a multiplier D
+	METHOD <init> <init> (Laih;ID)V
+	METHOD a getAttributeModifierValue (ILajp;)D

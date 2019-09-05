@@ -1,0 +1,18 @@
+CLASS buv net/minecraft/world/level/block/entity/SpawnerBlockEntity
+	CLASS 1 1
+		FIELD a this$0 Lbuv;
+		METHOD <init> <init> (Lbuv;)V
+		METHOD a getLevel ()Lbhr;
+		METHOD a broadcastEvent (I)V
+		METHOD a setNextSpawnData (Lbif;)V
+		METHOD b getPos ()Lew;
+	FIELD a spawner Lbgy;
+	METHOD <init> <init> ()V
+	METHOD T_ tick ()V
+	METHOD a getUpdatePacket ()Lkq;
+	METHOD a load (Lid;)V
+	METHOD a_ triggerEvent (II)Z
+	METHOD b getUpdateTag ()Lid;
+	METHOD b save (Lid;)Lid;
+	METHOD d getSpawner ()Lbgy;
+	METHOD p onlyOpCanSetNbt ()Z

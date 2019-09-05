@@ -1,0 +1,11 @@
+CLASS ni net/minecraft/network/protocol/game/ClientboundStopSoundPacket
+	FIELD a name Lqv;
+	FIELD b source Lyq;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lqv;Lyq;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getName ()Lqv;
+	METHOD b write (Lje;)V
+	METHOD c getSource ()Lyq;

@@ -1,0 +1,21 @@
+CLASS bpw net/minecraft/world/level/block/LeavesBlock
+	FIELD a DISTANCE Lbwt;
+	FIELD b PERSISTENT Lbwl;
+	FIELD c renderCutout Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a isValidSpawn (Lbvt;Lbhb;Lew;Lais;)Z
+	METHOD a animateTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD a updateDistance (Lbvt;Lbhs;Lew;)Lbvt;
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD a setFancy (Z)V
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD c getRenderLayer ()Lbhc;
+	METHOD c isViewBlocking (Lbvt;Lbhb;Lew;)Z
+	METHOD c randomTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD f canOcclude (Lbvt;)Z
+	METHOD j getDistanceAt (Lbvt;)I
+	METHOD k getLightBlock (Lbvt;Lbhb;Lew;)I
+	METHOD m isRandomlyTicking (Lbvt;)Z

@@ -1,0 +1,15 @@
+CLASS btd net/minecraft/world/level/block/WallTorchBlock
+	FIELD a FACING Lbwo;
+	FIELD b AABBS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a animateTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD a canSurvive (Lbvt;Lbhu;Lew;)Z
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD j getShape (Lbvt;)Lctc;
+	METHOD l getDescriptionId ()Ljava/lang/String;

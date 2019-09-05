@@ -1,0 +1,27 @@
+CLASS boc net/minecraft/world/level/block/DetectorRailBlock
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$state$properties$RailShape [I
+		FIELD b $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		FIELD c $SwitchMap$net$minecraft$world$level$block$Mirror [I
+		METHOD <clinit> <clinit> ()V
+	FIELD c SHAPE Lbwr;
+	FIELD d POWERED Lbwl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a checkPressed (Lbhr;Lew;Lbvt;)V
+	METHOD a getInteractingMinecartOfType (Lbhr;Lew;Ljava/lang/Class;Ljava/util/function/Predicate;)Ljava/util/List;
+	METHOD a getTickDelay (Lbhu;)I
+	METHOD a getSignal (Lbvt;Lbhb;Lew;Lfb;)I
+	METHOD a getAnalogOutputSignal (Lbvt;Lbhr;Lew;)I
+	METHOD a entityInside (Lbvt;Lbhr;Lew;Laio;)V
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD a getSearchBB (Lew;)Lcsc;
+	METHOD b updatePowerToConnected (Lbhr;Lew;Lbvt;Z)V
+	METHOD b hasAnalogOutputSignal (Lbvt;)Z
+	METHOD b getDirectSignal (Lbvt;Lbhb;Lew;Lfb;)I
+	METHOD b onPlace (Lbvt;Lbhr;Lew;Lbvt;Z)V
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD e getShapeProperty ()Lbww;
+	METHOD h isSignalSource (Lbvt;)Z

@@ -1,0 +1,4 @@
+CLASS buj net/minecraft/world/level/block/entity/FurnaceBlockEntity
+	METHOD <init> <init> ()V
+	METHOD a createMenu (ILawf;)Layk;
+	METHOD g getDefaultName ()Ljo;

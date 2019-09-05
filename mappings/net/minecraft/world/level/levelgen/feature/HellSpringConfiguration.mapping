@@ -1,0 +1,5 @@
+CLASS ccb net/minecraft/world/level/levelgen/feature/HellSpringConfiguration
+	FIELD a insideRock Z
+	METHOD <init> <init> (Z)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lccb;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

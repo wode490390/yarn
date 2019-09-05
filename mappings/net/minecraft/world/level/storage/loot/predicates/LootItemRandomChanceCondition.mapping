@@ -1,0 +1,16 @@
+CLASS cro net/minecraft/world/level/storage/loot/predicates/LootItemRandomChanceCondition
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcro;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcro;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a probability F
+	METHOD <init> <init> (F)V
+	METHOD <init> <init> (FLcro$1;)V
+	METHOD a randomChance (F)Lcrk$a;
+	METHOD a test (Lcoy;)Z
+	METHOD a access$000 (Lcro;)F
+	METHOD b lambda$randomChance$0 (F)Lcrk;
+	METHOD test test (Ljava/lang/Object;)Z

@@ -1,3 +1,11 @@
-CLASS net/minecraft/class_3530 net/minecraft/util/LowercaseEnumTypeAdapterFactory
-	METHOD method_15334 toString (Ljava/lang/Object;)Ljava/lang/String;
-		ARG 1 o
+CLASS zx net/minecraft/util/LowerCaseEnumTypeAdapterFactory
+	CLASS 1 1
+		FIELD a val$lowercaseToConstant Ljava/util/Map;
+		FIELD b this$0 Lzx;
+		METHOD <init> <init> (Lzx;Ljava/util/Map;)V
+		METHOD read read (Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;
+		METHOD write write (Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V
+	METHOD <init> <init> ()V
+	METHOD a toLowercase (Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a access$000 (Lzx;Ljava/lang/Object;)Ljava/lang/String;
+	METHOD create create (Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;

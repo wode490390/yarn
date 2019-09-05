@@ -1,0 +1,11 @@
+CLASS ciu net/minecraft/world/level/levelgen/structure/StructureFeatureIndexSavedData
+	FIELD a all Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD b remaining Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a getAll ()Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD a addIndex (J)V
+	METHOD a load (Lid;)V
+	METHOD b hasStartIndex (J)Z
+	METHOD b save (Lid;)Lid;
+	METHOD c hasUnhandledIndex (J)Z
+	METHOD d removeIndex (J)V

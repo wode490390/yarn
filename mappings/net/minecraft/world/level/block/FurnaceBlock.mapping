@@ -1,0 +1,5 @@
+CLASS bpb net/minecraft/world/level/block/FurnaceBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a openContainer (Lbhr;Lew;Lawg;)V
+	METHOD a animateTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V

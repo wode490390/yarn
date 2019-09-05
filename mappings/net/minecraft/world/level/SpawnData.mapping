@@ -1,0 +1,7 @@
+CLASS bif net/minecraft/world/level/SpawnData
+	FIELD b tag Lid;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILid;)V
+	METHOD <init> <init> (Lid;)V
+	METHOD a save ()Lid;
+	METHOD b getTag ()Lid;

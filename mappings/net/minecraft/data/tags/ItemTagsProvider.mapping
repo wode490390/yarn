@@ -1,0 +1,10 @@
+CLASS hv net/minecraft/data/tags/ItemTagsProvider
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgk;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getPath (Lqv;)Ljava/nio/file/Path;
+	METHOD a copy (Lzg$b;)Lzg$b;
+	METHOD a copy (Lzg;Lzg;)V
+	METHOD a useTags (Lzh;)V
+	METHOD b addTags ()V

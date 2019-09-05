@@ -1,0 +1,18 @@
+CLASS ahb net/minecraft/world/CompoundContainer
+	FIELD a container1 Lahc;
+	FIELD b container2 Lahc;
+	METHOD <init> <init> (Lahc;Lahc;)V
+	METHOD J_ getMaxStackSize ()I
+	METHOD L_ clearContent ()V
+	METHOD M_ getContainerSize ()I
+	METHOD a getItem (I)Lbcj;
+	METHOD a removeItem (II)Lbcj;
+	METHOD a setItem (ILbcj;)V
+	METHOD a contains (Lahc;)Z
+	METHOD a stillValid (Lawg;)Z
+	METHOD a_ startOpen (Lawg;)V
+	METHOD b removeItemNoUpdate (I)Lbcj;
+	METHOD b canPlaceItem (ILbcj;)Z
+	METHOD b_ stopOpen (Lawg;)V
+	METHOD c isEmpty ()Z
+	METHOD e setChanged ()V

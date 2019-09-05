@@ -1,0 +1,14 @@
+CLASS w net/minecraft/advancements/CriterionProgress
+	FIELD a DATE_FORMAT Ljava/text/SimpleDateFormat;
+	FIELD b obtained Ljava/util/Date;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a isDone ()Z
+	METHOD a fromJson (Ljava/lang/String;)Lw;
+	METHOD a serializeToNetwork (Lje;)V
+	METHOD b grant ()V
+	METHOD b fromNetwork (Lje;)Lw;
+	METHOD c revoke ()V
+	METHOD d getObtained ()Ljava/util/Date;
+	METHOD e serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD toString toString ()Ljava/lang/String;

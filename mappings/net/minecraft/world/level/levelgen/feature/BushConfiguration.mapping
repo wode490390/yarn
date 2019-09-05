@@ -1,0 +1,5 @@
+CLASS cag net/minecraft/world/level/levelgen/feature/BushConfiguration
+	FIELD a state Lbvt;
+	METHOD <init> <init> (Lbvt;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcag;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

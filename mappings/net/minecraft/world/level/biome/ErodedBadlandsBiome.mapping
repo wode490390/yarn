@@ -1,0 +1,4 @@
+CLASS bjm net/minecraft/world/level/biome/ErodedBadlandsBiome
+	METHOD <init> <init> ()V
+	METHOD a getFoliageColor (Lew;)I
+	METHOD b getGrassColor (Lew;)I

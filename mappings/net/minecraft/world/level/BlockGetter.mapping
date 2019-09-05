@@ -1,0 +1,13 @@
+CLASS bhb net/minecraft/world/level/BlockGetter
+	METHOD H getMaxLightLevel ()I
+	METHOD I getMaxBuildHeight ()I
+	METHOD a clip (Lbhf;)Lcsd;
+	METHOD a lambda$clip$0 (Lbhf;Lew;)Lcsd;
+	METHOD a traverseBlocks (Lbhf;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Ljava/lang/Object;
+	METHOD a clipWithInteractionOverride (Lcsi;Lcsi;Lew;Lctc;Lbvt;)Lcsd;
+	METHOD b lambda$clip$1 (Lbhf;)Lcsd;
+	METHOD b getFluidState (Lew;)Lclk;
+	METHOD d getBlockEntity (Lew;)Lbtw;
+	METHOD e_ getBlockState (Lew;)Lbvt;
+	METHOD g getLightBlock (Lew;)I
+	METHOD h getLightEmission (Lew;)I

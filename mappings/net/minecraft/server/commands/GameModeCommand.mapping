@@ -1,0 +1,8 @@
+CLASS sj net/minecraft/server/commands/GameModeCommand
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$2 (Lbho;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a logGamemodeChange (Lcd;Lvl;Lbho;)V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a setMode (Lcom/mojang/brigadier/context/CommandContext;Ljava/util/Collection;Lbho;)I
+	METHOD b lambda$register$1 (Lbho;Lcom/mojang/brigadier/context/CommandContext;)I

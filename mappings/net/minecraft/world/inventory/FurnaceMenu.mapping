@@ -1,0 +1,3 @@
+CLASS azc net/minecraft/world/inventory/FurnaceMenu
+	METHOD <init> <init> (ILawf;)V
+	METHOD <init> <init> (ILawf;Lahc;Layt;)V

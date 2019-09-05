@@ -1,0 +1,22 @@
+CLASS bqu net/minecraft/world/level/block/PressurePlateBlock
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$PressurePlateBlock$Sensitivity [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Sensitivity
+		FIELD a EVERYTHING Lbqu$a;
+		FIELD b MOBS Lbqu$a;
+		FIELD c $VALUES [Lbqu$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbqu$a;
+		METHOD values values ()[Lbqu$a;
+	FIELD d POWERED Lbwl;
+	FIELD e sensitivity Lbqu$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbqu$a;Lbmv$c;)V
+	METHOD a playOnSound (Lbhs;Lew;)V
+	METHOD a setSignalForState (Lbvt;I)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b getSignalStrength (Lbhr;Lew;)I
+	METHOD b playOffSound (Lbhs;Lew;)V
+	METHOD j getSignalForState (Lbvt;)I

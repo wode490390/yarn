@@ -1,0 +1,9 @@
+CLASS jx net/minecraft/network/chat/TextComponent
+	FIELD b text Ljava/lang/String;
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD d getContents ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD g copy ()Ljo;
+	METHOD i getText ()Ljava/lang/String;
+	METHOD j copy ()Ljx;
+	METHOD toString toString ()Ljava/lang/String;

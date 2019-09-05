@@ -1,0 +1,10 @@
+CLASS bqk net/minecraft/world/level/block/NetherWartBlock
+	FIELD a AGE Lbwt;
+	FIELD b SHAPE_BY_AGE [Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getCloneItemStack (Lbhb;Lew;Lbvt;)Lbcj;
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD a_ mayPlaceOn (Lbvt;Lbhb;Lew;)Z
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V

@@ -1,0 +1,3 @@
+CLASS cam net/minecraft/world/level/levelgen/feature/CoralClawFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a placeFeature (Lbhs;Ljava/util/Random;Lew;Lbvt;)Z

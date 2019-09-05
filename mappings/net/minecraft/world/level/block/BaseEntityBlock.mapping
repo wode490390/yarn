@@ -1,0 +1,5 @@
+CLASS bml net/minecraft/world/level/block/BaseEntityBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a triggerEvent (Lbvt;Lbhr;Lew;II)Z
+	METHOD b getMenuProvider (Lbvt;Lbhr;Lew;)Lahm;
+	METHOD c getRenderShape (Lbvt;)Lbrd;

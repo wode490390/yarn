@@ -1,0 +1,10 @@
+CLASS aln net/minecraft/world/entity/ai/behavior/StrollAroundPoi
+	FIELD a memoryType Lapj;
+	FIELD b nextOkStartTime J
+	FIELD c maxDistanceFromPoi I
+	METHOD <init> <init> (Lapj;I)V
+	METHOD a lambda$start$0 (Lcsi;)Lapl;
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a checkExtraStartConditions (Lvk;Laje;)Z
+	METHOD a start (Lvk;Laje;J)V

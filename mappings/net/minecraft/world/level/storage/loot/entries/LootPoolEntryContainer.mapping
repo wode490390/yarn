@@ -1,0 +1,27 @@
+CLASS cpq net/minecraft/world/level/storage/loot/entries/LootPoolEntryContainer
+	CLASS a Builder
+		FIELD a conditions Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a otherwise (Lcpq$a;)Lcph$a;
+		METHOD a when (Lcrk$a;)Lcpq$a;
+		METHOD b build ()Lcpq;
+		METHOD b append (Lcpq$a;)Lcpm$a;
+		METHOD b when (Lcrk$a;)Ljava/lang/Object;
+		METHOD c unwrap ()Ljava/lang/Object;
+		METHOD c then (Lcpq$a;)Lcpt$a;
+		METHOD d getThis ()Lcpq$a;
+		METHOD e unwrap ()Lcpq$a;
+		METHOD f getConditions ()[Lcrk;
+	CLASS b Serializer
+		FIELD a name Lqv;
+		FIELD b clazz Ljava/lang/Class;
+		METHOD <init> <init> (Lqv;Ljava/lang/Class;)V
+		METHOD a getName ()Lqv;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getContainerClass ()Ljava/lang/Class;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcpq;
+	FIELD c compositeCondition Ljava/util/function/Predicate;
+	FIELD d conditions [Lcrk;
+	METHOD <init> <init> ([Lcrk;)V
+	METHOD a canRun (Lcoy;)Z
+	METHOD a validate (Lcpc;Ljava/util/function/Function;Ljava/util/Set;Lcqx;)V

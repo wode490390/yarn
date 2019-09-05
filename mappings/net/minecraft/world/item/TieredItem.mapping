@@ -1,0 +1,6 @@
+CLASS bdo net/minecraft/world/item/TieredItem
+	FIELD a tier Lbdn;
+	METHOD <init> <init> (Lbdn;Lbce$a;)V
+	METHOD a isValidRepairItem (Lbcj;Lbcj;)Z
+	METHOD c getEnchantmentValue ()I
+	METHOD e getTier ()Lbdn;

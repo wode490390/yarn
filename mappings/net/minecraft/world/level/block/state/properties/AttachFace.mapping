@@ -1,0 +1,11 @@
+CLASS bwg net/minecraft/world/level/block/state/properties/AttachFace
+	FIELD a FLOOR Lbwg;
+	FIELD b WALL Lbwg;
+	FIELD c CEILING Lbwg;
+	FIELD d name Ljava/lang/String;
+	FIELD e $VALUES [Lbwg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD m getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbwg;
+	METHOD values values ()[Lbwg;

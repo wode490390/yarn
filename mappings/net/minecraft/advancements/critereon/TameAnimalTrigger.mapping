@@ -1,0 +1,28 @@
+CLASS br net/minecraft/advancements/critereon/TameAnimalTrigger
+	CLASS a PlayerListeners
+		FIELD a player Lre;
+		FIELD b listeners Ljava/util/Set;
+		METHOD <init> <init> (Lre;)V
+		METHOD a isEmpty ()Z
+		METHOD a trigger (Lvl;Lara;)V
+		METHOD a addListener (Lx$a;)V
+		METHOD b removeListener (Lx$a;)V
+	CLASS b TriggerInstance
+		FIELD a entity Lav;
+		METHOD <init> <init> (Lav;)V
+		METHOD a tamedAnimal (Lav;)Lbr$b;
+		METHOD a matches (Lvl;Lara;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD c tamedAnimal ()Lbr$b;
+	FIELD a ID Lqv;
+	FIELD b players Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lqv;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ly;
+	METHOD a removePlayerListeners (Lre;)V
+	METHOD a addPlayerListener (Lre;Lx$a;)V
+	METHOD a trigger (Lvl;Lara;)V
+	METHOD b access$000 ()Lqv;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbr$b;
+	METHOD b removePlayerListener (Lre;Lx$a;)V

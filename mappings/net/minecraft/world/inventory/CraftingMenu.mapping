@@ -1,0 +1,23 @@
+CLASS ayx net/minecraft/world/inventory/CraftingMenu
+	FIELD c craftSlots Layw;
+	FIELD d resultSlots Lazs;
+	FIELD e access Layu;
+	FIELD f player Lawg;
+	METHOD <init> <init> (ILawf;)V
+	METHOD <init> <init> (ILawf;Layu;)V
+	METHOD a slotChangedCraftingGrid (ILbhr;Lawg;Layw;Lazs;)V
+	METHOD a slotsChanged (Lahc;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a lambda$removed$1 (Lawg;Lbhr;Lew;)V
+	METHOD a fillCraftSlotsStackedContents (Lawi;)V
+	METHOD a lambda$quickMoveStack$2 (Lbcj;Lawg;Lbhr;Lew;)V
+	METHOD a canTakeItemForPickAll (Lbcj;Lazx;)Z
+	METHOD a recipeMatches (Lber;)Z
+	METHOD a lambda$slotsChanged$0 (Lbhr;Lew;)V
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;
+	METHOD e clearCraftingContent ()V
+	METHOD f getResultSlotIndex ()I
+	METHOD g getGridWidth ()I
+	METHOD h getGridHeight ()I
+	METHOD i getSize ()I

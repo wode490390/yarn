@@ -1,0 +1,24 @@
+CLASS kl net/minecraft/network/protocol/game/ClientboundAddPlayerPacket
+	FIELD a entityId I
+	FIELD b playerId Ljava/util/UUID;
+	FIELD c x D
+	FIELD d y D
+	FIELD e z D
+	FIELD f yRot B
+	FIELD g xRot B
+	FIELD h entityData Lqn;
+	FIELD i unpack Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lawg;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getUnpackedData ()Ljava/util/List;
+	METHOD b write (Lje;)V
+	METHOD c getEntityId ()I
+	METHOD d getPlayerId ()Ljava/util/UUID;
+	METHOD e getX ()D
+	METHOD f getY ()D
+	METHOD g getZ ()D
+	METHOD h getyRot ()B
+	METHOD i getxRot ()B

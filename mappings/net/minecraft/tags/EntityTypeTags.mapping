@@ -1,0 +1,21 @@
+CLASS zc net/minecraft/tags/EntityTypeTags
+	CLASS a Wrapper
+		FIELD a check I
+		FIELD b actual Lzg;
+		METHOD <init> <init> (Lqv;)V
+		METHOD a getValues ()Ljava/util/Collection;
+		METHOD a contains (Lais;)Z
+		METHOD a contains (Ljava/lang/Object;)Z
+		METHOD b getSource ()Ljava/util/Collection;
+	FIELD a SKELETONS Lzg;
+	FIELD b RAIDERS Lzg;
+	FIELD c source Lzh;
+	FIELD d resetCount I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getAllTags ()Lzh;
+	METHOD a bind (Ljava/lang/String;)Lzg;
+	METHOD a lambda$static$0 (Lqv;)Ljava/util/Optional;
+	METHOD a reset (Lzh;)V
+	METHOD b access$000 ()I
+	METHOD c access$100 ()Lzh;

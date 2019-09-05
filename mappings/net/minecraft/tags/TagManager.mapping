@@ -1,0 +1,21 @@
+CLASS zi net/minecraft/tags/TagManager
+	CLASS a Preparations
+		FIELD a blocks Ljava/util/Map;
+		FIELD b items Ljava/util/Map;
+		FIELD c fluids Ljava/util/Map;
+		FIELD d entityTypes Ljava/util/Map;
+		METHOD <init> <init> (Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)V
+	FIELD a blocks Lzf;
+	FIELD b items Lzf;
+	FIELD c fluids Lzf;
+	FIELD d entityTypes Lzf;
+	METHOD <init> <init> ()V
+	METHOD a getBlocks ()Lzf;
+	METHOD a lambda$reload$0 (Lcom/mojang/datafixers/util/Pair;Lcom/mojang/datafixers/util/Pair;)Lzi$a;
+	METHOD a serializeToNetwork (Lje;)V
+	METHOD a reload (Lxd$a;Lxi;Lagn;Lagn;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$reload$1 (Lzi$a;)V
+	METHOD b getItems ()Lzf;
+	METHOD b deserializeFromNetwork (Lje;)Lzi;
+	METHOD c getFluids ()Lzf;
+	METHOD d getEntityTypes ()Lzf;

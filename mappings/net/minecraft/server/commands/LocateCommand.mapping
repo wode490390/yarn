@@ -1,0 +1,24 @@
+CLASS sq net/minecraft/server/commands/LocateCommand
+	FIELD a ERROR_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a dist (IIII)F
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a locate (Lcd;Ljava/lang/String;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$15 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$locate$16 (Lew;Ljw;)V
+	METHOD b lambda$register$14 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$13 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$12 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$11 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$10 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD g lambda$register$9 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD h lambda$register$8 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD i lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD j lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD k lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD l lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD m lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD n lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD o lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

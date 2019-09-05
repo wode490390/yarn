@@ -1,0 +1,75 @@
+CLASS ave net/minecraft/world/entity/monster/Slime
+	CLASS a SlimeAttackGoal
+		FIELD a slime Lave;
+		FIELD b growTiredTimer I
+		METHOD <init> <init> (Lave;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS b SlimeFloatGoal
+		FIELD a slime Lave;
+		METHOD <init> <init> (Lave;)V
+		METHOD a canUse ()Z
+		METHOD e tick ()V
+	CLASS c SlimeKeepOnJumpingGoal
+		FIELD a slime Lave;
+		METHOD <init> <init> (Lave;)V
+		METHOD a canUse ()Z
+		METHOD e tick ()V
+	CLASS d SlimeMoveControl
+		FIELD i yRot F
+		FIELD j jumpDelay I
+		FIELD k slime Lave;
+		FIELD l isAggressive Z
+		METHOD <init> <init> (Lave;)V
+		METHOD a tick ()V
+		METHOD a setWantedMovement (D)V
+		METHOD a setDirection (FZ)V
+	CLASS e SlimeRandomDirectionGoal
+		FIELD a slime Lave;
+		FIELD b chosenDegrees F
+		FIELD c nextRandomizeTime I
+		METHOD <init> <init> (Lave;)V
+		METHOD a canUse ()Z
+		METHOD e tick ()V
+	FIELD bA wasOnGround Z
+	FIELD b targetSquish F
+	FIELD bz ID_SIZE Lqk;
+	FIELD c squish F
+	FIELD d oSquish F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD H getDefaultLootTable ()Lqv;
+	METHOD M getMaxHeadXRot ()I
+	METHOD S getType ()Lais;
+	METHOD Y remove ()V
+	METHOD a setSize (IZ)V
+	METHOD a getDimensions (Lajh;)Laip;
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD a onSyncedDataUpdated (Lqk;)V
+	METHOD b getStandingEyeHeight (Lajh;Laip;)F
+	METHOD b playerTouch (Lawg;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c checkSlimeSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cU getSoundVolume ()F
+	METHOD cY jumpFromGround ()V
+	METHOD dT getJumpDelay ()I
+	METHOD dU decreaseSquish ()V
+	METHOD dV isDealsDamage ()Z
+	METHOD dW getAttackDamage ()I
+	METHOD dX getSquishSound ()Lyo;
+	METHOD dY getJumpSound ()Lyo;
+	METHOD dZ getSize ()I
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD ea isTiny ()Z
+	METHOD eb doPlayJumpSound ()Z
+	METHOD h tick ()V
+	METHOD h dealDamage (Laix;)V
+	METHOD i push (Laio;)V
+	METHOD i lambda$registerGoals$0 (Laix;)Z
+	METHOD l getParticleType ()Lgf;
+	METHOD n registerGoals ()V
+	METHOD u_ defineSynchedData ()V

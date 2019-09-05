@@ -1,0 +1,3 @@
+CLASS bdi net/minecraft/world/item/SpectralArrowItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a createArrow (Lbhr;Lbcj;Laix;)Lawk;

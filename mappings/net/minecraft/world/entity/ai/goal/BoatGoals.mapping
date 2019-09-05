@@ -1,0 +1,8 @@
+CLASS amn net/minecraft/world/entity/ai/goal/BoatGoals
+	FIELD a GO_TO_BOAT Lamn;
+	FIELD b GO_IN_BOAT_DIRECTION Lamn;
+	FIELD c $VALUES [Lamn;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lamn;
+	METHOD values values ()[Lamn;

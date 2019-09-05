@@ -1,0 +1,11 @@
+CLASS mi net/minecraft/network/protocol/game/ClientboundRemoveMobEffectPacket
+	FIELD a entityId I
+	FIELD b effect Laig;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILaig;)V
+	METHOD a getEntity (Lbhr;)Laio;
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getEffect ()Laig;
+	METHOD b write (Lje;)V

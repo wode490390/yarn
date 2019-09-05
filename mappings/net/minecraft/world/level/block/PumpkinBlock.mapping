@@ -1,0 +1,6 @@
+CLASS bqv net/minecraft/world/level/block/PumpkinBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a lambda$use$0 (Lahi;Lawg;)V
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD d getStem ()Lbsg;
+	METHOD e getAttachedStem ()Lbmb;

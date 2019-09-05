@@ -1,0 +1,16 @@
+CLASS brc net/minecraft/world/level/block/RedstoneWallTorchBlock
+	FIELD b FACING Lbwo;
+	FIELD c LIT Lbwl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a hasNeighborSignal (Lbhr;Lew;Lbvt;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a getSignal (Lbvt;Lbhb;Lew;Lfb;)I
+	METHOD a animateTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD a canSurvive (Lbvt;Lbhu;Lew;)Z
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD l getDescriptionId ()Ljava/lang/String;

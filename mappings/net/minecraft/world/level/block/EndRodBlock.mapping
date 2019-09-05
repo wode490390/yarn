@@ -1,0 +1,17 @@
+CLASS boo net/minecraft/world/level/block/EndRodBlock
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction$Axis [I
+		METHOD <clinit> <clinit> ()V
+	FIELD b Y_AXIS_AABB Lctc;
+	FIELD c Z_AXIS_AABB Lctc;
+	FIELD d X_AXIS_AABB Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a animateTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD c getRenderLayer ()Lbhc;
+	METHOD i getPistonPushReaction (Lbvt;)Lclq;

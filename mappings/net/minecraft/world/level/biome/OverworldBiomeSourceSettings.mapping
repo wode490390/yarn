@@ -1,0 +1,8 @@
+CLASS bkp net/minecraft/world/level/biome/OverworldBiomeSourceSettings
+	FIELD a levelData Lcom;
+	FIELD b generatorSettings Lbze;
+	METHOD <init> <init> ()V
+	METHOD a getLevelData ()Lcom;
+	METHOD a setGeneratorSettings (Lbze;)Lbkp;
+	METHOD a setLevelData (Lcom;)Lbkp;
+	METHOD b getGeneratorSettings ()Lbze;

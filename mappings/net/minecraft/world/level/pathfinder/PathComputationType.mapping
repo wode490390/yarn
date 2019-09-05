@@ -1,0 +1,9 @@
+CLASS cns net/minecraft/world/level/pathfinder/PathComputationType
+	FIELD a LAND Lcns;
+	FIELD b WATER Lcns;
+	FIELD c AIR Lcns;
+	FIELD d $VALUES [Lcns;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcns;
+	METHOD values values ()[Lcns;

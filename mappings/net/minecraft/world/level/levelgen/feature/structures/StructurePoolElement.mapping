@@ -1,0 +1,15 @@
+CLASS cfr net/minecraft/world/level/levelgen/feature/structures/StructurePoolElement
+	FIELD a projection Lcft$a;
+	METHOD <init> <init> (Lcft$a;)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getType ()Lcfs;
+	METHOD a handleDataMarker (Lbhs;Lcjt$b;Lew;Lbrg;Ljava/util/Random;Lcic;)V
+	METHOD a setProjection (Lcft$a;)Lcfr;
+	METHOD a place (Lcjp;Lbhs;Lew;Lbrg;Lcic;Ljava/util/Random;)Z
+	METHOD a getSize (Lcjp;Lbrg;)Lew;
+	METHOD a getBoundingBox (Lcjp;Lew;Lbrg;)Lcic;
+	METHOD a getShuffledJigsawBlocks (Lcjp;Lew;Lbrg;Ljava/util/Random;)Ljava/util/List;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD c getProjection ()Lcft$a;
+	METHOD d getGroundLevelDelta ()I

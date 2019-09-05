@@ -1,0 +1,10 @@
+CLASS axs net/minecraft/world/entity/schedule/Timeline
+	FIELD a keyframes Ljava/util/List;
+	FIELD b previousIndex I
+	METHOD <init> <init> ()V
+	METHOD a getKeyframes ()Lcom/google/common/collect/ImmutableList;
+	METHOD a getValueAt (I)F
+	METHOD a addKeyframe (IF)Laxs;
+	METHOD a lambda$sortAndDeduplicateKeyframes$0 (Lit/unimi/dsi/fastutil/ints/Int2ObjectSortedMap;Laxp;)V
+	METHOD a addKeyframes (Ljava/util/Collection;)Laxs;
+	METHOD b sortAndDeduplicateKeyframes ()V

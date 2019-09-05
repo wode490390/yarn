@@ -1,0 +1,18 @@
+CLASS apo net/minecraft/world/entity/ai/navigation/GroundPathNavigation
+	FIELD p avoidSun Z
+	METHOD <init> <init> (Laiy;Lbhr;)V
+	METHOD D_ trimPath ()V
+	METHOD a canUpdatePath ()Z
+	METHOD a createPathFinder (I)Lcnt;
+	METHOD a canWalkOn (IIIIIILcsi;DD)Z
+	METHOD a createPath (Laio;I)Lcnr;
+	METHOD a canMoveDirectly (Lcsi;Lcsi;III)Z
+	METHOD a createPath (Lew;I)Lcnr;
+	METHOD a setCanOpenDoors (Z)V
+	METHOD b getTempMobPos ()Lcsi;
+	METHOD b canWalkAbove (IIIIIILcsi;DD)Z
+	METHOD b setCanPassDoors (Z)V
+	METHOD c setAvoidSun (Z)V
+	METHOD e canPassDoors ()Z
+	METHOD f canOpenDoors ()Z
+	METHOD t getSurfaceY ()I

@@ -1,0 +1,26 @@
+CLASS mc net/minecraft/network/protocol/game/ClientboundPlayerCombatPacket
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$network$protocol$game$ClientboundPlayerCombatPacket$Event [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Event
+		FIELD a ENTER_COMBAT Lmc$a;
+		FIELD b END_COMBAT Lmc$a;
+		FIELD c ENTITY_DIED Lmc$a;
+		FIELD d $VALUES [Lmc$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lmc$a;
+		METHOD values values ()[Lmc$a;
+	FIELD a event Lmc$a;
+	FIELD b playerId I
+	FIELD c killerId I
+	FIELD d duration I
+	FIELD e message Ljo;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lahw;Lmc$a;)V
+	METHOD <init> <init> (Lahw;Lmc$a;Ljo;)V
+	METHOD a isSkippable ()Z
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b write (Lje;)V

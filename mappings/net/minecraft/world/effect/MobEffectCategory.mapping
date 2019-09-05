@@ -1,0 +1,11 @@
+CLASS aih net/minecraft/world/effect/MobEffectCategory
+	FIELD a BENEFICIAL Laih;
+	FIELD b HARMFUL Laih;
+	FIELD c NEUTRAL Laih;
+	FIELD d tooltipFormatting Lc;
+	FIELD e $VALUES [Laih;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILc;)V
+	METHOD a getTooltipFormatting ()Lc;
+	METHOD valueOf valueOf (Ljava/lang/String;)Laih;
+	METHOD values values ()[Laih;

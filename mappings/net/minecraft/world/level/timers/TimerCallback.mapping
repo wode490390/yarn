@@ -1,0 +1,10 @@
+CLASS crx net/minecraft/world/level/timers/TimerCallback
+	CLASS a Serializer
+		FIELD a id Lqv;
+		FIELD b cls Ljava/lang/Class;
+		METHOD <init> <init> (Lqv;Ljava/lang/Class;)V
+		METHOD a getId ()Lqv;
+		METHOD a serialize (Lid;Lcrx;)V
+		METHOD b getCls ()Ljava/lang/Class;
+		METHOD b deserialize (Lid;)Lcrx;
+	METHOD a handle (Ljava/lang/Object;Lcrz;J)V

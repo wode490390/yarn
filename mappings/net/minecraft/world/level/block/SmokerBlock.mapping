@@ -1,0 +1,5 @@
+CLASS bru net/minecraft/world/level/block/SmokerBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a openContainer (Lbhr;Lew;Lawg;)V
+	METHOD a animateTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V

@@ -1,0 +1,22 @@
+CLASS axh net/minecraft/world/entity/projectile/ThrownTrident
+	FIELD ar clientSideReturnTridentTickCount I
+	FIELD as ID_LOYALTY Lqk;
+	FIELD at tridentItem Lbcj;
+	FIELD au dealtDamage Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDD)V
+	METHOD <init> <init> (Lbhr;Laix;Lbcj;)V
+	METHOD a onHitEntity (Lcse;)V
+	METHOD a findHitEntity (Lcsi;Lcsi;)Lcse;
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b playerTouch (Lawg;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD g shouldRender (DDD)Z
+	METHOD h tick ()V
+	METHOD i checkDespawn ()V
+	METHOD k getDefaultHitGroundSoundEvent ()Lyo;
+	METHOD n getPickupItem ()Lbcj;
+	METHOD u getWaterInertia ()F
+	METHOD u_ defineSynchedData ()V
+	METHOD w isAcceptibleReturnOwner ()Z

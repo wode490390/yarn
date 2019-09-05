@@ -1,0 +1,13 @@
+CLASS bzk net/minecraft/world/level/levelgen/WorldgenRandom
+	FIELD a count I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (J)V
+	METHOD a getCount ()I
+	METHOD a consumeCount (I)V
+	METHOD a setBaseChunkSeed (II)J
+	METHOD a seedSlimeChunk (IIJJ)Ljava/util/Random;
+	METHOD a setDecorationSeed (JII)J
+	METHOD a setLargeFeatureWithSalt (JIII)J
+	METHOD b setFeatureSeed (JII)J
+	METHOD c setLargeFeatureSeed (JII)J
+	METHOD next next (I)I

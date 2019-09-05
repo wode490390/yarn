@@ -1,0 +1,36 @@
+CLASS bhf net/minecraft/world/level/ClipContext
+	CLASS a Block
+		FIELD a COLLIDER Lbhf$a;
+		FIELD b OUTLINE Lbhf$a;
+		FIELD c shapeGetter Lbhf$c;
+		FIELD d $VALUES [Lbhf$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILbhf$c;)V
+		METHOD get get (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbhf$a;
+		METHOD values values ()[Lbhf$a;
+	CLASS b Fluid
+		FIELD a NONE Lbhf$b;
+		FIELD b SOURCE_ONLY Lbhf$b;
+		FIELD c ANY Lbhf$b;
+		FIELD d canPick Ljava/util/function/Predicate;
+		FIELD e $VALUES [Lbhf$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/util/function/Predicate;)V
+		METHOD a canPick (Lclk;)Z
+		METHOD b lambda$static$1 (Lclk;)Z
+		METHOD c lambda$static$0 (Lclk;)Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbhf$b;
+		METHOD values values ()[Lbhf$b;
+	CLASS c ShapeGetter
+		METHOD get get (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	FIELD a from Lcsi;
+	FIELD b to Lcsi;
+	FIELD c block Lbhf$a;
+	FIELD d fluid Lbhf$b;
+	FIELD e collisionContext Lcsn;
+	METHOD <init> <init> (Lcsi;Lcsi;Lbhf$a;Lbhf$b;Laio;)V
+	METHOD a getTo ()Lcsi;
+	METHOD a getBlockShape (Lbvt;Lbhb;Lew;)Lctc;
+	METHOD a getFluidShape (Lclk;Lbhb;Lew;)Lctc;
+	METHOD b getFrom ()Lcsi;

@@ -1,0 +1,6 @@
+CLASS amh net/minecraft/world/entity/ai/control/JumpControl
+	FIELD a jump Z
+	FIELD b mob Laiy;
+	METHOD <init> <init> (Laiy;)V
+	METHOD a jump ()V
+	METHOD b tick ()V

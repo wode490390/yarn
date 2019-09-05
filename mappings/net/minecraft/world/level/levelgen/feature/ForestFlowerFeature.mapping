@@ -1,0 +1,5 @@
+CLASS cbs net/minecraft/world/level/levelgen/feature/ForestFlowerFeature
+	FIELD a flowers [Lbmv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getRandomFlower (Ljava/util/Random;Lew;)Lbvt;

@@ -1,0 +1,28 @@
+CLASS xe net/minecraft/server/packs/resources/ProfiledReloadInstance
+	CLASS 1 1
+	CLASS a State
+		FIELD a name Ljava/lang/String;
+		FIELD b preparationResult Lagm;
+		FIELD c reloadResult Lagm;
+		FIELD d preparationNanos Ljava/util/concurrent/atomic/AtomicLong;
+		FIELD e reloadNanos Ljava/util/concurrent/atomic/AtomicLong;
+		METHOD <init> <init> (Ljava/lang/String;Lagm;Lagm;Ljava/util/concurrent/atomic/AtomicLong;Ljava/util/concurrent/atomic/AtomicLong;)V
+		METHOD <init> <init> (Ljava/lang/String;Lagm;Lagm;Ljava/util/concurrent/atomic/AtomicLong;Ljava/util/concurrent/atomic/AtomicLong;Lxe$1;)V
+		METHOD a access$000 (Lxe$a;)Lagm;
+		METHOD b access$100 (Lxe$a;)Lagm;
+		METHOD c access$200 (Lxe$a;)Ljava/util/concurrent/atomic/AtomicLong;
+		METHOD d access$300 (Lxe$a;)Ljava/util/concurrent/atomic/AtomicLong;
+		METHOD e access$400 (Lxe$a;)Ljava/lang/String;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e total Lcom/google/common/base/Stopwatch;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lxi;Ljava/util/List;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)V
+	METHOD a lambda$null$4 (Ljava/lang/Runnable;Ljava/util/concurrent/atomic/AtomicLong;)V
+	METHOD a finish (Ljava/util/List;)V
+	METHOD a lambda$null$5 (Ljava/util/concurrent/Executor;Ljava/util/concurrent/atomic/AtomicLong;Ljava/lang/Runnable;)V
+	METHOD a lambda$new$7 (Ljava/util/concurrent/Executor;Lxd$a;Lxi;Lxd;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$null$6 (Lxd;Lagg;Lagg;Ljava/util/concurrent/atomic/AtomicLong;Ljava/util/concurrent/atomic/AtomicLong;Ljava/lang/Void;)Lxe$a;
+	METHOD b lambda$null$2 (Ljava/lang/Runnable;Ljava/util/concurrent/atomic/AtomicLong;)V
+	METHOD b lambda$null$3 (Ljava/util/concurrent/Executor;Ljava/util/concurrent/atomic/AtomicLong;Ljava/lang/Runnable;)V
+	METHOD f lambda$null$1 ()I
+	METHOD g lambda$null$0 ()I

@@ -1,0 +1,31 @@
+CLASS ba net/minecraft/advancements/critereon/InventoryChangeTrigger
+	CLASS a PlayerListeners
+		FIELD a player Lre;
+		FIELD b listeners Ljava/util/Set;
+		METHOD <init> <init> (Lre;)V
+		METHOD a isEmpty ()Z
+		METHOD a trigger (Lawf;)V
+		METHOD a addListener (Lx$a;)V
+		METHOD b removeListener (Lx$a;)V
+	CLASS b TriggerInstance
+		FIELD a slotsOccupied Lbi$d;
+		FIELD b slotsFull Lbi$d;
+		FIELD c slotsEmpty Lbi$d;
+		FIELD d predicates [Lbc;
+		METHOD <init> <init> (Lbi$d;Lbi$d;Lbi$d;[Lbc;)V
+		METHOD a matches (Lawf;)Z
+		METHOD a hasItem ([Lbc;)Lba$b;
+		METHOD a hasItem ([Lbhq;)Lba$b;
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+	FIELD a ID Lqv;
+	FIELD b players Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lqv;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ly;
+	METHOD a removePlayerListeners (Lre;)V
+	METHOD a addPlayerListener (Lre;Lx$a;)V
+	METHOD a trigger (Lvl;Lawf;)V
+	METHOD b access$000 ()Lqv;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lba$b;
+	METHOD b removePlayerListener (Lre;Lx$a;)V

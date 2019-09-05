@@ -1,0 +1,15 @@
+CLASS bib net/minecraft/world/level/NaturalSpawner
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$entity$SpawnPlacements$Type [I
+		METHOD <clinit> <clinit> ()V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a spawnCategoryForChunk (Laiz;Lbhr;Lbxt;Lew;)V
+	METHOD a isSpawnPositionOk (Lajk$c;Lbhu;Lew;Lais;)Z
+	METHOD a isValidEmptySpawnBlock (Lbhb;Lew;Lbvt;Lclk;)Z
+	METHOD a getRandomPosWithin (Lbhr;Lbxt;)Lew;
+	METHOD a spawnMobsForChunkGeneration (Lbhs;Lbio;IILjava/util/Random;)V
+	METHOD a getTopNonCollidingPos (Lbhu;Lais;II)Lew;
+	METHOD a canSpawnMobAt (Lbxi;Laiz;Lbio$e;Lew;)Z
+	METHOD a getRandomSpawnMobAt (Lbxi;Laiz;Ljava/util/Random;Lew;)Lbio$e;

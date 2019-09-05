@@ -1,0 +1,9 @@
+CLASS qk net/minecraft/network/syncher/EntityDataAccessor
+	FIELD a id I
+	FIELD b serializer Lql;
+	METHOD <init> <init> (ILql;)V
+	METHOD a getId ()I
+	METHOD b getSerializer ()Lql;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

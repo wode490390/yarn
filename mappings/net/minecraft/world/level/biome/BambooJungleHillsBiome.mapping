@@ -1,0 +1,2 @@
+CLASS bim net/minecraft/world/level/biome/BambooJungleHillsBiome
+	METHOD <init> <init> ()V

@@ -1,0 +1,2 @@
+CLASS bkj net/minecraft/world/level/biome/MountainEdgeBiome
+	METHOD <init> <init> ()V

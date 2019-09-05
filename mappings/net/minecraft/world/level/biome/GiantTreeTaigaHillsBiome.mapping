@@ -1,0 +1,2 @@
+CLASS bjw net/minecraft/world/level/biome/GiantTreeTaigaHillsBiome
+	METHOD <init> <init> ()V

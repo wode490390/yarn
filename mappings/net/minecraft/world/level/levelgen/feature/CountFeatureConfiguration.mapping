@@ -1,0 +1,5 @@
+CLASS caq net/minecraft/world/level/levelgen/feature/CountFeatureConfiguration
+	FIELD a count I
+	METHOD <init> <init> (I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcaq;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

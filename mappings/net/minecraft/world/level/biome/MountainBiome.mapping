@@ -1,0 +1,2 @@
+CLASS bki net/minecraft/world/level/biome/MountainBiome
+	METHOD <init> <init> ()V

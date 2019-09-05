@@ -1,0 +1,12 @@
+CLASS anv net/minecraft/world/entity/ai/goal/OfferFlowerGoal
+	FIELD a OFFER_TARGER_CONTEXT Laqi;
+	FIELD b golem Lari;
+	FIELD c villager Lavt;
+	FIELD d tick I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lari;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

@@ -1,0 +1,11 @@
+CLASS pz net/minecraft/network/protocol/login/ServerboundKeyPacket
+	FIELD a keybytes [B
+	FIELD b nonce [B
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljavax/crypto/SecretKey;Ljava/security/PublicKey;[B)V
+	METHOD a getSecretKey (Ljava/security/PrivateKey;)Ljavax/crypto/SecretKey;
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lpw;)V
+	METHOD b getNonce (Ljava/security/PrivateKey;)[B
+	METHOD b write (Lje;)V

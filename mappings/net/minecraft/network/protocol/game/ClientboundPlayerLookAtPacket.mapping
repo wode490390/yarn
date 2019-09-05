@@ -1,0 +1,17 @@
+CLASS me net/minecraft/network/protocol/game/ClientboundPlayerLookAtPacket
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d entity I
+	FIELD e fromAnchor Lck$a;
+	FIELD f toAnchor Lck$a;
+	FIELD g atEntity Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lck$a;DDD)V
+	METHOD <init> <init> (Lck$a;Laio;Lck$a;)V
+	METHOD a getPosition (Lbhr;)Lcsi;
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getFromAnchor ()Lck$a;
+	METHOD b write (Lje;)V

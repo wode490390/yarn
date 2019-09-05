@@ -1,0 +1,21 @@
+CLASS aim net/minecraft/world/entity/AgableMob
+	FIELD b age I
+	FIELD bz DATA_BABY_ID Lqk;
+	FIELD c forcedAge I
+	FIELD d forcedAgeTimer I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD a ageUp (I)V
+	METHOD a ageUp (IZ)V
+	METHOD a getBreedOffspring (Laim;)Laim;
+	METHOD a mobInteract (Lawg;Lahi;)Z
+	METHOD a onOffspringSpawnedFromEgg (Lawg;Laim;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD a onSyncedDataUpdated (Lqk;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD b_ setAge (I)V
+	METHOD i getAge ()I
+	METHOD k aiStep ()V
+	METHOD l ageBoundaryReached ()V
+	METHOD u_ defineSynchedData ()V
+	METHOD v_ isBaby ()Z

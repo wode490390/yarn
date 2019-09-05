@@ -1,0 +1,6 @@
+CLASS rz net/minecraft/server/commands/DefaultGameModeCommands
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$1 (Lbho;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a setMode (Lcd;Lbho;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V

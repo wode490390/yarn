@@ -1,0 +1,4 @@
+CLASS aia net/minecraft/world/damagesource/NetherBedDamage
+	METHOD <init> <init> ()V
+	METHOD a lambda$getLocalizedDeathMessage$0 (Ljw;)V
+	METHOD c getLocalizedDeathMessage (Laix;)Ljo;

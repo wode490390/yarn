@@ -1,0 +1,9 @@
+CLASS azd net/minecraft/world/inventory/FurnaceResultSlot
+	FIELD a player Lawg;
+	FIELD b removeCount I
+	METHOD <init> <init> (Lawg;Lahc;III)V
+	METHOD a remove (I)Lbcj;
+	METHOD a onTake (Lawg;Lbcj;)Lbcj;
+	METHOD a mayPlace (Lbcj;)Z
+	METHOD a onQuickCraft (Lbcj;I)V
+	METHOD c checkTakeAchievements (Lbcj;)V

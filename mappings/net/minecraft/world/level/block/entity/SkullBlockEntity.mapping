@@ -1,0 +1,19 @@
+CLASS but net/minecraft/world/level/block/entity/SkullBlockEntity
+	FIELD a owner Lcom/mojang/authlib/GameProfile;
+	FIELD b mouthTickCount I
+	FIELD c isMovingMouth Z
+	FIELD g profileCache Lxr;
+	FIELD h sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	METHOD <init> <init> ()V
+	METHOD T_ tick ()V
+	METHOD a getUpdatePacket ()Lkq;
+	METHOD a getMouthAnimation (F)F
+	METHOD a setOwner (Lcom/mojang/authlib/GameProfile;)V
+	METHOD a setSessionService (Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V
+	METHOD a load (Lid;)V
+	METHOD a setProfileCache (Lxr;)V
+	METHOD b getUpdateTag ()Lid;
+	METHOD b updateGameprofile (Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;
+	METHOD b save (Lid;)Lid;
+	METHOD d getOwnerProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD f updateOwnerProfile ()V

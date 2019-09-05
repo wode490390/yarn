@@ -1,0 +1,10 @@
+CLASS bax net/minecraft/world/item/ClockItem
+	CLASS 1 1
+		FIELD a this$0 Lbax;
+		FIELD b rotation D
+		FIELD c rota D
+		FIELD d lastUpdateTick J
+		METHOD <init> <init> (Lbax;)V
+		METHOD a wobble (Lbhr;D)D
+		METHOD call call (Lbcj;Lbhr;Laix;)F
+	METHOD <init> <init> (Lbce$a;)V

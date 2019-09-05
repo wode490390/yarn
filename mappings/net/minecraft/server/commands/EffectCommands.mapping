@@ -1,0 +1,17 @@
+CLASS sb net/minecraft/server/commands/EffectCommands
+	FIELD a ERROR_GIVE_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_CLEAR_EVERYTHING_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c ERROR_CLEAR_SPECIFIC_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a clearEffects (Lcd;Ljava/util/Collection;)I
+	METHOD a clearEffect (Lcd;Ljava/util/Collection;Laig;)I
+	METHOD a giveEffect (Lcd;Ljava/util/Collection;Laig;Ljava/lang/Integer;IZ)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

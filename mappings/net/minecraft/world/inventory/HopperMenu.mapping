@@ -1,0 +1,8 @@
+CLASS azf net/minecraft/world/inventory/HopperMenu
+	FIELD c hopper Lahc;
+	METHOD <init> <init> (ILawf;)V
+	METHOD <init> <init> (ILawf;Lahc;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;
+	METHOD e getContainer ()Lahc;

@@ -1,0 +1,5 @@
+CLASS bsd net/minecraft/world/level/block/StainedGlassPaneBlock
+	FIELD i color Lbbg;
+	METHOD <init> <init> (Lbbg;Lbmv$c;)V
+	METHOD a getColor ()Lbbg;
+	METHOD c getRenderLayer ()Lbhc;

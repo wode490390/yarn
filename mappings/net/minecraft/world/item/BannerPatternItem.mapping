@@ -1,0 +1,6 @@
+CLASS bak net/minecraft/world/item/BannerPatternItem
+	FIELD a bannerPattern Lbtp;
+	METHOD <init> <init> (Lbtp;Lbce$a;)V
+	METHOD a appendHoverText (Lbcj;Lbhr;Ljava/util/List;Lbdr;)V
+	METHOD b getBannerPattern ()Lbtp;
+	METHOD d getDisplayName ()Ljo;

@@ -1,0 +1,9 @@
+CLASS pj net/minecraft/network/protocol/game/ServerboundTeleportToEntityPacket
+	FIELD a uuid Ljava/util/UUID;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/UUID;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD a getEntity (Lvk;)Laio;
+	METHOD b write (Lje;)V

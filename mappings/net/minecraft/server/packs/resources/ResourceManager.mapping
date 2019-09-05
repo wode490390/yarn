@@ -1,0 +1,7 @@
+CLASS xi net/minecraft/server/packs/resources/ResourceManager
+	METHOD a getNamespaces ()Ljava/util/Set;
+	METHOD a listResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a getResource (Lqv;)Lxh;
+	METHOD a add (Lwl;)V
+	METHOD b hasResource (Lqv;)Z
+	METHOD c getResources (Lqv;)Ljava/util/List;

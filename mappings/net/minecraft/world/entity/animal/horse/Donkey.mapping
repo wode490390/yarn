@@ -1,0 +1,7 @@
+CLASS asc net/minecraft/world/entity/animal/horse/Donkey
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a getBreedOffspring (Laim;)Laim;
+	METHOD a canMate (Lara;)Z
+	METHOD cH getDeathSound ()Lyo;
+	METHOD e getHurtSound (Lahx;)Lyo;

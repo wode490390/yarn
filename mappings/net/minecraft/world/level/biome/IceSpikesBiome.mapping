@@ -1,0 +1,3 @@
+CLASS bjy net/minecraft/world/level/biome/IceSpikesBiome
+	METHOD <init> <init> ()V
+	METHOD d getCreatureProbability ()F

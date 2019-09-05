@@ -1,0 +1,10 @@
+CLASS ans net/minecraft/world/entity/ai/goal/MoveTowardsRestrictionGoal
+	FIELD a mob Laje;
+	FIELD b wantedX D
+	FIELD c wantedY D
+	FIELD d wantedZ D
+	FIELD e speedModifier D
+	METHOD <init> <init> (Laje;D)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V

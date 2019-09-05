@@ -1,0 +1,17 @@
+CLASS ug net/minecraft/server/commands/data/EntityDataAccessor
+	CLASS 1 1
+		FIELD a val$arg Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD a wrap (Lcom/mojang/brigadier/builder/ArgumentBuilder;Ljava/util/function/Function;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		METHOD a access (Lcom/mojang/brigadier/context/CommandContext;)Lue;
+	FIELD a PROVIDER Ljava/util/function/Function;
+	FIELD b ERROR_NO_PLAYERS Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c entity Laio;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laio;)V
+	METHOD a getData ()Lid;
+	METHOD a getPrintSuccess (Lcr$h;DI)Ljo;
+	METHOD a setData (Lid;)V
+	METHOD a getPrintSuccess (Liu;)Ljo;
+	METHOD a lambda$static$0 (Ljava/lang/String;)Luf$c;
+	METHOD b getModifiedSuccess ()Ljo;

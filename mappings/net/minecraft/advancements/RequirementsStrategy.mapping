@@ -1,0 +1,7 @@
+CLASS ab net/minecraft/advancements/RequirementsStrategy
+	FIELD a AND Lab;
+	FIELD b OR Lab;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$1 (Ljava/util/Collection;)[[Ljava/lang/String;
+	METHOD b lambda$static$0 (Ljava/util/Collection;)[[Ljava/lang/String;
+	METHOD createRequirements createRequirements (Ljava/util/Collection;)[[Ljava/lang/String;

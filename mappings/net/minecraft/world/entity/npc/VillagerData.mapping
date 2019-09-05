@@ -1,0 +1,18 @@
+CLASS avu net/minecraft/world/entity/npc/VillagerData
+	FIELD a NEXT_LEVEL_XP_THRESHOLDS [I
+	FIELD b type Lavy;
+	FIELD c profession Lavw;
+	FIELD d level I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lavy;Lavw;I)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getType ()Lavy;
+	METHOD a setLevel (I)Lavu;
+	METHOD a setProfession (Lavw;)Lavu;
+	METHOD a setType (Lavy;)Lavu;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD b getProfession ()Lavw;
+	METHOD b getMinXpPerLevel (I)I
+	METHOD c getLevel ()I
+	METHOD c getMaxXpPerLevel (I)I
+	METHOD d canLevelUp (I)Z

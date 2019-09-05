@@ -1,0 +1,8 @@
+CLASS tu net/minecraft/server/commands/TeamMsgCommand
+	FIELD a ERROR_NOT_ON_TEAM Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a sendMessage (Lcd;Ljo;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$0 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$sendMessage$1 (Ljw;)V

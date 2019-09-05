@@ -1,0 +1,11 @@
+CLASS mj net/minecraft/network/protocol/game/ClientboundResourcePackPacket
+	FIELD a url Ljava/lang/String;
+	FIELD b hash Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getUrl ()Ljava/lang/String;
+	METHOD b write (Lje;)V
+	METHOD c getHash ()Ljava/lang/String;

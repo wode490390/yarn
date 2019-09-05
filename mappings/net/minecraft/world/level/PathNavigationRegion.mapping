@@ -1,0 +1,23 @@
+CLASS bic net/minecraft/world/level/PathNavigationRegion
+	FIELD a centerX I
+	FIELD b centerZ I
+	FIELD c chunks [[Lbxh;
+	FIELD d allEmpty Z
+	FIELD e level Lbhr;
+	METHOD <init> <init> (Lbhr;Lew;Lew;)V
+	METHOD a getChunk (IILbxm;Z)Lbxh;
+	METHOD a isUnobstructed (Laio;Lctc;)Z
+	METHOD a getBrightness (Lbia;Lew;)I
+	METHOD a getHeight (Lbza$a;II)I
+	METHOD a getHeightmapPos (Lbza$a;Lew;)Lew;
+	METHOD a_ getRawBrightness (Lew;I)I
+	METHOD b hasChunk (II)Z
+	METHOD b getFluidState (Lew;)Lclk;
+	METHOD c getSkyDarken ()I
+	METHOD c getBiome (Lew;)Lbio;
+	METHOD d getBlockEntity (Lew;)Lbtw;
+	METHOD e isClientSide ()Z
+	METHOD e_ getBlockState (Lew;)Lbvt;
+	METHOD i getSeaLevel ()I
+	METHOD q_ getWorldBorder ()Lbxf;
+	METHOD r_ getDimension ()Lbym;

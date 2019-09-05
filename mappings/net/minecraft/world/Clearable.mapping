@@ -1,0 +1,3 @@
+CLASS aha net/minecraft/world/Clearable
+	METHOD L_ clearContent ()V
+	METHOD a tryClear (Ljava/lang/Object;)V

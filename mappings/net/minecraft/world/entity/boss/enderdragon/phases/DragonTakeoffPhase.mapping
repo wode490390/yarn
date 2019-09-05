@@ -1,0 +1,11 @@
+CLASS ate net/minecraft/world/entity/boss/enderdragon/phases/DragonTakeoffPhase
+	FIELD b firstTick Z
+	FIELD c currentPath Lcnr;
+	FIELD d targetLocation Lcsi;
+	METHOD <init> <init> (Lasp;)V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD g getFlyTargetLocation ()Lcsi;
+	METHOD i getPhase ()Latf;
+	METHOD j findNewTarget ()V
+	METHOD k navigateToNextPathNode ()V

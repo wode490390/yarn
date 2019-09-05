@@ -1,0 +1,21 @@
+CLASS ane net/minecraft/world/entity/ai/goal/Goal
+	CLASS a Flag
+		FIELD a MOVE Lane$a;
+		FIELD b LOOK Lane$a;
+		FIELD c JUMP Lane$a;
+		FIELD d TARGET Lane$a;
+		FIELD e $VALUES [Lane$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lane$a;
+		METHOD values values ()[Lane$a;
+	FIELD a flags Ljava/util/EnumSet;
+	METHOD <init> <init> ()V
+	METHOD C_ isInterruptable ()Z
+	METHOD a canUse ()Z
+	METHOD a setFlags (Ljava/util/EnumSet;)V
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD i getFlags ()Ljava/util/EnumSet;

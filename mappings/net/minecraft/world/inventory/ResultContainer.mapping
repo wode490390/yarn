@@ -1,0 +1,15 @@
+CLASS azs net/minecraft/world/inventory/ResultContainer
+	FIELD a itemStacks Lfk;
+	FIELD b recipeUsed Lber;
+	METHOD <init> <init> ()V
+	METHOD L_ clearContent ()V
+	METHOD M_ getContainerSize ()I
+	METHOD U_ getRecipeUsed ()Lber;
+	METHOD a getItem (I)Lbcj;
+	METHOD a removeItem (II)Lbcj;
+	METHOD a setItem (ILbcj;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a setRecipeUsed (Lber;)V
+	METHOD b removeItemNoUpdate (I)Lbcj;
+	METHOD c isEmpty ()Z
+	METHOD e setChanged ()V

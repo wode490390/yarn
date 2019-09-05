@@ -1,0 +1,4 @@
+CLASS bfd net/minecraft/world/item/crafting/SmeltingRecipe
+	METHOD <init> <init> (Lqv;Ljava/lang/String;Lbeo;Lbcj;FI)V
+	METHOD Q_ getSerializer ()Lbet;
+	METHOD h getToastSymbol ()Lbcj;

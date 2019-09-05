@@ -1,0 +1,13 @@
+CLASS ber net/minecraft/world/item/crafting/Recipe
+	METHOD P_ isSpecial ()Z
+	METHOD Q_ getSerializer ()Lbet;
+	METHOD a getIngredients ()Lfk;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lahc;)Lbcj;
+	METHOD a matches (Lahc;Lbhr;)Z
+	METHOD b getRemainingItems (Lahc;)Lfk;
+	METHOD c getResultItem ()Lbcj;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD f getId ()Lqv;
+	METHOD g getType ()Lbeu;
+	METHOD h getToastSymbol ()Lbcj;

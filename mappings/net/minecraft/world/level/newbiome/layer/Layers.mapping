@@ -1,0 +1,20 @@
+CLASS cmk net/minecraft/world/level/newbiome/layer/Layers
+	FIELD a WARM_OCEAN I
+	FIELD b LUKEWARM_OCEAN I
+	FIELD c OCEAN I
+	FIELD d COLD_OCEAN I
+	FIELD e FROZEN_OCEAN I
+	FIELD f DEEP_WARM_OCEAN I
+	FIELD g DEEP_LUKEWARM_OCEAN I
+	FIELD h DEEP_OCEAN I
+	FIELD i DEEP_COLD_OCEAN I
+	FIELD j DEEP_FROZEN_OCEAN I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a isOcean (I)Z
+	METHOD a isSame (II)Z
+	METHOD a lambda$getDefaultLayers$0 (JJ)Lclz;
+	METHOD a getDefaultLayers (JLbhy;Lbze;)[Lcmj;
+	METHOD a zoom (JLcna;Lclu;ILjava/util/function/LongFunction;)Lclu;
+	METHOD a getDefaultLayers (Lbhy;Lbze;Ljava/util/function/LongFunction;)Lcom/google/common/collect/ImmutableList;
+	METHOD b isShallowOcean (I)Z

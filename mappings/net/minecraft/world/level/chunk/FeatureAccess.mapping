@@ -1,0 +1,7 @@
+CLASS bxp net/minecraft/world/level/chunk/FeatureAccess
+	METHOD a getStartForFeature (Ljava/lang/String;)Lciw;
+	METHOD a addReferenceForFeature (Ljava/lang/String;J)V
+	METHOD a setStartForFeature (Ljava/lang/String;Lciw;)V
+	METHOD b getReferencesForFeature (Ljava/lang/String;)Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD b setAllReferences (Ljava/util/Map;)V
+	METHOD v getAllReferences ()Ljava/util/Map;

@@ -1,0 +1,10 @@
+CLASS asu net/minecraft/world/entity/boss/enderdragon/phases/DragonDeathPhase
+	FIELD b targetLocation Lcsi;
+	FIELD c time I
+	METHOD <init> <init> (Lasp;)V
+	METHOD b doClientTick ()V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD f getFlySpeed ()F
+	METHOD g getFlyTargetLocation ()Lcsi;
+	METHOD i getPhase ()Latf;

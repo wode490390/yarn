@@ -1,0 +1,10 @@
+CLASS aej net/minecraft/util/datafix/fixes/VillagerTradeFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$fix$3 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Ljava/util/function/Function;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$2 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Ljava/util/function/Function;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a updateItemStack (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$1 (Lcom/mojang/datafixers/OpticFinder;Ljava/util/function/Function;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$updateItemStack$5 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$4 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b lambda$fix$0 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;

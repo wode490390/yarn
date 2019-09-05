@@ -1,0 +1,11 @@
+CLASS clq net/minecraft/world/level/material/PushReaction
+	FIELD a NORMAL Lclq;
+	FIELD b DESTROY Lclq;
+	FIELD c BLOCK Lclq;
+	FIELD d IGNORE Lclq;
+	FIELD e PUSH_ONLY Lclq;
+	FIELD f $VALUES [Lclq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lclq;
+	METHOD values values ()[Lclq;

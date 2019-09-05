@@ -1,0 +1,44 @@
+CLASS ark net/minecraft/world/entity/animal/Ocelot
+	CLASS a OcelotAvoidEntityGoal
+		FIELD i ocelot Lark;
+		METHOD <init> <init> (Lark;Ljava/lang/Class;FDD)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+	CLASS b OcelotTemptGoal
+		FIELD c ocelot Lark;
+		METHOD <init> <init> (Lark;DLbeo;Z)V
+		METHOD g canScare ()Z
+	FIELD bA DATA_TRUSTING Lqk;
+	FIELD bB ocelotAvoidPlayersGoal Lark$a;
+	FIELD bC temptGoal Lark$b;
+	FIELD bz TEMPT_INGREDIENT Lbeo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD A getAmbientSoundInterval ()I
+	METHOD C doHurtTarget (Laio;)Z
+	METHOD G getAmbientSound ()Lyo;
+	METHOD L customServerAiStep ()V
+	METHOD a handleEntityEvent (B)V
+	METHOD a hurt (Lahx;F)Z
+	METHOD a getBreedOffspring (Laim;)Laim;
+	METHOD a access$000 (Lark;)Z
+	METHOD a mobInteract (Lawg;Lahi;)Z
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD a checkSpawnObstruction (Lbhu;)Z
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b causeFallDamage (FF)V
+	METHOD b getBreedOffspring (Laim;)Lark;
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c removeWhenFarAway (D)Z
+	METHOD c checkOcelotSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cl registerAttributes ()V
+	METHOD dV reassessTrustingGoals ()V
+	METHOD dW addKittensDuringSpawn ()V
+	METHOD dX isTrusting ()Z
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD i isFood (Lbcj;)Z
+	METHOD n registerGoals ()V
+	METHOD r setTrusting (Z)V
+	METHOD s spawnTrustingParticles (Z)V
+	METHOD u_ defineSynchedData ()V

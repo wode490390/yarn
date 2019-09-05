@@ -1,0 +1,8 @@
+CLASS wq net/minecraft/server/packs/metadata/pack/PackMetadataSection
+	FIELD a SERIALIZER Lwr;
+	FIELD b description Ljo;
+	FIELD c packFormat I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljo;I)V
+	METHOD a getDescription ()Ljo;
+	METHOD b getPackFormat ()I

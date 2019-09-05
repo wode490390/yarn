@@ -1,0 +1,4 @@
+CLASS asm net/minecraft/world/entity/boss/BossMob
+	METHOD cD getHealth ()F
+	METHOD cM getMaxHealth ()F
+	METHOD d getDisplayName ()Ljo;

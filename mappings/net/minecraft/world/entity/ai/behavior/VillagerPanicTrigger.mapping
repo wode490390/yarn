@@ -1,0 +1,10 @@
+CLASS aly net/minecraft/world/entity/ai/behavior/VillagerPanicTrigger
+	METHOD <init> <init> ()V
+	METHOD a hasHostile (Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a canStillUse (Lvk;Lavt;J)Z
+	METHOD b isHurt (Laix;)Z
+	METHOD b start (Lvk;Lavt;J)V
+	METHOD c tick (Lvk;Lavt;J)V
+	METHOD d tick (Lvk;Laix;J)V
+	METHOD g canStillUse (Lvk;Laix;J)Z

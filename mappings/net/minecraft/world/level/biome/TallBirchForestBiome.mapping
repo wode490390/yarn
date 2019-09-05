@@ -1,0 +1,2 @@
+CLASS blk net/minecraft/world/level/biome/TallBirchForestBiome
+	METHOD <init> <init> ()V

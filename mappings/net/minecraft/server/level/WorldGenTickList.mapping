@@ -1,0 +1,9 @@
+CLASS vr net/minecraft/server/level/WorldGenTickList
+	FIELD a index Ljava/util/function/Function;
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a size ()I
+	METHOD a lambda$addAll$0 (Lbih;)V
+	METHOD a hasScheduledTick (Lew;Ljava/lang/Object;)Z
+	METHOD a scheduleTick (Lew;Ljava/lang/Object;ILbii;)V
+	METHOD a addAll (Ljava/util/stream/Stream;)V
+	METHOD b willTickThisTick (Lew;Ljava/lang/Object;)Z

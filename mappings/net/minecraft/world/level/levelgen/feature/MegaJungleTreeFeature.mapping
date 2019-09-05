@@ -1,0 +1,5 @@
+CLASS ccs net/minecraft/world/level/levelgen/feature/MegaJungleTreeFeature
+	METHOD <init> <init> (Ljava/util/function/Function;ZIILbvt;Lbvt;)V
+	METHOD a placeVine (Lbhw;Ljava/util/Random;Lew;Lbwl;)V
+	METHOD a doPlace (Ljava/util/Set;Lbhw;Ljava/util/Random;Lew;Lcic;)Z
+	METHOD c createCrown (Lbhw;Lew;ILcic;Ljava/util/Set;)V

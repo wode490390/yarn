@@ -1,0 +1,6 @@
+CLASS bob net/minecraft/world/level/block/DeadBushBlock
+	FIELD a SHAPE Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a_ mayPlaceOn (Lbvt;Lbhb;Lew;)Z

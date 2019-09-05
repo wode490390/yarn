@@ -1,0 +1,2 @@
+CLASS byw net/minecraft/world/level/levelgen/DebugGeneratorSettings
+	METHOD <init> <init> ()V

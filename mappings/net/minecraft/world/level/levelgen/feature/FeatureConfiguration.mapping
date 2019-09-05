@@ -1,0 +1,4 @@
+CLASS cbo net/minecraft/world/level/levelgen/feature/FeatureConfiguration
+	FIELD e NONE Lcdd;
+	METHOD <clinit> <clinit> ()V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

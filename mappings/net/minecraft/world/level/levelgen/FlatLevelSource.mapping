@@ -1,0 +1,19 @@
+CLASS byy net/minecraft/world/level/levelgen/FlatLevelSource
+	CLASS a FlatLevelBiomeWrapper
+		FIELD u this$0 Lbyy;
+		METHOD <init> <init> (Lbyy;Lcjx;Lbio$d;Lbio$b;FFFFIILjava/lang/String;)V
+	FIELD e biomeWrapper Lbio;
+	FIELD f phantomSpawner Lbzh;
+	FIELD g catSpawner Lavq;
+	METHOD <init> <init> (Lbhs;Lbiq;Lcfx;)V
+	METHOD a getBaseHeight (IILbza$a;)I
+	METHOD a findNearestMapFeature (Lbhr;Ljava/lang/String;Lew;IZ)Lew;
+	METHOD a isBiomeValidStartForStructure (Lbio;Lceu;)Z
+	METHOD a tickCustomSpawners (Lvk;ZZ)V
+	METHOD a getDecorationBiome (Lvq;Lew;)Lbio;
+	METHOD b getSpawnHeight ()I
+	METHOD b fillFromNoise (Lbhs;Lbxh;)V
+	METHOD b getStructureConfiguration (Lbio;Lceu;)Lcbo;
+	METHOD b getCarvingBiome (Lbxh;)Lbio;
+	METHOD c buildSurfaceAndBedrock (Lbxh;)V
+	METHOD g getBiomeFromSettings ()Lbio;

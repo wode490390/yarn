@@ -1,0 +1,13 @@
+CLASS co net/minecraft/commands/arguments/ItemEnchantmentArgument
+	FIELD a ERROR_UNKNOWN_ENCHANTMENT Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD b EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a enchantment ()Lco;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lbfs;
+	METHOD a getEnchantment (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lbfs;
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$parse$1 (Lqv;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

@@ -1,0 +1,2 @@
+CLASS bjh net/minecraft/world/level/biome/DesertHillsBiome
+	METHOD <init> <init> ()V

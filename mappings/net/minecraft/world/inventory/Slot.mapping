@@ -1,0 +1,25 @@
+CLASS azx net/minecraft/world/inventory/Slot
+	FIELD a slot I
+	FIELD c container Lahc;
+	FIELD d index I
+	FIELD e x I
+	FIELD f y I
+	METHOD <init> <init> (Lahc;III)V
+	METHOD a getMaxStackSize ()I
+	METHOD a remove (I)Lbcj;
+	METHOD a isAt (Lahc;I)Z
+	METHOD a mayPickup (Lawg;)Z
+	METHOD a onTake (Lawg;Lbcj;)Lbcj;
+	METHOD a swap (Lazx;)V
+	METHOD a mayPlace (Lbcj;)Z
+	METHOD a onQuickCraft (Lbcj;I)V
+	METHOD a onQuickCraft (Lbcj;Lbcj;)V
+	METHOD b isActive ()Z
+	METHOD b onSwapCraft (I)V
+	METHOD b getMaxStackSize (Lbcj;)I
+	METHOD c getNoItemIcon ()Ljava/lang/String;
+	METHOD c checkTakeAchievements (Lbcj;)V
+	METHOD d setChanged ()V
+	METHOD d set (Lbcj;)V
+	METHOD e getItem ()Lbcj;
+	METHOD f hasItem ()Z

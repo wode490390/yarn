@@ -1,0 +1,64 @@
+CLASS avi net/minecraft/world/entity/monster/Vex
+	CLASS a VexChargeAttackGoal
+		FIELD a this$0 Lavi;
+		METHOD <init> <init> (Lavi;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS b VexCopyOwnerTargetGoal
+		FIELD a this$0 Lavi;
+		FIELD b copyOwnerTargeting Laqi;
+		METHOD <init> <init> (Lavi;Laje;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+	CLASS c VexMoveControl
+		FIELD i this$0 Lavi;
+		METHOD <init> <init> (Lavi;Lavi;)V
+		METHOD a tick ()V
+	CLASS d VexRandomMoveGoal
+		FIELD a this$0 Lavi;
+		METHOD <init> <init> (Lavi;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD e tick ()V
+	FIELD bA limitedLifeTicks I
+	FIELD b DATA_FLAGS_ID Lqk;
+	FIELD bz hasLimitedLife Z
+	FIELD c owner Laiy;
+	FIELD d boundOrigin Lew;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a setLimitedLife (I)V
+	METHOD a setVexFlag (IZ)V
+	METHOD a populateDefaultEquipmentSlots (Lahh;)V
+	METHOD a setOwner (Laiy;)V
+	METHOD a move (Lajc;Lcsi;)V
+	METHOD a access$000 (Lavi;)Ljava/util/Random;
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD aE getLightColor ()I
+	METHOD aF getBrightness ()F
+	METHOD b getVexFlag (I)Z
+	METHOD b access$100 (Lavi;)Lamj;
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c access$200 (Lavi;)Lamj;
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cl registerAttributes ()V
+	METHOD d access$300 (Lavi;)Ljava/util/Random;
+	METHOD dV getBoundOrigin ()Lew;
+	METHOD dW isCharging ()Z
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD e access$400 (Lavi;)Ljava/util/Random;
+	METHOD f access$500 (Lavi;)Ljava/util/Random;
+	METHOD g access$600 (Lavi;)Ljava/util/Random;
+	METHOD g setBoundOrigin (Lew;)V
+	METHOD h tick ()V
+	METHOD h access$700 (Lavi;)Lamj;
+	METHOD i access$800 (Lavi;)Laiy;
+	METHOD l getOwner ()Laiy;
+	METHOD n registerGoals ()V
+	METHOD r setIsCharging (Z)V
+	METHOD u_ defineSynchedData ()V

@@ -1,0 +1,20 @@
+CLASS bcf net/minecraft/world/item/ItemCooldowns
+	CLASS 1 1
+	CLASS a CooldownInstance
+		FIELD a this$0 Lbcf;
+		FIELD b startTime I
+		FIELD c endTime I
+		METHOD <init> <init> (Lbcf;II)V
+		METHOD <init> <init> (Lbcf;IILbcf$1;)V
+		METHOD a access$000 (Lbcf$a;)I
+		METHOD b access$100 (Lbcf$a;)I
+	FIELD a cooldowns Ljava/util/Map;
+	FIELD b tickCount I
+	METHOD <init> <init> ()V
+	METHOD a tick ()V
+	METHOD a isOnCooldown (Lbce;)Z
+	METHOD a getCooldownPercent (Lbce;F)F
+	METHOD a addCooldown (Lbce;I)V
+	METHOD b removeCooldown (Lbce;)V
+	METHOD b onCooldownStarted (Lbce;I)V
+	METHOD c onCooldownEnded (Lbce;)V

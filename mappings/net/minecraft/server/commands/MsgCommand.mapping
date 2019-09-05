@@ -1,0 +1,5 @@
+CLASS ss net/minecraft/server/commands/MsgCommand
+	METHOD <init> <init> ()V
+	METHOD a sendMessage (Lcd;Ljava/util/Collection;Ljo;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$0 (Lcom/mojang/brigadier/context/CommandContext;)I

@@ -1,0 +1,33 @@
+CLASS bg net/minecraft/advancements/critereon/LocationPredicate
+	CLASS a Builder
+		FIELD a x Lbi$c;
+		FIELD b y Lbi$c;
+		FIELD c z Lbi$c;
+		FIELD d biome Lbio;
+		FIELD e feature Lceu;
+		FIELD f dimension Lbyn;
+		METHOD <init> <init> ()V
+		METHOD a build ()Lbg;
+		METHOD a setX (Lbi$c;)Lbg$a;
+		METHOD a setBiome (Lbio;)Lbg$a;
+		METHOD a setDimension (Lbyn;)Lbg$a;
+		METHOD a setFeature (Lceu;)Lbg$a;
+		METHOD b setY (Lbi$c;)Lbg$a;
+		METHOD c setZ (Lbi$c;)Lbg$a;
+	FIELD a ANY Lbg;
+	FIELD b x Lbi$c;
+	FIELD c y Lbi$c;
+	FIELD d z Lbi$c;
+	FIELD e biome Lbio;
+	FIELD f feature Lceu;
+	FIELD g dimension Lbyn;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbi$c;Lbi$c;Lbi$c;Lbio;Lceu;Lbyn;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a inBiome (Lbio;)Lbg;
+	METHOD a inDimension (Lbyn;)Lbg;
+	METHOD a inFeature (Lceu;)Lbg;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbg;
+	METHOD a lambda$fromJson$0 (Lqv;)Lcom/google/gson/JsonSyntaxException;
+	METHOD a matches (Lvk;DDD)Z
+	METHOD a matches (Lvk;FFF)Z

@@ -1,0 +1,9 @@
+CLASS abj net/minecraft/util/datafix/fixes/ChunkStructuresTemplateRenameFix
+	FIELD a RENAMES Lcom/google/common/collect/ImmutableMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a fixTag (Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$makeRule$2 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$0 (Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$null$1 (Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

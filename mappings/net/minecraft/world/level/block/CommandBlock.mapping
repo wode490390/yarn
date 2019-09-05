@@ -1,0 +1,21 @@
+CLASS bno net/minecraft/world/level/block/CommandBlock
+	FIELD a FACING Lbwo;
+	FIELD b CONDITIONAL Lbwl;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a setPlacedBy (Lbhr;Lew;Lbvt;Laix;Lbcj;)V
+	METHOD a executeChain (Lbhr;Lew;Lfb;)V
+	METHOD a getTickDelay (Lbhu;)I
+	METHOD a getAnalogOutputSignal (Lbvt;Lbhr;Lew;)I
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a execute (Lbvt;Lbhr;Lew;Lbgx;Z)V
+	METHOD a neighborChanged (Lbvt;Lbhr;Lew;Lbmv;Lew;Z)V
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b hasAnalogOutputSignal (Lbvt;)Z
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD c getRenderShape (Lbvt;)Lbrd;

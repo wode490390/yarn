@@ -1,0 +1,15 @@
+CLASS crq net/minecraft/world/level/storage/loot/predicates/MatchTool
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrq;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a predicate Lbc;
+	METHOD <init> <init> (Lbc;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a toolMatches (Lbc$a;)Lcrk$a;
+	METHOD a test (Lcoy;)Z
+	METHOD a access$000 (Lcrq;)Lbc;
+	METHOD b lambda$toolMatches$0 (Lbc$a;)Lcrk;
+	METHOD test test (Ljava/lang/Object;)Z

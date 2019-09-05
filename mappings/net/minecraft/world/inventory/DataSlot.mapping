@@ -1,0 +1,26 @@
+CLASS ayy net/minecraft/world/inventory/DataSlot
+	CLASS 1 1
+		FIELD a val$container Layt;
+		FIELD b val$dataId I
+		METHOD <init> <init> (Layt;I)V
+		METHOD a set (I)V
+		METHOD b get ()I
+	CLASS 2 2
+		FIELD a val$storage [I
+		FIELD b val$index I
+		METHOD <init> <init> ([II)V
+		METHOD a set (I)V
+		METHOD b get ()I
+	CLASS 3 3
+		FIELD a value I
+		METHOD <init> <init> ()V
+		METHOD a set (I)V
+		METHOD b get ()I
+	FIELD a prevValue I
+	METHOD <init> <init> ()V
+	METHOD a standalone ()Layy;
+	METHOD a set (I)V
+	METHOD a forContainer (Layt;I)Layy;
+	METHOD a shared ([II)Layy;
+	METHOD b get ()I
+	METHOD c checkAndClearUpdateFlag ()Z

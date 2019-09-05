@@ -1,0 +1,8 @@
+CLASS yc net/minecraft/server/players/UserWhiteList
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getUserList ()[Ljava/lang/String;
+	METHOD a createEntry (Lcom/google/gson/JsonObject;)Lxy;
+	METHOD a isWhiteListed (Lcom/mojang/authlib/GameProfile;)Z
+	METHOD a getKeyForUser (Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a find (Ljava/lang/String;)Lcom/mojang/authlib/GameProfile;
+	METHOD b getKeyForUser (Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;

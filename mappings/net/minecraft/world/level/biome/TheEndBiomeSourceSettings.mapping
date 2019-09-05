@@ -1,0 +1,5 @@
+CLASS blo net/minecraft/world/level/biome/TheEndBiomeSourceSettings
+	FIELD a seed J
+	METHOD <init> <init> ()V
+	METHOD a getSeed ()J
+	METHOD a setSeed (J)Lblo;

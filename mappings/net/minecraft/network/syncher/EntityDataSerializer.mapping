@@ -1,0 +1,5 @@
+CLASS ql net/minecraft/network/syncher/EntityDataSerializer
+	METHOD a createAccessor (I)Lqk;
+	METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a read (Lje;)Ljava/lang/Object;
+	METHOD a write (Lje;Ljava/lang/Object;)V

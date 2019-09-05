@@ -1,0 +1,9 @@
+CLASS aoj net/minecraft/world/entity/ai/goal/SitGoal
+	FIELD a mob Lajl;
+	FIELD b wantToSit Z
+	METHOD <init> <init> (Lajl;)V
+	METHOD a canUse ()Z
+	METHOD a wantToSit (Z)V
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

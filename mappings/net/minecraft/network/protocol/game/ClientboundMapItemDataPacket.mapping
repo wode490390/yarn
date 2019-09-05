@@ -1,0 +1,20 @@
+CLASS lt net/minecraft/network/protocol/game/ClientboundMapItemDataPacket
+	FIELD a mapId I
+	FIELD b scale B
+	FIELD c trackingPosition Z
+	FIELD d locked Z
+	FIELD e decorations [Lcoe;
+	FIELD f startX I
+	FIELD g startY I
+	FIELD h width I
+	FIELD i height I
+	FIELD j mapColors [B
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IBZZLjava/util/Collection;[BIIII)V
+	METHOD a applyToMap (Lcoh;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getMapId ()I
+	METHOD b write (Lje;)V
+	METHOD c getScale ()B

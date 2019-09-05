@@ -1,0 +1,8 @@
+CLASS cta net/minecraft/world/phys/shapes/SliceShape
+	FIELD b delegate Lctc;
+	FIELD c axis Lfb$a;
+	FIELD d SLICE_COORDS Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lctc;Lfb$a;I)V
+	METHOD a makeSlice (Lcsr;Lfb$a;I)Lcsr;
+	METHOD a getCoords (Lfb$a;)Lit/unimi/dsi/fastutil/doubles/DoubleList;

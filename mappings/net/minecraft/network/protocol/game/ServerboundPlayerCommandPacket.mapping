@@ -1,0 +1,29 @@
+CLASS ot net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket
+	CLASS a Action
+		FIELD a START_SNEAKING Lot$a;
+		FIELD b STOP_SNEAKING Lot$a;
+		FIELD c STOP_SLEEPING Lot$a;
+		FIELD d START_SPRINTING Lot$a;
+		FIELD e STOP_SPRINTING Lot$a;
+		FIELD f START_RIDING_JUMP Lot$a;
+		FIELD g STOP_RIDING_JUMP Lot$a;
+		FIELD h OPEN_INVENTORY Lot$a;
+		FIELD i START_FALL_FLYING Lot$a;
+		FIELD j $VALUES [Lot$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lot$a;
+		METHOD values values ()[Lot$a;
+	FIELD a id I
+	FIELD b action Lot$a;
+	FIELD c data I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laio;Lot$a;)V
+	METHOD <init> <init> (Laio;Lot$a;I)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getId ()I
+	METHOD b write (Lje;)V
+	METHOD c getAction ()Lot$a;
+	METHOD d getData ()I

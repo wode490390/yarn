@@ -1,0 +1,6 @@
+CLASS cfc net/minecraft/world/level/levelgen/feature/VillageConfiguration
+	FIELD a startPool Lqv;
+	FIELD b size I
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcfc;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

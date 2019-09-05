@@ -1,0 +1,20 @@
+CLASS no net/minecraft/network/protocol/game/ClientboundUpdateAttributesPacket
+	CLASS a AttributeSnapshot
+		FIELD a this$0 Lno;
+		FIELD b name Ljava/lang/String;
+		FIELD c base D
+		FIELD d modifiers Ljava/util/Collection;
+		METHOD <init> <init> (Lno;Ljava/lang/String;DLjava/util/Collection;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD b getBase ()D
+		METHOD c getModifiers ()Ljava/util/Collection;
+	FIELD a entityId I
+	FIELD b attributes Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILjava/util/Collection;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getEntityId ()I
+	METHOD b write (Lje;)V
+	METHOD c getValues ()Ljava/util/List;

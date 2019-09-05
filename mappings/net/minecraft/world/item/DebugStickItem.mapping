@@ -1,0 +1,10 @@
+CLASS bbc net/minecraft/world/item/DebugStickItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a handleInteraction (Lawg;Lbvt;Lbhs;Lew;ZLbcj;)V
+	METHOD a message (Lawg;Ljo;)V
+	METHOD a useOn (Lbdu;)Lahj;
+	METHOD a canAttackBlock (Lbvt;Lbhr;Lew;Lawg;)Z
+	METHOD a getNameHelper (Lbvt;Lbww;)Ljava/lang/String;
+	METHOD a cycleState (Lbvt;Lbww;Z)Lbvt;
+	METHOD a getRelative (Ljava/lang/Iterable;Ljava/lang/Object;Z)Ljava/lang/Object;
+	METHOD d_ isFoil (Lbcj;)Z

@@ -1,0 +1,10 @@
+CLASS akq net/minecraft/world/entity/ai/behavior/LookAtTargetSink
+	METHOD <init> <init> (II)V
+	METHOD a lambda$tick$1 (Laiy;Lakw;)V
+	METHOD a canStillUse (Lvk;Laiy;J)Z
+	METHOD b lambda$canStillUse$0 (Laiy;Lakw;)Z
+	METHOD b stop (Lvk;Laiy;J)V
+	METHOD c tick (Lvk;Laiy;J)V
+	METHOD d tick (Lvk;Laix;J)V
+	METHOD f stop (Lvk;Laix;J)V
+	METHOD g canStillUse (Lvk;Laix;J)Z

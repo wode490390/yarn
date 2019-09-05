@@ -1,0 +1,34 @@
+CLASS ckw net/minecraft/world/level/lighting/DynamicGraphMinFixedPoint
+	CLASS 1 1
+		FIELD a val$minQueueSize I
+		FIELD b this$0 Lckw;
+		METHOD <init> <init> (Lckw;IFI)V
+		METHOD rehash rehash (I)V
+	CLASS 2 2
+		FIELD a val$minMapSize I
+		FIELD b this$0 Lckw;
+		METHOD <init> <init> (Lckw;IFI)V
+		METHOD rehash rehash (I)V
+	FIELD a levelCount I
+	FIELD b queues [Lit/unimi/dsi/fastutil/longs/LongLinkedOpenHashSet;
+	FIELD c computedLevels Lit/unimi/dsi/fastutil/longs/Long2ByteFunction;
+	FIELD d firstQueuedLevel I
+	FIELD e hasWork Z
+	METHOD <init> <init> (III)V
+	METHOD a checkFirstQueuedLevel (I)V
+	METHOD a getKey (II)I
+	METHOD a isSource (J)Z
+	METHOD a setLevel (JI)V
+	METHOD a enqueue (JII)V
+	METHOD a dequeue (JIIZ)V
+	METHOD a checkNeighborsAfterUpdate (JIZ)V
+	METHOD a getComputedLevel (JJI)I
+	METHOD a checkEdge (JJIIIZ)V
+	METHOD a checkEdge (JJIZ)V
+	METHOD b hasWork ()Z
+	METHOD b runUpdates (I)I
+	METHOD b computeLevelFromNeighbor (JJI)I
+	METHOD b checkNeighbor (JJIZ)V
+	METHOD c getLevel (J)I
+	METHOD e removeFromQueue (J)V
+	METHOD f checkNode (J)V

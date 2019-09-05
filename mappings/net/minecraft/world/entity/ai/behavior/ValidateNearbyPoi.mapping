@@ -1,0 +1,8 @@
+CLASS alt net/minecraft/world/entity/ai/behavior/ValidateNearbyPoi
+	FIELD a memoryType Lapj;
+	FIELD b poiPredicate Ljava/util/function/Predicate;
+	METHOD <init> <init> (Laqs;Lapj;)V
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a poiDoesntExist (Lvk;Lew;)Z
+	METHOD a bedIsOccupied (Lvk;Lew;Laix;)Z

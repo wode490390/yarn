@@ -1,0 +1,13 @@
+CLASS ta net/minecraft/server/commands/RecipeCommand
+	FIELD a ERROR_GIVE_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_TAKE_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a giveRecipes (Lcd;Ljava/util/Collection;Ljava/util/Collection;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b takeRecipes (Lcd;Ljava/util/Collection;Ljava/util/Collection;)I
+	METHOD b lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

@@ -1,0 +1,16 @@
+CLASS ckq net/minecraft/world/level/levelgen/synth/SimplexNoise
+	FIELD a GRADIENT [[I
+	FIELD b xo D
+	FIELD c yo D
+	FIELD d zo D
+	FIELD e SQRT_3 D
+	FIELD f F2 D
+	FIELD g G2 D
+	FIELD h p [I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/Random;)V
+	METHOD a getValue (DD)D
+	METHOD a getValue (DDD)D
+	METHOD a p (I)I
+	METHOD a getCornerNoise3D (IDDDD)D
+	METHOD a dot ([IDDD)D

@@ -1,0 +1,10 @@
+CLASS ahh net/minecraft/world/DifficultyInstance
+	FIELD a base Lahg;
+	FIELD b effectiveDifficulty F
+	METHOD <init> <init> (Lahg;JJF)V
+	METHOD a getDifficulty ()Lahg;
+	METHOD a isHarderThan (F)Z
+	METHOD a calculateDifficulty (Lahg;JJF)F
+	METHOD b getEffectiveDifficulty ()F
+	METHOD c isHard ()Z
+	METHOD d getSpecialMultiplier ()F

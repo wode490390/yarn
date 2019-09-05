@@ -1,0 +1,6 @@
+CLASS bcd net/minecraft/world/item/HorseArmorItem
+	FIELD a protection I
+	FIELD b texture Ljava/lang/String;
+	METHOD <init> <init> (ILjava/lang/String;Lbce$a;)V
+	METHOD d getTexture ()Lqv;
+	METHOD e getProtection ()I

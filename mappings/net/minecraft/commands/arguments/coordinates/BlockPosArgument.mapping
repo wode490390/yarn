@@ -1,0 +1,13 @@
+CLASS dj net/minecraft/commands/arguments/coordinates/BlockPosArgument
+	FIELD a ERROR_NOT_LOADED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_OUT_OF_WORLD Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a blockPos ()Ldj;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ldl;
+	METHOD a getLoadedBlockPos (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lew;
+	METHOD b getOrLoadBlockPos (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lew;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

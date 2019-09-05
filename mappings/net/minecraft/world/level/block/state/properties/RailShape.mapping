@@ -1,0 +1,23 @@
+CLASS bwx net/minecraft/world/level/block/state/properties/RailShape
+	FIELD a NORTH_SOUTH Lbwx;
+	FIELD b EAST_WEST Lbwx;
+	FIELD c ASCENDING_EAST Lbwx;
+	FIELD d ASCENDING_WEST Lbwx;
+	FIELD e ASCENDING_NORTH Lbwx;
+	FIELD f ASCENDING_SOUTH Lbwx;
+	FIELD g SOUTH_EAST Lbwx;
+	FIELD h SOUTH_WEST Lbwx;
+	FIELD i NORTH_WEST Lbwx;
+	FIELD j NORTH_EAST Lbwx;
+	FIELD k data I
+	FIELD l name Ljava/lang/String;
+	FIELD m $VALUES [Lbwx;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+	METHOD a getData ()I
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c isAscending ()Z
+	METHOD m getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbwx;
+	METHOD values values ()[Lbwx;

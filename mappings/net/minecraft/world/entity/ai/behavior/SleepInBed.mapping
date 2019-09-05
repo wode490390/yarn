@@ -1,0 +1,9 @@
+CLASS all net/minecraft/world/entity/ai/behavior/SleepInBed
+	FIELD a nextOkStartTime J
+	METHOD <init> <init> ()V
+	METHOD a timedOut (J)Z
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a lambda$start$0 (Lvk;Laix;Ljava/util/Set;)V
+	METHOD f stop (Lvk;Laix;J)V
+	METHOD g canStillUse (Lvk;Laix;J)Z

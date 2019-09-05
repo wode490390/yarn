@@ -1,0 +1,2 @@
+CLASS cek net/minecraft/world/level/levelgen/feature/SimulatedFeature
+	METHOD a simulate (Lve;Ljava/util/Random;Lew;Lcbo;)V

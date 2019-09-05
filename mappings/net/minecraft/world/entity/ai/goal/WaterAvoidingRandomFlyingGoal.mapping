@@ -1,0 +1,4 @@
+CLASS aor net/minecraft/world/entity/ai/goal/WaterAvoidingRandomFlyingGoal
+	METHOD <init> <init> (Laje;D)V
+	METHOD g getPosition ()Lcsi;
+	METHOD j getTreePos ()Lcsi;

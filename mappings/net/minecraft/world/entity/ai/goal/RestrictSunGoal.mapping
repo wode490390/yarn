@@ -1,0 +1,6 @@
+CLASS aoh net/minecraft/world/entity/ai/goal/RestrictSunGoal
+	FIELD a mob Laje;
+	METHOD <init> <init> (Laje;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

@@ -1,0 +1,33 @@
+CLASS aqx net/minecraft/world/entity/animal/AbstractFish
+	CLASS a FishMoveControl
+		FIELD i fish Laqx;
+		METHOD <init> <init> (Laqx;)V
+		METHOD a tick ()V
+	CLASS b FishSwimGoal
+		FIELD h fish Laqx;
+		METHOD <init> <init> (Laqx;)V
+		METHOD a canUse ()Z
+	FIELD b FROM_BUCKET Lqk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD I requiresCustomPersistence ()Z
+	METHOD a mobInteract (Lawg;Lahi;)Z
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD ai getSwimSound ()Lyo;
+	METHOD b checkFishSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD b getStandingEyeHeight (Lajh;Laip;)F
+	METHOD b createNavigation (Lbhr;)Lapp;
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c removeWhenFarAway (D)Z
+	METHOD cl registerAttributes ()V
+	METHOD dC getMaxSpawnClusterSize ()I
+	METHOD dV canRandomSwim ()Z
+	METHOD dW getFlopSound ()Lyo;
+	METHOD dX fromBucket ()Z
+	METHOD e travel (Lcsi;)V
+	METHOD i saveToBucketTag (Lbcj;)V
+	METHOD k aiStep ()V
+	METHOD l getBucketItemStack ()Lbcj;
+	METHOD n registerGoals ()V
+	METHOD r setFromBucket (Z)V
+	METHOD u_ defineSynchedData ()V

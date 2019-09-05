@@ -1,0 +1,36 @@
+CLASS crj net/minecraft/world/level/storage/loot/predicates/LootItemBlockStatePropertyCondition
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a block Lbmv;
+		FIELD b allowedProperties Ljava/util/Set;
+		FIELD c properties Ljava/util/Map;
+		METHOD <init> <init> (Lbmv;)V
+		METHOD a withProperty (Lbww;Ljava/lang/Comparable;)Lcrj$a;
+		METHOD build build ()Lcrk;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a lambda$null$2 (Lbmv;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/IllegalArgumentException;
+		METHOD a lambda$deserialize$3 (Lbvu;Lbmv;Ljava/util/Map;Ljava/util/Map$Entry;)V
+		METHOD a valueToString (Lbww;Ljava/lang/Object;)Ljava/lang/String;
+		METHOD a lambda$serialize$0 (Lcom/google/gson/JsonObject;Lbww;Ljava/lang/Object;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrj;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrj;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$1 (Lqv;)Ljava/lang/IllegalArgumentException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a block Lbmv;
+	FIELD b properties Ljava/util/Map;
+	FIELD c composedPredicate Ljava/util/function/Predicate;
+	METHOD <init> <init> (Lbmv;Ljava/util/Map;)V
+	METHOD <init> <init> (Lbmv;Ljava/util/Map;Lcrj$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a hasBlockStateProperties (Lbmv;)Lcrj$a;
+	METHOD a lambda$bakePredicate$2 (Lbmv;Lbvt;)Z
+	METHOD a lambda$bakePredicate$1 (Lbmv;Ljava/lang/Object;Lbww;Lbvt;)Z
+	METHOD a bakePredicate (Lbmv;Ljava/util/Map;)Ljava/util/function/Predicate;
+	METHOD a test (Lcoy;)Z
+	METHOD a access$100 (Lcrj;)Lbmv;
+	METHOD a lambda$bakePredicate$3 (Ljava/lang/Object;Lbww;Lbvt;)Z
+	METHOD b lambda$bakePredicate$0 (Lbmv;Lbvt;)Z
+	METHOD b access$200 (Lcrj;)Ljava/util/Map;
+	METHOD test test (Ljava/lang/Object;)Z

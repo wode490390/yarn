@@ -1,0 +1,6 @@
+CLASS bsa net/minecraft/world/level/block/SpongeBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a tryAbsorbWater (Lbhr;Lew;)V
+	METHOD a neighborChanged (Lbvt;Lbhr;Lew;Lbmv;Lew;Z)V
+	METHOD b removeWaterBreadthFirstSearch (Lbhr;Lew;)Z
+	METHOD b onPlace (Lbvt;Lbhr;Lew;Lbvt;Z)V

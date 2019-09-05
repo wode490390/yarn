@@ -1,0 +1,18 @@
+CLASS avr net/minecraft/world/entity/npc/ClientSideMerchant
+	FIELD a container Lazm;
+	FIELD b source Lawg;
+	FIELD c offers Lbgv;
+	FIELD d xp I
+	METHOD <init> <init> (Lawg;)V
+	METHOD a getContainer ()Lahc;
+	METHOD a notifyTrade (Lbgu;)V
+	METHOD a overrideOffers (Lbgv;)V
+	METHOD dW getVillagerXp ()I
+	METHOD dX getTradingPlayer ()Lawg;
+	METHOD dZ getOffers ()Lbgv;
+	METHOD e setTradingPlayer (Lawg;)V
+	METHOD ea showProgressBar ()Z
+	METHOD eb getNotifyTradeSound ()Lyo;
+	METHOD eg getLevel ()Lbhr;
+	METHOD i notifyTradeUpdated (Lbcj;)V
+	METHOD s overrideXp (I)V

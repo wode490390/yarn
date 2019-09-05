@@ -1,0 +1,3 @@
+CLASS bal net/minecraft/world/item/BedItem
+	METHOD <init> <init> (Lbmv;Lbce$a;)V
+	METHOD a placeBlock (Lban;Lbvt;)Z

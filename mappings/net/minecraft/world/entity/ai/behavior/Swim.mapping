@@ -1,0 +1,10 @@
+CLASS alq net/minecraft/world/entity/ai/behavior/Swim
+	FIELD a height F
+	FIELD b chance F
+	METHOD <init> <init> (FF)V
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a checkExtraStartConditions (Lvk;Laiy;)Z
+	METHOD a canStillUse (Lvk;Laiy;J)Z
+	METHOD b tick (Lvk;Laiy;J)V
+	METHOD d tick (Lvk;Laix;J)V
+	METHOD g canStillUse (Lvk;Laix;J)Z

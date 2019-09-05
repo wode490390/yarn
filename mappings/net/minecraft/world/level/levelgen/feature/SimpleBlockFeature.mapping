@@ -1,0 +1,4 @@
+CLASS ceh net/minecraft/world/level/levelgen/feature/SimpleBlockFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lceg;)Z

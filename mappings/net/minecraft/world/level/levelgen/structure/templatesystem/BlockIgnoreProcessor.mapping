@@ -1,0 +1,13 @@
+CLASS cjc net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor
+	FIELD a STRUCTURE_BLOCK Lcjc;
+	FIELD b AIR Lcjc;
+	FIELD c STRUCTURE_AND_AIR Lcjc;
+	FIELD d toIgnore Lcom/google/common/collect/ImmutableList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a getType ()Lcjs;
+	METHOD a processBlock (Lbhu;Lew;Lcjt$b;Lcjt$b;Lcjq;)Lcjt$b;
+	METHOD a lambda$new$0 (Lcom/mojang/datafixers/Dynamic;)Lbmv;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$getDynamic$1 (Lcom/mojang/datafixers/types/DynamicOps;Lbmv;)Ljava/lang/Object;

@@ -1,0 +1,17 @@
+CLASS axo net/minecraft/world/entity/schedule/Activity
+	FIELD a CORE Laxo;
+	FIELD b IDLE Laxo;
+	FIELD c WORK Laxo;
+	FIELD d PLAY Laxo;
+	FIELD e REST Laxo;
+	FIELD f MEET Laxo;
+	FIELD g PANIC Laxo;
+	FIELD h RAID Laxo;
+	FIELD i PRE_RAID Laxo;
+	FIELD j HIDE Laxo;
+	FIELD k name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a register (Ljava/lang/String;)Laxo;
+	METHOD toString toString ()Ljava/lang/String;

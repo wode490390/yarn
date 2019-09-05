@@ -1,0 +1,25 @@
+CLASS lf net/minecraft/network/protocol/game/ClientboundCustomPayloadPacket
+	FIELD a BRAND Lqv;
+	FIELD b DEBUG_PATHFINDING_PACKET Lqv;
+	FIELD c DEBUG_NEIGHBORSUPDATE_PACKET Lqv;
+	FIELD d DEBUG_CAVES_PACKET Lqv;
+	FIELD e DEBUG_STRUCTURES_PACKET Lqv;
+	FIELD f DEBUG_WORLDGENATTEMPT_PACKET Lqv;
+	FIELD g DEBUG_POI_TICKET_COUNT_PACKET Lqv;
+	FIELD h DEBUG_POI_ADDED_PACKET Lqv;
+	FIELD i DEBUG_POI_REMOVED_PACKET Lqv;
+	FIELD j DEBUG_VILLAGE_SECTIONS Lqv;
+	FIELD k DEBUG_GOAL_SELECTOR Lqv;
+	FIELD l DEBUG_BRAIN Lqv;
+	FIELD m DEBUG_RAIDS Lqv;
+	FIELD n identifier Lqv;
+	FIELD o data Lje;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lqv;Lje;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getIdentifier ()Lqv;
+	METHOD b write (Lje;)V
+	METHOD c getData ()Lje;

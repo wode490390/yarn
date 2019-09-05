@@ -1,0 +1,14 @@
+CLASS bqw net/minecraft/world/level/block/RailBlock
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$state$properties$RailShape [I
+		FIELD b $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		FIELD c $SwitchMap$net$minecraft$world$level$block$Mirror [I
+		METHOD <clinit> <clinit> ()V
+	FIELD c SHAPE Lbwr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a updateState (Lbvt;Lbhr;Lew;Lbmv;)V
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD e getShapeProperty ()Lbww;

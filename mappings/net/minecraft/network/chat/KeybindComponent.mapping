@@ -1,0 +1,14 @@
+CLASS js net/minecraft/network/chat/KeybindComponent
+	FIELD b keyResolver Ljava/util/function/Function;
+	FIELD c name Ljava/lang/String;
+	FIELD d nameResolver Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD b lambda$static$1 (Ljava/lang/String;)Ljava/util/function/Supplier;
+	METHOD c lambda$null$0 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD d getContents ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD g copy ()Ljo;
+	METHOD i copy ()Ljs;
+	METHOD j getName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;

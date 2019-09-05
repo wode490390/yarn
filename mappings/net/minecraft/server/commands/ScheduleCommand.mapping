@@ -1,0 +1,10 @@
+CLASS th net/minecraft/server/commands/ScheduleCommand
+	FIELD a ERROR_SAME_TICK Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a lambda$schedule$2 (Lcd;JILca;)V
+	METHOD a lambda$schedule$3 (Lcd;JILzg;)V
+	METHOD a schedule (Lcd;Lcom/mojang/datafixers/util/Either;I)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

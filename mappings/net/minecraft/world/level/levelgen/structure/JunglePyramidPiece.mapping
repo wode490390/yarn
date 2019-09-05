@@ -1,0 +1,16 @@
+CLASS cih net/minecraft/world/level/levelgen/structure/JunglePyramidPiece
+	CLASS 1 1
+	CLASS a MossStoneSelector
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcih$1;)V
+		METHOD a next (Ljava/util/Random;IIIZ)V
+	FIELD e placedMainChest Z
+	FIELD f placedHiddenChest Z
+	FIELD g placedTrap1 Z
+	FIELD h placedTrap2 Z
+	FIELD i STONE_SELECTOR Lcih$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjp;Lid;)V
+	METHOD <init> <init> (Ljava/util/Random;II)V
+	METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+	METHOD a addAdditionalSaveData (Lid;)V

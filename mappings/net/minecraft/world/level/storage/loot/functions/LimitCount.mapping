@@ -1,0 +1,16 @@
+CLASS cqf net/minecraft/world/level/storage/loot/functions/LimitCount
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqf;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqf;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a limiter Lcox;
+	METHOD <init> <init> ([Lcrk;Lcox;)V
+	METHOD <init> <init> ([Lcrk;Lcox;Lcqf$1;)V
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a limitCount (Lcox;)Lcqg$a;
+	METHOD a lambda$limitCount$0 (Lcox;[Lcrk;)Lcqh;
+	METHOD a access$000 (Lcqf;)Lcox;

@@ -1,0 +1,9 @@
+CLASS nx net/minecraft/network/protocol/game/ServerboundChangeDifficultyPacket
+	FIELD a difficulty Lahg;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lahg;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getDifficulty ()Lahg;
+	METHOD b write (Lje;)V

@@ -1,0 +1,17 @@
+CLASS cet net/minecraft/world/level/levelgen/feature/StrongholdFeature
+	CLASS a StrongholdStart
+		METHOD <init> <init> (Lceu;IILbio;Lcic;IJ)V
+		METHOD a generatePieces (Lbxi;Lcjp;IILbio;)V
+	FIELD aS strongholdPos [Lbhd;
+	FIELD aT discoveredStarts Ljava/util/List;
+	FIELD aU currentSeed J
+	FIELD a isSpotSelected Z
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lceu$a;
+	METHOD a getNearestGeneratedFeature (Lbhr;Lbxi;Lew;IZ)Lew;
+	METHOD a generatePositions (Lbxi;)V
+	METHOD a isFeatureChunk (Lbxi;Ljava/util/Random;II)Z
+	METHOD a access$000 (Lcet;)Ljava/util/List;
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD c getLookupRange ()I
+	METHOD d reset ()V

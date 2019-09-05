@@ -1,0 +1,9 @@
+CLASS bmp net/minecraft/world/level/block/BeaconBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getColor ()Lbbg;
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a setPlacedBy (Lbhr;Lew;Lbvt;Laix;Lbcj;)V
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD c getRenderLayer ()Lbhc;
+	METHOD c getRenderShape (Lbvt;)Lbrd;
+	METHOD d isRedstoneConductor (Lbvt;Lbhb;Lew;)Z

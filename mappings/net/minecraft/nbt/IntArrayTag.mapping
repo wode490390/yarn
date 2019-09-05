@@ -1,11 +1,32 @@
-CLASS net/minecraft/class_2495 net/minecraft/nbt/IntArrayTag
-	FIELD field_11524 value [I
-	METHOD add (ILjava/lang/Object;)V
-		ARG 1 value
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
-	METHOD method_10588 getIntArray ()[I
-	METHOD method_10590 toArray (Ljava/util/List;)[I
-		ARG 0 list
-	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
-		ARG 1 index
+CLASS ii net/minecraft/nbt/IntArrayTag
+	FIELD f data [I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD <init> <init> ([I)V
+	METHOD a getId ()B
+	METHOD a get (I)Lij;
+	METHOD a set (ILij;)Lij;
+	METHOD a setTag (ILiu;)Z
+	METHOD a load (Ljava/io/DataInput;ILin;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Ljo;
+	METHOD a toArray (Ljava/util/List;)[I
+	METHOD a_ getElementType ()I
+	METHOD add add (ILjava/lang/Object;)V
+	METHOD b copy ()Liu;
+	METHOD b remove (I)Lij;
+	METHOD b add (ILij;)V
+	METHOD b addTag (ILiu;)Z
+	METHOD c copy ()Lii;
+	METHOD c remove (I)Liu;
+	METHOD c add (ILiu;)V
+	METHOD clear clear ()V
+	METHOD d set (ILiu;)Liu;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getAsIntArray ()[I
+	METHOD get get (I)Ljava/lang/Object;
+	METHOD hashCode hashCode ()I
+	METHOD remove remove (I)Ljava/lang/Object;
+	METHOD set set (ILjava/lang/Object;)Ljava/lang/Object;
+	METHOD size size ()I
+	METHOD toString toString ()Ljava/lang/String;

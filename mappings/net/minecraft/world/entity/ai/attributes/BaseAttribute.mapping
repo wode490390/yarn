@@ -1,0 +1,13 @@
+CLASS ajq net/minecraft/world/entity/ai/attributes/BaseAttribute
+	FIELD a parent Lajn;
+	FIELD b name Ljava/lang/String;
+	FIELD c defaultValue D
+	FIELD d syncable Z
+	METHOD <init> <init> (Lajn;Ljava/lang/String;D)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a setSyncable (Z)Lajq;
+	METHOD b getDefaultValue ()D
+	METHOD c isClientSyncable ()Z
+	METHOD d getParentAttribute ()Lajn;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

@@ -1,0 +1,15 @@
+CLASS ww net/minecraft/server/packs/repository/PackCompatibility
+	FIELD a TOO_OLD Lww;
+	FIELD b TOO_NEW Lww;
+	FIELD c COMPATIBLE Lww;
+	FIELD d description Ljo;
+	FIELD e confirmation Ljo;
+	FIELD f $VALUES [Lww;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a isCompatible ()Z
+	METHOD a forFormat (I)Lww;
+	METHOD b getDescription ()Ljo;
+	METHOD c getConfirmation ()Ljo;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lww;
+	METHOD values values ()[Lww;

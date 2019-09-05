@@ -1,0 +1,8 @@
+CLASS cgy net/minecraft/world/level/levelgen/placement/DecoratorNoiseCountFactor
+	FIELD a noiseToCountRatio I
+	FIELD b noiseFactor D
+	FIELD c noiseOffset D
+	FIELD d heightmap Lbza$a;
+	METHOD <init> <init> (IDDLbza$a;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcgy;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

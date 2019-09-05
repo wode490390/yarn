@@ -1,0 +1,20 @@
+CLASS crl net/minecraft/world/level/storage/loot/predicates/LootItemConditions
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+		METHOD a serialize (Lcrk;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+	FIELD a CONDITIONS_BY_NAME Ljava/util/Map;
+	FIELD b CONDITIONS_BY_CLASS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcrk$b;)V
+	METHOD a getSerializer (Lcrk;)Lcrk$b;
+	METHOD a lambda$orConditions$2 (Ljava/lang/Object;)Z
+	METHOD a getSerializer (Lqv;)Lcrk$b;
+	METHOD a andConditions ([Ljava/util/function/Predicate;)Ljava/util/function/Predicate;
+	METHOD a lambda$orConditions$3 ([Ljava/util/function/Predicate;Ljava/lang/Object;)Z
+	METHOD b lambda$andConditions$0 (Ljava/lang/Object;)Z
+	METHOD b orConditions ([Ljava/util/function/Predicate;)Ljava/util/function/Predicate;
+	METHOD b lambda$andConditions$1 ([Ljava/util/function/Predicate;Ljava/lang/Object;)Z

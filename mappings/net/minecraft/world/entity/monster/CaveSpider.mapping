@@ -1,0 +1,6 @@
+CLASS aud net/minecraft/world/entity/monster/CaveSpider
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD C doHurtTarget (Laio;)Z
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD b getStandingEyeHeight (Lajh;Laip;)F
+	METHOD cl registerAttributes ()V

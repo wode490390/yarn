@@ -1,0 +1,19 @@
+CLASS ayw net/minecraft/world/inventory/CraftingContainer
+	FIELD a items Lfk;
+	FIELD b width I
+	FIELD c height I
+	FIELD d menu Layk;
+	METHOD <init> <init> (Layk;II)V
+	METHOD L_ clearContent ()V
+	METHOD M_ getContainerSize ()I
+	METHOD a getItem (I)Lbcj;
+	METHOD a removeItem (II)Lbcj;
+	METHOD a setItem (ILbcj;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a fillStackedContents (Lawi;)V
+	METHOD b removeItemNoUpdate (I)Lbcj;
+	METHOD b getItem (II)Lbcj;
+	METHOD c isEmpty ()Z
+	METHOD e setChanged ()V
+	METHOD f getHeight ()I
+	METHOD g getWidth ()I

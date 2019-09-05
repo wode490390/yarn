@@ -1,0 +1,21 @@
+CLASS cii net/minecraft/world/level/levelgen/structure/LegacyStructureDataHandler
+	FIELD a CURRENT_TO_LEGACY_MAP Ljava/util/Map;
+	FIELD b LEGACY_TO_CURRENT_MAP Ljava/util/Map;
+	FIELD c hasLegacyData Z
+	FIELD d dataMap Ljava/util/Map;
+	FIELD e indexMap Ljava/util/Map;
+	FIELD f legacyKeys Ljava/util/List;
+	FIELD g currentKeys Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcol;Ljava/util/List;Ljava/util/List;)V
+	METHOD a isUnhandledStructureStart (II)Z
+	METHOD a hasLegacyStart (IILjava/lang/String;)Z
+	METHOD a removeIndex (J)V
+	METHOD a getLegacyStructureHandler (Lbyn;Lcol;)Lcii;
+	METHOD a populateCaches (Lcol;)V
+	METHOD a updateFromLegacy (Lid;)Lid;
+	METHOD a updateStructureStart (Lid;Lbhd;)Lid;
+	METHOD a lambda$populateCaches$3 (Ljava/lang/String;)Lciu;
+	METHOD a lambda$static$1 (Ljava/util/HashMap;)V
+	METHOD b lambda$populateCaches$2 (Ljava/lang/String;)Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
+	METHOD b lambda$static$0 (Ljava/util/HashMap;)V

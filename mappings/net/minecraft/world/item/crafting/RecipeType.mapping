@@ -1,0 +1,14 @@
+CLASS beu net/minecraft/world/item/crafting/RecipeType
+	CLASS 1 1
+		FIELD g val$name Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD toString toString ()Ljava/lang/String;
+	FIELD a CRAFTING Lbeu;
+	FIELD b SMELTING Lbeu;
+	FIELD c BLASTING Lbeu;
+	FIELD d SMOKING Lbeu;
+	FIELD e CAMPFIRE_COOKING Lbeu;
+	FIELD f STONECUTTING Lbeu;
+	METHOD <clinit> <clinit> ()V
+	METHOD a tryMatch (Lber;Lbhr;Lahc;)Ljava/util/Optional;
+	METHOD a register (Ljava/lang/String;)Lbeu;

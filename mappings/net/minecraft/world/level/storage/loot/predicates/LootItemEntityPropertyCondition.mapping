@@ -1,0 +1,20 @@
+CLASS crm net/minecraft/world/level/storage/loot/predicates/LootItemEntityPropertyCondition
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrm;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a predicate Lav;
+	FIELD b entityTarget Lcoy$c;
+	METHOD <init> <init> (Lav;Lcoy$c;)V
+	METHOD <init> <init> (Lav;Lcoy$c;Lcrm$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a lambda$hasProperties$0 (Lav$a;Lcoy$c;)Lcrk;
+	METHOD a entityPresent (Lcoy$c;)Lcrk$a;
+	METHOD a hasProperties (Lcoy$c;Lav$a;)Lcrk$a;
+	METHOD a test (Lcoy;)Z
+	METHOD a access$000 (Lcrm;)Lav;
+	METHOD b access$100 (Lcrm;)Lcoy$c;
+	METHOD test test (Ljava/lang/Object;)Z

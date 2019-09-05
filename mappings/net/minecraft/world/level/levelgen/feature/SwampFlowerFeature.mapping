@@ -1,0 +1,3 @@
+CLASS cew net/minecraft/world/level/levelgen/feature/SwampFlowerFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getRandomFlower (Ljava/util/Random;Lew;)Lbvt;

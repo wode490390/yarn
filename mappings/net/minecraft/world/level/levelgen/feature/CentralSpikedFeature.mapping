@@ -1,0 +1,5 @@
+CLASS caj net/minecraft/world/level/levelgen/feature/CentralSpikedFeature
+	FIELD a blockState Lbvt;
+	METHOD <init> <init> (Ljava/util/function/Function;Lbvt;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcdd;)Z

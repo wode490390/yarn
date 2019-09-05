@@ -1,0 +1,7 @@
+CLASS bpe net/minecraft/world/level/block/GrassBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a isValidBonemealTarget (Lbhb;Lew;Lbvt;Z)Z
+	METHOD a isBonemealSuccess (Lbhr;Ljava/util/Random;Lew;Lbvt;)Z
+	METHOD b performBonemeal (Lbhr;Ljava/util/Random;Lew;Lbvt;)V
+	METHOD c getRenderLayer ()Lbhc;
+	METHOD f canOcclude (Lbvt;)Z

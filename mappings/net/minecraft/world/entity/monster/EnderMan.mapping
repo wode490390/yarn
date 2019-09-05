@@ -1,0 +1,66 @@
+CLASS aui net/minecraft/world/entity/monster/EnderMan
+	CLASS a EndermanFreezeWhenLookedAt
+		FIELD a enderman Laui;
+		METHOD <init> <init> (Laui;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+	CLASS b EndermanLeaveBlockGoal
+		FIELD a enderman Laui;
+		METHOD <init> <init> (Laui;)V
+		METHOD a canUse ()Z
+		METHOD a canPlaceBlock (Lbhu;Lew;Lbvt;Lbvt;Lbvt;Lew;)Z
+		METHOD e tick ()V
+	CLASS c EndermanLookForPlayerGoal
+		FIELD i enderman Laui;
+		FIELD j pendingTarget Lawg;
+		FIELD k aggroTime I
+		FIELD l teleportTime I
+		FIELD m startAggroTargetConditions Laqi;
+		FIELD n continueAggroTargetConditions Laqi;
+		METHOD <init> <init> (Laui;)V
+		METHOD a canUse ()Z
+		METHOD a lambda$new$0 (Laui;Laix;)Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS d EndermanTakeBlockGoal
+		FIELD a enderman Laui;
+		METHOD <init> <init> (Laui;)V
+		METHOD a canUse ()Z
+		METHOD e tick ()V
+	FIELD bA ENDERMITE_SELECTOR Ljava/util/function/Predicate;
+	FIELD bB lastCreepySound I
+	FIELD bC targetChangeTime I
+	FIELD b SPEED_MODIFIER_ATTACKING_UUID Ljava/util/UUID;
+	FIELD bz DATA_CREEPY Lqk;
+	FIELD c SPEED_MODIFIER_ATTACKING Lajp;
+	FIELD d DATA_CARRY_STATE Lqk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD L customServerAiStep ()V
+	METHOD a hurt (Lahx;F)Z
+	METHOD a dropCustomDeathLoot (Lahx;IZ)V
+	METHOD a teleportTowards (Laio;)Z
+	METHOD a access$100 (Laui;Laio;)Z
+	METHOD a access$000 (Laui;Lawg;)Z
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD a onSyncedDataUpdated (Lqk;)V
+	METHOD b getStandingEyeHeight (Lajh;Laip;)F
+	METHOD b setCarriedBlock (Lbvt;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cl registerAttributes ()V
+	METHOD dV teleport ()Z
+	METHOD dW getCarriedBlock ()Lbvt;
+	METHOD dX isCreepy ()Z
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD f isLookingAtMe (Lawg;)Z
+	METHOD g setTarget (Laix;)V
+	METHOD h lambda$static$0 (Laix;)Z
+	METHOD k aiStep ()V
+	METHOD l playCreepySound ()V
+	METHOD l teleport (DDD)Z
+	METHOD n registerGoals ()V
+	METHOD u_ defineSynchedData ()V

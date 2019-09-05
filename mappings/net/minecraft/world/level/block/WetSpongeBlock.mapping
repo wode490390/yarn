@@ -1,0 +1,3 @@
+CLASS bth net/minecraft/world/level/block/WetSpongeBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a animateTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V

@@ -1,0 +1,44 @@
+CLASS av net/minecraft/advancements/critereon/EntityPredicate
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a entityType Law;
+		FIELD b distanceToPlayer Lan;
+		FIELD c location Lbg;
+		FIELD d effects Lbj;
+		FIELD e nbt Lbk;
+		FIELD f flags Lat;
+		FIELD g equipment Las;
+		FIELD h catType Lqv;
+		METHOD <init> <init> ()V
+		METHOD a entity ()Lav$a;
+		METHOD a of (Lais;)Lav$a;
+		METHOD a distance (Lan;)Lav$a;
+		METHOD a equipment (Las;)Lav$a;
+		METHOD a flags (Lat;)Lav$a;
+		METHOD a entityType (Law;)Lav$a;
+		METHOD a located (Lbg;)Lav$a;
+		METHOD a effects (Lbj;)Lav$a;
+		METHOD a nbt (Lbk;)Lav$a;
+		METHOD a of (Lqv;)Lav$a;
+		METHOD a of (Lzg;)Lav$a;
+		METHOD b build ()Lav;
+		METHOD b catType (Lqv;)Lav$a;
+	FIELD a ANY Lav;
+	FIELD b ANY_ARRAY [Lav;
+	FIELD c entityType Law;
+	FIELD d distanceToPlayer Lan;
+	FIELD e location Lbg;
+	FIELD f effects Lbj;
+	FIELD g nbt Lbk;
+	FIELD h flags Lat;
+	FIELD i equipment Las;
+	FIELD j catType Lqv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Law;Lan;Lbg;Lbj;Lbk;Lat;Las;Lqv;)V
+	METHOD <init> <init> (Law;Lan;Lbg;Lbj;Lbk;Lat;Las;Lqv;Lav$1;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lav;
+	METHOD a matches (Lvk;Lcsi;Laio;)Z
+	METHOD a matches (Lvl;Laio;)Z
+	METHOD a serializeArrayToJson ([Lav;)Lcom/google/gson/JsonElement;
+	METHOD b fromJsonArray (Lcom/google/gson/JsonElement;)[Lav;

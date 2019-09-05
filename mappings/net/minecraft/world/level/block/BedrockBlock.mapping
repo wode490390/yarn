@@ -1,0 +1,3 @@
+CLASS bmr net/minecraft/world/level/block/BedrockBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a isValidSpawn (Lbvt;Lbhb;Lew;Lais;)Z

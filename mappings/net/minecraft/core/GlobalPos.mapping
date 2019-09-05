@@ -1,0 +1,15 @@
+CLASS fd net/minecraft/core/GlobalPos
+	FIELD a dimension Lbyn;
+	FIELD b pos Lew;
+	METHOD <init> <init> (Lbyn;Lew;)V
+	METHOD a dimension ()Lbyn;
+	METHOD a of (Lbyn;Lew;)Lfd;
+	METHOD a of (Lcom/mojang/datafixers/Dynamic;)Lfd;
+	METHOD a lambda$of$1 (Lcom/mojang/datafixers/Dynamic;Lbyn;)Ljava/util/Optional;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD b pos ()Lew;
+	METHOD b lambda$null$0 (Lbyn;Lew;)Lfd;
+	METHOD c lambda$of$2 ()Ljava/lang/IllegalArgumentException;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

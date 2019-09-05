@@ -1,0 +1,13 @@
+CLASS asr net/minecraft/world/entity/boss/enderdragon/phases/AbstractDragonPhaseInstance
+	FIELD a dragon Lasp;
+	METHOD <init> <init> (Lasp;)V
+	METHOD a isSitting ()Z
+	METHOD a onHurt (Lahx;F)F
+	METHOD a onCrystalDestroyed (Laso;Lew;Lahx;Lawg;)V
+	METHOD b doClientTick ()V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD e end ()V
+	METHOD f getFlySpeed ()F
+	METHOD g getFlyTargetLocation ()Lcsi;
+	METHOD h getTurnSpeed ()F

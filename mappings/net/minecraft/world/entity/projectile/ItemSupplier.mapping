@@ -1,0 +1,2 @@
+CLASS aws net/minecraft/world/entity/projectile/ItemSupplier
+	METHOD f getItem ()Lbcj;

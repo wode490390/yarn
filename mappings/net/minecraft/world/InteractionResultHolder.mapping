@@ -1,0 +1,6 @@
+CLASS ahk net/minecraft/world/InteractionResultHolder
+	FIELD a result Lahj;
+	FIELD b object Ljava/lang/Object;
+	METHOD <init> <init> (Lahj;Ljava/lang/Object;)V
+	METHOD a getResult ()Lahj;
+	METHOD b getObject ()Ljava/lang/Object;

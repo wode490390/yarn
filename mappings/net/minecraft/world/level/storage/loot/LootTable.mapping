@@ -1,0 +1,45 @@
+CLASS cpb net/minecraft/world/level/storage/loot/LootTable
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a pools Ljava/util/List;
+		FIELD b functions Ljava/util/List;
+		FIELD c paramSet Lcqx;
+		METHOD <init> <init> ()V
+		METHOD a unwrap ()Lcpb$a;
+		METHOD a withPool (Lcpa$a;)Lcpb$a;
+		METHOD a apply (Lcqh$a;)Lcpb$a;
+		METHOD a setParamSet (Lcqx;)Lcpb$a;
+		METHOD b build ()Lcpb;
+		METHOD b apply (Lcqh$a;)Ljava/lang/Object;
+		METHOD c unwrap ()Ljava/lang/Object;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcpb;
+		METHOD a serialize (Lcpb;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+	FIELD a EMPTY Lcpb;
+	FIELD b DEFAULT_PARAM_SET Lcqx;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d paramSet Lcqx;
+	FIELD e pools [Lcpa;
+	FIELD f functions [Lcqh;
+	FIELD g compositeFunction Ljava/util/function/BiFunction;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcqx;[Lcpa;[Lcqh;)V
+	METHOD <init> <init> (Lcqx;[Lcpa;[Lcqh;Lcpb$1;)V
+	METHOD a getParamSet ()Lcqx;
+	METHOD a fill (Lahc;Lcoy;)V
+	METHOD a getAvailableSlots (Lahc;Ljava/util/Random;)Ljava/util/List;
+	METHOD a getRandomItems (Lcoy;)Ljava/util/List;
+	METHOD a getRandomItemsRaw (Lcoy;Ljava/util/function/Consumer;)V
+	METHOD a access$100 (Lcpb;)Lcqx;
+	METHOD a validate (Lcpc;Ljava/util/function/Function;Ljava/util/Set;Lcqx;)V
+	METHOD a shuffleAndSplitItems (Ljava/util/List;ILjava/util/Random;)V
+	METHOD a createStackSplitter (Ljava/util/function/Consumer;)Ljava/util/function/Consumer;
+	METHOD a lambda$createStackSplitter$0 (Ljava/util/function/Consumer;Lbcj;)V
+	METHOD b lootTable ()Lcpb$a;
+	METHOD b getRandomItems (Lcoy;Ljava/util/function/Consumer;)V
+	METHOD b access$300 (Lcpb;)[Lcpa;
+	METHOD c access$200 ()Lorg/apache/logging/log4j/Logger;
+	METHOD c access$400 (Lcpb;)[Lcqh;

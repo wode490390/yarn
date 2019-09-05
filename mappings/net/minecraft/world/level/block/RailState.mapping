@@ -1,0 +1,24 @@
+CLASS bqx net/minecraft/world/level/block/RailState
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$state$properties$RailShape [I
+		METHOD <clinit> <clinit> ()V
+	FIELD a level Lbhr;
+	FIELD b pos Lew;
+	FIELD c block Lbmn;
+	FIELD d state Lbvt;
+	FIELD e isStraight Z
+	FIELD f connections Ljava/util/List;
+	METHOD <init> <init> (Lbhr;Lew;Lbvt;)V
+	METHOD a getConnections ()Ljava/util/List;
+	METHOD a connectsTo (Lbqx;)Z
+	METHOD a updateConnections (Lbwx;)V
+	METHOD a hasRail (Lew;)Z
+	METHOD a place (ZZ)Lbqx;
+	METHOD b countPotentialConnections ()I
+	METHOD b canConnectTo (Lbqx;)Z
+	METHOD b getRail (Lew;)Lbqx;
+	METHOD c getState ()Lbvt;
+	METHOD c connectTo (Lbqx;)V
+	METHOD c hasConnection (Lew;)Z
+	METHOD d removeSoftConnections ()V
+	METHOD d hasNeighborRail (Lew;)Z

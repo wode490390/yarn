@@ -1,0 +1,5 @@
+CLASS ckx net/minecraft/world/level/lighting/FlatDataLayer
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbxn;I)V
+	METHOD a getData ()[B
+	METHOD b getIndex (III)I

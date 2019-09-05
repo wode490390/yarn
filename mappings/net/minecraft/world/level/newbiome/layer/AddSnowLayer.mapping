@@ -1,0 +1,8 @@
+CLASS cmf net/minecraft/world/level/newbiome/layer/AddSnowLayer
+	FIELD a INSTANCE Lcmf;
+	FIELD b $VALUES [Lcmf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcly;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmf;
+	METHOD values values ()[Lcmf;

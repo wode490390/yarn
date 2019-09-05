@@ -1,0 +1,3 @@
+CLASS bkw net/minecraft/world/level/biome/SmallEndIslandsBiome
+	METHOD <init> <init> ()V
+	METHOD a getSkyColor (F)I

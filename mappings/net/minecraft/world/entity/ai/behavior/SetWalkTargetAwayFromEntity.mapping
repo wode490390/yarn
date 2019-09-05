@@ -1,0 +1,9 @@
+CLASS alh net/minecraft/world/entity/ai/behavior/SetWalkTargetAwayFromEntity
+	FIELD a memory Lapj;
+	FIELD b speed F
+	METHOD <init> <init> (Lapj;F)V
+	METHOD a moveAwayFromMob (Laje;Laio;F)V
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a checkExtraStartConditions (Lvk;Laje;)Z
+	METHOD a start (Lvk;Laje;J)V

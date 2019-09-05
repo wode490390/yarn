@@ -1,0 +1,11 @@
+CLASS ne net/minecraft/network/protocol/game/ClientboundSetTimePacket
+	FIELD a gameTime J
+	FIELD b dayTime J
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (JJZ)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getGameTime ()J
+	METHOD b write (Lje;)V
+	METHOD c getDayTime ()J

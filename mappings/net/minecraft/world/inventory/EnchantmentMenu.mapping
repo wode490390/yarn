@@ -1,0 +1,34 @@
+CLASS aza net/minecraft/world/inventory/EnchantmentMenu
+	CLASS 1 1
+		FIELD a this$0 Laza;
+		METHOD <init> <init> (Laza;I)V
+		METHOD e setChanged ()V
+	CLASS 2 2
+		FIELD a this$0 Laza;
+		METHOD <init> <init> (Laza;Lahc;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbcj;)Z
+	CLASS 3 3
+		FIELD a this$0 Laza;
+		METHOD <init> <init> (Laza;Lahc;III)V
+		METHOD a mayPlace (Lbcj;)Z
+	FIELD c costs [I
+	FIELD d enchantClue [I
+	FIELD e levelClue [I
+	FIELD f enchantSlots Lahc;
+	FIELD g access Layu;
+	FIELD h random Ljava/util/Random;
+	FIELD i enchantmentSeed Layy;
+	METHOD <init> <init> (ILawf;)V
+	METHOD <init> <init> (ILawf;Layu;)V
+	METHOD a slotsChanged (Lahc;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a clickMenuButton (Lawg;I)Z
+	METHOD a lambda$removed$2 (Lawg;Lbhr;Lew;)V
+	METHOD a getEnchantmentList (Lbcj;II)Ljava/util/List;
+	METHOD a lambda$clickMenuButton$1 (Lbcj;ILawg;ILbcj;Lbhr;Lew;)V
+	METHOD a lambda$slotsChanged$0 (Lbcj;Lbhr;Lew;)V
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;
+	METHOD e getGoldCount ()I
+	METHOD f getEnchantmentSeed ()I

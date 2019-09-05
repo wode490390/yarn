@@ -1,0 +1,13 @@
+CLASS crk net/minecraft/world/level/storage/loot/predicates/LootItemCondition
+	CLASS a Builder
+		METHOD a invert ()Lcrk$a;
+		METHOD a or (Lcrk$a;)Lcrb$a;
+		METHOD build build ()Lcrk;
+	CLASS b Serializer
+		FIELD a name Lqv;
+		FIELD b clazz Ljava/lang/Class;
+		METHOD <init> <init> (Lqv;Ljava/lang/Class;)V
+		METHOD a getName ()Lqv;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getPredicateClass ()Ljava/lang/Class;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;

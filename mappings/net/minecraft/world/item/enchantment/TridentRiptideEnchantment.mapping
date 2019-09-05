@@ -1,0 +1,6 @@
+CLASS bgm net/minecraft/world/item/enchantment/TridentRiptideEnchantment
+	METHOD <init> <init> (Lbfs$a;[Lait;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a checkCompatibility (Lbfs;)Z
+	METHOD b getMaxCost (I)I

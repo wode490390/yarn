@@ -1,0 +1,19 @@
+CLASS oe net/minecraft/network/protocol/game/ServerboundContainerClickPacket
+	FIELD a containerId I
+	FIELD b slotNum I
+	FIELD c buttonNum I
+	FIELD d uid S
+	FIELD e itemStack Lbcj;
+	FIELD f clickType Lays;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IIILays;Lbcj;S)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getContainerId ()I
+	METHOD b write (Lje;)V
+	METHOD c getSlotNum ()I
+	METHOD d getButtonNum ()I
+	METHOD e getUid ()S
+	METHOD f getItem ()Lbcj;
+	METHOD g getClickType ()Lays;

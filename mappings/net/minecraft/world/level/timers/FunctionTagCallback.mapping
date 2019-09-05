@@ -1,0 +1,12 @@
+CLASS crw net/minecraft/world/level/timers/FunctionTagCallback
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lid;)Lcrw;
+		METHOD a serialize (Lid;Lcrw;)V
+		METHOD a serialize (Lid;Lcrx;)V
+		METHOD b deserialize (Lid;)Lcrx;
+	FIELD a tagId Lqv;
+	METHOD <init> <init> (Lqv;)V
+	METHOD a access$000 (Lcrw;)Lqv;
+	METHOD a handle (Ljava/lang/Object;Lcrz;J)V
+	METHOD a handle (Lnet/minecraft/server/MinecraftServer;Lcrz;J)V

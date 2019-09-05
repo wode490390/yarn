@@ -1,0 +1,9 @@
+CLASS amr net/minecraft/world/entity/ai/goal/CatLieOnBedGoal
+	FIELD g cat Larb;
+	METHOD <init> <init> (Larb;DI)V
+	METHOD a canUse ()Z
+	METHOD a nextStartTick (Laje;)I
+	METHOD a isValidTarget (Lbhu;Lew;)Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

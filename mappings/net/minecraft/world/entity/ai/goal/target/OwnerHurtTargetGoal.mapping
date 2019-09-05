@@ -1,0 +1,7 @@
+CLASS apd net/minecraft/world/entity/ai/goal/target/OwnerHurtTargetGoal
+	FIELD a tameAnimal Lajl;
+	FIELD b ownerLastHurt Laix;
+	FIELD c timestamp I
+	METHOD <init> <init> (Lajl;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V

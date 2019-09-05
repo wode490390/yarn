@@ -1,0 +1,23 @@
+CLASS bqa net/minecraft/world/level/block/LiquidBlock
+	FIELD a LEVEL Lbwt;
+	FIELD b fluid Lcli;
+	FIELD c stateCache Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcli;Lbmv$c;)V
+	METHOD a shouldSpreadLiquid (Lbhr;Lew;Lbvt;)Z
+	METHOD a fizz (Lbhs;Lew;)V
+	METHOD a getTickDelay (Lbhu;)I
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a entityInside (Lbvt;Lbhr;Lew;Laio;)V
+	METHOD a neighborChanged (Lbvt;Lbhr;Lew;Lbmv;Lew;Z)V
+	METHOD a skipRendering (Lbvt;Lbvt;Lfb;)Z
+	METHOD a getDrops (Lbvt;Lcoy$a;)Ljava/util/List;
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b takeLiquid (Lbhs;Lew;Lbvt;)Lclj;
+	METHOD b propagatesSkylightDown (Lbvt;Lbhb;Lew;)Z
+	METHOD b onPlace (Lbvt;Lbhr;Lew;Lbvt;Z)V
+	METHOD c getRenderShape (Lbvt;)Lbrd;
+	METHOD c randomTick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD g getFluidState (Lbvt;)Lclk;

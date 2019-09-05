@@ -1,0 +1,20 @@
+CLASS bad net/minecraft/world/item/ArmorItem
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a execute (Lex;Lbcj;)Lbcj;
+	FIELD a DISPENSE_ITEM_BEHAVIOR Lfx;
+	FIELD b slot Lait;
+	FIELD c defense I
+	FIELD d toughness F
+	FIELD e material Lbae;
+	FIELD k ARMOR_MODIFIER_UUID_PER_SLOT [Ljava/util/UUID;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbae;Lait;Lbce$a;)V
+	METHOD a getDefaultAttributeModifiers (Lait;)Lcom/google/common/collect/Multimap;
+	METHOD a isValidRepairItem (Lbcj;Lbcj;)Z
+	METHOD a use (Lbhr;Lawg;Lahi;)Lahk;
+	METHOD a dispenseArmor (Lex;Lbcj;)Lbcj;
+	METHOD b getSlot ()Lait;
+	METHOD c getEnchantmentValue ()I
+	METHOD d getMaterial ()Lbae;
+	METHOD e getDefense ()I

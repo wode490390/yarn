@@ -1,0 +1,3 @@
+CLASS vc net/minecraft/server/level/DerivedServerLevel
+	METHOD <init> <init> (Lvk;Lnet/minecraft/server/MinecraftServer;Ljava/util/concurrent/Executor;Lcoo;Lbyn;Lagn;Lvt;)V
+	METHOD a tickTime ()V

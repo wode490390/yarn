@@ -1,0 +1,5 @@
+CLASS cgh net/minecraft/world/level/levelgen/placement/CountBiasedRangeDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Ljava/util/Random;Lcax;Lew;)Ljava/util/stream/Stream;
+	METHOD a place (Ljava/util/Random;Lcay;Lew;)Ljava/util/stream/Stream;
+	METHOD a lambda$place$0 (Ljava/util/Random;Lcay;Lew;I)Lew;

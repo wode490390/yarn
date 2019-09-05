@@ -1,4 +1,20 @@
-CLASS net/minecraft/class_2481 net/minecraft/nbt/ByteTag
-	FIELD field_11498 value B
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
+CLASS ib net/minecraft/nbt/ByteTag
+	FIELD f data B
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (B)V
+	METHOD a getId ()B
+	METHOD a load (Ljava/io/DataInput;ILin;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Ljo;
+	METHOD b copy ()Liu;
+	METHOD c copy ()Lib;
+	METHOD d getAsLong ()J
+	METHOD e getAsInt ()I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getAsShort ()S
+	METHOD g getAsByte ()B
+	METHOD h getAsDouble ()D
+	METHOD hashCode hashCode ()I
+	METHOD i getAsFloat ()F
+	METHOD j getAsNumber ()Ljava/lang/Number;
+	METHOD toString toString ()Ljava/lang/String;

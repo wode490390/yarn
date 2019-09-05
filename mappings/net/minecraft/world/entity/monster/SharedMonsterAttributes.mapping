@@ -1,0 +1,21 @@
+CLASS ava net/minecraft/world/entity/monster/SharedMonsterAttributes
+	FIELD a MAX_HEALTH Lajn;
+	FIELD b FOLLOW_RANGE Lajn;
+	FIELD c KNOCKBACK_RESISTANCE Lajn;
+	FIELD d MOVEMENT_SPEED Lajn;
+	FIELD e FLYING_SPEED Lajn;
+	FIELD f ATTACK_DAMAGE Lajn;
+	FIELD g ATTACK_KNOCKBACK Lajn;
+	FIELD h ATTACK_SPEED Lajn;
+	FIELD i ARMOR Lajn;
+	FIELD j ARMOR_TOUGHNESS Lajn;
+	FIELD k LUCK Lajn;
+	FIELD l LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a saveAttribute (Lajo;)Lid;
+	METHOD a loadAttribute (Lajo;Lid;)V
+	METHOD a saveAttributeModifier (Lajp;)Lid;
+	METHOD a saveAttributes (Lajr;)Lik;
+	METHOD a loadAttributes (Lajr;Lik;)V
+	METHOD a loadAttributeModifier (Lid;)Lajp;

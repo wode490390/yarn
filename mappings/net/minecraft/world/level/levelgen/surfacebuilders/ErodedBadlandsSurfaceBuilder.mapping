@@ -1,0 +1,8 @@
+CLASS cjz net/minecraft/world/level/levelgen/surfacebuilders/ErodedBadlandsSurfaceBuilder
+	FIELD S WHITE_TERRACOTTA Lbvt;
+	FIELD T ORANGE_TERRACOTTA Lbvt;
+	FIELD U TERRACOTTA Lbvt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a apply (Ljava/util/Random;Lbxh;Lbio;IIIDLbvt;Lbvt;IJLcki;)V
+	METHOD a apply (Ljava/util/Random;Lbxh;Lbio;IIIDLbvt;Lbvt;IJLckj;)V

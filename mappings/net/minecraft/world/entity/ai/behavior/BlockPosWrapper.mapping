@@ -1,0 +1,8 @@
+CLASS aka net/minecraft/world/entity/ai/behavior/BlockPosWrapper
+	FIELD a pos Lew;
+	FIELD b lookAt Lcsi;
+	METHOD <init> <init> (Lew;)V
+	METHOD a getPos ()Lew;
+	METHOD a isVisible (Laix;)Z
+	METHOD b getLookAtPos ()Lcsi;
+	METHOD toString toString ()Ljava/lang/String;

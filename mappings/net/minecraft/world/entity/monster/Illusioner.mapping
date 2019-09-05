@@ -1,0 +1,43 @@
+CLASS auq net/minecraft/world/entity/monster/Illusioner
+	CLASS 1 1
+	CLASS a IllusionerBlindnessSpellGoal
+		FIELD a this$0 Lauq;
+		FIELD e lastTargetId I
+		METHOD <init> <init> (Lauq;)V
+		METHOD <init> <init> (Lauq;Lauq$1;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Lyo;
+		METHOD l getSpell ()Lavf$a;
+	CLASS b IllusionerMirrorSpellGoal
+		FIELD a this$0 Lauq;
+		METHOD <init> <init> (Lauq;)V
+		METHOD <init> <init> (Lauq;Lauq$1;)V
+		METHOD a canUse ()Z
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Lyo;
+		METHOD l getSpell ()Lavf$a;
+	FIELD bA clientSideIllusionOffsets [[Lcsi;
+	FIELD bz clientSideIllusionTicks I
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD a applyRaidBuffs (IZ)V
+	METHOD a performRangedAttack (Laix;F)V
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD bM getBoundingBoxForCulling ()Lcsc;
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cl registerAttributes ()V
+	METHOD dV getCelebrateSound ()Lyo;
+	METHOD dW getCastingSoundEvent ()Lyo;
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD k aiStep ()V
+	METHOD l getArmPose ()Laua$a;
+	METHOD n registerGoals ()V
+	METHOD r isAlliedTo (Laio;)Z
+	METHOD u_ defineSynchedData ()V
+	METHOD v getIllusionOffsets (F)[Lcsi;

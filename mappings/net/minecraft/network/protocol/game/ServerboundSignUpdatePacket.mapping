@@ -1,0 +1,11 @@
+CLASS ph net/minecraft/network/protocol/game/ServerboundSignUpdatePacket
+	FIELD a pos Lew;
+	FIELD b lines [Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lew;Ljo;Ljo;Ljo;Ljo;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getPos ()Lew;
+	METHOD b write (Lje;)V
+	METHOD c getLines ()[Ljava/lang/String;

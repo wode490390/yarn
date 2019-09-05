@@ -1,0 +1,10 @@
+CLASS axa net/minecraft/world/entity/projectile/SpectralArrow
+	FIELD ar duration I
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDD)V
+	METHOD <init> <init> (Lbhr;Laix;)V
+	METHOD a doPostHurtEffects (Laix;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD h tick ()V
+	METHOD n getPickupItem ()Lbcj;

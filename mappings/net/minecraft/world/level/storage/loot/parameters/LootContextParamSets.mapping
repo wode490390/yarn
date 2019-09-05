@@ -1,0 +1,23 @@
+CLASS cqy net/minecraft/world/level/storage/loot/parameters/LootContextParamSets
+	FIELD a EMPTY Lcqx;
+	FIELD b CHEST Lcqx;
+	FIELD c FISHING Lcqx;
+	FIELD d ENTITY Lcqx;
+	FIELD e GIFT Lcqx;
+	FIELD f ADVANCEMENT_REWARD Lcqx;
+	FIELD g ALL_PARAMS Lcqx;
+	FIELD h BLOCK Lcqx;
+	FIELD i REGISTRY Lcom/google/common/collect/BiMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$static$7 (Lcqx$a;)V
+	METHOD a getKey (Lcqx;)Lqv;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Consumer;)Lcqx;
+	METHOD a get (Lqv;)Lcqx;
+	METHOD b lambda$static$6 (Lcqx$a;)V
+	METHOD c lambda$static$5 (Lcqx$a;)V
+	METHOD d lambda$static$4 (Lcqx$a;)V
+	METHOD e lambda$static$3 (Lcqx$a;)V
+	METHOD f lambda$static$2 (Lcqx$a;)V
+	METHOD g lambda$static$1 (Lcqx$a;)V
+	METHOD h lambda$static$0 (Lcqx$a;)V

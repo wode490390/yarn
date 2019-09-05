@@ -1,0 +1,5 @@
+CLASS cci net/minecraft/world/level/levelgen/feature/IcebergConfiguration
+	FIELD a state Lbvt;
+	METHOD <init> <init> (Lbvt;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcci;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

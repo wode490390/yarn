@@ -1,0 +1,29 @@
+CLASS axz net/minecraft/world/entity/vehicle/MinecartCommandBlock
+	CLASS a MinecartCommandBase
+		FIELD b this$0 Laxz;
+		METHOD <init> <init> (Laxz;)V
+		METHOD a writeCoordinates (Lio/netty/buffer/ByteBuf;)V
+		METHOD d getLevel ()Lvk;
+		METHOD e onUpdated ()V
+		METHOD f getPosition ()Lcsi;
+		METHOD g getMinecart ()Laxz;
+		METHOD h createCommandSourceStack ()Lcd;
+	FIELD b DATA_ID_COMMAND_NAME Lqk;
+	FIELD c DATA_ID_LAST_OUTPUT Lqk;
+	FIELD d commandBlock Lbgx;
+	FIELD e lastActivated I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDD)V
+	METHOD a activateMinecart (IIIZ)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD a onSyncedDataUpdated (Lqk;)V
+	METHOD b interact (Lawg;Lahi;)Z
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD bT onlyOpCanSetNbt ()Z
+	METHOD o getMinecartType ()Laxu$a;
+	METHOD q getDefaultDisplayBlockState ()Lbvt;
+	METHOD u_ defineSynchedData ()V
+	METHOD v getCommandBlock ()Lbgx;
+	METHOD w access$000 ()Lqk;
+	METHOD z access$100 ()Lqk;

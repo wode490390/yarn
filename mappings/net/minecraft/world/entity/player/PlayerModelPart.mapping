@@ -1,0 +1,21 @@
+CLASS awh net/minecraft/world/entity/player/PlayerModelPart
+	FIELD a CAPE Lawh;
+	FIELD b JACKET Lawh;
+	FIELD c LEFT_SLEEVE Lawh;
+	FIELD d RIGHT_SLEEVE Lawh;
+	FIELD e LEFT_PANTS_LEG Lawh;
+	FIELD f RIGHT_PANTS_LEG Lawh;
+	FIELD g HAT Lawh;
+	FIELD h bit I
+	FIELD i mask I
+	FIELD j id Ljava/lang/String;
+	FIELD k name Ljo;
+	FIELD l $VALUES [Lawh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+	METHOD a getMask ()I
+	METHOD b getBit ()I
+	METHOD c getId ()Ljava/lang/String;
+	METHOD d getName ()Ljo;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lawh;
+	METHOD values values ()[Lawh;

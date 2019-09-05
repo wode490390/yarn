@@ -1,0 +1,11 @@
+CLASS bxe net/minecraft/world/level/border/BorderStatus
+	FIELD a GROWING Lbxe;
+	FIELD b SHRINKING Lbxe;
+	FIELD c STATIONARY Lbxe;
+	FIELD d color I
+	FIELD e $VALUES [Lbxe;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD a getColor ()I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbxe;
+	METHOD values values ()[Lbxe;

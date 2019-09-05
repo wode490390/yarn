@@ -1,0 +1,8 @@
+CLASS bix net/minecraft/world/level/biome/CheckerboardBiomeSourceSettings
+	FIELD a allowedBiomes [Lbio;
+	FIELD b size I
+	METHOD <init> <init> ()V
+	METHOD a getAllowedBiomes ()[Lbio;
+	METHOD a setSize (I)Lbix;
+	METHOD a setAllowedBiomes ([Lbio;)Lbix;
+	METHOD b getSize ()I

@@ -1,0 +1,8 @@
+CLASS bep net/minecraft/world/item/crafting/MapCloningRecipe
+	METHOD <init> <init> (Lqv;)V
+	METHOD Q_ getSerializer ()Lbet;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lahc;)Lbcj;
+	METHOD a matches (Lahc;Lbhr;)Z
+	METHOD a assemble (Layw;)Lbcj;
+	METHOD a matches (Layw;Lbhr;)Z

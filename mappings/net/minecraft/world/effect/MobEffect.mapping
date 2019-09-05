@@ -1,0 +1,23 @@
+CLASS aig net/minecraft/world/effect/MobEffect
+	FIELD a attributeModifiers Ljava/util/Map;
+	FIELD b category Laih;
+	FIELD c color I
+	FIELD d descriptionId Ljava/lang/String;
+	METHOD <init> <init> (Laih;I)V
+	METHOD a isInstantenous ()Z
+	METHOD a byId (I)Laig;
+	METHOD a isDurationEffectTick (II)Z
+	METHOD a getAttributeModifierValue (ILajp;)D
+	METHOD a getId (Laig;)I
+	METHOD a applyInstantenousEffect (Laio;Laio;Laix;ID)V
+	METHOD a applyEffectTick (Laix;I)V
+	METHOD a removeAttributeModifiers (Laix;Lajr;I)V
+	METHOD a addAttributeModifier (Lajn;Ljava/lang/String;DLajp$a;)Laig;
+	METHOD b getOrCreateDescriptionId ()Ljava/lang/String;
+	METHOD b addAttributeModifiers (Laix;Lajr;I)V
+	METHOD c getDescriptionId ()Ljava/lang/String;
+	METHOD d getDisplayName ()Ljo;
+	METHOD e getCategory ()Laih;
+	METHOD f getColor ()I
+	METHOD g getAttributeModifiers ()Ljava/util/Map;
+	METHOD h isBeneficial ()Z

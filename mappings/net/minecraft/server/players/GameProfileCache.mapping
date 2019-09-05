@@ -1,0 +1,51 @@
+CLASS xr net/minecraft/server/players/GameProfileCache
+	CLASS 1 1
+		FIELD a val$result [Lcom/mojang/authlib/GameProfile;
+		METHOD <init> <init> ([Lcom/mojang/authlib/GameProfile;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS 2 2
+		METHOD <init> <init> ()V
+		METHOD getActualTypeArguments getActualTypeArguments ()[Ljava/lang/reflect/Type;
+		METHOD getOwnerType getOwnerType ()Ljava/lang/reflect/Type;
+		METHOD getRawType getRawType ()Ljava/lang/reflect/Type;
+	CLASS a GameProfileInfo
+		FIELD a this$0 Lxr;
+		FIELD b profile Lcom/mojang/authlib/GameProfile;
+		FIELD c expirationDate Ljava/util/Date;
+		METHOD <init> <init> (Lxr;Lcom/mojang/authlib/GameProfile;Ljava/util/Date;)V
+		METHOD <init> <init> (Lxr;Lcom/mojang/authlib/GameProfile;Ljava/util/Date;Lxr$1;)V
+		METHOD a getProfile ()Lcom/mojang/authlib/GameProfile;
+		METHOD a access$200 (Lxr$a;)Ljava/util/Date;
+		METHOD b getExpirationDate ()Ljava/util/Date;
+	CLASS b Serializer
+		FIELD a this$0 Lxr;
+		METHOD <init> <init> (Lxr;)V
+		METHOD <init> <init> (Lxr;Lxr$1;)V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lxr$a;
+		METHOD a serialize (Lxr$a;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+	FIELD a DATE_FORMAT Ljava/text/SimpleDateFormat;
+	FIELD b gson Lcom/google/gson/Gson;
+	FIELD c usesAuthentication Z
+	FIELD d profilesByName Ljava/util/Map;
+	FIELD e profilesByUUID Ljava/util/Map;
+	FIELD f profileMRUList Ljava/util/Deque;
+	FIELD g profileRepository Lcom/mojang/authlib/GameProfileRepository;
+	FIELD h file Ljava/io/File;
+	FIELD i GAMEPROFILE_ENTRY_TYPE Ljava/lang/reflect/ParameterizedType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/authlib/GameProfileRepository;Ljava/io/File;)V
+	METHOD a getKnownNames ()[Ljava/lang/String;
+	METHOD a getTopMRUProfiles (I)Ljava/util/List;
+	METHOD a add (Lcom/mojang/authlib/GameProfile;)V
+	METHOD a add (Lcom/mojang/authlib/GameProfile;Ljava/util/Date;)V
+	METHOD a lookupGameProfile (Lcom/mojang/authlib/GameProfileRepository;Ljava/lang/String;)Lcom/mojang/authlib/GameProfile;
+	METHOD a get (Ljava/lang/String;)Lcom/mojang/authlib/GameProfile;
+	METHOD a get (Ljava/util/UUID;)Lcom/mojang/authlib/GameProfile;
+	METHOD a setUsesAuthentication (Z)V
+	METHOD b load ()V
+	METHOD b getProfileInfo (Ljava/util/UUID;)Lxr$a;
+	METHOD c save ()V
+	METHOD d usesAuthentication ()Z

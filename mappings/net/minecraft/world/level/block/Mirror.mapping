@@ -1,0 +1,15 @@
+CLASS bqg net/minecraft/world/level/block/Mirror
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$Mirror [I
+		METHOD <clinit> <clinit> ()V
+	FIELD a NONE Lbqg;
+	FIELD b LEFT_RIGHT Lbqg;
+	FIELD c FRONT_BACK Lbqg;
+	FIELD d $VALUES [Lbqg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a mirror (II)I
+	METHOD a getRotation (Lfb;)Lbrg;
+	METHOD b mirror (Lfb;)Lfb;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbqg;
+	METHOD values values ()[Lbqg;

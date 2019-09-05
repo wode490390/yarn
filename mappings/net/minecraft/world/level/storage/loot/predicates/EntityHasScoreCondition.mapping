@@ -1,0 +1,25 @@
+CLASS crf net/minecraft/world/level/storage/loot/predicates/EntityHasScoreCondition
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a scores Ljava/util/Map;
+		FIELD b entityTarget Lcoy$c;
+		METHOD <init> <init> (Lcoy$c;)V
+		METHOD a withScore (Ljava/lang/String;Lcpg;)Lcrf$a;
+		METHOD build build ()Lcrk;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrf;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrf;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a scores Ljava/util/Map;
+	FIELD b entityTarget Lcoy$c;
+	METHOD <init> <init> (Ljava/util/Map;Lcoy$c;)V
+	METHOD <init> <init> (Ljava/util/Map;Lcoy$c;Lcrf$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a hasScore (Laio;Lcti;Ljava/lang/String;Lcpg;)Z
+	METHOD a hasScores (Lcoy$c;)Lcrf$a;
+	METHOD a test (Lcoy;)Z
+	METHOD a access$100 (Lcrf;)Ljava/util/Map;
+	METHOD b access$200 (Lcrf;)Lcoy$c;
+	METHOD test test (Ljava/lang/Object;)Z

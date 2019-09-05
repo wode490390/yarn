@@ -1,0 +1,4 @@
+CLASS bct net/minecraft/world/item/PlayerHeadItem
+	METHOD <init> <init> (Lbmv;Lbmv;Lbce$a;)V
+	METHOD a verifyTagAfterLoad (Lid;)Z
+	METHOD g getName (Lbcj;)Ljo;

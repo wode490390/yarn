@@ -1,0 +1,2 @@
+CLASS zm net/minecraft/util/CrashReportFiller
+	METHOD b fillReport (Ld;)Ld;

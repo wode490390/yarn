@@ -1,0 +1,44 @@
+CLASS bvy net/minecraft/world/level/block/state/pattern/BlockPattern
+	CLASS a BlockCacheLoader
+		FIELD a level Lbhu;
+		FIELD b loadChunks Z
+		METHOD <init> <init> (Lbhu;Z)V
+		METHOD a load (Lew;)Lbvx;
+		METHOD load load (Ljava/lang/Object;)Ljava/lang/Object;
+	CLASS b BlockPatternMatch
+		FIELD a frontTopLeft Lew;
+		FIELD b forwards Lfb;
+		FIELD c up Lfb;
+		FIELD d cache Lcom/google/common/cache/LoadingCache;
+		FIELD e width I
+		FIELD f height I
+		FIELD g depth I
+		METHOD <init> <init> (Lew;Lfb;Lfb;Lcom/google/common/cache/LoadingCache;III)V
+		METHOD a getFrontTopLeft ()Lew;
+		METHOD a getBlock (III)Lbvx;
+		METHOD a getPortalOutput (Lfb;Lew;DLcsi;D)Lbvy$c;
+		METHOD b getForwards ()Lfb;
+		METHOD c getUp ()Lfb;
+		METHOD d getWidth ()I
+		METHOD e getHeight ()I
+		METHOD f getDepth ()I
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c PortalInfo
+		FIELD a pos Lcsi;
+		FIELD b speed Lcsi;
+		FIELD c angle I
+		METHOD <init> <init> (Lcsi;Lcsi;I)V
+	FIELD a pattern [[[Ljava/util/function/Predicate;
+	FIELD b depth I
+	FIELD c height I
+	FIELD d width I
+	METHOD <init> <init> ([[[Ljava/util/function/Predicate;)V
+	METHOD a getDepth ()I
+	METHOD a find (Lbhu;Lew;)Lbvy$b;
+	METHOD a matches (Lbhu;Lew;Lfb;Lfb;)Lbvy$b;
+	METHOD a createLevelCache (Lbhu;Z)Lcom/google/common/cache/LoadingCache;
+	METHOD a translateAndRotate (Lew;Lfb;Lfb;III)Lew;
+	METHOD a matches (Lew;Lfb;Lfb;Lcom/google/common/cache/LoadingCache;)Lbvy$b;
+	METHOD b getHeight ()I
+	METHOD c getWidth ()I
+	METHOD d getPattern ()[[[Ljava/util/function/Predicate;

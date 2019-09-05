@@ -1,0 +1,15 @@
+CLASS ahc net/minecraft/world/Container
+	METHOD J_ getMaxStackSize ()I
+	METHOD M_ getContainerSize ()I
+	METHOD a getItem (I)Lbcj;
+	METHOD a removeItem (II)Lbcj;
+	METHOD a setItem (ILbcj;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a countItem (Lbce;)I
+	METHOD a hasAnyOf (Ljava/util/Set;)Z
+	METHOD a_ startOpen (Lawg;)V
+	METHOD b removeItemNoUpdate (I)Lbcj;
+	METHOD b canPlaceItem (ILbcj;)Z
+	METHOD b_ stopOpen (Lawg;)V
+	METHOD c isEmpty ()Z
+	METHOD e setChanged ()V

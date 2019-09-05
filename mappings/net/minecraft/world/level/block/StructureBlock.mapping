@@ -1,0 +1,15 @@
+CLASS bsk net/minecraft/world/level/block/StructureBlock
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$state$properties$StructureMode [I
+		METHOD <clinit> <clinit> ()V
+	FIELD a MODE Lbwr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a setPlacedBy (Lbhr;Lew;Lbvt;Laix;Lbcj;)V
+	METHOD a trigger (Lbuw;)V
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a neighborChanged (Lbvt;Lbhr;Lew;Lbmv;Lew;Z)V
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD c getRenderShape (Lbvt;)Lbrd;

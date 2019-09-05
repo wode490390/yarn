@@ -1,0 +1,24 @@
+CLASS byi net/minecraft/world/level/chunk/storage/RegionFile
+	CLASS a ChunkBuffer
+		FIELD a this$0 Lbyi;
+		FIELD b pos Lbhd;
+		METHOD <init> <init> (Lbyi;Lbhd;)V
+		METHOD close close ()V
+	FIELD a EMPTY_SECTOR [B
+	FIELD b file Ljava/io/RandomAccessFile;
+	FIELD c offsets [I
+	FIELD d chunkTimestamps [I
+	FIELD e sectorFree Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a write (I[BI)V
+	METHOD a getChunkDataInputStream (Lbhd;)Ljava/io/DataInputStream;
+	METHOD a setOffset (Lbhd;I)V
+	METHOD a write (Lbhd;[BI)V
+	METHOD b doesChunkExist (Lbhd;)Z
+	METHOD b setTimestamp (Lbhd;I)V
+	METHOD c getChunkDataOutputStream (Lbhd;)Ljava/io/DataOutputStream;
+	METHOD close close ()V
+	METHOD d hasChunk (Lbhd;)Z
+	METHOD e getOffset (Lbhd;)I
+	METHOD f getOffsetIndex (Lbhd;)I

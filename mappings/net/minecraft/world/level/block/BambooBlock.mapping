@@ -1,0 +1,27 @@
+CLASS bmc net/minecraft/world/level/block/BambooBlock
+	FIELD a SMALL_SHAPE Lctc;
+	FIELD b LARGE_SHAPE Lctc;
+	FIELD c COLLISION_SHAPE Lctc;
+	FIELD d AGE Lbwt;
+	FIELD e LEAVES Lbwr;
+	FIELD f STAGE Lbwt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD R_ getOffsetType ()Lbmv$b;
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a getHeightAboveUpToMax (Lbhb;Lew;)I
+	METHOD a isValidBonemealTarget (Lbhb;Lew;Lbvt;Z)Z
+	METHOD a isBonemealSuccess (Lbhr;Ljava/util/Random;Lew;Lbvt;)Z
+	METHOD a getDestroyProgress (Lbvt;Lawg;Lbhb;Lew;)F
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a growBamboo (Lbvt;Lbhr;Lew;Ljava/util/Random;I)V
+	METHOD a canSurvive (Lbvt;Lbhu;Lew;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b getHeightBelowUpToMax (Lbhb;Lew;)I
+	METHOD b performBonemeal (Lbhr;Ljava/util/Random;Lew;Lbvt;)V
+	METHOD b propagatesSkylightDown (Lbvt;Lbhb;Lew;)Z
+	METHOD b getCollisionShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD c getRenderLayer ()Lbhc;

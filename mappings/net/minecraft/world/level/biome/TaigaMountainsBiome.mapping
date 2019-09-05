@@ -1,0 +1,2 @@
+CLASS blj net/minecraft/world/level/biome/TaigaMountainsBiome
+	METHOD <init> <init> ()V

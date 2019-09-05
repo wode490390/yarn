@@ -1,0 +1,4 @@
+CLASS anm net/minecraft/world/entity/ai/goal/LookAtTradingPlayerGoal
+	FIELD f villager Lavp;
+	METHOD <init> <init> (Lavp;)V
+	METHOD a canUse ()Z

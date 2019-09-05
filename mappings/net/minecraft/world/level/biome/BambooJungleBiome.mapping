@@ -1,0 +1,2 @@
+CLASS bil net/minecraft/world/level/biome/BambooJungleBiome
+	METHOD <init> <init> ()V

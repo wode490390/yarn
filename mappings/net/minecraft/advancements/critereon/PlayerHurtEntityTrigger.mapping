@@ -1,0 +1,33 @@
+CLASS bn net/minecraft/advancements/critereon/PlayerHurtEntityTrigger
+	CLASS a PlayerListeners
+		FIELD a player Lre;
+		FIELD b listeners Ljava/util/Set;
+		METHOD <init> <init> (Lre;)V
+		METHOD a isEmpty ()Z
+		METHOD a trigger (Lvl;Laio;Lahx;FFZ)V
+		METHOD a addListener (Lx$a;)V
+		METHOD b removeListener (Lx$a;)V
+	CLASS b TriggerInstance
+		FIELD a damage Lal;
+		FIELD b entity Lav;
+		METHOD <init> <init> (Lal;Lav;)V
+		METHOD a playerHurtEntity (Lal$a;)Lbn$b;
+		METHOD a playerHurtEntity (Lal$a;Lav;)Lbn$b;
+		METHOD a playerHurtEntity (Lal;)Lbn$b;
+		METHOD a playerHurtEntity (Lal;Lav;)Lbn$b;
+		METHOD a playerHurtEntity (Lav;)Lbn$b;
+		METHOD a matches (Lvl;Laio;Lahx;FFZ)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD c playerHurtEntity ()Lbn$b;
+	FIELD a ID Lqv;
+	FIELD b players Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lqv;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ly;
+	METHOD a removePlayerListeners (Lre;)V
+	METHOD a addPlayerListener (Lre;Lx$a;)V
+	METHOD a trigger (Lvl;Laio;Lahx;FFZ)V
+	METHOD b access$000 ()Lqv;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbn$b;
+	METHOD b removePlayerListener (Lre;Lx$a;)V

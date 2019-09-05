@@ -1,0 +1,17 @@
+CLASS dt net/minecraft/commands/arguments/coordinates/WorldCoordinates
+	FIELD a x Lds;
+	FIELD b y Lds;
+	FIELD c z Lds;
+	METHOD <init> <init> (Lds;Lds;Lds;)V
+	METHOD a isXRelative ()Z
+	METHOD a absolute (DDD)Ldt;
+	METHOD a getPosition (Lcd;)Lcsi;
+	METHOD a parseInt (Lcom/mojang/brigadier/StringReader;)Ldt;
+	METHOD a parseDouble (Lcom/mojang/brigadier/StringReader;Z)Ldt;
+	METHOD a absolute (Lcsh;)Ldt;
+	METHOD b isYRelative ()Z
+	METHOD b getRotation (Lcd;)Lcsh;
+	METHOD c isZRelative ()Z
+	METHOD d current ()Ldt;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

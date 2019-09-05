@@ -1,0 +1,8 @@
+CLASS bae net/minecraft/world/item/ArmorMaterial
+	METHOD a getEnchantmentValue ()I
+	METHOD a getDurabilityForSlot (Lait;)I
+	METHOD b getEquipSound ()Lyo;
+	METHOD b getDefenseForSlot (Lait;)I
+	METHOD c getRepairIngredient ()Lbeo;
+	METHOD d getName ()Ljava/lang/String;
+	METHOD e getToughness ()F

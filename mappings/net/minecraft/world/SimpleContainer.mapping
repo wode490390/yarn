@@ -1,0 +1,25 @@
+CLASS aho net/minecraft/world/SimpleContainer
+	FIELD a size I
+	FIELD b items Lfk;
+	FIELD c listeners Ljava/util/List;
+	METHOD <init> <init> (I)V
+	METHOD <init> <init> ([Lbcj;)V
+	METHOD L_ clearContent ()V
+	METHOD M_ getContainerSize ()I
+	METHOD a getItem (I)Lbcj;
+	METHOD a removeItem (II)Lbcj;
+	METHOD a setItem (ILbcj;)V
+	METHOD a addListener (Lahe;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a fillStackedContents (Lawi;)V
+	METHOD a removeItemType (Lbce;I)Lbcj;
+	METHOD a addItem (Lbcj;)Lbcj;
+	METHOD a moveItemsBetweenStacks (Lbcj;Lbcj;)V
+	METHOD b removeItemNoUpdate (I)Lbcj;
+	METHOD b removeListener (Lahe;)V
+	METHOD b moveItemToEmptySlots (Lbcj;)V
+	METHOD c isEmpty ()Z
+	METHOD c moveItemToOccupiedSlotsWithSameType (Lbcj;)V
+	METHOD d lambda$toString$0 (Lbcj;)Z
+	METHOD e setChanged ()V
+	METHOD toString toString ()Ljava/lang/String;

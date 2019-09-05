@@ -1,0 +1,7 @@
+CLASS jf net/minecraft/network/PacketDecoder
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b MARKER Lorg/apache/logging/log4j/Marker;
+	FIELD c flow Lkd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lkd;)V
+	METHOD decode decode (Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V

@@ -1,0 +1,12 @@
+CLASS ey net/minecraft/core/BlockSourceImpl
+	FIELD a level Lbhr;
+	FIELD b pos Lew;
+	METHOD <init> <init> (Lbhr;Lew;)V
+	METHOD a x ()D
+	METHOD b y ()D
+	METHOD c z ()D
+	METHOD d getPos ()Lew;
+	METHOD e getBlockState ()Lbvt;
+	METHOD f getMaterial ()Lclo;
+	METHOD g getEntity ()Lbtw;
+	METHOD h getLevel ()Lbhr;

@@ -1,0 +1,5 @@
+CLASS cat net/minecraft/world/level/levelgen/feature/DecoratedFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcau;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD toString toString ()Ljava/lang/String;

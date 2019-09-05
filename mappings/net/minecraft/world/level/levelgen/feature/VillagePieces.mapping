@@ -1,0 +1,6 @@
+CLASS cfe net/minecraft/world/level/levelgen/feature/VillagePieces
+	CLASS a VillagePiece
+		METHOD <init> <init> (Lcjp;Lcfr;Lew;ILbrg;Lcic;)V
+		METHOD <init> <init> (Lcjp;Lid;)V
+	METHOD <init> <init> ()V
+	METHOD a addPieces (Lbxi;Lcjp;Lew;Ljava/util/List;Lbzk;Lcfc;)V

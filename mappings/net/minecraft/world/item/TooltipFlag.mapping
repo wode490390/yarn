@@ -1,0 +1,12 @@
+CLASS bdr net/minecraft/world/item/TooltipFlag
+	CLASS a Default
+		FIELD a NORMAL Lbdr$a;
+		FIELD b ADVANCED Lbdr$a;
+		FIELD c advanced Z
+		FIELD d $VALUES [Lbdr$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IZ)V
+		METHOD a isAdvanced ()Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbdr$a;
+		METHOD values values ()[Lbdr$a;
+	METHOD a isAdvanced ()Z

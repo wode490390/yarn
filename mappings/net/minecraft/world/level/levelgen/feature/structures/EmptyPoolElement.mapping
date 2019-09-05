@@ -1,0 +1,11 @@
+CLASS cfl net/minecraft/world/level/levelgen/feature/structures/EmptyPoolElement
+	FIELD a INSTANCE Lcfl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getType ()Lcfs;
+	METHOD a place (Lcjp;Lbhs;Lew;Lbrg;Lcic;Ljava/util/Random;)Z
+	METHOD a getSize (Lcjp;Lbrg;)Lew;
+	METHOD a getBoundingBox (Lcjp;Lew;Lbrg;)Lcic;
+	METHOD a getShuffledJigsawBlocks (Lcjp;Lew;Lbrg;Ljava/util/Random;)Ljava/util/List;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD toString toString ()Ljava/lang/String;

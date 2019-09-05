@@ -1,0 +1,20 @@
+CLASS aus net/minecraft/world/entity/monster/Monster
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD a hurt (Lahx;F)Z
+	METHOD a isDarkEnoughToSpawn (Lbhs;Lew;Ljava/util/Random;)Z
+	METHOD a getWalkTargetValue (Lew;Lbhu;)F
+	METHOD ai getSwimSound ()Lyo;
+	METHOD aj getSwimSplashSound ()Lyo;
+	METHOD c checkMonsterSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cc getSoundSource ()Lyq;
+	METHOD cl registerAttributes ()V
+	METHOD cp shouldDropExperience ()Z
+	METHOD d checkAnyLightMonsterSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD e isPreventingPlayerRest (Lawg;)Z
+	METHOD eb updateNoActionTime ()V
+	METHOD f getProjectile (Lbcj;)Lbcj;
+	METHOD h tick ()V
+	METHOD k aiStep ()V
+	METHOD o getFallDamageSound (I)Lyo;

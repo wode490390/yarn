@@ -1,0 +1,38 @@
+CLASS xz net/minecraft/server/players/StoredUserList
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD getActualTypeArguments getActualTypeArguments ()[Ljava/lang/reflect/Type;
+		METHOD getOwnerType getOwnerType ()Ljava/lang/reflect/Type;
+		METHOD getRawType getRawType ()Ljava/lang/reflect/Type;
+	CLASS a Serializer
+		FIELD a this$0 Lxz;
+		METHOD <init> <init> (Lxz;)V
+		METHOD <init> <init> (Lxz;Lxz$1;)V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lxy;
+		METHOD a serialize (Lxy;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b gson Lcom/google/gson/Gson;
+	FIELD c file Ljava/io/File;
+	FIELD d map Ljava/util/Map;
+	FIELD e enabled Z
+	FIELD f USERLIST_ENTRY_TYPE Ljava/lang/reflect/ParameterizedType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getUserList ()[Ljava/lang/String;
+	METHOD a createEntry (Lcom/google/gson/JsonObject;)Lxy;
+	METHOD a getKeyForUser (Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a add (Lxy;)V
+	METHOD a setEnabled (Z)V
+	METHOD b isEnabled ()Z
+	METHOD b get (Ljava/lang/Object;)Lxy;
+	METHOD b remove (Lxy;)V
+	METHOD c getFile ()Ljava/io/File;
+	METHOD c remove (Ljava/lang/Object;)V
+	METHOD d isEmpty ()Z
+	METHOD d contains (Ljava/lang/Object;)Z
+	METHOD e getEntries ()Ljava/util/Collection;
+	METHOD f save ()V
+	METHOD g load ()V
+	METHOD h removeExpired ()V

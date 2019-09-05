@@ -1,0 +1,17 @@
+CLASS ctj net/minecraft/world/scores/ScoreboardSaveData
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b scoreboard Lcti;
+	FIELD c delayLoad Lid;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a saveTeams ()Lik;
+	METHOD a loadTeamPlayers (Lctg;Lik;)V
+	METHOD a setScoreboard (Lcti;)V
+	METHOD a load (Lid;)V
+	METHOD a lambda$loadObjectives$0 (Lid;Lctl;)V
+	METHOD a loadTeams (Lik;)V
+	METHOD b save (Lid;)Lid;
+	METHOD b loadObjectives (Lik;)V
+	METHOD c loadDisplaySlots (Lid;)V
+	METHOD d saveDisplaySlots (Lid;)V
+	METHOD e saveObjectives ()Lik;

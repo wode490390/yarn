@@ -1,0 +1,28 @@
+CLASS crz net/minecraft/world/level/timers/TimerQueue
+	CLASS 1 1
+	CLASS a Event
+		FIELD a triggerTime J
+		FIELD b sequentialId Lcom/google/common/primitives/UnsignedLong;
+		FIELD c id Ljava/lang/String;
+		FIELD d callback Lcrx;
+		METHOD <init> <init> (JLcom/google/common/primitives/UnsignedLong;Ljava/lang/String;Lcrx;)V
+		METHOD <init> <init> (JLcom/google/common/primitives/UnsignedLong;Ljava/lang/String;Lcrx;Lcrz$1;)V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b callbacksRegistry Lcry;
+	FIELD c queue Ljava/util/Queue;
+	FIELD d sequentialId Lcom/google/common/primitives/UnsignedLong;
+	FIELD e events Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcry;)V
+	METHOD a getEventsIds ()Ljava/util/Set;
+	METHOD a storeEvent (Lcrz$a;)Lid;
+	METHOD a lambda$createComparator$0 (Lcrz$a;Lcrz$a;)I
+	METHOD a loadEvent (Lid;)V
+	METHOD a load (Lik;)V
+	METHOD a tick (Ljava/lang/Object;J)V
+	METHOD a remove (Ljava/lang/String;)Z
+	METHOD a schedule (Ljava/lang/String;JLcrx;)Z
+	METHOD b store ()Lik;
+	METHOD b reschedule (Ljava/lang/String;JLcrx;)V
+	METHOD c createComparator ()Ljava/util/Comparator;
+	METHOD c addEvent (Ljava/lang/String;JLcrx;)V

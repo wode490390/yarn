@@ -1,0 +1,6 @@
+CLASS bek net/minecraft/world/item/crafting/CustomRecipe
+	FIELD a id Lqv;
+	METHOD <init> <init> (Lqv;)V
+	METHOD P_ isSpecial ()Z
+	METHOD c getResultItem ()Lbcj;
+	METHOD f getId ()Lqv;

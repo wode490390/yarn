@@ -1,0 +1,23 @@
+CLASS cdg net/minecraft/world/level/levelgen/feature/OreConfiguration
+	CLASS a Predicates
+		FIELD a NATURAL_STONE Lcdg$a;
+		FIELD b NETHERRACK Lcdg$a;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		FIELD e predicate Ljava/util/function/Predicate;
+		FIELD f $VALUES [Lcdg$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ljava/util/function/Predicate;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a lambda$static$0 (Lbvt;)Z
+		METHOD a lambda$static$1 (Lcdg$a;)Lcdg$a;
+		METHOD a byName (Ljava/lang/String;)Lcdg$a;
+		METHOD b getPredicate ()Ljava/util/function/Predicate;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcdg$a;
+		METHOD values values ()[Lcdg$a;
+	FIELD a target Lcdg$a;
+	FIELD b size I
+	FIELD c state Lbvt;
+	METHOD <init> <init> (Lcdg$a;Lbvt;I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdg;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

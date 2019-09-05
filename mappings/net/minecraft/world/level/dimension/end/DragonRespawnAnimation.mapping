@@ -1,0 +1,28 @@
+CLASS byq net/minecraft/world/level/dimension/end/DragonRespawnAnimation
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lvk;Lbyr;Ljava/util/List;ILew;)V
+	CLASS 2 2
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lvk;Lbyr;Ljava/util/List;ILew;)V
+	CLASS 3 3
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lvk;Lbyr;Ljava/util/List;ILew;)V
+	CLASS 4 4
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lvk;Lbyr;Ljava/util/List;ILew;)V
+	CLASS 5 5
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lvk;Lbyr;Ljava/util/List;ILew;)V
+	FIELD a START Lbyq;
+	FIELD b PREPARING_TO_SUMMON_PILLARS Lbyq;
+	FIELD c SUMMONING_PILLARS Lbyq;
+	FIELD d SUMMONING_DRAGON Lbyq;
+	FIELD e END Lbyq;
+	FIELD f $VALUES [Lbyq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD <init> <init> (Ljava/lang/String;ILbyq$1;)V
+	METHOD a tick (Lvk;Lbyr;Ljava/util/List;ILew;)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbyq;
+	METHOD values values ()[Lbyq;

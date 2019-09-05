@@ -1,0 +1,8 @@
+CLASS cfs net/minecraft/world/level/levelgen/feature/structures/StructurePoolElementType
+	FIELD b SINGLE Lcfs;
+	FIELD c LIST Lcfs;
+	FIELD d FEATURE Lcfs;
+	FIELD e EMPTY Lcfs;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$0 (Lcom/mojang/datafixers/Dynamic;)Lcfr;
+	METHOD a register (Ljava/lang/String;Lcfs;)Lcfs;

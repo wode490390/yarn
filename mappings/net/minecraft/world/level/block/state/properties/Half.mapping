@@ -1,0 +1,11 @@
+CLASS bws net/minecraft/world/level/block/state/properties/Half
+	FIELD a TOP Lbws;
+	FIELD b BOTTOM Lbws;
+	FIELD c name Ljava/lang/String;
+	FIELD d $VALUES [Lbws;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD m getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbws;
+	METHOD values values ()[Lbws;

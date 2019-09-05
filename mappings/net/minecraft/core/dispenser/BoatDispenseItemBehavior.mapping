@@ -1,0 +1,6 @@
+CLASS fv net/minecraft/core/dispenser/BoatDispenseItemBehavior
+	FIELD b defaultDispenseItemBehavior Lfw;
+	FIELD c type Laxw$b;
+	METHOD <init> <init> (Laxw$b;)V
+	METHOD a playSound (Lex;)V
+	METHOD a execute (Lex;Lbcj;)Lbcj;

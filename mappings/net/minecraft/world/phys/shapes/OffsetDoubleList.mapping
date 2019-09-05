@@ -1,0 +1,6 @@
+CLASS csy net/minecraft/world/phys/shapes/OffsetDoubleList
+	FIELD a delegate Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	FIELD b offset D
+	METHOD <init> <init> (Lit/unimi/dsi/fastutil/doubles/DoubleList;D)V
+	METHOD getDouble getDouble (I)D
+	METHOD size size ()I

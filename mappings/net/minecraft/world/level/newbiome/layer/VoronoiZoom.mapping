@@ -1,0 +1,10 @@
+CLASS cmw net/minecraft/world/level/newbiome/layer/VoronoiZoom
+	FIELD a INSTANCE Lcmw;
+	FIELD b $VALUES [Lcmw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a getParentX (I)I
+	METHOD a applyPixel (Lclx;Lclt;II)I
+	METHOD b getParentY (I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmw;
+	METHOD values values ()[Lcmw;

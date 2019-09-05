@@ -1,0 +1,24 @@
+CLASS anr net/minecraft/world/entity/ai/goal/MoveToBlockGoal
+	FIELD a mob Laje;
+	FIELD b speedModifier D
+	FIELD c nextStartTick I
+	FIELD d tryTicks I
+	FIELD e blockPos Lew;
+	FIELD f verticalSearchStart I
+	FIELD g maxStayTicks I
+	FIELD h reachedTarget Z
+	FIELD i searchRange I
+	FIELD j verticalSearchRange I
+	METHOD <init> <init> (Laje;DI)V
+	METHOD <init> <init> (Laje;DII)V
+	METHOD a canUse ()Z
+	METHOD a nextStartTick (Laje;)I
+	METHOD a isValidTarget (Lbhu;Lew;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD e tick ()V
+	METHOD g moveMobToBlock ()V
+	METHOD h acceptedDistance ()D
+	METHOD j shouldRecalculatePath ()Z
+	METHOD k isReachedTarget ()Z
+	METHOD l findNearestBlock ()Z

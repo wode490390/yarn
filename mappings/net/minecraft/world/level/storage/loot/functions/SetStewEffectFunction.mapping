@@ -1,0 +1,23 @@
+CLASS cqs net/minecraft/world/level/storage/loot/functions/SetStewEffectFunction
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a effectDurationMap Ljava/util/Map;
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Lcqs$a;
+		METHOD a withEffect (Laig;Lcpg;)Lcqs$a;
+		METHOD b build ()Lcqh;
+		METHOD d getThis ()Lcqg$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqs;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$0 (Ljava/lang/String;)Lcom/google/gson/JsonSyntaxException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a effectDurationMap Ljava/util/Map;
+	METHOD <init> <init> ([Lcrk;Ljava/util/Map;)V
+	METHOD <init> <init> ([Lcrk;Ljava/util/Map;Lcqs$1;)V
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a access$100 (Lcqs;)Ljava/util/Map;
+	METHOD b stewEffect ()Lcqs$a;

@@ -1,0 +1,5 @@
+CLASS ccp net/minecraft/world/level/levelgen/feature/LakeConfiguration
+	FIELD a state Lbvt;
+	METHOD <init> <init> (Lbvt;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lccp;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

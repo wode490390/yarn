@@ -1,0 +1,21 @@
+CLASS azm net/minecraft/world/inventory/MerchantContainer
+	FIELD a merchant Lbgt;
+	FIELD b itemStacks Lfk;
+	FIELD c activeOffer Lbgu;
+	FIELD d selectionHint I
+	FIELD e futureXp I
+	METHOD <init> <init> (Lbgt;)V
+	METHOD L_ clearContent ()V
+	METHOD M_ getContainerSize ()I
+	METHOD a getItem (I)Lbcj;
+	METHOD a removeItem (II)Lbcj;
+	METHOD a setItem (ILbcj;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD b removeItemNoUpdate (I)Lbcj;
+	METHOD c isEmpty ()Z
+	METHOD c setSelectionHint (I)V
+	METHOD d isPaymentSlot (I)Z
+	METHOD e setChanged ()V
+	METHOD f updateSellItem ()V
+	METHOD g getActiveOffer ()Lbgu;
+	METHOD h getFutureXp ()I

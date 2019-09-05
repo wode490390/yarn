@@ -1,0 +1,4 @@
+CLASS cdv net/minecraft/world/level/levelgen/feature/RandomSelectorFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcdr;)Z

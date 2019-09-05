@@ -1,0 +1,5 @@
+CLASS bzi net/minecraft/world/level/levelgen/TheEndGeneratorSettings
+	FIELD t spawnPosition Lew;
+	METHOD <init> <init> ()V
+	METHOD a setSpawnPosition (Lew;)Lbzi;
+	METHOD v getSpawnPosition ()Lew;

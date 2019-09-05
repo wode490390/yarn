@@ -1,0 +1,4 @@
+CLASS ayv net/minecraft/world/inventory/ContainerListener
+	METHOD a setContainerData (Layk;II)V
+	METHOD a slotChanged (Layk;ILbcj;)V
+	METHOD a refreshContainer (Layk;Lfk;)V

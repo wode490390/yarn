@@ -1,0 +1,19 @@
+CLASS awo net/minecraft/world/entity/projectile/EvokerFangs
+	FIELD b warmupDelayTicks I
+	FIELD c sentSpikeEvent Z
+	FIELD d lifeTicks I
+	FIELD e clientSideAttackStarted Z
+	FIELD f owner Laix;
+	FIELD g ownerUUID Ljava/util/UUID;
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDDFILaix;)V
+	METHOD N getAddEntityPacket ()Lkc;
+	METHOD a handleEntityEvent (B)V
+	METHOD a getAnimationProgress (F)F
+	METHOD a setOwner (Laix;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c dealDamageTo (Laix;)V
+	METHOD f getOwner ()Laix;
+	METHOD h tick ()V
+	METHOD u_ defineSynchedData ()V

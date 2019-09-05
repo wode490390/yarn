@@ -1,0 +1,5 @@
+CLASS cdi net/minecraft/world/level/levelgen/feature/PillagerOutpostConfiguration
+	FIELD a probability D
+	METHOD <init> <init> (D)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdi;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,5 @@
+CLASS buu net/minecraft/world/level/block/entity/SmokerBlockEntity
+	METHOD <init> <init> ()V
+	METHOD a createMenu (ILawf;)Layk;
+	METHOD a getBurnDuration (Lbcj;)I
+	METHOD g getDefaultName ()Ljo;

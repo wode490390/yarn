@@ -1,0 +1,7 @@
+CLASS boj net/minecraft/world/level/block/DropperBlock
+	FIELD c DISPENSE_BEHAVIOUR Lfx;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getDispenseMethod (Lbcj;)Lfx;
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a dispenseFrom (Lbhr;Lew;)V

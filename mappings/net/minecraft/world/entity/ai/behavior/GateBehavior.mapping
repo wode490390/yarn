@@ -1,0 +1,52 @@
+CLASS ake net/minecraft/world/entity/ai/behavior/GateBehavior
+	CLASS 1 1
+	CLASS a OrderPolicy
+		FIELD a ORDERED Lake$a;
+		FIELD b SHUFFLED Lake$a;
+		FIELD c consumer Ljava/util/function/Consumer;
+		FIELD d $VALUES [Lake$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/util/function/Consumer;)V
+		METHOD a apply (Lama;)V
+		METHOD b lambda$static$0 (Lama;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lake$a;
+		METHOD values values ()[Lake$a;
+	CLASS b RunningPolicy
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD a lambda$apply$0 (Lajy;)Z
+			METHOD a apply (Lama;Lvk;Laix;J)V
+			METHOD a lambda$apply$1 (Lvk;Laix;JLajy;)Z
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD a lambda$apply$0 (Lajy;)Z
+			METHOD a apply (Lama;Lvk;Laix;J)V
+			METHOD a lambda$apply$1 (Lvk;Laix;JLajy;)V
+		FIELD a RUN_ONE Lake$b;
+		FIELD b TRY_ALL Lake$b;
+		FIELD c $VALUES [Lake$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD <init> <init> (Ljava/lang/String;ILake$1;)V
+		METHOD a apply (Lama;Lvk;Laix;J)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lake$b;
+		METHOD values values ()[Lake$b;
+	FIELD a exitErasedMemories Ljava/util/Set;
+	FIELD b orderPolicy Lake$a;
+	FIELD c runningPolicy Lake$b;
+	FIELD d behaviors Lama;
+	METHOD <init> <init> (Ljava/util/Map;Ljava/util/Set;Lake$a;Lake$b;Ljava/util/List;)V
+	METHOD a timedOut (J)Z
+	METHOD a lambda$toString$7 (Lajy;)Z
+	METHOD a lambda$new$0 (Lcom/mojang/datafixers/util/Pair;)V
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a lambda$stop$6 (Lvk;Laix;JLajy;)V
+	METHOD b lambda$stop$5 (Lajy;)Z
+	METHOD b lambda$tick$4 (Lvk;Laix;JLajy;)V
+	METHOD c lambda$tick$3 (Lajy;)Z
+	METHOD c lambda$canStillUse$2 (Lvk;Laix;JLajy;)Z
+	METHOD d lambda$canStillUse$1 (Lajy;)Z
+	METHOD d tick (Lvk;Laix;J)V
+	METHOD f stop (Lvk;Laix;J)V
+	METHOD g canStillUse (Lvk;Laix;J)Z
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,2 @@
+CLASS bls net/minecraft/world/level/biome/WoodedHillsBiome
+	METHOD <init> <init> ()V

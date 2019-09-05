@@ -1,0 +1,27 @@
+CLASS ajk net/minecraft/world/entity/SpawnPlacements
+	CLASS a Data
+		FIELD a heightMap Lbza$a;
+		FIELD b placement Lajk$c;
+		FIELD c predicate Lajk$b;
+		METHOD <init> <init> (Lbza$a;Lajk$c;Lajk$b;)V
+		METHOD a access$000 (Lajk$a;)Lajk$c;
+		METHOD b access$100 (Lajk$a;)Lbza$a;
+		METHOD c access$200 (Lajk$a;)Lajk$b;
+	CLASS b SpawnPredicate
+		METHOD test test (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	CLASS c Type
+		FIELD a ON_GROUND Lajk$c;
+		FIELD b IN_WATER Lajk$c;
+		FIELD c NO_RESTRICTIONS Lajk$c;
+		FIELD d $VALUES [Lajk$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lajk$c;
+		METHOD values values ()[Lajk$c;
+	FIELD a DATA_BY_TYPE Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getPlacementType (Lais;)Lajk$c;
+	METHOD a register (Lais;Lajk$c;Lbza$a;Lajk$b;)V
+	METHOD a checkSpawnRules (Lais;Lbhs;Laja;Lew;Ljava/util/Random;)Z
+	METHOD b getHeightmapType (Lais;)Lbza$a;

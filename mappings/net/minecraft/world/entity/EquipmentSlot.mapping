@@ -1,0 +1,30 @@
+CLASS ait net/minecraft/world/entity/EquipmentSlot
+	CLASS a Type
+		FIELD a HAND Lait$a;
+		FIELD b ARMOR Lait$a;
+		FIELD c $VALUES [Lait$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lait$a;
+		METHOD values values ()[Lait$a;
+	FIELD a MAINHAND Lait;
+	FIELD b OFFHAND Lait;
+	FIELD c FEET Lait;
+	FIELD d LEGS Lait;
+	FIELD e CHEST Lait;
+	FIELD f HEAD Lait;
+	FIELD g type Lait$a;
+	FIELD h index I
+	FIELD i filterFlag I
+	FIELD j name Ljava/lang/String;
+	FIELD k $VALUES [Lait;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILait$a;IILjava/lang/String;)V
+	METHOD a getType ()Lait$a;
+	METHOD a byTypeAndIndex (Lait$a;I)Lait;
+	METHOD a byName (Ljava/lang/String;)Lait;
+	METHOD b getIndex ()I
+	METHOD c getFilterFlag ()I
+	METHOD d getName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lait;
+	METHOD values values ()[Lait;

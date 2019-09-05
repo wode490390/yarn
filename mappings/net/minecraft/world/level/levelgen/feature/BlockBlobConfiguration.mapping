@@ -1,0 +1,6 @@
+CLASS bzz net/minecraft/world/level/levelgen/feature/BlockBlobConfiguration
+	FIELD a state Lbvt;
+	FIELD b startRadius I
+	METHOD <init> <init> (Lbvt;I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lbzz;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

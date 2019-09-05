@@ -1,0 +1,4 @@
+CLASS xd net/minecraft/server/packs/resources/PreparableReloadListener
+	CLASS a PreparationBarrier
+		METHOD a wait (Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a reload (Lxd$a;Lxi;Lagn;Lagn;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;

@@ -1,0 +1,4 @@
+CLASS pw net/minecraft/network/protocol/login/ServerLoginPacketListener
+	METHOD a handleCustomQueryPacket (Lpx;)V
+	METHOD a handleHello (Lpy;)V
+	METHOD a handleKey (Lpz;)V

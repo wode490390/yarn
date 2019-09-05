@@ -1,0 +1,11 @@
+CLASS nj net/minecraft/network/protocol/game/ClientboundTabListPacket
+	FIELD a header Ljo;
+	FIELD b footer Ljo;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljo;Ljo;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getHeader ()Ljo;
+	METHOD b write (Lje;)V
+	METHOD c getFooter ()Ljo;

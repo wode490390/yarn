@@ -1,0 +1,22 @@
+CLASS aml net/minecraft/world/entity/ai/goal/AvoidEntityGoal
+	FIELD a mob Laje;
+	FIELD b toAvoid Laix;
+	FIELD c maxDist F
+	FIELD d path Lcnr;
+	FIELD e pathNav Lapp;
+	FIELD f avoidClass Ljava/lang/Class;
+	FIELD g avoidPredicate Ljava/util/function/Predicate;
+	FIELD h predicateOnAvoidEntity Ljava/util/function/Predicate;
+	FIELD i walkSpeedModifier D
+	FIELD j sprintSpeedModifier D
+	FIELD k avoidEntityTargeting Laqi;
+	METHOD <init> <init> (Laje;Ljava/lang/Class;FDD)V
+	METHOD <init> <init> (Laje;Ljava/lang/Class;FDDLjava/util/function/Predicate;)V
+	METHOD <init> <init> (Laje;Ljava/lang/Class;Ljava/util/function/Predicate;FDDLjava/util/function/Predicate;)V
+	METHOD a canUse ()Z
+	METHOD a lambda$new$1 (Laix;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD b lambda$new$0 (Laix;)Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

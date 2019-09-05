@@ -1,0 +1,12 @@
+CLASS cqt net/minecraft/world/level/storage/loot/functions/SmeltItemFunction
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqt;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Lcrk;)V
+	METHOD <init> <init> ([Lcrk;Lcqt$1;)V
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD b smelted ()Lcqg$a;

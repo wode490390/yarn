@@ -1,0 +1,7 @@
+CLASS bzp net/minecraft/world/level/levelgen/carver/HellCaveWorldCarver
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getCaveBound ()I
+	METHOD a carveBlock (Lbxh;Ljava/util/BitSet;Ljava/util/Random;Lew$a;Lew$a;Lew$a;IIIIIIIILjava/util/concurrent/atomic/AtomicBoolean;)Z
+	METHOD a getThickness (Ljava/util/Random;)F
+	METHOD b getYScale ()D
+	METHOD b getCaveY (Ljava/util/Random;)I

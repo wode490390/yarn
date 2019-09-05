@@ -1,0 +1,2 @@
+CLASS azk net/minecraft/world/inventory/MenuConstructor
+	METHOD createMenu createMenu (ILawf;Lawg;)Layk;

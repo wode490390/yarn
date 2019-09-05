@@ -1,0 +1,9 @@
+CLASS rr net/minecraft/server/commands/BanPlayerCommands
+	FIELD a ERROR_ALREADY_BANNED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a banPlayers (Lcd;Ljava/util/Collection;Ljo;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

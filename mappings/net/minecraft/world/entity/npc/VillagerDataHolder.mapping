@@ -1,0 +1,3 @@
+CLASS avv net/minecraft/world/entity/npc/VillagerDataHolder
+	METHOD a setVillagerData (Lavu;)V
+	METHOD ef getVillagerData ()Lavu;

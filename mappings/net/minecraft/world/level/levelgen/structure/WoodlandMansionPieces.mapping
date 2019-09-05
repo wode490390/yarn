@@ -1,0 +1,105 @@
+CLASS ciz net/minecraft/world/level/levelgen/structure/WoodlandMansionPieces
+	CLASS 1 1
+	CLASS a FirstFloorRoomCollection
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lciz$1;)V
+		METHOD a get1x1 (Ljava/util/Random;)Ljava/lang/String;
+		METHOD a get1x2SideEntrance (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD b get1x1Secret (Ljava/util/Random;)Ljava/lang/String;
+		METHOD b get1x2FrontEntrance (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD c get1x2Secret (Ljava/util/Random;)Ljava/lang/String;
+		METHOD d get2x2 (Ljava/util/Random;)Ljava/lang/String;
+		METHOD e get2x2Secret (Ljava/util/Random;)Ljava/lang/String;
+	CLASS b FloorRoomCollection
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lciz$1;)V
+		METHOD a get1x1 (Ljava/util/Random;)Ljava/lang/String;
+		METHOD a get1x2SideEntrance (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD b get1x1Secret (Ljava/util/Random;)Ljava/lang/String;
+		METHOD b get1x2FrontEntrance (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD c get1x2Secret (Ljava/util/Random;)Ljava/lang/String;
+		METHOD d get2x2 (Ljava/util/Random;)Ljava/lang/String;
+		METHOD e get2x2Secret (Ljava/util/Random;)Ljava/lang/String;
+	CLASS c MansionGrid
+		FIELD a random Ljava/util/Random;
+		FIELD b baseGrid Lciz$g;
+		FIELD c thirdFloorGrid Lciz$g;
+		FIELD d floorRooms [Lciz$g;
+		FIELD e entranceX I
+		FIELD f entranceY I
+		METHOD <init> <init> (Ljava/util/Random;)V
+		METHOD a print ()V
+		METHOD a access$100 (Lciz$c;)Lciz$g;
+		METHOD a cleanEdges (Lciz$g;)Z
+		METHOD a isHouse (Lciz$g;II)Z
+		METHOD a isRoomId (Lciz$g;IIII)Z
+		METHOD a recursiveCorridor (Lciz$g;IILfb;I)V
+		METHOD a identifyRooms (Lciz$g;Lciz$g;)V
+		METHOD b setupThirdFloor ()V
+		METHOD b access$200 (Lciz$c;)Lciz$g;
+		METHOD b get1x2RoomDirection (Lciz$g;IIII)Lfb;
+		METHOD c access$300 (Lciz$c;)I
+		METHOD d access$400 (Lciz$c;)I
+		METHOD e access$1000 (Lciz$c;)[Lciz$g;
+	CLASS d MansionPiecePlacer
+		FIELD a structureManager Lcjp;
+		FIELD b random Ljava/util/Random;
+		FIELD c startX I
+		FIELD d startY I
+		METHOD <init> <init> (Lcjp;Ljava/util/Random;)V
+		METHOD a createMansion (Lew;Lbrg;Ljava/util/List;Lciz$c;)V
+		METHOD a entrance (Ljava/util/List;Lciz$e;)V
+		METHOD a traverseOuterWalls (Ljava/util/List;Lciz$e;Lciz$g;Lfb;IIII)V
+		METHOD a addRoom2x2Secret (Ljava/util/List;Lew;Lbrg;Lciz$b;)V
+		METHOD a createRoof (Ljava/util/List;Lew;Lbrg;Lciz$g;Lciz$g;)V
+		METHOD a addRoom1x1 (Ljava/util/List;Lew;Lbrg;Lfb;Lciz$b;)V
+		METHOD a addRoom2x2 (Ljava/util/List;Lew;Lbrg;Lfb;Lfb;Lciz$b;)V
+		METHOD a addRoom1x2 (Ljava/util/List;Lew;Lbrg;Lfb;Lfb;Lciz$b;Z)V
+		METHOD b traverseWallPiece (Ljava/util/List;Lciz$e;)V
+		METHOD c traverseTurn (Ljava/util/List;Lciz$e;)V
+		METHOD d traverseInnerTurn (Ljava/util/List;Lciz$e;)V
+	CLASS e PlacementData
+		FIELD a rotation Lbrg;
+		FIELD b position Lew;
+		FIELD c wallType Ljava/lang/String;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lciz$1;)V
+	CLASS f SecondFloorRoomCollection
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lciz$1;)V
+		METHOD a get1x1 (Ljava/util/Random;)Ljava/lang/String;
+		METHOD a get1x2SideEntrance (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD b get1x1Secret (Ljava/util/Random;)Ljava/lang/String;
+		METHOD b get1x2FrontEntrance (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD c get1x2Secret (Ljava/util/Random;)Ljava/lang/String;
+		METHOD d get2x2 (Ljava/util/Random;)Ljava/lang/String;
+		METHOD e get2x2Secret (Ljava/util/Random;)Ljava/lang/String;
+	CLASS g SimpleGrid
+		FIELD a grid [[I
+		FIELD b width I
+		FIELD c height I
+		FIELD d valueIfOutside I
+		METHOD <init> <init> (III)V
+		METHOD a get (II)I
+		METHOD a set (III)V
+		METHOD a setif (IIII)V
+		METHOD a set (IIIII)V
+		METHOD a access$500 (Lciz$g;)I
+		METHOD b edgesTo (III)Z
+		METHOD b access$600 (Lciz$g;)I
+	CLASS h ThirdFloorRoomCollection
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lciz$1;)V
+	CLASS i WoodlandMansionPiece
+		FIELD d templateName Ljava/lang/String;
+		FIELD e rotation Lbrg;
+		FIELD f mirror Lbqg;
+		METHOD <init> <init> (Lcjp;Lid;)V
+		METHOD <init> <init> (Lcjp;Ljava/lang/String;Lew;Lbrg;)V
+		METHOD <init> <init> (Lcjp;Ljava/lang/String;Lew;Lbrg;Lbqg;)V
+		METHOD a loadTemplate (Lcjp;)V
+		METHOD a addAdditionalSaveData (Lid;)V
+		METHOD a handleDataMarker (Ljava/lang/String;Lew;Lbhs;Ljava/util/Random;Lcic;)V
+	METHOD <init> <init> ()V
+	METHOD a generateMansion (Lcjp;Lew;Lbrg;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a main ([Ljava/lang/String;)V

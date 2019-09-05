@@ -1,0 +1,5 @@
+CLASS azr net/minecraft/world/inventory/RecipeHolder
+	METHOD U_ getRecipeUsed ()Lber;
+	METHOD a setRecipeUsed (Lber;)V
+	METHOD a setRecipeUsed (Lbhr;Lvl;Lber;)Z
+	METHOD b awardAndReset (Lawg;)V

@@ -1,0 +1,7 @@
+CLASS xy net/minecraft/server/players/StoredUserEntry
+	FIELD a user Ljava/lang/Object;
+	METHOD <init> <init> (Ljava/lang/Object;)V
+	METHOD <init> <init> (Ljava/lang/Object;Lcom/google/gson/JsonObject;)V
+	METHOD a serialize (Lcom/google/gson/JsonObject;)V
+	METHOD f hasExpired ()Z
+	METHOD g getUser ()Ljava/lang/Object;

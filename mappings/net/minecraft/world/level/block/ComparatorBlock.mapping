@@ -1,0 +1,18 @@
+CLASS bnp net/minecraft/world/level/block/ComparatorBlock
+	FIELD a MODE Lbwr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a shouldTurnOn (Lbhr;Lew;Lbvt;)Z
+	METHOD a getItemFrame (Lbhr;Lfb;Lew;)Latn;
+	METHOD a triggerEvent (Lbvt;Lbhr;Lew;II)Z
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD a lambda$getItemFrame$0 (Lfb;Latn;)Z
+	METHOD b getOutputSignal (Lbhb;Lew;Lbvt;)I
+	METHOD b getInputSignal (Lbhr;Lew;Lbvt;)I
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD c checkTickOnNeighbor (Lbhr;Lew;Lbvt;)V
+	METHOD e calculateOutputSignal (Lbhr;Lew;Lbvt;)I
+	METHOD f refreshOutputState (Lbhr;Lew;Lbvt;)V
+	METHOD j getDelay (Lbvt;)I

@@ -1,0 +1,11 @@
+CLASS ank net/minecraft/world/entity/ai/goal/LlamaFollowCaravanGoal
+	FIELD a llama Lase;
+	FIELD b speedModifier D
+	FIELD c distCheckCounter I
+	METHOD <init> <init> (Lase;D)V
+	METHOD a canUse ()Z
+	METHOD a lambda$canUse$0 (Laio;)Z
+	METHOD a firstIsLeashed (Lase;I)Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V

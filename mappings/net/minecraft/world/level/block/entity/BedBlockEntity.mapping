@@ -1,0 +1,7 @@
+CLASS btt net/minecraft/world/level/block/entity/BedBlockEntity
+	FIELD a color Lbbg;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbbg;)V
+	METHOD a getUpdatePacket ()Lkq;
+	METHOD a setColor (Lbbg;)V
+	METHOD d getColor ()Lbbg;

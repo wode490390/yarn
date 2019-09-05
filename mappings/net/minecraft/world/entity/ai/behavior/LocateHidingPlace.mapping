@@ -1,0 +1,12 @@
+CLASS akn net/minecraft/world/entity/ai/behavior/LocateHidingPlace
+	FIELD a speed F
+	FIELD b radius I
+	FIELD c closeEnoughDist I
+	FIELD d currentPos Ljava/util/Optional;
+	METHOD <init> <init> (IFI)V
+	METHOD a lambda$start$2 (Laqs;)Z
+	METHOD a lambda$start$3 (Lew;)Z
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD b lambda$checkExtraStartConditions$0 (Laqs;)Z
+	METHOD b lambda$checkExtraStartConditions$1 (Lew;)Z

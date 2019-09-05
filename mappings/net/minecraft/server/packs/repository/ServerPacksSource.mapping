@@ -1,0 +1,5 @@
+CLASS wz net/minecraft/server/packs/repository/ServerPacksSource
+	FIELD a vanillaPack Lwo;
+	METHOD <init> <init> ()V
+	METHOD a lambda$loadPacks$0 ()Lwl;
+	METHOD a loadPacks (Ljava/util/Map;Lxa$b;)V

@@ -1,0 +1,9 @@
+CLASS pb net/minecraft/network/protocol/game/ServerboundSetCarriedItemPacket
+	FIELD a slot I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getSlot ()I
+	METHOD b write (Lje;)V

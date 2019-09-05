@@ -1,0 +1,9 @@
+CLASS gw net/minecraft/data/info/RegistryDumpReport
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c generator Lgk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgk;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a lambda$run$0 (Lcom/google/gson/JsonObject;Lqv;)V
+	METHOD a dumpRegistry (Lft;)Lcom/google/gson/JsonElement;
+	METHOD a run (Lgm;)V

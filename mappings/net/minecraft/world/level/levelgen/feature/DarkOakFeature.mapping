@@ -1,0 +1,9 @@
+CLASS car net/minecraft/world/level/levelgen/feature/DarkOakFeature
+	FIELD a LOG Lbvt;
+	FIELD aS LEAVES Lbvt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Z)V
+	METHOD a placeLeafAt (Lbhw;IIILcic;Ljava/util/Set;)V
+	METHOD a canPlaceTreeOfHeight (Lbhx;Lew;I)Z
+	METHOD a placeLogAt (Ljava/util/Set;Lbhw;Lew;Lcic;)V
+	METHOD a doPlace (Ljava/util/Set;Lbhw;Ljava/util/Random;Lew;Lcic;)Z

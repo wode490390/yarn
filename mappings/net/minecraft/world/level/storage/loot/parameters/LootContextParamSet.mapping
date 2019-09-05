@@ -1,0 +1,20 @@
+CLASS cqx net/minecraft/world/level/storage/loot/parameters/LootContextParamSet
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a required Ljava/util/Set;
+		FIELD b optional Ljava/util/Set;
+		METHOD <init> <init> ()V
+		METHOD a build ()Lcqx;
+		METHOD a required (Lcqw;)Lcqx$a;
+		METHOD b optional (Lcqw;)Lcqx$a;
+	FIELD a required Ljava/util/Set;
+	FIELD b all Ljava/util/Set;
+	METHOD <init> <init> (Ljava/util/Set;Ljava/util/Set;)V
+	METHOD <init> <init> (Ljava/util/Set;Ljava/util/Set;Lcqx$1;)V
+	METHOD a getRequired ()Ljava/util/Set;
+	METHOD a validateUser (Lcpc;Lcoz;)V
+	METHOD a isAllowed (Lcqw;)Z
+	METHOD b getAllowed ()Ljava/util/Set;
+	METHOD b lambda$toString$0 (Lcqw;)Ljava/lang/String;
+	METHOD c builder ()Lcqx$a;
+	METHOD toString toString ()Ljava/lang/String;

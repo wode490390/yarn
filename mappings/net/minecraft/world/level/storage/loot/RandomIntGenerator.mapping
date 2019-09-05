@@ -1,0 +1,7 @@
+CLASS cpe net/minecraft/world/level/storage/loot/RandomIntGenerator
+	FIELD a CONSTANT Lqv;
+	FIELD b UNIFORM Lqv;
+	FIELD c BINOMIAL Lqv;
+	METHOD <clinit> <clinit> ()V
+	METHOD a getType ()Lqv;
+	METHOD a getInt (Ljava/util/Random;)I

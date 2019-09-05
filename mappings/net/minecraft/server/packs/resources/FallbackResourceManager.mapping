@@ -1,0 +1,25 @@
+CLASS xc net/minecraft/server/packs/resources/FallbackResourceManager
+	CLASS a LeakedResourceWarningInputStream
+		FIELD a wrapped Ljava/io/InputStream;
+		FIELD b message Ljava/lang/String;
+		FIELD c closed Z
+		METHOD <init> <init> (Ljava/io/InputStream;Lqv;Ljava/lang/String;)V
+		METHOD close close ()V
+		METHOD finalize finalize ()V
+		METHOD read read ()I
+	FIELD a fallbacks Ljava/util/List;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c type Lwm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lwm;)V
+	METHOD a getNamespaces ()Ljava/util/Set;
+	METHOD a listResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a getResource (Lqv;)Lxh;
+	METHOD a getWrappedResource (Lqv;Lwl;)Ljava/io/InputStream;
+	METHOD a add (Lwl;)V
+	METHOD b access$000 ()Lorg/apache/logging/log4j/Logger;
+	METHOD b hasResource (Lqv;)Z
+	METHOD c getResources (Lqv;)Ljava/util/List;
+	METHOD d getMetadataLocation (Lqv;)Lqv;
+	METHOD e validateLocation (Lqv;)V
+	METHOD f isValidLocation (Lqv;)Z

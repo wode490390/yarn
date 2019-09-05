@@ -1,0 +1,3 @@
+CLASS cnf net/minecraft/world/level/newbiome/layer/traits/CastleTransformer
+	METHOD a applyPixel (Lclx;Lclt;II)I
+	METHOD a apply (Lcly;IIIII)I

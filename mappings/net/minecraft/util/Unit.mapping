@@ -1,1 +1,7 @@
-CLASS net/minecraft/class_3902 net/minecraft/util/Unit
+CLASS aag net/minecraft/util/Unit
+	FIELD a INSTANCE Laag;
+	FIELD b $VALUES [Laag;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Laag;
+	METHOD values values ()[Laag;

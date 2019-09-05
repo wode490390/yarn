@@ -1,0 +1,33 @@
+CLASS ajp net/minecraft/world/entity/ai/attributes/AttributeModifier
+	CLASS a Operation
+		FIELD a ADDITION Lajp$a;
+		FIELD b MULTIPLY_BASE Lajp$a;
+		FIELD c MULTIPLY_TOTAL Lajp$a;
+		FIELD d OPERATIONS [Lajp$a;
+		FIELD e value I
+		FIELD f $VALUES [Lajp$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;II)V
+		METHOD a toValue ()I
+		METHOD a fromValue (I)Lajp$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lajp$a;
+		METHOD values values ()[Lajp$a;
+	FIELD a amount D
+	FIELD b operation Lajp$a;
+	FIELD c nameGetter Ljava/util/function/Supplier;
+	FIELD d id Ljava/util/UUID;
+	FIELD e serialize Z
+	METHOD <init> <init> (Ljava/lang/String;DLajp$a;)V
+	METHOD <init> <init> (Ljava/util/UUID;Ljava/lang/String;DLajp$a;)V
+	METHOD <init> <init> (Ljava/util/UUID;Ljava/util/function/Supplier;DLajp$a;)V
+	METHOD a getId ()Ljava/util/UUID;
+	METHOD a lambda$new$1 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a setSerialize (Z)Lajp;
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b lambda$new$0 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c getOperation ()Lajp$a;
+	METHOD d getAmount ()D
+	METHOD e isSerializable ()Z
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

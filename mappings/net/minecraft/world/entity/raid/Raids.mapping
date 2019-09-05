@@ -1,0 +1,16 @@
+CLASS axm net/minecraft/world/entity/raid/Raids
+	FIELD a raidMap Ljava/util/Map;
+	FIELD b level Lvk;
+	FIELD c nextAvailableID I
+	FIELD d tick I
+	METHOD <init> <init> (Lvk;)V
+	METHOD a tick ()V
+	METHOD a get (I)Laxk;
+	METHOD a canJoinRaid (Laxl;Laxk;)Z
+	METHOD a getFileId (Lbym;)Ljava/lang/String;
+	METHOD a getNearbyRaid (Lew;I)Laxk;
+	METHOD a load (Lid;)V
+	METHOD a getOrCreateRaid (Lvk;Lew;)Laxk;
+	METHOD a createOrExtendRaid (Lvl;)Laxk;
+	METHOD b save (Lid;)Lid;
+	METHOD e getUniqueId ()I

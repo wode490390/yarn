@@ -1,0 +1,18 @@
+CLASS bxd net/minecraft/world/level/border/BorderChangeListener
+	CLASS a DelegateBorderChangeListener
+		FIELD a worldBorder Lbxf;
+		METHOD <init> <init> (Lbxf;)V
+		METHOD a onBorderSizeSet (Lbxf;D)V
+		METHOD a onBorderCenterSet (Lbxf;DD)V
+		METHOD a onBorderSizeLerping (Lbxf;DDJ)V
+		METHOD a onBorderSetWarningTime (Lbxf;I)V
+		METHOD b onBorderSetDamagePerBlock (Lbxf;D)V
+		METHOD b onBorderSetWarningBlocks (Lbxf;I)V
+		METHOD c onBorderSetDamageSafeZOne (Lbxf;D)V
+	METHOD a onBorderSizeSet (Lbxf;D)V
+	METHOD a onBorderCenterSet (Lbxf;DD)V
+	METHOD a onBorderSizeLerping (Lbxf;DDJ)V
+	METHOD a onBorderSetWarningTime (Lbxf;I)V
+	METHOD b onBorderSetDamagePerBlock (Lbxf;D)V
+	METHOD b onBorderSetWarningBlocks (Lbxf;I)V
+	METHOD c onBorderSetDamageSafeZOne (Lbxf;D)V

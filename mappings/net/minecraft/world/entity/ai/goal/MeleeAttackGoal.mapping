@@ -1,0 +1,20 @@
+CLASS ann net/minecraft/world/entity/ai/goal/MeleeAttackGoal
+	FIELD a mob Laje;
+	FIELD b attackTime I
+	FIELD c attackInterval I
+	FIELD d speedModifier D
+	FIELD e trackTarget Z
+	FIELD f path Lcnr;
+	FIELD g timeToRecalcPath I
+	FIELD h pathedTargetX D
+	FIELD i pathedTargetY D
+	FIELD j pathedTargetZ D
+	FIELD k lastUpdate J
+	METHOD <init> <init> (Laje;DZ)V
+	METHOD a canUse ()Z
+	METHOD a getAttackReachSqr (Laix;)D
+	METHOD a checkAndPerformAttack (Laix;D)V
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

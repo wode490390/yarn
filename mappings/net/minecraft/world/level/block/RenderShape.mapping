@@ -1,0 +1,9 @@
+CLASS brd net/minecraft/world/level/block/RenderShape
+	FIELD a INVISIBLE Lbrd;
+	FIELD b ENTITYBLOCK_ANIMATED Lbrd;
+	FIELD c MODEL Lbrd;
+	FIELD d $VALUES [Lbrd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbrd;
+	METHOD values values ()[Lbrd;

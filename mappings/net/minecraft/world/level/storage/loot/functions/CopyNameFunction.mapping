@@ -1,0 +1,30 @@
+CLASS cpy net/minecraft/world/level/storage/loot/functions/CopyNameFunction
+	CLASS 1 1
+	CLASS a NameSource
+		FIELD a THIS Lcpy$a;
+		FIELD b KILLER Lcpy$a;
+		FIELD c KILLER_PLAYER Lcpy$a;
+		FIELD d BLOCK_ENTITY Lcpy$a;
+		FIELD e name Ljava/lang/String;
+		FIELD f param Lcqw;
+		FIELD g $VALUES [Lcpy$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lcqw;)V
+		METHOD a getByName (Ljava/lang/String;)Lcpy$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcpy$a;
+		METHOD values values ()[Lcpy$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcpy;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpy;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a source Lcpy$a;
+	METHOD <init> <init> ([Lcrk;Lcpy$a;)V
+	METHOD <init> <init> ([Lcrk;Lcpy$a;Lcpy$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a copyName (Lcpy$a;)Lcqg$a;
+	METHOD a lambda$copyName$0 (Lcpy$a;[Lcrk;)Lcqh;
+	METHOD a access$000 (Lcpy;)Lcpy$a;

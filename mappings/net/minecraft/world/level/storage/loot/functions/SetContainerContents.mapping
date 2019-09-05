@@ -1,0 +1,25 @@
+CLASS cql net/minecraft/world/level/storage/loot/functions/SetContainerContents
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Lcql$a;
+		METHOD a withEntry (Lcpq$a;)Lcql$a;
+		METHOD b build ()Lcqh;
+		METHOD d getThis ()Lcqg$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcql;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcql;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a entries Ljava/util/List;
+	METHOD <init> <init> ([Lcrk;Ljava/util/List;)V
+	METHOD <init> <init> ([Lcrk;Ljava/util/List;Lcql$1;)V
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a lambda$run$1 (Lcoy;Lfk;Lcpq;)V
+	METHOD a validate (Lcpc;Ljava/util/function/Function;Ljava/util/Set;Lcqx;)V
+	METHOD a access$100 (Lcql;)Ljava/util/List;
+	METHOD a lambda$null$0 (Lfk;Lcoy;Lcpp;)V
+	METHOD b setContents ()Lcql$a;

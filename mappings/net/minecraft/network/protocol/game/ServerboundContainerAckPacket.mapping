@@ -1,0 +1,13 @@
+CLASS oc net/minecraft/network/protocol/game/ServerboundContainerAckPacket
+	FIELD a containerId I
+	FIELD b uid S
+	FIELD c accepted Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ISZ)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getContainerId ()I
+	METHOD b write (Lje;)V
+	METHOD c getUid ()S
+	METHOD d isAccepted ()Z

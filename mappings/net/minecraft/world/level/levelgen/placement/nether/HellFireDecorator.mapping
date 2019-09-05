@@ -1,0 +1,4 @@
+CLASS chv net/minecraft/world/level/levelgen/placement/nether/HellFireDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Ljava/util/Random;Lcax;Lew;)Ljava/util/stream/Stream;
+	METHOD a place (Ljava/util/Random;Lcgv;Lew;)Ljava/util/stream/Stream;

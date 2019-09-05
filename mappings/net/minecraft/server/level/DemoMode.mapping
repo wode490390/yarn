@@ -1,0 +1,11 @@
+CLASS vb net/minecraft/server/level/DemoMode
+	FIELD c displayedIntro Z
+	FIELD d demoHasEnded Z
+	FIELD e demoEndedReminder I
+	FIELD f gameModeTicks I
+	METHOD <init> <init> (Lvk;)V
+	METHOD a tick ()V
+	METHOD a useItem (Lawg;Lbhr;Lbcj;Lahi;)Lahj;
+	METHOD a useItemOn (Lawg;Lbhr;Lbcj;Lahi;Lcsd;)Lahj;
+	METHOD a handleBlockBreakAction (Lew;Los$a;Lfb;I)V
+	METHOD e outputDemoReminder ()V

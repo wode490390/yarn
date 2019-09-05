@@ -1,0 +1,2 @@
+CLASS azz net/minecraft/world/inventory/StackedContentsCompatible
+	METHOD a fillStackedContents (Lawi;)V

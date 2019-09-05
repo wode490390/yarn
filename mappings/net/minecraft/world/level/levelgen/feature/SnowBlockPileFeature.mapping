@@ -1,0 +1,3 @@
+CLASS cem net/minecraft/world/level/levelgen/feature/SnowBlockPileFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getBlockState (Lbhs;)Lbvt;

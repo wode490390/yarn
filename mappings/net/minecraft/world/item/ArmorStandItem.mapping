@@ -1,0 +1,4 @@
+CLASS bag net/minecraft/world/item/ArmorStandItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a randomizePose (Latl;Ljava/util/Random;)V
+	METHOD a useOn (Lbdu;)Lahj;

@@ -1,0 +1,32 @@
+CLASS mn net/minecraft/network/protocol/game/ClientboundSetBorderPacket
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$network$protocol$game$ClientboundSetBorderPacket$Type [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Type
+		FIELD a SET_SIZE Lmn$a;
+		FIELD b LERP_SIZE Lmn$a;
+		FIELD c SET_CENTER Lmn$a;
+		FIELD d INITIALIZE Lmn$a;
+		FIELD e SET_WARNING_TIME Lmn$a;
+		FIELD f SET_WARNING_BLOCKS Lmn$a;
+		FIELD g $VALUES [Lmn$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lmn$a;
+		METHOD values values ()[Lmn$a;
+	FIELD a type Lmn$a;
+	FIELD b newAbsoluteMaxSize I
+	FIELD c newCenterX D
+	FIELD d newCenterZ D
+	FIELD e newSize D
+	FIELD f oldSize D
+	FIELD g lerpTime J
+	FIELD h warningTime I
+	FIELD i warningBlocks I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbxf;Lmn$a;)V
+	METHOD a applyChanges (Lbxf;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b write (Lje;)V

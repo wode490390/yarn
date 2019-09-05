@@ -1,0 +1,4 @@
+CLASS ej net/minecraft/commands/synchronization/ArgumentSerializer
+	METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
+	METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/ArgumentType;Lje;)V
+	METHOD b deserializeFromNetwork (Lje;)Lcom/mojang/brigadier/arguments/ArgumentType;

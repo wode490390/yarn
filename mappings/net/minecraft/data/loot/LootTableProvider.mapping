@@ -1,0 +1,15 @@
+CLASS hd net/minecraft/data/loot/LootTableProvider
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d generator Lgk;
+	FIELD e subProviders Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgk;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a lambda$run$2 (Lcpc;Ljava/util/Map;Lqv;Lcpb;)V
+	METHOD a run (Lgm;)V
+	METHOD a lambda$run$3 (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a lambda$run$4 (Ljava/nio/file/Path;Lgm;Lqv;Lcpb;)V
+	METHOD a createPath (Ljava/nio/file/Path;Lqv;)Ljava/nio/file/Path;
+	METHOD a lambda$run$1 (Ljava/util/Map;Lcom/mojang/datafixers/util/Pair;)V
+	METHOD a lambda$null$0 (Ljava/util/Map;Lcom/mojang/datafixers/util/Pair;Lqv;Lcpb$a;)V

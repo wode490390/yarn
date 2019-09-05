@@ -1,0 +1,4 @@
+CLASS bzb net/minecraft/world/level/levelgen/NetherGeneratorSettings
+	METHOD <init> <init> ()V
+	METHOD t getBedrockRoofPosition ()I
+	METHOD u getBedrockFloorPosition ()I

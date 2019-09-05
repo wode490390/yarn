@@ -1,0 +1,15 @@
+CLASS axq net/minecraft/world/entity/schedule/Schedule
+	FIELD a EMPTY Laxq;
+	FIELD b SIMPLE Laxq;
+	FIELD c VILLAGER_BABY Laxq;
+	FIELD d VILLAGER_DEFAULT Laxq;
+	FIELD e timelines Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getActivityAt (I)Laxo;
+	METHOD a lambda$getActivityAt$1 (ILjava/util/Map$Entry;)D
+	METHOD a ensureTimelineExistsFor (Laxo;)V
+	METHOD a lambda$getAllTimelinesExceptFor$0 (Laxo;Ljava/util/Map$Entry;)Z
+	METHOD a register (Ljava/lang/String;)Laxr;
+	METHOD b getTimelineFor (Laxo;)Laxs;
+	METHOD c getAllTimelinesExceptFor (Laxo;)Ljava/util/List;

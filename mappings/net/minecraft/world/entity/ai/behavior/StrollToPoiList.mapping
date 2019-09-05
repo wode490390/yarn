@@ -1,0 +1,13 @@
+CLASS alp net/minecraft/world/entity/ai/behavior/StrollToPoiList
+	FIELD a strollToMemoryType Lapj;
+	FIELD b mustBeCloseToMemoryType Lapj;
+	FIELD c speed F
+	FIELD d closeEnoughDist I
+	FIELD e maxDistanceFromPoi I
+	FIELD f nextOkStartTime J
+	FIELD g targetPos Lfd;
+	METHOD <init> <init> (Lapj;FIILapj;)V
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a checkExtraStartConditions (Lvk;Lavt;)Z
+	METHOD a start (Lvk;Lavt;J)V

@@ -1,0 +1,4 @@
+CLASS cob net/minecraft/world/level/saveddata/SaveDataDirtyRunnable
+	FIELD a savedData Lcoc;
+	METHOD <init> <init> (Lcoc;)V
+	METHOD run run ()V

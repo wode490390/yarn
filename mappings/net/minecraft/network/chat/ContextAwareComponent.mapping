@@ -1,0 +1,2 @@
+CLASS jq net/minecraft/network/chat/ContextAwareComponent
+	METHOD a resolve (Lcd;Laio;I)Ljo;

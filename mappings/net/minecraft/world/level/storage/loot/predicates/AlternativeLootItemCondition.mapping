@@ -1,0 +1,22 @@
+CLASS crb net/minecraft/world/level/storage/loot/predicates/AlternativeLootItemCondition
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a terms Ljava/util/List;
+		METHOD <init> <init> ([Lcrk$a;)V
+		METHOD a or (Lcrk$a;)Lcrb$a;
+		METHOD build build ()Lcrk;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrb;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrb;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcrk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcrk;
+	FIELD a terms [Lcrk;
+	FIELD b composedPredicate Ljava/util/function/Predicate;
+	METHOD <init> <init> ([Lcrk;)V
+	METHOD <init> <init> ([Lcrk;Lcrb$1;)V
+	METHOD a test (Lcoy;)Z
+	METHOD a validate (Lcpc;Ljava/util/function/Function;Ljava/util/Set;Lcqx;)V
+	METHOD a access$100 (Lcrb;)[Lcrk;
+	METHOD a alternative ([Lcrk$a;)Lcrb$a;
+	METHOD test test (Ljava/lang/Object;)Z

@@ -1,0 +1,3 @@
+CLASS cni net/minecraft/world/level/newbiome/layer/traits/DimensionTransformer
+	METHOD a getParentX (I)I
+	METHOD b getParentY (I)I

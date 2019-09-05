@@ -1,0 +1,9 @@
+CLASS ajx net/minecraft/world/entity/ai/behavior/AssignProfessionFromJobSite
+	METHOD <init> <init> ()V
+	METHOD a lambda$null$0 (Laqs;Lavw;)Z
+	METHOD a lambda$start$2 (Lavt;Lvk;Laqs;)V
+	METHOD a lambda$null$1 (Lavt;Lvk;Lavw;)V
+	METHOD a checkExtraStartConditions (Lvk;Laix;)Z
+	METHOD a start (Lvk;Laix;J)V
+	METHOD a checkExtraStartConditions (Lvk;Lavt;)Z
+	METHOD a start (Lvk;Lavt;J)V

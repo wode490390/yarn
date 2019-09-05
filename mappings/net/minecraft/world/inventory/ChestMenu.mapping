@@ -1,0 +1,18 @@
+CLASS ayr net/minecraft/world/inventory/ChestMenu
+	FIELD c container Lahc;
+	FIELD d containerRows I
+	METHOD <init> <init> (Lazl;ILawf;I)V
+	METHOD <init> <init> (Lazl;ILawf;Lahc;I)V
+	METHOD a oneRow (ILawf;)Layr;
+	METHOD a threeRows (ILawf;Lahc;)Layr;
+	METHOD a stillValid (Lawg;)Z
+	METHOD b twoRows (ILawf;)Layr;
+	METHOD b sixRows (ILawf;Lahc;)Layr;
+	METHOD b removed (Lawg;)V
+	METHOD b quickMoveStack (Lawg;I)Lbcj;
+	METHOD c threeRows (ILawf;)Layr;
+	METHOD d fourRows (ILawf;)Layr;
+	METHOD e getContainer ()Lahc;
+	METHOD e fiveRows (ILawf;)Layr;
+	METHOD f getRowCount ()I
+	METHOD f sixRows (ILawf;)Layr;

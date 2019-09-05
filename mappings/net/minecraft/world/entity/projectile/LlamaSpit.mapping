@@ -1,0 +1,17 @@
+CLASS awu net/minecraft/world/entity/projectile/LlamaSpit
+	FIELD b owner Lase;
+	FIELD c ownerTag Lid;
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDDDDD)V
+	METHOD <init> <init> (Lbhr;Lase;)V
+	METHOD N getAddEntityPacket ()Lkc;
+	METHOD a lambda$tick$0 (Laio;)Z
+	METHOD a shootFromRotation (Laio;FFFFF)V
+	METHOD a onHit (Lcsf;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD c shoot (DDDFF)V
+	METHOD f restoreOwnerFromSave ()V
+	METHOD h tick ()V
+	METHOD h lerpMotion (DDD)V
+	METHOD u_ defineSynchedData ()V

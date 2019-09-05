@@ -1,4 +1,20 @@
-CLASS net/minecraft/class_2489 net/minecraft/nbt/DoubleTag
-	FIELD field_11520 value D
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
+CLASS ie net/minecraft/nbt/DoubleTag
+	FIELD f data D
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (D)V
+	METHOD a getId ()B
+	METHOD a load (Ljava/io/DataInput;ILin;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Ljo;
+	METHOD b copy ()Liu;
+	METHOD c copy ()Lie;
+	METHOD d getAsLong ()J
+	METHOD e getAsInt ()I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getAsShort ()S
+	METHOD g getAsByte ()B
+	METHOD h getAsDouble ()D
+	METHOD hashCode hashCode ()I
+	METHOD i getAsFloat ()F
+	METHOD j getAsNumber ()Ljava/lang/Number;
+	METHOD toString toString ()Ljava/lang/String;

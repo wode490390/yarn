@@ -1,0 +1,20 @@
+CLASS cip net/minecraft/world/level/levelgen/structure/PoolElementStructurePiece
+	FIELD a element Lcfr;
+	FIELD b position Lew;
+	FIELD c rotation Lbrg;
+	FIELD d groundLevelDelta I
+	FIELD e junctions Ljava/util/List;
+	FIELD f structureManager Lcjp;
+	METHOD <init> <init> (Lcev;Lcjp;Lcfr;Lew;ILbrg;Lcic;)V
+	METHOD <init> <init> (Lcjp;Lid;Lcev;)V
+	METHOD X_ getRotation ()Lbrg;
+	METHOD a move (III)V
+	METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)Z
+	METHOD a addJunction (Lcfn;)V
+	METHOD a addAdditionalSaveData (Lid;)V
+	METHOD a lambda$new$0 (Liu;)V
+	METHOD b getElement ()Lcfr;
+	METHOD c getPosition ()Lew;
+	METHOD d getGroundLevelDelta ()I
+	METHOD e getJunctions ()Ljava/util/List;
+	METHOD toString toString ()Ljava/lang/String;

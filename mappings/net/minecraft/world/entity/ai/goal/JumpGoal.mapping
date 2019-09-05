@@ -1,0 +1,3 @@
+CLASS anh net/minecraft/world/entity/ai/goal/JumpGoal
+	METHOD <init> <init> ()V
+	METHOD a rotlerp (FFF)F

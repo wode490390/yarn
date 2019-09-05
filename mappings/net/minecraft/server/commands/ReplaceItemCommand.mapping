@@ -1,0 +1,16 @@
+CLASS tc net/minecraft/server/commands/ReplaceItemCommand
+	FIELD a ERROR_NOT_A_CONTAINER Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_INAPPLICABLE_SLOT Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD c ERROR_ENTITY_SLOT Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$2 (Lcd;)Z
+	METHOD a setBlockItem (Lcd;Lew;ILbcj;)I
+	METHOD a setEntityItem (Lcd;Ljava/util/Collection;ILbcj;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$static$1 (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD b lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I

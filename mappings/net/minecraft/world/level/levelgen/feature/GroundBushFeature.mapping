@@ -1,0 +1,5 @@
+CLASS cby net/minecraft/world/level/levelgen/feature/GroundBushFeature
+	FIELD a leaf Lbvt;
+	FIELD aS trunk Lbvt;
+	METHOD <init> <init> (Ljava/util/function/Function;Lbvt;Lbvt;)V
+	METHOD a doPlace (Ljava/util/Set;Lbhw;Ljava/util/Random;Lew;Lcic;)Z

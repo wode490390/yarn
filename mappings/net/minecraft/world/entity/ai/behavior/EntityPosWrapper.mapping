@@ -1,0 +1,8 @@
+CLASS akd net/minecraft/world/entity/ai/behavior/EntityPosWrapper
+	FIELD a entity Laio;
+	METHOD <init> <init> (Laio;)V
+	METHOD a getPos ()Lew;
+	METHOD a isVisible (Laix;)Z
+	METHOD b getLookAtPos ()Lcsi;
+	METHOD c getEntity ()Laio;
+	METHOD toString toString ()Ljava/lang/String;

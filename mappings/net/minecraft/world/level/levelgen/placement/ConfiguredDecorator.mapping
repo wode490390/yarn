@@ -1,0 +1,8 @@
+CLASS cgg net/minecraft/world/level/levelgen/placement/ConfiguredDecorator
+	FIELD a decorator Lche;
+	FIELD b config Lcax;
+	METHOD <init> <init> (Lche;Lcax;)V
+	METHOD <init> <init> (Lche;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcal;)Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcgg;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

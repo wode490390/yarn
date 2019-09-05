@@ -1,0 +1,2 @@
+CLASS vu net/minecraft/server/level/progress/ChunkProgressListenerFactory
+	METHOD create create (I)Lvt;

@@ -1,0 +1,17 @@
+CLASS cps net/minecraft/world/level/storage/loot/entries/LootTableReference
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcrk;[Lcqh;)Lcps;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpr;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcps;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcrk;[Lcqh;)Lcpr;
+	FIELD c name Lqv;
+	METHOD <init> <init> (Lqv;II[Lcrk;[Lcqh;)V
+	METHOD <init> <init> (Lqv;II[Lcrk;[Lcqh;Lcps$1;)V
+	METHOD a validate (Lcpc;Ljava/util/function/Function;Ljava/util/Set;Lcqx;)V
+	METHOD a access$000 (Lcps;)Lqv;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Lcoy;)V
+	METHOD a lootTableReference (Lqv;)Lcpr$a;
+	METHOD a lambda$lootTableReference$0 (Lqv;II[Lcrk;[Lcqh;)Lcpr;

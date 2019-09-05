@@ -1,0 +1,31 @@
+CLASS ciw net/minecraft/world/level/levelgen/structure/StructureStart
+	CLASS 1 1
+		METHOD <init> <init> (Lceu;IILbio;Lcic;IJ)V
+		METHOD a generatePieces (Lbxi;Lcjp;IILbio;)V
+	FIELD a INVALID_START Lciw;
+	FIELD b pieces Ljava/util/List;
+	FIELD c boundingBox Lcic;
+	FIELD d random Lbzk;
+	FIELD e feature Lceu;
+	FIELD f chunkX I
+	FIELD g chunkZ I
+	FIELD h biome Lbio;
+	FIELD i references I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lceu;IILbio;Lcic;IJ)V
+	METHOD a getLocatePos ()Lew;
+	METHOD a createTag (II)Lid;
+	METHOD a moveBelowSeaLevel (ILjava/util/Random;I)V
+	METHOD a postProcess (Lbhs;Ljava/util/Random;Lcic;Lbhd;)V
+	METHOD a generatePieces (Lbxi;Lcjp;IILbio;)V
+	METHOD a moveInsideHeights (Ljava/util/Random;II)V
+	METHOD b calculateBoundingBox ()V
+	METHOD c getBoundingBox ()Lcic;
+	METHOD d getPieces ()Ljava/util/List;
+	METHOD e isValid ()Z
+	METHOD f getChunkX ()I
+	METHOD g getChunkZ ()I
+	METHOD h canBeReferenced ()Z
+	METHOD i addReference ()V
+	METHOD j getMaxReferences ()I
+	METHOD k getFeature ()Lceu;

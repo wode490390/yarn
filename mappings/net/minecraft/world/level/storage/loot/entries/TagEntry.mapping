@@ -1,0 +1,27 @@
+CLASS cpu net/minecraft/world/level/storage/loot/entries/TagEntry
+	CLASS 1 1
+		FIELD a val$item Lbce;
+		FIELD c this$0 Lcpu;
+		METHOD <init> <init> (Lcpu;Lbce;)V
+		METHOD a createItemStack (Ljava/util/function/Consumer;Lcoy;)V
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcrk;[Lcqh;)Lcpu;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpr;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpu;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcrk;[Lcqh;)Lcpr;
+	FIELD c tag Lzg;
+	FIELD h expand Z
+	METHOD <init> <init> (Lzg;ZII[Lcrk;[Lcqh;)V
+	METHOD <init> <init> (Lzg;ZII[Lcrk;[Lcqh;Lcpu$1;)V
+	METHOD a expandTag (Lcoy;Ljava/util/function/Consumer;)Z
+	METHOD a access$000 (Lcpu;)Lzg;
+	METHOD a lambda$createItemStack$0 (Ljava/util/function/Consumer;Lbce;)V
+	METHOD a createItemStack (Ljava/util/function/Consumer;Lcoy;)V
+	METHOD a tagContents (Lzg;)Lcpr$a;
+	METHOD a lambda$expandTag$2 (Lzg;II[Lcrk;[Lcqh;)Lcpr;
+	METHOD b access$100 (Lcpu;)Z
+	METHOD b expandTag (Lzg;)Lcpr$a;
+	METHOD b lambda$tagContents$1 (Lzg;II[Lcrk;[Lcqh;)Lcpr;
+	METHOD expand expand (Lcoy;Ljava/util/function/Consumer;)Z

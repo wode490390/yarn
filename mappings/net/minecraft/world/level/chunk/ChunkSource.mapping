@@ -1,0 +1,18 @@
+CLASS bxl net/minecraft/world/level/chunk/ChunkSource
+	METHOD <init> <init> ()V
+	METHOD a getChunkNow (II)Lbxt;
+	METHOD a getChunk (IILbxm;Z)Lbxh;
+	METHOD a getChunk (IIZ)Lbxt;
+	METHOD a isEntityTickingChunk (Laio;)Z
+	METHOD a isEntityTickingChunk (Lbhd;)Z
+	METHOD a updateChunkForced (Lbhd;Z)V
+	METHOD a isTickingChunk (Lew;)Z
+	METHOD a tick (Ljava/util/function/BooleanSupplier;)V
+	METHOD a setSpawnSettings (ZZ)V
+	METHOD b hasChunk (II)Z
+	METHOD c getChunkForLighting (II)Lbhb;
+	METHOD close close ()V
+	METHOD e gatherStats ()Ljava/lang/String;
+	METHOD g getGenerator ()Lbxi;
+	METHOD h getLoadedChunksCount ()I
+	METHOD k getLightEngine ()Lclb;

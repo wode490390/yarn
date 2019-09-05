@@ -1,0 +1,2 @@
+CLASS bci net/minecraft/world/item/ItemPropertyFunction
+	METHOD call call (Lbcj;Lbhr;Laix;)F

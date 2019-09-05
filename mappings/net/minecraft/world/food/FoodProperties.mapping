@@ -1,0 +1,31 @@
+CLASS ayh net/minecraft/world/food/FoodProperties
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a nutrition I
+		FIELD b saturationModifier F
+		FIELD c isMeat Z
+		FIELD d canAlwaysEat Z
+		FIELD e fastFood Z
+		FIELD f effects Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a meat ()Layh$a;
+		METHOD a saturationMod (F)Layh$a;
+		METHOD a nutrition (I)Layh$a;
+		METHOD a effect (Laii;F)Layh$a;
+		METHOD b alwaysEat ()Layh$a;
+		METHOD c fast ()Layh$a;
+		METHOD d build ()Layh;
+	FIELD a nutrition I
+	FIELD b saturationModifier F
+	FIELD c isMeat Z
+	FIELD d canAlwaysEat Z
+	FIELD e fastFood Z
+	FIELD f effects Ljava/util/List;
+	METHOD <init> <init> (IFZZZLjava/util/List;)V
+	METHOD <init> <init> (IFZZZLjava/util/List;Layh$1;)V
+	METHOD a getNutrition ()I
+	METHOD b getSaturationModifier ()F
+	METHOD c isMeat ()Z
+	METHOD d canAlwaysEat ()Z
+	METHOD e isFastFood ()Z
+	METHOD f getEffects ()Ljava/util/List;

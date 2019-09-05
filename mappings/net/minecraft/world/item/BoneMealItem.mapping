@@ -1,0 +1,6 @@
+CLASS bap net/minecraft/world/item/BoneMealItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a growCrop (Lbcj;Lbhr;Lew;)Z
+	METHOD a growWaterPlant (Lbcj;Lbhr;Lew;Lfb;)Z
+	METHOD a useOn (Lbdu;)Lahj;
+	METHOD a addGrowthParticles (Lbhs;Lew;I)V

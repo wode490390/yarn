@@ -1,0 +1,3 @@
+CLASS amg net/minecraft/world/entity/ai/control/FlyingMoveControl
+	METHOD <init> <init> (Laiy;)V
+	METHOD a tick ()V

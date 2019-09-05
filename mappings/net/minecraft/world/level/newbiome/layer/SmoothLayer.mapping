@@ -1,0 +1,8 @@
+CLASS cmv net/minecraft/world/level/newbiome/layer/SmoothLayer
+	FIELD a INSTANCE Lcmv;
+	FIELD b $VALUES [Lcmv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcly;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmv;
+	METHOD values values ()[Lcmv;

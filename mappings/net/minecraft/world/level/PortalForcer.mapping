@@ -1,0 +1,21 @@
+CLASS bid net/minecraft/world/level/PortalForcer
+	CLASS a PortalPosition
+		FIELD a pos Lew;
+		FIELD b lastUsed J
+		METHOD <init> <init> (Lew;J)V
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b PORTAL_BLOCK Lbqj;
+	FIELD c level Lvk;
+	FIELD d random Ljava/util/Random;
+	FIELD e cachedPortals Ljava/util/Map;
+	FIELD f negativeChecks Lit/unimi/dsi/fastutil/objects/Object2LongMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lvk;)V
+	METHOD a tick (J)V
+	METHOD a createPortal (Laio;)Z
+	METHOD a findAndMoveToPortal (Laio;F)Z
+	METHOD a findPortal (Lew;Lcsi;Lfb;DDZ)Lbvy$c;
+	METHOD a lambda$clearStaleCacheEntries$1 (Lva;)Ljava/lang/Object;
+	METHOD b purgeNegativeChecks (J)V
+	METHOD b lambda$findPortal$0 (Lva;)Ljava/lang/Object;
+	METHOD c clearStaleCacheEntries (J)V

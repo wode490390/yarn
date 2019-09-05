@@ -1,0 +1,25 @@
+CLASS awp net/minecraft/world/entity/projectile/EyeOfEnder
+	FIELD b DATA_ITEM_STACK Lqk;
+	FIELD c tx D
+	FIELD d ty D
+	FIELD e tz D
+	FIELD f life I
+	FIELD g surviveAfterDeath Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD <init> <init> (Lbhr;DDD)V
+	METHOD N getAddEntityPacket ()Lkc;
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a signalTo (Lew;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD aE getLightColor ()I
+	METHOD aF getBrightness ()F
+	METHOD b setItem (Lbcj;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD bs isAttackable ()Z
+	METHOD c lambda$setItem$0 (Lbcj;)V
+	METHOD f getItem ()Lbcj;
+	METHOD h tick ()V
+	METHOD h lerpMotion (DDD)V
+	METHOD i getItemRaw ()Lbcj;
+	METHOD u_ defineSynchedData ()V

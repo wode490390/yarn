@@ -1,0 +1,16 @@
+CLASS cpn net/minecraft/world/level/storage/loot/entries/LootItem
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcrk;[Lcqh;)Lcpn;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpn;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpr;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcrk;[Lcqh;)Lcpr;
+	FIELD c item Lbce;
+	METHOD <init> <init> (Lbce;II[Lcrk;[Lcqh;)V
+	METHOD <init> <init> (Lbce;II[Lcrk;[Lcqh;Lcpn$1;)V
+	METHOD a lootTableItem (Lbhq;)Lcpr$a;
+	METHOD a lambda$lootTableItem$0 (Lbhq;II[Lcrk;[Lcqh;)Lcpr;
+	METHOD a access$000 (Lcpn;)Lbce;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Lcoy;)V

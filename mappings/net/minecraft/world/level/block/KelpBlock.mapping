@@ -1,0 +1,16 @@
+CLASS bps net/minecraft/world/level/block/KelpBlock
+	FIELD a AGE Lbwt;
+	FIELD b SHAPE Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a canPlaceLiquid (Lbhb;Lew;Lbvt;Lclj;)Z
+	METHOD a getStateForPlacement (Lbhs;)Lbvt;
+	METHOD a placeLiquid (Lbhs;Lew;Lbvt;Lclk;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a canSurvive (Lbvt;Lbhu;Lew;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD c getRenderLayer ()Lbhc;
+	METHOD g getFluidState (Lbvt;)Lclk;

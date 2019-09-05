@@ -1,0 +1,16 @@
+CLASS awe net/minecraft/world/entity/player/ChatVisiblity
+	FIELD a FULL Lawe;
+	FIELD b SYSTEM Lawe;
+	FIELD c HIDDEN Lawe;
+	FIELD d BY_ID [Lawe;
+	FIELD e id I
+	FIELD f key Ljava/lang/String;
+	FIELD g $VALUES [Lawe;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+	METHOD a getId ()I
+	METHOD a byId (I)Lawe;
+	METHOD b getKey ()Ljava/lang/String;
+	METHOD b lambda$static$0 (I)[Lawe;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lawe;
+	METHOD values values ()[Lawe;

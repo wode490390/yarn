@@ -1,0 +1,14 @@
+CLASS adi net/minecraft/util/datafix/fixes/LevelFlatGeneratorInfoFix
+	FIELD a SPLITTER Lcom/google/common/base/Splitter;
+	FIELD b LAYER_SPLITTER Lcom/google/common/base/Splitter;
+	FIELD c OLD_AMOUNT_SPLITTER Lcom/google/common/base/Splitter;
+	FIELD d AMOUNT_SPLITTER Lcom/google/common/base/Splitter;
+	FIELD e BLOCK_SPLITTER Lcom/google/common/base/Splitter;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$fixString$2 (Lcom/google/common/base/Splitter;ILjava/lang/String;)Ljava/lang/String;
+	METHOD a fix (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$makeRule$0 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a fixString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b lambda$fix$1 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

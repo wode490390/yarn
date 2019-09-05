@@ -1,0 +1,6 @@
+CLASS ccr net/minecraft/world/level/levelgen/feature/LayerConfiguration
+	FIELD a height I
+	FIELD b state Lbvt;
+	METHOD <init> <init> (ILbvt;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lccr;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,25 @@
+CLASS ayp net/minecraft/world/inventory/BrewingStandMenu
+	CLASS a FuelSlot
+		METHOD <init> <init> (Lahc;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbcj;)Z
+		METHOD a_ mayPlaceItem (Lbcj;)Z
+	CLASS b IngredientsSlot
+		METHOD <init> <init> (Lahc;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbcj;)Z
+	CLASS c PotionSlot
+		METHOD <init> <init> (Lahc;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a onTake (Lawg;Lbcj;)Lbcj;
+		METHOD a mayPlace (Lbcj;)Z
+		METHOD b_ mayPlaceItem (Lbcj;)Z
+	FIELD c brewingStand Lahc;
+	FIELD d brewingStandData Layt;
+	FIELD e ingredientSlot Lazx;
+	METHOD <init> <init> (ILawf;)V
+	METHOD <init> <init> (ILawf;Lahc;Layt;)V
+	METHOD a stillValid (Lawg;)Z
+	METHOD b quickMoveStack (Lawg;I)Lbcj;
+	METHOD e getFuel ()I
+	METHOD f getBrewingTicks ()I

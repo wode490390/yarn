@@ -1,0 +1,11 @@
+CLASS tr net/minecraft/server/commands/SummonCommand
+	FIELD a ERROR_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$0 (Lcd;)Z
+	METHOD a spawnEntity (Lcd;Lqv;Lcsi;Lid;Z)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$spawnEntity$4 (Lcsi;Lvk;Laio;)Laio;
+	METHOD b lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

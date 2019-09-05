@@ -1,0 +1,17 @@
+CLASS bot net/minecraft/world/level/block/FarmBlock
+	FIELD a MOISTURE Lbwt;
+	FIELD b SHAPE Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a isUnderCrops (Lbhb;Lew;)Z
+	METHOD a fallOn (Lbhr;Lew;Laio;F)V
+	METHOD a isNearWater (Lbhu;Lew;)Z
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a canSurvive (Lbvt;Lbhu;Lew;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD d turnToDirt (Lbvt;Lbhr;Lew;)V
+	METHOD n useShapeForLightOcclusion (Lbvt;)Z

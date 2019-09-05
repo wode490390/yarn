@@ -1,0 +1,37 @@
+CLASS bfs net/minecraft/world/item/enchantment/Enchantment
+	CLASS a Rarity
+		FIELD a COMMON Lbfs$a;
+		FIELD b UNCOMMON Lbfs$a;
+		FIELD c RARE Lbfs$a;
+		FIELD d VERY_RARE Lbfs$a;
+		FIELD e weight I
+		FIELD f $VALUES [Lbfs$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;II)V
+		METHOD a getWeight ()I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbfs$a;
+		METHOD values values ()[Lbfs$a;
+	FIELD a slots [Lait;
+	FIELD b category Lbft;
+	FIELD c descriptionId Ljava/lang/String;
+	FIELD d rarity Lbfs$a;
+	METHOD <init> <init> (Lbfs$a;Lbft;[Lait;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a getDamageProtection (ILahx;)I
+	METHOD a getDamageBonus (ILajb;)F
+	METHOD a getSlotItems (Laix;)Ljava/util/Map;
+	METHOD a doPostAttack (Laix;Laio;I)V
+	METHOD a canEnchant (Lbcj;)Z
+	METHOD a checkCompatibility (Lbfs;)Z
+	METHOD b isTreasureOnly ()Z
+	METHOD b getMaxCost (I)I
+	METHOD b doPostHurt (Laix;Laio;I)V
+	METHOD b isCompatibleWith (Lbfs;)Z
+	METHOD c isCurse ()Z
+	METHOD c byId (I)Lbfs;
+	METHOD d getRarity ()Lbfs$a;
+	METHOD d getFullname (I)Ljo;
+	METHOD e getMinLevel ()I
+	METHOD f getOrCreateDescriptionId ()Ljava/lang/String;
+	METHOD g getDescriptionId ()Ljava/lang/String;

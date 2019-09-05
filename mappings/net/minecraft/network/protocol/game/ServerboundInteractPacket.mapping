@@ -1,0 +1,26 @@
+CLASS oj net/minecraft/network/protocol/game/ServerboundInteractPacket
+	CLASS a Action
+		FIELD a INTERACT Loj$a;
+		FIELD b ATTACK Loj$a;
+		FIELD c INTERACT_AT Loj$a;
+		FIELD d $VALUES [Loj$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Loj$a;
+		METHOD values values ()[Loj$a;
+	FIELD a entityId I
+	FIELD b action Loj$a;
+	FIELD c location Lcsi;
+	FIELD d hand Lahi;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laio;)V
+	METHOD <init> <init> (Laio;Lahi;)V
+	METHOD <init> <init> (Laio;Lahi;Lcsi;)V
+	METHOD a getTarget (Lbhr;)Laio;
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getAction ()Loj$a;
+	METHOD b write (Lje;)V
+	METHOD c getHand ()Lahi;
+	METHOD d getLocation ()Lcsi;

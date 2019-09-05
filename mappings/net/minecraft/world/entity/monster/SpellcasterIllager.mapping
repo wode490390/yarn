@@ -1,0 +1,57 @@
+CLASS avf net/minecraft/world/entity/monster/SpellcasterIllager
+	CLASS a IllagerSpell
+		FIELD a NONE Lavf$a;
+		FIELD b SUMMON_VEX Lavf$a;
+		FIELD c FANGS Lavf$a;
+		FIELD d WOLOLO Lavf$a;
+		FIELD e DISAPPEAR Lavf$a;
+		FIELD f BLINDNESS Lavf$a;
+		FIELD g id I
+		FIELD h spellColor [D
+		FIELD i $VALUES [Lavf$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IIDDD)V
+		METHOD a byId (I)Lavf$a;
+		METHOD a access$000 (Lavf$a;)I
+		METHOD b access$100 (Lavf$a;)[D
+		METHOD valueOf valueOf (Ljava/lang/String;)Lavf$a;
+		METHOD values values ()[Lavf$a;
+	CLASS b SpellcasterCastingSpellGoal
+		FIELD b this$0 Lavf;
+		METHOD <init> <init> (Lavf;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS c SpellcasterUseSpellGoal
+		FIELD b attackWarmupDelay I
+		FIELD c nextAttackTickCount I
+		FIELD d this$0 Lavf;
+		METHOD <init> <init> (Lavf;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Lyo;
+		METHOD l getSpell ()Lavf$a;
+		METHOD m getCastWarmupTime ()I
+	FIELD bA currentSpell Lavf$a;
+	FIELD b spellCastingTickCount I
+	FIELD bz DATA_SPELL_CASTING_ID Lqk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD L customServerAiStep ()V
+	METHOD a setIsCastingSpell (Lavf$a;)V
+	METHOD a access$200 (Lavf;)Lapp;
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD dW getCastingSoundEvent ()Lyo;
+	METHOD ef isCastingSpell ()Z
+	METHOD eg getCurrentSpell ()Lavf$a;
+	METHOD eh getSpellCastingTime ()I
+	METHOD h tick ()V
+	METHOD l getArmPose ()Laua$a;
+	METHOD u_ defineSynchedData ()V

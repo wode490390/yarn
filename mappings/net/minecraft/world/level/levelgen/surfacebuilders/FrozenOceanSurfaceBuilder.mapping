@@ -1,0 +1,14 @@
+CLASS cka net/minecraft/world/level/levelgen/surfacebuilders/FrozenOceanSurfaceBuilder
+	FIELD S icebergNoise Lckp;
+	FIELD T icebergRoofNoise Lckp;
+	FIELD U seed J
+	FIELD a PACKED_ICE Lbvt;
+	FIELD b SNOW_BLOCK Lbvt;
+	FIELD c AIR Lbvt;
+	FIELD d GRAVEL Lbvt;
+	FIELD e ICE Lbvt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a initNoise (J)V
+	METHOD a apply (Ljava/util/Random;Lbxh;Lbio;IIIDLbvt;Lbvt;IJLcki;)V
+	METHOD a apply (Ljava/util/Random;Lbxh;Lbio;IIIDLbvt;Lbvt;IJLckj;)V

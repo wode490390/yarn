@@ -1,0 +1,11 @@
+CLASS px net/minecraft/network/protocol/login/ServerboundCustomQueryPacket
+	FIELD a transactionId I
+	FIELD b data Lje;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILje;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lpw;)V
+	METHOD b getTransactionId ()I
+	METHOD b write (Lje;)V
+	METHOD c getData ()Lje;

@@ -1,0 +1,6 @@
+CLASS azb net/minecraft/world/inventory/FurnaceFuelSlot
+	FIELD a menu Layl;
+	METHOD <init> <init> (Layl;Lahc;III)V
+	METHOD a mayPlace (Lbcj;)Z
+	METHOD b getMaxStackSize (Lbcj;)I
+	METHOD c_ isBucket (Lbcj;)Z

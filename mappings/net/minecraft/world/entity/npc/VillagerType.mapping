@@ -1,0 +1,17 @@
+CLASS avy net/minecraft/world/entity/npc/VillagerType
+	CLASS 1 1
+		FIELD i val$name Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD toString toString ()Ljava/lang/String;
+	FIELD a DESERT Lavy;
+	FIELD b JUNGLE Lavy;
+	FIELD c PLAINS Lavy;
+	FIELD d SAVANNA Lavy;
+	FIELD e SNOW Lavy;
+	FIELD f SWAMP Lavy;
+	FIELD g TAIGA Lavy;
+	FIELD h BY_BIOME Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD a byBiome (Lbio;)Lavy;
+	METHOD a register (Ljava/lang/String;)Lavy;
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V

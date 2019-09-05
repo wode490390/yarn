@@ -1,0 +1,5 @@
+CLASS blz net/minecraft/world/level/block/AirBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD c getRenderShape (Lbvt;)Lbrd;
+	METHOD e isAir (Lbvt;)Z

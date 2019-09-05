@@ -1,0 +1,13 @@
+CLASS cmt net/minecraft/world/level/newbiome/layer/RiverMixerLayer
+	FIELD a INSTANCE Lcmt;
+	FIELD b FROZEN_RIVER I
+	FIELD c SNOWY_TUNDRA I
+	FIELD d MUSHROOM_FIELDS I
+	FIELD e MUSHROOM_FIELD_SHORE I
+	FIELD f RIVER I
+	FIELD g $VALUES [Lcmt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Lcly;Lclt;Lclt;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmt;
+	METHOD values values ()[Lcmt;

@@ -1,0 +1,7 @@
+CLASS clx net/minecraft/world/level/newbiome/context/BigContext
+	METHOD a random (II)I
+	METHOD a random (IIII)I
+	METHOD a initRandom (JJ)V
+	METHOD a createResult (Lcnj;)Lclt;
+	METHOD a createResult (Lcnj;Lclt;)Lclt;
+	METHOD a createResult (Lcnj;Lclt;Lclt;)Lclt;

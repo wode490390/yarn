@@ -1,0 +1,3 @@
+CLASS bpi net/minecraft/world/level/block/HalfTransparentBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a skipRendering (Lbvt;Lbvt;Lfb;)Z

@@ -1,0 +1,2 @@
+CLASS wy net/minecraft/server/packs/repository/RepositorySource
+	METHOD a loadPacks (Ljava/util/Map;Lxa$b;)V

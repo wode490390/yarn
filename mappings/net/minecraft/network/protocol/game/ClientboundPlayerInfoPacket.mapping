@@ -1,0 +1,39 @@
+CLASS md net/minecraft/network/protocol/game/ClientboundPlayerInfoPacket
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$network$protocol$game$ClientboundPlayerInfoPacket$Action [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Action
+		FIELD a ADD_PLAYER Lmd$a;
+		FIELD b UPDATE_GAME_MODE Lmd$a;
+		FIELD c UPDATE_LATENCY Lmd$a;
+		FIELD d UPDATE_DISPLAY_NAME Lmd$a;
+		FIELD e REMOVE_PLAYER Lmd$a;
+		FIELD f $VALUES [Lmd$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lmd$a;
+		METHOD values values ()[Lmd$a;
+	CLASS b PlayerUpdate
+		FIELD a this$0 Lmd;
+		FIELD b latency I
+		FIELD c gameMode Lbho;
+		FIELD d profile Lcom/mojang/authlib/GameProfile;
+		FIELD e displayName Ljo;
+		METHOD <init> <init> (Lmd;Lcom/mojang/authlib/GameProfile;ILbho;Ljo;)V
+		METHOD a getProfile ()Lcom/mojang/authlib/GameProfile;
+		METHOD b getLatency ()I
+		METHOD c getGameMode ()Lbho;
+		METHOD d getDisplayName ()Ljo;
+		METHOD toString toString ()Ljava/lang/String;
+	FIELD a action Lmd$a;
+	FIELD b entries Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lmd$a;Ljava/lang/Iterable;)V
+	METHOD <init> <init> (Lmd$a;[Lvl;)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getEntries ()Ljava/util/List;
+	METHOD b write (Lje;)V
+	METHOD c getAction ()Lmd$a;
+	METHOD toString toString ()Ljava/lang/String;

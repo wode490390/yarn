@@ -1,0 +1,5 @@
+CLASS kc net/minecraft/network/protocol/Packet
+	METHOD a isSkippable ()Z
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD b write (Lje;)V

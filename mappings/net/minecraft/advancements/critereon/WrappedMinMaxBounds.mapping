@@ -1,0 +1,23 @@
+CLASS bw net/minecraft/advancements/critereon/WrappedMinMaxBounds
+	FIELD a ANY Lbw;
+	FIELD b ERROR_INTS_ONLY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c min Ljava/lang/Float;
+	FIELD d max Ljava/lang/Float;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/Float;Ljava/lang/Float;)V
+	METHOD a getMin ()Ljava/lang/Float;
+	METHOD a matchesSqr (D)Z
+	METHOD a exactly (F)Lbw;
+	METHOD a between (FF)Lbw;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbw;
+	METHOD a fromReader (Lcom/mojang/brigadier/StringReader;Z)Lbw;
+	METHOD a fromReader (Lcom/mojang/brigadier/StringReader;ZLjava/util/function/Function;)Lbw;
+	METHOD a lambda$fromReader$0 (Ljava/lang/Float;)Ljava/lang/Float;
+	METHOD a optionallyFormat (Ljava/lang/Float;Ljava/util/function/Function;)Ljava/lang/Float;
+	METHOD b getMax ()Ljava/lang/Float;
+	METHOD b atLeast (F)Lbw;
+	METHOD b readNumber (Lcom/mojang/brigadier/StringReader;Z)Ljava/lang/Float;
+	METHOD c serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD c atMost (F)Lbw;
+	METHOD c isAllowedNumber (Lcom/mojang/brigadier/StringReader;Z)Z
+	METHOD d matches (F)Z

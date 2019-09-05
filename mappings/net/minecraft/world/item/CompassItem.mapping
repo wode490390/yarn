@@ -1,0 +1,12 @@
+CLASS bay net/minecraft/world/item/CompassItem
+	CLASS 1 1
+		FIELD a this$0 Lbay;
+		FIELD b rotation D
+		FIELD c rota D
+		FIELD d lastUpdateTick J
+		METHOD <init> <init> (Lbay;)V
+		METHOD a getFrameRotation (Latn;)D
+		METHOD a wobble (Lbhr;D)D
+		METHOD a getSpawnToAngle (Lbhs;Laio;)D
+		METHOD call call (Lbcj;Lbhr;Laix;)F
+	METHOD <init> <init> (Lbce$a;)V

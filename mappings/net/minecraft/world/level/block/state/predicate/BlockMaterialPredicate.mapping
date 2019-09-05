@@ -1,0 +1,13 @@
+CLASS bwb net/minecraft/world/level/block/state/predicate/BlockMaterialPredicate
+	CLASS 1 1
+		METHOD <init> <init> (Lclo;)V
+		METHOD a test (Lbvt;)Z
+		METHOD test test (Ljava/lang/Object;)Z
+	FIELD a AIR Lbwb;
+	FIELD b material Lclo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lclo;)V
+	METHOD <init> <init> (Lclo;Lbwb$1;)V
+	METHOD a test (Lbvt;)Z
+	METHOD a forMaterial (Lclo;)Lbwb;
+	METHOD test test (Ljava/lang/Object;)Z

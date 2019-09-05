@@ -1,0 +1,23 @@
+CLASS ahw net/minecraft/world/damagesource/CombatTracker
+	FIELD a entries Ljava/util/List;
+	FIELD b mob Laix;
+	FIELD c lastDamageTime I
+	FIELD d combatStartTime I
+	FIELD e combatEndTime I
+	FIELD f inCombat Z
+	FIELD g takingDamage Z
+	FIELD h nextLocation Ljava/lang/String;
+	METHOD <init> <init> (Laix;)V
+	METHOD a prepareForDamage ()V
+	METHOD a getFallLocation (Lahu;)Ljava/lang/String;
+	METHOD a recordDamage (Lahx;FF)V
+	METHOD b getDeathMessage ()Ljo;
+	METHOD c getKiller ()Laix;
+	METHOD d isTakingDamage ()Z
+	METHOD e isInCombat ()Z
+	METHOD f getCombatDuration ()I
+	METHOD g recheckStatus ()V
+	METHOD h getMob ()Laix;
+	METHOD i getLastEntry ()Lahu;
+	METHOD j getMostSignificantFall ()Lahu;
+	METHOD k resetPreparedStatus ()V

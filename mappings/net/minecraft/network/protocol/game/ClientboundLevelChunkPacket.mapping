@@ -1,0 +1,24 @@
+CLASS lo net/minecraft/network/protocol/game/ClientboundLevelChunkPacket
+	FIELD a x I
+	FIELD b z I
+	FIELD c availableSections I
+	FIELD d heightmaps Lid;
+	FIELD e buffer [B
+	FIELD f blockEntitiesTags Ljava/util/List;
+	FIELD g fullChunk Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbxt;I)V
+	METHOD a calculateChunkSize (Lbxt;I)I
+	METHOD a read (Lje;)V
+	METHOD a extractChunkData (Lje;Lbxt;I)I
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b getReadBuffer ()Lje;
+	METHOD b write (Lje;)V
+	METHOD c getX ()I
+	METHOD d getZ ()I
+	METHOD e getAvailableSections ()I
+	METHOD f isFullChunk ()Z
+	METHOD g getHeightmaps ()Lid;
+	METHOD h getBlockEntitiesTags ()Ljava/util/List;
+	METHOD i getWriteBuffer ()Lio/netty/buffer/ByteBuf;

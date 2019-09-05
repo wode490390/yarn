@@ -1,0 +1,6 @@
+CLASS asf net/minecraft/world/entity/animal/horse/Mule
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD cH getDeathSound ()Lyo;
+	METHOD dY playChestEquipsSound ()V
+	METHOD e getHurtSound (Lahx;)Lyo;

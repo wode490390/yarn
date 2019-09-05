@@ -1,0 +1,25 @@
+CLASS aub net/minecraft/world/entity/monster/AbstractSkeleton
+	CLASS 1 1
+		FIELD d this$0 Laub;
+		METHOD <init> <init> (Laub;Laje;DZ)V
+		METHOD c start ()V
+		METHOD d stop ()V
+	FIELD b bowGoal Laoe;
+	FIELD c meleeGoal Lann;
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD a populateDefaultEquipmentSlots (Lahh;)V
+	METHOD a setItemSlot (Lait;Lbcj;)V
+	METHOD a performRangedAttack (Laix;F)V
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD a playStepSound (Lew;Lbvt;)V
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD aN rideTick ()V
+	METHOD aO getRidingHeight ()D
+	METHOD b getStandingEyeHeight (Lajh;Laip;)F
+	METHOD b getArrow (Lbcj;F)Lawk;
+	METHOD cQ getMobType ()Lajb;
+	METHOD cl registerAttributes ()V
+	METHOD dV reassessWeaponGoal ()V
+	METHOD k aiStep ()V
+	METHOD l getStepSound ()Lyo;
+	METHOD n registerGoals ()V

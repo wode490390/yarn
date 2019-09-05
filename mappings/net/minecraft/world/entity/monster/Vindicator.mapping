@@ -1,0 +1,37 @@
+CLASS avj net/minecraft/world/entity/monster/Vindicator
+	CLASS a VindicatorBreakDoorGoal
+		METHOD <init> <init> (Laiy;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+	CLASS b VindicatorJohnnyAttackGoal
+		METHOD <init> <init> (Lavj;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+	CLASS c VindicatorMeleeAttackGoal
+		FIELD d this$0 Lavj;
+		METHOD <init> <init> (Lavj;Lavj;)V
+		METHOD a getAttackReachSqr (Laix;)D
+	FIELD b DOOR_BREAKING_PREDICATE Ljava/util/function/Predicate;
+	FIELD bz isJohnny Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD G getAmbientSound ()Lyo;
+	METHOD L customServerAiStep ()V
+	METHOD a applyRaidBuffs (IZ)V
+	METHOD a lambda$static$0 (Lahg;)Z
+	METHOD a populateDefaultEquipmentSlots (Lahh;)V
+	METHOD a access$100 (Lavj;)Ljava/util/Random;
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD a readAdditionalSaveData (Lid;)V
+	METHOD b access$200 (Lavj;)Z
+	METHOD b addAdditionalSaveData (Lid;)V
+	METHOD b setCustomName (Ljo;)V
+	METHOD cH getDeathSound ()Lyo;
+	METHOD cl registerAttributes ()V
+	METHOD dV getCelebrateSound ()Lyo;
+	METHOD dW access$000 ()Ljava/util/function/Predicate;
+	METHOD e getHurtSound (Lahx;)Lyo;
+	METHOD l getArmPose ()Laua$a;
+	METHOD n registerGoals ()V
+	METHOD r isAlliedTo (Laio;)Z

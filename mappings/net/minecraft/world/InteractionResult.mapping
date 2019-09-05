@@ -1,0 +1,9 @@
+CLASS ahj net/minecraft/world/InteractionResult
+	FIELD a SUCCESS Lahj;
+	FIELD b PASS Lahj;
+	FIELD c FAIL Lahj;
+	FIELD d $VALUES [Lahj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lahj;
+	METHOD values values ()[Lahj;

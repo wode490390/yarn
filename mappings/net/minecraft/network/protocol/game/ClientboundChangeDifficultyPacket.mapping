@@ -1,0 +1,11 @@
+CLASS ku net/minecraft/network/protocol/game/ClientboundChangeDifficultyPacket
+	FIELD a difficulty Lahg;
+	FIELD b locked Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lahg;Z)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lkf;)V
+	METHOD b isLocked ()Z
+	METHOD b write (Lje;)V
+	METHOD c getDifficulty ()Lahg;

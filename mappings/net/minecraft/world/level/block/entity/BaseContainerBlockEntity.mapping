@@ -1,0 +1,15 @@
+CLASS btr net/minecraft/world/level/block/entity/BaseContainerBlockEntity
+	FIELD a lockKey Lahl;
+	FIELD b name Ljo;
+	METHOD <init> <init> (Lbtx;)V
+	METHOD O getName ()Ljo;
+	METHOD Q getCustomName ()Ljo;
+	METHOD a createMenu (ILawf;)Layk;
+	METHOD a canUnlock (Lawg;Lahl;Ljo;)Z
+	METHOD a load (Lid;)V
+	METHOD a setCustomName (Ljo;)V
+	METHOD b save (Lid;)Lid;
+	METHOD createMenu createMenu (ILawf;Lawg;)Layk;
+	METHOD d getDisplayName ()Ljo;
+	METHOD e canOpen (Lawg;)Z
+	METHOD g getDefaultName ()Ljo;

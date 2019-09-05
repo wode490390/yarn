@@ -1,0 +1,8 @@
+CLASS caw net/minecraft/world/level/levelgen/feature/DecoratorChanceRange
+	FIELD a chance F
+	FIELD b bottomOffset I
+	FIELD c topOffset I
+	FIELD d top I
+	METHOD <init> <init> (FIII)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcaw;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

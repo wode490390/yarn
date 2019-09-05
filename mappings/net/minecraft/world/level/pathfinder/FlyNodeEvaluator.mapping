@@ -1,0 +1,12 @@
+CLASS cno net/minecraft/world/level/pathfinder/FlyNodeEvaluator
+	METHOD <init> <init> ()V
+	METHOD a done ()V
+	METHOD a getGoal (DDD)Lcnv;
+	METHOD a getNode (III)Lcnp;
+	METHOD a getBlockPathType (Laiy;III)Lcnn;
+	METHOD a getBlockPathType (Laiy;Lew;)Lcnn;
+	METHOD a getBlockPathType (Lbhb;III)Lcnn;
+	METHOD a getBlockPathType (Lbhb;IIILaiy;IIIZZ)Lcnn;
+	METHOD a prepare (Lbhu;Laiy;)V
+	METHOD a getNeighbors ([Lcnp;Lcnp;)I
+	METHOD b getStart ()Lcnp;

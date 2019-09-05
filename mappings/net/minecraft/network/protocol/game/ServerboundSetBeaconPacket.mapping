@@ -1,0 +1,11 @@
+CLASS pa net/minecraft/network/protocol/game/ServerboundSetBeaconPacket
+	FIELD a primary I
+	FIELD b secondary I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (II)V
+	METHOD a read (Lje;)V
+	METHOD a handle (Ljh;)V
+	METHOD a handle (Lnu;)V
+	METHOD b getPrimary ()I
+	METHOD b write (Lje;)V
+	METHOD c getSecondary ()I

@@ -1,0 +1,34 @@
+CLASS sg net/minecraft/server/commands/FillCommand
+	CLASS a Mode
+		FIELD a REPLACE Lsg$a;
+		FIELD b OUTLINE Lsg$a;
+		FIELD c HOLLOW Lsg$a;
+		FIELD d DESTROY Lsg$a;
+		FIELD e filter Ltk$a;
+		FIELD f $VALUES [Lsg$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILtk$a;)V
+		METHOD a lambda$static$3 (Lcic;Lew;Lde;Lvk;)Lde;
+		METHOD b lambda$static$2 (Lcic;Lew;Lde;Lvk;)Lde;
+		METHOD c lambda$static$1 (Lcic;Lew;Lde;Lvk;)Lde;
+		METHOD d lambda$static$0 (Lcic;Lew;Lde;Lvk;)Lde;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lsg$a;
+		METHOD values values ()[Lsg$a;
+	FIELD a ERROR_AREA_TOO_LARGE Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD b HOLLOW_CORE Lde;
+	FIELD c ERROR_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Lde;
+	METHOD a lambda$null$5 (Lbvx;)Z
+	METHOD a lambda$register$1 (Lcd;)Z
+	METHOD a fillBlocks (Lcd;Lcic;Lde;Lsg$a;Ljava/util/function/Predicate;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$9 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$static$0 (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD b lambda$register$8 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD g lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I

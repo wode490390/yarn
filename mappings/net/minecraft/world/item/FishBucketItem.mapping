@@ -1,0 +1,7 @@
+CLASS bbx net/minecraft/world/item/FishBucketItem
+	FIELD a type Lais;
+	METHOD <init> <init> (Lais;Lclj;Lbce$a;)V
+	METHOD a playEmptySound (Lawg;Lbhs;Lew;)V
+	METHOD a appendHoverText (Lbcj;Lbhr;Ljava/util/List;Lbdr;)V
+	METHOD a checkExtraContent (Lbhr;Lbcj;Lew;)V
+	METHOD b spawn (Lbhr;Lbcj;Lew;)V

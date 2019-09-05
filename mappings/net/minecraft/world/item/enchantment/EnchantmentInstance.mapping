@@ -1,0 +1,4 @@
+CLASS bfv net/minecraft/world/item/enchantment/EnchantmentInstance
+	FIELD b enchantment Lbfs;
+	FIELD c level I
+	METHOD <init> <init> (Lbfs;I)V

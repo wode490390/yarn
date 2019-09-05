@@ -1,0 +1,14 @@
+CLASS css net/minecraft/world/phys/shapes/EntityCollisionContext
+	CLASS 1 1
+		METHOD <init> <init> (ZDLbce;)V
+		METHOD a isAbove (Lctc;Lew;Z)Z
+	FIELD a EMPTY Lcsn;
+	FIELD b sneaking Z
+	FIELD c entityBottom D
+	FIELD d heldItem Lbce;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laio;)V
+	METHOD <init> <init> (ZDLbce;)V
+	METHOD a isHoldingItem (Lbce;)Z
+	METHOD a isAbove (Lctc;Lew;Z)Z
+	METHOD b isSneaking ()Z

@@ -1,0 +1,7 @@
+CLASS apq net/minecraft/world/entity/ai/navigation/WallClimberNavigation
+	FIELD p pathToPosition Lew;
+	METHOD <init> <init> (Laiy;Lbhr;)V
+	METHOD a moveTo (Laio;D)Z
+	METHOD a createPath (Laio;I)Lcnr;
+	METHOD a createPath (Lew;I)Lcnr;
+	METHOD c tick ()V

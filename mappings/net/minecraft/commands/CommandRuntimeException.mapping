@@ -1,0 +1,4 @@
+CLASS cb net/minecraft/commands/CommandRuntimeException
+	FIELD a message Ljo;
+	METHOD <init> <init> (Ljo;)V
+	METHOD a getComponent ()Ljo;

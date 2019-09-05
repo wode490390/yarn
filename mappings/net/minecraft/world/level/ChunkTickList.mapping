@@ -1,0 +1,13 @@
+CLASS bhe net/minecraft/world/level/ChunkTickList
+	FIELD a ticks Ljava/util/Set;
+	FIELD b toId Ljava/util/function/Function;
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/List;)V
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/Set;)V
+	METHOD a size ()I
+	METHOD a save (J)Lik;
+	METHOD a hasScheduledTick (Lew;Ljava/lang/Object;)Z
+	METHOD a scheduleTick (Lew;Ljava/lang/Object;ILbii;)V
+	METHOD a create (Lik;Ljava/util/function/Function;Ljava/util/function/Function;)Lbhe;
+	METHOD a addAll (Ljava/util/stream/Stream;)V
+	METHOD b ticks ()Ljava/util/stream/Stream;
+	METHOD b willTickThisTick (Lew;Ljava/lang/Object;)Z

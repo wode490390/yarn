@@ -1,0 +1,15 @@
+CLASS csf net/minecraft/world/phys/HitResult
+	CLASS a Type
+		FIELD a MISS Lcsf$a;
+		FIELD b BLOCK Lcsf$a;
+		FIELD c ENTITY Lcsf$a;
+		FIELD d $VALUES [Lcsf$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcsf$a;
+		METHOD values values ()[Lcsf$a;
+	FIELD a location Lcsi;
+	METHOD <init> <init> (Lcsi;)V
+	METHOD a distanceTo (Laio;)D
+	METHOD c getType ()Lcsf$a;
+	METHOD e getLocation ()Lcsi;

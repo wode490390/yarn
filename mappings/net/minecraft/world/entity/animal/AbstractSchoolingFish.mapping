@@ -1,0 +1,25 @@
+CLASS aqz net/minecraft/world/entity/animal/AbstractSchoolingFish
+	CLASS a SchoolSpawnGroupData
+		FIELD a leader Laqz;
+		METHOD <init> <init> (Laqz;)V
+	FIELD b leader Laqz;
+	FIELD c schoolSize I
+	METHOD <init> <init> (Lais;Lbhr;)V
+	METHOD a startFollowing (Laqz;)Laqz;
+	METHOD a finalizeSpawn (Lbhs;Lahh;Laja;Lajj;Lid;)Lajj;
+	METHOD a addFollowers (Ljava/util/stream/Stream;)V
+	METHOD b lambda$addFollowers$1 (Laqz;)V
+	METHOD c lambda$addFollowers$0 (Laqz;)Z
+	METHOD dC getMaxSpawnClusterSize ()I
+	METHOD dV canRandomSwim ()Z
+	METHOD dX getMaxSchoolSize ()I
+	METHOD dY isFollower ()Z
+	METHOD dZ stopFollowing ()V
+	METHOD ea canBeFollowed ()Z
+	METHOD eb hasFollowers ()Z
+	METHOD ec inRangeOfLeader ()Z
+	METHOD ed pathToLeader ()V
+	METHOD ee addFollower ()V
+	METHOD ef removeFollower ()V
+	METHOD h tick ()V
+	METHOD n registerGoals ()V

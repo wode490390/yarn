@@ -1,0 +1,5 @@
+CLASS aop net/minecraft/world/entity/ai/goal/TryFindWaterGoal
+	FIELD a mob Laje;
+	METHOD <init> <init> (Laje;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V

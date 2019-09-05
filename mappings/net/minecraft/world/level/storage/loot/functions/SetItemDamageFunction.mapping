@@ -1,0 +1,18 @@
+CLASS cqo net/minecraft/world/level/storage/loot/functions/SetItemDamageFunction
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqo;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcqo;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcqg;
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c damage Lcpg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Lcrk;Lcpg;)V
+	METHOD <init> <init> ([Lcrk;Lcpg;Lcqo$1;)V
+	METHOD a run (Lbcj;Lcoy;)Lbcj;
+	METHOD a setDamage (Lcpg;)Lcqg$a;
+	METHOD a lambda$setDamage$0 (Lcpg;[Lcrk;)Lcqh;
+	METHOD a access$000 (Lcqo;)Lcpg;

@@ -1,0 +1,2 @@
+CLASS boq net/minecraft/world/level/block/EntityBlock
+	METHOD a newBlockEntity (Lbhb;)Lbtw;

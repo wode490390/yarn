@@ -1,0 +1,22 @@
+CLASS bvm net/minecraft/world/level/block/piston/MovingPistonBlock
+	FIELD a FACING Lbwo;
+	FIELD b TYPE Lbwr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD a getBlockEntity (Lbhb;Lew;)Lbvp;
+	METHOD a getCloneItemStack (Lbhb;Lew;Lbvt;)Lbcj;
+	METHOD a destroy (Lbhs;Lew;Lbvt;)V
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a onRemove (Lbvt;Lbhr;Lew;Lbvt;Z)V
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a getDrops (Lbvt;Lcoy$a;)Ljava/util/List;
+	METHOD a newMovingBlockEntity (Lbvt;Lfb;ZZ)Lbtw;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b getCollisionShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD c isViewBlocking (Lbvt;Lbhb;Lew;)Z
+	METHOD d isRedstoneConductor (Lbvt;Lbhb;Lew;)Z
+	METHOD f canOcclude (Lbvt;)Z

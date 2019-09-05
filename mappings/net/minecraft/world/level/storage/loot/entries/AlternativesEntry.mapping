@@ -1,0 +1,13 @@
+CLASS cph net/minecraft/world/level/storage/loot/entries/AlternativesEntry
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		METHOD <init> <init> ([Lcpq$a;)V
+		METHOD a getThis ()Lcph$a;
+		METHOD a otherwise (Lcpq$a;)Lcph$a;
+		METHOD b build ()Lcpq;
+		METHOD d getThis ()Lcpq$a;
+	METHOD <init> <init> ([Lcpq;[Lcrk;)V
+	METHOD a validate (Lcpc;Ljava/util/function/Function;Ljava/util/Set;Lcqx;)V
+	METHOD a compose ([Lcpi;)Lcpi;
+	METHOD a lambda$compose$0 ([Lcpi;Lcoy;Ljava/util/function/Consumer;)Z
+	METHOD a alternatives ([Lcpq$a;)Lcph$a;

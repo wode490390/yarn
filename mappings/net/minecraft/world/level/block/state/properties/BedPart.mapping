@@ -1,0 +1,11 @@
+CLASS bwi net/minecraft/world/level/block/state/properties/BedPart
+	FIELD a HEAD Lbwi;
+	FIELD b FOOT Lbwi;
+	FIELD c name Ljava/lang/String;
+	FIELD d $VALUES [Lbwi;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD m getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbwi;
+	METHOD values values ()[Lbwi;

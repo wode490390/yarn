@@ -1,0 +1,7 @@
+CLASS bmg net/minecraft/world/level/block/BarrierBlock
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getShadeBrightness (Lbvt;Lbhb;Lew;)F
+	METHOD a isValidSpawn (Lbvt;Lbhb;Lew;Lais;)Z
+	METHOD b propagatesSkylightDown (Lbvt;Lbhb;Lew;)Z
+	METHOD c getRenderShape (Lbvt;)Lbrd;
+	METHOD f canOcclude (Lbvt;)Z

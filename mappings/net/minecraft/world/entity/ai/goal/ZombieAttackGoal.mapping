@@ -1,0 +1,7 @@
+CLASS aou net/minecraft/world/entity/ai/goal/ZombieAttackGoal
+	FIELD d zombie Lavm;
+	FIELD e raiseArmTicks I
+	METHOD <init> <init> (Lavm;DZ)V
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

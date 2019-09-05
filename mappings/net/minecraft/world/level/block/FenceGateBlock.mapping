@@ -1,0 +1,30 @@
+CLASS bov net/minecraft/world/level/block/FenceGateBlock
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$pathfinder$PathComputationType [I
+		METHOD <clinit> <clinit> ()V
+	FIELD a OPEN Lbwl;
+	FIELD b POWERED Lbwl;
+	FIELD c IN_WALL Lbwl;
+	FIELD d Z_SHAPE Lctc;
+	FIELD e X_SHAPE Lctc;
+	FIELD f Z_SHAPE_LOW Lctc;
+	FIELD g X_SHAPE_LOW Lctc;
+	FIELD h Z_COLLISION_SHAPE Lctc;
+	FIELD i X_COLLISION_SHAPE Lctc;
+	FIELD j Z_OCCLUSION_SHAPE Lctc;
+	FIELD k X_OCCLUSION_SHAPE Lctc;
+	FIELD w Z_OCCLUSION_SHAPE_LOW Lctc;
+	FIELD x X_OCCLUSION_SHAPE_LOW Lctc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a isPathfindable (Lbvt;Lbhb;Lew;Lcns;)Z
+	METHOD a getShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD a use (Lbvt;Lbhr;Lew;Lawg;Lahi;Lcsd;)Z
+	METHOD a neighborChanged (Lbvt;Lbhr;Lew;Lbmv;Lew;Z)V
+	METHOD a connectsToDirection (Lbvt;Lfb;)Z
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b getCollisionShape (Lbvt;Lbhb;Lew;Lcsn;)Lctc;
+	METHOD h getOcclusionShape (Lbvt;Lbhb;Lew;)Lctc;
+	METHOD j isWall (Lbvt;)Z

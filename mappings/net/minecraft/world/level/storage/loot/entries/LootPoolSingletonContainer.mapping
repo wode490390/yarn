@@ -1,0 +1,45 @@
+CLASS cpr net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer
+	CLASS 1 1
+		FIELD a this$0 Lcpr;
+		METHOD <init> <init> (Lcpr;)V
+		METHOD a createItemStack (Ljava/util/function/Consumer;Lcoy;)V
+	CLASS a Builder
+		FIELD a weight I
+		FIELD b quality I
+		FIELD c functions Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a getFunctions ()[Lcqh;
+		METHOD a setWeight (I)Lcpr$a;
+		METHOD a apply (Lcqh$a;)Lcpr$a;
+		METHOD b setQuality (I)Lcpr$a;
+		METHOD b apply (Lcqh$a;)Ljava/lang/Object;
+	CLASS b DummyBuilder
+		FIELD c constructor Lcpr$d;
+		METHOD <init> <init> (Lcpr$d;)V
+		METHOD b build ()Lcpq;
+		METHOD d getThis ()Lcpq$a;
+		METHOD g getThis ()Lcpr$b;
+	CLASS c EntryBase
+		FIELD b this$0 Lcpr;
+		METHOD <init> <init> (Lcpr;)V
+		METHOD a getWeight (F)I
+	CLASS d EntryConstructor
+		METHOD build build (II[Lcrk;[Lcqh;)Lcpr;
+	CLASS e Serializer
+		METHOD <init> <init> (Lqv;Ljava/lang/Class;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcpr;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcpr;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcrk;[Lcqh;)Lcpr;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcrk;)Lcpq;
+	FIELD c compositeFunction Ljava/util/function/BiFunction;
+	FIELD e weight I
+	FIELD f quality I
+	FIELD g functions [Lcqh;
+	FIELD h entry Lcpp;
+	METHOD <init> <init> (II[Lcrk;[Lcqh;)V
+	METHOD a validate (Lcpc;Ljava/util/function/Function;Ljava/util/Set;Lcqx;)V
+	METHOD a simpleBuilder (Lcpr$d;)Lcpr$a;
+	METHOD a access$000 (Lcpr;)Ljava/util/function/BiFunction;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Lcoy;)V
+	METHOD expand expand (Lcoy;Ljava/util/function/Consumer;)Z

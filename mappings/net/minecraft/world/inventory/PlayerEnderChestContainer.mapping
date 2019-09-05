@@ -1,0 +1,9 @@
+CLASS azp net/minecraft/world/inventory/PlayerEnderChestContainer
+	FIELD a activeChest Lbui;
+	METHOD <init> <init> ()V
+	METHOD a stillValid (Lawg;)Z
+	METHOD a setActiveChest (Lbui;)V
+	METHOD a fromTag (Lik;)V
+	METHOD a_ startOpen (Lawg;)V
+	METHOD b_ stopOpen (Lawg;)V
+	METHOD f createTag ()Lik;

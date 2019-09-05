@@ -1,0 +1,11 @@
+CLASS cry net/minecraft/world/level/timers/TimerCallbacks
+	FIELD a SERVER_CALLBACKS Lcry;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c idToSerializer Ljava/util/Map;
+	FIELD d classToSerializer Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcrx$a;)Lcry;
+	METHOD a serialize (Lcrx;)Lid;
+	METHOD a deserialize (Lid;)Lcrx;
+	METHOD a getSerializer (Ljava/lang/Class;)Lcrx$a;

@@ -1,0 +1,9 @@
+CLASS cbd net/minecraft/world/level/levelgen/feature/DesertWellFeature
+	FIELD a IS_SAND Lbwd;
+	FIELD aS sandSlab Lbvt;
+	FIELD aT sandstone Lbvt;
+	FIELD aU water Lbvt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcbo;)Z
+	METHOD a place (Lbhs;Lbxi;Ljava/util/Random;Lew;Lcdd;)Z

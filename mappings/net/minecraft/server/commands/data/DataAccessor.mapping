@@ -1,0 +1,6 @@
+CLASS ue net/minecraft/server/commands/data/DataAccessor
+	METHOD a getData ()Lid;
+	METHOD a getPrintSuccess (Lcr$h;DI)Ljo;
+	METHOD a setData (Lid;)V
+	METHOD a getPrintSuccess (Liu;)Ljo;
+	METHOD b getModifiedSuccess ()Ljo;

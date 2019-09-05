@@ -1,0 +1,56 @@
+CLASS bi net/minecraft/advancements/critereon/MinMaxBounds
+	CLASS a BoundsFactory
+		METHOD create create (Ljava/lang/Number;Ljava/lang/Number;)Lbi;
+	CLASS b BoundsFromReaderFactory
+		METHOD create create (Lcom/mojang/brigadier/StringReader;Ljava/lang/Number;Ljava/lang/Number;)Lbi;
+	CLASS c Floats
+		FIELD e ANY Lbi$c;
+		FIELD f minSq Ljava/lang/Double;
+		FIELD g maxSq Ljava/lang/Double;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/Float;Ljava/lang/Float;)V
+		METHOD a matchesSqr (D)Z
+		METHOD a exactly (F)Lbi$c;
+		METHOD a between (FF)Lbi$c;
+		METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbi$c;
+		METHOD a fromReader (Lcom/mojang/brigadier/StringReader;)Lbi$c;
+		METHOD a create (Lcom/mojang/brigadier/StringReader;Ljava/lang/Float;Ljava/lang/Float;)Lbi$c;
+		METHOD a fromReader (Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;)Lbi$c;
+		METHOD a squareOpt (Ljava/lang/Float;)Ljava/lang/Double;
+		METHOD b atLeast (F)Lbi$c;
+		METHOD b lambda$fromReader$0 (Ljava/lang/Float;)Ljava/lang/Float;
+		METHOD c atMost (F)Lbi$c;
+		METHOD d matches (F)Z
+	CLASS d Ints
+		FIELD e ANY Lbi$d;
+		FIELD f minSq Ljava/lang/Long;
+		FIELD g maxSq Ljava/lang/Long;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/Integer;Ljava/lang/Integer;)V
+		METHOD a exactly (I)Lbi$d;
+		METHOD a between (II)Lbi$d;
+		METHOD a matchesSqr (J)Z
+		METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbi$d;
+		METHOD a fromReader (Lcom/mojang/brigadier/StringReader;)Lbi$d;
+		METHOD a create (Lcom/mojang/brigadier/StringReader;Ljava/lang/Integer;Ljava/lang/Integer;)Lbi$d;
+		METHOD a fromReader (Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;)Lbi$d;
+		METHOD a squareOpt (Ljava/lang/Integer;)Ljava/lang/Long;
+		METHOD b atLeast (I)Lbi$d;
+		METHOD b lambda$fromReader$0 (Ljava/lang/Integer;)Ljava/lang/Integer;
+		METHOD c atMost (I)Lbi$d;
+		METHOD d matches (I)Z
+	FIELD a ERROR_EMPTY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_SWAPPED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c min Ljava/lang/Number;
+	FIELD d max Ljava/lang/Number;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/Number;Ljava/lang/Number;)V
+	METHOD a getMin ()Ljava/lang/Number;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;Lbi;Ljava/util/function/BiFunction;Lbi$a;)Lbi;
+	METHOD a isAllowedInputChat (Lcom/mojang/brigadier/StringReader;)Z
+	METHOD a fromReader (Lcom/mojang/brigadier/StringReader;Lbi$b;Ljava/util/function/Function;Ljava/util/function/Supplier;Ljava/util/function/Function;)Lbi;
+	METHOD a readNumber (Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;Ljava/util/function/Supplier;)Ljava/lang/Number;
+	METHOD a optionallyFormat (Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;
+	METHOD b getMax ()Ljava/lang/Number;
+	METHOD c isAny ()Z
+	METHOD d serializeToJson ()Lcom/google/gson/JsonElement;

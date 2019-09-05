@@ -1,0 +1,19 @@
+CLASS bed net/minecraft/world/item/crafting/AbstractCookingRecipe
+	FIELD a type Lbeu;
+	FIELD b id Lqv;
+	FIELD c group Ljava/lang/String;
+	FIELD d ingredient Lbeo;
+	FIELD e result Lbcj;
+	FIELD f experience F
+	FIELD g cookingTime I
+	METHOD <init> <init> (Lbeu;Lqv;Ljava/lang/String;Lbeo;Lbcj;FI)V
+	METHOD a getIngredients ()Lfk;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lahc;)Lbcj;
+	METHOD a matches (Lahc;Lbhr;)Z
+	METHOD b getExperience ()F
+	METHOD c getResultItem ()Lbcj;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD e getCookingTime ()I
+	METHOD f getId ()Lqv;
+	METHOD g getType ()Lbeu;

@@ -1,0 +1,3 @@
+CLASS anb net/minecraft/world/entity/ai/goal/FollowOwnerFlyingGoal
+	METHOD <init> <init> (Lajl;DFF)V
+	METHOD a isTeleportFriendlyBlock (Lew;)Z

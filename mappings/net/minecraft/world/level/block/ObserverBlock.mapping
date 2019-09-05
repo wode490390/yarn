@@ -1,0 +1,17 @@
+CLASS bqm net/minecraft/world/level/block/ObserverBlock
+	FIELD b POWERED Lbwl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmv$c;)V
+	METHOD a getStateForPlacement (Lban;)Lbvt;
+	METHOD a updateNeighborsInFront (Lbhr;Lew;Lbvt;)V
+	METHOD a startSignal (Lbhs;Lew;)V
+	METHOD a getSignal (Lbvt;Lbhb;Lew;Lfb;)I
+	METHOD a onRemove (Lbvt;Lbhr;Lew;Lbvt;Z)V
+	METHOD a mirror (Lbvt;Lbqg;)Lbvt;
+	METHOD a rotate (Lbvt;Lbrg;)Lbvt;
+	METHOD a updateShape (Lbvt;Lfb;Lbvt;Lbhs;Lew;Lew;)Lbvt;
+	METHOD a createBlockStateDefinition (Lbvu$a;)V
+	METHOD b getDirectSignal (Lbvt;Lbhb;Lew;Lfb;)I
+	METHOD b onPlace (Lbvt;Lbhr;Lew;Lbvt;Z)V
+	METHOD b tick (Lbvt;Lbhr;Lew;Ljava/util/Random;)V
+	METHOD h isSignalSource (Lbvt;)Z

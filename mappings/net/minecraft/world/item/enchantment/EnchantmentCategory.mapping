@@ -1,0 +1,64 @@
+CLASS bft net/minecraft/world/item/enchantment/EnchantmentCategory
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 2 10
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 3 11
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 4 12
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 5 13
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 6 14
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 7 2
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 8 3
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 9 4
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 10 5
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 11 6
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 12 7
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 13 8
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	CLASS 14 9
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbce;)Z
+	FIELD a ALL Lbft;
+	FIELD b ARMOR Lbft;
+	FIELD c ARMOR_FEET Lbft;
+	FIELD d ARMOR_LEGS Lbft;
+	FIELD e ARMOR_CHEST Lbft;
+	FIELD f ARMOR_HEAD Lbft;
+	FIELD g WEAPON Lbft;
+	FIELD h DIGGER Lbft;
+	FIELD i FISHING_ROD Lbft;
+	FIELD j TRIDENT Lbft;
+	FIELD k BREAKABLE Lbft;
+	FIELD l BOW Lbft;
+	FIELD m WEARABLE Lbft;
+	FIELD n CROSSBOW Lbft;
+	FIELD o $VALUES [Lbft;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD <init> <init> (Ljava/lang/String;ILbft$1;)V
+	METHOD a canEnchant (Lbce;)Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbft;
+	METHOD values values ()[Lbft;

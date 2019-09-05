@@ -1,0 +1,3 @@
+CLASS bqb net/minecraft/world/level/block/LiquidBlockContainer
+	METHOD a canPlaceLiquid (Lbhb;Lew;Lbvt;Lclj;)Z
+	METHOD a placeLiquid (Lbhs;Lew;Lbvt;Lclk;)Z

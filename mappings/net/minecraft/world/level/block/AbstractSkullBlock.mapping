@@ -1,0 +1,6 @@
+CLASS bly net/minecraft/world/level/block/AbstractSkullBlock
+	FIELD a type Lbrq$a;
+	METHOD <init> <init> (Lbrq$a;Lbmv$c;)V
+	METHOD a newBlockEntity (Lbhb;)Lbtw;
+	METHOD b getType ()Lbrq$a;
+	METHOD d hasCustomBreakingProgress (Lbvt;)Z

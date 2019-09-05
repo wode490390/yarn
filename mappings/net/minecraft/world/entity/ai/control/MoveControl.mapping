@@ -1,0 +1,30 @@
+CLASS amj net/minecraft/world/entity/ai/control/MoveControl
+	CLASS a Operation
+		FIELD a WAIT Lamj$a;
+		FIELD b MOVE_TO Lamj$a;
+		FIELD c STRAFE Lamj$a;
+		FIELD d JUMPING Lamj$a;
+		FIELD e $VALUES [Lamj$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lamj$a;
+		METHOD values values ()[Lamj$a;
+	FIELD a mob Laiy;
+	FIELD b wantedX D
+	FIELD c wantedY D
+	FIELD d wantedZ D
+	FIELD e speedModifier D
+	FIELD f strafeForwards F
+	FIELD g strafeRight F
+	FIELD h operation Lamj$a;
+	METHOD <init> <init> (Laiy;)V
+	METHOD a tick ()V
+	METHOD a setWantedPosition (DDDD)V
+	METHOD a strafe (FF)V
+	METHOD a rotlerp (FFF)F
+	METHOD a copyFrom (Lamj;)V
+	METHOD b hasWanted ()Z
+	METHOD c getSpeedModifier ()D
+	METHOD d getWantedX ()D
+	METHOD e getWantedY ()D
+	METHOD f getWantedZ ()D

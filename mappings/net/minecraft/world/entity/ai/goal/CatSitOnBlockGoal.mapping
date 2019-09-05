@@ -1,0 +1,8 @@
+CLASS ams net/minecraft/world/entity/ai/goal/CatSitOnBlockGoal
+	FIELD g cat Larb;
+	METHOD <init> <init> (Larb;D)V
+	METHOD a canUse ()Z
+	METHOD a isValidTarget (Lbhu;Lew;)Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

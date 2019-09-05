@@ -1,0 +1,7 @@
+CLASS bbz net/minecraft/world/item/FlintAndSteelItem
+	METHOD <init> <init> (Lbce$a;)V
+	METHOD a useOn (Lbdu;)Lahj;
+	METHOD a lambda$useOn$1 (Lbdu;Lawg;)V
+	METHOD a canLightCampFire (Lbvt;)Z
+	METHOD a canUse (Lbvt;Lbhs;Lew;)Z
+	METHOD b lambda$useOn$0 (Lbdu;Lawg;)V

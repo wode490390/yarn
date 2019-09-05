@@ -1,0 +1,39 @@
+CLASS jt net/minecraft/network/chat/NbtComponent
+	CLASS a BlockNbtComponent
+		FIELD e posPattern Ljava/lang/String;
+		FIELD f compiledPos Ldl;
+		METHOD <init> <init> (Ljava/lang/String;Lcr$h;ZLjava/lang/String;Ldl;)V
+		METHOD <init> <init> (Ljava/lang/String;ZLjava/lang/String;)V
+		METHOD a getData (Lcd;)Ljava/util/stream/Stream;
+		METHOD b compilePos (Ljava/lang/String;)Ldl;
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD g copy ()Ljo;
+		METHOD k getPos ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS b EntityNbtComponent
+		FIELD e selectorPattern Ljava/lang/String;
+		FIELD f compiledSelector Lec;
+		METHOD <init> <init> (Ljava/lang/String;Lcr$h;ZLjava/lang/String;Lec;)V
+		METHOD <init> <init> (Ljava/lang/String;ZLjava/lang/String;)V
+		METHOD a getData (Lcd;)Ljava/util/stream/Stream;
+		METHOD b compileSelector (Ljava/lang/String;)Lec;
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD g copy ()Ljo;
+		METHOD k getSelector ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;
+	FIELD b interpreting Z
+	FIELD c nbtPathPattern Ljava/lang/String;
+	FIELD d compiledNbtPath Lcr$h;
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;Lcr$h;Z)V
+	METHOD <init> <init> (Ljava/lang/String;Z)V
+	METHOD a getData (Lcd;)Ljava/util/stream/Stream;
+	METHOD a resolve (Lcd;Laio;I)Ljo;
+	METHOD a lambda$resolve$1 (Lcd;Laio;ILjava/lang/String;)Ljava/util/stream/Stream;
+	METHOD a lambda$resolve$0 (Lid;)Ljava/util/stream/Stream;
+	METHOD a lambda$resolve$2 (Ljo;Ljo;)Ljo;
+	METHOD b compileNbtPath (Ljava/lang/String;)Lcr$h;
+	METHOD d getContents ()Ljava/lang/String;
+	METHOD i getNbtPath ()Ljava/lang/String;
+	METHOD j isInterpreting ()Z
