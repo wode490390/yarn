@@ -1,0 +1,7 @@
+CLASS aus net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+	FIELD a horse Laur;
+	METHOD <init> <init> (Laur;)V
+	METHOD a canUse ()Z
+	METHOD a createHorse (Lajq;)Laum;
+	METHOD a createSkeleton (Lajq;Laum;)Laxp;
+	METHOD e tick ()V

@@ -1,0 +1,21 @@
+CLASS bva net/minecraft/world/level/block/SlabBlock
+	FIELD a TYPE Lcaf;
+	FIELD b WATERLOGGED Lbzz;
+	FIELD c BOTTOM_AABB Lcxo;
+	FIELD d TOP_AABB Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a canPlaceLiquid (Lbjp;Lfk;Lbzh;Lcps;)Z
+	METHOD a placeLiquid (Lbkg;Lfk;Lbzh;Lcpt;)Z
+	METHOD a canBeReplaced (Lbzh;Lbcz;)Z
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b_ getFluidState (Lbzh;)Lcpt;
+	METHOD o useShapeForLightOcclusion (Lbzh;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$state$properties$SlabType [I
+		FIELD b $SwitchMap$net$minecraft$world$level$pathfinder$PathComputationType [I
+		METHOD <clinit> <clinit> ()V

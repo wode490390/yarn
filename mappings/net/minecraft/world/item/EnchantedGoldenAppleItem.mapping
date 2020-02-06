@@ -1,0 +1,3 @@
+CLASS beb net/minecraft/world/item/EnchantedGoldenAppleItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD d_ isFoil (Lbew;)Z

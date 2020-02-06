@@ -1,0 +1,18 @@
+CLASS ajk net/minecraft/world/CompoundContainer
+	FIELD a container1 Lajl;
+	FIELD b container2 Lajl;
+	METHOD <init> <init> (Lajl;Lajl;)V
+	METHOD L_ getMaxStackSize ()I
+	METHOD N_ clearContent ()V
+	METHOD O_ getContainerSize ()I
+	METHOD a getItem (I)Lbew;
+	METHOD a removeItem (II)Lbew;
+	METHOD a setItem (ILbew;)V
+	METHOD a contains (Lajl;)Z
+	METHOD a stillValid (Lays;)Z
+	METHOD a_ startOpen (Lays;)V
+	METHOD b removeItemNoUpdate (I)Lbew;
+	METHOD b canPlaceItem (ILbew;)Z
+	METHOD b_ stopOpen (Lays;)V
+	METHOD c isEmpty ()Z
+	METHOD e setChanged ()V

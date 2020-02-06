@@ -1,0 +1,2 @@
+CLASS bmq net/minecraft/world/level/biome/GiantTreeTaigaBiome
+	METHOD <init> <init> ()V

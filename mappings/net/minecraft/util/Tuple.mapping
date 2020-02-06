@@ -1,0 +1,8 @@
+CLASS aca net/minecraft/util/Tuple
+	FIELD a a Ljava/lang/Object;
+	FIELD b b Ljava/lang/Object;
+	METHOD <init> <init> (Ljava/lang/Object;Ljava/lang/Object;)V
+	METHOD a getA ()Ljava/lang/Object;
+	METHOD a setA (Ljava/lang/Object;)V
+	METHOD b getB ()Ljava/lang/Object;
+	METHOD b setB (Ljava/lang/Object;)V

@@ -1,0 +1,2 @@
+CLASS akd net/minecraft/world/WorldlyContainerHolder
+	METHOD a getContainer (Lbzh;Lbkg;Lfk;)Lakc;

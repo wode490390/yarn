@@ -1,0 +1,10 @@
+CLASS bxx net/minecraft/world/level/block/entity/Hopper
+	FIELD a INSIDE Lcxo;
+	FIELD b ABOVE Lcxo;
+	FIELD c SUCK Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD A getLevelY ()D
+	METHOD B getLevelZ ()D
+	METHOD P_ getSuckShape ()Lcxo;
+	METHOD w getLevel ()Lbkf;
+	METHOD z getLevelX ()D

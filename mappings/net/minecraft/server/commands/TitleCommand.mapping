@@ -1,0 +1,14 @@
+CLASS vr net/minecraft/server/commands/TitleCommand
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Lcq;)Z
+	METHOD a clearTitle (Lcq;Ljava/util/Collection;)I
+	METHOD a setTimes (Lcq;Ljava/util/Collection;III)I
+	METHOD a showTitle (Lcq;Ljava/util/Collection;Llf;Low$a;)I
+	METHOD b lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b resetTitle (Lcq;Ljava/util/Collection;)I
+	METHOD c lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

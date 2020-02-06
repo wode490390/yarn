@@ -1,0 +1,16 @@
+CLASS cvr net/minecraft/world/level/storage/loot/predicates/ExplosionCondition
+	FIELD a INSTANCE Lcvr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a test (Lctg;)Z
+	METHOD b survivesExplosion ()Lcvv$a;
+	METHOD c access$000 ()Lcvr;
+	METHOD d lambda$survivesExplosion$0 ()Lcvv;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvr;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvr;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvv;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvv;

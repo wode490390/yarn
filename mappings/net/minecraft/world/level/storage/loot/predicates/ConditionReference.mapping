@@ -1,0 +1,17 @@
+CLASS cvn net/minecraft/world/level/storage/loot/predicates/ConditionReference
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b name Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lsm;)V
+	METHOD a test (Lctg;)Z
+	METHOD a validate (Lctp;)V
+	METHOD a access$000 (Lcvn;)Lsm;
+	METHOD a conditionReference (Lsm;)Lcvv$a;
+	METHOD b lambda$conditionReference$0 (Lsm;)Lcvv;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvn;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvn;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvv;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvv;

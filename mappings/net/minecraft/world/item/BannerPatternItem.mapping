@@ -1,0 +1,6 @@
+CLASS bcw net/minecraft/world/item/BannerPatternItem
+	FIELD a bannerPattern Lbxb;
+	METHOD <init> <init> (Lbxb;Lber$a;)V
+	METHOD a appendHoverText (Lbew;Lbkf;Ljava/util/List;Lbgf;)V
+	METHOD b getBannerPattern ()Lbxb;
+	METHOD d getDisplayName ()Llf;

@@ -1,0 +1,14 @@
+CLASS bli net/minecraft/world/level/biome/BiomeSourceType
+	FIELD a CHECKERBOARD Lbli;
+	FIELD b FIXED Lbli;
+	FIELD c VANILLA_LAYERED Lbli;
+	FIELD d THE_END Lbli;
+	FIELD e MULTI_NOISE Lbli;
+	FIELD f factory Ljava/util/function/Function;
+	FIELD g settingsFactory Ljava/util/function/Function;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a create (Lblh;)Lblg;
+	METHOD a createSettings (Lcsv;)Lblh;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Function;Ljava/util/function/Function;)Lbli;
+	METHOD b lambda$static$0 (Lcsv;)Lbng;

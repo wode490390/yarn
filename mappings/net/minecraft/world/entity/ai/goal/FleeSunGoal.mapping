@@ -1,0 +1,13 @@
+CLASS aph net/minecraft/world/entity/ai/goal/FleeSunGoal
+	FIELD a mob Lalo;
+	FIELD b wantedX D
+	FIELD c wantedY D
+	FIELD d wantedZ D
+	FIELD e speedModifier D
+	FIELD f level Lbkf;
+	METHOD <init> <init> (Lalo;D)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD g setWantedPos ()Z
+	METHOD h getHidePos ()Lcwu;

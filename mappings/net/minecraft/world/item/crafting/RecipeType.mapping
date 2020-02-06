@@ -1,0 +1,14 @@
+CLASS bhi net/minecraft/world/item/crafting/RecipeType
+	FIELD a CRAFTING Lbhi;
+	FIELD b SMELTING Lbhi;
+	FIELD c BLASTING Lbhi;
+	FIELD d SMOKING Lbhi;
+	FIELD e CAMPFIRE_COOKING Lbhi;
+	FIELD f STONECUTTING Lbhi;
+	METHOD <clinit> <clinit> ()V
+	METHOD a tryMatch (Lbhf;Lbkf;Lajl;)Ljava/util/Optional;
+	METHOD a register (Ljava/lang/String;)Lbhi;
+	CLASS 1 1
+		FIELD g val$name Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD toString toString ()Ljava/lang/String;

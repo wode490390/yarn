@@ -1,0 +1,16 @@
+CLASS amh net/minecraft/world/entity/ai/behavior/AcquirePoi
+	FIELD a poiType Latc;
+	FIELD b memoryType Lart;
+	FIELD c onlyIfAdult Z
+	FIELD d lastUpdate J
+	FIELD e batchCache Lit/unimi/dsi/fastutil/longs/Long2LongMap;
+	FIELD f triedCount I
+	METHOD <init> <init> (Latc;Lart;Z)V
+	METHOD a lambda$start$2 (Lasz;Lfk;Lalo;Lxe;Latc;)V
+	METHOD a lambda$start$0 (Lfk;)Z
+	METHOD a lambda$null$1 (Lfk;Lfk;)Z
+	METHOD a lambda$start$3 (Lit/unimi/dsi/fastutil/longs/Long2LongMap$Entry;)Z
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD a checkExtraStartConditions (Lxe;Lalo;)Z
+	METHOD a start (Lxe;Lalo;J)V

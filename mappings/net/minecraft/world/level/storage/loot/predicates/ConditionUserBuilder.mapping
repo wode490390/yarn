@@ -1,0 +1,3 @@
+CLASS cvo net/minecraft/world/level/storage/loot/predicates/ConditionUserBuilder
+	METHOD b when (Lcvv$a;)Ljava/lang/Object;
+	METHOD c unwrap ()Ljava/lang/Object;

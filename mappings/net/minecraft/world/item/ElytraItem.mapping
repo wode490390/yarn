@@ -1,0 +1,6 @@
+CLASS bdy net/minecraft/world/item/ElytraItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a isValidRepairItem (Lbew;Lbew;)Z
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;
+	METHOD b lambda$new$0 (Lbew;Lbkf;Lalh;)F
+	METHOD e isFlyEnabled (Lbew;)Z

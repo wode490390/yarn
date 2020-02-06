@@ -1,0 +1,5 @@
+CLASS za net/minecraft/server/packs/resources/ReloadableResourceManager
+	METHOD a reload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/List;Ljava/util/concurrent/CompletableFuture;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a createQueuedReload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)Lyz;
+	METHOD a createFullReload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;Ljava/util/List;)Lyz;
+	METHOD a registerReloadListener (Lyx;)V

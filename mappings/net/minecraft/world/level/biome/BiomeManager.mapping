@@ -1,0 +1,9 @@
+CLASS blf net/minecraft/world/level/biome/BiomeManager
+	FIELD a noiseBiomeSource Lblf$a;
+	FIELD b biomeZoomSeed J
+	FIELD c zoomer Lblk;
+	METHOD <init> <init> (Lblf$a;JLblk;)V
+	METHOD a withDifferentSource (Lblg;)Lblf;
+	METHOD a getBiome (Lfk;)Lbld;
+	CLASS a NoiseBiomeSource
+		METHOD b getNoiseBiome (III)Lbld;

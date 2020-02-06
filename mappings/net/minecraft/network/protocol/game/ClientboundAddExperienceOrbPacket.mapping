@@ -1,0 +1,17 @@
+CLASS ly net/minecraft/network/protocol/game/ClientboundAddExperienceOrbPacket
+	FIELD a id I
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	FIELD e value I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lale;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getX ()D
+	METHOD d getY ()D
+	METHOD e getZ ()D
+	METHOD f getValue ()I

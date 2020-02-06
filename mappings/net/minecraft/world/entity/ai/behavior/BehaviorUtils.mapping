@@ -1,0 +1,15 @@
+CLASS amk net/minecraft/world/entity/ai/behavior/BehaviorUtils
+	METHOD <init> <init> ()V
+	METHOD a lambda$targetIsValid$1 (Lalc;Lalh;)Z
+	METHOD a lockGazeAndWalkToEachOther (Lalh;Lalh;)V
+	METHOD a walkToEntity (Lalh;Lalh;I)V
+	METHOD a throwItem (Lalh;Lbew;Lalh;)V
+	METHOD a lambda$entityIsVisible$0 (Lalh;Ljava/util/List;)Z
+	METHOD a entityIsVisible (Lalx;Lalh;)Z
+	METHOD a targetIsValid (Lalx;Lart;Lalc;)Z
+	METHOD a lambda$findSectionClosestToVillage$3 (Lxe;ILgd;)Z
+	METHOD a findSectionClosestToVillage (Lxe;Lgd;I)Lgd;
+	METHOD b lookAtEachOther (Lalh;Lalh;)V
+	METHOD b lambda$targetIsValid$2 (Lalx;Lalh;)Z
+	METHOD c lookAtEntity (Lalh;Lalh;)V
+	METHOD d walkToEachOther (Lalh;Lalh;)V

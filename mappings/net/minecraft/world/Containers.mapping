@@ -1,0 +1,10 @@
+CLASS ajo net/minecraft/world/Containers
+	FIELD a RANDOM Ljava/util/Random;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a dropContents (Lbkf;DDDLajl;)V
+	METHOD a dropItemStack (Lbkf;DDDLbew;)V
+	METHOD a dropContents (Lbkf;Laky;Lajl;)V
+	METHOD a dropContents (Lbkf;Lfk;Lajl;)V
+	METHOD a lambda$dropContents$0 (Lbkf;Lfk;Lbew;)V
+	METHOD a dropContents (Lbkf;Lfk;Lfy;)V

@@ -1,0 +1,7 @@
+CLASS anf net/minecraft/world/entity/ai/behavior/PickUpItems
+	FIELD a items Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD a checkExtraStartConditions (Lxe;Layf;)Z
+	METHOD a start (Lxe;Layf;J)V

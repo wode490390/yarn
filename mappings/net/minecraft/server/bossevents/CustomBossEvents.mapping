@@ -1,0 +1,13 @@
+CLASS td net/minecraft/server/bossevents/CustomBossEvents
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b events Ljava/util/Map;
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+	METHOD a getIds ()Ljava/util/Collection;
+	METHOD a load (Ljt;)V
+	METHOD a get (Lsm;)Ltc;
+	METHOD a create (Lsm;Llf;)Ltc;
+	METHOD a remove (Ltc;)V
+	METHOD a onPlayerConnect (Lxf;)V
+	METHOD b getEvents ()Ljava/util/Collection;
+	METHOD b onPlayerDisconnect (Lxf;)V
+	METHOD c save ()Ljt;

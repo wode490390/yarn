@@ -1,0 +1,13 @@
+CLASS cse net/minecraft/world/level/pathfinder/TurtleNodeEvaluator
+	FIELD k oldWalkableCost F
+	FIELD l oldWaterBorderCost F
+	METHOD <init> <init> ()V
+	METHOD a done ()V
+	METHOD a getGoal (DDD)Lcsd;
+	METHOD a getAcceptedNode (IIIID)Lcrx;
+	METHOD a getBlockPathType (Lbjp;III)Lcrv;
+	METHOD a evaluateBlockPathType (Lbjp;ZZLfk;Lcrv;)Lcrv;
+	METHOD a prepare (Lbkq;Lali;)V
+	METHOD a inWaterDependentPosHeight (Lfk;)D
+	METHOD a getNeighbors ([Lcrx;Lcrx;)I
+	METHOD b getStart ()Lcrx;

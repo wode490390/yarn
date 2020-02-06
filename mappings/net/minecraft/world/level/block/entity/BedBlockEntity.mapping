@@ -1,0 +1,7 @@
+CLASS bxf net/minecraft/world/level/block/entity/BedBlockEntity
+	FIELD a color Lbds;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbds;)V
+	METHOD a getUpdatePacket ()Lmh;
+	METHOD a setColor (Lbds;)V
+	METHOD d getColor ()Lbds;

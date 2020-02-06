@@ -1,0 +1,5 @@
+CLASS arl net/minecraft/world/entity/ai/goal/target/NonTameRandomTargetGoal
+	FIELD i tamableMob Lalw;
+	METHOD <init> <init> (Lalw;Ljava/lang/Class;ZLjava/util/function/Predicate;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z

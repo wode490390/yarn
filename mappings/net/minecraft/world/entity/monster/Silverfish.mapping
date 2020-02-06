@@ -1,0 +1,32 @@
+CLASS axo net/minecraft/world/entity/monster/Silverfish
+	FIELD b friendsGoal Laxo$b;
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD a hurt (Lakh;F)Z
+	METHOD a getWalkTargetValue (Lfk;Lbki;)F
+	METHOD a playStepSound (Lfk;Lbzh;)V
+	METHOD aR getRidingHeight ()D
+	METHOD at isMovementNoisy ()Z
+	METHOD b checkSliverfishSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD b getStandingEyeHeight (Lalr;Lakz;)F
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD di getMobType ()Lall;
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD h tick ()V
+	METHOD l setYBodyRot (F)V
+	METHOD n registerGoals ()V
+	CLASS a SilverfishMergeWithStoneGoal
+		FIELD h selectedDirection Lfp;
+		FIELD i doMerge Z
+		METHOD <init> <init> (Laxo;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+	CLASS b SilverfishWakeUpFriendsGoal
+		FIELD a silverfish Laxo;
+		FIELD b lookForFriends I
+		METHOD <init> <init> (Laxo;)V
+		METHOD a canUse ()Z
+		METHOD e tick ()V
+		METHOD g notifyHurt ()V

@@ -1,0 +1,17 @@
+CLASS bq net/minecraft/advancements/critereon/LocationTrigger
+	FIELD a id Lsm;
+	METHOD <init> <init> (Lsm;)V
+	METHOD a getId ()Lsm;
+	METHOD a access$000 (Lbq;)Lsm;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a trigger (Lxf;)V
+	METHOD a lambda$trigger$0 (Lxf;Lbq$a;)Z
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbq$a;
+	CLASS a TriggerInstance
+		FIELD a location Lbp;
+		METHOD <init> <init> (Lsm;Lbp;)V
+		METHOD a located (Lbp;)Lbq$a;
+		METHOD a matches (Lxe;DDD)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD c sleptInBed ()Lbq$a;
+		METHOD d raidWon ()Lbq$a;

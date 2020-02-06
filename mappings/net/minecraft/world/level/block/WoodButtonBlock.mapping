@@ -1,0 +1,3 @@
+CLASS bwx net/minecraft/world/level/block/WoodButtonBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getSound (Z)Laai;

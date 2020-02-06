@@ -1,0 +1,7 @@
+CLASS ayc net/minecraft/world/entity/npc/CatSpawner
+	FIELD a nextTick I
+	METHOD <init> <init> ()V
+	METHOD a spawnInHut (Lbkf;Lfk;)I
+	METHOD a spawnCat (Lfk;Lbkf;)I
+	METHOD a spawnInVillage (Lxe;Lfk;)I
+	METHOD a tick (Lxe;ZZ)I

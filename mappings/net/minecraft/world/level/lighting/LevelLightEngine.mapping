@@ -1,0 +1,15 @@
+CLASS cpk net/minecraft/world/level/lighting/LevelLightEngine
+	FIELD a blockEngine Lcph;
+	FIELD b skyEngine Lcph;
+	METHOD <init> <init> (Lcbm;ZZ)V
+	METHOD a hasLightWork ()Z
+	METHOD a runUpdates (IZZ)I
+	METHOD a enableLightSources (Lbjq;Z)V
+	METHOD a getLayerListener (Lbko;)Lcpi;
+	METHOD a getDebugData (Lbko;Lgd;)Ljava/lang/String;
+	METHOD a queueSectionData (Lbko;Lgd;Lcbe;)V
+	METHOD a checkBlock (Lfk;)V
+	METHOD a onBlockEmissionIncrease (Lfk;I)V
+	METHOD a updateSectionStatus (Lgd;Z)V
+	METHOD b retainData (Lbjq;Z)V
+	METHOD b getRawBrightness (Lfk;I)I

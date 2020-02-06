@@ -1,0 +1,17 @@
+CLASS il net/minecraft/data/tags/TagsProvider
+	FIELD b generator Lgy;
+	FIELD c registry Lgb;
+	FIELD d builders Ljava/util/Map;
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD f GSON Lcom/google/gson/Gson;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgy;Lgb;)V
+	METHOD a tag (Laba;)Laba$a;
+	METHOD a useTags (Labb;)V
+	METHOD a run (Lha;)V
+	METHOD a lambda$run$2 (Lha;Lsm;Laba;)V
+	METHOD a lambda$run$1 (Ljava/util/Map$Entry;)Lsm;
+	METHOD a getPath (Lsm;)Ljava/nio/file/Path;
+	METHOD b addTags ()V
+	METHOD b lambda$tag$3 (Laba;)Laba$a;
+	METHOD b lambda$run$0 (Lsm;)Ljava/util/Optional;

@@ -1,0 +1,2 @@
+CLASS blz net/minecraft/world/level/biome/DesertBiome
+	METHOD <init> <init> ()V

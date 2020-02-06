@@ -1,0 +1,17 @@
+CLASS apl net/minecraft/world/entity/ai/goal/FollowMobGoal
+	FIELD a mob Lali;
+	FIELD b followPredicate Ljava/util/function/Predicate;
+	FIELD c followingMob Lali;
+	FIELD d speedModifier D
+	FIELD e navigation Larz;
+	FIELD f timeToRecalcPath I
+	FIELD g stopDistance F
+	FIELD h oldWaterCost F
+	FIELD i areaSize F
+	METHOD <init> <init> (Lali;DFF)V
+	METHOD a canUse ()Z
+	METHOD a lambda$new$0 (Lali;Lali;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

@@ -1,0 +1,15 @@
+CLASS pe net/minecraft/network/protocol/game/ClientboundUpdateAdvancementsPacket
+	FIELD a reset Z
+	FIELD b added Ljava/util/Map;
+	FIELD c removed Ljava/util/Set;
+	FIELD d progress Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ZLjava/util/Collection;Ljava/util/Set;Ljava/util/Map;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getAdded ()Ljava/util/Map;
+	METHOD b write (Lkv;)V
+	METHOD c getRemoved ()Ljava/util/Set;
+	METHOD d getProgress ()Ljava/util/Map;
+	METHOD e shouldReset ()Z

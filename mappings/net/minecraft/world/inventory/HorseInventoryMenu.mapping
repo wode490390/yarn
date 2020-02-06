@@ -1,0 +1,21 @@
+CLASS bbs net/minecraft/world/inventory/HorseInventoryMenu
+	FIELD c horseContainer Lajl;
+	FIELD d horse Laum;
+	METHOD <init> <init> (ILayr;Lajl;Laum;)V
+	METHOD a stillValid (Lays;)Z
+	METHOD b removed (Lays;)V
+	METHOD b quickMoveStack (Lays;I)Lbew;
+	METHOD e getContainer ()Lajl;
+	CLASS 1 1
+		FIELD a val$horse Laum;
+		FIELD b this$0 Lbbs;
+		METHOD <init> <init> (Lbbs;Lajl;IIILaum;)V
+		METHOD a mayPlace (Lbew;)Z
+		METHOD b isActive ()Z
+	CLASS 2 2
+		FIELD a val$horse Laum;
+		FIELD b this$0 Lbbs;
+		METHOD <init> <init> (Lbbs;Lajl;IIILaum;)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbew;)Z
+		METHOD b isActive ()Z

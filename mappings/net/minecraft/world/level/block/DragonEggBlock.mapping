@@ -1,0 +1,10 @@
+CLASS brm net/minecraft/world/level/block/DragonEggBlock
+	FIELD a SHAPE Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getTickDelay (Lbki;)I
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a attack (Lbzh;Lbkf;Lfk;Lays;)V
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD d teleport (Lbzh;Lbkf;Lfk;)V

@@ -1,0 +1,4 @@
+CLASS adu net/minecraft/util/datafix/fixes/EntityHorseSplitFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$fix$0 ()Ljava/lang/IllegalStateException;
+	METHOD a fix (Ljava/lang/String;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/util/Pair;

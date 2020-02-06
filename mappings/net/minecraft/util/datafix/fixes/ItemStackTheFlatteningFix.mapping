@@ -1,0 +1,11 @@
+CLASS afc net/minecraft/util/datafix/fixes/ItemStackTheFlatteningFix
+	FIELD a MAP Ljava/util/Map;
+	FIELD b IDS Ljava/util/Set;
+	FIELD c DAMAGE_IDS Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$makeRule$2 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$static$1 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a updateItem (Ljava/lang/String;I)Ljava/lang/String;
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

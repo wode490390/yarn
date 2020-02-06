@@ -1,0 +1,16 @@
+CLASS gq net/minecraft/core/particles/BlockParticleOption
+	FIELD a DESERIALIZER Lgt$a;
+	FIELD b type Lgu;
+	FIELD c state Lbzh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgu;Lbzh;)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a writeToNetwork (Lkv;)V
+	METHOD b getType ()Lgu;
+	METHOD c getState ()Lbzh;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lgu;Lcom/mojang/brigadier/StringReader;)Lgq;
+		METHOD a fromNetwork (Lgu;Lkv;)Lgq;
+		METHOD b fromCommand (Lgu;Lcom/mojang/brigadier/StringReader;)Lgt;
+		METHOD b fromNetwork (Lgu;Lkv;)Lgt;

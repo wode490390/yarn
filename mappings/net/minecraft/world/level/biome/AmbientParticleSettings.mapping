@@ -1,0 +1,12 @@
+CLASS bkx net/minecraft/world/level/biome/AmbientParticleSettings
+	FIELD a particleType Lgw;
+	FIELD b probability F
+	FIELD c xVelocity Ljava/util/function/Function;
+	FIELD d yVelocity Ljava/util/function/Function;
+	FIELD e zVelocity Ljava/util/function/Function;
+	METHOD <init> <init> (Lgw;FLjava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getParticleType ()Lgw;
+	METHOD a canSpawn (Ljava/util/Random;)Z
+	METHOD b getXVelocity (Ljava/util/Random;)D
+	METHOD c getYVelocity (Ljava/util/Random;)D
+	METHOD d getZVelocity (Ljava/util/Random;)D

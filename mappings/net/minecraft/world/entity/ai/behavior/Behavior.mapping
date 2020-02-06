@@ -1,0 +1,30 @@
+CLASS amj net/minecraft/world/entity/ai/behavior/Behavior
+	FIELD a entryCondition Ljava/util/Map;
+	FIELD b status Lamj$a;
+	FIELD c endTimestamp J
+	FIELD d minDuration I
+	FIELD e maxDuration I
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD <init> <init> (Ljava/util/Map;I)V
+	METHOD <init> <init> (Ljava/util/Map;II)V
+	METHOD a getStatus ()Lamj$a;
+	METHOD a timedOut (J)Z
+	METHOD a hasRequiredMemories (Lalh;)Z
+	METHOD a lambda$hasRequiredMemories$0 (Lalh;Ljava/util/Map$Entry;)Z
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD b tryStart (Lxe;Lalh;J)Z
+	METHOD c tickOrStop (Lxe;Lalh;J)V
+	METHOD d tick (Lxe;Lalh;J)V
+	METHOD e doStop (Lxe;Lalh;J)V
+	METHOD f stop (Lxe;Lalh;J)V
+	METHOD g canStillUse (Lxe;Lalh;J)Z
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Status
+		FIELD a STOPPED Lamj$a;
+		FIELD b RUNNING Lamj$a;
+		FIELD c $VALUES [Lamj$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lamj$a;
+		METHOD values values ()[Lamj$a;

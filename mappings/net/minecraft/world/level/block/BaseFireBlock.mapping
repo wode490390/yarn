@@ -1,0 +1,8 @@
+CLASS bpn net/minecraft/world/level/block/BaseFireBlock
+	FIELD a fireDamage F
+	METHOD <init> <init> (Lbpy$c;F)V
+	METHOD a getState (Lbjp;Lfk;)Lbzh;
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a entityInside (Lbzh;Lbkf;Lfk;Laky;)V
+	METHOD a animateTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;)V
+	METHOD f canBurn (Lbzh;)Z

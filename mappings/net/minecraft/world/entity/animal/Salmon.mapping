@@ -1,0 +1,8 @@
+CLASS auc net/minecraft/world/entity/animal/Salmon
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD cX getDeathSound ()Laai;
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD er getFlopSound ()Laai;
+	METHOD es getMaxSchoolSize ()I
+	METHOD l getBucketItemStack ()Lbew;

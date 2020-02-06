@@ -1,0 +1,10 @@
+CLASS ckc net/minecraft/world/level/levelgen/flat/FlatLayerInfo
+	FIELD a blockState Lbzh;
+	FIELD b height I
+	FIELD c start I
+	METHOD <init> <init> (ILbpy;)V
+	METHOD a getHeight ()I
+	METHOD a setStart (I)V
+	METHOD b getBlockState ()Lbzh;
+	METHOD c getStart ()I
+	METHOD toString toString ()Ljava/lang/String;

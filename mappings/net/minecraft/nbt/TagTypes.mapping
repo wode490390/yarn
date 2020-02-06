@@ -1,0 +1,5 @@
+CLASS km net/minecraft/nbt/TagTypes
+	FIELD a TYPES [Lkl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getType (I)Lkl;

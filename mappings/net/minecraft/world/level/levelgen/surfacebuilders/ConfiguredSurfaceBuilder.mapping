@@ -1,0 +1,10 @@
+CLASS cod net/minecraft/world/level/levelgen/surfacebuilders/ConfiguredSurfaceBuilder
+	FIELD a surfaceBuilder Lcoq;
+	FIELD b config Lcos;
+	METHOD <init> <init> (Lcoq;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD <init> <init> (Lcoq;Lcos;)V
+	METHOD a getSurfaceBuilderConfiguration ()Lcos;
+	METHOD a initNoise (J)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcod;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJ)V

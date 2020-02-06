@@ -1,0 +1,22 @@
+CLASS bax net/minecraft/world/inventory/AbstractFurnaceMenu
+	FIELD c level Lbkf;
+	FIELD d container Lajl;
+	FIELD e data Lbbf;
+	FIELD f recipeType Lbhi;
+	METHOD <init> <init> (Lbbx;Lbhi;ILayr;)V
+	METHOD <init> <init> (Lbbx;Lbhi;ILayr;Lajl;Lbbf;)V
+	METHOD a stillValid (Lays;)Z
+	METHOD a fillCraftSlotsStackedContents (Layu;)V
+	METHOD a canSmelt (Lbew;)Z
+	METHOD a recipeMatches (Lbhf;)Z
+	METHOD a handlePlacement (ZLbhf;Lxf;)V
+	METHOD b quickMoveStack (Lays;I)Lbew;
+	METHOD b isFuel (Lbew;)Z
+	METHOD e clearCraftingContent ()V
+	METHOD f getResultSlotIndex ()I
+	METHOD g getGridWidth ()I
+	METHOD h getGridHeight ()I
+	METHOD i getSize ()I
+	METHOD j getBurnProgress ()I
+	METHOD k getLitProgress ()I
+	METHOD l isLit ()Z

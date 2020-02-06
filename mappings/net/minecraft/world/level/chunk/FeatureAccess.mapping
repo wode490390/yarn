@@ -1,0 +1,7 @@
+CLASS cbg net/minecraft/world/level/chunk/FeatureAccess
+	METHOD a getStartForFeature (Ljava/lang/String;)Lcnc;
+	METHOD a addReferenceForFeature (Ljava/lang/String;J)V
+	METHOD a setStartForFeature (Ljava/lang/String;Lcnc;)V
+	METHOD b getReferencesForFeature (Ljava/lang/String;)Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD b setAllReferences (Ljava/util/Map;)V
+	METHOD v getAllReferences ()Ljava/util/Map;

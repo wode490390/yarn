@@ -1,0 +1,23 @@
+CLASS awm net/minecraft/world/entity/monster/AbstractIllager
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD di getMobType ()Lall;
+	METHOD l getArmPose ()Lawm$a;
+	METHOD n registerGoals ()V
+	CLASS a IllagerArmPose
+		FIELD a CROSSED Lawm$a;
+		FIELD b ATTACKING Lawm$a;
+		FIELD c SPELLCASTING Lawm$a;
+		FIELD d BOW_AND_ARROW Lawm$a;
+		FIELD e CROSSBOW_HOLD Lawm$a;
+		FIELD f CROSSBOW_CHARGE Lawm$a;
+		FIELD g CELEBRATING Lawm$a;
+		FIELD h NEUTRAL Lawm$a;
+		FIELD i $VALUES [Lawm$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lawm$a;
+		METHOD values values ()[Lawm$a;
+	CLASS b RaiderOpenDoorGoal
+		FIELD a this$0 Lawm;
+		METHOD <init> <init> (Lawm;Lazx;)V
+		METHOD a canUse ()Z

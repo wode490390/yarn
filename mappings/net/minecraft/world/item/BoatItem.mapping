@@ -1,0 +1,6 @@
+CLASS bda net/minecraft/world/item/BoatItem
+	FIELD a ENTITY_PREDICATE Ljava/util/function/Predicate;
+	FIELD b type Lbai$b;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbai$b;Lber$a;)V
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;

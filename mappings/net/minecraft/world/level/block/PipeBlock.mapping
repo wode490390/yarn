@@ -1,0 +1,17 @@
+CLASS btw net/minecraft/world/level/block/PipeBlock
+	FIELD a NORTH Lbzz;
+	FIELD b EAST Lbzz;
+	FIELD c SOUTH Lbzz;
+	FIELD d WEST Lbzz;
+	FIELD e UP Lbzz;
+	FIELD f DOWN Lbzz;
+	FIELD g PROPERTY_BY_DIRECTION Ljava/util/Map;
+	FIELD h shapeByIndex [Lcxo;
+	FIELD i DIRECTIONS [Lfp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FLbpy$c;)V
+	METHOD a makeShapes (F)[Lcxo;
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a lambda$static$0 (Ljava/util/EnumMap;)V
+	METHOD b propagatesSkylightDown (Lbzh;Lbjp;Lfk;)Z
+	METHOD h getAABBIndex (Lbzh;)I

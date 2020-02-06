@@ -1,0 +1,6 @@
+CLASS bnm net/minecraft/world/level/biome/OverworldBiomeSource
+	FIELD d noiseBiomeLayer Lcqs;
+	FIELD e POSSIBLE_BIOMES Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbnn;)V
+	METHOD b getNoiseBiome (III)Lbld;

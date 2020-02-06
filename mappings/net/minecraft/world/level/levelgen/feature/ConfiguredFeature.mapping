@@ -1,0 +1,12 @@
+CLASS cec net/minecraft/world/level/levelgen/feature/ConfiguredFeature
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b feature Lceu;
+	FIELD c config Lchs;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lceu;Lchs;)V
+	METHOD <init> <init> (Lceu;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a weighted (F)Lcgz;
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;)Z
+	METHOD a decorated (Lcko;)Lcec;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcec;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

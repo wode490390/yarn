@@ -1,0 +1,13 @@
+CLASS op net/minecraft/network/protocol/game/ClientboundSetHealthPacket
+	FIELD a health F
+	FIELD b food I
+	FIELD c saturation F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (FIF)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getHealth ()F
+	METHOD b write (Lkv;)V
+	METHOD c getFood ()I
+	METHOD d getSaturation ()F

@@ -1,0 +1,6 @@
+CLASS bei net/minecraft/world/item/FireworkStarItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a getColorName (I)Llf;
+	METHOD a appendHoverText (Lbew;Lbkf;Ljava/util/List;Lbgf;)V
+	METHOD a appendHoverText (Ljt;Ljava/util/List;)V
+	METHOD a appendColors (Llf;[I)Llf;

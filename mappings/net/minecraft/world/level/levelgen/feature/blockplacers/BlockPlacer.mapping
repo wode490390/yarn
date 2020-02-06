@@ -1,0 +1,4 @@
+CLASS chb net/minecraft/world/level/levelgen/feature/blockplacers/BlockPlacer
+	FIELD a type Lchc;
+	METHOD <init> <init> (Lchc;)V
+	METHOD a place (Lbkg;Lfk;Lbzh;Ljava/util/Random;)V

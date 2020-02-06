@@ -1,0 +1,18 @@
+CLASS bao net/minecraft/world/entity/vehicle/MinecartSpawner
+	FIELD b spawner Lbjm;
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDD)V
+	METHOD a handleEntityEvent (B)V
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD cb onlyOpCanSetNbt ()Z
+	METHOD h tick ()V
+	METHOD o getMinecartType ()Lbag$a;
+	METHOD q getDefaultDisplayBlockState ()Lbzh;
+	METHOD v getSpawner ()Lbjm;
+	CLASS 1 1
+		FIELD a this$0 Lbao;
+		METHOD <init> <init> (Lbao;)V
+		METHOD a getLevel ()Lbkf;
+		METHOD a broadcastEvent (I)V
+		METHOD b getPos ()Lfk;

@@ -1,0 +1,4 @@
+CLASS cdw net/minecraft/world/level/levelgen/feature/BlockBlobFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchh;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z

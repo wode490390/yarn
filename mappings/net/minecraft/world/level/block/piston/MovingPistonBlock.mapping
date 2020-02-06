@@ -1,0 +1,21 @@
+CLASS byz net/minecraft/world/level/block/piston/MovingPistonBlock
+	FIELD a FACING Lcac;
+	FIELD b TYPE Lcaf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a newBlockEntity (Lbjp;)Lbxj;
+	METHOD a getBlockEntity (Lbjp;Lfk;)Lbzd;
+	METHOD a getCloneItemStack (Lbjp;Lfk;Lbzh;)Lbew;
+	METHOD a destroy (Lbkg;Lfk;Lbzh;)V
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a onRemove (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	METHOD a mirror (Lbzh;Lbtm;)Lbzh;
+	METHOD a rotate (Lbzh;Lbup;)Lbzh;
+	METHOD a getDrops (Lbzh;Lctg$a;)Ljava/util/List;
+	METHOD a newMovingBlockEntity (Lbzh;Lfp;ZZ)Lbxj;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b getCollisionShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD c isSuffocating (Lbzh;Lbjp;Lfk;)Z
+	METHOD d isRedstoneConductor (Lbzh;Lbjp;Lfk;)Z

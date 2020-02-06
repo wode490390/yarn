@@ -1,0 +1,4 @@
+CLASS btv net/minecraft/world/level/block/OreBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a spawnAfterBreak (Lbzh;Lbkf;Lfk;Lbew;)V
+	METHOD a xpOnDrop (Ljava/util/Random;)I

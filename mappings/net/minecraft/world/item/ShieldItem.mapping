@@ -1,0 +1,10 @@
+CLASS bfp net/minecraft/world/item/ShieldItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a isValidRepairItem (Lbew;Lbew;)Z
+	METHOD a appendHoverText (Lbew;Lbkf;Ljava/util/List;Lbgf;)V
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;
+	METHOD b lambda$new$0 (Lbew;Lbkf;Lalh;)F
+	METHOD e getColor (Lbew;)Lbds;
+	METHOD e_ getUseAnimation (Lbew;)Lbgh;
+	METHOD f getDescriptionId (Lbew;)Ljava/lang/String;
+	METHOD f_ getUseDuration (Lbew;)I

@@ -1,0 +1,14 @@
+CLASS uo net/minecraft/server/commands/ParticleCommand
+	FIELD a ERROR_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Lcq;)Z
+	METHOD a sendParticles (Lcq;Lgt;Lcwu;Lcwu;FIZLjava/util/Collection;)I
+	METHOD b lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD g lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

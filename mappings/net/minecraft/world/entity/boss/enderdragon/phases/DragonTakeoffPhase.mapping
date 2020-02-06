@@ -1,0 +1,11 @@
+CLASS avq net/minecraft/world/entity/boss/enderdragon/phases/DragonTakeoffPhase
+	FIELD b firstTick Z
+	FIELD c currentPath Lcrz;
+	FIELD d targetLocation Lcwu;
+	METHOD <init> <init> (Lavb;)V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD g getFlyTargetLocation ()Lcwu;
+	METHOD i getPhase ()Lavr;
+	METHOD j findNewTarget ()V
+	METHOD k navigateToNextPathNode ()V

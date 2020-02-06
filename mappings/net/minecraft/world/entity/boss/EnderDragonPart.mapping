@@ -1,0 +1,13 @@
+CLASS auz net/minecraft/world/entity/boss/EnderDragonPart
+	FIELD b parentMob Lavb;
+	FIELD c name Ljava/lang/String;
+	FIELD d size Lakz;
+	METHOD <init> <init> (Lavb;Ljava/lang/String;FF)V
+	METHOD L getAddEntityPacket ()Llt;
+	METHOD a hurt (Lakh;F)Z
+	METHOD a getDimensions (Lalr;)Lakz;
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD aK isPickable ()Z
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD s is (Laky;)Z
+	METHOD w_ defineSynchedData ()V

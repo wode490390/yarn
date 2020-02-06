@@ -1,0 +1,6 @@
+CLASS cak net/minecraft/world/level/block/state/properties/Property
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getName (Ljava/lang/Comparable;)Ljava/lang/String;
+	METHOD b getValueClass ()Ljava/lang/Class;
+	METHOD b getValue (Ljava/lang/String;)Ljava/util/Optional;
+	METHOD d getPossibleValues ()Ljava/util/Collection;

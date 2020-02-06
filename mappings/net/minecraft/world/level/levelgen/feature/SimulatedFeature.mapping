@@ -1,0 +1,2 @@
+CLASS cgj net/minecraft/world/level/levelgen/feature/SimulatedFeature
+	METHOD a simulate (Lwy;Ljava/util/Random;Lfk;Lchs;)V

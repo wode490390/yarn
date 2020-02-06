@@ -1,0 +1,35 @@
+CLASS iz net/minecraft/gametest/framework/GameTestRunner
+	FIELD a TEST_REPORTER Ljm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$100 (Liw;)V
+	METHOD a access$000 (Liw;Lbpy;)V
+	METHOD a access$200 (Liw;Ljava/lang/String;)V
+	METHOD a runTest (Liw;Ljc;)V
+	METHOD a lambda$null$0 (Ljava/lang/String;)Ljava/util/Collection;
+	METHOD a lambda$say$6 (Ljava/lang/String;Lg;Lxf;)V
+	METHOD a lambda$null$2 (Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicInteger;Ljava/util/Collection;Ljava/util/function/Consumer;Ljava/util/List;)Lir;
+	METHOD a createBook (Ljava/lang/String;ZLjava/lang/String;)Lbew;
+	METHOD a lambda$createBook$4 (Ljava/lang/StringBuffer;Ljava/lang/String;)V
+	METHOD a groupTestsIntoBatches (Ljava/util/Collection;)Ljava/util/Collection;
+	METHOD a runTestBatches (Ljava/util/Collection;Lfk;Lxe;Ljc;)Ljava/util/Collection;
+	METHOD a lambda$groupTestsIntoBatches$3 (Ljava/util/Map;Ljava/lang/String;)Ljava/util/stream/Stream;
+	METHOD a lambda$groupTestsIntoBatches$1 (Ljava/util/Map;Ljk;)V
+	METHOD a clearMarkers (Lxe;)V
+	METHOD a lambda$clearAllTests$8 (Lxe;Lfk;)V
+	METHOD a showRedBox (Lxe;Lfk;Ljava/lang/String;)V
+	METHOD a clearAllTests (Lxe;Lfk;Ljc;I)V
+	METHOD a say (Lxe;Lg;Ljava/lang/String;)V
+	METHOD a lambda$say$5 (Lxf;)Z
+	METHOD b access$300 (Liw;)V
+	METHOD b spawnBeacon (Liw;Lbpy;)V
+	METHOD b spawnLectern (Liw;Ljava/lang/String;)V
+	METHOD b runTests (Ljava/util/Collection;Lfk;Lxe;Ljc;)Ljava/util/Collection;
+	METHOD b lambda$clearAllTests$7 (Lxe;Lfk;)Z
+	METHOD c visualizeFailedTest (Liw;)V
+	METHOD d visualizePassedTest (Liw;)V
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a testStructureLoaded (Liw;)V
+		METHOD b testPassed (Liw;)V
+		METHOD c testFailed (Liw;)V

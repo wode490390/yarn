@@ -1,0 +1,7 @@
+CLASS are net/minecraft/world/entity/ai/goal/ZombieAttackGoal
+	FIELD d zombie Laxy;
+	FIELD e raiseArmTicks I
+	METHOD <init> <init> (Laxy;DZ)V
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

@@ -1,0 +1,27 @@
+CLASS cvu net/minecraft/world/level/storage/loot/predicates/LootItemBlockStatePropertyCondition
+	FIELD a block Lbpy;
+	FIELD b properties Lcc;
+	METHOD <init> <init> (Lbpy;Lcc;)V
+	METHOD <init> <init> (Lbpy;Lcc;Lcvu$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a hasBlockStateProperties (Lbpy;)Lcvu$a;
+	METHOD a test (Lctg;)Z
+	METHOD a access$100 (Lcvu;)Lbpy;
+	METHOD b access$200 (Lcvu;)Lcc;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a block Lbpy;
+		FIELD b properties Lcc;
+		METHOD <init> <init> (Lbpy;)V
+		METHOD a setProperties (Lcc$a;)Lcvu$a;
+		METHOD build build ()Lcvv;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a lambda$deserialize$1 (Lbpy;Ljava/lang/String;)V
+		METHOD a valueToString (Lcak;Ljava/lang/Object;)Ljava/lang/String;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvu;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvu;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvv;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$0 (Lsm;)Ljava/lang/IllegalArgumentException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvv;

@@ -1,0 +1,7 @@
+CLASS coa net/minecraft/world/level/levelgen/structure/templatesystem/TagMatchTest
+	FIELD a tag Laba;
+	METHOD <init> <init> (Laba;)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getType ()Lcnu;
+	METHOD a test (Lbzh;Ljava/util/Random;)Z
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

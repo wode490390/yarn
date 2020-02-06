@@ -1,0 +1,7 @@
+CLASS bst net/minecraft/world/level/block/IceBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a playerDestroy (Lbkf;Lays;Lfk;Lbzh;Lbxj;Lbew;)V
+	METHOD a isValidSpawn (Lbzh;Lbjp;Lfk;Lalc;)Z
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD d melt (Lbzh;Lbkf;Lfk;)V
+	METHOD g getPistonPushReaction (Lbzh;)Lcpz;

@@ -1,0 +1,17 @@
+CLASS ayk net/minecraft/world/entity/npc/VillagerType
+	FIELD a DESERT Layk;
+	FIELD b JUNGLE Layk;
+	FIELD c PLAINS Layk;
+	FIELD d SAVANNA Layk;
+	FIELD e SNOW Layk;
+	FIELD f SWAMP Layk;
+	FIELD g TAIGA Layk;
+	FIELD h BY_BIOME Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD a byBiome (Lbld;)Layk;
+	METHOD a register (Ljava/lang/String;)Layk;
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V
+	CLASS 1 1
+		FIELD i val$name Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD toString toString ()Ljava/lang/String;

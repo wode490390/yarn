@@ -1,0 +1,18 @@
+CLASS cuy net/minecraft/world/level/storage/loot/functions/SetItemDamageFunction
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c damage Lcto;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Lcvv;Lcto;)V
+	METHOD <init> <init> ([Lcvv;Lcto;Lcuy$1;)V
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a setDamage (Lcto;)Lcuq$a;
+	METHOD a lambda$setDamage$0 (Lcto;[Lcvv;)Lcur;
+	METHOD a access$000 (Lcuy;)Lcto;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuy;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuy;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

@@ -1,0 +1,11 @@
+CLASS cag net/minecraft/world/level/block/state/properties/Half
+	FIELD a TOP Lcag;
+	FIELD b BOTTOM Lcag;
+	FIELD c name Ljava/lang/String;
+	FIELD d $VALUES [Lcag;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcag;
+	METHOD values values ()[Lcag;

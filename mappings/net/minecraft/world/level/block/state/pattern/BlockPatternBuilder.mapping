@@ -1,0 +1,14 @@
+CLASS bzn net/minecraft/world/level/block/state/pattern/BlockPatternBuilder
+	FIELD a COMMA_JOINED Lcom/google/common/base/Joiner;
+	FIELD b pattern Ljava/util/List;
+	FIELD c lookup Ljava/util/Map;
+	FIELD d height I
+	FIELD e width I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a start ()Lbzn;
+	METHOD a where (CLjava/util/function/Predicate;)Lbzn;
+	METHOD a aisle ([Ljava/lang/String;)Lbzn;
+	METHOD b build ()Lbzm;
+	METHOD c createPattern ()[[[Ljava/util/function/Predicate;
+	METHOD d ensureAllCharactersMatched ()V

@@ -1,0 +1,8 @@
+CLASS cko net/minecraft/world/level/levelgen/placement/ConfiguredDecorator
+	FIELD a decorator Lclf;
+	FIELD b config Lchp;
+	METHOD <init> <init> (Lclf;Lchp;)V
+	METHOD <init> <init> (Lclf;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lcec;)Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcko;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,20 @@
+CLASS coc net/minecraft/world/level/levelgen/surfacebuilders/BadlandsSurfaceBuilder
+	FIELD a clayBands [Lbzh;
+	FIELD ac WHITE_TERRACOTTA Lbzh;
+	FIELD ad ORANGE_TERRACOTTA Lbzh;
+	FIELD ae TERRACOTTA Lbzh;
+	FIELD af YELLOW_TERRACOTTA Lbzh;
+	FIELD ag BROWN_TERRACOTTA Lbzh;
+	FIELD ah RED_TERRACOTTA Lbzh;
+	FIELD ai LIGHT_GRAY_TERRACOTTA Lbzh;
+	FIELD b seed J
+	FIELD c pillarNoise Lcoy;
+	FIELD d pillarRoofNoise Lcoy;
+	FIELD e clayBandsOffsetNoise Lcoy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getBand (III)Lbzh;
+	METHOD a initNoise (J)V
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJLcor;)V
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJLcos;)V
+	METHOD b generateBands (J)V

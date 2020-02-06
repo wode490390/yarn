@@ -1,0 +1,15 @@
+CLASS bpe net/minecraft/world/level/block/BambooSaplingBlock
+	FIELD a SAPLING_SHAPE Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD X_ getOffsetType ()Lbpy$b;
+	METHOD a getCloneItemStack (Lbjp;Lfk;Lbzh;)Lbew;
+	METHOD a isValidBonemealTarget (Lbjp;Lfk;Lbzh;Z)Z
+	METHOD a growBamboo (Lbkf;Lfk;)V
+	METHOD a isBonemealSuccess (Lbkf;Ljava/util/Random;Lfk;Lbzh;)Z
+	METHOD a getDestroyProgress (Lbzh;Lays;Lbjp;Lfk;)F
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a performBonemeal (Lxe;Ljava/util/Random;Lfk;Lbzh;)V

@@ -1,0 +1,7 @@
+CLASS zc net/minecraft/server/packs/resources/ResourceManager
+	METHOD a getNamespaces ()Ljava/util/Set;
+	METHOD a listResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a getResource (Lsm;)Lzb;
+	METHOD a add (Lyf;)V
+	METHOD b hasResource (Lsm;)Z
+	METHOD c getResources (Lsm;)Ljava/util/List;

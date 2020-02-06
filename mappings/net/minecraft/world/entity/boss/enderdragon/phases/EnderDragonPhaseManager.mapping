@@ -1,0 +1,10 @@
+CLASS avs net/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhaseManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b dragon Lavb;
+	FIELD c phases [Lavl;
+	FIELD d currentPhase Lavl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lavb;)V
+	METHOD a getCurrentPhase ()Lavl;
+	METHOD a setPhase (Lavr;)V
+	METHOD b getPhase (Lavr;)Lavl;

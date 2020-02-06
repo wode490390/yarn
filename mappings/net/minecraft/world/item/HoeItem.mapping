@@ -1,0 +1,10 @@
+CLASS beo net/minecraft/world/item/HoeItem
+	FIELD a TILLABLES Ljava/util/Map;
+	FIELD b attackSpeed F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbgb;FLber$a;)V
+	METHOD a getDefaultAttributeModifiers (Lald;)Lcom/google/common/collect/Multimap;
+	METHOD a lambda$hurtEnemy$1 (Lalh;)V
+	METHOD a hurtEnemy (Lbew;Lalh;Lalh;)Z
+	METHOD a useOn (Lbgi;)Lajs;
+	METHOD a lambda$useOn$0 (Lbgi;Lays;)V

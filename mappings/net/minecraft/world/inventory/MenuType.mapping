@@ -1,0 +1,32 @@
+CLASS bbx net/minecraft/world/inventory/MenuType
+	FIELD a GENERIC_9x1 Lbbx;
+	FIELD b GENERIC_9x2 Lbbx;
+	FIELD c GENERIC_9x3 Lbbx;
+	FIELD d GENERIC_9x4 Lbbx;
+	FIELD e GENERIC_9x5 Lbbx;
+	FIELD f GENERIC_9x6 Lbbx;
+	FIELD g GENERIC_3x3 Lbbx;
+	FIELD h ANVIL Lbbx;
+	FIELD i BEACON Lbbx;
+	FIELD j BLAST_FURNACE Lbbx;
+	FIELD k BREWING_STAND Lbbx;
+	FIELD l CRAFTING Lbbx;
+	FIELD m ENCHANTMENT Lbbx;
+	FIELD n FURNACE Lbbx;
+	FIELD o GRINDSTONE Lbbx;
+	FIELD p HOPPER Lbbx;
+	FIELD q LECTERN Lbbx;
+	FIELD r LOOM Lbbx;
+	FIELD s MERCHANT Lbbx;
+	FIELD t SHULKER_BOX Lbbx;
+	FIELD u SMOKER Lbbx;
+	FIELD v CARTOGRAPHY_TABLE Lbbx;
+	FIELD w STONECUTTER Lbbx;
+	FIELD x constructor Lbbx$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbbx$a;)V
+	METHOD a create (ILayr;)Lbaw;
+	METHOD a register (Ljava/lang/String;Lbbx$a;)Lbbx;
+	METHOD b lambda$static$0 (ILayr;)Lbbu;
+	CLASS a MenuSupplier
+		METHOD create create (ILayr;)Lbaw;

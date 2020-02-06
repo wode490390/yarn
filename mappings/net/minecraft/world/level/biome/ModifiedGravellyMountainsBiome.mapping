@@ -1,0 +1,2 @@
+CLASS bmz net/minecraft/world/level/biome/ModifiedGravellyMountainsBiome
+	METHOD <init> <init> ()V

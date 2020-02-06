@@ -1,0 +1,6 @@
+CLASS ckg net/minecraft/world/level/levelgen/placement/CarvingMaskDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a lambda$getPositions$1 (Lbjq;I)Lfk;
+	METHOD a getPositions (Lbkg;Lcaz;Ljava/util/Random;Lchp;Lfk;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lbkg;Lcaz;Ljava/util/Random;Lckh;Lfk;)Ljava/util/stream/Stream;
+	METHOD a lambda$getPositions$0 (Ljava/util/BitSet;Ljava/util/Random;Lckh;I)Z

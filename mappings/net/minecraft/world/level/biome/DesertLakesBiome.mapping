@@ -1,0 +1,2 @@
+CLASS bmb net/minecraft/world/level/biome/DesertLakesBiome
+	METHOD <init> <init> ()V

@@ -1,0 +1,5 @@
+CLASS blp net/minecraft/world/level/biome/CheckerboardColumnBiomeSource
+	FIELD d allowedBiomes [Lbld;
+	FIELD e bitShift I
+	METHOD <init> <init> (Lblo;)V
+	METHOD b getNoiseBiome (III)Lbld;

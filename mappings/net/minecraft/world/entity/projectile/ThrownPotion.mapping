@@ -1,0 +1,21 @@
+CLASS azs net/minecraft/world/entity/projectile/ThrownPotion
+	FIELD e WATER_SENSITIVE Ljava/util/function/Predicate;
+	FIELD f DATA_ITEM_STACK Lsb;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDD)V
+	METHOD <init> <init> (Lbkf;Lalh;)V
+	METHOD a isWaterSensitiveEntity (Lalh;)Z
+	METHOD a makeAreaOfEffectCloud (Lbew;Lbgm;)V
+	METHOD a onHit (Lcwr;)V
+	METHOD a dowseFire (Lfk;Lfp;)V
+	METHOD a applySplash (Ljava/util/List;Laky;)V
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b setItem (Lbew;)V
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD f getItem ()Lbew;
+	METHOD i applyWater ()V
+	METHOD k isLingering ()Z
+	METHOD l getGravity ()F
+	METHOD w_ defineSynchedData ()V

@@ -1,0 +1,5 @@
+CLASS bpm net/minecraft/world/level/block/BaseEntityBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a triggerEvent (Lbzh;Lbkf;Lfk;II)Z
+	METHOD b getMenuProvider (Lbzh;Lbkf;Lfk;)Lajv;
+	METHOD c getRenderShape (Lbzh;)Lbul;

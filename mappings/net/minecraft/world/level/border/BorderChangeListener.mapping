@@ -1,0 +1,18 @@
+CLASS cat net/minecraft/world/level/border/BorderChangeListener
+	METHOD a onBorderSizeSet (Lcav;D)V
+	METHOD a onBorderCenterSet (Lcav;DD)V
+	METHOD a onBorderSizeLerping (Lcav;DDJ)V
+	METHOD a onBorderSetWarningTime (Lcav;I)V
+	METHOD b onBorderSetDamagePerBlock (Lcav;D)V
+	METHOD b onBorderSetWarningBlocks (Lcav;I)V
+	METHOD c onBorderSetDamageSafeZOne (Lcav;D)V
+	CLASS a DelegateBorderChangeListener
+		FIELD a worldBorder Lcav;
+		METHOD <init> <init> (Lcav;)V
+		METHOD a onBorderSizeSet (Lcav;D)V
+		METHOD a onBorderCenterSet (Lcav;DD)V
+		METHOD a onBorderSizeLerping (Lcav;DDJ)V
+		METHOD a onBorderSetWarningTime (Lcav;I)V
+		METHOD b onBorderSetDamagePerBlock (Lcav;D)V
+		METHOD b onBorderSetWarningBlocks (Lcav;I)V
+		METHOD c onBorderSetDamageSafeZOne (Lcav;D)V

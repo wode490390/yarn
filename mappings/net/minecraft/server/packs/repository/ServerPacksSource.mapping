@@ -1,0 +1,5 @@
+CLASS yt net/minecraft/server/packs/repository/ServerPacksSource
+	FIELD a vanillaPack Lyi;
+	METHOD <init> <init> ()V
+	METHOD a lambda$loadPacks$0 ()Lyf;
+	METHOD a loadPacks (Ljava/util/Map;Lyu$b;)V

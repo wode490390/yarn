@@ -1,0 +1,21 @@
+CLASS cal net/minecraft/world/level/block/state/properties/RailShape
+	FIELD a NORTH_SOUTH Lcal;
+	FIELD b EAST_WEST Lcal;
+	FIELD c ASCENDING_EAST Lcal;
+	FIELD d ASCENDING_WEST Lcal;
+	FIELD e ASCENDING_NORTH Lcal;
+	FIELD f ASCENDING_SOUTH Lcal;
+	FIELD g SOUTH_EAST Lcal;
+	FIELD h SOUTH_WEST Lcal;
+	FIELD i NORTH_WEST Lcal;
+	FIELD j NORTH_EAST Lcal;
+	FIELD k name Ljava/lang/String;
+	FIELD l $VALUES [Lcal;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD b isAscending ()Z
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcal;
+	METHOD values values ()[Lcal;

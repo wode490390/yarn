@@ -1,0 +1,24 @@
+CLASS bkc net/minecraft/world/level/GameType
+	FIELD a NOT_SET Lbkc;
+	FIELD b SURVIVAL Lbkc;
+	FIELD c CREATIVE Lbkc;
+	FIELD d ADVENTURE Lbkc;
+	FIELD e SPECTATOR Lbkc;
+	FIELD f id I
+	FIELD g name Ljava/lang/String;
+	FIELD h $VALUES [Lbkc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+	METHOD a getId ()I
+	METHOD a byId (I)Lbkc;
+	METHOD a byId (ILbkc;)Lbkc;
+	METHOD a updatePlayerAbilities (Layp;)V
+	METHOD a byName (Ljava/lang/String;)Lbkc;
+	METHOD a byName (Ljava/lang/String;Lbkc;)Lbkc;
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getDisplayName ()Llf;
+	METHOD d isBlockPlacingRestricted ()Z
+	METHOD e isCreative ()Z
+	METHOD f isSurvival ()Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbkc;
+	METHOD values values ()[Lbkc;

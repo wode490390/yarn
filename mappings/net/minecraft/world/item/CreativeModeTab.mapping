@@ -1,0 +1,83 @@
+CLASS bdm net/minecraft/world/item/CreativeModeTab
+	FIELD a TABS [Lbdm;
+	FIELD b TAB_BUILDING_BLOCKS Lbdm;
+	FIELD c TAB_DECORATIONS Lbdm;
+	FIELD d TAB_REDSTONE Lbdm;
+	FIELD e TAB_TRANSPORTATION Lbdm;
+	FIELD f TAB_MISC Lbdm;
+	FIELD g TAB_SEARCH Lbdm;
+	FIELD h TAB_FOOD Lbdm;
+	FIELD i TAB_TOOLS Lbdm;
+	FIELD j TAB_COMBAT Lbdm;
+	FIELD k TAB_BREWING Lbdm;
+	FIELD l TAB_MATERIALS Lbdm;
+	FIELD m TAB_HOTBAR Lbdm;
+	FIELD n TAB_INVENTORY Lbdm;
+	FIELD o id I
+	FIELD p langId Ljava/lang/String;
+	FIELD q recipeFolderName Ljava/lang/String;
+	FIELD r backgroundSuffix Ljava/lang/String;
+	FIELD s canScroll Z
+	FIELD t showTitle Z
+	FIELD u enchantmentCategories [Lbih;
+	FIELD v iconItemStack Lbew;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILjava/lang/String;)V
+	METHOD a getId ()I
+	METHOD a hasEnchantmentCategory (Lbih;)Z
+	METHOD a fillItemList (Lfy;)V
+	METHOD a setBackgroundSuffix (Ljava/lang/String;)Lbdm;
+	METHOD a setEnchantmentCategories ([Lbih;)Lbdm;
+	METHOD b getLangId ()Ljava/lang/String;
+	METHOD b setRecipeFolderName (Ljava/lang/String;)Lbdm;
+	METHOD c getRecipeFolderName ()Ljava/lang/String;
+	METHOD d getName ()Ljava/lang/String;
+	METHOD e getIconItem ()Lbew;
+	METHOD f makeIcon ()Lbew;
+	METHOD g getBackgroundSuffix ()Ljava/lang/String;
+	METHOD h showTitle ()Z
+	METHOD i hideTitle ()Lbdm;
+	METHOD j canScroll ()Z
+	METHOD k hideScroll ()Lbdm;
+	METHOD l getColumn ()I
+	METHOD m isTopRow ()Z
+	METHOD n isAlignedRight ()Z
+	METHOD o getEnchantmentCategories ()[Lbih;
+	CLASS 1 1
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbew;
+	CLASS 2 10
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbew;
+	CLASS 3 11
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD a fillItemList (Lfy;)V
+		METHOD f makeIcon ()Lbew;
+		METHOD n isAlignedRight ()Z
+	CLASS 4 12
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbew;
+	CLASS 5 2
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbew;
+	CLASS 6 3
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbew;
+	CLASS 7 4
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbew;
+	CLASS 8 5
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbew;
+	CLASS 9 6
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbew;
+	CLASS 10 7
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbew;
+	CLASS 11 8
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbew;
+	CLASS 12 9
+		METHOD <init> <init> (ILjava/lang/String;)V
+		METHOD f makeIcon ()Lbew;

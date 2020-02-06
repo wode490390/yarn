@@ -1,0 +1,9 @@
+CLASS pm net/minecraft/network/protocol/game/ServerboundAcceptTeleportationPacket
+	FIELD a id I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getId ()I
+	METHOD b write (Lkv;)V

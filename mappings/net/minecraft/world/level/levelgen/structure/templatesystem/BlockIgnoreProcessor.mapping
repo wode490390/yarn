@@ -1,0 +1,13 @@
+CLASS cni net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor
+	FIELD a STRUCTURE_BLOCK Lcni;
+	FIELD b AIR Lcni;
+	FIELD c STRUCTURE_AND_AIR Lcni;
+	FIELD d toIgnore Lcom/google/common/collect/ImmutableList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a getType ()Lcny;
+	METHOD a processBlock (Lbki;Lfk;Lcnz$b;Lcnz$b;Lcnw;)Lcnz$b;
+	METHOD a lambda$new$0 (Lcom/mojang/datafixers/Dynamic;)Lbpy;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$getDynamic$1 (Lcom/mojang/datafixers/types/DynamicOps;Lbpy;)Ljava/lang/Object;

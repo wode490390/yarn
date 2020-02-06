@@ -1,0 +1,5 @@
+CLASS ben net/minecraft/world/item/HangingEntityItem
+	FIELD a type Lalc;
+	METHOD <init> <init> (Lalc;Lber$a;)V
+	METHOD a mayPlace (Lays;Lfp;Lbew;Lfk;)Z
+	METHOD a useOn (Lbgi;)Lajs;

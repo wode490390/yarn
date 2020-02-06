@@ -1,0 +1,13 @@
+CLASS qh net/minecraft/network/protocol/game/ServerboundPlaceRecipePacket
+	FIELD a containerId I
+	FIELD b recipe Lsm;
+	FIELD c shiftDown Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILbhf;Z)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getContainerId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getRecipe ()Lsm;
+	METHOD d isShiftDown ()Z

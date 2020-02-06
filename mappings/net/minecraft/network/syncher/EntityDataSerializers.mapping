@@ -1,0 +1,179 @@
+CLASS sd net/minecraft/network/syncher/EntityDataSerializers
+	FIELD a BYTE Lsc;
+	FIELD b INT Lsc;
+	FIELD c FLOAT Lsc;
+	FIELD d STRING Lsc;
+	FIELD e COMPONENT Lsc;
+	FIELD f OPTIONAL_COMPONENT Lsc;
+	FIELD g ITEM_STACK Lsc;
+	FIELD h BLOCK_STATE Lsc;
+	FIELD i BOOLEAN Lsc;
+	FIELD j PARTICLE Lsc;
+	FIELD k ROTATIONS Lsc;
+	FIELD l BLOCK_POS Lsc;
+	FIELD m OPTIONAL_BLOCK_POS Lsc;
+	FIELD n DIRECTION Lsc;
+	FIELD o OPTIONAL_UUID Lsc;
+	FIELD p COMPOUND_TAG Lsc;
+	FIELD q VILLAGER_DATA Lsc;
+	FIELD r OPTIONAL_UNSIGNED_INT Lsc;
+	FIELD s POSE Lsc;
+	FIELD t SERIALIZERS Labg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getSerializer (I)Lsc;
+	METHOD a registerSerializer (Lsc;)V
+	METHOD b getSerializedId (Lsc;)I
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a copy (Ljava/lang/Byte;)Ljava/lang/Byte;
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Ljava/lang/Byte;)V
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD b read (Lkv;)Ljava/lang/Byte;
+	CLASS 2 10
+		METHOD <init> <init> ()V
+		METHOD a copy (Lgt;)Lgt;
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Lgt;)V
+		METHOD a readParticle (Lkv;Lgu;)Lgt;
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD b read (Lkv;)Lgt;
+	CLASS 3 11
+		METHOD <init> <init> ()V
+		METHOD a copy (Lgc;)Lgc;
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Lgc;)V
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD b read (Lkv;)Lgc;
+	CLASS 4 12
+		METHOD <init> <init> ()V
+		METHOD a copy (Lfk;)Lfk;
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Lfk;)V
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD b read (Lkv;)Lfk;
+	CLASS 5 13
+		METHOD <init> <init> ()V
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a copy (Ljava/util/Optional;)Ljava/util/Optional;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD a write (Lkv;Ljava/util/Optional;)V
+		METHOD b read (Lkv;)Ljava/util/Optional;
+	CLASS 6 14
+		METHOD <init> <init> ()V
+		METHOD a copy (Lfp;)Lfp;
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Lfp;)V
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD b read (Lkv;)Lfp;
+	CLASS 7 15
+		METHOD <init> <init> ()V
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a copy (Ljava/util/Optional;)Ljava/util/Optional;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD a write (Lkv;Ljava/util/Optional;)V
+		METHOD b read (Lkv;)Ljava/util/Optional;
+	CLASS 8 16
+		METHOD <init> <init> ()V
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a copy (Ljt;)Ljt;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD a write (Lkv;Ljt;)V
+		METHOD b read (Lkv;)Ljt;
+	CLASS 9 17
+		METHOD <init> <init> ()V
+		METHOD a copy (Layg;)Layg;
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Layg;)V
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD b read (Lkv;)Layg;
+	CLASS 10 18
+		METHOD <init> <init> ()V
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a copy (Ljava/util/OptionalInt;)Ljava/util/OptionalInt;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD a write (Lkv;Ljava/util/OptionalInt;)V
+		METHOD b read (Lkv;)Ljava/util/OptionalInt;
+	CLASS 11 19
+		METHOD <init> <init> ()V
+		METHOD a copy (Lalr;)Lalr;
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Lalr;)V
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD b read (Lkv;)Lalr;
+	CLASS 12 2
+		METHOD <init> <init> ()V
+		METHOD a copy (Ljava/lang/Integer;)Ljava/lang/Integer;
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Ljava/lang/Integer;)V
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD b read (Lkv;)Ljava/lang/Integer;
+	CLASS 13 3
+		METHOD <init> <init> ()V
+		METHOD a copy (Ljava/lang/Float;)Ljava/lang/Float;
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Ljava/lang/Float;)V
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD b read (Lkv;)Ljava/lang/Float;
+	CLASS 14 4
+		METHOD <init> <init> ()V
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a copy (Ljava/lang/String;)Ljava/lang/String;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD a write (Lkv;Ljava/lang/String;)V
+		METHOD b read (Lkv;)Ljava/lang/String;
+	CLASS 15 5
+		METHOD <init> <init> ()V
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD a write (Lkv;Llf;)V
+		METHOD a copy (Llf;)Llf;
+		METHOD b read (Lkv;)Llf;
+	CLASS 16 6
+		METHOD <init> <init> ()V
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a copy (Ljava/util/Optional;)Ljava/util/Optional;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD a write (Lkv;Ljava/util/Optional;)V
+		METHOD b read (Lkv;)Ljava/util/Optional;
+	CLASS 17 7
+		METHOD <init> <init> ()V
+		METHOD a copy (Lbew;)Lbew;
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Lbew;)V
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD b read (Lkv;)Lbew;
+	CLASS 18 8
+		METHOD <init> <init> ()V
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a copy (Ljava/util/Optional;)Ljava/util/Optional;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD a write (Lkv;Ljava/util/Optional;)V
+		METHOD b read (Lkv;)Ljava/util/Optional;
+	CLASS 19 9
+		METHOD <init> <init> ()V
+		METHOD a copy (Ljava/lang/Boolean;)Ljava/lang/Boolean;
+		METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a read (Lkv;)Ljava/lang/Object;
+		METHOD a write (Lkv;Ljava/lang/Boolean;)V
+		METHOD a write (Lkv;Ljava/lang/Object;)V
+		METHOD b read (Lkv;)Ljava/lang/Boolean;

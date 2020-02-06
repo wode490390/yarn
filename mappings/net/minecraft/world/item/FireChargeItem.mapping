@@ -1,0 +1,4 @@
+CLASS beg net/minecraft/world/item/FireChargeItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a useOn (Lbgi;)Lajs;
+	METHOD a playSound (Lbkf;Lfk;)V

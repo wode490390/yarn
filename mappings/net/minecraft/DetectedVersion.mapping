@@ -1,0 +1,22 @@
+CLASS m net/minecraft/DetectedVersion
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b id Ljava/lang/String;
+	FIELD c name Ljava/lang/String;
+	FIELD d stable Z
+	FIELD e worldVersion I
+	FIELD f protocolVersion I
+	FIELD g packVersion I
+	FIELD h buildTime Ljava/util/Date;
+	FIELD i releaseTarget Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcom/google/gson/JsonObject;)V
+	METHOD a tryDetectVersion ()Lcom/mojang/bridge/game/GameVersion;
+	METHOD getBuildTime getBuildTime ()Ljava/util/Date;
+	METHOD getId getId ()Ljava/lang/String;
+	METHOD getName getName ()Ljava/lang/String;
+	METHOD getPackVersion getPackVersion ()I
+	METHOD getProtocolVersion getProtocolVersion ()I
+	METHOD getReleaseTarget getReleaseTarget ()Ljava/lang/String;
+	METHOD getWorldVersion getWorldVersion ()I
+	METHOD isStable isStable ()Z

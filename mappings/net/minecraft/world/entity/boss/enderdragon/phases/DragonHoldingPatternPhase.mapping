@@ -1,0 +1,15 @@
+CLASS avh net/minecraft/world/entity/boss/enderdragon/phases/DragonHoldingPatternPhase
+	FIELD b NEW_TARGET_TARGETING Lass;
+	FIELD c currentPath Lcrz;
+	FIELD d targetLocation Lcwu;
+	FIELD e clockwise Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lavb;)V
+	METHOD a onCrystalDestroyed (Lava;Lfk;Lakh;Lays;)V
+	METHOD a strafePlayer (Lays;)V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD g getFlyTargetLocation ()Lcwu;
+	METHOD i getPhase ()Lavr;
+	METHOD j findNewTarget ()V
+	METHOD k navigateToNextPathNode ()V

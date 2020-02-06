@@ -1,0 +1,8 @@
+CLASS cqo net/minecraft/world/level/newbiome/layer/AddSnowLayer
+	FIELD a INSTANCE Lcqo;
+	FIELD b $VALUES [Lcqo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcqh;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcqo;
+	METHOD values values ()[Lcqo;

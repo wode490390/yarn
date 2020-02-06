@@ -1,0 +1,12 @@
+CLASS pb net/minecraft/network/protocol/game/ClientboundTagQueryPacket
+	FIELD a transactionId I
+	FIELD b tag Ljt;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILjt;)V
+	METHOD a isSkippable ()Z
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getTransactionId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getTag ()Ljt;

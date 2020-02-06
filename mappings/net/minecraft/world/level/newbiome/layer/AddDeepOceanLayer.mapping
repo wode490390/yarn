@@ -1,0 +1,8 @@
+CLASS cqk net/minecraft/world/level/newbiome/layer/AddDeepOceanLayer
+	FIELD a INSTANCE Lcqk;
+	FIELD b $VALUES [Lcqk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcqh;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcqk;
+	METHOD values values ()[Lcqk;

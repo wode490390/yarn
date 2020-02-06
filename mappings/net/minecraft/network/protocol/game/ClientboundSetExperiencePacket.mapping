@@ -1,0 +1,13 @@
+CLASS oo net/minecraft/network/protocol/game/ClientboundSetExperiencePacket
+	FIELD a experienceProgress F
+	FIELD b totalExperience I
+	FIELD c experienceLevel I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (FII)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getExperienceProgress ()F
+	METHOD b write (Lkv;)V
+	METHOD c getTotalExperience ()I
+	METHOD d getExperienceLevel ()I

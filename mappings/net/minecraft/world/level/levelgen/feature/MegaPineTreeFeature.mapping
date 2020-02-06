@@ -1,0 +1,5 @@
+CLASS cfl net/minecraft/world/level/levelgen/feature/MegaPineTreeFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a createCrown (Lbkk;Ljava/util/Random;IIIILjava/util/Set;Lcmg;Lchw;)V
+	METHOD a doPlace (Lbkk;Ljava/util/Random;Lfk;Ljava/util/Set;Ljava/util/Set;Lcmg;Lchw;)Z
+	METHOD a doPlace (Lbkk;Ljava/util/Random;Lfk;Ljava/util/Set;Ljava/util/Set;Lcmg;Lciq;)Z

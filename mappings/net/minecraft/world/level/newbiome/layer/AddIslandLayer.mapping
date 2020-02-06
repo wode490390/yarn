@@ -1,0 +1,8 @@
+CLASS cqm net/minecraft/world/level/newbiome/layer/AddIslandLayer
+	FIELD a INSTANCE Lcqm;
+	FIELD b $VALUES [Lcqm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcqh;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcqm;
+	METHOD values values ()[Lcqm;

@@ -1,0 +1,6 @@
+CLASS cxp net/minecraft/world/phys/shapes/WorldRegionIndirectVoxelShape
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	METHOD <init> <init> (Lcxd;III)V
+	METHOD a getCoords (Lfp$a;)Lit/unimi/dsi/fastutil/doubles/DoubleList;

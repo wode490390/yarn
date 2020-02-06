@@ -1,0 +1,9 @@
+CLASS rm net/minecraft/network/protocol/login/ClientboundLoginDisconnectPacket
+	FIELD a reason Llf;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Llf;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lrh;)V
+	METHOD b getReason ()Llf;
+	METHOD b write (Lkv;)V

@@ -1,0 +1,57 @@
+CLASS axr net/minecraft/world/entity/monster/SpellcasterIllager
+	FIELD b spellCastingTickCount I
+	FIELD bw DATA_SPELL_CASTING_ID Lsb;
+	FIELD bx currentSpell Laxr$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD a setIsCastingSpell (Laxr$a;)V
+	METHOD a access$200 (Laxr;)Larz;
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD dT customServerAiStep ()V
+	METHOD eA isCastingSpell ()Z
+	METHOD eB getCurrentSpell ()Laxr$a;
+	METHOD eC getSpellCastingTime ()I
+	METHOD er getCastingSoundEvent ()Laai;
+	METHOD h tick ()V
+	METHOD l getArmPose ()Lawm$a;
+	METHOD w_ defineSynchedData ()V
+	CLASS a IllagerSpell
+		FIELD a NONE Laxr$a;
+		FIELD b SUMMON_VEX Laxr$a;
+		FIELD c FANGS Laxr$a;
+		FIELD d WOLOLO Laxr$a;
+		FIELD e DISAPPEAR Laxr$a;
+		FIELD f BLINDNESS Laxr$a;
+		FIELD g id I
+		FIELD h spellColor [D
+		FIELD i $VALUES [Laxr$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IIDDD)V
+		METHOD a byId (I)Laxr$a;
+		METHOD a access$000 (Laxr$a;)I
+		METHOD b access$100 (Laxr$a;)[D
+		METHOD valueOf valueOf (Ljava/lang/String;)Laxr$a;
+		METHOD values values ()[Laxr$a;
+	CLASS b SpellcasterCastingSpellGoal
+		FIELD b this$0 Laxr;
+		METHOD <init> <init> (Laxr;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS c SpellcasterUseSpellGoal
+		FIELD b attackWarmupDelay I
+		FIELD c nextAttackTickCount I
+		FIELD d this$0 Laxr;
+		METHOD <init> <init> (Laxr;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Laai;
+		METHOD l getSpell ()Laxr$a;
+		METHOD m getCastWarmupTime ()I

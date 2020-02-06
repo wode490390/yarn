@@ -1,0 +1,4 @@
+CLASS byl net/minecraft/world/level/block/entity/TheEndPortalBlockEntity
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbxk;)V
+	METHOD a shouldRenderFace (Lfp;)Z

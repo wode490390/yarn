@@ -1,0 +1,3 @@
+CLASS azh net/minecraft/world/entity/projectile/Projectile
+	METHOD a shootFromRotation (Laky;FFFFF)V
+	METHOD c shoot (DDDFF)V

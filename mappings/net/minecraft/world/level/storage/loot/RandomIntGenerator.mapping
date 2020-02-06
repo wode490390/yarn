@@ -1,0 +1,7 @@
+CLASS ctm net/minecraft/world/level/storage/loot/RandomIntGenerator
+	FIELD a CONSTANT Lsm;
+	FIELD b UNIFORM Lsm;
+	FIELD c BINOMIAL Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD a getType ()Lsm;
+	METHOD a getInt (Ljava/util/Random;)I

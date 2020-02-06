@@ -1,0 +1,5 @@
+CLASS bmh net/minecraft/world/level/biome/FixedBiomeSourceSettings
+	FIELD a biome Lbld;
+	METHOD <init> <init> (Lcsv;)V
+	METHOD a getBiome ()Lbld;
+	METHOD a setBiome (Lbld;)Lbmh;

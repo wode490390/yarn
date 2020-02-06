@@ -1,0 +1,23 @@
+CLASS e com/mojang/math/Vector3f
+	FIELD a XN Le;
+	FIELD b XP Le;
+	FIELD c YN Le;
+	FIELD d YP Le;
+	FIELD e ZN Le;
+	FIELD f ZP Le;
+	FIELD g x F
+	FIELD h y F
+	FIELD i z F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (FFF)V
+	METHOD <init> <init> (Lcwu;)V
+	METHOD a x ()F
+	METHOD a rotationDegrees (F)Lc;
+	METHOD a set (FFF)V
+	METHOD a transform (Lc;)V
+	METHOD b y ()F
+	METHOD c z ()F
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

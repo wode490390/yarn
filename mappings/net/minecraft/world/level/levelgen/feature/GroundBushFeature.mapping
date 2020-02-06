@@ -1,0 +1,3 @@
+CLASS cey net/minecraft/world/level/levelgen/feature/GroundBushFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a doPlace (Lbkk;Ljava/util/Random;Lfk;Ljava/util/Set;Ljava/util/Set;Lcmg;Lciq;)Z

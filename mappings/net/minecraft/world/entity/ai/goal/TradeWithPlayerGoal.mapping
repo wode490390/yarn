@@ -1,0 +1,6 @@
+CLASS aqy net/minecraft/world/entity/ai/goal/TradeWithPlayerGoal
+	FIELD a mob Layb;
+	METHOD <init> <init> (Layb;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

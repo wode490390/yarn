@@ -1,0 +1,11 @@
+CLASS bzu net/minecraft/world/level/block/state/properties/AttachFace
+	FIELD a FLOOR Lbzu;
+	FIELD b WALL Lbzu;
+	FIELD c CEILING Lbzu;
+	FIELD d name Ljava/lang/String;
+	FIELD e $VALUES [Lbzu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbzu;
+	METHOD values values ()[Lbzu;

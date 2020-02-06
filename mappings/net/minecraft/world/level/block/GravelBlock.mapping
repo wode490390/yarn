@@ -1,0 +1,3 @@
+CLASS bsl net/minecraft/world/level/block/GravelBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD f getDustColor (Lbzh;)I

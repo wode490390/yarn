@@ -1,0 +1,7 @@
+CLASS cih net/minecraft/world/level/levelgen/feature/configurations/RandomRandomFeatureConfiguration
+	FIELD a features Ljava/util/List;
+	FIELD b count I
+	METHOD <init> <init> (Ljava/util/List;I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcih;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lcec;)Ljava/lang/Object;

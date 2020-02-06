@@ -1,16 +1,38 @@
-CLASS net/minecraft/class_2479 net/minecraft/nbt/ByteArrayTag
-	FIELD field_11493 value [B
-	FIELD field_21024 READER Lnet/minecraft/class_4614;
-	METHOD <init> (Ljava/util/List;)V
-		ARG 1 value
-	METHOD <init> ([B)V
-		ARG 1 value
-	METHOD add (ILjava/lang/Object;)V
-		ARG 1 value
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
-	METHOD method_10521 getByteArray ()[B
-	METHOD method_10522 toArray (Ljava/util/List;)[B
-		ARG 0 list
-	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
-		ARG 1 index
+CLASS jq net/minecraft/nbt/ByteArrayTag
+	FIELD a TYPE Lkl;
+	FIELD b data [B
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD <init> <init> ([B)V
+	METHOD a getId ()B
+	METHOD a get (I)Ljr;
+	METHOD a set (ILjr;)Ljr;
+	METHOD a setTag (ILkj;)Z
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Llf;
+	METHOD a toArray (Ljava/util/List;)[B
+	METHOD a_ getElementType ()I
+	METHOD add add (ILjava/lang/Object;)V
+	METHOD b getType ()Lkl;
+	METHOD b remove (I)Ljr;
+	METHOD b add (ILjr;)V
+	METHOD b addTag (ILkj;)Z
+	METHOD c copy ()Lkj;
+	METHOD c remove (I)Lkj;
+	METHOD c add (ILkj;)V
+	METHOD clear clear ()V
+	METHOD d getAsByteArray ()[B
+	METHOD d set (ILkj;)Lkj;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD get get (I)Ljava/lang/Object;
+	METHOD hashCode hashCode ()I
+	METHOD remove remove (I)Ljava/lang/Object;
+	METHOD set set (ILjava/lang/Object;)Ljava/lang/Object;
+	METHOD size size ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a load (Ljava/io/DataInput;ILkc;)Ljq;
+		METHOD b getPrettyName ()Ljava/lang/String;
+		METHOD b load (Ljava/io/DataInput;ILkc;)Lkj;

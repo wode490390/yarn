@@ -1,0 +1,21 @@
+CLASS mx net/minecraft/network/protocol/game/ClientboundCustomSoundPacket
+	FIELD a name Lsm;
+	FIELD b source Laak;
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f volume F
+	FIELD g pitch F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lsm;Laak;Lcwu;FF)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getName ()Lsm;
+	METHOD b write (Lkv;)V
+	METHOD c getSource ()Laak;
+	METHOD d getX ()D
+	METHOD e getY ()D
+	METHOD f getZ ()D
+	METHOD g getVolume ()F
+	METHOD h getPitch ()F

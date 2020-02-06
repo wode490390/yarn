@@ -1,0 +1,24 @@
+CLASS brb net/minecraft/world/level/block/CropBlock
+	FIELD a SHAPE_BY_AGE [Lcxo;
+	FIELD b AGE Lcah;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getCloneItemStack (Lbjp;Lfk;Lbzh;)Lbew;
+	METHOD a isValidBonemealTarget (Lbjp;Lfk;Lbzh;Z)Z
+	METHOD a getBonemealAgeIncrease (Lbkf;)I
+	METHOD a growCrops (Lbkf;Lfk;Lbzh;)V
+	METHOD a isBonemealSuccess (Lbkf;Ljava/util/Random;Lfk;Lbzh;)Z
+	METHOD a getGrowthSpeed (Lbpy;Lbjp;Lfk;)F
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a entityInside (Lbzh;Lbkf;Lfk;Laky;)V
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD a performBonemeal (Lxe;Ljava/util/Random;Lfk;Lbzh;)V
+	METHOD a_ mayPlaceOn (Lbzh;Lbjp;Lfk;)Z
+	METHOD b getStateForAge (I)Lbzh;
+	METHOD c getAgeProperty ()Lcah;
+	METHOD d getMaxAge ()I
+	METHOD e getBaseSeedId ()Lbke;
+	METHOD h getAge (Lbzh;)I
+	METHOD i isMaxAge (Lbzh;)Z

@@ -1,0 +1,10 @@
+CLASS ik net/minecraft/data/tags/ItemTagsProvider
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgy;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a copy (Laba$b;)Laba$b;
+	METHOD a copy (Laba;Laba;)V
+	METHOD a useTags (Labb;)V
+	METHOD a getPath (Lsm;)Ljava/nio/file/Path;
+	METHOD b addTags ()V

@@ -1,0 +1,3 @@
+CLASS bso net/minecraft/world/level/block/HayBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a fallOn (Lbkf;Lfk;Laky;F)V

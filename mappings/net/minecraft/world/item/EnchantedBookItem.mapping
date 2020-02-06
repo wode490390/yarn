@@ -1,0 +1,9 @@
+CLASS bea net/minecraft/world/item/EnchantedBookItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a fillItemCategory (Lbdm;Lfy;)V
+	METHOD a addEnchantment (Lbew;Lbij;)V
+	METHOD a appendHoverText (Lbew;Lbkf;Ljava/util/List;Lbgf;)V
+	METHOD a createForEnchantment (Lbij;)Lbew;
+	METHOD d_ isFoil (Lbew;)Z
+	METHOD e getEnchantments (Lbew;)Ljz;
+	METHOD g_ isEnchantable (Lbew;)Z

@@ -1,0 +1,8 @@
+CLASS aoy net/minecraft/world/entity/ai/goal/BoatGoals
+	FIELD a GO_TO_BOAT Laoy;
+	FIELD b GO_IN_BOAT_DIRECTION Laoy;
+	FIELD c $VALUES [Laoy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Laoy;
+	METHOD values values ()[Laoy;

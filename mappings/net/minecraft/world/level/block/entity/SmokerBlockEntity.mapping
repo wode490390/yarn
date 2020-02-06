@@ -1,0 +1,5 @@
+CLASS byh net/minecraft/world/level/block/entity/SmokerBlockEntity
+	METHOD <init> <init> ()V
+	METHOD a createMenu (ILayr;)Lbaw;
+	METHOD a getBurnDuration (Lbew;)I
+	METHOD g getDefaultName ()Llf;

@@ -1,0 +1,9 @@
+CLASS cmw net/minecraft/world/level/levelgen/structure/ScatteredFeaturePiece
+	FIELD a width I
+	FIELD b height I
+	FIELD c depth I
+	FIELD d heightPosition I
+	METHOD <init> <init> (Lcgq;Ljava/util/Random;IIIIII)V
+	METHOD <init> <init> (Lcgq;Ljt;)V
+	METHOD a updateAverageGroundHeight (Lbkg;Lcmg;I)Z
+	METHOD a addAdditionalSaveData (Ljt;)V

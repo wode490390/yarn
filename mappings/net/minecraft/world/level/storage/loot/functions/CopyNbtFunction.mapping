@@ -1,0 +1,90 @@
+CLASS cuj net/minecraft/world/level/storage/loot/functions/CopyNbtFunction
+	FIELD a source Lcuj$c;
+	FIELD c operations Ljava/util/List;
+	FIELD d ENTITY_GETTER Ljava/util/function/Function;
+	FIELD e BLOCK_ENTITY_GETTER Ljava/util/function/Function;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Lcvv;Lcuj$c;Ljava/util/List;)V
+	METHOD <init> <init> ([Lcvv;Lcuj$c;Ljava/util/List;Lcuj$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a lambda$run$0 (Lbew;Lkj;Lcuj$b;)V
+	METHOD a lambda$static$1 (Lbxj;)Lkj;
+	METHOD a copyData (Lcuj$c;)Lcuj$a;
+	METHOD a access$800 (Lcuj;)Lcuj$c;
+	METHOD a access$000 (Ljava/lang/String;)Lde$h;
+	METHOD b access$600 ()Ljava/util/function/Function;
+	METHOD b access$900 (Lcuj;)Ljava/util/List;
+	METHOD b compileNbtPath (Ljava/lang/String;)Lde$h;
+	METHOD c access$700 ()Ljava/util/function/Function;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a source Lcuj$c;
+		FIELD b ops Ljava/util/List;
+		METHOD <init> <init> (Lcuj$c;)V
+		METHOD <init> <init> (Lcuj$c;Lcuj$1;)V
+		METHOD a getThis ()Lcuj$a;
+		METHOD a copy (Ljava/lang/String;Ljava/lang/String;)Lcuj$a;
+		METHOD a copy (Ljava/lang/String;Ljava/lang/String;Lcuj$d;)Lcuj$a;
+		METHOD b build ()Lcur;
+		METHOD d getThis ()Lcuq$a;
+	CLASS b CopyOperation
+		FIELD a sourcePathText Ljava/lang/String;
+		FIELD b sourcePath Lde$h;
+		FIELD c targetPathText Ljava/lang/String;
+		FIELD d targetPath Lde$h;
+		FIELD e op Lcuj$d;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Lcuj$d;)V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Lcuj$d;Lcuj$1;)V
+		METHOD a toJson ()Lcom/google/gson/JsonObject;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;)Lcuj$b;
+		METHOD a apply (Ljava/util/function/Supplier;Lkj;)V
+	CLASS c DataSource
+		FIELD a THIS Lcuj$c;
+		FIELD b KILLER Lcuj$c;
+		FIELD c KILLER_PLAYER Lcuj$c;
+		FIELD d BLOCK_ENTITY Lcuj$c;
+		FIELD e name Ljava/lang/String;
+		FIELD f param Lcvg;
+		FIELD g getter Ljava/util/function/Function;
+		FIELD h $VALUES [Lcuj$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lcvg;Ljava/util/function/Function;)V
+		METHOD a lambda$new$0 (Lcvg;Ljava/util/function/Function;Lctg;)Lkj;
+		METHOD a getByName (Ljava/lang/String;)Lcuj$c;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcuj$c;
+		METHOD values values ()[Lcuj$c;
+	CLASS d MergeStrategy
+		FIELD a REPLACE Lcuj$d;
+		FIELD b APPEND Lcuj$d;
+		FIELD c MERGE Lcuj$d;
+		FIELD d name Ljava/lang/String;
+		FIELD e $VALUES [Lcuj$d;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lcuj$1;)V
+		METHOD a access$100 (Lcuj$d;)Ljava/lang/String;
+		METHOD a getByName (Ljava/lang/String;)Lcuj$d;
+		METHOD a merge (Lkj;Lde$h;Ljava/util/List;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcuj$d;
+		METHOD values values ()[Lcuj$d;
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a merge (Lkj;Lde$h;Ljava/util/List;)V
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a lambda$merge$1 (Ljava/util/List;Lkj;)V
+			METHOD a merge (Lkj;Lde$h;Ljava/util/List;)V
+			METHOD a lambda$null$0 (Lkj;Lkj;)V
+		CLASS 3 3
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a lambda$merge$1 (Ljava/util/List;Lkj;)V
+			METHOD a merge (Lkj;Lde$h;Ljava/util/List;)V
+			METHOD a lambda$null$0 (Lkj;Lkj;)V
+	CLASS e Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuj;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuj;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

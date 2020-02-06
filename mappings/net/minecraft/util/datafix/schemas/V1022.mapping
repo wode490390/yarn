@@ -1,0 +1,6 @@
+CLASS agv net/minecraft/util/datafix/schemas/V1022
+	METHOD <init> <init> (ILcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a lambda$registerTypes$0 ()Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD a lambda$registerTypes$2 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD b lambda$registerTypes$1 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD registerTypes registerTypes (Lcom/mojang/datafixers/schemas/Schema;Ljava/util/Map;Ljava/util/Map;)V

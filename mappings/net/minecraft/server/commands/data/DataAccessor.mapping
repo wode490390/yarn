@@ -1,0 +1,6 @@
+CLASS vx net/minecraft/server/commands/data/DataAccessor
+	METHOD a getData ()Ljt;
+	METHOD a getPrintSuccess (Lde$h;DI)Llf;
+	METHOD a setData (Ljt;)V
+	METHOD a getPrintSuccess (Lkj;)Llf;
+	METHOD b getModifiedSuccess ()Llf;

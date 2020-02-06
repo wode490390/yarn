@@ -1,0 +1,12 @@
+CLASS lc net/minecraft/network/chat/BaseComponent
+	FIELD a siblings Ljava/util/List;
+	FIELD b style Lln;
+	METHOD <init> <init> ()V
+	METHOD a getSiblings ()Ljava/util/List;
+	METHOD a append (Llf;)Llf;
+	METHOD a setStyle (Lln;)Llf;
+	METHOD b getStyle ()Lln;
+	METHOD c stream ()Ljava/util/stream/Stream;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

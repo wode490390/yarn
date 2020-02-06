@@ -1,0 +1,23 @@
+CLASS cwt net/minecraft/world/phys/Vec2
+	FIELD a ZERO Lcwt;
+	FIELD b ONE Lcwt;
+	FIELD c UNIT_X Lcwt;
+	FIELD d NEG_UNIT_X Lcwt;
+	FIELD e UNIT_Y Lcwt;
+	FIELD f NEG_UNIT_Y Lcwt;
+	FIELD g MAX Lcwt;
+	FIELD h MIN Lcwt;
+	FIELD i x F
+	FIELD j y F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FF)V
+	METHOD a normalized ()Lcwt;
+	METHOD a scale (F)Lcwt;
+	METHOD a dot (Lcwt;)F
+	METHOD b length ()F
+	METHOD b add (F)Lcwt;
+	METHOD b add (Lcwt;)Lcwt;
+	METHOD c lengthSquared ()F
+	METHOD c equals (Lcwt;)Z
+	METHOD d negated ()Lcwt;
+	METHOD d distanceToSqr (Lcwt;)F

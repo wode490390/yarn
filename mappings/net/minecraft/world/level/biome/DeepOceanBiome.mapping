@@ -1,0 +1,2 @@
+CLASS blx net/minecraft/world/level/biome/DeepOceanBiome
+	METHOD <init> <init> ()V

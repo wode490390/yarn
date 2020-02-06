@@ -1,0 +1,5 @@
+CLASS aqz net/minecraft/world/entity/ai/goal/TryFindWaterGoal
+	FIELD a mob Lalo;
+	METHOD <init> <init> (Lalo;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V

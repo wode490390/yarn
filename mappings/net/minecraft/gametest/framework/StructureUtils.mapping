@@ -1,0 +1,23 @@
+CLASS jg net/minecraft/gametest/framework/StructureUtils
+	FIELD a testStructuresDir Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a clearBlock (ILfk;Lxe;)V
+	METHOD a lambda$clearSpaceForStructure$0 (ILxe;Lfk;)V
+	METHOD a lambda$clearSpaceForStructure$1 (Laky;)Z
+	METHOD a getStructureBounds (Lbyj;)Lcwo;
+	METHOD a clearSpaceForStructure (Lcmg;ILxe;)V
+	METHOD a findStructureBlockContainingPos (Lfk;ILxe;)Ljava/util/Optional;
+	METHOD a lambda$findNearestStructureBlock$3 (Lfk;Lfk;)I
+	METHOD a createStructureBoundingBox (Lfk;Lfk;I)Lcmg;
+	METHOD a doesStructureContain (Lfk;Lfk;Lxe;)Z
+	METHOD a addCommandBlockAndButtonToStartTest (Lfk;Lxe;)V
+	METHOD a lambda$findStructureBlockContainingPos$2 (Lfk;Lxe;Lfk;)Z
+	METHOD a spawnStructure (Ljava/lang/String;Lfk;ILxe;Z)Lbyj;
+	METHOD a createNewEmptyStructureBlock (Ljava/lang/String;Lfk;Lfk;ILxe;)V
+	METHOD a createStructureBlock (Ljava/lang/String;Lfk;Lxe;Z)Lbyj;
+	METHOD a getStructureTemplate (Ljava/lang/String;Lxe;)Lcnz;
+	METHOD a tryLoadStructure (Ljava/nio/file/Path;)Ljt;
+	METHOD b findNearestStructureBlock (Lfk;ILxe;)Lfk;
+	METHOD b forceLoadChunks (Lfk;Lxe;)V
+	METHOD c findStructureBlocks (Lfk;ILxe;)Ljava/util/Collection;

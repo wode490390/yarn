@@ -1,0 +1,18 @@
+CLASS cay net/minecraft/world/level/chunk/ChunkBiomeContainer
+	FIELD a BIOMES_SIZE I
+	FIELD b HORIZONTAL_MASK I
+	FIELD c VERTICAL_MASK I
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e WIDTH_BITS I
+	FIELD f HEIGHT_BITS I
+	FIELD g biomes [Lbld;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbjq;Lblg;)V
+	METHOD <init> <init> (Lbjq;Lblg;[I)V
+	METHOD <init> <init> (Lkv;)V
+	METHOD <init> <init> ([Lbld;)V
+	METHOD a writeBiomes ()[I
+	METHOD a write (Lkv;)V
+	METHOD b copy ()Lcay;
+	METHOD b getNoiseBiome (III)Lbld;

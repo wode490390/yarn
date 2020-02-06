@@ -1,0 +1,14 @@
+CLASS ld net/minecraft/network/chat/ChatType
+	FIELD a CHAT Lld;
+	FIELD b SYSTEM Lld;
+	FIELD c GAME_INFO Lld;
+	FIELD d index B
+	FIELD e interrupt Z
+	FIELD f $VALUES [Lld;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IBZ)V
+	METHOD a getIndex ()B
+	METHOD a getForIndex (B)Lld;
+	METHOD b shouldInterrupt ()Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lld;
+	METHOD values values ()[Lld;

@@ -1,0 +1,7 @@
+CLASS cdj net/minecraft/world/level/levelgen/carver/NetherWorldCarver
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getCaveBound ()I
+	METHOD a carveBlock (Lcax;Ljava/util/function/Function;Ljava/util/BitSet;Ljava/util/Random;Lfk$a;Lfk$a;Lfk$a;IIIIIIIILjava/util/concurrent/atomic/AtomicBoolean;)Z
+	METHOD a getThickness (Ljava/util/Random;)F
+	METHOD b getYScale ()D
+	METHOD b getCaveY (Ljava/util/Random;)I

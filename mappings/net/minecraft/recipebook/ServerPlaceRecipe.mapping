@@ -1,0 +1,16 @@
+CLASS sj net/minecraft/recipebook/ServerPlaceRecipe
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b stackedContents Layu;
+	FIELD c inventory Layr;
+	FIELD d menu Lbcc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbcc;)V
+	METHOD a clearGrid ()V
+	METHOD a moveItemToInventory (I)V
+	METHOD a moveItemToGrid (Lbcj;Lbew;)V
+	METHOD a handleRecipeClicked (Lbhf;Z)V
+	METHOD a addItemToSlot (Ljava/util/Iterator;IIII)V
+	METHOD a recipeClicked (Lxf;Lbhf;Z)V
+	METHOD a getStackSize (ZIZ)I
+	METHOD b testClearGrid ()Z
+	METHOD c getAmountOfFreeSlotsInInventory ()I

@@ -1,0 +1,20 @@
+CLASS ccd net/minecraft/world/level/chunk/storage/RegionFileVersion
+	FIELD a VERSION_GZIP Lccd;
+	FIELD b VERSION_DEFLATE Lccd;
+	FIELD c VERSION_NONE Lccd;
+	FIELD d VERSIONS Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD e id I
+	FIELD f inputWrapper Lccd$a;
+	FIELD g outputWrapper Lccd$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILccd$a;Lccd$a;)V
+	METHOD a getId ()I
+	METHOD a fromId (I)Lccd;
+	METHOD a register (Lccd;)Lccd;
+	METHOD a wrap (Ljava/io/InputStream;)Ljava/io/InputStream;
+	METHOD a wrap (Ljava/io/OutputStream;)Ljava/io/OutputStream;
+	METHOD b isValidVersion (I)Z
+	METHOD b lambda$static$0 (Ljava/io/InputStream;)Ljava/io/InputStream;
+	METHOD b lambda$static$1 (Ljava/io/OutputStream;)Ljava/io/OutputStream;
+	CLASS a StreamWrapper
+		METHOD wrap wrap (Ljava/lang/Object;)Ljava/lang/Object;

@@ -1,0 +1,4 @@
+CLASS zd net/minecraft/server/packs/resources/ResourceManagerReloadListener
+	METHOD a reload (Lyx$a;Lzc;Laiu;Laiu;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a onResourceManagerReload (Lzc;)V
+	METHOD b lambda$reload$0 (Lzc;)V

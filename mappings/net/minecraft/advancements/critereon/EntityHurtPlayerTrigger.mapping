@@ -1,0 +1,18 @@
+CLASS ba net/minecraft/advancements/critereon/EntityHurtPlayerTrigger
+	FIELD a ID Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lsm;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a trigger (Lxf;Lakh;FFZ)V
+	METHOD a lambda$trigger$0 (Lxf;Lakh;FFZLba$a;)Z
+	METHOD b access$000 ()Lsm;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lba$a;
+	CLASS a TriggerInstance
+		FIELD a damage Lar;
+		METHOD <init> <init> (Lar;)V
+		METHOD a entityHurtPlayer (Lar$a;)Lba$a;
+		METHOD a entityHurtPlayer (Lar;)Lba$a;
+		METHOD a matches (Lxf;Lakh;FFZ)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD c entityHurtPlayer ()Lba$a;

@@ -1,0 +1,11 @@
+CLASS ml net/minecraft/network/protocol/game/ClientboundChangeDifficultyPacket
+	FIELD a difficulty Lajp;
+	FIELD b locked Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lajp;Z)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b isLocked ()Z
+	METHOD b write (Lkv;)V
+	METHOD c getDifficulty ()Lajp;

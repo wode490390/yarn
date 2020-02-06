@@ -1,0 +1,10 @@
+CLASS bjv net/minecraft/world/level/EmptyBlockGetter
+	FIELD a INSTANCE Lbjv;
+	FIELD b $VALUES [Lbjv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD b getFluidState (Lfk;)Lcpt;
+	METHOD c getBlockEntity (Lfk;)Lbxj;
+	METHOD d_ getBlockState (Lfk;)Lbzh;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbjv;
+	METHOD values values ()[Lbjv;

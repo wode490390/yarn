@@ -1,0 +1,13 @@
+CLASS bhf net/minecraft/world/item/crafting/Recipe
+	METHOD V_ isSpecial ()Z
+	METHOD W_ getSerializer ()Lbhh;
+	METHOD a getIngredients ()Lfy;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lajl;)Lbew;
+	METHOD a matches (Lajl;Lbkf;)Z
+	METHOD b getRemainingItems (Lajl;)Lfy;
+	METHOD c getResultItem ()Lbew;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD f getId ()Lsm;
+	METHOD g getType ()Lbhi;
+	METHOD h getToastSymbol ()Lbew;

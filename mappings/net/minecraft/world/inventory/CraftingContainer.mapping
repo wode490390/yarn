@@ -1,0 +1,19 @@
+CLASS bbi net/minecraft/world/inventory/CraftingContainer
+	FIELD a items Lfy;
+	FIELD b width I
+	FIELD c height I
+	FIELD d menu Lbaw;
+	METHOD <init> <init> (Lbaw;II)V
+	METHOD N_ clearContent ()V
+	METHOD O_ getContainerSize ()I
+	METHOD a getItem (I)Lbew;
+	METHOD a removeItem (II)Lbew;
+	METHOD a setItem (ILbew;)V
+	METHOD a stillValid (Lays;)Z
+	METHOD a fillStackedContents (Layu;)V
+	METHOD b removeItemNoUpdate (I)Lbew;
+	METHOD b getItem (II)Lbew;
+	METHOD c isEmpty ()Z
+	METHOD e setChanged ()V
+	METHOD f getHeight ()I
+	METHOD g getWidth ()I

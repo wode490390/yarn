@@ -1,0 +1,8 @@
+CLASS bnf net/minecraft/world/level/biome/MultiNoiseBiomeSource
+	FIELD d temperatureNoise Lcox;
+	FIELD e humidityNoise Lcox;
+	FIELD f altitudeNoise Lcox;
+	FIELD g weirdnessNoise Lcox;
+	METHOD <init> <init> (Lbng;)V
+	METHOD a lambda$getNoiseBiome$0 (Lbld$d;Lbld;)Ljava/lang/Float;
+	METHOD b getNoiseBiome (III)Lbld;

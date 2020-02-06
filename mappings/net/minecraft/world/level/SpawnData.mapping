@@ -1,0 +1,7 @@
+CLASS bkt net/minecraft/world/level/SpawnData
+	FIELD b tag Ljt;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILjt;)V
+	METHOD <init> <init> (Ljt;)V
+	METHOD a save ()Ljt;
+	METHOD b getTag ()Ljt;

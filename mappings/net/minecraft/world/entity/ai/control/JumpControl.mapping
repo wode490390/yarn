@@ -1,0 +1,6 @@
+CLASS aos net/minecraft/world/entity/ai/control/JumpControl
+	FIELD a jump Z
+	FIELD b mob Lali;
+	METHOD <init> <init> (Lali;)V
+	METHOD a jump ()V
+	METHOD b tick ()V

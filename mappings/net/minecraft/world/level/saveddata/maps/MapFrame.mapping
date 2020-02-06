@@ -1,0 +1,12 @@
+CLASS csn net/minecraft/world/level/saveddata/maps/MapFrame
+	FIELD a pos Lfk;
+	FIELD b rotation I
+	FIELD c entityId I
+	METHOD <init> <init> (Lfk;II)V
+	METHOD a save ()Ljt;
+	METHOD a frameId (Lfk;)Ljava/lang/String;
+	METHOD a load (Ljt;)Lcsn;
+	METHOD b getPos ()Lfk;
+	METHOD c getRotation ()I
+	METHOD d getEntityId ()I
+	METHOD e getId ()Ljava/lang/String;

@@ -1,0 +1,29 @@
+CLASS qk net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket
+	FIELD a id I
+	FIELD b action Lqk$a;
+	FIELD c data I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laky;Lqk$a;)V
+	METHOD <init> <init> (Laky;Lqk$a;I)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getAction ()Lqk$a;
+	METHOD d getData ()I
+	CLASS a Action
+		FIELD a PRESS_SHIFT_KEY Lqk$a;
+		FIELD b RELEASE_SHIFT_KEY Lqk$a;
+		FIELD c STOP_SLEEPING Lqk$a;
+		FIELD d START_SPRINTING Lqk$a;
+		FIELD e STOP_SPRINTING Lqk$a;
+		FIELD f START_RIDING_JUMP Lqk$a;
+		FIELD g STOP_RIDING_JUMP Lqk$a;
+		FIELD h OPEN_INVENTORY Lqk$a;
+		FIELD i START_FALL_FLYING Lqk$a;
+		FIELD j $VALUES [Lqk$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lqk$a;
+		METHOD values values ()[Lqk$a;

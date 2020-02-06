@@ -1,0 +1,13 @@
+CLASS nc net/minecraft/network/protocol/game/ClientboundGameEventPacket
+	FIELD a EVENT_LANGUAGE_ID [Ljava/lang/String;
+	FIELD b event I
+	FIELD c param F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IF)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getEvent ()I
+	METHOD b write (Lkv;)V
+	METHOD c getParam ()F

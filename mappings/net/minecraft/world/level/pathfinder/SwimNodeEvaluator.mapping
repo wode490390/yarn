@@ -1,0 +1,11 @@
+CLASS csc net/minecraft/world/level/pathfinder/SwimNodeEvaluator
+	FIELD j allowBreaching Z
+	METHOD <init> <init> (Z)V
+	METHOD a getGoal (DDD)Lcsd;
+	METHOD a getNode (III)Lcrx;
+	METHOD a getBlockPathType (Lbjp;III)Lcrv;
+	METHOD a getBlockPathType (Lbjp;IIILali;IIIZZ)Lcrv;
+	METHOD a getNeighbors ([Lcrx;Lcrx;)I
+	METHOD b getStart ()Lcrx;
+	METHOD b getWaterNode (III)Lcrx;
+	METHOD c isFree (III)Lcrv;

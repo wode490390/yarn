@@ -1,0 +1,6 @@
+CLASS bhz net/minecraft/world/item/enchantment/ArrowInfiniteEnchantment
+	METHOD <init> <init> (Lbig$a;[Lald;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a checkCompatibility (Lbig;)Z
+	METHOD b getMaxCost (I)I

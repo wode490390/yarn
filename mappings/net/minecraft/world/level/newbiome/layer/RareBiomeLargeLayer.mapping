@@ -1,0 +1,10 @@
+CLASS cqw net/minecraft/world/level/newbiome/layer/RareBiomeLargeLayer
+	FIELD a INSTANCE Lcqw;
+	FIELD b JUNGLE I
+	FIELD c BAMBOO_JUNGLE I
+	FIELD d $VALUES [Lcqw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcqh;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcqw;
+	METHOD values values ()[Lcqw;

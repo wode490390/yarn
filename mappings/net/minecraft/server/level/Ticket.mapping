@@ -1,0 +1,15 @@
+CLASS xi net/minecraft/server/level/Ticket
+	FIELD a type Lxj;
+	FIELD b ticketLevel I
+	FIELD c key Ljava/lang/Object;
+	FIELD d createdTick J
+	METHOD <init> <init> (Lxj;ILjava/lang/Object;)V
+	METHOD a getType ()Lxj;
+	METHOD a setCreatedTick (J)V
+	METHOD a compareTo (Lxi;)I
+	METHOD b getTicketLevel ()I
+	METHOD b timedOut (J)Z
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

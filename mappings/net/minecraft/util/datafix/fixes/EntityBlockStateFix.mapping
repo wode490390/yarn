@@ -1,0 +1,22 @@
+CLASS adm net/minecraft/util/datafix/fixes/EntityBlockStateFix
+	FIELD a MAP Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$8 (Lcom/mojang/datafixers/Dynamic;)Ljava/lang/Integer;
+	METHOD a lambda$updateFallingBlock$10 (Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/util/Either;)Lcom/mojang/datafixers/util/Either;
+	METHOD a lambda$null$9 (Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/util/Unit;)Ljava/lang/Integer;
+	METHOD a lambda$updateBlockToBlockState$12 (Lcom/mojang/datafixers/Dynamic;Ljava/lang/String;Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a updateFallingBlock (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a updateBlockToBlockState (Lcom/mojang/datafixers/Typed;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/mojang/datafixers/Typed;
+	METHOD a updateEntity (Lcom/mojang/datafixers/Typed;Ljava/lang/String;Ljava/util/function/Function;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$makeRule$3 (Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$7 (Lcom/mojang/datafixers/util/Pair;)Ljava/lang/Integer;
+	METHOD a lambda$null$11 (Ljava/lang/Integer;)Ljava/lang/Integer;
+	METHOD a getBlockId (Ljava/lang/String;)I
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V
+	METHOD a lambda$makeRule$5 (Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Function;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD b lambda$null$4 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD b lambda$null$6 (Ljava/lang/Integer;)Ljava/lang/Integer;
+	METHOD c lambda$makeRule$2 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD d lambda$makeRule$1 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

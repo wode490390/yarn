@@ -1,0 +1,5 @@
+CLASS bco net/minecraft/world/item/AirItem
+	FIELD a block Lbpy;
+	METHOD <init> <init> (Lbpy;Lber$a;)V
+	METHOD a getDescriptionId ()Ljava/lang/String;
+	METHOD a appendHoverText (Lbew;Lbkf;Ljava/util/List;Lbgf;)V

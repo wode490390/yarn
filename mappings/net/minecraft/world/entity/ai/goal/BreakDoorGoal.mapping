@@ -1,0 +1,14 @@
+CLASS aoz net/minecraft/world/entity/ai/goal/BreakDoorGoal
+	FIELD a breakTime I
+	FIELD b lastBreakProgress I
+	FIELD c doorBreakTime I
+	FIELD g validDifficulties Ljava/util/function/Predicate;
+	METHOD <init> <init> (Lali;ILjava/util/function/Predicate;)V
+	METHOD <init> <init> (Lali;Ljava/util/function/Predicate;)V
+	METHOD a canUse ()Z
+	METHOD a isValidDifficulty (Lajp;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD f getDoorBreakTime ()I

@@ -1,0 +1,32 @@
+CLASS x net/minecraft/advancements/AdvancementRewards
+	FIELD a EMPTY Lx;
+	FIELD b experience I
+	FIELD c loot [Lsm;
+	FIELD d recipes [Lsm;
+	FIELD e function Lcn$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I[Lsm;[Lsm;Lcn$a;)V
+	METHOD a getRecipes ()[Lsm;
+	METHOD a lambda$grant$0 (Lnet/minecraft/server/MinecraftServer;Lxf;Lcn;)V
+	METHOD a grant (Lxf;)V
+	METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Builder
+		FIELD a experience I
+		FIELD b loot Ljava/util/List;
+		FIELD c recipes Ljava/util/List;
+		FIELD d function Lsm;
+		METHOD <init> <init> ()V
+		METHOD a build ()Lx;
+		METHOD a experience (I)Lx$a;
+		METHOD a loot (Lsm;)Lx$a;
+		METHOD b addExperience (I)Lx$a;
+		METHOD b addLootTable (Lsm;)Lx$a;
+		METHOD c recipe (Lsm;)Lx$a;
+		METHOD d addRecipe (Lsm;)Lx$a;
+		METHOD e function (Lsm;)Lx$a;
+		METHOD f runs (Lsm;)Lx$a;
+	CLASS b Deserializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lx;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;

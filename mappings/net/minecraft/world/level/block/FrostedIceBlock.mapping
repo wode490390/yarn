@@ -1,0 +1,10 @@
+CLASS bse net/minecraft/world/level/block/FrostedIceBlock
+	FIELD a AGE Lcah;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a fewerNeigboursThan (Lbjp;Lfk;I)Z
+	METHOD a getCloneItemStack (Lbjp;Lfk;Lbzh;)Lbew;
+	METHOD a neighborChanged (Lbzh;Lbkf;Lfk;Lbpy;Lfk;Z)V
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD e slightlyMelt (Lbzh;Lbkf;Lfk;)Z

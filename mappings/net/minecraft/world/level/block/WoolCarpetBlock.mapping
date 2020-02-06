@@ -1,0 +1,9 @@
+CLASS bwy net/minecraft/world/level/block/WoolCarpetBlock
+	FIELD a SHAPE Lcxo;
+	FIELD b color Lbds;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbds;Lbpy$c;)V
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD c getColor ()Lbds;

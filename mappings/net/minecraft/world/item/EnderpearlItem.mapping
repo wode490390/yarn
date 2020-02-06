@@ -1,0 +1,3 @@
+CLASS bee net/minecraft/world/item/EnderpearlItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;

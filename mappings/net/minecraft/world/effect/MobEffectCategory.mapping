@@ -1,0 +1,11 @@
+CLASS akr net/minecraft/world/effect/MobEffectCategory
+	FIELD a BENEFICIAL Lakr;
+	FIELD b HARMFUL Lakr;
+	FIELD c NEUTRAL Lakr;
+	FIELD d tooltipFormatting Lg;
+	FIELD e $VALUES [Lakr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILg;)V
+	METHOD a getTooltipFormatting ()Lg;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lakr;
+	METHOD values values ()[Lakr;

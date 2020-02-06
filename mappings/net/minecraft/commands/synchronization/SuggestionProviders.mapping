@@ -1,0 +1,26 @@
+CLASS ez net/minecraft/commands/synchronization/SuggestionProviders
+	FIELD a ASK_SERVER Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD b ALL_RECIPES Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD c AVAILABLE_SOUNDS Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD d AVAILABLE_BIOMES Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD e SUMMONABLE_ENTITIES Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD f PROVIDERS_BY_NAME Ljava/util/Map;
+	FIELD g DEFAULT_NAME Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$null$4 (Lalc;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$static$5 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a getName (Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lsm;
+	METHOD a getProvider (Lsm;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD a register (Lsm;Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD b lambda$static$3 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD b safelySwap (Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD c lambda$static$2 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD d lambda$static$1 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD e lambda$static$0 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	CLASS a Wrapper
+		FIELD a delegate Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+		FIELD b name Lsm;
+		METHOD <init> <init> (Lsm;Lcom/mojang/brigadier/suggestion/SuggestionProvider;)V
+		METHOD a access$000 (Lez$a;)Lsm;
+		METHOD getSuggestions getSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;

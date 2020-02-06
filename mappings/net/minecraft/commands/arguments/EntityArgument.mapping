@@ -1,0 +1,37 @@
+CLASS cy net/minecraft/commands/arguments/EntityArgument
+	FIELD a ERROR_NOT_SINGLE_ENTITY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_NOT_SINGLE_PLAYER Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c ERROR_ONLY_PLAYERS_ALLOWED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD d NO_ENTITIES_FOUND Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD e NO_PLAYERS_FOUND Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD f ERROR_SELECTORS_NOT_ALLOWED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD g EXAMPLES Ljava/util/Collection;
+	FIELD h single Z
+	FIELD i playersOnly Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ZZ)V
+	METHOD a entity ()Lcy;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lep;
+	METHOD a getEntity (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Laky;
+	METHOD a lambda$listSuggestions$0 (Lcs;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)V
+	METHOD a access$000 (Lcy;)Z
+	METHOD b entities ()Lcy;
+	METHOD b getEntities (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;
+	METHOD b access$100 (Lcy;)Z
+	METHOD c player ()Lcy;
+	METHOD c getOptionalEntities (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;
+	METHOD d players ()Lcy;
+	METHOD d getOptionalPlayers (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;
+	METHOD e getPlayer (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lxf;
+	METHOD f getPlayers (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
+		METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/ArgumentType;Lkv;)V
+		METHOD a serializeToJson (Lcy;Lcom/google/gson/JsonObject;)V
+		METHOD a serializeToNetwork (Lcy;Lkv;)V
+		METHOD a deserializeFromNetwork (Lkv;)Lcy;
+		METHOD b deserializeFromNetwork (Lkv;)Lcom/mojang/brigadier/arguments/ArgumentType;

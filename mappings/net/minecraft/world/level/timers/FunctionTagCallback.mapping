@@ -1,0 +1,12 @@
+CLASS cwi net/minecraft/world/level/timers/FunctionTagCallback
+	FIELD a tagId Lsm;
+	METHOD <init> <init> (Lsm;)V
+	METHOD a access$000 (Lcwi;)Lsm;
+	METHOD a handle (Ljava/lang/Object;Lcwl;J)V
+	METHOD a handle (Lnet/minecraft/server/MinecraftServer;Lcwl;J)V
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Ljt;)Lcwi;
+		METHOD a serialize (Ljt;Lcwi;)V
+		METHOD a serialize (Ljt;Lcwj;)V
+		METHOD b deserialize (Ljt;)Lcwj;

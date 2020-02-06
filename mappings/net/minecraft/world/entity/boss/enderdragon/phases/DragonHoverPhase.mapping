@@ -1,0 +1,9 @@
+CLASS avi net/minecraft/world/entity/boss/enderdragon/phases/DragonHoverPhase
+	FIELD b targetLocation Lcwu;
+	METHOD <init> <init> (Lavb;)V
+	METHOD a isSitting ()Z
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD f getFlySpeed ()F
+	METHOD g getFlyTargetLocation ()Lcwu;
+	METHOD i getPhase ()Lavr;

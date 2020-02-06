@@ -1,0 +1,4 @@
+CLASS cfr net/minecraft/world/level/levelgen/feature/NoOpFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lcia;)Z

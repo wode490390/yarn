@@ -1,0 +1,12 @@
+CLASS bsd net/minecraft/world/level/block/FlowerPotBlock
+	FIELD a SHAPE Lcxo;
+	FIELD b POTTED_BY_CONTENT Ljava/util/Map;
+	FIELD c content Lbpy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy;Lbpy$c;)V
+	METHOD a getCloneItemStack (Lbjp;Lfk;Lbzh;)Lbew;
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD c getContent ()Lbpy;
+	METHOD c getRenderShape (Lbzh;)Lbul;

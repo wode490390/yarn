@@ -1,0 +1,13 @@
+CLASS bwa net/minecraft/world/level/block/TallSeagrass
+	FIELD c HALF Lcaf;
+	FIELD d SHAPE Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a getCloneItemStack (Lbjp;Lfk;Lbzh;)Lbew;
+	METHOD a canPlaceLiquid (Lbjp;Lfk;Lbzh;Lcps;)Z
+	METHOD a placeLiquid (Lbkg;Lfk;Lbzh;Lcpt;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a_ mayPlaceOn (Lbzh;Lbjp;Lfk;)Z
+	METHOD b_ getFluidState (Lbzh;)Lcpt;

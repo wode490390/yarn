@@ -1,0 +1,9 @@
+CLASS my net/minecraft/network/protocol/game/ClientboundDisconnectPacket
+	FIELD a reason Llf;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Llf;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getReason ()Llf;
+	METHOD b write (Lkv;)V

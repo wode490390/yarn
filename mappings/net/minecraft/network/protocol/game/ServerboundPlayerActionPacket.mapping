@@ -1,0 +1,26 @@
+CLASS qj net/minecraft/network/protocol/game/ServerboundPlayerActionPacket
+	FIELD a pos Lfk;
+	FIELD b direction Lfp;
+	FIELD c action Lqj$a;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lqj$a;Lfk;Lfp;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getPos ()Lfk;
+	METHOD b write (Lkv;)V
+	METHOD c getDirection ()Lfp;
+	METHOD d getAction ()Lqj$a;
+	CLASS a Action
+		FIELD a START_DESTROY_BLOCK Lqj$a;
+		FIELD b ABORT_DESTROY_BLOCK Lqj$a;
+		FIELD c STOP_DESTROY_BLOCK Lqj$a;
+		FIELD d DROP_ALL_ITEMS Lqj$a;
+		FIELD e DROP_ITEM Lqj$a;
+		FIELD f RELEASE_USE_ITEM Lqj$a;
+		FIELD g SWAP_HELD_ITEMS Lqj$a;
+		FIELD h $VALUES [Lqj$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lqj$a;
+		METHOD values values ()[Lqj$a;

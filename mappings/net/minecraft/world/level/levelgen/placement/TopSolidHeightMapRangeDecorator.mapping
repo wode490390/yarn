@@ -1,0 +1,5 @@
+CLASS clw net/minecraft/world/level/levelgen/placement/TopSolidHeightMapRangeDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getPositions (Lbkg;Lcaz;Ljava/util/Random;Lchp;Lfk;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lbkg;Lcaz;Ljava/util/Random;Lcls;Lfk;)Ljava/util/stream/Stream;
+	METHOD a lambda$getPositions$0 (Ljava/util/Random;Lfk;Lbkg;I)Lfk;

@@ -1,0 +1,40 @@
+CLASS bay net/minecraft/world/inventory/AnvilMenu
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d resultSlots Lajl;
+	FIELD e repairSlots Lajl;
+	FIELD f cost Lbbk;
+	FIELD g access Lbbg;
+	FIELD h repairItemCountCost I
+	FIELD i itemName Ljava/lang/String;
+	FIELD j player Lays;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILayr;)V
+	METHOD <init> <init> (ILayr;Lbbg;)V
+	METHOD a slotsChanged (Lajl;)V
+	METHOD a stillValid (Lays;)Z
+	METHOD a lambda$stillValid$1 (Lays;Lbkf;Lfk;)Ljava/lang/Boolean;
+	METHOD a access$000 (Lbay;)Lbbk;
+	METHOD a setItemName (Ljava/lang/String;)V
+	METHOD b removed (Lays;)V
+	METHOD b quickMoveStack (Lays;I)Lbew;
+	METHOD b lambda$removed$0 (Lays;Lbkf;Lfk;)V
+	METHOD b access$100 (Lbay;)Lajl;
+	METHOD c access$200 (Lbay;)I
+	METHOD d calculateIncreasedRepairCost (I)I
+	METHOD e createResult ()V
+	METHOD f getCost ()I
+	CLASS 1 1
+		FIELD a this$0 Lbay;
+		METHOD <init> <init> (Lbay;I)V
+		METHOD e setChanged ()V
+	CLASS 2 2
+		FIELD a val$access Lbbg;
+		FIELD b this$0 Lbay;
+		METHOD <init> <init> (Lbay;Lajl;IIILbbg;)V
+		METHOD a mayPickup (Lays;)Z
+		METHOD a onTake (Lays;Lbew;)Lbew;
+		METHOD a lambda$onTake$0 (Lays;Lbkf;Lfk;)V
+		METHOD a mayPlace (Lbew;)Z
+	CLASS 3 3
+		FIELD a $SwitchMap$net$minecraft$world$item$enchantment$Enchantment$Rarity [I
+		METHOD <clinit> <clinit> ()V

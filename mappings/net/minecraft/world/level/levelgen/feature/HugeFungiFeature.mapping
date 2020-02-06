@@ -1,0 +1,10 @@
+CLASS cfb net/minecraft/world/level/levelgen/feature/HugeFungiFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lcfa;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z
+	METHOD a findOnNyliumPosition (Lbkg;Lfk;)Lfk$a;
+	METHOD a placeHatBlock (Lbkg;Ljava/util/Random;Lcfa;Lfk$a;FFF)V
+	METHOD a placeStem (Lbkg;Ljava/util/Random;Lcfa;Lfk$a;IZ)V
+	METHOD a placeHatDropBlock (Lbkg;Ljava/util/Random;Lfk;Lbzh;Z)V
+	METHOD a tryPlaceWeepingVines (Lfk;Lbkg;Ljava/util/Random;)V
+	METHOD b placeHat (Lbkg;Ljava/util/Random;Lcfa;Lfk$a;IZ)V

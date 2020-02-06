@@ -1,0 +1,7 @@
+CLASS xu net/minecraft/server/network/MemoryServerHandshakePacketListenerImpl
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b connection Lkt;
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lkt;)V
+	METHOD a getConnection ()Lkt;
+	METHOD a onDisconnect (Llf;)V
+	METHOD a handleIntention (Lre;)V

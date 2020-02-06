@@ -1,0 +1,12 @@
+CLASS bpv net/minecraft/world/level/block/BeetrootBlock
+	FIELD a AGE Lcah;
+	FIELD c SHAPE_BY_AGE [Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getBonemealAgeIncrease (Lbkf;)I
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD c getAgeProperty ()Lcah;
+	METHOD d getMaxAge ()I
+	METHOD e getBaseSeedId ()Lbke;

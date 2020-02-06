@@ -1,0 +1,17 @@
+CLASS azg net/minecraft/world/entity/projectile/LlamaSpit
+	FIELD b owner Laup;
+	FIELD c ownerTag Ljt;
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDDDDD)V
+	METHOD <init> <init> (Lbkf;Laup;)V
+	METHOD L getAddEntityPacket ()Llt;
+	METHOD a lambda$tick$0 (Laky;)Z
+	METHOD a shootFromRotation (Laky;FFFFF)V
+	METHOD a onHit (Lcwr;)V
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD c shoot (DDDFF)V
+	METHOD f restoreOwnerFromSave ()V
+	METHOD h tick ()V
+	METHOD j lerpMotion (DDD)V
+	METHOD w_ defineSynchedData ()V

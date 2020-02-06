@@ -1,0 +1,10 @@
+CLASS crb net/minecraft/world/level/newbiome/layer/RiverLayer
+	FIELD a INSTANCE Lcrb;
+	FIELD b RIVER I
+	FIELD c $VALUES [Lcrb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcqh;IIIII)I
+	METHOD c riverFilter (I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcrb;
+	METHOD values values ()[Lcrb;

@@ -1,0 +1,3 @@
+CLASS ako net/minecraft/world/effect/HealthBoostMobEffect
+	METHOD <init> <init> (Lakr;I)V
+	METHOD a removeAttributeModifiers (Lalh;Lamc;I)V

@@ -1,0 +1,5 @@
+CLASS chk net/minecraft/world/level/levelgen/feature/configurations/BuriedTreasureConfiguration
+	FIELD a probability F
+	METHOD <init> <init> (F)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lchk;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

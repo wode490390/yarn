@@ -1,0 +1,3 @@
+CLASS bdf net/minecraft/world/item/BowlFoodItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a finishUsingItem (Lbew;Lbkf;Lalh;)Lbew;

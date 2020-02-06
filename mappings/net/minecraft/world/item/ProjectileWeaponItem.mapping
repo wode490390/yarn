@@ -1,0 +1,19 @@
+CLASS bfi net/minecraft/world/item/ProjectileWeaponItem
+	FIELD a ARROW_ONLY Ljava/util/function/Predicate;
+	FIELD b ARROW_OR_FIREWORK Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a getHeldProjectile (Lalh;Ljava/util/function/Predicate;)Lbew;
+	METHOD b getAllSupportedProjectiles ()Ljava/util/function/Predicate;
+	METHOD c getEnchantmentValue ()I
+	METHOD d getSupportedHeldProjectiles ()Ljava/util/function/Predicate;
+	METHOD e lambda$static$1 (Lbew;)Z
+	METHOD j lambda$static$0 (Lbew;)Z
+	CLASS a Type
+		FIELD a BOW Lbfi$a;
+		FIELD b CROSSBOW Lbfi$a;
+		FIELD c $VALUES [Lbfi$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbfi$a;
+		METHOD values values ()[Lbfi$a;

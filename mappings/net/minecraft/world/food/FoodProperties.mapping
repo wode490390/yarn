@@ -1,0 +1,31 @@
+CLASS bat net/minecraft/world/food/FoodProperties
+	FIELD a nutrition I
+	FIELD b saturationModifier F
+	FIELD c isMeat Z
+	FIELD d canAlwaysEat Z
+	FIELD e fastFood Z
+	FIELD f effects Ljava/util/List;
+	METHOD <init> <init> (IFZZZLjava/util/List;)V
+	METHOD <init> <init> (IFZZZLjava/util/List;Lbat$1;)V
+	METHOD a getNutrition ()I
+	METHOD b getSaturationModifier ()F
+	METHOD c isMeat ()Z
+	METHOD d canAlwaysEat ()Z
+	METHOD e isFastFood ()Z
+	METHOD f getEffects ()Ljava/util/List;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a nutrition I
+		FIELD b saturationModifier F
+		FIELD c isMeat Z
+		FIELD d canAlwaysEat Z
+		FIELD e fastFood Z
+		FIELD f effects Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a meat ()Lbat$a;
+		METHOD a saturationMod (F)Lbat$a;
+		METHOD a nutrition (I)Lbat$a;
+		METHOD a effect (Laks;F)Lbat$a;
+		METHOD b alwaysEat ()Lbat$a;
+		METHOD c fast ()Lbat$a;
+		METHOD d build ()Lbat;

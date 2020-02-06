@@ -1,14 +1,19 @@
-CLASS net/minecraft/class_1267 net/minecraft/world/Difficulty
-	FIELD field_5800 BY_NAME [Lnet/minecraft/class_1267;
-	FIELD field_5803 id I
-	FIELD field_5806 name Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
-		ARG 3 id
-		ARG 4 name
-	METHOD method_16691 byName (Ljava/lang/String;)Lnet/minecraft/class_1267;
-		ARG 0 name
-	METHOD method_5460 getName ()Ljava/lang/String;
-	METHOD method_5461 getId ()I
-	METHOD method_5462 byOrdinal (I)Lnet/minecraft/class_1267;
-		ARG 0 ordinal
-	METHOD method_5463 getTranslatableName ()Lnet/minecraft/class_2561;
+CLASS ajp net/minecraft/world/Difficulty
+	FIELD a PEACEFUL Lajp;
+	FIELD b EASY Lajp;
+	FIELD c NORMAL Lajp;
+	FIELD d HARD Lajp;
+	FIELD e BY_ID [Lajp;
+	FIELD f id I
+	FIELD g key Ljava/lang/String;
+	FIELD h $VALUES [Lajp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+	METHOD a getId ()I
+	METHOD a byId (I)Lajp;
+	METHOD a byName (Ljava/lang/String;)Lajp;
+	METHOD b getDisplayName ()Llf;
+	METHOD b lambda$static$0 (I)[Lajp;
+	METHOD c getKey ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lajp;
+	METHOD values values ()[Lajp;

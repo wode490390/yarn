@@ -1,0 +1,14 @@
+CLASS bqh net/minecraft/world/level/block/CakeBlock
+	FIELD a BITES Lcah;
+	FIELD b SHAPE_BY_BITE [Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a eat (Lbkg;Lfk;Lbzh;Lays;)Lajs;
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a getAnalogOutputSignal (Lbzh;Lbkf;Lfk;)I
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b hasAnalogOutputSignal (Lbzh;)Z

@@ -1,0 +1,14 @@
+CLASS cao net/minecraft/world/level/block/state/properties/StairsShape
+	FIELD a STRAIGHT Lcao;
+	FIELD b INNER_LEFT Lcao;
+	FIELD c INNER_RIGHT Lcao;
+	FIELD d OUTER_LEFT Lcao;
+	FIELD e OUTER_RIGHT Lcao;
+	FIELD f name Ljava/lang/String;
+	FIELD g $VALUES [Lcao;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcao;
+	METHOD values values ()[Lcao;

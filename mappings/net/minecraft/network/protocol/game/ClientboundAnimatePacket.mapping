@@ -1,0 +1,11 @@
+CLASS md net/minecraft/network/protocol/game/ClientboundAnimatePacket
+	FIELD a id I
+	FIELD b action I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laky;I)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getAction ()I

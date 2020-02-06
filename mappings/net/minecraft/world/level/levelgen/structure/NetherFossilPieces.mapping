@@ -1,0 +1,14 @@
+CLASS cmq net/minecraft/world/level/levelgen/structure/NetherFossilPieces
+	FIELD a FOSSILS [Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a addPieces (Lcnv;Ljava/util/List;Ljava/util/Random;Lfk;)V
+	CLASS a NetherFossilPiece
+		FIELD d templateLocation Lsm;
+		FIELD e rotation Lbup;
+		METHOD <init> <init> (Lcnv;Ljt;)V
+		METHOD <init> <init> (Lcnv;Lsm;Lfk;Lbup;)V
+		METHOD a postProcess (Lbkg;Lcaz;Ljava/util/Random;Lcmg;Lbjq;)Z
+		METHOD a loadTemplate (Lcnv;)V
+		METHOD a handleDataMarker (Ljava/lang/String;Lfk;Lbkg;Ljava/util/Random;Lcmg;)V
+		METHOD a addAdditionalSaveData (Ljt;)V

@@ -1,0 +1,8 @@
+CLASS cqz net/minecraft/world/level/newbiome/layer/RemoveTooMuchOceanLayer
+	FIELD a INSTANCE Lcqz;
+	FIELD b $VALUES [Lcqz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcqh;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcqz;
+	METHOD values values ()[Lcqz;

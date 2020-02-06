@@ -1,0 +1,7 @@
+CLASS afy net/minecraft/util/datafix/fixes/RenameBiomesFix
+	FIELD b biomes Ljava/util/Map;
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;ZLjava/util/Map;)V
+	METHOD a lambda$makeRule$2 (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;
+	METHOD a lambda$null$1 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$0 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

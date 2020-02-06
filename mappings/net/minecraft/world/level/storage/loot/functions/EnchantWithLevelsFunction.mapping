@@ -1,0 +1,25 @@
+CLASS cul net/minecraft/world/level/storage/loot/functions/EnchantWithLevelsFunction
+	FIELD a levels Lctm;
+	FIELD c treasure Z
+	METHOD <init> <init> ([Lcvv;Lctm;Z)V
+	METHOD <init> <init> ([Lcvv;Lctm;ZLcul$1;)V
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a enchantWithLevels (Lctm;)Lcul$a;
+	METHOD a access$100 (Lcul;)Lctm;
+	METHOD b access$200 (Lcul;)Z
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a levels Lctm;
+		FIELD b treasure Z
+		METHOD <init> <init> (Lctm;)V
+		METHOD a getThis ()Lcul$a;
+		METHOD b build ()Lcur;
+		METHOD d getThis ()Lcuq$a;
+		METHOD e allowTreasure ()Lcul$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcul;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcul;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

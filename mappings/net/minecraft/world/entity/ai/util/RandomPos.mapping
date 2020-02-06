@@ -1,0 +1,16 @@
+CLASS asu net/minecraft/world/entity/ai/util/RandomPos
+	METHOD <init> <init> ()V
+	METHOD a getPos (Lalo;II)Lcwu;
+	METHOD a getAirPos (Lalo;IIILcwu;D)Lcwu;
+	METHOD a generateRandomPos (Lalo;IIILcwu;ZDLjava/util/function/ToDoubleFunction;ZIIZ)Lcwu;
+	METHOD a getPosTowards (Lalo;IILcwu;)Lcwu;
+	METHOD a getPosTowards (Lalo;IILcwu;D)Lcwu;
+	METHOD a getAboveLandPos (Lalo;IILcwu;FII)Lcwu;
+	METHOD a getLandPos (Lalo;IILjava/util/function/ToDoubleFunction;)Lcwu;
+	METHOD a lambda$generateRandomPos$0 (Lalo;Lfk;)Z
+	METHOD a moveUpToAboveSolid (Lfk;IILjava/util/function/Predicate;)Lfk;
+	METHOD a getRandomDelta (Ljava/util/Random;IIILcwu;D)Lfk;
+	METHOD b getLandPos (Lalo;II)Lcwu;
+	METHOD b getAirPosTowards (Lalo;IIILcwu;D)Lcwu;
+	METHOD b getPosAvoid (Lalo;IILcwu;)Lcwu;
+	METHOD c getLandPosAvoid (Lalo;IILcwu;)Lcwu;

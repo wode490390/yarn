@@ -1,0 +1,7 @@
+CLASS gi net/minecraft/core/dispenser/AbstractProjectileDispenseBehavior
+	METHOD <init> <init> ()V
+	METHOD a getUncertainty ()F
+	METHOD a getProjectile (Lbkf;Lfz;Lbew;)Lazh;
+	METHOD a playSound (Lfl;)V
+	METHOD a execute (Lfl;Lbew;)Lbew;
+	METHOD b getPower ()F

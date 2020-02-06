@@ -1,0 +1,7 @@
+CLASS bvf net/minecraft/world/level/block/SnowyDirtBlock
+	FIELD a SNOWY Lbzz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V

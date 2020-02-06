@@ -1,0 +1,16 @@
+CLASS bhb net/minecraft/world/item/crafting/FireworkStarRecipe
+	FIELD a SHAPE_INGREDIENT Lbhc;
+	FIELD b TRAIL_INGREDIENT Lbhc;
+	FIELD c FLICKER_INGREDIENT Lbhc;
+	FIELD d SHAPE_BY_ITEM Ljava/util/Map;
+	FIELD e GUNPOWDER_INGREDIENT Lbhc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lsm;)V
+	METHOD W_ getSerializer ()Lbhh;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lajl;)Lbew;
+	METHOD a matches (Lajl;Lbkf;)Z
+	METHOD a assemble (Lbbi;)Lbew;
+	METHOD a matches (Lbbi;Lbkf;)Z
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V
+	METHOD c getResultItem ()Lbew;

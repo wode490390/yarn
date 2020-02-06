@@ -1,0 +1,4 @@
+CLASS bef net/minecraft/world/item/ExperienceBottleItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;
+	METHOD d_ isFoil (Lbew;)Z

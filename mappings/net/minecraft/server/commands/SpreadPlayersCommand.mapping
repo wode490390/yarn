@@ -1,0 +1,33 @@
+CLASS vh net/minecraft/server/commands/SpreadPlayersCommand
+	FIELD a ERROR_FAILED_TO_SPREAD_TEAMS Lcom/mojang/brigadier/exceptions/Dynamic4CommandExceptionType;
+	FIELD b ERROR_FAILED_TO_SPREAD_ENTITIES Lcom/mojang/brigadier/exceptions/Dynamic4CommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$2 (Lcq;)Z
+	METHOD a spreadPlayers (Lcq;Lcwt;FFZLjava/util/Collection;)I
+	METHOD a spreadPositions (Lcwt;DLxe;Ljava/util/Random;DDDD[Lvh$a;Z)V
+	METHOD a lambda$static$1 (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a getNumberOfTeams (Ljava/util/Collection;)I
+	METHOD a setPlayerPositions (Ljava/util/Collection;Lxe;[Lvh$a;Z)D
+	METHOD a createInitialPositions (Ljava/util/Random;IDDDD)[Lvh$a;
+	METHOD b lambda$static$0 (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	CLASS a Position
+		FIELD a x D
+		FIELD b z D
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (DD)V
+		METHOD a normalize ()V
+		METHOD a set (DD)V
+		METHOD a clamp (DDDD)Z
+		METHOD a getSpawnY (Lbjp;)I
+		METHOD a randomize (Ljava/util/Random;DDDD)V
+		METHOD a dist (Lvh$a;)D
+		METHOD a access$002 (Lvh$a;D)D
+		METHOD b getLength ()F
+		METHOD b isSafe (Lbjp;)Z
+		METHOD b moveAway (Lvh$a;)V
+		METHOD b access$102 (Lvh$a;D)D
+		METHOD c access$000 (Lvh$a;)D
+		METHOD d access$100 (Lvh$a;)D

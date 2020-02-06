@@ -1,0 +1,30 @@
+CLASS cui net/minecraft/world/level/storage/loot/functions/CopyNameFunction
+	FIELD a source Lcui$a;
+	METHOD <init> <init> ([Lcvv;Lcui$a;)V
+	METHOD <init> <init> ([Lcvv;Lcui$a;Lcui$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a copyName (Lcui$a;)Lcuq$a;
+	METHOD a lambda$copyName$0 (Lcui$a;[Lcvv;)Lcur;
+	METHOD a access$000 (Lcui;)Lcui$a;
+	CLASS 1 1
+	CLASS a NameSource
+		FIELD a THIS Lcui$a;
+		FIELD b KILLER Lcui$a;
+		FIELD c KILLER_PLAYER Lcui$a;
+		FIELD d BLOCK_ENTITY Lcui$a;
+		FIELD e name Ljava/lang/String;
+		FIELD f param Lcvg;
+		FIELD g $VALUES [Lcui$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lcvg;)V
+		METHOD a getByName (Ljava/lang/String;)Lcui$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcui$a;
+		METHOD values values ()[Lcui$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcui;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcui;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

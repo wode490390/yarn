@@ -1,0 +1,7 @@
+CLASS aqt net/minecraft/world/entity/ai/goal/SitWhenOrderedToGoal
+	FIELD a mob Lalw;
+	METHOD <init> <init> (Lalw;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

@@ -1,0 +1,24 @@
+CLASS aot net/minecraft/world/entity/ai/control/LookControl
+	FIELD a mob Lali;
+	FIELD b yMaxRotSpeed F
+	FIELD c xMaxRotAngle F
+	FIELD d hasWanted Z
+	FIELD e wantedX D
+	FIELD f wantedY D
+	FIELD g wantedZ D
+	METHOD <init> <init> (Lali;)V
+	METHOD a tick ()V
+	METHOD a setLookAt (DDD)V
+	METHOD a setLookAt (DDDFF)V
+	METHOD a rotateTowards (FFF)F
+	METHOD a setLookAt (Laky;)V
+	METHOD a setLookAt (Laky;FF)V
+	METHOD a setLookAt (Lcwu;)V
+	METHOD b resetXRotOnTick ()Z
+	METHOD b getWantedY (Laky;)D
+	METHOD c isHasWanted ()Z
+	METHOD d getWantedX ()D
+	METHOD e getWantedY ()D
+	METHOD f getWantedZ ()D
+	METHOD g getXRotD ()F
+	METHOD h getYRotD ()F

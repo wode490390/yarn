@@ -1,0 +1,2 @@
+CLASS ais net/minecraft/util/profiling/ProfileCollector
+	METHOD d getResults ()Lait;

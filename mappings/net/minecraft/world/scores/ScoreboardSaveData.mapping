@@ -1,0 +1,17 @@
+CLASS cxv net/minecraft/world/scores/ScoreboardSaveData
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b scoreboard Lcxu;
+	FIELD c delayLoad Ljt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a saveTeams ()Ljz;
+	METHOD a loadTeamPlayers (Lcxs;Ljz;)V
+	METHOD a setScoreboard (Lcxu;)V
+	METHOD a load (Ljt;)V
+	METHOD a lambda$loadObjectives$0 (Ljt;Lcxx;)V
+	METHOD a loadTeams (Ljz;)V
+	METHOD b save (Ljt;)Ljt;
+	METHOD b loadObjectives (Ljz;)V
+	METHOD c loadDisplaySlots (Ljt;)V
+	METHOD d saveDisplaySlots (Ljt;)V
+	METHOD e saveObjectives ()Ljz;

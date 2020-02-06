@@ -1,0 +1,18 @@
+CLASS ap net/minecraft/advancements/critereon/ConsumeItemTrigger
+	FIELD a ID Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lsm;
+	METHOD a lambda$trigger$0 (Lbew;Lap$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a trigger (Lxf;Lbew;)V
+	METHOD b access$000 ()Lsm;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lap$a;
+	CLASS a TriggerInstance
+		FIELD a item Lbj;
+		METHOD <init> <init> (Lbj;)V
+		METHOD a matches (Lbew;)Z
+		METHOD a usedItem (Lbj;)Lap$a;
+		METHOD a usedItem (Lbke;)Lap$a;
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD c usedItem ()Lap$a;

@@ -1,0 +1,20 @@
+CLASS apx net/minecraft/world/entity/ai/goal/MeleeAttackGoal
+	FIELD a mob Lalo;
+	FIELD b attackTime I
+	FIELD c attackInterval I
+	FIELD d speedModifier D
+	FIELD e trackTarget Z
+	FIELD f path Lcrz;
+	FIELD g timeToRecalcPath I
+	FIELD h pathedTargetX D
+	FIELD i pathedTargetY D
+	FIELD j pathedTargetZ D
+	FIELD k lastUpdate J
+	METHOD <init> <init> (Lalo;DZ)V
+	METHOD a canUse ()Z
+	METHOD a getAttackReachSqr (Lalh;)D
+	METHOD a checkAndPerformAttack (Lalh;D)V
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

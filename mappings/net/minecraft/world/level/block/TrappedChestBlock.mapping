@@ -1,0 +1,8 @@
+CLASS bwe net/minecraft/world/level/block/TrappedChestBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a newBlockEntity (Lbjp;)Lbxj;
+	METHOD a getSignal (Lbzh;Lbjp;Lfk;Lfp;)I
+	METHOD a_ isSignalSource (Lbzh;)Z
+	METHOD b getDirectSignal (Lbzh;Lbjp;Lfk;Lfp;)I
+	METHOD c getOpenChestStat ()Laap;
+	METHOD e lambda$new$0 ()Lbxk;

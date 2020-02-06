@@ -1,0 +1,5 @@
+CLASS bcd net/minecraft/world/inventory/RecipeHolder
+	METHOD a setRecipeUsed (Lbhf;)V
+	METHOD a setRecipeUsed (Lbkf;Lxf;Lbhf;)Z
+	METHOD aa_ getRecipeUsed ()Lbhf;
+	METHOD b awardAndReset (Lays;)V

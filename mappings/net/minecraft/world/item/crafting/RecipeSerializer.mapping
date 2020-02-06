@@ -1,0 +1,26 @@
+CLASS bhh net/minecraft/world/item/crafting/RecipeSerializer
+	FIELD a SHAPED_RECIPE Lbhh;
+	FIELD b SHAPELESS_RECIPE Lbhh;
+	FIELD c ARMOR_DYE Lbhp;
+	FIELD d BOOK_CLONING Lbhp;
+	FIELD e MAP_CLONING Lbhp;
+	FIELD f MAP_EXTENDING Lbhp;
+	FIELD g FIREWORK_ROCKET Lbhp;
+	FIELD h FIREWORK_STAR Lbhp;
+	FIELD i FIREWORK_STAR_FADE Lbhp;
+	FIELD j TIPPED_ARROW Lbhp;
+	FIELD k BANNER_DUPLICATE Lbhp;
+	FIELD l SHIELD_DECORATION Lbhp;
+	FIELD m SHULKER_BOX_COLORING Lbhp;
+	FIELD n SUSPICIOUS_STEW Lbhp;
+	FIELD o REPAIR_ITEM Lbhp;
+	FIELD p SMELTING_RECIPE Lbho;
+	FIELD q BLASTING_RECIPE Lbho;
+	FIELD r SMOKING_RECIPE Lbho;
+	FIELD s CAMPFIRE_COOKING_RECIPE Lbho;
+	FIELD t STONECUTTER Lbhh;
+	METHOD <clinit> <clinit> ()V
+	METHOD a register (Ljava/lang/String;Lbhh;)Lbhh;
+	METHOD a toNetwork (Lkv;Lbhf;)V
+	METHOD a fromJson (Lsm;Lcom/google/gson/JsonObject;)Lbhf;
+	METHOD a fromNetwork (Lsm;Lkv;)Lbhf;

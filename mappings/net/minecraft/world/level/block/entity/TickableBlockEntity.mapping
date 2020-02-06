@@ -1,0 +1,2 @@
+CLASS bym net/minecraft/world/level/block/entity/TickableBlockEntity
+	METHOD Z_ tick ()V

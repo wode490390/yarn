@@ -1,0 +1,11 @@
+CLASS ait net/minecraft/util/profiling/ProfileResults
+	METHOD a getStartTimeNano ()J
+	METHOD a saveResults (Ljava/io/File;)Z
+	METHOD a getTimes (Ljava/lang/String;)Ljava/util/List;
+	METHOD b getStartTimeTicks ()I
+	METHOD b demanglePath (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c getEndTimeNano ()J
+	METHOD d getEndTimeTicks ()I
+	METHOD e getProfilerResults ()Ljava/lang/String;
+	METHOD f getTickDuration ()I
+	METHOD g getNanoDuration ()J

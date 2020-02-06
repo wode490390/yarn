@@ -1,0 +1,4 @@
+CLASS bty net/minecraft/world/level/block/PlayerWallHeadBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a setPlacedBy (Lbkf;Lfk;Lbzh;Lalh;Lbew;)V
+	METHOD a getDrops (Lbzh;Lctg$a;)Ljava/util/List;

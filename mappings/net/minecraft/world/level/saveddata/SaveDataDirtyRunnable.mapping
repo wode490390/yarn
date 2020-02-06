@@ -1,0 +1,4 @@
+CLASS csj net/minecraft/world/level/saveddata/SaveDataDirtyRunnable
+	FIELD a savedData Lcsk;
+	METHOD <init> <init> (Lcsk;)V
+	METHOD run run ()V

@@ -1,0 +1,15 @@
+CLASS dj net/minecraft/commands/arguments/ParticleArgument
+	FIELD a ERROR_UNKNOWN_PARTICLE Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD b EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a particle ()Ldj;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lgt;
+	METHOD a readParticle (Lcom/mojang/brigadier/StringReader;Lgu;)Lgt;
+	METHOD a getParticle (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lgt;
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$readParticle$1 (Lsm;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+	METHOD b readParticle (Lcom/mojang/brigadier/StringReader;)Lgt;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

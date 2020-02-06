@@ -1,0 +1,16 @@
+CLASS to net/minecraft/server/commands/DebugCommand
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b ERROR_NOT_RUNNING Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c ERROR_ALREADY_RUNNING Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD d ZIP_FS_PROVIDER Ljava/nio/file/spi/FileSystemProvider;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a start (Lcq;)I
+	METHOD a lambda$static$0 (Ljava/nio/file/spi/FileSystemProvider;)Z
+	METHOD b lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b stop (Lcq;)I
+	METHOD c lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c report (Lcq;)I
+	METHOD d lambda$register$1 (Lcq;)Z

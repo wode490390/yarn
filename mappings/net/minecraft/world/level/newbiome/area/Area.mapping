@@ -1,0 +1,2 @@
+CLASS cqc net/minecraft/world/level/newbiome/area/Area
+	METHOD a get (II)I

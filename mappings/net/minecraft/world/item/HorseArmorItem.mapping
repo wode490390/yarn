@@ -1,0 +1,6 @@
+CLASS beq net/minecraft/world/item/HorseArmorItem
+	FIELD a protection I
+	FIELD b texture Ljava/lang/String;
+	METHOD <init> <init> (ILjava/lang/String;Lber$a;)V
+	METHOD f getTexture ()Lsm;
+	METHOD g getProtection ()I

@@ -1,0 +1,3 @@
+CLASS bnu net/minecraft/world/level/biome/SmallEndIslandsBiome
+	METHOD <init> <init> ()V
+	METHOD c getSkyColor ()I

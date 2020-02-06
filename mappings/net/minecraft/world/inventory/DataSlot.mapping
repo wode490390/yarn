@@ -1,0 +1,26 @@
+CLASS bbk net/minecraft/world/inventory/DataSlot
+	FIELD a prevValue I
+	METHOD <init> <init> ()V
+	METHOD a standalone ()Lbbk;
+	METHOD a set (I)V
+	METHOD a forContainer (Lbbf;I)Lbbk;
+	METHOD a shared ([II)Lbbk;
+	METHOD b get ()I
+	METHOD c checkAndClearUpdateFlag ()Z
+	CLASS 1 1
+		FIELD a val$container Lbbf;
+		FIELD b val$dataId I
+		METHOD <init> <init> (Lbbf;I)V
+		METHOD a set (I)V
+		METHOD b get ()I
+	CLASS 2 2
+		FIELD a val$storage [I
+		FIELD b val$index I
+		METHOD <init> <init> ([II)V
+		METHOD a set (I)V
+		METHOD b get ()I
+	CLASS 3 3
+		FIELD a value I
+		METHOD <init> <init> ()V
+		METHOD a set (I)V
+		METHOD b get ()I

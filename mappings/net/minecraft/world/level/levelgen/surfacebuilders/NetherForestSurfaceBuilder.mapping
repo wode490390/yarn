@@ -1,0 +1,9 @@
+CLASS cok net/minecraft/world/level/levelgen/surfacebuilders/NetherForestSurfaceBuilder
+	FIELD a seed J
+	FIELD b AIR Lbzh;
+	FIELD c decorationNoise Lcox;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a initNoise (J)V
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJLcor;)V
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJLcos;)V

@@ -1,0 +1,11 @@
+CLASS alg net/minecraft/world/entity/HumanoidArm
+	FIELD a LEFT Lalg;
+	FIELD b RIGHT Lalg;
+	FIELD c name Llf;
+	FIELD d $VALUES [Lalg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILlf;)V
+	METHOD a getOpposite ()Lalg;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lalg;
+	METHOD values values ()[Lalg;

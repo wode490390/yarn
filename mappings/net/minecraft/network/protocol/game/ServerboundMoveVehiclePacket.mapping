@@ -1,0 +1,17 @@
+CLASS qe net/minecraft/network/protocol/game/ServerboundMoveVehiclePacket
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d yRot F
+	FIELD e xRot F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laky;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getX ()D
+	METHOD b write (Lkv;)V
+	METHOD c getY ()D
+	METHOD d getZ ()D
+	METHOD e getYRot ()F
+	METHOD f getXRot ()F

@@ -1,0 +1,4 @@
+CLASS bon net/minecraft/world/level/biome/TheEndBiomeSourceSettings
+	FIELD a seed J
+	METHOD <init> <init> (Lcsv;)V
+	METHOD a getSeed ()J

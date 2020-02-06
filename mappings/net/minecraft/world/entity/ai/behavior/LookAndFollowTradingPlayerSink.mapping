@@ -1,0 +1,15 @@
+CLASS ana net/minecraft/world/entity/ai/behavior/LookAndFollowTradingPlayerSink
+	FIELD a speed F
+	METHOD <init> <init> (F)V
+	METHOD a timedOut (J)Z
+	METHOD a followPlayer (Layf;)V
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD a checkExtraStartConditions (Lxe;Layf;)Z
+	METHOD a canStillUse (Lxe;Layf;J)Z
+	METHOD b start (Lxe;Layf;J)V
+	METHOD c stop (Lxe;Layf;J)V
+	METHOD d tick (Lxe;Lalh;J)V
+	METHOD d tick (Lxe;Layf;J)V
+	METHOD f stop (Lxe;Lalh;J)V
+	METHOD g canStillUse (Lxe;Lalh;J)Z

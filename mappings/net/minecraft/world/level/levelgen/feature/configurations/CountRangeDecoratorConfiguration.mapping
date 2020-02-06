@@ -1,0 +1,8 @@
+CLASS chn net/minecraft/world/level/levelgen/feature/configurations/CountRangeDecoratorConfiguration
+	FIELD a count I
+	FIELD b bottomOffset I
+	FIELD c topOffset I
+	FIELD d maximum I
+	METHOD <init> <init> (IIII)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lchn;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,6 @@
+CLASS ctn net/minecraft/world/level/storage/loot/RandomIntGenerators
+	FIELD a GENERATORS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a deserialize (Lcom/google/gson/JsonElement;Lcom/google/gson/JsonDeserializationContext;)Lctm;
+	METHOD a serialize (Lctm;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

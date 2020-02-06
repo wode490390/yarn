@@ -1,0 +1,4 @@
+CLASS buy net/minecraft/world/level/block/SimpleWaterloggedBlock
+	METHOD a canPlaceLiquid (Lbjp;Lfk;Lbzh;Lcps;)Z
+	METHOD a placeLiquid (Lbkg;Lfk;Lbzh;Lcpt;)Z
+	METHOD b takeLiquid (Lbkg;Lfk;Lbzh;)Lcps;

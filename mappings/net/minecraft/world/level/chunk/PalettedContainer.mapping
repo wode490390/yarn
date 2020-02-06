@@ -1,0 +1,37 @@
+CLASS cbr net/minecraft/world/level/chunk/PalettedContainer
+	FIELD a storage Labe;
+	FIELD b globalPalette Lcbp;
+	FIELD c dummyPaletteResize Lcbq;
+	FIELD d registry Lft;
+	FIELD e reader Ljava/util/function/Function;
+	FIELD f writer Ljava/util/function/Function;
+	FIELD g defaultValue Ljava/lang/Object;
+	FIELD h palette Lcbp;
+	FIELD i bits I
+	FIELD j lock Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD <init> <init> (Lcbp;Lft;Ljava/util/function/Function;Ljava/util/function/Function;Ljava/lang/Object;)V
+	METHOD a acquire ()V
+	METHOD a get (I)Ljava/lang/Object;
+	METHOD a get (III)Ljava/lang/Object;
+	METHOD a getAndSet (IIILjava/lang/Object;)Ljava/lang/Object;
+	METHOD a getAndSet (ILjava/lang/Object;)Ljava/lang/Object;
+	METHOD a count (Lcbr$a;)V
+	METHOD a lambda$count$3 (Lcbr$a;Lit/unimi/dsi/fastutil/ints/Int2IntMap$Entry;)V
+	METHOD a lambda$count$2 (Lit/unimi/dsi/fastutil/ints/Int2IntMap;I)V
+	METHOD a maybeHas (Ljava/lang/Object;)Z
+	METHOD a lambda$acquire$1 (Ljava/lang/Thread;)Ljava/lang/String;
+	METHOD a write (Ljt;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a read (Ljz;[J)V
+	METHOD a read (Lkv;)V
+	METHOD b release ()V
+	METHOD b setBits (I)V
+	METHOD b getIndex (III)I
+	METHOD b getAndSetUnchecked (IIILjava/lang/Object;)Ljava/lang/Object;
+	METHOD b set (ILjava/lang/Object;)V
+	METHOD b write (Lkv;)V
+	METHOD c getSerializedSize ()I
+	METHOD c set (IIILjava/lang/Object;)V
+	METHOD c lambda$new$0 (ILjava/lang/Object;)I
+	METHOD onResize onResize (ILjava/lang/Object;)I
+	CLASS a CountConsumer
+		METHOD accept accept (Ljava/lang/Object;I)V

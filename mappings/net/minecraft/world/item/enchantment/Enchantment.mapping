@@ -1,0 +1,37 @@
+CLASS big net/minecraft/world/item/enchantment/Enchantment
+	FIELD a slots [Lald;
+	FIELD b category Lbih;
+	FIELD c descriptionId Ljava/lang/String;
+	FIELD d rarity Lbig$a;
+	METHOD <init> <init> (Lbig$a;Lbih;[Lald;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a getDamageProtection (ILakh;)I
+	METHOD a getDamageBonus (ILall;)F
+	METHOD a getSlotItems (Lalh;)Ljava/util/Map;
+	METHOD a doPostAttack (Lalh;Laky;I)V
+	METHOD a canEnchant (Lbew;)Z
+	METHOD a checkCompatibility (Lbig;)Z
+	METHOD b isTreasureOnly ()Z
+	METHOD b getMaxCost (I)I
+	METHOD b doPostHurt (Lalh;Laky;I)V
+	METHOD b isCompatibleWith (Lbig;)Z
+	METHOD c isCurse ()Z
+	METHOD c byId (I)Lbig;
+	METHOD d getRarity ()Lbig$a;
+	METHOD d getFullname (I)Llf;
+	METHOD e getMinLevel ()I
+	METHOD f getOrCreateDescriptionId ()Ljava/lang/String;
+	METHOD g getDescriptionId ()Ljava/lang/String;
+	CLASS a Rarity
+		FIELD a COMMON Lbig$a;
+		FIELD b UNCOMMON Lbig$a;
+		FIELD c RARE Lbig$a;
+		FIELD d VERY_RARE Lbig$a;
+		FIELD e weight I
+		FIELD f $VALUES [Lbig$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;II)V
+		METHOD a getWeight ()I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbig$a;
+		METHOD values values ()[Lbig$a;

@@ -1,0 +1,5 @@
+CLASS cvg net/minecraft/world/level/storage/loot/parameters/LootContextParam
+	FIELD a name Lsm;
+	METHOD <init> <init> (Lsm;)V
+	METHOD a getName ()Lsm;
+	METHOD toString toString ()Ljava/lang/String;

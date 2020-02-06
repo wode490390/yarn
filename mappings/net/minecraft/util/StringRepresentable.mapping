@@ -1,0 +1,2 @@
+CLASS aby net/minecraft/util/StringRepresentable
+	METHOD o getSerializedName ()Ljava/lang/String;

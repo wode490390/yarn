@@ -1,0 +1,4 @@
+CLASS brh net/minecraft/world/level/block/DirectionalBlock
+	FIELD a FACING Lcac;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V

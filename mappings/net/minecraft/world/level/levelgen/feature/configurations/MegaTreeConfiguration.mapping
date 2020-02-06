@@ -1,0 +1,20 @@
+CLASS chw net/minecraft/world/level/levelgen/feature/configurations/MegaTreeConfiguration
+	FIELD a heightInterval I
+	FIELD b crownHeight I
+	METHOD <init> <init> (Lcjb;Lcjb;Ljava/util/List;III)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lchw;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	CLASS a MegaTreeConfigurationBuilder
+		FIELD c decorators Ljava/util/List;
+		FIELD d baseHeight I
+		FIELD e heightInterval I
+		FIELD f crownHeight I
+		METHOD <init> <init> (Lcjb;Lcjb;)V
+		METHOD a build ()Lchw;
+		METHOD a baseHeight (I)Lchw$a;
+		METHOD a decorators (Ljava/util/List;)Lchw$a;
+		METHOD b build ()Lciq;
+		METHOD b heightInterval (I)Lchw$a;
+		METHOD b decorators (Ljava/util/List;)Lciq$a;
+		METHOD c crownHeight (I)Lchw$a;
+		METHOD d baseHeight (I)Lciq$a;

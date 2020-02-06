@@ -1,0 +1,30 @@
+CLASS ald net/minecraft/world/entity/EquipmentSlot
+	FIELD a MAINHAND Lald;
+	FIELD b OFFHAND Lald;
+	FIELD c FEET Lald;
+	FIELD d LEGS Lald;
+	FIELD e CHEST Lald;
+	FIELD f HEAD Lald;
+	FIELD g type Lald$a;
+	FIELD h index I
+	FIELD i filterFlag I
+	FIELD j name Ljava/lang/String;
+	FIELD k $VALUES [Lald;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILald$a;IILjava/lang/String;)V
+	METHOD a getType ()Lald$a;
+	METHOD a byTypeAndIndex (Lald$a;I)Lald;
+	METHOD a byName (Ljava/lang/String;)Lald;
+	METHOD b getIndex ()I
+	METHOD c getFilterFlag ()I
+	METHOD d getName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lald;
+	METHOD values values ()[Lald;
+	CLASS a Type
+		FIELD a HAND Lald$a;
+		FIELD b ARMOR Lald$a;
+		FIELD c $VALUES [Lald$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lald$a;
+		METHOD values values ()[Lald$a;

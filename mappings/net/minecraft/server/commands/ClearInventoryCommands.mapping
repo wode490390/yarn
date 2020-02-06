@@ -1,0 +1,16 @@
+CLASS tk net/minecraft/server/commands/ClearInventoryCommands
+	FIELD a ERROR_SINGLE Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD b ERROR_MULTIPLE Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$null$5 (Lbew;)Z
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$8 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$2 (Lcq;)Z
+	METHOD a clearInventory (Lcq;Ljava/util/Collection;Ljava/util/function/Predicate;I)I
+	METHOD a lambda$static$1 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD b lambda$null$3 (Lbew;)Z
+	METHOD b lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD c lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I

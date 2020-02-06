@@ -1,0 +1,8 @@
+CLASS cqg net/minecraft/world/level/newbiome/context/BigContext
+	METHOD a getMixedSeed ()J
+	METHOD a random (II)I
+	METHOD a random (IIII)I
+	METHOD a initRandom (JJ)V
+	METHOD a createResult (Lcrr;)Lcqc;
+	METHOD a createResult (Lcrr;Lcqc;)Lcqc;
+	METHOD a createResult (Lcrr;Lcqc;Lcqc;)Lcqc;

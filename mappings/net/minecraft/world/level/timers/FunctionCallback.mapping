@@ -1,0 +1,13 @@
+CLASS cwh net/minecraft/world/level/timers/FunctionCallback
+	FIELD a functionId Lsm;
+	METHOD <init> <init> (Lsm;)V
+	METHOD a access$000 (Lcwh;)Lsm;
+	METHOD a handle (Ljava/lang/Object;Lcwl;J)V
+	METHOD a handle (Lnet/minecraft/server/MinecraftServer;Lcwl;J)V
+	METHOD a lambda$handle$0 (Lsy;Lcn;)V
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Ljt;)Lcwh;
+		METHOD a serialize (Ljt;Lcwh;)V
+		METHOD a serialize (Ljt;Lcwj;)V
+		METHOD b deserialize (Ljt;)Lcwj;

@@ -1,0 +1,13 @@
+CLASS ctv net/minecraft/world/level/storage/loot/entries/EntryGroup
+	METHOD <init> <init> ([Lctz;[Lcvv;)V
+	METHOD a lambda$compose$0 (Lctr;Lctr;Lctg;Ljava/util/function/Consumer;)Z
+	METHOD a compose ([Lctr;)Lctr;
+	METHOD a lambda$compose$1 ([Lctr;Lctg;Ljava/util/function/Consumer;)Z
+	METHOD a list ([Lctz$a;)Lctv$a;
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		METHOD <init> <init> ([Lctz$a;)V
+		METHOD a getThis ()Lctv$a;
+		METHOD b build ()Lctz;
+		METHOD b append (Lctz$a;)Lctv$a;
+		METHOD d getThis ()Lctz$a;

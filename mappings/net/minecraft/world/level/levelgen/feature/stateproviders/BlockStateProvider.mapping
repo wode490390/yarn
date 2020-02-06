@@ -1,0 +1,4 @@
+CLASS cjb net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider
+	FIELD a type Lcjc;
+	METHOD <init> <init> (Lcjc;)V
+	METHOD a getState (Ljava/util/Random;Lfk;)Lbzh;

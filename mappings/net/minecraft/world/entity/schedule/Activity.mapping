@@ -1,0 +1,17 @@
+CLASS baa net/minecraft/world/entity/schedule/Activity
+	FIELD a CORE Lbaa;
+	FIELD b IDLE Lbaa;
+	FIELD c WORK Lbaa;
+	FIELD d PLAY Lbaa;
+	FIELD e REST Lbaa;
+	FIELD f MEET Lbaa;
+	FIELD g PANIC Lbaa;
+	FIELD h RAID Lbaa;
+	FIELD i PRE_RAID Lbaa;
+	FIELD j HIDE Lbaa;
+	FIELD k name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a register (Ljava/lang/String;)Lbaa;
+	METHOD toString toString ()Ljava/lang/String;

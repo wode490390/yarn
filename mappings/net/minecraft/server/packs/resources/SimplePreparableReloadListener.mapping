@@ -1,0 +1,7 @@
+CLASS zf net/minecraft/server/packs/resources/SimplePreparableReloadListener
+	METHOD <init> <init> ()V
+	METHOD a apply (Ljava/lang/Object;Lzc;Laiu;)V
+	METHOD a reload (Lyx$a;Lzc;Laiu;Laiu;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$reload$0 (Lzc;Laiu;)Ljava/lang/Object;
+	METHOD a lambda$reload$1 (Lzc;Laiu;Ljava/lang/Object;)V
+	METHOD b prepare (Lzc;Laiu;)Ljava/lang/Object;

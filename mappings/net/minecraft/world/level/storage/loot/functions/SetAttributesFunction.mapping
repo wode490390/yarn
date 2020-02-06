@@ -1,0 +1,55 @@
+CLASS cuu net/minecraft/world/level/storage/loot/functions/SetAttributesFunction
+	FIELD a modifiers Ljava/util/List;
+	METHOD <init> <init> ([Lcvv;Ljava/util/List;)V
+	METHOD <init> <init> ([Lcvv;Ljava/util/List;Lcuu$1;)V
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a access$800 (Lcuu;)Ljava/util/List;
+	METHOD a modifier (Ljava/lang/String;Ljava/lang/String;Lama$a;Lcto;)Lcuu$c;
+	METHOD b setAttributes ()Lcuu$a;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$entity$ai$attributes$AttributeModifier$Operation [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Builder
+		FIELD a modifiers Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Lcuu$a;
+		METHOD a withModifier (Lcuu$c;)Lcuu$a;
+		METHOD b build ()Lcur;
+		METHOD d getThis ()Lcuq$a;
+	CLASS b Modifier
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Ljava/lang/String;
+		FIELD c operation Lama$a;
+		FIELD d amount Lcto;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots [Lald;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Lama$a;Lcto;[Lald;Ljava/util/UUID;)V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Lama$a;Lcto;[Lald;Ljava/util/UUID;Lcuu$1;)V
+		METHOD a operationToString (Lama$a;)Ljava/lang/String;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcuu$b;
+		METHOD a serialize (Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonObject;
+		METHOD a access$000 (Lcuu$b;)Ljava/util/UUID;
+		METHOD a operationFromString (Ljava/lang/String;)Lama$a;
+		METHOD b access$100 (Lcuu$b;)[Lald;
+		METHOD c access$200 (Lcuu$b;)Ljava/lang/String;
+		METHOD d access$300 (Lcuu$b;)Ljava/lang/String;
+		METHOD e access$400 (Lcuu$b;)Lcto;
+		METHOD f access$500 (Lcuu$b;)Lama$a;
+	CLASS c ModifierBuilder
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Ljava/lang/String;
+		FIELD c operation Lama$a;
+		FIELD d amount Lcto;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots Ljava/util/Set;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Lama$a;Lcto;)V
+		METHOD a build ()Lcuu$b;
+		METHOD a forSlot (Lald;)Lcuu$c;
+		METHOD a withUuid (Ljava/util/UUID;)Lcuu$c;
+	CLASS d Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuu;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuu;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

@@ -1,0 +1,18 @@
+CLASS cbw net/minecraft/world/level/chunk/storage/ChunkSerializer
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$write$3 (ILcbl;)Z
+	METHOD a lambda$unpackStructureReferences$5 (Lbjq;Ljava/lang/String;J)Z
+	METHOD a packStructureData (Lbjq;Ljava/util/Map;Ljava/util/Map;)Ljt;
+	METHOD a unpackStructureReferences (Lbjq;Ljt;)Ljava/util/Map;
+	METHOD a lambda$read$0 (Lbpy;)Z
+	METHOD a unpackStructureStart (Lcaz;Lcnv;Ljt;)Ljava/util/Map;
+	METHOD a lambda$postLoadChunk$4 (Lcbk;Laky;)Laky;
+	METHOD a lambda$read$1 (Lcps;)Z
+	METHOD a getChunkTypeFromTag (Ljt;)Lcbd$a;
+	METHOD a postLoadChunk (Ljt;Lcbk;)V
+	METHOD a write (Lxe;Lcax;)Ljt;
+	METHOD a read (Lxe;Lcnv;Lasz;Lbjq;Ljt;)Lcbs;
+	METHOD a packOffsets ([Lit/unimi/dsi/fastutil/shorts/ShortList;)Ljz;
+	METHOD b lambda$read$2 (Ljt;Lcbk;)V

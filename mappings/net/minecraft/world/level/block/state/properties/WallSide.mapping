@@ -1,0 +1,12 @@
+CLASS caq net/minecraft/world/level/block/state/properties/WallSide
+	FIELD a NONE Lcaq;
+	FIELD b LOW Lcaq;
+	FIELD c TALL Lcaq;
+	FIELD d name Ljava/lang/String;
+	FIELD e $VALUES [Lcaq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcaq;
+	METHOD values values ()[Lcaq;

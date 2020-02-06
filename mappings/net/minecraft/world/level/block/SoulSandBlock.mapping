@@ -1,0 +1,13 @@
+CLASS bvh net/minecraft/world/level/block/SoulSandBlock
+	FIELD a SHAPE Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getTickDelay (Lbki;)I
+	METHOD a isValidSpawn (Lbzh;Lbjp;Lfk;Lalc;)Z
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a neighborChanged (Lbzh;Lbkf;Lfk;Lbpy;Lfk;Z)V
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD b getCollisionShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD b onPlace (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	METHOD d isRedstoneConductor (Lbzh;Lbjp;Lfk;)Z
+	METHOD f isViewBlocking (Lbzh;Lbjp;Lfk;)Z

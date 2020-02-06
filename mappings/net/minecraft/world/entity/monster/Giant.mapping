@@ -1,0 +1,5 @@
+CLASS awz net/minecraft/world/entity/monster/Giant
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD a getWalkTargetValue (Lfk;Lbki;)F
+	METHOD b getStandingEyeHeight (Lalr;Lakz;)F
+	METHOD cA registerAttributes ()V

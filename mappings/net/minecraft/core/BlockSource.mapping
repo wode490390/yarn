@@ -1,0 +1,8 @@
+CLASS fl net/minecraft/core/BlockSource
+	METHOD a x ()D
+	METHOD b y ()D
+	METHOD c z ()D
+	METHOD d getPos ()Lfk;
+	METHOD e getBlockState ()Lbzh;
+	METHOD f getMaterial ()Lcpx;
+	METHOD g getEntity ()Lbxj;

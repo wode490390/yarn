@@ -1,0 +1,9 @@
+CLASS ny net/minecraft/network/protocol/game/ClientboundRemoveEntitiesPacket
+	FIELD a entityIds [I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> ([I)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getEntityIds ()[I
+	METHOD b write (Lkv;)V

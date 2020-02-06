@@ -1,0 +1,26 @@
+CLASS cql net/minecraft/world/level/newbiome/layer/AddEdgeLayer
+	METHOD <init> <init> ()V
+	CLASS a CoolWarm
+		FIELD a INSTANCE Lcql$a;
+		FIELD b $VALUES [Lcql$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Lcqh;IIIII)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcql$a;
+		METHOD values values ()[Lcql$a;
+	CLASS b HeatIce
+		FIELD a INSTANCE Lcql$b;
+		FIELD b $VALUES [Lcql$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Lcqh;IIIII)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcql$b;
+		METHOD values values ()[Lcql$b;
+	CLASS c IntroduceSpecial
+		FIELD a INSTANCE Lcql$c;
+		FIELD b $VALUES [Lcql$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Lcqh;I)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcql$c;
+		METHOD values values ()[Lcql$c;

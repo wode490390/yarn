@@ -1,0 +1,24 @@
+CLASS ni net/minecraft/network/protocol/game/ClientboundLightUpdatePacket
+	FIELD a x I
+	FIELD b z I
+	FIELD c skyYMask I
+	FIELD d blockYMask I
+	FIELD e emptySkyYMask I
+	FIELD f emptyBlockYMask I
+	FIELD g skyUpdates Ljava/util/List;
+	FIELD h blockUpdates Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbjq;Lcpk;)V
+	METHOD <init> <init> (Lbjq;Lcpk;II)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getX ()I
+	METHOD b write (Lkv;)V
+	METHOD c getZ ()I
+	METHOD d getSkyYMask ()I
+	METHOD e getEmptySkyYMask ()I
+	METHOD f getSkyUpdates ()Ljava/util/List;
+	METHOD g getBlockYMask ()I
+	METHOD h getEmptyBlockYMask ()I
+	METHOD i getBlockUpdates ()Ljava/util/List;

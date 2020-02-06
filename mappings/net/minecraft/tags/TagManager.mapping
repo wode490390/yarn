@@ -1,0 +1,21 @@
+CLASS abc net/minecraft/tags/TagManager
+	FIELD a blocks Laaz;
+	FIELD b items Laaz;
+	FIELD c fluids Laaz;
+	FIELD d entityTypes Laaz;
+	METHOD <init> <init> ()V
+	METHOD a getBlocks ()Laaz;
+	METHOD a lambda$reload$1 (Labc$a;)V
+	METHOD a lambda$reload$0 (Lcom/mojang/datafixers/util/Pair;Lcom/mojang/datafixers/util/Pair;)Labc$a;
+	METHOD a serializeToNetwork (Lkv;)V
+	METHOD a reload (Lyx$a;Lzc;Laiu;Laiu;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD b getItems ()Laaz;
+	METHOD b deserializeFromNetwork (Lkv;)Labc;
+	METHOD c getFluids ()Laaz;
+	METHOD d getEntityTypes ()Laaz;
+	CLASS a Preparations
+		FIELD a blocks Ljava/util/Map;
+		FIELD b items Ljava/util/Map;
+		FIELD c fluids Ljava/util/Map;
+		FIELD d entityTypes Ljava/util/Map;
+		METHOD <init> <init> (Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)V

@@ -1,0 +1,13 @@
+CLASS bux net/minecraft/world/level/block/SignBlock
+	FIELD a WATERLOGGED Lbzz;
+	FIELD b SHAPE Lcxo;
+	FIELD c type Lcar;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;Lcar;)V
+	METHOD Y_ isPossibleToRespawnInThis ()Z
+	METHOD a newBlockEntity (Lbjp;)Lbxj;
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD b_ getFluidState (Lbzh;)Lcpt;
+	METHOD c type ()Lcar;

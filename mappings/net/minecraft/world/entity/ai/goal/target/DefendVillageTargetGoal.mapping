@@ -1,0 +1,7 @@
+CLASS arg net/minecraft/world/entity/ai/goal/target/DefendVillageTargetGoal
+	FIELD a golem Latt;
+	FIELD b potentialTarget Lalh;
+	FIELD c attackTargeting Lass;
+	METHOD <init> <init> (Latt;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V

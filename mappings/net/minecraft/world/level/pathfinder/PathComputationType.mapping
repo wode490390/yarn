@@ -1,0 +1,9 @@
+CLASS csa net/minecraft/world/level/pathfinder/PathComputationType
+	FIELD a LAND Lcsa;
+	FIELD b WATER Lcsa;
+	FIELD c AIR Lcsa;
+	FIELD d $VALUES [Lcsa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcsa;
+	METHOD values values ()[Lcsa;

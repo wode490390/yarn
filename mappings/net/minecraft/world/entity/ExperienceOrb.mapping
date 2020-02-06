@@ -1,0 +1,27 @@
+CLASS ale net/minecraft/world/entity/ExperienceOrb
+	FIELD ao followingTime I
+	FIELD b tickCount I
+	FIELD c age I
+	FIELD d throwTime I
+	FIELD e health I
+	FIELD f value I
+	FIELD g followingPlayer Lays;
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDDI)V
+	METHOD L getAddEntityPacket ()Llt;
+	METHOD a getExperienceValue (I)I
+	METHOD a hurt (Lakh;F)Z
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD aD doWaterSplashEffect ()V
+	METHOD at isMovementNoisy ()Z
+	METHOD b durabilityToXp (I)I
+	METHOD b playerTouch (Lays;)V
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD bA isAttackable ()Z
+	METHOD c xpToDurability (I)I
+	METHOD f getValue ()I
+	METHOD h tick ()V
+	METHOD h burn (I)V
+	METHOD i getIcon ()I
+	METHOD k setUnderwaterMovement ()V
+	METHOD w_ defineSynchedData ()V

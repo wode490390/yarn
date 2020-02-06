@@ -1,0 +1,9 @@
+CLASS bko net/minecraft/world/level/LightLayer
+	FIELD a SKY Lbko;
+	FIELD b BLOCK Lbko;
+	FIELD c surrounding I
+	FIELD d $VALUES [Lbko;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbko;
+	METHOD values values ()[Lbko;

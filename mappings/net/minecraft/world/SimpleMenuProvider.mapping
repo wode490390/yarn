@@ -1,0 +1,6 @@
+CLASS ajz net/minecraft/world/SimpleMenuProvider
+	FIELD a title Llf;
+	FIELD b menuConstructor Lbbw;
+	METHOD <init> <init> (Lbbw;Llf;)V
+	METHOD createMenu createMenu (ILayr;Lays;)Lbaw;
+	METHOD d getDisplayName ()Llf;

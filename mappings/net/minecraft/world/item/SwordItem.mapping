@@ -1,0 +1,13 @@
+CLASS bfz net/minecraft/world/item/SwordItem
+	FIELD a attackDamage F
+	FIELD b attackSpeed F
+	METHOD <init> <init> (Lbgb;IFLber$a;)V
+	METHOD a getDefaultAttributeModifiers (Lald;)Lcom/google/common/collect/Multimap;
+	METHOD a lambda$mineBlock$1 (Lalh;)V
+	METHOD a hurtEnemy (Lbew;Lalh;Lalh;)Z
+	METHOD a mineBlock (Lbew;Lbkf;Lbzh;Lfk;Lalh;)Z
+	METHOD a getDestroySpeed (Lbew;Lbzh;)F
+	METHOD a canAttackBlock (Lbzh;Lbkf;Lfk;Lays;)Z
+	METHOD b lambda$hurtEnemy$0 (Lalh;)V
+	METHOD b canDestroySpecial (Lbzh;)Z
+	METHOD f getDamage ()F

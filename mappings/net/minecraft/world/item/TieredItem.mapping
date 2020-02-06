@@ -1,0 +1,6 @@
+CLASS bgc net/minecraft/world/item/TieredItem
+	FIELD a tier Lbgb;
+	METHOD <init> <init> (Lbgb;Lber$a;)V
+	METHOD a isValidRepairItem (Lbew;Lbew;)Z
+	METHOD c getEnchantmentValue ()I
+	METHOD g getTier ()Lbgb;

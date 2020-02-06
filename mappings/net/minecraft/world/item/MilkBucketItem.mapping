@@ -1,0 +1,6 @@
+CLASS bfc net/minecraft/world/item/MilkBucketItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a finishUsingItem (Lbew;Lbkf;Lalh;)Lbew;
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;
+	METHOD e_ getUseAnimation (Lbew;)Lbgh;
+	METHOD f_ getUseDuration (Lbew;)I

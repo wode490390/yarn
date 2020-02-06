@@ -1,0 +1,7 @@
+CLASS chu net/minecraft/world/level/levelgen/feature/configurations/HugeMushroomFeatureConfiguration
+	FIELD a capProvider Lcjb;
+	FIELD b stemProvider Lcjb;
+	FIELD c foliageRadius I
+	METHOD <init> <init> (Lcjb;Lcjb;I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lchu;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

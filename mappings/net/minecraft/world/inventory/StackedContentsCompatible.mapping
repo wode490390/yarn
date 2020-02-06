@@ -1,0 +1,2 @@
+CLASS bcl net/minecraft/world/inventory/StackedContentsCompatible
+	METHOD a fillStackedContents (Layu;)V

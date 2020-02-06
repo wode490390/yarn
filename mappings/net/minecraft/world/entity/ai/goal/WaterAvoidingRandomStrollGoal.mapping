@@ -1,0 +1,5 @@
+CLASS arc net/minecraft/world/entity/ai/goal/WaterAvoidingRandomStrollGoal
+	FIELD h probability F
+	METHOD <init> <init> (Lalo;D)V
+	METHOD <init> <init> (Lalo;DF)V
+	METHOD g getPosition ()Lcwu;

@@ -1,0 +1,13 @@
+CLASS bho net/minecraft/world/item/crafting/SimpleCookingSerializer
+	FIELD u defaultCookingTime I
+	FIELD v factory Lbho$a;
+	METHOD <init> <init> (Lbho$a;I)V
+	METHOD a lambda$fromJson$0 (Ljava/lang/String;)Ljava/lang/IllegalStateException;
+	METHOD a toNetwork (Lkv;Lbgr;)V
+	METHOD a toNetwork (Lkv;Lbhf;)V
+	METHOD a fromJson (Lsm;Lcom/google/gson/JsonObject;)Lbhf;
+	METHOD a fromNetwork (Lsm;Lkv;)Lbhf;
+	METHOD b fromJson (Lsm;Lcom/google/gson/JsonObject;)Lbgr;
+	METHOD b fromNetwork (Lsm;Lkv;)Lbgr;
+	CLASS a CookieBaker
+		METHOD create create (Lsm;Ljava/lang/String;Lbhc;Lbew;FI)Lbgr;

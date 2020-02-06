@@ -1,0 +1,3 @@
+CLASS bch net/minecraft/world/inventory/ShulkerBoxSlot
+	METHOD <init> <init> (Lajl;III)V
+	METHOD a mayPlace (Lbew;)Z

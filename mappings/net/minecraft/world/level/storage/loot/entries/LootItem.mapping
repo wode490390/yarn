@@ -1,0 +1,16 @@
+CLASS ctw net/minecraft/world/level/storage/loot/entries/LootItem
+	FIELD c item Lber;
+	METHOD <init> <init> (Lber;II[Lcvv;[Lcur;)V
+	METHOD <init> <init> (Lber;II[Lcvv;[Lcur;Lctw$1;)V
+	METHOD a lootTableItem (Lbke;)Lcua$a;
+	METHOD a lambda$lootTableItem$0 (Lbke;II[Lcvv;[Lcur;)Lcua;
+	METHOD a access$000 (Lctw;)Lber;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Lctg;)V
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcvv;[Lcur;)Lctw;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lctw;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lctz;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcua;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcvv;[Lcur;)Lcua;

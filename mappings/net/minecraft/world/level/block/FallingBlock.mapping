@@ -1,0 +1,12 @@
+CLASS brw net/minecraft/world/level/block/FallingBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a falling (Lawi;)V
+	METHOD a onBroken (Lbkf;Lfk;)V
+	METHOD a onLand (Lbkf;Lfk;Lbzh;Lbzh;)V
+	METHOD a getTickDelay (Lbki;)I
+	METHOD a animateTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;)V
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD b onPlace (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	METHOD f getDustColor (Lbzh;)I
+	METHOD h isFree (Lbzh;)Z

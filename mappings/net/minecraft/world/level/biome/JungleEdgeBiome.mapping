@@ -1,0 +1,2 @@
+CLASS bmv net/minecraft/world/level/biome/JungleEdgeBiome
+	METHOD <init> <init> ()V

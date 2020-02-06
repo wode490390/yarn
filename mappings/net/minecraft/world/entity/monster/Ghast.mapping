@@ -1,0 +1,49 @@
+CLASS awy net/minecraft/world/entity/monster/Ghast
+	FIELD b DATA_IS_CHARGING Lsb;
+	FIELD c explosionPower I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD J shouldDespawnInPeaceful ()Z
+	METHOD a hurt (Lakh;F)Z
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b checkGhastSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD b getStandingEyeHeight (Lalr;Lakz;)F
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD cl getSoundSource ()Laak;
+	METHOD dX getMaxSpawnClusterSize ()I
+	METHOD dm getSoundVolume ()F
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD eo getExplosionPower ()I
+	METHOD i lambda$registerGoals$0 (Lalh;)Z
+	METHOD l isCharging ()Z
+	METHOD n registerGoals ()V
+	METHOD r setCharging (Z)V
+	METHOD w_ defineSynchedData ()V
+	CLASS a GhastLookGoal
+		FIELD a ghast Lawy;
+		METHOD <init> <init> (Lawy;)V
+		METHOD a canUse ()Z
+		METHOD e tick ()V
+	CLASS b GhastMoveControl
+		FIELD i ghast Lawy;
+		FIELD j floatDuration I
+		METHOD <init> <init> (Lawy;)V
+		METHOD a tick ()V
+		METHOD a canReach (Lcwu;I)Z
+	CLASS c GhastShootFireballGoal
+		FIELD a chargeTime I
+		FIELD b ghast Lawy;
+		METHOD <init> <init> (Lawy;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS d RandomFloatAroundGoal
+		FIELD a ghast Lawy;
+		METHOD <init> <init> (Lawy;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V

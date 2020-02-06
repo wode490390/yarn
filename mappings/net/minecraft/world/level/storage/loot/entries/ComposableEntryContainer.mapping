@@ -1,0 +1,11 @@
+CLASS ctr net/minecraft/world/level/storage/loot/entries/ComposableEntryContainer
+	FIELD a ALWAYS_FALSE Lctr;
+	FIELD b ALWAYS_TRUE Lctr;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$1 (Lctg;Ljava/util/function/Consumer;)Z
+	METHOD a and (Lctr;)Lctr;
+	METHOD a lambda$or$3 (Lctr;Lctg;Ljava/util/function/Consumer;)Z
+	METHOD b lambda$static$0 (Lctg;Ljava/util/function/Consumer;)Z
+	METHOD b or (Lctr;)Lctr;
+	METHOD b lambda$and$2 (Lctr;Lctg;Ljava/util/function/Consumer;)Z
+	METHOD expand expand (Lctg;Ljava/util/function/Consumer;)Z

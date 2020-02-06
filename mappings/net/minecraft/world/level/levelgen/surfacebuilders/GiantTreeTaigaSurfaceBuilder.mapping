@@ -1,0 +1,4 @@
+CLASS coh net/minecraft/world/level/levelgen/surfacebuilders/GiantTreeTaigaSurfaceBuilder
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJLcor;)V
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJLcos;)V

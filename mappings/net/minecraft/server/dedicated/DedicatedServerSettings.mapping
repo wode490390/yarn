@@ -1,0 +1,7 @@
+CLASS wg net/minecraft/server/dedicated/DedicatedServerSettings
+	FIELD a source Ljava/nio/file/Path;
+	FIELD b properties Lwf;
+	METHOD <init> <init> (Ljava/nio/file/Path;)V
+	METHOD a getProperties ()Lwf;
+	METHOD a update (Ljava/util/function/UnaryOperator;)Lwg;
+	METHOD b forceSave ()V

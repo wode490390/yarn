@@ -1,0 +1,22 @@
+CLASS bh net/minecraft/advancements/critereon/InventoryChangeTrigger
+	FIELD a ID Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lsm;
+	METHOD a lambda$trigger$0 (Layr;Lbew;IIILbh$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a trigger (Lxf;Layr;Lbew;)V
+	METHOD a trigger (Lxf;Layr;Lbew;III)V
+	METHOD b access$000 ()Lsm;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbh$a;
+	CLASS a TriggerInstance
+		FIELD a slotsOccupied Lbr$d;
+		FIELD b slotsFull Lbr$d;
+		FIELD c slotsEmpty Lbr$d;
+		FIELD d predicates [Lbj;
+		METHOD <init> <init> (Lbr$d;Lbr$d;Lbr$d;[Lbj;)V
+		METHOD a matches (Layr;Lbew;III)Z
+		METHOD a lambda$matches$0 (Lbew;Lbj;)Z
+		METHOD a hasItem ([Lbj;)Lbh$a;
+		METHOD a hasItem ([Lbke;)Lbh$a;
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

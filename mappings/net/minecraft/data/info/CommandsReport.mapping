@@ -1,0 +1,7 @@
+CLASS hj net/minecraft/data/info/CommandsReport
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c generator Lgy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgy;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a run (Lha;)V

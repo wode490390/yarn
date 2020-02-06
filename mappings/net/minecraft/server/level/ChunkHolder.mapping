@@ -1,0 +1,87 @@
+CLASS wp net/minecraft/server/level/ChunkHolder
+	FIELD a UNLOADED_CHUNK Lcom/mojang/datafixers/util/Either;
+	FIELD b UNLOADED_CHUNK_FUTURE Ljava/util/concurrent/CompletableFuture;
+	FIELD c UNLOADED_LEVEL_CHUNK Lcom/mojang/datafixers/util/Either;
+	FIELD d UNLOADED_LEVEL_CHUNK_FUTURE Ljava/util/concurrent/CompletableFuture;
+	FIELD e CHUNK_STATUSES Ljava/util/List;
+	FIELD f FULL_CHUNK_STATUSES [Lwp$b;
+	FIELD g futures Ljava/util/concurrent/atomic/AtomicReferenceArray;
+	FIELD h fullChunkFuture Ljava/util/concurrent/CompletableFuture;
+	FIELD i tickingChunkFuture Ljava/util/concurrent/CompletableFuture;
+	FIELD j entityTickingChunkFuture Ljava/util/concurrent/CompletableFuture;
+	FIELD k chunkToSave Ljava/util/concurrent/CompletableFuture;
+	FIELD l oldTicketLevel I
+	FIELD m ticketLevel I
+	FIELD n queueLevel I
+	FIELD o pos Lbjq;
+	FIELD p changedBlocks [S
+	FIELD q changes I
+	FIELD r changedSectionFilter I
+	FIELD s sectionsToForceSendLightFor I
+	FIELD t blockChangedLightSectionFilter I
+	FIELD u skyChangedLightSectionFilter I
+	FIELD v lightEngine Lcpk;
+	FIELD w onLevelChange Lwp$c;
+	FIELD x playerProvider Lwp$d;
+	FIELD y wasAccessibleSinceLastSave Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbjq;ILcpk;Lwp$c;Lwp$d;)V
+	METHOD a getTickingChunkFuture ()Ljava/util/concurrent/CompletableFuture;
+	METHOD a setTicketLevel (I)V
+	METHOD a blockChanged (III)V
+	METHOD a broadcastBlockEntity (Lbkf;Lfk;)V
+	METHOD a sectionLightChanged (Lbko;I)V
+	METHOD a lambda$null$1 (Lcax;)Lcax;
+	METHOD a lambda$updateChunkToSave$3 (Lcax;Lcom/mojang/datafixers/util/Either;)Lcax;
+	METHOD a lambda$null$2 (Lcax;Lwp$a;)Lcax;
+	METHOD a getFutureIfPresentUnchecked (Lcbd;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a getOrScheduleFuture (Lcbd;Lwq;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a replaceProtoChunk (Lcbj;)V
+	METHOD a broadcastChanges (Lcbk;)V
+	METHOD a updateChunkToSave (Ljava/util/concurrent/CompletableFuture;)V
+	METHOD a lambda$broadcast$0 (Llt;Lxf;)V
+	METHOD a broadcast (Llt;Z)V
+	METHOD a access$000 (Lwp;)Lbjq;
+	METHOD a updateFutures (Lwq;)V
+	METHOD a lambda$updateFutures$4 (Lwq;Lcom/mojang/datafixers/util/Either;)Lcom/mojang/datafixers/util/Either;
+	METHOD b getEntityTickingChunkFuture ()Ljava/util/concurrent/CompletableFuture;
+	METHOD b getStatus (I)Lcbd;
+	METHOD b getFutureIfPresent (Lcbd;)Ljava/util/concurrent/CompletableFuture;
+	METHOD c getFullChunkFuture ()Ljava/util/concurrent/CompletableFuture;
+	METHOD c getFullChunkStatus (I)Lwp$b;
+	METHOD d getTickingChunk ()Lcbk;
+	METHOD d setQueueLevel (I)V
+	METHOD e getLastAvailableStatus ()Lcbd;
+	METHOD f getLastAvailable ()Lcax;
+	METHOD g getChunkToSave ()Ljava/util/concurrent/CompletableFuture;
+	METHOD h getFullStatus ()Lwp$b;
+	METHOD i getPos ()Lbjq;
+	METHOD j getTicketLevel ()I
+	METHOD k getQueueLevel ()I
+	METHOD l wasAccessibleSinceLastSave ()Z
+	METHOD m refreshAccessibility ()V
+	CLASS 1 1
+		FIELD a this$0 Lwp;
+		METHOD <init> <init> (Lwp;)V
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS a ChunkLoadingFailure
+		FIELD b UNLOADED Lwp$a;
+		METHOD <clinit> <clinit> ()V
+		CLASS 1 1
+			METHOD <init> <init> ()V
+			METHOD toString toString ()Ljava/lang/String;
+	CLASS b FullChunkStatus
+		FIELD a INACCESSIBLE Lwp$b;
+		FIELD b BORDER Lwp$b;
+		FIELD c TICKING Lwp$b;
+		FIELD d ENTITY_TICKING Lwp$b;
+		FIELD e $VALUES [Lwp$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a isOrAfter (Lwp$b;)Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Lwp$b;
+		METHOD values values ()[Lwp$b;
+	CLASS c LevelChangeListener
+		METHOD a onLevelChange (Lbjq;Ljava/util/function/IntSupplier;ILjava/util/function/IntConsumer;)V
+	CLASS d PlayerProvider
+		METHOD a getPlayers (Lbjq;Z)Ljava/util/stream/Stream;

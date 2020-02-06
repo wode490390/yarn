@@ -1,0 +1,5 @@
+CLASS cdc net/minecraft/world/level/levelgen/TheEndGeneratorSettings
+	FIELD t spawnPosition Lfk;
+	METHOD <init> <init> ()V
+	METHOD a setSpawnPosition (Lfk;)Lcdc;
+	METHOD v getSpawnPosition ()Lfk;

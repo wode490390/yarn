@@ -1,0 +1,19 @@
+CLASS dl net/minecraft/commands/arguments/ResourceLocationArgument
+	FIELD a EXAMPLES Ljava/util/Collection;
+	FIELD b ERROR_UNKNOWN_ADVANCEMENT Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD c ERROR_UNKNOWN_RECIPE Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD d ERROR_UNKNOWN_PREDICATE Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a id ()Ldl;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lsm;
+	METHOD a getAdvancement (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lu;
+	METHOD a lambda$static$2 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$getRecipe$3 (Lsm;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+	METHOD b getRecipe (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lbhf;
+	METHOD b lambda$static$1 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD c getPredicate (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcvv;
+	METHOD c lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD d getId (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lsm;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

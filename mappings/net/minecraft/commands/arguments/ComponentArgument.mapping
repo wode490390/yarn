@@ -1,0 +1,11 @@
+CLASS cu net/minecraft/commands/arguments/ComponentArgument
+	FIELD a ERROR_INVALID_JSON Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD b EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a textComponent ()Lcu;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Llf;
+	METHOD a getComponent (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Llf;
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

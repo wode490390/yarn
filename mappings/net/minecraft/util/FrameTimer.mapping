@@ -1,0 +1,14 @@
+CLASS abk net/minecraft/util/FrameTimer
+	FIELD a loggedTimes [J
+	FIELD b logStart I
+	FIELD c logLength I
+	FIELD d logEnd I
+	METHOD <init> <init> ()V
+	METHOD a getLogStart ()I
+	METHOD a getAverageDuration (I)J
+	METHOD a scaleAverageDurationTo (II)I
+	METHOD a logFrameDuration (J)V
+	METHOD a scaleSampleTo (JII)I
+	METHOD b getLogEnd ()I
+	METHOD b wrapIndex (I)I
+	METHOD c getLog ()[J

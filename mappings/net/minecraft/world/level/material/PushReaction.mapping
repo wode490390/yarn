@@ -1,0 +1,11 @@
+CLASS cpz net/minecraft/world/level/material/PushReaction
+	FIELD a NORMAL Lcpz;
+	FIELD b DESTROY Lcpz;
+	FIELD c BLOCK Lcpz;
+	FIELD d IGNORE Lcpz;
+	FIELD e PUSH_ONLY Lcpz;
+	FIELD f $VALUES [Lcpz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcpz;
+	METHOD values values ()[Lcpz;

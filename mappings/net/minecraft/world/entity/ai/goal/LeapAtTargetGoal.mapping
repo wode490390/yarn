@@ -1,0 +1,8 @@
+CLASS apt net/minecraft/world/entity/ai/goal/LeapAtTargetGoal
+	FIELD a mob Lali;
+	FIELD b target Lalh;
+	FIELD c yd F
+	METHOD <init> <init> (Lali;F)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V

@@ -1,0 +1,8 @@
+CLASS clo net/minecraft/world/level/levelgen/placement/NoiseCountFactorDecoratorConfiguration
+	FIELD a noiseToCountRatio I
+	FIELD b noiseFactor D
+	FIELD c noiseOffset D
+	FIELD d heightmap Lccu$a;
+	METHOD <init> <init> (IDDLccu$a;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lclo;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,27 @@
+CLASS cvi net/minecraft/world/level/storage/loot/parameters/LootContextParamSets
+	FIELD a EMPTY Lcvh;
+	FIELD b CHEST Lcvh;
+	FIELD c COMMAND Lcvh;
+	FIELD d SELECTOR Lcvh;
+	FIELD e FISHING Lcvh;
+	FIELD f ENTITY Lcvh;
+	FIELD g GIFT Lcvh;
+	FIELD h ADVANCEMENT_REWARD Lcvh;
+	FIELD i ALL_PARAMS Lcvh;
+	FIELD j BLOCK Lcvh;
+	FIELD k REGISTRY Lcom/google/common/collect/BiMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$static$9 (Lcvh$a;)V
+	METHOD a getKey (Lcvh;)Lsm;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Consumer;)Lcvh;
+	METHOD a get (Lsm;)Lcvh;
+	METHOD b lambda$static$8 (Lcvh$a;)V
+	METHOD c lambda$static$7 (Lcvh$a;)V
+	METHOD d lambda$static$6 (Lcvh$a;)V
+	METHOD e lambda$static$5 (Lcvh$a;)V
+	METHOD f lambda$static$4 (Lcvh$a;)V
+	METHOD g lambda$static$3 (Lcvh$a;)V
+	METHOD h lambda$static$2 (Lcvh$a;)V
+	METHOD i lambda$static$1 (Lcvh$a;)V
+	METHOD j lambda$static$0 (Lcvh$a;)V

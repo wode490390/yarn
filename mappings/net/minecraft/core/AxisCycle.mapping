@@ -1,0 +1,35 @@
+CLASS fi net/minecraft/core/AxisCycle
+	FIELD a NONE Lfi;
+	FIELD b FORWARD Lfi;
+	FIELD c BACKWARD Lfi;
+	FIELD d AXIS_VALUES [Lfp$a;
+	FIELD e VALUES [Lfi;
+	FIELD f $VALUES [Lfi;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD <init> <init> (Ljava/lang/String;ILfi$1;)V
+	METHOD a inverse ()Lfi;
+	METHOD a cycle (DDDLfp$a;)D
+	METHOD a cycle (IIILfp$a;)I
+	METHOD a cycle (Lfp$a;)Lfp$a;
+	METHOD a between (Lfp$a;Lfp$a;)Lfi;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lfi;
+	METHOD values values ()[Lfi;
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a inverse ()Lfi;
+		METHOD a cycle (DDDLfp$a;)D
+		METHOD a cycle (IIILfp$a;)I
+		METHOD a cycle (Lfp$a;)Lfp$a;
+	CLASS 2 2
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a inverse ()Lfi;
+		METHOD a cycle (DDDLfp$a;)D
+		METHOD a cycle (IIILfp$a;)I
+		METHOD a cycle (Lfp$a;)Lfp$a;
+	CLASS 3 3
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a inverse ()Lfi;
+		METHOD a cycle (DDDLfp$a;)D
+		METHOD a cycle (IIILfp$a;)I
+		METHOD a cycle (Lfp$a;)Lfp$a;

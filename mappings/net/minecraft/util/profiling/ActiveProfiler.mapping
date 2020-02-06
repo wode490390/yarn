@@ -1,0 +1,46 @@
+CLASS ain net/minecraft/util/profiling/ActiveProfiler
+	FIELD a WARNING_TIME_NANOS J
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c paths Ljava/util/List;
+	FIELD d startTimes Lit/unimi/dsi/fastutil/longs/LongList;
+	FIELD e entries Ljava/util/Map;
+	FIELD f getTickTime Ljava/util/function/IntSupplier;
+	FIELD g getRealTime Ljava/util/function/LongSupplier;
+	FIELD h startTimeNano J
+	FIELD i startTimeTicks I
+	FIELD j path Ljava/lang/String;
+	FIELD k started Z
+	FIELD l currentEntry Lain$a;
+	FIELD m warn Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/LongSupplier;Ljava/util/function/IntSupplier;Z)V
+	METHOD a startTick ()V
+	METHOD a lambda$pop$2 (J)Ljava/lang/Object;
+	METHOD a push (Ljava/lang/String;)V
+	METHOD a push (Ljava/util/function/Supplier;)V
+	METHOD b endTick ()V
+	METHOD b popPush (Ljava/lang/String;)V
+	METHOD b popPush (Ljava/util/function/Supplier;)V
+	METHOD c pop ()V
+	METHOD c incrementCounter (Ljava/lang/String;)V
+	METHOD c incrementCounter (Ljava/util/function/Supplier;)V
+	METHOD d getResults ()Lait;
+	METHOD d lambda$getCurrentEntry$3 (Ljava/lang/String;)Lain$a;
+	METHOD e getCurrentEntry ()Lain$a;
+	METHOD f lambda$pop$1 ()Ljava/lang/Object;
+	METHOD g lambda$endTick$0 ()Ljava/lang/Object;
+	CLASS 1 1
+	CLASS a PathEntry
+		FIELD a duration J
+		FIELD b count J
+		FIELD c counters Lit/unimi/dsi/fastutil/objects/Object2LongOpenHashMap;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lain$1;)V
+		METHOD a getDuration ()J
+		METHOD a access$000 (Lain$a;)J
+		METHOD a access$002 (Lain$a;J)J
+		METHOD b getCount ()J
+		METHOD b access$100 (Lain$a;)J
+		METHOD b access$102 (Lain$a;J)J
+		METHOD c getCounters ()Lit/unimi/dsi/fastutil/objects/Object2LongMap;
+		METHOD c access$200 (Lain$a;)Lit/unimi/dsi/fastutil/objects/Object2LongOpenHashMap;

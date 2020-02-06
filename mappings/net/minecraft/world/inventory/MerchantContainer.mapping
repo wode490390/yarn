@@ -1,0 +1,21 @@
+CLASS bby net/minecraft/world/inventory/MerchantContainer
+	FIELD a merchant Lbjh;
+	FIELD b itemStacks Lfy;
+	FIELD c activeOffer Lbji;
+	FIELD d selectionHint I
+	FIELD e futureXp I
+	METHOD <init> <init> (Lbjh;)V
+	METHOD N_ clearContent ()V
+	METHOD O_ getContainerSize ()I
+	METHOD a getItem (I)Lbew;
+	METHOD a removeItem (II)Lbew;
+	METHOD a setItem (ILbew;)V
+	METHOD a stillValid (Lays;)Z
+	METHOD b removeItemNoUpdate (I)Lbew;
+	METHOD c isEmpty ()Z
+	METHOD c setSelectionHint (I)V
+	METHOD d isPaymentSlot (I)Z
+	METHOD e setChanged ()V
+	METHOD f updateSellItem ()V
+	METHOD g getActiveOffer ()Lbji;
+	METHOD h getFutureXp ()I

@@ -1,0 +1,9 @@
+CLASS bcq net/minecraft/world/item/ArmorMaterial
+	METHOD a getEnchantmentValue ()I
+	METHOD a getDurabilityForSlot (Lald;)I
+	METHOD b getEquipSound ()Laai;
+	METHOD b getDefenseForSlot (Lald;)I
+	METHOD c getRepairIngredient ()Lbhc;
+	METHOD d getName ()Ljava/lang/String;
+	METHOD e getToughness ()F
+	METHOD f getKnockbackResistance ()F

@@ -1,0 +1,12 @@
+CLASS z net/minecraft/advancements/Criterion
+	FIELD a trigger Lac;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lac;)V
+	METHOD a getTrigger ()Lac;
+	METHOD a criterionFromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lz;
+	METHOD a serializeToNetwork (Ljava/util/Map;Lkv;)V
+	METHOD a serializeToNetwork (Lkv;)V
+	METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD b criteriaFromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ljava/util/Map;
+	METHOD b criterionFromNetwork (Lkv;)Lz;
+	METHOD c criteriaFromNetwork (Lkv;)Ljava/util/Map;

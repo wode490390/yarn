@@ -1,0 +1,2 @@
+CLASS apr net/minecraft/world/entity/ai/goal/JumpGoal
+	METHOD <init> <init> ()V

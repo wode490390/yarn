@@ -1,0 +1,26 @@
+CLASS cch net/minecraft/world/level/dimension/DimensionType
+	FIELD a OVERWORLD Lcch;
+	FIELD b NETHER Lcch;
+	FIELD c THE_END Lcch;
+	FIELD d id I
+	FIELD e fileSuffix Ljava/lang/String;
+	FIELD f folder Ljava/lang/String;
+	FIELD g factory Ljava/util/function/BiFunction;
+	FIELD h hasSkylight Z
+	FIELD i biomeZoomer Lblk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILjava/lang/String;Ljava/lang/String;Ljava/util/function/BiFunction;ZLblk;)V
+	METHOD a getAllTypes ()Ljava/lang/Iterable;
+	METHOD a getById (I)Lcch;
+	METHOD a create (Lbkf;)Lccg;
+	METHOD a getName (Lcch;)Lsm;
+	METHOD a of (Lcom/mojang/datafixers/Dynamic;)Lcch;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a getStorageFolder (Ljava/io/File;)Ljava/io/File;
+	METHOD a register (Ljava/lang/String;Lcch;)Lcch;
+	METHOD a getByName (Lsm;)Lcch;
+	METHOD b getId ()I
+	METHOD c getFileSuffix ()Ljava/lang/String;
+	METHOD d hasSkyLight ()Z
+	METHOD e getBiomeZoomer ()Lblk;
+	METHOD toString toString ()Ljava/lang/String;

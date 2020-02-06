@@ -1,0 +1,4 @@
+CLASS akn net/minecraft/world/effect/AttackDamageMobEffect
+	FIELD a multiplier D
+	METHOD <init> <init> (Lakr;ID)V
+	METHOD a getAttributeModifierValue (ILama;)D

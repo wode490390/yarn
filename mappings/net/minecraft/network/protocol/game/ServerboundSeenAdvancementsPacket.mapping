@@ -1,0 +1,21 @@
+CLASS qp net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket
+	FIELD a action Lqp$a;
+	FIELD b tab Lsm;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lqp$a;Lsm;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD a openedTab (Lu;)Lqp;
+	METHOD b closedScreen ()Lqp;
+	METHOD b write (Lkv;)V
+	METHOD c getAction ()Lqp$a;
+	METHOD d getTab ()Lsm;
+	CLASS a Action
+		FIELD a OPENED_TAB Lqp$a;
+		FIELD b CLOSED_SCREEN Lqp$a;
+		FIELD c $VALUES [Lqp$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lqp$a;
+		METHOD values values ()[Lqp$a;

@@ -1,0 +1,45 @@
+CLASS ccb net/minecraft/world/level/chunk/storage/RegionFile
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b PADDING_BUFFER Ljava/nio/ByteBuffer;
+	FIELD c file Ljava/nio/channels/FileChannel;
+	FIELD d externalFileDir Ljava/nio/file/Path;
+	FIELD e version Lccd;
+	FIELD f header Ljava/nio/ByteBuffer;
+	FIELD g offsets Ljava/nio/IntBuffer;
+	FIELD h timestamps Ljava/nio/IntBuffer;
+	FIELD i usedSectors Lcca;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;Ljava/io/File;)V
+	METHOD <init> <init> (Ljava/nio/file/Path;Ljava/nio/file/Path;Lccd;)V
+	METHOD a createExternalStub ()Ljava/nio/ByteBuffer;
+	METHOD a isExternalStreamChunk (B)Z
+	METHOD a getNumSectors (I)I
+	METHOD a packSectorOffset (II)I
+	METHOD a getChunkDataInputStream (Lbjq;)Ljava/io/DataInputStream;
+	METHOD a createExternalChunkInputStream (Lbjq;B)Ljava/io/DataInputStream;
+	METHOD a createChunkInputStream (Lbjq;BLjava/io/InputStream;)Ljava/io/DataInputStream;
+	METHOD a write (Lbjq;Ljava/nio/ByteBuffer;)V
+	METHOD a access$000 (Lccb;)Lccd;
+	METHOD a createStream (Ljava/nio/ByteBuffer;I)Ljava/io/ByteArrayInputStream;
+	METHOD a writeToExternalFile (Ljava/nio/file/Path;Ljava/nio/ByteBuffer;)Lccb$b;
+	METHOD a lambda$writeToExternalFile$1 (Ljava/nio/file/Path;Ljava/nio/file/Path;)V
+	METHOD b writeHeader ()V
+	METHOD b getExternalChunkVersion (B)B
+	METHOD b getSectorNumber (I)I
+	METHOD b doesChunkExist (Lbjq;)Z
+	METHOD c padToFullSector ()V
+	METHOD c sizeToSectors (I)I
+	METHOD c getChunkDataOutputStream (Lbjq;)Ljava/io/DataOutputStream;
+	METHOD close close ()V
+	METHOD d hasChunk (Lbjq;)Z
+	METHOD e getExternalChunkPath (Lbjq;)Ljava/nio/file/Path;
+	METHOD f getOffset (Lbjq;)I
+	METHOD g getOffsetIndex (Lbjq;)I
+	METHOD h lambda$write$0 (Lbjq;)V
+	CLASS a ChunkBuffer
+		FIELD a this$0 Lccb;
+		FIELD b pos Lbjq;
+		METHOD <init> <init> (Lccb;Lbjq;)V
+		METHOD close close ()V
+	CLASS b CommitOp
+		METHOD run run ()V

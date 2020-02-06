@@ -1,0 +1,15 @@
+CLASS bvu net/minecraft/world/level/block/StructureBlock
+	FIELD a MODE Lcaf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a newBlockEntity (Lbjp;)Lbxj;
+	METHOD a setPlacedBy (Lbkf;Lfk;Lbzh;Lalh;Lbew;)V
+	METHOD a trigger (Lbyj;)V
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a neighborChanged (Lbzh;Lbkf;Lfk;Lbpy;Lfk;Z)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD c getRenderShape (Lbzh;)Lbul;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$state$properties$StructureMode [I
+		METHOD <clinit> <clinit> ()V

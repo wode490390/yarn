@@ -1,0 +1,25 @@
+CLASS atj net/minecraft/world/entity/animal/AbstractSchoolingFish
+	FIELD b leader Latj;
+	FIELD c schoolSize I
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD a startFollowing (Latj;)Latj;
+	METHOD a finalizeSpawn (Lbkg;Lajq;Lalk;Lalu;Ljt;)Lalu;
+	METHOD a addFollowers (Ljava/util/stream/Stream;)V
+	METHOD b lambda$addFollowers$1 (Latj;)V
+	METHOD c lambda$addFollowers$0 (Latj;)Z
+	METHOD dX getMaxSpawnClusterSize ()I
+	METHOD eA removeFollower ()V
+	METHOD eq canRandomSwim ()Z
+	METHOD es getMaxSchoolSize ()I
+	METHOD et isFollower ()Z
+	METHOD eu stopFollowing ()V
+	METHOD ev canBeFollowed ()Z
+	METHOD ew hasFollowers ()Z
+	METHOD ex inRangeOfLeader ()Z
+	METHOD ey pathToLeader ()V
+	METHOD ez addFollower ()V
+	METHOD h tick ()V
+	METHOD n registerGoals ()V
+	CLASS a SchoolSpawnGroupData
+		FIELD a leader Latj;
+		METHOD <init> <init> (Latj;)V

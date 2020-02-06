@@ -1,0 +1,3 @@
+CLASS bxr net/minecraft/world/level/block/entity/DaylightDetectorBlockEntity
+	METHOD <init> <init> ()V
+	METHOD Z_ tick ()V

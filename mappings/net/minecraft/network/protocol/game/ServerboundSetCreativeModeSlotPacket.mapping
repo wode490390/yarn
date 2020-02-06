@@ -1,0 +1,11 @@
+CLASS qv net/minecraft/network/protocol/game/ServerboundSetCreativeModeSlotPacket
+	FIELD a slotNum I
+	FIELD b itemStack Lbew;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILbew;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getSlotNum ()I
+	METHOD b write (Lkv;)V
+	METHOD c getItem ()Lbew;

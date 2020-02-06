@@ -1,0 +1,5 @@
+CLASS bey net/minecraft/world/item/KnowledgeBookItem
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;

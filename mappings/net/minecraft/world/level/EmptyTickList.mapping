@@ -1,0 +1,11 @@
+CLASS bjw net/minecraft/world/level/EmptyTickList
+	FIELD a INSTANCE Lbjw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a size ()I
+	METHOD a hasScheduledTick (Lfk;Ljava/lang/Object;)Z
+	METHOD a scheduleTick (Lfk;Ljava/lang/Object;I)V
+	METHOD a scheduleTick (Lfk;Ljava/lang/Object;ILbkw;)V
+	METHOD a addAll (Ljava/util/stream/Stream;)V
+	METHOD b empty ()Lbjw;
+	METHOD b willTickThisTick (Lfk;Ljava/lang/Object;)Z

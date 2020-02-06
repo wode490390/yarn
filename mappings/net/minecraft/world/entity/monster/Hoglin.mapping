@@ -1,0 +1,5 @@
+CLASS axb net/minecraft/world/entity/monster/Hoglin
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD b checkHoglinSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD cA registerAttributes ()V
+	METHOD n registerGoals ()V

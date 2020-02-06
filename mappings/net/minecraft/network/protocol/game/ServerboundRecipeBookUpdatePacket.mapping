@@ -1,0 +1,36 @@
+CLASS qm net/minecraft/network/protocol/game/ServerboundRecipeBookUpdatePacket
+	FIELD a purpose Lqm$a;
+	FIELD b recipe Lsm;
+	FIELD c guiOpen Z
+	FIELD d filteringCraftable Z
+	FIELD e furnaceGuiOpen Z
+	FIELD f furnaceFilteringCraftable Z
+	FIELD g blastFurnaceGuiOpen Z
+	FIELD h blastFurnaceFilteringCraftable Z
+	FIELD i smokerGuiOpen Z
+	FIELD j smokerFilteringCraftable Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbhf;)V
+	METHOD <init> <init> (ZZZZZZ)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getPurpose ()Lqm$a;
+	METHOD b write (Lkv;)V
+	METHOD c getRecipe ()Lsm;
+	METHOD d isGuiOpen ()Z
+	METHOD e isFilteringCraftable ()Z
+	METHOD f isFurnaceGuiOpen ()Z
+	METHOD g isFurnaceFilteringCraftable ()Z
+	METHOD h isBlastFurnaceGuiOpen ()Z
+	METHOD i isBlastFurnaceFilteringCraftable ()Z
+	METHOD j isSmokerGuiOpen ()Z
+	METHOD k isSmokerFilteringCraftable ()Z
+	CLASS a Purpose
+		FIELD a SHOWN Lqm$a;
+		FIELD b SETTINGS Lqm$a;
+		FIELD c $VALUES [Lqm$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lqm$a;
+		METHOD values values ()[Lqm$a;

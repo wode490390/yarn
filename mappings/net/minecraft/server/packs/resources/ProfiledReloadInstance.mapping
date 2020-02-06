@@ -1,0 +1,28 @@
+CLASS yy net/minecraft/server/packs/resources/ProfiledReloadInstance
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e total Lcom/google/common/base/Stopwatch;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lzc;Ljava/util/List;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)V
+	METHOD a lambda$null$4 (Ljava/lang/Runnable;Ljava/util/concurrent/atomic/AtomicLong;)V
+	METHOD a finish (Ljava/util/List;)V
+	METHOD a lambda$null$5 (Ljava/util/concurrent/Executor;Ljava/util/concurrent/atomic/AtomicLong;Ljava/lang/Runnable;)V
+	METHOD a lambda$new$7 (Ljava/util/concurrent/Executor;Lyx$a;Lzc;Lyx;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$null$6 (Lyx;Lain;Lain;Ljava/util/concurrent/atomic/AtomicLong;Ljava/util/concurrent/atomic/AtomicLong;Ljava/lang/Void;)Lyy$a;
+	METHOD b lambda$null$2 (Ljava/lang/Runnable;Ljava/util/concurrent/atomic/AtomicLong;)V
+	METHOD b lambda$null$3 (Ljava/util/concurrent/Executor;Ljava/util/concurrent/atomic/AtomicLong;Ljava/lang/Runnable;)V
+	METHOD f lambda$null$1 ()I
+	METHOD g lambda$null$0 ()I
+	CLASS 1 1
+	CLASS a State
+		FIELD a name Ljava/lang/String;
+		FIELD b preparationResult Lait;
+		FIELD c reloadResult Lait;
+		FIELD d preparationNanos Ljava/util/concurrent/atomic/AtomicLong;
+		FIELD e reloadNanos Ljava/util/concurrent/atomic/AtomicLong;
+		METHOD <init> <init> (Ljava/lang/String;Lait;Lait;Ljava/util/concurrent/atomic/AtomicLong;Ljava/util/concurrent/atomic/AtomicLong;)V
+		METHOD <init> <init> (Ljava/lang/String;Lait;Lait;Ljava/util/concurrent/atomic/AtomicLong;Ljava/util/concurrent/atomic/AtomicLong;Lyy$1;)V
+		METHOD a access$000 (Lyy$a;)Lait;
+		METHOD b access$100 (Lyy$a;)Lait;
+		METHOD c access$200 (Lyy$a;)Ljava/util/concurrent/atomic/AtomicLong;
+		METHOD d access$300 (Lyy$a;)Ljava/util/concurrent/atomic/AtomicLong;
+		METHOD e access$400 (Lyy$a;)Ljava/lang/String;

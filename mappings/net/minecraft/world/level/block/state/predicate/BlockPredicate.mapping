@@ -1,0 +1,6 @@
+CLASS bzq net/minecraft/world/level/block/state/predicate/BlockPredicate
+	FIELD a block Lbpy;
+	METHOD <init> <init> (Lbpy;)V
+	METHOD a forBlock (Lbpy;)Lbzq;
+	METHOD a test (Lbzh;)Z
+	METHOD test test (Ljava/lang/Object;)Z

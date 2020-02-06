@@ -1,0 +1,5 @@
+CLASS asl net/minecraft/world/entity/ai/sensing/SecondaryPoiSensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Lxe;Lalh;)V
+	METHOD a doTick (Lxe;Layf;)V

@@ -1,0 +1,6 @@
+CLASS aly net/minecraft/world/entity/ai/attributes/Attribute
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a sanitizeValue (D)D
+	METHOD b getDefaultValue ()D
+	METHOD c isClientSyncable ()Z
+	METHOD d getParentAttribute ()Laly;

@@ -1,0 +1,17 @@
+CLASS dg net/minecraft/commands/arguments/ObjectiveArgument
+	FIELD a ERROR_OBJECTIVE_NAME_TOO_LONG Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD b EXAMPLES Ljava/util/Collection;
+	FIELD c ERROR_OBJECTIVE_NOT_FOUND Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD d ERROR_OBJECTIVE_READ_ONLY Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a objective ()Ldg;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/String;
+	METHOD a getObjective (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcxr;
+	METHOD a lambda$static$2 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD b getWritableObjective (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcxr;
+	METHOD b lambda$static$1 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD c lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

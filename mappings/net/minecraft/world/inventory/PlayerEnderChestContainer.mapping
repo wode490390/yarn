@@ -1,0 +1,9 @@
+CLASS bcb net/minecraft/world/inventory/PlayerEnderChestContainer
+	FIELD a activeChest Lbxv;
+	METHOD <init> <init> ()V
+	METHOD a stillValid (Lays;)Z
+	METHOD a setActiveChest (Lbxv;)V
+	METHOD a fromTag (Ljz;)V
+	METHOD a_ startOpen (Lays;)V
+	METHOD b_ stopOpen (Lays;)V
+	METHOD f createTag ()Ljz;

@@ -1,0 +1,6 @@
+CLASS brp net/minecraft/world/level/block/EndGatewayBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a newBlockEntity (Lbjp;)Lbxj;
+	METHOD a getCloneItemStack (Lbjp;Lfk;Lbzh;)Lbew;
+	METHOD a animateTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;)V
+	METHOD a canBeReplaced (Lbzh;Lcps;)Z

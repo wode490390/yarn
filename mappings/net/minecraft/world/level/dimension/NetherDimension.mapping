@@ -1,0 +1,17 @@
+CLASS cci net/minecraft/world/level/dimension/NetherDimension
+	METHOD <init> <init> (Lbkf;Lcch;)V
+	METHOD a getBrightnessDependentFogColor (IF)Lcwu;
+	METHOD a isFoggyAt (II)Z
+	METHOD a getValidSpawnPosition (IIZ)Lfk;
+	METHOD a getTimeOfDay (JF)F
+	METHOD a getSpawnPosInChunk (Lbjq;Z)Lfk;
+	METHOD h createWorldBorder ()Lcav;
+	METHOD k createRandomLevelGenerator ()Lcaz;
+	METHOD l isNaturalDimension ()Z
+	METHOD m mayRespawn ()Z
+	METHOD n getType ()Lcch;
+	CLASS 1 1
+		FIELD a this$0 Lcci;
+		METHOD <init> <init> (Lcci;)V
+		METHOD g getCenterX ()D
+		METHOD h getCenterZ ()D

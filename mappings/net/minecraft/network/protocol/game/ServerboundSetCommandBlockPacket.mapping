@@ -1,0 +1,19 @@
+CLASS qt net/minecraft/network/protocol/game/ServerboundSetCommandBlockPacket
+	FIELD a pos Lfk;
+	FIELD b command Ljava/lang/String;
+	FIELD c trackOutput Z
+	FIELD d conditional Z
+	FIELD e automatic Z
+	FIELD f mode Lbxo$a;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lfk;Ljava/lang/String;Lbxo$a;ZZZ)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getPos ()Lfk;
+	METHOD b write (Lkv;)V
+	METHOD c getCommand ()Ljava/lang/String;
+	METHOD d isTrackOutput ()Z
+	METHOD e isConditional ()Z
+	METHOD f isAutomatic ()Z
+	METHOD g getMode ()Lbxo$a;

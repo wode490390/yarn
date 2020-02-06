@@ -1,0 +1,17 @@
+CLASS jk net/minecraft/gametest/framework/TestFunction
+	FIELD a batchName Ljava/lang/String;
+	FIELD b testName Ljava/lang/String;
+	FIELD c structureName Ljava/lang/String;
+	FIELD d required Z
+	FIELD e function Ljava/util/function/Consumer;
+	FIELD f maxTicks I
+	FIELD g setupTicks J
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IJZLjava/util/function/Consumer;)V
+	METHOD a getTestName ()Ljava/lang/String;
+	METHOD a run (Liv;)V
+	METHOD b getStructureName ()Ljava/lang/String;
+	METHOD c getMaxTicks ()I
+	METHOD d isRequired ()Z
+	METHOD e getBatchName ()Ljava/lang/String;
+	METHOD f getSetupTicks ()J
+	METHOD toString toString ()Ljava/lang/String;

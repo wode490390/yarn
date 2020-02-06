@@ -1,0 +1,16 @@
+CLASS azu net/minecraft/world/entity/projectile/WitherSkull
+	FIELD f DATA_DANGEROUS Lsb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDDDDD)V
+	METHOD <init> <init> (Lbkf;Lalh;DDD)V
+	METHOD M_ shouldBurn ()Z
+	METHOD a hurt (Lakh;F)Z
+	METHOD a getBlockExplosionResistance (Lbjy;Lbjp;Lfk;Lbzh;Lcpt;F)F
+	METHOD a onHit (Lcwr;)V
+	METHOD a setDangerous (Z)V
+	METHOD aK isPickable ()Z
+	METHOD bf isOnFire ()Z
+	METHOD k getInertia ()F
+	METHOD l isDangerous ()Z
+	METHOD w_ defineSynchedData ()V

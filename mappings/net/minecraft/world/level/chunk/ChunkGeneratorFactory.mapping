@@ -1,0 +1,2 @@
+CLASS cba net/minecraft/world/level/chunk/ChunkGeneratorFactory
+	METHOD create create (Lbkf;Lblg;Lccp;)Lcaz;

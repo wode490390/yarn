@@ -1,0 +1,15 @@
+CLASS bac net/minecraft/world/entity/schedule/Schedule
+	FIELD a EMPTY Lbac;
+	FIELD b SIMPLE Lbac;
+	FIELD c VILLAGER_BABY Lbac;
+	FIELD d VILLAGER_DEFAULT Lbac;
+	FIELD e timelines Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getActivityAt (I)Lbaa;
+	METHOD a lambda$getActivityAt$1 (ILjava/util/Map$Entry;)D
+	METHOD a ensureTimelineExistsFor (Lbaa;)V
+	METHOD a lambda$getAllTimelinesExceptFor$0 (Lbaa;Ljava/util/Map$Entry;)Z
+	METHOD a register (Ljava/lang/String;)Lbad;
+	METHOD b getTimelineFor (Lbaa;)Lbae;
+	METHOD c getAllTimelinesExceptFor (Lbaa;)Ljava/util/List;

@@ -1,0 +1,7 @@
+CLASS dz net/minecraft/commands/arguments/coordinates/Coordinates
+	METHOD a isXRelative ()Z
+	METHOD a getPosition (Lcq;)Lcwu;
+	METHOD b isYRelative ()Z
+	METHOD b getRotation (Lcq;)Lcwt;
+	METHOD c isZRelative ()Z
+	METHOD c getBlockPos (Lcq;)Lfk;

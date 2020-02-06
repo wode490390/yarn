@@ -1,0 +1,12 @@
+CLASS aqf net/minecraft/world/entity/ai/goal/OfferFlowerGoal
+	FIELD a OFFER_TARGER_CONTEXT Lass;
+	FIELD b golem Latt;
+	FIELD c villager Layf;
+	FIELD d tick I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Latt;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

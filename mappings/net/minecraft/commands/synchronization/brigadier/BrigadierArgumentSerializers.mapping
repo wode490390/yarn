@@ -1,0 +1,6 @@
+CLASS fa net/minecraft/commands/synchronization/brigadier/BrigadierArgumentSerializers
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V
+	METHOD a numberHasMin (B)Z
+	METHOD a createNumberFlags (ZZ)B
+	METHOD b numberHasMax (B)Z

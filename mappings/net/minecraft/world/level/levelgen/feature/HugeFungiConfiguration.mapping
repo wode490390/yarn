@@ -1,0 +1,8 @@
+CLASS cfa net/minecraft/world/level/levelgen/feature/HugeFungiConfiguration
+	FIELD a stemState Lbzh;
+	FIELD b hatState Lbzh;
+	FIELD c decorState Lbzh;
+	FIELD d planted Z
+	METHOD <init> <init> (Lbzh;Lbzh;Lbzh;Z)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcfa;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

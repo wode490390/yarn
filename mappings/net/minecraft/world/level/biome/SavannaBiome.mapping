@@ -1,0 +1,2 @@
+CLASS bnq net/minecraft/world/level/biome/SavannaBiome
+	METHOD <init> <init> ()V

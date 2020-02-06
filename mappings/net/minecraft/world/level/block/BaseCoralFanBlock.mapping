@@ -1,0 +1,5 @@
+CLASS bpi net/minecraft/world/level/block/BaseCoralFanBlock
+	FIELD a AABB Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;

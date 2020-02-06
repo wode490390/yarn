@@ -1,0 +1,9 @@
+CLASS rc net/minecraft/network/protocol/game/ServerboundUseItemPacket
+	FIELD a hand Lajr;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lajr;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getHand ()Lajr;
+	METHOD b write (Lkv;)V

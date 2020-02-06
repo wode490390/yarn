@@ -1,0 +1,6 @@
+CLASS clh net/minecraft/world/level/levelgen/placement/FrequencyChanceDecoratorConfiguration
+	FIELD a count I
+	FIELD b chance F
+	METHOD <init> <init> (IF)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lclh;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

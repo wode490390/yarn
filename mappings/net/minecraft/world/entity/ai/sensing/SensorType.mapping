@@ -1,0 +1,16 @@
+CLASS aso net/minecraft/world/entity/ai/sensing/SensorType
+	FIELD a DUMMY Laso;
+	FIELD b NEAREST_LIVING_ENTITIES Laso;
+	FIELD c NEAREST_PLAYERS Laso;
+	FIELD d INTERACTABLE_DOORS Laso;
+	FIELD e NEAREST_BED Laso;
+	FIELD f HURT_BY Laso;
+	FIELD g VILLAGER_HOSTILES Laso;
+	FIELD h VILLAGER_BABIES Laso;
+	FIELD i SECONDARY_POIS Laso;
+	FIELD j GOLEM_LAST_SEEN Laso;
+	FIELD k factory Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Supplier;)V
+	METHOD a create ()Lasn;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Supplier;)Laso;

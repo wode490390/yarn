@@ -1,0 +1,20 @@
+CLASS axf net/minecraft/world/entity/monster/Monster
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD J shouldDespawnInPeaceful ()Z
+	METHOD a hurt (Lakh;F)Z
+	METHOD a isDarkEnoughToSpawn (Lbkg;Lfk;Ljava/util/Random;)Z
+	METHOD a getWalkTargetValue (Lfk;Lbki;)F
+	METHOD am getSwimSound ()Laai;
+	METHOD an getSwimSplashSound ()Laai;
+	METHOD c checkMonsterSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD cA registerAttributes ()V
+	METHOD cE shouldDropExperience ()Z
+	METHOD cX getDeathSound ()Laai;
+	METHOD cl getSoundSource ()Laak;
+	METHOD d checkAnyLightMonsterSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD e isPreventingPlayerRest (Lays;)Z
+	METHOD ew updateNoActionTime ()V
+	METHOD f getProjectile (Lbew;)Lbew;
+	METHOD k aiStep ()V
+	METHOD o getFallDamageSound (I)Laai;

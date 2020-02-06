@@ -1,0 +1,3 @@
+CLASS bbo net/minecraft/world/inventory/FurnaceMenu
+	METHOD <init> <init> (ILayr;)V
+	METHOD <init> <init> (ILayr;Lajl;Lbbf;)V

@@ -1,0 +1,21 @@
+CLASS ayt net/minecraft/world/entity/player/PlayerModelPart
+	FIELD a CAPE Layt;
+	FIELD b JACKET Layt;
+	FIELD c LEFT_SLEEVE Layt;
+	FIELD d RIGHT_SLEEVE Layt;
+	FIELD e LEFT_PANTS_LEG Layt;
+	FIELD f RIGHT_PANTS_LEG Layt;
+	FIELD g HAT Layt;
+	FIELD h bit I
+	FIELD i mask I
+	FIELD j id Ljava/lang/String;
+	FIELD k name Llf;
+	FIELD l $VALUES [Layt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+	METHOD a getMask ()I
+	METHOD b getBit ()I
+	METHOD c getId ()Ljava/lang/String;
+	METHOD d getName ()Llf;
+	METHOD valueOf valueOf (Ljava/lang/String;)Layt;
+	METHOD values values ()[Layt;

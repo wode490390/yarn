@@ -1,0 +1,9 @@
+CLASS chq net/minecraft/world/level/levelgen/feature/configurations/DiskConfiguration
+	FIELD a state Lbzh;
+	FIELD b radius I
+	FIELD c ySize I
+	FIELD d targets Ljava/util/List;
+	METHOD <init> <init> (Lbzh;IILjava/util/List;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lchq;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lbzh;)Ljava/lang/Object;

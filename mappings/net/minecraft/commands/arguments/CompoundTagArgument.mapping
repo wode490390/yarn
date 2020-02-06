@@ -1,0 +1,9 @@
+CLASS cv net/minecraft/commands/arguments/CompoundTagArgument
+	FIELD a EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a compoundTag ()Lcv;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ljt;
+	METHOD a getCompoundTag (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljt;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

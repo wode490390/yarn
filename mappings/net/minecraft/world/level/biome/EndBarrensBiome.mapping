@@ -1,0 +1,3 @@
+CLASS bmc net/minecraft/world/level/biome/EndBarrensBiome
+	METHOD <init> <init> ()V
+	METHOD c getSkyColor ()I

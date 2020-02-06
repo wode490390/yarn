@@ -1,0 +1,4 @@
+CLASS clz net/minecraft/world/level/levelgen/placement/nether/FireDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Ljava/util/Random;Lchp;Lfk;)Ljava/util/stream/Stream;
+	METHOD a place (Ljava/util/Random;Lcli;Lfk;)Ljava/util/stream/Stream;

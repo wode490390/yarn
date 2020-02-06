@@ -1,0 +1,9 @@
+CLASS cgy net/minecraft/world/level/levelgen/feature/WeepingVinesFeature
+	FIELD a DIRECTIONS [Lfp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lcia;)Z
+	METHOD a placeWeepingVinesColumn (Lbkg;Ljava/util/Random;Lfk$a;III)V
+	METHOD a placeRoofNetherWart (Lbkg;Ljava/util/Random;Lfk;)V
+	METHOD b placeRoofWeepingVines (Lbkg;Ljava/util/Random;Lfk;)V

@@ -1,0 +1,15 @@
+CLASS cop net/minecraft/world/level/levelgen/surfacebuilders/SoulSandValleySurfaceBuilder
+	FIELD a GRAVEL Lbzh;
+	FIELD ac soulSoilNoiseFloor Lcox;
+	FIELD ad soulSandNoiseCeiling Lcox;
+	FIELD ae soulSoilNoiseCeiling Lcox;
+	FIELD af gravelNoise Lcox;
+	FIELD b SOUL_SAND Lbzh;
+	FIELD c SOUL_SOIL Lbzh;
+	FIELD d seed J
+	FIELD e soulSandNoiseFloor Lcox;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a initNoise (J)V
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJLcor;)V
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJLcos;)V

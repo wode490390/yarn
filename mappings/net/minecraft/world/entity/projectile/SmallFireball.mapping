@@ -1,0 +1,7 @@
+CLASS azk net/minecraft/world/entity/projectile/SmallFireball
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDDDDD)V
+	METHOD <init> <init> (Lbkf;Lalh;DDD)V
+	METHOD a hurt (Lakh;F)Z
+	METHOD a onHit (Lcwr;)V
+	METHOD aK isPickable ()Z

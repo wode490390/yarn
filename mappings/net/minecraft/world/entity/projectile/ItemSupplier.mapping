@@ -1,0 +1,2 @@
+CLASS aze net/minecraft/world/entity/projectile/ItemSupplier
+	METHOD f getItem ()Lbew;

@@ -1,0 +1,25 @@
+CLASS bcj net/minecraft/world/inventory/Slot
+	FIELD a slot I
+	FIELD c container Lajl;
+	FIELD d index I
+	FIELD e x I
+	FIELD f y I
+	METHOD <init> <init> (Lajl;III)V
+	METHOD a getMaxStackSize ()I
+	METHOD a remove (I)Lbew;
+	METHOD a isAt (Lajl;I)Z
+	METHOD a mayPickup (Lays;)Z
+	METHOD a onTake (Lays;Lbew;)Lbew;
+	METHOD a swap (Lbcj;)V
+	METHOD a mayPlace (Lbew;)Z
+	METHOD a onQuickCraft (Lbew;I)V
+	METHOD a onQuickCraft (Lbew;Lbew;)V
+	METHOD b isActive ()Z
+	METHOD b onSwapCraft (I)V
+	METHOD b getMaxStackSize (Lbew;)I
+	METHOD c getNoItemIcon ()Lcom/mojang/datafixers/util/Pair;
+	METHOD c checkTakeAchievements (Lbew;)V
+	METHOD d setChanged ()V
+	METHOD d set (Lbew;)V
+	METHOD e getItem ()Lbew;
+	METHOD f hasItem ()Z

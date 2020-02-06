@@ -1,0 +1,5 @@
+CLASS ah net/minecraft/advancements/critereon/AbstractCriterionTriggerInstance
+	FIELD a criterion Lsm;
+	METHOD <init> <init> (Lsm;)V
+	METHOD a getCriterion ()Lsm;
+	METHOD toString toString ()Ljava/lang/String;

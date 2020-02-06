@@ -1,0 +1,89 @@
+CLASS aub net/minecraft/world/entity/animal/Rabbit
+	FIELD bA wasOnGround Z
+	FIELD bB jumpDelayTicks I
+	FIELD bC moreCarrotTicks I
+	FIELD bw DATA_TYPE_ID Lsb;
+	FIELD bx KILLER_BUNNY Lsm;
+	FIELD by jumpTicks I
+	FIELD bz jumpDuration I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD B doHurtTarget (Laky;)Z
+	METHOD G getAmbientSound ()Laai;
+	METHOD a handleEntityEvent (B)V
+	METHOD a hurt (Lakh;F)Z
+	METHOD a getBreedOffspring (Lakw;)Lakw;
+	METHOD a access$000 (Laub;)Z
+	METHOD a access$302 (Laub;I)I
+	METHOD a getRandomRabbitType (Lbkg;)I
+	METHOD a finalizeSpawn (Lbkg;Lajq;Lalk;Lalu;Ljt;)Lalu;
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD aE updateSprintingState ()V
+	METHOD a_ setJumping (Z)V
+	METHOD b facePoint (DD)V
+	METHOD b getBreedOffspring (Lakw;)Laub;
+	METHOD b access$100 (Laub;)Laos;
+	METHOD b isTemptingItem (Lber;)Z
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD c checkRabbitSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD c access$200 (Laub;)Z
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD cl getSoundSource ()Laak;
+	METHOD dT customServerAiStep ()V
+	METHOD dp getJumpPower ()F
+	METHOD dq jumpFromGround ()V
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD eA checkLandingDelay ()V
+	METHOD eB wantsMoreFood ()Z
+	METHOD eq startJumping ()V
+	METHOD er getJumpSound ()Laai;
+	METHOD es getRabbitType ()I
+	METHOD et enableJumpControl ()V
+	METHOD eu disableJumpControl ()V
+	METHOD ez setLandingDelay ()V
+	METHOD i setSpeedModifier (D)V
+	METHOD i isFood (Lbew;)Z
+	METHOD k aiStep ()V
+	METHOD n registerGoals ()V
+	METHOD t setRabbitType (I)V
+	METHOD u getJumpCompletion (F)F
+	METHOD w_ defineSynchedData ()V
+	CLASS a EvilRabbitAttackGoal
+		METHOD <init> <init> (Laub;)V
+		METHOD a getAttackReachSqr (Lalh;)D
+	CLASS b RabbitAvoidEntityGoal
+		FIELD i rabbit Laub;
+		METHOD <init> <init> (Laub;Ljava/lang/Class;FDD)V
+		METHOD a canUse ()Z
+	CLASS c RabbitGroupData
+		FIELD a rabbitType I
+		METHOD <init> <init> (I)V
+	CLASS d RabbitJumpControl
+		FIELD b this$0 Laub;
+		FIELD c rabbit Laub;
+		FIELD d canJump Z
+		METHOD <init> <init> (Laub;Laub;)V
+		METHOD a setCanJump (Z)V
+		METHOD b tick ()V
+		METHOD c wantJump ()Z
+		METHOD d canJump ()Z
+	CLASS e RabbitMoveControl
+		FIELD i rabbit Laub;
+		FIELD j nextJumpSpeed D
+		METHOD <init> <init> (Laub;)V
+		METHOD a tick ()V
+		METHOD a setWantedPosition (DDDD)V
+	CLASS f RabbitPanicGoal
+		FIELD f rabbit Laub;
+		METHOD <init> <init> (Laub;D)V
+		METHOD e tick ()V
+	CLASS g RaidGardenGoal
+		FIELD g rabbit Laub;
+		FIELD h wantsToRaid Z
+		FIELD i canRaid Z
+		METHOD <init> <init> (Laub;)V
+		METHOD a canUse ()Z
+		METHOD a isValidTarget (Lbki;Lfk;)Z
+		METHOD b canContinueToUse ()Z
+		METHOD e tick ()V

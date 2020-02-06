@@ -1,0 +1,14 @@
+CLASS ant net/minecraft/world/entity/ai/behavior/SetWalkTargetFromBlockMemory
+	FIELD a memoryType Lart;
+	FIELD b speed F
+	FIELD c closeEnoughDist I
+	FIELD d tooFarDistance I
+	FIELD e tooLongUnreachableDuration I
+	METHOD <init> <init> (Lart;FIII)V
+	METHOD a dropPOI (Layf;J)V
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD a tiredOfTryingToFindTarget (Lxe;Layf;)Z
+	METHOD a start (Lxe;Layf;J)V
+	METHOD a lambda$start$0 (Lxe;Layf;JLalx;Lfr;)V
+	METHOD a tooFar (Lxe;Layf;Lfr;)Z
+	METHOD b closeEnough (Lxe;Layf;Lfr;)Z

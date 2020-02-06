@@ -1,0 +1,4 @@
+CLASS bof net/minecraft/world/level/biome/SwampHillsBiome
+	METHOD <init> <init> ()V
+	METHOD a getFoliageColor ()I
+	METHOD a getGrassColor (DD)I

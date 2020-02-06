@@ -1,0 +1,10 @@
+CLASS cju net/minecraft/world/level/levelgen/feature/treedecorators/AlterGroundDecorator
+	FIELD b provider Lcjb;
+	METHOD <init> <init> (Lcjb;)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a lambda$place$0 (ILfk;)Z
+	METHOD a lambda$place$1 (Lbkg;Ljava/util/Random;Lfk;)V
+	METHOD a place (Lbkg;Ljava/util/Random;Ljava/util/List;Ljava/util/List;Ljava/util/Set;Lcmg;)V
+	METHOD a placeCircle (Lbkk;Ljava/util/Random;Lfk;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD b placeBlockAt (Lbkk;Ljava/util/Random;Lfk;)V

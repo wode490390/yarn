@@ -1,0 +1,8 @@
+CLASS bdt net/minecraft/world/item/DyeItem
+	FIELD a ITEM_BY_COLOR Ljava/util/Map;
+	FIELD b dyeColor Lbds;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbds;Lber$a;)V
+	METHOD a byColor (Lbds;)Lbdt;
+	METHOD a interactEnemy (Lbew;Lays;Lalh;Lajr;)Z
+	METHOD d getDyeColor ()Lbds;

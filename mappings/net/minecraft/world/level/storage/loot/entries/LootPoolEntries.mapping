@@ -1,0 +1,15 @@
+CLASS ctx net/minecraft/world/level/storage/loot/entries/LootPoolEntries
+	FIELD a ID_TO_SERIALIZER Ljava/util/Map;
+	FIELD b CLASS_TO_SERIALIZER Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Ljava/util/Map;
+	METHOD a register (Lctz$b;)V
+	METHOD b access$100 ()Ljava/util/Map;
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lctz;
+		METHOD a serialize (Lctz;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a getSerializer (Ljava/lang/Class;)Lctz$b;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

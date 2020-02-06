@@ -1,0 +1,6 @@
+CLASS je net/minecraft/gametest/framework/LogTestReporter
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a onTestFailed (Liw;)V
+	METHOD b onTestSuccess (Liw;)V

@@ -1,0 +1,22 @@
+CLASS gr net/minecraft/core/particles/DustParticleOptions
+	FIELD a REDSTONE Lgr;
+	FIELD b DESERIALIZER Lgt$a;
+	FIELD c r F
+	FIELD d g F
+	FIELD e b F
+	FIELD f scale F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FFFF)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a writeToNetwork (Lkv;)V
+	METHOD b getType ()Lgu;
+	METHOD c getR ()F
+	METHOD d getG ()F
+	METHOD e getB ()F
+	METHOD f getScale ()F
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lgu;Lcom/mojang/brigadier/StringReader;)Lgr;
+		METHOD a fromNetwork (Lgu;Lkv;)Lgr;
+		METHOD b fromCommand (Lgu;Lcom/mojang/brigadier/StringReader;)Lgt;
+		METHOD b fromNetwork (Lgu;Lkv;)Lgt;

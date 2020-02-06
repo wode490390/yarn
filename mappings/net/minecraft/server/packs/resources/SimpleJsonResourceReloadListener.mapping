@@ -1,0 +1,10 @@
+CLASS ze net/minecraft/server/packs/resources/SimpleJsonResourceReloadListener
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b PATH_SUFFIX_LENGTH I
+	FIELD c gson Lcom/google/gson/Gson;
+	FIELD d directory Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/google/gson/Gson;Ljava/lang/String;)V
+	METHOD a lambda$prepare$0 (Ljava/lang/String;)Z
+	METHOD a prepare (Lzc;Laiu;)Ljava/util/Map;
+	METHOD b prepare (Lzc;Laiu;)Ljava/lang/Object;

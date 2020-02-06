@@ -1,0 +1,2 @@
+CLASS cej net/minecraft/world/level/levelgen/feature/DecoratedFlowerFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V

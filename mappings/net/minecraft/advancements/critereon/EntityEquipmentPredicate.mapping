@@ -1,0 +1,30 @@
+CLASS ay net/minecraft/advancements/critereon/EntityEquipmentPredicate
+	FIELD a ANY Lay;
+	FIELD b CAPTAIN Lay;
+	FIELD c head Lbj;
+	FIELD d chest Lbj;
+	FIELD e legs Lbj;
+	FIELD f feet Lbj;
+	FIELD g mainhand Lbj;
+	FIELD h offhand Lbj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbj;Lbj;Lbj;Lbj;Lbj;Lbj;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a matches (Laky;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lay;
+	CLASS a Builder
+		FIELD a head Lbj;
+		FIELD b chest Lbj;
+		FIELD c legs Lbj;
+		FIELD d feet Lbj;
+		FIELD e mainhand Lbj;
+		FIELD f offhand Lbj;
+		METHOD <init> <init> ()V
+		METHOD a equipment ()Lay$a;
+		METHOD a head (Lbj;)Lay$a;
+		METHOD b build ()Lay;
+		METHOD b chest (Lbj;)Lay$a;
+		METHOD c legs (Lbj;)Lay$a;
+		METHOD d feet (Lbj;)Lay$a;
+		METHOD e mainhand (Lbj;)Lay$a;
+		METHOD f offhand (Lbj;)Lay$a;

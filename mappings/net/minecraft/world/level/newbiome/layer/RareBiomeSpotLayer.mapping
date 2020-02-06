@@ -1,0 +1,10 @@
+CLASS cqx net/minecraft/world/level/newbiome/layer/RareBiomeSpotLayer
+	FIELD a INSTANCE Lcqx;
+	FIELD b PLAINS I
+	FIELD c SUNFLOWER_PLAINS I
+	FIELD d $VALUES [Lcqx;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcqh;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcqx;
+	METHOD values values ()[Lcqx;

@@ -1,0 +1,9 @@
+CLASS ca net/minecraft/advancements/critereon/SimpleCriterionTrigger
+	FIELD a players Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD a removePlayerListeners (Lsv;)V
+	METHOD a addPlayerListener (Lsv;Lab$a;)V
+	METHOD a trigger (Lsv;Ljava/util/function/Predicate;)V
+	METHOD b trigger (Lsv;)V
+	METHOD b removePlayerListener (Lsv;Lab$a;)V
+	METHOD c lambda$addPlayerListener$0 (Lsv;)Ljava/util/Set;

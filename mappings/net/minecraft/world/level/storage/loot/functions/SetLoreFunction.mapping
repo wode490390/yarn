@@ -1,0 +1,30 @@
+CLASS cuz net/minecraft/world/level/storage/loot/functions/SetLoreFunction
+	FIELD a replace Z
+	FIELD c lore Ljava/util/List;
+	FIELD d resolutionContext Lctg$c;
+	METHOD <init> <init> ([Lcvv;ZLjava/util/List;Lctg$c;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a getLoreTag (Lbew;Z)Ljz;
+	METHOD a access$000 (Lcuz;)Z
+	METHOD b setLore ()Lcuz$a;
+	METHOD b access$100 (Lcuz;)Ljava/util/List;
+	METHOD c access$200 (Lcuz;)Lctg$c;
+	CLASS a Builder
+		FIELD a replace Z
+		FIELD b resolutionContext Lctg$c;
+		FIELD c lore Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Lcuz$a;
+		METHOD a setResolutionContext (Lctg$c;)Lcuz$a;
+		METHOD a addLine (Llf;)Lcuz$a;
+		METHOD a setReplace (Z)Lcuz$a;
+		METHOD b build ()Lcur;
+		METHOD d getThis ()Lcuq$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuz;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuz;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

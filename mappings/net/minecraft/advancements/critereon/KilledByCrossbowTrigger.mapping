@@ -1,0 +1,18 @@
+CLASS bl net/minecraft/advancements/critereon/KilledByCrossbowTrigger
+	FIELD a ID Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lsm;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a trigger (Lxf;Ljava/util/Collection;I)V
+	METHOD a lambda$trigger$0 (Lxf;Ljava/util/Collection;ILbl$a;)Z
+	METHOD b access$000 ()Lsm;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbl$a;
+	CLASS a TriggerInstance
+		FIELD a victims [Lbb;
+		FIELD b uniqueEntityTypes Lbr$d;
+		METHOD <init> <init> ([Lbb;Lbr$d;)V
+		METHOD a crossbowKilled (Lbr$d;)Lbl$a;
+		METHOD a matches (Lxf;Ljava/util/Collection;I)Z
+		METHOD a crossbowKilled ([Lbb$a;)Lbl$a;
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

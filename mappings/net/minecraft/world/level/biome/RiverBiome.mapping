@@ -1,0 +1,2 @@
+CLASS bnp net/minecraft/world/level/biome/RiverBiome
+	METHOD <init> <init> ()V

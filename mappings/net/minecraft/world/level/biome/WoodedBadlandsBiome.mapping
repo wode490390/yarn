@@ -1,0 +1,4 @@
+CLASS bor net/minecraft/world/level/biome/WoodedBadlandsBiome
+	METHOD <init> <init> ()V
+	METHOD a getFoliageColor ()I
+	METHOD a getGrassColor (DD)I

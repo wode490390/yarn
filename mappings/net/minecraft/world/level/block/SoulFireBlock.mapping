@@ -1,0 +1,5 @@
+CLASS bvg net/minecraft/world/level/block/SoulFireBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD f canBurn (Lbzh;)Z

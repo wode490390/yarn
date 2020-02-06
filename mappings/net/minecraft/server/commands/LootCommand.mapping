@@ -1,0 +1,57 @@
+CLASS uj net/minecraft/server/commands/LootCommand
+	FIELD a SUGGEST_LOOT_TABLE Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD b ERROR_NO_HELD_ITEMS Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD c ERROR_NO_LOOT_TABLE Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a distributeToContainer (Lajl;Lbew;)Z
+	METHOD a setSlots (Laky;Ljava/util/List;IILjava/util/List;)V
+	METHOD a canMergeItems (Lbew;Lbew;)Z
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$14 (Lcom/mojang/brigadier/builder/ArgumentBuilder;Luj$b;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	METHOD a addTargets (Lcom/mojang/brigadier/builder/ArgumentBuilder;Luj$c;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	METHOD a dropKillLoot (Lcom/mojang/brigadier/context/CommandContext;Laky;Luj$b;)I
+	METHOD a lambda$static$0 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a dropBlockLoot (Lcom/mojang/brigadier/context/CommandContext;Lfk;Lbew;Luj$b;)I
+	METHOD a lambda$addTargets$21 (Lcom/mojang/brigadier/context/CommandContext;Ljava/util/List;Luj$a;)I
+	METHOD a drop (Lcom/mojang/brigadier/context/CommandContext;Lsm;Lctg;Luj$b;)I
+	METHOD a dropFishingLoot (Lcom/mojang/brigadier/context/CommandContext;Lsm;Lfk;Lbew;Luj$b;)I
+	METHOD a dropChestLoot (Lcom/mojang/brigadier/context/CommandContext;Lsm;Luj$b;)I
+	METHOD a lambda$register$3 (Lcq;)Z
+	METHOD a getSourceHandItem (Lcq;Lald;)Lbew;
+	METHOD a lambda$dropBlockLoot$23 (Lcq;Lbzh;Ljava/util/List;)V
+	METHOD a dropInWorld (Lcq;Lcwu;Ljava/util/List;Luj$a;)I
+	METHOD a getContainer (Lcq;Lfk;)Lajl;
+	METHOD a blockReplace (Lcq;Lfk;IILjava/util/List;Luj$a;)I
+	METHOD a blockDistribute (Lcq;Lfk;Ljava/util/List;Luj$a;)I
+	METHOD a callback (Lcq;Ljava/util/List;)V
+	METHOD a callback (Lcq;Ljava/util/List;Lsm;)V
+	METHOD a lambda$dropKillLoot$24 (Lcq;Lsm;Ljava/util/List;)V
+	METHOD a lambda$static$2 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a entityReplace (Ljava/util/Collection;IILjava/util/List;Luj$a;)I
+	METHOD a playerGive (Ljava/util/Collection;Ljava/util/List;Luj$a;)I
+	METHOD a lambda$null$13 (Luj$b;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$dropInWorld$22 (Lxe;Lcwu;Lbew;)V
+	METHOD b lambda$addTargets$20 (Lcom/mojang/brigadier/context/CommandContext;Ljava/util/List;Luj$a;)I
+	METHOD b lambda$drop$25 (Lcq;Ljava/util/List;)V
+	METHOD b lambda$static$1 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD b lambda$null$12 (Luj$b;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$addTargets$19 (Lcom/mojang/brigadier/context/CommandContext;Ljava/util/List;Luj$a;)I
+	METHOD c lambda$null$11 (Luj$b;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$addTargets$18 (Lcom/mojang/brigadier/context/CommandContext;Ljava/util/List;Luj$a;)I
+	METHOD d lambda$null$10 (Luj$b;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$addTargets$17 (Lcom/mojang/brigadier/context/CommandContext;Ljava/util/List;Luj$a;)I
+	METHOD e lambda$null$9 (Luj$b;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$addTargets$16 (Lcom/mojang/brigadier/context/CommandContext;Ljava/util/List;Luj$a;)I
+	METHOD f lambda$null$8 (Luj$b;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD g lambda$addTargets$15 (Lcom/mojang/brigadier/context/CommandContext;Ljava/util/List;Luj$a;)I
+	METHOD g lambda$null$7 (Luj$b;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD h lambda$null$6 (Luj$b;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD i lambda$null$5 (Luj$b;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD j lambda$null$4 (Luj$b;Lcom/mojang/brigadier/context/CommandContext;)I
+	CLASS a Callback
+		METHOD accept accept (Ljava/util/List;)V
+	CLASS b DropConsumer
+		METHOD accept accept (Lcom/mojang/brigadier/context/CommandContext;Ljava/util/List;Luj$a;)I
+	CLASS c TailProvider
+		METHOD construct construct (Lcom/mojang/brigadier/builder/ArgumentBuilder;Luj$b;)Lcom/mojang/brigadier/builder/ArgumentBuilder;

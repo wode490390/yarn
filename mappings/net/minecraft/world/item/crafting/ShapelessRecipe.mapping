@@ -1,0 +1,28 @@
+CLASS bhl net/minecraft/world/item/crafting/ShapelessRecipe
+	FIELD a id Lsm;
+	FIELD b group Ljava/lang/String;
+	FIELD c result Lbew;
+	FIELD d ingredients Lfy;
+	METHOD <init> <init> (Lsm;Ljava/lang/String;Lbew;Lfy;)V
+	METHOD W_ getSerializer ()Lbhh;
+	METHOD a getIngredients ()Lfy;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lajl;)Lbew;
+	METHOD a matches (Lajl;Lbkf;)Z
+	METHOD a assemble (Lbbi;)Lbew;
+	METHOD a matches (Lbbi;Lbkf;)Z
+	METHOD a access$000 (Lbhl;)Ljava/lang/String;
+	METHOD b access$100 (Lbhl;)Lfy;
+	METHOD c getResultItem ()Lbew;
+	METHOD c access$200 (Lbhl;)Lbew;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD f getId ()Lsm;
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a itemsFromJson (Lcom/google/gson/JsonArray;)Lfy;
+		METHOD a toNetwork (Lkv;Lbhf;)V
+		METHOD a toNetwork (Lkv;Lbhl;)V
+		METHOD a fromJson (Lsm;Lcom/google/gson/JsonObject;)Lbhf;
+		METHOD a fromNetwork (Lsm;Lkv;)Lbhf;
+		METHOD b fromJson (Lsm;Lcom/google/gson/JsonObject;)Lbhl;
+		METHOD b fromNetwork (Lsm;Lkv;)Lbhl;

@@ -1,0 +1,23 @@
+CLASS cr net/minecraft/commands/Commands
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b dispatcher Lcom/mojang/brigadier/CommandDispatcher;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a getDispatcher ()Lcom/mojang/brigadier/CommandDispatcher;
+	METHOD a getParseException (Lcom/mojang/brigadier/ParseResults;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+	METHOD a lambda$fillUsableCommands$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$new$1 (Lcom/mojang/brigadier/context/CommandContext;ZI)V
+	METHOD a lambda$new$0 (Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Ljava/util/Collection;)V
+	METHOD a fillUsableCommands (Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Lcq;Ljava/util/Map;)V
+	METHOD a performCommand (Lcq;Ljava/lang/String;)I
+	METHOD a createValidator (Lcr$a;)Ljava/util/function/Predicate;
+	METHOD a lambda$createValidator$6 (Lcr$a;Ljava/lang/String;)Z
+	METHOD a lambda$fillUsableCommands$4 (Lcs;)Z
+	METHOD a serializeTreeToFile (Ljava/io/File;)V
+	METHOD a literal (Ljava/lang/String;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+	METHOD a argument (Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+	METHOD a lambda$performCommand$2 (Ljava/lang/String;Lln;)V
+	METHOD a lambda$performCommand$3 (Llf;Lln;)V
+	METHOD a sendCommands (Lxf;)V
+	CLASS a ParseFunction
+		METHOD parse parse (Lcom/mojang/brigadier/StringReader;)V

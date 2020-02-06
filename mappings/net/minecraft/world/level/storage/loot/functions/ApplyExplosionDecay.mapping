@@ -1,0 +1,10 @@
+CLASS cug net/minecraft/world/level/storage/loot/functions/ApplyExplosionDecay
+	METHOD <init> <init> ([Lcvv;)V
+	METHOD <init> <init> ([Lcvv;Lcug$1;)V
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD b explosionDecay ()Lcuq$a;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcug;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

@@ -1,0 +1,12 @@
+CLASS civ net/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacer
+	FIELD a radius I
+	FIELD b radiusRandom I
+	FIELD c type Lciw;
+	METHOD <init> <init> (IILciw;)V
+	METHOD a getTreeRadiusForHeight (IIII)I
+	METHOD a createFoliage (Lbkk;Ljava/util/Random;Lcin;IIILfk;Ljava/util/Set;)V
+	METHOD a placeLeavesRow (Lbkk;Ljava/util/Random;Lcin;ILfk;IILjava/util/Set;)V
+	METHOD a placeLeaf (Lbkk;Ljava/util/Random;Lfk;Lcin;Ljava/util/Set;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a shouldSkipLocation (Ljava/util/Random;IIIII)Z
+	METHOD a foliageRadius (Ljava/util/Random;IILcin;)I

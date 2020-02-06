@@ -1,0 +1,3 @@
+CLASS jm net/minecraft/gametest/framework/TestReporter
+	METHOD a onTestFailed (Liw;)V
+	METHOD b onTestSuccess (Liw;)V

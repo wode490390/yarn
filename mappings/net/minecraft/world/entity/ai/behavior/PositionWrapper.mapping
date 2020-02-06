@@ -1,0 +1,4 @@
+CLASS anh net/minecraft/world/entity/ai/behavior/PositionWrapper
+	METHOD a getPos ()Lfk;
+	METHOD a isVisible (Lalh;)Z
+	METHOD b getLookAtPos ()Lcwu;

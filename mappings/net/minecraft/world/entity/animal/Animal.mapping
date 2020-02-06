@@ -1,0 +1,26 @@
+CLASS atk net/minecraft/world/entity/animal/Animal
+	FIELD bw inLove I
+	FIELD bx loveCause Ljava/util/UUID;
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD A getAmbientSoundInterval ()I
+	METHOD a handleEntityEvent (B)V
+	METHOD a hurt (Lakh;F)Z
+	METHOD a canMate (Latk;)Z
+	METHOD a mobInteract (Lays;Lajr;)Z
+	METHOD a usePlayerItem (Lays;Lbew;)V
+	METHOD a getWalkTargetValue (Lfk;Lbki;)F
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD aR getRidingHeight ()D
+	METHOD b checkAnimalSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD d getExperienceReward (Lays;)I
+	METHOD dT customServerAiStep ()V
+	METHOD ev canFallInLove ()Z
+	METHOD ew getLoveCause ()Lxf;
+	METHOD ex isInLove ()Z
+	METHOD ey resetLove ()V
+	METHOD f setInLove (Lays;)V
+	METHOD h removeWhenFarAway (D)Z
+	METHOD i isFood (Lbew;)Z
+	METHOD k aiStep ()V
+	METHOD s setInLoveTime (I)V

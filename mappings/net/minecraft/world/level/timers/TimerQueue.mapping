@@ -1,0 +1,27 @@
+CLASS cwl net/minecraft/world/level/timers/TimerQueue
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b callbacksRegistry Lcwk;
+	FIELD c queue Ljava/util/Queue;
+	FIELD d sequentialId Lcom/google/common/primitives/UnsignedLong;
+	FIELD e events Lcom/google/common/collect/Table;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcwk;)V
+	METHOD a getEventsIds ()Ljava/util/Set;
+	METHOD a storeEvent (Lcwl$a;)Ljt;
+	METHOD a tick (Ljava/lang/Object;J)V
+	METHOD a remove (Ljava/lang/String;)I
+	METHOD a schedule (Ljava/lang/String;JLcwj;)V
+	METHOD a loadEvent (Ljt;)V
+	METHOD a load (Ljz;)V
+	METHOD b store ()Ljz;
+	METHOD b lambda$createComparator$1 (Lcwl$a;)Lcom/google/common/primitives/UnsignedLong;
+	METHOD c createComparator ()Ljava/util/Comparator;
+	METHOD c lambda$createComparator$0 (Lcwl$a;)J
+	CLASS 1 1
+	CLASS a Event
+		FIELD a triggerTime J
+		FIELD b sequentialId Lcom/google/common/primitives/UnsignedLong;
+		FIELD c id Ljava/lang/String;
+		FIELD d callback Lcwj;
+		METHOD <init> <init> (JLcom/google/common/primitives/UnsignedLong;Ljava/lang/String;Lcwj;)V
+		METHOD <init> <init> (JLcom/google/common/primitives/UnsignedLong;Ljava/lang/String;Lcwj;Lcwl$1;)V

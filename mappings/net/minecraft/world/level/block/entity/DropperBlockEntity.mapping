@@ -1,0 +1,3 @@
+CLASS bxt net/minecraft/world/level/block/entity/DropperBlockEntity
+	METHOD <init> <init> ()V
+	METHOD g getDefaultName ()Llf;

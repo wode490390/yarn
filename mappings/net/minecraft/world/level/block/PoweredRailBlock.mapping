@@ -1,0 +1,17 @@
+CLASS bub net/minecraft/world/level/block/PoweredRailBlock
+	FIELD c SHAPE Lcaf;
+	FIELD d POWERED Lbzz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a findPoweredRailSignal (Lbkf;Lfk;Lbzh;ZI)Z
+	METHOD a isSameRailWithPower (Lbkf;Lfk;ZILcal;)Z
+	METHOD a updateState (Lbzh;Lbkf;Lfk;Lbpy;)V
+	METHOD a mirror (Lbzh;Lbtm;)Lbzh;
+	METHOD a rotate (Lbzh;Lbup;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD d getShapeProperty ()Lcak;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$state$properties$RailShape [I
+		FIELD b $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		FIELD c $SwitchMap$net$minecraft$world$level$block$Mirror [I
+		METHOD <clinit> <clinit> ()V

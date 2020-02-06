@@ -1,0 +1,26 @@
+CLASS qa net/minecraft/network/protocol/game/ServerboundInteractPacket
+	FIELD a entityId I
+	FIELD b action Lqa$a;
+	FIELD c location Lcwu;
+	FIELD d hand Lajr;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laky;)V
+	METHOD <init> <init> (Laky;Lajr;)V
+	METHOD <init> <init> (Laky;Lajr;Lcwu;)V
+	METHOD a getTarget (Lbkf;)Laky;
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getAction ()Lqa$a;
+	METHOD b write (Lkv;)V
+	METHOD c getHand ()Lajr;
+	METHOD d getLocation ()Lcwu;
+	CLASS a Action
+		FIELD a INTERACT Lqa$a;
+		FIELD b ATTACK Lqa$a;
+		FIELD c INTERACT_AT Lqa$a;
+		FIELD d $VALUES [Lqa$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lqa$a;
+		METHOD values values ()[Lqa$a;

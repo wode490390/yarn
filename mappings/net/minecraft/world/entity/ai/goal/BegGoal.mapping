@@ -1,0 +1,14 @@
+CLASS aox net/minecraft/world/entity/ai/goal/BegGoal
+	FIELD a wolf Lauk;
+	FIELD b player Lays;
+	FIELD c level Lbkf;
+	FIELD d lookDistance F
+	FIELD e lookTime I
+	FIELD f begTargeting Lass;
+	METHOD <init> <init> (Lauk;F)V
+	METHOD a canUse ()Z
+	METHOD a playerHoldingInteresting (Lays;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

@@ -1,0 +1,4 @@
+CLASS bvr net/minecraft/world/level/block/StemGrownBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD c getStem ()Lbvq;
+	METHOD d getAttachedStem ()Lbpc;

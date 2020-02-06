@@ -1,0 +1,11 @@
+CLASS arv net/minecraft/world/entity/ai/memory/WalkTarget
+	FIELD a target Lanh;
+	FIELD b speed F
+	FIELD c closeEnoughDist I
+	METHOD <init> <init> (Lalh;FI)V
+	METHOD <init> <init> (Lanh;FI)V
+	METHOD <init> <init> (Lcwu;FI)V
+	METHOD <init> <init> (Lfk;FI)V
+	METHOD a getTarget ()Lanh;
+	METHOD b getSpeed ()F
+	METHOD c getCloseEnoughDist ()I

@@ -1,0 +1,32 @@
+CLASS bza net/minecraft/world/level/block/piston/PistonBaseBlock
+	FIELD b EXTENDED Lbzz;
+	FIELD c EAST_AABB Lcxo;
+	FIELD d WEST_AABB Lcxo;
+	FIELD e SOUTH_AABB Lcxo;
+	FIELD f NORTH_AABB Lcxo;
+	FIELD g UP_AABB Lcxo;
+	FIELD h DOWN_AABB Lcxo;
+	FIELD i isSticky Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ZLbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a checkIfExtend (Lbkf;Lfk;Lbzh;)V
+	METHOD a setPlacedBy (Lbkf;Lfk;Lbzh;Lalh;Lbew;)V
+	METHOD a getNeighborSignal (Lbkf;Lfk;Lfp;)Z
+	METHOD a moveBlocks (Lbkf;Lfk;Lfp;Z)Z
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a triggerEvent (Lbzh;Lbkf;Lfk;II)Z
+	METHOD a neighborChanged (Lbzh;Lbkf;Lfk;Lbpy;Lfk;Z)V
+	METHOD a isPushable (Lbzh;Lbkf;Lfk;Lfp;ZLfp;)Z
+	METHOD a mirror (Lbzh;Lbtm;)Lbzh;
+	METHOD a rotate (Lbzh;Lbup;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b onPlace (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	METHOD c isSuffocating (Lbzh;Lbjp;Lfk;)Z
+	METHOD d isRedstoneConductor (Lbzh;Lbjp;Lfk;)Z
+	METHOD o useShapeForLightOcclusion (Lbzh;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		FIELD b $SwitchMap$net$minecraft$world$level$material$PushReaction [I
+		METHOD <clinit> <clinit> ()V

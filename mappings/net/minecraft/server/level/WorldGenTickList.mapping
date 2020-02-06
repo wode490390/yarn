@@ -1,0 +1,9 @@
+CLASS xl net/minecraft/server/level/WorldGenTickList
+	FIELD a index Ljava/util/function/Function;
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a size ()I
+	METHOD a lambda$addAll$0 (Lbkv;)V
+	METHOD a hasScheduledTick (Lfk;Ljava/lang/Object;)Z
+	METHOD a scheduleTick (Lfk;Ljava/lang/Object;ILbkw;)V
+	METHOD a addAll (Ljava/util/stream/Stream;)V
+	METHOD b willTickThisTick (Lfk;Ljava/lang/Object;)Z

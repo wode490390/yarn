@@ -1,0 +1,7 @@
+CLASS asa net/minecraft/world/entity/ai/navigation/WallClimberNavigation
+	FIELD p pathToPosition Lfk;
+	METHOD <init> <init> (Lali;Lbkf;)V
+	METHOD a moveTo (Laky;D)Z
+	METHOD a createPath (Laky;I)Lcrz;
+	METHOD a createPath (Lfk;I)Lcrz;
+	METHOD c tick ()V

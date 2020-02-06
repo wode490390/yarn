@@ -1,0 +1,30 @@
+CLASS aou net/minecraft/world/entity/ai/control/MoveControl
+	FIELD a mob Lali;
+	FIELD b wantedX D
+	FIELD c wantedY D
+	FIELD d wantedZ D
+	FIELD e speedModifier D
+	FIELD f strafeForwards F
+	FIELD g strafeRight F
+	FIELD h operation Laou$a;
+	METHOD <init> <init> (Lali;)V
+	METHOD a tick ()V
+	METHOD a setWantedPosition (DDDD)V
+	METHOD a strafe (FF)V
+	METHOD a rotlerp (FFF)F
+	METHOD a copyFrom (Laou;)V
+	METHOD b hasWanted ()Z
+	METHOD c getSpeedModifier ()D
+	METHOD d getWantedX ()D
+	METHOD e getWantedY ()D
+	METHOD f getWantedZ ()D
+	CLASS a Operation
+		FIELD a WAIT Laou$a;
+		FIELD b MOVE_TO Laou$a;
+		FIELD c STRAFE Laou$a;
+		FIELD d JUMPING Laou$a;
+		FIELD e $VALUES [Laou$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Laou$a;
+		METHOD values values ()[Laou$a;

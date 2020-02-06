@@ -1,0 +1,6 @@
+CLASS aoh net/minecraft/world/entity/ai/behavior/VillagerCalmDown
+	METHOD <init> <init> ()V
+	METHOD a isCloseToEntityThatHurtMe (Layf;)Z
+	METHOD a lambda$isCloseToEntityThatHurtMe$0 (Layf;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD a start (Lxe;Layf;J)V

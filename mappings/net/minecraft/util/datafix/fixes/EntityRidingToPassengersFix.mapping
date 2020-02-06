@@ -1,0 +1,11 @@
+CLASS aee net/minecraft/util/datafix/fixes/EntityRidingToPassengersFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$4 ()Ljava/lang/IllegalStateException;
+	METHOD a cap (Lcom/mojang/datafixers/schemas/Schema;Lcom/mojang/datafixers/schemas/Schema;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/types/Type;)Lcom/mojang/datafixers/TypeRewriteRule;
+	METHOD a lambda$cap$6 (Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;
+	METHOD a lambda$null$5 (Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/types/DynamicOps;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$2 (Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/types/DynamicOps;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Either;
+	METHOD b lambda$null$3 ()Ljava/lang/IllegalStateException;
+	METHOD c lambda$null$1 ()Ljava/lang/IllegalStateException;
+	METHOD d lambda$null$0 ()Ljava/lang/IllegalStateException;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

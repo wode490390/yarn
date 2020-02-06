@@ -1,0 +1,18 @@
+CLASS bup net/minecraft/world/level/block/Rotation
+	FIELD a NONE Lbup;
+	FIELD b CLOCKWISE_90 Lbup;
+	FIELD c CLOCKWISE_180 Lbup;
+	FIELD d COUNTERCLOCKWISE_90 Lbup;
+	FIELD e $VALUES [Lbup;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a rotate (II)I
+	METHOD a getRotated (Lbup;)Lbup;
+	METHOD a rotate (Lfp;)Lfp;
+	METHOD a getRandom (Ljava/util/Random;)Lbup;
+	METHOD b getShuffled (Ljava/util/Random;)Ljava/util/List;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbup;
+	METHOD values values ()[Lbup;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		METHOD <clinit> <clinit> ()V

@@ -1,0 +1,14 @@
+CLASS bro net/minecraft/world/level/block/EnchantmentTableBlock
+	FIELD a SHAPE Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a newBlockEntity (Lbjp;)Lbxj;
+	METHOD a lambda$getMenuProvider$0 (Lbkf;Lfk;ILayr;Lays;)Lbaw;
+	METHOD a setPlacedBy (Lbkf;Lfk;Lbzh;Lalh;Lbew;)V
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a animateTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;)V
+	METHOD b getMenuProvider (Lbzh;Lbkf;Lfk;)Lajv;
+	METHOD c getRenderShape (Lbzh;)Lbul;
+	METHOD o useShapeForLightOcclusion (Lbzh;)Z

@@ -1,0 +1,4 @@
+CLASS bht net/minecraft/world/item/crafting/StonecutterRecipe
+	METHOD <init> <init> (Lsm;Ljava/lang/String;Lbhc;Lbew;)V
+	METHOD a matches (Lajl;Lbkf;)Z
+	METHOD h getToastSymbol ()Lbew;

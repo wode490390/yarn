@@ -1,0 +1,16 @@
+CLASS cux net/minecraft/world/level/storage/loot/functions/SetItemCountFunction
+	FIELD a value Lctm;
+	METHOD <init> <init> ([Lcvv;Lctm;)V
+	METHOD <init> <init> ([Lcvv;Lctm;Lcux$1;)V
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a setCount (Lctm;)Lcuq$a;
+	METHOD a lambda$setCount$0 (Lctm;[Lcvv;)Lcur;
+	METHOD a access$000 (Lcux;)Lctm;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcux;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcux;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

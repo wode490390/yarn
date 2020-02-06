@@ -1,0 +1,9 @@
+CLASS bbp net/minecraft/world/inventory/FurnaceResultSlot
+	FIELD a player Lays;
+	FIELD b removeCount I
+	METHOD <init> <init> (Lays;Lajl;III)V
+	METHOD a remove (I)Lbew;
+	METHOD a onTake (Lays;Lbew;)Lbew;
+	METHOD a mayPlace (Lbew;)Z
+	METHOD a onQuickCraft (Lbew;I)V
+	METHOD c checkTakeAchievements (Lbew;)V

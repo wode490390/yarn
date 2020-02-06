@@ -1,0 +1,9 @@
+CLASS ra net/minecraft/network/protocol/game/ServerboundTeleportToEntityPacket
+	FIELD a uuid Ljava/util/UUID;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/UUID;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD a getEntity (Lxe;)Laky;
+	METHOD b write (Lkv;)V

@@ -1,0 +1,11 @@
+CLASS me net/minecraft/network/protocol/game/ClientboundAwardStatsPacket
+	FIELD a stats Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lit/unimi/dsi/fastutil/objects/Object2IntMap;)V
+	METHOD a getId (Laap;)I
+	METHOD a readStat (Laar;Lkv;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getStats ()Ljava/util/Map;
+	METHOD b write (Lkv;)V

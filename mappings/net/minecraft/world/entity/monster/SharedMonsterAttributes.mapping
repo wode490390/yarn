@@ -1,0 +1,21 @@
+CLASS axm net/minecraft/world/entity/monster/SharedMonsterAttributes
+	FIELD a MAX_HEALTH Laly;
+	FIELD b FOLLOW_RANGE Laly;
+	FIELD c KNOCKBACK_RESISTANCE Laly;
+	FIELD d MOVEMENT_SPEED Laly;
+	FIELD e FLYING_SPEED Laly;
+	FIELD f ATTACK_DAMAGE Laly;
+	FIELD g ATTACK_KNOCKBACK Laly;
+	FIELD h ATTACK_SPEED Laly;
+	FIELD i ARMOR Laly;
+	FIELD j ARMOR_TOUGHNESS Laly;
+	FIELD k LUCK Laly;
+	FIELD l LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a saveAttribute (Lalz;)Ljt;
+	METHOD a loadAttribute (Lalz;Ljt;)V
+	METHOD a saveAttributeModifier (Lama;)Ljt;
+	METHOD a saveAttributes (Lamc;)Ljz;
+	METHOD a loadAttributes (Lamc;Ljz;)V
+	METHOD a loadAttributeModifier (Ljt;)Lama;

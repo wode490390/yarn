@@ -1,0 +1,13 @@
+CLASS aqd net/minecraft/world/entity/ai/goal/MoveTowardsTargetGoal
+	FIELD a mob Lalo;
+	FIELD b target Lalh;
+	FIELD c wantedX D
+	FIELD d wantedY D
+	FIELD e wantedZ D
+	FIELD f speedModifier D
+	FIELD g within F
+	METHOD <init> <init> (Lalo;DF)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

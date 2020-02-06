@@ -1,0 +1,11 @@
+CLASS mv net/minecraft/network/protocol/game/ClientboundCooldownPacket
+	FIELD a item Lber;
+	FIELD b duration I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lber;I)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getItem ()Lber;
+	METHOD b write (Lkv;)V
+	METHOD c getDuration ()I

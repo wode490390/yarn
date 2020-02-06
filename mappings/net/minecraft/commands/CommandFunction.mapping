@@ -1,0 +1,32 @@
+CLASS cn net/minecraft/commands/CommandFunction
+	FIELD a entries [Lcn$c;
+	FIELD b id Lsm;
+	METHOD <init> <init> (Lsm;[Lcn$c;)V
+	METHOD a getId ()Lsm;
+	METHOD a access$000 (Lcn;)Lsm;
+	METHOD a fromLines (Lsm;Lsy;Ljava/util/List;)Lcn;
+	METHOD b getEntries ()[Lcn$c;
+	CLASS a CacheableFunction
+		FIELD a NONE Lcn$a;
+		FIELD b id Lsm;
+		FIELD c resolved Z
+		FIELD d function Ljava/util/Optional;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Lcn;)V
+		METHOD <init> <init> (Lsm;)V
+		METHOD a getId ()Lsm;
+		METHOD a lambda$getId$0 (Lcn;)Lsm;
+		METHOD a get (Lsy;)Ljava/util/Optional;
+	CLASS b CommandEntry
+		FIELD a parse Lcom/mojang/brigadier/ParseResults;
+		METHOD <init> <init> (Lcom/mojang/brigadier/ParseResults;)V
+		METHOD a execute (Lsy;Lcq;Ljava/util/ArrayDeque;I)V
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c Entry
+		METHOD a execute (Lsy;Lcq;Ljava/util/ArrayDeque;I)V
+	CLASS d FunctionEntry
+		FIELD a function Lcn$a;
+		METHOD <init> <init> (Lcn;)V
+		METHOD a lambda$execute$0 (ILjava/util/ArrayDeque;Lsy;Lcq;Lcn;)V
+		METHOD a execute (Lsy;Lcq;Ljava/util/ArrayDeque;I)V
+		METHOD toString toString ()Ljava/lang/String;

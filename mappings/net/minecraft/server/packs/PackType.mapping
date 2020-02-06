@@ -1,0 +1,10 @@
+CLASS yg net/minecraft/server/packs/PackType
+	FIELD a CLIENT_RESOURCES Lyg;
+	FIELD b SERVER_DATA Lyg;
+	FIELD c directory Ljava/lang/String;
+	FIELD d $VALUES [Lyg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getDirectory ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lyg;
+	METHOD values values ()[Lyg;

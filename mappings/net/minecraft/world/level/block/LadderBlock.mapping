@@ -1,0 +1,21 @@
+CLASS bta net/minecraft/world/level/block/LadderBlock
+	FIELD a FACING Lcac;
+	FIELD b WATERLOGGED Lbzz;
+	FIELD c EAST_AABB Lcxo;
+	FIELD d WEST_AABB Lcxo;
+	FIELD e SOUTH_AABB Lcxo;
+	FIELD f NORTH_AABB Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a canAttachTo (Lbjp;Lfk;Lfp;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a mirror (Lbzh;Lbtm;)Lbzh;
+	METHOD a rotate (Lbzh;Lbup;)Lbzh;
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b_ getFluidState (Lbzh;)Lcpt;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

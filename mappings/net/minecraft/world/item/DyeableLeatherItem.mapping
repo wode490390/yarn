@@ -1,0 +1,6 @@
+CLASS bdw net/minecraft/world/item/DyeableLeatherItem
+	METHOD a hasCustomColor (Lbew;)Z
+	METHOD a setColor (Lbew;I)V
+	METHOD a dyeArmor (Lbew;Ljava/util/List;)Lbew;
+	METHOD b getColor (Lbew;)I
+	METHOD c clearColor (Lbew;)V

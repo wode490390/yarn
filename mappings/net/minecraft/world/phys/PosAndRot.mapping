@@ -1,0 +1,11 @@
+CLASS cws net/minecraft/world/phys/PosAndRot
+	FIELD a pos Lcwu;
+	FIELD b xRot F
+	FIELD c yRot F
+	METHOD <init> <init> (Lcwu;FF)V
+	METHOD a pos ()Lcwu;
+	METHOD b xRot ()F
+	METHOD c yRot ()F
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

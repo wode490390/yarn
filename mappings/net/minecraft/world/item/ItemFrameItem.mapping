@@ -1,0 +1,3 @@
+CLASS bet net/minecraft/world/item/ItemFrameItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a mayPlace (Lays;Lfp;Lbew;Lfk;)Z

@@ -1,0 +1,5 @@
+CLASS abo net/minecraft/util/LazyLoadedValue
+	FIELD a factory Ljava/util/function/Supplier;
+	FIELD b value Ljava/lang/Object;
+	METHOD <init> <init> (Ljava/util/function/Supplier;)V
+	METHOD a get ()Ljava/lang/Object;

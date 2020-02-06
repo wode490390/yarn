@@ -1,0 +1,7 @@
+CLASS gt net/minecraft/core/particles/ParticleOptions
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a writeToNetwork (Lkv;)V
+	METHOD b getType ()Lgu;
+	CLASS a Deserializer
+		METHOD b fromCommand (Lgu;Lcom/mojang/brigadier/StringReader;)Lgt;
+		METHOD b fromNetwork (Lgu;Lkv;)Lgt;

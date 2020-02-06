@@ -1,0 +1,32 @@
+CLASS cuh net/minecraft/world/level/storage/loot/functions/CopyBlockState
+	FIELD a block Lbpy;
+	FIELD c properties Ljava/util/Set;
+	METHOD <init> <init> ([Lcvv;Lbpy;Ljava/util/Set;)V
+	METHOD <init> <init> ([Lcvv;Lbpy;Ljava/util/Set;Lcuh$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a copyState (Lbpy;)Lcuh$a;
+	METHOD a serialize (Lbzh;Lcak;)Ljava/lang/String;
+	METHOD a access$200 (Lcuh;)Lbpy;
+	METHOD a lambda$run$0 (Ljt;Lbzh;Lcak;)V
+	METHOD b access$300 (Lcuh;)Ljava/util/Set;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a block Lbpy;
+		FIELD b properties Ljava/util/Set;
+		METHOD <init> <init> (Lbpy;)V
+		METHOD <init> <init> (Lbpy;Lcuh$1;)V
+		METHOD a getThis ()Lcuh$a;
+		METHOD a copy (Lcak;)Lcuh$a;
+		METHOD b build ()Lcur;
+		METHOD d getThis ()Lcuq$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a lambda$serialize$0 (Lcom/google/gson/JsonArray;Lcak;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuh;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$2 (Ljava/util/Set;Lbzi;Lcom/google/gson/JsonElement;)V
+		METHOD a lambda$deserialize$1 (Lsm;)Ljava/lang/IllegalArgumentException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

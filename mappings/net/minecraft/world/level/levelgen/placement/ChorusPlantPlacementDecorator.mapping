@@ -1,0 +1,5 @@
+CLASS ckn net/minecraft/world/level/levelgen/placement/ChorusPlantPlacementDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getPositions (Lbkg;Lcaz;Ljava/util/Random;Lchp;Lfk;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lbkg;Lcaz;Ljava/util/Random;Lchz;Lfk;)Ljava/util/stream/Stream;
+	METHOD a lambda$getPositions$0 (Ljava/util/Random;Lfk;Lbkg;I)Lfk;

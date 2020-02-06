@@ -1,0 +1,6 @@
+CLASS akt net/minecraft/world/effect/MobEffectUtil
+	METHOD <init> <init> ()V
+	METHOD a formatDuration (Laks;F)Ljava/lang/String;
+	METHOD a hasDigSpeed (Lalh;)Z
+	METHOD b getDigSpeedAmplification (Lalh;)I
+	METHOD c hasWaterBreathing (Lalh;)Z

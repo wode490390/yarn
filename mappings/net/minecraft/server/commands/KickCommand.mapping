@@ -1,0 +1,7 @@
+CLASS ue net/minecraft/server/commands/KickCommand
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Lcq;)Z
+	METHOD a kickPlayers (Lcq;Ljava/util/Collection;Llf;)I
+	METHOD b lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

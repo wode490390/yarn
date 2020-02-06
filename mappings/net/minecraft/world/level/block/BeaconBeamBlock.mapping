@@ -1,0 +1,2 @@
+CLASS bpq net/minecraft/world/level/block/BeaconBeamBlock
+	METHOD a getColor ()Lbds;

@@ -1,0 +1,4 @@
+CLASS bed net/minecraft/world/item/EnderEyeItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a useOn (Lbgi;)Lajs;
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;

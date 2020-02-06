@@ -1,0 +1,17 @@
+CLASS aqa net/minecraft/world/entity/ai/goal/MoveThroughVillageGoal
+	FIELD a mob Lalo;
+	FIELD b speedModifier D
+	FIELD c path Lcrz;
+	FIELD d poiPos Lfk;
+	FIELD e onlyAtNight Z
+	FIELD f visited Ljava/util/List;
+	FIELD g distanceToPoi I
+	FIELD h canDealWithDoors Ljava/util/function/BooleanSupplier;
+	METHOD <init> <init> (Lalo;DZILjava/util/function/BooleanSupplier;)V
+	METHOD a canUse ()Z
+	METHOD a hasNotVisited (Lfk;)Z
+	METHOD a lambda$canUse$0 (Lxe;Lfk;Lfk;)D
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD g updateVisited ()V

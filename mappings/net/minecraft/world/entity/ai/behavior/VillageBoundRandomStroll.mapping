@@ -1,0 +1,12 @@
+CLASS aog net/minecraft/world/entity/ai/behavior/VillageBoundRandomStroll
+	FIELD a speed F
+	FIELD b maxXyDist I
+	FIELD c maxYDist I
+	METHOD <init> <init> (F)V
+	METHOD <init> <init> (FII)V
+	METHOD a setRandomPos (Lalo;)V
+	METHOD a setTargetedPos (Lalo;Lgd;)V
+	METHOD a lambda$setRandomPos$1 (Lcwu;)Larv;
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD a start (Lxe;Lalo;J)V
+	METHOD b lambda$setTargetedPos$0 (Lcwu;)Larv;

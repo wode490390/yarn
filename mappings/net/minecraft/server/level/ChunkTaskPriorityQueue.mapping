@@ -1,0 +1,23 @@
+CLASS wr net/minecraft/server/level/ChunkTaskPriorityQueue
+	FIELD a PRIORITY_LEVEL_COUNT I
+	FIELD b taskQueue Ljava/util/List;
+	FIELD c firstQueue I
+	FIELD d name Ljava/lang/String;
+	FIELD e acquired Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD f maxTasks I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a pop ()Ljava/util/stream/Stream;
+	METHOD a lambda$new$0 (I)Lit/unimi/dsi/fastutil/longs/Long2ObjectLinkedOpenHashMap;
+	METHOD a resortChunkTasks (ILbjq;I)V
+	METHOD a acquire (J)Ljava/lang/Runnable;
+	METHOD a lambda$pop$6 (JLjava/util/Optional;)Lcom/mojang/datafixers/util/Either;
+	METHOD a release (JZ)V
+	METHOD a lambda$release$3 (Ljava/util/Optional;)Z
+	METHOD a submit (Ljava/util/Optional;JI)V
+	METHOD b getAcquired ()Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD b lambda$null$5 (J)Lcom/mojang/datafixers/util/Either;
+	METHOD c lambda$acquire$4 (J)V
+	METHOD d lambda$submit$2 (J)Ljava/util/List;
+	METHOD e lambda$resortChunkTasks$1 (J)Ljava/util/List;
+	METHOD toString toString ()Ljava/lang/String;

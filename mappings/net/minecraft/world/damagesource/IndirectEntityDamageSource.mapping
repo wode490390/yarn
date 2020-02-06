@@ -1,0 +1,6 @@
+CLASS akj net/minecraft/world/damagesource/IndirectEntityDamageSource
+	FIELD y owner Laky;
+	METHOD <init> <init> (Ljava/lang/String;Laky;Laky;)V
+	METHOD d getLocalizedDeathMessage (Lalh;)Llf;
+	METHOD j getDirectEntity ()Laky;
+	METHOD k getEntity ()Laky;

@@ -1,0 +1,6 @@
+CLASS baj net/minecraft/world/entity/vehicle/Minecart
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDD)V
+	METHOD a activateMinecart (IIIZ)V
+	METHOD b interact (Lays;Lajr;)Z
+	METHOD o getMinecartType ()Lbag$a;

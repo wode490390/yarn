@@ -1,0 +1,7 @@
+CLASS cjv net/minecraft/world/level/levelgen/feature/treedecorators/BeehiveDecorator
+	FIELD b probability F
+	METHOD <init> <init> (F)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a lambda$place$0 (ILfk;)Z
+	METHOD a place (Lbkg;Ljava/util/Random;Ljava/util/List;Ljava/util/List;Ljava/util/Set;Lcmg;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;

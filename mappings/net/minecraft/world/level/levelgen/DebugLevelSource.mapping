@@ -1,0 +1,16 @@
+CLASS ccr net/minecraft/world/level/levelgen/DebugLevelSource
+	FIELD e AIR Lbzh;
+	FIELD f BARRIER Lbzh;
+	FIELD g ALL_BLOCKS Ljava/util/List;
+	FIELD h GRID_WIDTH I
+	FIELD i GRID_HEIGHT I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbkg;Lblg;Lccq;)V
+	METHOD a getBlockStateFor (II)Lbzh;
+	METHOD a getBaseHeight (IILccu$a;)I
+	METHOD a applyCarvers (Lblf;Lcax;Lcct$a;)V
+	METHOD a lambda$static$0 (Lbpy;)Ljava/util/stream/Stream;
+	METHOD a applyBiomeDecoration (Lxk;)V
+	METHOD a buildSurfaceAndBedrock (Lxk;Lcax;)V
+	METHOD b getSpawnHeight ()I
+	METHOD b fillFromNoise (Lbkg;Lcax;)V

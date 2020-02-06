@@ -1,0 +1,8 @@
+CLASS bmn net/minecraft/world/level/biome/FuzzyOffsetConstantColumnBiomeZoomer
+	FIELD a INSTANCE Lbmn;
+	FIELD b $VALUES [Lbmn;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a getBiome (JIIILblf$a;)Lbld;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbmn;
+	METHOD values values ()[Lbmn;

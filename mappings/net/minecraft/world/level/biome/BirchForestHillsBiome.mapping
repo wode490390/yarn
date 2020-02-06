@@ -1,0 +1,2 @@
+CLASS bln net/minecraft/world/level/biome/BirchForestHillsBiome
+	METHOD <init> <init> ()V

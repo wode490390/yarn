@@ -1,0 +1,4 @@
+CLASS lq net/minecraft/network/chat/TranslatableFormatException
+	METHOD <init> <init> (Llp;I)V
+	METHOD <init> <init> (Llp;Ljava/lang/String;)V
+	METHOD <init> <init> (Llp;Ljava/lang/Throwable;)V

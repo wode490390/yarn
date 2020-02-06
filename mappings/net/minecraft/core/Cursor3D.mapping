@@ -1,0 +1,17 @@
+CLASS fn net/minecraft/core/Cursor3D
+	FIELD a minX I
+	FIELD b minY I
+	FIELD c minZ I
+	FIELD d maxX I
+	FIELD e maxY I
+	FIELD f maxZ I
+	FIELD g x I
+	FIELD h y I
+	FIELD i z I
+	FIELD j started Z
+	METHOD <init> <init> (IIIIII)V
+	METHOD a advance ()Z
+	METHOD b nextX ()I
+	METHOD c nextY ()I
+	METHOD d nextZ ()I
+	METHOD e getNextType ()I

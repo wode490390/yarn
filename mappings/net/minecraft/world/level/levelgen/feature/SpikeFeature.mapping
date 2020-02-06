@@ -1,0 +1,31 @@
+CLASS cgm net/minecraft/world/level/levelgen/feature/SpikeFeature
+	FIELD a SPIKE_CACHE Lcom/google/common/cache/LoadingCache;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getSpikesForLevel (Lbkg;)Ljava/util/List;
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lcio;)Z
+	METHOD a placeSpike (Lbkg;Ljava/util/Random;Lcio;Lcgm$a;)V
+	CLASS 1 1
+	CLASS a EndSpike
+		FIELD a centerX I
+		FIELD b centerZ I
+		FIELD c radius I
+		FIELD d height I
+		FIELD e guarded Z
+		FIELD f topBoundingBox Lcwo;
+		METHOD <init> <init> (IIIIZ)V
+		METHOD a getCenterX ()I
+		METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcgm$a;
+		METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+		METHOD a isCenterWithinChunk (Lfk;)Z
+		METHOD b getCenterZ ()I
+		METHOD c getRadius ()I
+		METHOD d getHeight ()I
+		METHOD e isGuarded ()Z
+		METHOD f getTopBoundingBox ()Lcwo;
+	CLASS b SpikeCacheLoader
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcgm$1;)V
+		METHOD a load (Ljava/lang/Long;)Ljava/util/List;
+		METHOD load load (Ljava/lang/Object;)Ljava/lang/Object;

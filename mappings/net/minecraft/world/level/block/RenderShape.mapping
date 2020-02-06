@@ -1,0 +1,9 @@
+CLASS bul net/minecraft/world/level/block/RenderShape
+	FIELD a INVISIBLE Lbul;
+	FIELD b ENTITYBLOCK_ANIMATED Lbul;
+	FIELD c MODEL Lbul;
+	FIELD d $VALUES [Lbul;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbul;
+	METHOD values values ()[Lbul;

@@ -1,0 +1,5 @@
+CLASS cik net/minecraft/world/level/levelgen/feature/configurations/ShipwreckConfiguration
+	FIELD a isBeached Z
+	METHOD <init> <init> (Z)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcik;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

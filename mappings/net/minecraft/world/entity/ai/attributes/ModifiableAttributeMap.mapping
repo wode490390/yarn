@@ -1,0 +1,13 @@
+CLASS ame net/minecraft/world/entity/ai/attributes/ModifiableAttributeMap
+	FIELD d attributesByLegacy Ljava/util/Map;
+	FIELD e dirtyAttributes Ljava/util/Set;
+	METHOD <init> <init> ()V
+	METHOD a getInstance (Laly;)Lalz;
+	METHOD a onAttributeModified (Lalz;)V
+	METHOD a getInstance (Ljava/lang/String;)Lalz;
+	METHOD b getDirtyAttributes ()Ljava/util/Set;
+	METHOD b registerAttribute (Laly;)Lalz;
+	METHOD b getInstance (Ljava/lang/String;)Lamd;
+	METHOD c getSyncableAttributes ()Ljava/util/Collection;
+	METHOD c createAttributeInstance (Laly;)Lalz;
+	METHOD e getInstance (Laly;)Lamd;

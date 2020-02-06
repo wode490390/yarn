@@ -1,0 +1,12 @@
+CLASS bzx net/minecraft/world/level/block/state/properties/BellAttachType
+	FIELD a FLOOR Lbzx;
+	FIELD b CEILING Lbzx;
+	FIELD c SINGLE_WALL Lbzx;
+	FIELD d DOUBLE_WALL Lbzx;
+	FIELD e name Ljava/lang/String;
+	FIELD f $VALUES [Lbzx;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbzx;
+	METHOD values values ()[Lbzx;

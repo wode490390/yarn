@@ -1,0 +1,27 @@
+CLASS ctz net/minecraft/world/level/storage/loot/entries/LootPoolEntryContainer
+	FIELD c compositeCondition Ljava/util/function/Predicate;
+	FIELD d conditions [Lcvv;
+	METHOD <init> <init> ([Lcvv;)V
+	METHOD a canRun (Lctg;)Z
+	METHOD a validate (Lctp;)V
+	CLASS a Builder
+		FIELD a conditions Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a otherwise (Lctz$a;)Lctq$a;
+		METHOD a when (Lcvv$a;)Lctz$a;
+		METHOD b build ()Lctz;
+		METHOD b append (Lctz$a;)Lctv$a;
+		METHOD b when (Lcvv$a;)Ljava/lang/Object;
+		METHOD c unwrap ()Ljava/lang/Object;
+		METHOD c then (Lctz$a;)Lcuc$a;
+		METHOD d getThis ()Lctz$a;
+		METHOD e unwrap ()Lctz$a;
+		METHOD f getConditions ()[Lcvv;
+	CLASS b Serializer
+		FIELD a name Lsm;
+		FIELD b clazz Ljava/lang/Class;
+		METHOD <init> <init> (Lsm;Ljava/lang/Class;)V
+		METHOD a getName ()Lsm;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lctz;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getContainerClass ()Ljava/lang/Class;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lctz;

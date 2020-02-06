@@ -1,0 +1,35 @@
+CLASS axg net/minecraft/world/entity/monster/PatrollingMonster
+	FIELD b patrolTarget Lfk;
+	FIELD c patrolLeader Z
+	FIELD d patrolling Z
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD a finalizeSpawn (Lbkg;Lajq;Lalk;Lalu;Ljt;)Lalu;
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD aR getRidingHeight ()D
+	METHOD b checkPatrollingMonsterSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD es canBeLeader ()Z
+	METHOD et getPatrolTarget ()Lfk;
+	METHOD eu hasPatrolTarget ()Z
+	METHOD ev isPatrolLeader ()Z
+	METHOD ex canJoinPatrol ()Z
+	METHOD ey findPatrolTarget ()V
+	METHOD ez isPatrolling ()Z
+	METHOD g setPatrolTarget (Lfk;)V
+	METHOD h removeWhenFarAway (D)Z
+	METHOD n registerGoals ()V
+	METHOD r setPatrolLeader (Z)V
+	METHOD s setPatrolling (Z)V
+	CLASS a LongDistancePatrolGoal
+		FIELD a mob Laxg;
+		FIELD b speedModifier D
+		FIELD c leaderSpeedModifier D
+		FIELD d cooldownUntil J
+		METHOD <init> <init> (Laxg;DD)V
+		METHOD a canUse ()Z
+		METHOD a lambda$findPatrolCompanions$0 (Laxg;)Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+		METHOD g findPatrolCompanions ()Ljava/util/List;
+		METHOD h moveRandomly ()Z

@@ -1,0 +1,9 @@
+CLASS cbp net/minecraft/world/level/chunk/Palette
+	METHOD a getSerializedSize ()I
+	METHOD a valueFor (I)Ljava/lang/Object;
+	METHOD a idFor (Ljava/lang/Object;)I
+	METHOD a read (Ljz;)V
+	METHOD a read (Lkv;)V
+	METHOD b getSize ()I
+	METHOD b maybeHas (Ljava/lang/Object;)Z
+	METHOD b write (Lkv;)V

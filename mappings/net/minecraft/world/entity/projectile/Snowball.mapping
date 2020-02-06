@@ -1,0 +1,8 @@
+CLASS azl net/minecraft/world/entity/projectile/Snowball
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDD)V
+	METHOD <init> <init> (Lbkf;Lalh;)V
+	METHOD a handleEntityEvent (B)V
+	METHOD a onHit (Lcwr;)V
+	METHOD i getDefaultItem ()Lber;
+	METHOD n getParticle ()Lgt;

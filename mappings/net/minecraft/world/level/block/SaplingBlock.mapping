@@ -1,0 +1,13 @@
+CLASS bur net/minecraft/world/level/block/SaplingBlock
+	FIELD a STAGE Lcah;
+	FIELD b SHAPE Lcxo;
+	FIELD c treeGrower Lbyq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbyq;Lbpy$c;)V
+	METHOD a isValidBonemealTarget (Lbjp;Lfk;Lbzh;Z)Z
+	METHOD a isBonemealSuccess (Lbkf;Ljava/util/Random;Lfk;Lbzh;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD a advanceTree (Lxe;Lfk;Lbzh;Ljava/util/Random;)V
+	METHOD a performBonemeal (Lxe;Ljava/util/Random;Lfk;Lbzh;)V

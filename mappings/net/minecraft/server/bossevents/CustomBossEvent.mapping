@@ -1,0 +1,22 @@
+CLASS tc net/minecraft/server/bossevents/CustomBossEvent
+	FIELD h id Lsm;
+	FIELD i players Ljava/util/Set;
+	FIELD j value I
+	FIELD k max I
+	METHOD <init> <init> (Lsm;Llf;)V
+	METHOD a getTextId ()Lsm;
+	METHOD a setValue (I)V
+	METHOD a setPlayers (Ljava/util/Collection;)Z
+	METHOD a addOfflinePlayer (Ljava/util/UUID;)V
+	METHOD a load (Ljt;Lsm;)Ltc;
+	METHOD a lambda$getDisplayName$0 (Lln;)V
+	METHOD a addPlayer (Lxf;)V
+	METHOD b removeAllPlayers ()V
+	METHOD b setMax (I)V
+	METHOD b removePlayer (Lxf;)V
+	METHOD c getValue ()I
+	METHOD c onPlayerConnect (Lxf;)V
+	METHOD d getMax ()I
+	METHOD d onPlayerDisconnect (Lxf;)V
+	METHOD e getDisplayName ()Llf;
+	METHOD f save ()Ljt;

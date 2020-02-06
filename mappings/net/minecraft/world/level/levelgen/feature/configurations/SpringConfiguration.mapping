@@ -1,0 +1,10 @@
+CLASS cip net/minecraft/world/level/levelgen/feature/configurations/SpringConfiguration
+	FIELD a state Lcpt;
+	FIELD b requiresBlockBelow Z
+	FIELD c rockCount I
+	FIELD d holeCount I
+	FIELD f validBlocks Ljava/util/Set;
+	METHOD <init> <init> (Lcpt;ZIILjava/util/Set;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcip;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b lambda$deserialize$0 (Lcom/mojang/datafixers/Dynamic;)Lbpy;

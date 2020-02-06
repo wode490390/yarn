@@ -1,0 +1,7 @@
+CLASS cjx net/minecraft/world/level/levelgen/feature/treedecorators/LeaveVineDecorator
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a place (Lbkg;Ljava/util/Random;Ljava/util/List;Ljava/util/List;Ljava/util/Set;Lcmg;)V
+	METHOD a addHangingVine (Lbkk;Lfk;Lbzz;Ljava/util/Set;Lcmg;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a lambda$place$0 (Ljava/util/Random;Lbkg;Ljava/util/Set;Lcmg;Lfk;)V

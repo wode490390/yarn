@@ -1,0 +1,2 @@
+CLASS cpa net/minecraft/world/level/levelgen/synth/SurfaceNoise
+	METHOD a getSurfaceNoiseValue (DDDD)D

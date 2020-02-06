@@ -1,0 +1,14 @@
+CLASS bad net/minecraft/world/entity/schedule/ScheduleBuilder
+	FIELD a schedule Lbac;
+	FIELD b transitions Ljava/util/List;
+	METHOD <init> <init> (Lbac;)V
+	METHOD a build ()Lbac;
+	METHOD a changeActivityAt (ILbaa;)Lbad;
+	METHOD a lambda$build$1 (Lbad$a;)V
+	METHOD a lambda$null$0 (Lbad$a;Lbae;)V
+	CLASS a ActivityTransition
+		FIELD a time I
+		FIELD b activity Lbaa;
+		METHOD <init> <init> (ILbaa;)V
+		METHOD a getTime ()I
+		METHOD b getActivity ()Lbaa;

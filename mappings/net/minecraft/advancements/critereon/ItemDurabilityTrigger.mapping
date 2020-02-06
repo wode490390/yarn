@@ -1,0 +1,18 @@
+CLASS bi net/minecraft/advancements/critereon/ItemDurabilityTrigger
+	FIELD a ID Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lsm;
+	METHOD a lambda$trigger$0 (Lbew;ILbi$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a trigger (Lxf;Lbew;I)V
+	METHOD b access$000 ()Lsm;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbi$a;
+	CLASS a TriggerInstance
+		FIELD a item Lbj;
+		FIELD b durability Lbr$d;
+		FIELD c delta Lbr$d;
+		METHOD <init> <init> (Lbj;Lbr$d;Lbr$d;)V
+		METHOD a matches (Lbew;I)Z
+		METHOD a changedDurability (Lbj;Lbr$d;)Lbi$a;
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

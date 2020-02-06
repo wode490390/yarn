@@ -1,0 +1,23 @@
+CLASS ayy net/minecraft/world/entity/projectile/Arrow
+	FIELD ao ID_EFFECT_COLOR Lsb;
+	FIELD ap potion Lbgm;
+	FIELD aq effects Ljava/util/Set;
+	FIELD ar fixedColor Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDD)V
+	METHOD <init> <init> (Lbkf;Lalh;)V
+	METHOD a handleEntityEvent (B)V
+	METHOD a addEffect (Laks;)V
+	METHOD a doPostHurtEffects (Lalh;)V
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b makeParticle (I)V
+	METHOD b setEffectsFromItem (Lbew;)V
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD c setFixedColor (I)V
+	METHOD c getCustomColor (Lbew;)I
+	METHOD h tick ()V
+	METHOD n getPickupItem ()Lbew;
+	METHOD w getColor ()I
+	METHOD w_ defineSynchedData ()V
+	METHOD z updateColor ()V

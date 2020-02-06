@@ -1,0 +1,9 @@
+CLASS aru net/minecraft/world/entity/ai/memory/MemoryStatus
+	FIELD a VALUE_PRESENT Laru;
+	FIELD b VALUE_ABSENT Laru;
+	FIELD c REGISTERED Laru;
+	FIELD d $VALUES [Laru;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Laru;
+	METHOD values values ()[Laru;

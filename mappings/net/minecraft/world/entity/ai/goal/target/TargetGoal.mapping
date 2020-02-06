@@ -1,0 +1,18 @@
+CLASS aro net/minecraft/world/entity/ai/goal/target/TargetGoal
+	FIELD a mustReach Z
+	FIELD b reachCache I
+	FIELD c reachCacheTime I
+	FIELD d unseenTicks I
+	FIELD e mob Lali;
+	FIELD f mustSee Z
+	FIELD g targetMob Lalh;
+	FIELD h unseenMemoryTicks I
+	METHOD <init> <init> (Lali;Z)V
+	METHOD <init> <init> (Lali;ZZ)V
+	METHOD a setUnseenMemoryTicks (I)Laro;
+	METHOD a canReach (Lalh;)Z
+	METHOD a canAttack (Lalh;Lass;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD k getFollowDistance ()D

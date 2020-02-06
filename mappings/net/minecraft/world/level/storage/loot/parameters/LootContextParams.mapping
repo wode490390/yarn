@@ -1,0 +1,14 @@
+CLASS cvj net/minecraft/world/level/storage/loot/parameters/LootContextParams
+	FIELD a THIS_ENTITY Lcvg;
+	FIELD b LAST_DAMAGE_PLAYER Lcvg;
+	FIELD c DAMAGE_SOURCE Lcvg;
+	FIELD d KILLER_ENTITY Lcvg;
+	FIELD e DIRECT_KILLER_ENTITY Lcvg;
+	FIELD f BLOCK_POS Lcvg;
+	FIELD g BLOCK_STATE Lcvg;
+	FIELD h BLOCK_ENTITY Lcvg;
+	FIELD i TOOL Lcvg;
+	FIELD j EXPLOSION_RADIUS Lcvg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a create (Ljava/lang/String;)Lcvg;

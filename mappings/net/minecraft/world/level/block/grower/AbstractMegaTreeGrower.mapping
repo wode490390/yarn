@@ -1,0 +1,6 @@
+CLASS byp net/minecraft/world/level/block/grower/AbstractMegaTreeGrower
+	METHOD <init> <init> ()V
+	METHOD a growTree (Lbkg;Lcaz;Lfk;Lbzh;Ljava/util/Random;)Z
+	METHOD a placeMega (Lbkg;Lcaz;Lfk;Lbzh;Ljava/util/Random;II)Z
+	METHOD a isTwoByTwoSapling (Lbzh;Lbjp;Lfk;II)Z
+	METHOD a getConfiguredMegaFeature (Ljava/util/Random;)Lcec;

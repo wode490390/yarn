@@ -1,0 +1,15 @@
+CLASS ape net/minecraft/world/entity/ai/goal/DolphinJumpGoal
+	FIELD a STEPS_TO_CHECK [I
+	FIELD b dolphin Latq;
+	FIELD c interval I
+	FIELD d breached Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Latq;I)V
+	METHOD E_ isInterruptable ()Z
+	METHOD a canUse ()Z
+	METHOD a waterIsClear (Lfk;III)Z
+	METHOD b canContinueToUse ()Z
+	METHOD b surfaceIsClear (Lfk;III)Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

@@ -1,0 +1,6 @@
+CLASS bvb net/minecraft/world/level/block/SlimeBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a bounceUp (Laky;)V
+	METHOD a updateEntityAfterFallOn (Lbjp;Laky;)V
+	METHOD a stepOn (Lbkf;Lfk;Laky;)V
+	METHOD a fallOn (Lbkf;Lfk;Laky;F)V

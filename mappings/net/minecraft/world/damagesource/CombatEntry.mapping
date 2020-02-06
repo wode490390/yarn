@@ -1,0 +1,18 @@
+CLASS ake net/minecraft/world/damagesource/CombatEntry
+	FIELD a source Lakh;
+	FIELD b time I
+	FIELD c damage F
+	FIELD d health F
+	FIELD e location Ljava/lang/String;
+	FIELD f fallDistance F
+	METHOD <init> <init> (Lakh;IFFLjava/lang/String;F)V
+	METHOD a getSource ()Lakh;
+	METHOD b getTime ()I
+	METHOD c getDamage ()F
+	METHOD d getHealthBeforeDamage ()F
+	METHOD e getHealthAfterDamage ()F
+	METHOD f isCombatRelated ()Z
+	METHOD g getLocation ()Ljava/lang/String;
+	METHOD h getAttackerName ()Llf;
+	METHOD i getAttacker ()Laky;
+	METHOD j getFallDistance ()F

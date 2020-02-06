@@ -1,0 +1,3 @@
+CLASS bvc net/minecraft/world/level/block/SmithingTableBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;

@@ -1,0 +1,10 @@
+CLASS cah net/minecraft/world/level/block/state/properties/IntegerProperty
+	FIELD a values Lcom/google/common/collect/ImmutableSet;
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD a getName (Ljava/lang/Comparable;)Ljava/lang/String;
+	METHOD a getName (Ljava/lang/Integer;)Ljava/lang/String;
+	METHOD a create (Ljava/lang/String;II)Lcah;
+	METHOD b getValue (Ljava/lang/String;)Ljava/util/Optional;
+	METHOD c generateHashCode ()I
+	METHOD d getPossibleValues ()Ljava/util/Collection;
+	METHOD equals equals (Ljava/lang/Object;)Z

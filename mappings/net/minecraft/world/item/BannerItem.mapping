@@ -1,0 +1,5 @@
+CLASS bcv net/minecraft/world/item/BannerItem
+	METHOD <init> <init> (Lbpy;Lbpy;Lber$a;)V
+	METHOD a appendHoverText (Lbew;Lbkf;Ljava/util/List;Lbgf;)V
+	METHOD a appendHoverTextFromBannerBlockEntityTag (Lbew;Ljava/util/List;)V
+	METHOD b getColor ()Lbds;

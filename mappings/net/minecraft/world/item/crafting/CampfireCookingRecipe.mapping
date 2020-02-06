@@ -1,0 +1,4 @@
+CLASS bgw net/minecraft/world/item/crafting/CampfireCookingRecipe
+	METHOD <init> <init> (Lsm;Ljava/lang/String;Lbhc;Lbew;FI)V
+	METHOD W_ getSerializer ()Lbhh;
+	METHOD h getToastSymbol ()Lbew;

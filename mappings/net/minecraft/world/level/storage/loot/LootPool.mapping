@@ -1,0 +1,44 @@
+CLASS cti net/minecraft/world/level/storage/loot/LootPool
+	FIELD a entries [Lctz;
+	FIELD b conditions [Lcvv;
+	FIELD c compositeCondition Ljava/util/function/Predicate;
+	FIELD d functions [Lcur;
+	FIELD e compositeFunction Ljava/util/function/BiFunction;
+	FIELD f rolls Lctm;
+	FIELD g bonusRolls Lcto;
+	METHOD <init> <init> ([Lctz;[Lcvv;[Lcur;Lctm;Lcto;)V
+	METHOD <init> <init> ([Lctz;[Lcvv;[Lcur;Lctm;Lcto;Lcti$1;)V
+	METHOD a lootPool ()Lcti$a;
+	METHOD a lambda$addRandomItem$0 (Lctg;Ljava/util/List;Lorg/apache/commons/lang3/mutable/MutableInt;Lcty;)V
+	METHOD a access$100 (Lcti;)Lctm;
+	METHOD a validate (Lctp;)V
+	METHOD a addRandomItems (Ljava/util/function/Consumer;Lctg;)V
+	METHOD b access$200 (Lcti;)[Lctz;
+	METHOD b addRandomItem (Ljava/util/function/Consumer;Lctg;)V
+	METHOD c access$300 (Lcti;)Lcto;
+	METHOD d access$400 (Lcti;)[Lcvv;
+	METHOD e access$500 (Lcti;)[Lcur;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		FIELD b conditions Ljava/util/List;
+		FIELD c functions Ljava/util/List;
+		FIELD d rolls Lctm;
+		FIELD e bonusRolls Lcto;
+		METHOD <init> <init> ()V
+		METHOD a unwrap ()Lcti$a;
+		METHOD a setRolls (Lctm;)Lcti$a;
+		METHOD a setBonusRolls (Lcto;)Lcti$a;
+		METHOD a add (Lctz$a;)Lcti$a;
+		METHOD a apply (Lcur$a;)Lcti$a;
+		METHOD a when (Lcvv$a;)Lcti$a;
+		METHOD b build ()Lcti;
+		METHOD b apply (Lcur$a;)Ljava/lang/Object;
+		METHOD b when (Lcvv$a;)Ljava/lang/Object;
+		METHOD c unwrap ()Ljava/lang/Object;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcti;
+		METHOD a serialize (Lcti;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

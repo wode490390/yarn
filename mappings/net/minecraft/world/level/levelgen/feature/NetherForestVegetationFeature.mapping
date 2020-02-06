@@ -1,0 +1,4 @@
+CLASS cfp net/minecraft/world/level/levelgen/feature/NetherForestVegetationFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchi;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z

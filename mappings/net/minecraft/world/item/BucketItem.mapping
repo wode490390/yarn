@@ -1,0 +1,9 @@
+CLASS bdg net/minecraft/world/item/BucketItem
+	FIELD a content Lcps;
+	METHOD <init> <init> (Lcps;Lber$a;)V
+	METHOD a emptyBucket (Lays;Lbkf;Lfk;Lcwp;)Z
+	METHOD a playEmptySound (Lays;Lbkg;Lfk;)V
+	METHOD a getEmptySuccessItem (Lbew;Lays;)Lbew;
+	METHOD a createResultItem (Lbew;Lays;Lber;)Lbew;
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;
+	METHOD a checkExtraContent (Lbkf;Lbew;Lfk;)V

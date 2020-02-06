@@ -1,0 +1,12 @@
+CLASS ari net/minecraft/world/entity/ai/goal/target/NearestAttackableTargetGoal
+	FIELD a targetType Ljava/lang/Class;
+	FIELD b randomInterval I
+	FIELD c target Lalh;
+	FIELD d targetConditions Lass;
+	METHOD <init> <init> (Lali;Ljava/lang/Class;IZZLjava/util/function/Predicate;)V
+	METHOD <init> <init> (Lali;Ljava/lang/Class;Z)V
+	METHOD <init> <init> (Lali;Ljava/lang/Class;ZZ)V
+	METHOD a canUse ()Z
+	METHOD a getTargetSearchArea (D)Lcwo;
+	METHOD c start ()V
+	METHOD g findTarget ()V

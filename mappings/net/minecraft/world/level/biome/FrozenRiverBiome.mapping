@@ -1,0 +1,2 @@
+CLASS bml net/minecraft/world/level/biome/FrozenRiverBiome
+	METHOD <init> <init> ()V

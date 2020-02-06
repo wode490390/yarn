@@ -1,0 +1,4 @@
+CLASS cbm net/minecraft/world/level/chunk/LightChunkGetter
+	METHOD a onLightUpdate (Lbko;Lgd;)V
+	METHOD c getChunkForLighting (II)Lbjp;
+	METHOD l getLevel ()Lbjp;

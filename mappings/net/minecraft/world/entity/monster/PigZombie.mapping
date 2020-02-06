@@ -1,0 +1,35 @@
+CLASS axi net/minecraft/world/entity/monster/PigZombie
+	FIELD b SPEED_MODIFIER_ATTACKING_UUID Ljava/util/UUID;
+	FIELD bw angerTime I
+	FIELD bx playAngrySoundIn I
+	FIELD by lastHurtByUUID Ljava/util/UUID;
+	FIELD c SPEED_MODIFIER_ATTACKING Lama;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD a populateDefaultEquipmentSlots (Lajq;)V
+	METHOD a hurt (Lakh;F)Z
+	METHOD a setLastHurtByMob (Lalh;)V
+	METHOD a access$100 (Laxi;)Z
+	METHOD a access$000 (Laxi;Lalh;)Z
+	METHOD a checkSpawnObstruction (Lbki;)Z
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b checkPigZombieSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD dT customServerAiStep ()V
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD e isPreventingPlayerRest (Lays;)Z
+	METHOD eA isAngry ()Z
+	METHOD es getSkull ()Lbew;
+	METHOD et convertsInWater ()Z
+	METHOD ez getAngerTime ()I
+	METHOD i makeAngry (Lalh;)Z
+	METHOD l addBehaviourGoals ()V
+	CLASS a PigZombieAngerTargetGoal
+		METHOD <init> <init> (Laxi;)V
+		METHOD a canUse ()Z
+	CLASS b PigZombieHurtByOtherGoal
+		METHOD <init> <init> (Laxi;)V
+		METHOD a alertOther (Lali;Lalh;)V

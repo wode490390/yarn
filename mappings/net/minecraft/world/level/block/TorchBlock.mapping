@@ -1,0 +1,9 @@
+CLASS bwc net/minecraft/world/level/block/TorchBlock
+	FIELD d AABB Lcxo;
+	FIELD e flameParticle Lgt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;Lgt;)V
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a animateTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;)V
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;

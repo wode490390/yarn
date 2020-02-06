@@ -1,0 +1,3 @@
+CLASS bvs net/minecraft/world/level/block/StoneButtonBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getSound (Z)Laai;

@@ -1,0 +1,4 @@
+CLASS bwt net/minecraft/world/level/block/WetSpongeBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a animateTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;)V
+	METHOD b onPlace (Lbzh;Lbkf;Lfk;Lbzh;Z)V

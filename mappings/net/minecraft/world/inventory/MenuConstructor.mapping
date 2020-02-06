@@ -1,0 +1,2 @@
+CLASS bbw net/minecraft/world/inventory/MenuConstructor
+	METHOD createMenu createMenu (ILayr;Lays;)Lbaw;

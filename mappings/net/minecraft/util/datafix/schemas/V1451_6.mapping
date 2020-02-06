@@ -1,0 +1,5 @@
+CLASS ahh net/minecraft/util/datafix/schemas/V1451_6
+	METHOD <init> <init> (ILcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a lambda$registerTypes$0 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD a lambda$registerTypes$1 (Lcom/mojang/datafixers/schemas/Schema;Ljava/util/function/Supplier;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD registerTypes registerTypes (Lcom/mojang/datafixers/schemas/Schema;Ljava/util/Map;Ljava/util/Map;)V

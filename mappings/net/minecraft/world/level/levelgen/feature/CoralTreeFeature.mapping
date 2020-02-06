@@ -1,0 +1,3 @@
+CLASS ceg net/minecraft/world/level/levelgen/feature/CoralTreeFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a placeFeature (Lbkg;Ljava/util/Random;Lfk;Lbzh;)Z

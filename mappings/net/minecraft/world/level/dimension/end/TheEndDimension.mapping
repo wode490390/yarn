@@ -1,0 +1,21 @@
+CLASS ccm net/minecraft/world/level/dimension/end/TheEndDimension
+	FIELD f END_SPAWN_POINT Lfk;
+	FIELD g dragonFight Lccl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbkf;Lcch;)V
+	METHOD a getCloudHeight ()F
+	METHOD a getSunriseColor (FF)[F
+	METHOD a getBrightnessDependentFogColor (IF)Lcwu;
+	METHOD a isFoggyAt (II)Z
+	METHOD a getValidSpawnPosition (IIZ)Lfk;
+	METHOD a getTimeOfDay (JF)F
+	METHOD a getSpawnPosInChunk (Lbjq;Z)Lfk;
+	METHOD b hasGround ()Z
+	METHOD c getDimensionSpecificSpawn ()Lfk;
+	METHOD i saveData ()V
+	METHOD j tick ()V
+	METHOD k createRandomLevelGenerator ()Lcaz;
+	METHOD l isNaturalDimension ()Z
+	METHOD m mayRespawn ()Z
+	METHOD n getType ()Lcch;
+	METHOD o getDragonFight ()Lccl;

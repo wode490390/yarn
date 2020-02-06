@@ -1,0 +1,2 @@
+CLASS fv net/minecraft/core/Location
+	METHOD h getLevel ()Lbkf;

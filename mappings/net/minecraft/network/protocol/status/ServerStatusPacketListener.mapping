@@ -1,0 +1,3 @@
+CLASS rx net/minecraft/network/protocol/status/ServerStatusPacketListener
+	METHOD a handlePingRequest (Lry;)V
+	METHOD a handleStatusRequest (Lrz;)V

@@ -1,0 +1,11 @@
+CLASS bzj net/minecraft/world/level/block/state/StateHolder
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD a getProperties ()Ljava/util/Collection;
+	METHOD a setValueHelper (Lbzj;Lcak;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lbzj;
+	METHOD a cycle (Lcak;)Ljava/lang/Object;
+	METHOD a setValue (Lcak;Ljava/lang/Comparable;)Ljava/lang/Object;
+	METHOD b getValues ()Lcom/google/common/collect/ImmutableMap;
+	METHOD b hasProperty (Lcak;)Z
+	METHOD b getName (Lcak;Ljava/lang/Comparable;)Ljava/lang/String;
+	METHOD c getValue (Lcak;)Ljava/lang/Comparable;

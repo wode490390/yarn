@@ -1,0 +1,7 @@
+CLASS chd net/minecraft/world/level/levelgen/feature/blockplacers/ColumnPlacer
+	FIELD b minSize I
+	FIELD c extraSize I
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a place (Lbkg;Lfk;Lbzh;Ljava/util/Random;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;

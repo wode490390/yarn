@@ -1,0 +1,43 @@
+CLASS bxo net/minecraft/world/level/block/entity/CommandBlockEntity
+	FIELD a powered Z
+	FIELD b auto Z
+	FIELD c conditionMet Z
+	FIELD g sendToClient Z
+	FIELD h commandBlock Lbjl;
+	METHOD <init> <init> ()V
+	METHOD a getUpdatePacket ()Lmh;
+	METHOD a load (Ljt;)V
+	METHOD a setPowered (Z)V
+	METHOD b save (Ljt;)Ljt;
+	METHOD b setAutomatic (Z)V
+	METHOD c setSendToClient (Z)V
+	METHOD d getCommandBlock ()Lbjl;
+	METHOD f isPowered ()Z
+	METHOD g isAutomatic ()Z
+	METHOD h onModeSwitch ()V
+	METHOD j wasConditionMet ()Z
+	METHOD k markConditionMet ()Z
+	METHOD l isSendToClient ()Z
+	METHOD m getMode ()Lbxo$a;
+	METHOD r clearRemoved ()V
+	METHOD t onlyOpCanSetNbt ()Z
+	METHOD x isConditional ()Z
+	METHOD y scheduleTick ()V
+	CLASS 1 1
+		FIELD b this$0 Lbxo;
+		METHOD <init> <init> (Lbxo;)V
+		METHOD a writeCoordinates (Lio/netty/buffer/ByteBuf;)V
+		METHOD a setCommand (Ljava/lang/String;)V
+		METHOD d getLevel ()Lxe;
+		METHOD e onUpdated ()V
+		METHOD f getPosition ()Lcwu;
+		METHOD h createCommandSourceStack ()Lcq;
+	CLASS a Mode
+		FIELD a SEQUENCE Lbxo$a;
+		FIELD b AUTO Lbxo$a;
+		FIELD c REDSTONE Lbxo$a;
+		FIELD d $VALUES [Lbxo$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbxo$a;
+		METHOD values values ()[Lbxo$a;

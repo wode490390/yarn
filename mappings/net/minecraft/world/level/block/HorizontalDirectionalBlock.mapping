@@ -1,0 +1,6 @@
+CLASS bsr net/minecraft/world/level/block/HorizontalDirectionalBlock
+	FIELD ay FACING Lcac;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a mirror (Lbzh;Lbtm;)Lbzh;
+	METHOD a rotate (Lbzh;Lbup;)Lbzh;

@@ -1,0 +1,13 @@
+CLASS cwp net/minecraft/world/phys/BlockHitResult
+	FIELD b direction Lfp;
+	FIELD c blockPos Lfk;
+	FIELD d miss Z
+	FIELD e inside Z
+	METHOD <init> <init> (Lcwu;Lfp;Lfk;Z)V
+	METHOD <init> <init> (ZLcwu;Lfp;Lfk;Z)V
+	METHOD a getBlockPos ()Lfk;
+	METHOD a miss (Lcwu;Lfp;Lfk;)Lcwp;
+	METHOD a withDirection (Lfp;)Lcwp;
+	METHOD b getDirection ()Lfp;
+	METHOD c getType ()Lcwr$a;
+	METHOD d isInside ()Z

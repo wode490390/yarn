@@ -1,0 +1,26 @@
+CLASS buj net/minecraft/world/level/block/RedstoneTorchBlock
+	FIELD a LIT Lbzz;
+	FIELD b RECENT_TOGGLES Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a lambda$isToggledTooFrequently$0 (Lbjp;)Ljava/util/List;
+	METHOD a hasNeighborSignal (Lbkf;Lfk;Lbzh;)Z
+	METHOD a isToggledTooFrequently (Lbkf;Lfk;Z)Z
+	METHOD a getTickDelay (Lbki;)I
+	METHOD a getLightEmission (Lbzh;)I
+	METHOD a getSignal (Lbzh;Lbjp;Lfk;Lfp;)I
+	METHOD a neighborChanged (Lbzh;Lbkf;Lfk;Lbpy;Lfk;Z)V
+	METHOD a onRemove (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	METHOD a animateTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;)V
+	METHOD a handleTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;Z)V
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD a_ isSignalSource (Lbzh;)Z
+	METHOD b getDirectSignal (Lbzh;Lbjp;Lfk;Lfp;)I
+	METHOD b onPlace (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	CLASS a Toggle
+		FIELD a pos Lfk;
+		FIELD b when J
+		METHOD <init> <init> (Lfk;J)V
+		METHOD a access$000 (Lbuj$a;)J
+		METHOD b access$100 (Lbuj$a;)Lfk;

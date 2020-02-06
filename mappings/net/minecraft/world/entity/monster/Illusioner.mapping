@@ -1,0 +1,43 @@
+CLASS axd net/minecraft/world/entity/monster/Illusioner
+	FIELD bw clientSideIllusionTicks I
+	FIELD bx clientSideIllusionOffsets [[Lcwu;
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD a applyRaidBuffs (IZ)V
+	METHOD a performRangedAttack (Lalh;F)V
+	METHOD a finalizeSpawn (Lbkg;Lajq;Lalk;Lalu;Ljt;)Lalu;
+	METHOD bU getBoundingBoxForCulling ()Lcwo;
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD eq getCelebrateSound ()Laai;
+	METHOD er getCastingSoundEvent ()Laai;
+	METHOD k aiStep ()V
+	METHOD l getArmPose ()Lawm$a;
+	METHOD n registerGoals ()V
+	METHOD r isAlliedTo (Laky;)Z
+	METHOD u getIllusionOffsets (F)[Lcwu;
+	METHOD w_ defineSynchedData ()V
+	CLASS 1 1
+	CLASS a IllusionerBlindnessSpellGoal
+		FIELD a this$0 Laxd;
+		FIELD e lastTargetId I
+		METHOD <init> <init> (Laxd;)V
+		METHOD <init> <init> (Laxd;Laxd$1;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Laai;
+		METHOD l getSpell ()Laxr$a;
+	CLASS b IllusionerMirrorSpellGoal
+		FIELD a this$0 Laxd;
+		METHOD <init> <init> (Laxd;)V
+		METHOD <init> <init> (Laxd;Laxd$1;)V
+		METHOD a canUse ()Z
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Laai;
+		METHOD l getSpell ()Laxr$a;

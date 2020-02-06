@@ -1,0 +1,28 @@
+CLASS cut net/minecraft/world/level/storage/loot/functions/LootingEnchantFunction
+	FIELD a value Lcto;
+	FIELD c limit I
+	METHOD <init> <init> ([Lcvv;Lcto;I)V
+	METHOD <init> <init> ([Lcvv;Lcto;ILcut$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a lootingMultiplier (Lcto;)Lcut$a;
+	METHOD a access$100 (Lcut;)Lcto;
+	METHOD b hasLimit ()Z
+	METHOD b access$200 (Lcut;)Z
+	METHOD c access$300 (Lcut;)I
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a count Lcto;
+		FIELD b limit I
+		METHOD <init> <init> (Lcto;)V
+		METHOD a getThis ()Lcut$a;
+		METHOD a setLimit (I)Lcut$a;
+		METHOD b build ()Lcur;
+		METHOD d getThis ()Lcuq$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcut;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcut;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

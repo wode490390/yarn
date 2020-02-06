@@ -1,0 +1,4 @@
+CLASS bez net/minecraft/world/item/LeadItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a bindPlayerMobs (Lays;Lbkf;Lfk;)Lajs;
+	METHOD a useOn (Lbgi;)Lajs;

@@ -1,0 +1,21 @@
+CLASS aak net/minecraft/sounds/SoundSource
+	FIELD a MASTER Laak;
+	FIELD b MUSIC Laak;
+	FIELD c RECORDS Laak;
+	FIELD d WEATHER Laak;
+	FIELD e BLOCKS Laak;
+	FIELD f HOSTILE Laak;
+	FIELD g NEUTRAL Laak;
+	FIELD h PLAYERS Laak;
+	FIELD i AMBIENT Laak;
+	FIELD j VOICE Laak;
+	FIELD k BY_NAME Ljava/util/Map;
+	FIELD l name Ljava/lang/String;
+	FIELD m $VALUES [Laak;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a byName (Ljava/lang/String;)Laak;
+	METHOD b getNames ()Ljava/util/Set;
+	METHOD valueOf valueOf (Ljava/lang/String;)Laak;
+	METHOD values values ()[Laak;

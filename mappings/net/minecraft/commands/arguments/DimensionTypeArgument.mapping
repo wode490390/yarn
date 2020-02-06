@@ -1,0 +1,14 @@
+CLASS cw net/minecraft/commands/arguments/DimensionTypeArgument
+	FIELD a ERROR_INVALID_VALUE Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD b EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a dimension ()Lcw;
+	METHOD a lambda$static$0 (Lcch;)Ljava/lang/String;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lcch;
+	METHOD a getDimension (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcch;
+	METHOD a lambda$static$1 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$parse$2 (Lsm;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

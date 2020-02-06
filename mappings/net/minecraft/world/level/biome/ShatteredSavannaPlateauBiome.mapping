@@ -1,0 +1,2 @@
+CLASS bnt net/minecraft/world/level/biome/ShatteredSavannaPlateauBiome
+	METHOD <init> <init> ()V

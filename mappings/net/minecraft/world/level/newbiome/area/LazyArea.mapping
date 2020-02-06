@@ -1,0 +1,7 @@
+CLASS cqe net/minecraft/world/level/newbiome/area/LazyArea
+	FIELD a transformer Lcrr;
+	FIELD b cache Lit/unimi/dsi/fastutil/longs/Long2IntLinkedOpenHashMap;
+	FIELD c maxCache I
+	METHOD <init> <init> (Lit/unimi/dsi/fastutil/longs/Long2IntLinkedOpenHashMap;ILcrr;)V
+	METHOD a getMaxCache ()I
+	METHOD a get (II)I

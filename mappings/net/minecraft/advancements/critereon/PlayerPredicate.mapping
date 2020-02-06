@@ -1,0 +1,50 @@
+CLASS bx net/minecraft/advancements/critereon/PlayerPredicate
+	FIELD a ANY Lbx;
+	FIELD b level Lbr$d;
+	FIELD c gameType Lbkc;
+	FIELD d stats Ljava/util/Map;
+	FIELD e recipes Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;
+	FIELD f advancements Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbr$d;Lbkc;Ljava/util/Map;Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;Ljava/util/Map;)V
+	METHOD <init> <init> (Lbr$d;Lbkc;Ljava/util/Map;Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;Ljava/util/Map;Lbx$1;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a getStatValueId (Laap;)Lsm;
+	METHOD a getStat (Laar;Lsm;)Laap;
+	METHOD a matches (Laky;)Z
+	METHOD a lambda$serializeToJson$1 (Lcom/google/gson/JsonArray;Laap;Lbr$d;)V
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbx;
+	METHOD a lambda$serializeToJson$3 (Lcom/google/gson/JsonObject;Lsm;Lbx$c;)V
+	METHOD a lambda$serializeToJson$2 (Lcom/google/gson/JsonObject;Lsm;Ljava/lang/Boolean;)V
+	METHOD a lambda$advancementPredicateFromJson$0 (Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;Ljava/util/Map$Entry;)V
+	METHOD b advancementPredicateFromJson (Lcom/google/gson/JsonElement;)Lbx$c;
+	CLASS 1 1
+	CLASS a AdvancementCriterionsPredicate
+		FIELD a criterions Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;
+		METHOD <init> <init> (Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;)V
+		METHOD a toJson ()Lcom/google/gson/JsonElement;
+		METHOD a test (Lw;)Z
+		METHOD test test (Ljava/lang/Object;)Z
+	CLASS b AdvancementDonePredicate
+		FIELD a state Z
+		METHOD <init> <init> (Z)V
+		METHOD a toJson ()Lcom/google/gson/JsonElement;
+		METHOD a test (Lw;)Z
+		METHOD test test (Ljava/lang/Object;)Z
+	CLASS c AdvancementPredicate
+		METHOD a toJson ()Lcom/google/gson/JsonElement;
+	CLASS d Builder
+		FIELD a level Lbr$d;
+		FIELD b gameType Lbkc;
+		FIELD c stats Ljava/util/Map;
+		FIELD d recipes Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;
+		FIELD e advancements Ljava/util/Map;
+		METHOD <init> <init> ()V
+		METHOD a player ()Lbx$d;
+		METHOD a addStat (Laap;Lbr$d;)Lbx$d;
+		METHOD a setGameType (Lbkc;)Lbx$d;
+		METHOD a setLevel (Lbr$d;)Lbx$d;
+		METHOD a checkAdvancementCriterions (Lsm;Ljava/util/Map;)Lbx$d;
+		METHOD a addRecipe (Lsm;Z)Lbx$d;
+		METHOD b build ()Lbx;
+		METHOD b checkAdvancementDone (Lsm;Z)Lbx$d;

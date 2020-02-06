@@ -1,0 +1,5 @@
+CLASS boz net/minecraft/world/level/block/AbstractSkullBlock
+	FIELD a type Lbuz$a;
+	METHOD <init> <init> (Lbuz$a;Lbpy$c;)V
+	METHOD a newBlockEntity (Lbjp;)Lbxj;
+	METHOD b getType ()Lbuz$a;

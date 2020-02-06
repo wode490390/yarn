@@ -1,0 +1,6 @@
+CLASS bci net/minecraft/world/inventory/SimpleContainerData
+	FIELD a ints [I
+	METHOD <init> <init> (I)V
+	METHOD a getCount ()I
+	METHOD a get (I)I
+	METHOD a set (II)V

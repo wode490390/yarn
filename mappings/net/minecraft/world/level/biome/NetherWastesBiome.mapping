@@ -1,0 +1,2 @@
+CLASS bnk net/minecraft/world/level/biome/NetherWastesBiome
+	METHOD <init> <init> ()V

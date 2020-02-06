@@ -1,0 +1,22 @@
+CLASS but net/minecraft/world/level/block/SeaPickleBlock
+	FIELD a PICKLES Lcah;
+	FIELD b WATERLOGGED Lbzz;
+	FIELD c ONE_AABB Lcxo;
+	FIELD d TWO_AABB Lcxo;
+	FIELD e THREE_AABB Lcxo;
+	FIELD f FOUR_AABB Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a isValidBonemealTarget (Lbjp;Lfk;Lbzh;Z)Z
+	METHOD a isBonemealSuccess (Lbkf;Ljava/util/Random;Lfk;Lbzh;)Z
+	METHOD a getLightEmission (Lbzh;)I
+	METHOD a canBeReplaced (Lbzh;Lbcz;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD a performBonemeal (Lxe;Ljava/util/Random;Lfk;Lbzh;)V
+	METHOD a_ mayPlaceOn (Lbzh;Lbjp;Lfk;)Z
+	METHOD b_ getFluidState (Lbzh;)Lcpt;
+	METHOD h isDead (Lbzh;)Z

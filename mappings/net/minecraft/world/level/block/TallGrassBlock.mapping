@@ -1,0 +1,9 @@
+CLASS bvz net/minecraft/world/level/block/TallGrassBlock
+	FIELD a SHAPE Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD X_ getOffsetType ()Lbpy$b;
+	METHOD a isValidBonemealTarget (Lbjp;Lfk;Lbzh;Z)Z
+	METHOD a isBonemealSuccess (Lbkf;Ljava/util/Random;Lfk;Lbzh;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a performBonemeal (Lxe;Ljava/util/Random;Lfk;Lbzh;)V

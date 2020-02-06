@@ -1,0 +1,9 @@
+CLASS nq net/minecraft/network/protocol/game/ClientboundOpenSignEditorPacket
+	FIELD a pos Lfk;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lfk;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getPos ()Lfk;
+	METHOD b write (Lkv;)V

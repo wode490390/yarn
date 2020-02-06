@@ -1,0 +1,10 @@
+CLASS ciw net/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacerType
+	FIELD a BLOB_FOLIAGE_PLACER Lciw;
+	FIELD b SPRUCE_FOLIAGE_PLACER Lciw;
+	FIELD c PINE_FOLIAGE_PLACER Lciw;
+	FIELD d ACACIA_FOLIAGE_PLACER Lciw;
+	FIELD e deserializer Ljava/util/function/Function;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lciv;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Function;)Lciw;

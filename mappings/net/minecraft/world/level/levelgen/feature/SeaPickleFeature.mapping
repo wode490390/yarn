@@ -1,0 +1,4 @@
+CLASS cge net/minecraft/world/level/levelgen/feature/SeaPickleFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchm;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z

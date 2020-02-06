@@ -1,11 +1,34 @@
-CLASS net/minecraft/class_2503 net/minecraft/nbt/LongTag
-	FIELD field_11553 value J
-	FIELD field_21041 READER Lnet/minecraft/class_4614;
-	METHOD <init> (J)V
-		ARG 1 value
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
-	METHOD method_23251 of (J)Lnet/minecraft/class_2503;
-		ARG 0 value
-	CLASS class_4612 Cache
-		FIELD field_21042 VALUES [Lnet/minecraft/class_2503;
+CLASS kb net/minecraft/nbt/LongTag
+	FIELD a TYPE Lkl;
+	FIELD b data J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (J)V
+	METHOD <init> <init> (JLkb$1;)V
+	METHOD a getId ()B
+	METHOD a valueOf (J)Lkb;
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Llf;
+	METHOD b getType ()Lkl;
+	METHOD c copy ()Lkj;
+	METHOD d copy ()Lkb;
+	METHOD e getAsLong ()J
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getAsInt ()I
+	METHOD g getAsShort ()S
+	METHOD h getAsByte ()B
+	METHOD hashCode hashCode ()I
+	METHOD i getAsDouble ()D
+	METHOD j getAsFloat ()F
+	METHOD k getAsNumber ()Ljava/lang/Number;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a load (Ljava/io/DataInput;ILkc;)Lkb;
+		METHOD b getPrettyName ()Ljava/lang/String;
+		METHOD b load (Ljava/io/DataInput;ILkc;)Lkj;
+		METHOD c isValue ()Z
+	CLASS a Cache
+		FIELD a cache [Lkb;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V

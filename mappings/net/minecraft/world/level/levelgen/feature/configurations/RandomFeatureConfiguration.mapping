@@ -1,0 +1,7 @@
+CLASS cif net/minecraft/world/level/levelgen/feature/configurations/RandomFeatureConfiguration
+	FIELD a features Ljava/util/List;
+	FIELD b defaultFeature Lcec;
+	METHOD <init> <init> (Ljava/util/List;Lcec;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcif;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lcgz;)Ljava/lang/Object;

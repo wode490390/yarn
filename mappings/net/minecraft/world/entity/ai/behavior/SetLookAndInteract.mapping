@@ -1,0 +1,16 @@
+CLASS anq net/minecraft/world/entity/ai/behavior/SetLookAndInteract
+	FIELD a type Lalc;
+	FIELD b interactionRangeSqr I
+	FIELD c targetFilter Ljava/util/function/Predicate;
+	FIELD d selfFilter Ljava/util/function/Predicate;
+	METHOD <init> <init> (Lalc;I)V
+	METHOD <init> <init> (Lalc;ILjava/util/function/Predicate;Ljava/util/function/Predicate;)V
+	METHOD a isMatchingTarget (Lalh;)Z
+	METHOD a lambda$null$2 (Lalh;Lalh;)Z
+	METHOD a lambda$start$4 (Lalh;Lalx;Ljava/util/List;)V
+	METHOD a lambda$null$3 (Lalx;Lalh;)V
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD b getVisibleEntities (Lalh;)Ljava/util/List;
+	METHOD c lambda$new$1 (Lalh;)Z
+	METHOD d lambda$new$0 (Lalh;)Z

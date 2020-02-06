@@ -1,0 +1,4 @@
+CLASS bxw net/minecraft/world/level/block/entity/FurnaceBlockEntity
+	METHOD <init> <init> ()V
+	METHOD a createMenu (ILayr;)Lbaw;
+	METHOD g getDefaultName ()Llf;

@@ -1,0 +1,34 @@
+CLASS cxl net/minecraft/world/phys/shapes/Shapes
+	FIELD a INFINITY Lcxo;
+	FIELD b BLOCK Lcxo;
+	FIELD c EMPTY Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a empty ()Lcxo;
+	METHOD a findBits (DD)I
+	METHOD a lastC (DDD)I
+	METHOD a box (DDDDDD)Lcxo;
+	METHOD a lcm (II)J
+	METHOD a createIndexMerger (ILit/unimi/dsi/fastutil/doubles/DoubleList;Lit/unimi/dsi/fastutil/doubles/DoubleList;ZZ)Lcxg;
+	METHOD a create (Lcwo;)Lcxo;
+	METHOD a collide (Lcwo;Lbki;DLcwz;Lfi;Ljava/util/stream/Stream;)D
+	METHOD a lambda$null$1 (Lcwy;Lcxd;IILcxd;IIIII)Z
+	METHOD a lambda$null$2 (Lcxg;Lcwy;Lcxd;ILcxd;IIII)Z
+	METHOD a lambda$joinIsNotEmpty$3 (Lcxg;Lcxg;Lcwy;Lcxd;Lcxd;III)Z
+	METHOD a joinIsNotEmpty (Lcxg;Lcxg;Lcxg;Lcxd;Lcxd;Lcwy;)Z
+	METHOD a or (Lcxo;Lcxo;)Lcxo;
+	METHOD a join (Lcxo;Lcxo;Lcwy;)Lcxo;
+	METHOD a blockOccudes (Lcxo;Lcxo;Lfp;)Z
+	METHOD a getFaceShape (Lcxo;Lfp;)Lcxo;
+	METHOD a or (Lcxo;[Lcxo;)Lcxo;
+	METHOD a collide (Lfp$a;Lcwo;Lbki;DLcwz;Ljava/util/stream/Stream;)D
+	METHOD a collide (Lfp$a;Lcwo;Ljava/util/stream/Stream;D)D
+	METHOD a lambda$collide$4 ([DLfp$a;Lcwo;Lcxo;)V
+	METHOD b block ()Lcxo;
+	METHOD b faceShapeOccludes (Lcxo;Lcxo;)Z
+	METHOD b joinUnoptimized (Lcxo;Lcxo;Lcwy;)Lcxo;
+	METHOD b mergedFaceOccludes (Lcxo;Lcxo;Lfp;)Z
+	METHOD c lambda$static$0 ()Lcxb;
+	METHOD c joinIsNotEmpty (Lcxo;Lcxo;Lcwy;)Z
+	CLASS a DoubleLineConsumer
+		METHOD consume consume (DDDDDD)V

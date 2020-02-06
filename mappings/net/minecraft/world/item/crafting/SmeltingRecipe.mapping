@@ -1,0 +1,4 @@
+CLASS bhr net/minecraft/world/item/crafting/SmeltingRecipe
+	METHOD <init> <init> (Lsm;Ljava/lang/String;Lbhc;Lbew;FI)V
+	METHOD W_ getSerializer ()Lbhh;
+	METHOD h getToastSymbol ()Lbew;

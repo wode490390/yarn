@@ -1,0 +1,4 @@
+CLASS bec net/minecraft/world/item/EndCrystalItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a useOn (Lbgi;)Lajs;
+	METHOD d_ isFoil (Lbew;)Z

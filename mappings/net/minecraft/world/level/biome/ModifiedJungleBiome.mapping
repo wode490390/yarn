@@ -1,0 +1,2 @@
+CLASS bna net/minecraft/world/level/biome/ModifiedJungleBiome
+	METHOD <init> <init> ()V

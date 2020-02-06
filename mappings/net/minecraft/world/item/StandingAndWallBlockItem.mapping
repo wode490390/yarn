@@ -1,0 +1,5 @@
+CLASS bfx net/minecraft/world/item/StandingAndWallBlockItem
+	FIELD a wallBlock Lbpy;
+	METHOD <init> <init> (Lbpy;Lbpy;Lber$a;)V
+	METHOD a registerBlocks (Ljava/util/Map;Lber;)V
+	METHOD c getPlacementState (Lbcz;)Lbzh;

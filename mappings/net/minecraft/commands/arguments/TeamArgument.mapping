@@ -1,0 +1,12 @@
+CLASS dq net/minecraft/commands/arguments/TeamArgument
+	FIELD a EXAMPLES Ljava/util/Collection;
+	FIELD b ERROR_TEAM_NOT_FOUND Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a team ()Ldq;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/String;
+	METHOD a getTeam (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcxs;
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

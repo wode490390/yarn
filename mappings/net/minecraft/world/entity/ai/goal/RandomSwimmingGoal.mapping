@@ -1,0 +1,3 @@
+CLASS aqm net/minecraft/world/entity/ai/goal/RandomSwimmingGoal
+	METHOD <init> <init> (Lalo;DI)V
+	METHOD g getPosition ()Lcwu;

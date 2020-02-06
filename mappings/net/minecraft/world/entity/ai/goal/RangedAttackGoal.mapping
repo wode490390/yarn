@@ -1,0 +1,17 @@
+CLASS aqn net/minecraft/world/entity/ai/goal/RangedAttackGoal
+	FIELD a mob Lali;
+	FIELD b rangedAttackMob Laxk;
+	FIELD c target Lalh;
+	FIELD d attackTime I
+	FIELD e speedModifier D
+	FIELD f seeTime I
+	FIELD g attackIntervalMin I
+	FIELD h attackIntervalMax I
+	FIELD i attackRadius F
+	FIELD j attackRadiusSqr F
+	METHOD <init> <init> (Laxk;DIF)V
+	METHOD <init> <init> (Laxk;DIIF)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V

@@ -1,0 +1,12 @@
+CLASS bdk net/minecraft/world/item/CompassItem
+	METHOD <init> <init> (Lber$a;)V
+	CLASS 1 1
+		FIELD a this$0 Lbdk;
+		FIELD b rotation D
+		FIELD c rota D
+		FIELD d lastUpdateTick J
+		METHOD <init> <init> (Lbdk;)V
+		METHOD a getFrameRotation (Lavz;)D
+		METHOD a wobble (Lbkf;D)D
+		METHOD a getSpawnToAngle (Lbkg;Laky;)D
+		METHOD call call (Lbew;Lbkf;Lalh;)F

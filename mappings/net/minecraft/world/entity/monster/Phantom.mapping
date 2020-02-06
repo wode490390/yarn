@@ -1,0 +1,117 @@
+CLASS axh net/minecraft/world/entity/monster/Phantom
+	FIELD b ID_SIZE Lsb;
+	FIELD bw attackPhase Laxh$a;
+	FIELD c moveTargetPoint Lcwu;
+	FIELD d anchorPoint Lfk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD J shouldDespawnInPeaceful ()Z
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a setPhantomSize (I)V
+	METHOD a canAttackType (Lalc;)Z
+	METHOD a getDimensions (Lalr;)Lakz;
+	METHOD a access$400 (Laxh;)Lcwu;
+	METHOD a access$502 (Laxh;Laxh$a;)Laxh$a;
+	METHOD a access$402 (Laxh;Lcwu;)Lcwu;
+	METHOD a access$1402 (Laxh;Lfk;)Lfk;
+	METHOD a finalizeSpawn (Lbkg;Lajq;Lalk;Lalu;Ljt;)Lalu;
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD a onSyncedDataUpdated (Lsb;)V
+	METHOD b getStandingEyeHeight (Lalr;Lakz;)F
+	METHOD b access$500 (Laxh;)Laxh$a;
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD c access$600 (Laxh;)Ljava/util/Random;
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD cl getSoundSource ()Laak;
+	METHOD d access$700 (Laxh;)Ljava/util/Random;
+	METHOD dT customServerAiStep ()V
+	METHOD di getMobType ()Lall;
+	METHOD dm getSoundVolume ()F
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD e access$800 (Laxh;)Ljava/util/Random;
+	METHOD eo getMovementTarget ()Lcwu;
+	METHOD ep updatePhantomSizeInfo ()V
+	METHOD f access$900 (Laxh;)Ljava/util/Random;
+	METHOD g access$1000 (Laxh;)Ljava/util/Random;
+	METHOD h tick ()V
+	METHOD h access$1100 (Laxh;)Ljava/util/Random;
+	METHOD i access$1200 (Laxh;)Ljava/util/Random;
+	METHOD j access$1300 (Laxh;)Ljava/util/Random;
+	METHOD k aiStep ()V
+	METHOD k access$1400 (Laxh;)Lfk;
+	METHOD l getPhantomSize ()I
+	METHOD l access$1500 (Laxh;)Ljava/util/Random;
+	METHOD m access$1600 (Laxh;)Ljava/util/Random;
+	METHOD n registerGoals ()V
+	METHOD n access$1700 (Laxh;)Ljava/util/Random;
+	METHOD o createBodyControl ()Laoo;
+	METHOD o access$1800 (Laxh;)Ljava/util/Random;
+	METHOD w_ defineSynchedData ()V
+	CLASS 1 1
+	CLASS a AttackPhase
+		FIELD a CIRCLE Laxh$a;
+		FIELD b SWOOP Laxh$a;
+		FIELD c $VALUES [Laxh$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Laxh$a;
+		METHOD values values ()[Laxh$a;
+	CLASS b PhantomAttackPlayerTargetGoal
+		FIELD a this$0 Laxh;
+		FIELD b attackTargeting Lass;
+		FIELD c nextScanTick I
+		METHOD <init> <init> (Laxh;)V
+		METHOD <init> <init> (Laxh;Laxh$1;)V
+		METHOD a canUse ()Z
+		METHOD a lambda$canUse$0 (Lays;Lays;)I
+		METHOD b canContinueToUse ()Z
+	CLASS c PhantomAttackStrategyGoal
+		FIELD a this$0 Laxh;
+		FIELD b nextSweepTick I
+		METHOD <init> <init> (Laxh;)V
+		METHOD <init> <init> (Laxh;Laxh$1;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+		METHOD g setAnchorAboveTarget ()V
+	CLASS d PhantomBodyRotationControl
+		FIELD a this$0 Laxh;
+		METHOD <init> <init> (Laxh;Lali;)V
+		METHOD a clientTick ()V
+	CLASS e PhantomCircleAroundAnchorGoal
+		FIELD a this$0 Laxh;
+		FIELD c angle F
+		FIELD d distance F
+		FIELD e height F
+		FIELD f clockwise F
+		METHOD <init> <init> (Laxh;)V
+		METHOD <init> <init> (Laxh;Laxh$1;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+		METHOD h selectNext ()V
+	CLASS f PhantomLookControl
+		FIELD h this$0 Laxh;
+		METHOD <init> <init> (Laxh;Lali;)V
+		METHOD a tick ()V
+	CLASS g PhantomMoveControl
+		FIELD i this$0 Laxh;
+		FIELD j speed F
+		METHOD <init> <init> (Laxh;Lali;)V
+		METHOD a tick ()V
+	CLASS h PhantomMoveTargetGoal
+		FIELD b this$0 Laxh;
+		METHOD <init> <init> (Laxh;)V
+		METHOD g touchingTarget ()Z
+	CLASS i PhantomSweepAttackGoal
+		FIELD a this$0 Laxh;
+		METHOD <init> <init> (Laxh;)V
+		METHOD <init> <init> (Laxh;Laxh$1;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V

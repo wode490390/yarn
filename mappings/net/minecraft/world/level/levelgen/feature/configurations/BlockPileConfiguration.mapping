@@ -1,0 +1,5 @@
+CLASS chi net/minecraft/world/level/levelgen/feature/configurations/BlockPileConfiguration
+	FIELD a stateProvider Lcjb;
+	METHOD <init> <init> (Lcjb;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lchi;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

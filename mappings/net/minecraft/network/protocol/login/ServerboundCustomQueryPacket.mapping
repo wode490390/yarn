@@ -1,0 +1,11 @@
+CLASS ro net/minecraft/network/protocol/login/ServerboundCustomQueryPacket
+	FIELD a transactionId I
+	FIELD b data Lkv;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILkv;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lrn;)V
+	METHOD b getTransactionId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getData ()Lkv;

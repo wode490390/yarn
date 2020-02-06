@@ -1,0 +1,3 @@
+CLASS cth net/minecraft/world/level/storage/loot/LootContextUser
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a validate (Lctp;)V

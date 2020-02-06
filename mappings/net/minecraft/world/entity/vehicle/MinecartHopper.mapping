@@ -1,0 +1,25 @@
+CLASS ban net/minecraft/world/entity/vehicle/MinecartHopper
+	FIELD d enabled Z
+	FIELD e cooldownTime I
+	FIELD f lastPosition Lfk;
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDD)V
+	METHOD A getLevelY ()D
+	METHOD B getLevelZ ()D
+	METHOD C suckInItems ()Z
+	METHOD D isOnCooldown ()Z
+	METHOD O_ getContainerSize ()I
+	METHOD a activateMinecart (IIIZ)V
+	METHOD a createMenu (ILayr;)Lbaw;
+	METHOD a destroy (Lakh;)V
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD h tick ()V
+	METHOD m setCooldown (I)V
+	METHOD n setEnabled (Z)V
+	METHOD o getMinecartType ()Lbag$a;
+	METHOD q getDefaultDisplayBlockState ()Lbzh;
+	METHOD s getDefaultDisplayOffset ()I
+	METHOD v isEnabled ()Z
+	METHOD w getLevel ()Lbkf;
+	METHOD z getLevelX ()D

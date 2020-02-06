@@ -1,0 +1,8 @@
+CLASS ati net/minecraft/world/entity/animal/AbstractGolem
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD A getAmbientSoundInterval ()I
+	METHOD G getAmbientSound ()Laai;
+	METHOD b causeFallDamage (FF)Z
+	METHOD cX getDeathSound ()Laai;
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD h removeWhenFarAway (D)Z

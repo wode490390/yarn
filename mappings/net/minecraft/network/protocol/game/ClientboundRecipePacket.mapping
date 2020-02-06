@@ -1,0 +1,30 @@
+CLASS nx net/minecraft/network/protocol/game/ClientboundRecipePacket
+	FIELD a state Lnx$a;
+	FIELD b recipes Ljava/util/List;
+	FIELD c toHighlight Ljava/util/List;
+	FIELD d guiOpen Z
+	FIELD e filteringCraftable Z
+	FIELD f furnaceGuiOpen Z
+	FIELD g furnaceFilteringCraftable Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lnx$a;Ljava/util/Collection;Ljava/util/Collection;ZZZZ)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getRecipes ()Ljava/util/List;
+	METHOD b write (Lkv;)V
+	METHOD c getHighlights ()Ljava/util/List;
+	METHOD d isGuiOpen ()Z
+	METHOD e isFilteringCraftable ()Z
+	METHOD f isFurnaceGuiOpen ()Z
+	METHOD g isFurnaceFilteringCraftable ()Z
+	METHOD h getState ()Lnx$a;
+	CLASS a State
+		FIELD a INIT Lnx$a;
+		FIELD b ADD Lnx$a;
+		FIELD c REMOVE Lnx$a;
+		FIELD d $VALUES [Lnx$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lnx$a;
+		METHOD values values ()[Lnx$a;

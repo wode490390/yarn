@@ -1,0 +1,4 @@
+CLASS bti net/minecraft/world/level/block/LogBlock
+	FIELD b woodMaterialColor Lcpy;
+	METHOD <init> <init> (Lcpy;Lbpy$c;)V
+	METHOD e getMapColor (Lbzh;Lbjp;Lfk;)Lcpy;

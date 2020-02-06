@@ -1,0 +1,15 @@
+CLASS ng net/minecraft/network/protocol/game/ClientboundLevelEventPacket
+	FIELD a type I
+	FIELD b pos Lfk;
+	FIELD c data I
+	FIELD d globalEvent Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILfk;IZ)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b isGlobalEvent ()Z
+	METHOD b write (Lkv;)V
+	METHOD c getType ()I
+	METHOD d getData ()I
+	METHOD e getPos ()Lfk;

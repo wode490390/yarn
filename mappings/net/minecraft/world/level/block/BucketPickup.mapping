@@ -1,0 +1,2 @@
+CLASS bqd net/minecraft/world/level/block/BucketPickup
+	METHOD b takeLiquid (Lbkg;Lfk;Lbzh;)Lcps;

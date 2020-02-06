@@ -1,0 +1,12 @@
+CLASS bws net/minecraft/world/level/block/WeightedPressurePlateBlock
+	FIELD d POWER Lcah;
+	FIELD e maxWeight I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILbpy$c;)V
+	METHOD a playOnSound (Lbkg;Lfk;)V
+	METHOD a getTickDelay (Lbki;)I
+	METHOD a setSignalForState (Lbzh;I)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b getSignalStrength (Lbkf;Lfk;)I
+	METHOD b playOffSound (Lbkg;Lfk;)V
+	METHOD h getSignalForState (Lbzh;)I

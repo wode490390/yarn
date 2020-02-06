@@ -1,0 +1,5 @@
+CLASS cpg net/minecraft/world/level/lighting/FlatDataLayer
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcbe;I)V
+	METHOD a getData ()[B
+	METHOD b getIndex (III)I

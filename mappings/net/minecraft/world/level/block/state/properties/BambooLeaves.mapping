@@ -1,0 +1,12 @@
+CLASS bzv net/minecraft/world/level/block/state/properties/BambooLeaves
+	FIELD a NONE Lbzv;
+	FIELD b SMALL Lbzv;
+	FIELD c LARGE Lbzv;
+	FIELD d name Ljava/lang/String;
+	FIELD e $VALUES [Lbzv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbzv;
+	METHOD values values ()[Lbzv;

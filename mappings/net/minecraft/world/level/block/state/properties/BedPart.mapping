@@ -1,0 +1,11 @@
+CLASS bzw net/minecraft/world/level/block/state/properties/BedPart
+	FIELD a HEAD Lbzw;
+	FIELD b FOOT Lbzw;
+	FIELD c name Ljava/lang/String;
+	FIELD d $VALUES [Lbzw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbzw;
+	METHOD values values ()[Lbzw;

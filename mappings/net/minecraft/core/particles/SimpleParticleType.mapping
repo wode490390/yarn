@@ -1,0 +1,13 @@
+CLASS gw net/minecraft/core/particles/SimpleParticleType
+	FIELD a DESERIALIZER Lgt$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a writeToNetwork (Lkv;)V
+	METHOD b getType ()Lgu;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lgu;Lcom/mojang/brigadier/StringReader;)Lgw;
+		METHOD a fromNetwork (Lgu;Lkv;)Lgw;
+		METHOD b fromCommand (Lgu;Lcom/mojang/brigadier/StringReader;)Lgt;
+		METHOD b fromNetwork (Lgu;Lkv;)Lgt;

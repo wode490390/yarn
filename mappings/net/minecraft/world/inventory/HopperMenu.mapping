@@ -1,0 +1,8 @@
+CLASS bbr net/minecraft/world/inventory/HopperMenu
+	FIELD c hopper Lajl;
+	METHOD <init> <init> (ILayr;)V
+	METHOD <init> <init> (ILayr;Lajl;)V
+	METHOD a stillValid (Lays;)Z
+	METHOD b removed (Lays;)V
+	METHOD b quickMoveStack (Lays;I)Lbew;
+	METHOD e getContainer ()Lajl;

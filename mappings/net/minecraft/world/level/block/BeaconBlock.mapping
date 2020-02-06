@@ -1,0 +1,8 @@
+CLASS bpr net/minecraft/world/level/block/BeaconBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getColor ()Lbds;
+	METHOD a newBlockEntity (Lbjp;)Lbxj;
+	METHOD a setPlacedBy (Lbkf;Lfk;Lbzh;Lalh;Lbew;)V
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD c getRenderShape (Lbzh;)Lbul;
+	METHOD d isRedstoneConductor (Lbzh;Lbjp;Lfk;)Z

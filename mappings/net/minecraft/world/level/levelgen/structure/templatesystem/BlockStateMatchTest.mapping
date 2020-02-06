@@ -1,0 +1,7 @@
+CLASS cnl net/minecraft/world/level/levelgen/structure/templatesystem/BlockStateMatchTest
+	FIELD a blockState Lbzh;
+	METHOD <init> <init> (Lbzh;)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getType ()Lcnu;
+	METHOD a test (Lbzh;Ljava/util/Random;)Z
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,6 @@
+CLASS cie net/minecraft/world/level/levelgen/feature/configurations/RandomBooleanFeatureConfiguration
+	FIELD a featureTrue Lcec;
+	FIELD b featureFalse Lcec;
+	METHOD <init> <init> (Lcec;Lcec;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcie;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

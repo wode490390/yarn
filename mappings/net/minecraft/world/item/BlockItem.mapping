@@ -1,0 +1,21 @@
+CLASS bcy net/minecraft/world/item/BlockItem
+	FIELD a block Lbpy;
+	METHOD <init> <init> (Lbpy;Lber$a;)V
+	METHOD T_ mustSurvive ()Z
+	METHOD a getDescriptionId ()Ljava/lang/String;
+	METHOD a place (Lbcz;)Lajs;
+	METHOD a placeBlock (Lbcz;Lbzh;)Z
+	METHOD a fillItemCategory (Lbdm;Lfy;)V
+	METHOD a appendHoverText (Lbew;Lbkf;Ljava/util/List;Lbgf;)V
+	METHOD a useOn (Lbgi;)Lajs;
+	METHOD a updateCustomBlockEntityTag (Lbkf;Lays;Lfk;Lbew;)Z
+	METHOD a getPlaceSound (Lbzh;)Laai;
+	METHOD a lambda$updateState$0 (Lbzh;Lcak;Ljava/lang/Comparable;)Lbzh;
+	METHOD a updateState (Lbzh;Lcak;Ljava/lang/String;)Lbzh;
+	METHOD a updateCustomBlockEntityTag (Lfk;Lbkf;Lays;Lbew;Lbzh;)Z
+	METHOD a updateBlockStateFromTag (Lfk;Lbkf;Lbew;Lbzh;)Lbzh;
+	METHOD a registerBlocks (Ljava/util/Map;Lber;)V
+	METHOD b updatePlacementContext (Lbcz;)Lbcz;
+	METHOD b canPlace (Lbcz;Lbzh;)Z
+	METHOD c getPlacementState (Lbcz;)Lbzh;
+	METHOD e getBlock ()Lbpy;

@@ -1,0 +1,10 @@
+CLASS ajq net/minecraft/world/DifficultyInstance
+	FIELD a base Lajp;
+	FIELD b effectiveDifficulty F
+	METHOD <init> <init> (Lajp;JJF)V
+	METHOD a getDifficulty ()Lajp;
+	METHOD a isHarderThan (F)Z
+	METHOD a calculateDifficulty (Lajp;JJF)F
+	METHOD b getEffectiveDifficulty ()F
+	METHOD c isHard ()Z
+	METHOD d getSpecialMultiplier ()F

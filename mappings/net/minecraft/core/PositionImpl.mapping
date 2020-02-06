@@ -1,0 +1,8 @@
+CLASS ga net/minecraft/core/PositionImpl
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	METHOD <init> <init> (DDD)V
+	METHOD a x ()D
+	METHOD b y ()D
+	METHOD c z ()D

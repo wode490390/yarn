@@ -1,0 +1,13 @@
+CLASS px net/minecraft/network/protocol/game/ServerboundCustomPayloadPacket
+	FIELD a BRAND Lsm;
+	FIELD b identifier Lsm;
+	FIELD c data Lkv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lsm;Lkv;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getIdentifier ()Lsm;
+	METHOD b write (Lkv;)V
+	METHOD c getData ()Lkv;

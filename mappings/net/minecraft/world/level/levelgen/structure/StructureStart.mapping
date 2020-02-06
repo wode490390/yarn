@@ -1,0 +1,31 @@
+CLASS cnc net/minecraft/world/level/levelgen/structure/StructureStart
+	FIELD a INVALID_START Lcnc;
+	FIELD b pieces Ljava/util/List;
+	FIELD c boundingBox Lcmg;
+	FIELD d random Lcde;
+	FIELD e feature Lcgp;
+	FIELD f chunkX I
+	FIELD g chunkZ I
+	FIELD h references I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcgp;IILcmg;IJ)V
+	METHOD a getLocatePos ()Lfk;
+	METHOD a createTag (II)Ljt;
+	METHOD a moveBelowSeaLevel (ILjava/util/Random;I)V
+	METHOD a postProcess (Lbkg;Lcaz;Ljava/util/Random;Lcmg;Lbjq;)V
+	METHOD a generatePieces (Lcaz;Lcnv;IILbld;)V
+	METHOD a moveInsideHeights (Ljava/util/Random;II)V
+	METHOD b calculateBoundingBox ()V
+	METHOD c getBoundingBox ()Lcmg;
+	METHOD d getPieces ()Ljava/util/List;
+	METHOD e isValid ()Z
+	METHOD f getChunkX ()I
+	METHOD g getChunkZ ()I
+	METHOD h canBeReferenced ()Z
+	METHOD i addReference ()V
+	METHOD j getReferences ()I
+	METHOD k getMaxReferences ()I
+	METHOD l getFeature ()Lcgp;
+	CLASS 1 1
+		METHOD <init> <init> (Lcgp;IILcmg;IJ)V
+		METHOD a generatePieces (Lcaz;Lcnv;IILbld;)V

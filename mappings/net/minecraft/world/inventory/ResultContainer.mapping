@@ -1,0 +1,15 @@
+CLASS bce net/minecraft/world/inventory/ResultContainer
+	FIELD a itemStacks Lfy;
+	FIELD b recipeUsed Lbhf;
+	METHOD <init> <init> ()V
+	METHOD N_ clearContent ()V
+	METHOD O_ getContainerSize ()I
+	METHOD a getItem (I)Lbew;
+	METHOD a removeItem (II)Lbew;
+	METHOD a setItem (ILbew;)V
+	METHOD a stillValid (Lays;)Z
+	METHOD a setRecipeUsed (Lbhf;)V
+	METHOD aa_ getRecipeUsed ()Lbhf;
+	METHOD b removeItemNoUpdate (I)Lbew;
+	METHOD c isEmpty ()Z
+	METHOD e setChanged ()V

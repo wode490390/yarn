@@ -1,0 +1,7 @@
+CLASS asm net/minecraft/world/entity/ai/sensing/Sensing
+	FIELD a mob Lali;
+	FIELD b seen Ljava/util/List;
+	FIELD c unseen Ljava/util/List;
+	METHOD <init> <init> (Lali;)V
+	METHOD a tick ()V
+	METHOD a canSee (Laky;)Z

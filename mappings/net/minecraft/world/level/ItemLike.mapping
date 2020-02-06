@@ -1,0 +1,2 @@
+CLASS bke net/minecraft/world/level/ItemLike
+	METHOD i asItem ()Lber;

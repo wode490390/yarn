@@ -1,0 +1,13 @@
+CLASS cxn net/minecraft/world/phys/shapes/SubShape
+	FIELD d parent Lcxd;
+	FIELD e startX I
+	FIELD f startY I
+	FIELD g startZ I
+	FIELD h endX I
+	FIELD i endY I
+	FIELD j endZ I
+	METHOD <init> <init> (Lcxd;IIIIII)V
+	METHOD a setFull (IIIZZ)V
+	METHOD a firstFull (Lfp$a;)I
+	METHOD b isFull (III)Z
+	METHOD b lastFull (Lfp$a;)I

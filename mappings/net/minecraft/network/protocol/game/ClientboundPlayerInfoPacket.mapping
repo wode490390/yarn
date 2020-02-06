@@ -1,0 +1,39 @@
+CLASS nu net/minecraft/network/protocol/game/ClientboundPlayerInfoPacket
+	FIELD a action Lnu$a;
+	FIELD b entries Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lnu$a;Ljava/lang/Iterable;)V
+	METHOD <init> <init> (Lnu$a;[Lxf;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getEntries ()Ljava/util/List;
+	METHOD b write (Lkv;)V
+	METHOD c getAction ()Lnu$a;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$network$protocol$game$ClientboundPlayerInfoPacket$Action [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Action
+		FIELD a ADD_PLAYER Lnu$a;
+		FIELD b UPDATE_GAME_MODE Lnu$a;
+		FIELD c UPDATE_LATENCY Lnu$a;
+		FIELD d UPDATE_DISPLAY_NAME Lnu$a;
+		FIELD e REMOVE_PLAYER Lnu$a;
+		FIELD f $VALUES [Lnu$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lnu$a;
+		METHOD values values ()[Lnu$a;
+	CLASS b PlayerUpdate
+		FIELD a this$0 Lnu;
+		FIELD b latency I
+		FIELD c gameMode Lbkc;
+		FIELD d profile Lcom/mojang/authlib/GameProfile;
+		FIELD e displayName Llf;
+		METHOD <init> <init> (Lnu;Lcom/mojang/authlib/GameProfile;ILbkc;Llf;)V
+		METHOD a getProfile ()Lcom/mojang/authlib/GameProfile;
+		METHOD b getLatency ()I
+		METHOD c getGameMode ()Lbkc;
+		METHOD d getDisplayName ()Llf;
+		METHOD toString toString ()Ljava/lang/String;

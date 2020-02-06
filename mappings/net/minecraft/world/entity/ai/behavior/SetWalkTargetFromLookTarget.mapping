@@ -1,0 +1,5 @@
+CLASS anu net/minecraft/world/entity/ai/behavior/SetWalkTargetFromLookTarget
+	FIELD a speed F
+	FIELD b closeEnoughDistance I
+	METHOD <init> <init> (FI)V
+	METHOD a start (Lxe;Lalh;J)V

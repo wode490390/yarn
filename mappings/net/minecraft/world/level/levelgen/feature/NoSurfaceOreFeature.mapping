@@ -1,0 +1,7 @@
+CLASS cfs net/minecraft/world/level/levelgen/feature/NoSurfaceOreFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lcic;)Z
+	METHOD a isFacingAir (Lbkg;Lfk;)Z
+	METHOD a offsetTargetPos (Lfk$a;Ljava/util/Random;Lfk;I)V
+	METHOD a getRandomPlacementInOneAxisRelativeToOrigin (Ljava/util/Random;I)I

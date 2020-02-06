@@ -1,0 +1,6 @@
+CLASS bqj net/minecraft/world/level/block/CarrotBlock
+	FIELD a SHAPE_BY_AGE [Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD e getBaseSeedId ()Lbke;

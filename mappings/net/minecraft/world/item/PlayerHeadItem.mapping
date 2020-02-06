@@ -1,0 +1,4 @@
+CLASS bfg net/minecraft/world/item/PlayerHeadItem
+	METHOD <init> <init> (Lbpy;Lbpy;Lber$a;)V
+	METHOD a verifyTagAfterLoad (Ljt;)Z
+	METHOD g getName (Lbew;)Llf;

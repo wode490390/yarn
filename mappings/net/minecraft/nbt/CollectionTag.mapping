@@ -1,0 +1,11 @@
+CLASS js net/minecraft/nbt/CollectionTag
+	METHOD <init> <init> ()V
+	METHOD a setTag (ILkj;)Z
+	METHOD a_ getElementType ()I
+	METHOD add add (ILjava/lang/Object;)V
+	METHOD b addTag (ILkj;)Z
+	METHOD c remove (I)Lkj;
+	METHOD c add (ILkj;)V
+	METHOD d set (ILkj;)Lkj;
+	METHOD remove remove (I)Ljava/lang/Object;
+	METHOD set set (ILjava/lang/Object;)Ljava/lang/Object;

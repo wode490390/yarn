@@ -1,0 +1,4 @@
+CLASS akc net/minecraft/world/WorldlyContainer
+	METHOD a canPlaceItemThroughFace (ILbew;Lfp;)Z
+	METHOD a getSlotsForFace (Lfp;)[I
+	METHOD b canTakeItemThroughFace (ILbew;Lfp;)Z

@@ -1,0 +1,6 @@
+CLASS cwq net/minecraft/world/phys/EntityHitResult
+	FIELD b entity Laky;
+	METHOD <init> <init> (Laky;)V
+	METHOD <init> <init> (Laky;Lcwu;)V
+	METHOD a getEntity ()Laky;
+	METHOD c getType ()Lcwr$a;

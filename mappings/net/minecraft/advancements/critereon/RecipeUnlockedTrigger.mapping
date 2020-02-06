@@ -1,0 +1,15 @@
+CLASS by net/minecraft/advancements/critereon/RecipeUnlockedTrigger
+	FIELD a ID Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lsm;
+	METHOD a lambda$trigger$0 (Lbhf;Lby$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a trigger (Lxf;Lbhf;)V
+	METHOD b access$000 ()Lsm;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lby$a;
+	CLASS a TriggerInstance
+		FIELD a recipe Lsm;
+		METHOD <init> <init> (Lsm;)V
+		METHOD a matches (Lbhf;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

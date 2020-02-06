@@ -1,0 +1,4 @@
+CLASS bdh net/minecraft/world/item/CarrotOnAStickItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a lambda$use$0 (Lajr;Lays;)V
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;

@@ -1,0 +1,16 @@
+CLASS an net/minecraft/advancements/critereon/ChanneledLightningTrigger
+	FIELD a ID Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lsm;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a trigger (Lxf;Ljava/util/Collection;)V
+	METHOD a lambda$trigger$0 (Lxf;Ljava/util/Collection;Lan$a;)Z
+	METHOD b access$000 ()Lsm;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lan$a;
+	CLASS a TriggerInstance
+		FIELD a victims [Lbb;
+		METHOD <init> <init> ([Lbb;)V
+		METHOD a matches (Lxf;Ljava/util/Collection;)Z
+		METHOD a channeledLightning ([Lbb;)Lan$a;
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

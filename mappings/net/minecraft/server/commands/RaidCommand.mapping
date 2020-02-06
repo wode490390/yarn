@@ -1,0 +1,19 @@
+CLASS ur net/minecraft/server/commands/RaidCommand
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a glow (Lcq;)I
+	METHOD a setBadOmenLevel (Lcq;I)I
+	METHOD a playSound (Lcq;Llf;)I
+	METHOD a getRaid (Lxf;)Lazw;
+	METHOD b lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b spawnLeader (Lcq;)I
+	METHOD b start (Lcq;I)I
+	METHOD c lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c stop (Lcq;)I
+	METHOD d lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d check (Lcq;)I
+	METHOD e lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$0 (Lcq;)Z
+	METHOD f lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD g lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

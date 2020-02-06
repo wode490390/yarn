@@ -1,0 +1,12 @@
+CLASS sx net/minecraft/server/ServerAdvancementManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c advancements Lv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getAllAdvancements ()Ljava/util/Collection;
+	METHOD a lambda$static$0 (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lu$a;
+	METHOD a apply (Ljava/lang/Object;Lzc;Laiu;)V
+	METHOD a lambda$apply$1 (Ljava/util/Map;Lsm;Lcom/google/gson/JsonObject;)V
+	METHOD a apply (Ljava/util/Map;Lzc;Laiu;)V
+	METHOD a getAdvancement (Lsm;)Lu;

@@ -1,0 +1,13 @@
+CLASS bgz net/minecraft/world/item/crafting/FireworkRocketRecipe
+	FIELD a PAPER_INGREDIENT Lbhc;
+	FIELD b GUNPOWDER_INGREDIENT Lbhc;
+	FIELD c STAR_INGREDIENT Lbhc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lsm;)V
+	METHOD W_ getSerializer ()Lbhh;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lajl;)Lbew;
+	METHOD a matches (Lajl;Lbkf;)Z
+	METHOD a assemble (Lbbi;)Lbew;
+	METHOD a matches (Lbbi;Lbkf;)Z
+	METHOD c getResultItem ()Lbew;

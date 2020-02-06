@@ -1,0 +1,4 @@
+CLASS cgc net/minecraft/world/level/levelgen/feature/ReplaceBlockFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lcii;)Z

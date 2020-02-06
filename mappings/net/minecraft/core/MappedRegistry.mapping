@@ -1,0 +1,21 @@
+CLASS fx net/minecraft/core/MappedRegistry
+	FIELD V nextId I
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b map Labg;
+	FIELD c storage Lcom/google/common/collect/BiMap;
+	FIELD d randomCache [Ljava/lang/Object;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a byId (I)Ljava/lang/Object;
+	METHOD a registerMapping (ILsm;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a getId (Ljava/lang/Object;)I
+	METHOD a getRandom (Ljava/util/Random;)Ljava/lang/Object;
+	METHOD a get (Lsm;)Ljava/lang/Object;
+	METHOD a register (Lsm;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD b keySet ()Ljava/util/Set;
+	METHOD b containsId (I)Z
+	METHOD b getKey (Ljava/lang/Object;)Lsm;
+	METHOD b getOptional (Lsm;)Ljava/util/Optional;
+	METHOD c isEmpty ()Z
+	METHOD c containsKey (Lsm;)Z
+	METHOD iterator iterator ()Ljava/util/Iterator;

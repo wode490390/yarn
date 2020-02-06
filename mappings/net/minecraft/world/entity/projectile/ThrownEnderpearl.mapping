@@ -1,0 +1,9 @@
+CLASS azq net/minecraft/world/entity/projectile/ThrownEnderpearl
+	FIELD e originalOwner Lalh;
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDD)V
+	METHOD <init> <init> (Lbkf;Lalh;)V
+	METHOD a changeDimension (Lcch;)Laky;
+	METHOD a onHit (Lcwr;)V
+	METHOD h tick ()V
+	METHOD i getDefaultItem ()Lber;

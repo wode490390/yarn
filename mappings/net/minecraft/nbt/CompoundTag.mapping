@@ -1,124 +1,77 @@
-CLASS net/minecraft/class_2487 net/minecraft/nbt/CompoundTag
-	FIELD field_11514 LOGGER Lorg/apache/logging/log4j/Logger;
-	FIELD field_11515 tags Ljava/util/Map;
-	FIELD field_11516 PATTERN Ljava/util/regex/Pattern;
-	FIELD field_21029 READER Lnet/minecraft/class_4614;
-	METHOD <init> (Ljava/util/Map;)V
-		ARG 1 tags
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
-	METHOD method_10537 getLong (Ljava/lang/String;)J
-		ARG 1 key
-	METHOD method_10538 putLongArray (Ljava/lang/String;Ljava/util/List;)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10539 putIntArray (Ljava/lang/String;[I)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10540 getType (Ljava/lang/String;)B
-		ARG 1 key
-	METHOD method_10541 getKeys ()Ljava/util/Set;
-	METHOD method_10542 readByte (Ljava/io/DataInput;Lnet/minecraft/class_2505;)B
-		ARG 0 input
-		ARG 1 tracker
-	METHOD method_10543 copyFrom (Lnet/minecraft/class_2487;)Lnet/minecraft/class_2487;
-		ARG 1 source
-	METHOD method_10544 putLong (Ljava/lang/String;J)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10545 contains (Ljava/lang/String;)Z
-		ARG 1 key
-	METHOD method_10546 getSize ()I
-	METHOD method_10547 getByteArray (Ljava/lang/String;)[B
-		ARG 1 key
-	METHOD method_10548 putFloat (Ljava/lang/String;F)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10549 putDouble (Ljava/lang/String;D)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10550 getInt (Ljava/lang/String;)I
-		ARG 1 key
-	METHOD method_10551 remove (Ljava/lang/String;)V
-		ARG 1 key
-	METHOD method_10552 readString (Ljava/io/DataInput;Lnet/minecraft/class_2505;)Ljava/lang/String;
-		ARG 0 input
-		ARG 1 tracker
-	METHOD method_10554 getList (Ljava/lang/String;I)Lnet/minecraft/class_2499;
-		ARG 1 key
-		ARG 2 type
-	METHOD method_10555 write (Ljava/lang/String;Lnet/minecraft/class_2520;Ljava/io/DataOutput;)V
-		ARG 0 key
-		ARG 1 tag
-		ARG 2 output
-	METHOD method_10556 putBoolean (Ljava/lang/String;Z)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10557 prettyPrintTagKey (Ljava/lang/String;)Lnet/minecraft/class_2561;
-		ARG 0 key
-	METHOD method_10558 getString (Ljava/lang/String;)Ljava/lang/String;
-		ARG 1 key
-	METHOD method_10559 createCrashReport (Ljava/lang/String;Lnet/minecraft/class_4614;Ljava/lang/ClassCastException;)Lnet/minecraft/class_128;
-		ARG 1 key
-	METHOD method_10560 putUuid (Ljava/lang/String;Ljava/util/UUID;)V
-		ARG 1 key
-		ARG 2 uuid
-	METHOD method_10561 getIntArray (Ljava/lang/String;)[I
-		ARG 1 key
-	METHOD method_10562 getCompound (Ljava/lang/String;)Lnet/minecraft/class_2487;
-		ARG 1 key
-	METHOD method_10564 putLongArray (Ljava/lang/String;[J)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10565 getLongArray (Ljava/lang/String;)[J
-		ARG 1 key
-	METHOD method_10566 put (Ljava/lang/String;Lnet/minecraft/class_2520;)Lnet/minecraft/class_2520;
-		ARG 1 key
-		ARG 2 tag
-	METHOD method_10567 putByte (Ljava/lang/String;B)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10568 getShort (Ljava/lang/String;)S
-		ARG 1 key
-	METHOD method_10569 putInt (Ljava/lang/String;I)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10570 putByteArray (Ljava/lang/String;[B)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10571 getByte (Ljava/lang/String;)B
-		ARG 1 key
-	METHOD method_10572 putIntArray (Ljava/lang/String;Ljava/util/List;)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10573 contains (Ljava/lang/String;I)Z
-		ARG 1 key
-		ARG 2 type
-	METHOD method_10574 getDouble (Ljava/lang/String;)D
-		ARG 1 key
-	METHOD method_10575 putShort (Ljava/lang/String;S)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10576 containsUuid (Ljava/lang/String;)Z
-		ARG 1 key
-	METHOD method_10577 getBoolean (Ljava/lang/String;)Z
-		ARG 1 key
-	METHOD method_10578 escapeTagKey (Ljava/lang/String;)Ljava/lang/String;
-		ARG 0 key
-	METHOD method_10580 get (Ljava/lang/String;)Lnet/minecraft/class_2520;
-		ARG 1 key
-	METHOD method_10581 read (Lnet/minecraft/class_4614;Ljava/lang/String;Ljava/io/DataInput;ILnet/minecraft/class_2505;)Lnet/minecraft/class_2520;
-		ARG 0 reader
-		ARG 1 key
-		ARG 2 input
-		ARG 3 depth
-		ARG 4 tracker
-	METHOD method_10582 putString (Ljava/lang/String;Ljava/lang/String;)V
-		ARG 1 key
-		ARG 2 value
-	METHOD method_10583 getFloat (Ljava/lang/String;)F
-		ARG 1 key
-	METHOD method_10584 getUuid (Ljava/lang/String;)Ljava/util/UUID;
-		ARG 1 key
-	METHOD method_22421 removeUuid (Ljava/lang/String;)V
-		ARG 1 key
+CLASS jt net/minecraft/nbt/CompoundTag
+	FIELD a TYPE Lkl;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c SIMPLE_VALUE Ljava/util/regex/Pattern;
+	FIELD h tags Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD <init> <init> (Ljava/util/Map;Ljt$1;)V
+	METHOD a getId ()B
+	METHOD a access$000 (Ljava/io/DataInput;Lkc;)B
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getUUID (Ljava/lang/String;)Ljava/util/UUID;
+	METHOD a putByte (Ljava/lang/String;B)V
+	METHOD a putDouble (Ljava/lang/String;D)V
+	METHOD a putFloat (Ljava/lang/String;F)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Llf;
+	METHOD a putLong (Ljava/lang/String;J)V
+	METHOD a putString (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a putByteArray (Ljava/lang/String;Ljava/util/List;)V
+	METHOD a putUUID (Ljava/lang/String;Ljava/util/UUID;)V
+	METHOD a put (Ljava/lang/String;Lkj;)Lkj;
+	METHOD a writeNamedTag (Ljava/lang/String;Lkj;Ljava/io/DataOutput;)V
+	METHOD a createReport (Ljava/lang/String;Lkl;Ljava/lang/ClassCastException;)Lh;
+	METHOD a putShort (Ljava/lang/String;S)V
+	METHOD a putBoolean (Ljava/lang/String;Z)V
+	METHOD a putByteArray (Ljava/lang/String;[B)V
+	METHOD a putIntArray (Ljava/lang/String;[I)V
+	METHOD a putLongArray (Ljava/lang/String;[J)V
+	METHOD a merge (Ljt;)Ljt;
+	METHOD a access$200 (Lkl;Ljava/lang/String;Ljava/io/DataInput;ILkc;)Lkj;
+	METHOD b getType ()Lkl;
+	METHOD b access$100 (Ljava/io/DataInput;Lkc;)Ljava/lang/String;
+	METHOD b hasUUID (Ljava/lang/String;)Z
+	METHOD b putInt (Ljava/lang/String;I)V
+	METHOD b putIntArray (Ljava/lang/String;Ljava/util/List;)V
+	METHOD b readNamedTagData (Lkl;Ljava/lang/String;Ljava/io/DataInput;ILkc;)Lkj;
+	METHOD b_ stripEmptyChildren ()V
+	METHOD c copy ()Lkj;
+	METHOD c readNamedTagType (Ljava/io/DataInput;Lkc;)B
+	METHOD c removeUUID (Ljava/lang/String;)V
+	METHOD c contains (Ljava/lang/String;I)Z
+	METHOD c putLongArray (Ljava/lang/String;Ljava/util/List;)V
+	METHOD d getAllKeys ()Ljava/util/Set;
+	METHOD d readNamedTagName (Ljava/io/DataInput;Lkc;)Ljava/lang/String;
+	METHOD d get (Ljava/lang/String;)Lkj;
+	METHOD d getList (Ljava/lang/String;I)Ljz;
+	METHOD e size ()I
+	METHOD e getTagType (Ljava/lang/String;)B
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f contains (Ljava/lang/String;)Z
+	METHOD g copy ()Ljt;
+	METHOD g getByte (Ljava/lang/String;)B
+	METHOD h getShort (Ljava/lang/String;)S
+	METHOD hashCode hashCode ()I
+	METHOD i getInt (Ljava/lang/String;)I
+	METHOD isEmpty isEmpty ()Z
+	METHOD j getLong (Ljava/lang/String;)J
+	METHOD k getFloat (Ljava/lang/String;)F
+	METHOD l getDouble (Ljava/lang/String;)D
+	METHOD m getString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD n getByteArray (Ljava/lang/String;)[B
+	METHOD o getIntArray (Ljava/lang/String;)[I
+	METHOD p getLongArray (Ljava/lang/String;)[J
+	METHOD q getCompound (Ljava/lang/String;)Ljt;
+	METHOD r getBoolean (Ljava/lang/String;)Z
+	METHOD s remove (Ljava/lang/String;)V
+	METHOD t handleEscape (Ljava/lang/String;)Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD u handleEscapePretty (Ljava/lang/String;)Llf;
+	METHOD v lambda$createReport$0 (Ljava/lang/String;)Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a load (Ljava/io/DataInput;ILkc;)Ljt;
+		METHOD b getPrettyName ()Ljava/lang/String;
+		METHOD b load (Ljava/io/DataInput;ILkc;)Lkj;

@@ -1,0 +1,21 @@
+CLASS pd net/minecraft/network/protocol/game/ClientboundTeleportEntityPacket
+	FIELD a id I
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	FIELD e yRot B
+	FIELD f xRot B
+	FIELD g onGround Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laky;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getX ()D
+	METHOD d getY ()D
+	METHOD e getZ ()D
+	METHOD f getyRot ()B
+	METHOD g getxRot ()B
+	METHOD h isOnGround ()Z

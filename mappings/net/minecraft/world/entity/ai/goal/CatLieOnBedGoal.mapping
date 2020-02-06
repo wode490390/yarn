@@ -1,0 +1,9 @@
+CLASS apc net/minecraft/world/entity/ai/goal/CatLieOnBedGoal
+	FIELD g cat Latm;
+	METHOD <init> <init> (Latm;DI)V
+	METHOD a canUse ()Z
+	METHOD a nextStartTick (Lalo;)I
+	METHOD a isValidTarget (Lbki;Lfk;)Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

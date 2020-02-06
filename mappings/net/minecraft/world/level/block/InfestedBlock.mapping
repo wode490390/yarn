@@ -1,0 +1,9 @@
+CLASS bsu net/minecraft/world/level/block/InfestedBlock
+	FIELD a hostBlock Lbpy;
+	FIELD b BLOCK_BY_HOST_BLOCK Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy;Lbpy$c;)V
+	METHOD a spawnAfterBreak (Lbzh;Lbkf;Lfk;Lbew;)V
+	METHOD c getHostBlock ()Lbpy;
+	METHOD d stateByHostBlock (Lbpy;)Lbzh;
+	METHOD h isCompatibleHostBlock (Lbzh;)Z

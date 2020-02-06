@@ -1,0 +1,9 @@
+CLASS rl net/minecraft/network/protocol/login/ClientboundLoginCompressionPacket
+	FIELD a compressionThreshold I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lrh;)V
+	METHOD b getCompressionThreshold ()I
+	METHOD b write (Lkv;)V

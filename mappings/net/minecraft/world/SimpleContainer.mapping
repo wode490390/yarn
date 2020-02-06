@@ -1,0 +1,25 @@
+CLASS ajy net/minecraft/world/SimpleContainer
+	FIELD a size I
+	FIELD b items Lfy;
+	FIELD c listeners Ljava/util/List;
+	METHOD <init> <init> (I)V
+	METHOD <init> <init> ([Lbew;)V
+	METHOD N_ clearContent ()V
+	METHOD O_ getContainerSize ()I
+	METHOD a getItem (I)Lbew;
+	METHOD a removeItem (II)Lbew;
+	METHOD a setItem (ILbew;)V
+	METHOD a addListener (Lajn;)V
+	METHOD a stillValid (Lays;)Z
+	METHOD a fillStackedContents (Layu;)V
+	METHOD a removeItemType (Lber;I)Lbew;
+	METHOD a addItem (Lbew;)Lbew;
+	METHOD a moveItemsBetweenStacks (Lbew;Lbew;)V
+	METHOD b removeItemNoUpdate (I)Lbew;
+	METHOD b removeListener (Lajn;)V
+	METHOD b moveItemToEmptySlots (Lbew;)V
+	METHOD c isEmpty ()Z
+	METHOD c moveItemToOccupiedSlotsWithSameType (Lbew;)V
+	METHOD d lambda$toString$0 (Lbew;)Z
+	METHOD e setChanged ()V
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,6 @@
+CLASS q net/minecraft/ReportedException
+	FIELD a report Lh;
+	METHOD <init> <init> (Lh;)V
+	METHOD a getReport ()Lh;
+	METHOD getCause getCause ()Ljava/lang/Throwable;
+	METHOD getMessage getMessage ()Ljava/lang/String;

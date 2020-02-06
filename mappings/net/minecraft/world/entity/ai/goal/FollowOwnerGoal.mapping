@@ -1,0 +1,21 @@
+CLASS apm net/minecraft/world/entity/ai/goal/FollowOwnerGoal
+	FIELD a tamable Lalw;
+	FIELD b owner Lalh;
+	FIELD c level Lbki;
+	FIELD d speedModifier D
+	FIELD e navigation Larz;
+	FIELD f timeToRecalcPath I
+	FIELD g stopDistance F
+	FIELD h startDistance F
+	FIELD i oldWaterCost F
+	FIELD j canFly Z
+	METHOD <init> <init> (Lalw;DFFZ)V
+	METHOD a canUse ()Z
+	METHOD a randomIntInclusive (II)I
+	METHOD a maybeTeleportTo (III)Z
+	METHOD a canTeleportTo (Lfk;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g teleportToOwner ()V

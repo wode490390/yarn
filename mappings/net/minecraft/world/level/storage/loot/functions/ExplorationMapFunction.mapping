@@ -1,0 +1,43 @@
+CLASS cum net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction
+	FIELD a DEFAULT_DECORATION Lcsm$a;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d destination Ljava/lang/String;
+	FIELD e mapDecoration Lcsm$a;
+	FIELD f zoom B
+	FIELD g searchRadius I
+	FIELD h skipKnownStructures Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Lcvv;Ljava/lang/String;Lcsm$a;BIZ)V
+	METHOD <init> <init> ([Lcvv;Ljava/lang/String;Lcsm$a;BIZLcum$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a access$100 (Lcum;)Ljava/lang/String;
+	METHOD b makeExplorationMap ()Lcum$a;
+	METHOD b access$200 (Lcum;)Lcsm$a;
+	METHOD c access$600 ()Lorg/apache/logging/log4j/Logger;
+	METHOD c access$300 (Lcum;)B
+	METHOD d access$400 (Lcum;)I
+	METHOD e access$500 (Lcum;)Z
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a destination Ljava/lang/String;
+		FIELD b mapDecoration Lcsm$a;
+		FIELD c zoom B
+		FIELD d searchRadius I
+		FIELD e skipKnownStructures Z
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Lcum$a;
+		METHOD a setZoom (B)Lcum$a;
+		METHOD a setSearchRadius (I)Lcum$a;
+		METHOD a setMapDecoration (Lcsm$a;)Lcum$a;
+		METHOD a setDestination (Ljava/lang/String;)Lcum$a;
+		METHOD a setSkipKnownStructures (Z)Lcum$a;
+		METHOD b build ()Lcur;
+		METHOD d getThis ()Lcuq$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcum;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcum;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

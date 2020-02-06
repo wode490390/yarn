@@ -1,0 +1,7 @@
+CLASS cmu net/minecraft/world/level/levelgen/structure/PillagerOutpostPieces
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a addPieces (Lcaz;Lcnv;Lfk;Ljava/util/List;Lcde;)V
+	CLASS a PillagerOutpostPiece
+		METHOD <init> <init> (Lcnv;Lcjp;Lfk;ILbup;Lcmg;)V
+		METHOD <init> <init> (Lcnv;Ljt;)V

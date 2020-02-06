@@ -1,0 +1,9 @@
+CLASS bwv net/minecraft/world/level/block/WitherSkullBlock
+	FIELD c witherPatternFull Lbzm;
+	FIELD d witherPatternBase Lbzm;
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a checkSpawn (Lbkf;Lfk;Lbyg;)V
+	METHOD a setPlacedBy (Lbkf;Lfk;Lbzh;Lalh;Lbew;)V
+	METHOD b canSpawnMob (Lbkf;Lfk;Lbew;)Z
+	METHOD c getOrCreateWitherFull ()Lbzm;
+	METHOD d getOrCreateWitherBase ()Lbzm;

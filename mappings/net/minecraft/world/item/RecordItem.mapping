@@ -1,0 +1,12 @@
+CLASS bfk net/minecraft/world/item/RecordItem
+	FIELD a BY_NAME Ljava/util/Map;
+	FIELD b analogOutput I
+	FIELD c sound Laai;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILaai;Lber$a;)V
+	METHOD a getBySound (Laai;)Lbfk;
+	METHOD a appendHoverText (Lbew;Lbkf;Ljava/util/List;Lbgf;)V
+	METHOD a useOn (Lbgi;)Lajs;
+	METHOD f getAnalogOutput ()I
+	METHOD g getDisplayName ()Llf;
+	METHOD w getSound ()Laai;

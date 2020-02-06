@@ -1,0 +1,22 @@
+CLASS css net/minecraft/world/level/storage/CommandStorage
+	FIELD a namespaces Ljava/util/Map;
+	FIELD b storage Lcsu;
+	METHOD <init> <init> (Lcsu;)V
+	METHOD a keys ()Ljava/util/stream/Stream;
+	METHOD a createId (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a newStorage (Ljava/lang/String;Ljava/lang/String;)Lcss$a;
+	METHOD a lambda$keys$2 (Ljava/util/Map$Entry;)Ljava/util/stream/Stream;
+	METHOD a get (Lsm;)Ljt;
+	METHOD a set (Lsm;Ljt;)V
+	METHOD b lambda$set$1 (Ljava/lang/String;Ljava/lang/String;)Lcss$a;
+	METHOD c lambda$get$0 (Ljava/lang/String;Ljava/lang/String;)Lcss$a;
+	CLASS a Container
+		FIELD a storage Ljava/util/Map;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD a get (Ljava/lang/String;)Ljt;
+		METHOD a lambda$getKeys$1 (Ljava/lang/String;Ljava/lang/String;)Lsm;
+		METHOD a put (Ljava/lang/String;Ljt;)V
+		METHOD a load (Ljt;)V
+		METHOD a lambda$save$0 (Ljt;Ljava/lang/String;Ljt;)V
+		METHOD b getKeys (Ljava/lang/String;)Ljava/util/stream/Stream;
+		METHOD b save (Ljt;)Ljt;

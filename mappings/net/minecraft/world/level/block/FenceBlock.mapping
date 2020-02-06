@@ -1,0 +1,10 @@
+CLASS bry net/minecraft/world/level/block/FenceBlock
+	FIELD i occlusionByIndex [Lcxo;
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a connectsTo (Lbzh;ZLfp;)Z
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD i getOcclusionShape (Lbzh;Lbjp;Lfk;)Lcxo;

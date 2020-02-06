@@ -1,0 +1,11 @@
+CLASS apu net/minecraft/world/entity/ai/goal/LlamaFollowCaravanGoal
+	FIELD a llama Laup;
+	FIELD b speedModifier D
+	FIELD c distCheckCounter I
+	METHOD <init> <init> (Laup;D)V
+	METHOD a canUse ()Z
+	METHOD a lambda$canUse$0 (Laky;)Z
+	METHOD a firstIsLeashed (Laup;I)Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V

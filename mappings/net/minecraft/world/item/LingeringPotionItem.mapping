@@ -1,0 +1,4 @@
+CLASS bfa net/minecraft/world/item/LingeringPotionItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a appendHoverText (Lbew;Lbkf;Ljava/util/List;Lbgf;)V
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;

@@ -1,0 +1,25 @@
+CLASS vu net/minecraft/server/commands/WhitelistCommand
+	FIELD a ERROR_ALREADY_ENABLED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_ALREADY_DISABLED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c ERROR_ALREADY_WHITELISTED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD d ERROR_NOT_WHITELISTED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$10 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$8 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a reload (Lcq;)I
+	METHOD a addPlayers (Lcq;Ljava/util/Collection;)I
+	METHOD a lambda$null$5 (Lxf;)Ljava/lang/String;
+	METHOD a lambda$null$4 (Lzp;Lxf;)Z
+	METHOD b lambda$register$9 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD b enableWhitelist (Lcq;)I
+	METHOD b removePlayers (Lcq;Ljava/util/Collection;)I
+	METHOD c lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c disableWhitelist (Lcq;)I
+	METHOD d lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d showList (Lcq;)I
+	METHOD e lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$0 (Lcq;)Z
+	METHOD f lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

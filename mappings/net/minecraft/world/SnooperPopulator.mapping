@@ -1,0 +1,4 @@
+CLASS akb net/minecraft/world/SnooperPopulator
+	METHOD W isSnooperEnabled ()Z
+	METHOD a populateSnooper (Laka;)V
+	METHOD b populateSnooperInitial (Laka;)V

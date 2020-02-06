@@ -1,0 +1,9 @@
+CLASS od net/minecraft/network/protocol/game/ClientboundSelectAdvancementsTabPacket
+	FIELD a tab Lsm;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lsm;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getTab ()Lsm;
+	METHOD b write (Lkv;)V

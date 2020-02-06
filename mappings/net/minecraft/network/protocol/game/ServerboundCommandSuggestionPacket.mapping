@@ -1,0 +1,11 @@
+CLASS ps net/minecraft/network/protocol/game/ServerboundCommandSuggestionPacket
+	FIELD a id I
+	FIELD b command Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILjava/lang/String;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getCommand ()Ljava/lang/String;

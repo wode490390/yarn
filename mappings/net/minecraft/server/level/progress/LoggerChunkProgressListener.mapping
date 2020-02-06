@@ -1,0 +1,13 @@
+CLASS xp net/minecraft/server/level/progress/LoggerChunkProgressListener
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b maxCount I
+	FIELD c count I
+	FIELD d startTime J
+	FIELD e nextTickTime J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD a start ()V
+	METHOD a updateSpawnPos (Lbjq;)V
+	METHOD a onStatusChange (Lbjq;Lcbd;)V
+	METHOD b stop ()V
+	METHOD c getProgress ()I

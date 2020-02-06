@@ -1,0 +1,20 @@
+CLASS auf net/minecraft/world/entity/animal/SnowGolem
+	FIELD b DATA_PUMPKIN_ID Lsb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD a lambda$mobInteract$1 (Lajr;Lays;)V
+	METHOD a performRangedAttack (Lalh;F)V
+	METHOD a mobInteract (Lays;Lajr;)Z
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b getStandingEyeHeight (Lalr;Lakz;)F
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD i lambda$registerGoals$0 (Lalh;)Z
+	METHOD k aiStep ()V
+	METHOD l hasPumpkin ()Z
+	METHOD n registerGoals ()V
+	METHOD r setPumpkin (Z)V
+	METHOD w_ defineSynchedData ()V

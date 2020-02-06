@@ -1,0 +1,9 @@
+CLASS ru net/minecraft/network/protocol/status/ClientboundPongResponsePacket
+	FIELD a time J
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (J)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lrt;)V
+	METHOD b getTime ()J
+	METHOD b write (Lkv;)V

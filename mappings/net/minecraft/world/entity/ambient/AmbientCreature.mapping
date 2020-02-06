@@ -1,0 +1,3 @@
+CLASS ate net/minecraft/world/entity/ambient/AmbientCreature
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD a canBeLeashed (Lays;)Z

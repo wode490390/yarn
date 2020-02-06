@@ -1,0 +1,14 @@
+CLASS lm net/minecraft/network/chat/SelectorComponent
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c pattern Ljava/lang/String;
+	FIELD d selector Lep;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a resolve (Lcq;Laky;I)Llf;
+	METHOD d getContents ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD g copy ()Llf;
+	METHOD i getPattern ()Ljava/lang/String;
+	METHOD j getSelector ()Lep;
+	METHOD k copy ()Llm;
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,2 @@
+CLASS blq net/minecraft/world/level/biome/ColdOceanBiome
+	METHOD <init> <init> ()V

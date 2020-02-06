@@ -1,0 +1,11 @@
+CLASS mo net/minecraft/network/protocol/game/ClientboundCommandSuggestionsPacket
+	FIELD a id I
+	FIELD b suggestions Lcom/mojang/brigadier/suggestion/Suggestions;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILcom/mojang/brigadier/suggestion/Suggestions;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getSuggestions ()Lcom/mojang/brigadier/suggestion/Suggestions;

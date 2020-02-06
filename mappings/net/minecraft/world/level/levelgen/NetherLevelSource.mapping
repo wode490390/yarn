@@ -1,0 +1,11 @@
+CLASS ccw net/minecraft/world/level/levelgen/NetherLevelSource
+	FIELD h yOffsets [D
+	METHOD <init> <init> (Lbkf;Lblg;Lccv;)V
+	METHOD a getYOffset (DDI)D
+	METHOD a getDepthAndScale (II)[D
+	METHOD a getMobsAt (Lalj;Lfk;)Ljava/util/List;
+	METHOD a fillNoiseColumn ([DII)V
+	METHOD b getSpawnHeight ()I
+	METHOD e getGenDepth ()I
+	METHOD f getSeaLevel ()I
+	METHOD j makeYOffsets ()[D

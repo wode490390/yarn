@@ -1,0 +1,8 @@
+CLASS apd net/minecraft/world/entity/ai/goal/CatSitOnBlockGoal
+	FIELD g cat Latm;
+	METHOD <init> <init> (Latm;D)V
+	METHOD a canUse ()Z
+	METHOD a isValidTarget (Lbki;Lfk;)Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

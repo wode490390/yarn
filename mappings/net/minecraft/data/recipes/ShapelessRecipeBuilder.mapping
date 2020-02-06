@@ -1,0 +1,36 @@
+CLASS hx net/minecraft/data/recipes/ShapelessRecipeBuilder
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b result Lber;
+	FIELD c count I
+	FIELD d ingredients Ljava/util/List;
+	FIELD e advancement Lu$a;
+	FIELD f group Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbke;I)V
+	METHOD a requires (Laba;)Lhx;
+	METHOD a requires (Lbhc;)Lhx;
+	METHOD a requires (Lbhc;I)Lhx;
+	METHOD a shapeless (Lbke;)Lhx;
+	METHOD a shapeless (Lbke;I)Lhx;
+	METHOD a group (Ljava/lang/String;)Lhx;
+	METHOD a unlockedBy (Ljava/lang/String;Lac;)Lhx;
+	METHOD a save (Ljava/util/function/Consumer;)V
+	METHOD a save (Ljava/util/function/Consumer;Ljava/lang/String;)V
+	METHOD a save (Ljava/util/function/Consumer;Lsm;)V
+	METHOD a ensureValid (Lsm;)V
+	METHOD b requires (Lbke;)Lhx;
+	METHOD b requires (Lbke;I)Lhx;
+	CLASS a Result
+		FIELD a id Lsm;
+		FIELD b result Lber;
+		FIELD c count I
+		FIELD d group Ljava/lang/String;
+		FIELD e ingredients Ljava/util/List;
+		FIELD f advancement Lu$a;
+		FIELD g advancementId Lsm;
+		METHOD <init> <init> (Lsm;Lber;ILjava/lang/String;Ljava/util/List;Lu$a;Lsm;)V
+		METHOD a serializeRecipeData (Lcom/google/gson/JsonObject;)V
+		METHOD b getId ()Lsm;
+		METHOD c getType ()Lbhh;
+		METHOD d serializeAdvancement ()Lcom/google/gson/JsonObject;
+		METHOD e getAdvancementId ()Lsm;

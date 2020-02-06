@@ -1,0 +1,19 @@
+CLASS qo net/minecraft/network/protocol/game/ServerboundResourcePackPacket
+	FIELD a action Lqo$a;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lqo$a;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getAction ()Lqo$a;
+	METHOD b write (Lkv;)V
+	CLASS a Action
+		FIELD a SUCCESSFULLY_LOADED Lqo$a;
+		FIELD b DECLINED Lqo$a;
+		FIELD c FAILED_DOWNLOAD Lqo$a;
+		FIELD d ACCEPTED Lqo$a;
+		FIELD e $VALUES [Lqo$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lqo$a;
+		METHOD values values ()[Lqo$a;

@@ -1,0 +1,12 @@
+CLASS cuc net/minecraft/world/level/storage/loot/entries/SequentialEntry
+	METHOD <init> <init> ([Lctz;[Lcvv;)V
+	METHOD a compose ([Lctr;)Lctr;
+	METHOD a lambda$compose$0 ([Lctr;Lctg;Ljava/util/function/Consumer;)Z
+	METHOD a sequential ([Lctz$a;)Lcuc$a;
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		METHOD <init> <init> ([Lctz$a;)V
+		METHOD a getThis ()Lcuc$a;
+		METHOD b build ()Lctz;
+		METHOD c then (Lctz$a;)Lcuc$a;
+		METHOD d getThis ()Lctz$a;

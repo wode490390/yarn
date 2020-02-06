@@ -1,0 +1,7 @@
+CLASS bra net/minecraft/world/level/block/CraftingTableBlock
+	FIELD a CONTAINER_TITLE Llf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a lambda$getMenuProvider$0 (Lbkf;Lfk;ILayr;Lays;)Lbaw;
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD b getMenuProvider (Lbzh;Lbkf;Lfk;)Lajv;

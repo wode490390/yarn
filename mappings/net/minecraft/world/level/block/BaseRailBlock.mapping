@@ -1,0 +1,20 @@
+CLASS bpp net/minecraft/world/level/block/BaseRailBlock
+	FIELD a FLAT_AABB Lcxo;
+	FIELD b HALF_BLOCK_AABB Lcxo;
+	FIELD c isStraight Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ZLbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a isRail (Lbkf;Lfk;)Z
+	METHOD a updateDir (Lbkf;Lfk;Lbzh;Z)Lbzh;
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a updateState (Lbzh;Lbkf;Lfk;Lbpy;)V
+	METHOD a neighborChanged (Lbzh;Lbkf;Lfk;Lbpy;Lfk;Z)V
+	METHOD a onRemove (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	METHOD a updateState (Lbzh;Lbkf;Lfk;Z)Lbzh;
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD b onPlace (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	METHOD c isStraight ()Z
+	METHOD d getShapeProperty ()Lcak;
+	METHOD g getPistonPushReaction (Lbzh;)Lcpz;
+	METHOD h isRail (Lbzh;)Z

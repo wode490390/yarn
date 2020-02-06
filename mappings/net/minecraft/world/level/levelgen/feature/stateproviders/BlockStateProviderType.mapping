@@ -1,0 +1,10 @@
+CLASS cjc net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProviderType
+	FIELD a SIMPLE_STATE_PROVIDER Lcjc;
+	FIELD b WEIGHTED_STATE_PROVIDER Lcjc;
+	FIELD c PLAIN_FLOWER_PROVIDER Lcjc;
+	FIELD d FOREST_FLOWER_PROVIDER Lcjc;
+	FIELD e deserializer Ljava/util/function/Function;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcjb;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Function;)Lcjc;

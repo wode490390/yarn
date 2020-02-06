@@ -1,0 +1,7 @@
+CLASS bqk net/minecraft/world/level/block/CartographyTableBlock
+	FIELD a CONTAINER_TITLE Llp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a lambda$getMenuProvider$0 (Lbkf;Lfk;ILayr;Lays;)Lbaw;
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD b getMenuProvider (Lbzh;Lbkf;Lfk;)Lajv;

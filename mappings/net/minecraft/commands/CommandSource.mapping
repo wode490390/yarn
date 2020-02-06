@@ -1,0 +1,13 @@
+CLASS cp net/minecraft/commands/CommandSource
+	FIELD a_ NULL Lcp;
+	METHOD <clinit> <clinit> ()V
+	METHOD I_ shouldInformAdmins ()Z
+	METHOD a acceptsSuccess ()Z
+	METHOD a sendMessage (Llf;)V
+	METHOD b acceptsFailure ()Z
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD I_ shouldInformAdmins ()Z
+		METHOD a acceptsSuccess ()Z
+		METHOD a sendMessage (Llf;)V
+		METHOD b acceptsFailure ()Z

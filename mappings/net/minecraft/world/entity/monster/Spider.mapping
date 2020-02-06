@@ -1,0 +1,34 @@
+CLASS axs net/minecraft/world/entity/monster/Spider
+	FIELD b DATA_FLAGS_ID Lsb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD a finalizeSpawn (Lbkg;Lajq;Lalk;Lalu;Ljt;)Lalu;
+	METHOD a makeStuckInBlock (Lbzh;Lcwu;)V
+	METHOD a playStepSound (Lfk;Lbzh;)V
+	METHOD aS getRideHeight ()D
+	METHOD b getStandingEyeHeight (Lalr;Lakz;)F
+	METHOD b createNavigation (Lbkf;)Larz;
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD d canBeAffected (Laks;)Z
+	METHOD di getMobType ()Lall;
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD h tick ()V
+	METHOD l isClimbing ()Z
+	METHOD n registerGoals ()V
+	METHOD r setClimbing (Z)V
+	METHOD w_ defineSynchedData ()V
+	METHOD y_ onLadder ()Z
+	CLASS a SpiderAttackGoal
+		METHOD <init> <init> (Laxs;)V
+		METHOD a canUse ()Z
+		METHOD a getAttackReachSqr (Lalh;)D
+		METHOD b canContinueToUse ()Z
+	CLASS b SpiderEffectsGroupData
+		FIELD a effect Lakq;
+		METHOD <init> <init> ()V
+		METHOD a setRandomEffect (Ljava/util/Random;)V
+	CLASS c SpiderTargetGoal
+		METHOD <init> <init> (Laxs;Ljava/lang/Class;)V
+		METHOD a canUse ()Z

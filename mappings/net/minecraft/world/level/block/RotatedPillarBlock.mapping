@@ -1,0 +1,11 @@
+CLASS buo net/minecraft/world/level/block/RotatedPillarBlock
+	FIELD a AXIS Lcaf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a rotate (Lbzh;Lbup;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction$Axis [I
+		FIELD b $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		METHOD <clinit> <clinit> ()V

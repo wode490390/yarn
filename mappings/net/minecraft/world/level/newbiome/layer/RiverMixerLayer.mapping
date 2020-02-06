@@ -1,0 +1,13 @@
+CLASS crc net/minecraft/world/level/newbiome/layer/RiverMixerLayer
+	FIELD a INSTANCE Lcrc;
+	FIELD b FROZEN_RIVER I
+	FIELD c SNOWY_TUNDRA I
+	FIELD d MUSHROOM_FIELDS I
+	FIELD e MUSHROOM_FIELD_SHORE I
+	FIELD f RIVER I
+	FIELD g $VALUES [Lcrc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Lcqh;Lcqc;Lcqc;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcrc;
+	METHOD values values ()[Lcrc;

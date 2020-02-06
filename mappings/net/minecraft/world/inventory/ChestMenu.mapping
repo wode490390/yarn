@@ -1,0 +1,18 @@
+CLASS bbd net/minecraft/world/inventory/ChestMenu
+	FIELD c container Lajl;
+	FIELD d containerRows I
+	METHOD <init> <init> (Lbbx;ILayr;I)V
+	METHOD <init> <init> (Lbbx;ILayr;Lajl;I)V
+	METHOD a oneRow (ILayr;)Lbbd;
+	METHOD a threeRows (ILayr;Lajl;)Lbbd;
+	METHOD a stillValid (Lays;)Z
+	METHOD b twoRows (ILayr;)Lbbd;
+	METHOD b sixRows (ILayr;Lajl;)Lbbd;
+	METHOD b removed (Lays;)V
+	METHOD b quickMoveStack (Lays;I)Lbew;
+	METHOD c threeRows (ILayr;)Lbbd;
+	METHOD d fourRows (ILayr;)Lbbd;
+	METHOD e getContainer ()Lajl;
+	METHOD e fiveRows (ILayr;)Lbbd;
+	METHOD f getRowCount ()I
+	METHOD f sixRows (ILayr;)Lbbd;

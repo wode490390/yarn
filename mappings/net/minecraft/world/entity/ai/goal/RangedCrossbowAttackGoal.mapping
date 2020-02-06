@@ -1,0 +1,25 @@
+CLASS aqp net/minecraft/world/entity/ai/goal/RangedCrossbowAttackGoal
+	FIELD a mob Laxf;
+	FIELD b crossbowState Laqp$a;
+	FIELD c speedModifier D
+	FIELD d attackRadiusSqr F
+	FIELD e seeTime I
+	FIELD f attackDelay I
+	METHOD <init> <init> (Laxf;DF)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g isHoldingCrossbow ()Z
+	METHOD h isValidTarget ()Z
+	METHOD j canRun ()Z
+	CLASS a CrossbowState
+		FIELD a UNCHARGED Laqp$a;
+		FIELD b CHARGING Laqp$a;
+		FIELD c CHARGED Laqp$a;
+		FIELD d READY_TO_ATTACK Laqp$a;
+		FIELD e $VALUES [Laqp$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Laqp$a;
+		METHOD values values ()[Laqp$a;

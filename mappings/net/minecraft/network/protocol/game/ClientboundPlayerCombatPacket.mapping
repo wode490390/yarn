@@ -1,0 +1,26 @@
+CLASS nt net/minecraft/network/protocol/game/ClientboundPlayerCombatPacket
+	FIELD a event Lnt$a;
+	FIELD b playerId I
+	FIELD c killerId I
+	FIELD d duration I
+	FIELD e message Llf;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lakg;Lnt$a;)V
+	METHOD <init> <init> (Lakg;Lnt$a;Llf;)V
+	METHOD a isSkippable ()Z
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b write (Lkv;)V
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$network$protocol$game$ClientboundPlayerCombatPacket$Event [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Event
+		FIELD a ENTER_COMBAT Lnt$a;
+		FIELD b END_COMBAT Lnt$a;
+		FIELD c ENTITY_DIED Lnt$a;
+		FIELD d $VALUES [Lnt$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lnt$a;
+		METHOD values values ()[Lnt$a;

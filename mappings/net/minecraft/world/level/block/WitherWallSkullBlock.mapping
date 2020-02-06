@@ -1,0 +1,3 @@
+CLASS bww net/minecraft/world/level/block/WitherWallSkullBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a setPlacedBy (Lbkf;Lfk;Lbzh;Lalh;Lbew;)V

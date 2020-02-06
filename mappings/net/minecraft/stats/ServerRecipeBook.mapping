@@ -1,0 +1,12 @@
+CLASS aan net/minecraft/stats/ServerRecipeBook
+	FIELD k LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD l manager Lbhg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbhg;)V
+	METHOD a addRecipes (Ljava/util/Collection;Lxf;)I
+	METHOD a fromNbt (Ljt;)V
+	METHOD a loadRecipes (Ljz;Ljava/util/function/Consumer;)V
+	METHOD a sendRecipes (Lnx$a;Lxf;Ljava/util/List;)V
+	METHOD a sendInitialRecipeBook (Lxf;)V
+	METHOD b removeRecipes (Ljava/util/Collection;Lxf;)I
+	METHOD i toNbt ()Ljt;

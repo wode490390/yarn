@@ -1,0 +1,12 @@
+CLASS ph net/minecraft/network/protocol/game/ClientboundUpdateRecipesPacket
+	FIELD a recipes Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Collection;)V
+	METHOD a toNetwork (Lbhf;Lkv;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD a lambda$fromNetwork$0 (Lsm;)Ljava/lang/IllegalArgumentException;
+	METHOD b getRecipes ()Ljava/util/List;
+	METHOD b write (Lkv;)V
+	METHOD c fromNetwork (Lkv;)Lbhf;

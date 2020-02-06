@@ -1,0 +1,4 @@
+CLASS ash net/minecraft/world/entity/ai/sensing/InteractableDoorsSensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Lxe;Lalh;)V

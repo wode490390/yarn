@@ -1,0 +1,6 @@
+CLASS cim net/minecraft/world/level/levelgen/feature/configurations/SimpleRandomFeatureConfiguration
+	FIELD a features Ljava/util/List;
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcim;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lcec;)Ljava/lang/Object;

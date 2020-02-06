@@ -1,0 +1,17 @@
+CLASS mb net/minecraft/network/protocol/game/ClientboundAddPaintingPacket
+	FIELD a id I
+	FIELD b uuid Ljava/util/UUID;
+	FIELD c pos Lfk;
+	FIELD d direction Lfp;
+	FIELD e motive I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lawc;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getUUID ()Ljava/util/UUID;
+	METHOD d getPos ()Lfk;
+	METHOD e getDirection ()Lfp;
+	METHOD f getMotive ()Lawb;

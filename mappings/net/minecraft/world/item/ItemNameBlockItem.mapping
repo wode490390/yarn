@@ -1,0 +1,3 @@
+CLASS beu net/minecraft/world/item/ItemNameBlockItem
+	METHOD <init> <init> (Lbpy;Lber$a;)V
+	METHOD a getDescriptionId ()Ljava/lang/String;

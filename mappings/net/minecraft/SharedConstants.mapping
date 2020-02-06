@@ -1,12 +1,13 @@
-CLASS net/minecraft/class_155 net/minecraft/SharedConstants
-	FIELD field_1124 RESOURCE_LEAK_DETECTOR_DISABLED Lio/netty/util/ResourceLeakDetector$Level;
-	FIELD field_1125 isDevelopment Z
-	FIELD field_1126 INVALID_CHARS_LEVEL_NAME [C
-	FIELD field_16742 gameVersion Lcom/mojang/bridge/game/GameVersion;
-	METHOD method_16673 getGameVersion ()Lcom/mojang/bridge/game/GameVersion;
-	METHOD method_16885 stripSupplementaryChars (Ljava/lang/String;)Ljava/lang/String;
-		ARG 0 s
-	METHOD method_643 isValidChar (C)Z
-		ARG 0 chr
-	METHOD method_644 stripInvalidChars (Ljava/lang/String;)Ljava/lang/String;
-		ARG 0 s
+CLASS s net/minecraft/SharedConstants
+	FIELD a NETTY_LEAK_DETECTION Lio/netty/util/ResourceLeakDetector$Level;
+	FIELD b MAXIMUM_TICK_TIME_NANOS J
+	FIELD c IS_RUNNING_IN_IDE Z
+	FIELD d ILLEGAL_FILE_CHARACTERS [C
+	FIELD e CURRENT_VERSION Lcom/mojang/bridge/game/GameVersion;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getCurrentVersion ()Lcom/mojang/bridge/game/GameVersion;
+	METHOD a isAllowedChatCharacter (C)Z
+	METHOD a setVersion (Lcom/mojang/bridge/game/GameVersion;)V
+	METHOD a filterText (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b filterUnicodeSupplementary (Ljava/lang/String;)Ljava/lang/String;

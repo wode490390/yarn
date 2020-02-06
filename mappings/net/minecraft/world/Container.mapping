@@ -1,0 +1,15 @@
+CLASS ajl net/minecraft/world/Container
+	METHOD L_ getMaxStackSize ()I
+	METHOD O_ getContainerSize ()I
+	METHOD a getItem (I)Lbew;
+	METHOD a removeItem (II)Lbew;
+	METHOD a setItem (ILbew;)V
+	METHOD a stillValid (Lays;)Z
+	METHOD a countItem (Lber;)I
+	METHOD a hasAnyOf (Ljava/util/Set;)Z
+	METHOD a_ startOpen (Lays;)V
+	METHOD b removeItemNoUpdate (I)Lbew;
+	METHOD b canPlaceItem (ILbew;)Z
+	METHOD b_ stopOpen (Lays;)V
+	METHOD c isEmpty ()Z
+	METHOD e setChanged ()V

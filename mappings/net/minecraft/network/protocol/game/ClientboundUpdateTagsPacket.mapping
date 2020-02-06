@@ -1,0 +1,9 @@
+CLASS pi net/minecraft/network/protocol/game/ClientboundUpdateTagsPacket
+	FIELD a tags Labc;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Labc;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getTags ()Labc;
+	METHOD b write (Lkv;)V

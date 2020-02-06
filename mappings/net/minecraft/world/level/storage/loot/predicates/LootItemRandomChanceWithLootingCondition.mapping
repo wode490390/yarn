@@ -1,0 +1,19 @@
+CLASS cwa net/minecraft/world/level/storage/loot/predicates/LootItemRandomChanceWithLootingCondition
+	FIELD a percent F
+	FIELD b lootingMultiplier F
+	METHOD <init> <init> (FF)V
+	METHOD <init> <init> (FFLcwa$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a randomChanceAndLootingBoost (FF)Lcvv$a;
+	METHOD a test (Lctg;)Z
+	METHOD a access$000 (Lcwa;)F
+	METHOD b lambda$randomChanceAndLootingBoost$0 (FF)Lcvv;
+	METHOD b access$100 (Lcwa;)F
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcwa;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvv;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcwa;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvv;

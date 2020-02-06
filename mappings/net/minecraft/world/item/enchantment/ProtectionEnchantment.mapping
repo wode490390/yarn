@@ -1,0 +1,27 @@
+CLASS bit net/minecraft/world/item/enchantment/ProtectionEnchantment
+	FIELD a type Lbit$a;
+	METHOD <init> <init> (Lbig$a;Lbit$a;[Lald;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a getDamageProtection (ILakh;)I
+	METHOD a getExplosionKnockbackAfterDampener (Lalh;D)D
+	METHOD a getFireAfterDampener (Lalh;I)I
+	METHOD a checkCompatibility (Lbig;)Z
+	METHOD b getMaxCost (I)I
+	CLASS a Type
+		FIELD a ALL Lbit$a;
+		FIELD b FIRE Lbit$a;
+		FIELD c FALL Lbit$a;
+		FIELD d EXPLOSION Lbit$a;
+		FIELD e PROJECTILE Lbit$a;
+		FIELD f name Ljava/lang/String;
+		FIELD g minCost I
+		FIELD h levelCost I
+		FIELD i $VALUES [Lbit$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;II)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD b getMinCost ()I
+		METHOD c getLevelCost ()I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbit$a;
+		METHOD values values ()[Lbit$a;

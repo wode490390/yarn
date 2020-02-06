@@ -1,0 +1,4 @@
+CLASS aok net/minecraft/world/entity/ai/behavior/WakeUp
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V

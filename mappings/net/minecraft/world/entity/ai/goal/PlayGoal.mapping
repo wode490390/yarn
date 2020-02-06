@@ -1,0 +1,11 @@
+CLASS aqj net/minecraft/world/entity/ai/goal/PlayGoal
+	FIELD a mob Layf;
+	FIELD b followFriend Lalh;
+	FIELD c speedModifier D
+	FIELD d playTime I
+	METHOD <init> <init> (Layf;D)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

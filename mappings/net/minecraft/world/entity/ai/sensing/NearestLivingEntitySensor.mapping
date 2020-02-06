@@ -1,0 +1,8 @@
+CLASS asj net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor
+	FIELD a TARGETING Lass;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a lambda$doTick$1 (Lalh;Lalh;)Z
+	METHOD a doTick (Lxe;Lalh;)V
+	METHOD b lambda$doTick$0 (Lalh;Lalh;)Z

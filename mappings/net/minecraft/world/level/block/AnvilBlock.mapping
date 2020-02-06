@@ -1,0 +1,27 @@
+CLASS bpb net/minecraft/world/level/block/AnvilBlock
+	FIELD a FACING Lcac;
+	FIELD b BASE Lcxo;
+	FIELD c X_LEG1 Lcxo;
+	FIELD d X_LEG2 Lcxo;
+	FIELD e X_TOP Lcxo;
+	FIELD f Z_LEG1 Lcxo;
+	FIELD g Z_LEG2 Lcxo;
+	FIELD h Z_TOP Lcxo;
+	FIELD i X_AXIS_AABB Lcxo;
+	FIELD j Z_AXIS_AABB Lcxo;
+	FIELD k CONTAINER_TITLE Llp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a falling (Lawi;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a onBroken (Lbkf;Lfk;)V
+	METHOD a lambda$getMenuProvider$0 (Lbkf;Lfk;ILayr;Lays;)Lbaw;
+	METHOD a onLand (Lbkf;Lfk;Lbzh;Lbzh;)V
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a rotate (Lbzh;Lbup;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b getMenuProvider (Lbzh;Lbkf;Lfk;)Lajv;
+	METHOD e damage (Lbzh;)Lbzh;
+	METHOD f getDustColor (Lbzh;)I

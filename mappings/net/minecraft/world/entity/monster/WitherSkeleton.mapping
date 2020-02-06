@@ -1,0 +1,14 @@
+CLASS axx net/minecraft/world/entity/monster/WitherSkeleton
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD B doHurtTarget (Laky;)Z
+	METHOD G getAmbientSound ()Laai;
+	METHOD a populateDefaultEquipmentSlots (Lajq;)V
+	METHOD a dropCustomDeathLoot (Lakh;IZ)V
+	METHOD a finalizeSpawn (Lbkg;Lajq;Lalk;Lalu;Ljt;)Lalu;
+	METHOD b populateDefaultEquipmentEnchantments (Lajq;)V
+	METHOD b getStandingEyeHeight (Lalr;Lakz;)F
+	METHOD b getArrow (Lbew;F)Layw;
+	METHOD cX getDeathSound ()Laai;
+	METHOD d canBeAffected (Laks;)Z
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD l getStepSound ()Laai;

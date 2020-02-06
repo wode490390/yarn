@@ -1,0 +1,11 @@
+CLASS btk net/minecraft/world/level/block/MagmaBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a stepOn (Lbkf;Lfk;Laky;)V
+	METHOD a getTickDelay (Lbki;)I
+	METHOD a isValidSpawn (Lbzh;Lbjp;Lfk;Lalc;)Z
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD b onPlace (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	METHOD b randomTick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD h hasPostProcess (Lbzh;Lbjp;Lfk;)Z
+	METHOD m emissiveRendering (Lbzh;)Z

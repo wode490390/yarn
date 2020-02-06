@@ -1,0 +1,4 @@
+CLASS aiv net/minecraft/util/profiling/ProfilerPathEntry
+	METHOD a getDuration ()J
+	METHOD b getCount ()J
+	METHOD c getCounters ()Lit/unimi/dsi/fastutil/objects/Object2LongMap;

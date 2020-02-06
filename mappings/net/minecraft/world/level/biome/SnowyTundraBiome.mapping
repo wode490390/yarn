@@ -1,0 +1,3 @@
+CLASS boa net/minecraft/world/level/biome/SnowyTundraBiome
+	METHOD <init> <init> ()V
+	METHOD f getCreatureProbability ()F

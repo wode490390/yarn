@@ -1,0 +1,16 @@
+CLASS cxr net/minecraft/world/scores/Objective
+	FIELD a scoreboard Lcxu;
+	FIELD b name Ljava/lang/String;
+	FIELD c criteria Lcxx;
+	FIELD d displayName Llf;
+	FIELD e renderType Lcxx$a;
+	METHOD <init> <init> (Lcxu;Ljava/lang/String;Lcxx;Llf;Lcxx$a;)V
+	METHOD a getScoreboard ()Lcxu;
+	METHOD a setRenderType (Lcxx$a;)V
+	METHOD a setDisplayName (Llf;)V
+	METHOD a lambda$getFormattedDisplayName$0 (Lln;)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getCriteria ()Lcxx;
+	METHOD d getDisplayName ()Llf;
+	METHOD e getFormattedDisplayName ()Llf;
+	METHOD f getRenderType ()Lcxx$a;

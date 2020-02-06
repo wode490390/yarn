@@ -1,0 +1,20 @@
+CLASS cvh net/minecraft/world/level/storage/loot/parameters/LootContextParamSet
+	FIELD a required Ljava/util/Set;
+	FIELD b all Ljava/util/Set;
+	METHOD <init> <init> (Ljava/util/Set;Ljava/util/Set;)V
+	METHOD <init> <init> (Ljava/util/Set;Ljava/util/Set;Lcvh$1;)V
+	METHOD a getRequired ()Ljava/util/Set;
+	METHOD a validateUser (Lctp;Lcth;)V
+	METHOD a isAllowed (Lcvg;)Z
+	METHOD b getAllowed ()Ljava/util/Set;
+	METHOD b lambda$toString$0 (Lcvg;)Ljava/lang/String;
+	METHOD c builder ()Lcvh$a;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a required Ljava/util/Set;
+		FIELD b optional Ljava/util/Set;
+		METHOD <init> <init> ()V
+		METHOD a build ()Lcvh;
+		METHOD a required (Lcvg;)Lcvh$a;
+		METHOD b optional (Lcvg;)Lcvh$a;

@@ -1,0 +1,11 @@
+CLASS csd net/minecraft/world/level/pathfinder/Target
+	FIELD m bestHeuristic F
+	FIELD n bestNode Lcrx;
+	FIELD o reached Z
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Lcrx;)V
+	METHOD a updateBest (FLcrx;)V
+	METHOD c createFromStream (Lkv;)Lcsd;
+	METHOD d getBestNode ()Lcrx;
+	METHOD e setReached ()V
+	METHOD f isReached ()Z

@@ -1,0 +1,9 @@
+CLASS bak net/minecraft/world/entity/vehicle/MinecartChest
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDD)V
+	METHOD O_ getContainerSize ()I
+	METHOD a createMenu (ILayr;)Lbaw;
+	METHOD a destroy (Lakh;)V
+	METHOD o getMinecartType ()Lbag$a;
+	METHOD q getDefaultDisplayBlockState ()Lbzh;
+	METHOD s getDefaultDisplayOffset ()I

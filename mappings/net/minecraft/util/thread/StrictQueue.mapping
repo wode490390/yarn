@@ -1,0 +1,25 @@
+CLASS aje net/minecraft/util/thread/StrictQueue
+	METHOD a pop ()Ljava/lang/Object;
+	METHOD a push (Ljava/lang/Object;)Z
+	METHOD b isEmpty ()Z
+	CLASS a FixedPriorityQueue
+		FIELD a queueList Ljava/util/List;
+		METHOD <init> <init> (I)V
+		METHOD a pop ()Ljava/lang/Object;
+		METHOD a lambda$new$0 (I)Ljava/util/concurrent/ConcurrentLinkedQueue;
+		METHOD a push (Laje$b;)Z
+		METHOD a push (Ljava/lang/Object;)Z
+		METHOD b isEmpty ()Z
+		METHOD c pop ()Ljava/lang/Runnable;
+	CLASS b IntRunnable
+		FIELD a priority I
+		FIELD b task Ljava/lang/Runnable;
+		METHOD <init> <init> (ILjava/lang/Runnable;)V
+		METHOD a getPriority ()I
+		METHOD run run ()V
+	CLASS c QueueStrictQueue
+		FIELD a queue Ljava/util/Queue;
+		METHOD <init> <init> (Ljava/util/Queue;)V
+		METHOD a pop ()Ljava/lang/Object;
+		METHOD a push (Ljava/lang/Object;)Z
+		METHOD b isEmpty ()Z

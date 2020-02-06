@@ -1,0 +1,45 @@
+CLASS bxg net/minecraft/world/level/block/entity/BeehiveBlockEntity
+	FIELD a stored Ljava/util/List;
+	FIELD b savedFlowerPos Lfk;
+	METHOD <init> <init> ()V
+	METHOD Z_ tick ()V
+	METHOD a lambda$releaseOccupant$1 (Laky;)Laky;
+	METHOD a addOccupant (Laky;Z)V
+	METHOD a addOccupantWithPresetTicks (Laky;ZI)V
+	METHOD a emptyAllLivingFromHive (Lays;Lbzh;Lbxg$b;)V
+	METHOD a getHoneyLevel (Lbzh;)I
+	METHOD a releaseAllOccupants (Lbzh;Lbxg$b;)Ljava/util/List;
+	METHOD a lambda$releaseAllOccupants$0 (Lbzh;Ljava/util/List;Lbxg$b;Lbxg$a;)Z
+	METHOD a releaseOccupant (Lbzh;Ljt;Ljava/util/List;Lbxg$b;)Z
+	METHOD a load (Ljt;)V
+	METHOD b save (Ljt;)Ljt;
+	METHOD d isFireNearby ()Z
+	METHOD e setChanged ()V
+	METHOD f isEmpty ()Z
+	METHOD h isFull ()Z
+	METHOD j getOccupantCount ()I
+	METHOD k isSedated ()Z
+	METHOD l sendDebugPackets ()V
+	METHOD m writeBees ()Ljz;
+	METHOD x hasSavedFlowerPos ()Z
+	METHOD y tickOccupants ()V
+	CLASS 1 1
+	CLASS a BeeData
+		FIELD a entityData Ljt;
+		FIELD b ticksInHive I
+		FIELD c minOccupationTicks I
+		METHOD <init> <init> (Ljt;II)V
+		METHOD <init> <init> (Ljt;IILbxg$1;)V
+		METHOD a access$100 (Lbxg$a;)I
+		METHOD b access$200 (Lbxg$a;)I
+		METHOD c access$300 (Lbxg$a;)Ljt;
+		METHOD d access$108 (Lbxg$a;)I
+	CLASS b BeeReleaseStatus
+		FIELD a HONEY_DELIVERED Lbxg$b;
+		FIELD b BEE_RELEASED Lbxg$b;
+		FIELD c EMERGENCY Lbxg$b;
+		FIELD d $VALUES [Lbxg$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbxg$b;
+		METHOD values values ()[Lbxg$b;

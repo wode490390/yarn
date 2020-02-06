@@ -1,0 +1,2 @@
+CLASS ajn net/minecraft/world/ContainerListener
+	METHOD a containerChanged (Lajl;)V

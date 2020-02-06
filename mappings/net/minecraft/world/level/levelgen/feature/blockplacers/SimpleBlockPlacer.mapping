@@ -1,0 +1,5 @@
+CLASS chf net/minecraft/world/level/levelgen/feature/blockplacers/SimpleBlockPlacer
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a place (Lbkg;Lfk;Lbzh;Ljava/util/Random;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;

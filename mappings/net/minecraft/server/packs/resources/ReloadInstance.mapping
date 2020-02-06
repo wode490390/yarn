@@ -1,0 +1,6 @@
+CLASS yz net/minecraft/server/packs/resources/ReloadInstance
+	METHOD a done ()Ljava/util/concurrent/CompletableFuture;
+	METHOD b getActualProgress ()F
+	METHOD c isApplying ()Z
+	METHOD d isDone ()Z
+	METHOD e checkExceptions ()V

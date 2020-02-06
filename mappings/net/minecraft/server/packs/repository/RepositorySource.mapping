@@ -1,0 +1,2 @@
+CLASS ys net/minecraft/server/packs/repository/RepositorySource
+	METHOD a loadPacks (Ljava/util/Map;Lyu$b;)V

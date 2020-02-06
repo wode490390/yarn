@@ -1,0 +1,23 @@
+CLASS cic net/minecraft/world/level/levelgen/feature/configurations/OreConfiguration
+	FIELD a target Lcic$a;
+	FIELD b size I
+	FIELD c state Lbzh;
+	METHOD <init> <init> (Lcic$a;Lbzh;I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcic;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	CLASS a Predicates
+		FIELD a NATURAL_STONE Lcic$a;
+		FIELD b NETHERRACK Lcic$a;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		FIELD e predicate Ljava/util/function/Predicate;
+		FIELD f $VALUES [Lcic$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ljava/util/function/Predicate;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a lambda$static$0 (Lbzh;)Z
+		METHOD a lambda$static$1 (Lcic$a;)Lcic$a;
+		METHOD a byName (Ljava/lang/String;)Lcic$a;
+		METHOD b getPredicate ()Ljava/util/function/Predicate;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcic$a;
+		METHOD values values ()[Lcic$a;

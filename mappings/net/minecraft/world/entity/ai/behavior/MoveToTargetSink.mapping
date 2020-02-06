@@ -1,0 +1,18 @@
+CLASS ane net/minecraft/world/entity/ai/behavior/MoveToTargetSink
+	FIELD a path Lcrz;
+	FIELD b lastTargetPos Lfk;
+	FIELD c speed F
+	FIELD d remainingDelay I
+	METHOD <init> <init> (I)V
+	METHOD a reachedTarget (Lali;Larv;)Z
+	METHOD a tryComputePath (Lali;Larv;J)Z
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD a checkExtraStartConditions (Lxe;Lali;)Z
+	METHOD a canStillUse (Lxe;Lali;J)Z
+	METHOD b stop (Lxe;Lali;J)V
+	METHOD c start (Lxe;Lali;J)V
+	METHOD d tick (Lxe;Lalh;J)V
+	METHOD d tick (Lxe;Lali;J)V
+	METHOD f stop (Lxe;Lalh;J)V
+	METHOD g canStillUse (Lxe;Lalh;J)Z

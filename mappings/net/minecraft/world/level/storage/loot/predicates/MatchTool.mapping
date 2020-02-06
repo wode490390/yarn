@@ -1,0 +1,15 @@
+CLASS cwb net/minecraft/world/level/storage/loot/predicates/MatchTool
+	FIELD a predicate Lbj;
+	METHOD <init> <init> (Lbj;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a toolMatches (Lbj$a;)Lcvv$a;
+	METHOD a test (Lctg;)Z
+	METHOD a access$000 (Lcwb;)Lbj;
+	METHOD b lambda$toolMatches$0 (Lbj$a;)Lcvv;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcwb;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvv;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcwb;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvv;

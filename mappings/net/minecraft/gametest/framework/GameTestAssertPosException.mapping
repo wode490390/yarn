@@ -1,0 +1,9 @@
+CLASS iq net/minecraft/gametest/framework/GameTestAssertPosException
+	FIELD a absolutePos Lfk;
+	FIELD b relativePos Lfk;
+	FIELD c tick J
+	METHOD <init> <init> (Ljava/lang/String;Lfk;Lfk;J)V
+	METHOD a getMessageToShowAtBlock ()Ljava/lang/String;
+	METHOD b getRelativePos ()Lfk;
+	METHOD c getAbsolutePos ()Lfk;
+	METHOD getMessage getMessage ()Ljava/lang/String;

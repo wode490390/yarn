@@ -1,0 +1,10 @@
+CLASS bsf net/minecraft/world/level/block/FungiBlock
+	FIELD a SHAPE Lcxo;
+	FIELD b feature Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;Ljava/util/function/Supplier;)V
+	METHOD a isValidBonemealTarget (Lbjp;Lfk;Lbzh;Z)Z
+	METHOD a isBonemealSuccess (Lbkf;Ljava/util/Random;Lfk;Lbzh;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a performBonemeal (Lxe;Ljava/util/Random;Lfk;Lbzh;)V
+	METHOD a_ mayPlaceOn (Lbzh;Lbjp;Lfk;)Z

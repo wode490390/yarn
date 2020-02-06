@@ -1,0 +1,21 @@
+CLASS cts net/minecraft/world/level/storage/loot/entries/CompositeEntryBase
+	FIELD c children [Lctz;
+	FIELD e composedChildren Lctr;
+	METHOD <init> <init> ([Lctz;[Lcvv;)V
+	METHOD a validate (Lctp;)V
+	METHOD a createSerializer (Lsm;Ljava/lang/Class;Lcts$a;)Lcts$b;
+	METHOD a compose ([Lctr;)Lctr;
+	METHOD expand expand (Lctg;Ljava/util/function/Consumer;)Z
+	CLASS 1 1
+		FIELD a val$constructor Lcts$a;
+		METHOD <init> <init> (Lsm;Ljava/lang/Class;Lcts$a;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lctz;[Lcvv;)Lcts;
+	CLASS a CompositeEntryConstructor
+		METHOD create create ([Lctz;[Lcvv;)Lcts;
+	CLASS b Serializer
+		METHOD <init> <init> (Lsm;Ljava/lang/Class;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lctz;[Lcvv;)Lcts;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcts;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcts;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lctz;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lctz;

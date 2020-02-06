@@ -1,0 +1,25 @@
+CLASS bks net/minecraft/world/level/ServerTickList
+	FIELD a ignore Ljava/util/function/Predicate;
+	FIELD b toId Ljava/util/function/Function;
+	FIELD c fromId Ljava/util/function/Function;
+	FIELD d tickNextTickSet Ljava/util/Set;
+	FIELD e tickNextTickList Ljava/util/TreeSet;
+	FIELD f level Lxe;
+	FIELD g currentlyTicking Ljava/util/Queue;
+	FIELD h alreadyTicked Ljava/util/List;
+	FIELD i ticker Ljava/util/function/Consumer;
+	METHOD <init> <init> (Lxe;Ljava/util/function/Predicate;Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Consumer;)V
+	METHOD a size ()I
+	METHOD a save (Lbjq;)Ljz;
+	METHOD a fetchTicksInChunk (Lbjq;ZZ)Ljava/util/List;
+	METHOD a addTickData (Lbkv;)V
+	METHOD a copy (Lcmg;Lfk;)V
+	METHOD a fetchTicksInArea (Lcmg;ZZ)Ljava/util/List;
+	METHOD a hasScheduledTick (Lfk;Ljava/lang/Object;)Z
+	METHOD a scheduleTick (Lfk;Ljava/lang/Object;ILbkw;)V
+	METHOD a fetchTicksInArea (Ljava/util/List;Ljava/util/Collection;Lcmg;Z)Ljava/util/List;
+	METHOD a saveTickList (Ljava/util/function/Function;Ljava/lang/Iterable;J)Ljz;
+	METHOD a addAll (Ljava/util/stream/Stream;)V
+	METHOD a load (Ljz;)V
+	METHOD b tick ()V
+	METHOD b willTickThisTick (Lfk;Ljava/lang/Object;)Z

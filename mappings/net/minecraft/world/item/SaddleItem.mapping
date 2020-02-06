@@ -1,0 +1,3 @@
+CLASS bfl net/minecraft/world/item/SaddleItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a interactEnemy (Lbew;Lays;Lalh;Lajr;)Z

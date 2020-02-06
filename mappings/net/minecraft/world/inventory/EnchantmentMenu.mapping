@@ -1,0 +1,34 @@
+CLASS bbm net/minecraft/world/inventory/EnchantmentMenu
+	FIELD c costs [I
+	FIELD d enchantClue [I
+	FIELD e levelClue [I
+	FIELD f enchantSlots Lajl;
+	FIELD g access Lbbg;
+	FIELD h random Ljava/util/Random;
+	FIELD i enchantmentSeed Lbbk;
+	METHOD <init> <init> (ILayr;)V
+	METHOD <init> <init> (ILayr;Lbbg;)V
+	METHOD a slotsChanged (Lajl;)V
+	METHOD a stillValid (Lays;)Z
+	METHOD a clickMenuButton (Lays;I)Z
+	METHOD a lambda$removed$2 (Lays;Lbkf;Lfk;)V
+	METHOD a getEnchantmentList (Lbew;II)Ljava/util/List;
+	METHOD a lambda$clickMenuButton$1 (Lbew;ILays;ILbew;Lbkf;Lfk;)V
+	METHOD a lambda$slotsChanged$0 (Lbew;Lbkf;Lfk;)V
+	METHOD b removed (Lays;)V
+	METHOD b quickMoveStack (Lays;I)Lbew;
+	METHOD e getGoldCount ()I
+	METHOD f getEnchantmentSeed ()I
+	CLASS 1 1
+		FIELD a this$0 Lbbm;
+		METHOD <init> <init> (Lbbm;I)V
+		METHOD e setChanged ()V
+	CLASS 2 2
+		FIELD a this$0 Lbbm;
+		METHOD <init> <init> (Lbbm;Lajl;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbew;)Z
+	CLASS 3 3
+		FIELD a this$0 Lbbm;
+		METHOD <init> <init> (Lbbm;Lajl;III)V
+		METHOD a mayPlace (Lbew;)Z

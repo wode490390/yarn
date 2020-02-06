@@ -1,0 +1,14 @@
+CLASS caa net/minecraft/world/level/block/state/properties/ChestType
+	FIELD a SINGLE Lcaa;
+	FIELD b LEFT Lcaa;
+	FIELD c RIGHT Lcaa;
+	FIELD d BY_ID [Lcaa;
+	FIELD e name Ljava/lang/String;
+	FIELD f opposite I
+	FIELD g $VALUES [Lcaa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;I)V
+	METHOD a getOpposite ()Lcaa;
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcaa;
+	METHOD values values ()[Lcaa;

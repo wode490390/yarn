@@ -1,0 +1,2 @@
+CLASS byc net/minecraft/world/level/block/entity/LidBlockEntity
+	METHOD a getOpenNess (F)F

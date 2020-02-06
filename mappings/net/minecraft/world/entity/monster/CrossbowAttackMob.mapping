@@ -1,0 +1,4 @@
+CLASS awr net/minecraft/world/entity/monster/CrossbowAttackMob
+	METHOD a shootProjectile (Lalh;Lbew;Lazh;F)V
+	METHOD a setChargingCrossbow (Z)V
+	METHOD w getTarget ()Lalh;

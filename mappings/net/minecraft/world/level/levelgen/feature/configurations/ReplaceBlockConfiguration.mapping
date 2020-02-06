@@ -1,0 +1,6 @@
+CLASS cii net/minecraft/world/level/levelgen/feature/configurations/ReplaceBlockConfiguration
+	FIELD a target Lbzh;
+	FIELD b state Lbzh;
+	METHOD <init> <init> (Lbzh;Lbzh;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcii;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

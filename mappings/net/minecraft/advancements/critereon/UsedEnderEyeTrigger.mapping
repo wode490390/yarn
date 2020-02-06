@@ -1,0 +1,14 @@
+CLASS ch net/minecraft/advancements/critereon/UsedEnderEyeTrigger
+	FIELD a ID Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lsm;
+	METHOD a lambda$trigger$0 (DLch$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a trigger (Lxf;Lfk;)V
+	METHOD b access$000 ()Lsm;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lch$a;
+	CLASS a TriggerInstance
+		FIELD a level Lbr$c;
+		METHOD <init> <init> (Lbr$c;)V
+		METHOD a matches (D)Z

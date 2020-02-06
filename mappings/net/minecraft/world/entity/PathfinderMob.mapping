@@ -1,0 +1,9 @@
+CLASS alo net/minecraft/world/entity/PathfinderMob
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD a checkSpawnRules (Lbkg;Lalk;)Z
+	METHOD a getWalkTargetValue (Lfk;Lbki;)F
+	METHOD eh tickLeash ()V
+	METHOD eo isPathFinding ()Z
+	METHOD ep followLeashSpeed ()D
+	METHOD f getWalkTargetValue (Lfk;)F
+	METHOD t onLeashDistance (F)V

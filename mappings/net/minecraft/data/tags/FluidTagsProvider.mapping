@@ -1,0 +1,6 @@
+CLASS ij net/minecraft/data/tags/FluidTagsProvider
+	METHOD <init> <init> (Lgy;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a useTags (Labb;)V
+	METHOD a getPath (Lsm;)Ljava/nio/file/Path;
+	METHOD b addTags ()V

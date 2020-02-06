@@ -1,0 +1,3 @@
+CLASS bfe net/minecraft/world/item/NameTagItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a interactEnemy (Lbew;Lays;Lalh;Lajr;)Z

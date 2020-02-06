@@ -1,0 +1,28 @@
+CLASS cck net/minecraft/world/level/dimension/end/DragonRespawnAnimation
+	FIELD a START Lcck;
+	FIELD b PREPARING_TO_SUMMON_PILLARS Lcck;
+	FIELD c SUMMONING_PILLARS Lcck;
+	FIELD d SUMMONING_DRAGON Lcck;
+	FIELD e END Lcck;
+	FIELD f $VALUES [Lcck;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD <init> <init> (Ljava/lang/String;ILcck$1;)V
+	METHOD a tick (Lxe;Lccl;Ljava/util/List;ILfk;)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcck;
+	METHOD values values ()[Lcck;
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lxe;Lccl;Ljava/util/List;ILfk;)V
+	CLASS 2 2
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lxe;Lccl;Ljava/util/List;ILfk;)V
+	CLASS 3 3
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lxe;Lccl;Ljava/util/List;ILfk;)V
+	CLASS 4 4
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lxe;Lccl;Ljava/util/List;ILfk;)V
+	CLASS 5 5
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lxe;Lccl;Ljava/util/List;ILfk;)V

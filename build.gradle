@@ -7,8 +7,8 @@ buildscript {
 		}
 	}
 	dependencies {
-		classpath "cuchaz:enigma:0.14.3.146"
-		classpath "net.fabricmc:stitch:0.4.1.68"
+		classpath "cuchaz:enigma:0.14.2.136"
+		classpath "net.fabricmc:stitch:0.3.0.66"
 		classpath "commons-io:commons-io:2.6"
 		classpath "com.google.guava:guava:28.0-jre"
 		classpath 'de.undercouch:gradle-download-task:3.4.3'
@@ -18,7 +18,7 @@ buildscript {
 
 plugins {
 	id 'de.undercouch.download' version '3.4.3'
-	id 'base'
+	id 'maven'
 	id 'maven-publish'
 }
 
@@ -48,8 +48,8 @@ configurations {
 }
 
 dependencies {
-	enigmaRuntime "net.fabricmc:stitch:0.4.1.68"
-	enigmaRuntime "cuchaz:enigma:0.14.3.146"
+	enigmaRuntime "net.fabricmc:stitch:0.3.0.66"
+	enigmaRuntime "cuchaz:enigma:0.14.2.136"
 }
 
 def setupGroup = "jar setup"
@@ -64,7 +64,7 @@ def intermediaryJar = file("${minecraft_version}-intermediary.jar")
 def yarnJar = file("${minecraft_version}-yarn.jar")
 def namedJar = file("${minecraft_version}-named.jar")
 def versionFile = new File(cacheFilesMinecraft, "${minecraft_version}.json")
-def clientJar = new File(cacheFilesMinecraft, "${minecraft_version}-client.jar")
+def clientJar = new File(cacheFilesMinecraft, "${minecraft_version}-server.jar")
 def serverJar = new File(cacheFilesMinecraft, "${minecraft_version}-server.jar")
 def libraries = new File(cacheFilesMinecraft, "libraries")
 def libs = new File("build/libs/")
@@ -75,7 +75,6 @@ import com.google.common.collect.Iterables
 import cuchaz.enigma.command.CheckMappingsCommand
 import cuchaz.enigma.command.ComposeMappingsCommand
 import cuchaz.enigma.command.ConvertMappingsCommand
-import cuchaz.enigma.command.MapSpecializedMethodsCommand
 import groovy.io.FileType
 import groovy.json.JsonSlurper
 import net.fabricmc.stitch.commands.CommandMergeTiny
@@ -159,7 +158,7 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 
 	outputs.upToDateWhen {
 		def version = new JsonSlurper().parseText(FileUtils.readFileToString(versionFile))
-		return clientJar.exists() && serverJar.exists() && validateChecksum(clientJar, version.downloads.client.sha1) && validateChecksum(serverJar, version.downloads.server.sha1)
+		return serverJar.exists() && validateChecksum(serverJar, version.downloads.server.sha1)
 	}
 
 	doLast {
@@ -172,11 +171,6 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 
 		logger.lifecycle(":downloading minecraft jars")
 
-		if (!clientJar.exists() || !validateChecksum(clientJar, version.downloads.client.sha1)) {
-			logger.lifecycle(":downloading minecraft client")
-			FileUtils.copyURLToFile(new URL(version.downloads.client.url), clientJar)
-		}
-
 		if (!serverJar.exists() || !validateChecksum(serverJar, version.downloads.server.sha1)) {
 			logger.lifecycle(":downloading minecraft server")
 			FileUtils.copyURLToFile(new URL(version.downloads.server.url), serverJar)
@@ -186,7 +180,7 @@ task downloadMcJars(dependsOn: downloadWantedVersionManifest) {
 
 task downloadIntermediary(type: Download) {
 	group = buildMappingGroup
-	def url = "https://github.com/FabricMC/intermediary/raw/master/mappings/${minecraft_version}.tiny"
+	def url = "https://github.com/wode490390/yarn/raw/mojang-1.14.4/temp.tiny"
 	src com.google.common.net.UrlEscapers.urlFragmentEscaper().escape(url)
 	dest new File(cacheFilesMinecraft, "${minecraft_version}-intermediary.tiny")
 }
@@ -198,7 +192,7 @@ task mergeJars(dependsOn: downloadMcJars) {
 
 	doLast {
 		logger.lifecycle(":merging jars")
-		def client = inputs.files.files.find { it.name.endsWith("-client.jar") }
+		def client = inputs.files.files.find { it.name.endsWith("-server.jar") }
 		def server = inputs.files.files.find { it.name.endsWith("-server.jar") }
 		def merged = mergedFile
 
@@ -345,7 +339,7 @@ task checkMappings {
 	}
 }
 
-task buildYarnTiny(dependsOn: mapIntermediaryJar, type: WithV2FileOutput) {
+task buildYarnTiny(dependsOn: mergeJars, type: WithV2FileOutput) {
 	group = buildMappingGroup
 	inputs.dir mappingsDir
 	if (!libs.exists()) {
@@ -360,19 +354,23 @@ task buildYarnTiny(dependsOn: mapIntermediaryJar, type: WithV2FileOutput) {
 	doLast {
 		logger.lifecycle(":generating tiny mappings")
 
-		new MapSpecializedMethodsCommand().run(
-			intermediaryJar.getAbsolutePath(),
-			"enigma",
-			mappingsDir.getAbsolutePath(),
-			"tinyv2:intermediary:named",
-			v2Output.getAbsolutePath()
-		)
+		String[] v1Args = [
+				"enigma",
+				mappingsDir.getAbsolutePath(),
+				"tiny:intermediary:named",
+				v1Output.getAbsolutePath()
+		]
 
-		new ConvertMappingsCommand().run(
-			"tinyv2",
-			v2Output.getAbsolutePath(),
-			"tiny:intermediary:named",
-			v1Output.getAbsolutePath())
+		String[] v2Args = [
+				"enigma",
+				mappingsDir.getAbsolutePath(),
+				"tinyv2:intermediary:named",
+				v2Output.getAbsolutePath()
+		]
+
+		new ConvertMappingsCommand().run(v1Args)
+		new ConvertMappingsCommand().run(v2Args)
+		def x = 2
 	}
 }
 
@@ -413,8 +411,8 @@ task mergeTiny(dependsOn: ["buildYarnTiny", "invertIntermediary"], type: FileOut
 task tinyJar(type: Jar, dependsOn: mergeTiny) {
 	group = buildMappingGroup
 	outputs.upToDateWhen { false }
-	archiveFileName = "yarn-${yarnVersion}.jar"
-	destinationDirectory.set(file("build/libs"))
+	archiveName = "yarn-${yarnVersion}.jar"
+	destinationDir(file("build/libs"))
 	classifier = ""
 	from(mergeTiny.output) {
 		rename { "mappings/mappings.tiny" }
@@ -558,8 +556,7 @@ task insertAutoGeneratedEnumMappings(dependsOn : [buildYarnTiny,mapIntermediaryJ
 		String[] argsProposeV2 = [
 				intermediaryJar.getAbsolutePath(), // must use intermediary jar
 				noEnumV2.getAbsolutePath(),
-				output.getAbsolutePath(),
-				"false" // don't replace existing names right now
+				output.getAbsolutePath()
 		]
 
 		new CommandProposeV2FieldNames().run(argsProposeV2)
@@ -570,12 +567,12 @@ task v2UnmergedYarnJar(dependsOn: insertAutoGeneratedEnumMappings, type: Jar) {
 	def mappings = insertAutoGeneratedEnumMappings.output
 	group = "mapping build"
 	outputs.upToDateWhen { false }
-	archiveFileName = "yarn-${yarnVersion}-v2.jar"
+	archiveName = "yarn-${yarnVersion}-v2.jar"
 
 	from(file(mappings)) {
 		rename mappings.name, "mappings/mappings.tiny"
 	}
-	destinationDirectory.set(file("build/libs"))
+	destinationDir(file("build/libs"))
 }
 
 

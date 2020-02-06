@@ -1,0 +1,18 @@
+CLASS cvs net/minecraft/world/level/storage/loot/predicates/InvertedLootItemCondition
+	FIELD a term Lcvv;
+	METHOD <init> <init> (Lcvv;)V
+	METHOD <init> <init> (Lcvv;Lcvs$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a test (Lctg;)Z
+	METHOD a validate (Lctp;)V
+	METHOD a access$000 (Lcvs;)Lcvv;
+	METHOD a invert (Lcvv$a;)Lcvv$a;
+	METHOD b lambda$invert$0 (Lcvs;)Lcvv;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvs;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvv;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvv;

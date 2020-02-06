@@ -1,0 +1,7 @@
+CLASS bxp net/minecraft/world/level/block/entity/ComparatorBlockEntity
+	FIELD a output I
+	METHOD <init> <init> ()V
+	METHOD a setOutputSignal (I)V
+	METHOD a load (Ljt;)V
+	METHOD b save (Ljt;)Ljt;
+	METHOD d getOutputSignal ()I

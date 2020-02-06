@@ -1,0 +1,9 @@
+CLASS cjh net/minecraft/world/level/levelgen/feature/stateproviders/WeightedStateProvider
+	FIELD b weightedList Laol;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laol;)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a add (Lbzh;I)Lcjh;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lbzh;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a getState (Ljava/util/Random;Lfk;)Lbzh;

@@ -1,0 +1,2 @@
+CLASS bmu net/minecraft/world/level/biome/JungleBiome
+	METHOD <init> <init> ()V

@@ -1,0 +1,3 @@
+CLASS bft net/minecraft/world/item/SnowballItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;

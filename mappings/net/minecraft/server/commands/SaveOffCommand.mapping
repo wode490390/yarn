@@ -1,0 +1,7 @@
+CLASS uw net/minecraft/server/commands/SaveOffCommand
+	FIELD a ERROR_ALREADY_OFF Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Lcq;)Z

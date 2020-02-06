@@ -1,0 +1,4 @@
+CLASS bvn net/minecraft/world/level/block/StainedGlassPaneBlock
+	FIELD i color Lbds;
+	METHOD <init> <init> (Lbds;Lbpy$c;)V
+	METHOD a getColor ()Lbds;

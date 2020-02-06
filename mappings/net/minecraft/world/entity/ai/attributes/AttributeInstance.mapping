@@ -1,0 +1,17 @@
+CLASS alz net/minecraft/world/entity/ai/attributes/AttributeInstance
+	METHOD a getAttribute ()Laly;
+	METHOD a setBaseValue (D)V
+	METHOD a copyFrom (Lalz;)V
+	METHOD a getModifiers (Lama$a;)Ljava/util/Set;
+	METHOD a hasModifier (Lama;)Z
+	METHOD a getModifiers (Ljava/lang/String;)Ljava/util/Collection;
+	METHOD a addModifiers (Ljava/util/Collection;)V
+	METHOD a getModifier (Ljava/util/UUID;)Lama;
+	METHOD b getBaseValue ()D
+	METHOD b addModifier (Lama;)V
+	METHOD b removeModifiers (Ljava/lang/String;)V
+	METHOD b removeModifier (Ljava/util/UUID;)V
+	METHOD c getModifiers ()Ljava/util/Set;
+	METHOD c removeModifier (Lama;)V
+	METHOD d removeModifiers ()V
+	METHOD e getValue ()D

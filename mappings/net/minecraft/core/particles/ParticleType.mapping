@@ -1,0 +1,6 @@
+CLASS gu net/minecraft/core/particles/ParticleType
+	FIELD a overrideLimiter Z
+	FIELD b deserializer Lgt$a;
+	METHOD <init> <init> (ZLgt$a;)V
+	METHOD c getOverrideLimiter ()Z
+	METHOD d getDeserializer ()Lgt$a;

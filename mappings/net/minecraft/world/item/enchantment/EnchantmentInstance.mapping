@@ -1,0 +1,4 @@
+CLASS bij net/minecraft/world/item/enchantment/EnchantmentInstance
+	FIELD b enchantment Lbig;
+	FIELD c level I
+	METHOD <init> <init> (Lbig;I)V

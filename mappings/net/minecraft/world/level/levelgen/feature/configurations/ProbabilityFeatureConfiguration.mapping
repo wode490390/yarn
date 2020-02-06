@@ -1,0 +1,5 @@
+CLASS cid net/minecraft/world/level/levelgen/feature/configurations/ProbabilityFeatureConfiguration
+	FIELD b probability F
+	METHOD <init> <init> (F)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcid;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

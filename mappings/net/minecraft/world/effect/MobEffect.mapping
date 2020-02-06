@@ -1,0 +1,23 @@
+CLASS akq net/minecraft/world/effect/MobEffect
+	FIELD a attributeModifiers Ljava/util/Map;
+	FIELD b category Lakr;
+	FIELD c color I
+	FIELD d descriptionId Ljava/lang/String;
+	METHOD <init> <init> (Lakr;I)V
+	METHOD a isInstantenous ()Z
+	METHOD a byId (I)Lakq;
+	METHOD a isDurationEffectTick (II)Z
+	METHOD a getAttributeModifierValue (ILama;)D
+	METHOD a getId (Lakq;)I
+	METHOD a applyInstantenousEffect (Laky;Laky;Lalh;ID)V
+	METHOD a applyEffectTick (Lalh;I)V
+	METHOD a removeAttributeModifiers (Lalh;Lamc;I)V
+	METHOD a addAttributeModifier (Laly;Ljava/lang/String;DLama$a;)Lakq;
+	METHOD b getOrCreateDescriptionId ()Ljava/lang/String;
+	METHOD b addAttributeModifiers (Lalh;Lamc;I)V
+	METHOD c getDescriptionId ()Ljava/lang/String;
+	METHOD d getDisplayName ()Llf;
+	METHOD e getCategory ()Lakr;
+	METHOD f getColor ()I
+	METHOD g getAttributeModifiers ()Ljava/util/Map;
+	METHOD h isBeneficial ()Z

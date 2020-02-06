@@ -1,0 +1,13 @@
+CLASS azi net/minecraft/world/entity/projectile/ProjectileUtil
+	METHOD <init> <init> ()V
+	METHOD a getIgnoredEntities (Laky;)Ljava/util/Set;
+	METHOD a rotateTowardsMovement (Laky;F)V
+	METHOD a getHitResult (Laky;Lcwo;Ljava/util/function/Predicate;Lbjs$a;Z)Lcwr;
+	METHOD a getEntityHitResult (Laky;Lcwu;Lcwu;Lcwo;Ljava/util/function/Predicate;D)Lcwq;
+	METHOD a forwardsRaycast (Laky;ZZLaky;Lbjs$a;)Lcwr;
+	METHOD a forwardsRaycast (Laky;ZZLaky;Lbjs$a;ZLjava/util/function/Predicate;Lcwo;)Lcwr;
+	METHOD a getWeaponHoldingHand (Lalh;Lber;)Lajr;
+	METHOD a getMobArrow (Lalh;Lbew;F)Layw;
+	METHOD a getHitResult (Lbkf;Laky;Lcwu;Lcwu;Lcwo;Ljava/util/function/Predicate;)Lcwq;
+	METHOD a getHitResult (Lbkf;Laky;Lcwu;Lcwu;Lcwo;Ljava/util/function/Predicate;D)Lcwq;
+	METHOD a lambda$forwardsRaycast$0 (ZLaky;Laky;)Z

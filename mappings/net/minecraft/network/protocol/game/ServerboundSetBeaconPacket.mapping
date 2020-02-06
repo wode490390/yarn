@@ -1,0 +1,11 @@
+CLASS qr net/minecraft/network/protocol/game/ServerboundSetBeaconPacket
+	FIELD a primary I
+	FIELD b secondary I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (II)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getPrimary ()I
+	METHOD b write (Lkv;)V
+	METHOD c getSecondary ()I

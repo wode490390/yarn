@@ -1,0 +1,13 @@
+CLASS bzr net/minecraft/world/level/block/state/predicate/BlockStatePredicate
+	FIELD a ANY Ljava/util/function/Predicate;
+	FIELD b definition Lbzi;
+	FIELD c properties Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbzi;)V
+	METHOD a forBlock (Lbpy;)Lbzr;
+	METHOD a test (Lbzh;)Z
+	METHOD a applies (Lbzh;Lcak;Ljava/util/function/Predicate;)Z
+	METHOD a forDefinition (Lbzi;)Lbzr;
+	METHOD a where (Lcak;Ljava/util/function/Predicate;)Lbzr;
+	METHOD b lambda$static$0 (Lbzh;)Z
+	METHOD test test (Ljava/lang/Object;)Z

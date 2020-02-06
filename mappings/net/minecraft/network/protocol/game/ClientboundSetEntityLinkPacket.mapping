@@ -1,0 +1,11 @@
+CLASS ol net/minecraft/network/protocol/game/ClientboundSetEntityLinkPacket
+	FIELD a sourceId I
+	FIELD b destId I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laky;Laky;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getSourceId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getDestId ()I

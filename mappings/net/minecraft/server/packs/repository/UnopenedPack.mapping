@@ -1,0 +1,40 @@
+CLASS yu net/minecraft/server/packs/repository/UnopenedPack
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b BROKEN_ASSETS_FALLBACK Lyk;
+	FIELD c id Ljava/lang/String;
+	FIELD d supplier Ljava/util/function/Supplier;
+	FIELD e title Llf;
+	FIELD f description Llf;
+	FIELD g compatibility Lyq;
+	FIELD h defaultPosition Lyu$a;
+	FIELD i required Z
+	FIELD j fixedPosition Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ZLjava/util/function/Supplier;Llf;Llf;Lyq;Lyu$a;Z)V
+	METHOD <init> <init> (Ljava/lang/String;ZLjava/util/function/Supplier;Lyf;Lyk;Lyu$a;)V
+	METHOD a getTitle ()Llf;
+	METHOD a create (Ljava/lang/String;ZLjava/util/function/Supplier;Lyu$b;Lyu$a;)Lyu;
+	METHOD a getChatLink (Z)Llf;
+	METHOD a lambda$getChatLink$0 (ZLln;)V
+	METHOD b getDescription ()Llf;
+	METHOD c getCompatibility ()Lyq;
+	METHOD close close ()V
+	METHOD d open ()Lyf;
+	METHOD e getId ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f isRequired ()Z
+	METHOD g isFixedPosition ()Z
+	METHOD h getDefaultPosition ()Lyu$a;
+	METHOD hashCode hashCode ()I
+	CLASS a Position
+		FIELD a TOP Lyu$a;
+		FIELD b BOTTOM Lyu$a;
+		FIELD c $VALUES [Lyu$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a opposite ()Lyu$a;
+		METHOD a insert (Ljava/util/List;Ljava/lang/Object;Ljava/util/function/Function;Z)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lyu$a;
+		METHOD values values ()[Lyu$a;
+	CLASS b UnopenedPackConstructor
+		METHOD create create (Ljava/lang/String;ZLjava/util/function/Supplier;Lyf;Lyk;Lyu$a;)Lyu;

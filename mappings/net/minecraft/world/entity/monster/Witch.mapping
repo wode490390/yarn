@@ -1,0 +1,26 @@
+CLASS axw net/minecraft/world/entity/monster/Witch
+	FIELD bA attackPlayersGoal Larj;
+	FIELD b SPEED_MODIFIER_DRINKING_UUID Ljava/util/UUID;
+	FIELD bw SPEED_MODIFIER_DRINKING Lama;
+	FIELD bx DATA_USING_ITEM Lsb;
+	FIELD by usingTime I
+	FIELD bz healRaidersGoal Lark;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD a handleEntityEvent (B)V
+	METHOD a applyRaidBuffs (IZ)V
+	METHOD a performRangedAttack (Lalh;F)V
+	METHOD b getStandingEyeHeight (Lalr;Lakz;)F
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD d getDamageAfterMagicAbsorb (Lakh;F)F
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD eq getCelebrateSound ()Laai;
+	METHOD es canBeLeader ()Z
+	METHOD i lambda$registerGoals$0 (Lalh;)Z
+	METHOD k aiStep ()V
+	METHOD l isDrinkingPotion ()Z
+	METHOD n registerGoals ()V
+	METHOD t setUsingItem (Z)V
+	METHOD w_ defineSynchedData ()V

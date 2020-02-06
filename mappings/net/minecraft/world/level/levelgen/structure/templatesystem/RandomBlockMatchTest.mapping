@@ -1,0 +1,8 @@
+CLASS cnq net/minecraft/world/level/levelgen/structure/templatesystem/RandomBlockMatchTest
+	FIELD a block Lbpy;
+	FIELD b probability F
+	METHOD <init> <init> (Lbpy;F)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getType ()Lcnu;
+	METHOD a test (Lbzh;Ljava/util/Random;)Z
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

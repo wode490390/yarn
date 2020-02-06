@@ -1,0 +1,23 @@
+CLASS cvc net/minecraft/world/level/storage/loot/functions/SetStewEffectFunction
+	FIELD a effectDurationMap Ljava/util/Map;
+	METHOD <init> <init> ([Lcvv;Ljava/util/Map;)V
+	METHOD <init> <init> ([Lcvv;Ljava/util/Map;Lcvc$1;)V
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a access$100 (Lcvc;)Ljava/util/Map;
+	METHOD b stewEffect ()Lcvc$a;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a effectDurationMap Ljava/util/Map;
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Lcvc$a;
+		METHOD a withEffect (Lakq;Lcto;)Lcvc$a;
+		METHOD b build ()Lcur;
+		METHOD d getThis ()Lcuq$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcvc;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvc;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$0 (Ljava/lang/String;)Lcom/google/gson/JsonSyntaxException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

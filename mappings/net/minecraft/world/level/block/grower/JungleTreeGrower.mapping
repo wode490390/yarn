@@ -1,0 +1,4 @@
+CLASS byu net/minecraft/world/level/block/grower/JungleTreeGrower
+	METHOD <init> <init> ()V
+	METHOD a getConfiguredMegaFeature (Ljava/util/Random;)Lcec;
+	METHOD a getConfiguredFeature (Ljava/util/Random;Z)Lcec;

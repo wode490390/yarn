@@ -1,0 +1,4 @@
+CLASS cgl net/minecraft/world/level/levelgen/feature/SnowyVillagePools
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V

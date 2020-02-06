@@ -1,0 +1,2 @@
+CLASS csh net/minecraft/world/level/redstone/Redstone
+	METHOD <init> <init> ()V

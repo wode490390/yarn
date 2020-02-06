@@ -1,0 +1,18 @@
+CLASS ayd net/minecraft/world/entity/npc/ClientSideMerchant
+	FIELD a container Lbby;
+	FIELD b source Lays;
+	FIELD c offers Lbjj;
+	FIELD d xp I
+	METHOD <init> <init> (Lays;)V
+	METHOD a getContainer ()Lajl;
+	METHOD a notifyTrade (Lbji;)V
+	METHOD a overrideOffers (Lbjj;)V
+	METHOD e setTradingPlayer (Lays;)V
+	METHOD eB getLevel ()Lbkf;
+	METHOD er getVillagerXp ()I
+	METHOD es getTradingPlayer ()Lays;
+	METHOD eu getOffers ()Lbjj;
+	METHOD ev showProgressBar ()Z
+	METHOD ew getNotifyTradeSound ()Laai;
+	METHOD i notifyTradeUpdated (Lbew;)V
+	METHOD t overrideXp (I)V

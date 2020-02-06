@@ -1,0 +1,16 @@
+CLASS bkw net/minecraft/world/level/TickPriority
+	FIELD a EXTREMELY_HIGH Lbkw;
+	FIELD b VERY_HIGH Lbkw;
+	FIELD c HIGH Lbkw;
+	FIELD d NORMAL Lbkw;
+	FIELD e LOW Lbkw;
+	FIELD f VERY_LOW Lbkw;
+	FIELD g EXTREMELY_LOW Lbkw;
+	FIELD h value I
+	FIELD i $VALUES [Lbkw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD a getValue ()I
+	METHOD a byValue (I)Lbkw;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbkw;
+	METHOD values values ()[Lbkw;

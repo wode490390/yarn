@@ -1,0 +1,10 @@
+CLASS aob net/minecraft/world/entity/ai/behavior/Swim
+	FIELD a height F
+	FIELD b chance F
+	METHOD <init> <init> (FF)V
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a checkExtraStartConditions (Lxe;Lali;)Z
+	METHOD a canStillUse (Lxe;Lali;J)Z
+	METHOD b tick (Lxe;Lali;J)V
+	METHOD d tick (Lxe;Lalh;J)V
+	METHOD g canStillUse (Lxe;Lalh;J)Z

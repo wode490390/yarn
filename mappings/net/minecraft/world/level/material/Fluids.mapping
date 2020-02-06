@@ -1,0 +1,9 @@
+CLASS cpv net/minecraft/world/level/material/Fluids
+	FIELD a EMPTY Lcps;
+	FIELD b FLOWING_WATER Lcpr;
+	FIELD c WATER Lcpr;
+	FIELD d FLOWING_LAVA Lcpr;
+	FIELD e LAVA Lcpr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Ljava/lang/String;Lcps;)Lcps;

@@ -1,0 +1,4 @@
+CLASS cfx net/minecraft/world/level/levelgen/feature/RandomBooleanSelectorFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lcie;)Z

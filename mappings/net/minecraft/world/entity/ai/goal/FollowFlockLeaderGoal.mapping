@@ -1,0 +1,13 @@
+CLASS apk net/minecraft/world/entity/ai/goal/FollowFlockLeaderGoal
+	FIELD a mob Latj;
+	FIELD b timeToRecalcPath I
+	FIELD c nextStartTick I
+	METHOD <init> <init> (Latj;)V
+	METHOD a canUse ()Z
+	METHOD a nextStartTick (Latj;)I
+	METHOD b canContinueToUse ()Z
+	METHOD b lambda$canUse$1 (Latj;)Z
+	METHOD c start ()V
+	METHOD c lambda$canUse$0 (Latj;)Z
+	METHOD d stop ()V
+	METHOD e tick ()V

@@ -1,0 +1,29 @@
+CLASS ja net/minecraft/gametest/framework/GameTestSequence
+	FIELD a parent Liw;
+	FIELD b events Ljava/util/List;
+	FIELD c lastTick J
+	METHOD <init> <init> (Liw;)V
+	METHOD a thenSucceed ()V
+	METHOD a thenIdle (I)Lja;
+	METHOD a thenExecuteAfter (ILjava/lang/Runnable;)Lja;
+	METHOD a tickAndContinue (J)V
+	METHOD a thenWait (JLjava/lang/Runnable;)Lja;
+	METHOD a lambda$thenTrigger$4 (Lja$a;)V
+	METHOD a access$000 (Lja;)Liw;
+	METHOD a thenWait (Ljava/lang/Runnable;)Lja;
+	METHOD a thenFail (Ljava/util/function/Supplier;)V
+	METHOD b thenTrigger ()Lja$a;
+	METHOD b lambda$thenExecuteAfter$2 (ILjava/lang/Runnable;)V
+	METHOD b tickAndFailIfNotComplete (J)V
+	METHOD b thenExecute (Ljava/lang/Runnable;)Lja;
+	METHOD b lambda$thenFail$3 (Ljava/util/function/Supplier;)V
+	METHOD c lambda$thenIdle$0 ()V
+	METHOD c tick (J)V
+	METHOD c executeWithoutFail (Ljava/lang/Runnable;)V
+	METHOD d lambda$thenExecute$1 (Ljava/lang/Runnable;)V
+	CLASS a Condition
+		FIELD a this$0 Lja;
+		FIELD b triggerTime J
+		METHOD <init> <init> (Lja;)V
+		METHOD a assertTriggeredThisTick ()V
+		METHOD a trigger (J)V

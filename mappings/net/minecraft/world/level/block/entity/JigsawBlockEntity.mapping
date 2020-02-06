@@ -1,0 +1,16 @@
+CLASS bxz net/minecraft/world/level/block/entity/JigsawBlockEntity
+	FIELD a attachementType Lsm;
+	FIELD b targetPool Lsm;
+	FIELD c finalState Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbxk;)V
+	METHOD a getUpdatePacket ()Lmh;
+	METHOD a setFinalState (Ljava/lang/String;)V
+	METHOD a load (Ljt;)V
+	METHOD a setAttachementType (Lsm;)V
+	METHOD b getUpdateTag ()Ljt;
+	METHOD b save (Ljt;)Ljt;
+	METHOD b setTargetPool (Lsm;)V
+	METHOD d getAttachementType ()Lsm;
+	METHOD f getTargetPool ()Lsm;
+	METHOD g getFinalState ()Ljava/lang/String;

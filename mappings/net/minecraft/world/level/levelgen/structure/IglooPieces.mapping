@@ -1,0 +1,21 @@
+CLASS cmk net/minecraft/world/level/levelgen/structure/IglooPieces
+	FIELD a STRUCTURE_LOCATION_IGLOO Lsm;
+	FIELD b STRUCTURE_LOCATION_LADDER Lsm;
+	FIELD c STRUCTURE_LOCATION_LABORATORY Lsm;
+	FIELD d PIVOTS Ljava/util/Map;
+	FIELD e OFFSETS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Ljava/util/Map;
+	METHOD a addPieces (Lcnv;Lfk;Lbup;Ljava/util/List;Ljava/util/Random;Lcia;)V
+	METHOD b access$100 ()Ljava/util/Map;
+	METHOD c access$200 ()Lsm;
+	CLASS a IglooPiece
+		FIELD d templateLocation Lsm;
+		FIELD e rotation Lbup;
+		METHOD <init> <init> (Lcnv;Ljt;)V
+		METHOD <init> <init> (Lcnv;Lsm;Lfk;Lbup;I)V
+		METHOD a postProcess (Lbkg;Lcaz;Ljava/util/Random;Lcmg;Lbjq;)Z
+		METHOD a loadTemplate (Lcnv;)V
+		METHOD a handleDataMarker (Ljava/lang/String;Lfk;Lbkg;Ljava/util/Random;Lcmg;)V
+		METHOD a addAdditionalSaveData (Ljt;)V

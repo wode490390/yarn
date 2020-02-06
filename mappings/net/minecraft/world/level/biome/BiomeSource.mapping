@@ -1,0 +1,16 @@
+CLASS blg net/minecraft/world/level/biome/BiomeSource
+	FIELD a supportedStructures Ljava/util/Map;
+	FIELD b surfaceBlocks Ljava/util/Set;
+	FIELD c possibleBiomes Ljava/util/Set;
+	FIELD d PLAYER_SPAWN_BIOMES Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/Set;)V
+	METHOD a getPlayerSpawnBiomes ()Ljava/util/List;
+	METHOD a getHeightValue (II)F
+	METHOD a getBiomesWithin (IIII)Ljava/util/Set;
+	METHOD a findBiomeHorizontal (IIIIILjava/util/List;Ljava/util/Random;Z)Lfk;
+	METHOD a findBiomeHorizontal (IIIILjava/util/List;Ljava/util/Random;)Lfk;
+	METHOD a canGenerateStructure (Lcgp;)Z
+	METHOD a lambda$null$0 (Lcgp;Lbld;)Z
+	METHOD b getSurfaceBlocks ()Ljava/util/Set;
+	METHOD b lambda$canGenerateStructure$1 (Lcgp;)Ljava/lang/Boolean;

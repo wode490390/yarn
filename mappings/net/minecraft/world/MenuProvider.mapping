@@ -1,0 +1,2 @@
+CLASS ajv net/minecraft/world/MenuProvider
+	METHOD d getDisplayName ()Llf;

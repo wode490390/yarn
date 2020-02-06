@@ -1,0 +1,56 @@
+CLASS br net/minecraft/advancements/critereon/MinMaxBounds
+	FIELD a ERROR_EMPTY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_SWAPPED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c min Ljava/lang/Number;
+	FIELD d max Ljava/lang/Number;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/Number;Ljava/lang/Number;)V
+	METHOD a getMin ()Ljava/lang/Number;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;Lbr;Ljava/util/function/BiFunction;Lbr$a;)Lbr;
+	METHOD a isAllowedInputChat (Lcom/mojang/brigadier/StringReader;)Z
+	METHOD a fromReader (Lcom/mojang/brigadier/StringReader;Lbr$b;Ljava/util/function/Function;Ljava/util/function/Supplier;Ljava/util/function/Function;)Lbr;
+	METHOD a readNumber (Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;Ljava/util/function/Supplier;)Ljava/lang/Number;
+	METHOD a optionallyFormat (Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;
+	METHOD b getMax ()Ljava/lang/Number;
+	METHOD c isAny ()Z
+	METHOD d serializeToJson ()Lcom/google/gson/JsonElement;
+	CLASS a BoundsFactory
+		METHOD create create (Ljava/lang/Number;Ljava/lang/Number;)Lbr;
+	CLASS b BoundsFromReaderFactory
+		METHOD create create (Lcom/mojang/brigadier/StringReader;Ljava/lang/Number;Ljava/lang/Number;)Lbr;
+	CLASS c Floats
+		FIELD e ANY Lbr$c;
+		FIELD f minSq Ljava/lang/Double;
+		FIELD g maxSq Ljava/lang/Double;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/Float;Ljava/lang/Float;)V
+		METHOD a matchesSqr (D)Z
+		METHOD a exactly (F)Lbr$c;
+		METHOD a between (FF)Lbr$c;
+		METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbr$c;
+		METHOD a fromReader (Lcom/mojang/brigadier/StringReader;)Lbr$c;
+		METHOD a create (Lcom/mojang/brigadier/StringReader;Ljava/lang/Float;Ljava/lang/Float;)Lbr$c;
+		METHOD a fromReader (Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;)Lbr$c;
+		METHOD a squareOpt (Ljava/lang/Float;)Ljava/lang/Double;
+		METHOD b atLeast (F)Lbr$c;
+		METHOD b lambda$fromReader$0 (Ljava/lang/Float;)Ljava/lang/Float;
+		METHOD c atMost (F)Lbr$c;
+		METHOD d matches (F)Z
+	CLASS d Ints
+		FIELD e ANY Lbr$d;
+		FIELD f minSq Ljava/lang/Long;
+		FIELD g maxSq Ljava/lang/Long;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/Integer;Ljava/lang/Integer;)V
+		METHOD a exactly (I)Lbr$d;
+		METHOD a between (II)Lbr$d;
+		METHOD a matchesSqr (J)Z
+		METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbr$d;
+		METHOD a fromReader (Lcom/mojang/brigadier/StringReader;)Lbr$d;
+		METHOD a create (Lcom/mojang/brigadier/StringReader;Ljava/lang/Integer;Ljava/lang/Integer;)Lbr$d;
+		METHOD a fromReader (Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;)Lbr$d;
+		METHOD a squareOpt (Ljava/lang/Integer;)Ljava/lang/Long;
+		METHOD b atLeast (I)Lbr$d;
+		METHOD b lambda$fromReader$0 (Ljava/lang/Integer;)Ljava/lang/Integer;
+		METHOD c atMost (I)Lbr$d;
+		METHOD d matches (I)Z

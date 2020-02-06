@@ -1,0 +1,5 @@
+CLASS cli net/minecraft/world/level/levelgen/placement/FrequencyDecoratorConfiguration
+	FIELD a count I
+	METHOD <init> <init> (I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcli;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

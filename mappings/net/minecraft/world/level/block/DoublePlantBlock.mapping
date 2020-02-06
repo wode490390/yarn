@@ -1,0 +1,14 @@
+CLASS brl net/minecraft/world/level/block/DoublePlantBlock
+	FIELD a HALF Lcaf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD X_ getOffsetType ()Lbpy$b;
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a playerDestroy (Lbkf;Lays;Lfk;Lbzh;Lbxj;Lbew;)V
+	METHOD a setPlacedBy (Lbkf;Lfk;Lbzh;Lalh;Lbew;)V
+	METHOD a playerWillDestroy (Lbkf;Lfk;Lbzh;Lays;)V
+	METHOD a placeAt (Lbkg;Lfk;I)V
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a getSeed (Lbzh;Lfk;)J
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V

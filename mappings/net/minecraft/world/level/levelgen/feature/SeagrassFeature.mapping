@@ -1,0 +1,4 @@
+CLASS cgf net/minecraft/world/level/levelgen/feature/SeagrassFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lcij;)Z

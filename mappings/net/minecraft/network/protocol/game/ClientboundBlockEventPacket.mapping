@@ -1,0 +1,15 @@
+CLASS mi net/minecraft/network/protocol/game/ClientboundBlockEventPacket
+	FIELD a pos Lfk;
+	FIELD b b0 I
+	FIELD c b1 I
+	FIELD d block Lbpy;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lfk;Lbpy;II)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getPos ()Lfk;
+	METHOD b write (Lkv;)V
+	METHOD c getB0 ()I
+	METHOD d getB1 ()I
+	METHOD e getBlock ()Lbpy;

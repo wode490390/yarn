@@ -1,0 +1,14 @@
+CLASS awc net/minecraft/world/entity/decoration/Painting
+	FIELD e motive Lawb;
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;Lfk;Lfp;)V
+	METHOD <init> <init> (Lbkf;Lfk;Lfp;Lawb;)V
+	METHOD L getAddEntityPacket ()Llt;
+	METHOD a lerpTo (DDDFFIZ)V
+	METHOD a dropItem (Laky;)V
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b moveTo (DDDFF)V
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD k getWidth ()I
+	METHOD l getHeight ()I
+	METHOD m playPlacementSound ()V

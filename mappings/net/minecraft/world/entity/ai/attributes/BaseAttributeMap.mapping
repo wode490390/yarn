@@ -1,0 +1,16 @@
+CLASS amc net/minecraft/world/entity/ai/attributes/BaseAttributeMap
+	FIELD a attributesByObject Ljava/util/Map;
+	FIELD b attributesByName Ljava/util/Map;
+	FIELD c descendantsByParent Lcom/google/common/collect/Multimap;
+	METHOD <init> <init> ()V
+	METHOD a getAttributes ()Ljava/util/Collection;
+	METHOD a getInstance (Laly;)Lalz;
+	METHOD a onAttributeModified (Lalz;)V
+	METHOD a assignValues (Lamc;)V
+	METHOD a lambda$assignValues$0 (Lamc;Lalz;)V
+	METHOD a removeAttributeModifiers (Lcom/google/common/collect/Multimap;)V
+	METHOD a getInstance (Ljava/lang/String;)Lalz;
+	METHOD b registerAttribute (Laly;)Lalz;
+	METHOD b addAttributeModifiers (Lcom/google/common/collect/Multimap;)V
+	METHOD c createAttributeInstance (Laly;)Lalz;
+	METHOD d getDescendants (Laly;)Ljava/util/Collection;

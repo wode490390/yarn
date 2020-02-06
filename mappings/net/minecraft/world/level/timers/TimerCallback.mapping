@@ -1,0 +1,10 @@
+CLASS cwj net/minecraft/world/level/timers/TimerCallback
+	METHOD a handle (Ljava/lang/Object;Lcwl;J)V
+	CLASS a Serializer
+		FIELD a id Lsm;
+		FIELD b cls Ljava/lang/Class;
+		METHOD <init> <init> (Lsm;Ljava/lang/Class;)V
+		METHOD a getId ()Lsm;
+		METHOD a serialize (Ljt;Lcwj;)V
+		METHOD b getCls ()Ljava/lang/Class;
+		METHOD b deserialize (Ljt;)Lcwj;

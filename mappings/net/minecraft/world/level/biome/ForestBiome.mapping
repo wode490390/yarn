@@ -1,0 +1,2 @@
+CLASS bmi net/minecraft/world/level/biome/ForestBiome
+	METHOD <init> <init> ()V

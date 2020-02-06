@@ -1,0 +1,2 @@
+CLASS bmr net/minecraft/world/level/biome/GiantTreeTaigaHillsBiome
+	METHOD <init> <init> ()V

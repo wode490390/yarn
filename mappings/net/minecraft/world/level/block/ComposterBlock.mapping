@@ -1,0 +1,53 @@
+CLASS bqt net/minecraft/world/level/block/ComposterBlock
+	FIELD a LEVEL Lcah;
+	FIELD b COMPOSTABLES Lit/unimi/dsi/fastutil/objects/Object2FloatMap;
+	FIELD c OUTER_SHAPE Lcxo;
+	FIELD d SHAPES [Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a add (FLbke;)V
+	METHOD a handleFill (Lbkf;Lfk;Z)V
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a getAnalogOutputSignal (Lbzh;Lbkf;Lfk;)I
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a getContainer (Lbzh;Lbkg;Lfk;)Lakc;
+	METHOD a access$100 (Lbzh;Lbkg;Lfk;Lbew;)Z
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD a lambda$static$0 ([Lcxo;)V
+	METHOD b hasAnalogOutputSignal (Lbzh;)Z
+	METHOD b getCollisionShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD b onPlace (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	METHOD b addItem (Lbzh;Lbkg;Lfk;Lbew;)Z
+	METHOD c bootStrap ()V
+	METHOD c access$000 (Lbzh;Lbkg;Lfk;)V
+	METHOD d empty (Lbzh;Lbkg;Lfk;)V
+	METHOD j getInteractionShape (Lbzh;Lbjp;Lfk;)Lcxo;
+	CLASS a EmptyContainer
+		METHOD <init> <init> ()V
+		METHOD a canPlaceItemThroughFace (ILbew;Lfp;)Z
+		METHOD a getSlotsForFace (Lfp;)[I
+		METHOD b canTakeItemThroughFace (ILbew;Lfp;)Z
+	CLASS b InputContainer
+		FIELD a state Lbzh;
+		FIELD b level Lbkg;
+		FIELD c pos Lfk;
+		FIELD d changed Z
+		METHOD <init> <init> (Lbzh;Lbkg;Lfk;)V
+		METHOD L_ getMaxStackSize ()I
+		METHOD a canPlaceItemThroughFace (ILbew;Lfp;)Z
+		METHOD a getSlotsForFace (Lfp;)[I
+		METHOD b canTakeItemThroughFace (ILbew;Lfp;)Z
+		METHOD e setChanged ()V
+	CLASS c OutputContainer
+		FIELD a state Lbzh;
+		FIELD b level Lbkg;
+		FIELD c pos Lfk;
+		FIELD d changed Z
+		METHOD <init> <init> (Lbzh;Lbkg;Lfk;Lbew;)V
+		METHOD L_ getMaxStackSize ()I
+		METHOD a canPlaceItemThroughFace (ILbew;Lfp;)Z
+		METHOD a getSlotsForFace (Lfp;)[I
+		METHOD b canTakeItemThroughFace (ILbew;Lfp;)Z
+		METHOD e setChanged ()V

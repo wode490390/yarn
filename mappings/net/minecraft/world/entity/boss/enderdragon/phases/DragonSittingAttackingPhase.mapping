@@ -1,0 +1,7 @@
+CLASS avm net/minecraft/world/entity/boss/enderdragon/phases/DragonSittingAttackingPhase
+	FIELD b attackingTicks I
+	METHOD <init> <init> (Lavb;)V
+	METHOD b doClientTick ()V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD i getPhase ()Lavr;

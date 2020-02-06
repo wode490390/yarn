@@ -1,0 +1,16 @@
+CLASS au net/minecraft/advancements/critereon/EffectsChangedTrigger
+	FIELD a ID Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lsm;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a trigger (Lxf;)V
+	METHOD a lambda$trigger$0 (Lxf;Lau$a;)Z
+	METHOD b access$000 ()Lsm;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lau$a;
+	CLASS a TriggerInstance
+		FIELD a effects Lbs;
+		METHOD <init> <init> (Lbs;)V
+		METHOD a hasEffects (Lbs;)Lau$a;
+		METHOD a matches (Lxf;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

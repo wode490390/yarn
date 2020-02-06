@@ -1,0 +1,9 @@
+CLASS cdq net/minecraft/world/level/levelgen/feature/AbstractHugeMushroomFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getTreeRadiusForHeight (IIII)I
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchu;)Z
+	METHOD a isValidPosition (Lbkg;Lfk;ILfk$a;Lchu;)Z
+	METHOD a makeCap (Lbkg;Ljava/util/Random;Lfk;ILfk$a;Lchu;)V
+	METHOD a placeTrunk (Lbkg;Ljava/util/Random;Lfk;Lchu;ILfk$a;)V
+	METHOD a getTreeHeight (Ljava/util/Random;)I

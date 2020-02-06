@@ -1,0 +1,5 @@
+CLASS bpx net/minecraft/world/level/block/BlastFurnaceBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a newBlockEntity (Lbjp;)Lbxj;
+	METHOD a openContainer (Lbkf;Lfk;Lays;)V
+	METHOD a animateTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;)V

@@ -1,0 +1,9 @@
+CLASS rp net/minecraft/network/protocol/login/ServerboundHelloPacket
+	FIELD a gameProfile Lcom/mojang/authlib/GameProfile;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcom/mojang/authlib/GameProfile;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lrn;)V
+	METHOD b getGameProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD b write (Lkv;)V

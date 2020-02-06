@@ -1,0 +1,46 @@
+CLASS cby net/minecraft/world/level/chunk/storage/IOWorker
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b thread Ljava/lang/Thread;
+	FIELD c shutdownRequested Ljava/util/concurrent/atomic/AtomicBoolean;
+	FIELD d inbox Ljava/util/Queue;
+	FIELD e storage Lccc;
+	FIELD f pendingWrites Ljava/util/Map;
+	FIELD g running Z
+	FIELD h shutdownListener Ljava/util/concurrent/CompletableFuture;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lccc;Ljava/lang/String;)V
+	METHOD a synchronize ()Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$null$9 (I)[Ljava/util/concurrent/CompletableFuture;
+	METHOD a load (Lbjq;)Ljt;
+	METHOD a runStore (Lbjq;Lcby$a;)V
+	METHOD a lambda$load$5 (Lbjq;Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Runnable;
+	METHOD a store (Lbjq;Ljt;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$store$3 (Lbjq;Ljt;Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Runnable;
+	METHOD a lambda$null$8 (Lcby$a;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$synchronize$12 (Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Runnable;
+	METHOD a lambda$null$10 (Ljava/util/concurrent/CompletableFuture;Ljava/lang/Object;Ljava/lang/Throwable;)V
+	METHOD a lambda$null$1 (Ljava/util/concurrent/CompletableFuture;Ljava/lang/Void;Ljava/lang/Throwable;)V
+	METHOD a submitTask (Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;
+	METHOD b shutdown ()Ljava/util/concurrent/CompletableFuture;
+	METHOD b lambda$null$0 (Lbjq;)Lcby$a;
+	METHOD b lambda$null$4 (Lbjq;Ljava/util/concurrent/CompletableFuture;)V
+	METHOD b lambda$null$2 (Lbjq;Ljt;Ljava/util/concurrent/CompletableFuture;)V
+	METHOD b lambda$null$11 (Ljava/util/concurrent/CompletableFuture;)V
+	METHOD c waitForQueueNonEmpty ()V
+	METHOD c lambda$shutdown$7 (Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Runnable;
+	METHOD close close ()V
+	METHOD d loop ()V
+	METHOD d lambda$null$6 (Ljava/util/concurrent/CompletableFuture;)V
+	METHOD e storePendingChunk ()Z
+	METHOD f storeRemainingPendingChunks ()V
+	METHOD g closeStorage ()V
+	METHOD h processInbox ()Z
+	CLASS 1 1
+	CLASS a PendingStore
+		FIELD a data Ljt;
+		FIELD b result Ljava/util/concurrent/CompletableFuture;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcby$1;)V
+		METHOD a access$000 (Lcby$a;)Ljt;
+		METHOD a access$002 (Lcby$a;Ljt;)Ljt;
+		METHOD b access$100 (Lcby$a;)Ljava/util/concurrent/CompletableFuture;

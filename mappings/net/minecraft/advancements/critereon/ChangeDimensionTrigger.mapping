@@ -1,0 +1,20 @@
+CLASS am net/minecraft/advancements/critereon/ChangeDimensionTrigger
+	FIELD a ID Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lsm;
+	METHOD a lambda$trigger$0 (Lcch;Lcch;Lam$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a trigger (Lxf;Lcch;Lcch;)V
+	METHOD b access$000 ()Lsm;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lam$a;
+	CLASS a TriggerInstance
+		FIELD a from Lcch;
+		FIELD b to Lcch;
+		METHOD <init> <init> (Lcch;Lcch;)V
+		METHOD a changedDimensionTo (Lcch;)Lam$a;
+		METHOD a changedDimension (Lcch;Lcch;)Lam$a;
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD b changedDimensionFrom (Lcch;)Lam$a;
+		METHOD b matches (Lcch;Lcch;)Z
+		METHOD c changedDimension ()Lam$a;

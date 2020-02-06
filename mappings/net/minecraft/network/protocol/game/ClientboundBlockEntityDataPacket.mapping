@@ -1,0 +1,13 @@
+CLASS mh net/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket
+	FIELD a pos Lfk;
+	FIELD b type I
+	FIELD c tag Ljt;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lfk;ILjt;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getPos ()Lfk;
+	METHOD b write (Lkv;)V
+	METHOD c getType ()I
+	METHOD d getTag ()Ljt;

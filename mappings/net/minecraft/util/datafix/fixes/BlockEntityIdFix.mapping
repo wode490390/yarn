@@ -1,0 +1,9 @@
+CLASS acs net/minecraft/util/datafix/fixes/BlockEntityIdFix
+	FIELD a ID_MAP Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$makeRule$3 (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;
+	METHOD a lambda$null$2 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$1 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

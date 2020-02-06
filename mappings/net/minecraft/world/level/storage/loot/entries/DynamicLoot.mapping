@@ -1,0 +1,18 @@
+CLASS ctt net/minecraft/world/level/storage/loot/entries/DynamicLoot
+	FIELD c TYPE Lsm;
+	FIELD h name Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lsm;II[Lcvv;[Lcur;)V
+	METHOD <init> <init> (Lsm;II[Lcvv;[Lcur;Lctt$1;)V
+	METHOD a access$000 (Lctt;)Lsm;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Lctg;)V
+	METHOD a dynamicEntry (Lsm;)Lcua$a;
+	METHOD a lambda$dynamicEntry$0 (Lsm;II[Lcvv;[Lcur;)Lcua;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcvv;[Lcur;)Lctt;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lctt;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lctz;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcua;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcvv;[Lcur;)Lcua;

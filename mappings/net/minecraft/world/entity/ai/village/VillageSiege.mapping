@@ -1,0 +1,22 @@
+CLASS asx net/minecraft/world/entity/ai/village/VillageSiege
+	FIELD a hasSetupSiege Z
+	FIELD b siegeState Lasx$a;
+	FIELD c zombiesToSpawn I
+	FIELD d nextSpawnTime I
+	FIELD e spawnX I
+	FIELD f spawnY I
+	FIELD g spawnZ I
+	METHOD <init> <init> ()V
+	METHOD a tryToSetupSiege (Lxe;)Z
+	METHOD a findRandomSpawnPos (Lxe;Lfk;)Lcwu;
+	METHOD a tick (Lxe;ZZ)I
+	METHOD b trySpawn (Lxe;)V
+	CLASS a State
+		FIELD a SIEGE_CAN_ACTIVATE Lasx$a;
+		FIELD b SIEGE_TONIGHT Lasx$a;
+		FIELD c SIEGE_DONE Lasx$a;
+		FIELD d $VALUES [Lasx$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lasx$a;
+		METHOD values values ()[Lasx$a;

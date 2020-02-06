@@ -1,0 +1,9 @@
+CLASS ayz net/minecraft/world/entity/projectile/DragonFireball
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDDDDD)V
+	METHOD <init> <init> (Lbkf;Lalh;DDD)V
+	METHOD M_ shouldBurn ()Z
+	METHOD a hurt (Lakh;F)Z
+	METHOD a onHit (Lcwr;)V
+	METHOD aK isPickable ()Z
+	METHOD i getTrailParticle ()Lgt;

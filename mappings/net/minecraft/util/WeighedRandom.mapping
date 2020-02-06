@@ -1,0 +1,9 @@
+CLASS acd net/minecraft/util/WeighedRandom
+	METHOD <init> <init> ()V
+	METHOD a getTotalWeight (Ljava/util/List;)I
+	METHOD a getWeightedItem (Ljava/util/List;I)Lacd$a;
+	METHOD a getRandomItem (Ljava/util/Random;Ljava/util/List;)Lacd$a;
+	METHOD a getRandomItem (Ljava/util/Random;Ljava/util/List;I)Lacd$a;
+	CLASS a WeighedRandomItem
+		FIELD a weight I
+		METHOD <init> <init> (I)V

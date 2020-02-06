@@ -1,0 +1,12 @@
+CLASS aqh net/minecraft/world/entity/ai/goal/PanicGoal
+	FIELD a mob Lalo;
+	FIELD b speedModifier D
+	FIELD c posX D
+	FIELD d posY D
+	FIELD e posZ D
+	METHOD <init> <init> (Lalo;D)V
+	METHOD a canUse ()Z
+	METHOD a lookForWater (Lbjp;Laky;II)Lfk;
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD g findRandomPosition ()Z

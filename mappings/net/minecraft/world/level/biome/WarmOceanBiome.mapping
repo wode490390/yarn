@@ -1,0 +1,2 @@
+CLASS bop net/minecraft/world/level/biome/WarmOceanBiome
+	METHOD <init> <init> ()V

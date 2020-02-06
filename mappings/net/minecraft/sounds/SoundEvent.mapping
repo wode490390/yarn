@@ -1,0 +1,4 @@
+CLASS aai net/minecraft/sounds/SoundEvent
+	FIELD a location Lsm;
+	METHOD <init> <init> (Lsm;)V
+	METHOD a getLocation ()Lsm;

@@ -1,0 +1,4 @@
+CLASS bdl net/minecraft/world/item/ComplexItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD R_ isComplex ()Z
+	METHOD a getUpdatePacket (Lbew;Lbkf;Lays;)Llt;

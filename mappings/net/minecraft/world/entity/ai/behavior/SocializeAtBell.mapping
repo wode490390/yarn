@@ -1,0 +1,9 @@
+CLASS anx net/minecraft/world/entity/ai/behavior/SocializeAtBell
+	METHOD <init> <init> ()V
+	METHOD a lambda$null$1 (Lalh;)Z
+	METHOD a lambda$null$2 (Lalh;Lalh;)Z
+	METHOD a lambda$start$4 (Lalh;Lalx;Ljava/util/List;)V
+	METHOD a lambda$null$3 (Lalx;Lalh;)V
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD b lambda$checkExtraStartConditions$0 (Lalh;)Z

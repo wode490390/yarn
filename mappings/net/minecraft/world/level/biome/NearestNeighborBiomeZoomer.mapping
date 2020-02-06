@@ -1,0 +1,8 @@
+CLASS bnj net/minecraft/world/level/biome/NearestNeighborBiomeZoomer
+	FIELD a INSTANCE Lbnj;
+	FIELD b $VALUES [Lbnj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a getBiome (JIIILblf$a;)Lbld;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbnj;
+	METHOD values values ()[Lbnj;

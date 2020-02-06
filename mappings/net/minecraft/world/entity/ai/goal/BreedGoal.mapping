@@ -1,0 +1,17 @@
+CLASS apb net/minecraft/world/entity/ai/goal/BreedGoal
+	FIELD a animal Latk;
+	FIELD b level Lbkf;
+	FIELD c partner Latk;
+	FIELD d PARTNER_TARGETING Lass;
+	FIELD e partnerClass Ljava/lang/Class;
+	FIELD f loveTime I
+	FIELD g speedModifier D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Latk;D)V
+	METHOD <init> <init> (Latk;DLjava/lang/Class;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g breed ()V
+	METHOD h getFreePartner ()Latk;

@@ -1,0 +1,9 @@
+CLASS btj net/minecraft/world/level/block/LoomBlock
+	FIELD a CONTAINER_TITLE Llp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a lambda$getMenuProvider$0 (Lbkf;Lfk;ILayr;Lays;)Lbaw;
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b getMenuProvider (Lbzh;Lbkf;Lfk;)Lajv;

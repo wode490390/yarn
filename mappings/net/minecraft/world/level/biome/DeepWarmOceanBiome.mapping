@@ -1,0 +1,2 @@
+CLASS bly net/minecraft/world/level/biome/DeepWarmOceanBiome
+	METHOD <init> <init> ()V

@@ -1,0 +1,6 @@
+CLASS rz net/minecraft/network/protocol/status/ServerboundStatusRequestPacket
+	METHOD <init> <init> ()V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lrx;)V
+	METHOD b write (Lkv;)V

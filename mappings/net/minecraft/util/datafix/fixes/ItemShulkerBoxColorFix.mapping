@@ -1,0 +1,6 @@
+CLASS aex net/minecraft/util/datafix/fixes/ItemShulkerBoxColorFix
+	FIELD a NAMES_BY_COLOR [Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$makeRule$0 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

@@ -1,0 +1,8 @@
+CLASS cqv net/minecraft/world/level/newbiome/layer/OceanMixerLayer
+	FIELD a INSTANCE Lcqv;
+	FIELD b $VALUES [Lcqv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Lcqh;Lcqc;Lcqc;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcqv;
+	METHOD values values ()[Lcqv;

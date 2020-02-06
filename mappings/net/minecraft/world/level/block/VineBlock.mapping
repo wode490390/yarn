@@ -1,0 +1,37 @@
+CLASS bwi net/minecraft/world/level/block/VineBlock
+	FIELD a UP Lbzz;
+	FIELD b NORTH Lbzz;
+	FIELD c EAST Lbzz;
+	FIELD d SOUTH Lbzz;
+	FIELD e WEST Lbzz;
+	FIELD f PROPERTY_BY_DIRECTION Ljava/util/Map;
+	FIELD g UP_AABB Lcxo;
+	FIELD h EAST_AABB Lcxo;
+	FIELD i WEST_AABB Lcxo;
+	FIELD j SOUTH_AABB Lcxo;
+	FIELD k NORTH_AABB Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a canSpread (Lbjp;Lfk;)Z
+	METHOD a isAcceptableNeighbour (Lbjp;Lfk;Lfp;)Z
+	METHOD a canBeReplaced (Lbzh;Lbcz;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a mirror (Lbzh;Lbtm;)Lbzh;
+	METHOD a rotate (Lbzh;Lbup;)Lbzh;
+	METHOD a copyRandomFaces (Lbzh;Lbzh;Ljava/util/Random;)Lbzh;
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD a getPropertyForFace (Lfp;)Lbzz;
+	METHOD a lambda$static$0 (Ljava/util/Map$Entry;)Z
+	METHOD b canSupportAtFace (Lbjp;Lfk;Lfp;)Z
+	METHOD h hasFaces (Lbzh;)Z
+	METHOD i countFaces (Lbzh;)I
+	METHOD n getUpdatedState (Lbzh;Lbjp;Lfk;)Lbzh;
+	METHOD r hasHorizontalConnection (Lbzh;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		FIELD b $SwitchMap$net$minecraft$world$level$block$Mirror [I
+		METHOD <clinit> <clinit> ()V

@@ -1,0 +1,18 @@
+CLASS cpi net/minecraft/world/level/lighting/LayerLightEventListener
+	METHOD a getDataLayerData (Lgd;)Lcbe;
+	METHOD b getLightValue (Lfk;)I
+	CLASS a DummyLightLayerEventListener
+		FIELD a INSTANCE Lcpi$a;
+		FIELD b $VALUES [Lcpi$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a hasLightWork ()Z
+		METHOD a runUpdates (IZZ)I
+		METHOD a enableLightSources (Lbjq;Z)V
+		METHOD a checkBlock (Lfk;)V
+		METHOD a onBlockEmissionIncrease (Lfk;I)V
+		METHOD a getDataLayerData (Lgd;)Lcbe;
+		METHOD a updateSectionStatus (Lgd;Z)V
+		METHOD b getLightValue (Lfk;)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcpi$a;
+		METHOD values values ()[Lcpi$a;

@@ -1,0 +1,6 @@
+CLASS cfj net/minecraft/world/level/levelgen/feature/LakeFeature
+	FIELD a AIR Lbzh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchj;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z

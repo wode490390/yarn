@@ -1,0 +1,14 @@
+CLASS aqq net/minecraft/world/entity/ai/goal/RemoveBlockGoal
+	FIELD g blockToRemove Lbpy;
+	FIELD h removerMob Lali;
+	FIELD i ticksSinceReachedGoal I
+	METHOD <init> <init> (Lbpy;Lalo;DI)V
+	METHOD a canUse ()Z
+	METHOD a playBreakSound (Lbkf;Lfk;)V
+	METHOD a playDestroyProgressSound (Lbkg;Lfk;)V
+	METHOD a isValidTarget (Lbki;Lfk;)Z
+	METHOD a getPosWithBlock (Lfk;Lbjp;)Lfk;
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD m tryFindBlock ()Z

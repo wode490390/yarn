@@ -1,0 +1,7 @@
+CLASS cdp net/minecraft/world/level/levelgen/feature/AbstractFlowerFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z
+	METHOD a isValid (Lbkg;Lfk;Lchs;)Z
+	METHOD a getCount (Lchs;)I
+	METHOD a getPos (Ljava/util/Random;Lfk;Lchs;)Lfk;
+	METHOD b getRandomFlower (Ljava/util/Random;Lfk;Lchs;)Lbzh;

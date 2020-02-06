@@ -1,0 +1,63 @@
+CLASS axu net/minecraft/world/entity/monster/Vex
+	FIELD b DATA_FLAGS_ID Lsb;
+	FIELD bw hasLimitedLife Z
+	FIELD bx limitedLifeTicks I
+	FIELD c owner Lali;
+	FIELD d boundOrigin Lfk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD a setLimitedLife (I)V
+	METHOD a setVexFlag (IZ)V
+	METHOD a populateDefaultEquipmentSlots (Lajq;)V
+	METHOD a setOwner (Lali;)V
+	METHOD a move (Lalm;Lcwu;)V
+	METHOD a access$000 (Laxu;)Ljava/util/Random;
+	METHOD a finalizeSpawn (Lbkg;Lajq;Lalk;Lalu;Ljt;)Lalu;
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD aI getBrightness ()F
+	METHOD b getVexFlag (I)Z
+	METHOD b access$100 (Laxu;)Laou;
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD c access$200 (Laxu;)Laou;
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD d access$300 (Laxu;)Ljava/util/Random;
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD e access$400 (Laxu;)Ljava/util/Random;
+	METHOD eq getBoundOrigin ()Lfk;
+	METHOD er isCharging ()Z
+	METHOD f access$500 (Laxu;)Ljava/util/Random;
+	METHOD g access$600 (Laxu;)Ljava/util/Random;
+	METHOD g setBoundOrigin (Lfk;)V
+	METHOD h tick ()V
+	METHOD h access$700 (Laxu;)Laou;
+	METHOD i access$800 (Laxu;)Lali;
+	METHOD l getOwner ()Lali;
+	METHOD n registerGoals ()V
+	METHOD r setIsCharging (Z)V
+	METHOD w_ defineSynchedData ()V
+	CLASS a VexChargeAttackGoal
+		FIELD a this$0 Laxu;
+		METHOD <init> <init> (Laxu;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS b VexCopyOwnerTargetGoal
+		FIELD a this$0 Laxu;
+		FIELD b copyOwnerTargeting Lass;
+		METHOD <init> <init> (Laxu;Lalo;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+	CLASS c VexMoveControl
+		FIELD i this$0 Laxu;
+		METHOD <init> <init> (Laxu;Laxu;)V
+		METHOD a tick ()V
+	CLASS d VexRandomMoveGoal
+		FIELD a this$0 Laxu;
+		METHOD <init> <init> (Laxu;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD e tick ()V

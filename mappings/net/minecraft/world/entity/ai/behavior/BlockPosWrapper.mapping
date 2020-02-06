@@ -1,0 +1,8 @@
+CLASS aml net/minecraft/world/entity/ai/behavior/BlockPosWrapper
+	FIELD a pos Lfk;
+	FIELD b lookAt Lcwu;
+	METHOD <init> <init> (Lfk;)V
+	METHOD a getPos ()Lfk;
+	METHOD a isVisible (Lalh;)Z
+	METHOD b getLookAtPos ()Lcwu;
+	METHOD toString toString ()Ljava/lang/String;

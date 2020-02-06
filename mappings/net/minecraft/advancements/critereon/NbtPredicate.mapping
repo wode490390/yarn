@@ -1,0 +1,11 @@
+CLASS bt net/minecraft/advancements/critereon/NbtPredicate
+	FIELD a ANY Lbt;
+	FIELD b tag Ljt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljt;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a matches (Laky;)Z
+	METHOD a matches (Lbew;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbt;
+	METHOD a matches (Lkj;)Z
+	METHOD b getEntityTagToCompare (Laky;)Ljt;

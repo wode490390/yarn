@@ -1,0 +1,10 @@
+CLASS bwr net/minecraft/world/level/block/WeepingVinesPlant
+	FIELD a SHAPE Lcxo;
+	FIELD b bottom Lbwq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbwq;Lbpy$c;)V
+	METHOD a getCloneItemStack (Lbjp;Lfk;Lbzh;)Lbew;
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V

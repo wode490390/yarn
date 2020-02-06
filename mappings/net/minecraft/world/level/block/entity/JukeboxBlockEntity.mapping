@@ -1,0 +1,8 @@
+CLASS bya net/minecraft/world/level/block/entity/JukeboxBlockEntity
+	FIELD a record Lbew;
+	METHOD <init> <init> ()V
+	METHOD N_ clearContent ()V
+	METHOD a setRecord (Lbew;)V
+	METHOD a load (Ljt;)V
+	METHOD b save (Ljt;)Ljt;
+	METHOD d getRecord ()Lbew;

@@ -1,0 +1,16 @@
+CLASS bqm net/minecraft/world/level/block/CauldronBlock
+	FIELD a LEVEL Lcah;
+	FIELD b SHAPE Lcxo;
+	FIELD c INSIDE Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a setWaterLevel (Lbkf;Lfk;Lbzh;I)V
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a getAnalogOutputSignal (Lbzh;Lbkf;Lfk;)I
+	METHOD a entityInside (Lbzh;Lbkf;Lfk;Laky;)V
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b hasAnalogOutputSignal (Lbzh;)Z
+	METHOD c handleRain (Lbkf;Lfk;)V
+	METHOD j getInteractionShape (Lbzh;Lbjp;Lfk;)Lcxo;

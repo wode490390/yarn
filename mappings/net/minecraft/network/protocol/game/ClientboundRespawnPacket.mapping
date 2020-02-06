@@ -1,0 +1,15 @@
+CLASS ob net/minecraft/network/protocol/game/ClientboundRespawnPacket
+	FIELD a dimension Lcch;
+	FIELD b seed J
+	FIELD c playerGameType Lbkc;
+	FIELD d levelType Lbkm;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcch;JLbkm;Lbkc;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getDimension ()Lcch;
+	METHOD b write (Lkv;)V
+	METHOD c getSeed ()J
+	METHOD d getPlayerGameType ()Lbkc;
+	METHOD e getLevelType ()Lbkm;

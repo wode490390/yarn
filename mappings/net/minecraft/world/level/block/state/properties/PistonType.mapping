@@ -1,0 +1,11 @@
+CLASS caj net/minecraft/world/level/block/state/properties/PistonType
+	FIELD a DEFAULT Lcaj;
+	FIELD b STICKY Lcaj;
+	FIELD c name Ljava/lang/String;
+	FIELD d $VALUES [Lcaj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcaj;
+	METHOD values values ()[Lcaj;

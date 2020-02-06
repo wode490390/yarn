@@ -1,0 +1,3 @@
+CLASS bfr net/minecraft/world/item/SignItem
+	METHOD <init> <init> (Lber$a;Lbpy;Lbpy;)V
+	METHOD a updateCustomBlockEntityTag (Lfk;Lbkf;Lays;Lbew;Lbzh;)Z

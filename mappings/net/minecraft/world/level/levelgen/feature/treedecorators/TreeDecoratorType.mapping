@@ -1,0 +1,11 @@
+CLASS cjz net/minecraft/world/level/levelgen/feature/treedecorators/TreeDecoratorType
+	FIELD a TRUNK_VINE Lcjz;
+	FIELD b LEAVE_VINE Lcjz;
+	FIELD c COCOA Lcjz;
+	FIELD d BEEHIVE Lcjz;
+	FIELD e ALTER_GROUND Lcjz;
+	FIELD f deserializer Ljava/util/function/Function;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcjy;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Function;)Lcjz;

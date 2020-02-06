@@ -1,0 +1,4 @@
+CLASS bua net/minecraft/world/level/block/PoweredBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getSignal (Lbzh;Lbjp;Lfk;Lfp;)I
+	METHOD a_ isSignalSource (Lbzh;)Z

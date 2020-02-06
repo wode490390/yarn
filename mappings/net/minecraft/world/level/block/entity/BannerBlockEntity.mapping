@@ -1,0 +1,24 @@
+CLASS bxa net/minecraft/world/level/block/entity/BannerBlockEntity
+	FIELD a name Llf;
+	FIELD b baseColor Lbds;
+	FIELD c itemPatterns Ljz;
+	FIELD g receivedData Z
+	FIELD h patterns Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbds;)V
+	METHOD M getName ()Llf;
+	METHOD O getCustomName ()Llf;
+	METHOD a getUpdatePacket ()Lmh;
+	METHOD a createPatterns (Lbds;Ljz;)Ljava/util/List;
+	METHOD a getItemPatterns (Lbew;)Ljz;
+	METHOD a fromItem (Lbew;Lbds;)V
+	METHOD a getItem (Lbzh;)Lbew;
+	METHOD a getBaseColor (Ljava/util/function/Supplier;)Lbds;
+	METHOD a load (Ljt;)V
+	METHOD a setCustomName (Llf;)V
+	METHOD b getUpdateTag ()Ljt;
+	METHOD b getPatternCount (Lbew;)I
+	METHOD b lambda$getItem$0 (Lbzh;)Lbzh;
+	METHOD b save (Ljt;)Ljt;
+	METHOD c getPatterns ()Ljava/util/List;
+	METHOD c removeLastPattern (Lbew;)V

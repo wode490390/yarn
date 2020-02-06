@@ -1,0 +1,6 @@
+CLASS bud net/minecraft/world/level/block/PumpkinBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a lambda$use$0 (Lajr;Lays;)V
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD c getStem ()Lbvq;
+	METHOD d getAttachedStem ()Lbpc;

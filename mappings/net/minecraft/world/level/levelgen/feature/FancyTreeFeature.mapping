@@ -1,0 +1,20 @@
+CLASS cet net/minecraft/world/level/levelgen/feature/FancyTreeFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a foliageShape (I)F
+	METHOD a treeShape (II)F
+	METHOD a makeFoliage (Lbkk;Ljava/util/Random;ILfk;Ljava/util/List;Ljava/util/Set;Lcmg;Lcin;)V
+	METHOD a crossSection (Lbkk;Ljava/util/Random;Lfk;FLjava/util/Set;Lcmg;Lcin;)V
+	METHOD a makeTrunk (Lbkk;Ljava/util/Random;Lfk;ILjava/util/Set;Lcmg;Lcin;)V
+	METHOD a makeLimb (Lbkk;Ljava/util/Random;Lfk;Lfk;ZLjava/util/Set;Lcmg;Lcin;)I
+	METHOD a foliageCluster (Lbkk;Ljava/util/Random;Lfk;Ljava/util/Set;Lcmg;Lcin;)V
+	METHOD a doPlace (Lbkk;Ljava/util/Random;Lfk;Ljava/util/Set;Ljava/util/Set;Lcmg;Lcin;)Z
+	METHOD a doPlace (Lbkk;Ljava/util/Random;Lfk;Ljava/util/Set;Ljava/util/Set;Lcmg;Lciq;)Z
+	METHOD a getSteps (Lfk;)I
+	METHOD a getLogAxis (Lfk;Lfk;)Lfp$a;
+	METHOD b trimBranches (II)Z
+	METHOD b makeBranches (Lbkk;Ljava/util/Random;ILfk;Ljava/util/List;Ljava/util/Set;Lcmg;Lcin;)V
+	METHOD b checkLocation (Lbkk;Ljava/util/Random;Lfk;ILjava/util/Set;Lcmg;Lcin;)I
+	CLASS a FoliageCoords
+		FIELD b branchBase I
+		METHOD <init> <init> (Lfk;I)V
+		METHOD r getBranchBase ()I

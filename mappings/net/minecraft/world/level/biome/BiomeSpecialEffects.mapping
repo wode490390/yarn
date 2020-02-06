@@ -1,0 +1,26 @@
+CLASS blj net/minecraft/world/level/biome/BiomeSpecialEffects
+	FIELD a fogColor I
+	FIELD b waterColor I
+	FIELD c waterFogColor I
+	FIELD d ambientParticleSettings Ljava/util/Optional;
+	METHOD <init> <init> (IIILjava/util/Optional;)V
+	METHOD <init> <init> (IIILjava/util/Optional;Lblj$1;)V
+	METHOD a getFogColor ()I
+	METHOD b getWaterColor ()I
+	METHOD c getWaterFogColor ()I
+	METHOD d getAmbientParticleSettings ()Ljava/util/Optional;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a fogColor Ljava/util/OptionalInt;
+		FIELD b waterColor Ljava/util/OptionalInt;
+		FIELD c waterFogColor Ljava/util/OptionalInt;
+		FIELD d ambientParticle Ljava/util/Optional;
+		METHOD <init> <init> ()V
+		METHOD a build ()Lblj;
+		METHOD a fogColor (I)Lblj$a;
+		METHOD a ambientParticle (Lbkx;)Lblj$a;
+		METHOD b lambda$build$2 ()Ljava/lang/IllegalStateException;
+		METHOD b waterColor (I)Lblj$a;
+		METHOD c lambda$build$1 ()Ljava/lang/IllegalStateException;
+		METHOD c waterFogColor (I)Lblj$a;
+		METHOD d lambda$build$0 ()Ljava/lang/IllegalStateException;

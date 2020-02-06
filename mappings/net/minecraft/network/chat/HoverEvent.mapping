@@ -1,0 +1,25 @@
+CLASS li net/minecraft/network/chat/HoverEvent
+	FIELD a action Lli$a;
+	FIELD b value Llf;
+	METHOD <init> <init> (Lli$a;Llf;)V
+	METHOD a getAction ()Lli$a;
+	METHOD b getValue ()Llf;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Action
+		FIELD a SHOW_TEXT Lli$a;
+		FIELD b SHOW_ITEM Lli$a;
+		FIELD c SHOW_ENTITY Lli$a;
+		FIELD d LOOKUP Ljava/util/Map;
+		FIELD e allowFromServer Z
+		FIELD f name Ljava/lang/String;
+		FIELD g $VALUES [Lli$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Z)V
+		METHOD a isAllowedFromServer ()Z
+		METHOD a getByName (Ljava/lang/String;)Lli$a;
+		METHOD a lambda$static$0 (Lli$a;)Lli$a;
+		METHOD b getName ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lli$a;
+		METHOD values values ()[Lli$a;

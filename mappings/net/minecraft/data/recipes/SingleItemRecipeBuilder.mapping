@@ -1,0 +1,30 @@
+CLASS hz net/minecraft/data/recipes/SingleItemRecipeBuilder
+	FIELD a result Lber;
+	FIELD b ingredient Lbhc;
+	FIELD c count I
+	FIELD d advancement Lu$a;
+	FIELD e group Ljava/lang/String;
+	FIELD f type Lbhh;
+	METHOD <init> <init> (Lbhh;Lbhc;Lbke;I)V
+	METHOD a stonecutting (Lbhc;Lbke;)Lhz;
+	METHOD a stonecutting (Lbhc;Lbke;I)Lhz;
+	METHOD a group (Ljava/lang/String;)Lhz;
+	METHOD a unlocks (Ljava/lang/String;Lac;)Lhz;
+	METHOD a save (Ljava/util/function/Consumer;Ljava/lang/String;)V
+	METHOD a save (Ljava/util/function/Consumer;Lsm;)V
+	METHOD a ensureValid (Lsm;)V
+	CLASS a Result
+		FIELD a id Lsm;
+		FIELD b group Ljava/lang/String;
+		FIELD c ingredient Lbhc;
+		FIELD d result Lber;
+		FIELD e count I
+		FIELD f advancement Lu$a;
+		FIELD g advancementId Lsm;
+		FIELD h type Lbhh;
+		METHOD <init> <init> (Lsm;Lbhh;Ljava/lang/String;Lbhc;Lber;ILu$a;Lsm;)V
+		METHOD a serializeRecipeData (Lcom/google/gson/JsonObject;)V
+		METHOD b getId ()Lsm;
+		METHOD c getType ()Lbhh;
+		METHOD d serializeAdvancement ()Lcom/google/gson/JsonObject;
+		METHOD e getAdvancementId ()Lsm;

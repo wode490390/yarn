@@ -1,0 +1,2 @@
+CLASS lh net/minecraft/network/chat/ContextAwareComponent
+	METHOD a resolve (Lcq;Laky;I)Llf;

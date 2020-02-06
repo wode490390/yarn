@@ -1,0 +1,5 @@
+CLASS bdd net/minecraft/world/item/BottleItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a lambda$use$0 (Lakx;)Z
+	METHOD a turnBottleIntoItem (Lbew;Lays;Lbew;)Lbew;
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;

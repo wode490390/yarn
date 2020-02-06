@@ -1,0 +1,24 @@
+CLASS cwc net/minecraft/world/level/storage/loot/predicates/TimeCheck
+	FIELD a period Ljava/lang/Long;
+	FIELD b value Lcto;
+	METHOD <init> <init> (Ljava/lang/Long;Lcto;)V
+	METHOD <init> <init> (Ljava/lang/Long;Lcto;Lcwc$1;)V
+	METHOD a test (Lctg;)Z
+	METHOD a time (Lcto;)Lcwc$a;
+	METHOD a access$100 (Lcwc;)Ljava/lang/Long;
+	METHOD b access$200 (Lcwc;)Lcto;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a period Ljava/lang/Long;
+		FIELD b value Lcto;
+		METHOD <init> <init> (Lcto;)V
+		METHOD a setPeriod (J)Lcwc$a;
+		METHOD b build ()Lcwc;
+		METHOD build build ()Lcvv;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcwc;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvv;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcwc;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvv;

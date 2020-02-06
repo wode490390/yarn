@@ -1,0 +1,13 @@
+CLASS bbe net/minecraft/world/inventory/ClickType
+	FIELD a PICKUP Lbbe;
+	FIELD b QUICK_MOVE Lbbe;
+	FIELD c SWAP Lbbe;
+	FIELD d CLONE Lbbe;
+	FIELD e THROW Lbbe;
+	FIELD f QUICK_CRAFT Lbbe;
+	FIELD g PICKUP_ALL Lbbe;
+	FIELD h $VALUES [Lbbe;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbbe;
+	METHOD values values ()[Lbbe;

@@ -1,0 +1,11 @@
+CLASS fj net/minecraft/core/BlockMath
+	FIELD a vanillaUvTransformLocalToGlobal Ljava/util/EnumMap;
+	FIELD b vanillaUvTransformGlobalToLocal Ljava/util/EnumMap;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a blockCenterToCorner (Ld;)Ld;
+	METHOD a getUVLockTransform (Ld;Lfp;Ljava/util/function/Supplier;)Ld;
+	METHOD a lambda$static$1 (Ljava/util/EnumMap;)V
+	METHOD b blockCornerToCenter (Ld;)Ld;
+	METHOD b lambda$static$0 (Ljava/util/EnumMap;)V

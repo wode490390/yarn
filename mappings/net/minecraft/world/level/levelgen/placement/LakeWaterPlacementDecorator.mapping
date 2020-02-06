@@ -1,0 +1,4 @@
+CLASS clm net/minecraft/world/level/levelgen/placement/LakeWaterPlacementDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getPositions (Lbkg;Lcaz;Ljava/util/Random;Lchp;Lfk;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lbkg;Lcaz;Ljava/util/Random;Lcki;Lfk;)Ljava/util/stream/Stream;

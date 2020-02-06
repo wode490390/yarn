@@ -1,0 +1,12 @@
+CLASS aar net/minecraft/stats/StatType
+	FIELD a registry Lgb;
+	FIELD b map Ljava/util/Map;
+	METHOD <init> <init> (Lgb;)V
+	METHOD a getRegistry ()Lgb;
+	METHOD a lambda$get$0 (Laaq;Ljava/lang/Object;)Laap;
+	METHOD a contains (Ljava/lang/Object;)Z
+	METHOD a get (Ljava/lang/Object;Laaq;)Laap;
+	METHOD b size ()I
+	METHOD b get (Ljava/lang/Object;)Laap;
+	METHOD c getTranslationKey ()Ljava/lang/String;
+	METHOD iterator iterator ()Ljava/util/Iterator;

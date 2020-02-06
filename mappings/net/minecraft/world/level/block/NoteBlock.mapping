@@ -1,0 +1,14 @@
+CLASS btt net/minecraft/world/level/block/NoteBlock
+	FIELD a INSTRUMENT Lcaf;
+	FIELD b POWERED Lbzz;
+	FIELD c NOTE Lcah;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a playNote (Lbkf;Lfk;)V
+	METHOD a triggerEvent (Lbzh;Lbkf;Lfk;II)Z
+	METHOD a attack (Lbzh;Lbkf;Lfk;Lays;)V
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a neighborChanged (Lbzh;Lbkf;Lfk;Lbpy;Lfk;Z)V
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V

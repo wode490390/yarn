@@ -1,0 +1,6 @@
+CLASS alf net/minecraft/world/entity/FlyingMob
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD a checkFallDamage (DZLbzh;Lfk;)V
+	METHOD b causeFallDamage (FF)Z
+	METHOD e travel (Lcwu;)V
+	METHOD y_ onLadder ()Z

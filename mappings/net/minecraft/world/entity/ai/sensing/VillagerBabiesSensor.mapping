@@ -1,0 +1,7 @@
+CLASS asp net/minecraft/world/entity/ai/sensing/VillagerBabiesSensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a getNearestVillagerBabies (Lalh;)Ljava/util/List;
+	METHOD a doTick (Lxe;Lalh;)V
+	METHOD b isVillagerBaby (Lalh;)Z
+	METHOD c getVisibleEntities (Lalh;)Ljava/util/List;

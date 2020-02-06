@@ -1,0 +1,14 @@
+CLASS dp net/minecraft/commands/arguments/SlotArgument
+	FIELD a EXAMPLES Ljava/util/Collection;
+	FIELD b ERROR_UNKNOWN_SLOT Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD c SLOTS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a slot ()Ldp;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Integer;
+	METHOD a getSlot (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)I
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$static$1 (Ljava/util/HashMap;)V
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

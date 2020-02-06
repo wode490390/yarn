@@ -1,0 +1,21 @@
+CLASS bxu net/minecraft/world/level/block/entity/EnchantmentTableBlockEntity
+	FIELD a time I
+	FIELD b flip F
+	FIELD c oFlip F
+	FIELD g flipT F
+	FIELD h flipA F
+	FIELD i open F
+	FIELD j oOpen F
+	FIELD k rot F
+	FIELD l oRot F
+	FIELD m tRot F
+	FIELD n RANDOM Ljava/util/Random;
+	FIELD o name Llf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD M getName ()Llf;
+	METHOD O getCustomName ()Llf;
+	METHOD Z_ tick ()V
+	METHOD a load (Ljt;)V
+	METHOD a setCustomName (Llf;)V
+	METHOD b save (Ljt;)Ljt;

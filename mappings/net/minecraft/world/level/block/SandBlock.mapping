@@ -1,0 +1,4 @@
+CLASS buq net/minecraft/world/level/block/SandBlock
+	FIELD a dustColor I
+	METHOD <init> <init> (ILbpy$c;)V
+	METHOD f getDustColor (Lbzh;)I

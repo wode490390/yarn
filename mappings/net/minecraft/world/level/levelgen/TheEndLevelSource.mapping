@@ -1,0 +1,11 @@
+CLASS cdd net/minecraft/world/level/levelgen/TheEndLevelSource
+	FIELD h dimensionSpawnPosition Lfk;
+	METHOD <init> <init> (Lbkg;Lblg;Lcdc;)V
+	METHOD a getYOffset (DDI)D
+	METHOD a getDepthAndScale (II)[D
+	METHOD a fillNoiseColumn ([DII)V
+	METHOD b getSpawnHeight ()I
+	METHOD f getSeaLevel ()I
+	METHOD g getTopSlideStart ()D
+	METHOD h getBottomSlideStart ()D
+	METHOD j getDimensionSpawnPosition ()Lfk;

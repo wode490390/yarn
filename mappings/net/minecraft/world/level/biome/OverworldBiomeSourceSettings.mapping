@@ -1,0 +1,9 @@
+CLASS bnn net/minecraft/world/level/biome/OverworldBiomeSourceSettings
+	FIELD a seed J
+	FIELD b generatorType Lbkm;
+	FIELD c generatorSettings Lccy;
+	METHOD <init> <init> (Lcsv;)V
+	METHOD a getSeed ()J
+	METHOD a setGeneratorSettings (Lccy;)Lbnn;
+	METHOD b getGeneratorType ()Lbkm;
+	METHOD c getGeneratorSettings ()Lccy;

@@ -1,0 +1,21 @@
+CLASS oy net/minecraft/network/protocol/game/ClientboundSoundPacket
+	FIELD a sound Laai;
+	FIELD b source Laak;
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f volume F
+	FIELD g pitch F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laai;Laak;DDDFF)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getSound ()Laai;
+	METHOD b write (Lkv;)V
+	METHOD c getSource ()Laak;
+	METHOD d getX ()D
+	METHOD e getY ()D
+	METHOD f getZ ()D
+	METHOD g getVolume ()F
+	METHOD h getPitch ()F

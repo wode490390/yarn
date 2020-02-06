@@ -1,0 +1,4 @@
+CLASS co net/minecraft/commands/CommandRuntimeException
+	FIELD a message Llf;
+	METHOD <init> <init> (Llf;)V
+	METHOD a getComponent ()Llf;

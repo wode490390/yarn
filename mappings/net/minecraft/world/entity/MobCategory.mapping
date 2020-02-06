@@ -1,0 +1,22 @@
+CLASS alj net/minecraft/world/entity/MobCategory
+	FIELD a MONSTER Lalj;
+	FIELD b CREATURE Lalj;
+	FIELD c AMBIENT Lalj;
+	FIELD d WATER_CREATURE Lalj;
+	FIELD e MISC Lalj;
+	FIELD f BY_NAME Ljava/util/Map;
+	FIELD g max I
+	FIELD h isFriendly Z
+	FIELD i isPersistent Z
+	FIELD j name Ljava/lang/String;
+	FIELD k $VALUES [Lalj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;IZZ)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a lambda$static$0 (Lalj;)Lalj;
+	METHOD a byName (Ljava/lang/String;)Lalj;
+	METHOD b getMaxInstancesPerChunk ()I
+	METHOD c isFriendly ()Z
+	METHOD d isPersistent ()Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lalj;
+	METHOD values values ()[Lalj;

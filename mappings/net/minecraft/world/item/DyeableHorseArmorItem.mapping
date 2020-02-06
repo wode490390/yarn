@@ -1,0 +1,2 @@
+CLASS bdv net/minecraft/world/item/DyeableHorseArmorItem
+	METHOD <init> <init> (ILjava/lang/String;Lber$a;)V

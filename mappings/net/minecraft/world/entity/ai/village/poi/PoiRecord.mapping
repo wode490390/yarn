@@ -1,0 +1,18 @@
+CLASS ata net/minecraft/world/entity/ai/village/poi/PoiRecord
+	FIELD a pos Lfk;
+	FIELD b poiType Latc;
+	FIELD c freeTickets I
+	FIELD d setDirty Ljava/lang/Runnable;
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;Ljava/lang/Runnable;)V
+	METHOD <init> <init> (Lfk;Latc;ILjava/lang/Runnable;)V
+	METHOD <init> <init> (Lfk;Latc;Ljava/lang/Runnable;)V
+	METHOD a getFreeTickets ()I
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD b acquireTicket ()Z
+	METHOD c releaseTicket ()Z
+	METHOD d hasSpace ()Z
+	METHOD e isOccupied ()Z
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getPos ()Lfk;
+	METHOD g getPoiType ()Latc;
+	METHOD hashCode hashCode ()I

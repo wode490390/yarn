@@ -1,0 +1,9 @@
+CLASS hc net/minecraft/data/advancements/AdventureAdvancements
+	FIELD a EXPLORABLE_BIOMES [Lbld;
+	FIELD b MOBS_TO_KILL [Lalc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a accept (Ljava/util/function/Consumer;)V
+	METHOD a addMobsToKill (Lu$a;)Lu$a;
+	METHOD accept accept (Ljava/lang/Object;)V
+	METHOD b addBiomes (Lu$a;)Lu$a;

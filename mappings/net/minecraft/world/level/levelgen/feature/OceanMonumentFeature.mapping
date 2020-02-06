@@ -1,0 +1,16 @@
+CLASS cft net/minecraft/world/level/levelgen/feature/OceanMonumentFeature
+	FIELD a MONUMENT_ENEMIES Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lcgp$a;
+	METHOD a isFeatureChunk (Lblf;Lcaz;Ljava/util/Random;IILbld;)Z
+	METHOD a getPotentialFeatureChunkFromLocationWithOffset (Lcaz;Ljava/util/Random;IIII)Lbjq;
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD c getLookupRange ()I
+	METHOD e getSpecialEnemies ()Ljava/util/List;
+	CLASS a OceanMonumentStart
+		FIELD e isCreated Z
+		METHOD <init> <init> (Lcgp;IILcmg;IJ)V
+		METHOD a postProcess (Lbkg;Lcaz;Ljava/util/Random;Lcmg;Lbjq;)V
+		METHOD a generatePieces (Lcaz;Lcnv;IILbld;)V
+		METHOD b generatePieces (II)V

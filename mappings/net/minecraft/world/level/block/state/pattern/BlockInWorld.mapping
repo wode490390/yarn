@@ -1,0 +1,16 @@
+CLASS bzl net/minecraft/world/level/block/state/pattern/BlockInWorld
+	FIELD a level Lbki;
+	FIELD b pos Lfk;
+	FIELD c loadChunks Z
+	FIELD d state Lbzh;
+	FIELD e entity Lbxj;
+	FIELD f cachedEntity Z
+	METHOD <init> <init> (Lbki;Lfk;Z)V
+	METHOD a getState ()Lbzh;
+	METHOD a hasState (Lbzh;)Ljava/util/function/Predicate;
+	METHOD a lambda$hasState$1 (Lbzh;Lbzl;)Z
+	METHOD a hasState (Ljava/util/function/Predicate;)Ljava/util/function/Predicate;
+	METHOD a lambda$hasState$0 (Ljava/util/function/Predicate;Lbzl;)Z
+	METHOD b getEntity ()Lbxj;
+	METHOD c getLevel ()Lbki;
+	METHOD d getPos ()Lfk;

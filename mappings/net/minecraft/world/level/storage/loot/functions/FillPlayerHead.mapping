@@ -1,0 +1,15 @@
+CLASS cun net/minecraft/world/level/storage/loot/functions/FillPlayerHead
+	FIELD a entityTarget Lctg$c;
+	METHOD <init> <init> ([Lcvv;Lctg$c;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a fillPlayerHead (Lctg$c;)Lcuq$a;
+	METHOD a lambda$fillPlayerHead$0 (Lctg$c;[Lcvv;)Lcur;
+	METHOD a access$000 (Lcun;)Lctg$c;
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcun;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcun;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;

@@ -1,0 +1,12 @@
+CLASS ajs net/minecraft/world/InteractionResult
+	FIELD a SUCCESS Lajs;
+	FIELD b CONSUME Lajs;
+	FIELD c PASS Lajs;
+	FIELD d FAIL Lajs;
+	FIELD e $VALUES [Lajs;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a consumesAction ()Z
+	METHOD b shouldSwing ()Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lajs;
+	METHOD values values ()[Lajs;

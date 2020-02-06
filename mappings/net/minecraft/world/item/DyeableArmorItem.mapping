@@ -1,0 +1,2 @@
+CLASS bdu net/minecraft/world/item/DyeableArmorItem
+	METHOD <init> <init> (Lbcq;Lald;Lber$a;)V

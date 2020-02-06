@@ -1,0 +1,17 @@
+CLASS bk net/minecraft/advancements/critereon/ItemUsedOnBlockTrigger
+	FIELD a id Lsm;
+	METHOD <init> <init> (Lsm;)V
+	METHOD a getId ()Lsm;
+	METHOD a access$000 (Lbk;)Lsm;
+	METHOD a lambda$trigger$0 (Lbzh;Lxf;Lfk;Lbew;Lbk$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a trigger (Lxf;Lfk;Lbew;)V
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbk$a;
+	CLASS a TriggerInstance
+		FIELD a block Laj;
+		FIELD b state Lcc;
+		FIELD c item Lbj;
+		METHOD <init> <init> (Lsm;Laj;Lcc;Lbj;)V
+		METHOD a safelyHarvestedHoney (Laj$a;Lbj$a;)Lbk$a;
+		METHOD a matches (Lbzh;Lxe;Lfk;Lbew;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

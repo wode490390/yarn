@@ -1,0 +1,16 @@
+CLASS bo net/minecraft/advancements/critereon/LightPredicate
+	FIELD a ANY Lbo;
+	FIELD b composite Lbr$d;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbr$d;)V
+	METHOD <init> <init> (Lbr$d;Lbo$1;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbo;
+	METHOD a matches (Lxe;Lfk;)Z
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a composite Lbr$d;
+		METHOD <init> <init> ()V
+		METHOD a light ()Lbo$a;
+		METHOD a setComposite (Lbr$d;)Lbo$a;
+		METHOD b build ()Lbo;

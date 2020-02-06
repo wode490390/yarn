@@ -1,0 +1,10 @@
+CLASS bdo net/minecraft/world/item/DebugStickItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a handleInteraction (Lays;Lbzh;Lbkg;Lfk;ZLbew;)V
+	METHOD a message (Lays;Llf;)V
+	METHOD a useOn (Lbgi;)Lajs;
+	METHOD a canAttackBlock (Lbzh;Lbkf;Lfk;Lays;)Z
+	METHOD a getNameHelper (Lbzh;Lcak;)Ljava/lang/String;
+	METHOD a cycleState (Lbzh;Lcak;Z)Lbzh;
+	METHOD a getRelative (Ljava/lang/Iterable;Ljava/lang/Object;Z)Ljava/lang/Object;
+	METHOD d_ isFoil (Lbew;)Z

@@ -1,0 +1,23 @@
+CLASS cfn net/minecraft/world/level/levelgen/feature/MineshaftFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lcgp$a;
+	METHOD a isFeatureChunk (Lblf;Lcaz;Ljava/util/Random;IILbld;)Z
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD c getLookupRange ()I
+	CLASS a MineShaftStart
+		METHOD <init> <init> (Lcgp;IILcmg;IJ)V
+		METHOD a generatePieces (Lcaz;Lcnv;IILbld;)V
+	CLASS b Type
+		FIELD a NORMAL Lcfn$b;
+		FIELD b MESA Lcfn$b;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		FIELD e $VALUES [Lcfn$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byId (I)Lcfn$b;
+		METHOD a lambda$static$0 (Lcfn$b;)Lcfn$b;
+		METHOD a byName (Ljava/lang/String;)Lcfn$b;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcfn$b;
+		METHOD values values ()[Lcfn$b;

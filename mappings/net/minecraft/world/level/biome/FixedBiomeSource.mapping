@@ -1,0 +1,6 @@
+CLASS bmg net/minecraft/world/level/biome/FixedBiomeSource
+	FIELD d biome Lbld;
+	METHOD <init> <init> (Lbmh;)V
+	METHOD a getBiomesWithin (IIII)Ljava/util/Set;
+	METHOD a findBiomeHorizontal (IIIIILjava/util/List;Ljava/util/Random;Z)Lfk;
+	METHOD b getNoiseBiome (III)Lbld;

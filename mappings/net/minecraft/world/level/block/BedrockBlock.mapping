@@ -1,0 +1,3 @@
+CLASS bpt net/minecraft/world/level/block/BedrockBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a isValidSpawn (Lbzh;Lbjp;Lfk;Lalc;)Z

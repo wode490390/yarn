@@ -1,0 +1,8 @@
+CLASS cre net/minecraft/world/level/newbiome/layer/SmoothLayer
+	FIELD a INSTANCE Lcre;
+	FIELD b $VALUES [Lcre;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcqh;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcre;
+	METHOD values values ()[Lcre;

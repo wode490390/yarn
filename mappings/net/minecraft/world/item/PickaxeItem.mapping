@@ -1,0 +1,6 @@
+CLASS bff net/minecraft/world/item/PickaxeItem
+	FIELD a DIGGABLES Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbgb;IFLber$a;)V
+	METHOD a getDestroySpeed (Lbew;Lbzh;)F
+	METHOD b canDestroySpecial (Lbzh;)Z

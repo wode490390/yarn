@@ -1,0 +1,10 @@
+CLASS bsc net/minecraft/world/level/block/FlowerBlock
+	FIELD a SHAPE Lcxo;
+	FIELD b suspiciousStewEffect Lakq;
+	FIELD c effectDuration I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lakq;ILbpy$c;)V
+	METHOD X_ getOffsetType ()Lbpy$b;
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD c getSuspiciousStewEffect ()Lakq;
+	METHOD d getEffectDuration ()I

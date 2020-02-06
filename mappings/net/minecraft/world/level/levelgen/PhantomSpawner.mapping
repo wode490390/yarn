@@ -1,0 +1,4 @@
+CLASS cdb net/minecraft/world/level/levelgen/PhantomSpawner
+	FIELD a nextTick I
+	METHOD <init> <init> ()V
+	METHOD a tick (Lxe;ZZ)I

@@ -1,0 +1,13 @@
+CLASS cfv net/minecraft/world/level/levelgen/feature/PillagerOutpostFeature
+	FIELD a OUTPOST_ENEMIES Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lcgp$a;
+	METHOD a isFeatureChunk (Lblf;Lcaz;Ljava/util/Random;IILbld;)Z
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD c getLookupRange ()I
+	METHOD d getRandomSalt ()I
+	METHOD e getSpecialEnemies ()Ljava/util/List;
+	CLASS a FeatureStart
+		METHOD <init> <init> (Lcgp;IILcmg;IJ)V
+		METHOD a generatePieces (Lcaz;Lcnv;IILbld;)V

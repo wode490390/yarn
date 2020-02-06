@@ -1,0 +1,27 @@
+CLASS cai net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+	FIELD a HARP Lcai;
+	FIELD b BASEDRUM Lcai;
+	FIELD c SNARE Lcai;
+	FIELD d HAT Lcai;
+	FIELD e BASS Lcai;
+	FIELD f FLUTE Lcai;
+	FIELD g BELL Lcai;
+	FIELD h GUITAR Lcai;
+	FIELD i CHIME Lcai;
+	FIELD j XYLOPHONE Lcai;
+	FIELD k IRON_XYLOPHONE Lcai;
+	FIELD l COW_BELL Lcai;
+	FIELD m DIDGERIDOO Lcai;
+	FIELD n BIT Lcai;
+	FIELD o BANJO Lcai;
+	FIELD p PLING Lcai;
+	FIELD q name Ljava/lang/String;
+	FIELD r soundEvent Laai;
+	FIELD s $VALUES [Lcai;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Laai;)V
+	METHOD a getSoundEvent ()Laai;
+	METHOD a byState (Lbzh;)Lcai;
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcai;
+	METHOD values values ()[Lcai;

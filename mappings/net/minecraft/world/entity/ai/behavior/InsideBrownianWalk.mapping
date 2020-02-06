@@ -1,0 +1,11 @@
+CLASS amu net/minecraft/world/entity/ai/behavior/InsideBrownianWalk
+	FIELD a speed F
+	METHOD <init> <init> (F)V
+	METHOD a lambda$start$3 (Lalo;Lfk;)V
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD a checkExtraStartConditions (Lxe;Lalo;)Z
+	METHOD a start (Lxe;Lalo;J)V
+	METHOD a lambda$start$2 (Lxe;Lalo;Lfk;)Z
+	METHOD a lambda$start$0 (Lxe;Lfk;)Z
+	METHOD b lambda$start$1 (Lxe;Lalo;Lfk;)Z

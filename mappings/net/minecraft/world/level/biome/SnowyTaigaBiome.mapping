@@ -1,0 +1,2 @@
+CLASS bnx net/minecraft/world/level/biome/SnowyTaigaBiome
+	METHOD <init> <init> ()V

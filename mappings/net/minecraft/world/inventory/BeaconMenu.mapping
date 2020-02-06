@@ -1,0 +1,26 @@
+CLASS baz net/minecraft/world/inventory/BeaconMenu
+	FIELD c beacon Lajl;
+	FIELD d paymentSlot Lbaz$a;
+	FIELD e access Lbbg;
+	FIELD f beaconData Lbbf;
+	METHOD <init> <init> (ILajl;)V
+	METHOD <init> <init> (ILajl;Lbbf;Lbbg;)V
+	METHOD a setData (II)V
+	METHOD a stillValid (Lays;)Z
+	METHOD b removed (Lays;)V
+	METHOD b quickMoveStack (Lays;I)Lbew;
+	METHOD c updateEffects (II)V
+	METHOD e getLevels ()I
+	METHOD f getPrimaryEffect ()Lakq;
+	METHOD g getSecondaryEffect ()Lakq;
+	METHOD h hasPayment ()Z
+	CLASS 1 1
+		FIELD a this$0 Lbaz;
+		METHOD <init> <init> (Lbaz;I)V
+		METHOD L_ getMaxStackSize ()I
+		METHOD b canPlaceItem (ILbew;)Z
+	CLASS a PaymentSlot
+		FIELD a this$0 Lbaz;
+		METHOD <init> <init> (Lbaz;Lajl;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbew;)Z

@@ -1,0 +1,8 @@
+CLASS bhn net/minecraft/world/item/crafting/ShulkerBoxColoring
+	METHOD <init> <init> (Lsm;)V
+	METHOD W_ getSerializer ()Lbhh;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lajl;)Lbew;
+	METHOD a matches (Lajl;Lbkf;)Z
+	METHOD a assemble (Lbbi;)Lbew;
+	METHOD a matches (Lbbi;Lbkf;)Z

@@ -1,0 +1,8 @@
+CLASS aom net/minecraft/world/entity/ai/behavior/WorkAtPoi
+	FIELD a lastCheck J
+	METHOD <init> <init> ()V
+	METHOD a lambda$start$0 (Lalx;Lfr;)V
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD a checkExtraStartConditions (Lxe;Layf;)Z
+	METHOD a start (Lxe;Layf;J)V

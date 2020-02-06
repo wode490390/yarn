@@ -1,0 +1,2 @@
+CLASS als net/minecraft/world/entity/PowerableMob
+	METHOD J_ isPowered ()Z

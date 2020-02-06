@@ -1,0 +1,3 @@
+CLASS amz net/minecraft/world/entity/ai/behavior/LocateHidingPlaceDuringRaid
+	METHOD <init> <init> (IF)V
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z

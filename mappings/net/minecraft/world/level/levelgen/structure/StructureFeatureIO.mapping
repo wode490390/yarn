@@ -1,0 +1,23 @@
+CLASS cmz net/minecraft/world/level/levelgen/structure/StructureFeatureIO
+	FIELD a MINESHAFT Lcgp;
+	FIELD b PILLAGER_OUTPOST Lcgp;
+	FIELD c NETHER_FORTRESS Lcgp;
+	FIELD d STRONGHOLD Lcgp;
+	FIELD e JUNGLE_PYRAMID Lcgp;
+	FIELD f OCEAN_RUIN Lcgp;
+	FIELD g DESERT_PYRAMID Lcgp;
+	FIELD h IGLOO Lcgp;
+	FIELD i SWAMP_HUT Lcgp;
+	FIELD j OCEAN_MONUMENT Lcgp;
+	FIELD k END_CITY Lcgp;
+	FIELD l WOODLAND_MANSION Lcgp;
+	FIELD m BURIED_TREASURE Lcgp;
+	FIELD n SHIPWRECK Lcgp;
+	FIELD o VILLAGE Lcgp;
+	FIELD p NETHER_FOSSIL Lcgp;
+	FIELD q LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V
+	METHOD a loadStaticStart (Lcaz;Lcnv;Ljt;)Lcnc;
+	METHOD a register (Ljava/lang/String;Lcgp;)Lcgp;

@@ -1,0 +1,6 @@
+CLASS bek net/minecraft/world/item/FishingRodItem
+	METHOD <init> <init> (Lber$a;)V
+	METHOD a lambda$use$1 (Lajr;Lays;)V
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;
+	METHOD b lambda$new$0 (Lbew;Lbkf;Lalh;)F
+	METHOD c getEnchantmentValue ()I

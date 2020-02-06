@@ -1,0 +1,24 @@
+CLASS buz net/minecraft/world/level/block/SkullBlock
+	FIELD a ROTATION Lcah;
+	FIELD b SHAPE Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbuz$a;Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a mirror (Lbzh;Lbtm;)Lbzh;
+	METHOD a rotate (Lbzh;Lbup;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD i getOcclusionShape (Lbzh;Lbjp;Lfk;)Lcxo;
+	CLASS a Type
+	CLASS b Types
+		FIELD a SKELETON Lbuz$b;
+		FIELD b WITHER_SKELETON Lbuz$b;
+		FIELD c PLAYER Lbuz$b;
+		FIELD d ZOMBIE Lbuz$b;
+		FIELD e CREEPER Lbuz$b;
+		FIELD f DRAGON Lbuz$b;
+		FIELD g $VALUES [Lbuz$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbuz$b;
+		METHOD values values ()[Lbuz$b;

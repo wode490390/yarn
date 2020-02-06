@@ -1,0 +1,16 @@
+CLASS aoc net/minecraft/world/entity/ai/behavior/TradeWithVillager
+	FIELD a trades Ljava/util/Set;
+	METHOD <init> <init> ()V
+	METHOD a figureOutWhatIAmWillingToTrade (Layf;Layf;)Ljava/util/Set;
+	METHOD a throwHalfStack (Layf;Ljava/util/Set;Lalh;)V
+	METHOD a lambda$figureOutWhatIAmWillingToTrade$0 (Lcom/google/common/collect/ImmutableSet;Lber;)Z
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V
+	METHOD a checkExtraStartConditions (Lxe;Layf;)Z
+	METHOD a canStillUse (Lxe;Layf;J)Z
+	METHOD b start (Lxe;Layf;J)V
+	METHOD c tick (Lxe;Layf;J)V
+	METHOD d tick (Lxe;Lalh;J)V
+	METHOD d stop (Lxe;Layf;J)V
+	METHOD f stop (Lxe;Lalh;J)V
+	METHOD g canStillUse (Lxe;Lalh;J)Z

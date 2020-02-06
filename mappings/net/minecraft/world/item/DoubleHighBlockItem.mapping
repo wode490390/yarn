@@ -1,0 +1,3 @@
+CLASS bdr net/minecraft/world/item/DoubleHighBlockItem
+	METHOD <init> <init> (Lbpy;Lber$a;)V
+	METHOD a placeBlock (Lbcz;Lbzh;)Z

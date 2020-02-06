@@ -1,0 +1,7 @@
+CLASS cjd net/minecraft/world/level/levelgen/feature/stateproviders/ForestFlowerProvider
+	FIELD b FLOWERS [Lbzh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a getState (Ljava/util/Random;Lfk;)Lbzh;

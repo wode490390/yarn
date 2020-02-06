@@ -1,0 +1,17 @@
+CLASS bkv net/minecraft/world/level/TickNextTickData
+	FIELD a pos Lfk;
+	FIELD b delay J
+	FIELD c priority Lbkw;
+	FIELD d counter J
+	FIELD e type Ljava/lang/Object;
+	FIELD f c J
+	METHOD <init> <init> (Lfk;Ljava/lang/Object;)V
+	METHOD <init> <init> (Lfk;Ljava/lang/Object;JLbkw;)V
+	METHOD a createTimeComparator ()Ljava/util/Comparator;
+	METHOD a lambda$createTimeComparator$2 (Lbkv;)J
+	METHOD b getType ()Ljava/lang/Object;
+	METHOD b lambda$createTimeComparator$1 (Lbkv;)Lbkw;
+	METHOD c lambda$createTimeComparator$0 (Lbkv;)J
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

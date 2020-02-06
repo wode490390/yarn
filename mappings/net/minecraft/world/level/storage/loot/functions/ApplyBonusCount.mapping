@@ -1,0 +1,63 @@
+CLASS cuf net/minecraft/world/level/storage/loot/functions/ApplyBonusCount
+	FIELD a FORMULAS Ljava/util/Map;
+	FIELD c enchantment Lbig;
+	FIELD d formula Lcuf$b;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Lcvv;Lbig;Lcuf$b;)V
+	METHOD <init> <init> ([Lcvv;Lbig;Lcuf$b;Lcuf$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbew;Lctg;)Lbew;
+	METHOD a addOreBonusCount (Lbig;)Lcuq$a;
+	METHOD a addBonusBinomialDistributionCount (Lbig;FI)Lcuq$a;
+	METHOD a addUniformBonusCount (Lbig;I)Lcuq$a;
+	METHOD a lambda$addBonusBinomialDistributionCount$0 (Lbig;IF[Lcvv;)Lcur;
+	METHOD a lambda$addUniformBonusCount$3 (Lbig;I[Lcvv;)Lcur;
+	METHOD a lambda$addUniformBonusCount$2 (Lbig;[Lcvv;)Lcur;
+	METHOD a access$000 (Lcuf;)Lbig;
+	METHOD b access$200 ()Ljava/util/Map;
+	METHOD b addUniformBonusCount (Lbig;)Lcuq$a;
+	METHOD b lambda$addOreBonusCount$1 (Lbig;[Lcvv;)Lcur;
+	METHOD b access$100 (Lcuf;)Lcuf$b;
+	CLASS 1 1
+	CLASS a BinomialWithBonusCount
+		FIELD a TYPE Lsm;
+		FIELD b extraRounds I
+		FIELD c probability F
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (IF)V
+		METHOD a getType ()Lsm;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcuf$b;
+		METHOD a serializeParams (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a calculateNewCount (Ljava/util/Random;II)I
+	CLASS b Formula
+		METHOD a getType ()Lsm;
+		METHOD a serializeParams (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a calculateNewCount (Ljava/util/Random;II)I
+	CLASS c FormulaDeserializer
+		METHOD deserialize deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcuf$b;
+	CLASS d OreDrops
+		FIELD a TYPE Lsm;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcuf$1;)V
+		METHOD a getType ()Lsm;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcuf$b;
+		METHOD a serializeParams (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a calculateNewCount (Ljava/util/Random;II)I
+	CLASS e Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuf;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuf;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcuq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$0 (Lsm;)Lcom/google/gson/JsonParseException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcuq;
+	CLASS f UniformBonusCount
+		FIELD a TYPE Lsm;
+		FIELD b bonusMultiplier I
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (I)V
+		METHOD a getType ()Lsm;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcuf$b;
+		METHOD a serializeParams (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a calculateNewCount (Ljava/util/Random;II)I

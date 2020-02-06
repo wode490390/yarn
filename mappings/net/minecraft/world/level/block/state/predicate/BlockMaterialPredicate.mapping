@@ -1,0 +1,13 @@
+CLASS bzp net/minecraft/world/level/block/state/predicate/BlockMaterialPredicate
+	FIELD a AIR Lbzp;
+	FIELD b material Lcpx;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcpx;)V
+	METHOD <init> <init> (Lcpx;Lbzp$1;)V
+	METHOD a test (Lbzh;)Z
+	METHOD a forMaterial (Lcpx;)Lbzp;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+		METHOD <init> <init> (Lcpx;)V
+		METHOD a test (Lbzh;)Z
+		METHOD test test (Ljava/lang/Object;)Z

@@ -1,0 +1,6 @@
+CLASS cwz net/minecraft/world/phys/shapes/CollisionContext
+	METHOD a empty ()Lcwz;
+	METHOD a of (Laky;)Lcwz;
+	METHOD a isHoldingItem (Lber;)Z
+	METHOD a isAbove (Lcxo;Lfk;Z)Z
+	METHOD b isDescending ()Z

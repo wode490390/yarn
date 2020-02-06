@@ -1,0 +1,14 @@
+CLASS bfu net/minecraft/world/item/SpawnEggItem
+	FIELD a BY_ID Ljava/util/Map;
+	FIELD b color1 I
+	FIELD c color2 I
+	FIELD d defaultType Lalc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;IILber$a;)V
+	METHOD a getColor (I)I
+	METHOD a byId (Lalc;)Lbfu;
+	METHOD a useOn (Lbgi;)Lajs;
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;
+	METHOD a spawnsEntity (Ljt;Lalc;)Z
+	METHOD b getType (Ljt;)Lalc;
+	METHOD f eggs ()Ljava/lang/Iterable;

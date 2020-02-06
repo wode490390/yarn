@@ -1,0 +1,11 @@
+CLASS bcf net/minecraft/world/inventory/ResultSlot
+	FIELD a craftSlots Lbbi;
+	FIELD b player Lays;
+	FIELD g removeCount I
+	METHOD <init> <init> (Lays;Lbbi;Lajl;III)V
+	METHOD a remove (I)Lbew;
+	METHOD a onTake (Lays;Lbew;)Lbew;
+	METHOD a mayPlace (Lbew;)Z
+	METHOD a onQuickCraft (Lbew;I)V
+	METHOD b onSwapCraft (I)V
+	METHOD c checkTakeAchievements (Lbew;)V

@@ -1,0 +1,11 @@
+CLASS ccj net/minecraft/world/level/dimension/NormalDimension
+	METHOD <init> <init> (Lbkf;Lcch;)V
+	METHOD a getBrightnessDependentFogColor (IF)Lcwu;
+	METHOD a isFoggyAt (II)Z
+	METHOD a getValidSpawnPosition (IIZ)Lfk;
+	METHOD a getTimeOfDay (JF)F
+	METHOD a getSpawnPosInChunk (Lbjq;Z)Lfk;
+	METHOD k createRandomLevelGenerator ()Lcaz;
+	METHOD l isNaturalDimension ()Z
+	METHOD m mayRespawn ()Z
+	METHOD n getType ()Lcch;

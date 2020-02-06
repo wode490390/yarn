@@ -1,0 +1,19 @@
+CLASS bgr net/minecraft/world/item/crafting/AbstractCookingRecipe
+	FIELD a type Lbhi;
+	FIELD b id Lsm;
+	FIELD c group Ljava/lang/String;
+	FIELD d ingredient Lbhc;
+	FIELD e result Lbew;
+	FIELD f experience F
+	FIELD g cookingTime I
+	METHOD <init> <init> (Lbhi;Lsm;Ljava/lang/String;Lbhc;Lbew;FI)V
+	METHOD a getIngredients ()Lfy;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lajl;)Lbew;
+	METHOD a matches (Lajl;Lbkf;)Z
+	METHOD b getExperience ()F
+	METHOD c getResultItem ()Lbew;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD e getCookingTime ()I
+	METHOD f getId ()Lsm;
+	METHOD g getType ()Lbhi;

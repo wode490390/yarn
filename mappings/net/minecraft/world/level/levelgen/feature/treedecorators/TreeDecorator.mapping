@@ -1,0 +1,6 @@
+CLASS cjy net/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator
+	FIELD a type Lcjz;
+	METHOD <init> <init> (Lcjz;)V
+	METHOD a place (Lbkg;Ljava/util/Random;Ljava/util/List;Ljava/util/List;Ljava/util/Set;Lcmg;)V
+	METHOD a setBlock (Lbkn;Lfk;Lbzh;Ljava/util/Set;Lcmg;)V
+	METHOD a placeVine (Lbkn;Lfk;Lbzz;Ljava/util/Set;Lcmg;)V

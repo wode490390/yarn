@@ -1,0 +1,44 @@
+CLASS bzm net/minecraft/world/level/block/state/pattern/BlockPattern
+	FIELD a pattern [[[Ljava/util/function/Predicate;
+	FIELD b depth I
+	FIELD c height I
+	FIELD d width I
+	METHOD <init> <init> ([[[Ljava/util/function/Predicate;)V
+	METHOD a getDepth ()I
+	METHOD a find (Lbki;Lfk;)Lbzm$b;
+	METHOD a matches (Lbki;Lfk;Lfp;Lfp;)Lbzm$b;
+	METHOD a createLevelCache (Lbki;Z)Lcom/google/common/cache/LoadingCache;
+	METHOD a translateAndRotate (Lfk;Lfp;Lfp;III)Lfk;
+	METHOD a matches (Lfk;Lfp;Lfp;Lcom/google/common/cache/LoadingCache;)Lbzm$b;
+	METHOD b getHeight ()I
+	METHOD c getWidth ()I
+	METHOD d getPattern ()[[[Ljava/util/function/Predicate;
+	CLASS a BlockCacheLoader
+		FIELD a level Lbki;
+		FIELD b loadChunks Z
+		METHOD <init> <init> (Lbki;Z)V
+		METHOD a load (Lfk;)Lbzl;
+		METHOD load load (Ljava/lang/Object;)Ljava/lang/Object;
+	CLASS b BlockPatternMatch
+		FIELD a frontTopLeft Lfk;
+		FIELD b forwards Lfp;
+		FIELD c up Lfp;
+		FIELD d cache Lcom/google/common/cache/LoadingCache;
+		FIELD e width I
+		FIELD f height I
+		FIELD g depth I
+		METHOD <init> <init> (Lfk;Lfp;Lfp;Lcom/google/common/cache/LoadingCache;III)V
+		METHOD a getFrontTopLeft ()Lfk;
+		METHOD a getBlock (III)Lbzl;
+		METHOD a getPortalOutput (Lfp;Lfk;DLcwu;D)Lbzm$c;
+		METHOD b getForwards ()Lfp;
+		METHOD c getUp ()Lfp;
+		METHOD d getWidth ()I
+		METHOD e getHeight ()I
+		METHOD f getDepth ()I
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c PortalInfo
+		FIELD a pos Lcwu;
+		FIELD b speed Lcwu;
+		FIELD c angle I
+		METHOD <init> <init> (Lcwu;Lcwu;I)V

@@ -1,0 +1,13 @@
+CLASS py net/minecraft/network/protocol/game/ServerboundEditBookPacket
+	FIELD a book Lbew;
+	FIELD b signing Z
+	FIELD c hand Lajr;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbew;ZLajr;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getBook ()Lbew;
+	METHOD b write (Lkv;)V
+	METHOD c isSigning ()Z
+	METHOD d getHand ()Lajr;

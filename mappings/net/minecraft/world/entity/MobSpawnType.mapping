@@ -1,0 +1,22 @@
+CLASS alk net/minecraft/world/entity/MobSpawnType
+	FIELD a NATURAL Lalk;
+	FIELD b CHUNK_GENERATION Lalk;
+	FIELD c SPAWNER Lalk;
+	FIELD d STRUCTURE Lalk;
+	FIELD e BREEDING Lalk;
+	FIELD f MOB_SUMMONED Lalk;
+	FIELD g JOCKEY Lalk;
+	FIELD h EVENT Lalk;
+	FIELD i CONVERSION Lalk;
+	FIELD j REINFORCEMENT Lalk;
+	FIELD k TRIGGERED Lalk;
+	FIELD l BUCKET Lalk;
+	FIELD m SPAWN_EGG Lalk;
+	FIELD n COMMAND Lalk;
+	FIELD o DISPENSER Lalk;
+	FIELD p PATROL Lalk;
+	FIELD q $VALUES [Lalk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lalk;
+	METHOD values values ()[Lalk;

@@ -1,0 +1,2 @@
+CLASS bnh net/minecraft/world/level/biome/MushroomFieldsBiome
+	METHOD <init> <init> ()V

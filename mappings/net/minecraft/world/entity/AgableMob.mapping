@@ -1,0 +1,33 @@
+CLASS akw net/minecraft/world/entity/AgableMob
+	FIELD b age I
+	FIELD bw DATA_BABY_ID Lsb;
+	FIELD c forcedAge I
+	FIELD d forcedAgeTimer I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD a ageUp (I)V
+	METHOD a ageUp (IZ)V
+	METHOD a getBreedOffspring (Lakw;)Lakw;
+	METHOD a mobInteract (Lays;Lajr;)Z
+	METHOD a onOffspringSpawnedFromEgg (Lays;Lakw;)V
+	METHOD a finalizeSpawn (Lbkg;Lajq;Lalk;Lalu;Ljt;)Lalu;
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD a onSyncedDataUpdated (Lsb;)V
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD b_ setAge (I)V
+	METHOD i getAge ()I
+	METHOD k aiStep ()V
+	METHOD l ageBoundaryReached ()V
+	METHOD w_ defineSynchedData ()V
+	METHOD x_ isBaby ()Z
+	CLASS a AgableMobGroupData
+		FIELD a groupSize I
+		FIELD b shouldSpawnBaby Z
+		FIELD c babySpawnChance F
+		METHOD <init> <init> ()V
+		METHOD a getGroupSize ()I
+		METHOD a setBabySpawnChance (F)V
+		METHOD a setShouldSpawnBaby (Z)V
+		METHOD b increaseGroupSizeByOne ()V
+		METHOD c isShouldSpawnBaby ()Z
+		METHOD d getBabySpawnChance ()F

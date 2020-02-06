@@ -1,0 +1,7 @@
+CLASS cix net/minecraft/world/level/levelgen/feature/foliageplacers/PineFoliagePlacer
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getTreeRadiusForHeight (IIII)I
+	METHOD a createFoliage (Lbkk;Ljava/util/Random;Lcin;IIILfk;Ljava/util/Set;)V
+	METHOD a shouldSkipLocation (Ljava/util/Random;IIIII)Z
+	METHOD a foliageRadius (Ljava/util/Random;IILcin;)I

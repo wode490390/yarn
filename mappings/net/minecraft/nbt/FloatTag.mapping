@@ -1,10 +1,30 @@
-CLASS net/minecraft/class_2494 net/minecraft/nbt/FloatTag
-	FIELD field_11523 value F
-	FIELD field_21034 ZERO Lnet/minecraft/class_2494;
-	FIELD field_21035 READER Lnet/minecraft/class_4614;
-	METHOD <init> (F)V
-		ARG 1 value
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
-	METHOD method_23244 of (F)Lnet/minecraft/class_2494;
-		ARG 0 value
+CLASS jw net/minecraft/nbt/FloatTag
+	FIELD a ZERO Ljw;
+	FIELD b TYPE Lkl;
+	FIELD c data F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (F)V
+	METHOD a getId ()B
+	METHOD a valueOf (F)Ljw;
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Llf;
+	METHOD b getType ()Lkl;
+	METHOD c copy ()Lkj;
+	METHOD d copy ()Ljw;
+	METHOD e getAsLong ()J
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getAsInt ()I
+	METHOD g getAsShort ()S
+	METHOD h getAsByte ()B
+	METHOD hashCode hashCode ()I
+	METHOD i getAsDouble ()D
+	METHOD j getAsFloat ()F
+	METHOD k getAsNumber ()Ljava/lang/Number;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a load (Ljava/io/DataInput;ILkc;)Ljw;
+		METHOD b getPrettyName ()Ljava/lang/String;
+		METHOD b load (Ljava/io/DataInput;ILkc;)Lkj;
+		METHOD c isValue ()Z

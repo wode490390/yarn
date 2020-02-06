@@ -1,0 +1,10 @@
+CLASS cae net/minecraft/world/level/block/state/properties/DoubleBlockHalf
+	FIELD a UPPER Lcae;
+	FIELD b LOWER Lcae;
+	FIELD c $VALUES [Lcae;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcae;
+	METHOD values values ()[Lcae;

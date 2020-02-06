@@ -1,0 +1,3 @@
+CLASS bem net/minecraft/world/item/GameMasterBlockItem
+	METHOD <init> <init> (Lbpy;Lber$a;)V
+	METHOD c getPlacementState (Lbcz;)Lbzh;

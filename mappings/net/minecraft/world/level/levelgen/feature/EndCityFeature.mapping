@@ -1,0 +1,12 @@
+CLASS cep net/minecraft/world/level/levelgen/feature/EndCityFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lcgp$a;
+	METHOD a access$000 (IILcaz;)I
+	METHOD a isFeatureChunk (Lblf;Lcaz;Ljava/util/Random;IILbld;)Z
+	METHOD a getPotentialFeatureChunkFromLocationWithOffset (Lcaz;Ljava/util/Random;IIII)Lbjq;
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD b getYPositionForFeature (IILcaz;)I
+	METHOD c getLookupRange ()I
+	CLASS a EndCityStart
+		METHOD <init> <init> (Lcgp;IILcmg;IJ)V
+		METHOD a generatePieces (Lcaz;Lcnv;IILbld;)V

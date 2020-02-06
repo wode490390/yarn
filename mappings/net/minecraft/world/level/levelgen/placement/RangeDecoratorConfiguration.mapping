@@ -1,0 +1,6 @@
+CLASS cls net/minecraft/world/level/levelgen/placement/RangeDecoratorConfiguration
+	FIELD a min I
+	FIELD b max I
+	METHOD <init> <init> (II)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcls;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

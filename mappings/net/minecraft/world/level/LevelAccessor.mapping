@@ -1,0 +1,24 @@
+CLASS bkg net/minecraft/world/level/LevelAccessor
+	METHOD E getChunkSource ()Lcbc;
+	METHOD F getLiquidTicks ()Lbku;
+	METHOD G getBlockTicks ()Lbku;
+	METHOD Z getMoonBrightness ()F
+	METHOD a isUnobstructed (Laky;Lcxo;)Z
+	METHOD a levelEvent (Lays;ILfk;I)V
+	METHOD a playSound (Lays;Lfk;Laai;Laak;FF)V
+	METHOD a getHeightmapPos (Lccu$a;Lfk;)Lfk;
+	METHOD a blockUpdated (Lfk;Lbpy;)V
+	METHOD a addParticle (Lgt;DDDDDD)V
+	METHOD aa getMoonPhase ()I
+	METHOD ab getDifficulty ()Lajp;
+	METHOD b hasChunk (II)Z
+	METHOD b getEntityCollisions (Laky;Lcwo;Ljava/util/Set;)Ljava/util/stream/Stream;
+	METHOD c levelEvent (ILfk;I)V
+	METHOD d getCurrentDifficultyAt (Lfk;)Lajq;
+	METHOD f getTimeOfDay (F)F
+	METHOD i getLevelData ()Lcsv;
+	METHOD p getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD q getLevel ()Lbkf;
+	METHOD r_ getSeed ()J
+	METHOD s_ getSharedSpawnPos ()Lfk;
+	METHOD t_ getRandom ()Ljava/util/Random;

@@ -1,0 +1,10 @@
+CLASS bsz net/minecraft/world/level/block/KelpPlantBlock
+	FIELD a top Lbsy;
+	METHOD <init> <init> (Lbsy;Lbpy$c;)V
+	METHOD a getCloneItemStack (Lbjp;Lfk;Lbzh;)Lbew;
+	METHOD a canPlaceLiquid (Lbjp;Lfk;Lbzh;Lcps;)Z
+	METHOD a placeLiquid (Lbkg;Lfk;Lbzh;Lcpt;)Z
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD b_ getFluidState (Lbzh;)Lcpt;

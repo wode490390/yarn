@@ -1,0 +1,13 @@
+CLASS bsx net/minecraft/world/level/block/JukeboxBlock
+	FIELD a HAS_RECORD Lbzz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a newBlockEntity (Lbjp;)Lbxj;
+	METHOD a dropRecording (Lbkf;Lfk;)V
+	METHOD a setRecord (Lbkg;Lfk;Lbzh;Lbew;)V
+	METHOD a getAnalogOutputSignal (Lbzh;Lbkf;Lfk;)I
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a onRemove (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b hasAnalogOutputSignal (Lbzh;)Z
+	METHOD c getRenderShape (Lbzh;)Lbul;

@@ -1,0 +1,11 @@
+CLASS bca net/minecraft/world/inventory/MerchantResultSlot
+	FIELD a slots Lbby;
+	FIELD b player Lays;
+	FIELD g removeCount I
+	FIELD h merchant Lbjh;
+	METHOD <init> <init> (Lays;Lbjh;Lbby;III)V
+	METHOD a remove (I)Lbew;
+	METHOD a onTake (Lays;Lbew;)Lbew;
+	METHOD a mayPlace (Lbew;)Z
+	METHOD a onQuickCraft (Lbew;I)V
+	METHOD c checkTakeAchievements (Lbew;)V

@@ -1,0 +1,10 @@
+CLASS aki net/minecraft/world/damagesource/EntityDamageSource
+	FIELD x entity Laky;
+	FIELD y isThorns Z
+	METHOD <init> <init> (Ljava/lang/String;Laky;)V
+	METHOD d getLocalizedDeathMessage (Lalh;)Llf;
+	METHOD k getEntity ()Laky;
+	METHOD s scalesWithDifficulty ()Z
+	METHOD w getSourcePosition ()Lcwu;
+	METHOD x setThorns ()Laki;
+	METHOD y isThorns ()Z

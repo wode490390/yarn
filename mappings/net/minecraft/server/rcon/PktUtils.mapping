@@ -1,0 +1,9 @@
+CLASS aaa net/minecraft/server/rcon/PktUtils
+	FIELD a HEX_CHAR [C
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a toHexString (B)Ljava/lang/String;
+	METHOD a intFromByteArray ([BI)I
+	METHOD a stringFromByteArray ([BII)Ljava/lang/String;
+	METHOD b intFromByteArray ([BII)I
+	METHOD c intFromNetworkByteArray ([BII)I

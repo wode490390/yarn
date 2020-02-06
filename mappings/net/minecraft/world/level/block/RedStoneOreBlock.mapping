@@ -1,0 +1,14 @@
+CLASS bug net/minecraft/world/level/block/RedStoneOreBlock
+	FIELD a LIT Lbzz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a spawnParticles (Lbkf;Lfk;)V
+	METHOD a stepOn (Lbkf;Lfk;Laky;)V
+	METHOD a getLightEmission (Lbzh;)I
+	METHOD a attack (Lbzh;Lbkf;Lfk;Lays;)V
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a spawnAfterBreak (Lbzh;Lbkf;Lfk;Lbew;)V
+	METHOD a animateTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;)V
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD d interact (Lbzh;Lbkf;Lfk;)V

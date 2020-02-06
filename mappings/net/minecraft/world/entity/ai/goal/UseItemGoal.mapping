@@ -1,0 +1,10 @@
+CLASS ara net/minecraft/world/entity/ai/goal/UseItemGoal
+	FIELD a mob Lali;
+	FIELD b item Lbew;
+	FIELD c canUseSelector Ljava/util/function/Predicate;
+	FIELD d finishUsingSound Laai;
+	METHOD <init> <init> (Lali;Lbew;Laai;Ljava/util/function/Predicate;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

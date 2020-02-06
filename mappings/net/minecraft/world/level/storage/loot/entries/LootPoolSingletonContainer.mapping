@@ -1,0 +1,45 @@
+CLASS cua net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer
+	FIELD c compositeFunction Ljava/util/function/BiFunction;
+	FIELD e weight I
+	FIELD f quality I
+	FIELD g functions [Lcur;
+	FIELD h entry Lcty;
+	METHOD <init> <init> (II[Lcvv;[Lcur;)V
+	METHOD a validate (Lctp;)V
+	METHOD a simpleBuilder (Lcua$d;)Lcua$a;
+	METHOD a access$000 (Lcua;)Ljava/util/function/BiFunction;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Lctg;)V
+	METHOD expand expand (Lctg;Ljava/util/function/Consumer;)Z
+	CLASS 1 1
+		FIELD a this$0 Lcua;
+		METHOD <init> <init> (Lcua;)V
+		METHOD a createItemStack (Ljava/util/function/Consumer;Lctg;)V
+	CLASS a Builder
+		FIELD a weight I
+		FIELD b quality I
+		FIELD c functions Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a getFunctions ()[Lcur;
+		METHOD a setWeight (I)Lcua$a;
+		METHOD a apply (Lcur$a;)Lcua$a;
+		METHOD b setQuality (I)Lcua$a;
+		METHOD b apply (Lcur$a;)Ljava/lang/Object;
+	CLASS b DummyBuilder
+		FIELD c constructor Lcua$d;
+		METHOD <init> <init> (Lcua$d;)V
+		METHOD b build ()Lctz;
+		METHOD d getThis ()Lctz$a;
+		METHOD g getThis ()Lcua$b;
+	CLASS c EntryBase
+		FIELD b this$0 Lcua;
+		METHOD <init> <init> (Lcua;)V
+		METHOD a getWeight (F)I
+	CLASS d EntryConstructor
+		METHOD build build (II[Lcvv;[Lcur;)Lcua;
+	CLASS e Serializer
+		METHOD <init> <init> (Lsm;Ljava/lang/Class;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lcua;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lctz;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcua;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcvv;[Lcur;)Lcua;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Lcvv;)Lctz;

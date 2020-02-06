@@ -1,0 +1,10 @@
+CLASS amf net/minecraft/world/entity/ai/attributes/RangedAttribute
+	FIELD a minValue D
+	FIELD b maxValue D
+	FIELD c importLegacyName Ljava/lang/String;
+	METHOD <init> <init> (Laly;Ljava/lang/String;DDD)V
+	METHOD a sanitizeValue (D)D
+	METHOD a importLegacyName (Ljava/lang/String;)Lamf;
+	METHOD e getMinValue ()D
+	METHOD f getMaxValue ()D
+	METHOD g getImportLegacyName ()Ljava/lang/String;

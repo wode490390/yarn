@@ -1,0 +1,57 @@
+CLASS cbu net/minecraft/world/level/chunk/UpgradeData
+	FIELD a EMPTY Lcbu;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c DIRECTIONS [Lfq;
+	FIELD d sides Ljava/util/EnumSet;
+	FIELD e index [[I
+	FIELD f MAP Ljava/util/Map;
+	FIELD g CHUNKY_FIXERS Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljt;)V
+	METHOD a isEmpty ()Z
+	METHOD a lambda$upgrade$0 (Lbkf;Lcbu$a;)V
+	METHOD a updateState (Lbzh;Lfp;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a upgrade (Lcbk;)V
+	METHOD a upgradeSides (Lcbk;Lfq;)V
+	METHOD b write ()Ljt;
+	METHOD b upgradeInside (Lcbk;)V
+	METHOD c access$200 ()Ljava/util/Map;
+	METHOD d access$300 ()Ljava/util/Set;
+	CLASS 1 1
+	CLASS a BlockFixer
+		METHOD a processChunk (Lbkg;)V
+		METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	CLASS b BlockFixers
+		FIELD a BLACKLIST Lcbu$b;
+		FIELD b DEFAULT Lcbu$b;
+		FIELD c CHEST Lcbu$b;
+		FIELD d LEAVES Lcbu$b;
+		FIELD e STEM_BLOCK Lcbu$b;
+		FIELD f DIRECTIONS [Lfp;
+		FIELD g $VALUES [Lcbu$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IZ[Lbpy;)V
+		METHOD <init> <init> (Ljava/lang/String;IZ[Lbpy;Lcbu$1;)V
+		METHOD <init> <init> (Ljava/lang/String;I[Lbpy;)V
+		METHOD <init> <init> (Ljava/lang/String;I[Lbpy;Lcbu$1;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcbu$b;
+		METHOD values values ()[Lcbu$b;
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;I[Lbpy;)V
+			METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;I[Lbpy;)V
+			METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+		CLASS 3 3
+			METHOD <init> <init> (Ljava/lang/String;I[Lbpy;)V
+			METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+		CLASS 4 4
+			FIELD g queue Ljava/lang/ThreadLocal;
+			METHOD <init> <init> (Ljava/lang/String;IZ[Lbpy;)V
+			METHOD a lambda$$0 ()Ljava/util/List;
+			METHOD a processChunk (Lbkg;)V
+			METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+		CLASS 5 5
+			METHOD <init> <init> (Ljava/lang/String;I[Lbpy;)V
+			METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;

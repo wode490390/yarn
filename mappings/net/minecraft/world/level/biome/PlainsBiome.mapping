@@ -1,0 +1,2 @@
+CLASS bno net/minecraft/world/level/biome/PlainsBiome
+	METHOD <init> <init> ()V

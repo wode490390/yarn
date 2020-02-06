@@ -1,0 +1,5 @@
+CLASS bfn net/minecraft/world/item/ServerItemCooldowns
+	FIELD a player Lxf;
+	METHOD <init> <init> (Lxf;)V
+	METHOD b onCooldownStarted (Lber;I)V
+	METHOD c onCooldownEnded (Lber;)V

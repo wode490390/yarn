@@ -1,0 +1,55 @@
+CLASS cmj net/minecraft/world/level/levelgen/structure/EndCityPieces
+	FIELD a OVERWRITE Lcnw;
+	FIELD b INSERT Lcnw;
+	FIELD c HOUSE_TOWER_GENERATOR Lcmj$b;
+	FIELD d TOWER_BRIDGES Ljava/util/List;
+	FIELD e TOWER_GENERATOR Lcmj$b;
+	FIELD f TOWER_BRIDGE_GENERATOR Lcmj$b;
+	FIELD g FAT_TOWER_BRIDGES Ljava/util/List;
+	FIELD h FAT_TOWER_GENERATOR Lcmj$b;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Lcnw;
+	METHOD a access$200 (Lcnv;Lcmj$a;Lfk;Ljava/lang/String;Lbup;Z)Lcmj$a;
+	METHOD a access$500 (Lcnv;Lcmj$b;ILcmj$a;Lfk;Ljava/util/List;Ljava/util/Random;)Z
+	METHOD a startHouseTower (Lcnv;Lfk;Lbup;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a access$300 (Ljava/util/List;Lcmj$a;)Lcmj$a;
+	METHOD b access$100 ()Lcnw;
+	METHOD b addPiece (Lcnv;Lcmj$a;Lfk;Ljava/lang/String;Lbup;Z)Lcmj$a;
+	METHOD b recursiveChildren (Lcnv;Lcmj$b;ILcmj$a;Lfk;Ljava/util/List;Ljava/util/Random;)Z
+	METHOD b addHelper (Ljava/util/List;Lcmj$a;)Lcmj$a;
+	METHOD c access$400 ()Lcmj$b;
+	METHOD d access$600 ()Ljava/util/List;
+	METHOD e access$700 ()Lcmj$b;
+	METHOD f access$800 ()Lcmj$b;
+	METHOD g access$900 ()Lcmj$b;
+	METHOD h access$1000 ()Ljava/util/List;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a init ()V
+		METHOD a generate (Lcnv;ILcmj$a;Lfk;Ljava/util/List;Ljava/util/Random;)Z
+	CLASS 2 2
+		METHOD <init> <init> ()V
+		METHOD a init ()V
+		METHOD a generate (Lcnv;ILcmj$a;Lfk;Ljava/util/List;Ljava/util/Random;)Z
+	CLASS 3 3
+		FIELD a shipCreated Z
+		METHOD <init> <init> ()V
+		METHOD a init ()V
+		METHOD a generate (Lcnv;ILcmj$a;Lfk;Ljava/util/List;Ljava/util/Random;)Z
+	CLASS 4 4
+		METHOD <init> <init> ()V
+		METHOD a init ()V
+		METHOD a generate (Lcnv;ILcmj$a;Lfk;Ljava/util/List;Ljava/util/Random;)Z
+	CLASS a EndCityPiece
+		FIELD d templateName Ljava/lang/String;
+		FIELD e rotation Lbup;
+		FIELD f overwrite Z
+		METHOD <init> <init> (Lcnv;Ljava/lang/String;Lfk;Lbup;Z)V
+		METHOD <init> <init> (Lcnv;Ljt;)V
+		METHOD a loadTemplate (Lcnv;)V
+		METHOD a handleDataMarker (Ljava/lang/String;Lfk;Lbkg;Ljava/util/Random;Lcmg;)V
+		METHOD a addAdditionalSaveData (Ljt;)V
+	CLASS b SectionGenerator
+		METHOD a init ()V
+		METHOD a generate (Lcnv;ILcmj$a;Lfk;Ljava/util/List;Ljava/util/Random;)Z

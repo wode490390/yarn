@@ -1,0 +1,5 @@
+CLASS aaz net/minecraft/tags/SynchronizableTagCollection
+	FIELD a registry Lgb;
+	METHOD <init> <init> (Lgb;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a serializeToNetwork (Lkv;)V
+	METHOD b loadFromNetwork (Lkv;)V

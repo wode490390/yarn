@@ -1,0 +1,25 @@
+CLASS bbb net/minecraft/world/inventory/BrewingStandMenu
+	FIELD c brewingStand Lajl;
+	FIELD d brewingStandData Lbbf;
+	FIELD e ingredientSlot Lbcj;
+	METHOD <init> <init> (ILayr;)V
+	METHOD <init> <init> (ILayr;Lajl;Lbbf;)V
+	METHOD a stillValid (Lays;)Z
+	METHOD b quickMoveStack (Lays;I)Lbew;
+	METHOD e getFuel ()I
+	METHOD f getBrewingTicks ()I
+	CLASS a FuelSlot
+		METHOD <init> <init> (Lajl;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbew;)Z
+		METHOD a_ mayPlaceItem (Lbew;)Z
+	CLASS b IngredientsSlot
+		METHOD <init> <init> (Lajl;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbew;)Z
+	CLASS c PotionSlot
+		METHOD <init> <init> (Lajl;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a onTake (Lays;Lbew;)Lbew;
+		METHOD a mayPlace (Lbew;)Z
+		METHOD b_ mayPlaceItem (Lbew;)Z

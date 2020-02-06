@@ -1,0 +1,6 @@
+CLASS bkd net/minecraft/world/level/GrassColor
+	FIELD a pixels [I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a get (DD)I
+	METHOD a init ([I)V

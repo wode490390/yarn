@@ -1,0 +1,2 @@
+CLASS bkh net/minecraft/world/level/LevelConflictException
+	METHOD <init> <init> (Ljava/lang/String;)V

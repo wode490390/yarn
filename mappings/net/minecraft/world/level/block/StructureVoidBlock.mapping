@@ -1,0 +1,8 @@
+CLASS bvv net/minecraft/world/level/block/StructureVoidBlock
+	FIELD a SHAPE Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getShadeBrightness (Lbzh;Lbjp;Lfk;)F
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD c getRenderShape (Lbzh;)Lbul;
+	METHOD g getPistonPushReaction (Lbzh;)Lcpz;

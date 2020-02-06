@@ -1,0 +1,27 @@
+CLASS is net/minecraft/gametest/framework/GameTestBatchRunner
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b startPos Lfk;
+	FIELD c level Lxe;
+	FIELD d testTicker Ljc;
+	FIELD e allTestInfos Ljava/util/List;
+	FIELD f batches Ljava/util/List;
+	FIELD g currentBatchTracker Ljf;
+	FIELD h currentBatchIndex I
+	FIELD i nextTestPos Lfk$a;
+	FIELD j maxDepthOnThisRow I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/Collection;Lfk;Lxe;Ljc;)V
+	METHOD a getTestInfos ()Ljava/util/List;
+	METHOD a runBatch (I)V
+	METHOD a access$000 (Lis;Liw;)V
+	METHOD a testCompleted (Liw;)V
+	METHOD a createStructuresForBatch (Ljava/util/Collection;)V
+	METHOD a lambda$new$0 (Lxe;Lir;)V
+	METHOD b start ()V
+	METHOD b lambda$runBatch$1 (Liw;)V
+	CLASS 1 1
+		FIELD a this$0 Lis;
+		METHOD <init> <init> (Lis;)V
+		METHOD a testStructureLoaded (Liw;)V
+		METHOD b testPassed (Liw;)V
+		METHOD c testFailed (Liw;)V

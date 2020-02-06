@@ -1,0 +1,2 @@
+CLASS atr net/minecraft/world/entity/animal/FlyingAnimal
+	METHOD eF isFlying ()Z

@@ -1,0 +1,18 @@
+CLASS brx net/minecraft/world/level/block/FarmBlock
+	FIELD a MOISTURE Lcah;
+	FIELD b SHAPE Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a isUnderCrops (Lbjp;Lfk;)Z
+	METHOD a fallOn (Lbkf;Lfk;Laky;F)V
+	METHOD a isNearWater (Lbki;Lfk;)Z
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD d turnToDirt (Lbzh;Lbkf;Lfk;)V
+	METHOD f isViewBlocking (Lbzh;Lbjp;Lfk;)Z
+	METHOD o useShapeForLightOcclusion (Lbzh;)Z

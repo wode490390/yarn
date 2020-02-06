@@ -1,0 +1,20 @@
+CLASS cvx net/minecraft/world/level/storage/loot/predicates/LootItemEntityPropertyCondition
+	FIELD a predicate Lbb;
+	FIELD b entityTarget Lctg$c;
+	METHOD <init> <init> (Lbb;Lctg$c;)V
+	METHOD <init> <init> (Lbb;Lctg$c;Lcvx$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a lambda$hasProperties$0 (Lbb$a;Lctg$c;)Lcvv;
+	METHOD a entityPresent (Lctg$c;)Lcvv$a;
+	METHOD a hasProperties (Lctg$c;Lbb$a;)Lcvv$a;
+	METHOD a test (Lctg;)Z
+	METHOD a access$000 (Lcvx;)Lbb;
+	METHOD b access$100 (Lcvx;)Lctg$c;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvx;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvv;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcvx;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcvv;

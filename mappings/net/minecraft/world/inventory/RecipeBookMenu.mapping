@@ -1,0 +1,10 @@
+CLASS bcc net/minecraft/world/inventory/RecipeBookMenu
+	METHOD <init> <init> (Lbbx;I)V
+	METHOD a fillCraftSlotsStackedContents (Layu;)V
+	METHOD a recipeMatches (Lbhf;)Z
+	METHOD a handlePlacement (ZLbhf;Lxf;)V
+	METHOD e clearCraftingContent ()V
+	METHOD f getResultSlotIndex ()I
+	METHOD g getGridWidth ()I
+	METHOD h getGridHeight ()I
+	METHOD i getSize ()I

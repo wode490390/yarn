@@ -1,0 +1,6 @@
+CLASS cij net/minecraft/world/level/levelgen/feature/configurations/SeagrassFeatureConfiguration
+	FIELD a count I
+	FIELD b tallSeagrassProbability D
+	METHOD <init> <init> (ID)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcij;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

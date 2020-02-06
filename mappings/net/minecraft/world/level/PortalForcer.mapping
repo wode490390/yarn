@@ -1,0 +1,11 @@
+CLASS bkr net/minecraft/world/level/PortalForcer
+	FIELD a level Lxe;
+	FIELD b random Ljava/util/Random;
+	METHOD <init> <init> (Lxe;)V
+	METHOD a createPortal (Laky;)Z
+	METHOD a findAndMoveToPortal (Laky;F)Z
+	METHOD a lambda$findPortal$2 (Lata;)I
+	METHOD a lambda$findPortal$0 (Latc;)Z
+	METHOD a lambda$findPortal$1 (Lfk;Lata;)D
+	METHOD a findPortal (Lfk;Lcwu;Lfp;DDZ)Lbzm$c;
+	METHOD a lambda$findPortal$3 (Lfp;DLcwu;DLata;)Lbzm$c;

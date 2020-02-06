@@ -1,0 +1,22 @@
+CLASS bkj net/minecraft/world/level/LevelSettings
+	FIELD a seed J
+	FIELD b gameType Lbkc;
+	FIELD c generateMapFeatures Z
+	FIELD d hardcore Z
+	FIELD e levelType Lbkm;
+	FIELD f allowCommands Z
+	FIELD g startingBonusItems Z
+	FIELD h levelTypeOptions Lcom/google/gson/JsonElement;
+	METHOD <init> <init> (JLbkc;ZZLbkm;)V
+	METHOD <init> <init> (Lcsv;)V
+	METHOD a enableStartingBonusItems ()Lbkj;
+	METHOD a setLevelTypeOptions (Lcom/google/gson/JsonElement;)Lbkj;
+	METHOD b enableSinglePlayerCommands ()Lbkj;
+	METHOD c hasStartingBonusItems ()Z
+	METHOD d getSeed ()J
+	METHOD e getGameType ()Lbkc;
+	METHOD f isHardcore ()Z
+	METHOD g isGenerateMapFeatures ()Z
+	METHOD h getLevelType ()Lbkm;
+	METHOD i getAllowCommands ()Z
+	METHOD j getLevelTypeOptions ()Lcom/google/gson/JsonElement;

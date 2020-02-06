@@ -1,0 +1,11 @@
+CLASS col net/minecraft/world/level/levelgen/surfacebuilders/NetherSurfaceBuilder
+	FIELD a seed J
+	FIELD b decorationNoise Lcox;
+	FIELD c AIR Lbzh;
+	FIELD d GRAVEL Lbzh;
+	FIELD e SOUL_SAND Lbzh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a initNoise (J)V
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJLcor;)V
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJLcos;)V

@@ -1,0 +1,11 @@
+CLASS agn net/minecraft/util/datafix/fixes/WallPropertyFix
+	FIELD a WALL_BLOCKS Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a upgradeBlockStateTag (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a fixWallProperty (Lcom/mojang/datafixers/Dynamic;Ljava/lang/String;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$makeRule$0 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a mapProperty (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b lambda$upgradeBlockStateTag$2 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD c lambda$fixWallProperty$1 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

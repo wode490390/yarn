@@ -1,12 +1,26 @@
-CLASS net/minecraft/class_2519 net/minecraft/nbt/StringTag
-	FIELD field_11590 value Ljava/lang/String;
-	FIELD field_21045 READER Lnet/minecraft/class_4614;
-	FIELD field_21046 EMPTY Lnet/minecraft/class_2519;
-	METHOD <init> (Ljava/lang/String;)V
-		ARG 1 value
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
-	METHOD method_10706 escape (Ljava/lang/String;)Ljava/lang/String;
-		ARG 0 value
-	METHOD method_23256 of (Ljava/lang/String;)Lnet/minecraft/class_2519;
-		ARG 0 value
+CLASS ki net/minecraft/nbt/StringTag
+	FIELD a TYPE Lkl;
+	FIELD b EMPTY Lki;
+	FIELD c data Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a getId ()B
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a valueOf (Ljava/lang/String;)Lki;
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Llf;
+	METHOD b getType ()Lkl;
+	METHOD b quoteAndEscape (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c copy ()Lkj;
+	METHOD c_ getAsString ()Ljava/lang/String;
+	METHOD d copy ()Lki;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD isEmpty isEmpty ()Z
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a load (Ljava/io/DataInput;ILkc;)Lki;
+		METHOD b getPrettyName ()Ljava/lang/String;
+		METHOD b load (Ljava/io/DataInput;ILkc;)Lkj;
+		METHOD c isValue ()Z

@@ -1,0 +1,6 @@
+CLASS chv net/minecraft/world/level/levelgen/feature/configurations/LayerConfiguration
+	FIELD a height I
+	FIELD b state Lbzh;
+	METHOD <init> <init> (ILbzh;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lchv;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

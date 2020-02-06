@@ -1,0 +1,15 @@
+CLASS yq net/minecraft/server/packs/repository/PackCompatibility
+	FIELD a TOO_OLD Lyq;
+	FIELD b TOO_NEW Lyq;
+	FIELD c COMPATIBLE Lyq;
+	FIELD d description Llf;
+	FIELD e confirmation Llf;
+	FIELD f $VALUES [Lyq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a isCompatible ()Z
+	METHOD a forFormat (I)Lyq;
+	METHOD b getDescription ()Llf;
+	METHOD c getConfirmation ()Llf;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lyq;
+	METHOD values values ()[Lyq;

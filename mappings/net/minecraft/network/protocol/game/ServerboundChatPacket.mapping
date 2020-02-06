@@ -1,0 +1,9 @@
+CLASS pp net/minecraft/network/protocol/game/ServerboundChatPacket
+	FIELD a message Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getMessage ()Ljava/lang/String;
+	METHOD b write (Lkv;)V

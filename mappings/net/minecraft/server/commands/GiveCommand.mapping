@@ -1,0 +1,7 @@
+CLASS uc net/minecraft/server/commands/GiveCommand
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Lcq;)Z
+	METHOD a giveItem (Lcq;Lek;Ljava/util/Collection;I)I
+	METHOD b lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

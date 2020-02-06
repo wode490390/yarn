@@ -1,0 +1,2 @@
+CLASS bgx net/minecraft/world/item/crafting/CraftingRecipe
+	METHOD g getType ()Lbhi;

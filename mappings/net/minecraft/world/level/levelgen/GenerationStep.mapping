@@ -1,0 +1,34 @@
+CLASS cct net/minecraft/world/level/levelgen/GenerationStep
+	METHOD <init> <init> ()V
+	CLASS a Carving
+		FIELD a AIR Lcct$a;
+		FIELD b LIQUID Lcct$a;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		FIELD e $VALUES [Lcct$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a lambda$static$0 (Lcct$a;)Lcct$a;
+		METHOD a byName (Ljava/lang/String;)Lcct$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcct$a;
+		METHOD values values ()[Lcct$a;
+	CLASS b Decoration
+		FIELD a RAW_GENERATION Lcct$b;
+		FIELD b LOCAL_MODIFICATIONS Lcct$b;
+		FIELD c UNDERGROUND_STRUCTURES Lcct$b;
+		FIELD d SURFACE_STRUCTURES Lcct$b;
+		FIELD e UNDERGROUND_ORES Lcct$b;
+		FIELD f UNDERGROUND_DECORATION Lcct$b;
+		FIELD g VEGETAL_DECORATION Lcct$b;
+		FIELD h TOP_LAYER_MODIFICATION Lcct$b;
+		FIELD i BY_NAME Ljava/util/Map;
+		FIELD j name Ljava/lang/String;
+		FIELD k $VALUES [Lcct$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a lambda$static$0 (Lcct$b;)Lcct$b;
+		METHOD a byName (Ljava/lang/String;)Lcct$b;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcct$b;
+		METHOD values values ()[Lcct$b;

@@ -1,0 +1,15 @@
+CLASS cgr net/minecraft/world/level/levelgen/feature/SwamplandHutFeature
+	FIELD a SWAMPHUT_ENEMIES Ljava/util/List;
+	FIELD aw SWAMPHUT_ANIMALS Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lcgp$a;
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD c getLookupRange ()I
+	METHOD c isSwamphut (Lbkg;Lfk;)Z
+	METHOD d getRandomSalt ()I
+	METHOD e getSpecialEnemies ()Ljava/util/List;
+	METHOD f getSpecialAnimals ()Ljava/util/List;
+	CLASS a FeatureStart
+		METHOD <init> <init> (Lcgp;IILcmg;IJ)V
+		METHOD a generatePieces (Lcaz;Lcnv;IILbld;)V

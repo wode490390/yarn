@@ -1,0 +1,17 @@
+CLASS tu net/minecraft/server/commands/EnchantCommand
+	FIELD a ERROR_NOT_LIVING_ENTITY Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD b ERROR_NO_ITEM Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD c ERROR_INCOMPATIBLE Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD d ERROR_LEVEL_TOO_HIGH Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD e ERROR_NOTHING_HAPPENED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$4 (Lcq;)Z
+	METHOD a enchant (Lcq;Ljava/util/Collection;Lbig;I)I
+	METHOD a lambda$static$2 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$static$3 (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD b lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$static$1 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD c lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;

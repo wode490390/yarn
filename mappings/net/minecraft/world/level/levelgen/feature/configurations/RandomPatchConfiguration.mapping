@@ -1,0 +1,42 @@
+CLASS cig net/minecraft/world/level/levelgen/feature/configurations/RandomPatchConfiguration
+	FIELD a stateProvider Lcjb;
+	FIELD b blockPlacer Lchb;
+	FIELD c whitelist Ljava/util/Set;
+	FIELD d blacklist Ljava/util/Set;
+	FIELD f tries I
+	FIELD g xspread I
+	FIELD h yspread I
+	FIELD i zspread I
+	FIELD j canReplace Z
+	FIELD k project Z
+	FIELD l needWater Z
+	METHOD <init> <init> (Lcjb;Lchb;Ljava/util/Set;Ljava/util/Set;IIIIZZZ)V
+	METHOD <init> <init> (Lcjb;Lchb;Ljava/util/Set;Ljava/util/Set;IIIIZZZLcig$1;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcig;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lbpy;)Ljava/lang/Object;
+	METHOD a lambda$serialize$1 (Lcom/mojang/datafixers/types/DynamicOps;Lbzh;)Ljava/lang/Object;
+	CLASS 1 1
+	CLASS a GrassConfigurationBuilder
+		FIELD a stateProvider Lcjb;
+		FIELD b blockPlacer Lchb;
+		FIELD c whitelist Ljava/util/Set;
+		FIELD d blacklist Ljava/util/Set;
+		FIELD e tries I
+		FIELD f xspread I
+		FIELD g yspread I
+		FIELD h zspread I
+		FIELD i canReplace Z
+		FIELD j project Z
+		FIELD k needWater Z
+		METHOD <init> <init> (Lcjb;Lchb;)V
+		METHOD a canReplace ()Lcig$a;
+		METHOD a tries (I)Lcig$a;
+		METHOD a whitelist (Ljava/util/Set;)Lcig$a;
+		METHOD b noProjection ()Lcig$a;
+		METHOD b xspread (I)Lcig$a;
+		METHOD b blacklist (Ljava/util/Set;)Lcig$a;
+		METHOD c needWater ()Lcig$a;
+		METHOD c yspread (I)Lcig$a;
+		METHOD d build ()Lcig;
+		METHOD d zspread (I)Lcig$a;

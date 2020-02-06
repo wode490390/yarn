@@ -1,0 +1,20 @@
+CLASS pg net/minecraft/network/protocol/game/ClientboundUpdateMobEffectPacket
+	FIELD a entityId I
+	FIELD b effectId B
+	FIELD c effectAmplifier B
+	FIELD d effectDurationTicks I
+	FIELD e flags B
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILaks;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b isSuperLongDuration ()Z
+	METHOD b write (Lkv;)V
+	METHOD c getEntityId ()I
+	METHOD d getEffectId ()B
+	METHOD e getEffectAmplifier ()B
+	METHOD f getEffectDurationTicks ()I
+	METHOD g isEffectVisible ()Z
+	METHOD h isEffectAmbient ()Z
+	METHOD i effectShowsIcon ()Z

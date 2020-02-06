@@ -1,0 +1,2 @@
+CLASS bev net/minecraft/world/item/ItemPropertyFunction
+	METHOD call call (Lbew;Lbkf;Lalh;)F

@@ -1,0 +1,21 @@
+CLASS awk net/minecraft/world/entity/item/PrimedTnt
+	FIELD b DATA_FUSE_ID Lsb;
+	FIELD c owner Lalh;
+	FIELD d life I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDDLalh;)V
+	METHOD L getAddEntityPacket ()Llt;
+	METHOD a setFuse (I)V
+	METHOD a getEyeHeight (Lalr;Lakz;)F
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD a onSyncedDataUpdated (Lsb;)V
+	METHOD aK isPickable ()Z
+	METHOD at isMovementNoisy ()Z
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD f getOwner ()Lalh;
+	METHOD h tick ()V
+	METHOD i getFuse ()I
+	METHOD k getLife ()I
+	METHOD l explode ()V
+	METHOD w_ defineSynchedData ()V

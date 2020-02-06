@@ -1,0 +1,7 @@
+CLASS bbl net/minecraft/world/inventory/DispenserMenu
+	FIELD c dispenser Lajl;
+	METHOD <init> <init> (ILayr;)V
+	METHOD <init> <init> (ILayr;Lajl;)V
+	METHOD a stillValid (Lays;)Z
+	METHOD b removed (Lays;)V
+	METHOD b quickMoveStack (Lays;I)Lbew;

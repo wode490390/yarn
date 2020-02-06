@@ -1,0 +1,28 @@
+CLASS bgn net/minecraft/world/item/alchemy/PotionBrewing
+	FIELD a POTION_MIXES Ljava/util/List;
+	FIELD b CONTAINER_MIXES Ljava/util/List;
+	FIELD c ALLOWED_CONTAINERS Ljava/util/List;
+	FIELD d ALLOWED_CONTAINER Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootStrap ()V
+	METHOD a addContainer (Lber;)V
+	METHOD a addContainerRecipe (Lber;Lber;Lber;)V
+	METHOD a isIngredient (Lbew;)Z
+	METHOD a hasMix (Lbew;Lbew;)Z
+	METHOD a isBrewablePotion (Lbgm;)Z
+	METHOD a addMix (Lbgm;Lber;Lbgm;)V
+	METHOD b isContainerIngredient (Lbew;)Z
+	METHOD b hasContainerMix (Lbew;Lbew;)Z
+	METHOD c isPotionIngredient (Lbew;)Z
+	METHOD c hasPotionMix (Lbew;Lbew;)Z
+	METHOD d lambda$static$0 (Lbew;)Z
+	METHOD d mix (Lbew;Lbew;)Lbew;
+	CLASS a Mix
+		FIELD a from Ljava/lang/Object;
+		FIELD b ingredient Lbhc;
+		FIELD c to Ljava/lang/Object;
+		METHOD <init> <init> (Ljava/lang/Object;Lbhc;Ljava/lang/Object;)V
+		METHOD a access$000 (Lbgn$a;)Lbhc;
+		METHOD b access$100 (Lbgn$a;)Ljava/lang/Object;
+		METHOD c access$200 (Lbgn$a;)Ljava/lang/Object;

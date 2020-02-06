@@ -1,0 +1,6 @@
+CLASS cac net/minecraft/world/level/block/state/properties/DirectionProperty
+	METHOD <init> <init> (Ljava/lang/String;Ljava/util/Collection;)V
+	METHOD a create (Ljava/lang/String;)Lcac;
+	METHOD a create (Ljava/lang/String;Ljava/util/Collection;)Lcac;
+	METHOD a create (Ljava/lang/String;Ljava/util/function/Predicate;)Lcac;
+	METHOD a create (Ljava/lang/String;[Lfp;)Lcac;

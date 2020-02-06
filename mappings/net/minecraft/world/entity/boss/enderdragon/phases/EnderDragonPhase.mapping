@@ -1,0 +1,25 @@
+CLASS avr net/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhase
+	FIELD a HOLDING_PATTERN Lavr;
+	FIELD b STRAFE_PLAYER Lavr;
+	FIELD c LANDING_APPROACH Lavr;
+	FIELD d LANDING Lavr;
+	FIELD e TAKEOFF Lavr;
+	FIELD f SITTING_FLAMING Lavr;
+	FIELD g SITTING_SCANNING Lavr;
+	FIELD h SITTING_ATTACKING Lavr;
+	FIELD i CHARGING_PLAYER Lavr;
+	FIELD j DYING Lavr;
+	FIELD k HOVERING Lavr;
+	FIELD l phases [Lavr;
+	FIELD m instanceClass Ljava/lang/Class;
+	FIELD n id I
+	FIELD o name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILjava/lang/Class;Ljava/lang/String;)V
+	METHOD a getConstructor ()Ljava/lang/reflect/Constructor;
+	METHOD a getById (I)Lavr;
+	METHOD a createInstance (Lavb;)Lavl;
+	METHOD a create (Ljava/lang/Class;Ljava/lang/String;)Lavr;
+	METHOD b getId ()I
+	METHOD c getCount ()I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,5 @@
+CLASS boq net/minecraft/world/level/biome/WarpedForestBiome
+	METHOD <init> <init> ()V
+	METHOD a lambda$new$2 (Ljava/util/Random;)Ljava/lang/Double;
+	METHOD b lambda$new$1 (Ljava/util/Random;)Ljava/lang/Double;
+	METHOD c lambda$new$0 (Ljava/util/Random;)Ljava/lang/Double;

@@ -1,0 +1,13 @@
+CLASS azc net/minecraft/world/entity/projectile/Fireball
+	FIELD f DATA_ITEM_STACK Lsb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lalc;DDDDDDLbkf;)V
+	METHOD <init> <init> (Lalc;Lalh;DDDLbkf;)V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b setItem (Lbew;)V
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD c lambda$setItem$0 (Lbew;)V
+	METHOD f getItem ()Lbew;
+	METHOD l getItemRaw ()Lbew;
+	METHOD w_ defineSynchedData ()V

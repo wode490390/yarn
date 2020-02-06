@@ -1,0 +1,6 @@
+CLASS ckh net/minecraft/world/level/levelgen/placement/CarvingMaskDecoratorConfiguration
+	FIELD a step Lcct$a;
+	FIELD b probability F
+	METHOD <init> <init> (Lcct$a;F)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lckh;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

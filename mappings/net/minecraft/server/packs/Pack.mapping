@@ -1,0 +1,8 @@
+CLASS yf net/minecraft/server/packs/Pack
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getNamespaces (Lyg;)Ljava/util/Set;
+	METHOD a getResources (Lyg;Ljava/lang/String;Ljava/lang/String;ILjava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a getResource (Lyg;Lsm;)Ljava/io/InputStream;
+	METHOD a getMetadataSection (Lyj;)Ljava/lang/Object;
+	METHOD b getRootResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD b hasResource (Lyg;Lsm;)Z

@@ -1,0 +1,2 @@
+CLASS alt net/minecraft/world/entity/ReputationEventHandler
+	METHOD a onReputationEventFrom (Lasw;Laky;)V

@@ -1,0 +1,24 @@
+CLASS aut net/minecraft/world/entity/animal/horse/TraderLlama
+	FIELD bF despawnDelay I
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD a finalizeSpawn (Lbkg;Lajq;Lalk;Lalu;Ljt;)Lalu;
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD eW isTraderLlama ()Z
+	METHOD fa makeBabyLlama ()Laup;
+	METHOD ff maybeDespawn ()V
+	METHOD fg canDespawn ()Z
+	METHOD fh isLeashedToWanderingTrader ()Z
+	METHOD fi isLeashedToSomethingOtherThanTheWanderingTrader ()Z
+	METHOD g doPlayerRide (Lays;)V
+	METHOD k aiStep ()V
+	METHOD n registerGoals ()V
+	METHOD x setDespawnDelay (I)V
+	CLASS a TraderLlamaDefendWanderingTraderGoal
+		FIELD a this$0 Laut;
+		FIELD b llama Laup;
+		FIELD c ownerLastHurtBy Lalh;
+		FIELD d timestamp I
+		METHOD <init> <init> (Laut;Laup;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V

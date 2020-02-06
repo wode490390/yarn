@@ -1,0 +1,6 @@
+CLASS cjf net/minecraft/world/level/levelgen/feature/stateproviders/RotatedBlockProvider
+	FIELD b block Lbpy;
+	METHOD <init> <init> (Lbpy;)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a getState (Ljava/util/Random;Lfk;)Lbzh;

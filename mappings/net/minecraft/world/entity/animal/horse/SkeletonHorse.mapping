@@ -1,0 +1,24 @@
+CLASS aur net/minecraft/world/entity/animal/horse/SkeletonHorse
+	FIELD bF skeletonTrapGoal Laus;
+	FIELD bG isTrap Z
+	FIELD bH trapTime I
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD a getBreedOffspring (Lakw;)Lakw;
+	METHOD a mobInteract (Lays;Lajr;)Z
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD aS getRideHeight ()D
+	METHOD am getSwimSound ()Laai;
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD bi rideableUnderWater ()Z
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD d playSwimSound (F)V
+	METHOD di getMobType ()Lall;
+	METHOD ds getWaterSlowDown ()F
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD eQ playJumpSound ()V
+	METHOD eq isTrap ()Z
+	METHOD ez addBehaviourGoals ()V
+	METHOD k aiStep ()V
+	METHOD r setTrap (Z)V

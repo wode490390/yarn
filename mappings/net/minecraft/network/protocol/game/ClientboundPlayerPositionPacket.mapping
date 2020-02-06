@@ -1,0 +1,37 @@
+CLASS nw net/minecraft/network/protocol/game/ClientboundPlayerPositionPacket
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d yRot F
+	FIELD e xRot F
+	FIELD f relativeArguments Ljava/util/Set;
+	FIELD g id I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (DDDFFLjava/util/Set;I)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getX ()D
+	METHOD b write (Lkv;)V
+	METHOD c getY ()D
+	METHOD d getZ ()D
+	METHOD e getYRot ()F
+	METHOD f getXRot ()F
+	METHOD g getId ()I
+	METHOD h getRelativeArguments ()Ljava/util/Set;
+	CLASS a RelativeArgument
+		FIELD a X Lnw$a;
+		FIELD b Y Lnw$a;
+		FIELD c Z Lnw$a;
+		FIELD d Y_ROT Lnw$a;
+		FIELD e X_ROT Lnw$a;
+		FIELD f bit I
+		FIELD g $VALUES [Lnw$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;II)V
+		METHOD a getMask ()I
+		METHOD a unpack (I)Ljava/util/Set;
+		METHOD a pack (Ljava/util/Set;)I
+		METHOD b isSet (I)Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Lnw$a;
+		METHOD values values ()[Lnw$a;

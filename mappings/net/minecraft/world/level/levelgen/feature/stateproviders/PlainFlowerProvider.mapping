@@ -1,0 +1,8 @@
+CLASS cje net/minecraft/world/level/levelgen/feature/stateproviders/PlainFlowerProvider
+	FIELD b LOW_NOISE_FLOWERS [Lbzh;
+	FIELD c HIGH_NOISE_FLOWERS [Lbzh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a getState (Ljava/util/Random;Lfk;)Lbzh;

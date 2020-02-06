@@ -1,0 +1,5 @@
+CLASS cda net/minecraft/world/level/levelgen/PatrolSpawner
+	FIELD a nextTick I
+	METHOD <init> <init> ()V
+	METHOD a spawnPatrolMember (Lbkf;Lfk;Ljava/util/Random;Z)Z
+	METHOD a tick (Lxe;ZZ)I

@@ -1,0 +1,17 @@
+CLASS btc net/minecraft/world/level/block/LeavesBlock
+	FIELD a DISTANCE Lcah;
+	FIELD b PERSISTENT Lbzz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a isValidSpawn (Lbzh;Lbjp;Lfk;Lalc;)Z
+	METHOD a animateTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;)V
+	METHOD a updateDistance (Lbzh;Lbkg;Lfk;)Lbzh;
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b randomTick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD c isSuffocating (Lbzh;Lbjp;Lfk;)Z
+	METHOD h getDistanceAt (Lbzh;)I
+	METHOD l isRandomlyTicking (Lbzh;)Z
+	METHOD l getLightBlock (Lbzh;Lbjp;Lfk;)I

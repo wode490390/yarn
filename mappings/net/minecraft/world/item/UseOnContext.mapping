@@ -1,0 +1,19 @@
+CLASS bgi net/minecraft/world/item/UseOnContext
+	FIELD b player Lays;
+	FIELD c hand Lajr;
+	FIELD d hitResult Lcwp;
+	FIELD e level Lbkf;
+	FIELD f itemStack Lbew;
+	METHOD <init> <init> (Lays;Lajr;Lcwp;)V
+	METHOD <init> <init> (Lbkf;Lays;Lajr;Lbew;Lcwp;)V
+	METHOD a getClickedPos ()Lfk;
+	METHOD f getHorizontalDirection ()Lfp;
+	METHOD g isSecondaryUseActive ()Z
+	METHOD h getRotation ()F
+	METHOD i getClickedFace ()Lfp;
+	METHOD j getClickLocation ()Lcwu;
+	METHOD k isInside ()Z
+	METHOD l getItemInHand ()Lbew;
+	METHOD m getPlayer ()Lays;
+	METHOD n getHand ()Lajr;
+	METHOD o getLevel ()Lbkf;

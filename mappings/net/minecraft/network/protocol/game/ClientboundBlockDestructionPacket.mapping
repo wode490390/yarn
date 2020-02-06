@@ -1,0 +1,13 @@
+CLASS mg net/minecraft/network/protocol/game/ClientboundBlockDestructionPacket
+	FIELD a id I
+	FIELD b pos Lfk;
+	FIELD c progress I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILfk;I)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getPos ()Lfk;
+	METHOD d getProgress ()I

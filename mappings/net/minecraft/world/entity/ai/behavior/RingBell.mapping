@@ -1,0 +1,4 @@
+CLASS anl net/minecraft/world/entity/ai/behavior/RingBell
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Lxe;Lalh;)Z
+	METHOD a start (Lxe;Lalh;J)V

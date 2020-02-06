@@ -1,0 +1,22 @@
+CLASS aow net/minecraft/world/entity/ai/goal/AvoidEntityGoal
+	FIELD a mob Lalo;
+	FIELD b toAvoid Lalh;
+	FIELD c maxDist F
+	FIELD d path Lcrz;
+	FIELD e pathNav Larz;
+	FIELD f avoidClass Ljava/lang/Class;
+	FIELD g avoidPredicate Ljava/util/function/Predicate;
+	FIELD h predicateOnAvoidEntity Ljava/util/function/Predicate;
+	FIELD i walkSpeedModifier D
+	FIELD j sprintSpeedModifier D
+	FIELD k avoidEntityTargeting Lass;
+	METHOD <init> <init> (Lalo;Ljava/lang/Class;FDD)V
+	METHOD <init> <init> (Lalo;Ljava/lang/Class;FDDLjava/util/function/Predicate;)V
+	METHOD <init> <init> (Lalo;Ljava/lang/Class;Ljava/util/function/Predicate;FDDLjava/util/function/Predicate;)V
+	METHOD a canUse ()Z
+	METHOD a lambda$new$1 (Lalh;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD b lambda$new$0 (Lalh;)Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

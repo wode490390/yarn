@@ -1,0 +1,43 @@
+CLASS btp net/minecraft/world/level/block/NetherPortalBlock
+	FIELD a AXIS Lcaf;
+	FIELD b X_AXIS_AABB Lcxo;
+	FIELD c Z_AXIS_AABB Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getCloneItemStack (Lbjp;Lfk;Lbzh;)Lbew;
+	METHOD a trySpawnPortal (Lbkg;Lfk;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a entityInside (Lbzh;Lbkf;Lfk;Laky;)V
+	METHOD a animateTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;)V
+	METHOD a rotate (Lbzh;Lbup;)Lbzh;
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b isPortal (Lbkg;Lfk;)Lbtp$a;
+	METHOD c getPortalShape (Lbkg;Lfk;)Lbzm$b;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction$Axis [I
+		FIELD b $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a PortalShape
+		FIELD a level Lbkg;
+		FIELD b axis Lfp$a;
+		FIELD c rightDir Lfp;
+		FIELD d leftDir Lfp;
+		FIELD e numPortalBlocks I
+		FIELD f bottomLeft Lfk;
+		FIELD g height I
+		FIELD h width I
+		METHOD <init> <init> (Lbkg;Lfk;Lfp$a;)V
+		METHOD a getHeight ()I
+		METHOD a access$000 (Lbtp$a;)I
+		METHOD a isEmpty (Lbzh;)Z
+		METHOD a getDistanceUntilEdge (Lfk;Lfp;)I
+		METHOD b getWidth ()I
+		METHOD b access$100 (Lbtp$a;)Lfp;
+		METHOD c calculatePortalHeight ()I
+		METHOD c access$200 (Lbtp$a;)Lfk;
+		METHOD d isValid ()Z
+		METHOD e createPortalBlocks ()V
+		METHOD f isComplete ()Z
+		METHOD g hasAllPortalBlocks ()Z

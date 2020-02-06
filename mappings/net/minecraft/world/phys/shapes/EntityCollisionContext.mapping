@@ -1,0 +1,14 @@
+CLASS cxe net/minecraft/world/phys/shapes/EntityCollisionContext
+	FIELD a EMPTY Lcwz;
+	FIELD b descending Z
+	FIELD c entityBottom D
+	FIELD d heldItem Lber;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laky;)V
+	METHOD <init> <init> (ZDLber;)V
+	METHOD a isHoldingItem (Lber;)Z
+	METHOD a isAbove (Lcxo;Lfk;Z)Z
+	METHOD b isDescending ()Z
+	CLASS 1 1
+		METHOD <init> <init> (ZDLber;)V
+		METHOD a isAbove (Lcxo;Lfk;Z)Z

@@ -1,0 +1,10 @@
+CLASS ctu net/minecraft/world/level/storage/loot/entries/EmptyLootItem
+	METHOD <init> <init> (II[Lcvv;[Lcur;)V
+	METHOD <init> <init> (II[Lcvv;[Lcur;Lctu$1;)V
+	METHOD a emptyItem ()Lcua$a;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Lctg;)V
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcvv;[Lcur;)Lctu;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Lcvv;[Lcur;)Lcua;

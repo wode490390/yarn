@@ -1,0 +1,10 @@
+CLASS cek net/minecraft/world/level/levelgen/feature/DefaultFlowerFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a isValid (Lbkg;Lfk;Lchs;)Z
+	METHOD a isValid (Lbkg;Lfk;Lcig;)Z
+	METHOD a getCount (Lchs;)I
+	METHOD a getCount (Lcig;)I
+	METHOD a getPos (Ljava/util/Random;Lfk;Lchs;)Lfk;
+	METHOD a getPos (Ljava/util/Random;Lfk;Lcig;)Lfk;
+	METHOD b getRandomFlower (Ljava/util/Random;Lfk;Lchs;)Lbzh;
+	METHOD b getRandomFlower (Ljava/util/Random;Lfk;Lcig;)Lbzh;

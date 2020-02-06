@@ -1,0 +1,8 @@
+CLASS cjq net/minecraft/world/level/levelgen/feature/structures/StructurePoolElementType
+	FIELD b SINGLE Lcjq;
+	FIELD c LIST Lcjq;
+	FIELD d FEATURE Lcjq;
+	FIELD e EMPTY Lcjq;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$0 (Lcom/mojang/datafixers/Dynamic;)Lcjp;
+	METHOD a register (Ljava/lang/String;Lcjq;)Lcjq;

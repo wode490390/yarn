@@ -1,0 +1,11 @@
+CLASS qf net/minecraft/network/protocol/game/ServerboundPaddleBoatPacket
+	FIELD a left Z
+	FIELD b right Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ZZ)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getLeft ()Z
+	METHOD b write (Lkv;)V
+	METHOD c getRight ()Z

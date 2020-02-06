@@ -1,0 +1,15 @@
+CLASS ahe net/minecraft/util/datafix/schemas/V1451_3
+	METHOD <init> <init> (ILcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a lambda$registerEntities$11 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD a lambda$registerEntities$0 (Lcom/mojang/datafixers/schemas/Schema;Ljava/lang/String;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD b lambda$registerEntities$10 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD c lambda$registerEntities$9 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD d lambda$registerEntities$8 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD e lambda$registerEntities$7 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD f lambda$registerEntities$6 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD g lambda$registerEntities$5 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD h lambda$registerEntities$4 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD i lambda$registerEntities$3 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD j lambda$registerEntities$2 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD k lambda$registerEntities$1 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD registerEntities registerEntities (Lcom/mojang/datafixers/schemas/Schema;)Ljava/util/Map;

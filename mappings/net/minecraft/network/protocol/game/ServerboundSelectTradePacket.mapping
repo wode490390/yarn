@@ -1,0 +1,9 @@
+CLASS qq net/minecraft/network/protocol/game/ServerboundSelectTradePacket
+	FIELD a item I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Lpl;)V
+	METHOD b getItem ()I
+	METHOD b write (Lkv;)V

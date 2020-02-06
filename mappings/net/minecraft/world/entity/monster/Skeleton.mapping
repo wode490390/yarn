@@ -1,0 +1,7 @@
+CLASS axp net/minecraft/world/entity/monster/Skeleton
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD a dropCustomDeathLoot (Lakh;IZ)V
+	METHOD cX getDeathSound ()Laai;
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD l getStepSound ()Laai;

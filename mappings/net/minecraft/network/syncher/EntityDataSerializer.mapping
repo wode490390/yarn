@@ -1,0 +1,5 @@
+CLASS sc net/minecraft/network/syncher/EntityDataSerializer
+	METHOD a createAccessor (I)Lsb;
+	METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a read (Lkv;)Ljava/lang/Object;
+	METHOD a write (Lkv;Ljava/lang/Object;)V

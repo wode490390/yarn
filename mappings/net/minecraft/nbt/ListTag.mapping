@@ -1,33 +1,50 @@
-CLASS net/minecraft/class_2499 net/minecraft/nbt/ListTag
-	FIELD field_11550 value Ljava/util/List;
-	FIELD field_11551 type B
-	FIELD field_21039 READER Lnet/minecraft/class_4614;
-	FIELD field_21461 NBT_NUMBER_TYPES Lit/unimi/dsi/fastutil/bytes/ByteSet;
-	METHOD <init> (Ljava/util/List;B)V
-		ARG 1 list
-		ARG 2 type
-	METHOD add (ILjava/lang/Object;)V
-		ARG 1 value
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
-	METHOD method_10600 getInt (I)I
-	METHOD method_10601 getElementType ()I
-	METHOD method_10602 getCompound (I)Lnet/minecraft/class_2487;
-		ARG 1 index
-	METHOD method_10603 getList (I)Lnet/minecraft/class_2499;
-		ARG 1 index
-	METHOD method_10604 getFloat (I)F
-		ARG 1 index
-	METHOD method_10605 canAdd (Lnet/minecraft/class_2520;)Z
-		ARG 1 tag
-	METHOD method_10608 getString (I)Ljava/lang/String;
-		ARG 1 index
-	METHOD method_10609 getShort (I)S
-		ARG 1 index
-	METHOD method_10610 getIntArray (I)[I
-		ARG 1 index
-	METHOD method_10611 getDouble (I)D
-		ARG 1 index
-	METHOD method_17809 forgetTypeIfEmpty ()V
-	METHOD set (ILjava/lang/Object;)Ljava/lang/Object;
-		ARG 1 index
+CLASS jz net/minecraft/nbt/ListTag
+	FIELD a TYPE Lkl;
+	FIELD b INLINE_ELEMENT_TYPES Lit/unimi/dsi/fastutil/bytes/ByteSet;
+	FIELD c list Ljava/util/List;
+	FIELD h type B
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/List;B)V
+	METHOD <init> <init> (Ljava/util/List;BLjz$1;)V
+	METHOD a getId ()B
+	METHOD a getCompound (I)Ljt;
+	METHOD a setTag (ILkj;)Z
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Llf;
+	METHOD a updateType (Lkj;)Z
+	METHOD a_ getElementType ()I
+	METHOD add add (ILjava/lang/Object;)V
+	METHOD b getType ()Lkl;
+	METHOD b getList (I)Ljz;
+	METHOD b addTag (ILkj;)Z
+	METHOD b_ stripEmptyChildren ()V
+	METHOD c copy ()Lkj;
+	METHOD c remove (I)Lkj;
+	METHOD c add (ILkj;)V
+	METHOD clear clear ()V
+	METHOD d copy ()Ljz;
+	METHOD d getShort (I)S
+	METHOD d set (ILkj;)Lkj;
+	METHOD e getInt (I)I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getIntArray (I)[I
+	METHOD g updateTypeAfterRemove ()V
+	METHOD g getLongArray (I)[J
+	METHOD get get (I)Ljava/lang/Object;
+	METHOD h getDouble (I)D
+	METHOD hashCode hashCode ()I
+	METHOD i getFloat (I)F
+	METHOD isEmpty isEmpty ()Z
+	METHOD j getString (I)Ljava/lang/String;
+	METHOD k get (I)Lkj;
+	METHOD remove remove (I)Ljava/lang/Object;
+	METHOD set set (ILjava/lang/Object;)Ljava/lang/Object;
+	METHOD size size ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a load (Ljava/io/DataInput;ILkc;)Ljz;
+		METHOD b getPrettyName ()Ljava/lang/String;
+		METHOD b load (Ljava/io/DataInput;ILkc;)Lkj;

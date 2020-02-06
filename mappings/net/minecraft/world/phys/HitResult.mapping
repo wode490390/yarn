@@ -1,0 +1,15 @@
+CLASS cwr net/minecraft/world/phys/HitResult
+	FIELD a location Lcwu;
+	METHOD <init> <init> (Lcwu;)V
+	METHOD a distanceTo (Laky;)D
+	METHOD c getType ()Lcwr$a;
+	METHOD e getLocation ()Lcwu;
+	CLASS a Type
+		FIELD a MISS Lcwr$a;
+		FIELD b BLOCK Lcwr$a;
+		FIELD c ENTITY Lcwr$a;
+		FIELD d $VALUES [Lcwr$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcwr$a;
+		METHOD values values ()[Lcwr$a;

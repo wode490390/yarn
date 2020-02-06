@@ -1,0 +1,6 @@
+CLASS biv net/minecraft/world/item/enchantment/SweepingEdgeEnchantment
+	METHOD <init> <init> (Lbig$a;[Lald;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD b getMaxCost (I)I
+	METHOD e getSweepingDamageRatio (I)F

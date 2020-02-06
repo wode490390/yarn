@@ -1,0 +1,13 @@
+CLASS mt net/minecraft/network/protocol/game/ClientboundContainerSetDataPacket
+	FIELD a containerId I
+	FIELD b id I
+	FIELD c value I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (III)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getContainerId ()I
+	METHOD b write (Lkv;)V
+	METHOD c getId ()I
+	METHOD d getValue ()I

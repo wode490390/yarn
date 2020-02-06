@@ -1,0 +1,19 @@
+CLASS ass net/minecraft/world/entity/ai/targeting/TargetingConditions
+	FIELD a DEFAULT Lass;
+	FIELD b range D
+	FIELD c allowInvulnerable Z
+	FIELD d allowSameTeam Z
+	FIELD e allowUnseeable Z
+	FIELD f allowNonAttackable Z
+	FIELD g testInvisible Z
+	FIELD h selector Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a allowInvulnerable ()Lass;
+	METHOD a range (D)Lass;
+	METHOD a test (Lalh;Lalh;)Z
+	METHOD a selector (Ljava/util/function/Predicate;)Lass;
+	METHOD b allowSameTeam ()Lass;
+	METHOD c allowUnseeable ()Lass;
+	METHOD d allowNonAttackable ()Lass;
+	METHOD e ignoreInvisibilityTesting ()Lass;

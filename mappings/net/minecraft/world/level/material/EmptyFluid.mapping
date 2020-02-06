@@ -1,0 +1,14 @@
+CLASS cpq net/minecraft/world/level/material/EmptyFluid
+	METHOD <init> <init> ()V
+	METHOD a getBucket ()Lber;
+	METHOD a getFlow (Lbjp;Lfk;Lcpt;)Lcwu;
+	METHOD a getTickDelay (Lbki;)I
+	METHOD a getOwnHeight (Lcpt;)F
+	METHOD a getHeight (Lcpt;Lbjp;Lfk;)F
+	METHOD a canBeReplacedWith (Lcpt;Lbjp;Lfk;Lcps;Lfp;)Z
+	METHOD b isEmpty ()Z
+	METHOD b createLegacyBlock (Lcpt;)Lbzh;
+	METHOD b getShape (Lcpt;Lbjp;Lfk;)Lcxo;
+	METHOD c getExplosionResistance ()F
+	METHOD c isSource (Lcpt;)Z
+	METHOD d getAmount (Lcpt;)I

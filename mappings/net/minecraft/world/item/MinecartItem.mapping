@@ -1,0 +1,12 @@
+CLASS bfd net/minecraft/world/item/MinecartItem
+	FIELD a DISPENSE_ITEM_BEHAVIOR Lgl;
+	FIELD b type Lbag$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbag$a;Lber$a;)V
+	METHOD a access$000 (Lbfd;)Lbag$a;
+	METHOD a useOn (Lbgi;)Lajs;
+	CLASS 1 1
+		FIELD b defaultDispenseItemBehavior Lgk;
+		METHOD <init> <init> ()V
+		METHOD a playSound (Lfl;)V
+		METHOD a execute (Lfl;Lbew;)Lbew;

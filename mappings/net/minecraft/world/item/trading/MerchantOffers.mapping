@@ -1,0 +1,7 @@
+CLASS bjj net/minecraft/world/item/trading/MerchantOffers
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljt;)V
+	METHOD a createTag ()Ljt;
+	METHOD a getRecipeFor (Lbew;Lbew;I)Lbji;
+	METHOD a writeToStream (Lkv;)V
+	METHOD b createFromStream (Lkv;)Lbjj;

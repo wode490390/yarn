@@ -1,0 +1,12 @@
+CLASS bgf net/minecraft/world/item/TooltipFlag
+	METHOD a isAdvanced ()Z
+	CLASS a Default
+		FIELD a NORMAL Lbgf$a;
+		FIELD b ADVANCED Lbgf$a;
+		FIELD c advanced Z
+		FIELD d $VALUES [Lbgf$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IZ)V
+		METHOD a isAdvanced ()Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbgf$a;
+		METHOD values values ()[Lbgf$a;

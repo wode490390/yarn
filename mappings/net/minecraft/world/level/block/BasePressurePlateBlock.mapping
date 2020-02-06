@@ -1,0 +1,25 @@
+CLASS bpo net/minecraft/world/level/block/BasePressurePlateBlock
+	FIELD a PRESSED_AABB Lcxo;
+	FIELD b AABB Lcxo;
+	FIELD c TOUCH_AABB Lcwo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD Y_ isPossibleToRespawnInThis ()Z
+	METHOD a updateNeighbours (Lbkf;Lfk;)V
+	METHOD a checkPressed (Lbkf;Lfk;Lbzh;I)V
+	METHOD a playOnSound (Lbkg;Lfk;)V
+	METHOD a getTickDelay (Lbki;)I
+	METHOD a setSignalForState (Lbzh;I)Lbzh;
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a getSignal (Lbzh;Lbjp;Lfk;Lfp;)I
+	METHOD a entityInside (Lbzh;Lbkf;Lfk;Laky;)V
+	METHOD a onRemove (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	METHOD a canSurvive (Lbzh;Lbki;Lfk;)Z
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a_ isSignalSource (Lbzh;)Z
+	METHOD b getSignalStrength (Lbkf;Lfk;)I
+	METHOD b playOffSound (Lbkg;Lfk;)V
+	METHOD b getDirectSignal (Lbzh;Lbjp;Lfk;Lfp;)I
+	METHOD g getPistonPushReaction (Lbzh;)Lcpz;
+	METHOD h getSignalForState (Lbzh;)I

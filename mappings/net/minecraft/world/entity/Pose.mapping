@@ -1,0 +1,13 @@
+CLASS alr net/minecraft/world/entity/Pose
+	FIELD a STANDING Lalr;
+	FIELD b FALL_FLYING Lalr;
+	FIELD c SLEEPING Lalr;
+	FIELD d SWIMMING Lalr;
+	FIELD e SPIN_ATTACK Lalr;
+	FIELD f CROUCHING Lalr;
+	FIELD g DYING Lalr;
+	FIELD h $VALUES [Lalr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lalr;
+	METHOD values values ()[Lalr;

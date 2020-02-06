@@ -1,0 +1,9 @@
+CLASS cdi net/minecraft/world/level/levelgen/carver/ConfiguredWorldCarver
+	FIELD a worldCarver Lcdn;
+	FIELD b config Lcdg;
+	METHOD <init> <init> (Lcdn;Lcdg;)V
+	METHOD <init> <init> (Lcdn;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a carve (Lcax;Ljava/util/function/Function;Ljava/util/Random;IIIIILjava/util/BitSet;)Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdi;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a isStartChunk (Ljava/util/Random;II)Z

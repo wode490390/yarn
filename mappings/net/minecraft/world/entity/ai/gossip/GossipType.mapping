@@ -1,0 +1,19 @@
+CLASS arr net/minecraft/world/entity/ai/gossip/GossipType
+	FIELD a MAJOR_NEGATIVE Larr;
+	FIELD b MINOR_NEGATIVE Larr;
+	FIELD c MINOR_POSITIVE Larr;
+	FIELD d MAJOR_POSITIVE Larr;
+	FIELD e TRADING Larr;
+	FIELD f id Ljava/lang/String;
+	FIELD g weight I
+	FIELD h max I
+	FIELD i decayPerDay I
+	FIELD j decayPerTransfer I
+	FIELD k BY_ID Ljava/util/Map;
+	FIELD l $VALUES [Larr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+	METHOD a lambda$static$0 (Larr;)Ljava/lang/String;
+	METHOD a byId (Ljava/lang/String;)Larr;
+	METHOD valueOf valueOf (Ljava/lang/String;)Larr;
+	METHOD values values ()[Larr;

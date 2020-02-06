@@ -1,0 +1,27 @@
+CLASS bwd net/minecraft/world/level/block/TrapDoorBlock
+	FIELD a OPEN Lbzz;
+	FIELD b HALF Lcaf;
+	FIELD c POWERED Lbzz;
+	FIELD d WATERLOGGED Lbzz;
+	FIELD e EAST_OPEN_AABB Lcxo;
+	FIELD f WEST_OPEN_AABB Lcxo;
+	FIELD g SOUTH_OPEN_AABB Lcxo;
+	FIELD h NORTH_OPEN_AABB Lcxo;
+	FIELD i BOTTOM_AABB Lcxo;
+	FIELD j TOP_AABB Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a playSound (Lays;Lbkf;Lfk;Z)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a isValidSpawn (Lbzh;Lbjp;Lfk;Lalc;)Z
+	METHOD a isPathfindable (Lbzh;Lbjp;Lfk;Lcsa;)Z
+	METHOD a getShape (Lbzh;Lbjp;Lfk;Lcwz;)Lcxo;
+	METHOD a use (Lbzh;Lbkf;Lfk;Lays;Lajr;Lcwp;)Lajs;
+	METHOD a neighborChanged (Lbzh;Lbkf;Lfk;Lbpy;Lfk;Z)V
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD b_ getFluidState (Lbzh;)Lcpt;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		FIELD b $SwitchMap$net$minecraft$world$level$pathfinder$PathComputationType [I
+		METHOD <clinit> <clinit> ()V

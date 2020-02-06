@@ -1,0 +1,6 @@
+CLASS chx net/minecraft/world/level/levelgen/feature/configurations/MineshaftConfiguration
+	FIELD a probability D
+	FIELD b type Lcfn$b;
+	METHOD <init> <init> (DLcfn$b;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lchx;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

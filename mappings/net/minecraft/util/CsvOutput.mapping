@@ -1,0 +1,15 @@
+CLASS abi net/minecraft/util/CsvOutput
+	FIELD a output Ljava/io/Writer;
+	FIELD b columnCount I
+	METHOD <init> <init> (Ljava/io/Writer;Ljava/util/List;)V
+	METHOD <init> <init> (Ljava/io/Writer;Ljava/util/List;Labi$1;)V
+	METHOD a builder ()Labi$a;
+	METHOD a getStringValue (Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a writeLine (Ljava/util/stream/Stream;)V
+	METHOD a writeRow ([Ljava/lang/Object;)V
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a headers Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a build (Ljava/io/Writer;)Labi;
+		METHOD a addColumn (Ljava/lang/String;)Labi$a;

@@ -1,0 +1,3 @@
+CLASS ctb net/minecraft/world/level/storage/PlayerIO
+	METHOD a save (Lays;)V
+	METHOD b load (Lays;)Ljt;

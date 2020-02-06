@@ -1,0 +1,8 @@
+CLASS cqr net/minecraft/world/level/newbiome/layer/IslandLayer
+	FIELD a INSTANCE Lcqr;
+	FIELD b $VALUES [Lcqr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Lcqh;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcqr;
+	METHOD values values ()[Lcqr;

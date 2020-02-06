@@ -1,0 +1,10 @@
+CLASS aqk net/minecraft/world/entity/ai/goal/RandomLookAroundGoal
+	FIELD a mob Lali;
+	FIELD b relX D
+	FIELD c relZ D
+	FIELD d lookTime I
+	METHOD <init> <init> (Lali;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD e tick ()V

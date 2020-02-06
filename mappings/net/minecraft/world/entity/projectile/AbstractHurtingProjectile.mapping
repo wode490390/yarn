@@ -1,0 +1,24 @@
+CLASS ayx net/minecraft/world/entity/projectile/AbstractHurtingProjectile
+	FIELD b owner Lalh;
+	FIELD c xPower D
+	FIELD d yPower D
+	FIELD e zPower D
+	FIELD f life I
+	FIELD g flightTime I
+	METHOD <init> <init> (Lalc;DDDDDDLbkf;)V
+	METHOD <init> <init> (Lalc;Lalh;DDDLbkf;)V
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD L getAddEntityPacket ()Llt;
+	METHOD M_ shouldBurn ()Z
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a hurt (Lakh;F)Z
+	METHOD a onHit (Lcwr;)V
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD aI getBrightness ()F
+	METHOD aK isPickable ()Z
+	METHOD aV getPickRadius ()F
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD h tick ()V
+	METHOD i getTrailParticle ()Lgt;
+	METHOD k getInertia ()F
+	METHOD w_ defineSynchedData ()V

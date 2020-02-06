@@ -1,0 +1,5 @@
+CLASS crj net/minecraft/world/level/newbiome/layer/traits/AreaTransformer2
+	METHOD a lambda$run$1 (Lcqd;Lcqd;Lcqg;)Lcqc;
+	METHOD a lambda$null$0 (Lcqg;Lcqc;Lcqc;II)I
+	METHOD a run (Lcqg;Lcqd;Lcqd;)Lcqd;
+	METHOD a applyPixel (Lcqh;Lcqc;Lcqc;II)I

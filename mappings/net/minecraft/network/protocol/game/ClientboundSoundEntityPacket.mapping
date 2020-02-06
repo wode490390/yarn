@@ -1,0 +1,17 @@
+CLASS ox net/minecraft/network/protocol/game/ClientboundSoundEntityPacket
+	FIELD a sound Laai;
+	FIELD b source Laak;
+	FIELD c id I
+	FIELD d volume F
+	FIELD e pitch F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laai;Laak;Laky;FF)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getSound ()Laai;
+	METHOD b write (Lkv;)V
+	METHOD c getSource ()Laak;
+	METHOD d getId ()I
+	METHOD e getVolume ()F
+	METHOD f getPitch ()F

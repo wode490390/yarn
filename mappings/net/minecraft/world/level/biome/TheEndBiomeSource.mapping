@@ -1,0 +1,8 @@
+CLASS bom net/minecraft/world/level/biome/TheEndBiomeSource
+	FIELD d islandNoise Lcoz;
+	FIELD e random Lcde;
+	FIELD f POSSIBLE_BIOMES Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbon;)V
+	METHOD a getHeightValue (II)F
+	METHOD b getNoiseBiome (III)Lbld;

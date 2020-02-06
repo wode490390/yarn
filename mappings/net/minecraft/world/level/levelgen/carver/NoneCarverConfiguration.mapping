@@ -1,0 +1,4 @@
+CLASS cdk net/minecraft/world/level/levelgen/carver/NoneCarverConfiguration
+	METHOD <init> <init> ()V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdk;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,7 @@
+CLASS aat net/minecraft/stats/StatsCounter
+	FIELD a stats Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD <init> <init> ()V
+	METHOD a getValue (Laap;)I
+	METHOD a getValue (Laar;Ljava/lang/Object;)I
+	METHOD a setValue (Lays;Laap;I)V
+	METHOD b increment (Lays;Laap;I)V

@@ -1,0 +1,11 @@
+CLASS or net/minecraft/network/protocol/game/ClientboundSetPassengersPacket
+	FIELD a vehicle I
+	FIELD b passengers [I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Laky;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getPassengers ()[I
+	METHOD b write (Lkv;)V
+	METHOD c getVehicle ()I

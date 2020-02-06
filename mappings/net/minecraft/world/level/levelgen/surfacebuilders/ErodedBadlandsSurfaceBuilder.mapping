@@ -1,0 +1,8 @@
+CLASS cof net/minecraft/world/level/levelgen/surfacebuilders/ErodedBadlandsSurfaceBuilder
+	FIELD ac WHITE_TERRACOTTA Lbzh;
+	FIELD ad ORANGE_TERRACOTTA Lbzh;
+	FIELD ae TERRACOTTA Lbzh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJLcor;)V
+	METHOD a apply (Ljava/util/Random;Lcax;Lbld;IIIDLbzh;Lbzh;IJLcos;)V

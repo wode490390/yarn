@@ -1,0 +1,4 @@
+CLASS cfz net/minecraft/world/level/levelgen/feature/RandomRandomFeature
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lcih;)Z

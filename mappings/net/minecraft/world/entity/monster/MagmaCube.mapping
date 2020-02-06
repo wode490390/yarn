@@ -1,0 +1,21 @@
+CLASS axe net/minecraft/world/entity/monster/MagmaCube
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD H getDefaultLootTable ()Lsm;
+	METHOD a setSize (IZ)V
+	METHOD a checkSpawnObstruction (Lbki;)Z
+	METHOD aI getBrightness ()F
+	METHOD b causeFallDamage (FF)Z
+	METHOD b checkMagmaCubeSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD bf isOnFire ()Z
+	METHOD c jumpInLiquid (Laba;)V
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD dq jumpFromGround ()V
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD eo getJumpDelay ()I
+	METHOD ep decreaseSquish ()V
+	METHOD eq isDealsDamage ()Z
+	METHOD er getAttackDamage ()F
+	METHOD es getSquishSound ()Laai;
+	METHOD et getJumpSound ()Laai;
+	METHOD l getParticleType ()Lgt;

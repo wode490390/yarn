@@ -1,0 +1,22 @@
+CLASS bzg net/minecraft/world/level/block/state/AbstractStateHolder
+	FIELD a owner Ljava/lang/Object;
+	FIELD c PROPERTY_ENTRY_TO_STRING_FUNCTION Ljava/util/function/Function;
+	FIELD d values Lcom/google/common/collect/ImmutableMap;
+	FIELD e neighbours Lcom/google/common/collect/Table;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/Object;Lcom/google/common/collect/ImmutableMap;)V
+	METHOD a getProperties ()Ljava/util/Collection;
+	METHOD a cycle (Lcak;)Ljava/lang/Object;
+	METHOD a setValue (Lcak;Ljava/lang/Comparable;)Ljava/lang/Object;
+	METHOD a findNextInCollection (Ljava/util/Collection;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a populateNeighbours (Ljava/util/Map;)V
+	METHOD b getValues ()Lcom/google/common/collect/ImmutableMap;
+	METHOD b hasProperty (Lcak;)Z
+	METHOD c getValue (Lcak;)Ljava/lang/Comparable;
+	METHOD c makeNeighbourValues (Lcak;Ljava/lang/Comparable;)Ljava/util/Map;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getName (Lcak;Ljava/lang/Comparable;)Ljava/lang/String;
+		METHOD a apply (Ljava/util/Map$Entry;)Ljava/lang/String;
+		METHOD apply apply (Ljava/lang/Object;)Ljava/lang/Object;

@@ -1,0 +1,14 @@
+CLASS f com/mojang/math/Vector4f
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F
+	FIELD d w F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (FFFF)V
+	METHOD a x ()F
+	METHOD a transform (Lb;)V
+	METHOD b y ()F
+	METHOD c z ()F
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,3 @@
+CLASS apq net/minecraft/world/entity/ai/goal/InteractGoal
+	METHOD <init> <init> (Lali;Ljava/lang/Class;F)V
+	METHOD <init> <init> (Lali;Ljava/lang/Class;FF)V

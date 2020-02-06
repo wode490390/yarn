@@ -1,0 +1,20 @@
+CLASS cvw net/minecraft/world/level/storage/loot/predicates/LootItemConditions
+	FIELD a CONDITIONS_BY_NAME Ljava/util/Map;
+	FIELD b CONDITIONS_BY_CLASS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcvv$b;)V
+	METHOD a getSerializer (Lcvv;)Lcvv$b;
+	METHOD a lambda$orConditions$2 (Ljava/lang/Object;)Z
+	METHOD a getSerializer (Lsm;)Lcvv$b;
+	METHOD a andConditions ([Ljava/util/function/Predicate;)Ljava/util/function/Predicate;
+	METHOD a lambda$orConditions$3 ([Ljava/util/function/Predicate;Ljava/lang/Object;)Z
+	METHOD b lambda$andConditions$0 (Ljava/lang/Object;)Z
+	METHOD b orConditions ([Ljava/util/function/Predicate;)Ljava/util/function/Predicate;
+	METHOD b lambda$andConditions$1 ([Ljava/util/function/Predicate;Ljava/lang/Object;)Z
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lcvv;
+		METHOD a serialize (Lcvv;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

@@ -1,0 +1,20 @@
+CLASS mn net/minecraft/network/protocol/game/ClientboundChunkBlocksUpdatePacket
+	FIELD a chunkPos Lbjq;
+	FIELD b updates [Lmn$a;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I[SLcbk;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD a access$000 (Lmn;)Lbjq;
+	METHOD b getUpdates ()[Lmn$a;
+	METHOD b write (Lkv;)V
+	CLASS a BlockUpdate
+		FIELD a this$0 Lmn;
+		FIELD b offset S
+		FIELD c block Lbzh;
+		METHOD <init> <init> (Lmn;SLbzh;)V
+		METHOD <init> <init> (Lmn;SLcbk;)V
+		METHOD a getPos ()Lfk;
+		METHOD b getOffset ()S
+		METHOD c getBlock ()Lbzh;

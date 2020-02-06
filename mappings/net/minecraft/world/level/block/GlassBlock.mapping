@@ -1,0 +1,2 @@
+CLASS bsh net/minecraft/world/level/block/GlassBlock
+	METHOD <init> <init> (Lbpy$c;)V

@@ -1,0 +1,4 @@
+CLASS bgj net/minecraft/world/item/WaterLilyBlockItem
+	METHOD <init> <init> (Lbpy;Lber$a;)V
+	METHOD a useOn (Lbgi;)Lajs;
+	METHOD a use (Lbkf;Lays;Lajr;)Lajt;

@@ -1,0 +1,6 @@
+CLASS ajd net/minecraft/util/thread/ReentrantBlockableEventLoop
+	FIELD b reentrantCount I
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD ax scheduleExecutables ()Z
+	METHOD bo runningTask ()Z
+	METHOD c doRunTask (Ljava/lang/Runnable;)V

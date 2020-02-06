@@ -1,0 +1,8 @@
+CLASS azf net/minecraft/world/entity/projectile/LargeFireball
+	FIELD f explosionPower I
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD <init> <init> (Lbkf;DDDDDD)V
+	METHOD <init> <init> (Lbkf;Lalh;DDD)V
+	METHOD a onHit (Lcwr;)V
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD b addAdditionalSaveData (Ljt;)V

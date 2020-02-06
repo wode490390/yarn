@@ -1,0 +1,11 @@
+CLASS pa net/minecraft/network/protocol/game/ClientboundTabListPacket
+	FIELD a header Llf;
+	FIELD b footer Llf;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Llf;Llf;)V
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getHeader ()Llf;
+	METHOD b write (Lkv;)V
+	METHOD c getFooter ()Llf;

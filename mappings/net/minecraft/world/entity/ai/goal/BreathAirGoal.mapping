@@ -1,0 +1,10 @@
+CLASS apa net/minecraft/world/entity/ai/goal/BreathAirGoal
+	FIELD a mob Lalo;
+	METHOD <init> <init> (Lalo;)V
+	METHOD E_ isInterruptable ()Z
+	METHOD a canUse ()Z
+	METHOD a givesAir (Lbki;Lfk;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD e tick ()V
+	METHOD g findAirPosition ()V

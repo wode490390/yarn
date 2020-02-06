@@ -1,0 +1,22 @@
+CLASS awv net/minecraft/world/entity/monster/Endermite
+	FIELD b life I
+	FIELD c playerSpawned Z
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD a playStepSound (Lfk;Lbzh;)V
+	METHOD a readAdditionalSaveData (Ljt;)V
+	METHOD aR getRidingHeight ()D
+	METHOD at isMovementNoisy ()Z
+	METHOD b checkEndermiteSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD b getStandingEyeHeight (Lalr;Lakz;)F
+	METHOD b addAdditionalSaveData (Ljt;)V
+	METHOD cA registerAttributes ()V
+	METHOD cX getDeathSound ()Laai;
+	METHOD di getMobType ()Lall;
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD h tick ()V
+	METHOD k aiStep ()V
+	METHOD l isPlayerSpawned ()Z
+	METHOD l setYBodyRot (F)V
+	METHOD n registerGoals ()V
+	METHOD r setPlayerSpawned (Z)V

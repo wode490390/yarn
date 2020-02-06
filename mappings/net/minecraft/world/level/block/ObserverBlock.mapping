@@ -1,0 +1,17 @@
+CLASS btu net/minecraft/world/level/block/ObserverBlock
+	FIELD b POWERED Lbzz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getStateForPlacement (Lbcz;)Lbzh;
+	METHOD a updateNeighborsInFront (Lbkf;Lfk;Lbzh;)V
+	METHOD a startSignal (Lbkg;Lfk;)V
+	METHOD a getSignal (Lbzh;Lbjp;Lfk;Lfp;)I
+	METHOD a onRemove (Lbzh;Lbkf;Lfk;Lbzh;Z)V
+	METHOD a mirror (Lbzh;Lbtm;)Lbzh;
+	METHOD a rotate (Lbzh;Lbup;)Lbzh;
+	METHOD a updateShape (Lbzh;Lfp;Lbzh;Lbkg;Lfk;Lfk;)Lbzh;
+	METHOD a tick (Lbzh;Lxe;Lfk;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lbzi$a;)V
+	METHOD a_ isSignalSource (Lbzh;)Z
+	METHOD b getDirectSignal (Lbzh;Lbjp;Lfk;Lfp;)I
+	METHOD b onPlace (Lbzh;Lbkf;Lfk;Lbzh;Z)V

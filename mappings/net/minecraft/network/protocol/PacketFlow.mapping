@@ -1,0 +1,9 @@
+CLASS lu net/minecraft/network/protocol/PacketFlow
+	FIELD a SERVERBOUND Llu;
+	FIELD b CLIENTBOUND Llu;
+	FIELD c $VALUES [Llu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a getOpposite ()Llu;
+	METHOD valueOf valueOf (Ljava/lang/String;)Llu;
+	METHOD values values ()[Llu;

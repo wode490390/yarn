@@ -1,0 +1,12 @@
+CLASS can net/minecraft/world/level/block/state/properties/SlabType
+	FIELD a TOP Lcan;
+	FIELD b BOTTOM Lcan;
+	FIELD c DOUBLE Lcan;
+	FIELD d name Ljava/lang/String;
+	FIELD e $VALUES [Lcan;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD o getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcan;
+	METHOD values values ()[Lcan;

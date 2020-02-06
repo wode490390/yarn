@@ -1,0 +1,6 @@
+CLASS bph net/minecraft/world/level/block/BarrierBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getShadeBrightness (Lbzh;Lbjp;Lfk;)F
+	METHOD a isValidSpawn (Lbzh;Lbjp;Lfk;Lalc;)Z
+	METHOD b propagatesSkylightDown (Lbzh;Lbjp;Lfk;)Z
+	METHOD c getRenderShape (Lbzh;)Lbul;

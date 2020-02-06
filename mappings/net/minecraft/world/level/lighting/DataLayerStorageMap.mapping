@@ -1,0 +1,14 @@
+CLASS cpe net/minecraft/world/level/lighting/DataLayerStorageMap
+	FIELD a map Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;
+	FIELD b lastSectionKeys [J
+	FIELD c lastSections [Lcbe;
+	FIELD d cacheEnabled Z
+	METHOD <init> <init> (Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;)V
+	METHOD a copyDataLayer (J)V
+	METHOD a setLayer (JLcbe;)V
+	METHOD b copy ()Lcpe;
+	METHOD b hasLayer (J)Z
+	METHOD c clearCache ()V
+	METHOD c getLayer (J)Lcbe;
+	METHOD d disableCache ()V
+	METHOD d removeLayer (J)Lcbe;

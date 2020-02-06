@@ -1,0 +1,6 @@
+CLASS anp net/minecraft/world/entity/ai/behavior/SetHiddenState
+	FIELD a closeEnoughDist I
+	FIELD b stayHiddenTicks I
+	FIELD c ticksHidden I
+	METHOD <init> <init> (II)V
+	METHOD a start (Lxe;Lalh;J)V

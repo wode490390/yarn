@@ -1,0 +1,7 @@
+CLASS boy net/minecraft/world/level/block/AbstractGlassBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a getShadeBrightness (Lbzh;Lbjp;Lfk;)F
+	METHOD a isValidSpawn (Lbzh;Lbjp;Lfk;Lalc;)Z
+	METHOD b propagatesSkylightDown (Lbzh;Lbjp;Lfk;)Z
+	METHOD c isSuffocating (Lbzh;Lbjp;Lfk;)Z
+	METHOD d isRedstoneConductor (Lbzh;Lbjp;Lfk;)Z

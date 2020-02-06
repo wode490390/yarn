@@ -1,0 +1,7 @@
+CLASS ces net/minecraft/world/level/levelgen/feature/EndPodiumFeature
+	FIELD a END_PODIUM_LOCATION Lfk;
+	FIELD aw active Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lchs;)Z
+	METHOD a place (Lbkg;Lcaz;Ljava/util/Random;Lfk;Lcia;)Z

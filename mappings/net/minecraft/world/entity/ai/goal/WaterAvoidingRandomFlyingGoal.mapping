@@ -1,0 +1,4 @@
+CLASS arb net/minecraft/world/entity/ai/goal/WaterAvoidingRandomFlyingGoal
+	METHOD <init> <init> (Lalo;D)V
+	METHOD g getPosition ()Lcwu;
+	METHOD j getTreePos ()Lcwu;

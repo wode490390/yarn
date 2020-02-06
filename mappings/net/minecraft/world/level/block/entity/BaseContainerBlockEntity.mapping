@@ -1,0 +1,15 @@
+CLASS bxd net/minecraft/world/level/block/entity/BaseContainerBlockEntity
+	FIELD a lockKey Laju;
+	FIELD b name Llf;
+	METHOD <init> <init> (Lbxk;)V
+	METHOD M getName ()Llf;
+	METHOD O getCustomName ()Llf;
+	METHOD a createMenu (ILayr;)Lbaw;
+	METHOD a canUnlock (Lays;Laju;Llf;)Z
+	METHOD a load (Ljt;)V
+	METHOD a setCustomName (Llf;)V
+	METHOD b save (Ljt;)Ljt;
+	METHOD createMenu createMenu (ILayr;Lays;)Lbaw;
+	METHOD d getDisplayName ()Llf;
+	METHOD e canOpen (Lays;)Z
+	METHOD g getDefaultName ()Llf;

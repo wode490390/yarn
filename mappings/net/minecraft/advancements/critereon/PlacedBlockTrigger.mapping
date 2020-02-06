@@ -1,0 +1,22 @@
+CLASS bv net/minecraft/advancements/critereon/PlacedBlockTrigger
+	FIELD a ID Lsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lsm;
+	METHOD a lambda$createInstance$0 (Lbpy;Ljava/lang/String;)V
+	METHOD a lambda$trigger$2 (Lbzh;Lfk;Lxf;Lbew;Lbv$a;)Z
+	METHOD a deserializeBlock (Lcom/google/gson/JsonObject;)Lbpy;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lac;
+	METHOD a lambda$deserializeBlock$1 (Lsm;)Lcom/google/gson/JsonSyntaxException;
+	METHOD a trigger (Lxf;Lfk;Lbew;)V
+	METHOD b access$000 ()Lsm;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbv$a;
+	CLASS a TriggerInstance
+		FIELD a block Lbpy;
+		FIELD b state Lcc;
+		FIELD c location Lbp;
+		FIELD d item Lbj;
+		METHOD <init> <init> (Lbpy;Lcc;Lbp;Lbj;)V
+		METHOD a placedBlock (Lbpy;)Lbv$a;
+		METHOD a matches (Lbzh;Lfk;Lxe;Lbew;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

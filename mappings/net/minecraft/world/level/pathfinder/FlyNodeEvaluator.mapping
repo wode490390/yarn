@@ -1,0 +1,14 @@
+CLASS crw net/minecraft/world/level/pathfinder/FlyNodeEvaluator
+	METHOD <init> <init> ()V
+	METHOD a done ()V
+	METHOD a getGoal (DDD)Lcsd;
+	METHOD a getNode (III)Lcrx;
+	METHOD a getBlockPathType (Lali;III)Lcrv;
+	METHOD a getBlockPathType (Lali;Lfk;)Lcrv;
+	METHOD a getBlockPathType (Lbjp;III)Lcrv;
+	METHOD a getBlockPathType (Lbjp;IIILali;IIIZZ)Lcrv;
+	METHOD a prepare (Lbkq;Lali;)V
+	METHOD a hasMalus (Lcrx;)Z
+	METHOD a getNeighbors ([Lcrx;Lcrx;)I
+	METHOD b getStart ()Lcrx;
+	METHOD b isOpen (Lcrx;)Z

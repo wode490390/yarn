@@ -1,0 +1,30 @@
+CLASS cpo net/minecraft/world/level/lighting/SpatialLongSet
+	FIELD a map Lcpo$a;
+	METHOD <init> <init> (IF)V
+	METHOD add add (J)Z
+	METHOD isEmpty isEmpty ()Z
+	METHOD rem rem (J)Z
+	METHOD removeFirstLong removeFirstLong ()J
+	METHOD size size ()I
+	CLASS a InternalMap
+		FIELD a X_BITS I
+		FIELD b Z_BITS I
+		FIELD c Y_BITS I
+		FIELD d Z_OFFSET I
+		FIELD e X_OFFSET I
+		FIELD g OUTER_MASK J
+		FIELD h lastPos I
+		FIELD i lastOuterKey J
+		FIELD j minSize I
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (IF)V
+		METHOD a removeFirstBit ()J
+		METHOD a replaceBit (IJ)Z
+		METHOD a getOuterKey (J)J
+		METHOD a getFullKey (JI)J
+		METHOD b removeFromEntry (IJ)Z
+		METHOD b getInnerKey (J)I
+		METHOD c addBit (J)Z
+		METHOD d removeBit (J)Z
+		METHOD e removeFromNullEntry (J)Z
+		METHOD rehash rehash (I)V

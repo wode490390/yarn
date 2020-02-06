@@ -1,0 +1,3 @@
+CLASS ayh net/minecraft/world/entity/npc/VillagerDataHolder
+	METHOD a setVillagerData (Layg;)V
+	METHOD eA getVillagerData ()Layg;

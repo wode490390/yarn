@@ -1,0 +1,23 @@
+CLASS aaw net/minecraft/tags/EntityTypeTags
+	FIELD a SKELETONS Laba;
+	FIELD b RAIDERS Laba;
+	FIELD c BEEHIVE_INHABITORS Laba;
+	FIELD d ARROWS Laba;
+	FIELD e source Labb;
+	FIELD f resetCount I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getAllTags ()Labb;
+	METHOD a reset (Labb;)V
+	METHOD a bind (Ljava/lang/String;)Laba;
+	METHOD a lambda$static$0 (Lsm;)Ljava/util/Optional;
+	METHOD b access$000 ()I
+	METHOD c access$100 ()Labb;
+	CLASS a Wrapper
+		FIELD a check I
+		FIELD b actual Laba;
+		METHOD <init> <init> (Lsm;)V
+		METHOD a getValues ()Ljava/util/Collection;
+		METHOD a contains (Lalc;)Z
+		METHOD a contains (Ljava/lang/Object;)Z
+		METHOD b getSource ()Ljava/util/Collection;

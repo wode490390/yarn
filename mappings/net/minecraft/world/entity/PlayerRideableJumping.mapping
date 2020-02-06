@@ -1,0 +1,7 @@
+CLASS alq net/minecraft/world/entity/PlayerRideableJumping
+	METHOD G_ canJump ()Z
+	METHOD H_ getJumpRidingScale ()F
+	METHOD a_ setJumpRidingScale (F)V
+	METHOD a_ onPlayerJump (I)V
+	METHOD b handleStartJump (I)V
+	METHOD c handleStopJump ()V

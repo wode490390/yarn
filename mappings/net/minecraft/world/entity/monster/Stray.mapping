@@ -1,0 +1,8 @@
+CLASS axt net/minecraft/world/entity/monster/Stray
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD b checkStraySpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD b getArrow (Lbew;F)Layw;
+	METHOD cX getDeathSound ()Laai;
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD l getStepSound ()Laai;

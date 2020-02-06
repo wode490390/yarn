@@ -1,0 +1,8 @@
+CLASS aju net/minecraft/world/LockCode
+	FIELD a NO_LOCK Laju;
+	FIELD b key Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a unlocksWith (Lbew;)Z
+	METHOD a addToTag (Ljt;)V
+	METHOD b fromTag (Ljt;)Laju;

@@ -1,0 +1,27 @@
+CLASS alv net/minecraft/world/entity/SpawnPlacements
+	FIELD a DATA_BY_TYPE Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getPlacementType (Lalc;)Lalv$c;
+	METHOD a register (Lalc;Lalv$c;Lccu$a;Lalv$b;)V
+	METHOD a checkSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD b getHeightmapType (Lalc;)Lccu$a;
+	CLASS a Data
+		FIELD a heightMap Lccu$a;
+		FIELD b placement Lalv$c;
+		FIELD c predicate Lalv$b;
+		METHOD <init> <init> (Lccu$a;Lalv$c;Lalv$b;)V
+		METHOD a access$000 (Lalv$a;)Lalv$c;
+		METHOD b access$100 (Lalv$a;)Lccu$a;
+		METHOD c access$200 (Lalv$a;)Lalv$b;
+	CLASS b SpawnPredicate
+		METHOD test test (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	CLASS c Type
+		FIELD a ON_GROUND Lalv$c;
+		FIELD b IN_WATER Lalv$c;
+		FIELD c NO_RESTRICTIONS Lalv$c;
+		FIELD d $VALUES [Lalv$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lalv$c;
+		METHOD values values ()[Lalv$c;

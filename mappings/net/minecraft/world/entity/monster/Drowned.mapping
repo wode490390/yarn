@@ -1,0 +1,77 @@
+CLASS aws net/minecraft/world/entity/monster/Drowned
+	FIELD b waterNavigation Lasb;
+	FIELD bw searchingForLand Z
+	FIELD c groundNavigation Lary;
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD a populateDefaultEquipmentSlots (Lajq;)V
+	METHOD a performRangedAttack (Lalh;F)V
+	METHOD a access$100 (Laws;)Z
+	METHOD a access$002 (Laws;Larz;)Larz;
+	METHOD a canReplaceCurrentItem (Lbew;Lbew;Lald;)Z
+	METHOD a finalizeSpawn (Lbkg;Lajq;Lalk;Lalu;Ljt;)Lalu;
+	METHOD a isDeepEnoughToSpawn (Lbkg;Lfk;)Z
+	METHOD a checkSpawnObstruction (Lbki;)Z
+	METHOD aB updateSwimming ()V
+	METHOD am getSwimSound ()Laai;
+	METHOD b checkDrownedSpawnRules (Lalc;Lbkg;Lalk;Lfk;Ljava/util/Random;)Z
+	METHOD b access$200 (Laws;)Z
+	METHOD bM isPushedByWater ()Z
+	METHOD cX getDeathSound ()Laai;
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD e travel (Lcwu;)V
+	METHOD eq supportsBreakDoorGoal ()Z
+	METHOD er getStepSound ()Laai;
+	METHOD es getSkull ()Lbew;
+	METHOD et convertsInWater ()Z
+	METHOD eu closeToNextPos ()Z
+	METHOD ez wantsToSwim ()Z
+	METHOD i okTarget (Lalh;)Z
+	METHOD l addBehaviourGoals ()V
+	METHOD r setSearchingForLand (Z)V
+	CLASS a DrownedAttackGoal
+		FIELD d drowned Laws;
+		METHOD <init> <init> (Laws;DZ)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+	CLASS b DrownedGoToBeachGoal
+		FIELD g drowned Laws;
+		METHOD <init> <init> (Laws;D)V
+		METHOD a canUse ()Z
+		METHOD a isValidTarget (Lbki;Lfk;)Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+	CLASS c DrownedGoToWaterGoal
+		FIELD a mob Lalo;
+		FIELD b wantedX D
+		FIELD c wantedY D
+		FIELD d wantedZ D
+		FIELD e speedModifier D
+		FIELD f level Lbkf;
+		METHOD <init> <init> (Lalo;D)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD g getWaterPos ()Lcwu;
+	CLASS d DrownedMoveControl
+		FIELD i drowned Laws;
+		METHOD <init> <init> (Laws;)V
+		METHOD a tick ()V
+	CLASS e DrownedSwimUpGoal
+		FIELD a drowned Laws;
+		FIELD b speedModifier D
+		FIELD c seaLevel I
+		FIELD d stuck Z
+		METHOD <init> <init> (Laws;DI)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS f DrownedTridentAttackGoal
+		FIELD a drowned Laws;
+		METHOD <init> <init> (Laxk;DIF)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V

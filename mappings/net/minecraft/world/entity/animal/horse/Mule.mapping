@@ -1,0 +1,7 @@
+CLASS auq net/minecraft/world/entity/animal/horse/Mule
+	METHOD <init> <init> (Lalc;Lbkf;)V
+	METHOD G getAmbientSound ()Laai;
+	METHOD a getBreedOffspring (Lakw;)Lakw;
+	METHOD cX getDeathSound ()Laai;
+	METHOD e getHurtSound (Lakh;)Laai;
+	METHOD et playChestEquipsSound ()V

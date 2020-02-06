@@ -1,0 +1,13 @@
+CLASS cur net/minecraft/world/level/storage/loot/functions/LootItemFunction
+	METHOD a decorate (Ljava/util/function/BiFunction;Ljava/util/function/Consumer;Lctg;)Ljava/util/function/Consumer;
+	METHOD a lambda$decorate$0 (Ljava/util/function/Consumer;Ljava/util/function/BiFunction;Lctg;Lbew;)V
+	CLASS a Builder
+		METHOD b build ()Lcur;
+	CLASS b Serializer
+		FIELD a name Lsm;
+		FIELD b clazz Ljava/lang/Class;
+		METHOD <init> <init> (Lsm;Ljava/lang/Class;)V
+		METHOD a getName ()Lsm;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Lcur;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getFunctionClass ()Ljava/lang/Class;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcur;

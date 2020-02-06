@@ -1,0 +1,5 @@
+CLASS aor net/minecraft/world/entity/ai/control/FlyingMoveControl
+	FIELD i maxTurn I
+	FIELD j hoversInPlace Z
+	METHOD <init> <init> (Lali;IZ)V
+	METHOD a tick ()V

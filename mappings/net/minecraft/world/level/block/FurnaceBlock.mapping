@@ -1,0 +1,5 @@
+CLASS bsg net/minecraft/world/level/block/FurnaceBlock
+	METHOD <init> <init> (Lbpy$c;)V
+	METHOD a newBlockEntity (Lbjp;)Lbxj;
+	METHOD a openContainer (Lbkf;Lfk;Lays;)V
+	METHOD a animateTick (Lbzh;Lbkf;Lfk;Ljava/util/Random;)V

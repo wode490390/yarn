@@ -1,0 +1,11 @@
+CLASS nz net/minecraft/network/protocol/game/ClientboundRemoveMobEffectPacket
+	FIELD a entityId I
+	FIELD b effect Lakq;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILakq;)V
+	METHOD a getEntity (Lbkf;)Laky;
+	METHOD a read (Lkv;)V
+	METHOD a handle (Lky;)V
+	METHOD a handle (Llw;)V
+	METHOD b getEffect ()Lakq;
+	METHOD b write (Lkv;)V

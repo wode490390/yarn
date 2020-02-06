@@ -1,0 +1,8 @@
+CLASS amo net/minecraft/world/entity/ai/behavior/EntityPosWrapper
+	FIELD a entity Laky;
+	METHOD <init> <init> (Laky;)V
+	METHOD a getPos ()Lfk;
+	METHOD a isVisible (Lalh;)Z
+	METHOD b getLookAtPos ()Lcwu;
+	METHOD c getEntity ()Laky;
+	METHOD toString toString ()Ljava/lang/String;

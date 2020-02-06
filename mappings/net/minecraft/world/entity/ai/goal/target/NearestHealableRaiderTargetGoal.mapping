@@ -1,0 +1,7 @@
+CLASS ark net/minecraft/world/entity/ai/goal/target/NearestHealableRaiderTargetGoal
+	FIELD i cooldown I
+	METHOD <init> <init> (Lazx;Ljava/lang/Class;ZLjava/util/function/Predicate;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V
+	METHOD h getCooldown ()I
+	METHOD j decrementCooldown ()V

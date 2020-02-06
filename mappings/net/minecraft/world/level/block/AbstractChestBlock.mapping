@@ -1,0 +1,4 @@
+CLASS bow net/minecraft/world/level/block/AbstractChestBlock
+	FIELD a blockEntityType Ljava/util/function/Supplier;
+	METHOD <init> <init> (Lbpy$c;Ljava/util/function/Supplier;)V
+	METHOD a combine (Lbzh;Lbkf;Lfk;Z)Lbrk$c;

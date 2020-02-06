@@ -1,0 +1,16 @@
+CLASS azy net/minecraft/world/entity/raid/Raids
+	FIELD a raidMap Ljava/util/Map;
+	FIELD b level Lxe;
+	FIELD c nextAvailableID I
+	FIELD d tick I
+	METHOD <init> <init> (Lxe;)V
+	METHOD a tick ()V
+	METHOD a get (I)Lazw;
+	METHOD a canJoinRaid (Lazx;Lazw;)Z
+	METHOD a getFileId (Lccg;)Ljava/lang/String;
+	METHOD a getNearbyRaid (Lfk;I)Lazw;
+	METHOD a load (Ljt;)V
+	METHOD a getOrCreateRaid (Lxe;Lfk;)Lazw;
+	METHOD a createOrExtendRaid (Lxf;)Lazw;
+	METHOD b save (Ljt;)Ljt;
+	METHOD e getUniqueId ()I

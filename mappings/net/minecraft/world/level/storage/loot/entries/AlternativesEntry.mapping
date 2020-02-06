@@ -1,0 +1,13 @@
+CLASS ctq net/minecraft/world/level/storage/loot/entries/AlternativesEntry
+	METHOD <init> <init> ([Lctz;[Lcvv;)V
+	METHOD a validate (Lctp;)V
+	METHOD a compose ([Lctr;)Lctr;
+	METHOD a lambda$compose$0 ([Lctr;Lctg;Ljava/util/function/Consumer;)Z
+	METHOD a alternatives ([Lctz$a;)Lctq$a;
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		METHOD <init> <init> ([Lctz$a;)V
+		METHOD a getThis ()Lctq$a;
+		METHOD a otherwise (Lctz$a;)Lctq$a;
+		METHOD b build ()Lctz;
+		METHOD d getThis ()Lctz$a;
