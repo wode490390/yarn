@@ -1,0 +1,14 @@
+CLASS bdc net/minecraft/world/entity/projectile/ThrowableItemProjectile
+	FIELD c DATA_ITEM_STACK Lth;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;DDDLbnx;)V
+	METHOD <init> <init> (Lanf;Lanm;Lbnx;)V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b setItem (Lbin;)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD c lambda$setItem$0 (Lbin;)V
+	METHOD f getItem ()Lbin;
+	METHOD i getDefaultItem ()Lbii;
+	METHOD k getItemRaw ()Lbin;
+	METHOD w_ defineSynchedData ()V

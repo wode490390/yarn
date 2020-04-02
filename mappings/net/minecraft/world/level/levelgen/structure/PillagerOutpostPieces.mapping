@@ -1,0 +1,7 @@
+CLASS ctk net/minecraft/world/level/levelgen/structure/PillagerOutpostPieces
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a addPieces (Lcfl;Lcuq;Lfo;Ljava/util/List;Lcjm;)V
+	CLASS a PillagerOutpostPiece
+		METHOD <init> <init> (Lcuq;Lcqf;Lfo;ILbyv;Lcsw;)V
+		METHOD <init> <init> (Lcuq;Lkz;)V

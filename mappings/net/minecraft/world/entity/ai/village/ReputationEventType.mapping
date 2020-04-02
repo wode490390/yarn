@@ -1,0 +1,12 @@
+CLASS awa net/minecraft/world/entity/ai/village/ReputationEventType
+	FIELD a ZOMBIE_VILLAGER_CURED Lawa;
+	FIELD b GOLEM_KILLED Lawa;
+	FIELD c VILLAGER_HURT Lawa;
+	FIELD d VILLAGER_KILLED Lawa;
+	FIELD e TRADE Lawa;
+	METHOD <clinit> <clinit> ()V
+	METHOD a register (Ljava/lang/String;)Lawa;
+	CLASS 1 1
+		FIELD f val$name Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD toString toString ()Ljava/lang/String;

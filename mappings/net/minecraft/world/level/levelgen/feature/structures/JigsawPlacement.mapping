@@ -1,0 +1,32 @@
+CLASS cqc net/minecraft/world/level/levelgen/feature/structures/JigsawPlacement
+	FIELD a POOLS Lcqi;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$500 ()Lorg/apache/logging/log4j/Logger;
+	METHOD a addPieces (Lts;ILcqc$a;Lcfl;Lcuq;Lfo;Ljava/util/List;Ljava/util/Random;)V
+	CLASS 1 1
+	CLASS a PieceFactory
+		METHOD create create (Lcuq;Lcqf;Lfo;ILbyv;Lcsw;)Lctl;
+	CLASS b PieceState
+		FIELD a piece Lctl;
+		FIELD b free Ljava/util/concurrent/atomic/AtomicReference;
+		FIELD c boundsTop I
+		FIELD d depth I
+		METHOD <init> <init> (Lctl;Ljava/util/concurrent/atomic/AtomicReference;II)V
+		METHOD <init> <init> (Lctl;Ljava/util/concurrent/atomic/AtomicReference;IILcqc$1;)V
+		METHOD a access$100 (Lcqc$b;)Lctl;
+		METHOD b access$200 (Lcqc$b;)Ljava/util/concurrent/atomic/AtomicReference;
+		METHOD c access$300 (Lcqc$b;)I
+		METHOD d access$400 (Lcqc$b;)I
+	CLASS c Placer
+		FIELD a maxDepth I
+		FIELD b factory Lcqc$a;
+		FIELD c chunkGenerator Lcfl;
+		FIELD d structureManager Lcuq;
+		FIELD e pieces Ljava/util/List;
+		FIELD f random Ljava/util/Random;
+		FIELD g placing Ljava/util/Deque;
+		METHOD <init> <init> (Lts;ILcqc$a;Lcfl;Lcuq;Lfo;Ljava/util/List;Ljava/util/Random;)V
+		METHOD a lambda$tryPlacingChildren$0 (Lcsw;Lcuu$b;)I
+		METHOD a tryPlacingChildren (Lctl;Ljava/util/concurrent/atomic/AtomicReference;II)V

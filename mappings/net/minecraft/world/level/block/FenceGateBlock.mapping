@@ -1,0 +1,30 @@
+CLASS bvx net/minecraft/world/level/block/FenceGateBlock
+	FIELD a OPEN Lcel;
+	FIELD b POWERED Lcel;
+	FIELD c IN_WALL Lcel;
+	FIELD d Z_SHAPE Ldej;
+	FIELD e X_SHAPE Ldej;
+	FIELD f Z_SHAPE_LOW Ldej;
+	FIELD g X_SHAPE_LOW Ldej;
+	FIELD h Z_COLLISION_SHAPE Ldej;
+	FIELD i X_COLLISION_SHAPE Ldej;
+	FIELD j Z_OCCLUSION_SHAPE Ldej;
+	FIELD k X_OCCLUSION_SHAPE Ldej;
+	FIELD o Z_OCCLUSION_SHAPE_LOW Ldej;
+	FIELD p X_OCCLUSION_SHAPE_LOW Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a neighborChanged (Lcdt;Lbnx;Lfo;Lbtu;Lfo;Z)V
+	METHOD a connectsToDirection (Lcdt;Lft;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD c getCollisionShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD d getOcclusionShape (Lcdt;Lbnh;Lfo;)Ldej;
+	METHOD h isWall (Lcdt;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$pathfinder$PathComputationType [I
+		METHOD <clinit> <clinit> ()V

@@ -1,0 +1,5 @@
+CLASS bwg net/minecraft/world/level/block/GlazedTerracottaBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD f getPistonPushReaction (Lcdt;)Lcwt;

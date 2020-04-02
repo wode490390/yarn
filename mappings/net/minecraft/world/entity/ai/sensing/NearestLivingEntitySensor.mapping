@@ -1,0 +1,8 @@
+CLASS avm net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor
+	FIELD a TARGETING Lavw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a lambda$doTick$1 (Lanm;Lanm;)Z
+	METHOD a doTick (Lyn;Lanm;)V
+	METHOD b lambda$doTick$0 (Lanm;Lanm;)Z

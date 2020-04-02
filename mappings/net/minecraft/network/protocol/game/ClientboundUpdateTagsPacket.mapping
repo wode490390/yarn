@@ -1,0 +1,9 @@
+CLASS qo net/minecraft/network/protocol/game/ClientboundUpdateTagsPacket
+	FIELD a tags Lacl;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lacl;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getTags ()Lacl;
+	METHOD b write (Lmb;)V

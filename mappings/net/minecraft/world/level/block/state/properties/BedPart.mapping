@@ -1,0 +1,11 @@
+CLASS cei net/minecraft/world/level/block/state/properties/BedPart
+	FIELD a HEAD Lcei;
+	FIELD b FOOT Lcei;
+	FIELD c name Ljava/lang/String;
+	FIELD d $VALUES [Lcei;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcei;
+	METHOD values values ()[Lcei;

@@ -1,0 +1,27 @@
+CLASS bmk net/minecraft/world/item/enchantment/ProtectionEnchantment
+	FIELD a type Lbmk$a;
+	METHOD <init> <init> (Lblx$a;Lbmk$a;[Lang;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a getDamageProtection (ILaml;)I
+	METHOD a getExplosionKnockbackAfterDampener (Lanm;D)D
+	METHOD a getFireAfterDampener (Lanm;I)I
+	METHOD a checkCompatibility (Lblx;)Z
+	METHOD b getMaxCost (I)I
+	CLASS a Type
+		FIELD a ALL Lbmk$a;
+		FIELD b FIRE Lbmk$a;
+		FIELD c FALL Lbmk$a;
+		FIELD d EXPLOSION Lbmk$a;
+		FIELD e PROJECTILE Lbmk$a;
+		FIELD f name Ljava/lang/String;
+		FIELD g minCost I
+		FIELD h levelCost I
+		FIELD i $VALUES [Lbmk$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;II)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD b getMinCost ()I
+		METHOD c getLevelCost ()I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbmk$a;
+		METHOD values values ()[Lbmk$a;

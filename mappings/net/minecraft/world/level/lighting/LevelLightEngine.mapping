@@ -1,0 +1,15 @@
+CLASS cwe net/minecraft/world/level/lighting/LevelLightEngine
+	FIELD a blockEngine Lcwb;
+	FIELD b skyEngine Lcwb;
+	METHOD <init> <init> (Lcfy;ZZ)V
+	METHOD a hasLightWork ()Z
+	METHOD a runUpdates (IZZ)I
+	METHOD a enableLightSources (Lbni;Z)V
+	METHOD a getLayerListener (Lbog;)Lcwc;
+	METHOD a getDebugData (Lbog;Lgj;)Ljava/lang/String;
+	METHOD a queueSectionData (Lbog;Lgj;Lcfq;)V
+	METHOD a checkBlock (Lfo;)V
+	METHOD a onBlockEmissionIncrease (Lfo;I)V
+	METHOD a updateSectionStatus (Lgj;Z)V
+	METHOD b retainData (Lbni;Z)V
+	METHOD b getRawBrightness (Lfo;I)I

@@ -1,0 +1,20 @@
+CLASS bsx net/minecraft/world/level/block/AntBlock
+	FIELD a FACING Lceo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a move (Lcdt;Lyn;Lfo;Lbsx$a;)V
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$AntBlock$Step [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Step
+		FIELD a CW Lbsx$a;
+		FIELD b CCW Lbsx$a;
+		FIELD c $VALUES [Lbsx$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbsx$a;
+		METHOD values values ()[Lbsx$a;

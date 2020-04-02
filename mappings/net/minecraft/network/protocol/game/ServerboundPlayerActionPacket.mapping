@@ -1,0 +1,26 @@
+CLASS rp net/minecraft/network/protocol/game/ServerboundPlayerActionPacket
+	FIELD a pos Lfo;
+	FIELD b direction Lft;
+	FIELD c action Lrp$a;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lrp$a;Lfo;Lft;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getPos ()Lfo;
+	METHOD b write (Lmb;)V
+	METHOD c getDirection ()Lft;
+	METHOD d getAction ()Lrp$a;
+	CLASS a Action
+		FIELD a START_DESTROY_BLOCK Lrp$a;
+		FIELD b ABORT_DESTROY_BLOCK Lrp$a;
+		FIELD c STOP_DESTROY_BLOCK Lrp$a;
+		FIELD d DROP_ALL_ITEMS Lrp$a;
+		FIELD e DROP_ITEM Lrp$a;
+		FIELD f RELEASE_USE_ITEM Lrp$a;
+		FIELD g SWAP_HELD_ITEMS Lrp$a;
+		FIELD h $VALUES [Lrp$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lrp$a;
+		METHOD values values ()[Lrp$a;

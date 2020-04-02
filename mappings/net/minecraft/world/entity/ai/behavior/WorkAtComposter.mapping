@@ -1,0 +1,7 @@
+CLASS ark net/minecraft/world/entity/ai/behavior/WorkAtComposter
+	FIELD b COMPOSTABLE_ITEMS Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a makeBread (Lbbu;)V
+	METHOD a useWorkstation (Lyn;Lbbu;)V
+	METHOD a compostItems (Lyn;Lbbu;Lfx;Lcdt;)V

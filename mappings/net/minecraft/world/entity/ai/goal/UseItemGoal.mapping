@@ -1,0 +1,10 @@
+CLASS atz net/minecraft/world/entity/ai/goal/UseItemGoal
+	FIELD a mob Lann;
+	FIELD b item Lbin;
+	FIELD c canUseSelector Ljava/util/function/Predicate;
+	FIELD d finishUsingSound Labr;
+	METHOD <init> <init> (Lann;Lbin;Labr;Ljava/util/function/Predicate;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

@@ -1,0 +1,17 @@
+CLASS aq net/minecraft/advancements/critereon/ConstructBeaconTrigger
+	FIELD a ID Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lts;
+	METHOD a lambda$trigger$0 (Lcbo;Laq$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lae;
+	METHOD a trigger (Lyo;Lcbo;)V
+	METHOD b access$000 ()Lts;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Laq$a;
+	CLASS a TriggerInstance
+		FIELD a level Lbu$d;
+		METHOD <init> <init> (Lbu$d;)V
+		METHOD a constructedBeacon (Lbu$d;)Laq$a;
+		METHOD a matches (Lcbo;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD c constructedBeacon ()Laq$a;

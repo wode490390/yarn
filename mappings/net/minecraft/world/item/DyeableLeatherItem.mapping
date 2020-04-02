@@ -1,0 +1,6 @@
+CLASS bhm net/minecraft/world/item/DyeableLeatherItem
+	METHOD a hasCustomColor (Lbin;)Z
+	METHOD a setColor (Lbin;I)V
+	METHOD a dyeArmor (Lbin;Ljava/util/List;)Lbin;
+	METHOD b getColor (Lbin;)I
+	METHOD c clearColor (Lbin;)V

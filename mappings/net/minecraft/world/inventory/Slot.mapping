@@ -1,0 +1,25 @@
+CLASS bfz net/minecraft/world/inventory/Slot
+	FIELD a slot I
+	FIELD c container Lalo;
+	FIELD d index I
+	FIELD e x I
+	FIELD f y I
+	METHOD <init> <init> (Lalo;III)V
+	METHOD a getMaxStackSize ()I
+	METHOD a remove (I)Lbin;
+	METHOD a isAt (Lalo;I)Z
+	METHOD a mayPickup (Lbch;)Z
+	METHOD a onTake (Lbch;Lbin;)Lbin;
+	METHOD a swap (Lbfz;)V
+	METHOD a mayPlace (Lbin;)Z
+	METHOD a onQuickCraft (Lbin;I)V
+	METHOD a onQuickCraft (Lbin;Lbin;)V
+	METHOD b isActive ()Z
+	METHOD b onSwapCraft (I)V
+	METHOD b getMaxStackSize (Lbin;)I
+	METHOD c getNoItemIcon ()Lcom/mojang/datafixers/util/Pair;
+	METHOD c checkTakeAchievements (Lbin;)V
+	METHOD d setChanged ()V
+	METHOD d set (Lbin;)V
+	METHOD e getItem ()Lbin;
+	METHOD f hasItem ()Z

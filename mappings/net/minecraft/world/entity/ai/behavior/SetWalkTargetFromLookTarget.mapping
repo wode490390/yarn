@@ -1,0 +1,5 @@
+CLASS aqm net/minecraft/world/entity/ai/behavior/SetWalkTargetFromLookTarget
+	FIELD b speedModifier F
+	FIELD c closeEnoughDistance I
+	METHOD <init> <init> (FI)V
+	METHOD a start (Lyn;Lanm;J)V

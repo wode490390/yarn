@@ -1,0 +1,2 @@
+CLASS bpi net/minecraft/world/level/biome/BirchForestBiome
+	METHOD <init> <init> ()V

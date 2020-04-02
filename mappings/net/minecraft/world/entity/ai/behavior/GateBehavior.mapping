@@ -1,0 +1,52 @@
+CLASS apb net/minecraft/world/entity/ai/behavior/GateBehavior
+	FIELD b exitErasedMemories Ljava/util/Set;
+	FIELD c orderPolicy Lapb$a;
+	FIELD d runningPolicy Lapb$b;
+	FIELD e behaviors Larj;
+	METHOD <init> <init> (Ljava/util/Map;Ljava/util/Set;Lapb$a;Lapb$b;Ljava/util/List;)V
+	METHOD a timedOut (J)Z
+	METHOD a lambda$toString$7 (Laor;)Z
+	METHOD a lambda$new$0 (Lcom/mojang/datafixers/util/Pair;)V
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a lambda$stop$6 (Lyn;Lanm;JLaor;)V
+	METHOD b lambda$stop$5 (Laor;)Z
+	METHOD b canStillUse (Lyn;Lanm;J)Z
+	METHOD b lambda$tick$4 (Lyn;Lanm;JLaor;)V
+	METHOD c lambda$tick$3 (Laor;)Z
+	METHOD c stop (Lyn;Lanm;J)V
+	METHOD c lambda$canStillUse$2 (Lyn;Lanm;JLaor;)Z
+	METHOD d lambda$canStillUse$1 (Laor;)Z
+	METHOD d tick (Lyn;Lanm;J)V
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+	CLASS a OrderPolicy
+		FIELD a ORDERED Lapb$a;
+		FIELD b SHUFFLED Lapb$a;
+		FIELD c consumer Ljava/util/function/Consumer;
+		FIELD d $VALUES [Lapb$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/util/function/Consumer;)V
+		METHOD a apply (Larj;)V
+		METHOD b lambda$static$0 (Larj;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lapb$a;
+		METHOD values values ()[Lapb$a;
+	CLASS b RunningPolicy
+		FIELD a RUN_ONE Lapb$b;
+		FIELD b TRY_ALL Lapb$b;
+		FIELD c $VALUES [Lapb$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD <init> <init> (Ljava/lang/String;ILapb$1;)V
+		METHOD a apply (Larj;Lyn;Lanm;J)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lapb$b;
+		METHOD values values ()[Lapb$b;
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD a lambda$apply$0 (Laor;)Z
+			METHOD a apply (Larj;Lyn;Lanm;J)V
+			METHOD a lambda$apply$1 (Lyn;Lanm;JLaor;)Z
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD a lambda$apply$0 (Laor;)Z
+			METHOD a apply (Larj;Lyn;Lanm;J)V
+			METHOD a lambda$apply$1 (Lyn;Lanm;JLaor;)V

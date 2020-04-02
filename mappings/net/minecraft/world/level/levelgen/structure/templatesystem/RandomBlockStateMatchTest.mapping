@@ -1,0 +1,8 @@
+CLASS cum net/minecraft/world/level/levelgen/structure/templatesystem/RandomBlockStateMatchTest
+	FIELD a blockState Lcdt;
+	FIELD b probability F
+	METHOD <init> <init> (Lcdt;F)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getType ()Lcup;
+	METHOD a test (Lcdt;Ljava/util/Random;)Z
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

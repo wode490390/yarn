@@ -1,0 +1,25 @@
+CLASS k net/minecraft/CrashReportCategory
+	FIELD a report Lj;
+	FIELD b title Ljava/lang/String;
+	FIELD c entries Ljava/util/List;
+	FIELD d stackTrace [Ljava/lang/StackTraceElement;
+	METHOD <init> <init> (Lj;Ljava/lang/String;)V
+	METHOD a getStacktrace ()[Ljava/lang/StackTraceElement;
+	METHOD a formatLocation (DDD)Ljava/lang/String;
+	METHOD a fillInStackTrace (I)I
+	METHOD a formatLocation (III)Ljava/lang/String;
+	METHOD a formatLocation (Lfo;)Ljava/lang/String;
+	METHOD a validateStackTrace (Ljava/lang/StackTraceElement;Ljava/lang/StackTraceElement;)Z
+	METHOD a setDetail (Ljava/lang/String;Ljava/lang/Object;)Lk;
+	METHOD a setDetailError (Ljava/lang/String;Ljava/lang/Throwable;)V
+	METHOD a setDetail (Ljava/lang/String;Ll;)Lk;
+	METHOD a getDetails (Ljava/lang/StringBuilder;)V
+	METHOD a populateBlockDetails (Lk;Lfo;Lcdt;)V
+	METHOD b trimStacktrace (I)V
+	METHOD b lambda$populateBlockDetails$0 (Lfo;)Ljava/lang/String;
+	CLASS a Entry
+		FIELD a key Ljava/lang/String;
+		FIELD b value Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Object;)V
+		METHOD a getKey ()Ljava/lang/String;
+		METHOD b getValue ()Ljava/lang/String;

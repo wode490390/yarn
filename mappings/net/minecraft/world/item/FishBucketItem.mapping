@@ -1,0 +1,7 @@
+CLASS bhz net/minecraft/world/item/FishBucketItem
+	FIELD a type Lanf;
+	METHOD <init> <init> (Lanf;Lcwm;Lbii$a;)V
+	METHOD a playEmptySound (Lbch;Lbny;Lfo;)V
+	METHOD a appendHoverText (Lbin;Lbnx;Ljava/util/List;Lbjw;)V
+	METHOD a checkExtraContent (Lbnx;Lbin;Lfo;)V
+	METHOD b spawn (Lbnx;Lbin;Lfo;)V

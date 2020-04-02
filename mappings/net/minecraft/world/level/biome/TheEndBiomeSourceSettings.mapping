@@ -1,0 +1,4 @@
+CLASS bsj net/minecraft/world/level/biome/TheEndBiomeSourceSettings
+	FIELD a seed J
+	METHOD <init> <init> (J)V
+	METHOD a getSeed ()J

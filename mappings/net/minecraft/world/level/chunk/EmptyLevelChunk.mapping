@@ -1,0 +1,24 @@
+CLASS cfr net/minecraft/world/level/chunk/EmptyLevelChunk
+	FIELD b BIOMES [Lboy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbnx;Lbni;)V
+	METHOD a isYSpaceEmpty (II)Z
+	METHOD a addEntity (Lanb;)V
+	METHOD a removeEntity (Lanb;I)V
+	METHOD a getEntities (Lanb;Lddj;Ljava/util/List;Ljava/util/function/Predicate;)V
+	METHOD a addBlockEntity (Lcbt;)V
+	METHOD a setBlockEntity (Lfo;Lcbt;)V
+	METHOD a setBlockState (Lfo;Lcdt;Z)Lcdt;
+	METHOD a getBlockEntity (Lfo;Lcfw$a;)Lcbt;
+	METHOD a getEntitiesOfClass (Ljava/lang/Class;Lddj;Ljava/util/List;Ljava/util/function/Predicate;)V
+	METHOD a lambda$static$0 ([Lboy;)V
+	METHOD b removeEntity (Lanb;)V
+	METHOD b getFluidState (Lfo;)Lcwn;
+	METHOD d removeBlockEntity (Lfo;)V
+	METHOD d_ getBlockState (Lfo;)Lcdt;
+	METHOD e getLightEngine ()Lcwe;
+	METHOD g getLightBlock (Lfo;)I
+	METHOD h getLightEmission (Lfo;)I
+	METHOD s markUnsaved ()V
+	METHOD t isEmpty ()Z
+	METHOD u getFullStatus ()Lxy$b;

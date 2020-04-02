@@ -1,0 +1,9 @@
+CLASS cno net/minecraft/world/level/levelgen/feature/blockplacers/BlockPlacerType
+	FIELD a SIMPLE_BLOCK_PLACER Lcno;
+	FIELD b DOUBLE_PLANT_PLACER Lcno;
+	FIELD c COLUMN_PLACER Lcno;
+	FIELD d deserializer Ljava/util/function/Function;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcnn;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Function;)Lcno;

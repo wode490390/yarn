@@ -1,0 +1,9 @@
+CLASS ciu net/minecraft/world/level/dimension/special/SpecialDimensionBase
+	FIELD g level Lbnx;
+	METHOD <init> <init> (Lbnx;Lcgv;F)V
+	METHOD a getValidSpawnPosition (IIZ)Lfo;
+	METHOD a getSpawnPosInChunk (Lbni;Z)Lfo;
+	METHOD a fixedBiome (Lboy;)Lbqc;
+	METHOD b normalBiomes (J)Lbri;
+	METHOD l isNaturalDimension ()Z
+	METHOD m mayRespawn ()Z

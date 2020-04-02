@@ -1,0 +1,12 @@
+CLASS abz net/minecraft/stats/StatFormatter
+	FIELD a DECIMAL_FORMAT Ljava/text/DecimalFormat;
+	FIELD b DEFAULT Labz;
+	FIELD c DIVIDE_BY_TEN Labz;
+	FIELD d DISTANCE Labz;
+	FIELD e TIME Labz;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$3 (I)Ljava/lang/String;
+	METHOD a lambda$static$0 (Ljava/text/DecimalFormat;)V
+	METHOD b lambda$static$2 (I)Ljava/lang/String;
+	METHOD c lambda$static$1 (I)Ljava/lang/String;
+	METHOD format format (I)Ljava/lang/String;

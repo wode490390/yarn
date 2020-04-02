@@ -1,0 +1,8 @@
+CLASS ki net/minecraft/gametest/framework/GameTestTicker
+	FIELD a singleton Lki;
+	FIELD b testInfos Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a clear ()V
+	METHOD a add (Lkc;)V
+	METHOD b tick ()V

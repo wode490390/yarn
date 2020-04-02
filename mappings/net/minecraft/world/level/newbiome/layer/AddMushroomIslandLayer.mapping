@@ -1,0 +1,9 @@
+CLASS cxh net/minecraft/world/level/newbiome/layer/AddMushroomIslandLayer
+	FIELD a INSTANCE Lcxh;
+	FIELD b MUSHROOM_FIELDS I
+	FIELD c $VALUES [Lcxh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcxb;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxh;
+	METHOD values values ()[Lcxh;

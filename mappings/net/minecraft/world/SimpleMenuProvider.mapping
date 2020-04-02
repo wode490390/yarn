@@ -1,0 +1,6 @@
+CLASS amc net/minecraft/world/SimpleMenuProvider
+	FIELD a title Lml;
+	FIELD b menuConstructor Lbfm;
+	METHOD <init> <init> (Lbfm;Lml;)V
+	METHOD createMenu createMenu (ILbcg;Lbch;)Lbel;
+	METHOD d getDisplayName ()Lml;

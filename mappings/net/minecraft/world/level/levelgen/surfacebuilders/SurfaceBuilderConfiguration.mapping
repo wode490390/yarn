@@ -1,0 +1,5 @@
+CLASS cvm net/minecraft/world/level/levelgen/surfacebuilders/SurfaceBuilderConfiguration
+	METHOD a getTopMaterial ()Lcdt;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b getUnderMaterial ()Lcdt;
+	METHOD c getUnderwaterMaterial ()Lcdt;

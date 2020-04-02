@@ -1,0 +1,20 @@
+CLASS dch net/minecraft/world/level/storage/loot/predicates/BonusLevelTableCondition
+	FIELD a enchantment Lblx;
+	FIELD b values [F
+	METHOD <init> <init> (Lblx;[F)V
+	METHOD <init> <init> (Lblx;[FLdch$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a bonusLevelFlatChance (Lblx;[F)Ldcq$a;
+	METHOD a test (Ldaa;)Z
+	METHOD a access$000 (Ldch;)Lblx;
+	METHOD b lambda$bonusLevelFlatChance$0 (Lblx;[F)Ldcq;
+	METHOD b access$100 (Ldch;)[F
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldch;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldch;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$0 (Lts;)Lcom/google/gson/JsonParseException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcq;

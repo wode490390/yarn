@@ -1,0 +1,12 @@
+CLASS chd net/minecraft/world/level/dimension/special/ColoredBlocks
+	FIELD a CARPETS [Lbtu;
+	FIELD b WOOLS [Lbtu;
+	FIELD c STAINED_GLASS [Lbtu;
+	FIELD d STAINED_GLASS_PANES [Lbtu;
+	FIELD e TERRACOTTA [Lbtu;
+	FIELD f GLAZED_TERRACOTTA [Lbtu;
+	FIELD g CONCRETE [Lbtu;
+	FIELD h CONCRETE_POWDERS [Lbtu;
+	FIELD i COLORED_BLOCKS [[Lbtu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V

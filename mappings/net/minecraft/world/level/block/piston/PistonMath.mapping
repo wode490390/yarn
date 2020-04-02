@@ -1,0 +1,6 @@
+CLASS cdn net/minecraft/world/level/block/piston/PistonMath
+	METHOD <init> <init> ()V
+	METHOD a getMovementArea (Lddj;Lft;D)Lddj;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

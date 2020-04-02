@@ -1,0 +1,4 @@
+CLASS amq net/minecraft/world/effect/AttackDamageMobEffect
+	FIELD a multiplier D
+	METHOD <init> <init> (Lamu;ID)V
+	METHOD a getAttributeModifierValue (ILaof;)D

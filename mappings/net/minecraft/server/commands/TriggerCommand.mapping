@@ -1,0 +1,15 @@
+CLASS xa net/minecraft/server/commands/TriggerCommand
+	FIELD a ERROR_NOT_PRIMED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_INVALID_OBJECTIVE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a suggestObjectives (Lcu;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a simpleTrigger (Lcu;Ldeo;)I
+	METHOD a addValue (Lcu;Ldeo;I)I
+	METHOD a getScore (Lyo;Ldem;)Ldeo;
+	METHOD b lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b setValue (Lcu;Ldeo;I)I
+	METHOD c lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

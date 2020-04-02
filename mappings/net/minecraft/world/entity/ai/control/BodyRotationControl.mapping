@@ -1,0 +1,11 @@
+CLASS arn net/minecraft/world/entity/ai/control/BodyRotationControl
+	FIELD a mob Lann;
+	FIELD b headStableTime I
+	FIELD c lastStableYHeadRot F
+	METHOD <init> <init> (Lann;)V
+	METHOD a clientTick ()V
+	METHOD b rotateBodyIfNecessary ()V
+	METHOD c rotateHeadIfNecessary ()V
+	METHOD d rotateHeadTowardsFront ()V
+	METHOD e notCarryingMobPassengers ()Z
+	METHOD f isMoving ()Z

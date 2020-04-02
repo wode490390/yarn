@@ -1,0 +1,10 @@
+CLASS dde net/minecraft/world/level/timers/TimerCallback
+	METHOD a handle (Ljava/lang/Object;Lddg;J)V
+	CLASS a Serializer
+		FIELD a id Lts;
+		FIELD b cls Ljava/lang/Class;
+		METHOD <init> <init> (Lts;Ljava/lang/Class;)V
+		METHOD a getId ()Lts;
+		METHOD a serialize (Lkz;Ldde;)V
+		METHOD b getCls ()Ljava/lang/Class;
+		METHOD b deserialize (Lkz;)Ldde;

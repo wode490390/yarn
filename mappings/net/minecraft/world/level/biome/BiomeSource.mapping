@@ -1,0 +1,19 @@
+CLASS bpc net/minecraft/world/level/biome/BiomeSource
+	FIELD a supportedStructures Ljava/util/Map;
+	FIELD b surfaceBlocks Ljava/util/Set;
+	FIELD c possibleBiomes Ljava/util/Set;
+	FIELD d PLAYER_SPAWN_BIOMES Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/Set;)V
+	METHOD a getPlayerSpawnBiomes ()Ljava/util/List;
+	METHOD a getHeightValue (II)F
+	METHOD a getBiomesWithin (IIII)Ljava/util/Set;
+	METHOD a findBiomeHorizontal (IIIIILjava/util/List;Ljava/util/Random;Z)Lfo;
+	METHOD a findBiomeHorizontal (IIIILjava/util/List;Ljava/util/Random;)Lfo;
+	METHOD a canGenerateStructure (Lcna;)Z
+	METHOD a lambda$null$0 (Lcna;Lboy;)Z
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b getSurfaceBlocks ()Ljava/util/Set;
+	METHOD b lambda$canGenerateStructure$1 (Lcna;)Ljava/lang/Boolean;
+	METHOD c getType ()Lbpe;
+	METHOD d getKnownBiomes ()Ljava/util/stream/Stream;

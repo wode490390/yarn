@@ -1,0 +1,22 @@
+CLASS byh net/minecraft/world/level/block/PressurePlateBlock
+	FIELD d POWERED Lcel;
+	FIELD e sensitivity Lbyh$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbyh$a;Lcds$c;)V
+	METHOD a playOnSound (Lbny;Lfo;)V
+	METHOD a setSignalForState (Lcdt;I)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getSignalStrength (Lbnx;Lfo;)I
+	METHOD b playOffSound (Lbny;Lfo;)V
+	METHOD g getSignalForState (Lcdt;)I
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$PressurePlateBlock$Sensitivity [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Sensitivity
+		FIELD a EVERYTHING Lbyh$a;
+		FIELD b MOBS Lbyh$a;
+		FIELD c $VALUES [Lbyh$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbyh$a;
+		METHOD values values ()[Lbyh$a;

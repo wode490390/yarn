@@ -1,0 +1,13 @@
+CLASS vx net/minecraft/server/commands/PlaySoundCommand
+	FIELD a ERROR_TOO_FAR Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a source (Labt;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+	METHOD a lambda$source$5 (Labt;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$0 (Lcu;)Z
+	METHOD a playSound (Lcu;Ljava/util/Collection;Lts;Labt;Lddp;FFF)I
+	METHOD b lambda$source$4 (Labt;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$source$3 (Labt;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$source$2 (Labt;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$source$1 (Labt;Lcom/mojang/brigadier/context/CommandContext;)I

@@ -1,0 +1,33 @@
+CLASS bfn net/minecraft/world/inventory/MenuType
+	FIELD a GENERIC_9x1 Lbfn;
+	FIELD b GENERIC_9x2 Lbfn;
+	FIELD c GENERIC_9x3 Lbfn;
+	FIELD d GENERIC_9x4 Lbfn;
+	FIELD e GENERIC_9x5 Lbfn;
+	FIELD f GENERIC_9x6 Lbfn;
+	FIELD g GENERIC_3x3 Lbfn;
+	FIELD h ANVIL Lbfn;
+	FIELD i BEACON Lbfn;
+	FIELD j BLAST_FURNACE Lbfn;
+	FIELD k BREWING_STAND Lbfn;
+	FIELD l CRAFTING Lbfn;
+	FIELD m ENCHANTMENT Lbfn;
+	FIELD n FURNACE Lbfn;
+	FIELD o GRINDSTONE Lbfn;
+	FIELD p HOPPER Lbfn;
+	FIELD q LECTERN Lbfn;
+	FIELD r LOOM Lbfn;
+	FIELD s MERCHANT Lbfn;
+	FIELD t SHULKER_BOX Lbfn;
+	FIELD u SMITHING Lbfn;
+	FIELD v SMOKER Lbfn;
+	FIELD w CARTOGRAPHY_TABLE Lbfn;
+	FIELD x STONECUTTER Lbfn;
+	FIELD y constructor Lbfn$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbfn$a;)V
+	METHOD a create (ILbcg;)Lbel;
+	METHOD a register (Ljava/lang/String;Lbfn$a;)Lbfn;
+	METHOD b lambda$static$0 (ILbcg;)Lbfk;
+	CLASS a MenuSupplier
+		METHOD create create (ILbcg;)Lbel;

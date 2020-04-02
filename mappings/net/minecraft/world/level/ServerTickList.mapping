@@ -1,0 +1,22 @@
+CLASS bol net/minecraft/world/level/ServerTickList
+	FIELD a ignore Ljava/util/function/Predicate;
+	FIELD b toId Ljava/util/function/Function;
+	FIELD c tickNextTickSet Ljava/util/Set;
+	FIELD d tickNextTickList Ljava/util/TreeSet;
+	FIELD e level Lyn;
+	FIELD f currentlyTicking Ljava/util/Queue;
+	FIELD g alreadyTicked Ljava/util/List;
+	FIELD h ticker Ljava/util/function/Consumer;
+	METHOD <init> <init> (Lyn;Ljava/util/function/Predicate;Ljava/util/function/Function;Ljava/util/function/Consumer;)V
+	METHOD a size ()I
+	METHOD a save (Lbni;)Llf;
+	METHOD a fetchTicksInChunk (Lbni;ZZ)Ljava/util/List;
+	METHOD a addTickData (Lboo;)V
+	METHOD a copy (Lcsw;Lfo;)V
+	METHOD a fetchTicksInArea (Lcsw;ZZ)Ljava/util/List;
+	METHOD a hasScheduledTick (Lfo;Ljava/lang/Object;)Z
+	METHOD a scheduleTick (Lfo;Ljava/lang/Object;ILbop;)V
+	METHOD a fetchTicksInArea (Ljava/util/List;Ljava/util/Collection;Lcsw;Z)Ljava/util/List;
+	METHOD a saveTickList (Ljava/util/function/Function;Ljava/lang/Iterable;J)Llf;
+	METHOD b tick ()V
+	METHOD b willTickThisTick (Lfo;Ljava/lang/Object;)Z

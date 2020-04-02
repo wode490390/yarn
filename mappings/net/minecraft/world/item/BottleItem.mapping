@@ -1,0 +1,5 @@
+CLASS bgu net/minecraft/world/item/BottleItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a lambda$use$0 (Lana;)Z
+	METHOD a turnBottleIntoItem (Lbin;Lbch;Lbin;)Lbin;
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;

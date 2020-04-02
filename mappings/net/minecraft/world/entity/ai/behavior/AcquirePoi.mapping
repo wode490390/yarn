@@ -1,0 +1,16 @@
+CLASS aom net/minecraft/world/entity/ai/behavior/AcquirePoi
+	FIELD b poiType Lawg;
+	FIELD c memoryType Laut;
+	FIELD d onlyIfAdult Z
+	FIELD e lastUpdate J
+	FIELD f batchCache Lit/unimi/dsi/fastutil/longs/Long2LongMap;
+	FIELD g triedCount I
+	METHOD <init> <init> (Lawg;Laut;Z)V
+	METHOD a lambda$start$2 (Lawd;Lfo;Lant;Lyn;Lawg;)V
+	METHOD a lambda$start$0 (Lfo;)Z
+	METHOD a lambda$null$1 (Lfo;Lfo;)Z
+	METHOD a lambda$start$3 (Lit/unimi/dsi/fastutil/longs/Long2LongMap$Entry;)Z
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a checkExtraStartConditions (Lyn;Lant;)Z
+	METHOD a start (Lyn;Lant;J)V

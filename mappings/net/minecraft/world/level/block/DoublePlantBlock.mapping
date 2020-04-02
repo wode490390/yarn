@@ -1,0 +1,14 @@
+CLASS bvj net/minecraft/world/level/block/DoublePlantBlock
+	FIELD a HALF Lcer;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a playerDestroy (Lbnx;Lbch;Lfo;Lcdt;Lcbt;Lbin;)V
+	METHOD a setPlacedBy (Lbnx;Lfo;Lcdt;Lanm;Lbin;)V
+	METHOD a playerWillDestroy (Lbnx;Lfo;Lcdt;Lbch;)V
+	METHOD a placeAt (Lbny;Lfo;I)V
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a getSeed (Lcdt;Lfo;)J
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD aa_ getOffsetType ()Lcds$b;

@@ -1,0 +1,12 @@
+CLASS chr net/minecraft/world/level/dimension/special/G14
+	FIELD g selector Lg;
+	FIELD h fog Lddp;
+	METHOD <init> <init> (Lbnx;Lcgv;Lg;)V
+	METHOD a modifyLightmapColor (IILg;)V
+	METHOD a getEntityExtraTint (Lanm;)Lg;
+	METHOD a getExtraTint (Lcdt;Lfo;)Lg;
+	METHOD a getBrightnessDependentFogColor (Lddp;F)Lddp;
+	METHOD a create (Lg;)Ljava/util/function/BiFunction;
+	METHOD a lambda$create$0 (Lg;Lbnx;Lcgv;)Lcgt;
+	METHOD s getSunTint ()Lg;
+	METHOD t getMoonTint ()Lg;

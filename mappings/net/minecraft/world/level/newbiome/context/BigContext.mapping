@@ -1,0 +1,8 @@
+CLASS cxa net/minecraft/world/level/newbiome/context/BigContext
+	METHOD a getMixedSeed ()J
+	METHOD a random (II)I
+	METHOD a random (IIII)I
+	METHOD a initRandom (JJ)V
+	METHOD a createResult (Lcyl;)Lcww;
+	METHOD a createResult (Lcyl;Lcww;)Lcww;
+	METHOD a createResult (Lcyl;Lcww;Lcww;)Lcww;

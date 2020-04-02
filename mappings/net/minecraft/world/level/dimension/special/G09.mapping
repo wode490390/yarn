@@ -1,0 +1,8 @@
+CLASS chm net/minecraft/world/level/dimension/special/G09
+	FIELD g WHITE Lg;
+	FIELD h BLACK Lg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD a getEntityExtraTint (Lanm;)Lg;
+	METHOD a getExtraTint (Lcdt;Lfo;)Lg;
+	METHOD a getColor (Lfo;)Lg;

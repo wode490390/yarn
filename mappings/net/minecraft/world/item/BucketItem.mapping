@@ -1,0 +1,9 @@
+CLASS bgx net/minecraft/world/item/BucketItem
+	FIELD a content Lcwm;
+	METHOD <init> <init> (Lcwm;Lbii$a;)V
+	METHOD a emptyBucket (Lbch;Lbnx;Lfo;Lddk;)Z
+	METHOD a playEmptySound (Lbch;Lbny;Lfo;)V
+	METHOD a getEmptySuccessItem (Lbin;Lbch;)Lbin;
+	METHOD a createResultItem (Lbin;Lbch;Lbii;)Lbin;
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;
+	METHOD a checkExtraContent (Lbnx;Lbin;Lfo;)V

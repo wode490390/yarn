@@ -1,0 +1,12 @@
+CLASS cpk net/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacer
+	FIELD a radius I
+	FIELD b radiusRandom I
+	FIELD c type Lcpl;
+	METHOD <init> <init> (IILcpl;)V
+	METHOD a getTreeRadiusForHeight (IIII)I
+	METHOD a createFoliage (Lboc;Ljava/util/Random;Lcpc;IIILfo;Ljava/util/Set;)V
+	METHOD a placeLeavesRow (Lboc;Ljava/util/Random;Lcpc;ILfo;IILjava/util/Set;)V
+	METHOD a placeLeaf (Lboc;Ljava/util/Random;Lfo;Lcpc;Ljava/util/Set;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a shouldSkipLocation (Ljava/util/Random;IIIII)Z
+	METHOD a foliageRadius (Ljava/util/Random;IILcpc;)I

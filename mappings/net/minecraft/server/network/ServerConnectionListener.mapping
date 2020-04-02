@@ -1,0 +1,36 @@
+CLASS ze net/minecraft/server/network/ServerConnectionListener
+	FIELD a SERVER_EVENT_GROUP Lacz;
+	FIELD b SERVER_EPOLL_EVENT_GROUP Lacz;
+	FIELD c running Z
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e server Lnet/minecraft/server/MinecraftServer;
+	FIELD f channels Ljava/util/List;
+	FIELD g connections Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+	METHOD a startMemoryChannel ()Ljava/net/SocketAddress;
+	METHOD a startTcpServerListener (Ljava/net/InetAddress;I)V
+	METHOD a lambda$tick$2 (Llz;Lml;Lio/netty/util/concurrent/Future;)V
+	METHOD a access$000 (Lze;)Ljava/util/List;
+	METHOD b stop ()V
+	METHOD b access$100 (Lze;)Lnet/minecraft/server/MinecraftServer;
+	METHOD c tick ()V
+	METHOD d getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD e lambda$static$1 ()Lio/netty/channel/epoll/EpollEventLoopGroup;
+	METHOD f lambda$static$0 ()Lio/netty/channel/nio/NioEventLoopGroup;
+	CLASS 1 1
+		FIELD a this$0 Lze;
+		METHOD <init> <init> (Lze;)V
+		METHOD initChannel initChannel (Lio/netty/channel/Channel;)V
+	CLASS 2 2
+		FIELD a this$0 Lze;
+		METHOD <init> <init> (Lze;)V
+		METHOD initChannel initChannel (Lio/netty/channel/Channel;)V
+	CLASS a LatencySimulator
+		FIELD a TIMER Lio/netty/util/Timer;
+		FIELD b delay I
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (I)V
+		METHOD a delayDownstream (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V
+		METHOD a lambda$delayDownstream$0 (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Lio/netty/util/Timeout;)V
+		METHOD channelRead channelRead (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V

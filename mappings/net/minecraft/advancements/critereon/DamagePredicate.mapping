@@ -1,0 +1,28 @@
+CLASS at net/minecraft/advancements/critereon/DamagePredicate
+	FIELD a ANY Lat;
+	FIELD b dealtDamage Lbu$c;
+	FIELD c takenDamage Lbu$c;
+	FIELD d sourceEntity Lbd;
+	FIELD e blocked Ljava/lang/Boolean;
+	FIELD f type Lau;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbu$c;Lbu$c;Lbd;Ljava/lang/Boolean;Lau;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lat;
+	METHOD a matches (Lyo;Laml;FFZ)Z
+	CLASS a Builder
+		FIELD a dealtDamage Lbu$c;
+		FIELD b takenDamage Lbu$c;
+		FIELD c sourceEntity Lbd;
+		FIELD d blocked Ljava/lang/Boolean;
+		FIELD e type Lau;
+		METHOD <init> <init> ()V
+		METHOD a damageInstance ()Lat$a;
+		METHOD a type (Lau$a;)Lat$a;
+		METHOD a type (Lau;)Lat$a;
+		METHOD a sourceEntity (Lbd;)Lat$a;
+		METHOD a dealtDamage (Lbu$c;)Lat$a;
+		METHOD a blocked (Ljava/lang/Boolean;)Lat$a;
+		METHOD b build ()Lat;
+		METHOD b takenDamage (Lbu$c;)Lat$a;

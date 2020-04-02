@@ -1,0 +1,18 @@
+CLASS aln net/minecraft/world/CompoundContainer
+	FIELD a container1 Lalo;
+	FIELD b container2 Lalo;
+	METHOD <init> <init> (Lalo;Lalo;)V
+	METHOD P_ getMaxStackSize ()I
+	METHOD R_ clearContent ()V
+	METHOD S_ getContainerSize ()I
+	METHOD a getItem (I)Lbin;
+	METHOD a removeItem (II)Lbin;
+	METHOD a setItem (ILbin;)V
+	METHOD a contains (Lalo;)Z
+	METHOD a stillValid (Lbch;)Z
+	METHOD a_ startOpen (Lbch;)V
+	METHOD b removeItemNoUpdate (I)Lbin;
+	METHOD b canPlaceItem (ILbin;)Z
+	METHOD b_ stopOpen (Lbch;)V
+	METHOD c isEmpty ()Z
+	METHOD e setChanged ()V

@@ -1,0 +1,6 @@
+CLASS jz net/minecraft/gametest/framework/GameTestEvent
+	FIELD a expectedDelay Ljava/lang/Long;
+	FIELD b assertion Ljava/lang/Runnable;
+	METHOD <init> <init> (Ljava/lang/Long;Ljava/lang/Runnable;)V
+	METHOD a create (JLjava/lang/Runnable;)Ljz;
+	METHOD a create (Ljava/lang/Runnable;)Ljz;

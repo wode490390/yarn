@@ -1,0 +1,11 @@
+CLASS cvl net/minecraft/world/level/levelgen/surfacebuilders/SurfaceBuilderBaseConfiguration
+	FIELD a topMaterial Lcdt;
+	FIELD b underMaterial Lcdt;
+	FIELD c underwaterMaterial Lcdt;
+	METHOD <init> <init> (Lcdt;Lcdt;Lcdt;)V
+	METHOD a getTopMaterial ()Lcdt;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcvl;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcvl;
+	METHOD b getUnderMaterial ()Lcdt;
+	METHOD c getUnderwaterMaterial ()Lcdt;

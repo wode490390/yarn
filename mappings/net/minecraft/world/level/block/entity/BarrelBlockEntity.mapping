@@ -1,0 +1,18 @@
+CLASS cbm net/minecraft/world/level/block/entity/BarrelBlockEntity
+	FIELD a items Lge;
+	FIELD b openCount I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcbu;)V
+	METHOD S_ getContainerSize ()I
+	METHOD a createMenu (ILbcg;)Lbel;
+	METHOD a playSound (Lcdt;Labr;)V
+	METHOD a load (Lcdt;Lkz;)V
+	METHOD a updateBlockState (Lcdt;Z)V
+	METHOD a setItems (Lge;)V
+	METHOD a save (Lkz;)Lkz;
+	METHOD a_ startOpen (Lbch;)V
+	METHOD b_ stopOpen (Lbch;)V
+	METHOD f getItems ()Lge;
+	METHOD g getDefaultName ()Lml;
+	METHOD h recheckOpen ()V
+	METHOD j scheduleRecheck ()V

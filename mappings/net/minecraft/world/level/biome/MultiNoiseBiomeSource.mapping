@@ -1,0 +1,16 @@
+CLASS brb net/minecraft/world/level/biome/MultiNoiseBiomeSource
+	FIELD d temperatureNoise Lcvr;
+	FIELD e humidityNoise Lcvr;
+	FIELD f altitudeNoise Lcvr;
+	FIELD g weirdnessNoise Lcvr;
+	FIELD h biomePoints Ljava/util/Map;
+	METHOD <init> <init> (Lbrc;)V
+	METHOD a lambda$getFitness$0 (Lboy$d;Lboy$d;)Ljava/lang/Float;
+	METHOD a lambda$getNoiseBiome$1 (Lboy$d;Lboy;)Ljava/lang/Float;
+	METHOD a getFitness (Lboy;Lboy$d;)F
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$null$3 (Lcom/mojang/datafixers/types/DynamicOps;Lboy$d;)Ljava/lang/Object;
+	METHOD a lambda$serialize$4 (Lcom/mojang/datafixers/types/DynamicOps;Ljava/util/Map$Entry;)Ljava/lang/Object;
+	METHOD b getNoiseBiome (III)Lboy;
+	METHOD b lambda$serialize$2 (Lcom/mojang/datafixers/types/DynamicOps;Ljava/util/Map$Entry;)Ljava/lang/Object;
+	METHOD c getType ()Lbpe;

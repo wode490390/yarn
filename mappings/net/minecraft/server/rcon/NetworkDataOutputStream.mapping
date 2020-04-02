@@ -1,0 +1,12 @@
+CLASS abi net/minecraft/server/rcon/NetworkDataOutputStream
+	FIELD a outputStream Ljava/io/ByteArrayOutputStream;
+	FIELD b dataOutputStream Ljava/io/DataOutputStream;
+	METHOD <init> <init> (I)V
+	METHOD a toByteArray ()[B
+	METHOD a writeFloat (F)V
+	METHOD a write (I)V
+	METHOD a writeString (Ljava/lang/String;)V
+	METHOD a writeShort (S)V
+	METHOD a writeBytes ([B)V
+	METHOD b reset ()V
+	METHOD b writeInt (I)V

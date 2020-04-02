@@ -1,0 +1,17 @@
+CLASS za net/minecraft/server/level/progress/StoringChunkProgressListener
+	FIELD b delegate Lyy;
+	FIELD c statuses Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;
+	FIELD d spawnPos Lbni;
+	FIELD e fullDiameter I
+	FIELD f radius I
+	FIELD g diameter I
+	FIELD h started Z
+	METHOD <init> <init> (I)V
+	METHOD a start ()V
+	METHOD a getStatus (II)Lcfp;
+	METHOD a updateSpawnPos (Lbni;)V
+	METHOD a onStatusChange (Lbni;Lcfp;)V
+	METHOD b stop ()V
+	METHOD c getFullDiameter ()I
+	METHOD d getDiameter ()I
+	METHOD e getProgress ()I

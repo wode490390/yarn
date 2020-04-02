@@ -1,0 +1,4 @@
+CLASS byc net/minecraft/world/level/block/PlayerWallHeadBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a setPlacedBy (Lbnx;Lfo;Lcdt;Lanm;Lbin;)V
+	METHOD a getDrops (Lcdt;Ldaa$a;)Ljava/util/List;

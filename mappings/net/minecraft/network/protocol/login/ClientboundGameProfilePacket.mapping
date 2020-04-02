@@ -1,0 +1,9 @@
+CLASS sp net/minecraft/network/protocol/login/ClientboundGameProfilePacket
+	FIELD a gameProfile Lcom/mojang/authlib/GameProfile;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcom/mojang/authlib/GameProfile;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lsn;)V
+	METHOD b getGameProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD b write (Lmb;)V

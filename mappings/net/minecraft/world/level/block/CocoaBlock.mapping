@@ -1,0 +1,22 @@
+CLASS bun net/minecraft/world/level/block/CocoaBlock
+	FIELD a AGE Lcet;
+	FIELD b EAST_AABB [Ldej;
+	FIELD c WEST_AABB [Ldej;
+	FIELD d NORTH_AABB [Ldej;
+	FIELD e SOUTH_AABB [Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a isValidBonemealTarget (Lbnh;Lfo;Lcdt;Z)Z
+	METHOD a isBonemealSuccess (Lbnx;Ljava/util/Random;Lfo;Lcdt;)Z
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD a performBonemeal (Lyn;Ljava/util/Random;Lfo;Lcdt;)V
+	METHOD a_ isRandomlyTicking (Lcdt;)Z
+	METHOD b isUnstable ()Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

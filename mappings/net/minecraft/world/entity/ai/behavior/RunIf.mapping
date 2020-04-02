@@ -1,0 +1,17 @@
+CLASS aqb net/minecraft/world/entity/ai/behavior/RunIf
+	FIELD b predicate Ljava/util/function/Predicate;
+	FIELD c wrappedBehavior Laor;
+	FIELD d checkWhileRunningAlso Z
+	METHOD <init> <init> (Ljava/util/Map;Laor;)V
+	METHOD <init> <init> (Ljava/util/Map;Ljava/util/function/Predicate;Laor;Z)V
+	METHOD <init> <init> (Ljava/util/function/Predicate;Laor;)V
+	METHOD <init> <init> (Ljava/util/function/Predicate;Laor;Z)V
+	METHOD a timedOut (J)Z
+	METHOD a lambda$new$0 (Lanm;)Z
+	METHOD a mergeMaps (Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD b canStillUse (Lyn;Lanm;J)Z
+	METHOD c stop (Lyn;Lanm;J)V
+	METHOD d tick (Lyn;Lanm;J)V
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,8 @@
+CLASS cpb net/minecraft/world/level/levelgen/feature/configurations/SimpleRandomFeatureConfiguration
+	FIELD a features Ljava/util/List;
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcpb;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lckm;)Ljava/lang/Object;
+	METHOD a random (Ljava/util/Random;)Lcpb;
+	METHOD a lambda$random$1 (Ljava/util/Random;Lcle;)Lckm;

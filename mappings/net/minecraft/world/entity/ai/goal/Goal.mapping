@@ -1,0 +1,22 @@
+CLASS asn net/minecraft/world/entity/ai/goal/Goal
+	FIELD a flags Ljava/util/EnumSet;
+	METHOD <init> <init> ()V
+	METHOD E_ isInterruptable ()Z
+	METHOD a canUse ()Z
+	METHOD a setFlags (Ljava/util/EnumSet;)V
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD i getFlags ()Ljava/util/EnumSet;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Flag
+		FIELD a MOVE Lasn$a;
+		FIELD b LOOK Lasn$a;
+		FIELD c JUMP Lasn$a;
+		FIELD d TARGET Lasn$a;
+		FIELD e $VALUES [Lasn$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lasn$a;
+		METHOD values values ()[Lasn$a;

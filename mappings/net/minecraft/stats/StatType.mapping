@@ -1,0 +1,12 @@
+CLASS aca net/minecraft/stats/StatType
+	FIELD a registry Lgh;
+	FIELD b map Ljava/util/Map;
+	METHOD <init> <init> (Lgh;)V
+	METHOD a getRegistry ()Lgh;
+	METHOD a lambda$get$0 (Labz;Ljava/lang/Object;)Laby;
+	METHOD a contains (Ljava/lang/Object;)Z
+	METHOD a get (Ljava/lang/Object;Labz;)Laby;
+	METHOD b size ()I
+	METHOD b get (Ljava/lang/Object;)Laby;
+	METHOD c getTranslationKey ()Ljava/lang/String;
+	METHOD iterator iterator ()Ljava/util/Iterator;

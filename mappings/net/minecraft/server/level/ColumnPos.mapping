@@ -1,0 +1,11 @@
+CLASS yd net/minecraft/server/level/ColumnPos
+	FIELD a x I
+	FIELD b z I
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> (Lfo;)V
+	METHOD a toChunkPos ()Lbni;
+	METHOD a asLong (II)J
+	METHOD b toLong ()J
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

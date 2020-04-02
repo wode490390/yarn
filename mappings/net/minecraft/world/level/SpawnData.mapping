@@ -1,0 +1,7 @@
+CLASS bom net/minecraft/world/level/SpawnData
+	FIELD b tag Lkz;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILkz;)V
+	METHOD <init> <init> (Lkz;)V
+	METHOD a save ()Lkz;
+	METHOD b getTag ()Lkz;

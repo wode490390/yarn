@@ -1,0 +1,8 @@
+CLASS xb net/minecraft/server/commands/WarpCommand
+	METHOD <init> <init> ()V
+	METHOD a lambda$wrap$2 (Lcfw;Ljava/lang/Integer;)Ljava/util/stream/Stream;
+	METHOD a lambda$null$1 (Lcfw;Ljava/lang/Integer;I)Lfo;
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$0 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a wrap (Lcu;Ljava/lang/String;)I
+	METHOD a lambda$wrap$3 (Lfo;)Z

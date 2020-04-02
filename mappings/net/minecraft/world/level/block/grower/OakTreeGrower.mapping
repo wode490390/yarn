@@ -1,0 +1,3 @@
+CLASS cdg net/minecraft/world/level/block/grower/OakTreeGrower
+	METHOD <init> <init> ()V
+	METHOD a getConfiguredFeature (Ljava/util/Random;Z)Lckm;

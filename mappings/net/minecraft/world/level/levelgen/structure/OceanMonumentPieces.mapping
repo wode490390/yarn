@@ -1,0 +1,151 @@
+CLASS cth net/minecraft/world/level/levelgen/structure/OceanMonumentPieces
+	METHOD <init> <init> ()V
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a FitDoubleXRoom
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcth$1;)V
+		METHOD a fits (Lcth$v;)Z
+		METHOD a create (Lft;Lcth$v;Ljava/util/Random;)Lcth$r;
+	CLASS b FitDoubleXYRoom
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcth$1;)V
+		METHOD a fits (Lcth$v;)Z
+		METHOD a create (Lft;Lcth$v;Ljava/util/Random;)Lcth$r;
+	CLASS c FitDoubleYRoom
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcth$1;)V
+		METHOD a fits (Lcth$v;)Z
+		METHOD a create (Lft;Lcth$v;Ljava/util/Random;)Lcth$r;
+	CLASS d FitDoubleYZRoom
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcth$1;)V
+		METHOD a fits (Lcth$v;)Z
+		METHOD a create (Lft;Lcth$v;Ljava/util/Random;)Lcth$r;
+	CLASS e FitDoubleZRoom
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcth$1;)V
+		METHOD a fits (Lcth$v;)Z
+		METHOD a create (Lft;Lcth$v;Ljava/util/Random;)Lcth$r;
+	CLASS f FitSimpleRoom
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcth$1;)V
+		METHOD a fits (Lcth$v;)Z
+		METHOD a create (Lft;Lcth$v;Ljava/util/Random;)Lcth$r;
+	CLASS g FitSimpleTopRoom
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcth$1;)V
+		METHOD a fits (Lcth$v;)Z
+		METHOD a create (Lft;Lcth$v;Ljava/util/Random;)Lcth$r;
+	CLASS h MonumentBuilding
+		FIELD p sourceRoom Lcth$v;
+		FIELD q coreRoom Lcth$v;
+		FIELD r childPieces Ljava/util/List;
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Ljava/util/Random;IILft;)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+		METHOD a generateEntranceArchs (Lbny;Ljava/util/Random;Lcsw;)V
+		METHOD a generateRoomGraph (Ljava/util/Random;)Ljava/util/List;
+		METHOD a generateWing (ZILbny;Ljava/util/Random;Lcsw;)V
+		METHOD b generateEntranceWall (Lbny;Ljava/util/Random;Lcsw;)V
+		METHOD c generateRoofPiece (Lbny;Ljava/util/Random;Lcsw;)V
+		METHOD d generateLowerWall (Lbny;Ljava/util/Random;Lcsw;)V
+		METHOD e generateMiddleWall (Lbny;Ljava/util/Random;Lcsw;)V
+		METHOD f generateUpperWall (Lbny;Ljava/util/Random;Lcsw;)V
+	CLASS i MonumentRoomFitter
+		METHOD a fits (Lcth$v;)Z
+		METHOD a create (Lft;Lcth$v;Ljava/util/Random;)Lcth$r;
+	CLASS j OceanMonumentCoreRoom
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lft;Lcth$v;)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	CLASS k OceanMonumentDoubleXRoom
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lft;Lcth$v;)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	CLASS l OceanMonumentDoubleXYRoom
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lft;Lcth$v;)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	CLASS m OceanMonumentDoubleYRoom
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lft;Lcth$v;)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	CLASS n OceanMonumentDoubleYZRoom
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lft;Lcth$v;)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	CLASS o OceanMonumentDoubleZRoom
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lft;Lcth$v;)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	CLASS p OceanMonumentEntryRoom
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lft;Lcth$v;)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	CLASS q OceanMonumentPenthouse
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lft;Lcsw;)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	CLASS r OceanMonumentPiece
+		FIELD a BASE_GRAY Lcdt;
+		FIELD b BASE_LIGHT Lcdt;
+		FIELD c BASE_BLACK Lcdt;
+		FIELD d DOT_DECO_DATA Lcdt;
+		FIELD e LAMP_BLOCK Lcdt;
+		FIELD f FILL_BLOCK Lcdt;
+		FIELD g FILL_KEEP Ljava/util/Set;
+		FIELD h GRIDROOM_SOURCE_INDEX I
+		FIELD i GRIDROOM_TOP_CONNECT_INDEX I
+		FIELD j GRIDROOM_LEFTWING_CONNECT_INDEX I
+		FIELD k GRIDROOM_RIGHTWING_CONNECT_INDEX I
+		FIELD l roomDefinition Lcth$v;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Lcnb;I)V
+		METHOD <init> <init> (Lcnb;ILft;Lcth$v;III)V
+		METHOD <init> <init> (Lcnb;Lft;Lcsw;)V
+		METHOD <init> <init> (Lcnb;Lkz;)V
+		METHOD a getRoomX (I)I
+		METHOD a spawnElder (Lbny;Lcsw;III)Z
+		METHOD a generateWaterBox (Lbny;Lcsw;IIIIII)V
+		METHOD a generateBoxOnFillOnly (Lbny;Lcsw;IIIIIILcdt;)V
+		METHOD a generateDefaultFloor (Lbny;Lcsw;IIZ)V
+		METHOD a chunkIntersects (Lcsw;IIII)Z
+		METHOD a addAdditionalSaveData (Lkz;)V
+		METHOD b getRoomY (I)I
+		METHOD b getRoomIndex (III)I
+		METHOD c getRoomZ (I)I
+	CLASS s OceanMonumentSimpleRoom
+		FIELD p mainDesign I
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lft;Lcth$v;Ljava/util/Random;)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	CLASS t OceanMonumentSimpleTopRoom
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lft;Lcth$v;)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	CLASS u OceanMonumentWingRoom
+		FIELD p mainDesign I
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lft;Lcsw;I)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	CLASS v RoomDefinition
+		FIELD a index I
+		FIELD b connections [Lcth$v;
+		FIELD c hasOpening [Z
+		FIELD d claimed Z
+		FIELD e isSource Z
+		FIELD f scanIndex I
+		METHOD <init> <init> (I)V
+		METHOD a updateOpenings ()V
+		METHOD a findSource (I)Z
+		METHOD a access$000 (Lcth$v;)I
+		METHOD a access$102 (Lcth$v;Z)Z
+		METHOD a setConnection (Lft;Lcth$v;)V
+		METHOD b isSpecial ()Z
+		METHOD b access$100 (Lcth$v;)Z
+		METHOD b access$902 (Lcth$v;Z)Z
+		METHOD c countOpenings ()I
+		METHOD c access$1000 (Lcth$v;)[Lcth$v;
+		METHOD d access$1100 (Lcth$v;)[Z

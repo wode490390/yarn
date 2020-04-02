@@ -1,0 +1,5 @@
+CLASS jl net/minecraft/data/structures/StructureUpdater
+	METHOD <init> <init> ()V
+	METHOD a apply (Ljava/lang/String;Lkz;)Lkz;
+	METHOD a patchVersion (Lkz;)Lkz;
+	METHOD b updateStructure (Lkz;)Lkz;

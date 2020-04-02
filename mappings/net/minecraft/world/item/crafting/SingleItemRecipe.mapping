@@ -1,0 +1,27 @@
+CLASS blh net/minecraft/world/item/crafting/SingleItemRecipe
+	FIELD a ingredient Lbkt;
+	FIELD b result Lbin;
+	FIELD c id Lts;
+	FIELD d group Ljava/lang/String;
+	FIELD e type Lbkz;
+	FIELD f serializer Lbky;
+	METHOD <init> <init> (Lbkz;Lbky;Lts;Ljava/lang/String;Lbkt;Lbin;)V
+	METHOD Z_ getSerializer ()Lbky;
+	METHOD a getIngredients ()Lge;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lalo;)Lbin;
+	METHOD c getResultItem ()Lbin;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD f getId ()Lts;
+	METHOD g getType ()Lbkz;
+	CLASS a Serializer
+		FIELD u factory Lblh$a$a;
+		METHOD <init> <init> (Lblh$a$a;)V
+		METHOD a toNetwork (Lmb;Lbkw;)V
+		METHOD a toNetwork (Lmb;Lblh;)V
+		METHOD a fromJson (Lts;Lcom/google/gson/JsonObject;)Lbkw;
+		METHOD a fromNetwork (Lts;Lmb;)Lbkw;
+		METHOD b fromJson (Lts;Lcom/google/gson/JsonObject;)Lblh;
+		METHOD b fromNetwork (Lts;Lmb;)Lblh;
+		CLASS a SingleItemMaker
+			METHOD create create (Lts;Ljava/lang/String;Lbkt;Lbin;)Lblh;

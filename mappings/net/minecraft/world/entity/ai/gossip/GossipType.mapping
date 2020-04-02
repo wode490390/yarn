@@ -1,0 +1,19 @@
+CLASS auq net/minecraft/world/entity/ai/gossip/GossipType
+	FIELD a MAJOR_NEGATIVE Lauq;
+	FIELD b MINOR_NEGATIVE Lauq;
+	FIELD c MINOR_POSITIVE Lauq;
+	FIELD d MAJOR_POSITIVE Lauq;
+	FIELD e TRADING Lauq;
+	FIELD f id Ljava/lang/String;
+	FIELD g weight I
+	FIELD h max I
+	FIELD i decayPerDay I
+	FIELD j decayPerTransfer I
+	FIELD k BY_ID Ljava/util/Map;
+	FIELD l $VALUES [Lauq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+	METHOD a lambda$static$0 (Lauq;)Ljava/lang/String;
+	METHOD a byId (Ljava/lang/String;)Lauq;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lauq;
+	METHOD values values ()[Lauq;

@@ -1,0 +1,20 @@
+CLASS bi net/minecraft/advancements/critereon/FluidPredicate
+	FIELD a ANY Lbi;
+	FIELD b tag Lacj;
+	FIELD c fluid Lcwm;
+	FIELD d properties Lcf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lacj;Lcwm;Lcf;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbi;
+	METHOD a matches (Lyn;Lfo;)Z
+	CLASS a Builder
+		FIELD a fluid Lcwm;
+		FIELD b fluids Lacj;
+		FIELD c properties Lcf;
+		METHOD <init> <init> ()V
+		METHOD a fluid ()Lbi$a;
+		METHOD a of (Lacj;)Lbi$a;
+		METHOD a setProperties (Lcf;)Lbi$a;
+		METHOD a of (Lcwm;)Lbi$a;
+		METHOD b build ()Lbi;

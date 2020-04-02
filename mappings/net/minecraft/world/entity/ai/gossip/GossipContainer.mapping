@@ -1,0 +1,54 @@
+CLASS aup net/minecraft/world/entity/ai/gossip/GossipContainer
+	FIELD a gossips Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD a getGossipEntries ()Ljava/util/Map;
+	METHOD a mergeValuesForTransfer (II)I
+	METHOD a lambda$update$7 (Laup$b;)V
+	METHOD a transferFrom (Laup;Ljava/util/Random;I)V
+	METHOD a remove (Lauq;)V
+	METHOD a mergeValuesForAddition (Lauq;II)I
+	METHOD a lambda$add$5 (Lauq;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;
+	METHOD a getCountForType (Lauq;Ljava/util/function/DoublePredicate;)J
+	METHOD a update (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a store (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$store$6 (Lcom/mojang/datafixers/types/DynamicOps;Laup$b;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$unpack$1 (Ljava/util/Map$Entry;)Ljava/util/stream/Stream;
+	METHOD a lambda$getGossipEntries$0 (Ljava/util/Map;Ljava/util/UUID;)V
+	METHOD a selectGossipsForTransfer (Ljava/util/Random;I)Ljava/util/Collection;
+	METHOD a getOrCreate (Ljava/util/UUID;)Laup$a;
+	METHOD a remove (Ljava/util/UUID;Lauq;)V
+	METHOD a add (Ljava/util/UUID;Lauq;I)V
+	METHOD a getReputation (Ljava/util/UUID;Ljava/util/function/Predicate;)I
+	METHOD a lambda$getCountForType$4 (Ljava/util/function/DoublePredicate;Lauq;Laup$a;)Z
+	METHOD b decay ()V
+	METHOD b lambda$transferFrom$3 (Laup$b;)V
+	METHOD b lambda$getOrCreate$2 (Ljava/util/UUID;)Laup$a;
+	METHOD b remove (Ljava/util/UUID;Lauq;I)V
+	METHOD c unpack ()Ljava/util/stream/Stream;
+	CLASS 1 1
+	CLASS a EntityGossips
+		FIELD a entries Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Laup$1;)V
+		METHOD a decay ()V
+		METHOD a access$000 (Laup$a;)Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+		METHOD a makeSureValueIsntTooLowOrTooHigh (Lauq;)V
+		METHOD a lambda$weightedValue$1 (Lit/unimi/dsi/fastutil/objects/Object2IntMap$Entry;)I
+		METHOD a unpack (Ljava/util/UUID;)Ljava/util/stream/Stream;
+		METHOD a lambda$unpack$2 (Ljava/util/UUID;Lit/unimi/dsi/fastutil/objects/Object2IntMap$Entry;)Laup$b;
+		METHOD a weightedValue (Ljava/util/function/Predicate;)I
+		METHOD a lambda$weightedValue$0 (Ljava/util/function/Predicate;Lit/unimi/dsi/fastutil/objects/Object2IntMap$Entry;)Z
+		METHOD b isEmpty ()Z
+		METHOD b remove (Lauq;)V
+	CLASS b GossipEntry
+		FIELD a target Ljava/util/UUID;
+		FIELD b type Lauq;
+		FIELD c value I
+		METHOD <init> <init> (Ljava/util/UUID;Lauq;I)V
+		METHOD a weightedValue ()I
+		METHOD a load (Lcom/mojang/datafixers/Dynamic;)Ljava/util/Optional;
+		METHOD a lambda$load$2 (Lcom/mojang/datafixers/Dynamic;Lauq;)Ljava/util/Optional;
+		METHOD a lambda$null$1 (Lcom/mojang/datafixers/Dynamic;Lauq;Ljava/util/UUID;)Ljava/util/Optional;
+		METHOD a store (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+		METHOD a lambda$null$0 (Ljava/util/UUID;Lauq;Ljava/lang/Number;)Laup$b;
+		METHOD toString toString ()Ljava/lang/String;

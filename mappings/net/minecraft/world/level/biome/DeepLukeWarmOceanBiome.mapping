@@ -1,0 +1,2 @@
+CLASS bps net/minecraft/world/level/biome/DeepLukeWarmOceanBiome
+	METHOD <init> <init> ()V

@@ -1,0 +1,13 @@
+CLASS azw net/minecraft/world/entity/monster/ElderGuardian
+	FIELD b ELDER_SIZE_SCALE F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD N customServerAiStep ()V
+	METHOD cF registerAttributes ()V
+	METHOD d lambda$customServerAiStep$0 (Lyo;)Z
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD ez getFlopSound ()Labr;
+	METHOD k getAttackDuration ()I
+	METHOD m setGhost ()V

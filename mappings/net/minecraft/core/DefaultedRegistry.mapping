@@ -1,0 +1,11 @@
+CLASS fs net/minecraft/core/DefaultedRegistry
+	FIELD X defaultKey Lts;
+	FIELD Y defaultValue Ljava/lang/Object;
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a getDefaultKey ()Lts;
+	METHOD a byId (I)Ljava/lang/Object;
+	METHOD a registerMapping (ILts;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a getId (Ljava/lang/Object;)I
+	METHOD a getRandom (Ljava/util/Random;)Ljava/lang/Object;
+	METHOD a get (Lts;)Ljava/lang/Object;
+	METHOD b getKey (Ljava/lang/Object;)Lts;

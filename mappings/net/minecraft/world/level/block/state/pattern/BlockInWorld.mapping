@@ -1,0 +1,16 @@
+CLASS cdx net/minecraft/world/level/block/state/pattern/BlockInWorld
+	FIELD a level Lboa;
+	FIELD b pos Lfo;
+	FIELD c loadChunks Z
+	FIELD d state Lcdt;
+	FIELD e entity Lcbt;
+	FIELD f cachedEntity Z
+	METHOD <init> <init> (Lboa;Lfo;Z)V
+	METHOD a getState ()Lcdt;
+	METHOD a hasState (Lcdt;)Ljava/util/function/Predicate;
+	METHOD a lambda$hasState$1 (Lcdt;Lcdx;)Z
+	METHOD a hasState (Ljava/util/function/Predicate;)Ljava/util/function/Predicate;
+	METHOD a lambda$hasState$0 (Ljava/util/function/Predicate;Lcdx;)Z
+	METHOD b getEntity ()Lcbt;
+	METHOD c getLevel ()Lboa;
+	METHOD d getPos ()Lfo;

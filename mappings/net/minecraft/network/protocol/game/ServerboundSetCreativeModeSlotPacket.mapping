@@ -1,0 +1,11 @@
+CLASS sb net/minecraft/network/protocol/game/ServerboundSetCreativeModeSlotPacket
+	FIELD a slotNum I
+	FIELD b itemStack Lbin;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILbin;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getSlotNum ()I
+	METHOD b write (Lmb;)V
+	METHOD c getItem ()Lbin;

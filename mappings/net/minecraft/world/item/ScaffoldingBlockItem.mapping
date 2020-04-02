@@ -1,0 +1,4 @@
+CLASS bjd net/minecraft/world/item/ScaffoldingBlockItem
+	METHOD <init> <init> (Lbtu;Lbii$a;)V
+	METHOD b updatePlacementContext (Lbgq;)Lbgq;
+	METHOD d mustSurvive ()Z

@@ -1,0 +1,21 @@
+CLASS dam net/minecraft/world/level/storage/loot/entries/CompositeEntryBase
+	FIELD c children [Ldat;
+	FIELD e composedChildren Ldal;
+	METHOD <init> <init> ([Ldat;[Ldcq;)V
+	METHOD a validate (Ldaj;)V
+	METHOD a createSerializer (Lts;Ljava/lang/Class;Ldam$a;)Ldam$b;
+	METHOD a compose ([Ldal;)Ldal;
+	METHOD expand expand (Ldaa;Ljava/util/function/Consumer;)Z
+	CLASS 1 1
+		FIELD a val$constructor Ldam$a;
+		METHOD <init> <init> (Lts;Ljava/lang/Class;Ldam$a;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldat;[Ldcq;)Ldam;
+	CLASS a CompositeEntryConstructor
+		METHOD create create ([Ldat;[Ldcq;)Ldam;
+	CLASS b Serializer
+		METHOD <init> <init> (Lts;Ljava/lang/Class;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldat;[Ldcq;)Ldam;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldam;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldam;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldat;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldat;

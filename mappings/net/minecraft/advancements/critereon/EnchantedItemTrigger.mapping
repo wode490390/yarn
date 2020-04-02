@@ -1,0 +1,17 @@
+CLASS ax net/minecraft/advancements/critereon/EnchantedItemTrigger
+	FIELD a ID Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lts;
+	METHOD a lambda$trigger$0 (Lbin;ILax$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lae;
+	METHOD a trigger (Lyo;Lbin;I)V
+	METHOD b access$000 ()Lts;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lax$a;
+	CLASS a TriggerInstance
+		FIELD a item Lbm;
+		FIELD b levels Lbu$d;
+		METHOD <init> <init> (Lbm;Lbu$d;)V
+		METHOD a matches (Lbin;I)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD c enchantedItem ()Lax$a;

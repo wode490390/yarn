@@ -1,0 +1,10 @@
+CLASS bjg net/minecraft/world/item/ShieldItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a isValidRepairItem (Lbin;Lbin;)Z
+	METHOD a appendHoverText (Lbin;Lbnx;Ljava/util/List;Lbjw;)V
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;
+	METHOD b lambda$new$0 (Lbin;Lbnx;Lanm;)F
+	METHOD d_ getUseAnimation (Lbin;)Lbjy;
+	METHOD e getDescriptionId (Lbin;)Ljava/lang/String;
+	METHOD e_ getUseDuration (Lbin;)I
+	METHOD f getColor (Lbin;)Lbhi;

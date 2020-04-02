@@ -1,0 +1,6 @@
+CLASS bjf net/minecraft/world/item/ShearsItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a lambda$mineBlock$0 (Lanm;)V
+	METHOD a mineBlock (Lbin;Lbnx;Lcdt;Lfo;Lanm;)Z
+	METHOD a getDestroySpeed (Lbin;Lcdt;)F
+	METHOD b canDestroySpecial (Lcdt;)Z

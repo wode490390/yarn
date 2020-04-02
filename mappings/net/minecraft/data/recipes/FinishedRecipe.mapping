@@ -1,0 +1,7 @@
+CLASS jb net/minecraft/data/recipes/FinishedRecipe
+	METHOD a serializeRecipe ()Lcom/google/gson/JsonObject;
+	METHOD a serializeRecipeData (Lcom/google/gson/JsonObject;)V
+	METHOD b getId ()Lts;
+	METHOD c getType ()Lbky;
+	METHOD d serializeAdvancement ()Lcom/google/gson/JsonObject;
+	METHOD e getAdvancementId ()Lts;

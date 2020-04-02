@@ -1,0 +1,3 @@
+CLASS ccd net/minecraft/world/level/block/entity/DropperBlockEntity
+	METHOD <init> <init> ()V
+	METHOD g getDefaultName ()Lml;

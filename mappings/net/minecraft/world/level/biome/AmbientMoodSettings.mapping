@@ -1,0 +1,12 @@
+CLASS bor net/minecraft/world/level/biome/AmbientMoodSettings
+	FIELD a LEGACY_CAVE_SETTINGS Lbor;
+	FIELD b soundEvent Labr;
+	FIELD c tickDelay I
+	FIELD d blockSearchExtent I
+	FIELD e soundPositionOffset D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Labr;IID)V
+	METHOD a getSoundEvent ()Labr;
+	METHOD b getTickDelay ()I
+	METHOD c getBlockSearchExtent ()I
+	METHOD d getSoundPositionOffset ()D

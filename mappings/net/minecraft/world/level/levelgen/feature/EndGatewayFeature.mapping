@@ -1,0 +1,5 @@
+CLASS cla net/minecraft/world/level/levelgen/feature/EndGatewayFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcoe;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a lambda$place$0 (Lbny;Lfo;Lcoe;Lfo;)V

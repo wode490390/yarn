@@ -1,0 +1,11 @@
+CLASS atr net/minecraft/world/entity/ai/goal/RunAroundLikeCrazyGoal
+	FIELD a horse Laxq;
+	FIELD b speedModifier D
+	FIELD c posX D
+	FIELD d posY D
+	FIELD e posZ D
+	METHOD <init> <init> (Laxq;D)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD e tick ()V

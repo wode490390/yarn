@@ -1,0 +1,20 @@
+CLASS dcs net/minecraft/world/level/storage/loot/predicates/LootItemEntityPropertyCondition
+	FIELD a predicate Lbd;
+	FIELD b entityTarget Ldaa$c;
+	METHOD <init> <init> (Lbd;Ldaa$c;)V
+	METHOD <init> <init> (Lbd;Ldaa$c;Ldcs$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a lambda$hasProperties$0 (Lbd$a;Ldaa$c;)Ldcq;
+	METHOD a entityPresent (Ldaa$c;)Ldcq$a;
+	METHOD a hasProperties (Ldaa$c;Lbd$a;)Ldcq$a;
+	METHOD a test (Ldaa;)Z
+	METHOD a access$000 (Ldcs;)Lbd;
+	METHOD b access$100 (Ldcs;)Ldaa$c;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcs;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcq;

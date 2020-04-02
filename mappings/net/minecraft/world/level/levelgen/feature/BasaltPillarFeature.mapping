@@ -1,0 +1,6 @@
+CLASS cke net/minecraft/world/level/levelgen/feature/BasaltPillarFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcoo;)Z
+	METHOD a placeBaseHangOff (Lbny;Ljava/util/Random;Lfo;)V
+	METHOD b placeHangOff (Lbny;Ljava/util/Random;Lfo;)Z

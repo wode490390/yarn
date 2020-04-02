@@ -1,0 +1,7 @@
+CLASS cbp net/minecraft/world/level/block/entity/BedBlockEntity
+	FIELD a color Lbhi;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbhi;)V
+	METHOD a getUpdatePacket ()Lnn;
+	METHOD a setColor (Lbhi;)V
+	METHOD d getColor ()Lbhi;

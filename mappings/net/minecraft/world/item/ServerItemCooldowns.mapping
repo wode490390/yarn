@@ -1,0 +1,5 @@
+CLASS bje net/minecraft/world/item/ServerItemCooldowns
+	FIELD a player Lyo;
+	METHOD <init> <init> (Lyo;)V
+	METHOD b onCooldownStarted (Lbii;I)V
+	METHOD c onCooldownEnded (Lbii;)V

@@ -1,0 +1,13 @@
+CLASS rd net/minecraft/network/protocol/game/ServerboundCustomPayloadPacket
+	FIELD a BRAND Lts;
+	FIELD b identifier Lts;
+	FIELD c data Lmb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lts;Lmb;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getIdentifier ()Lts;
+	METHOD b write (Lmb;)V
+	METHOD c getData ()Lmb;

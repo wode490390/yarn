@@ -1,0 +1,3 @@
+CLASS cye net/minecraft/world/level/newbiome/layer/traits/BishopTransformer
+	METHOD a applyPixel (Lcxa;Lcww;II)I
+	METHOD a apply (Lcxb;IIIII)I

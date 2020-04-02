@@ -1,0 +1,5 @@
+CLASS aci net/minecraft/tags/SynchronizableTagCollection
+	FIELD a registry Lgh;
+	METHOD <init> <init> (Lgh;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a serializeToNetwork (Lmb;)V
+	METHOD b loadFromNetwork (Lmb;)V

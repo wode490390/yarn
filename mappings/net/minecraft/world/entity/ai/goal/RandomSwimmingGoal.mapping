@@ -1,0 +1,3 @@
+CLASS atl net/minecraft/world/entity/ai/goal/RandomSwimmingGoal
+	METHOD <init> <init> (Lant;DI)V
+	METHOD g getPosition ()Lddp;

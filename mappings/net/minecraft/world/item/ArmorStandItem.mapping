@@ -1,0 +1,4 @@
+CLASS bgj net/minecraft/world/item/ArmorStandItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a randomizePose (Laza;Ljava/util/Random;)V
+	METHOD a useOn (Lbjz;)Lalv;

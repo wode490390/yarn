@@ -1,0 +1,2 @@
+CLASS bsd net/minecraft/world/level/biome/TaigaHillsBiome
+	METHOD <init> <init> ()V

@@ -1,0 +1,6 @@
+CLASS buw net/minecraft/world/level/block/CoralWallFanBlock
+	FIELD c deadBlock Lbtu;
+	METHOD <init> <init> (Lbtu;Lcds$c;)V
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V

@@ -1,0 +1,13 @@
+CLASS bkw net/minecraft/world/item/crafting/Recipe
+	METHOD Y_ isSpecial ()Z
+	METHOD Z_ getSerializer ()Lbky;
+	METHOD a getIngredients ()Lge;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lalo;)Lbin;
+	METHOD a matches (Lalo;Lbnx;)Z
+	METHOD b getRemainingItems (Lalo;)Lge;
+	METHOD c getResultItem ()Lbin;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD f getId ()Lts;
+	METHOD g getType ()Lbkz;
+	METHOD h getToastSymbol ()Lbin;

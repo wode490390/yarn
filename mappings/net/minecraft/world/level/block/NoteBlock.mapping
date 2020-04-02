@@ -1,0 +1,16 @@
+CLASS bxw net/minecraft/world/level/block/NoteBlock
+	FIELD a INSTRUMENT Lcer;
+	FIELD b POWERED Lcel;
+	FIELD c NOTE Lcet;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a playNote (Lbnx;Lfo;)V
+	METHOD a triggerEvent (Lcdt;Lbnx;Lfo;II)Z
+	METHOD a attack (Lcdt;Lbnx;Lfo;Lbch;)V
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a neighborChanged (Lcdt;Lbnx;Lfo;Lbtu;Lfo;Z)V
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V

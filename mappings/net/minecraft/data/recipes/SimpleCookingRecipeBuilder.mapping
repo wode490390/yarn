@@ -1,0 +1,36 @@
+CLASS jf net/minecraft/data/recipes/SimpleCookingRecipeBuilder
+	FIELD a result Lbii;
+	FIELD b ingredient Lbkt;
+	FIELD c experience F
+	FIELD d cookingTime I
+	FIELD e advancement Lw$a;
+	FIELD f group Ljava/lang/String;
+	FIELD g serializer Lblf;
+	METHOD <init> <init> (Lbnw;Lbkt;FILblf;)V
+	METHOD a campfireCooking (Lbkt;Lbnw;FI)Ljf;
+	METHOD a cooking (Lbkt;Lbnw;FILblf;)Ljf;
+	METHOD a group (Ljava/lang/String;)Ljf;
+	METHOD a unlockedBy (Ljava/lang/String;Lae;)Ljf;
+	METHOD a save (Ljava/util/function/Consumer;)V
+	METHOD a save (Ljava/util/function/Consumer;Ljava/lang/String;)V
+	METHOD a save (Ljava/util/function/Consumer;Lts;)V
+	METHOD a ensureValid (Lts;)V
+	METHOD b blasting (Lbkt;Lbnw;FI)Ljf;
+	METHOD c smelting (Lbkt;Lbnw;FI)Ljf;
+	METHOD d smoking (Lbkt;Lbnw;FI)Ljf;
+	CLASS a Result
+		FIELD a id Lts;
+		FIELD b group Ljava/lang/String;
+		FIELD c ingredient Lbkt;
+		FIELD d result Lbii;
+		FIELD e experience F
+		FIELD f cookingTime I
+		FIELD g advancement Lw$a;
+		FIELD h advancementId Lts;
+		FIELD i serializer Lbky;
+		METHOD <init> <init> (Lts;Ljava/lang/String;Lbkt;Lbii;FILw$a;Lts;Lbky;)V
+		METHOD a serializeRecipeData (Lcom/google/gson/JsonObject;)V
+		METHOD b getId ()Lts;
+		METHOD c getType ()Lbky;
+		METHOD d serializeAdvancement ()Lcom/google/gson/JsonObject;
+		METHOD e getAdvancementId ()Lts;

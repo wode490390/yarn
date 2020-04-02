@@ -1,0 +1,4 @@
+CLASS cmt net/minecraft/world/level/levelgen/feature/SimpleRandomSelectorFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcpb;)Z

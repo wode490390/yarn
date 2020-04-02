@@ -1,0 +1,14 @@
+CLASS cdz net/minecraft/world/level/block/state/pattern/BlockPatternBuilder
+	FIELD a COMMA_JOINED Lcom/google/common/base/Joiner;
+	FIELD b pattern Ljava/util/List;
+	FIELD c lookup Ljava/util/Map;
+	FIELD d height I
+	FIELD e width I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a start ()Lcdz;
+	METHOD a where (CLjava/util/function/Predicate;)Lcdz;
+	METHOD a aisle ([Ljava/lang/String;)Lcdz;
+	METHOD b build ()Lcdy;
+	METHOD c createPattern ()[[[Ljava/util/function/Predicate;
+	METHOD d ensureAllCharactersMatched ()V

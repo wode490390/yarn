@@ -1,0 +1,45 @@
+CLASS dau net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer
+	FIELD c compositeFunction Ljava/util/function/BiFunction;
+	FIELD e weight I
+	FIELD f quality I
+	FIELD g functions [Ldbm;
+	FIELD h entry Ldas;
+	METHOD <init> <init> (II[Ldcq;[Ldbm;)V
+	METHOD a validate (Ldaj;)V
+	METHOD a simpleBuilder (Ldau$d;)Ldau$a;
+	METHOD a access$000 (Ldau;)Ljava/util/function/BiFunction;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Ldaa;)V
+	METHOD expand expand (Ldaa;Ljava/util/function/Consumer;)Z
+	CLASS 1 1
+		FIELD a this$0 Ldau;
+		METHOD <init> <init> (Ldau;)V
+		METHOD a createItemStack (Ljava/util/function/Consumer;Ldaa;)V
+	CLASS a Builder
+		FIELD a weight I
+		FIELD b quality I
+		FIELD c functions Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a getFunctions ()[Ldbm;
+		METHOD a setWeight (I)Ldau$a;
+		METHOD a apply (Ldbm$a;)Ldau$a;
+		METHOD b setQuality (I)Ldau$a;
+		METHOD b apply (Ldbm$a;)Ljava/lang/Object;
+	CLASS b DummyBuilder
+		FIELD c constructor Ldau$d;
+		METHOD <init> <init> (Ldau$d;)V
+		METHOD b build ()Ldat;
+		METHOD d getThis ()Ldat$a;
+		METHOD g getThis ()Ldau$b;
+	CLASS c EntryBase
+		FIELD b this$0 Ldau;
+		METHOD <init> <init> (Ldau;)V
+		METHOD a getWeight (F)I
+	CLASS d EntryConstructor
+		METHOD build build (II[Ldcq;[Ldbm;)Ldau;
+	CLASS e Serializer
+		METHOD <init> <init> (Lts;Ljava/lang/Class;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldau;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldat;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldau;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldcq;[Ldbm;)Ldau;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldat;

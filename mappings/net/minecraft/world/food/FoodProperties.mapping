@@ -1,0 +1,31 @@
+CLASS bei net/minecraft/world/food/FoodProperties
+	FIELD a nutrition I
+	FIELD b saturationModifier F
+	FIELD c isMeat Z
+	FIELD d canAlwaysEat Z
+	FIELD e fastFood Z
+	FIELD f effects Ljava/util/List;
+	METHOD <init> <init> (IFZZZLjava/util/List;)V
+	METHOD <init> <init> (IFZZZLjava/util/List;Lbei$1;)V
+	METHOD a getNutrition ()I
+	METHOD b getSaturationModifier ()F
+	METHOD c isMeat ()Z
+	METHOD d canAlwaysEat ()Z
+	METHOD e isFastFood ()Z
+	METHOD f getEffects ()Ljava/util/List;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a nutrition I
+		FIELD b saturationModifier F
+		FIELD c isMeat Z
+		FIELD d canAlwaysEat Z
+		FIELD e fastFood Z
+		FIELD f effects Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a meat ()Lbei$a;
+		METHOD a saturationMod (F)Lbei$a;
+		METHOD a nutrition (I)Lbei$a;
+		METHOD a effect (Lamv;F)Lbei$a;
+		METHOD b alwaysEat ()Lbei$a;
+		METHOD c fast ()Lbei$a;
+		METHOD d build ()Lbei;

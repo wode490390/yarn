@@ -1,0 +1,10 @@
+CLASS cvw net/minecraft/world/level/lighting/BlockLightEngine
+	FIELD e DIRECTIONS [Lft;
+	FIELD f pos Lfo$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcfy;)V
+	METHOD a checkNeighborsAfterUpdate (JIZ)V
+	METHOD a getComputedLevel (JJI)I
+	METHOD a onBlockEmissionIncrease (Lfo;I)V
+	METHOD b computeLevelFromNeighbor (JJI)I
+	METHOD d getLightEmission (J)I

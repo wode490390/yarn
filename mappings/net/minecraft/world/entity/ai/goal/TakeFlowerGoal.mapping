@@ -1,0 +1,11 @@
+CLASS atv net/minecraft/world/entity/ai/goal/TakeFlowerGoal
+	FIELD a villager Lbbu;
+	FIELD b golem Lawx;
+	FIELD c pickupTick I
+	FIELD d takeFlower Z
+	METHOD <init> <init> (Lbbu;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

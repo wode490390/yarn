@@ -1,0 +1,24 @@
+CLASS bnl net/minecraft/world/level/CollisionGetter
+	METHOD a noCollision (Lanb;Lddj;Ljava/util/Set;)Z
+	METHOD a isUnobstructed (Lanb;Ldej;)Z
+	METHOD a getEntityCollisions (Lanb;Ldej;Ljava/util/Set;)Ljava/util/stream/Stream;
+	METHOD a isUnobstructed (Lcdt;Lfo;Lddu;)Z
+	METHOD a noCollision (Lddj;)Z
+	METHOD a_ noCollision (Lanb;Lddj;)Z
+	METHOD b getBlockCollisions (Lanb;Lddj;)Ljava/util/stream/Stream;
+	METHOD b getEntityCollisions (Lanb;Lddj;Ljava/util/Set;)Ljava/util/stream/Stream;
+	METHOD c getChunkForCollisions (II)Lbnh;
+	METHOD c getCollisions (Lanb;Lddj;Ljava/util/Set;)Ljava/util/stream/Stream;
+	METHOD i isUnobstructed (Lanb;)Z
+	METHOD j noCollision (Lanb;)Z
+	METHOD s_ getWorldBorder ()Lcfh;
+	CLASS 1 1
+		FIELD a checkedBorder Z
+		FIELD b val$source Lanb;
+		FIELD c val$cursor Lfr;
+		FIELD d val$pos Lfo$a;
+		FIELD e val$context Lddu;
+		FIELD f val$testArea Ldej;
+		FIELD g this$0 Lbnl;
+		METHOD <init> <init> (Lbnl;JILanb;Lfr;Lfo$a;Lddu;Ldej;)V
+		METHOD tryAdvance tryAdvance (Ljava/util/function/Consumer;)Z

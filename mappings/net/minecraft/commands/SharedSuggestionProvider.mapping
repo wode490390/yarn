@@ -1,0 +1,37 @@
+CLASS cw net/minecraft/commands/SharedSuggestionProvider
+	METHOD a customSuggestion (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$suggestResource$1 (Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Ljava/lang/String;Lts;)V
+	METHOD a lambda$suggestResource$4 (Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Ljava/util/function/Function;Ljava/util/function/Function;Ljava/lang/Object;)V
+	METHOD a lambda$suggestResource$3 (Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Lts;)V
+	METHOD a suggestResource (Ljava/lang/Iterable;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a suggestResource (Ljava/lang/Iterable;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a suggestResource (Ljava/lang/Iterable;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Ljava/util/function/Function;Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a filterResources (Ljava/lang/Iterable;Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Function;Ljava/util/function/Consumer;)V
+	METHOD a filterResources (Ljava/lang/Iterable;Ljava/lang/String;Ljava/util/function/Function;Ljava/util/function/Consumer;)V
+	METHOD a lambda$suggest$5 (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD a suggestCoordinates (Ljava/lang/String;Ljava/util/Collection;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Ljava/util/function/Predicate;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a suggestResource (Ljava/util/stream/Stream;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a suggestResource (Ljava/util/stream/Stream;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Ljava/util/function/Function;Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$suggestResource$2 (Lts;)Lts;
+	METHOD a suggest ([Ljava/lang/String;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD b suggest (Ljava/lang/Iterable;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD b suggest (Ljava/lang/Iterable;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Ljava/util/function/Function;Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;
+	METHOD b suggest2DCoordinates (Ljava/lang/String;Ljava/util/Collection;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Ljava/util/function/Predicate;)Ljava/util/concurrent/CompletableFuture;
+	METHOD b suggest (Ljava/util/stream/Stream;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD b lambda$suggestResource$0 (Lts;)Lts;
+	METHOD c hasPermission (I)Z
+	METHOD l getOnlinePlayerNames ()Ljava/util/Collection;
+	METHOD m getAllTeams ()Ljava/util/Collection;
+	METHOD n getAvailableSoundEvents ()Ljava/util/Collection;
+	METHOD o getRecipeNames ()Ljava/util/stream/Stream;
+	METHOD p getSelectedEntities ()Ljava/util/Collection;
+	METHOD q getRelevantCoordinates ()Ljava/util/Collection;
+	METHOD r getAbsoluteCoordinates ()Ljava/util/Collection;
+	CLASS a TextCoordinates
+		FIELD a DEFAULT_LOCAL Lcw$a;
+		FIELD b DEFAULT_GLOBAL Lcw$a;
+		FIELD c x Ljava/lang/String;
+		FIELD d y Ljava/lang/String;
+		FIELD e z Ljava/lang/String;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

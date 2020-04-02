@@ -1,0 +1,6 @@
+CLASS cpw net/minecraft/world/level/levelgen/feature/stateproviders/SimpleStateProvider
+	FIELD c state Lcdt;
+	METHOD <init> <init> (Lcdt;)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a getState (Ljava/util/Random;Lfo;)Lcdt;

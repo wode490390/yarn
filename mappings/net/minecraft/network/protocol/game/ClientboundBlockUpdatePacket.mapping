@@ -1,0 +1,11 @@
+CLASS np net/minecraft/network/protocol/game/ClientboundBlockUpdatePacket
+	FIELD a pos Lfo;
+	FIELD b blockState Lcdt;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbnh;Lfo;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getBlockState ()Lcdt;
+	METHOD b write (Lmb;)V
+	METHOD c getPos ()Lfo;

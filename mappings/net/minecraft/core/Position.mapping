@@ -1,0 +1,4 @@
+CLASS gf net/minecraft/core/Position
+	METHOD a x ()D
+	METHOD b y ()D
+	METHOD c z ()D

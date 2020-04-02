@@ -1,0 +1,10 @@
+CLASS cch net/minecraft/world/level/block/entity/Hopper
+	FIELD a INSIDE Ldej;
+	FIELD b ABOVE Ldej;
+	FIELD c SUCK Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD A getLevelY ()D
+	METHOD B getLevelZ ()D
+	METHOD T_ getSuckShape ()Ldej;
+	METHOD w getLevel ()Lbnx;
+	METHOD z getLevelX ()D

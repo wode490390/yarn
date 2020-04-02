@@ -1,0 +1,13 @@
+CLASS ced net/minecraft/world/level/block/state/predicate/BlockStatePredicate
+	FIELD a ANY Ljava/util/function/Predicate;
+	FIELD b definition Lcdu;
+	FIELD c properties Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcdu;)V
+	METHOD a forBlock (Lbtu;)Lced;
+	METHOD a test (Lcdt;)Z
+	METHOD a applies (Lcdt;Lcew;Ljava/util/function/Predicate;)Z
+	METHOD a forDefinition (Lcdu;)Lced;
+	METHOD a where (Lcew;Ljava/util/function/Predicate;)Lced;
+	METHOD b lambda$static$0 (Lcdt;)Z
+	METHOD test test (Ljava/lang/Object;)Z

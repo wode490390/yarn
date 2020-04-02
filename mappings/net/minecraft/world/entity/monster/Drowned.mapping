@@ -1,0 +1,78 @@
+CLASS azv net/minecraft/world/entity/monster/Drowned
+	FIELD b waterNavigation Lavc;
+	FIELD bv searchingForLand Z
+	FIELD c groundNavigation Lauz;
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD a populateDefaultEquipmentSlots (Lalt;)V
+	METHOD a performRangedAttack (Lanm;F)V
+	METHOD a access$100 (Lazv;)Z
+	METHOD a access$002 (Lazv;Lava;)Lava;
+	METHOD a canReplaceCurrentItem (Lbin;Lbin;)Z
+	METHOD a finalizeSpawn (Lbny;Lalt;Lanp;Lanz;Lkz;)Lanz;
+	METHOD a isDeepEnoughToSpawn (Lbny;Lfo;)Z
+	METHOD a checkSpawnObstruction (Lboa;)Z
+	METHOD aF updateSwimming ()V
+	METHOD aq getSwimSound ()Labr;
+	METHOD b checkDrownedSpawnRules (Lanf;Lbny;Lanp;Lfo;Ljava/util/Random;)Z
+	METHOD b access$200 (Lazv;)Z
+	METHOD bS isPushedByFluid ()Z
+	METHOD c access$300 (Lazv;)Z
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD e travel (Lddp;)V
+	METHOD eA getSkull ()Lbin;
+	METHOD eB convertsInWater ()Z
+	METHOD eC closeToNextPos ()Z
+	METHOD eH wantsToSwim ()Z
+	METHOD ez getStepSound ()Labr;
+	METHOD j okTarget (Lanm;)Z
+	METHOD k addBehaviourGoals ()V
+	METHOD m supportsBreakDoorGoal ()Z
+	METHOD t setSearchingForLand (Z)V
+	CLASS a DrownedAttackGoal
+		FIELD d drowned Lazv;
+		METHOD <init> <init> (Lazv;DZ)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+	CLASS b DrownedGoToBeachGoal
+		FIELD g drowned Lazv;
+		METHOD <init> <init> (Lazv;D)V
+		METHOD a canUse ()Z
+		METHOD a isValidTarget (Lboa;Lfo;)Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+	CLASS c DrownedGoToWaterGoal
+		FIELD a mob Lant;
+		FIELD b wantedX D
+		FIELD c wantedY D
+		FIELD d wantedZ D
+		FIELD e speedModifier D
+		FIELD f level Lbnx;
+		METHOD <init> <init> (Lant;D)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD g getWaterPos ()Lddp;
+	CLASS d DrownedMoveControl
+		FIELD i drowned Lazv;
+		METHOD <init> <init> (Lazv;)V
+		METHOD a tick ()V
+	CLASS e DrownedSwimUpGoal
+		FIELD a drowned Lazv;
+		FIELD b speedModifier D
+		FIELD c seaLevel I
+		FIELD d stuck Z
+		METHOD <init> <init> (Lazv;DI)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS f DrownedTridentAttackGoal
+		FIELD a drowned Lazv;
+		METHOD <init> <init> (Lbal;DIF)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V

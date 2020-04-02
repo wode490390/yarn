@@ -1,0 +1,19 @@
+CLASS ben net/minecraft/world/inventory/AnvilMenu
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD h repairItemCountCost I
+	FIELD i itemName Ljava/lang/String;
+	FIELD j cost Lbez;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILbcg;)V
+	METHOD <init> <init> (ILbcg;Lbev;)V
+	METHOD a onTake (Lbch;Lbin;)Lbin;
+	METHOD a lambda$onTake$0 (Lbch;Lbnx;Lfo;)V
+	METHOD a isValidBlock (Lcdt;)Z
+	METHOD a setItemName (Ljava/lang/String;)V
+	METHOD b mayPickup (Lbch;Z)Z
+	METHOD d calculateIncreasedRepairCost (I)I
+	METHOD e createResult ()V
+	METHOD f getCost ()I
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$item$enchantment$Enchantment$Rarity [I
+		METHOD <clinit> <clinit> ()V

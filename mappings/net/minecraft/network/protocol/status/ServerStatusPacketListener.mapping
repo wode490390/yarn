@@ -1,0 +1,3 @@
+CLASS td net/minecraft/network/protocol/status/ServerStatusPacketListener
+	METHOD a handlePingRequest (Lte;)V
+	METHOD a handleStatusRequest (Ltf;)V

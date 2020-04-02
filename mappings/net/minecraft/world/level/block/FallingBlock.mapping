@@ -1,0 +1,13 @@
+CLASS bvu net/minecraft/world/level/block/FallingBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a falling (Lazl;)V
+	METHOD a onBroken (Lbnx;Lfo;Lazl;)V
+	METHOD a onLand (Lbnx;Lfo;Lcdt;Lcdt;Lazl;)V
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD b isUnstable ()Z
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD c getDustColor (Lcdt;Lbnh;Lfo;)I
+	METHOD d getDelayAfterPlace ()I
+	METHOD h isFree (Lcdt;)Z

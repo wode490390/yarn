@@ -1,0 +1,15 @@
+CLASS baz net/minecraft/world/entity/monster/WitherSkeleton
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD B doHurtTarget (Lanb;)Z
+	METHOD I getAmbientSound ()Labr;
+	METHOD a populateDefaultEquipmentSlots (Lalt;)V
+	METHOD a dropCustomDeathLoot (Laml;IZ)V
+	METHOD a finalizeSpawn (Lbny;Lalt;Lanp;Lanz;Lkz;)Lanz;
+	METHOD b populateDefaultEquipmentEnchantments (Lalt;)V
+	METHOD b getStandingEyeHeight (Lanw;Lanc;)F
+	METHOD b getArrow (Lbin;F)Lbcl;
+	METHOD d canBeAffected (Lamv;)Z
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD k getStepSound ()Labr;
+	METHOD o registerGoals ()V

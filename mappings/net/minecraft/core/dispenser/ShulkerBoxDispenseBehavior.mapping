@@ -1,0 +1,3 @@
+CLASS gv net/minecraft/core/dispenser/ShulkerBoxDispenseBehavior
+	METHOD <init> <init> ()V
+	METHOD a execute (Lfp;Lbin;)Lbin;

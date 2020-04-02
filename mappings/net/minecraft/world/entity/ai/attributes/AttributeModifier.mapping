@@ -1,0 +1,33 @@
+CLASS aof net/minecraft/world/entity/ai/attributes/AttributeModifier
+	FIELD a amount D
+	FIELD b operation Laof$a;
+	FIELD c nameGetter Ljava/util/function/Supplier;
+	FIELD d id Ljava/util/UUID;
+	FIELD e serialize Z
+	METHOD <init> <init> (Ljava/lang/String;DLaof$a;)V
+	METHOD <init> <init> (Ljava/util/UUID;Ljava/lang/String;DLaof$a;)V
+	METHOD <init> <init> (Ljava/util/UUID;Ljava/util/function/Supplier;DLaof$a;)V
+	METHOD a getId ()Ljava/util/UUID;
+	METHOD a lambda$new$1 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a setSerialize (Z)Laof;
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b lambda$new$0 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c getOperation ()Laof$a;
+	METHOD d getAmount ()D
+	METHOD e isSerializable ()Z
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Operation
+		FIELD a ADDITION Laof$a;
+		FIELD b MULTIPLY_BASE Laof$a;
+		FIELD c MULTIPLY_TOTAL Laof$a;
+		FIELD d OPERATIONS [Laof$a;
+		FIELD e value I
+		FIELD f $VALUES [Laof$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;II)V
+		METHOD a toValue ()I
+		METHOD a fromValue (I)Laof$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Laof$a;
+		METHOD values values ()[Laof$a;

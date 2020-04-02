@@ -1,0 +1,10 @@
+CLASS gl net/minecraft/core/SerializableLong
+	FIELD a value J
+	METHOD <init> <init> (J)V
+	METHOD a value ()J
+	METHOD a of (J)Lgl;
+	METHOD a of (Lcom/mojang/datafixers/Dynamic;)Lgl;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

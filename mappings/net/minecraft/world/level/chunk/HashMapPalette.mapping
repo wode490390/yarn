@@ -1,0 +1,17 @@
+CLASS cfu net/minecraft/world/level/chunk/HashMapPalette
+	FIELD a registry Lfz;
+	FIELD b values Lacq;
+	FIELD c resizeHandler Lcgc;
+	FIELD d reader Ljava/util/function/Function;
+	FIELD e writer Ljava/util/function/Function;
+	FIELD f bits I
+	METHOD <init> <init> (Lfz;ILcgc;Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getSerializedSize ()I
+	METHOD a valueFor (I)Ljava/lang/Object;
+	METHOD a idFor (Ljava/lang/Object;)I
+	METHOD a read (Llf;)V
+	METHOD a read (Lmb;)V
+	METHOD b getSize ()I
+	METHOD b maybeHas (Ljava/lang/Object;)Z
+	METHOD b write (Llf;)V
+	METHOD b write (Lmb;)V

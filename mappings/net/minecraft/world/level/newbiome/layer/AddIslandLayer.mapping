@@ -1,0 +1,8 @@
+CLASS cxg net/minecraft/world/level/newbiome/layer/AddIslandLayer
+	FIELD a INSTANCE Lcxg;
+	FIELD b $VALUES [Lcxg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcxb;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxg;
+	METHOD values values ()[Lcxg;

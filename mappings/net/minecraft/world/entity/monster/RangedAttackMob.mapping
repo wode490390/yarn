@@ -1,0 +1,2 @@
+CLASS bal net/minecraft/world/entity/monster/RangedAttackMob
+	METHOD a performRangedAttack (Lanm;F)V

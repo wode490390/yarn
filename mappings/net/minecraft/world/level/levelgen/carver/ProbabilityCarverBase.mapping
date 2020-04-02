@@ -1,0 +1,4 @@
+CLASS cjt net/minecraft/world/level/levelgen/carver/ProbabilityCarverBase
+	METHOD <init> <init> (Ljava/util/function/Function;I)V
+	METHOD c randomConfig (Ljava/util/Random;)Lcor;
+	METHOD d randomConfig (Ljava/util/Random;)Lcjo;

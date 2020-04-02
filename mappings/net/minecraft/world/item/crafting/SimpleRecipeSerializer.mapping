@@ -1,0 +1,6 @@
+CLASS blg net/minecraft/world/item/crafting/SimpleRecipeSerializer
+	FIELD u constructor Ljava/util/function/Function;
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a toNetwork (Lmb;Lbkw;)V
+	METHOD a fromJson (Lts;Lcom/google/gson/JsonObject;)Lbkw;
+	METHOD a fromNetwork (Lts;Lmb;)Lbkw;

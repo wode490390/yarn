@@ -1,0 +1,14 @@
+CLASS boj net/minecraft/world/level/PathNavigationRegion
+	FIELD a centerX I
+	FIELD b centerZ I
+	FIELD c chunks [[Lcfj;
+	FIELD d allEmpty Z
+	FIELD e level Lbnx;
+	METHOD <init> <init> (Lbnx;Lfo;Lfo;)V
+	METHOD a getChunk (II)Lcfj;
+	METHOD b getFluidState (Lfo;)Lcwn;
+	METHOD c getChunkForCollisions (II)Lbnh;
+	METHOD c getBlockEntity (Lfo;)Lcbt;
+	METHOD d getChunk (Lfo;)Lcfj;
+	METHOD d_ getBlockState (Lfo;)Lcdt;
+	METHOD s_ getWorldBorder ()Lcfh;

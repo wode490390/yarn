@@ -1,0 +1,13 @@
+CLASS byr net/minecraft/world/level/block/RepeaterBlock
+	FIELD a LOCKED Lcel;
+	FIELD d DELAY Lcet;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a isLocked (Lboa;Lfo;Lcdt;)Z
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD g getDelay (Lcdt;)I
+	METHOD h isAlternateInput (Lcdt;)Z

@@ -1,0 +1,14 @@
+CLASS bwy net/minecraft/world/level/block/JigsawBlock
+	FIELD a ORIENTATION Lcer;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a newBlockEntity (Lbnh;)Lcbt;
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD a canAttach (Lcuu$b;Lcuu$b;)Z
+	METHOD a lambda$canAttach$0 (Lft;)Lccj$a;
+	METHOD h getFrontFacing (Lcdt;)Lft;
+	METHOD l getTopFacing (Lcdt;)Lft;

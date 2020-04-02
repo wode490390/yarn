@@ -1,0 +1,10 @@
+CLASS bnn net/minecraft/world/level/EmptyBlockGetter
+	FIELD a INSTANCE Lbnn;
+	FIELD b $VALUES [Lbnn;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD b getFluidState (Lfo;)Lcwn;
+	METHOD c getBlockEntity (Lfo;)Lcbt;
+	METHOD d_ getBlockState (Lfo;)Lcdt;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbnn;
+	METHOD values values ()[Lbnn;

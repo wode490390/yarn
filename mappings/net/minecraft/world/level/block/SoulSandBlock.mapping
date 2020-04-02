@@ -1,0 +1,11 @@
+CLASS bzn net/minecraft/world/level/block/SoulSandBlock
+	FIELD a SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a getVisualShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD c getCollisionShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD e getBlockSupportShape (Lcdt;Lbnh;Lfo;)Ldej;

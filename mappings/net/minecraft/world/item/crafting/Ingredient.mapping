@@ -1,0 +1,49 @@
+CLASS bkt net/minecraft/world/item/crafting/Ingredient
+	FIELD a EMPTY Lbkt;
+	FIELD b NON_ALL_EMPTY Ljava/util/function/Predicate;
+	FIELD c values [Lbkt$c;
+	FIELD d itemStacks [Lbin;
+	FIELD e stackingIds Lit/unimi/dsi/fastutil/ints/IntList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/stream/Stream;)V
+	METHOD a getItems ()[Lbin;
+	METHOD a lambda$dissolve$3 (I)[Lbin;
+	METHOD a of (Lacj;)Lbkt;
+	METHOD a test (Lbin;)Z
+	METHOD a lambda$dissolve$2 (Lbkt$c;)Ljava/util/stream/Stream;
+	METHOD a lambda$of$4 (Lbnw;)Lbkt$a;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbkt;
+	METHOD a valueFromJson (Lcom/google/gson/JsonObject;)Lbkt$c;
+	METHOD a fromValues (Ljava/util/stream/Stream;)Lbkt;
+	METHOD a toNetwork (Lmb;)V
+	METHOD a lambda$valueFromJson$8 (Lts;)Lcom/google/gson/JsonSyntaxException;
+	METHOD a of ([Lbin;)Lbkt;
+	METHOD a of ([Lbnw;)Lbkt;
+	METHOD b getStackingIds ()Lit/unimi/dsi/fastutil/ints/IntList;
+	METHOD b lambda$new$1 (I)[Lbkt$c;
+	METHOD b lambda$of$5 (Lbin;)Lbkt$a;
+	METHOD b lambda$static$0 (Lbkt$c;)Z
+	METHOD b lambda$fromJson$7 (Lcom/google/gson/JsonElement;)Lbkt$c;
+	METHOD b fromNetwork (Lmb;)Lbkt;
+	METHOD c toJson ()Lcom/google/gson/JsonElement;
+	METHOD c lambda$fromNetwork$6 (Lmb;)Lbkt$a;
+	METHOD d isEmpty ()Z
+	METHOD e of ()Lbkt;
+	METHOD f dissolve ()V
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a ItemValue
+		FIELD a item Lbin;
+		METHOD <init> <init> (Lbin;)V
+		METHOD <init> <init> (Lbin;Lbkt$1;)V
+		METHOD a getItems ()Ljava/util/Collection;
+		METHOD b serialize ()Lcom/google/gson/JsonObject;
+	CLASS b TagValue
+		FIELD a tag Lacj;
+		METHOD <init> <init> (Lacj;)V
+		METHOD <init> <init> (Lacj;Lbkt$1;)V
+		METHOD a getItems ()Ljava/util/Collection;
+		METHOD b serialize ()Lcom/google/gson/JsonObject;
+	CLASS c Value
+		METHOD a getItems ()Ljava/util/Collection;
+		METHOD b serialize ()Lcom/google/gson/JsonObject;

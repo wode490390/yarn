@@ -1,0 +1,17 @@
+CLASS azj net/minecraft/world/entity/global/LightningBolt
+	FIELD b seed J
+	FIELD c life I
+	FIELD d flashes I
+	FIELD e visualOnly Z
+	FIELD f cause Lyo;
+	METHOD <init> <init> (Lbnx;DDDZ)V
+	METHOD O getAddEntityPacket ()Lmz;
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a spawnFire (I)V
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD cp getSoundSource ()Labt;
+	METHOD d setCause (Lyo;)V
+	METHOD f getCause ()Lyo;
+	METHOD h tick ()V
+	METHOD w_ defineSynchedData ()V

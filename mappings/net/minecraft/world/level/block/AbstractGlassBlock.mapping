@@ -1,0 +1,5 @@
+CLASS bsu net/minecraft/world/level/block/AbstractGlassBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getShadeBrightness (Lcdt;Lbnh;Lfo;)F
+	METHOD a getVisualShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b propagatesSkylightDown (Lcdt;Lbnh;Lfo;)Z

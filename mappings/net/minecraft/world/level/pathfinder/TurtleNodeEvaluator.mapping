@@ -1,0 +1,13 @@
+CLASS cyy net/minecraft/world/level/pathfinder/TurtleNodeEvaluator
+	FIELD k oldWalkableCost F
+	FIELD l oldWaterBorderCost F
+	METHOD <init> <init> ()V
+	METHOD a done ()V
+	METHOD a getGoal (DDD)Lcyx;
+	METHOD a getAcceptedNode (IIIID)Lcyr;
+	METHOD a getBlockPathType (Lbnh;III)Lcyp;
+	METHOD a evaluateBlockPathType (Lbnh;ZZLfo;Lcyp;)Lcyp;
+	METHOD a prepare (Lboj;Lann;)V
+	METHOD a inWaterDependentPosHeight (Lfo;)D
+	METHOD a getNeighbors ([Lcyr;Lcyr;)I
+	METHOD b getStart ()Lcyr;

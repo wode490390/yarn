@@ -1,0 +1,37 @@
+CLASS bff net/minecraft/world/inventory/GrindstoneMenu
+	FIELD c resultSlots Lalo;
+	FIELD d repairSlots Lalo;
+	FIELD e access Lbev;
+	METHOD <init> <init> (ILbcg;)V
+	METHOD <init> <init> (ILbcg;Lbev;)V
+	METHOD a slotsChanged (Lalo;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD a lambda$removed$1 (Lbch;Lbnx;Lfo;)V
+	METHOD a access$000 (Lbff;)Lalo;
+	METHOD a removeNonCurses (Lbin;II)Lbin;
+	METHOD a lambda$removeNonCurses$0 (Ljava/util/Map$Entry;)Z
+	METHOD b removed (Lbch;)V
+	METHOD b quickMoveStack (Lbch;I)Lbin;
+	METHOD b mergeEnchants (Lbin;Lbin;)Lbin;
+	METHOD e createResult ()V
+	CLASS 1 1
+		FIELD a this$0 Lbff;
+		METHOD <init> <init> (Lbff;I)V
+		METHOD e setChanged ()V
+	CLASS 2 2
+		FIELD a this$0 Lbff;
+		METHOD <init> <init> (Lbff;Lalo;III)V
+		METHOD a mayPlace (Lbin;)Z
+	CLASS 3 3
+		FIELD a this$0 Lbff;
+		METHOD <init> <init> (Lbff;Lalo;III)V
+		METHOD a mayPlace (Lbin;)Z
+	CLASS 4 4
+		FIELD a val$access Lbev;
+		FIELD b this$0 Lbff;
+		METHOD <init> <init> (Lbff;Lalo;IIILbev;)V
+		METHOD a onTake (Lbch;Lbin;)Lbin;
+		METHOD a mayPlace (Lbin;)Z
+		METHOD a getExperienceAmount (Lbnx;)I
+		METHOD a lambda$onTake$0 (Lbnx;Lfo;)V
+		METHOD e getExperienceFromItem (Lbin;)I

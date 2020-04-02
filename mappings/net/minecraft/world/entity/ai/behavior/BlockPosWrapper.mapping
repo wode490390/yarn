@@ -1,0 +1,8 @@
+CLASS aot net/minecraft/world/entity/ai/behavior/BlockPosWrapper
+	FIELD a pos Lfo;
+	FIELD b lookAt Lddp;
+	METHOD <init> <init> (Lfo;)V
+	METHOD a getPos ()Lfo;
+	METHOD a isVisible (Lanm;)Z
+	METHOD b getLookAtPos ()Lddp;
+	METHOD toString toString ()Ljava/lang/String;

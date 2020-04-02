@@ -1,0 +1,10 @@
+CLASS bsi net/minecraft/world/level/biome/TheEndBiomeSource
+	FIELD d islandNoise Lcvt;
+	FIELD e random Lcjm;
+	FIELD f POSSIBLE_BIOMES Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbsj;)V
+	METHOD a getHeightValue (II)F
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b getNoiseBiome (III)Lboy;
+	METHOD c getType ()Lbpe;

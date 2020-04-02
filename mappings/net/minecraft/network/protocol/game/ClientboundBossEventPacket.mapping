@@ -1,0 +1,42 @@
+CLASS nq net/minecraft/network/protocol/game/ClientboundBossEventPacket
+	FIELD a id Ljava/util/UUID;
+	FIELD b operation Lnq$a;
+	FIELD c name Lml;
+	FIELD d pct F
+	FIELD e color Lall$a;
+	FIELD f overlay Lall$b;
+	FIELD g darkenScreen Z
+	FIELD h playMusic Z
+	FIELD i createWorldFog Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lnq$a;Lall;)V
+	METHOD a decodeProperties (I)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getId ()Ljava/util/UUID;
+	METHOD b write (Lmb;)V
+	METHOD c getOperation ()Lnq$a;
+	METHOD d getName ()Lml;
+	METHOD e getPercent ()F
+	METHOD f getColor ()Lall$a;
+	METHOD g getOverlay ()Lall$b;
+	METHOD h shouldDarkenScreen ()Z
+	METHOD i shouldPlayMusic ()Z
+	METHOD j shouldCreateWorldFog ()Z
+	METHOD k encodeProperties ()I
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$network$protocol$game$ClientboundBossEventPacket$Operation [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Operation
+		FIELD a ADD Lnq$a;
+		FIELD b REMOVE Lnq$a;
+		FIELD c UPDATE_PCT Lnq$a;
+		FIELD d UPDATE_NAME Lnq$a;
+		FIELD e UPDATE_STYLE Lnq$a;
+		FIELD f UPDATE_PROPERTIES Lnq$a;
+		FIELD g $VALUES [Lnq$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lnq$a;
+		METHOD values values ()[Lnq$a;

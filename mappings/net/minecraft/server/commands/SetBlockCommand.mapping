@@ -1,0 +1,22 @@
+CLASS wk net/minecraft/server/commands/SetBlockCommand
+	FIELD a ERROR_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$null$3 (Lcdx;)Z
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Lcu;)Z
+	METHOD a setBlock (Lcu;Lfo;Ldw;Lwk$b;Ljava/util/function/Predicate;)I
+	METHOD b lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I
+	CLASS a Filter
+		METHOD filter filter (Lcsw;Lfo;Ldw;Lyn;)Ldw;
+	CLASS b Mode
+		FIELD a REPLACE Lwk$b;
+		FIELD b DESTROY Lwk$b;
+		FIELD c $VALUES [Lwk$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lwk$b;
+		METHOD values values ()[Lwk$b;

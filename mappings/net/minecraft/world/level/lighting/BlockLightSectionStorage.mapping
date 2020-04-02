@@ -1,0 +1,7 @@
+CLASS cvx net/minecraft/world/level/lighting/BlockLightSectionStorage
+	METHOD <init> <init> (Lcfy;)V
+	METHOD d getLightValue (J)I
+	CLASS a BlockDataLayerStorageMap
+		METHOD <init> <init> (Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;)V
+		METHOD a copy ()Lcvx$a;
+		METHOD b copy ()Lcvy;

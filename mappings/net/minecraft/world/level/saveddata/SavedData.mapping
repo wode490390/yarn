@@ -1,0 +1,13 @@
+CLASS cze net/minecraft/world/level/saveddata/SavedData
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b id Ljava/lang/String;
+	FIELD c dirty Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a save (Ljava/io/File;)V
+	METHOD a load (Lkz;)V
+	METHOD a setDirty (Z)V
+	METHOD b setDirty ()V
+	METHOD b save (Lkz;)Lkz;
+	METHOD c isDirty ()Z
+	METHOD d getId ()Ljava/lang/String;

@@ -1,0 +1,15 @@
+CLASS cny net/minecraft/world/level/levelgen/feature/configurations/CharConfiguration
+	FIELD a material Lcpq;
+	FIELD b ch C
+	FIELD c orientation Lc;
+	FIELD d CONTENTS Lit/unimi/dsi/fastutil/chars/Char2ObjectMap;
+	FIELD e REPLACEMENT [B
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcpq;CLc;)V
+	METHOD a createContents ()Lit/unimi/dsi/fastutil/chars/Char2ObjectMap;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcny;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcny;
+	METHOD a lambda$null$0 (Lts;)Ljava/lang/IllegalStateException;
+	METHOD b getBytes ()[B
+	METHOD b lambda$deserialize$1 (Lcom/mojang/datafixers/Dynamic;)Lcpq;

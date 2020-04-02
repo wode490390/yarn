@@ -1,0 +1,16 @@
+CLASS dcm net/minecraft/world/level/storage/loot/predicates/ExplosionCondition
+	FIELD a INSTANCE Ldcm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a test (Ldaa;)Z
+	METHOD b survivesExplosion ()Ldcq$a;
+	METHOD c access$000 ()Ldcm;
+	METHOD d lambda$survivesExplosion$0 ()Ldcq;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcm;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcq;

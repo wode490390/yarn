@@ -1,0 +1,15 @@
+CLASS rr net/minecraft/network/protocol/game/ServerboundPlayerInputPacket
+	FIELD a xxa F
+	FIELD b zza F
+	FIELD c isJumping Z
+	FIELD d isShiftKeyDown Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (FFZZ)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getXxa ()F
+	METHOD b write (Lmb;)V
+	METHOD c getZza ()F
+	METHOD d isJumping ()Z
+	METHOD e isShiftKeyDown ()Z

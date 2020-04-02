@@ -1,0 +1,4 @@
+CLASS cs net/minecraft/commands/CommandRuntimeException
+	FIELD a message Lml;
+	METHOD <init> <init> (Lml;)V
+	METHOD a getComponent ()Lml;

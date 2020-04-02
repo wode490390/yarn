@@ -1,0 +1,11 @@
+CLASS bwn net/minecraft/world/level/block/GrowingPlantBodyBlock
+	METHOD <init> <init> (Lcds$c;Lft;Ldej;Z)V
+	METHOD a getCloneItemStack (Lbnh;Lfo;Lcdt;)Lbin;
+	METHOD a isValidBonemealTarget (Lbnh;Lfo;Lcdt;Z)Z
+	METHOD a isBonemealSuccess (Lbnx;Ljava/util/Random;Lfo;Lcdt;)Z
+	METHOD a canBeReplaced (Lcdt;Lbgq;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a performBonemeal (Lyn;Ljava/util/Random;Lfo;Lcdt;)V
+	METHOD b getHeadPos (Lbnh;Lfo;Lcdt;)Ljava/util/Optional;
+	METHOD e getBodyBlock ()Lbtu;

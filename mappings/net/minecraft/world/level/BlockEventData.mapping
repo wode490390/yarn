@@ -1,0 +1,13 @@
+CLASS bng net/minecraft/world/level/BlockEventData
+	FIELD a pos Lfo;
+	FIELD b block Lbtu;
+	FIELD c paramA I
+	FIELD d paramB I
+	METHOD <init> <init> (Lfo;Lbtu;II)V
+	METHOD a getPos ()Lfo;
+	METHOD b getBlock ()Lbtu;
+	METHOD c getParamA ()I
+	METHOD d getParamB ()I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

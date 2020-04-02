@@ -1,0 +1,24 @@
+CLASS byy net/minecraft/world/level/block/ScaffoldingBlock
+	FIELD a DISTANCE Lcet;
+	FIELD b WATERLOGGED Lcel;
+	FIELD c BOTTOM Lcel;
+	FIELD d STABLE_SHAPE Ldej;
+	FIELD e UNSTABLE_SHAPE Ldej;
+	FIELD f UNSTABLE_SHAPE_BOTTOM Ldej;
+	FIELD g BELOW_BLOCK Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a getDistance (Lbnh;Lfo;)I
+	METHOD a isBottom (Lbnh;Lfo;I)Z
+	METHOD a canBeReplaced (Lcdt;Lbgq;)Z
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD a_ getInteractionShape (Lcdt;Lbnh;Lfo;)Ldej;
+	METHOD b isUnstable ()Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD c getCollisionShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD d getFluidState (Lcdt;)Lcwn;

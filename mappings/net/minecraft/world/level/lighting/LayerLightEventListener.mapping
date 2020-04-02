@@ -1,0 +1,18 @@
+CLASS cwc net/minecraft/world/level/lighting/LayerLightEventListener
+	METHOD a getDataLayerData (Lgj;)Lcfq;
+	METHOD b getLightValue (Lfo;)I
+	CLASS a DummyLightLayerEventListener
+		FIELD a INSTANCE Lcwc$a;
+		FIELD b $VALUES [Lcwc$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a hasLightWork ()Z
+		METHOD a runUpdates (IZZ)I
+		METHOD a enableLightSources (Lbni;Z)V
+		METHOD a checkBlock (Lfo;)V
+		METHOD a onBlockEmissionIncrease (Lfo;I)V
+		METHOD a getDataLayerData (Lgj;)Lcfq;
+		METHOD a updateSectionStatus (Lgj;Z)V
+		METHOD b getLightValue (Lfo;)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcwc$a;
+		METHOD values values ()[Lcwc$a;

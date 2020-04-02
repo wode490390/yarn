@@ -1,0 +1,14 @@
+CLASS ee net/minecraft/commands/arguments/coordinates/LocalCoordinates
+	FIELD a left D
+	FIELD b up D
+	FIELD c forwards D
+	METHOD <init> <init> (DDD)V
+	METHOD a isXRelative ()Z
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lee;
+	METHOD a readDouble (Lcom/mojang/brigadier/StringReader;I)D
+	METHOD a getPosition (Lcu;)Lddp;
+	METHOD b isYRelative ()Z
+	METHOD b getRotation (Lcu;)Lddo;
+	METHOD c isZRelative ()Z
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

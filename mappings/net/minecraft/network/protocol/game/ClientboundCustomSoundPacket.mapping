@@ -1,0 +1,21 @@
+CLASS od net/minecraft/network/protocol/game/ClientboundCustomSoundPacket
+	FIELD a name Lts;
+	FIELD b source Labt;
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f volume F
+	FIELD g pitch F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lts;Labt;Lddp;FF)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getName ()Lts;
+	METHOD b write (Lmb;)V
+	METHOD c getSource ()Labt;
+	METHOD d getX ()D
+	METHOD e getY ()D
+	METHOD f getZ ()D
+	METHOD g getVolume ()F
+	METHOD h getPitch ()F

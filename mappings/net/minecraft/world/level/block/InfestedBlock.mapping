@@ -1,0 +1,11 @@
+CLASS bww net/minecraft/world/level/block/InfestedBlock
+	FIELD a hostBlock Lbtu;
+	FIELD b BLOCK_BY_HOST_BLOCK Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbtu;Lcds$c;)V
+	METHOD a spawnInfestation (Lbnx;Lfo;)V
+	METHOD a wasExploded (Lbnx;Lfo;Lbnq;)V
+	METHOD a spawnAfterBreak (Lcdt;Lbnx;Lfo;Lbin;)V
+	METHOD b stateByHostBlock (Lbtu;)Lcdt;
+	METHOD d getHostBlock ()Lbtu;
+	METHOD h isCompatibleHostBlock (Lcdt;)Z

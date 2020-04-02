@@ -1,0 +1,13 @@
+CLASS ceb net/minecraft/world/level/block/state/predicate/BlockMaterialPredicate
+	FIELD a AIR Lceb;
+	FIELD b material Lcwr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcwr;)V
+	METHOD <init> <init> (Lcwr;Lceb$1;)V
+	METHOD a test (Lcdt;)Z
+	METHOD a forMaterial (Lcwr;)Lceb;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+		METHOD <init> <init> (Lcwr;)V
+		METHOD a test (Lcdt;)Z
+		METHOD test test (Ljava/lang/Object;)Z

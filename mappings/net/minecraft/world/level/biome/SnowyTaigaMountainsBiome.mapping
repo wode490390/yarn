@@ -1,0 +1,2 @@
+CLASS brv net/minecraft/world/level/biome/SnowyTaigaMountainsBiome
+	METHOD <init> <init> ()V

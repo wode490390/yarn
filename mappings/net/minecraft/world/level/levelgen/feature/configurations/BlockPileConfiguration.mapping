@@ -1,0 +1,6 @@
+CLASS cnu net/minecraft/world/level/levelgen/feature/configurations/BlockPileConfiguration
+	FIELD a stateProvider Lcpq;
+	METHOD <init> <init> (Lcpq;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcnu;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcnu;

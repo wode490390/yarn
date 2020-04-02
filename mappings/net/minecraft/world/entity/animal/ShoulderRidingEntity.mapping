@@ -1,0 +1,6 @@
+CLASS axi net/minecraft/world/entity/animal/ShoulderRidingEntity
+	FIELD bx rideCooldownCounter I
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD d setEntityOnShoulder (Lyo;)Z
+	METHOD eL canSitOnShoulder ()Z
+	METHOD h tick ()V

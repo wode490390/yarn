@@ -1,0 +1,30 @@
+CLASS ctj net/minecraft/world/level/levelgen/structure/OceanRuinPieces
+	FIELD a WARM_RUINS [Lts;
+	FIELD b RUINS_BRICK [Lts;
+	FIELD c RUINS_CRACKED [Lts;
+	FIELD d RUINS_MOSSY [Lts;
+	FIELD e BIG_RUINS_BRICK [Lts;
+	FIELD f BIG_RUINS_MOSSY [Lts;
+	FIELD g BIG_RUINS_CRACKED [Lts;
+	FIELD h BIG_WARM_RUINS [Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a addPieces (Lcuq;Lfo;Lbyv;Ljava/util/List;Ljava/util/Random;Lcop;)V
+	METHOD a addPiece (Lcuq;Lfo;Lbyv;Ljava/util/List;Ljava/util/Random;Lcop;ZF)V
+	METHOD a addClusterRuins (Lcuq;Ljava/util/Random;Lbyv;Lfo;Lcop;Ljava/util/List;)V
+	METHOD a getSmallWarmRuin (Ljava/util/Random;)Lts;
+	METHOD a allPositions (Ljava/util/Random;II)Ljava/util/List;
+	METHOD b getBigWarmRuin (Ljava/util/Random;)Lts;
+	CLASS a OceanRuinPiece
+		FIELD d biomeType Lcti$b;
+		FIELD e integrity F
+		FIELD f templateLocation Lts;
+		FIELD g rotation Lbyv;
+		FIELD h isLarge Z
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lcuq;Lts;Lfo;Lbyv;FLcti$b;Z)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+		METHOD a loadTemplate (Lcuq;)V
+		METHOD a getHeight (Lfo;Lbnh;Lfo;)I
+		METHOD a handleDataMarker (Ljava/lang/String;Lfo;Lbny;Ljava/util/Random;Lcsw;)V
+		METHOD a addAdditionalSaveData (Lkz;)V

@@ -1,0 +1,11 @@
+CLASS btx net/minecraft/world/level/block/BookBoxBlock
+	FIELD a FACING Lceo;
+	FIELD b CHARACTERS [C
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

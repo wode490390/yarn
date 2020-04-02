@@ -1,0 +1,9 @@
+CLASS na net/minecraft/network/protocol/PacketFlow
+	FIELD a SERVERBOUND Lna;
+	FIELD b CLIENTBOUND Lna;
+	FIELD c $VALUES [Lna;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a getOpposite ()Lna;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lna;
+	METHOD values values ()[Lna;

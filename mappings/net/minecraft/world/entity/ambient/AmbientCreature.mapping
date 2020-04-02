@@ -1,0 +1,3 @@
+CLASS awi net/minecraft/world/entity/ambient/AmbientCreature
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD a canBeLeashed (Lbch;)Z

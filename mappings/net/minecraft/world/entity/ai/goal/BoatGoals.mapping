@@ -1,0 +1,8 @@
+CLASS arx net/minecraft/world/entity/ai/goal/BoatGoals
+	FIELD a GO_TO_BOAT Larx;
+	FIELD b GO_IN_BOAT_DIRECTION Larx;
+	FIELD c $VALUES [Larx;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Larx;
+	METHOD values values ()[Larx;

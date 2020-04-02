@@ -1,0 +1,2 @@
+CLASS bko net/minecraft/world/item/crafting/CraftingRecipe
+	METHOD g getType ()Lbkz;

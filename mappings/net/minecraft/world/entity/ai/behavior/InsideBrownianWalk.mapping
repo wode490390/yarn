@@ -1,0 +1,11 @@
+CLASS api net/minecraft/world/entity/ai/behavior/InsideBrownianWalk
+	FIELD b speedModifier F
+	METHOD <init> <init> (F)V
+	METHOD a lambda$start$3 (Lant;Lfo;)V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a checkExtraStartConditions (Lyn;Lant;)Z
+	METHOD a start (Lyn;Lant;J)V
+	METHOD a lambda$start$2 (Lyn;Lant;Lfo;)Z
+	METHOD a lambda$start$0 (Lyn;Lfo;)Z
+	METHOD b lambda$start$1 (Lyn;Lant;Lfo;)Z

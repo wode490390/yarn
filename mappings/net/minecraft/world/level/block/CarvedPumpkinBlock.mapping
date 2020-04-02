@@ -1,0 +1,19 @@
+CLASS bui net/minecraft/world/level/block/CarvedPumpkinBlock
+	FIELD a FACING Lceo;
+	FIELD b snowGolemBase Lcdy;
+	FIELD c snowGolemFull Lcdy;
+	FIELD d ironGolemBase Lcdy;
+	FIELD e ironGolemFull Lcdy;
+	FIELD f PUMPKINS_PREDICATE Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a trySpawnGolem (Lbnx;Lfo;)V
+	METHOD a canSpawnGolem (Lboa;Lfo;)Z
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD d getOrCreateSnowGolemBase ()Lcdy;
+	METHOD e getOrCreateSnowGolemFull ()Lcdy;
+	METHOD f getOrCreateIronGolemBase ()Lcdy;
+	METHOD h lambda$static$0 (Lcdt;)Z
+	METHOD u getOrCreateIronGolemFull ()Lcdy;

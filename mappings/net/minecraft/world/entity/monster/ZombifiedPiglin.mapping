@@ -1,0 +1,35 @@
+CLASS bbc net/minecraft/world/entity/monster/ZombifiedPiglin
+	FIELD b SPEED_MODIFIER_ATTACKING_UUID Ljava/util/UUID;
+	FIELD bv angerTime I
+	FIELD bw playAngrySoundIn I
+	FIELD bx lastHurtByUUID Ljava/util/UUID;
+	FIELD c SPEED_MODIFIER_ATTACKING Laof;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD N customServerAiStep ()V
+	METHOD a populateDefaultEquipmentSlots (Lalt;)V
+	METHOD a hurt (Laml;F)Z
+	METHOD a setLastHurtByMob (Lanm;)V
+	METHOD a access$100 (Lbbc;)Z
+	METHOD a access$000 (Lbbc;Lanm;)Z
+	METHOD a checkSpawnObstruction (Lboa;)Z
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b checkZombifiedPiglinSpawnRules (Lanf;Lbny;Lanp;Lfo;Ljava/util/Random;)Z
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD cF registerAttributes ()V
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD e isPreventingPlayerRest (Lbch;)Z
+	METHOD eA getSkull ()Lbin;
+	METHOD eB convertsInWater ()Z
+	METHOD eH getAngerTime ()I
+	METHOD eI isAngry ()Z
+	METHOD j makeAngry (Lanm;)Z
+	METHOD k addBehaviourGoals ()V
+	CLASS a ZombifiedPiglinAngerTargetGoal
+		METHOD <init> <init> (Lbbc;)V
+		METHOD a canUse ()Z
+	CLASS b ZombifiedPiglinHurtByOtherGoal
+		METHOD <init> <init> (Lbbc;)V
+		METHOD a alertOther (Lann;Lanm;)V

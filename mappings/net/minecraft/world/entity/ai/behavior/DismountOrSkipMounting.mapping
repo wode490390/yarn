@@ -1,0 +1,7 @@
+CLASS aox net/minecraft/world/entity/ai/behavior/DismountOrSkipMounting
+	FIELD b maxWalkDistToRideTarget I
+	FIELD c dontRideIf Ljava/util/function/BiPredicate;
+	METHOD <init> <init> (ILjava/util/function/BiPredicate;)V
+	METHOD a isVehicleValid (Lanm;Lanb;)Z
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V

@@ -1,0 +1,2 @@
+CLASS bsg net/minecraft/world/level/biome/TallBirchHillsBiome
+	METHOD <init> <init> ()V

@@ -1,0 +1,29 @@
+CLASS dbf net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c enchantments Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Ldcq;Ljava/util/Collection;)V
+	METHOD <init> <init> ([Ldcq;Ljava/util/Collection;Ldbf$1;)V
+	METHOD a enchantItem (Lbin;Lblx;Ljava/util/Random;)Lbin;
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a access$100 (Ldbf;)Ljava/util/List;
+	METHOD a lambda$run$0 (ZLbin;Lblx;)Z
+	METHOD a lambda$randomApplicableEnchantment$1 ([Ldcq;)Ldbm;
+	METHOD b randomEnchantment ()Ldbf$a;
+	METHOD c randomApplicableEnchantment ()Ldbl$a;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a enchantments Ljava/util/Set;
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Ldbf$a;
+		METHOD a withEnchantment (Lblx;)Ldbf$a;
+		METHOD b build ()Ldbm;
+		METHOD d getThis ()Ldbl$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbf;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbf;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$0 (Ljava/lang/String;)Lcom/google/gson/JsonSyntaxException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

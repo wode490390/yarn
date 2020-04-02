@@ -1,0 +1,47 @@
+CLASS acj net/minecraft/tags/Tag
+	FIELD a id Lts;
+	FIELD b values Ljava/util/Set;
+	FIELD c source Ljava/util/Collection;
+	METHOD <init> <init> (Lts;)V
+	METHOD <init> <init> (Lts;Ljava/util/Collection;Z)V
+	METHOD a getValues ()Ljava/util/Collection;
+	METHOD a contains (Ljava/lang/Object;)Z
+	METHOD a getRandomElement (Ljava/util/Random;)Ljava/lang/Object;
+	METHOD a serializeToJson (Ljava/util/function/Function;)Lcom/google/gson/JsonObject;
+	METHOD b getSource ()Ljava/util/Collection;
+	METHOD c getId ()Lts;
+	CLASS a Builder
+		FIELD a values Ljava/util/Set;
+		FIELD b ordered Z
+		METHOD <init> <init> ()V
+		METHOD a tag ()Lacj$a;
+		METHOD a add (Lacj$b;)Lacj$a;
+		METHOD a addTag (Lacj;)Lacj$a;
+		METHOD a add (Ljava/lang/Object;)Lacj$a;
+		METHOD a add (Ljava/util/Collection;)Lacj$a;
+		METHOD a canBuild (Ljava/util/function/Function;)Z
+		METHOD a addFromJson (Ljava/util/function/Function;Lcom/google/gson/JsonObject;)Lacj$a;
+		METHOD a addTag (Lts;)Lacj$a;
+		METHOD a keepOrder (Z)Lacj$a;
+		METHOD a add ([Ljava/lang/Object;)Lacj$a;
+		METHOD b build (Lts;)Lacj;
+		METHOD c lambda$addFromJson$0 (Lts;)Lcom/google/gson/JsonParseException;
+	CLASS b Entry
+		METHOD a serializeTo (Lcom/google/gson/JsonArray;Ljava/util/function/Function;)V
+		METHOD a build (Ljava/util/Collection;)V
+		METHOD a canBuild (Ljava/util/function/Function;)Z
+	CLASS c TagEntry
+		FIELD a id Lts;
+		FIELD b tag Lacj;
+		METHOD <init> <init> (Lacj;)V
+		METHOD <init> <init> (Lts;)V
+		METHOD a getId ()Lts;
+		METHOD a serializeTo (Lcom/google/gson/JsonArray;Ljava/util/function/Function;)V
+		METHOD a build (Ljava/util/Collection;)V
+		METHOD a canBuild (Ljava/util/function/Function;)Z
+	CLASS d ValuesEntry
+		FIELD a values Ljava/util/Collection;
+		METHOD <init> <init> (Ljava/util/Collection;)V
+		METHOD a getValues ()Ljava/util/Collection;
+		METHOD a serializeTo (Lcom/google/gson/JsonArray;Ljava/util/function/Function;)V
+		METHOD a build (Ljava/util/Collection;)V

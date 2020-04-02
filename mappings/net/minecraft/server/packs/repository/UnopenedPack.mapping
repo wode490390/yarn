@@ -1,0 +1,40 @@
+CLASS aad net/minecraft/server/packs/repository/UnopenedPack
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b BROKEN_ASSETS_FALLBACK Lzt;
+	FIELD c id Ljava/lang/String;
+	FIELD d supplier Ljava/util/function/Supplier;
+	FIELD e title Lml;
+	FIELD f description Lml;
+	FIELD g compatibility Lzz;
+	FIELD h defaultPosition Laad$a;
+	FIELD i required Z
+	FIELD j fixedPosition Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ZLjava/util/function/Supplier;Lml;Lml;Lzz;Laad$a;Z)V
+	METHOD <init> <init> (Ljava/lang/String;ZLjava/util/function/Supplier;Lzo;Lzt;Laad$a;)V
+	METHOD a getTitle ()Lml;
+	METHOD a create (Ljava/lang/String;ZLjava/util/function/Supplier;Laad$b;Laad$a;)Laad;
+	METHOD a getChatLink (Z)Lml;
+	METHOD a lambda$getChatLink$0 (ZLmt;)V
+	METHOD b getDescription ()Lml;
+	METHOD c getCompatibility ()Lzz;
+	METHOD close close ()V
+	METHOD d open ()Lzo;
+	METHOD e getId ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f isRequired ()Z
+	METHOD g isFixedPosition ()Z
+	METHOD h getDefaultPosition ()Laad$a;
+	METHOD hashCode hashCode ()I
+	CLASS a Position
+		FIELD a TOP Laad$a;
+		FIELD b BOTTOM Laad$a;
+		FIELD c $VALUES [Laad$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a opposite ()Laad$a;
+		METHOD a insert (Ljava/util/List;Ljava/lang/Object;Ljava/util/function/Function;Z)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Laad$a;
+		METHOD values values ()[Laad$a;
+	CLASS b UnopenedPackConstructor
+		METHOD create create (Ljava/lang/String;ZLjava/util/function/Supplier;Lzo;Lzt;Laad$a;)Laad;

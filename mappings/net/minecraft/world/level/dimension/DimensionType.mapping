@@ -1,0 +1,27 @@
+CLASS cgv net/minecraft/world/level/dimension/DimensionType
+	FIELD a OVERWORLD Lcgv;
+	FIELD b NETHER Lcgv;
+	FIELD c THE_END Lcgv;
+	FIELD d id I
+	FIELD e fileSuffix Ljava/lang/String;
+	FIELD f folder Ljava/lang/String;
+	FIELD g factory Ljava/util/function/BiFunction;
+	FIELD h hasSkylight Z
+	FIELD i biomeZoomer Lbpg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILjava/lang/String;Ljava/lang/String;Ljava/util/function/BiFunction;ZLbpg;)V
+	METHOD a requirePortalGen ()Z
+	METHOD a getById (I)Lcgv;
+	METHOD a create (Lbnx;)Lcgt;
+	METHOD a getName (Lcgv;)Lts;
+	METHOD a of (Lcom/mojang/datafixers/Dynamic;)Lcgv;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a getStorageFolder (Ljava/io/File;)Ljava/io/File;
+	METHOD a register (Ljava/lang/String;Lcgv;)Lcgv;
+	METHOD a getByName (Lts;)Lcgv;
+	METHOD b getAllTypes ()Ljava/lang/Iterable;
+	METHOD c getId ()I
+	METHOD d getFileSuffix ()Ljava/lang/String;
+	METHOD e hasSkyLight ()Z
+	METHOD f getBiomeZoomer ()Lbpg;
+	METHOD toString toString ()Ljava/lang/String;

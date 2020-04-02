@@ -1,0 +1,16 @@
+CLASS ag net/minecraft/advancements/FrameType
+	FIELD a TASK Lag;
+	FIELD b CHALLENGE Lag;
+	FIELD c GOAL Lag;
+	FIELD d name Ljava/lang/String;
+	FIELD e texture I
+	FIELD f chatColor Li;
+	FIELD g $VALUES [Lag;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;ILi;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a byName (Ljava/lang/String;)Lag;
+	METHOD b getTexture ()I
+	METHOD c getChatColor ()Li;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lag;
+	METHOD values values ()[Lag;

@@ -1,0 +1,14 @@
+CLASS ns net/minecraft/network/protocol/game/ClientboundChatPacket
+	FIELD a message Lml;
+	FIELD b type Lmj;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lml;)V
+	METHOD <init> <init> (Lml;Lmj;)V
+	METHOD a isSkippable ()Z
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getMessage ()Lml;
+	METHOD b write (Lmb;)V
+	METHOD c isSystem ()Z
+	METHOD d getType ()Lmj;

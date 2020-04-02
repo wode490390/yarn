@@ -1,0 +1,13 @@
+CLASS bxa net/minecraft/world/level/block/KelpBlock
+	FIELD e SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a canPlaceLiquid (Lbnh;Lfo;Lcdt;Lcwm;)Z
+	METHOD a placeLiquid (Lbny;Lfo;Lcdt;Lcwn;)Z
+	METHOD a getBlocksToGrowWhenBonemealed (Ljava/util/Random;)I
+	METHOD b isUnstable ()Z
+	METHOD b canAttachToBlock (Lbtu;)Z
+	METHOD d getFluidState (Lcdt;)Lcwn;
+	METHOD e getBodyBlock ()Lbtu;
+	METHOD h canGrowInto (Lcdt;)Z

@@ -1,0 +1,27 @@
+CLASS op net/minecraft/network/protocol/game/ClientboundLoginPacket
+	FIELD a playerId I
+	FIELD b seed J
+	FIELD c hardcore Z
+	FIELD d gameType Lbnu;
+	FIELD e dimension Lcgv;
+	FIELD f maxPlayers I
+	FIELD g levelType Lboe;
+	FIELD h chunkRadius I
+	FIELD i reducedDebugInfo Z
+	FIELD j showDeathScreen Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILbnu;JZLcgv;ILboe;IZZ)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getPlayerId ()I
+	METHOD b write (Lmb;)V
+	METHOD c getSeed ()J
+	METHOD d isHardcore ()Z
+	METHOD e getGameType ()Lbnu;
+	METHOD f getDimension ()Lcgv;
+	METHOD g getMaxPlayers ()I
+	METHOD h getLevelType ()Lboe;
+	METHOD i getChunkRadius ()I
+	METHOD j isReducedDebugInfo ()Z
+	METHOD k shouldShowDeathScreen ()Z

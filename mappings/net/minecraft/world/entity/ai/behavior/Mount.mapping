@@ -1,0 +1,7 @@
+CLASS apr net/minecraft/world/entity/ai/behavior/Mount
+	FIELD b speedModifier F
+	METHOD <init> <init> (F)V
+	METHOD a isCloseEnoughToStartRiding (Lanm;)Z
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD b getRidableEntity (Lanm;)Lanb;

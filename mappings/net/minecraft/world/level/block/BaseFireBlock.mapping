@@ -1,0 +1,18 @@
+CLASS btk net/minecraft/world/level/block/BaseFireBlock
+	FIELD a UP_AABB Ldej;
+	FIELD b DOWN_AABB Ldej;
+	FIELD c WEST_AABB Ldej;
+	FIELD d EAST_AABB Ldej;
+	FIELD e NORTH_AABB Ldej;
+	FIELD f SOUTH_AABB Ldej;
+	FIELD g fireDamage F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;F)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a getState (Lbnh;Lfo;)Lcdt;
+	METHOD a playerWillDestroy (Lbnx;Lfo;Lcdt;Lbch;)V
+	METHOD a entityInside (Lcdt;Lbnx;Lfo;Lanb;)V
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD e canBurn (Lcdt;)Z

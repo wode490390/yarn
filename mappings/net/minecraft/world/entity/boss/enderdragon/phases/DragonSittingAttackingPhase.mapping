@@ -1,0 +1,7 @@
+CLASS ayp net/minecraft/world/entity/boss/enderdragon/phases/DragonSittingAttackingPhase
+	FIELD b attackingTicks I
+	METHOD <init> <init> (Laye;)V
+	METHOD b doClientTick ()V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD i getPhase ()Layu;

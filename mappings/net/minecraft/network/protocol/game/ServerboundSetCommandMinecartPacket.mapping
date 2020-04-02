@@ -1,0 +1,13 @@
+CLASS sa net/minecraft/network/protocol/game/ServerboundSetCommandMinecartPacket
+	FIELD a entity I
+	FIELD b command Ljava/lang/String;
+	FIELD c trackOutput Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILjava/lang/String;Z)V
+	METHOD a getCommandBlock (Lbnx;)Lbnd;
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getCommand ()Ljava/lang/String;
+	METHOD b write (Lmb;)V
+	METHOD c isTrackOutput ()Z

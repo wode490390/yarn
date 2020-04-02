@@ -1,0 +1,18 @@
+CLASS ctn net/minecraft/world/level/levelgen/structure/ShipwreckPieces
+	FIELD a PIVOT Lfo;
+	FIELD b STRUCTURE_LOCATION_BEACHED [Lts;
+	FIELD c STRUCTURE_LOCATION_OCEAN [Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Lfo;
+	METHOD a addPieces (Lcuq;Lfo;Lbyv;Ljava/util/List;Ljava/util/Random;Lcoz;)V
+	CLASS a ShipwreckPiece
+		FIELD d rotation Lbyv;
+		FIELD e templateLocation Lts;
+		FIELD f isBeached Z
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lcuq;Lts;Lfo;Lbyv;Z)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+		METHOD a loadTemplate (Lcuq;)V
+		METHOD a handleDataMarker (Ljava/lang/String;Lfo;Lbny;Ljava/util/Random;Lcsw;)V
+		METHOD a addAdditionalSaveData (Lkz;)V

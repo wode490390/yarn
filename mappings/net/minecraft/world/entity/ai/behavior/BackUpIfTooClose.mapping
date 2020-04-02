@@ -1,0 +1,11 @@
+CLASS aop net/minecraft/world/entity/ai/behavior/BackUpIfTooClose
+	FIELD b tooCloseDistance I
+	FIELD c strafeSpeed F
+	METHOD <init> <init> (IF)V
+	METHOD a isTargetVisible (Lann;)Z
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a checkExtraStartConditions (Lyn;Lann;)Z
+	METHOD a start (Lyn;Lann;J)V
+	METHOD b isTargetTooClose (Lann;)Z
+	METHOD c getTarget (Lann;)Lanm;

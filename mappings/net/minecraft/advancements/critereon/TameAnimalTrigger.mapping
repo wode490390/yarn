@@ -1,0 +1,17 @@
+CLASS ch net/minecraft/advancements/critereon/TameAnimalTrigger
+	FIELD a ID Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lts;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lae;
+	METHOD a trigger (Lyo;Lawo;)V
+	METHOD a lambda$trigger$0 (Lyo;Lawo;Lch$a;)Z
+	METHOD b access$000 ()Lts;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lch$a;
+	CLASS a TriggerInstance
+		FIELD a entity Lbd;
+		METHOD <init> <init> (Lbd;)V
+		METHOD a tamedAnimal (Lbd;)Lch$a;
+		METHOD a matches (Lyo;Lawo;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD c tamedAnimal ()Lch$a;

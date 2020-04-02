@@ -1,0 +1,10 @@
+CLASS cj net/minecraft/advancements/critereon/TickTrigger
+	FIELD a ID Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lts;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lae;
+	METHOD a trigger (Lyo;)V
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcj$a;
+	CLASS a TriggerInstance
+		METHOD <init> <init> ()V

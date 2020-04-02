@@ -1,0 +1,5 @@
+CLASS cme net/minecraft/world/level/levelgen/feature/OreFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcoq;)Z
+	METHOD a doPlace (Lbny;Ljava/util/Random;Lcoq;DDDDDDIIIII)Z

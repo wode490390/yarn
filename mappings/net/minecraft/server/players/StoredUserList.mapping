@@ -1,0 +1,25 @@
+CLASS abc net/minecraft/server/players/StoredUserList
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c file Ljava/io/File;
+	FIELD d map Ljava/util/Map;
+	FIELD e enabled Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getUserList ()[Ljava/lang/String;
+	METHOD a add (Labb;)V
+	METHOD a createEntry (Lcom/google/gson/JsonObject;)Labb;
+	METHOD a getKeyForUser (Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a setEnabled (Z)V
+	METHOD b isEnabled ()Z
+	METHOD b remove (Labb;)V
+	METHOD b get (Ljava/lang/Object;)Labb;
+	METHOD c getFile ()Ljava/io/File;
+	METHOD c lambda$save$0 (Labb;)Lcom/google/gson/JsonObject;
+	METHOD c remove (Ljava/lang/Object;)V
+	METHOD d isEmpty ()Z
+	METHOD d contains (Ljava/lang/Object;)Z
+	METHOD e getEntries ()Ljava/util/Collection;
+	METHOD f save ()V
+	METHOD g load ()V
+	METHOD h removeExpired ()V

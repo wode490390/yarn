@@ -1,0 +1,11 @@
+CLASS cef net/minecraft/world/level/block/state/properties/AbstractProperty
+	FIELD a clazz Ljava/lang/Class;
+	FIELD b name Ljava/lang/String;
+	FIELD c hashCode Ljava/lang/Integer;
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Class;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD b getValueClass ()Ljava/lang/Class;
+	METHOD c generateHashCode ()I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

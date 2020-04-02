@@ -1,0 +1,26 @@
+CLASS ack net/minecraft/tags/TagCollection
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c PATH_SUFFIX_LENGTH I
+	FIELD d tags Ljava/util/Map;
+	FIELD e idToValue Ljava/util/function/Function;
+	FIELD f directory Ljava/lang/String;
+	FIELD g ordered Z
+	FIELD h name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/lang/String;ZLjava/lang/String;)V
+	METHOD a getAvailableTags ()Ljava/util/Collection;
+	METHOD a lambda$prepare$3 (Laal;)Ljava/util/Map;
+	METHOD a prepare (Laal;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$null$1 (Lacj$a;)V
+	METHOD a getMatchingTags (Ljava/lang/Object;)Ljava/util/Collection;
+	METHOD a lambda$null$0 (Ljava/lang/String;)Z
+	METHOD a load (Ljava/util/Map;)V
+	METHOD a lambda$load$5 (Ljava/util/Map;Lts;Lacj$a;)V
+	METHOD a getTag (Lts;)Lacj;
+	METHOD a lambda$load$4 (Lts;Lacj$a;)V
+	METHOD b getAllTags ()Ljava/util/Map;
+	METHOD b replace (Ljava/util/Map;)V
+	METHOD b getTagOrEmpty (Lts;)Lacj;
+	METHOD c hasTag (Lts;)Z
+	METHOD d lambda$null$2 (Lts;)Lacj$a;

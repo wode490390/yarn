@@ -1,0 +1,7 @@
+CLASS acc net/minecraft/stats/StatsCounter
+	FIELD a stats Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD <init> <init> ()V
+	METHOD a getValue (Laby;)I
+	METHOD a getValue (Laca;Ljava/lang/Object;)I
+	METHOD a setValue (Lbch;Laby;I)V
+	METHOD b increment (Lbch;Laby;I)V

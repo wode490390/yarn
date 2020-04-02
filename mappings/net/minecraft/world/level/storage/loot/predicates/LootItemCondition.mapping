@@ -1,0 +1,13 @@
+CLASS dcq net/minecraft/world/level/storage/loot/predicates/LootItemCondition
+	CLASS a Builder
+		METHOD a invert ()Ldcq$a;
+		METHOD a or (Ldcq$a;)Ldcg$a;
+		METHOD build build ()Ldcq;
+	CLASS b Serializer
+		FIELD a name Lts;
+		FIELD b clazz Ljava/lang/Class;
+		METHOD <init> <init> (Lts;Ljava/lang/Class;)V
+		METHOD a getName ()Lts;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b getPredicateClass ()Ljava/lang/Class;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcq;

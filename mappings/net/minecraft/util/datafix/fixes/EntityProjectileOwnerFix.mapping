@@ -1,0 +1,12 @@
+CLASS afo net/minecraft/util/datafix/fixes/EntityProjectileOwnerFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a createUUIDArray (JJ)[I
+	METHOD a updateOwnerArrow (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a setUUID (Lcom/mojang/datafixers/Dynamic;JJ)Lcom/mojang/datafixers/Dynamic;
+	METHOD a updateProjectiles (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a updateEntity (Lcom/mojang/datafixers/Typed;Ljava/lang/String;Ljava/util/function/Function;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$updateEntity$0 (Ljava/util/function/Function;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD b updateOwnerLlamaSpit (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD c updateItemPotion (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD d updateOwnerThrowable (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

@@ -1,0 +1,24 @@
+CLASS dcx net/minecraft/world/level/storage/loot/predicates/TimeCheck
+	FIELD a period Ljava/lang/Long;
+	FIELD b value Ldai;
+	METHOD <init> <init> (Ljava/lang/Long;Ldai;)V
+	METHOD <init> <init> (Ljava/lang/Long;Ldai;Ldcx$1;)V
+	METHOD a test (Ldaa;)Z
+	METHOD a time (Ldai;)Ldcx$a;
+	METHOD a access$100 (Ldcx;)Ljava/lang/Long;
+	METHOD b access$200 (Ldcx;)Ldai;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a period Ljava/lang/Long;
+		FIELD b value Ldai;
+		METHOD <init> <init> (Ldai;)V
+		METHOD a setPeriod (J)Ldcx$a;
+		METHOD b build ()Ldcx;
+		METHOD build build ()Ldcq;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcx;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcx;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcq;

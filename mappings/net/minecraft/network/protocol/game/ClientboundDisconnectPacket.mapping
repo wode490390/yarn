@@ -1,0 +1,9 @@
+CLASS oe net/minecraft/network/protocol/game/ClientboundDisconnectPacket
+	FIELD a reason Lml;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lml;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getReason ()Lml;
+	METHOD b write (Lmb;)V

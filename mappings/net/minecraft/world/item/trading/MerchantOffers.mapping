@@ -1,0 +1,7 @@
+CLASS bnb net/minecraft/world/item/trading/MerchantOffers
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lkz;)V
+	METHOD a createTag ()Lkz;
+	METHOD a getRecipeFor (Lbin;Lbin;I)Lbna;
+	METHOD a writeToStream (Lmb;)V
+	METHOD b createFromStream (Lmb;)Lbnb;

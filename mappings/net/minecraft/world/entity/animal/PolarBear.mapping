@@ -1,0 +1,46 @@
+CLASS axd net/minecraft/world/entity/animal/PolarBear
+	FIELD bv DATA_STANDING_ID Lth;
+	FIELD bw clientSideStandAnimationO F
+	FIELD bx clientSideStandAnimation F
+	FIELD by warningSoundTicks I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD B doHurtTarget (Lanb;)Z
+	METHOD I getAmbientSound ()Labr;
+	METHOD a getBreedOffspring (Lamz;)Lamz;
+	METHOD a getDimensions (Lanw;)Lanc;
+	METHOD a finalizeSpawn (Lbny;Lalt;Lanp;Lanz;Lkz;)Lanz;
+	METHOD a playStepSound (Lfo;Lcdt;)V
+	METHOD c checkPolarBearSpawnRules (Lanf;Lbny;Lanp;Lfo;Ljava/util/Random;)Z
+	METHOD cF registerAttributes ()V
+	METHOD dd getDeathSound ()Labr;
+	METHOD dz getWaterSlowDown ()F
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD eA isStanding ()Z
+	METHOD ez playWarningSound ()V
+	METHOD h tick ()V
+	METHOD k isFood (Lbin;)Z
+	METHOD o registerGoals ()V
+	METHOD t setStanding (Z)V
+	METHOD u getStandingAnimationScale (F)F
+	METHOD w_ defineSynchedData ()V
+	CLASS a PolarBearAttackPlayersGoal
+		FIELD i this$0 Laxd;
+		METHOD <init> <init> (Laxd;)V
+		METHOD a canUse ()Z
+		METHOD k getFollowDistance ()D
+	CLASS b PolarBearHurtByTargetGoal
+		FIELD a this$0 Laxd;
+		METHOD <init> <init> (Laxd;)V
+		METHOD a alertOther (Lann;Lanm;)V
+		METHOD c start ()V
+	CLASS c PolarBearMeleeAttackGoal
+		FIELD d this$0 Laxd;
+		METHOD <init> <init> (Laxd;)V
+		METHOD a getAttackReachSqr (Lanm;)D
+		METHOD a checkAndPerformAttack (Lanm;D)V
+		METHOD d stop ()V
+	CLASS d PolarBearPanicGoal
+		FIELD g this$0 Laxd;
+		METHOD <init> <init> (Laxd;)V
+		METHOD a canUse ()Z

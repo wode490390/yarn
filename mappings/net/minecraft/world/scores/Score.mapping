@@ -1,0 +1,22 @@
+CLASS deo net/minecraft/world/scores/Score
+	FIELD a SCORE_COMPARATOR Ljava/util/Comparator;
+	FIELD b scoreboard Ldep;
+	FIELD c objective Ldem;
+	FIELD d owner Ljava/lang/String;
+	FIELD e count I
+	FIELD f locked Z
+	FIELD g forceUpdate Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldep;Ldem;Ljava/lang/String;)V
+	METHOD a increment ()V
+	METHOD a add (I)V
+	METHOD a lambda$static$0 (Ldeo;Ldeo;)I
+	METHOD a setLocked (Z)V
+	METHOD b getScore ()I
+	METHOD b remove (I)V
+	METHOD c reset ()V
+	METHOD c setScore (I)V
+	METHOD d getObjective ()Ldem;
+	METHOD e getOwner ()Ljava/lang/String;
+	METHOD f getScoreboard ()Ldep;
+	METHOD g isLocked ()Z

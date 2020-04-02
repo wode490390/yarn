@@ -1,0 +1,3 @@
+CLASS bep net/minecraft/world/inventory/BlastFurnaceMenu
+	METHOD <init> <init> (ILbcg;)V
+	METHOD <init> <init> (ILbcg;Lalo;Lbeu;)V

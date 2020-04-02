@@ -1,0 +1,17 @@
+CLASS aqf net/minecraft/world/entity/ai/behavior/SetEntityLookTarget
+	FIELD b predicate Ljava/util/function/Predicate;
+	FIELD c maxDistSqr F
+	METHOD <init> <init> (F)V
+	METHOD <init> <init> (Lacj;F)V
+	METHOD <init> <init> (Lanf;F)V
+	METHOD <init> <init> (Lano;F)V
+	METHOD <init> <init> (Ljava/util/function/Predicate;F)V
+	METHOD a lambda$new$0 (Lacj;Lanm;)Z
+	METHOD a lambda$new$2 (Lanf;Lanm;)Z
+	METHOD a lambda$new$3 (Lanm;)Z
+	METHOD a lambda$null$4 (Lanm;Lanm;)Z
+	METHOD a lambda$start$6 (Lanm;Laoc;Ljava/util/List;)V
+	METHOD a lambda$new$1 (Lano;Lanm;)Z
+	METHOD a lambda$null$5 (Laoc;Lanm;)V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V

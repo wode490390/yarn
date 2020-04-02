@@ -1,0 +1,6 @@
+CLASS cus net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor
+	METHOD <init> <init> ()V
+	METHOD a getType ()Lcut;
+	METHOD a processBlock (Lboa;Lfo;Lfo;Lcuu$b;Lcuu$b;Lcur;)Lcuu$b;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

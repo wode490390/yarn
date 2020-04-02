@@ -1,0 +1,8 @@
+CLASS cun net/minecraft/world/level/levelgen/structure/templatesystem/RuleProcessor
+	FIELD a rules Lcom/google/common/collect/ImmutableList;
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a getType ()Lcut;
+	METHOD a processBlock (Lboa;Lfo;Lfo;Lcuu$b;Lcuu$b;Lcur;)Lcuu$b;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$getDynamic$0 (Lcom/mojang/datafixers/types/DynamicOps;Lcuk;)Ljava/lang/Object;

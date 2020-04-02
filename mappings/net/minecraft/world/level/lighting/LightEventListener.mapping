@@ -1,0 +1,8 @@
+CLASS cwf net/minecraft/world/level/lighting/LightEventListener
+	METHOD a hasLightWork ()Z
+	METHOD a runUpdates (IZZ)I
+	METHOD a enableLightSources (Lbni;Z)V
+	METHOD a checkBlock (Lfo;)V
+	METHOD a onBlockEmissionIncrease (Lfo;I)V
+	METHOD a updateSectionStatus (Lfo;Z)V
+	METHOD a updateSectionStatus (Lgj;Z)V

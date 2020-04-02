@@ -1,0 +1,11 @@
+CLASS py net/minecraft/network/protocol/game/ClientboundSetPassengersPacket
+	FIELD a vehicle I
+	FIELD b passengers [I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lanb;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getPassengers ()[I
+	METHOD b write (Lmb;)V
+	METHOD c getVehicle ()I

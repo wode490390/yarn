@@ -1,0 +1,19 @@
+CLASS czf net/minecraft/world/level/saveddata/maps/MapBanner
+	FIELD a pos Lfo;
+	FIELD b color Lbhi;
+	FIELD c name Lml;
+	METHOD <init> <init> (Lfo;Lbhi;Lml;)V
+	METHOD a getPos ()Lfo;
+	METHOD a fromWorld (Lbnh;Lfo;)Lczf;
+	METHOD a load (Lkz;)Lczf;
+	METHOD b getColor ()Lbhi;
+	METHOD b lambda$fromWorld$0 (Lbnh;Lfo;)Lcdt;
+	METHOD c getDecoration ()Lczg$a;
+	METHOD d getName ()Lml;
+	METHOD e save ()Lkz;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getId ()Ljava/lang/String;
+	METHOD hashCode hashCode ()I
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$item$DyeColor [I
+		METHOD <clinit> <clinit> ()V

@@ -1,0 +1,4 @@
+CLASS biq net/minecraft/world/item/LeadItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a bindPlayerMobs (Lbch;Lbnx;Lfo;)Lalv;
+	METHOD a useOn (Lbjz;)Lalv;

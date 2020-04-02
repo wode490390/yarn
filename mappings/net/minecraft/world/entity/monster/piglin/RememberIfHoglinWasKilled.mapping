@@ -1,0 +1,5 @@
+CLASS bbj net/minecraft/world/entity/monster/piglin/RememberIfHoglinWasKilled
+	METHOD <init> <init> ()V
+	METHOD a isAttackTargetDeadHoglin (Lbbh;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a start (Lyn;Lbbh;J)V

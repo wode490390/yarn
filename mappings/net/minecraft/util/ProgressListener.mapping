@@ -1,3 +1,6 @@
-CLASS net/minecraft/class_3536 net/minecraft/util/ProgressListener
-	METHOD method_15410 progressStagePercentage (I)V
-	METHOD method_15411 setDone ()V
+CLASS ade net/minecraft/util/ProgressListener
+	METHOD a stop ()V
+	METHOD a progressStagePercentage (I)V
+	METHOD a progressStartNoAbort (Lml;)V
+	METHOD b progressStart (Lml;)V
+	METHOD c progressStage (Lml;)V

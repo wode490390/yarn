@@ -1,0 +1,9 @@
+CLASS tz net/minecraft/server/Eula
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b file Ljava/nio/file/Path;
+	FIELD c agreed Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/nio/file/Path;)V
+	METHOD a hasAgreedToEULA ()Z
+	METHOD b readFile ()Z
+	METHOD c saveDefaults ()V

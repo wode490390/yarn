@@ -1,0 +1,21 @@
+CLASS bci net/minecraft/world/entity/player/PlayerModelPart
+	FIELD a CAPE Lbci;
+	FIELD b JACKET Lbci;
+	FIELD c LEFT_SLEEVE Lbci;
+	FIELD d RIGHT_SLEEVE Lbci;
+	FIELD e LEFT_PANTS_LEG Lbci;
+	FIELD f RIGHT_PANTS_LEG Lbci;
+	FIELD g HAT Lbci;
+	FIELD h bit I
+	FIELD i mask I
+	FIELD j id Ljava/lang/String;
+	FIELD k name Lml;
+	FIELD l $VALUES [Lbci;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+	METHOD a getMask ()I
+	METHOD b getBit ()I
+	METHOD c getId ()Ljava/lang/String;
+	METHOD d getName ()Lml;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbci;
+	METHOD values values ()[Lbci;

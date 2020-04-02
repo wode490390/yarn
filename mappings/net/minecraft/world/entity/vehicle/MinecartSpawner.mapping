@@ -1,0 +1,18 @@
+CLASS bed net/minecraft/world/entity/vehicle/MinecartSpawner
+	FIELD b spawner Lbne;
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDD)V
+	METHOD a handleEntityEvent (B)V
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD cf onlyOpCanSetNbt ()Z
+	METHOD h tick ()V
+	METHOD o getMinecartType ()Lbdv$a;
+	METHOD q getDefaultDisplayBlockState ()Lcdt;
+	METHOD v getSpawner ()Lbne;
+	CLASS 1 1
+		FIELD a this$0 Lbed;
+		METHOD <init> <init> (Lbed;)V
+		METHOD a getLevel ()Lbnx;
+		METHOD a broadcastEvent (I)V
+		METHOD b getPos ()Lfo;

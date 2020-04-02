@@ -1,0 +1,7 @@
+CLASS agg net/minecraft/util/datafix/fixes/GossipUUIDFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Ljava/lang/String;)V
+	METHOD a lambda$fix$3 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$1 (Ljava/util/stream/Stream;)Ljava/util/stream/Stream;
+	METHOD b lambda$null$2 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD c lambda$null$0 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,15 @@
+CLASS coe net/minecraft/world/level/levelgen/feature/configurations/EndGatewayConfiguration
+	FIELD a exit Ljava/util/Optional;
+	FIELD b exact Z
+	METHOD <init> <init> (Ljava/util/Optional;Z)V
+	METHOD a delayedExitSearch ()Lcoe;
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcoe;
+	METHOD a lambda$deserialize$3 (Lcom/mojang/datafixers/Dynamic;Ljava/lang/Number;)Ljava/util/Optional;
+	METHOD a lambda$null$2 (Lcom/mojang/datafixers/Dynamic;Ljava/lang/Number;Ljava/lang/Number;)Ljava/util/Optional;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lfo;)Ljava/lang/Object;
+	METHOD a knownExit (Lfo;Z)Lcoe;
+	METHOD a lambda$null$1 (Ljava/lang/Number;Ljava/lang/Number;Ljava/lang/Number;)Lfo;
+	METHOD a random (Ljava/util/Random;)Lcoe;
+	METHOD b getExit ()Ljava/util/Optional;
+	METHOD c isExitExact ()Z

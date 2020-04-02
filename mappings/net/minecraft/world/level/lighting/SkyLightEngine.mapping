@@ -1,0 +1,10 @@
+CLASS cwg net/minecraft/world/level/lighting/SkyLightEngine
+	FIELD e DIRECTIONS [Lft;
+	FIELD f HORIZONTALS [Lft;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcfy;)V
+	METHOD a checkNeighborsAfterUpdate (JIZ)V
+	METHOD a getComputedLevel (JJI)I
+	METHOD b getDebugData (J)Ljava/lang/String;
+	METHOD b computeLevelFromNeighbor (JJI)I
+	METHOD f checkNode (J)V

@@ -1,0 +1,8 @@
+CLASS bnf net/minecraft/world/level/BlockAndTintGetter
+	METHOD a getBrightness (Lbog;Lfo;)I
+	METHOD a getExtraTint (Lcdt;Lfo;)Lg;
+	METHOD a getBlockTint (Lfo;Lnet/minecraft/world/level/ColorResolver;)I
+	METHOD a getShade (Lft;Z)F
+	METHOD b getRawBrightness (Lfo;I)I
+	METHOD e getLightEngine ()Lcwe;
+	METHOD f canSeeSky (Lfo;)Z

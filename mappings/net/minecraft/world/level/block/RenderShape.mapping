@@ -1,0 +1,9 @@
+CLASS byq net/minecraft/world/level/block/RenderShape
+	FIELD a INVISIBLE Lbyq;
+	FIELD b ENTITYBLOCK_ANIMATED Lbyq;
+	FIELD c MODEL Lbyq;
+	FIELD d $VALUES [Lbyq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbyq;
+	METHOD values values ()[Lbyq;

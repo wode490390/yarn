@@ -1,0 +1,15 @@
+CLASS zz net/minecraft/server/packs/repository/PackCompatibility
+	FIELD a TOO_OLD Lzz;
+	FIELD b TOO_NEW Lzz;
+	FIELD c COMPATIBLE Lzz;
+	FIELD d description Lml;
+	FIELD e confirmation Lml;
+	FIELD f $VALUES [Lzz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a isCompatible ()Z
+	METHOD a forFormat (I)Lzz;
+	METHOD b getDescription ()Lml;
+	METHOD c getConfirmation ()Lml;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lzz;
+	METHOD values values ()[Lzz;

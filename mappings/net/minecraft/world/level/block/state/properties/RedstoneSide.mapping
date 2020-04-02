@@ -1,0 +1,12 @@
+CLASS cey net/minecraft/world/level/block/state/properties/RedstoneSide
+	FIELD a UP Lcey;
+	FIELD b SIDE Lcey;
+	FIELD c NONE Lcey;
+	FIELD d name Ljava/lang/String;
+	FIELD e $VALUES [Lcey;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcey;
+	METHOD values values ()[Lcey;

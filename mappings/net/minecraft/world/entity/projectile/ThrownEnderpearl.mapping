@@ -1,0 +1,11 @@
+CLASS bdf net/minecraft/world/entity/projectile/ThrownEnderpearl
+	FIELD c originalOwner Lanm;
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDD)V
+	METHOD <init> <init> (Lbnx;Lanm;)V
+	METHOD a changeDimension (Lcgv;)Lanb;
+	METHOD a onHitBlock (Lddk;)V
+	METHOD a onHitEntity (Lddl;)V
+	METHOD a onHit (Lddm;)V
+	METHOD h tick ()V
+	METHOD i getDefaultItem ()Lbii;

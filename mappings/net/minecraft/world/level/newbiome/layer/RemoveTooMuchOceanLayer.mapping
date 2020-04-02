@@ -1,0 +1,8 @@
+CLASS cxt net/minecraft/world/level/newbiome/layer/RemoveTooMuchOceanLayer
+	FIELD a INSTANCE Lcxt;
+	FIELD b $VALUES [Lcxt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcxb;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxt;
+	METHOD values values ()[Lcxt;

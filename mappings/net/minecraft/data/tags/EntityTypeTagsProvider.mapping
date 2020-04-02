@@ -1,0 +1,6 @@
+CLASS jo net/minecraft/data/tags/EntityTypeTagsProvider
+	METHOD <init> <init> (Lhg;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a useTags (Lack;)V
+	METHOD a getPath (Lts;)Ljava/nio/file/Path;
+	METHOD b addTags ()V

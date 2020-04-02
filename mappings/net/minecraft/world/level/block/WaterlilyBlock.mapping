@@ -1,0 +1,7 @@
+CLASS cax net/minecraft/world/level/block/WaterlilyBlock
+	FIELD a AABB Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a entityInside (Lcdt;Lbnx;Lfo;Lanb;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD c mayPlaceOn (Lcdt;Lbnh;Lfo;)Z

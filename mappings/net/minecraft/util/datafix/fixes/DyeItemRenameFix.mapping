@@ -1,0 +1,4 @@
+CLASS aey net/minecraft/util/datafix/fixes/DyeItemRenameFix
+	FIELD a RENAMED_IDS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V

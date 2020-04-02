@@ -1,0 +1,12 @@
+CLASS aqs net/minecraft/world/entity/ai/behavior/StopAttackingIfTargetInvalid
+	FIELD b stopAttackingWhen Ljava/util/function/Predicate;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/function/Predicate;)V
+	METHOD a isTiredOfTryingToReachTarget (Lanm;)Z
+	METHOD a isCurrentTargetInDifferentLevel (Lann;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a start (Lyn;Lann;J)V
+	METHOD b lambda$new$0 (Lanm;)Z
+	METHOD b getAttackTarget (Lann;)Lanm;
+	METHOD c isCurrentTargetDeadOrRemoved (Lann;)Z
+	METHOD d clearAttackTarget (Lann;)V

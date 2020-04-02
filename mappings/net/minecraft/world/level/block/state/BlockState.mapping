@@ -1,0 +1,8 @@
+CLASS cdt net/minecraft/world/level/block/state/BlockState
+	METHOD <init> <init> (Lbtu;Lcom/google/common/collect/ImmutableMap;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcdt;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;Lcdt;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Ljava/util/Map$Entry;)Lcom/mojang/datafixers/util/Pair;
+	METHOD b lambda$deserialize$2 (Lcom/mojang/datafixers/Dynamic;)Ljava/lang/String;
+	METHOD c lambda$deserialize$1 (Lcom/mojang/datafixers/Dynamic;)Ljava/lang/String;
+	METHOD r asState ()Lcdt;

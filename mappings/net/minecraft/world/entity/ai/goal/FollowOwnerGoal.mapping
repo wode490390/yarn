@@ -1,0 +1,21 @@
+CLASS asl net/minecraft/world/entity/ai/goal/FollowOwnerGoal
+	FIELD a tamable Laob;
+	FIELD b owner Lanm;
+	FIELD c level Lboa;
+	FIELD d speedModifier D
+	FIELD e navigation Lava;
+	FIELD f timeToRecalcPath I
+	FIELD g stopDistance F
+	FIELD h startDistance F
+	FIELD i oldWaterCost F
+	FIELD j canFly Z
+	METHOD <init> <init> (Laob;DFFZ)V
+	METHOD a canUse ()Z
+	METHOD a randomIntInclusive (II)I
+	METHOD a maybeTeleportTo (III)Z
+	METHOD a canTeleportTo (Lfo;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g teleportToOwner ()V

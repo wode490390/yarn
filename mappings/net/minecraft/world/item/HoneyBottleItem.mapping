@@ -1,0 +1,8 @@
+CLASS big net/minecraft/world/item/HoneyBottleItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD W_ getEatingSound ()Labr;
+	METHOD X_ getDrinkingSound ()Labr;
+	METHOD a finishUsingItem (Lbin;Lbnx;Lanm;)Lbin;
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;
+	METHOD d_ getUseAnimation (Lbin;)Lbjy;
+	METHOD e_ getUseDuration (Lbin;)I

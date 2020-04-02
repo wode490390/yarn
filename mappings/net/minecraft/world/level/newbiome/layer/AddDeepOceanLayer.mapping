@@ -1,0 +1,8 @@
+CLASS cxe net/minecraft/world/level/newbiome/layer/AddDeepOceanLayer
+	FIELD a INSTANCE Lcxe;
+	FIELD b $VALUES [Lcxe;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcxb;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxe;
+	METHOD values values ()[Lcxe;

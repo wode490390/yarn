@@ -1,0 +1,12 @@
+CLASS cgf net/minecraft/world/level/chunk/ProtoTickList
+	FIELD a ignore Ljava/util/function/Predicate;
+	FIELD b chunkPos Lbni;
+	FIELD c toBeTicked [Lit/unimi/dsi/fastutil/shorts/ShortList;
+	METHOD <init> <init> (Ljava/util/function/Predicate;Lbni;)V
+	METHOD <init> <init> (Ljava/util/function/Predicate;Lbni;Llf;)V
+	METHOD a size ()I
+	METHOD a copyOut (Lbon;Ljava/util/function/Function;)V
+	METHOD a hasScheduledTick (Lfo;Ljava/lang/Object;)Z
+	METHOD a scheduleTick (Lfo;Ljava/lang/Object;ILbop;)V
+	METHOD b save ()Llf;
+	METHOD b willTickThisTick (Lfo;Ljava/lang/Object;)Z

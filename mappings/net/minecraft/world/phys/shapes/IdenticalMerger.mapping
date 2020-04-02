@@ -1,0 +1,5 @@
+CLASS dea net/minecraft/world/phys/shapes/IdenticalMerger
+	FIELD a coords Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	METHOD <init> <init> (Lit/unimi/dsi/fastutil/doubles/DoubleList;)V
+	METHOD a getList ()Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	METHOD a forMergedIndexes (Ldeb$a;)Z

@@ -1,0 +1,45 @@
+CLASS bgd net/minecraft/world/inventory/StonecutterMenu
+	FIELD c inputSlot Lbfz;
+	FIELD d resultSlot Lbfz;
+	FIELD e container Lalo;
+	FIELD f access Lbev;
+	FIELD g selectedRecipeIndex Lbez;
+	FIELD h level Lbnx;
+	FIELD i recipes Ljava/util/List;
+	FIELD j input Lbin;
+	FIELD k lastSoundTime J
+	FIELD l slotUpdateListener Ljava/lang/Runnable;
+	FIELD m resultContainer Lbfu;
+	METHOD <init> <init> (ILbcg;)V
+	METHOD <init> <init> (ILbcg;Lbev;)V
+	METHOD a getType ()Lbfn;
+	METHOD a slotsChanged (Lalo;)V
+	METHOD a setupRecipeList (Lalo;Lbin;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD a clickMenuButton (Lbch;I)Z
+	METHOD a lambda$removed$1 (Lbch;Lbnx;Lfo;)V
+	METHOD a access$000 (Lbgd;)Ljava/lang/Runnable;
+	METHOD a access$202 (Lbgd;J)J
+	METHOD a canTakeItemForPickAll (Lbin;Lbfz;)Z
+	METHOD a registerUpdateListener (Ljava/lang/Runnable;)V
+	METHOD b removed (Lbch;)V
+	METHOD b quickMoveStack (Lbch;I)Lbin;
+	METHOD b access$100 (Lbgd;)V
+	METHOD c access$200 (Lbgd;)J
+	METHOD e getSelectedRecipeIndex ()I
+	METHOD f getRecipes ()Ljava/util/List;
+	METHOD g getNumRecipes ()I
+	METHOD h hasInputItem ()Z
+	METHOD i setupResultSlot ()V
+	METHOD j lambda$new$0 ()V
+	CLASS 1 1
+		FIELD a this$0 Lbgd;
+		METHOD <init> <init> (Lbgd;I)V
+		METHOD e setChanged ()V
+	CLASS 2 2
+		FIELD a val$access Lbev;
+		FIELD b this$0 Lbgd;
+		METHOD <init> <init> (Lbgd;Lalo;IIILbev;)V
+		METHOD a onTake (Lbch;Lbin;)Lbin;
+		METHOD a mayPlace (Lbin;)Z
+		METHOD a lambda$onTake$0 (Lbnx;Lfo;)V

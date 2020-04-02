@@ -1,0 +1,6 @@
+CLASS ju net/minecraft/gametest/framework/GameTest
+	METHOD a timeoutTicks ()I
+	METHOD b batch ()Ljava/lang/String;
+	METHOD c required ()Z
+	METHOD d template ()Ljava/lang/String;
+	METHOD e setupTicks ()J

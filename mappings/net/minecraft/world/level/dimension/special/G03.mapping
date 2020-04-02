@@ -1,0 +1,33 @@
+CLASS chg net/minecraft/world/level/dimension/special/G03
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD a isFoggyAt (II)Z
+	METHOD a getTimeOfDay (JF)F
+	METHOD a getBrightnessDependentFogColor (Lddp;F)Lddp;
+	METHOD k createRandomLevelGenerator ()Lcfl;
+	CLASS a BetweenBiome
+		METHOD <init> <init> ()V
+	CLASS b Generator
+		METHOD <init> <init> (Lbny;Lbpc;Lcit;)V
+		METHOD a getBaseColumn (II)Lbnh;
+		METHOD a getBaseHeight (IILcjc$a;)I
+		METHOD a applyCarvers (Lbpb;Lcfj;Lcjb$a;)V
+		METHOD a buildSurfaceAndBedrock (Lyt;Lcfj;)V
+		METHOD b getSpawnHeight ()I
+		METHOD b fillFromNoise (Lbny;Lcfj;)V
+		METHOD g getType ()Lcfn;
+	CLASS c ShipFeature
+		METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+		METHOD a getStartFactory ()Lcna$a;
+		METHOD a isFeatureChunk (Lbpb;Lcfl;Ljava/util/Random;IILboy;)Z
+		METHOD b getFeatureName ()Ljava/lang/String;
+		METHOD c getLookupRange ()I
+	CLASS d ShipPiece
+		FIELD d END_SHIP Lts;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Lcuq;Lfo;)V
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD a configure (Lcuq;)V
+		METHOD a handleDataMarker (Ljava/lang/String;Lfo;Lbny;Ljava/util/Random;Lcsw;)V
+	CLASS e ShipStart
+		METHOD <init> <init> (Lcna;IILcsw;IJ)V
+		METHOD a generatePieces (Lcfl;Lcuq;IILboy;)V

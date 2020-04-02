@@ -1,0 +1,9 @@
+CLASS asr net/minecraft/world/entity/ai/goal/LandOnOwnersShoulderGoal
+	FIELD a entity Laxi;
+	FIELD b owner Lyo;
+	FIELD c isSittingOnShoulder Z
+	METHOD <init> <init> (Laxi;)V
+	METHOD E_ isInterruptable ()Z
+	METHOD a canUse ()Z
+	METHOD c start ()V
+	METHOD e tick ()V

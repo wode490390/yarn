@@ -1,0 +1,7 @@
+CLASS hq net/minecraft/data/info/BlockListReport
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c generator Lhg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lhg;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a run (Lhi;)V

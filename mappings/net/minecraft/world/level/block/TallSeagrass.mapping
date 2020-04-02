@@ -1,0 +1,13 @@
+CLASS cag net/minecraft/world/level/block/TallSeagrass
+	FIELD c HALF Lcer;
+	FIELD d SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a getCloneItemStack (Lbnh;Lfo;Lcdt;)Lbin;
+	METHOD a canPlaceLiquid (Lbnh;Lfo;Lcdt;Lcwm;)Z
+	METHOD a placeLiquid (Lbny;Lfo;Lcdt;Lcwn;)Z
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD c mayPlaceOn (Lcdt;Lbnh;Lfo;)Z
+	METHOD d getFluidState (Lcdt;)Lcwn;

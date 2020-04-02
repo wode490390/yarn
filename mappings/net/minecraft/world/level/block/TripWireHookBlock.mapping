@@ -1,0 +1,29 @@
+CLASS can net/minecraft/world/level/block/TripWireHookBlock
+	FIELD a FACING Lceo;
+	FIELD b POWERED Lcel;
+	FIELD c ATTACHED Lcel;
+	FIELD d NORTH_AABB Ldej;
+	FIELD e SOUTH_AABB Ldej;
+	FIELD f WEST_AABB Ldej;
+	FIELD g EAST_AABB Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a setPlacedBy (Lbnx;Lfo;Lcdt;Lanm;Lbin;)V
+	METHOD a calculateState (Lbnx;Lfo;Lcdt;ZZILcdt;)V
+	METHOD a notifyNeighbors (Lbnx;Lfo;Lft;)V
+	METHOD a playSound (Lbnx;Lfo;ZZZZ)V
+	METHOD a getSignal (Lcdt;Lbnh;Lfo;Lft;)I
+	METHOD a onRemove (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b getDirectSignal (Lcdt;Lbnh;Lfo;Lft;)I
+	METHOD b_ isSignalSource (Lcdt;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

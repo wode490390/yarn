@@ -1,0 +1,33 @@
+CLASS ug net/minecraft/server/ServerScoreboard
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b trackedObjectives Ljava/util/Set;
+	FIELD c dirtyListeners [Ljava/lang/Runnable;
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+	METHOD a getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD a setDisplayObjective (ILdem;)V
+	METHOD a onObjectiveAdded (Ldem;)V
+	METHOD a onTeamAdded (Lden;)V
+	METHOD a onScoreChanged (Ldeo;)V
+	METHOD a addDirtyListener (Ljava/lang/Runnable;)V
+	METHOD a onPlayerRemoved (Ljava/lang/String;)V
+	METHOD a onPlayerScoreRemoved (Ljava/lang/String;Ldem;)V
+	METHOD a addPlayerToTeam (Ljava/lang/String;Lden;)Z
+	METHOD b setDirty ()V
+	METHOD b onObjectiveChanged (Ldem;)V
+	METHOD b onTeamChanged (Lden;)V
+	METHOD b removePlayerFromTeam (Ljava/lang/String;Lden;)V
+	METHOD c onObjectiveRemoved (Ldem;)V
+	METHOD c onTeamRemoved (Lden;)V
+	METHOD d getStartTrackingPackets (Ldem;)Ljava/util/List;
+	METHOD e startTrackingObjective (Ldem;)V
+	METHOD f getStopTrackingPackets (Ldem;)Ljava/util/List;
+	METHOD g stopTrackingObjective (Ldem;)V
+	METHOD h getObjectiveDisplaySlotCount (Ldem;)I
+	CLASS a Method
+		FIELD a CHANGE Lug$a;
+		FIELD b REMOVE Lug$a;
+		FIELD c $VALUES [Lug$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lug$a;
+		METHOD values values ()[Lug$a;

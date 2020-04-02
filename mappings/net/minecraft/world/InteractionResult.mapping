@@ -1,0 +1,12 @@
+CLASS alv net/minecraft/world/InteractionResult
+	FIELD a SUCCESS Lalv;
+	FIELD b CONSUME Lalv;
+	FIELD c PASS Lalv;
+	FIELD d FAIL Lalv;
+	FIELD e $VALUES [Lalv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a consumesAction ()Z
+	METHOD b shouldSwing ()Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lalv;
+	METHOD values values ()[Lalv;

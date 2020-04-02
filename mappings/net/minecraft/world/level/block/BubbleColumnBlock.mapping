@@ -1,0 +1,19 @@
+CLASS btz net/minecraft/world/level/block/BubbleColumnBlock
+	FIELD a DRAG_DOWN Lcel;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getDrag (Lbnh;Lfo;)Z
+	METHOD a canExistIn (Lbny;Lfo;)Z
+	METHOD a growColumn (Lbny;Lfo;Z)V
+	METHOD a entityInside (Lcdt;Lbnx;Lfo;Lanb;)V
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b isUnstable ()Z
+	METHOD b takeLiquid (Lbny;Lfo;Lcdt;)Lcwm;
+	METHOD b getRenderShape (Lcdt;)Lbyq;
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD d getFluidState (Lcdt;)Lcwn;

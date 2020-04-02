@@ -1,0 +1,16 @@
+CLASS dbw net/minecraft/world/level/storage/loot/functions/SetNbtFunction
+	FIELD a tag Lkz;
+	METHOD <init> <init> ([Ldcq;Lkz;)V
+	METHOD <init> <init> ([Ldcq;Lkz;Ldbw$1;)V
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a access$000 (Ldbw;)Lkz;
+	METHOD a setTag (Lkz;)Ldbl$a;
+	METHOD a lambda$setTag$0 (Lkz;[Ldcq;)Ldbm;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbw;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbw;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

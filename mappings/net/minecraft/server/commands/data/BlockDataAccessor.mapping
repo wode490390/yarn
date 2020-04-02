@@ -1,0 +1,19 @@
+CLASS xf net/minecraft/server/commands/data/BlockDataAccessor
+	FIELD a PROVIDER Ljava/util/function/Function;
+	FIELD b ERROR_NOT_A_BLOCK_ENTITY Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c entity Lcbt;
+	FIELD d pos Lfo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcbt;Lfo;)V
+	METHOD a getData ()Lkz;
+	METHOD a getPrintSuccess (Ldi$h;DI)Lml;
+	METHOD a lambda$static$0 (Ljava/lang/String;)Lxh$c;
+	METHOD a setData (Lkz;)V
+	METHOD a getPrintSuccess (Llp;)Lml;
+	METHOD b getModifiedSuccess ()Lml;
+	METHOD c access$000 ()Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	CLASS 1 1
+		FIELD a val$argPrefix Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD a wrap (Lcom/mojang/brigadier/builder/ArgumentBuilder;Ljava/util/function/Function;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		METHOD a access (Lcom/mojang/brigadier/context/CommandContext;)Lxg;

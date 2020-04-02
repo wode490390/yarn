@@ -1,0 +1,2 @@
+CLASS aab net/minecraft/server/packs/repository/RepositorySource
+	METHOD a loadPacks (Ljava/util/Map;Laad$b;)V

@@ -1,0 +1,17 @@
+CLASS qw net/minecraft/network/protocol/game/ServerboundClientCommandPacket
+	FIELD a action Lqw$a;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lqw$a;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getAction ()Lqw$a;
+	METHOD b write (Lmb;)V
+	CLASS a Action
+		FIELD a PERFORM_RESPAWN Lqw$a;
+		FIELD b REQUEST_STATS Lqw$a;
+		FIELD c $VALUES [Lqw$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lqw$a;
+		METHOD values values ()[Lqw$a;

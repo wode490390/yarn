@@ -1,0 +1,4 @@
+CLASS hv net/minecraft/data/loot/ChestLoot
+	METHOD <init> <init> ()V
+	METHOD a accept (Ljava/util/function/BiConsumer;)V
+	METHOD accept accept (Ljava/lang/Object;)V

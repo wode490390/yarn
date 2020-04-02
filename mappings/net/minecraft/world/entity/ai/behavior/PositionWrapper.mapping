@@ -1,0 +1,4 @@
+CLASS apv net/minecraft/world/entity/ai/behavior/PositionWrapper
+	METHOD a getPos ()Lfo;
+	METHOD a isVisible (Lanm;)Z
+	METHOD b getLookAtPos ()Lddp;

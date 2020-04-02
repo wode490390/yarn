@@ -1,0 +1,11 @@
+CLASS of net/minecraft/network/protocol/game/ClientboundEntityEventPacket
+	FIELD a entityId I
+	FIELD b eventId B
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lanb;B)V
+	METHOD a getEntity (Lbnx;)Lanb;
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getEventId ()B
+	METHOD b write (Lmb;)V

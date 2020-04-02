@@ -1,0 +1,15 @@
+CLASS hl net/minecraft/data/advancements/HusbandryAdvancements
+	FIELD a BREEDABLE_ANIMALS [Lanf;
+	FIELD b FISH [Lbii;
+	FIELD c FISH_BUCKETS [Lbii;
+	FIELD d EDIBLE_ITEMS [Lbii;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a accept (Ljava/util/function/Consumer;)V
+	METHOD a addFood (Lw$a;)Lw$a;
+	METHOD a lambda$addCatVariants$0 (Lw$a;Ljava/lang/Integer;Lts;)V
+	METHOD accept accept (Ljava/lang/Object;)V
+	METHOD b addBreedable (Lw$a;)Lw$a;
+	METHOD c addFishBuckets (Lw$a;)Lw$a;
+	METHOD d addFish (Lw$a;)Lw$a;
+	METHOD e addCatVariants (Lw$a;)Lw$a;

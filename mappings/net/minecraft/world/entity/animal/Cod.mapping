@@ -1,0 +1,7 @@
+CLASS aws net/minecraft/world/entity/animal/Cod
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD ez getFlopSound ()Labr;
+	METHOD k getBucketItemStack ()Lbin;

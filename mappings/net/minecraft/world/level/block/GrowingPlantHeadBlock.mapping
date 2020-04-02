@@ -1,0 +1,17 @@
+CLASS bwo net/minecraft/world/level/block/GrowingPlantHeadBlock
+	FIELD d AGE Lcet;
+	FIELD e growPerTickProbability D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;Lft;Ldej;ZD)V
+	METHOD a isValidBonemealTarget (Lbnh;Lfo;Lcdt;Z)Z
+	METHOD a isBonemealSuccess (Lbnx;Ljava/util/Random;Lfo;Lcdt;)Z
+	METHOD a getStateForPlacement (Lbny;)Lcdt;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD a getBlocksToGrowWhenBonemealed (Ljava/util/Random;)I
+	METHOD a performBonemeal (Lyn;Ljava/util/Random;Lfo;Lcdt;)V
+	METHOD a_ isRandomlyTicking (Lcdt;)Z
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD d getHeadBlock ()Lbwo;
+	METHOD h canGrowInto (Lcdt;)Z

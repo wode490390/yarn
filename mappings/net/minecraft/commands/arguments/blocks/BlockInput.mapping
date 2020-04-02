@@ -1,0 +1,12 @@
+CLASS dw net/minecraft/commands/arguments/blocks/BlockInput
+	FIELD a state Lcdt;
+	FIELD b properties Ljava/util/Set;
+	FIELD c tag Lkz;
+	METHOD <init> <init> (Lcdt;Ljava/util/Set;Lkz;)V
+	METHOD a getState ()Lcdt;
+	METHOD a test (Lcdx;)Z
+	METHOD a test (Lyn;Lfo;)Z
+	METHOD a place (Lyn;Lfo;I)Z
+	METHOD b getTag ()Lkz;
+	METHOD c getDefinedProperties ()Ljava/util/Set;
+	METHOD test test (Ljava/lang/Object;)Z

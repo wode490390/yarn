@@ -1,0 +1,8 @@
+CLASS afs net/minecraft/util/datafix/fixes/EntityRenameFix
+	FIELD a name Ljava/lang/String;
+	METHOD <init> <init> (Ljava/lang/String;Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$0 (Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/datafixers/types/DynamicOps;Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$makeRule$1 (Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;
+	METHOD a getEntity (Ljava/lang/Object;Lcom/mojang/datafixers/types/DynamicOps;Lcom/mojang/datafixers/types/Type;)Lcom/mojang/datafixers/Typed;
+	METHOD a fix (Ljava/lang/String;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/util/Pair;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

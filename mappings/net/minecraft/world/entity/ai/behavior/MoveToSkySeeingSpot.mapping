@@ -1,0 +1,8 @@
+CLASS aps net/minecraft/world/entity/ai/behavior/MoveToSkySeeingSpot
+	FIELD b speedModifier F
+	METHOD <init> <init> (F)V
+	METHOD a lambda$start$0 (Lddp;)Lauv;
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a hasNoBlocksAbove (Lyn;Lanm;Lfo;)Z
+	METHOD b getOutdoorPosition (Lyn;Lanm;)Lddp;

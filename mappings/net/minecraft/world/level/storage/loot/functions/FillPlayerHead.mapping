@@ -1,0 +1,15 @@
+CLASS dbi net/minecraft/world/level/storage/loot/functions/FillPlayerHead
+	FIELD a entityTarget Ldaa$c;
+	METHOD <init> <init> ([Ldcq;Ldaa$c;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a fillPlayerHead (Ldaa$c;)Ldbl$a;
+	METHOD a lambda$fillPlayerHead$0 (Ldaa$c;[Ldcq;)Ldbm;
+	METHOD a access$000 (Ldbi;)Ldaa$c;
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbi;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbi;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

@@ -1,0 +1,10 @@
+CLASS brj net/minecraft/world/level/biome/OverworldBiomeSourceSettings
+	FIELD a seed J
+	FIELD b generatorType Lboe;
+	FIELD c generatorSettings Lcjg;
+	METHOD <init> <init> (J)V
+	METHOD a getSeed ()J
+	METHOD a setLevelType (Lboe;)Lbrj;
+	METHOD a setGeneratorSettings (Lcjg;)Lbrj;
+	METHOD b getGeneratorType ()Lboe;
+	METHOD c getGeneratorSettings ()Lcjg;

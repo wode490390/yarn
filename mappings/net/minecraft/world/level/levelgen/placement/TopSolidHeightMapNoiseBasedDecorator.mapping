@@ -1,0 +1,5 @@
+CLASS csl net/minecraft/world/level/levelgen/placement/TopSolidHeightMapNoiseBasedDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getPositions (Lbny;Lcfl;Ljava/util/Random;Lcoc;Lfo;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lbny;Lcfl;Ljava/util/Random;Lcse;Lfo;)Ljava/util/stream/Stream;
+	METHOD a lambda$getPositions$0 (Ljava/util/Random;Lfo;Lbny;Lcse;I)Lfo;

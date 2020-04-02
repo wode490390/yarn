@@ -1,0 +1,44 @@
+CLASS ml net/minecraft/network/chat/Component
+	METHOD a getSiblings ()Ljava/util/List;
+	METHOD a getString (I)Ljava/lang/String;
+	METHOD a withStyle (Li;)Lml;
+	METHOD a append (Ljava/lang/String;)Lml;
+	METHOD a lambda$getString$0 (Ljava/lang/StringBuilder;Lml;)V
+	METHOD a withStyle (Ljava/util/function/Consumer;)Lml;
+	METHOD a append (Lml;)Lml;
+	METHOD a setStyle (Lmt;)Lml;
+	METHOD a withStyle ([Li;)Lml;
+	METHOD b getStyle ()Lmt;
+	METHOD b flattenStyle (Lml;)Lml;
+	METHOD c stream ()Ljava/util/stream/Stream;
+	METHOD d getContents ()Ljava/lang/String;
+	METHOD e getColoredString ()Ljava/lang/String;
+	METHOD f flatStream ()Ljava/util/stream/Stream;
+	METHOD g copy ()Lml;
+	METHOD getString getString ()Ljava/lang/String;
+	METHOD h deepCopy ()Lml;
+	METHOD iterator iterator ()Ljava/util/Iterator;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$ChatFormatting [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Serializer
+		FIELD a GSON Lcom/google/gson/Gson;
+		FIELD b JSON_READER_POS Ljava/lang/reflect/Field;
+		FIELD c JSON_READER_LINESTART Ljava/lang/reflect/Field;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD a lambda$static$2 ()Ljava/lang/reflect/Field;
+		METHOD a fromJson (Lcom/google/gson/JsonElement;)Lml;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lml;
+		METHOD a getPos (Lcom/google/gson/stream/JsonReader;)I
+		METHOD a fromJson (Lcom/mojang/brigadier/StringReader;)Lml;
+		METHOD a fromJson (Ljava/lang/String;)Lml;
+		METHOD a toJson (Lml;)Ljava/lang/String;
+		METHOD a serialize (Lml;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a serializeStyle (Lmt;Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b lambda$static$1 ()Ljava/lang/reflect/Field;
+		METHOD b fromJsonLenient (Ljava/lang/String;)Lml;
+		METHOD b toJsonTree (Lml;)Lcom/google/gson/JsonElement;
+		METHOD c lambda$static$0 ()Lcom/google/gson/Gson;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

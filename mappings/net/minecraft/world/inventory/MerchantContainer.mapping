@@ -1,0 +1,21 @@
+CLASS bfo net/minecraft/world/inventory/MerchantContainer
+	FIELD a merchant Lbmz;
+	FIELD b itemStacks Lge;
+	FIELD c activeOffer Lbna;
+	FIELD d selectionHint I
+	FIELD e futureXp I
+	METHOD <init> <init> (Lbmz;)V
+	METHOD R_ clearContent ()V
+	METHOD S_ getContainerSize ()I
+	METHOD a getItem (I)Lbin;
+	METHOD a removeItem (II)Lbin;
+	METHOD a setItem (ILbin;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD b removeItemNoUpdate (I)Lbin;
+	METHOD c isEmpty ()Z
+	METHOD c setSelectionHint (I)V
+	METHOD d isPaymentSlot (I)Z
+	METHOD e setChanged ()V
+	METHOD f updateSellItem ()V
+	METHOD g getActiveOffer ()Lbna;
+	METHOD h getFutureXp ()I

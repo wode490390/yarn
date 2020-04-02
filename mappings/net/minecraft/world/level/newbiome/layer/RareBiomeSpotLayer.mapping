@@ -1,0 +1,10 @@
+CLASS cxr net/minecraft/world/level/newbiome/layer/RareBiomeSpotLayer
+	FIELD a INSTANCE Lcxr;
+	FIELD b PLAINS I
+	FIELD c SUNFLOWER_PLAINS I
+	FIELD d $VALUES [Lcxr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcxb;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxr;
+	METHOD values values ()[Lcxr;

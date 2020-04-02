@@ -1,0 +1,25 @@
+CLASS mv net/minecraft/network/chat/TranslatableComponent
+	FIELD b decomposedParts Ljava/util/List;
+	FIELD c FORMAT_PATTERN Ljava/util/regex/Pattern;
+	FIELD d DEFAULT_LANGUAGE Lku;
+	FIELD e LANGUAGE Lku;
+	FIELD f key Ljava/lang/String;
+	FIELD g args [Ljava/lang/Object;
+	FIELD h decomposeLock Ljava/lang/Object;
+	FIELD i decomposedLanguageTime J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD a resolve (Lcu;Lanb;I)Lml;
+	METHOD a setStyle (Lmt;)Lml;
+	METHOD b getComponent (I)Lml;
+	METHOD b decomposeTemplate (Ljava/lang/String;)V
+	METHOD c stream ()Ljava/util/stream/Stream;
+	METHOD d getContents ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD g copy ()Lml;
+	METHOD hashCode hashCode ()I
+	METHOD i decompose ()V
+	METHOD j copy ()Lmv;
+	METHOD k getKey ()Ljava/lang/String;
+	METHOD l getArgs ()[Ljava/lang/Object;
+	METHOD toString toString ()Ljava/lang/String;

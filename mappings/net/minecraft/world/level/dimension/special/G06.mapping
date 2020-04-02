@@ -1,0 +1,19 @@
+CLASS chj net/minecraft/world/level/dimension/special/G06
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD a isFoggyAt (II)Z
+	METHOD a getTimeOfDay (JF)F
+	METHOD a getBrightnessDependentFogColor (Lddp;F)Lddp;
+	METHOD k createRandomLevelGenerator ()Lcfl;
+	CLASS a Generator
+		METHOD <init> <init> (Lbny;Lbpc;Lcit;)V
+		METHOD a getBaseColumn (II)Lbnh;
+		METHOD a getBaseHeight (IILcjc$a;)I
+		METHOD a applyCarvers (Lbpb;Lcfj;Lcjb$a;)V
+		METHOD a buildSurfaceAndBedrock (Lyt;Lcfj;)V
+		METHOD b getSpawnHeight ()I
+		METHOD b fillFromNoise (Lbny;Lcfj;)V
+		METHOD g getType ()Lcfn;
+	CLASS b ShapesBiome
+		METHOD <init> <init> ()V
+		METHOD a lambda$new$1 (FLckm;)Lcnl;
+		METHOD a lambda$new$0 (Ljava/util/Random;Ljava/util/List;Lbtu;)V

@@ -1,0 +1,11 @@
+CLASS tb net/minecraft/network/protocol/status/ClientboundStatusResponsePacket
+	FIELD a GSON Lcom/google/gson/Gson;
+	FIELD b status Ltc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ltc;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lsz;)V
+	METHOD b getStatus ()Ltc;
+	METHOD b write (Lmb;)V

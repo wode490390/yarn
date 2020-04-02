@@ -1,0 +1,9 @@
+CLASS cot net/minecraft/world/level/levelgen/feature/configurations/RandomFeatureConfiguration
+	FIELD a features Ljava/util/List;
+	FIELD b defaultFeature Lckm;
+	METHOD <init> <init> (Ljava/util/List;Lckm;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcot;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lcnl;)Ljava/lang/Object;
+	METHOD a random (Ljava/util/Random;)Lcot;
+	METHOD a lambda$random$1 (Ljava/util/Random;Lcle;)Lcnl;

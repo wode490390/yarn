@@ -1,0 +1,7 @@
+CLASS cuj net/minecraft/world/level/levelgen/structure/templatesystem/PosRuleTestType
+	FIELD b ALWAYS_TRUE_TEST Lcuj;
+	FIELD c LINEAR_POS_TEST Lcuj;
+	FIELD d AXIS_ALIGNED_LINEAR_POS_TEST Lcuj;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$0 (Lcom/mojang/datafixers/Dynamic;)Lcui;
+	METHOD a register (Ljava/lang/String;Lcuj;)Lcuj;

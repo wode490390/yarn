@@ -1,0 +1,8 @@
+CLASS vo net/minecraft/server/commands/ListPlayersCommand
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a listPlayers (Lcu;)I
+	METHOD a format (Lcu;Ljava/util/function/Function;)I
+	METHOD b lambda$register$0 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b listPlayersWithUuids (Lcu;)I

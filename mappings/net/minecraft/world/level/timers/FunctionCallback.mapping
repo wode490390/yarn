@@ -1,0 +1,13 @@
+CLASS ddc net/minecraft/world/level/timers/FunctionCallback
+	FIELD a functionId Lts;
+	METHOD <init> <init> (Lts;)V
+	METHOD a access$000 (Lddc;)Lts;
+	METHOD a handle (Ljava/lang/Object;Lddg;J)V
+	METHOD a handle (Lnet/minecraft/server/MinecraftServer;Lddg;J)V
+	METHOD a lambda$handle$0 (Lue;Lcr;)V
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lkz;)Lddc;
+		METHOD a serialize (Lkz;Lddc;)V
+		METHOD a serialize (Lkz;Ldde;)V
+		METHOD b deserialize (Lkz;)Ldde;

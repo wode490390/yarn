@@ -1,0 +1,2 @@
+CLASS bnw net/minecraft/world/level/ItemLike
+	METHOD i asItem ()Lbii;

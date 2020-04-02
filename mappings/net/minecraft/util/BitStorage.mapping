@@ -1,0 +1,14 @@
+CLASS acn net/minecraft/util/BitStorage
+	FIELD a data [J
+	FIELD b bits I
+	FIELD c mask J
+	FIELD d size I
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> (II[J)V
+	METHOD a getRaw ()[J
+	METHOD a get (I)I
+	METHOD a getAndSet (II)I
+	METHOD a getAll (Ljava/util/function/IntConsumer;)V
+	METHOD b getSize ()I
+	METHOD b set (II)V
+	METHOD c getBits ()I

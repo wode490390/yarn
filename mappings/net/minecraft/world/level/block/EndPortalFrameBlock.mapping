@@ -1,0 +1,19 @@
+CLASS bvp net/minecraft/world/level/block/EndPortalFrameBlock
+	FIELD a FACING Lceo;
+	FIELD b HAS_EYE Lcel;
+	FIELD c BASE_SHAPE Ldej;
+	FIELD d EYE_SHAPE Ldej;
+	FIELD e FULL_SHAPE Ldej;
+	FIELD f portalShape Lcdy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a hasAnalogOutputSignal (Lcdt;)Z
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a getAnalogOutputSignal (Lcdt;Lbnx;Lfo;)I
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD c_ useShapeForLightOcclusion (Lcdt;)Z
+	METHOD d getOrCreatePortalShape ()Lcdy;

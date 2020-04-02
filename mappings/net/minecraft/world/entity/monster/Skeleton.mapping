@@ -1,0 +1,7 @@
+CLASS baq net/minecraft/world/entity/monster/Skeleton
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD a dropCustomDeathLoot (Laml;IZ)V
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD k getStepSound ()Labr;

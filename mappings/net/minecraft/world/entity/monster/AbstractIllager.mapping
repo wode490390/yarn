@@ -1,0 +1,23 @@
+CLASS azp net/minecraft/world/entity/monster/AbstractIllager
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD dp getMobType ()Lanq;
+	METHOD k getArmPose ()Lazp$a;
+	METHOD o registerGoals ()V
+	CLASS a IllagerArmPose
+		FIELD a CROSSED Lazp$a;
+		FIELD b ATTACKING Lazp$a;
+		FIELD c SPELLCASTING Lazp$a;
+		FIELD d BOW_AND_ARROW Lazp$a;
+		FIELD e CROSSBOW_HOLD Lazp$a;
+		FIELD f CROSSBOW_CHARGE Lazp$a;
+		FIELD g CELEBRATING Lazp$a;
+		FIELD h NEUTRAL Lazp$a;
+		FIELD i $VALUES [Lazp$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lazp$a;
+		METHOD values values ()[Lazp$a;
+	CLASS b RaiderOpenDoorGoal
+		FIELD a this$0 Lazp;
+		METHOD <init> <init> (Lazp;Lbdm;)V
+		METHOD a canUse ()Z

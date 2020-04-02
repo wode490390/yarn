@@ -1,0 +1,5 @@
+CLASS aaj net/minecraft/server/packs/resources/ReloadableResourceManager
+	METHOD a registerReloadListener (Laag;)V
+	METHOD a reload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/List;Ljava/util/concurrent/CompletableFuture;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a createQueuedReload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)Laai;
+	METHOD a createFullReload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;Ljava/util/List;)Laai;

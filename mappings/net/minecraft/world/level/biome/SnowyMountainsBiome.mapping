@@ -1,0 +1,3 @@
+CLASS brs net/minecraft/world/level/biome/SnowyMountainsBiome
+	METHOD <init> <init> ()V
+	METHOD f getCreatureProbability ()F

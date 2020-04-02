@@ -1,0 +1,3 @@
+CLASS sz net/minecraft/network/protocol/status/ClientStatusPacketListener
+	METHOD a handlePongResponse (Lta;)V
+	METHOD a handleStatusResponse (Ltb;)V

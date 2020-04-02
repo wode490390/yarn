@@ -1,0 +1,11 @@
+CLASS ddn net/minecraft/world/phys/PosAndRot
+	FIELD a pos Lddp;
+	FIELD b xRot F
+	FIELD c yRot F
+	METHOD <init> <init> (Lddp;FF)V
+	METHOD a pos ()Lddp;
+	METHOD b xRot ()F
+	METHOD c yRot ()F
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,20 @@
+CLASS kl net/minecraft/gametest/framework/MultipleTestTracker
+	FIELD a tests Ljava/util/Collection;
+	FIELD b listener Lkd;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Collection;)V
+	METHOD a getFailedRequiredCount ()I
+	METHOD a lambda$getProgressBar$1 (Ljava/lang/StringBuffer;Lkc;)V
+	METHOD a add (Lkc;)V
+	METHOD a setListener (Lkd;)V
+	METHOD a lambda$setListener$0 (Lkd;Lkc;)V
+	METHOD b getFailedOptionalCount ()I
+	METHOD c getDoneCount ()I
+	METHOD d hasFailedRequired ()Z
+	METHOD e hasFailedOptional ()Z
+	METHOD f getFailedRequired ()Ljava/util/Collection;
+	METHOD g getFailedOptional ()Ljava/util/Collection;
+	METHOD h getTotalCount ()I
+	METHOD i isDone ()Z
+	METHOD j getProgressBar ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;

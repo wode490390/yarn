@@ -1,0 +1,2 @@
+CLASS bqt net/minecraft/world/level/biome/LukeWarmOceanBiome
+	METHOD <init> <init> ()V

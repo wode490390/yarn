@@ -1,0 +1,32 @@
+CLASS cr net/minecraft/commands/CommandFunction
+	FIELD a entries [Lcr$c;
+	FIELD b id Lts;
+	METHOD <init> <init> (Lts;[Lcr$c;)V
+	METHOD a getId ()Lts;
+	METHOD a access$000 (Lcr;)Lts;
+	METHOD a fromLines (Lts;Lue;Ljava/util/List;)Lcr;
+	METHOD b getEntries ()[Lcr$c;
+	CLASS a CacheableFunction
+		FIELD a NONE Lcr$a;
+		FIELD b id Lts;
+		FIELD c resolved Z
+		FIELD d function Ljava/util/Optional;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Lcr;)V
+		METHOD <init> <init> (Lts;)V
+		METHOD a getId ()Lts;
+		METHOD a lambda$getId$0 (Lcr;)Lts;
+		METHOD a get (Lue;)Ljava/util/Optional;
+	CLASS b CommandEntry
+		FIELD a parse Lcom/mojang/brigadier/ParseResults;
+		METHOD <init> <init> (Lcom/mojang/brigadier/ParseResults;)V
+		METHOD a execute (Lue;Lcu;Ljava/util/ArrayDeque;I)V
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c Entry
+		METHOD a execute (Lue;Lcu;Ljava/util/ArrayDeque;I)V
+	CLASS d FunctionEntry
+		FIELD a function Lcr$a;
+		METHOD <init> <init> (Lcr;)V
+		METHOD a lambda$execute$0 (ILjava/util/ArrayDeque;Lue;Lcu;Lcr;)V
+		METHOD a execute (Lue;Lcu;Ljava/util/ArrayDeque;I)V
+		METHOD toString toString ()Ljava/lang/String;

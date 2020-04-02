@@ -1,0 +1,14 @@
+CLASS bys net/minecraft/world/level/block/RespawnAnchorBlock
+	FIELD a CHARGE Lcet;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a findStandUpPosition (Lanf;Lboa;Lfo;)Ljava/util/Optional;
+	METHOD a charge (Lbnx;Lfo;Lcdt;)V
+	METHOD a hasAnalogOutputSignal (Lcdt;)Z
+	METHOD a getScaledChargeLevel (Lcdt;I)I
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a getAnalogOutputSignal (Lcdt;Lbnx;Lfo;)I
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD c_ useShapeForLightOcclusion (Lcdt;)Z

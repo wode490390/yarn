@@ -1,0 +1,6 @@
+CLASS bvn net/minecraft/world/level/block/EndGatewayBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a newBlockEntity (Lbnh;)Lcbt;
+	METHOD a getCloneItemStack (Lbnh;Lfo;Lcdt;)Lbin;
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a canBeReplaced (Lcdt;Lcwm;)Z

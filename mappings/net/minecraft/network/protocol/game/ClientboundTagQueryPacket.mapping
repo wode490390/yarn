@@ -1,0 +1,12 @@
+CLASS qh net/minecraft/network/protocol/game/ClientboundTagQueryPacket
+	FIELD a transactionId I
+	FIELD b tag Lkz;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILkz;)V
+	METHOD a isSkippable ()Z
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getTransactionId ()I
+	METHOD b write (Lmb;)V
+	METHOD c getTag ()Lkz;

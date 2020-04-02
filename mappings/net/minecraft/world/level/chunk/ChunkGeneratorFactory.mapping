@@ -1,0 +1,2 @@
+CLASS cfm net/minecraft/world/level/chunk/ChunkGeneratorFactory
+	METHOD create create (Lbny;Lbpc;Lcix;)Lcfl;

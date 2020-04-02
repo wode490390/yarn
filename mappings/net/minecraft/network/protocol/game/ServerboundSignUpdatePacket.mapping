@@ -1,0 +1,11 @@
+CLASS se net/minecraft/network/protocol/game/ServerboundSignUpdatePacket
+	FIELD a pos Lfo;
+	FIELD b lines [Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lfo;Lml;Lml;Lml;Lml;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getPos ()Lfo;
+	METHOD b write (Lmb;)V
+	METHOD c getLines ()[Ljava/lang/String;

@@ -1,0 +1,24 @@
+CLASS d com/mojang/math/Quaternion
+	FIELD a ONE Ld;
+	FIELD b i F
+	FIELD c j F
+	FIELD d k F
+	FIELD e r F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FFFF)V
+	METHOD <init> <init> (Ld;)V
+	METHOD <init> <init> (Lg;FZ)V
+	METHOD a i ()F
+	METHOD a mul (F)V
+	METHOD a mul (Ld;)V
+	METHOD b j ()F
+	METHOD b cos (F)F
+	METHOD c k ()F
+	METHOD c sin (F)F
+	METHOD d r ()F
+	METHOD e conj ()V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f normalize ()V
+	METHOD g copy ()Ld;
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

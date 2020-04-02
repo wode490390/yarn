@@ -1,0 +1,16 @@
+CLASS avy net/minecraft/world/entity/ai/util/RandomPos
+	METHOD <init> <init> ()V
+	METHOD a getPos (Lant;II)Lddp;
+	METHOD a getAirPos (Lant;IIILddp;D)Lddp;
+	METHOD a generateRandomPos (Lant;IIILddp;ZDLjava/util/function/ToDoubleFunction;ZIIZ)Lddp;
+	METHOD a getPosTowards (Lant;IILddp;)Lddp;
+	METHOD a getPosTowards (Lant;IILddp;D)Lddp;
+	METHOD a getAboveLandPos (Lant;IILddp;FII)Lddp;
+	METHOD a getLandPos (Lant;IILjava/util/function/ToDoubleFunction;)Lddp;
+	METHOD a lambda$generateRandomPos$0 (Lant;Lfo;)Z
+	METHOD a moveUpToAboveSolid (Lfo;IILjava/util/function/Predicate;)Lfo;
+	METHOD a getRandomDelta (Ljava/util/Random;IIILddp;D)Lfo;
+	METHOD b getLandPos (Lant;II)Lddp;
+	METHOD b getAirPosTowards (Lant;IIILddp;D)Lddp;
+	METHOD b getPosAvoid (Lant;IILddp;)Lddp;
+	METHOD c getLandPosAvoid (Lant;IILddp;)Lddp;

@@ -1,0 +1,6 @@
+CLASS arr net/minecraft/world/entity/ai/control/JumpControl
+	FIELD a jump Z
+	FIELD b mob Lann;
+	METHOD <init> <init> (Lann;)V
+	METHOD a jump ()V
+	METHOD b tick ()V

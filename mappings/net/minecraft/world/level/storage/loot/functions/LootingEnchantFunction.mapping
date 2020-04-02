@@ -1,0 +1,28 @@
+CLASS dbo net/minecraft/world/level/storage/loot/functions/LootingEnchantFunction
+	FIELD a value Ldai;
+	FIELD c limit I
+	METHOD <init> <init> ([Ldcq;Ldai;I)V
+	METHOD <init> <init> ([Ldcq;Ldai;ILdbo$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a lootingMultiplier (Ldai;)Ldbo$a;
+	METHOD a access$100 (Ldbo;)Ldai;
+	METHOD b hasLimit ()Z
+	METHOD b access$200 (Ldbo;)Z
+	METHOD c access$300 (Ldbo;)I
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a count Ldai;
+		FIELD b limit I
+		METHOD <init> <init> (Ldai;)V
+		METHOD a getThis ()Ldbo$a;
+		METHOD a setLimit (I)Ldbo$a;
+		METHOD b build ()Ldbm;
+		METHOD d getThis ()Ldbl$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbo;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbo;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

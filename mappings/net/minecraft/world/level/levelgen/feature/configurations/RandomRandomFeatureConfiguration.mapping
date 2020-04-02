@@ -1,0 +1,9 @@
+CLASS cov net/minecraft/world/level/levelgen/feature/configurations/RandomRandomFeatureConfiguration
+	FIELD a features Ljava/util/List;
+	FIELD b count I
+	METHOD <init> <init> (Ljava/util/List;I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcov;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lckm;)Ljava/lang/Object;
+	METHOD a random (Ljava/util/Random;)Lcov;
+	METHOD a lambda$random$1 (Ljava/util/Random;Lcle;)Lckm;

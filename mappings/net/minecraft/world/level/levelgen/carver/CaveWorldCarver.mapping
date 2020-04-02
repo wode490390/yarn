@@ -1,0 +1,13 @@
+CLASS cjp net/minecraft/world/level/levelgen/carver/CaveWorldCarver
+	METHOD <init> <init> (Ljava/util/function/Function;I)V
+	METHOD a getCaveBound ()I
+	METHOD a skip (DDDI)Z
+	METHOD a genRoom (Lcfj;Ljava/util/function/Function;JIIIDDDFDLjava/util/BitSet;)V
+	METHOD a genTunnel (Lcfj;Ljava/util/function/Function;JIIIDDDFFFIIDLjava/util/BitSet;)V
+	METHOD a carve (Lcfj;Ljava/util/function/Function;Ljava/util/Random;IIIIILjava/util/BitSet;Lcjo;)Z
+	METHOD a carve (Lcfj;Ljava/util/function/Function;Ljava/util/Random;IIIIILjava/util/BitSet;Lcor;)Z
+	METHOD a getThickness (Ljava/util/Random;)F
+	METHOD a isStartChunk (Ljava/util/Random;IILcjo;)Z
+	METHOD a isStartChunk (Ljava/util/Random;IILcor;)Z
+	METHOD b getYScale ()D
+	METHOD b getCaveY (Ljava/util/Random;)I

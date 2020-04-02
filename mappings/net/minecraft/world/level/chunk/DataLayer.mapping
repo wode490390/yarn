@@ -1,0 +1,17 @@
+CLASS cfq net/minecraft/world/level/chunk/DataLayer
+	FIELD a data [B
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD <init> <init> ([B)V
+	METHOD a getData ()[B
+	METHOD a layerToString (I)Ljava/lang/String;
+	METHOD a set (II)V
+	METHOD a get (III)I
+	METHOD a set (IIII)V
+	METHOD b copy ()Lcfq;
+	METHOD b get (I)I
+	METHOD b getIndex (III)I
+	METHOD c isEmpty ()Z
+	METHOD c isFirst (I)Z
+	METHOD d getPosition (I)I
+	METHOD toString toString ()Ljava/lang/String;

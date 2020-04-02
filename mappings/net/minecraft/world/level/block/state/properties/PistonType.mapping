@@ -1,0 +1,11 @@
+CLASS cev net/minecraft/world/level/block/state/properties/PistonType
+	FIELD a DEFAULT Lcev;
+	FIELD b STICKY Lcev;
+	FIELD c name Ljava/lang/String;
+	FIELD d $VALUES [Lcev;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcev;
+	METHOD values values ()[Lcev;

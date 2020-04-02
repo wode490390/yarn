@@ -1,0 +1,8 @@
+CLASS azu net/minecraft/world/entity/monster/CrossbowAttackMob
+	METHOD A getTarget ()Lanm;
+	METHOD N_ onCrossbowAttackPerformed ()V
+	METHOD a shootCrossbowProjectile (Lanm;Lanm;Lbcw;FF)V
+	METHOD a shootCrossbowProjectile (Lanm;Lbin;Lbcw;F)V
+	METHOD a getProjectileShotVector (Lanm;Lddp;F)Lg;
+	METHOD b performCrossbowAttack (Lanm;F)V
+	METHOD b setChargingCrossbow (Z)V

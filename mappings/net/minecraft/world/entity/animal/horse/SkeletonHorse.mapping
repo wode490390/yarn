@@ -1,0 +1,24 @@
+CLASS axv net/minecraft/world/entity/animal/horse/SkeletonHorse
+	FIELD bE skeletonTrapGoal Laxw;
+	FIELD bF isTrap Z
+	FIELD bG trapTime I
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD a getBreedOffspring (Lamz;)Lamz;
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD aY getRideHeight ()D
+	METHOD aq getSwimSound ()Labr;
+	METHOD b mobInteract (Lbch;Lalu;)Z
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD bo rideableUnderWater ()Z
+	METHOD cF registerAttributes ()V
+	METHOD d playSwimSound (F)V
+	METHOD dd getDeathSound ()Labr;
+	METHOD dp getMobType ()Lanq;
+	METHOD dz getWaterSlowDown ()F
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD eI addBehaviourGoals ()V
+	METHOD eZ playJumpSound ()V
+	METHOD ez isTrap ()Z
+	METHOD l aiStep ()V
+	METHOD t setTrap (Z)V

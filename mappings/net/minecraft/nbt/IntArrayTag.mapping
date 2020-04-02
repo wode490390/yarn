@@ -1,12 +1,39 @@
-CLASS net/minecraft/class_2495 net/minecraft/nbt/IntArrayTag
-	FIELD field_11524 value [I
-	FIELD field_21036 READER Lnet/minecraft/class_4614;
-	METHOD <init> (Ljava/util/List;)V
-		ARG 1 value
-	METHOD <init> ([I)V
-		ARG 1 value
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
-	METHOD method_10588 getIntArray ()[I
-	METHOD method_10590 toArray (Ljava/util/List;)[I
-		ARG 0 list
+CLASS ld net/minecraft/nbt/IntArrayTag
+	FIELD a TYPE Llr;
+	FIELD b data [I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD <init> <init> ([I)V
+	METHOD a getId ()B
+	METHOD a get (I)Lle;
+	METHOD a set (ILle;)Lle;
+	METHOD a setTag (ILlp;)Z
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Lml;
+	METHOD a toArray (Ljava/util/List;)[I
+	METHOD a_ getElementType ()I
+	METHOD add add (ILjava/lang/Object;)V
+	METHOD b getType ()Llr;
+	METHOD b remove (I)Lle;
+	METHOD b add (ILle;)V
+	METHOD b addTag (ILlp;)Z
+	METHOD c copy ()Llp;
+	METHOD c remove (I)Llp;
+	METHOD c add (ILlp;)V
+	METHOD clear clear ()V
+	METHOD d copy ()Lld;
+	METHOD d set (ILlp;)Llp;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD g getAsIntArray ()[I
+	METHOD get get (I)Ljava/lang/Object;
+	METHOD hashCode hashCode ()I
+	METHOD remove remove (I)Ljava/lang/Object;
+	METHOD set set (ILjava/lang/Object;)Ljava/lang/Object;
+	METHOD size size ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a load (Ljava/io/DataInput;ILli;)Lld;
+		METHOD b getPrettyName ()Ljava/lang/String;
+		METHOD b load (Ljava/io/DataInput;ILli;)Llp;

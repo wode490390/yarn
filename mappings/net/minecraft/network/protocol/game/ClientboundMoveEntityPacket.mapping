@@ -1,0 +1,46 @@
+CLASS os net/minecraft/network/protocol/game/ClientboundMoveEntityPacket
+	FIELD a entityId I
+	FIELD b xa S
+	FIELD c ya S
+	FIELD d za S
+	FIELD e yRot B
+	FIELD f xRot B
+	FIELD g onGround Z
+	FIELD h hasRot Z
+	FIELD i hasPos Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a entityToPacket (D)J
+	METHOD a packetToEntity (JJJ)Lddp;
+	METHOD a getEntity (Lbnx;)Lanb;
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getXa ()S
+	METHOD b write (Lmb;)V
+	METHOD c getYa ()S
+	METHOD d getZa ()S
+	METHOD e getyRot ()B
+	METHOD f getxRot ()B
+	METHOD g hasRotation ()Z
+	METHOD h hasPosition ()Z
+	METHOD i isOnGround ()Z
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Pos
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ISSSZ)V
+		METHOD a read (Lmb;)V
+		METHOD a handle (Lme;)V
+		METHOD b write (Lmb;)V
+	CLASS b PosRot
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ISSSBBZ)V
+		METHOD a read (Lmb;)V
+		METHOD a handle (Lme;)V
+		METHOD b write (Lmb;)V
+	CLASS c Rot
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (IBBZ)V
+		METHOD a read (Lmb;)V
+		METHOD a handle (Lme;)V
+		METHOD b write (Lmb;)V

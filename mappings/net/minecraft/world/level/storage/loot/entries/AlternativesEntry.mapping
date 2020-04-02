@@ -1,0 +1,13 @@
+CLASS dak net/minecraft/world/level/storage/loot/entries/AlternativesEntry
+	METHOD <init> <init> ([Ldat;[Ldcq;)V
+	METHOD a validate (Ldaj;)V
+	METHOD a compose ([Ldal;)Ldal;
+	METHOD a lambda$compose$0 ([Ldal;Ldaa;Ljava/util/function/Consumer;)Z
+	METHOD a alternatives ([Ldat$a;)Ldak$a;
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		METHOD <init> <init> ([Ldat$a;)V
+		METHOD a getThis ()Ldak$a;
+		METHOD a otherwise (Ldat$a;)Ldak$a;
+		METHOD b build ()Ldat;
+		METHOD d getThis ()Ldat$a;

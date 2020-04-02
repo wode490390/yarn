@@ -1,0 +1,13 @@
+CLASS yw net/minecraft/server/level/progress/ChunkProgressListener
+	FIELD a NULL Lyw;
+	METHOD <clinit> <clinit> ()V
+	METHOD a start ()V
+	METHOD a updateSpawnPos (Lbni;)V
+	METHOD a onStatusChange (Lbni;Lcfp;)V
+	METHOD b stop ()V
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a start ()V
+		METHOD a updateSpawnPos (Lbni;)V
+		METHOD a onStatusChange (Lbni;Lcfp;)V
+		METHOD b stop ()V

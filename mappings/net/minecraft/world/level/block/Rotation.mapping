@@ -1,0 +1,20 @@
+CLASS byv net/minecraft/world/level/block/Rotation
+	FIELD a NONE Lbyv;
+	FIELD b CLOCKWISE_90 Lbyv;
+	FIELD c CLOCKWISE_180 Lbyv;
+	FIELD d COUNTERCLOCKWISE_90 Lbyv;
+	FIELD e rotation Lc;
+	FIELD f $VALUES [Lbyv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILc;)V
+	METHOD a rotation ()Lc;
+	METHOD a rotate (II)I
+	METHOD a getRotated (Lbyv;)Lbyv;
+	METHOD a rotate (Lft;)Lft;
+	METHOD a getRandom (Ljava/util/Random;)Lbyv;
+	METHOD b getShuffled (Ljava/util/Random;)Ljava/util/List;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbyv;
+	METHOD values values ()[Lbyv;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		METHOD <clinit> <clinit> ()V

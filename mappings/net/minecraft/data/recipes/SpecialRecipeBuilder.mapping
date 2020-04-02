@@ -1,0 +1,15 @@
+CLASS jh net/minecraft/data/recipes/SpecialRecipeBuilder
+	FIELD a serializer Lblg;
+	METHOD <init> <init> (Lblg;)V
+	METHOD a special (Lblg;)Ljh;
+	METHOD a save (Ljava/util/function/Consumer;Ljava/lang/String;)V
+	METHOD a access$000 (Ljh;)Lblg;
+	CLASS 1 1
+		FIELD a val$id Ljava/lang/String;
+		FIELD b this$0 Ljh;
+		METHOD <init> <init> (Ljh;Ljava/lang/String;)V
+		METHOD a serializeRecipeData (Lcom/google/gson/JsonObject;)V
+		METHOD b getId ()Lts;
+		METHOD c getType ()Lbky;
+		METHOD d serializeAdvancement ()Lcom/google/gson/JsonObject;
+		METHOD e getAdvancementId ()Lts;

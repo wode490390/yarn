@@ -1,0 +1,26 @@
+CLASS bfj net/minecraft/world/inventory/ItemCombinerMenu
+	FIELD c resultSlots Lalo;
+	FIELD d inputSlots Lalo;
+	FIELD e access Lbev;
+	FIELD f player Lbch;
+	METHOD <init> <init> (Lbfn;ILbcg;Lbev;)V
+	METHOD a slotsChanged (Lalo;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD a onTake (Lbch;Lbin;)Lbin;
+	METHOD a lambda$stillValid$1 (Lbch;Lbnx;Lfo;)Ljava/lang/Boolean;
+	METHOD a isValidBlock (Lcdt;)Z
+	METHOD b removed (Lbch;)V
+	METHOD b quickMoveStack (Lbch;I)Lbin;
+	METHOD b lambda$removed$0 (Lbch;Lbnx;Lfo;)V
+	METHOD b mayPickup (Lbch;Z)Z
+	METHOD e createResult ()V
+	CLASS 1 1
+		FIELD a this$0 Lbfj;
+		METHOD <init> <init> (Lbfj;I)V
+		METHOD e setChanged ()V
+	CLASS 2 2
+		FIELD a this$0 Lbfj;
+		METHOD <init> <init> (Lbfj;Lalo;III)V
+		METHOD a mayPickup (Lbch;)Z
+		METHOD a onTake (Lbch;Lbin;)Lbin;
+		METHOD a mayPlace (Lbin;)Z

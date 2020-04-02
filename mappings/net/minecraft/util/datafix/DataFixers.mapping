@@ -1,0 +1,46 @@
+CLASS adr net/minecraft/util/datafix/DataFixers
+	FIELD a SAME Ljava/util/function/BiFunction;
+	FIELD b SAME_NAMESPACED Ljava/util/function/BiFunction;
+	FIELD c DATA_FIXER Lcom/mojang/datafixers/DataFixer;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD A lambda$addFixers$4 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD B lambda$addFixers$3 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD C lambda$addFixers$2 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD D lambda$addFixers$1 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD E lambda$addFixers$0 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a getDataFixer ()Lcom/mojang/datafixers/DataFixer;
+	METHOD a addFixers (Lcom/mojang/datafixers/DataFixerBuilder;)V
+	METHOD a lambda$addFixers$30 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b createFixerUpper ()Lcom/mojang/datafixers/DataFixer;
+	METHOD b lambda$addFixers$29 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c lambda$addFixers$28 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD d lambda$addFixers$27 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD e lambda$addFixers$26 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD f lambda$addFixers$25 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD g lambda$addFixers$24 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD h lambda$addFixers$23 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD i lambda$addFixers$22 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD j lambda$addFixers$21 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD k lambda$addFixers$20 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD l lambda$addFixers$19 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD m lambda$addFixers$18 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD n lambda$addFixers$17 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD o lambda$addFixers$16 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD p lambda$addFixers$15 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD q lambda$addFixers$14 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD r lambda$addFixers$13 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD s lambda$addFixers$12 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD t lambda$addFixers$11 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD u lambda$addFixers$10 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD v lambda$addFixers$9 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD w lambda$addFixers$8 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD x lambda$addFixers$7 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD y lambda$addFixers$6 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD z lambda$addFixers$5 (Ljava/lang/String;)Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;ZLjava/lang/String;Lcom/mojang/datafixers/DSL$TypeReference;Ljava/lang/String;)V
+		METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	CLASS 2 2
+		METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;ZLjava/lang/String;Lcom/mojang/datafixers/DSL$TypeReference;Ljava/lang/String;)V
+		METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;

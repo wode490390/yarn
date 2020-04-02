@@ -1,0 +1,20 @@
+CLASS cna net/minecraft/world/level/levelgen/feature/StructureFeature
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lcna$a;
+	METHOD a getNearestGeneratedFeature (Lbnx;Lcfl;Lfo;IZ)Lfo;
+	METHOD a dereferenceStructureStarts (Lbny;II)Ljava/util/List;
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a isInsideBoundingFeature (Lbny;Lfo;)Z
+	METHOD a getStructureAt (Lbny;Lfo;Z)Lcts;
+	METHOD a isFeatureChunk (Lbpb;Lcfl;Ljava/util/Random;IILboy;)Z
+	METHOD a getPotentialFeatureChunkFromLocationWithOffset (Lcfl;Ljava/util/Random;IIII)Lbni;
+	METHOD a random2 (Ljava/util/Random;)Lckm;
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD b isInsideFeature (Lbny;Lfo;)Z
+	METHOD b configured (Lcof;)Lckm;
+	METHOD c getLookupRange ()I
+	METHOD g supportsProjection ()Z
+	CLASS a StructureStartFactory
+		METHOD create create (Lcna;IILcsw;IJ)Lcts;

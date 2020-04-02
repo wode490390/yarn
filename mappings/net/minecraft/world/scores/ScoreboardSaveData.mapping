@@ -1,0 +1,17 @@
+CLASS deq net/minecraft/world/scores/ScoreboardSaveData
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b scoreboard Ldep;
+	FIELD c delayLoad Lkz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a saveTeams ()Llf;
+	METHOD a loadTeamPlayers (Lden;Llf;)V
+	METHOD a setScoreboard (Ldep;)V
+	METHOD a load (Lkz;)V
+	METHOD a lambda$loadObjectives$0 (Lkz;Ldes;)V
+	METHOD a loadTeams (Llf;)V
+	METHOD b save (Lkz;)Lkz;
+	METHOD b loadObjectives (Llf;)V
+	METHOD c loadDisplaySlots (Lkz;)V
+	METHOD d saveDisplaySlots (Lkz;)V
+	METHOD e saveObjectives ()Llf;

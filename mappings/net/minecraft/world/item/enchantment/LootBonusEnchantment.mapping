@@ -1,0 +1,6 @@
+CLASS bmg net/minecraft/world/item/enchantment/LootBonusEnchantment
+	METHOD <init> <init> (Lblx$a;Lbly;[Lang;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a checkCompatibility (Lblx;)Z
+	METHOD b getMaxCost (I)I

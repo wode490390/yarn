@@ -1,0 +1,4 @@
+CLASS cit net/minecraft/world/level/dimension/special/NoneGeneratorSettings
+	FIELD a INSTANCE Lcit;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V

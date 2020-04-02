@@ -1,10 +1,7 @@
-CLASS net/minecraft/util/CubicSampler
-	FIELD field_22449 DENSITY_CURVE [D
-	METHOD method_24895 sampleColor (Lnet/minecraft/class_243;Lnet/minecraft/util/CubicSampler$class_4859;)Lnet/minecraft/class_243;
-		ARG 0 pos
-		ARG 1 rgbFetcher
-	CLASS class_4859 RgbFetcher
-		METHOD fetch (III)Lnet/minecraft/class_243;
-			ARG 1 x
-			ARG 2 y
-			ARG 3 z
+CLASS net/minecraft/util/CubicSampler net/minecraft/util/CubicSampler
+	FIELD a GAUSSIAN_SAMPLE_KERNEL [D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a gaussianSampleVec3 (Lddp;Lnet/minecraft/util/CubicSampler$Vec3Fetcher;)Lddp;
+	CLASS Vec3Fetcher Vec3Fetcher
+		METHOD fetch fetch (III)Lddp;

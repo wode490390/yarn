@@ -1,0 +1,14 @@
+CLASS azf net/minecraft/world/entity/decoration/Painting
+	FIELD e motive Laze;
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;Lfo;Lft;)V
+	METHOD <init> <init> (Lbnx;Lfo;Lft;Laze;)V
+	METHOD O getAddEntityPacket ()Lmz;
+	METHOD a lerpTo (DDDFFIZ)V
+	METHOD a dropItem (Lanb;)V
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b moveTo (DDDFF)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD k getWidth ()I
+	METHOD l getHeight ()I
+	METHOD m playPlacementSound ()V

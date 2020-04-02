@@ -1,0 +1,17 @@
+CLASS boo net/minecraft/world/level/TickNextTickData
+	FIELD a pos Lfo;
+	FIELD b triggerTick J
+	FIELD c priority Lbop;
+	FIELD d counter J
+	FIELD e type Ljava/lang/Object;
+	FIELD f c J
+	METHOD <init> <init> (Lfo;Ljava/lang/Object;)V
+	METHOD <init> <init> (Lfo;Ljava/lang/Object;JLbop;)V
+	METHOD a createTimeComparator ()Ljava/util/Comparator;
+	METHOD a lambda$createTimeComparator$2 (Lboo;)J
+	METHOD b getType ()Ljava/lang/Object;
+	METHOD b lambda$createTimeComparator$1 (Lboo;)Lbop;
+	METHOD c lambda$createTimeComparator$0 (Lboo;)J
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,21 @@
+CLASS cbr net/minecraft/world/level/block/entity/BellBlockEntity
+	FIELD a ticks I
+	FIELD b shaking Z
+	FIELD c clickDirection Lft;
+	FIELD g lastRingTimestamp J
+	FIELD h nearbyEntities Ljava/util/List;
+	FIELD i resonating Z
+	FIELD j resonationTicks I
+	METHOD <init> <init> ()V
+	METHOD a isRaiderWithinRange (Lanm;)Z
+	METHOD a makeRaidersGlow (Lbnx;)V
+	METHOD a lambda$showBellParticles$1 (Lfo;ILjava/util/concurrent/atomic/AtomicInteger;Lbnx;Lanm;)V
+	METHOD a lambda$showBellParticles$0 (Lfo;Lanm;)Z
+	METHOD a onHit (Lft;)V
+	METHOD a_ triggerEvent (II)Z
+	METHOD ac_ tick ()V
+	METHOD b glow (Lanm;)V
+	METHOD b showBellParticles (Lbnx;)V
+	METHOD d playResonateSound ()V
+	METHOD f updateEntities ()V
+	METHOD h areRaidersNearby ()Z

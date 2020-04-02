@@ -1,0 +1,17 @@
+CLASS bq net/minecraft/advancements/critereon/LevitationTrigger
+	FIELD a ID Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lts;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lae;
+	METHOD a trigger (Lyo;Lddp;I)V
+	METHOD a lambda$trigger$0 (Lyo;Lddp;ILbq$a;)Z
+	METHOD b access$000 ()Lts;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbq$a;
+	CLASS a TriggerInstance
+		FIELD a distance Lav;
+		FIELD b duration Lbu$d;
+		METHOD <init> <init> (Lav;Lbu$d;)V
+		METHOD a levitated (Lav;)Lbq$a;
+		METHOD a matches (Lyo;Lddp;I)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

@@ -1,0 +1,4 @@
+CLASS bir net/minecraft/world/item/LingeringPotionItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a appendHoverText (Lbin;Lbnx;Ljava/util/List;Lbjw;)V
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;

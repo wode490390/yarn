@@ -1,0 +1,6 @@
+CLASS cgs net/minecraft/world/level/dimension/DimHash
+	FIELD a lastPasshphrase Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getLastPasshphrase ()Ljava/lang/String;
+	METHOD a getHash (Ljava/lang/String;)I

@@ -1,0 +1,11 @@
+CLASS bxu net/minecraft/world/level/block/NetherWartBlock
+	FIELD a AGE Lcet;
+	FIELD b SHAPE_BY_AGE [Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getCloneItemStack (Lbnh;Lfo;Lcdt;)Lbin;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD a_ isRandomlyTicking (Lcdt;)Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD c mayPlaceOn (Lcdt;Lbnh;Lfo;)Z

@@ -1,0 +1,33 @@
+CLASS ddy net/minecraft/world/phys/shapes/DiscreteVoxelShape
+	FIELD a xSize I
+	FIELD b ySize I
+	FIELD c zSize I
+	FIELD d AXIS_VALUES [Lft$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (III)V
+	METHOD a isEmpty ()Z
+	METHOD a isZStripFull (IIII)Z
+	METHOD a isXZRectangleFull (IIIII)Z
+	METHOD a setZStrip (IIIIZ)V
+	METHOD a setFull (IIIZZ)V
+	METHOD a forAllFaces (Lddy$a;)V
+	METHOD a forAllAxisFaces (Lddy$a;Lfm;)V
+	METHOD a forAllAxisEdges (Lddy$b;Lfm;Z)V
+	METHOD a forAllEdges (Lddy$b;Z)V
+	METHOD a isFullWide (Lfm;III)Z
+	METHOD a firstFull (Lft$a;)I
+	METHOD a firstFull (Lft$a;II)I
+	METHOD b getXSize ()I
+	METHOD b isFull (III)Z
+	METHOD b forAllBoxes (Lddy$b;Z)V
+	METHOD b isFull (Lfm;III)Z
+	METHOD b lastFull (Lft$a;)I
+	METHOD b lastFull (Lft$a;II)I
+	METHOD c getYSize ()I
+	METHOD c isFullWide (III)Z
+	METHOD c getSize (Lft$a;)I
+	METHOD d getZSize ()I
+	CLASS a IntFaceConsumer
+		METHOD consume consume (Lft;III)V
+	CLASS b IntLineConsumer
+		METHOD consume consume (IIIIII)V

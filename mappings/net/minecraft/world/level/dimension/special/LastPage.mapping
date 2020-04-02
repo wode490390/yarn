@@ -1,0 +1,31 @@
+CLASS cis net/minecraft/world/level/dimension/special/LastPage
+	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD i DATA [B
+	FIELD j IVS [B
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD a isFoggyAt (II)Z
+	METHOD a getTimeOfDay (JF)F
+	METHOD a getBrightnessDependentFogColor (Lddp;F)Lddp;
+	METHOD k createRandomLevelGenerator ()Lcfl;
+	METHOD u access$000 ()[B
+	METHOD v access$100 ()[B
+	METHOD w access$200 ()Lorg/apache/logging/log4j/Logger;
+	CLASS 1 1
+	CLASS a Generator
+		FIELD e provider Lcpw;
+		FIELD f decodedMessage [Ljava/lang/String;
+		METHOD <init> <init> (Lbny;Lbpc;Lcit;)V
+		METHOD <init> <init> (Lbny;Lbpc;Lcit;Ljava/lang/String;)V
+		METHOD <init> <init> (Lbny;Lbpc;Lcit;Ljava/lang/String;Lcis$1;)V
+		METHOD a getBaseColumn (II)Lbnh;
+		METHOD a getBaseHeight (IILcjc$a;)I
+		METHOD a applyCarvers (Lbpb;Lcfj;Lcjb$a;)V
+		METHOD a tryPrintChar (Lcfj;IIII)V
+		METHOD a lambda$tryPrintChar$0 (Lcfj;Lfo;)V
+		METHOD a decodeMessage (Ljava/lang/String;)[Ljava/lang/String;
+		METHOD a applyBiomeDecoration (Lyt;)V
+		METHOD a buildSurfaceAndBedrock (Lyt;Lcfj;)V
+		METHOD b getSpawnHeight ()I
+		METHOD b fillFromNoise (Lbny;Lcfj;)V
+		METHOD g getType ()Lcfn;

@@ -1,0 +1,3 @@
+CLASS bvz net/minecraft/world/level/block/FletchingTableBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;

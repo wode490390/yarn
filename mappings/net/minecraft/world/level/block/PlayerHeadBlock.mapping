@@ -1,0 +1,3 @@
+CLASS byb net/minecraft/world/level/block/PlayerHeadBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a setPlacedBy (Lbnx;Lfo;Lcdt;Lanm;Lbin;)V

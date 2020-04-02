@@ -1,0 +1,13 @@
+CLASS bpe net/minecraft/world/level/biome/BiomeSourceType
+	FIELD a CHECKERBOARD Lbpe;
+	FIELD b FIXED Lbpe;
+	FIELD c VANILLA_LAYERED Lbpe;
+	FIELD d THE_END Lbpe;
+	FIELD e MULTI_NOISE Lbpe;
+	FIELD f factory Ljava/util/function/Function;
+	FIELD g settingsFactory Ljava/util/function/LongFunction;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/LongFunction;)V
+	METHOD a createSettings (J)Lbpd;
+	METHOD a create (Lbpd;)Lbpc;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Function;Ljava/util/function/LongFunction;)Lbpe;

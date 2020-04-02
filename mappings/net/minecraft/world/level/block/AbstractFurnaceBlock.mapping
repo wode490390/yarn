@@ -1,0 +1,17 @@
+CLASS bst net/minecraft/world/level/block/AbstractFurnaceBlock
+	FIELD a FACING Lceo;
+	FIELD b LIT Lcel;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a openContainer (Lbnx;Lfo;Lbch;)V
+	METHOD a setPlacedBy (Lbnx;Lfo;Lcdt;Lanm;Lbin;)V
+	METHOD a hasAnalogOutputSignal (Lcdt;)Z
+	METHOD a getAnalogOutputSignal (Lcdt;Lbnx;Lfo;)I
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a onRemove (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getRenderShape (Lcdt;)Lbyq;

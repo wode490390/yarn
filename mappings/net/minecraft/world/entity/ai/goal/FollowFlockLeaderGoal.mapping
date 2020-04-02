@@ -1,0 +1,13 @@
+CLASS asj net/minecraft/world/entity/ai/goal/FollowFlockLeaderGoal
+	FIELD a mob Lawn;
+	FIELD b timeToRecalcPath I
+	FIELD c nextStartTick I
+	METHOD <init> <init> (Lawn;)V
+	METHOD a canUse ()Z
+	METHOD a nextStartTick (Lawn;)I
+	METHOD b canContinueToUse ()Z
+	METHOD b lambda$canUse$1 (Lawn;)Z
+	METHOD c start ()V
+	METHOD c lambda$canUse$0 (Lawn;)Z
+	METHOD d stop ()V
+	METHOD e tick ()V

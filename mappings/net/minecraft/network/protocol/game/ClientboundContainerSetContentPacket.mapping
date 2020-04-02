@@ -1,0 +1,11 @@
+CLASS ny net/minecraft/network/protocol/game/ClientboundContainerSetContentPacket
+	FIELD a containerId I
+	FIELD b items Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILge;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getContainerId ()I
+	METHOD b write (Lmb;)V
+	METHOD c getItems ()Ljava/util/List;

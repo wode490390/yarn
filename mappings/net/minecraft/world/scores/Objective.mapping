@@ -1,0 +1,16 @@
+CLASS dem net/minecraft/world/scores/Objective
+	FIELD a scoreboard Ldep;
+	FIELD b name Ljava/lang/String;
+	FIELD c criteria Ldes;
+	FIELD d displayName Lml;
+	FIELD e renderType Ldes$a;
+	METHOD <init> <init> (Ldep;Ljava/lang/String;Ldes;Lml;Ldes$a;)V
+	METHOD a getScoreboard ()Ldep;
+	METHOD a setRenderType (Ldes$a;)V
+	METHOD a setDisplayName (Lml;)V
+	METHOD a lambda$getFormattedDisplayName$0 (Lmt;)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getCriteria ()Ldes;
+	METHOD d getDisplayName ()Lml;
+	METHOD e getFormattedDisplayName ()Lml;
+	METHOD f getRenderType ()Ldes$a;

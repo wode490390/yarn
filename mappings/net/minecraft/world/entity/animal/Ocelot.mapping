@@ -1,0 +1,44 @@
+CLASS awz net/minecraft/world/entity/animal/Ocelot
+	FIELD bv TEMPT_INGREDIENT Lbkt;
+	FIELD bw DATA_TRUSTING Lth;
+	FIELD bx ocelotAvoidPlayersGoal Lawz$a;
+	FIELD by temptGoal Lawz$b;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD B doHurtTarget (Lanb;)Z
+	METHOD D getAmbientSoundInterval ()I
+	METHOD I getAmbientSound ()Labr;
+	METHOD N customServerAiStep ()V
+	METHOD a handleEntityEvent (B)V
+	METHOD a hurt (Laml;F)Z
+	METHOD a getBreedOffspring (Lamz;)Lamz;
+	METHOD a access$000 (Lawz;)Z
+	METHOD a finalizeSpawn (Lbny;Lalt;Lanp;Lanz;Lkz;)Lanz;
+	METHOD a checkSpawnObstruction (Lboa;)Z
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b causeFallDamage (FF)Z
+	METHOD b getBreedOffspring (Lamz;)Lawz;
+	METHOD b mobInteract (Lbch;Lalu;)Z
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD c checkOcelotSpawnRules (Lanf;Lbny;Lanp;Lfo;Ljava/util/Random;)Z
+	METHOD cF registerAttributes ()V
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD eA isTrusting ()Z
+	METHOD eB getAttackDamage ()F
+	METHOD ez reassessTrustingGoals ()V
+	METHOD h removeWhenFarAway (D)Z
+	METHOD k isFood (Lbin;)Z
+	METHOD o registerGoals ()V
+	METHOD t setTrusting (Z)V
+	METHOD u spawnTrustingParticles (Z)V
+	METHOD w_ defineSynchedData ()V
+	CLASS a OcelotAvoidEntityGoal
+		FIELD i ocelot Lawz;
+		METHOD <init> <init> (Lawz;Ljava/lang/Class;FDD)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+	CLASS b OcelotTemptGoal
+		FIELD c ocelot Lawz;
+		METHOD <init> <init> (Lawz;DLbkt;Z)V
+		METHOD g canScare ()Z

@@ -1,0 +1,5 @@
+CLASS bft net/minecraft/world/inventory/RecipeHolder
+	METHOD a setRecipeUsed (Lbkw;)V
+	METHOD a setRecipeUsed (Lbnx;Lyo;Lbkw;)Z
+	METHOD ad_ getRecipeUsed ()Lbkw;
+	METHOD b awardAndReset (Lbch;)V

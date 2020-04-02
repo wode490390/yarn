@@ -1,0 +1,15 @@
+CLASS aus net/minecraft/world/entity/ai/memory/ExpirableValue
+	FIELD a value Ljava/lang/Object;
+	FIELD b timeToLive J
+	METHOD <init> <init> (Ljava/lang/Object;)V
+	METHOD <init> <init> (Ljava/lang/Object;J)V
+	METHOD <init> <init> (Ljava/util/function/Function;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a tick ()V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a of (Ljava/lang/Object;)Laus;
+	METHOD a of (Ljava/lang/Object;J)Laus;
+	METHOD b getTimeToLive ()J
+	METHOD c getValue ()Ljava/lang/Object;
+	METHOD d hasExpired ()Z
+	METHOD e canExpire ()Z
+	METHOD toString toString ()Ljava/lang/String;

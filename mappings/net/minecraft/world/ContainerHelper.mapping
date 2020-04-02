@@ -1,0 +1,7 @@
+CLASS alp net/minecraft/world/ContainerHelper
+	METHOD <init> <init> ()V
+	METHOD a takeItem (Ljava/util/List;I)Lbin;
+	METHOD a removeItem (Ljava/util/List;II)Lbin;
+	METHOD a saveAllItems (Lkz;Lge;)Lkz;
+	METHOD a saveAllItems (Lkz;Lge;Z)Lkz;
+	METHOD b loadAllItems (Lkz;Lge;)V

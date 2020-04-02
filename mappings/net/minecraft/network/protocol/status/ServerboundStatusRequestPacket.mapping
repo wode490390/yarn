@@ -1,0 +1,6 @@
+CLASS tf net/minecraft/network/protocol/status/ServerboundStatusRequestPacket
+	METHOD <init> <init> ()V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Ltd;)V
+	METHOD b write (Lmb;)V

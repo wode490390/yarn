@@ -1,0 +1,20 @@
+CLASS cyz net/minecraft/world/level/pathfinder/WalkNodeEvaluator
+	FIELD j oldWaterCost F
+	METHOD <init> <init> ()V
+	METHOD a done ()V
+	METHOD a getGoal (DDD)Lcyx;
+	METHOD a getLandNode (IIIIDLft;)Lcyr;
+	METHOD a getBlockPathType (Lann;III)Lcyp;
+	METHOD a getBlockPathType (Lann;Lfo;)Lcyp;
+	METHOD a getBlockPathType (Lbnh;III)Lcyp;
+	METHOD a getBlockPathTypes (Lbnh;IIIIIIZZLjava/util/EnumSet;Lcyp;Lfo;)Lcyp;
+	METHOD a getBlockPathType (Lbnh;IIILann;IIIZZ)Lcyp;
+	METHOD a checkNeighbourBlocks (Lbnh;IIILcyp;)Lcyp;
+	METHOD a getFloorLevel (Lbnh;Lfo;)D
+	METHOD a evaluateBlockPathType (Lbnh;ZZLfo;Lcyp;)Lcyp;
+	METHOD a prepare (Lboj;Lann;)V
+	METHOD a isDiagonalValid (Lcyr;Lcyr;Lcyr;Lcyr;)Z
+	METHOD a getNeighbors ([Lcyr;Lcyr;)I
+	METHOD b getStart ()Lcyr;
+	METHOD b getBlockPathTypeStatic (Lbnh;III)Lcyp;
+	METHOD c getBlockPathTypeRaw (Lbnh;III)Lcyp;

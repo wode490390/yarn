@@ -1,0 +1,12 @@
+CLASS ckm net/minecraft/world/level/levelgen/feature/ConfiguredFeature
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b feature Lcle;
+	FIELD c config Lcof;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcle;Lcof;)V
+	METHOD <init> <init> (Lcle;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a weighted (F)Lcnl;
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;)Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lckm;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a decorated (Lcre;)Lckm;

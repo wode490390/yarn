@@ -1,0 +1,16 @@
+CLASS bdh net/minecraft/world/entity/projectile/ThrownPotion
+	FIELD c WATER_SENSITIVE Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDD)V
+	METHOD <init> <init> (Lbnx;Lanm;)V
+	METHOD a isWaterSensitiveEntity (Lanm;)Z
+	METHOD a makeAreaOfEffectCloud (Lbin;Lbkd;)V
+	METHOD a onHitBlock (Lddk;)V
+	METHOD a onHit (Lddm;)V
+	METHOD a dowseFire (Lfo;Lft;)V
+	METHOD a applySplash (Ljava/util/List;Lanb;)V
+	METHOD i getDefaultItem ()Lbii;
+	METHOD l getGravity ()F
+	METHOD m applyWater ()V
+	METHOD n isLingering ()Z

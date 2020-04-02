@@ -1,0 +1,6 @@
+CLASS bmh net/minecraft/world/item/enchantment/MendingEnchantment
+	METHOD <init> <init> (Lblx$a;[Lang;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD b isTreasureOnly ()Z
+	METHOD b getMaxCost (I)I

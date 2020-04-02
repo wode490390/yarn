@@ -1,0 +1,8 @@
+CLASS zo net/minecraft/server/packs/Pack
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getNamespaces (Lzp;)Ljava/util/Set;
+	METHOD a getResources (Lzp;Ljava/lang/String;Ljava/lang/String;ILjava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a getResource (Lzp;Lts;)Ljava/io/InputStream;
+	METHOD a getMetadataSection (Lzs;)Ljava/lang/Object;
+	METHOD b getRootResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD b hasResource (Lzp;Lts;)Z

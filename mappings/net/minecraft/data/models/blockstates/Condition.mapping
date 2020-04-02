@@ -1,0 +1,40 @@
+CLASS ih net/minecraft/data/models/blockstates/Condition
+	METHOD a condition ()Lih$c;
+	METHOD a validate (Lcdu;)V
+	METHOD a and ([Lih;)Lih;
+	METHOD b or ([Lih;)Lih;
+	CLASS 1 1
+	CLASS a CompositeCondition
+		FIELD a operation Lih$b;
+		FIELD b subconditions Ljava/util/List;
+		METHOD <init> <init> (Lih$b;Ljava/util/List;)V
+		METHOD <init> <init> (Lih$b;Ljava/util/List;Lih$1;)V
+		METHOD a validate (Lcdu;)V
+		METHOD a lambda$validate$0 (Lcdu;Lih;)V
+		METHOD b get ()Lcom/google/gson/JsonElement;
+		METHOD get get ()Ljava/lang/Object;
+	CLASS b Operation
+		FIELD a AND Lih$b;
+		FIELD b OR Lih$b;
+		FIELD c id Ljava/lang/String;
+		FIELD d $VALUES [Lih$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a access$000 (Lih$b;)Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lih$b;
+		METHOD values values ()[Lih$b;
+	CLASS c TerminalCondition
+		FIELD a terms Ljava/util/Map;
+		METHOD <init> <init> ()V
+		METHOD a validate (Lcdu;)V
+		METHOD a lambda$validate$1 (Lcdu;Lcew;)Z
+		METHOD a term (Lcew;Ljava/lang/Comparable;)Lih$c;
+		METHOD a term (Lcew;Ljava/lang/Comparable;[Ljava/lang/Comparable;)Lih$c;
+		METHOD a putValue (Lcew;Ljava/lang/String;)V
+		METHOD a joinValues (Lcew;Ljava/util/stream/Stream;)Ljava/lang/String;
+		METHOD a lambda$get$0 (Lcom/google/gson/JsonObject;Lcew;Ljava/lang/String;)V
+		METHOD b get ()Lcom/google/gson/JsonElement;
+		METHOD b negatedTerm (Lcew;Ljava/lang/Comparable;)Lih$c;
+		METHOD b negatedTerm (Lcew;Ljava/lang/Comparable;[Ljava/lang/Comparable;)Lih$c;
+		METHOD c getTerm (Lcew;Ljava/lang/Comparable;[Ljava/lang/Comparable;)Ljava/lang/String;
+		METHOD get get ()Ljava/lang/Object;

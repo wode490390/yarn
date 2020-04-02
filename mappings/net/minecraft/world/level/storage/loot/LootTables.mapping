@@ -1,0 +1,16 @@
+CLASS dae net/minecraft/world/level/storage/loot/LootTables
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c tables Ljava/util/Map;
+	FIELD d predicateManager Ldaf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldaf;)V
+	METHOD a getIds ()Ljava/util/Set;
+	METHOD a lambda$apply$0 (Lcom/google/common/collect/ImmutableMap$Builder;Lts;Lcom/google/gson/JsonObject;)V
+	METHOD a serialize (Ldad;)Lcom/google/gson/JsonElement;
+	METHOD a validate (Ldaj;Lts;Ldad;)V
+	METHOD a apply (Ljava/lang/Object;Laal;Lakx;)V
+	METHOD a lambda$apply$2 (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a apply (Ljava/util/Map;Laal;Lakx;)V
+	METHOD a get (Lts;)Ldad;
+	METHOD b lambda$apply$1 (Ldaj;Lts;Ldad;)V

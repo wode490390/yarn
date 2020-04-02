@@ -1,0 +1,5 @@
+CLASS cbs net/minecraft/world/level/block/entity/BlastFurnaceBlockEntity
+	METHOD <init> <init> ()V
+	METHOD a createMenu (ILbcg;)Lbel;
+	METHOD a getBurnDuration (Lbin;)I
+	METHOD g getDefaultName ()Lml;

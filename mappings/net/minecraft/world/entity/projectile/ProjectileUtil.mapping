@@ -1,0 +1,13 @@
+CLASS bcx net/minecraft/world/entity/projectile/ProjectileUtil
+	METHOD <init> <init> ()V
+	METHOD a getIgnoredEntities (Lanb;)Ljava/util/Set;
+	METHOD a rotateTowardsMovement (Lanb;F)V
+	METHOD a getHitResult (Lanb;Lddj;Ljava/util/function/Predicate;Lbnk$a;Z)Lddm;
+	METHOD a getEntityHitResult (Lanb;Lddp;Lddp;Lddj;Ljava/util/function/Predicate;D)Lddl;
+	METHOD a forwardsRaycast (Lanb;ZZLanb;Lbnk$a;)Lddm;
+	METHOD a forwardsRaycast (Lanb;ZZLanb;Lbnk$a;ZLjava/util/function/Predicate;Lddj;)Lddm;
+	METHOD a getWeaponHoldingHand (Lanm;Lbii;)Lalu;
+	METHOD a getMobArrow (Lanm;Lbin;F)Lbcl;
+	METHOD a getHitResult (Lbnx;Lanb;Lddp;Lddp;Lddj;Ljava/util/function/Predicate;)Lddl;
+	METHOD a getHitResult (Lbnx;Lanb;Lddp;Lddp;Lddj;Ljava/util/function/Predicate;D)Lddl;
+	METHOD a lambda$forwardsRaycast$0 (ZLanb;Lanb;)Z

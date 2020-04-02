@@ -1,0 +1,6 @@
+CLASS bdq net/minecraft/world/entity/schedule/Keyframe
+	FIELD a timeStamp I
+	FIELD b value F
+	METHOD <init> <init> (IF)V
+	METHOD a getTimeStamp ()I
+	METHOD b getValue ()F

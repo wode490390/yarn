@@ -1,0 +1,19 @@
+CLASS adq net/minecraft/util/datafix/DataFixTypes
+	FIELD a LEVEL Ladq;
+	FIELD b PLAYER Ladq;
+	FIELD c CHUNK Ladq;
+	FIELD d HOTBAR Ladq;
+	FIELD e OPTIONS Ladq;
+	FIELD f STRUCTURE Ladq;
+	FIELD g STATS Ladq;
+	FIELD h SAVED_DATA Ladq;
+	FIELD i ADVANCEMENTS Ladq;
+	FIELD j POI_CHUNK Ladq;
+	FIELD k CHUNK_GENERATOR_SETTINGS Ladq;
+	FIELD l type Lcom/mojang/datafixers/DSL$TypeReference;
+	FIELD m $VALUES [Ladq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILcom/mojang/datafixers/DSL$TypeReference;)V
+	METHOD a getType ()Lcom/mojang/datafixers/DSL$TypeReference;
+	METHOD valueOf valueOf (Ljava/lang/String;)Ladq;
+	METHOD values values ()[Ladq;

@@ -1,0 +1,11 @@
+CLASS amm net/minecraft/world/damagesource/EntityDamageSource
+	FIELD w entity Lanb;
+	FIELD x isThorns Z
+	METHOD <init> <init> (Ljava/lang/String;Lanb;)V
+	METHOD a getLocalizedDeathMessage (Lanm;)Lml;
+	METHOD k getEntity ()Lanb;
+	METHOD s scalesWithDifficulty ()Z
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD w getSourcePosition ()Lddp;
+	METHOD x setThorns ()Lamm;
+	METHOD y isThorns ()Z

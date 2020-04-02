@@ -1,0 +1,30 @@
+CLASS aor net/minecraft/world/entity/ai/behavior/Behavior
+	FIELD a entryCondition Ljava/util/Map;
+	FIELD b status Laor$a;
+	FIELD c endTimestamp J
+	FIELD d minDuration I
+	FIELD e maxDuration I
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD <init> <init> (Ljava/util/Map;I)V
+	METHOD <init> <init> (Ljava/util/Map;II)V
+	METHOD a getStatus ()Laor$a;
+	METHOD a timedOut (J)Z
+	METHOD a hasRequiredMemories (Lanm;)Z
+	METHOD a lambda$hasRequiredMemories$0 (Lanm;Ljava/util/Map$Entry;)Z
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD b canStillUse (Lyn;Lanm;J)Z
+	METHOD c stop (Lyn;Lanm;J)V
+	METHOD d tick (Lyn;Lanm;J)V
+	METHOD e tryStart (Lyn;Lanm;J)Z
+	METHOD f tickOrStop (Lyn;Lanm;J)V
+	METHOD g doStop (Lyn;Lanm;J)V
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Status
+		FIELD a STOPPED Laor$a;
+		FIELD b RUNNING Laor$a;
+		FIELD c $VALUES [Laor$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Laor$a;
+		METHOD values values ()[Laor$a;

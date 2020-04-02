@@ -1,0 +1,26 @@
+CLASS cxf net/minecraft/world/level/newbiome/layer/AddEdgeLayer
+	METHOD <init> <init> ()V
+	CLASS a CoolWarm
+		FIELD a INSTANCE Lcxf$a;
+		FIELD b $VALUES [Lcxf$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Lcxb;IIIII)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcxf$a;
+		METHOD values values ()[Lcxf$a;
+	CLASS b HeatIce
+		FIELD a INSTANCE Lcxf$b;
+		FIELD b $VALUES [Lcxf$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Lcxb;IIIII)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcxf$b;
+		METHOD values values ()[Lcxf$b;
+	CLASS c IntroduceSpecial
+		FIELD a INSTANCE Lcxf$c;
+		FIELD b $VALUES [Lcxf$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Lcxb;I)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcxf$c;
+		METHOD values values ()[Lcxf$c;

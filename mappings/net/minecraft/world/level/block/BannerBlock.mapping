@@ -1,0 +1,15 @@
+CLASS btc net/minecraft/world/level/block/BannerBlock
+	FIELD a ROTATION Lcet;
+	FIELD b BY_COLOR Ljava/util/Map;
+	FIELD c SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbhi;Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a byColor (Lbhi;)Lbtu;
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b isUnstable ()Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;

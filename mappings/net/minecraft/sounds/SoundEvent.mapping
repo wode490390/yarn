@@ -1,0 +1,4 @@
+CLASS abr net/minecraft/sounds/SoundEvent
+	FIELD a location Lts;
+	METHOD <init> <init> (Lts;)V
+	METHOD a getLocation ()Lts;

@@ -1,0 +1,11 @@
+CLASS axn net/minecraft/world/entity/animal/WaterAnimal
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD D getAmbientSoundInterval ()I
+	METHOD a handleAirSupply (I)V
+	METHOD a canBeLeashed (Lbch;)Z
+	METHOD a checkSpawnObstruction (Lboa;)Z
+	METHOD ad baseTick ()V
+	METHOD bS isPushedByFluid ()Z
+	METHOD cG canBreatheUnderwater ()Z
+	METHOD d getExperienceReward (Lbch;)I
+	METHOD dp getMobType ()Lanq;

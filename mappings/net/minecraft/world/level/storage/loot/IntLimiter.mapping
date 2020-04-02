@@ -1,0 +1,23 @@
+CLASS czz net/minecraft/world/level/storage/loot/IntLimiter
+	FIELD a min Ljava/lang/Integer;
+	FIELD b max Ljava/lang/Integer;
+	FIELD c op Ljava/util/function/IntUnaryOperator;
+	METHOD <init> <init> (Ljava/lang/Integer;Ljava/lang/Integer;)V
+	METHOD <init> <init> (Ljava/lang/Integer;Ljava/lang/Integer;Lczz$1;)V
+	METHOD a lowerBound (I)Lczz;
+	METHOD a clamp (II)Lczz;
+	METHOD a lambda$new$3 (III)I
+	METHOD a access$100 (Lczz;)Ljava/lang/Integer;
+	METHOD applyAsInt applyAsInt (I)I
+	METHOD b upperBound (I)Lczz;
+	METHOD b lambda$new$2 (II)I
+	METHOD b access$200 (Lczz;)Ljava/lang/Integer;
+	METHOD c lambda$new$0 (I)I
+	METHOD c lambda$new$1 (II)I
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lczz;
+		METHOD a serialize (Lczz;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

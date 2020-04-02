@@ -1,0 +1,9 @@
+CLASS ri net/minecraft/network/protocol/game/ServerboundLockDifficultyPacket
+	FIELD a locked Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b isLocked ()Z
+	METHOD b write (Lmb;)V

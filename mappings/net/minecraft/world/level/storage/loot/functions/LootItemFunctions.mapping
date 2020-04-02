@@ -1,0 +1,19 @@
+CLASS dbn net/minecraft/world/level/storage/loot/functions/LootItemFunctions
+	FIELD a IDENTITY Ljava/util/function/BiFunction;
+	FIELD b FUNCTIONS_BY_NAME Ljava/util/Map;
+	FIELD c FUNCTIONS_BY_CLASS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$static$0 (Lbin;Ldaa;)Lbin;
+	METHOD a register (Ldbm$b;)V
+	METHOD a getSerializer (Ldbm;)Ldbm$b;
+	METHOD a lambda$compose$1 (Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;Lbin;Ldaa;)Lbin;
+	METHOD a getSerializer (Lts;)Ldbm$b;
+	METHOD a compose ([Ljava/util/function/BiFunction;)Ljava/util/function/BiFunction;
+	METHOD a lambda$compose$2 ([Ljava/util/function/BiFunction;Lbin;Ldaa;)Lbin;
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ldbm;
+		METHOD a serialize (Ldbm;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

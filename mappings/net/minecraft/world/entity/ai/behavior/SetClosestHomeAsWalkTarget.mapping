@@ -1,0 +1,10 @@
+CLASS aqe net/minecraft/world/entity/ai/behavior/SetClosestHomeAsWalkTarget
+	FIELD b speedModifier F
+	FIELD c batchCache Lit/unimi/dsi/fastutil/longs/Long2LongMap;
+	FIELD d triedCount I
+	FIELD e lastUpdate J
+	METHOD <init> <init> (F)V
+	METHOD a lambda$start$0 (Lfo;)Z
+	METHOD a lambda$start$1 (Lit/unimi/dsi/fastutil/longs/Long2LongMap$Entry;)Z
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V

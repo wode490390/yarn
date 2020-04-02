@@ -1,0 +1,9 @@
+CLASS aew net/minecraft/util/datafix/fixes/ChunkToProtochunkFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$2 ()Ljava/lang/IllegalStateException;
+	METHOD a packOffsetCoordinates (III)S
+	METHOD a lambda$null$0 (Lcom/mojang/datafixers/Dynamic;I)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$makeRule$4 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$3 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$1 (Ljava/util/List;Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

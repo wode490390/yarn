@@ -1,0 +1,18 @@
+CLASS azd net/minecraft/world/entity/decoration/LeashFenceKnotEntity
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;Lfo;)V
+	METHOD O getAddEntityPacket ()Lmz;
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a dropItem (Lanb;)V
+	METHOD a getEyeHeight (Lanw;Lanc;)F
+	METHOD a interact (Lbch;Lalu;)Z
+	METHOD a getOrCreateKnot (Lbnx;Lfo;)Lazd;
+	METHOD a setDirection (Lft;)V
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD d setPos (DDD)V
+	METHOD f recalculateBoundingBox ()V
+	METHOD i survives ()Z
+	METHOD k getWidth ()I
+	METHOD l getHeight ()I
+	METHOD m playPlacementSound ()V

@@ -1,0 +1,22 @@
+CLASS bdp net/minecraft/world/entity/schedule/Activity
+	FIELD a CORE Lbdp;
+	FIELD b IDLE Lbdp;
+	FIELD c WORK Lbdp;
+	FIELD d PLAY Lbdp;
+	FIELD e REST Lbdp;
+	FIELD f MEET Lbdp;
+	FIELD g PANIC Lbdp;
+	FIELD h RAID Lbdp;
+	FIELD i PRE_RAID Lbdp;
+	FIELD j HIDE Lbdp;
+	FIELD k FIGHT Lbdp;
+	FIELD l CELEBRATE Lbdp;
+	FIELD m ADMIRE_ITEM Lbdp;
+	FIELD n AVOID Lbdp;
+	FIELD o RIDE Lbdp;
+	FIELD p name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a register (Ljava/lang/String;)Lbdp;
+	METHOD toString toString ()Ljava/lang/String;

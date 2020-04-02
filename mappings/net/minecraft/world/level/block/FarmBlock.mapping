@@ -1,0 +1,18 @@
+CLASS bvv net/minecraft/world/level/block/FarmBlock
+	FIELD a MOISTURE Lcet;
+	FIELD b SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a isUnderCrops (Lbnh;Lfo;)Z
+	METHOD a fallOn (Lbnx;Lfo;Lanb;F)V
+	METHOD a isNearWater (Lboa;Lfo;)Z
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD c_ useShapeForLightOcclusion (Lcdt;)Z
+	METHOD d turnToDirt (Lcdt;Lbnx;Lfo;)V

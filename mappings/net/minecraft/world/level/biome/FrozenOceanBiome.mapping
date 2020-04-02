@@ -1,0 +1,5 @@
+CLASS bqg net/minecraft/world/level/biome/FrozenOceanBiome
+	FIELD t FROZEN_TEMPERATURE_NOISE Lcvs;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getTemperatureNoCache (Lfo;)F

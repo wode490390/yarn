@@ -1,0 +1,24 @@
+CLASS zr net/minecraft/server/packs/VanillaPack
+	FIELD a generatedDir Ljava/nio/file/Path;
+	FIELD b clientObject Ljava/lang/Class;
+	FIELD c namespaces Ljava/util/Set;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e JAR_FILESYSTEM_BY_TYPE Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Ljava/lang/String;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getResourceAsStream (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD a isResourceUrlValid (Ljava/lang/String;Ljava/net/URL;)Z
+	METHOD a lambda$getResources$2 (Ljava/lang/String;Ljava/nio/file/Path;Ljava/nio/file/Path;)Lts;
+	METHOD a getResources (Ljava/util/Collection;ILjava/lang/String;Ljava/nio/file/Path;Ljava/lang/String;Ljava/util/function/Predicate;)V
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V
+	METHOD a lambda$getResources$1 (Ljava/util/function/Predicate;Ljava/nio/file/Path;)Z
+	METHOD a getNamespaces (Lzp;)Ljava/util/Set;
+	METHOD a getResources (Lzp;Ljava/lang/String;Ljava/lang/String;ILjava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a getResource (Lzp;Lts;)Ljava/io/InputStream;
+	METHOD a getMetadataSection (Lzs;)Ljava/lang/Object;
+	METHOD b getRootResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD b hasResource (Lzp;Lts;)Z
+	METHOD c getResourceAsStream (Lzp;Lts;)Ljava/io/InputStream;
+	METHOD close close ()V
+	METHOD d createPath (Lzp;Lts;)Ljava/lang/String;

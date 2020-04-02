@@ -1,0 +1,13 @@
+CLASS lr net/minecraft/nbt/TagType
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a createInvalid (I)Llr;
+	METHOD b getPrettyName ()Ljava/lang/String;
+	METHOD b load (Ljava/io/DataInput;ILli;)Llp;
+	METHOD c isValue ()Z
+	CLASS 1 1
+		FIELD a val$id I
+		METHOD <init> <init> (I)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a load (Ljava/io/DataInput;ILli;)Llb;
+		METHOD b getPrettyName ()Ljava/lang/String;
+		METHOD b load (Ljava/io/DataInput;ILli;)Llp;

@@ -1,0 +1,11 @@
+CLASS pn net/minecraft/network/protocol/game/ClientboundSetChunkCacheCenterPacket
+	FIELD a x I
+	FIELD b z I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (II)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getX ()I
+	METHOD b write (Lmb;)V
+	METHOD c getZ ()I

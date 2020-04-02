@@ -1,0 +1,9 @@
+CLASS bdz net/minecraft/world/entity/vehicle/MinecartChest
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDD)V
+	METHOD S_ getContainerSize ()I
+	METHOD a createMenu (ILbcg;)Lbel;
+	METHOD a destroy (Laml;)V
+	METHOD o getMinecartType ()Lbdv$a;
+	METHOD q getDefaultDisplayBlockState ()Lcdt;
+	METHOD s getDefaultDisplayOffset ()I

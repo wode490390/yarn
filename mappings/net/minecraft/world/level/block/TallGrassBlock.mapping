@@ -1,0 +1,9 @@
+CLASS caf net/minecraft/world/level/block/TallGrassBlock
+	FIELD a SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a isValidBonemealTarget (Lbnh;Lfo;Lcdt;Z)Z
+	METHOD a isBonemealSuccess (Lbnx;Ljava/util/Random;Lfo;Lcdt;)Z
+	METHOD a performBonemeal (Lyn;Ljava/util/Random;Lfo;Lcdt;)V
+	METHOD aa_ getOffsetType ()Lcds$b;
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;

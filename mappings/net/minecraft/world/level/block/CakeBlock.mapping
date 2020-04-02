@@ -1,0 +1,15 @@
+CLASS bue net/minecraft/world/level/block/CakeBlock
+	FIELD a BITES Lcet;
+	FIELD b SHAPE_BY_BITE [Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a eat (Lbny;Lfo;Lcdt;Lbch;)Lalv;
+	METHOD a hasAnalogOutputSignal (Lcdt;)Z
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a getAnalogOutputSignal (Lcdt;Lbnx;Lfo;)I
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b isUnstable ()Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;

@@ -1,0 +1,25 @@
+CLASS ayu net/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhase
+	FIELD a HOLDING_PATTERN Layu;
+	FIELD b STRAFE_PLAYER Layu;
+	FIELD c LANDING_APPROACH Layu;
+	FIELD d LANDING Layu;
+	FIELD e TAKEOFF Layu;
+	FIELD f SITTING_FLAMING Layu;
+	FIELD g SITTING_SCANNING Layu;
+	FIELD h SITTING_ATTACKING Layu;
+	FIELD i CHARGING_PLAYER Layu;
+	FIELD j DYING Layu;
+	FIELD k HOVERING Layu;
+	FIELD l phases [Layu;
+	FIELD m instanceClass Ljava/lang/Class;
+	FIELD n id I
+	FIELD o name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILjava/lang/Class;Ljava/lang/String;)V
+	METHOD a getConstructor ()Ljava/lang/reflect/Constructor;
+	METHOD a getById (I)Layu;
+	METHOD a createInstance (Laye;)Layo;
+	METHOD a create (Ljava/lang/Class;Ljava/lang/String;)Layu;
+	METHOD b getId ()I
+	METHOD c getCount ()I
+	METHOD toString toString ()Ljava/lang/String;

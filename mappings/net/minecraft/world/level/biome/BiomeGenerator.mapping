@@ -1,0 +1,9 @@
+CLASS bpa net/minecraft/world/level/biome/BiomeGenerator
+	METHOD <init> <init> ()V
+	METHOD a magicize (I)Lboy;
+	CLASS a GeneratedBiome
+		METHOD <init> <init> (Ljava/util/Random;)V
+		METHOD a lambda$new$1 (Ljava/util/Random;Lanf;)V
+		METHOD a lambda$new$0 (Ljava/util/Random;Lcjw;)V
+		METHOD a lambda$new$2 (Ljava/util/Random;Lcna;)V
+		METHOD b addFeatureStart (Lcjb$b;Lckm;)V

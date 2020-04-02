@@ -1,0 +1,3 @@
+CLASS bxp net/minecraft/world/level/block/MyceliumBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V

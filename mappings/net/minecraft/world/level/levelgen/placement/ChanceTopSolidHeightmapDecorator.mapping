@@ -1,0 +1,4 @@
+CLASS crc net/minecraft/world/level/levelgen/placement/ChanceTopSolidHeightmapDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getPositions (Lbny;Lcfl;Ljava/util/Random;Lcoc;Lfo;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lbny;Lcfl;Ljava/util/Random;Lcqy;Lfo;)Ljava/util/stream/Stream;

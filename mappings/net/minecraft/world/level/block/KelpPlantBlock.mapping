@@ -1,0 +1,6 @@
+CLASS bxb net/minecraft/world/level/block/KelpPlantBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a canPlaceLiquid (Lbnh;Lfo;Lcdt;Lcwm;)Z
+	METHOD a placeLiquid (Lbny;Lfo;Lcdt;Lcwn;)Z
+	METHOD d getHeadBlock ()Lbwo;
+	METHOD d getFluidState (Lcdt;)Lcwn;

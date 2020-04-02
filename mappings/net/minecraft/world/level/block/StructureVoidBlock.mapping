@@ -1,0 +1,8 @@
+CLASS cab net/minecraft/world/level/block/StructureVoidBlock
+	FIELD a SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getShadeBrightness (Lcdt;Lbnh;Lfo;)F
+	METHOD b getRenderShape (Lcdt;)Lbyq;
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD f getPistonPushReaction (Lcdt;)Lcwt;

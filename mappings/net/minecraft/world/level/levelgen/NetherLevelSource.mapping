@@ -1,0 +1,13 @@
+CLASS cje net/minecraft/world/level/levelgen/NetherLevelSource
+	FIELD e yOffsets [D
+	METHOD <init> <init> (Lbny;Lbpc;Lcjd;)V
+	METHOD a getYOffset (DDI)D
+	METHOD a getBaseHeight (IILcjc$a;)I
+	METHOD a getMobsAt (Lano;Lfo;)Ljava/util/List;
+	METHOD a fillNoiseColumn ([DII)V
+	METHOD b getSpawnHeight ()I
+	METHOD b getDepthAndScale (II)[D
+	METHOD e getGenDepth ()I
+	METHOD f getSeaLevel ()I
+	METHOD g getType ()Lcfn;
+	METHOD k makeYOffsets ()[D

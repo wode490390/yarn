@@ -1,0 +1,9 @@
+CLASS ok net/minecraft/network/protocol/game/ClientboundKeepAlivePacket
+	FIELD a id J
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (J)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getId ()J
+	METHOD b write (Lmb;)V

@@ -1,0 +1,7 @@
+CLASS dag net/minecraft/world/level/storage/loot/RandomIntGenerator
+	FIELD a CONSTANT Lts;
+	FIELD b UNIFORM Lts;
+	FIELD c BINOMIAL Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD a getType ()Lts;
+	METHOD a getInt (Ljava/util/Random;)I

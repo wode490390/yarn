@@ -1,0 +1,2 @@
+CLASS bre net/minecraft/world/level/biome/MushroomFieldsShoreBiome
+	METHOD <init> <init> ()V

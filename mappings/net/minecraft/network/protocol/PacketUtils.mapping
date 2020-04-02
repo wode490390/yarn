@@ -1,0 +1,7 @@
+CLASS nb net/minecraft/network/protocol/PacketUtils
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$ensureRunningOnSameThread$0 (Lme;Lmz;)V
+	METHOD a ensureRunningOnSameThread (Lmz;Lme;Lalc;)V
+	METHOD a ensureRunningOnSameThread (Lmz;Lme;Lyn;)V

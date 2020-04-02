@@ -1,0 +1,24 @@
+CLASS acf net/minecraft/tags/EntityTypeTags
+	FIELD a SKELETONS Lacj;
+	FIELD b RAIDERS Lacj;
+	FIELD c BEEHIVE_INHABITORS Lacj;
+	FIELD d ARROWS Lacj;
+	FIELD e IMPACT_PROJECTILES Lacj;
+	FIELD f source Lack;
+	FIELD g resetCount I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getAllTags ()Lack;
+	METHOD a reset (Lack;)V
+	METHOD a bind (Ljava/lang/String;)Lacj;
+	METHOD a lambda$static$0 (Lts;)Ljava/util/Optional;
+	METHOD b access$000 ()I
+	METHOD c access$100 ()Lack;
+	CLASS a Wrapper
+		FIELD a check I
+		FIELD b actual Lacj;
+		METHOD <init> <init> (Lts;)V
+		METHOD a getValues ()Ljava/util/Collection;
+		METHOD a contains (Lanf;)Z
+		METHOD a contains (Ljava/lang/Object;)Z
+		METHOD b getSource ()Ljava/util/Collection;

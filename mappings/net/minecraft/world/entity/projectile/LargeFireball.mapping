@@ -1,0 +1,9 @@
+CLASS bcu net/minecraft/world/entity/projectile/LargeFireball
+	FIELD e explosionPower I
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDDDDD)V
+	METHOD <init> <init> (Lbnx;Lanm;DDD)V
+	METHOD a onHitEntity (Lddl;)V
+	METHOD a onHit (Lddm;)V
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b addAdditionalSaveData (Lkz;)V

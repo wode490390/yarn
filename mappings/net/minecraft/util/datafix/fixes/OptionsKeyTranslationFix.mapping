@@ -1,0 +1,7 @@
+CLASS aho net/minecraft/util/datafix/fixes/OptionsKeyTranslationFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$2 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$null$0 (Lcom/mojang/datafixers/Dynamic;Ljava/util/Map$Entry;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$1 (Lcom/mojang/datafixers/Dynamic;Ljava/util/Map;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$makeRule$3 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

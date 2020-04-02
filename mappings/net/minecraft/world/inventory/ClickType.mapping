@@ -1,0 +1,13 @@
+CLASS bet net/minecraft/world/inventory/ClickType
+	FIELD a PICKUP Lbet;
+	FIELD b QUICK_MOVE Lbet;
+	FIELD c SWAP Lbet;
+	FIELD d CLONE Lbet;
+	FIELD e THROW Lbet;
+	FIELD f QUICK_CRAFT Lbet;
+	FIELD g PICKUP_ALL Lbet;
+	FIELD h $VALUES [Lbet;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbet;
+	METHOD values values ()[Lbet;

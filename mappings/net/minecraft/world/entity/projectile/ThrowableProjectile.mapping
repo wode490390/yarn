@@ -1,0 +1,20 @@
+CLASS bdd net/minecraft/world/entity/projectile/ThrowableProjectile
+	FIELD b inGround Z
+	FIELD c xBlock I
+	FIELD d yBlock I
+	FIELD e zBlock I
+	FIELD f shakeTime I
+	FIELD g leftOwner Z
+	METHOD <init> <init> (Lanf;DDDLbnx;)V
+	METHOD <init> <init> (Lanf;Lanm;Lbnx;)V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD O getAddEntityPacket ()Lmz;
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a isEntityOrVehicle (Lanb;Lanb;)Z
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b lambda$tick$0 (Lanb;)Z
+	METHOD b lambda$tick$1 (Lanb;Lanb;)Z
+	METHOD b isPortal (Lddk;)Z
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD h tick ()V
+	METHOD l getGravity ()F

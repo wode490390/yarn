@@ -1,0 +1,10 @@
+CLASS bga net/minecraft/world/inventory/SmithingMenu
+	FIELD g DIAMOND_TO_NETHERITE Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILbcg;)V
+	METHOD <init> <init> (ILbcg;Lbev;)V
+	METHOD a onTake (Lbch;Lbin;)Lbin;
+	METHOD a lambda$onTake$0 (Lbnx;Lfo;)V
+	METHOD a isValidBlock (Lcdt;)Z
+	METHOD b mayPickup (Lbch;Z)Z
+	METHOD e createResult ()V

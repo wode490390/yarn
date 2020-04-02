@@ -1,0 +1,7 @@
+CLASS cqx net/minecraft/world/level/levelgen/placement/CarvingMaskDecoratorConfiguration
+	FIELD a step Lcjb$a;
+	FIELD b probability F
+	METHOD <init> <init> (Lcjb$a;F)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcqx;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcqx;

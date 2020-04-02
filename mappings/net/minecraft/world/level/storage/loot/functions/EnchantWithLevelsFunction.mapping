@@ -1,0 +1,25 @@
+CLASS dbg net/minecraft/world/level/storage/loot/functions/EnchantWithLevelsFunction
+	FIELD a levels Ldag;
+	FIELD c treasure Z
+	METHOD <init> <init> ([Ldcq;Ldag;Z)V
+	METHOD <init> <init> ([Ldcq;Ldag;ZLdbg$1;)V
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a enchantWithLevels (Ldag;)Ldbg$a;
+	METHOD a access$100 (Ldbg;)Ldag;
+	METHOD b access$200 (Ldbg;)Z
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a levels Ldag;
+		FIELD b treasure Z
+		METHOD <init> <init> (Ldag;)V
+		METHOD a getThis ()Ldbg$a;
+		METHOD b build ()Ldbm;
+		METHOD d getThis ()Ldbl$a;
+		METHOD e allowTreasure ()Ldbg$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbg;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

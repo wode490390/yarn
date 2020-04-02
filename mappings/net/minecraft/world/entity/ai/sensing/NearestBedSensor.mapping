@@ -1,0 +1,10 @@
+CLASS avk net/minecraft/world/entity/ai/sensing/NearestBedSensor
+	FIELD a batchCache Lit/unimi/dsi/fastutil/longs/Long2LongMap;
+	FIELD b triedCount I
+	FIELD c lastUpdate J
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a lambda$doTick$0 (Lfo;)Z
+	METHOD a lambda$doTick$1 (Lit/unimi/dsi/fastutil/longs/Long2LongMap$Entry;)Z
+	METHOD a doTick (Lyn;Lanm;)V
+	METHOD a doTick (Lyn;Lann;)V

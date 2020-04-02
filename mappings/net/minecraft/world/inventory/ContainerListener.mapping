@@ -1,0 +1,4 @@
+CLASS bew net/minecraft/world/inventory/ContainerListener
+	METHOD a setContainerData (Lbel;II)V
+	METHOD a slotChanged (Lbel;ILbin;)V
+	METHOD a refreshContainer (Lbel;Lge;)V

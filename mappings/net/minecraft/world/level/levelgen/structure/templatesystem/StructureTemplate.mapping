@@ -1,0 +1,64 @@
+CLASS cuu net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+	FIELD a palettes Ljava/util/List;
+	FIELD b entityInfoList Ljava/util/List;
+	FIELD c size Lfo;
+	FIELD d author Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD a getSize ()Lfo;
+	METHOD a lambda$updateShapeAtEdge$1 (IIILbny;ILft;III)V
+	METHOD a lambda$fillEntityList$0 (Lanb;)Z
+	METHOD a fillEntityList (Lbnx;Lfo;Lfo;)V
+	METHOD a fillFromWorld (Lbnx;Lfo;Lfo;ZLbtu;)V
+	METHOD a updateShapeAtEdge (Lbny;ILddy;III)V
+	METHOD a placeEntities (Lbny;Lfo;Lbxn;Lbyv;Lfo;Lcsw;)V
+	METHOD a placeInWorldChunk (Lbny;Lfo;Lcur;)V
+	METHOD a placeInWorld (Lbny;Lfo;Lfo;Lcur;I)Z
+	METHOD a processBlockInfos (Lbny;Lfo;Lfo;Lcur;Ljava/util/List;)Ljava/util/List;
+	METHOD a createEntityIgnoreException (Lbny;Lkz;)Ljava/util/Optional;
+	METHOD a lambda$placeEntities$2 (Lbxn;Lbyv;Lddp;Lbny;Lanb;)V
+	METHOD a getSize (Lbyv;)Lfo;
+	METHOD a mirrorAABB (Lbyv;IILcsw;Lft;Lft;)V
+	METHOD a calculateRelativePosition (Lcur;Lfo;)Lfo;
+	METHOD a calculateConnectedPosition (Lcur;Lfo;Lcur;Lfo;)Lfo;
+	METHOD a lambda$loadPalette$3 (Lcuu$b;)I
+	METHOD a transform (Lddp;Lbxn;Lbyv;Lfo;)Lddp;
+	METHOD a getZeroPositionWithTransform (Lfo;Lbxn;Lbyv;)Lfo;
+	METHOD a getZeroPositionWithTransform (Lfo;Lbxn;Lbyv;II)Lfo;
+	METHOD a transform (Lfo;Lbxn;Lbyv;Lfo;)Lfo;
+	METHOD a filterBlocks (Lfo;Lcur;Lbtu;)Ljava/util/List;
+	METHOD a filterBlocks (Lfo;Lcur;Lbtu;Z)Ljava/util/List;
+	METHOD a setAuthor (Ljava/lang/String;)V
+	METHOD a save (Lkz;)Lkz;
+	METHOD a loadPalette (Llf;Llf;)V
+	METHOD a newDoubleList ([D)Llf;
+	METHOD a newIntegerList ([I)Llf;
+	METHOD b getAuthor ()Ljava/lang/String;
+	METHOD b placeInWorld (Lbny;Lfo;Lcur;)V
+	METHOD b getBoundingBox (Lcur;Lfo;)Lcsw;
+	METHOD b load (Lkz;)V
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		FIELD b $SwitchMap$net$minecraft$world$level$block$Mirror [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a SimplePalette
+		FIELD a DEFAULT_BLOCK_STATE Lcdt;
+		FIELD b ids Lfz;
+		FIELD c lastId I
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcuu$1;)V
+		METHOD a stateFor (I)Lcdt;
+		METHOD a idFor (Lcdt;)I
+		METHOD a addMapping (Lcdt;I)V
+		METHOD iterator iterator ()Ljava/util/Iterator;
+	CLASS b StructureBlockInfo
+		FIELD a pos Lfo;
+		FIELD b state Lcdt;
+		FIELD c nbt Lkz;
+		METHOD <init> <init> (Lfo;Lcdt;Lkz;)V
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c StructureEntityInfo
+		FIELD a pos Lddp;
+		FIELD b blockPos Lfo;
+		FIELD c nbt Lkz;
+		METHOD <init> <init> (Lddp;Lfo;Lkz;)V

@@ -1,0 +1,12 @@
+CLASS dby net/minecraft/world/level/storage/loot/functions/SmeltItemFunction
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Ldcq;)V
+	METHOD <init> <init> ([Ldcq;Ldby$1;)V
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD b smelted ()Ldbl$a;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldby;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

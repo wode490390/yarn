@@ -1,0 +1,6 @@
+CLASS aak net/minecraft/server/packs/resources/Resource
+	METHOD a getLocation ()Lts;
+	METHOD a getMetadata (Lzs;)Ljava/lang/Object;
+	METHOD b getInputStream ()Ljava/io/InputStream;
+	METHOD c hasMetadata ()Z
+	METHOD d getSourceName ()Ljava/lang/String;

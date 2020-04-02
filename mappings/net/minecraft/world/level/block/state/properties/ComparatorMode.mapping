@@ -1,0 +1,11 @@
+CLASS cen net/minecraft/world/level/block/state/properties/ComparatorMode
+	FIELD a COMPARE Lcen;
+	FIELD b SUBTRACT Lcen;
+	FIELD c name Ljava/lang/String;
+	FIELD d $VALUES [Lcen;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcen;
+	METHOD values values ()[Lcen;

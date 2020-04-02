@@ -1,0 +1,26 @@
+CLASS bha net/minecraft/world/item/CompassItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a access$300 (Lazc;)D
+	METHOD a access$200 (Lbha;Lbnx;)Lfo;
+	METHOD a access$100 (Lbha;Lbnx;Lkz;)Lfo;
+	METHOD a inventoryTick (Lbin;Lbnx;Lanb;IZ)V
+	METHOD a useOn (Lbjz;)Lalv;
+	METHOD a getSpawnPosition (Lbnx;)Lfo;
+	METHOD a getLodestonePosition (Lbnx;Lkz;)Lfo;
+	METHOD a access$400 (Lddp;Lanb;)D
+	METHOD a access$000 (Lkz;)Z
+	METHOD b getFrameRotation (Lazc;)D
+	METHOD b getAngleTo (Lddp;Lanb;)D
+	METHOD c hasLodestoneData (Lkz;)Z
+	METHOD d isFoil (Lbin;)Z
+	METHOD d getLodestoneDimension (Lkz;)Ljava/util/Optional;
+	METHOD e getDescriptionId (Lbin;)Ljava/lang/String;
+	METHOD f isLodestoneCompass (Lbin;)Z
+	CLASS 1 1
+		FIELD a this$0 Lbha;
+		FIELD b rotation D
+		FIELD c rota D
+		FIELD d lastUpdateTick J
+		METHOD <init> <init> (Lbha;)V
+		METHOD a wobble (Lbnx;D)D
+		METHOD call call (Lbin;Lbnx;Lanm;)F

@@ -1,0 +1,34 @@
+CLASS deg net/minecraft/world/phys/shapes/Shapes
+	FIELD a INFINITY Ldej;
+	FIELD b BLOCK Ldej;
+	FIELD c EMPTY Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a empty ()Ldej;
+	METHOD a findBits (DD)I
+	METHOD a lastC (DDD)I
+	METHOD a box (DDDDDD)Ldej;
+	METHOD a lcm (II)J
+	METHOD a createIndexMerger (ILit/unimi/dsi/fastutil/doubles/DoubleList;Lit/unimi/dsi/fastutil/doubles/DoubleList;ZZ)Ldeb;
+	METHOD a create (Lddj;)Ldej;
+	METHOD a collide (Lddj;Lboa;DLddu;Lfm;Ljava/util/stream/Stream;)D
+	METHOD a lambda$null$1 (Lddt;Lddy;IILddy;IIIII)Z
+	METHOD a lambda$null$2 (Ldeb;Lddt;Lddy;ILddy;IIII)Z
+	METHOD a lambda$joinIsNotEmpty$3 (Ldeb;Ldeb;Lddt;Lddy;Lddy;III)Z
+	METHOD a joinIsNotEmpty (Ldeb;Ldeb;Ldeb;Lddy;Lddy;Lddt;)Z
+	METHOD a or (Ldej;Ldej;)Ldej;
+	METHOD a join (Ldej;Ldej;Lddt;)Ldej;
+	METHOD a blockOccudes (Ldej;Ldej;Lft;)Z
+	METHOD a getFaceShape (Ldej;Lft;)Ldej;
+	METHOD a or (Ldej;[Ldej;)Ldej;
+	METHOD a collide (Lft$a;Lddj;Lboa;DLddu;Ljava/util/stream/Stream;)D
+	METHOD a collide (Lft$a;Lddj;Ljava/util/stream/Stream;D)D
+	METHOD a lambda$collide$4 ([DLft$a;Lddj;Ldej;)V
+	METHOD b block ()Ldej;
+	METHOD b faceShapeOccludes (Ldej;Ldej;)Z
+	METHOD b joinUnoptimized (Ldej;Ldej;Lddt;)Ldej;
+	METHOD b mergedFaceOccludes (Ldej;Ldej;Lft;)Z
+	METHOD c lambda$static$0 ()Lddw;
+	METHOD c joinIsNotEmpty (Ldej;Ldej;Lddt;)Z
+	CLASS a DoubleLineConsumer
+		METHOD consume consume (DDDDDD)V

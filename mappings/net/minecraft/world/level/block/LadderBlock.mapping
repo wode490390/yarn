@@ -1,0 +1,22 @@
+CLASS bxc net/minecraft/world/level/block/LadderBlock
+	FIELD a FACING Lceo;
+	FIELD b WATERLOGGED Lcel;
+	FIELD c EAST_AABB Ldej;
+	FIELD d WEST_AABB Ldej;
+	FIELD e SOUTH_AABB Ldej;
+	FIELD f NORTH_AABB Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a canAttachTo (Lbnh;Lfo;Lft;)Z
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b isUnstable ()Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD d getFluidState (Lcdt;)Lcwn;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

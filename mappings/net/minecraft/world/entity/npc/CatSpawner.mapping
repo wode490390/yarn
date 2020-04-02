@@ -1,0 +1,7 @@
+CLASS bbq net/minecraft/world/entity/npc/CatSpawner
+	FIELD a nextTick I
+	METHOD <init> <init> ()V
+	METHOD a spawnInHut (Lbnx;Lfo;)I
+	METHOD a spawnCat (Lfo;Lbnx;)I
+	METHOD a spawnInVillage (Lyn;Lfo;)I
+	METHOD a tick (Lyn;ZZ)I

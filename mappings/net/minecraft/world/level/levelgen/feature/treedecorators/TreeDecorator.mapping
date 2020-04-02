@@ -1,0 +1,6 @@
+CLASS cqo net/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator
+	FIELD a type Lcqp;
+	METHOD <init> <init> (Lcqp;)V
+	METHOD a place (Lbny;Ljava/util/Random;Ljava/util/List;Ljava/util/List;Ljava/util/Set;Lcsw;)V
+	METHOD a setBlock (Lbof;Lfo;Lcdt;Ljava/util/Set;Lcsw;)V
+	METHOD a placeVine (Lbof;Lfo;Lcel;Ljava/util/Set;Lcsw;)V

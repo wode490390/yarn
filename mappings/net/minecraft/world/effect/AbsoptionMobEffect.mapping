@@ -1,0 +1,4 @@
+CLASS amp net/minecraft/world/effect/AbsoptionMobEffect
+	METHOD <init> <init> (Lamu;I)V
+	METHOD a removeAttributeModifiers (Lanm;Laoh;I)V
+	METHOD b addAttributeModifiers (Lanm;Laoh;I)V

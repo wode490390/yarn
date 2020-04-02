@@ -1,0 +1,17 @@
+CLASS bzz net/minecraft/world/level/block/StonecutterBlock
+	FIELD a FACING Lceo;
+	FIELD b SHAPE Ldej;
+	FIELD c CONTAINER_TITLE Lmv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a lambda$getMenuProvider$0 (Lbnx;Lfo;ILbcg;Lbch;)Lbel;
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getRenderShape (Lcdt;)Lbyq;
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b getMenuProvider (Lcdt;Lbnx;Lfo;)Laly;
+	METHOD c_ useShapeForLightOcclusion (Lcdt;)Z

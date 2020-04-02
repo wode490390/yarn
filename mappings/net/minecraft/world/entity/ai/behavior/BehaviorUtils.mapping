@@ -1,0 +1,26 @@
+CLASS aos net/minecraft/world/entity/ai/behavior/BehaviorUtils
+	METHOD <init> <init> ()V
+	METHOD a lambda$targetIsValid$1 (Lanf;Lanm;)Z
+	METHOD a setWalkAndLookTargetMemories (Lanm;Lanb;FI)V
+	METHOD a lookAtEntity (Lanm;Lanm;)V
+	METHOD a isOtherTargetMuchFurtherAwayThanCurrentAttackTarget (Lanm;Lanm;D)Z
+	METHOD a lockGazeAndWalkToEachOther (Lanm;Lanm;F)V
+	METHOD a getTargetNearestMe (Lanm;Lanm;Lanm;)Lanm;
+	METHOD a setWalkAndLookTargetMemories (Lanm;Lapv;FI)V
+	METHOD a getLivingEntityFromUUIDMemory (Lanm;Laut;)Ljava/util/Optional;
+	METHOD a throwItem (Lanm;Lbin;Lddp;)V
+	METHOD a setWalkAndLookTargetMemories (Lanm;Lfo;FI)V
+	METHOD a lambda$entityIsVisible$0 (Lanm;Ljava/util/List;)Z
+	METHOD a getNearestTarget (Lanm;Ljava/util/Optional;Lanm;)Lanm;
+	METHOD a lambda$getLivingEntityFromUUIDMemory$4 (Lanm;Ljava/util/UUID;)Lanm;
+	METHOD a isWithinAttackRange (Lann;Lanm;I)Z
+	METHOD a entityIsVisible (Laoc;Lanm;)Z
+	METHOD a targetIsValid (Laoc;Laut;Lanf;)Z
+	METHOD a targetIsValid (Laoc;Laut;Ljava/util/function/Predicate;)Z
+	METHOD a lambda$findSectionClosestToVillage$3 (Lyn;ILgj;)Z
+	METHOD a findSectionClosestToVillage (Lyn;Lgj;I)Lgj;
+	METHOD b isWithinMeleeAttackRange (Lanm;Lanm;)Z
+	METHOD b setWalkAndLookTargetMemoriesToEachOther (Lanm;Lanm;F)V
+	METHOD b lambda$targetIsValid$2 (Laoc;Lanm;)Z
+	METHOD c canSee (Lanm;Lanm;)Z
+	METHOD d lookAtEachOther (Lanm;Lanm;)V

@@ -1,0 +1,2 @@
+CLASS brn net/minecraft/world/level/biome/SavannaPlateauBiome
+	METHOD <init> <init> ()V

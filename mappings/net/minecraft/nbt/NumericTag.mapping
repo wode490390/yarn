@@ -1,0 +1,9 @@
+CLASS lm net/minecraft/nbt/NumericTag
+	METHOD <init> <init> ()V
+	METHOD e getAsLong ()J
+	METHOD f getAsInt ()I
+	METHOD g getAsShort ()S
+	METHOD h getAsByte ()B
+	METHOD i getAsDouble ()D
+	METHOD j getAsFloat ()F
+	METHOD k getAsNumber ()Ljava/lang/Number;

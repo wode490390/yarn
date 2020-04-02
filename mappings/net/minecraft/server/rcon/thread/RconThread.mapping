@@ -1,0 +1,12 @@
+CLASS abp net/minecraft/server/rcon/thread/RconThread
+	FIELD h port I
+	FIELD i serverIp Ljava/lang/String;
+	FIELD j socket Ljava/net/ServerSocket;
+	FIELD k rconPassword Ljava/lang/String;
+	FIELD l clients Ljava/util/Map;
+	METHOD <init> <init> (Luf;)V
+	METHOD a start ()V
+	METHOD b stop ()V
+	METHOD f initClients ()V
+	METHOD g clearClients ()V
+	METHOD run run ()V

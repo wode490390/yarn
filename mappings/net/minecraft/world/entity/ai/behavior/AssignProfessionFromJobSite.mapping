@@ -1,0 +1,9 @@
+CLASS aoo net/minecraft/world/entity/ai/behavior/AssignProfessionFromJobSite
+	METHOD <init> <init> ()V
+	METHOD a lambda$null$0 (Lawg;Lbbx;)Z
+	METHOD a lambda$start$2 (Lbbu;Lyn;Lawg;)V
+	METHOD a lambda$null$1 (Lbbu;Lyn;Lbbx;)V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a checkExtraStartConditions (Lyn;Lbbu;)Z
+	METHOD a start (Lyn;Lbbu;J)V

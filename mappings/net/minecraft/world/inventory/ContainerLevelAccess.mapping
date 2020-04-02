@@ -1,0 +1,16 @@
+CLASS bev net/minecraft/world/inventory/ContainerLevelAccess
+	FIELD a NULL Lbev;
+	METHOD <clinit> <clinit> ()V
+	METHOD a create (Lbnx;Lfo;)Lbev;
+	METHOD a execute (Ljava/util/function/BiConsumer;)V
+	METHOD a lambda$execute$0 (Ljava/util/function/BiConsumer;Lbnx;Lfo;)Ljava/util/Optional;
+	METHOD a evaluate (Ljava/util/function/BiFunction;)Ljava/util/Optional;
+	METHOD a evaluate (Ljava/util/function/BiFunction;Ljava/lang/Object;)Ljava/lang/Object;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a evaluate (Ljava/util/function/BiFunction;)Ljava/util/Optional;
+	CLASS 2 2
+		FIELD b val$level Lbnx;
+		FIELD c val$pos Lfo;
+		METHOD <init> <init> (Lbnx;Lfo;)V
+		METHOD a evaluate (Ljava/util/function/BiFunction;)Ljava/util/Optional;

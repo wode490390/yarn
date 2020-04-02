@@ -1,0 +1,27 @@
+CLASS bvi net/minecraft/world/level/block/DoubleBlockCombiner
+	METHOD <init> <init> ()V
+	METHOD a combineWithNeigbour (Lcbu;Ljava/util/function/Function;Ljava/util/function/Function;Lceo;Lcdt;Lbny;Lfo;Ljava/util/function/BiPredicate;)Lbvi$c;
+	CLASS a BlockType
+		FIELD a SINGLE Lbvi$a;
+		FIELD b FIRST Lbvi$a;
+		FIELD c SECOND Lbvi$a;
+		FIELD d $VALUES [Lbvi$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbvi$a;
+		METHOD values values ()[Lbvi$a;
+	CLASS b Combiner
+		METHOD a acceptSingle (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a acceptDouble (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD b acceptNone ()Ljava/lang/Object;
+	CLASS c NeighborCombineResult
+		METHOD apply apply (Lbvi$b;)Ljava/lang/Object;
+		CLASS a Double
+			FIELD a first Ljava/lang/Object;
+			FIELD b second Ljava/lang/Object;
+			METHOD <init> <init> (Ljava/lang/Object;Ljava/lang/Object;)V
+			METHOD apply apply (Lbvi$b;)Ljava/lang/Object;
+		CLASS b Single
+			FIELD a single Ljava/lang/Object;
+			METHOD <init> <init> (Ljava/lang/Object;)V
+			METHOD apply apply (Lbvi$b;)Ljava/lang/Object;

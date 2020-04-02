@@ -1,0 +1,10 @@
+CLASS aov net/minecraft/world/entity/ai/behavior/CopyMemoryWithExpiry
+	FIELD b predicate Ljava/util/function/Predicate;
+	FIELD c sourceMemory Laut;
+	FIELD d targetMemory Laut;
+	FIELD e durationOfCopy Lacy;
+	METHOD <init> <init> (Ljava/util/function/Predicate;Laut;Laut;Lacy;)V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a checkExtraStartConditions (Lyn;Lann;)Z
+	METHOD a start (Lyn;Lann;J)V

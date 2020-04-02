@@ -1,0 +1,4 @@
+CLASS aqa net/minecraft/world/entity/ai/behavior/RingBell
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V

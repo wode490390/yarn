@@ -1,0 +1,25 @@
+CLASS cwu net/minecraft/world/level/material/WaterFluid
+	METHOD <init> <init> ()V
+	METHOD a getBucket ()Lbii;
+	METHOD a animateTick (Lbnx;Lfo;Lcwn;Ljava/util/Random;)V
+	METHOD a beforeDestroyingBlock (Lbny;Lfo;Lcdt;)V
+	METHOD a getTickDelay (Lboa;)I
+	METHOD a isSame (Lcwm;)Z
+	METHOD a canBeReplacedWith (Lcwn;Lbnh;Lfo;Lcwm;Lft;)Z
+	METHOD b getSlopeFindDistance (Lboa;)I
+	METHOD b createLegacyBlock (Lcwn;)Lcdt;
+	METHOD c getExplosionResistance ()F
+	METHOD c getDropOff (Lboa;)I
+	METHOD d getFlowing ()Lcwm;
+	METHOD e getSource ()Lcwm;
+	METHOD f canConvertToSource ()Z
+	METHOD i getDripParticle ()Lhb;
+	CLASS a Flowing
+		METHOD <init> <init> ()V
+		METHOD a createFluidStateDefinition (Lcdu$a;)V
+		METHOD c isSource (Lcwn;)Z
+		METHOD d getAmount (Lcwn;)I
+	CLASS b Source
+		METHOD <init> <init> ()V
+		METHOD c isSource (Lcwn;)Z
+		METHOD d getAmount (Lcwn;)I

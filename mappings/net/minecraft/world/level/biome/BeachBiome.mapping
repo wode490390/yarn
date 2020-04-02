@@ -1,0 +1,2 @@
+CLASS box net/minecraft/world/level/biome/BeachBiome
+	METHOD <init> <init> ()V

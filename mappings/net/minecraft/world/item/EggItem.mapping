@@ -1,0 +1,3 @@
+CLASS bhn net/minecraft/world/item/EggItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;

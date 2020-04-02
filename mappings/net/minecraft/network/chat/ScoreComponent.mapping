@@ -1,0 +1,18 @@
+CLASS mr net/minecraft/network/chat/ScoreComponent
+	FIELD b name Ljava/lang/String;
+	FIELD c selector Let;
+	FIELD d objective Ljava/lang/String;
+	FIELD e value Ljava/lang/String;
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a getEntityName (Lcu;)Ljava/lang/String;
+	METHOD a resolve (Lcu;Lanb;I)Lml;
+	METHOD b resolve (Lcu;)V
+	METHOD b setValue (Ljava/lang/String;)V
+	METHOD d getContents ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD g copy ()Lml;
+	METHOD i getName ()Ljava/lang/String;
+	METHOD j getSelector ()Let;
+	METHOD k getObjective ()Ljava/lang/String;
+	METHOD l copy ()Lmr;
+	METHOD toString toString ()Ljava/lang/String;

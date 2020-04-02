@@ -1,0 +1,3 @@
+CLASS cwo net/minecraft/world/level/material/FluidStateImpl
+	METHOD <init> <init> (Lcwm;Lcom/google/common/collect/ImmutableMap;)V
+	METHOD c getType ()Lcwm;

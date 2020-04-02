@@ -1,0 +1,3 @@
+CLASS bjr net/minecraft/world/item/ThrowablePotionItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;

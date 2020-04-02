@@ -1,0 +1,6 @@
+CLASS ckg net/minecraft/world/level/levelgen/feature/BlockPileFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcnu;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a mayPlaceOn (Lbny;Lfo;Ljava/util/Random;)Z
+	METHOD a tryPlaceBlock (Lbny;Lfo;Ljava/util/Random;Lcnu;)V

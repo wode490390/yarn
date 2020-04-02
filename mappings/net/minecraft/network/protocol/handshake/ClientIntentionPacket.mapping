@@ -1,0 +1,15 @@
+CLASS sk net/minecraft/network/protocol/handshake/ClientIntentionPacket
+	FIELD a protocolVersion I
+	FIELD b hostName Ljava/lang/String;
+	FIELD c port I
+	FIELD d intention Lma;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILma;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lsl;)V
+	METHOD b getIntention ()Lma;
+	METHOD b write (Lmb;)V
+	METHOD c getProtocolVersion ()I
+	METHOD d getHostName ()Ljava/lang/String;
+	METHOD e getPort ()I

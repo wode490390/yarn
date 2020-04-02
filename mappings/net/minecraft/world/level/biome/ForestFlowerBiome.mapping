@@ -1,0 +1,2 @@
+CLASS bqf net/minecraft/world/level/biome/ForestFlowerBiome
+	METHOD <init> <init> ()V

@@ -1,0 +1,13 @@
+CLASS bxo net/minecraft/world/level/block/MushroomBlock
+	FIELD a SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a isValidBonemealTarget (Lbnh;Lfo;Lcdt;Z)Z
+	METHOD a isBonemealSuccess (Lbnx;Ljava/util/Random;Lfo;Lcdt;)Z
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a growMushroom (Lyn;Lfo;Lcdt;Ljava/util/Random;)Z
+	METHOD a performBonemeal (Lyn;Ljava/util/Random;Lfo;Lcdt;)V
+	METHOD b isUnstable ()Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD c mayPlaceOn (Lcdt;Lbnh;Lfo;)Z

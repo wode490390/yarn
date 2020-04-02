@@ -1,0 +1,7 @@
+CLASS cqq net/minecraft/world/level/levelgen/feature/treedecorators/TrunkVineDecorator
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a place (Lbny;Ljava/util/Random;Ljava/util/List;Ljava/util/List;Ljava/util/Set;Lcsw;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a random (Ljava/util/Random;)Lcqq;
+	METHOD a lambda$place$0 (Ljava/util/Random;Lbny;Ljava/util/Set;Lcsw;Lfo;)V

@@ -1,0 +1,4 @@
+CLASS csj net/minecraft/world/level/levelgen/placement/SimpleFeatureDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getPositions (Lbny;Lcfl;Ljava/util/Random;Lcoc;Lfo;)Ljava/util/stream/Stream;
+	METHOD a place (Ljava/util/Random;Lcoc;Lfo;)Ljava/util/stream/Stream;

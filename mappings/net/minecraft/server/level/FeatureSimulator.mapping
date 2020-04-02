@@ -1,0 +1,12 @@
+CLASS yh net/minecraft/server/level/FeatureSimulator
+	FIELD a minPos Lfo$a;
+	FIELD b maxPos Lfo$a;
+	METHOD <init> <init> ()V
+	METHOD a getBoundingBox ()Lcsw;
+	METHOD a getHeightmapPos (Lcjc$a;Lfo;)Lfo;
+	METHOD a setBlock (Lfo;Lcdt;I)Z
+	METHOD a isStateAtPosition (Lfo;Ljava/util/function/Predicate;)Z
+	METHOD a removeBlock (Lfo;Z)Z
+	METHOD a destroyBlock (Lfo;ZLanb;)Z
+	METHOD b isFluidAtPosition (Lfo;Ljava/util/function/Predicate;)Z
+	METHOD toString toString ()Ljava/lang/String;

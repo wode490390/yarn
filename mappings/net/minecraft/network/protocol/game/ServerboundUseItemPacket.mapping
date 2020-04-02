@@ -1,0 +1,9 @@
+CLASS si net/minecraft/network/protocol/game/ServerboundUseItemPacket
+	FIELD a hand Lalu;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lalu;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getHand ()Lalu;
+	METHOD b write (Lmb;)V

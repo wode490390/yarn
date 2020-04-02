@@ -1,0 +1,26 @@
+CLASS azq net/minecraft/world/entity/monster/AbstractSkeleton
+	FIELD b bowGoal Latn;
+	FIELD c meleeGoal Lasw;
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD a populateDefaultEquipmentSlots (Lalt;)V
+	METHOD a setItemSlot (Lang;Lbin;)V
+	METHOD a performRangedAttack (Lanm;F)V
+	METHOD a canFireProjectileWeapon (Lbiz;)Z
+	METHOD a finalizeSpawn (Lbny;Lalt;Lanp;Lanz;Lkz;)Lanz;
+	METHOD a playStepSound (Lfo;Lcdt;)V
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD aW rideTick ()V
+	METHOD aX getRidingHeight ()D
+	METHOD b getStandingEyeHeight (Lanw;Lanc;)F
+	METHOD b getArrow (Lbin;F)Lbcl;
+	METHOD cF registerAttributes ()V
+	METHOD dp getMobType ()Lanq;
+	METHOD k getStepSound ()Labr;
+	METHOD l aiStep ()V
+	METHOD m reassessWeaponGoal ()V
+	METHOD o registerGoals ()V
+	CLASS 1 1
+		FIELD d this$0 Lazq;
+		METHOD <init> <init> (Lazq;Lant;DZ)V
+		METHOD c start ()V
+		METHOD d stop ()V

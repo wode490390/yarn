@@ -1,0 +1,11 @@
+CLASS zi net/minecraft/server/network/ServerStatusPacketListenerImpl
+	FIELD a DISCONNECT_REASON Lml;
+	FIELD b server Lnet/minecraft/server/MinecraftServer;
+	FIELD c connection Llz;
+	FIELD d hasRequestedStatus Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Llz;)V
+	METHOD a getConnection ()Llz;
+	METHOD a onDisconnect (Lml;)V
+	METHOD a handlePingRequest (Lte;)V
+	METHOD a handleStatusRequest (Ltf;)V

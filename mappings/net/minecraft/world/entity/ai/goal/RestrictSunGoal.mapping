@@ -1,0 +1,6 @@
+CLASS atq net/minecraft/world/entity/ai/goal/RestrictSunGoal
+	FIELD a mob Lant;
+	METHOD <init> <init> (Lant;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

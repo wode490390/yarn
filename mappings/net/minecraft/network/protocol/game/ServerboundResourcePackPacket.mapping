@@ -1,0 +1,19 @@
+CLASS ru net/minecraft/network/protocol/game/ServerboundResourcePackPacket
+	FIELD a action Lru$a;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lru$a;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getAction ()Lru$a;
+	METHOD b write (Lmb;)V
+	CLASS a Action
+		FIELD a SUCCESSFULLY_LOADED Lru$a;
+		FIELD b DECLINED Lru$a;
+		FIELD c FAILED_DOWNLOAD Lru$a;
+		FIELD d ACCEPTED Lru$a;
+		FIELD e $VALUES [Lru$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lru$a;
+		METHOD values values ()[Lru$a;

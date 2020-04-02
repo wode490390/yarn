@@ -1,0 +1,10 @@
+CLASS cep net/minecraft/world/level/block/state/properties/DoorHingeSide
+	FIELD a LEFT Lcep;
+	FIELD b RIGHT Lcep;
+	FIELD c $VALUES [Lcep;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcep;
+	METHOD values values ()[Lcep;

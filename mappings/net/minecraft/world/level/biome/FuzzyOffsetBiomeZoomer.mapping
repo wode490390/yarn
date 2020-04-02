@@ -1,0 +1,11 @@
+CLASS bqi net/minecraft/world/level/biome/FuzzyOffsetBiomeZoomer
+	FIELD a INSTANCE Lbqi;
+	FIELD b $VALUES [Lbqi;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a sqr (D)D
+	METHOD a getFiddle (J)D
+	METHOD a getFiddledDistance (JIIIDDD)D
+	METHOD a getBiome (JIIILbpb$a;)Lboy;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbqi;
+	METHOD values values ()[Lbqi;

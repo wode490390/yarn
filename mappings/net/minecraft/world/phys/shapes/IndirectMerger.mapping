@@ -1,0 +1,7 @@
+CLASS dec net/minecraft/world/phys/shapes/IndirectMerger
+	FIELD a result Lit/unimi/dsi/fastutil/doubles/DoubleArrayList;
+	FIELD b firstIndices Lit/unimi/dsi/fastutil/ints/IntArrayList;
+	FIELD c secondIndices Lit/unimi/dsi/fastutil/ints/IntArrayList;
+	METHOD <init> <init> (Lit/unimi/dsi/fastutil/doubles/DoubleList;Lit/unimi/dsi/fastutil/doubles/DoubleList;ZZ)V
+	METHOD a getList ()Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	METHOD a forMergedIndexes (Ldeb$a;)Z

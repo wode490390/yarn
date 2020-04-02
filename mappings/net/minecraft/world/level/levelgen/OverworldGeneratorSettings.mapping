@@ -1,0 +1,19 @@
+CLASS cjg net/minecraft/world/level/levelgen/OverworldGeneratorSettings
+	FIELD a SAFE_BLOCKS Ljava/util/List;
+	FIELD u GROUND_BLOCKS Ljava/util/List;
+	FIELD v biomeSize I
+	FIELD w riverSize I
+	FIELD x fixedBiome I
+	FIELD y seaLevel I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Random;)V
+	METHOD a lambda$static$2 (Lbtu;)Z
+	METHOD b lambda$static$0 (Lbtu;)Z
+	METHOD c lambda$static$3 (Lcdt;)Z
+	METHOD d lambda$static$1 (Lcdt;)Z
+	METHOD u getBedrockFloorPosition ()I
+	METHOD v getBiomeSize ()I
+	METHOD w getRiverSize ()I
+	METHOD x getFixedBiome ()I
+	METHOD y getSeaLevel ()I

@@ -1,0 +1,4 @@
+CLASS bsw net/minecraft/world/level/block/AirBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD b getRenderShape (Lcdt;)Lbyq;
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;

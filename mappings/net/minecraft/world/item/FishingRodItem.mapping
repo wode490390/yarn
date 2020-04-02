@@ -1,0 +1,6 @@
+CLASS bia net/minecraft/world/item/FishingRodItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a lambda$use$1 (Lalu;Lbch;)V
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;
+	METHOD b lambda$new$0 (Lbin;Lbnx;Lanm;)F
+	METHOD c getEnchantmentValue ()I

@@ -1,0 +1,10 @@
+CLASS cup net/minecraft/world/level/levelgen/structure/templatesystem/RuleTestType
+	FIELD b ALWAYS_TRUE_TEST Lcup;
+	FIELD c BLOCK_TEST Lcup;
+	FIELD d BLOCKSTATE_TEST Lcup;
+	FIELD e TAG_TEST Lcup;
+	FIELD f RANDOM_BLOCK_TEST Lcup;
+	FIELD g RANDOM_BLOCKSTATE_TEST Lcup;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$0 (Lcom/mojang/datafixers/Dynamic;)Lcuo;
+	METHOD a register (Ljava/lang/String;Lcup;)Lcup;

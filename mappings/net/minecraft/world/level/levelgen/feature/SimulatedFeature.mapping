@@ -1,0 +1,2 @@
+CLASS cmu net/minecraft/world/level/levelgen/feature/SimulatedFeature
+	METHOD a simulate (Lyh;Ljava/util/Random;Lfo;Lcof;)V

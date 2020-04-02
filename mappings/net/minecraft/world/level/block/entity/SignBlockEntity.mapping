@@ -1,0 +1,23 @@
+CLASS ccq net/minecraft/world/level/block/entity/SignBlockEntity
+	FIELD a messages [Lml;
+	FIELD b isEditable Z
+	FIELD c playerWhoMayEdit Lbch;
+	FIELD g renderMessages [Ljava/lang/String;
+	FIELD h color Lbhi;
+	METHOD <init> <init> ()V
+	METHOD a getUpdatePacket ()Lnn;
+	METHOD a getMessage (I)Lml;
+	METHOD a getRenderMessage (ILjava/util/function/Function;)Ljava/lang/String;
+	METHOD a setMessage (ILml;)V
+	METHOD a setAllowedPlayerEditor (Lbch;)V
+	METHOD a setColor (Lbhi;)Z
+	METHOD a load (Lcdt;Lkz;)V
+	METHOD a save (Lkz;)Lkz;
+	METHOD a createCommandSourceStack (Lyo;)Lcu;
+	METHOD a setEditable (Z)V
+	METHOD b getUpdateTag ()Lkz;
+	METHOD b executeClickCommands (Lbch;)Z
+	METHOD d isEditable ()Z
+	METHOD f getPlayerWhoMayEdit ()Lbch;
+	METHOD g getColor ()Lbhi;
+	METHOD t onlyOpCanSetNbt ()Z

@@ -1,0 +1,6 @@
+CLASS crh net/minecraft/world/level/levelgen/placement/CountChanceHeightmapDoubleDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getPositions (Lbny;Lcfl;Ljava/util/Random;Lcoc;Lfo;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lbny;Lcfl;Ljava/util/Random;Lcrx;Lfo;)Ljava/util/stream/Stream;
+	METHOD a lambda$getPositions$0 (Ljava/util/Random;Lcrx;I)Z
+	METHOD a lambda$getPositions$1 (Ljava/util/Random;Lfo;Lbny;I)Lfo;

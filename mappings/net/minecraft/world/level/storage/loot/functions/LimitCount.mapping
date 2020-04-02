@@ -1,0 +1,16 @@
+CLASS dbk net/minecraft/world/level/storage/loot/functions/LimitCount
+	FIELD a limiter Lczz;
+	METHOD <init> <init> ([Ldcq;Lczz;)V
+	METHOD <init> <init> ([Ldcq;Lczz;Ldbk$1;)V
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a limitCount (Lczz;)Ldbl$a;
+	METHOD a lambda$limitCount$0 (Lczz;[Ldcq;)Ldbm;
+	METHOD a access$000 (Ldbk;)Lczz;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbk;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

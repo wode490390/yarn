@@ -1,0 +1,90 @@
+CLASS dbe net/minecraft/world/level/storage/loot/functions/CopyNbtFunction
+	FIELD a source Ldbe$c;
+	FIELD c operations Ljava/util/List;
+	FIELD d ENTITY_GETTER Ljava/util/function/Function;
+	FIELD e BLOCK_ENTITY_GETTER Ljava/util/function/Function;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Ldcq;Ldbe$c;Ljava/util/List;)V
+	METHOD <init> <init> ([Ldcq;Ldbe$c;Ljava/util/List;Ldbe$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a lambda$run$0 (Lbin;Llp;Ldbe$b;)V
+	METHOD a lambda$static$1 (Lcbt;)Llp;
+	METHOD a copyData (Ldbe$c;)Ldbe$a;
+	METHOD a access$800 (Ldbe;)Ldbe$c;
+	METHOD a access$000 (Ljava/lang/String;)Ldi$h;
+	METHOD b access$600 ()Ljava/util/function/Function;
+	METHOD b access$900 (Ldbe;)Ljava/util/List;
+	METHOD b compileNbtPath (Ljava/lang/String;)Ldi$h;
+	METHOD c access$700 ()Ljava/util/function/Function;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a source Ldbe$c;
+		FIELD b ops Ljava/util/List;
+		METHOD <init> <init> (Ldbe$c;)V
+		METHOD <init> <init> (Ldbe$c;Ldbe$1;)V
+		METHOD a getThis ()Ldbe$a;
+		METHOD a copy (Ljava/lang/String;Ljava/lang/String;)Ldbe$a;
+		METHOD a copy (Ljava/lang/String;Ljava/lang/String;Ldbe$d;)Ldbe$a;
+		METHOD b build ()Ldbm;
+		METHOD d getThis ()Ldbl$a;
+	CLASS b CopyOperation
+		FIELD a sourcePathText Ljava/lang/String;
+		FIELD b sourcePath Ldi$h;
+		FIELD c targetPathText Ljava/lang/String;
+		FIELD d targetPath Ldi$h;
+		FIELD e op Ldbe$d;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Ldbe$d;)V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Ldbe$d;Ldbe$1;)V
+		METHOD a toJson ()Lcom/google/gson/JsonObject;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;)Ldbe$b;
+		METHOD a apply (Ljava/util/function/Supplier;Llp;)V
+	CLASS c DataSource
+		FIELD a THIS Ldbe$c;
+		FIELD b KILLER Ldbe$c;
+		FIELD c KILLER_PLAYER Ldbe$c;
+		FIELD d BLOCK_ENTITY Ldbe$c;
+		FIELD e name Ljava/lang/String;
+		FIELD f param Ldcb;
+		FIELD g getter Ljava/util/function/Function;
+		FIELD h $VALUES [Ldbe$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ldcb;Ljava/util/function/Function;)V
+		METHOD a lambda$new$0 (Ldcb;Ljava/util/function/Function;Ldaa;)Llp;
+		METHOD a getByName (Ljava/lang/String;)Ldbe$c;
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldbe$c;
+		METHOD values values ()[Ldbe$c;
+	CLASS d MergeStrategy
+		FIELD a REPLACE Ldbe$d;
+		FIELD b APPEND Ldbe$d;
+		FIELD c MERGE Ldbe$d;
+		FIELD d name Ljava/lang/String;
+		FIELD e $VALUES [Ldbe$d;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ldbe$1;)V
+		METHOD a access$100 (Ldbe$d;)Ljava/lang/String;
+		METHOD a getByName (Ljava/lang/String;)Ldbe$d;
+		METHOD a merge (Llp;Ldi$h;Ljava/util/List;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldbe$d;
+		METHOD values values ()[Ldbe$d;
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a merge (Llp;Ldi$h;Ljava/util/List;)V
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a lambda$merge$1 (Ljava/util/List;Llp;)V
+			METHOD a merge (Llp;Ldi$h;Ljava/util/List;)V
+			METHOD a lambda$null$0 (Llp;Llp;)V
+		CLASS 3 3
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a lambda$merge$1 (Ljava/util/List;Llp;)V
+			METHOD a merge (Llp;Ldi$h;Ljava/util/List;)V
+			METHOD a lambda$null$0 (Llp;Llp;)V
+	CLASS e Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbe;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbe;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

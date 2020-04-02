@@ -1,0 +1,11 @@
+CLASS cdv net/minecraft/world/level/block/state/StateHolder
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD a getProperties ()Ljava/util/Collection;
+	METHOD a setValueHelper (Lcdv;Lcew;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcdv;
+	METHOD a cycle (Lcew;)Ljava/lang/Object;
+	METHOD a setValue (Lcew;Ljava/lang/Comparable;)Ljava/lang/Object;
+	METHOD b getValues ()Lcom/google/common/collect/ImmutableMap;
+	METHOD b hasProperty (Lcew;)Z
+	METHOD b getName (Lcew;Ljava/lang/Comparable;)Ljava/lang/String;
+	METHOD c getValue (Lcew;)Ljava/lang/Comparable;

@@ -1,0 +1,14 @@
+CLASS byl net/minecraft/world/level/block/RedStoneOreBlock
+	FIELD a LIT Lcel;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a spawnParticles (Lbnx;Lfo;)V
+	METHOD a stepOn (Lbnx;Lfo;Lanb;)V
+	METHOD a attack (Lcdt;Lbnx;Lfo;Lbch;)V
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a spawnAfterBreak (Lcdt;Lbnx;Lfo;Lbin;)V
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD a_ isRandomlyTicking (Lcdt;)Z
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD d interact (Lcdt;Lbnx;Lfo;)V

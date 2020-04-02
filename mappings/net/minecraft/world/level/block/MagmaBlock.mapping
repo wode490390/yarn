@@ -1,0 +1,7 @@
+CLASS bxl net/minecraft/world/level/block/MagmaBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a stepOn (Lbnx;Lfo;Lanb;)V
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V

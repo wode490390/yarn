@@ -1,0 +1,17 @@
+CLASS cm net/minecraft/advancements/critereon/UsedTotemTrigger
+	FIELD a ID Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lts;
+	METHOD a lambda$trigger$0 (Lbin;Lcm$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lae;
+	METHOD a trigger (Lyo;Lbin;)V
+	METHOD b access$000 ()Lts;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lcm$a;
+	CLASS a TriggerInstance
+		FIELD a item Lbm;
+		METHOD <init> <init> (Lbm;)V
+		METHOD a matches (Lbin;)Z
+		METHOD a usedTotem (Lbm;)Lcm$a;
+		METHOD a usedTotem (Lbnw;)Lcm$a;
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

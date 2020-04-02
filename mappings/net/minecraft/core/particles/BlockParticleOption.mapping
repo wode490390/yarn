@@ -1,0 +1,18 @@
+CLASS gy net/minecraft/core/particles/BlockParticleOption
+	FIELD a DESERIALIZER Lhb$a;
+	FIELD b RANDOM_PROVIDER Ljava/util/function/BiFunction;
+	FIELD c type Lhc;
+	FIELD d state Lcdt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lhc;Lcdt;)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a lambda$static$0 (Ljava/util/Random;Lhc;)Lgy;
+	METHOD a writeToNetwork (Lmb;)V
+	METHOD b getType ()Lhc;
+	METHOD c getState ()Lcdt;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lhc;Lcom/mojang/brigadier/StringReader;)Lgy;
+		METHOD a fromNetwork (Lhc;Lmb;)Lgy;
+		METHOD b fromCommand (Lhc;Lcom/mojang/brigadier/StringReader;)Lhb;
+		METHOD b fromNetwork (Lhc;Lmb;)Lhb;

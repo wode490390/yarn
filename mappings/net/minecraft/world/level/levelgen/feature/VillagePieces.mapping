@@ -1,0 +1,6 @@
+CLASS cnh net/minecraft/world/level/levelgen/feature/VillagePieces
+	METHOD <init> <init> ()V
+	METHOD a addPieces (Lcfl;Lcuq;Lfo;Ljava/util/List;Lcjm;Lcpg;)V
+	CLASS a VillagePiece
+		METHOD <init> <init> (Lcuq;Lcqf;Lfo;ILbyv;Lcsw;)V
+		METHOD <init> <init> (Lcuq;Lkz;)V

@@ -1,0 +1,12 @@
+CLASS biu net/minecraft/world/item/MinecartItem
+	FIELD a DISPENSE_ITEM_BEHAVIOR Lgt;
+	FIELD b type Lbdv$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbdv$a;Lbii$a;)V
+	METHOD a access$000 (Lbiu;)Lbdv$a;
+	METHOD a useOn (Lbjz;)Lalv;
+	CLASS 1 1
+		FIELD b defaultDispenseItemBehavior Lgs;
+		METHOD <init> <init> ()V
+		METHOD a playSound (Lfp;)V
+		METHOD a execute (Lfp;Lbin;)Lbin;

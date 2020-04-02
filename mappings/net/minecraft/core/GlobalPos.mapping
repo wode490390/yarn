@@ -1,0 +1,15 @@
+CLASS fx net/minecraft/core/GlobalPos
+	FIELD a dimension Lcgv;
+	FIELD b pos Lfo;
+	METHOD <init> <init> (Lcgv;Lfo;)V
+	METHOD a dimension ()Lcgv;
+	METHOD a of (Lcgv;Lfo;)Lfx;
+	METHOD a of (Lcom/mojang/datafixers/Dynamic;)Lfx;
+	METHOD a lambda$of$1 (Lcom/mojang/datafixers/Dynamic;Lcgv;)Ljava/util/Optional;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD b pos ()Lfo;
+	METHOD b lambda$null$0 (Lcgv;Lfo;)Lfx;
+	METHOD c lambda$of$2 ()Ljava/lang/IllegalArgumentException;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

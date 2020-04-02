@@ -1,0 +1,17 @@
+CLASS dci net/minecraft/world/level/storage/loot/predicates/ConditionReference
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b name Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lts;)V
+	METHOD a test (Ldaa;)Z
+	METHOD a validate (Ldaj;)V
+	METHOD a access$000 (Ldci;)Lts;
+	METHOD a conditionReference (Lts;)Ldcq$a;
+	METHOD b lambda$conditionReference$0 (Lts;)Ldcq;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldci;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldci;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcq;

@@ -1,0 +1,2 @@
+CLASS beg net/minecraft/world/food/FoodConstants
+	METHOD <init> <init> ()V

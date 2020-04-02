@@ -1,0 +1,22 @@
+CLASS dcg net/minecraft/world/level/storage/loot/predicates/AlternativeLootItemCondition
+	FIELD a terms [Ldcq;
+	FIELD b composedPredicate Ljava/util/function/Predicate;
+	METHOD <init> <init> ([Ldcq;)V
+	METHOD <init> <init> ([Ldcq;Ldcg$1;)V
+	METHOD a test (Ldaa;)Z
+	METHOD a validate (Ldaj;)V
+	METHOD a access$100 (Ldcg;)[Ldcq;
+	METHOD a alternative ([Ldcq$a;)Ldcg$a;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a terms Ljava/util/List;
+		METHOD <init> <init> ([Ldcq$a;)V
+		METHOD a or (Ldcq$a;)Ldcg$a;
+		METHOD build build ()Ldcq;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcg;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcq;

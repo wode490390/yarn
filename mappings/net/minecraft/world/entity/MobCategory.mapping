@@ -1,0 +1,22 @@
+CLASS ano net/minecraft/world/entity/MobCategory
+	FIELD a MONSTER Lano;
+	FIELD b CREATURE Lano;
+	FIELD c AMBIENT Lano;
+	FIELD d WATER_CREATURE Lano;
+	FIELD e MISC Lano;
+	FIELD f BY_NAME Ljava/util/Map;
+	FIELD g max I
+	FIELD h isFriendly Z
+	FIELD i isPersistent Z
+	FIELD j name Ljava/lang/String;
+	FIELD k $VALUES [Lano;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;IZZ)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a lambda$static$0 (Lano;)Lano;
+	METHOD a byName (Ljava/lang/String;)Lano;
+	METHOD b getMaxInstancesPerChunk ()I
+	METHOD c isFriendly ()Z
+	METHOD d isPersistent ()Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lano;
+	METHOD values values ()[Lano;

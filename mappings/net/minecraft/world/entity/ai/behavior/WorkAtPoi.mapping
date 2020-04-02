@@ -1,0 +1,11 @@
+CLASS arl net/minecraft/world/entity/ai/behavior/WorkAtPoi
+	FIELD b lastCheck J
+	METHOD <init> <init> ()V
+	METHOD a lambda$start$0 (Laoc;Lfx;)V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a useWorkstation (Lyn;Lbbu;)V
+	METHOD a start (Lyn;Lbbu;J)V
+	METHOD b canStillUse (Lyn;Lanm;J)Z
+	METHOD b checkExtraStartConditions (Lyn;Lbbu;)Z
+	METHOD b canStillUse (Lyn;Lbbu;J)Z

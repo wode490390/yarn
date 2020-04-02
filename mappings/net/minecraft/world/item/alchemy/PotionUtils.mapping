@@ -1,0 +1,16 @@
+CLASS bkf net/minecraft/world/item/alchemy/PotionUtils
+	METHOD <init> <init> ()V
+	METHOD a getMobEffects (Lbin;)Ljava/util/List;
+	METHOD a setPotion (Lbin;Lbkd;)Lbin;
+	METHOD a setCustomEffects (Lbin;Ljava/util/Collection;)Lbin;
+	METHOD a addPotionTooltip (Lbin;Ljava/util/List;F)V
+	METHOD a getColor (Lbkd;)I
+	METHOD a getAllEffects (Lbkd;Ljava/util/Collection;)Ljava/util/List;
+	METHOD a getColor (Ljava/util/Collection;)I
+	METHOD a getAllEffects (Lkz;)Ljava/util/List;
+	METHOD a getCustomEffects (Lkz;Ljava/util/List;)V
+	METHOD b getCustomEffects (Lbin;)Ljava/util/List;
+	METHOD b getCustomEffects (Lkz;)Ljava/util/List;
+	METHOD c getColor (Lbin;)I
+	METHOD c getPotion (Lkz;)Lbkd;
+	METHOD d getPotion (Lbin;)Lbkd;

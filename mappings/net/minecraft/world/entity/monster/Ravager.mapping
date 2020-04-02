@@ -1,0 +1,50 @@
+CLASS bam net/minecraft/world/entity/monster/Ravager
+	FIELD b NO_RAVAGER_AND_ALIVE Ljava/util/function/Predicate;
+	FIELD bv attackTick I
+	FIELD bw stunnedTick I
+	FIELD bx roarTick I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD B doHurtTarget (Lanb;)Z
+	METHOD D canSee (Lanb;)Z
+	METHOD H updateControlFlags ()V
+	METHOD I getAmbientSound ()Labr;
+	METHOD a handleEntityEvent (B)V
+	METHOD a applyRaidBuffs (IZ)V
+	METHOD a strongKnockback (Lanb;)V
+	METHOD a checkSpawnObstruction (Lboa;)Z
+	METHOD a playStepSound (Lfo;Lcdt;)V
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD aY getRideHeight ()D
+	METHOD b lambda$static$0 (Lanb;)Z
+	METHOD b createNavigation (Lbnx;)Lava;
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD cF registerAttributes ()V
+	METHOD ch getControllingPassenger ()Lanb;
+	METHOD dd getDeathSound ()Labr;
+	METHOD dv isImmobile ()Z
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD eA canBeLeader ()Z
+	METHOD eI getRoarTick ()I
+	METHOD eJ stunEffect ()V
+	METHOD eK roar ()V
+	METHOD ee getMaxHeadYRot ()I
+	METHOD eh canBeControlledByRider ()Z
+	METHOD ez getStunnedTick ()I
+	METHOD f blockedByShield (Lanm;)V
+	METHOD k getAttackTick ()I
+	METHOD l aiStep ()V
+	METHOD m getCelebrateSound ()Labr;
+	METHOD o registerGoals ()V
+	CLASS 1 1
+	CLASS a RavagerMeleeAttackGoal
+		FIELD d this$0 Lbam;
+		METHOD <init> <init> (Lbam;)V
+		METHOD a getAttackReachSqr (Lanm;)D
+	CLASS b RavagerNavigation
+		METHOD <init> <init> (Lann;Lbnx;)V
+		METHOD a createPathFinder (I)Lcyv;
+	CLASS c RavagerNodeEvaluator
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbam$1;)V
+		METHOD a evaluateBlockPathType (Lbnh;ZZLfo;Lcyp;)Lcyp;

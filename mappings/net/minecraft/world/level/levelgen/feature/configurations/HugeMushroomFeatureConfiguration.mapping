@@ -1,0 +1,11 @@
+CLASS coh net/minecraft/world/level/levelgen/feature/configurations/HugeMushroomFeatureConfiguration
+	FIELD a capProvider Lcpq;
+	FIELD b stemProvider Lcpq;
+	FIELD c foliageRadius I
+	FIELD d CAPS Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcpq;Lcpq;I)V
+	METHOD a lambda$static$0 (Lcdt;)Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcoh;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcoh;

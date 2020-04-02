@@ -1,0 +1,24 @@
+CLASS gz net/minecraft/core/particles/DustParticleOptions
+	FIELD a REDSTONE Lgz;
+	FIELD b DESERIALIZER Lhb$a;
+	FIELD c RANDOM_PROVIDER Ljava/util/function/BiFunction;
+	FIELD d r F
+	FIELD e g F
+	FIELD f b F
+	FIELD g scale F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FFFF)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a lambda$static$0 (Ljava/util/Random;Lhc;)Lgz;
+	METHOD a writeToNetwork (Lmb;)V
+	METHOD b getType ()Lhc;
+	METHOD c getR ()F
+	METHOD d getG ()F
+	METHOD e getB ()F
+	METHOD f getScale ()F
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lhc;Lcom/mojang/brigadier/StringReader;)Lgz;
+		METHOD a fromNetwork (Lhc;Lmb;)Lgz;
+		METHOD b fromCommand (Lhc;Lcom/mojang/brigadier/StringReader;)Lhb;
+		METHOD b fromNetwork (Lhc;Lmb;)Lhb;

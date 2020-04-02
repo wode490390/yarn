@@ -1,0 +1,7 @@
+CLASS bpl net/minecraft/world/level/biome/CheckerboardColumnBiomeSource
+	FIELD d allowedBiomes [Lboy;
+	FIELD e bitShift I
+	METHOD <init> <init> (Lbpk;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b getNoiseBiome (III)Lboy;
+	METHOD c getType ()Lbpe;

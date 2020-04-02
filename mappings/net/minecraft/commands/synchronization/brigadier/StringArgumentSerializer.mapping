@@ -1,0 +1,11 @@
+CLASS fj net/minecraft/commands/synchronization/brigadier/StringArgumentSerializer
+	METHOD <init> <init> ()V
+	METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
+	METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/ArgumentType;Lmb;)V
+	METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/StringArgumentType;Lcom/google/gson/JsonObject;)V
+	METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/StringArgumentType;Lmb;)V
+	METHOD a deserializeFromNetwork (Lmb;)Lcom/mojang/brigadier/arguments/StringArgumentType;
+	METHOD b deserializeFromNetwork (Lmb;)Lcom/mojang/brigadier/arguments/ArgumentType;
+	CLASS 1 1
+		FIELD a $SwitchMap$com$mojang$brigadier$arguments$StringArgumentType$StringType [I
+		METHOD <clinit> <clinit> ()V

@@ -1,0 +1,7 @@
+CLASS aao net/minecraft/server/packs/resources/SimplePreparableReloadListener
+	METHOD <init> <init> ()V
+	METHOD a reload (Laag$a;Laal;Lakx;Lakx;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$reload$0 (Laal;Lakx;)Ljava/lang/Object;
+	METHOD a lambda$reload$1 (Laal;Lakx;Ljava/lang/Object;)V
+	METHOD a apply (Ljava/lang/Object;Laal;Lakx;)V
+	METHOD b prepare (Laal;Lakx;)Ljava/lang/Object;

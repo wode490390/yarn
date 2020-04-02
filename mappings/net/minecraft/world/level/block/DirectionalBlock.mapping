@@ -1,0 +1,4 @@
+CLASS bvf net/minecraft/world/level/block/DirectionalBlock
+	FIELD a FACING Lceo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V

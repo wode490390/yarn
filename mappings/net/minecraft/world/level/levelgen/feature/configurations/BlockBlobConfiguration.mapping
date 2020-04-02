@@ -1,0 +1,7 @@
+CLASS cnt net/minecraft/world/level/levelgen/feature/configurations/BlockBlobConfiguration
+	FIELD a state Lcdt;
+	FIELD b startRadius I
+	METHOD <init> <init> (Lcdt;I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcnt;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcnt;

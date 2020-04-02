@@ -1,0 +1,18 @@
+CLASS bl net/minecraft/advancements/critereon/ItemDurabilityTrigger
+	FIELD a ID Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lts;
+	METHOD a lambda$trigger$0 (Lbin;ILbl$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lae;
+	METHOD a trigger (Lyo;Lbin;I)V
+	METHOD b access$000 ()Lts;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbl$a;
+	CLASS a TriggerInstance
+		FIELD a item Lbm;
+		FIELD b durability Lbu$d;
+		FIELD c delta Lbu$d;
+		METHOD <init> <init> (Lbm;Lbu$d;Lbu$d;)V
+		METHOD a matches (Lbin;I)Z
+		METHOD a changedDurability (Lbm;Lbu$d;)Lbl$a;
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

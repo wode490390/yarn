@@ -1,0 +1,8 @@
+CLASS cob net/minecraft/world/level/levelgen/feature/configurations/DecoratedFeatureConfiguration
+	FIELD a feature Lckm;
+	FIELD b decorator Lcre;
+	METHOD <init> <init> (Lckm;Lcre;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcob;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcob;
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,7 @@
+CLASS bfa net/minecraft/world/inventory/DispenserMenu
+	FIELD c dispenser Lalo;
+	METHOD <init> <init> (ILbcg;)V
+	METHOD <init> <init> (ILbcg;Lalo;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD b removed (Lbch;)V
+	METHOD b quickMoveStack (Lbch;I)Lbin;

@@ -1,0 +1,7 @@
+CLASS cuc net/minecraft/world/level/levelgen/structure/templatesystem/BlockStateMatchTest
+	FIELD a blockState Lcdt;
+	METHOD <init> <init> (Lcdt;)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getType ()Lcup;
+	METHOD a test (Lcdt;Ljava/util/Random;)Z
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

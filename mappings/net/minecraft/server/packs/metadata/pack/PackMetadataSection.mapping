@@ -1,0 +1,8 @@
+CLASS zt net/minecraft/server/packs/metadata/pack/PackMetadataSection
+	FIELD a SERIALIZER Lzu;
+	FIELD b description Lml;
+	FIELD c packFormat I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lml;I)V
+	METHOD a getDescription ()Lml;
+	METHOD b getPackFormat ()I

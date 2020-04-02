@@ -1,0 +1,11 @@
+CLASS bkc net/minecraft/world/item/WrittenBookItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a appendHoverText (Lbin;Lbnx;Ljava/util/List;Lbjw;)V
+	METHOD a resolveBookComponents (Lbin;Lcu;Lbch;)Z
+	METHOD a useOn (Lbjz;)Lalv;
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;
+	METHOD a makeSureTagIsValid (Lkz;)Z
+	METHOD d isFoil (Lbin;)Z
+	METHOD f getGeneration (Lbin;)I
+	METHOD g getPageCount (Lbin;)I
+	METHOD h getName (Lbin;)Lml;

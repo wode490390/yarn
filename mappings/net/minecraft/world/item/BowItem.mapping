@@ -1,0 +1,12 @@
+CLASS bgv net/minecraft/world/item/BowItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a getPowerForTime (I)F
+	METHOD a lambda$releaseUsing$2 (Lbch;Lbch;)V
+	METHOD a releaseUsing (Lbin;Lbnx;Lanm;I)V
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;
+	METHOD b getAllSupportedProjectiles ()Ljava/util/function/Predicate;
+	METHOD b lambda$new$1 (Lbin;Lbnx;Lanm;)F
+	METHOD c lambda$new$0 (Lbin;Lbnx;Lanm;)F
+	METHOD d getDefaultProjectileRange ()I
+	METHOD d_ getUseAnimation (Lbin;)Lbjy;
+	METHOD e_ getUseDuration (Lbin;)I

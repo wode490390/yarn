@@ -1,0 +1,11 @@
+CLASS cgj net/minecraft/world/level/chunk/storage/ChunkStorage
+	FIELD a worker Lcgk;
+	FIELD b fixerUpper Lcom/mojang/datafixers/DataFixer;
+	FIELD c legacyStructureHandler Lctc;
+	METHOD <init> <init> (Ljava/io/File;Lcom/mojang/datafixers/DataFixer;)V
+	METHOD a write (Lbni;Lkz;)V
+	METHOD a upgradeChunkTag (Lcgv;Ljava/util/function/Supplier;Lkz;)Lkz;
+	METHOD a getVersion (Lkz;)I
+	METHOD close close ()V
+	METHOD e read (Lbni;)Lkz;
+	METHOD i flushWorker ()V

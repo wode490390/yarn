@@ -1,0 +1,9 @@
+CLASS bkv net/minecraft/world/item/crafting/MapExtendingRecipe
+	METHOD <init> <init> (Lts;)V
+	METHOD Y_ isSpecial ()Z
+	METHOD Z_ getSerializer ()Lbky;
+	METHOD a assemble (Lalo;)Lbin;
+	METHOD a matches (Lalo;Lbnx;)Z
+	METHOD a assemble (Lbex;)Lbin;
+	METHOD a matches (Lbex;Lbnx;)Z
+	METHOD a isExplorationMap (Lczj;)Z

@@ -1,0 +1,5 @@
+CLASS aui net/minecraft/world/entity/ai/goal/target/NearestAttackableWitchTargetGoal
+	FIELD i canAttack Z
+	METHOD <init> <init> (Lbdm;Ljava/lang/Class;IZZLjava/util/function/Predicate;)V
+	METHOD a canUse ()Z
+	METHOD a setCanAttack (Z)V

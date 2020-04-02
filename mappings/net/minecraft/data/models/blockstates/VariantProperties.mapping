@@ -1,0 +1,23 @@
+CLASS io net/minecraft/data/models/blockstates/VariantProperties
+	FIELD a X_ROT Lip;
+	FIELD b Y_ROT Lip;
+	FIELD c MODEL Lip;
+	FIELD d UV_LOCK Lip;
+	FIELD e WEIGHT Lip;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$static$1 (Lio$a;)Lcom/google/gson/JsonElement;
+	METHOD a lambda$static$2 (Lts;)Lcom/google/gson/JsonElement;
+	METHOD b lambda$static$0 (Lio$a;)Lcom/google/gson/JsonElement;
+	CLASS a Rotation
+		FIELD a R0 Lio$a;
+		FIELD b R90 Lio$a;
+		FIELD c R180 Lio$a;
+		FIELD d R270 Lio$a;
+		FIELD e value I
+		FIELD f $VALUES [Lio$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;II)V
+		METHOD a access$000 (Lio$a;)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lio$a;
+		METHOD values values ()[Lio$a;

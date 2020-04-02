@@ -1,0 +1,32 @@
+CLASS bzc net/minecraft/world/level/block/ShulkerBoxBlock
+	FIELD a FACING Lcer;
+	FIELD b CONTENTS Lts;
+	FIELD c color Lbhi;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbhi;Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a getBlockByColor (Lbhi;)Lbtu;
+	METHOD a appendHoverText (Lbin;Lbnh;Ljava/util/List;Lbjw;)V
+	METHOD a newBlockEntity (Lbnh;)Lcbt;
+	METHOD a getCloneItemStack (Lbnh;Lfo;Lcdt;)Lbin;
+	METHOD a setPlacedBy (Lbnx;Lfo;Lcdt;Lanm;Lbin;)V
+	METHOD a playerWillDestroy (Lbnx;Lfo;Lcdt;Lbch;)V
+	METHOD a lambda$getDrops$0 (Lccp;Ldaa;Ljava/util/function/Consumer;)V
+	METHOD a hasAnalogOutputSignal (Lcdt;)Z
+	METHOD a getAnalogOutputSignal (Lcdt;Lbnx;Lfo;)I
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a onRemove (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a getDrops (Lcdt;Ldaa$a;)Ljava/util/List;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getColoredItemStack (Lbhi;)Lbin;
+	METHOD b getColorFromItem (Lbii;)Lbhi;
+	METHOD b getColorFromBlock (Lbtu;)Lbhi;
+	METHOD b getRenderShape (Lcdt;)Lbyq;
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD d getColor ()Lbhi;
+	METHOD f getPistonPushReaction (Lcdt;)Lcwt;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$item$DyeColor [I
+		METHOD <clinit> <clinit> ()V

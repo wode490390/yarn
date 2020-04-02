@@ -1,0 +1,5 @@
+CLASS cik net/minecraft/world/level/dimension/special/G33
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD k createRandomLevelGenerator ()Lcfl;
+	CLASS a BusyBiome
+		METHOD <init> <init> ()V

@@ -1,0 +1,36 @@
+CLASS ub net/minecraft/server/PlayerAdvancements
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c TYPE_TOKEN Lcom/google/gson/reflect/TypeToken;
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	FIELD e file Ljava/io/File;
+	FIELD f advancements Ljava/util/Map;
+	FIELD g visible Ljava/util/Set;
+	FIELD h visibilityChanged Ljava/util/Set;
+	FIELD i progressChanged Ljava/util/Set;
+	FIELD j player Lyo;
+	FIELD k lastSelectedTab Lw;
+	FIELD l isFirstPacket Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;Lyo;)V
+	METHOD a stopListening ()V
+	METHOD a setSelectedTab (Lw;)V
+	METHOD a award (Lw;Ljava/lang/String;)Z
+	METHOD a startProgress (Lw;Ly;)V
+	METHOD a setPlayer (Lyo;)V
+	METHOD b reload ()V
+	METHOD b getOrStartProgress (Lw;)Ly;
+	METHOD b revoke (Lw;Ljava/lang/String;)Z
+	METHOD b flushDirty (Lyo;)V
+	METHOD c save ()V
+	METHOD c registerListeners (Lw;)V
+	METHOD d registerListeners ()V
+	METHOD d unregisterListeners (Lw;)V
+	METHOD e ensureAllVisible ()V
+	METHOD e ensureVisibility (Lw;)V
+	METHOD f checkForAutomaticTriggers ()V
+	METHOD f shouldBeVisible (Lw;)Z
+	METHOD g load ()V
+	METHOD g hasCompletedChildrenOrSelf (Lw;)Z
+	CLASS 1 1
+		METHOD <init> <init> ()V

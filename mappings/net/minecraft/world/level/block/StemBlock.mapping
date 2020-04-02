@@ -1,0 +1,16 @@
+CLASS bzw net/minecraft/world/level/block/StemBlock
+	FIELD a AGE Lcet;
+	FIELD b SHAPE_BY_AGE [Ldej;
+	FIELD c fruit Lbzx;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbzx;Lcds$c;)V
+	METHOD a getCloneItemStack (Lbnh;Lfo;Lcdt;)Lbin;
+	METHOD a isValidBonemealTarget (Lbnh;Lfo;Lcdt;Z)Z
+	METHOD a isBonemealSuccess (Lbnx;Ljava/util/Random;Lfo;Lcdt;)Z
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD a performBonemeal (Lyn;Ljava/util/Random;Lfo;Lcdt;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD c mayPlaceOn (Lcdt;Lbnh;Lfo;)Z
+	METHOD d getSeedItem ()Lbii;
+	METHOD e getFruit ()Lbzx;

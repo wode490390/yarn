@@ -1,0 +1,10 @@
+CLASS ahn net/minecraft/util/datafix/fixes/OptionsKeyLwjgl3Fix
+	FIELD a MAP Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$3 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$null$2 (Lcom/mojang/datafixers/Dynamic;Ljava/util/Map;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$makeRule$4 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$static$0 (Lit/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap;)V
+	METHOD a lambda$null$1 (Ljava/util/Map$Entry;)Lcom/mojang/datafixers/util/Pair;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

@@ -1,0 +1,33 @@
+CLASS dp net/minecraft/commands/arguments/RangeArgument
+	METHOD a intRange ()Ldp$b;
+	METHOD b doubleRange ()Ldp$a;
+	CLASS a Floats
+		FIELD a EXAMPLES Ljava/util/Collection;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lbu$c;
+		METHOD a getRange (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lbu$c;
+		METHOD getExamples getExamples ()Ljava/util/Collection;
+		METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+		CLASS a Serializer
+			METHOD <init> <init> ()V
+			METHOD a deserializeFromNetwork (Lmb;)Ldp$a;
+			METHOD b deserializeFromNetwork (Lmb;)Lcom/mojang/brigadier/arguments/ArgumentType;
+	CLASS b Ints
+		FIELD a EXAMPLES Ljava/util/Collection;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lbu$d;
+		METHOD a getRange (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lbu$d;
+		METHOD getExamples getExamples ()Ljava/util/Collection;
+		METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+		CLASS a Serializer
+			METHOD <init> <init> ()V
+			METHOD a deserializeFromNetwork (Lmb;)Ldp$b;
+			METHOD b deserializeFromNetwork (Lmb;)Lcom/mojang/brigadier/arguments/ArgumentType;
+	CLASS c Serializer
+		METHOD <init> <init> ()V
+		METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
+		METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/ArgumentType;Lmb;)V
+		METHOD a serializeToJson (Ldp;Lcom/google/gson/JsonObject;)V
+		METHOD a serializeToNetwork (Ldp;Lmb;)V

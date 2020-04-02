@@ -1,0 +1,3 @@
+CLASS cxb net/minecraft/world/level/newbiome/context/Context
+	METHOD a nextRandom (I)I
+	METHOD b getBiomeNoise ()Lcvq;

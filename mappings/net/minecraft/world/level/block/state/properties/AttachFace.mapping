@@ -1,0 +1,11 @@
+CLASS ceg net/minecraft/world/level/block/state/properties/AttachFace
+	FIELD a FLOOR Lceg;
+	FIELD b WALL Lceg;
+	FIELD c CEILING Lceg;
+	FIELD d name Ljava/lang/String;
+	FIELD e $VALUES [Lceg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lceg;
+	METHOD values values ()[Lceg;

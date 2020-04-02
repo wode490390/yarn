@@ -1,0 +1,15 @@
+CLASS px net/minecraft/network/protocol/game/ClientboundSetObjectivePacket
+	FIELD a objectiveName Ljava/lang/String;
+	FIELD b displayName Lml;
+	FIELD c renderType Ldes$a;
+	FIELD d method I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ldem;I)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getObjectiveName ()Ljava/lang/String;
+	METHOD b write (Lmb;)V
+	METHOD c getDisplayName ()Lml;
+	METHOD d getMethod ()I
+	METHOD e getRenderType ()Ldes$a;

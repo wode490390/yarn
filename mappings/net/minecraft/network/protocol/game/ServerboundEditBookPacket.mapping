@@ -1,0 +1,13 @@
+CLASS re net/minecraft/network/protocol/game/ServerboundEditBookPacket
+	FIELD a book Lbin;
+	FIELD b signing Z
+	FIELD c hand Lalu;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbin;ZLalu;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getBook ()Lbin;
+	METHOD b write (Lmb;)V
+	METHOD c isSigning ()Z
+	METHOD d getHand ()Lalu;

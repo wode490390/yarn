@@ -1,0 +1,7 @@
+CLASS aht net/minecraft/util/datafix/fixes/RecipesRenameFix
+	FIELD a name Ljava/lang/String;
+	FIELD b renamer Ljava/util/function/Function;
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;ZLjava/lang/String;Ljava/util/function/Function;)V
+	METHOD a lambda$makeRule$1 (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;
+	METHOD a lambda$null$0 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

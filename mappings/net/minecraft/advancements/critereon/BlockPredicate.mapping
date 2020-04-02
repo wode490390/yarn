@@ -1,0 +1,23 @@
+CLASS al net/minecraft/advancements/critereon/BlockPredicate
+	FIELD a ANY Lal;
+	FIELD b tag Lacj;
+	FIELD c block Lbtu;
+	FIELD d properties Lcf;
+	FIELD e nbt Lbw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lacj;Lbtu;Lcf;Lbw;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lal;
+	METHOD a matches (Lyn;Lfo;)Z
+	CLASS a Builder
+		FIELD a block Lbtu;
+		FIELD b blocks Lacj;
+		FIELD c properties Lcf;
+		FIELD d nbt Lbw;
+		METHOD <init> <init> ()V
+		METHOD a block ()Lal$a;
+		METHOD a of (Lacj;)Lal$a;
+		METHOD a of (Lbtu;)Lal$a;
+		METHOD a setProperties (Lcf;)Lal$a;
+		METHOD a hasNbt (Lkz;)Lal$a;
+		METHOD b build ()Lal;

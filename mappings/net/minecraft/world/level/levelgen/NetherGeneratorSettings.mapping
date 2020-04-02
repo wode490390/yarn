@@ -1,0 +1,5 @@
+CLASS cjd net/minecraft/world/level/levelgen/NetherGeneratorSettings
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Random;)V
+	METHOD t getBedrockRoofPosition ()I
+	METHOD u getBedrockFloorPosition ()I

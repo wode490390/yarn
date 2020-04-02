@@ -1,0 +1,18 @@
+CLASS atn net/minecraft/world/entity/ai/goal/RangedBowAttackGoal
+	FIELD a mob Lbah;
+	FIELD b speedModifier D
+	FIELD c attackIntervalMin I
+	FIELD d attackRadiusSqr F
+	FIELD e attackTime I
+	FIELD f seeTime I
+	FIELD g strafingClockwise Z
+	FIELD h strafingBackwards Z
+	FIELD i strafingTime I
+	METHOD <init> <init> (Lbah;DIF)V
+	METHOD a canUse ()Z
+	METHOD a setMinAttackInterval (I)V
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g isHoldingBow ()Z

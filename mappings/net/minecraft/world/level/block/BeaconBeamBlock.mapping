@@ -1,0 +1,2 @@
+CLASS btn net/minecraft/world/level/block/BeaconBeamBlock
+	METHOD a getColor ()Lbhi;

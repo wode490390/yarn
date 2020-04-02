@@ -1,0 +1,12 @@
+CLASS cej net/minecraft/world/level/block/state/properties/BellAttachType
+	FIELD a FLOOR Lcej;
+	FIELD b CEILING Lcej;
+	FIELD c SINGLE_WALL Lcej;
+	FIELD d DOUBLE_WALL Lcej;
+	FIELD e name Ljava/lang/String;
+	FIELD f $VALUES [Lcej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcej;
+	METHOD values values ()[Lcej;

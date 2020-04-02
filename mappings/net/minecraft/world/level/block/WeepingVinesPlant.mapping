@@ -1,0 +1,5 @@
+CLASS cba net/minecraft/world/level/block/WeepingVinesPlant
+	FIELD d SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD d getHeadBlock ()Lbwo;

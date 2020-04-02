@@ -1,0 +1,4 @@
+CLASS bma net/minecraft/world/item/enchantment/EnchantmentInstance
+	FIELD b enchantment Lblx;
+	FIELD c level I
+	METHOD <init> <init> (Lblx;I)V

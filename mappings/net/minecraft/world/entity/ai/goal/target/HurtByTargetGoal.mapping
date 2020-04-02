@@ -1,0 +1,13 @@
+CLASS aug net/minecraft/world/entity/ai/goal/target/HurtByTargetGoal
+	FIELD a HURT_BY_TARGETING Lavw;
+	FIELD b alertSameType Z
+	FIELD c timestamp I
+	FIELD d toIgnoreDamage [Ljava/lang/Class;
+	FIELD i toIgnoreAlert [Ljava/lang/Class;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lant;[Ljava/lang/Class;)V
+	METHOD a canUse ()Z
+	METHOD a alertOther (Lann;Lanm;)V
+	METHOD a setAlertOthers ([Ljava/lang/Class;)Laug;
+	METHOD c start ()V
+	METHOD g alertOthers ()V

@@ -1,0 +1,4 @@
+CLASS cne net/minecraft/world/level/levelgen/feature/TreeFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a doPlace (Lboc;Ljava/util/Random;Lfo;Ljava/util/Set;Ljava/util/Set;Lcsw;Lcpc;)Z
+	METHOD a doPlace (Lboc;Ljava/util/Random;Lfo;Ljava/util/Set;Ljava/util/Set;Lcsw;Lcpf;)Z

@@ -1,0 +1,2 @@
+CLASS bnz net/minecraft/world/level/LevelConflictException
+	METHOD <init> <init> (Ljava/lang/String;)V

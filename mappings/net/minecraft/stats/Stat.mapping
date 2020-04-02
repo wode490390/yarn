@@ -1,0 +1,13 @@
+CLASS aby net/minecraft/stats/Stat
+	FIELD o formatter Labz;
+	FIELD p value Ljava/lang/Object;
+	FIELD q type Laca;
+	METHOD <init> <init> (Laca;Ljava/lang/Object;Labz;)V
+	METHOD a getType ()Laca;
+	METHOD a format (I)Ljava/lang/String;
+	METHOD a buildName (Laca;Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a locationToKey (Lts;)Ljava/lang/String;
+	METHOD b getValue ()Ljava/lang/Object;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

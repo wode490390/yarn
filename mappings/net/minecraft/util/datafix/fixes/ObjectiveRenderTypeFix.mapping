@@ -1,0 +1,7 @@
+CLASS ahk net/minecraft/util/datafix/fixes/ObjectiveRenderTypeFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$0 (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$makeRule$2 (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/util/function/Function;
+	METHOD a lambda$null$1 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a getRenderType (Ljava/lang/String;)Ldes$a;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

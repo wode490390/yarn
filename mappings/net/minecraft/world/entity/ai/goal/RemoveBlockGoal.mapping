@@ -1,0 +1,14 @@
+CLASS atp net/minecraft/world/entity/ai/goal/RemoveBlockGoal
+	FIELD g blockToRemove Lbtu;
+	FIELD h removerMob Lann;
+	FIELD i ticksSinceReachedGoal I
+	METHOD <init> <init> (Lbtu;Lant;DI)V
+	METHOD a canUse ()Z
+	METHOD a playBreakSound (Lbnx;Lfo;)V
+	METHOD a playDestroyProgressSound (Lbny;Lfo;)V
+	METHOD a isValidTarget (Lboa;Lfo;)Z
+	METHOD a getPosWithBlock (Lfo;Lbnh;)Lfo;
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD m tryFindBlock ()Z

@@ -1,0 +1,8 @@
+CLASS fh net/minecraft/commands/synchronization/brigadier/IntegerArgumentSerializer
+	METHOD <init> <init> ()V
+	METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
+	METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/ArgumentType;Lmb;)V
+	METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/IntegerArgumentType;Lcom/google/gson/JsonObject;)V
+	METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/IntegerArgumentType;Lmb;)V
+	METHOD a deserializeFromNetwork (Lmb;)Lcom/mojang/brigadier/arguments/IntegerArgumentType;
+	METHOD b deserializeFromNetwork (Lmb;)Lcom/mojang/brigadier/arguments/ArgumentType;

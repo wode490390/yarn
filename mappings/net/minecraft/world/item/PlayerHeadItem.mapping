@@ -1,0 +1,4 @@
+CLASS bix net/minecraft/world/item/PlayerHeadItem
+	METHOD <init> <init> (Lbtu;Lbtu;Lbii$a;)V
+	METHOD b verifyTagAfterLoad (Lkz;)Z
+	METHOD h getName (Lbin;)Lml;

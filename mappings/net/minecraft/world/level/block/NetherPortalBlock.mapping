@@ -1,0 +1,3 @@
+CLASS bxr net/minecraft/world/level/block/NetherPortalBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V

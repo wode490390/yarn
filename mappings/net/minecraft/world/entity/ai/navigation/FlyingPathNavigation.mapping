@@ -1,0 +1,13 @@
+CLASS auy net/minecraft/world/entity/ai/navigation/FlyingPathNavigation
+	METHOD <init> <init> (Lann;Lbnx;)V
+	METHOD a canUpdatePath ()Z
+	METHOD a createPathFinder (I)Lcyv;
+	METHOD a createPath (Lanb;I)Lcyt;
+	METHOD a canMoveDirectly (Lddp;Lddp;III)Z
+	METHOD a isStableDestination (Lfo;)Z
+	METHOD a setCanOpenDoors (Z)V
+	METHOD b getTempMobPos ()Lddp;
+	METHOD b setCanPassDoors (Z)V
+	METHOD c tick ()V
+	METHOD d canPassDoors ()Z
+	METHOD e canOpenDoors ()Z

@@ -1,0 +1,9 @@
+CLASS qu net/minecraft/network/protocol/game/ServerboundChangeDifficultyPacket
+	FIELD a difficulty Lals;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lals;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getDifficulty ()Lals;
+	METHOD b write (Lmb;)V

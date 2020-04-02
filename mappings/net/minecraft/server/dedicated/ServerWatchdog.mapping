@@ -1,0 +1,12 @@
+CLASS xq net/minecraft/server/dedicated/ServerWatchdog
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b server Lxn;
+	FIELD c maxTickTime J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lxn;)V
+	METHOD a exit ()V
+	METHOD run run ()V
+	CLASS 1 1
+		FIELD a this$0 Lxq;
+		METHOD <init> <init> (Lxq;)V
+		METHOD run run ()V

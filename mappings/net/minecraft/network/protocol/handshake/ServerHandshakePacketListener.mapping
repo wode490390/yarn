@@ -1,0 +1,2 @@
+CLASS sl net/minecraft/network/protocol/handshake/ServerHandshakePacketListener
+	METHOD a handleIntention (Lsk;)V

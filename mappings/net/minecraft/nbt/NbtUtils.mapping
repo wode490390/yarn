@@ -1,0 +1,23 @@
+CLASS ll net/minecraft/nbt/NbtUtils
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a indent (ILjava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+	METHOD a writeBlockState (Lcdt;)Lkz;
+	METHOD a setValueHelper (Lcdv;Lcew;Ljava/lang/String;Lkz;Lkz;)Lcdv;
+	METHOD a getName (Lcew;Ljava/lang/Comparable;)Ljava/lang/String;
+	METHOD a update (Lcom/mojang/datafixers/DataFixer;Ladq;Lkz;I)Lkz;
+	METHOD a update (Lcom/mojang/datafixers/DataFixer;Ladq;Lkz;II)Lkz;
+	METHOD a writeFluidState (Lcwn;)Lkz;
+	METHOD a writeBlockPos (Lfo;)Lkz;
+	METHOD a prettyPrint (Ljava/lang/StringBuilder;Llp;IZ)Ljava/lang/StringBuilder;
+	METHOD a createUUID (Ljava/util/UUID;)Lld;
+	METHOD a readGameProfile (Lkz;)Lcom/mojang/authlib/GameProfile;
+	METHOD a writeGameProfile (Lkz;Lcom/mojang/authlib/GameProfile;)Lkz;
+	METHOD a loadUUID (Llp;)Ljava/util/UUID;
+	METHOD a compareNbt (Llp;Llp;Z)Z
+	METHOD a prettyPrint (Llp;Z)Ljava/lang/String;
+	METHOD b readBlockPos (Lkz;)Lfo;
+	METHOD b prettyPrint (Llp;)Ljava/lang/String;
+	METHOD c readBlockState (Lkz;)Lcdt;
+	METHOD d readFluidState (Lkz;)Lcwn;

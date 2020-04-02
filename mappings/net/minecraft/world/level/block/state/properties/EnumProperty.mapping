@@ -1,0 +1,14 @@
+CLASS cer net/minecraft/world/level/block/state/properties/EnumProperty
+	FIELD a values Lcom/google/common/collect/ImmutableSet;
+	FIELD b names Ljava/util/Map;
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Class;Ljava/util/Collection;)V
+	METHOD a getName (Ljava/lang/Comparable;)Ljava/lang/String;
+	METHOD a getName (Ljava/lang/Enum;)Ljava/lang/String;
+	METHOD a create (Ljava/lang/String;Ljava/lang/Class;)Lcer;
+	METHOD a create (Ljava/lang/String;Ljava/lang/Class;Ljava/util/Collection;)Lcer;
+	METHOD a create (Ljava/lang/String;Ljava/lang/Class;Ljava/util/function/Predicate;)Lcer;
+	METHOD a create (Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Enum;)Lcer;
+	METHOD b getValue (Ljava/lang/String;)Ljava/util/Optional;
+	METHOD c generateHashCode ()I
+	METHOD d getPossibleValues ()Ljava/util/Collection;
+	METHOD equals equals (Ljava/lang/Object;)Z

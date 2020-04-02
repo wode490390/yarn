@@ -1,0 +1,4 @@
+CLASS air net/minecraft/util/datafix/schemas/NamespacedSchema
+	METHOD <init> <init> (ILcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a ensureNamespaced (Ljava/lang/String;)Ljava/lang/String;
+	METHOD getChoiceType getChoiceType (Lcom/mojang/datafixers/DSL$TypeReference;Ljava/lang/String;)Lcom/mojang/datafixers/types/Type;

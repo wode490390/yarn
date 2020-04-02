@@ -1,0 +1,3 @@
+CLASS czv net/minecraft/world/level/storage/PlayerIO
+	METHOD a save (Lbch;)V
+	METHOD b load (Lbch;)Lkz;

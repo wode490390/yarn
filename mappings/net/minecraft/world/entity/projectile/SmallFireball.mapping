@@ -1,0 +1,9 @@
+CLASS bcz net/minecraft/world/entity/projectile/SmallFireball
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDDDDD)V
+	METHOD <init> <init> (Lbnx;Lanm;DDD)V
+	METHOD a hurt (Laml;F)Z
+	METHOD a onHitBlock (Lddk;)V
+	METHOD a onHitEntity (Lddl;)V
+	METHOD a onHit (Lddm;)V
+	METHOD aQ isPickable ()Z

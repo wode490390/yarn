@@ -1,0 +1,6 @@
+CLASS avn net/minecraft/world/entity/ai/sensing/PiglinSpecificSensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Lyn;Lanm;)V
+	METHOD a lambda$findNearestRepellent$0 (Lyn;Lfo;)Z
+	METHOD c findNearestRepellent (Lyn;Lanm;)Ljava/util/Optional;

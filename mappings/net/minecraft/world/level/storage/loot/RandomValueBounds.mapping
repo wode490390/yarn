@@ -1,0 +1,21 @@
+CLASS dai net/minecraft/world/level/storage/loot/RandomValueBounds
+	FIELD d min F
+	FIELD e max F
+	METHOD <init> <init> (F)V
+	METHOD <init> <init> (FF)V
+	METHOD a getType ()Lts;
+	METHOD a exactly (F)Ldai;
+	METHOD a between (FF)Ldai;
+	METHOD a matchesValue (I)Z
+	METHOD a access$000 (Ldai;)F
+	METHOD a getInt (Ljava/util/Random;)I
+	METHOD b getMin ()F
+	METHOD b access$100 (Ldai;)F
+	METHOD b getFloat (Ljava/util/Random;)F
+	METHOD c getMax ()F
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ldai;
+		METHOD a serialize (Ldai;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

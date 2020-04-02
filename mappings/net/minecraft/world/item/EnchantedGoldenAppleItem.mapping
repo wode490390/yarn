@@ -1,0 +1,3 @@
+CLASS bhr net/minecraft/world/item/EnchantedGoldenAppleItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD d isFoil (Lbin;)Z

@@ -1,0 +1,11 @@
+CLASS qg net/minecraft/network/protocol/game/ClientboundTabListPacket
+	FIELD a header Lml;
+	FIELD b footer Lml;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lml;Lml;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getHeader ()Lml;
+	METHOD b write (Lmb;)V
+	METHOD c getFooter ()Lml;

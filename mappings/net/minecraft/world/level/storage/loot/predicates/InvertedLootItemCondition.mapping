@@ -1,0 +1,18 @@
+CLASS dcn net/minecraft/world/level/storage/loot/predicates/InvertedLootItemCondition
+	FIELD a term Ldcq;
+	METHOD <init> <init> (Ldcq;)V
+	METHOD <init> <init> (Ldcq;Ldcn$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a test (Ldaa;)Z
+	METHOD a validate (Ldaj;)V
+	METHOD a access$000 (Ldcn;)Ldcq;
+	METHOD a invert (Ldcq$a;)Ldcq$a;
+	METHOD b lambda$invert$0 (Ldcn;)Ldcq;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcn;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcn;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcq;

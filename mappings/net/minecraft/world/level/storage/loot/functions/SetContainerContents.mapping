@@ -1,0 +1,25 @@
+CLASS dbq net/minecraft/world/level/storage/loot/functions/SetContainerContents
+	FIELD a entries Ljava/util/List;
+	METHOD <init> <init> ([Ldcq;Ljava/util/List;)V
+	METHOD <init> <init> ([Ldcq;Ljava/util/List;Ldbq$1;)V
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a lambda$run$1 (Ldaa;Lge;Ldat;)V
+	METHOD a validate (Ldaj;)V
+	METHOD a access$100 (Ldbq;)Ljava/util/List;
+	METHOD a lambda$null$0 (Lge;Ldaa;Ldas;)V
+	METHOD b setContents ()Ldbq$a;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Ldbq$a;
+		METHOD a withEntry (Ldat$a;)Ldbq$a;
+		METHOD b build ()Ldbm;
+		METHOD d getThis ()Ldbl$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbq;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

@@ -1,0 +1,28 @@
+CLASS cgy net/minecraft/world/level/dimension/end/DragonRespawnAnimation
+	FIELD a START Lcgy;
+	FIELD b PREPARING_TO_SUMMON_PILLARS Lcgy;
+	FIELD c SUMMONING_PILLARS Lcgy;
+	FIELD d SUMMONING_DRAGON Lcgy;
+	FIELD e END Lcgy;
+	FIELD f $VALUES [Lcgy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD <init> <init> (Ljava/lang/String;ILcgy$1;)V
+	METHOD a tick (Lyn;Lcgz;Ljava/util/List;ILfo;)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcgy;
+	METHOD values values ()[Lcgy;
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lyn;Lcgz;Ljava/util/List;ILfo;)V
+	CLASS 2 2
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lyn;Lcgz;Ljava/util/List;ILfo;)V
+	CLASS 3 3
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lyn;Lcgz;Ljava/util/List;ILfo;)V
+	CLASS 4 4
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lyn;Lcgz;Ljava/util/List;ILfo;)V
+	CLASS 5 5
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Lyn;Lcgz;Ljava/util/List;ILfo;)V

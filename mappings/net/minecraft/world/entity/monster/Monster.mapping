@@ -1,0 +1,20 @@
+CLASS bah net/minecraft/world/entity/monster/Monster
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD L shouldDespawnInPeaceful ()Z
+	METHOD a hurt (Laml;F)Z
+	METHOD a isDarkEnoughToSpawn (Lbny;Lfo;Ljava/util/Random;)Z
+	METHOD a getWalkTargetValue (Lfo;Lboa;)F
+	METHOD aq getSwimSound ()Labr;
+	METHOD ar getSwimSplashSound ()Labr;
+	METHOD c checkMonsterSpawnRules (Lanf;Lbny;Lanp;Lfo;Ljava/util/Random;)Z
+	METHOD cF registerAttributes ()V
+	METHOD cK shouldDropExperience ()Z
+	METHOD cp getSoundSource ()Labt;
+	METHOD d checkAnyLightMonsterSpawnRules (Lanf;Lbny;Lanp;Lfo;Ljava/util/Random;)Z
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD e isPreventingPlayerRest (Lbch;)Z
+	METHOD eE updateNoActionTime ()V
+	METHOD f getProjectile (Lbin;)Lbin;
+	METHOD l aiStep ()V
+	METHOD o getFallDamageSound (I)Labr;

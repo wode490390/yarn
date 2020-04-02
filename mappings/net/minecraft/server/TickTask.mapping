@@ -1,0 +1,6 @@
+CLASS uh net/minecraft/server/TickTask
+	FIELD a tick I
+	FIELD b runnable Ljava/lang/Runnable;
+	METHOD <init> <init> (ILjava/lang/Runnable;)V
+	METHOD a getTick ()I
+	METHOD run run ()V

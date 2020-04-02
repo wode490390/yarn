@@ -1,0 +1,16 @@
+CLASS bcf net/minecraft/world/entity/player/ChatVisiblity
+	FIELD a FULL Lbcf;
+	FIELD b SYSTEM Lbcf;
+	FIELD c HIDDEN Lbcf;
+	FIELD d BY_ID [Lbcf;
+	FIELD e id I
+	FIELD f key Ljava/lang/String;
+	FIELD g $VALUES [Lbcf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+	METHOD a getId ()I
+	METHOD a byId (I)Lbcf;
+	METHOD b getKey ()Ljava/lang/String;
+	METHOD b lambda$static$0 (I)[Lbcf;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbcf;
+	METHOD values values ()[Lbcf;

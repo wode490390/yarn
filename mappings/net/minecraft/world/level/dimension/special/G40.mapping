@@ -1,0 +1,10 @@
+CLASS cir net/minecraft/world/level/dimension/special/G40
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD k createRandomLevelGenerator ()Lcfl;
+	CLASS a Generator
+		FIELD e STATE_PROVIDER Lcpw;
+		FIELD i noise Lcvs;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Lbny;Lbpc;Lcjg;)V
+		METHOD a applyBiomeDecoration (Lyt;)V
+		METHOD g getType ()Lcfn;

@@ -1,0 +1,14 @@
+CLASS ctg net/minecraft/world/level/levelgen/structure/NetherFossilPieces
+	FIELD a FOSSILS [Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a addPieces (Lcuq;Ljava/util/List;Ljava/util/Random;Lfo;)V
+	CLASS a NetherFossilPiece
+		FIELD d templateLocation Lts;
+		FIELD e rotation Lbyv;
+		METHOD <init> <init> (Lcuq;Lkz;)V
+		METHOD <init> <init> (Lcuq;Lts;Lfo;Lbyv;)V
+		METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+		METHOD a loadTemplate (Lcuq;)V
+		METHOD a handleDataMarker (Ljava/lang/String;Lfo;Lbny;Ljava/util/Random;Lcsw;)V
+		METHOD a addAdditionalSaveData (Lkz;)V

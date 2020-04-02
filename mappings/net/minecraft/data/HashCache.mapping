@@ -1,0 +1,22 @@
+CLASS hi net/minecraft/data/HashCache
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b path Ljava/nio/file/Path;
+	FIELD c cachePath Ljava/nio/file/Path;
+	FIELD d hits I
+	FIELD e oldCache Ljava/util/Map;
+	FIELD f newCache Ljava/util/Map;
+	FIELD g keep Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/nio/file/Path;Ljava/lang/String;)V
+	METHOD a purgeStaleAndWrite ()V
+	METHOD a getHash (Ljava/nio/file/Path;)Ljava/lang/String;
+	METHOD a putNew (Ljava/nio/file/Path;Ljava/lang/String;)V
+	METHOD a lambda$purgeStaleAndWrite$2 (Ljava/util/Map$Entry;)Ljava/lang/String;
+	METHOD b removeStale ()V
+	METHOD b had (Ljava/nio/file/Path;)Z
+	METHOD b lambda$new$1 (Ljava/nio/file/Path;Ljava/lang/String;)V
+	METHOD c walkOutputFiles ()Ljava/util/stream/Stream;
+	METHOD c keep (Ljava/nio/file/Path;)V
+	METHOD d lambda$walkOutputFiles$4 (Ljava/nio/file/Path;)Z
+	METHOD e lambda$removeStale$3 (Ljava/nio/file/Path;)V
+	METHOD f lambda$new$0 (Ljava/nio/file/Path;)V

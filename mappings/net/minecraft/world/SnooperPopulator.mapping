@@ -1,0 +1,4 @@
+CLASS ame net/minecraft/world/SnooperPopulator
+	METHOD W isSnooperEnabled ()Z
+	METHOD a populateSnooper (Lamd;)V
+	METHOD b populateSnooperInitial (Lamd;)V

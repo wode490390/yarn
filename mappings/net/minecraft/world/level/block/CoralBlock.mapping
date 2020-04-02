@@ -1,0 +1,7 @@
+CLASS but net/minecraft/world/level/block/CoralBlock
+	FIELD a deadBlock Lbtu;
+	METHOD <init> <init> (Lbtu;Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a scanForWater (Lbnh;Lfo;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V

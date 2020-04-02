@@ -1,0 +1,10 @@
+CLASS gk net/minecraft/core/SerializableBoolean
+	FIELD a value Z
+	METHOD <init> <init> (Z)V
+	METHOD a value ()Z
+	METHOD a of (Lcom/mojang/datafixers/Dynamic;)Lgk;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a of (Z)Lgk;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,27 @@
+CLASS jk net/minecraft/data/structures/SnbtToNbt
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c generator Lhg;
+	FIELD d filters Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lhg;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a run (Lhi;)V
+	METHOD a lambda$run$3 (Lhi;Ljava/nio/file/Path;Ljk$b;)V
+	METHOD a storeStructureIfChanged (Lhi;Ljk$b;Ljava/nio/file/Path;)V
+	METHOD a applyFilters (Ljava/lang/String;Lkz;)Lkz;
+	METHOD a lambda$run$0 (Ljava/nio/file/Path;)Z
+	METHOD a readStructure (Ljava/nio/file/Path;Ljava/lang/String;)Ljk$b;
+	METHOD a getName (Ljava/nio/file/Path;Ljava/nio/file/Path;)Ljava/lang/String;
+	METHOD a lambda$run$2 (Ljava/util/List;Ljava/nio/file/Path;Ljava/nio/file/Path;)V
+	METHOD a addFilter (Ljk$a;)Ljk;
+	METHOD b lambda$null$1 (Ljava/nio/file/Path;Ljava/nio/file/Path;)Ljk$b;
+	CLASS a Filter
+		METHOD a apply (Ljava/lang/String;Lkz;)Lkz;
+	CLASS b TaskResult
+		FIELD a name Ljava/lang/String;
+		FIELD b payload [B
+		FIELD c hash Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;[BLjava/lang/String;)V
+		METHOD a access$000 (Ljk$b;)Ljava/lang/String;
+		METHOD b access$100 (Ljk$b;)Ljava/lang/String;
+		METHOD c access$200 (Ljk$b;)[B

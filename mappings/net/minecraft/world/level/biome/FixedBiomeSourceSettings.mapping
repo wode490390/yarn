@@ -1,0 +1,5 @@
+CLASS bqd net/minecraft/world/level/biome/FixedBiomeSourceSettings
+	FIELD a biome Lboy;
+	METHOD <init> <init> (J)V
+	METHOD a getBiome ()Lboy;
+	METHOD a setBiome (Lboy;)Lbqd;

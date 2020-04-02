@@ -1,0 +1,15 @@
+CLASS bxd net/minecraft/world/level/block/Lantern
+	FIELD a HANGING Lcel;
+	FIELD b AABB Ldej;
+	FIELD c HANGING_AABB Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b isUnstable ()Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD f getPistonPushReaction (Lcdt;)Lcwt;
+	METHOD h getConnectedDirection (Lcdt;)Lft;

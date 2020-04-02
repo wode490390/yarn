@@ -1,0 +1,15 @@
+CLASS ddm net/minecraft/world/phys/HitResult
+	FIELD a location Lddp;
+	METHOD <init> <init> (Lddp;)V
+	METHOD a distanceTo (Lanb;)D
+	METHOD c getType ()Lddm$a;
+	METHOD e getLocation ()Lddp;
+	CLASS a Type
+		FIELD a MISS Lddm$a;
+		FIELD b BLOCK Lddm$a;
+		FIELD c ENTITY Lddm$a;
+		FIELD d $VALUES [Lddm$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lddm$a;
+		METHOD values values ()[Lddm$a;

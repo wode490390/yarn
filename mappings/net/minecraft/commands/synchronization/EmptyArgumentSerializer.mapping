@@ -1,0 +1,6 @@
+CLASS fc net/minecraft/commands/synchronization/EmptyArgumentSerializer
+	FIELD a constructor Ljava/util/function/Supplier;
+	METHOD <init> <init> (Ljava/util/function/Supplier;)V
+	METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
+	METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/ArgumentType;Lmb;)V
+	METHOD b deserializeFromNetwork (Lmb;)Lcom/mojang/brigadier/arguments/ArgumentType;

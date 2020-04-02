@@ -1,0 +1,14 @@
+CLASS cyv net/minecraft/world/level/pathfinder/PathFinder
+	FIELD a neighbors [Lcyr;
+	FIELD b maxVisitedNodes I
+	FIELD c nodeEvaluator Lcys;
+	FIELD d openSet Lcyo;
+	METHOD <init> <init> (Lcys;I)V
+	METHOD a findPath (Lboj;Lann;Ljava/util/Set;FIF)Lcyt;
+	METHOD a lambda$findPath$1 (Lcyr;ILcyx;)Z
+	METHOD a reconstructPath (Lcyr;Lfo;Z)Lcyt;
+	METHOD a findPath (Lcyr;Ljava/util/Map;FIF)Lcyt;
+	METHOD a getBestH (Lcyr;Ljava/util/Set;)F
+	METHOD a lambda$findPath$0 (Lfo;)Lcyx;
+	METHOD a lambda$findPath$3 (Ljava/util/Map;Lcyx;)Lcyt;
+	METHOD b lambda$findPath$2 (Ljava/util/Map;Lcyx;)Lcyt;

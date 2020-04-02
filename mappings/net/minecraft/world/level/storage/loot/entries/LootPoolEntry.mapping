@@ -1,0 +1,3 @@
+CLASS das net/minecraft/world/level/storage/loot/entries/LootPoolEntry
+	METHOD a getWeight (F)I
+	METHOD a createItemStack (Ljava/util/function/Consumer;Ldaa;)V

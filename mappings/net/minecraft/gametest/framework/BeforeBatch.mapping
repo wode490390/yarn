@@ -1,0 +1,2 @@
+CLASS jt net/minecraft/gametest/framework/BeforeBatch
+	METHOD a batch ()Ljava/lang/String;

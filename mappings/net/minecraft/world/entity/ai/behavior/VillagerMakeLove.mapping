@@ -1,0 +1,21 @@
+CLASS arg net/minecraft/world/entity/ai/behavior/VillagerMakeLove
+	FIELD b birthTimestamp J
+	METHOD <init> <init> ()V
+	METHOD a lambda$isBreedingPossible$0 (Lamz;)Z
+	METHOD a isBreedingPossible (Lbbu;)Z
+	METHOD a breed (Lbbu;Lbbu;)Ljava/util/Optional;
+	METHOD a canReach (Lbbu;Lfo;)Z
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a checkExtraStartConditions (Lyn;Lbbu;)Z
+	METHOD a canStillUse (Lyn;Lbbu;J)Z
+	METHOD a tryToGiveBirth (Lyn;Lbbu;Lbbu;)V
+	METHOD a giveBedToChild (Lyn;Lbbu;Lfo;)V
+	METHOD b lambda$takeVacantBed$1 (Lbbu;Lfo;)Z
+	METHOD b canStillUse (Lyn;Lanm;J)Z
+	METHOD b takeVacantBed (Lyn;Lbbu;)Ljava/util/Optional;
+	METHOD b start (Lyn;Lbbu;J)V
+	METHOD c stop (Lyn;Lanm;J)V
+	METHOD c tick (Lyn;Lbbu;J)V
+	METHOD d tick (Lyn;Lanm;J)V
+	METHOD d stop (Lyn;Lbbu;J)V

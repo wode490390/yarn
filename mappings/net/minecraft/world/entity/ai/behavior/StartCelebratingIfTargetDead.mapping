@@ -1,0 +1,6 @@
+CLASS aqr net/minecraft/world/entity/ai/behavior/StartCelebratingIfTargetDead
+	FIELD b celebrateDuration I
+	METHOD <init> <init> (I)V
+	METHOD a getAttackTarget (Lanm;)Lanm;
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V

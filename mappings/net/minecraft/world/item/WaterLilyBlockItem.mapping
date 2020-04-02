@@ -1,0 +1,4 @@
+CLASS bka net/minecraft/world/item/WaterLilyBlockItem
+	METHOD <init> <init> (Lbtu;Lbii$a;)V
+	METHOD a useOn (Lbjz;)Lalv;
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;

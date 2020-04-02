@@ -1,0 +1,5 @@
+CLASS crw net/minecraft/world/level/levelgen/placement/ForestRockPlacementDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getPositions (Lbny;Lcfl;Ljava/util/Random;Lcoc;Lfo;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lbny;Lcfl;Ljava/util/Random;Lcry;Lfo;)Ljava/util/stream/Stream;
+	METHOD a lambda$getPositions$0 (Ljava/util/Random;Lfo;Lbny;I)Lfo;

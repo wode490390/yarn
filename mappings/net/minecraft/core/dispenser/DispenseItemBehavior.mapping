@@ -1,0 +1,101 @@
+CLASS gt net/minecraft/core/dispenser/DispenseItemBehavior
+	FIELD a NOOP Lgt;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$0 (Lfp;Lbin;)Lbin;
+	METHOD c bootStrap ()V
+	METHOD dispense dispense (Lfp;Lbin;)Lbin;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getProjectile (Lbnx;Lgf;Lbin;)Lbcw;
+	CLASS 2 10
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 3 11
+		METHOD <init> <init> ()V
+		METHOD a playSound (Lfp;)V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 4 12
+		METHOD <init> <init> ()V
+		METHOD a lambda$execute$0 (Lbin;Lbcz;)V
+		METHOD a playSound (Lfp;)V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 5 13
+		FIELD b defaultDispenseItemBehavior Lgs;
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 6 14
+		FIELD b defaultDispenseItemBehavior Lgs;
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 7 15
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 8 16
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 9 17
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 10 18
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 11 19
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 12 2
+		METHOD <init> <init> ()V
+		METHOD a getProjectile (Lbnx;Lgf;Lbin;)Lbcw;
+	CLASS 13 20
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 14 21
+		FIELD c defaultDispenseItemBehavior Lgs;
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+		METHOD a takeLiquid (Lfp;Lbin;Lbin;)Lbin;
+	CLASS 15 22
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 16 23
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;
+	CLASS 17 3
+		METHOD <init> <init> ()V
+		METHOD a getProjectile (Lbnx;Lgf;Lbin;)Lbcw;
+	CLASS 18 4
+		METHOD <init> <init> ()V
+		METHOD a lambda$getProjectile$0 (Lbin;Lbde;)V
+		METHOD a getProjectile (Lbnx;Lgf;Lbin;)Lbcw;
+	CLASS 19 5
+		METHOD <init> <init> ()V
+		METHOD a lambda$getProjectile$0 (Lbin;Lbda;)V
+		METHOD a getProjectile (Lbnx;Lgf;Lbin;)Lbcw;
+	CLASS 20 6
+		METHOD <init> <init> ()V
+		METHOD a getUncertainty ()F
+		METHOD a lambda$getProjectile$0 (Lbin;Lbdg;)V
+		METHOD a getProjectile (Lbnx;Lgf;Lbin;)Lbcw;
+		METHOD b getPower ()F
+	CLASS 21 7
+		METHOD <init> <init> ()V
+		METHOD dispense dispense (Lfp;Lbin;)Lbin;
+		CLASS 1 1
+			FIELD b this$0 Lgt$21;
+			METHOD <init> <init> (Lgt$21;)V
+			METHOD a getUncertainty ()F
+			METHOD a lambda$getProjectile$0 (Lbin;Lbdh;)V
+			METHOD a getProjectile (Lbnx;Lgf;Lbin;)Lbcw;
+			METHOD b getPower ()F
+	CLASS 22 8
+		METHOD <init> <init> ()V
+		METHOD dispense dispense (Lfp;Lbin;)Lbin;
+		CLASS 1 1
+			FIELD b this$0 Lgt$22;
+			METHOD <init> <init> (Lgt$22;)V
+			METHOD a getUncertainty ()F
+			METHOD a lambda$getProjectile$0 (Lbin;Lbdh;)V
+			METHOD a getProjectile (Lbnx;Lgf;Lbin;)Lbcw;
+			METHOD b getPower ()F
+	CLASS 23 9
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;

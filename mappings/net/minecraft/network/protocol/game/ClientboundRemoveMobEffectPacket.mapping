@@ -1,0 +1,11 @@
+CLASS pf net/minecraft/network/protocol/game/ClientboundRemoveMobEffectPacket
+	FIELD a entityId I
+	FIELD b effect Lamt;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILamt;)V
+	METHOD a getEntity (Lbnx;)Lanb;
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getEffect ()Lamt;
+	METHOD b write (Lmb;)V

@@ -1,0 +1,17 @@
+CLASS bbz net/minecraft/world/entity/npc/VillagerType
+	FIELD a DESERT Lbbz;
+	FIELD b JUNGLE Lbbz;
+	FIELD c PLAINS Lbbz;
+	FIELD d SAVANNA Lbbz;
+	FIELD e SNOW Lbbz;
+	FIELD f SWAMP Lbbz;
+	FIELD g TAIGA Lbbz;
+	FIELD h BY_BIOME Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD a byBiome (Lboy;)Lbbz;
+	METHOD a register (Ljava/lang/String;)Lbbz;
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V
+	CLASS 1 1
+		FIELD i val$name Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD toString toString ()Ljava/lang/String;

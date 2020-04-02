@@ -1,0 +1,7 @@
+CLASS cap net/minecraft/world/level/block/TwistingVines
+	FIELD e SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getBlocksToGrowWhenBonemealed (Ljava/util/Random;)I
+	METHOD e getBodyBlock ()Lbtu;
+	METHOD h canGrowInto (Lcdt;)Z

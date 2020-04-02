@@ -1,0 +1,55 @@
+CLASS dbp net/minecraft/world/level/storage/loot/functions/SetAttributesFunction
+	FIELD a modifiers Ljava/util/List;
+	METHOD <init> <init> ([Ldcq;Ljava/util/List;)V
+	METHOD <init> <init> ([Ldcq;Ljava/util/List;Ldbp$1;)V
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a access$800 (Ldbp;)Ljava/util/List;
+	METHOD a modifier (Ljava/lang/String;Ljava/lang/String;Laof$a;Ldai;)Ldbp$c;
+	METHOD b setAttributes ()Ldbp$a;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$entity$ai$attributes$AttributeModifier$Operation [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Builder
+		FIELD a modifiers Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Ldbp$a;
+		METHOD a withModifier (Ldbp$c;)Ldbp$a;
+		METHOD b build ()Ldbm;
+		METHOD d getThis ()Ldbl$a;
+	CLASS b Modifier
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Ljava/lang/String;
+		FIELD c operation Laof$a;
+		FIELD d amount Ldai;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots [Lang;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Laof$a;Ldai;[Lang;Ljava/util/UUID;)V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Laof$a;Ldai;[Lang;Ljava/util/UUID;Ldbp$1;)V
+		METHOD a operationToString (Laof$a;)Ljava/lang/String;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldbp$b;
+		METHOD a serialize (Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonObject;
+		METHOD a access$000 (Ldbp$b;)Ljava/util/UUID;
+		METHOD a operationFromString (Ljava/lang/String;)Laof$a;
+		METHOD b access$100 (Ldbp$b;)[Lang;
+		METHOD c access$200 (Ldbp$b;)Ljava/lang/String;
+		METHOD d access$300 (Ldbp$b;)Ljava/lang/String;
+		METHOD e access$400 (Ldbp$b;)Ldai;
+		METHOD f access$500 (Ldbp$b;)Laof$a;
+	CLASS c ModifierBuilder
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Ljava/lang/String;
+		FIELD c operation Laof$a;
+		FIELD d amount Ldai;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots Ljava/util/Set;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Laof$a;Ldai;)V
+		METHOD a build ()Ldbp$b;
+		METHOD a forSlot (Lang;)Ldbp$c;
+		METHOD a withUuid (Ljava/util/UUID;)Ldbp$c;
+	CLASS d Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbp;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbp;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

@@ -1,0 +1,14 @@
+CLASS daf net/minecraft/world/level/storage/loot/PredicateManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c conditions Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getKeys ()Ljava/util/Set;
+	METHOD a lambda$apply$0 (Lcom/google/common/collect/ImmutableMap$Builder;Lts;Lcom/google/gson/JsonObject;)V
+	METHOD a lambda$apply$2 (Ldaj;Lts;Ldcq;)V
+	METHOD a apply (Ljava/lang/Object;Laal;Lakx;)V
+	METHOD a lambda$apply$3 (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a apply (Ljava/util/Map;Laal;Lakx;)V
+	METHOD a get (Lts;)Ldcq;
+	METHOD b lambda$apply$1 (Lts;)Ldad;

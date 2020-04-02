@@ -1,0 +1,8 @@
+CLASS cck net/minecraft/world/level/block/entity/JukeboxBlockEntity
+	FIELD a record Lbin;
+	METHOD <init> <init> ()V
+	METHOD R_ clearContent ()V
+	METHOD a setRecord (Lbin;)V
+	METHOD a load (Lcdt;Lkz;)V
+	METHOD a save (Lkz;)Lkz;
+	METHOD d getRecord ()Lbin;

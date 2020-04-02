@@ -1,0 +1,6 @@
+CLASS bih net/minecraft/world/item/HorseArmorItem
+	FIELD a protection I
+	FIELD b texture Ljava/lang/String;
+	METHOD <init> <init> (ILjava/lang/String;Lbii$a;)V
+	METHOD f getTexture ()Lts;
+	METHOD g getProtection ()I

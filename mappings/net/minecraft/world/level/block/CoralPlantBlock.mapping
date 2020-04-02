@@ -1,0 +1,9 @@
+CLASS buv net/minecraft/world/level/block/CoralPlantBlock
+	FIELD a SHAPE Ldej;
+	FIELD c deadBlock Lbtu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbtu;Lcds$c;)V
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V

@@ -1,0 +1,4 @@
+CLASS bzx net/minecraft/world/level/block/StemGrownBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD d getStem ()Lbzw;
+	METHOD e getAttachedStem ()Lbsz;

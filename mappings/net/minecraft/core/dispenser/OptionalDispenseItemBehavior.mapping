@@ -1,0 +1,4 @@
+CLASS gu net/minecraft/core/dispenser/OptionalDispenseItemBehavior
+	FIELD b success Z
+	METHOD <init> <init> ()V
+	METHOD a playSound (Lfp;)V

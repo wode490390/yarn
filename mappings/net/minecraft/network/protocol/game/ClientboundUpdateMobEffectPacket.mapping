@@ -1,0 +1,20 @@
+CLASS qm net/minecraft/network/protocol/game/ClientboundUpdateMobEffectPacket
+	FIELD a entityId I
+	FIELD b effectId B
+	FIELD c effectAmplifier B
+	FIELD d effectDurationTicks I
+	FIELD e flags B
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILamv;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b isSuperLongDuration ()Z
+	METHOD b write (Lmb;)V
+	METHOD c getEntityId ()I
+	METHOD d getEffectId ()B
+	METHOD e getEffectAmplifier ()B
+	METHOD f getEffectDurationTicks ()I
+	METHOD g isEffectVisible ()Z
+	METHOD h isEffectAmbient ()Z
+	METHOD i effectShowsIcon ()Z

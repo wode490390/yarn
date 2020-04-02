@@ -1,0 +1,4 @@
+CLASS aeb net/minecraft/util/datafix/fixes/BiomeFix
+	FIELD a BIOMES Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V

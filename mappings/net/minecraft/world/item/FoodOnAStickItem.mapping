@@ -1,0 +1,5 @@
+CLASS bic net/minecraft/world/item/FoodOnAStickItem
+	FIELD a canInteractWith Lanf;
+	METHOD <init> <init> (Lbii$a;Lanf;)V
+	METHOD a lambda$use$0 (Lalu;Lbch;)V
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;

@@ -1,0 +1,13 @@
+CLASS hx net/minecraft/data/loot/FishingLoot
+	FIELD a IN_JUNGLE Ldcq$a;
+	FIELD b IN_JUNGLE_HILLS Ldcq$a;
+	FIELD c IN_JUNGLE_EDGE Ldcq$a;
+	FIELD d IN_BAMBOO_JUNGLE Ldcq$a;
+	FIELD e IN_MODIFIED_JUNGLE Ldcq$a;
+	FIELD f IN_MODIFIED_JUNGLE_EDGE Ldcq$a;
+	FIELD g IN_BAMBOO_JUNGLE_HILLS Ldcq$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a accept (Ljava/util/function/BiConsumer;)V
+	METHOD a lambda$accept$0 (Lkz;)V
+	METHOD accept accept (Ljava/lang/Object;)V

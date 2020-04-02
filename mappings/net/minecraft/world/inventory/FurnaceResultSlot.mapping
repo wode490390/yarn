@@ -1,0 +1,9 @@
+CLASS bfe net/minecraft/world/inventory/FurnaceResultSlot
+	FIELD a player Lbch;
+	FIELD b removeCount I
+	METHOD <init> <init> (Lbch;Lalo;III)V
+	METHOD a remove (I)Lbin;
+	METHOD a onTake (Lbch;Lbin;)Lbin;
+	METHOD a mayPlace (Lbin;)Z
+	METHOD a onQuickCraft (Lbin;I)V
+	METHOD c checkTakeAchievements (Lbin;)V

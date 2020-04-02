@@ -1,0 +1,11 @@
+CLASS cty net/minecraft/world/level/levelgen/structure/templatesystem/AxisAlignedLinearPosTest
+	FIELD a minChance F
+	FIELD b maxChance F
+	FIELD c minDist I
+	FIELD d maxDist I
+	FIELD e axis Lft$a;
+	METHOD <init> <init> (FFIILft$a;)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getType ()Lcuj;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a test (Lfo;Lfo;Lfo;Ljava/util/Random;)Z

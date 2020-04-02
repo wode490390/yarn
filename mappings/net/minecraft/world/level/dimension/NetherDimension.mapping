@@ -1,0 +1,20 @@
+CLASS cgw net/minecraft/world/level/dimension/NetherDimension
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD a isFoggyAt (II)Z
+	METHOD a getValidSpawnPosition (IIZ)Lfo;
+	METHOD a getTimeOfDay (JF)F
+	METHOD a getSpawnPosInChunk (Lbni;Z)Lfo;
+	METHOD a getBrightnessDependentFogColor (Lddp;F)Lddp;
+	METHOD a getBlockShade (Lft;Z)F
+	METHOD h createWorldBorder ()Lcfh;
+	METHOD k createRandomLevelGenerator ()Lcfl;
+	METHOD l isNaturalDimension ()Z
+	METHOD m mayRespawn ()Z
+	CLASS 1 1
+		FIELD a this$0 Lcgw;
+		METHOD <init> <init> (Lcgw;)V
+		METHOD g getCenterX ()D
+		METHOD h getCenterZ ()D
+	CLASS 2 2
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

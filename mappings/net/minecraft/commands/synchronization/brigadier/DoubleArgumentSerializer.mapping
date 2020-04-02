@@ -1,0 +1,8 @@
+CLASS ff net/minecraft/commands/synchronization/brigadier/DoubleArgumentSerializer
+	METHOD <init> <init> ()V
+	METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
+	METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/ArgumentType;Lmb;)V
+	METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/DoubleArgumentType;Lcom/google/gson/JsonObject;)V
+	METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/DoubleArgumentType;Lmb;)V
+	METHOD a deserializeFromNetwork (Lmb;)Lcom/mojang/brigadier/arguments/DoubleArgumentType;
+	METHOD b deserializeFromNetwork (Lmb;)Lcom/mojang/brigadier/arguments/ArgumentType;

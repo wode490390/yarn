@@ -1,0 +1,3 @@
+CLASS aoy net/minecraft/world/entity/ai/behavior/DoNothing
+	METHOD <init> <init> (II)V
+	METHOD b canStillUse (Lyn;Lanm;J)Z

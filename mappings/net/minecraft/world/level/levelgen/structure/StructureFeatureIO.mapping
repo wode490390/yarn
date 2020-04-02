@@ -1,0 +1,24 @@
+CLASS ctp net/minecraft/world/level/levelgen/structure/StructureFeatureIO
+	FIELD a MINESHAFT Lcna;
+	FIELD b PILLAGER_OUTPOST Lcna;
+	FIELD c NETHER_FORTRESS Lcna;
+	FIELD d STRONGHOLD Lcna;
+	FIELD e JUNGLE_PYRAMID Lcna;
+	FIELD f OCEAN_RUIN Lcna;
+	FIELD g DESERT_PYRAMID Lcna;
+	FIELD h IGLOO Lcna;
+	FIELD i SWAMP_HUT Lcna;
+	FIELD j OCEAN_MONUMENT Lcna;
+	FIELD k END_CITY Lcna;
+	FIELD l WOODLAND_MANSION Lcna;
+	FIELD m BURIED_TREASURE Lcna;
+	FIELD n SHIPWRECK Lcna;
+	FIELD o VILLAGE Lcna;
+	FIELD p NETHER_FOSSIL Lcna;
+	FIELD q SHIP Lcna;
+	FIELD r LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V
+	METHOD a loadStaticStart (Lcfl;Lcuq;Lkz;)Lcts;
+	METHOD a register (Ljava/lang/String;Lcna;)Lcna;

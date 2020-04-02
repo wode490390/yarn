@@ -1,0 +1,14 @@
+CLASS ku net/minecraft/locale/Language
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b UNSUPPORTED_FORMAT_PATTERN Ljava/util/regex/Pattern;
+	FIELD c SINGLETON Lku;
+	FIELD d storage Ljava/util/Map;
+	FIELD e lastUpdateTime J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getInstance ()Lku;
+	METHOD a getElement (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a forceData (Ljava/util/Map;)V
+	METHOD b getLastUpdateTime ()J
+	METHOD b exists (Ljava/lang/String;)Z
+	METHOD c getProperty (Ljava/lang/String;)Ljava/lang/String;

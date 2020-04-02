@@ -1,0 +1,26 @@
+CLASS ane net/minecraft/world/entity/EntitySelector
+	FIELD a ENTITY_STILL_ALIVE Ljava/util/function/Predicate;
+	FIELD b LIVING_ENTITY_STILL_ALIVE Ljava/util/function/Predicate;
+	FIELD c ENTITY_NOT_BEING_RIDDEN Ljava/util/function/Predicate;
+	FIELD d CONTAINER_ENTITY_SELECTOR Ljava/util/function/Predicate;
+	FIELD e NO_CREATIVE_OR_SPECTATOR Ljava/util/function/Predicate;
+	FIELD f ATTACK_ALLOWED Ljava/util/function/Predicate;
+	FIELD g NO_SPECTATORS Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a withinDistance (DDDD)Ljava/util/function/Predicate;
+	METHOD a lambda$withinDistance$5 (DDDDLanb;)Z
+	METHOD a pushableBy (Lanb;)Ljava/util/function/Predicate;
+	METHOD a lambda$notRiding$7 (Lanb;Lanb;)Z
+	METHOD a lambda$pushableBy$6 (Lanb;Lder;Lder$a;Lanb;)Z
+	METHOD b notRiding (Lanb;)Ljava/util/function/Predicate;
+	METHOD c lambda$static$4 (Lanb;)Z
+	METHOD d lambda$static$3 (Lanb;)Z
+	METHOD e lambda$static$2 (Lanb;)Z
+	METHOD f lambda$static$1 (Lanb;)Z
+	METHOD g lambda$static$0 (Lanb;)Z
+	CLASS a MobCanWearArmourEntitySelector
+		FIELD a itemStack Lbin;
+		METHOD <init> <init> (Lbin;)V
+		METHOD a test (Lanb;)Z
+		METHOD test test (Ljava/lang/Object;)Z

@@ -1,0 +1,8 @@
+CLASS cxy net/minecraft/world/level/newbiome/layer/SmoothLayer
+	FIELD a INSTANCE Lcxy;
+	FIELD b $VALUES [Lcxy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcxb;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxy;
+	METHOD values values ()[Lcxy;

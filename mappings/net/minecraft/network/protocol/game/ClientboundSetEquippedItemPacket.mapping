@@ -1,0 +1,13 @@
+CLASS pu net/minecraft/network/protocol/game/ClientboundSetEquippedItemPacket
+	FIELD a entity I
+	FIELD b slot Lang;
+	FIELD c itemStack Lbin;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILang;Lbin;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getItem ()Lbin;
+	METHOD b write (Lmb;)V
+	METHOD c getEntity ()I
+	METHOD d getSlot ()Lang;

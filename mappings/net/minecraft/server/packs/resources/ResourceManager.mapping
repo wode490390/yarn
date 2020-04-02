@@ -1,0 +1,7 @@
+CLASS aal net/minecraft/server/packs/resources/ResourceManager
+	METHOD a getNamespaces ()Ljava/util/Set;
+	METHOD a listResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a getResource (Lts;)Laak;
+	METHOD a add (Lzo;)V
+	METHOD b hasResource (Lts;)Z
+	METHOD c getResources (Lts;)Ljava/util/List;

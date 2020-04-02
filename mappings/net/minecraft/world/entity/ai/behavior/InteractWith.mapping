@@ -1,0 +1,23 @@
+CLASS apj net/minecraft/world/entity/ai/behavior/InteractWith
+	FIELD b maxDist I
+	FIELD c speedModifier F
+	FIELD d type Lanf;
+	FIELD e interactionRangeSqr I
+	FIELD f targetFilter Ljava/util/function/Predicate;
+	FIELD g selfFilter Ljava/util/function/Predicate;
+	FIELD h memory Laut;
+	METHOD <init> <init> (Lanf;ILjava/util/function/Predicate;Ljava/util/function/Predicate;Laut;FI)V
+	METHOD a of (Lanf;ILaut;FI)Lapj;
+	METHOD a of (Lanf;ILjava/util/function/Predicate;Laut;FI)Lapj;
+	METHOD a seesAtLeastOneValidTarget (Lanm;)Z
+	METHOD a lambda$null$5 (Lanm;Lanm;)Z
+	METHOD a lambda$start$7 (Lanm;Laoc;Ljava/util/List;)V
+	METHOD a lambda$null$6 (Laoc;Lanm;)V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD b isTargetValid (Lanm;)Z
+	METHOD c lambda$null$4 (Lanm;)Lanm;
+	METHOD d lambda$null$3 (Lanm;)Z
+	METHOD e lambda$of$2 (Lanm;)Z
+	METHOD f lambda$of$1 (Lanm;)Z
+	METHOD g lambda$of$0 (Lanm;)Z

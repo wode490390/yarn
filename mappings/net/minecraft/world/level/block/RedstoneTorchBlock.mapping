@@ -1,0 +1,23 @@
+CLASS byo net/minecraft/world/level/block/RedstoneTorchBlock
+	FIELD a LIT Lcel;
+	FIELD b RECENT_TOGGLES Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a lambda$isToggledTooFrequently$0 (Lbnh;)Ljava/util/List;
+	METHOD a hasNeighborSignal (Lbnx;Lfo;Lcdt;)Z
+	METHOD a isToggledTooFrequently (Lbnx;Lfo;Z)Z
+	METHOD a getSignal (Lcdt;Lbnh;Lfo;Lft;)I
+	METHOD a neighborChanged (Lcdt;Lbnx;Lfo;Lbtu;Lfo;Z)V
+	METHOD a onRemove (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getDirectSignal (Lcdt;Lbnh;Lfo;Lft;)I
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD b_ isSignalSource (Lcdt;)Z
+	CLASS a Toggle
+		FIELD a pos Lfo;
+		FIELD b when J
+		METHOD <init> <init> (Lfo;J)V
+		METHOD a access$000 (Lbyo$a;)J
+		METHOD b access$100 (Lbyo$a;)Lfo;

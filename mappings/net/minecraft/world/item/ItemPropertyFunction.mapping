@@ -1,0 +1,2 @@
+CLASS bim net/minecraft/world/item/ItemPropertyFunction
+	METHOD call call (Lbin;Lbnx;Lanm;)F

@@ -1,0 +1,7 @@
+CLASS cjy net/minecraft/world/level/levelgen/feature/AbstractFlowerFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a isValid (Lbny;Lfo;Lcof;)Z
+	METHOD a getCount (Lcof;)I
+	METHOD a getPos (Ljava/util/Random;Lfo;Lcof;)Lfo;
+	METHOD b getRandomFlower (Ljava/util/Random;Lfo;Lcof;)Lcdt;

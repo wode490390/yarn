@@ -1,0 +1,29 @@
+CLASS bea net/minecraft/world/entity/vehicle/MinecartCommandBlock
+	FIELD b DATA_ID_COMMAND_NAME Lth;
+	FIELD c DATA_ID_LAST_OUTPUT Lth;
+	FIELD d commandBlock Lbnd;
+	FIELD e lastActivated I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDD)V
+	METHOD a activateMinecart (IIIZ)V
+	METHOD a interact (Lbch;Lalu;)Z
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD a onSyncedDataUpdated (Lth;)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD cf onlyOpCanSetNbt ()Z
+	METHOD o getMinecartType ()Lbdv$a;
+	METHOD q getDefaultDisplayBlockState ()Lcdt;
+	METHOD v getCommandBlock ()Lbnd;
+	METHOD w access$000 ()Lth;
+	METHOD w_ defineSynchedData ()V
+	METHOD z access$100 ()Lth;
+	CLASS a MinecartCommandBase
+		FIELD b this$0 Lbea;
+		METHOD <init> <init> (Lbea;)V
+		METHOD a writeCoordinates (Lio/netty/buffer/ByteBuf;)V
+		METHOD d getLevel ()Lyn;
+		METHOD e onUpdated ()V
+		METHOD f getPosition ()Lddp;
+		METHOD g getMinecart ()Lbea;
+		METHOD h createCommandSourceStack ()Lcu;

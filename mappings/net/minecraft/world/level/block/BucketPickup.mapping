@@ -1,0 +1,2 @@
+CLASS bua net/minecraft/world/level/block/BucketPickup
+	METHOD b takeLiquid (Lbny;Lfo;Lcdt;)Lcwm;

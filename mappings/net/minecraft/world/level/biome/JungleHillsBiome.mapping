@@ -1,0 +1,2 @@
+CLASS bqs net/minecraft/world/level/biome/JungleHillsBiome
+	METHOD <init> <init> ()V

@@ -1,0 +1,4 @@
+CLASS csk net/minecraft/world/level/levelgen/placement/TopSolidHeightMapDecorator
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getPositions (Lbny;Lcfl;Ljava/util/Random;Lcoc;Lfo;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lbny;Lcfl;Ljava/util/Random;Lcom;Lfo;)Ljava/util/stream/Stream;

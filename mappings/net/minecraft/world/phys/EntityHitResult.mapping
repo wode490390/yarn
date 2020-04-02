@@ -1,0 +1,6 @@
+CLASS ddl net/minecraft/world/phys/EntityHitResult
+	FIELD b entity Lanb;
+	METHOD <init> <init> (Lanb;)V
+	METHOD <init> <init> (Lanb;Lddp;)V
+	METHOD a getEntity ()Lanb;
+	METHOD c getType ()Lddm$a;

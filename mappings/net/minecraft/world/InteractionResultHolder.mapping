@@ -1,0 +1,10 @@
+CLASS alw net/minecraft/world/InteractionResultHolder
+	FIELD a result Lalv;
+	FIELD b object Ljava/lang/Object;
+	METHOD <init> <init> (Lalv;Ljava/lang/Object;)V
+	METHOD a getResult ()Lalv;
+	METHOD a success (Ljava/lang/Object;)Lalw;
+	METHOD b getObject ()Ljava/lang/Object;
+	METHOD b consume (Ljava/lang/Object;)Lalw;
+	METHOD c pass (Ljava/lang/Object;)Lalw;
+	METHOD d fail (Ljava/lang/Object;)Lalw;

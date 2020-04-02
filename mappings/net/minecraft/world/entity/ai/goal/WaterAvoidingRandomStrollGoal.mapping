@@ -1,0 +1,5 @@
+CLASS aub net/minecraft/world/entity/ai/goal/WaterAvoidingRandomStrollGoal
+	FIELD h probability F
+	METHOD <init> <init> (Lant;D)V
+	METHOD <init> <init> (Lant;DF)V
+	METHOD g getPosition ()Lddp;

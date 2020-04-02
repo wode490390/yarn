@@ -1,0 +1,48 @@
+CLASS mq net/minecraft/network/chat/NbtComponent
+	FIELD b interpreting Z
+	FIELD c nbtPathPattern Ljava/lang/String;
+	FIELD d compiledNbtPath Ldi$h;
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;Ldi$h;Z)V
+	METHOD <init> <init> (Ljava/lang/String;Z)V
+	METHOD a getData (Lcu;)Ljava/util/stream/Stream;
+	METHOD a resolve (Lcu;Lanb;I)Lml;
+	METHOD a lambda$resolve$1 (Lcu;Lanb;ILjava/lang/String;)Ljava/util/stream/Stream;
+	METHOD a lambda$resolve$0 (Lkz;)Ljava/util/stream/Stream;
+	METHOD a lambda$resolve$2 (Lml;Lml;)Lml;
+	METHOD b compileNbtPath (Ljava/lang/String;)Ldi$h;
+	METHOD d getContents ()Ljava/lang/String;
+	METHOD i getNbtPath ()Ljava/lang/String;
+	METHOD j isInterpreting ()Z
+	CLASS a BlockNbtComponent
+		FIELD e posPattern Ljava/lang/String;
+		FIELD f compiledPos Led;
+		METHOD <init> <init> (Ljava/lang/String;Ldi$h;ZLjava/lang/String;Led;)V
+		METHOD <init> <init> (Ljava/lang/String;ZLjava/lang/String;)V
+		METHOD a getData (Lcu;)Ljava/util/stream/Stream;
+		METHOD b compilePos (Ljava/lang/String;)Led;
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD g copy ()Lml;
+		METHOD k getPos ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS b EntityNbtComponent
+		FIELD e selectorPattern Ljava/lang/String;
+		FIELD f compiledSelector Let;
+		METHOD <init> <init> (Ljava/lang/String;Ldi$h;ZLjava/lang/String;Let;)V
+		METHOD <init> <init> (Ljava/lang/String;ZLjava/lang/String;)V
+		METHOD a getData (Lcu;)Ljava/util/stream/Stream;
+		METHOD b compileSelector (Ljava/lang/String;)Let;
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD g copy ()Lml;
+		METHOD k getSelector ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c StorageNbtComponent
+		FIELD e id Lts;
+		METHOD <init> <init> (Ljava/lang/String;Ldi$h;ZLts;)V
+		METHOD <init> <init> (Ljava/lang/String;ZLts;)V
+		METHOD a getData (Lcu;)Ljava/util/stream/Stream;
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD g copy ()Lml;
+		METHOD k getId ()Lts;
+		METHOD toString toString ()Ljava/lang/String;

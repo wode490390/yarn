@@ -1,0 +1,24 @@
+CLASS cbk net/minecraft/world/level/block/entity/BannerBlockEntity
+	FIELD a name Lml;
+	FIELD b baseColor Lbhi;
+	FIELD c itemPatterns Llf;
+	FIELD g receivedData Z
+	FIELD h patterns Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbhi;)V
+	METHOD P getName ()Lml;
+	METHOD R getCustomName ()Lml;
+	METHOD a getUpdatePacket ()Lnn;
+	METHOD a createPatterns (Lbhi;Llf;)Ljava/util/List;
+	METHOD a getItemPatterns (Lbin;)Llf;
+	METHOD a fromItem (Lbin;Lbhi;)V
+	METHOD a getItem (Lcdt;)Lbin;
+	METHOD a load (Lcdt;Lkz;)V
+	METHOD a getBaseColor (Ljava/util/function/Supplier;)Lbhi;
+	METHOD a save (Lkz;)Lkz;
+	METHOD a setCustomName (Lml;)V
+	METHOD b getUpdateTag ()Lkz;
+	METHOD b getPatternCount (Lbin;)I
+	METHOD b lambda$getItem$0 (Lcdt;)Lcdt;
+	METHOD c getPatterns ()Ljava/util/List;
+	METHOD c removeLastPattern (Lbin;)V

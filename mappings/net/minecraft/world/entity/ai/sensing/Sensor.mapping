@@ -1,0 +1,10 @@
+CLASS avr net/minecraft/world/entity/ai/sensing/Sensor
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD b scanRate I
+	FIELD c timeToTick J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Lyn;Lanm;)V
+	METHOD b tick (Lyn;Lanm;)V

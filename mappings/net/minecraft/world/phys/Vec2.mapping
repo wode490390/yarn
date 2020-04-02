@@ -1,0 +1,23 @@
+CLASS ddo net/minecraft/world/phys/Vec2
+	FIELD a ZERO Lddo;
+	FIELD b ONE Lddo;
+	FIELD c UNIT_X Lddo;
+	FIELD d NEG_UNIT_X Lddo;
+	FIELD e UNIT_Y Lddo;
+	FIELD f NEG_UNIT_Y Lddo;
+	FIELD g MAX Lddo;
+	FIELD h MIN Lddo;
+	FIELD i x F
+	FIELD j y F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FF)V
+	METHOD a normalized ()Lddo;
+	METHOD a scale (F)Lddo;
+	METHOD a dot (Lddo;)F
+	METHOD b length ()F
+	METHOD b add (F)Lddo;
+	METHOD b add (Lddo;)Lddo;
+	METHOD c lengthSquared ()F
+	METHOD c equals (Lddo;)Z
+	METHOD d negated ()Lddo;
+	METHOD d distanceToSqr (Lddo;)F

@@ -1,0 +1,40 @@
+CLASS bfi net/minecraft/world/inventory/InventoryMenu
+	FIELD c BLOCK_ATLAS Lts;
+	FIELD d EMPTY_ARMOR_SLOT_HELMET Lts;
+	FIELD e EMPTY_ARMOR_SLOT_CHESTPLATE Lts;
+	FIELD f EMPTY_ARMOR_SLOT_LEGGINGS Lts;
+	FIELD g EMPTY_ARMOR_SLOT_BOOTS Lts;
+	FIELD h EMPTY_ARMOR_SLOT_SHIELD Lts;
+	FIELD i active Z
+	FIELD j TEXTURE_EMPTY_SLOTS [Lts;
+	FIELD k SLOT_IDS [Lang;
+	FIELD l craftSlots Lbex;
+	FIELD m resultSlots Lbfu;
+	FIELD n owner Lbch;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbcg;ZLbch;)V
+	METHOD a slotsChanged (Lalo;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD a fillCraftSlotsStackedContents (Lbcj;)V
+	METHOD a canTakeItemForPickAll (Lbin;Lbfz;)Z
+	METHOD a recipeMatches (Lbkw;)Z
+	METHOD b removed (Lbch;)V
+	METHOD b quickMoveStack (Lbch;I)Lbin;
+	METHOD e clearCraftingContent ()V
+	METHOD f getResultSlotIndex ()I
+	METHOD g getGridWidth ()I
+	METHOD h getGridHeight ()I
+	METHOD i getSize ()I
+	METHOD j access$000 ()[Lts;
+	CLASS 1 1
+		FIELD a val$slot Lang;
+		FIELD b this$0 Lbfi;
+		METHOD <init> <init> (Lbfi;Lalo;IIILang;)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPickup (Lbch;)Z
+		METHOD a mayPlace (Lbin;)Z
+		METHOD c getNoItemIcon ()Lcom/mojang/datafixers/util/Pair;
+	CLASS 2 2
+		FIELD a this$0 Lbfi;
+		METHOD <init> <init> (Lbfi;Lalo;III)V
+		METHOD c getNoItemIcon ()Lcom/mojang/datafixers/util/Pair;

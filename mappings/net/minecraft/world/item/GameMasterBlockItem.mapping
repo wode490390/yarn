@@ -1,0 +1,3 @@
+CLASS bid net/minecraft/world/item/GameMasterBlockItem
+	METHOD <init> <init> (Lbtu;Lbii$a;)V
+	METHOD c getPlacementState (Lbgq;)Lcdt;

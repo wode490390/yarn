@@ -1,0 +1,8 @@
+CLASS ctt net/minecraft/world/level/levelgen/structure/SwamplandHutPiece
+	FIELD e spawnedWitch Z
+	FIELD f spawnedCat Z
+	METHOD <init> <init> (Lcuq;Lkz;)V
+	METHOD <init> <init> (Ljava/util/Random;II)V
+	METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	METHOD a spawnCat (Lbny;Lcsw;)V
+	METHOD a addAdditionalSaveData (Lkz;)V

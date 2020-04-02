@@ -1,0 +1,7 @@
+CLASS agc net/minecraft/util/datafix/fixes/EntityZombieVillagerTypeFix
+	FIELD a RANDOM Ljava/util/Random;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a getVillagerProfession (I)I
+	METHOD a fixTag (Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;

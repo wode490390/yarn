@@ -1,0 +1,5 @@
+CLASS agd net/minecraft/util/datafix/fixes/EntityZombifiedPiglinRenameFix
+	FIELD a RENAMED_IDS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a rename (Ljava/lang/String;)Ljava/lang/String;

@@ -1,0 +1,25 @@
+CLASS aow net/minecraft/world/entity/ai/behavior/CrossbowAttack
+	FIELD b attackDelay I
+	FIELD c crossbowState Laow$a;
+	METHOD <init> <init> ()V
+	METHOD a getAttackTarget (Lanm;)Lanm;
+	METHOD a crossbowAttack (Lann;Lanm;)V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a checkExtraStartConditions (Lyn;Lann;)Z
+	METHOD a canStillUse (Lyn;Lann;J)Z
+	METHOD b lookAtTarget (Lann;Lanm;)V
+	METHOD b canStillUse (Lyn;Lanm;J)Z
+	METHOD b tick (Lyn;Lann;J)V
+	METHOD c stop (Lyn;Lanm;J)V
+	METHOD c stop (Lyn;Lann;J)V
+	METHOD d tick (Lyn;Lanm;J)V
+	CLASS a CrossbowState
+		FIELD a UNCHARGED Laow$a;
+		FIELD b CHARGING Laow$a;
+		FIELD c CHARGED Laow$a;
+		FIELD d READY_TO_ATTACK Laow$a;
+		FIELD e $VALUES [Laow$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Laow$a;
+		METHOD values values ()[Laow$a;

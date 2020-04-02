@@ -1,0 +1,23 @@
+CLASS cpf net/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration
+	FIELD m trunkProvider Lcpq;
+	FIELD n leavesProvider Lcpq;
+	FIELD o decorators Ljava/util/List;
+	FIELD p baseHeight I
+	FIELD q fromSapling Z
+	METHOD <init> <init> (Lcpq;Lcpq;Ljava/util/List;I)V
+	METHOD a setFromSapling ()V
+	METHOD a lambda$deserialize$2 (Lcom/mojang/datafixers/Dynamic;)Lcqo;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$1 (Lcom/mojang/datafixers/types/DynamicOps;Lcqo;)Ljava/lang/Object;
+	METHOD a lambda$random$0 (Ljava/util/Random;Lcqp;)Lcqo;
+	METHOD b deserialize (Lcom/mojang/datafixers/Dynamic;)Lcpf;
+	METHOD c random (Ljava/util/Random;)Lcpf;
+	CLASS a TreeConfigurationBuilder
+		FIELD a trunkProvider Lcpq;
+		FIELD b leavesProvider Lcpq;
+		FIELD c decorators Ljava/util/List;
+		FIELD d baseHeight I
+		METHOD <init> <init> (Lcpq;Lcpq;)V
+		METHOD b build ()Lcpf;
+		METHOD b decorators (Ljava/util/List;)Lcpf$a;
+		METHOD d baseHeight (I)Lcpf$a;

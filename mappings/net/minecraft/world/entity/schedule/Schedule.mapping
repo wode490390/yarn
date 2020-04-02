@@ -1,0 +1,15 @@
+CLASS bdr net/minecraft/world/entity/schedule/Schedule
+	FIELD a EMPTY Lbdr;
+	FIELD b SIMPLE Lbdr;
+	FIELD c VILLAGER_BABY Lbdr;
+	FIELD d VILLAGER_DEFAULT Lbdr;
+	FIELD e timelines Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getActivityAt (I)Lbdp;
+	METHOD a lambda$getActivityAt$1 (ILjava/util/Map$Entry;)D
+	METHOD a ensureTimelineExistsFor (Lbdp;)V
+	METHOD a lambda$getAllTimelinesExceptFor$0 (Lbdp;Ljava/util/Map$Entry;)Z
+	METHOD a register (Ljava/lang/String;)Lbds;
+	METHOD b getTimelineFor (Lbdp;)Lbdt;
+	METHOD c getAllTimelinesExceptFor (Lbdp;)Ljava/util/List;

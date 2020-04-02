@@ -1,0 +1,11 @@
+CLASS cut net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorType
+	FIELD b BLOCK_IGNORE Lcut;
+	FIELD c BLOCK_ROT Lcut;
+	FIELD d GRAVITY Lcut;
+	FIELD e JIGSAW_REPLACEMENT Lcut;
+	FIELD f RULE Lcut;
+	FIELD g NOP Lcut;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$1 (Lcom/mojang/datafixers/Dynamic;)Lcus;
+	METHOD a register (Ljava/lang/String;Lcut;)Lcut;
+	METHOD b lambda$static$0 (Lcom/mojang/datafixers/Dynamic;)Lcus;

@@ -1,0 +1,9 @@
+CLASS clw net/minecraft/world/level/levelgen/feature/MegaTreeFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a prepareTree (Lboc;Lfo;I)Z
+	METHOD a placeTrunk (Lboc;Ljava/util/Random;Lfo;ILjava/util/Set;Lcsw;Lcoj;)V
+	METHOD a placeDoubleTrunkLeaves (Lboc;Ljava/util/Random;Lfo;ILjava/util/Set;Lcsw;Lcpf;)V
+	METHOD a checkIsFree (Lbod;Lfo;I)Z
+	METHOD a calcTreeHeigth (Ljava/util/Random;Lcoj;)I
+	METHOD b makeDirtFloor (Lboc;Lfo;)Z
+	METHOD b placeSingleTrunkLeaves (Lboc;Ljava/util/Random;Lfo;ILjava/util/Set;Lcsw;Lcpf;)V

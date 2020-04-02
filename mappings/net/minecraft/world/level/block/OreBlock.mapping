@@ -1,0 +1,4 @@
+CLASS bxz net/minecraft/world/level/block/OreBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a spawnAfterBreak (Lcdt;Lbnx;Lfo;Lbin;)V
+	METHOD a xpOnDrop (Ljava/util/Random;)I

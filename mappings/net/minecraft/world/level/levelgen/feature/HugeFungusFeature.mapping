@@ -1,0 +1,13 @@
+CLASS cll net/minecraft/world/level/levelgen/feature/HugeFungusFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lclk;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a isReplaceablePlant (Lbny;Lfo;)Z
+	METHOD a findOnNyliumPosition (Lbny;Lfo;Lbtu;)Lfo$a;
+	METHOD a placeHatBlock (Lbny;Ljava/util/Random;Lclk;Lfo$a;FFF)V
+	METHOD a placeStem (Lbny;Ljava/util/Random;Lclk;Lfo;IZ)V
+	METHOD a placeHatDropBlock (Lbny;Ljava/util/Random;Lfo;Lcdt;Z)V
+	METHOD a lambda$isReplaceablePlant$0 (Lcdt;)Z
+	METHOD a tryPlaceWeepingVines (Lfo;Lbny;Ljava/util/Random;)V
+	METHOD b isReplaceable (Lbny;Lfo;)Z
+	METHOD b placeHat (Lbny;Ljava/util/Random;Lclk;Lfo;IZ)V

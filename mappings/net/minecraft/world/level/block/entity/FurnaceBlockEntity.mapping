@@ -1,0 +1,4 @@
+CLASS ccg net/minecraft/world/level/block/entity/FurnaceBlockEntity
+	METHOD <init> <init> ()V
+	METHOD a createMenu (ILbcg;)Lbel;
+	METHOD g getDefaultName ()Lml;

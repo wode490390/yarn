@@ -1,0 +1,6 @@
+CLASS bjt net/minecraft/world/item/TieredItem
+	FIELD a tier Lbjs;
+	METHOD <init> <init> (Lbjs;Lbii$a;)V
+	METHOD a isValidRepairItem (Lbin;Lbin;)Z
+	METHOD c getEnchantmentValue ()I
+	METHOD g getTier ()Lbjs;

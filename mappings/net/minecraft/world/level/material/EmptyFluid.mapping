@@ -1,0 +1,14 @@
+CLASS cwk net/minecraft/world/level/material/EmptyFluid
+	METHOD <init> <init> ()V
+	METHOD a getBucket ()Lbii;
+	METHOD a getFlow (Lbnh;Lfo;Lcwn;)Lddp;
+	METHOD a getTickDelay (Lboa;)I
+	METHOD a getOwnHeight (Lcwn;)F
+	METHOD a getHeight (Lcwn;Lbnh;Lfo;)F
+	METHOD a canBeReplacedWith (Lcwn;Lbnh;Lfo;Lcwm;Lft;)Z
+	METHOD b isEmpty ()Z
+	METHOD b createLegacyBlock (Lcwn;)Lcdt;
+	METHOD b getShape (Lcwn;Lbnh;Lfo;)Ldej;
+	METHOD c getExplosionResistance ()F
+	METHOD c isSource (Lcwn;)Z
+	METHOD d getAmount (Lcwn;)I

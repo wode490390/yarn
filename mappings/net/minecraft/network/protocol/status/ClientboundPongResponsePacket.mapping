@@ -1,0 +1,9 @@
+CLASS ta net/minecraft/network/protocol/status/ClientboundPongResponsePacket
+	FIELD a time J
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (J)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lsz;)V
+	METHOD b getTime ()J
+	METHOD b write (Lmb;)V

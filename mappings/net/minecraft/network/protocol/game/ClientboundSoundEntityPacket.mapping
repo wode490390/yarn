@@ -1,0 +1,17 @@
+CLASS qd net/minecraft/network/protocol/game/ClientboundSoundEntityPacket
+	FIELD a sound Labr;
+	FIELD b source Labt;
+	FIELD c id I
+	FIELD d volume F
+	FIELD e pitch F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Labr;Labt;Lanb;FF)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getSound ()Labr;
+	METHOD b write (Lmb;)V
+	METHOD c getSource ()Labt;
+	METHOD d getId ()I
+	METHOD e getVolume ()F
+	METHOD f getPitch ()F

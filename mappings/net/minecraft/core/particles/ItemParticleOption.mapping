@@ -1,0 +1,18 @@
+CLASS ha net/minecraft/core/particles/ItemParticleOption
+	FIELD a DESERIALIZER Lhb$a;
+	FIELD b RANDOM_PROVIDER Ljava/util/function/BiFunction;
+	FIELD c type Lhc;
+	FIELD d itemStack Lbin;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lhc;Lbin;)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a lambda$static$0 (Ljava/util/Random;Lhc;)Lha;
+	METHOD a writeToNetwork (Lmb;)V
+	METHOD b getType ()Lhc;
+	METHOD c getItem ()Lbin;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lhc;Lcom/mojang/brigadier/StringReader;)Lha;
+		METHOD a fromNetwork (Lhc;Lmb;)Lha;
+		METHOD b fromCommand (Lhc;Lcom/mojang/brigadier/StringReader;)Lhb;
+		METHOD b fromNetwork (Lhc;Lmb;)Lhb;

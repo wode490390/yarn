@@ -1,0 +1,21 @@
+CLASS ban net/minecraft/world/entity/monster/SharedMonsterAttributes
+	FIELD a MAX_HEALTH Laod;
+	FIELD b FOLLOW_RANGE Laod;
+	FIELD c KNOCKBACK_RESISTANCE Laod;
+	FIELD d MOVEMENT_SPEED Laod;
+	FIELD e FLYING_SPEED Laod;
+	FIELD f ATTACK_DAMAGE Laod;
+	FIELD g ATTACK_KNOCKBACK Laod;
+	FIELD h ATTACK_SPEED Laod;
+	FIELD i ARMOR Laod;
+	FIELD j ARMOR_TOUGHNESS Laod;
+	FIELD k LUCK Laod;
+	FIELD l LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a saveAttribute (Laoe;)Lkz;
+	METHOD a loadAttribute (Laoe;Lkz;)V
+	METHOD a saveAttributeModifier (Laof;)Lkz;
+	METHOD a saveAttributes (Laoh;)Llf;
+	METHOD a loadAttributes (Laoh;Llf;)V
+	METHOD a loadAttributeModifier (Lkz;)Laof;

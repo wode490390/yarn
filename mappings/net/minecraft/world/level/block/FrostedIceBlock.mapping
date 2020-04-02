@@ -1,0 +1,11 @@
+CLASS bwc net/minecraft/world/level/block/FrostedIceBlock
+	FIELD a AGE Lcet;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a fewerNeigboursThan (Lbnh;Lfo;I)Z
+	METHOD a getCloneItemStack (Lbnh;Lfo;Lcdt;)Lbin;
+	METHOD a neighborChanged (Lcdt;Lbnx;Lfo;Lbtu;Lfo;Z)V
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD e slightlyMelt (Lcdt;Lbnx;Lfo;)Z

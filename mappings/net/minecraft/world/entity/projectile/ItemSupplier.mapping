@@ -1,0 +1,2 @@
+CLASS bct net/minecraft/world/entity/projectile/ItemSupplier
+	METHOD f getItem ()Lbin;

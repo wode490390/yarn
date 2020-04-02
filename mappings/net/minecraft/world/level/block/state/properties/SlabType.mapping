@@ -1,0 +1,12 @@
+CLASS cez net/minecraft/world/level/block/state/properties/SlabType
+	FIELD a TOP Lcez;
+	FIELD b BOTTOM Lcez;
+	FIELD c DOUBLE Lcez;
+	FIELD d name Ljava/lang/String;
+	FIELD e $VALUES [Lcez;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcez;
+	METHOD values values ()[Lcez;

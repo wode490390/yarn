@@ -1,0 +1,6 @@
+CLASS apa net/minecraft/world/entity/ai/behavior/EraseMemoryIf
+	FIELD b predicate Ljava/util/function/Predicate;
+	FIELD c memoryType Laut;
+	METHOD <init> <init> (Ljava/util/function/Predicate;Laut;)V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V

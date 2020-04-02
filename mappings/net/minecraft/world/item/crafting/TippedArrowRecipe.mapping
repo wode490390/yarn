@@ -1,0 +1,8 @@
+CLASS blm net/minecraft/world/item/crafting/TippedArrowRecipe
+	METHOD <init> <init> (Lts;)V
+	METHOD Z_ getSerializer ()Lbky;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Lalo;)Lbin;
+	METHOD a matches (Lalo;Lbnx;)Z
+	METHOD a assemble (Lbex;)Lbin;
+	METHOD a matches (Lbex;Lbnx;)Z

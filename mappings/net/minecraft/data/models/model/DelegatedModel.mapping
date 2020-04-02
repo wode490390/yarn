@@ -1,0 +1,5 @@
+CLASS ir net/minecraft/data/models/model/DelegatedModel
+	FIELD a parent Lts;
+	METHOD <init> <init> (Lts;)V
+	METHOD a get ()Lcom/google/gson/JsonElement;
+	METHOD get get ()Ljava/lang/Object;

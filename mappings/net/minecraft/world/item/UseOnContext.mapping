@@ -1,0 +1,19 @@
+CLASS bjz net/minecraft/world/item/UseOnContext
+	FIELD b player Lbch;
+	FIELD c hand Lalu;
+	FIELD d hitResult Lddk;
+	FIELD e level Lbnx;
+	FIELD f itemStack Lbin;
+	METHOD <init> <init> (Lbch;Lalu;Lddk;)V
+	METHOD <init> <init> (Lbnx;Lbch;Lalu;Lbin;Lddk;)V
+	METHOD a getClickedPos ()Lfo;
+	METHOD f getHorizontalDirection ()Lft;
+	METHOD g isSecondaryUseActive ()Z
+	METHOD h getRotation ()F
+	METHOD i getClickedFace ()Lft;
+	METHOD j getClickLocation ()Lddp;
+	METHOD k isInside ()Z
+	METHOD l getItemInHand ()Lbin;
+	METHOD m getPlayer ()Lbch;
+	METHOD n getHand ()Lalu;
+	METHOD o getLevel ()Lbnx;

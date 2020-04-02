@@ -1,0 +1,57 @@
+CLASS bas net/minecraft/world/entity/monster/SpellcasterIllager
+	FIELD b spellCastingTickCount I
+	FIELD bv DATA_SPELL_CASTING_ID Lth;
+	FIELD bw currentSpell Lbas$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD N customServerAiStep ()V
+	METHOD a setIsCastingSpell (Lbas$a;)V
+	METHOD a access$200 (Lbas;)Lava;
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD eI isCastingSpell ()Z
+	METHOD eJ getCurrentSpell ()Lbas$a;
+	METHOD eK getSpellCastingTime ()I
+	METHOD ez getCastingSoundEvent ()Labr;
+	METHOD h tick ()V
+	METHOD k getArmPose ()Lazp$a;
+	METHOD w_ defineSynchedData ()V
+	CLASS a IllagerSpell
+		FIELD a NONE Lbas$a;
+		FIELD b SUMMON_VEX Lbas$a;
+		FIELD c FANGS Lbas$a;
+		FIELD d WOLOLO Lbas$a;
+		FIELD e DISAPPEAR Lbas$a;
+		FIELD f BLINDNESS Lbas$a;
+		FIELD g id I
+		FIELD h spellColor [D
+		FIELD i $VALUES [Lbas$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IIDDD)V
+		METHOD a byId (I)Lbas$a;
+		METHOD a access$000 (Lbas$a;)I
+		METHOD b access$100 (Lbas$a;)[D
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbas$a;
+		METHOD values values ()[Lbas$a;
+	CLASS b SpellcasterCastingSpellGoal
+		FIELD b this$0 Lbas;
+		METHOD <init> <init> (Lbas;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS c SpellcasterUseSpellGoal
+		FIELD b attackWarmupDelay I
+		FIELD c nextAttackTickCount I
+		FIELD d this$0 Lbas;
+		METHOD <init> <init> (Lbas;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Labr;
+		METHOD l getSpell ()Lbas$a;
+		METHOD m getCastWarmupTime ()I

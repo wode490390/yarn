@@ -1,0 +1,15 @@
+CLASS bwr net/minecraft/world/level/block/HoneyBlock
+	FIELD a SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a showSlideParticles (Lanb;)V
+	METHOD a showParticles (Lanb;I)V
+	METHOD a maybeDoSlideAchievement (Lanb;Lfo;)V
+	METHOD a maybeDoSlideEffects (Lbnx;Lanb;)V
+	METHOD a fallOn (Lbnx;Lfo;Lanb;F)V
+	METHOD a entityInside (Lcdt;Lbnx;Lfo;Lanb;)V
+	METHOD a isSlidingDown (Lfo;Lanb;)Z
+	METHOD b showJumpParticles (Lanb;)V
+	METHOD c doesEntityDoHoneyBlockSlideEffects (Lanb;)Z
+	METHOD c getCollisionShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD d doSlideMovement (Lanb;)V

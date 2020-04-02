@@ -1,0 +1,15 @@
+CLASS om net/minecraft/network/protocol/game/ClientboundLevelEventPacket
+	FIELD a type I
+	FIELD b pos Lfo;
+	FIELD c data I
+	FIELD d globalEvent Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILfo;IZ)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b isGlobalEvent ()Z
+	METHOD b write (Lmb;)V
+	METHOD c getType ()I
+	METHOD d getData ()I
+	METHOD e getPos ()Lfo;

@@ -1,0 +1,33 @@
+CLASS daz net/minecraft/world/level/storage/loot/functions/AddBookContents
+	FIELD a provider Ldaz$a;
+	METHOD <init> <init> ([Ldcq;Ldaz$a;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a addContents (Ldaz$a;)Ldbl$a;
+	METHOD a lambda$addContents$0 (Ldaz$a;[Ldcq;)Ldbm;
+	METHOD a access$100 (Ldaz;)Ldaz$a;
+	CLASS 1 1
+	CLASS a ContentProvider
+		FIELD a ORDERS Ldaz$a;
+		FIELD b name Ljava/lang/String;
+		FIELD c $VALUES [Ldaz$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ldaz$1;)V
+		METHOD a access$200 (Ldaz$a;)Ljava/lang/String;
+		METHOD a getByName (Ljava/lang/String;)Ldaz$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldaz$a;
+		METHOD values values ()[Ldaz$a;
+		CLASS 1 1
+			FIELD b verb [Ljava/lang/String;
+			FIELD c object [Ljava/lang/String;
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a apply (Ljava/util/Random;Lfo;)Ljava/lang/String;
+			METHOD apply apply (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldaz;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldaz;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

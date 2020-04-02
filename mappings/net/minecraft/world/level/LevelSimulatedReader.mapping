@@ -1,0 +1,4 @@
+CLASS bod net/minecraft/world/level/LevelSimulatedReader
+	METHOD a getHeightmapPos (Lcjc$a;Lfo;)Lfo;
+	METHOD a isStateAtPosition (Lfo;Ljava/util/function/Predicate;)Z
+	METHOD b isFluidAtPosition (Lfo;Ljava/util/function/Predicate;)Z

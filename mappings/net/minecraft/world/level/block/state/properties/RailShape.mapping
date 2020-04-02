@@ -1,0 +1,21 @@
+CLASS cex net/minecraft/world/level/block/state/properties/RailShape
+	FIELD a NORTH_SOUTH Lcex;
+	FIELD b EAST_WEST Lcex;
+	FIELD c ASCENDING_EAST Lcex;
+	FIELD d ASCENDING_WEST Lcex;
+	FIELD e ASCENDING_NORTH Lcex;
+	FIELD f ASCENDING_SOUTH Lcex;
+	FIELD g SOUTH_EAST Lcex;
+	FIELD h SOUTH_WEST Lcex;
+	FIELD i NORTH_WEST Lcex;
+	FIELD j NORTH_EAST Lcex;
+	FIELD k name Ljava/lang/String;
+	FIELD l $VALUES [Lcex;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c isAscending ()Z
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcex;
+	METHOD values values ()[Lcex;

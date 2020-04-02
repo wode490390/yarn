@@ -1,0 +1,13 @@
+CLASS bvt net/minecraft/world/level/block/FaceAttachedHorizontalDirectionalBlock
+	FIELD u FACE Lcer;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD b isUnstable ()Z
+	METHOD b canAttach (Lboa;Lfo;Lft;)Z
+	METHOD h getConnectedDirection (Lcdt;)Lft;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$state$properties$AttachFace [I
+		METHOD <clinit> <clinit> ()V

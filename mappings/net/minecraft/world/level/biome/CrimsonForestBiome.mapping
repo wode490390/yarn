@@ -1,0 +1,2 @@
+CLASS bpn net/minecraft/world/level/biome/CrimsonForestBiome
+	METHOD <init> <init> ()V

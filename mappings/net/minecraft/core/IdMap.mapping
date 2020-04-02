@@ -1,0 +1,3 @@
+CLASS fy net/minecraft/core/IdMap
+	METHOD a byId (I)Ljava/lang/Object;
+	METHOD a getId (Ljava/lang/Object;)I

@@ -1,0 +1,9 @@
+CLASS bda net/minecraft/world/entity/projectile/Snowball
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDD)V
+	METHOD <init> <init> (Lbnx;Lanm;)V
+	METHOD a handleEntityEvent (B)V
+	METHOD a onHitEntity (Lddl;)V
+	METHOD a onHit (Lddm;)V
+	METHOD i getDefaultItem ()Lbii;
+	METHOD m getParticle ()Lhb;

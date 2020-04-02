@@ -1,0 +1,6 @@
+CLASS uw net/minecraft/server/commands/DebugMobSpawningCommand
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$1 (Lano;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$0 (Lcu;)Z
+	METHOD a spawnMobs (Lcu;Lano;Lfo;)I

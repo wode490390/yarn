@@ -1,0 +1,27 @@
+CLASS dax net/minecraft/world/level/storage/loot/entries/TagEntry
+	FIELD c tag Lacj;
+	FIELD h expand Z
+	METHOD <init> <init> (Lacj;ZII[Ldcq;[Ldbm;)V
+	METHOD <init> <init> (Lacj;ZII[Ldcq;[Ldbm;Ldax$1;)V
+	METHOD a tagContents (Lacj;)Ldau$a;
+	METHOD a lambda$expandTag$2 (Lacj;II[Ldcq;[Ldbm;)Ldau;
+	METHOD a expandTag (Ldaa;Ljava/util/function/Consumer;)Z
+	METHOD a access$000 (Ldax;)Lacj;
+	METHOD a lambda$createItemStack$0 (Ljava/util/function/Consumer;Lbii;)V
+	METHOD a createItemStack (Ljava/util/function/Consumer;Ldaa;)V
+	METHOD b expandTag (Lacj;)Ldau$a;
+	METHOD b lambda$tagContents$1 (Lacj;II[Ldcq;[Ldbm;)Ldau;
+	METHOD b access$100 (Ldax;)Z
+	METHOD expand expand (Ldaa;Ljava/util/function/Consumer;)Z
+	CLASS 1 1
+		FIELD a val$item Lbii;
+		FIELD c this$0 Ldax;
+		METHOD <init> <init> (Ldax;Lbii;)V
+		METHOD a createItemStack (Ljava/util/function/Consumer;Ldaa;)V
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldcq;[Ldbm;)Ldax;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldat;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldau;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldax;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldcq;[Ldbm;)Ldau;

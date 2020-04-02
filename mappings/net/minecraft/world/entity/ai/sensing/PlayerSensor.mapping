@@ -1,0 +1,5 @@
+CLASS avo net/minecraft/world/entity/ai/sensing/PlayerSensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a lambda$doTick$0 (Lanm;Lyo;)Z
+	METHOD a doTick (Lyn;Lanm;)V

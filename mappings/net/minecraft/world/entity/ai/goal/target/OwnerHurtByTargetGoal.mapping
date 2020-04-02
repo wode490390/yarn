@@ -1,0 +1,7 @@
+CLASS aul net/minecraft/world/entity/ai/goal/target/OwnerHurtByTargetGoal
+	FIELD a tameAnimal Laob;
+	FIELD b ownerLastHurtBy Lanm;
+	FIELD c timestamp I
+	METHOD <init> <init> (Laob;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V

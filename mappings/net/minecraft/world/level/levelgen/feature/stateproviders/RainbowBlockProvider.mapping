@@ -1,0 +1,7 @@
+CLASS cpu net/minecraft/world/level/levelgen/feature/stateproviders/RainbowBlockProvider
+	FIELD c blocks Ljava/util/List;
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lcdt;)Ljava/lang/Object;
+	METHOD a getState (Ljava/util/Random;Lfo;)Lcdt;

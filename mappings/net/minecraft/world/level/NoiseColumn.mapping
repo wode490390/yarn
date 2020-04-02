@@ -1,0 +1,6 @@
+CLASS boi net/minecraft/world/level/NoiseColumn
+	FIELD a column [Lcdt;
+	METHOD <init> <init> ([Lcdt;)V
+	METHOD b getFluidState (Lfo;)Lcwn;
+	METHOD c getBlockEntity (Lfo;)Lcbt;
+	METHOD d_ getBlockState (Lfo;)Lcdt;

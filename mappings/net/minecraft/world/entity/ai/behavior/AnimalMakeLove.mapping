@@ -1,0 +1,20 @@
+CLASS aon net/minecraft/world/entity/ai/behavior/AnimalMakeLove
+	FIELD b partnerType Lanf;
+	FIELD c speedModifier F
+	FIELD d spawnChildAtTime J
+	METHOD <init> <init> (Lanf;F)V
+	METHOD a lambda$findValidBreedPartner$1 (Lanm;)Lawo;
+	METHOD a getBreedTarget (Lawo;)Lawo;
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a checkExtraStartConditions (Lyn;Lawo;)Z
+	METHOD a start (Lyn;Lawo;J)V
+	METHOD b lambda$findValidBreedPartner$0 (Lanm;)Z
+	METHOD b hasBreedTargetOfRightType (Lawo;)Z
+	METHOD b canStillUse (Lyn;Lanm;J)Z
+	METHOD b canStillUse (Lyn;Lawo;J)Z
+	METHOD c findValidBreedPartner (Lawo;)Ljava/util/Optional;
+	METHOD c stop (Lyn;Lanm;J)V
+	METHOD c tick (Lyn;Lawo;J)V
+	METHOD d tick (Lyn;Lanm;J)V
+	METHOD d stop (Lyn;Lawo;J)V

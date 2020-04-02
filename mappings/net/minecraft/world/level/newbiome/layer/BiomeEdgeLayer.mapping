@@ -1,0 +1,27 @@
+CLASS cxj net/minecraft/world/level/newbiome/layer/BiomeEdgeLayer
+	FIELD a INSTANCE Lcxj;
+	FIELD b DESERT I
+	FIELD c MOUNTAINS I
+	FIELD d WOODED_MOUNTAINS I
+	FIELD e SNOWY_TUNDRA I
+	FIELD f JUNGLE I
+	FIELD g BAMBOO_JUNGLE I
+	FIELD h JUNGLE_EDGE I
+	FIELD i BADLANDS I
+	FIELD j BADLANDS_PLATEAU I
+	FIELD k WOODED_BADLANDS_PLATEAU I
+	FIELD l PLAINS I
+	FIELD m GIANT_TREE_TAIGA I
+	FIELD n MOUNTAIN_EDGE I
+	FIELD o SWAMP I
+	FIELD p TAIGA I
+	FIELD q SNOWY_TAIGA I
+	FIELD r $VALUES [Lcxj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a isValidTemperatureEdge (II)Z
+	METHOD a apply (Lcxb;IIIII)I
+	METHOD a checkEdge ([IIIIIIII)Z
+	METHOD b checkEdgeStrict ([IIIIIIII)Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxj;
+	METHOD values values ()[Lcxj;

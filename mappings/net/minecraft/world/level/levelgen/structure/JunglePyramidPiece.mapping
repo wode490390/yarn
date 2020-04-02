@@ -1,0 +1,16 @@
+CLASS ctb net/minecraft/world/level/levelgen/structure/JunglePyramidPiece
+	FIELD e placedMainChest Z
+	FIELD f placedHiddenChest Z
+	FIELD g placedTrap1 Z
+	FIELD h placedTrap2 Z
+	FIELD i STONE_SELECTOR Lctb$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcuq;Lkz;)V
+	METHOD <init> <init> (Ljava/util/Random;II)V
+	METHOD a postProcess (Lbny;Lcfl;Ljava/util/Random;Lcsw;Lbni;Lfo;)Z
+	METHOD a addAdditionalSaveData (Lkz;)V
+	CLASS 1 1
+	CLASS a MossStoneSelector
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lctb$1;)V
+		METHOD a next (Ljava/util/Random;IIIZ)V

@@ -1,0 +1,23 @@
+CLASS apu net/minecraft/world/entity/ai/behavior/PlayTagWithOtherKids
+	METHOD <init> <init> ()V
+	METHOD a whoAreYouChasing (Lanm;)Lanm;
+	METHOD a isFriendChasingMe (Lanm;Lanm;)Z
+	METHOD a lambda$null$2 (Lanm;Ljava/lang/Integer;)Ljava/lang/Integer;
+	METHOD a findSomeoneToChase (Lant;)Ljava/util/Optional;
+	METHOD a chaseKid (Lant;Lanm;)V
+	METHOD a lambda$findSomeoneBeingChased$1 (Ljava/util/Map$Entry;)Z
+	METHOD a lambda$checkHowManyChasersEachFriendHas$3 (Ljava/util/Map;Lanm;)V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a checkExtraStartConditions (Lyn;Lant;)Z
+	METHOD a start (Lyn;Lant;J)V
+	METHOD a fleeFromChaser (Lyn;Lant;Lanm;)V
+	METHOD b seeIfSomeoneIsChasingMe (Lanm;)Lanm;
+	METHOD b lambda$isFriendChasingMe$5 (Lanm;Lanm;)Z
+	METHOD b findSomeoneBeingChased (Lant;)Ljava/util/Optional;
+	METHOD b lambda$start$0 (Lant;Lanm;)V
+	METHOD c isChasingSomeone (Lanm;)Z
+	METHOD c lambda$seeIfSomeoneIsChasingMe$4 (Lanm;Lanm;)Z
+	METHOD c checkHowManyChasersEachFriendHas (Lant;)Ljava/util/Map;
+	METHOD d getFriendsNearby (Lant;)Ljava/util/List;
+	METHOD e hasFriendsNearby (Lant;)Z

@@ -1,0 +1,5 @@
+CLASS cyc net/minecraft/world/level/newbiome/layer/traits/AreaTransformer1
+	METHOD a lambda$run$1 (Lcwx;Lcxa;)Lcww;
+	METHOD a applyPixel (Lcxa;Lcww;II)I
+	METHOD a run (Lcxa;Lcwx;)Lcwx;
+	METHOD b lambda$null$0 (Lcxa;Lcww;II)I

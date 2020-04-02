@@ -1,0 +1,13 @@
+CLASS bjy net/minecraft/world/item/UseAnim
+	FIELD a NONE Lbjy;
+	FIELD b EAT Lbjy;
+	FIELD c DRINK Lbjy;
+	FIELD d BLOCK Lbjy;
+	FIELD e BOW Lbjy;
+	FIELD f SPEAR Lbjy;
+	FIELD g CROSSBOW Lbjy;
+	FIELD h $VALUES [Lbjy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbjy;
+	METHOD values values ()[Lbjy;

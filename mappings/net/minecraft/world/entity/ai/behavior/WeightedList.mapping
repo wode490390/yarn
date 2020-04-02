@@ -1,0 +1,35 @@
+CLASS arj net/minecraft/world/entity/ai/behavior/WeightedList
+	FIELD a entries Ljava/util/List;
+	FIELD b random Ljava/util/Random;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;Ljava/util/function/Function;)V
+	METHOD <init> <init> (Ljava/util/Random;)V
+	METHOD a shuffle ()Larj;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;Ljava/util/function/Function;)Ljava/lang/Object;
+	METHOD a lambda$serialize$2 (Lcom/mojang/datafixers/types/DynamicOps;Ljava/util/function/Function;Larj$a;)Ljava/lang/Object;
+	METHOD a lambda$shuffle$4 (Ljava/lang/Object;)D
+	METHOD a add (Ljava/lang/Object;I)Larj;
+	METHOD a shuffle (Ljava/util/Random;)Larj;
+	METHOD a lambda$shuffle$3 (Ljava/util/Random;Larj$a;)V
+	METHOD a lambda$new$1 (Ljava/util/function/Function;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a lambda$null$0 (Ljava/util/function/Function;Lcom/mojang/datafixers/Dynamic;Lcom/mojang/datafixers/Dynamic;)Larj;
+	METHOD b stream ()Ljava/util/stream/Stream;
+	METHOD b getOne (Ljava/util/Random;)Ljava/lang/Object;
+	METHOD c streamEntries ()Ljava/util/stream/Stream;
+	METHOD d getOne ()Ljava/lang/Object;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+	CLASS a WeightedEntry
+		FIELD a this$0 Larj;
+		FIELD b data Ljava/lang/Object;
+		FIELD c weight I
+		FIELD d randWeight D
+		METHOD <init> <init> (Larj;Ljava/lang/Object;I)V
+		METHOD <init> <init> (Larj;Ljava/lang/Object;ILarj$1;)V
+		METHOD a getData ()Ljava/lang/Object;
+		METHOD a setRandom (F)V
+		METHOD a access$100 (Larj$a;)D
+		METHOD a access$200 (Larj$a;F)V
+		METHOD b getWeight ()I
+		METHOD c getRandWeight ()D
+		METHOD toString toString ()Ljava/lang/String;

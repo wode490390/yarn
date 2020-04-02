@@ -1,0 +1,6 @@
+CLASS cni net/minecraft/world/level/levelgen/feature/VinesFeature
+	FIELD a DIRECTIONS [Lft;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcoo;)Z

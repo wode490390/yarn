@@ -1,0 +1,3 @@
+CLASS chn net/minecraft/world/level/dimension/special/G10
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD a modifyLightmapColor (IILg;)V

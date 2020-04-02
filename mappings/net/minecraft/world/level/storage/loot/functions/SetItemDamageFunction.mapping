@@ -1,0 +1,18 @@
+CLASS dbt net/minecraft/world/level/storage/loot/functions/SetItemDamageFunction
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c damage Ldai;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Ldcq;Ldai;)V
+	METHOD <init> <init> ([Ldcq;Ldai;Ldbt$1;)V
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a setDamage (Ldai;)Ldbl$a;
+	METHOD a lambda$setDamage$0 (Ldai;[Ldcq;)Ldbm;
+	METHOD a access$000 (Ldbt;)Ldai;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbt;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbt;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

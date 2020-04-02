@@ -1,0 +1,3 @@
+CLASS bpo net/minecraft/world/level/biome/DarkForestBiome
+	METHOD <init> <init> ()V
+	METHOD a getGrassColor (DD)I

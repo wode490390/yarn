@@ -1,0 +1,19 @@
+CLASS avs net/minecraft/world/entity/ai/sensing/SensorType
+	FIELD a DUMMY Lavs;
+	FIELD b NEAREST_ITEMS Lavs;
+	FIELD c NEAREST_LIVING_ENTITIES Lavs;
+	FIELD d NEAREST_PLAYERS Lavs;
+	FIELD e INTERACTABLE_DOORS Lavs;
+	FIELD f NEAREST_BED Lavs;
+	FIELD g HURT_BY Lavs;
+	FIELD h VILLAGER_HOSTILES Lavs;
+	FIELD i VILLAGER_BABIES Lavs;
+	FIELD j SECONDARY_POIS Lavs;
+	FIELD k GOLEM_LAST_SEEN Lavs;
+	FIELD l PIGLIN_SPECIFIC_SENSOR Lavs;
+	FIELD m HOGLIN_SPECIFIC_SENSOR Lavs;
+	FIELD n factory Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Supplier;)V
+	METHOD a create ()Lavr;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Supplier;)Lavs;

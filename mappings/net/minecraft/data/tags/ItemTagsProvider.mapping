@@ -1,0 +1,10 @@
+CLASS jq net/minecraft/data/tags/ItemTagsProvider
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lhg;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a copy (Lacj$b;)Lacj$b;
+	METHOD a copy (Lacj;Lacj;)V
+	METHOD a useTags (Lack;)V
+	METHOD a getPath (Lts;)Ljava/nio/file/Path;
+	METHOD b addTags ()V

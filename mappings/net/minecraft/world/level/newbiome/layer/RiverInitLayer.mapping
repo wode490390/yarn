@@ -1,0 +1,8 @@
+CLASS cxu net/minecraft/world/level/newbiome/layer/RiverInitLayer
+	FIELD a INSTANCE Lcxu;
+	FIELD b $VALUES [Lcxu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcxb;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxu;
+	METHOD values values ()[Lcxu;

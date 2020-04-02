@@ -1,0 +1,8 @@
+CLASS cre net/minecraft/world/level/levelgen/placement/ConfiguredDecorator
+	FIELD a decorator Lcrv;
+	FIELD b config Lcoc;
+	METHOD <init> <init> (Lcrv;Lcoc;)V
+	METHOD <init> <init> (Lcrv;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lckm;)Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcre;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

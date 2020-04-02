@@ -1,0 +1,5 @@
+CLASS bie net/minecraft/world/item/HangingEntityItem
+	FIELD a type Lanf;
+	METHOD <init> <init> (Lanf;Lbii$a;)V
+	METHOD a mayPlace (Lbch;Lft;Lbin;Lfo;)Z
+	METHOD a useOn (Lbjz;)Lalv;

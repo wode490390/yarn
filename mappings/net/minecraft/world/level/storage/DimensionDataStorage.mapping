@@ -1,0 +1,15 @@
+CLASS czo net/minecraft/world/level/storage/DimensionDataStorage
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b cache Ljava/util/Map;
+	FIELD c fixerUpper Lcom/mojang/datafixers/DataFixer;
+	FIELD d dataFolder Ljava/io/File;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;Lcom/mojang/datafixers/DataFixer;)V
+	METHOD a save ()V
+	METHOD a set (Lcze;)V
+	METHOD a isGzip (Ljava/io/PushbackInputStream;)Z
+	METHOD a getDataFile (Ljava/lang/String;)Ljava/io/File;
+	METHOD a readTagFromDisk (Ljava/lang/String;I)Lkz;
+	METHOD a computeIfAbsent (Ljava/util/function/Supplier;Ljava/lang/String;)Lcze;
+	METHOD b get (Ljava/util/function/Supplier;Ljava/lang/String;)Lcze;
+	METHOD c readSavedData (Ljava/util/function/Supplier;Ljava/lang/String;)Lcze;

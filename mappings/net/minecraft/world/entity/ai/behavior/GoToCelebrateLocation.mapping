@@ -1,0 +1,9 @@
+CLASS ape net/minecraft/world/entity/ai/behavior/GoToCelebrateLocation
+	FIELD b closeEnoughDist I
+	FIELD c speedModifier F
+	METHOD <init> <init> (IF)V
+	METHOD a getCelebrateLocation (Lann;)Lfo;
+	METHOD a getNearbyPos (Lann;Lfo;)Lfo;
+	METHOD a getRandomOffset (Ljava/util/Random;)I
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a start (Lyn;Lann;J)V

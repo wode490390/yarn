@@ -1,0 +1,14 @@
+CLASS bkz net/minecraft/world/item/crafting/RecipeType
+	FIELD a CRAFTING Lbkz;
+	FIELD b SMELTING Lbkz;
+	FIELD c BLASTING Lbkz;
+	FIELD d SMOKING Lbkz;
+	FIELD e CAMPFIRE_COOKING Lbkz;
+	FIELD f STONECUTTING Lbkz;
+	METHOD <clinit> <clinit> ()V
+	METHOD a tryMatch (Lbkw;Lbnx;Lalo;)Ljava/util/Optional;
+	METHOD a register (Ljava/lang/String;)Lbkz;
+	CLASS 1 1
+		FIELD g val$name Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD toString toString ()Ljava/lang/String;

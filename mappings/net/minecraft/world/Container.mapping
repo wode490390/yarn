@@ -1,0 +1,15 @@
+CLASS alo net/minecraft/world/Container
+	METHOD P_ getMaxStackSize ()I
+	METHOD S_ getContainerSize ()I
+	METHOD a getItem (I)Lbin;
+	METHOD a removeItem (II)Lbin;
+	METHOD a setItem (ILbin;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD a countItem (Lbii;)I
+	METHOD a hasAnyOf (Ljava/util/Set;)Z
+	METHOD a_ startOpen (Lbch;)V
+	METHOD b removeItemNoUpdate (I)Lbin;
+	METHOD b canPlaceItem (ILbin;)Z
+	METHOD b_ stopOpen (Lbch;)V
+	METHOD c isEmpty ()Z
+	METHOD e setChanged ()V

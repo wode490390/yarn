@@ -1,0 +1,35 @@
+CLASS ccj net/minecraft/world/level/block/entity/JigsawBlockEntity
+	FIELD a name Lts;
+	FIELD b target Lts;
+	FIELD c pool Lts;
+	FIELD g joint Lccj$a;
+	FIELD h finalState Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcbu;)V
+	METHOD a getUpdatePacket ()Lnn;
+	METHOD a setJoint (Lccj$a;)V
+	METHOD a lambda$load$0 (Lcdt;)Lccj$a;
+	METHOD a load (Lcdt;Lkz;)V
+	METHOD a setFinalState (Ljava/lang/String;)V
+	METHOD a save (Lkz;)Lkz;
+	METHOD a setName (Lts;)V
+	METHOD b getUpdateTag ()Lkz;
+	METHOD b setTarget (Lts;)V
+	METHOD c setPool (Lts;)V
+	METHOD d getName ()Lts;
+	METHOD f getTarget ()Lts;
+	METHOD g getPool ()Lts;
+	METHOD h getFinalState ()Ljava/lang/String;
+	METHOD j getJoint ()Lccj$a;
+	CLASS a JointType
+		FIELD a ROLLABLE Lccj$a;
+		FIELD b ALIGNED Lccj$a;
+		FIELD c name Ljava/lang/String;
+		FIELD d $VALUES [Lccj$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getSerializedName ()Ljava/lang/String;
+		METHOD a byName (Ljava/lang/String;)Ljava/util/Optional;
+		METHOD a lambda$byName$0 (Ljava/lang/String;Lccj$a;)Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Lccj$a;
+		METHOD values values ()[Lccj$a;

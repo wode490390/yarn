@@ -1,0 +1,17 @@
+CLASS an net/minecraft/advancements/critereon/BrewedPotionTrigger
+	FIELD a ID Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lts;
+	METHOD a lambda$trigger$1 (Lbkd;Lan$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lae;
+	METHOD a lambda$createInstance$0 (Lts;)Lcom/google/gson/JsonSyntaxException;
+	METHOD a trigger (Lyo;Lbkd;)V
+	METHOD b access$000 ()Lts;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lan$a;
+	CLASS a TriggerInstance
+		FIELD a potion Lbkd;
+		METHOD <init> <init> (Lbkd;)V
+		METHOD a matches (Lbkd;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD c brewedPotion ()Lan$a;

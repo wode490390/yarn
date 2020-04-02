@@ -1,0 +1,15 @@
+CLASS bjx net/minecraft/world/item/TridentItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a getDefaultAttributeModifiers (Lang;)Lcom/google/common/collect/Multimap;
+	METHOD a lambda$mineBlock$3 (Lanm;)V
+	METHOD a lambda$releaseUsing$1 (Lanm;Lbch;)V
+	METHOD a hurtEnemy (Lbin;Lanm;Lanm;)Z
+	METHOD a releaseUsing (Lbin;Lbnx;Lanm;I)V
+	METHOD a mineBlock (Lbin;Lbnx;Lcdt;Lfo;Lanm;)Z
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;
+	METHOD a canAttackBlock (Lcdt;Lbnx;Lfo;Lbch;)Z
+	METHOD b lambda$hurtEnemy$2 (Lanm;)V
+	METHOD b lambda$new$0 (Lbin;Lbnx;Lanm;)F
+	METHOD c getEnchantmentValue ()I
+	METHOD d_ getUseAnimation (Lbin;)Lbjy;
+	METHOD e_ getUseDuration (Lbin;)I

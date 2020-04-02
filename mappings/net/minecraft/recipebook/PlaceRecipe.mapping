@@ -1,0 +1,3 @@
+CLASS to net/minecraft/recipebook/PlaceRecipe
+	METHOD a placeRecipe (IIILbkw;Ljava/util/Iterator;I)V
+	METHOD a addItemToSlot (Ljava/util/Iterator;IIII)V

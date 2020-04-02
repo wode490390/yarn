@@ -1,0 +1,26 @@
+CLASS dbv net/minecraft/world/level/storage/loot/functions/SetNameFunction
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c name Lml;
+	FIELD d resolutionContext Ldaa$c;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Ldcq;Lml;Ldaa$c;)V
+	METHOD <init> <init> ([Ldcq;Lml;Ldaa$c;Ldbv$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a lambda$createResolver$0 (Lcu;Lanb;Lml;)Lml;
+	METHOD a createResolver (Ldaa;Ldaa$c;)Ljava/util/function/UnaryOperator;
+	METHOD a access$000 (Ldbv;)Lml;
+	METHOD a setName (Lml;)Ldbl$a;
+	METHOD a setName (Lml;Ldaa$c;)Ldbl$a;
+	METHOD a lambda$setName$3 (Lml;Ldaa$c;[Ldcq;)Ldbm;
+	METHOD a lambda$setName$2 (Lml;[Ldcq;)Ldbm;
+	METHOD b access$100 (Ldbv;)Ldaa$c;
+	METHOD b lambda$createResolver$1 (Lml;)Lml;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbv;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbv;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

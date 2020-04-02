@@ -1,0 +1,2 @@
+CLASS bpq net/minecraft/world/level/biome/DeepColdOceanBiome
+	METHOD <init> <init> ()V

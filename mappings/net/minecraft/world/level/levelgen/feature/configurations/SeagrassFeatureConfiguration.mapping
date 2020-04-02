@@ -1,0 +1,7 @@
+CLASS cox net/minecraft/world/level/levelgen/feature/configurations/SeagrassFeatureConfiguration
+	FIELD a count I
+	FIELD b tallSeagrassProbability D
+	METHOD <init> <init> (ID)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcox;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcox;

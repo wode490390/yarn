@@ -1,0 +1,15 @@
+CLASS atg net/minecraft/world/entity/ai/goal/PanicGoal
+	FIELD a mob Lant;
+	FIELD b speedModifier D
+	FIELD c posX D
+	FIELD d posY D
+	FIELD e posZ D
+	FIELD f isRunning Z
+	METHOD <init> <init> (Lant;D)V
+	METHOD a canUse ()Z
+	METHOD a lookForWater (Lbnh;Lanb;II)Lfo;
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD g findRandomPosition ()Z
+	METHOD h isRunning ()Z

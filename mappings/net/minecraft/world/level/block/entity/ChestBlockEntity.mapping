@@ -1,0 +1,26 @@
+CLASS cbx net/minecraft/world/level/block/entity/ChestBlockEntity
+	FIELD a openness F
+	FIELD b oOpenness F
+	FIELD c openCount I
+	FIELD i items Lge;
+	FIELD j tickInterval I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcbu;)V
+	METHOD S_ getContainerSize ()I
+	METHOD a getOpenNess (F)F
+	METHOD a createMenu (ILbcg;)Lbel;
+	METHOD a playSound (Labr;)V
+	METHOD a getOpenCount (Lbnh;Lfo;)I
+	METHOD a getOpenCount (Lbnx;Lcbn;III)I
+	METHOD a getOpenCount (Lbnx;Lcbn;IIIII)I
+	METHOD a swapContents (Lcbx;Lcbx;)V
+	METHOD a load (Lcdt;Lkz;)V
+	METHOD a setItems (Lge;)V
+	METHOD a save (Lkz;)Lkz;
+	METHOD a_ triggerEvent (II)Z
+	METHOD a_ startOpen (Lbch;)V
+	METHOD ac_ tick ()V
+	METHOD b_ stopOpen (Lbch;)V
+	METHOD f getItems ()Lge;
+	METHOD g getDefaultName ()Lml;
+	METHOD h signalOpenCount ()V

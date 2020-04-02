@@ -1,0 +1,15 @@
+CLASS cai net/minecraft/world/level/block/TntBlock
+	FIELD a UNSTABLE Lcel;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a lambda$use$0 (Lalu;Lbch;)V
+	METHOD a dropFromExplosion (Lbnq;)Z
+	METHOD a onProjectileHit (Lbnx;Lcdt;Lddk;Lbcw;)V
+	METHOD a explode (Lbnx;Lfo;)V
+	METHOD a explode (Lbnx;Lfo;Lanm;)V
+	METHOD a wasExploded (Lbnx;Lfo;Lbnq;)V
+	METHOD a playerWillDestroy (Lbnx;Lfo;Lcdt;Lbch;)V
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a neighborChanged (Lcdt;Lbnx;Lfo;Lbtu;Lfo;Z)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V

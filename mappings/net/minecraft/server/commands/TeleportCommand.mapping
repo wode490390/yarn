@@ -1,0 +1,25 @@
+CLASS ww net/minecraft/server/commands/TeleportCommand
+	FIELD a INVALID_POSITION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$8 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$9 (Lcu;)Z
+	METHOD a performTeleport (Lcu;Lanb;Lyn;DDDLjava/util/Set;FFLww$a;)V
+	METHOD a teleportToEntity (Lcu;Ljava/util/Collection;Lanb;)I
+	METHOD a teleportToPos (Lcu;Ljava/util/Collection;Lyn;Led;Led;Lww$a;)I
+	METHOD b lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$register$0 (Lcu;)Z
+	METHOD c lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD g lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD h lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I
+	CLASS a LookAt
+		FIELD a position Lddp;
+		FIELD b entity Lanb;
+		FIELD c anchor Ldb$a;
+		METHOD <init> <init> (Lanb;Ldb$a;)V
+		METHOD <init> <init> (Lddp;)V
+		METHOD a perform (Lcu;Lanb;)V

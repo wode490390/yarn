@@ -1,0 +1,17 @@
+CLASS hy net/minecraft/data/loot/GiftLoot
+	METHOD <init> <init> ()V
+	METHOD a accept (Ljava/util/function/BiConsumer;)V
+	METHOD a lambda$accept$12 (Lkz;)V
+	METHOD accept accept (Ljava/lang/Object;)V
+	METHOD b lambda$accept$11 (Lkz;)V
+	METHOD c lambda$accept$10 (Lkz;)V
+	METHOD d lambda$accept$9 (Lkz;)V
+	METHOD e lambda$accept$8 (Lkz;)V
+	METHOD f lambda$accept$7 (Lkz;)V
+	METHOD g lambda$accept$6 (Lkz;)V
+	METHOD h lambda$accept$5 (Lkz;)V
+	METHOD i lambda$accept$4 (Lkz;)V
+	METHOD j lambda$accept$3 (Lkz;)V
+	METHOD k lambda$accept$2 (Lkz;)V
+	METHOD l lambda$accept$1 (Lkz;)V
+	METHOD m lambda$accept$0 (Lkz;)V

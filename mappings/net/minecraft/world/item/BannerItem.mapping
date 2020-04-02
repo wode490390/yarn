@@ -1,0 +1,5 @@
+CLASS bgm net/minecraft/world/item/BannerItem
+	METHOD <init> <init> (Lbtu;Lbtu;Lbii$a;)V
+	METHOD a appendHoverText (Lbin;Lbnx;Ljava/util/List;Lbjw;)V
+	METHOD a appendHoverTextFromBannerBlockEntityTag (Lbin;Ljava/util/List;)V
+	METHOD b getColor ()Lbhi;

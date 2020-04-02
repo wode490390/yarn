@@ -1,0 +1,14 @@
+CLASS bsz net/minecraft/world/level/block/AttachedStemBlock
+	FIELD a FACING Lceo;
+	FIELD b fruit Lbzx;
+	FIELD c AABBS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbzx;Lcds$c;)V
+	METHOD a getCloneItemStack (Lbnh;Lfo;Lcdt;)Lbin;
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD c getSeedItem ()Lbii;
+	METHOD c mayPlaceOn (Lcdt;Lbnh;Lfo;)Z

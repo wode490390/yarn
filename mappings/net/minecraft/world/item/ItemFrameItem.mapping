@@ -1,0 +1,3 @@
+CLASS bik net/minecraft/world/item/ItemFrameItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a mayPlace (Lbch;Lft;Lbin;Lfo;)Z

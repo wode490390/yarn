@@ -1,0 +1,10 @@
+CLASS zg net/minecraft/server/network/ServerHandshakePacketListenerImpl
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b connection Llz;
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Llz;)V
+	METHOD a getConnection ()Llz;
+	METHOD a onDisconnect (Lml;)V
+	METHOD a handleIntention (Lsk;)V
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$network$ConnectionProtocol [I
+		METHOD <clinit> <clinit> ()V

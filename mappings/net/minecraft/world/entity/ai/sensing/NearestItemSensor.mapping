@@ -1,0 +1,8 @@
+CLASS avl net/minecraft/world/entity/ai/sensing/NearestItemSensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a lambda$doTick$2 (Lann;Lazm;)Z
+	METHOD a lambda$doTick$0 (Lazm;)Z
+	METHOD a doTick (Lyn;Lanm;)V
+	METHOD a doTick (Lyn;Lann;)V
+	METHOD b lambda$doTick$1 (Lann;Lazm;)Z

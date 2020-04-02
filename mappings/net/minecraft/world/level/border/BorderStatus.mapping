@@ -1,0 +1,11 @@
+CLASS cfg net/minecraft/world/level/border/BorderStatus
+	FIELD a GROWING Lcfg;
+	FIELD b SHRINKING Lcfg;
+	FIELD c STATIONARY Lcfg;
+	FIELD d color I
+	FIELD e $VALUES [Lcfg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD a getColor ()I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcfg;
+	METHOD values values ()[Lcfg;

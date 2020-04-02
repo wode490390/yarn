@@ -1,0 +1,7 @@
+CLASS axu net/minecraft/world/entity/animal/horse/Mule
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD a getBreedOffspring (Lamz;)Lamz;
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD eC playChestEquipsSound ()V

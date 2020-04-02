@@ -1,0 +1,11 @@
+CLASS cwt net/minecraft/world/level/material/PushReaction
+	FIELD a NORMAL Lcwt;
+	FIELD b DESTROY Lcwt;
+	FIELD c BLOCK Lcwt;
+	FIELD d IGNORE Lcwt;
+	FIELD e PUSH_ONLY Lcwt;
+	FIELD f $VALUES [Lcwt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcwt;
+	METHOD values values ()[Lcwt;

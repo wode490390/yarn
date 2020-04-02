@@ -1,0 +1,31 @@
+CLASS azr net/minecraft/world/entity/monster/Blaze
+	FIELD b allowedHeightOffset F
+	FIELD c nextHeightOffsetChangeTick I
+	FIELD d DATA_FLAGS_ID Lth;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD N customServerAiStep ()V
+	METHOD a access$000 (Lazr;Z)V
+	METHOD aO getBrightness ()F
+	METHOD b causeFallDamage (FF)Z
+	METHOD bl isOnFire ()Z
+	METHOD cF registerAttributes ()V
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD k isCharged ()Z
+	METHOD l aiStep ()V
+	METHOD o registerGoals ()V
+	METHOD t setCharged (Z)V
+	METHOD w_ defineSynchedData ()V
+	CLASS a BlazeAttackGoal
+		FIELD a blaze Lazr;
+		FIELD b attackStep I
+		FIELD c attackTime I
+		FIELD d lastSeen I
+		METHOD <init> <init> (Lazr;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+		METHOD g getFollowDistance ()D

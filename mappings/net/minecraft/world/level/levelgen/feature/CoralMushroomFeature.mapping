@@ -1,0 +1,3 @@
+CLASS ckp net/minecraft/world/level/levelgen/feature/CoralMushroomFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a placeFeature (Lbny;Ljava/util/Random;Lfo;Lcdt;)Z

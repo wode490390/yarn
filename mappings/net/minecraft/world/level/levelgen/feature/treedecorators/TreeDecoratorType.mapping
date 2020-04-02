@@ -1,0 +1,13 @@
+CLASS cqp net/minecraft/world/level/levelgen/feature/treedecorators/TreeDecoratorType
+	FIELD a TRUNK_VINE Lcqp;
+	FIELD b LEAVE_VINE Lcqp;
+	FIELD c COCOA Lcqp;
+	FIELD d BEEHIVE Lcqp;
+	FIELD e ALTER_GROUND Lcqp;
+	FIELD f deserializer Ljava/util/function/Function;
+	FIELD g randomProvider Ljava/util/function/Function;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcqo;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Function;Ljava/util/function/Function;)Lcqp;
+	METHOD a createRandom (Ljava/util/Random;)Lcqo;

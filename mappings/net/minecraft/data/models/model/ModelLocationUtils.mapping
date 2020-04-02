@@ -1,0 +1,8 @@
+CLASS is net/minecraft/data/models/model/ModelLocationUtils
+	METHOD <init> <init> ()V
+	METHOD a getModelLocation (Lbii;)Lts;
+	METHOD a getModelLocation (Lbii;Ljava/lang/String;)Lts;
+	METHOD a getModelLocation (Lbtu;)Lts;
+	METHOD a getModelLocation (Lbtu;Ljava/lang/String;)Lts;
+	METHOD a decorateBlockModelLocation (Ljava/lang/String;)Lts;
+	METHOD b decorateItemModelLocation (Ljava/lang/String;)Lts;

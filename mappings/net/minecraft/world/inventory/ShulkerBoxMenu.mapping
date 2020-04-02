@@ -1,0 +1,7 @@
+CLASS bfw net/minecraft/world/inventory/ShulkerBoxMenu
+	FIELD c container Lalo;
+	METHOD <init> <init> (ILbcg;)V
+	METHOD <init> <init> (ILbcg;Lalo;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD b removed (Lbch;)V
+	METHOD b quickMoveStack (Lbch;I)Lbin;

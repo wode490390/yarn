@@ -1,0 +1,24 @@
+CLASS bhx net/minecraft/world/item/FireworkRocketItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a appendHoverText (Lbin;Lbnx;Ljava/util/List;Lbjw;)V
+	METHOD a useOn (Lbjz;)Lalv;
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;
+	CLASS a Shape
+		FIELD a SMALL_BALL Lbhx$a;
+		FIELD b LARGE_BALL Lbhx$a;
+		FIELD c STAR Lbhx$a;
+		FIELD d CREEPER Lbhx$a;
+		FIELD e BURST Lbhx$a;
+		FIELD f BY_ID [Lbhx$a;
+		FIELD g id I
+		FIELD h name Ljava/lang/String;
+		FIELD i $VALUES [Lbhx$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+		METHOD a getId ()I
+		METHOD a byId (I)Lbhx$a;
+		METHOD a lambda$static$0 (Lbhx$a;)I
+		METHOD b getName ()Ljava/lang/String;
+		METHOD b lambda$static$1 (I)[Lbhx$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbhx$a;
+		METHOD values values ()[Lbhx$a;

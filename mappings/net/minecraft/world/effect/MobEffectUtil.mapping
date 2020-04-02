@@ -1,0 +1,6 @@
+CLASS amw net/minecraft/world/effect/MobEffectUtil
+	METHOD <init> <init> ()V
+	METHOD a formatDuration (Lamv;F)Ljava/lang/String;
+	METHOD a hasDigSpeed (Lanm;)Z
+	METHOD b getDigSpeedAmplification (Lanm;)I
+	METHOD c hasWaterBreathing (Lanm;)Z

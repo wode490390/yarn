@@ -1,0 +1,5 @@
+CLASS ckr net/minecraft/world/level/levelgen/feature/DarkOakFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a doPlace (Lboc;Ljava/util/Random;Lfo;Ljava/util/Set;Ljava/util/Set;Lcsw;Lcoj;)Z
+	METHOD a doPlace (Lboc;Ljava/util/Random;Lfo;Ljava/util/Set;Ljava/util/Set;Lcsw;Lcpf;)Z
+	METHOD a canPlaceTreeOfHeight (Lbod;Lfo;I)Z

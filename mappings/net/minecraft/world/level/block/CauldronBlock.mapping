@@ -1,0 +1,16 @@
+CLASS buj net/minecraft/world/level/block/CauldronBlock
+	FIELD a LEVEL Lcet;
+	FIELD b SHAPE Ldej;
+	FIELD c INSIDE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a setWaterLevel (Lbnx;Lfo;Lcdt;I)V
+	METHOD a hasAnalogOutputSignal (Lcdt;)Z
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a getAnalogOutputSignal (Lcdt;Lbnx;Lfo;)I
+	METHOD a entityInside (Lcdt;Lbnx;Lfo;Lanb;)V
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD a_ getInteractionShape (Lcdt;Lbnh;Lfo;)Ldej;
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD c handleRain (Lbnx;Lfo;)V

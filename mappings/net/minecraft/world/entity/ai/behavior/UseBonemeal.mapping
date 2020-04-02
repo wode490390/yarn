@@ -1,0 +1,20 @@
+CLASS ara net/minecraft/world/entity/ai/behavior/UseBonemeal
+	FIELD b nextWorkCycleTime J
+	FIELD c lastBonemealingSession J
+	FIELD d timeWorkedSoFar I
+	FIELD e cropPos Ljava/util/Optional;
+	METHOD <init> <init> ()V
+	METHOD a setCurrentCropAsTarget (Lbbu;)V
+	METHOD a lambda$setCurrentCropAsTarget$0 (Lbbu;Lfo;)V
+	METHOD a validPos (Lfo;Lyn;)Z
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a checkExtraStartConditions (Lyn;Lbbu;)Z
+	METHOD a canStillUse (Lyn;Lbbu;J)Z
+	METHOD b canStillUse (Lyn;Lanm;J)Z
+	METHOD b pickNextTarget (Lyn;Lbbu;)Ljava/util/Optional;
+	METHOD b start (Lyn;Lbbu;J)V
+	METHOD c stop (Lyn;Lanm;J)V
+	METHOD c stop (Lyn;Lbbu;J)V
+	METHOD d tick (Lyn;Lanm;J)V
+	METHOD d tick (Lyn;Lbbu;J)V

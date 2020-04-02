@@ -1,0 +1,3 @@
+CLASS bwh net/minecraft/world/level/block/GoldBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a playerWillDestroy (Lbnx;Lfo;Lcdt;Lbch;)V

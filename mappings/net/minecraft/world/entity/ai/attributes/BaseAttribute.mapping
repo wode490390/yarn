@@ -1,0 +1,13 @@
+CLASS aog net/minecraft/world/entity/ai/attributes/BaseAttribute
+	FIELD a parent Laod;
+	FIELD b name Ljava/lang/String;
+	FIELD c defaultValue D
+	FIELD d syncable Z
+	METHOD <init> <init> (Laod;Ljava/lang/String;D)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a setSyncable (Z)Laog;
+	METHOD b getDefaultValue ()D
+	METHOD c isClientSyncable ()Z
+	METHOD d getParentAttribute ()Laod;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

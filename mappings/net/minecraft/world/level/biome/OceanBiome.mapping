@@ -1,0 +1,2 @@
+CLASS brh net/minecraft/world/level/biome/OceanBiome
+	METHOD <init> <init> ()V

@@ -1,0 +1,24 @@
+CLASS acq net/minecraft/util/CrudeIncrementalIntIdentityHashBiMap
+	FIELD a EMPTY_SLOT Ljava/lang/Object;
+	FIELD b keys [Ljava/lang/Object;
+	FIELD c values [I
+	FIELD d byId [Ljava/lang/Object;
+	FIELD e nextId I
+	FIELD f size I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD a clear ()V
+	METHOD a byId (I)Ljava/lang/Object;
+	METHOD a getId (Ljava/lang/Object;)I
+	METHOD a addMapping (Ljava/lang/Object;I)V
+	METHOD b size ()I
+	METHOD b contains (I)Z
+	METHOD b contains (Ljava/lang/Object;)Z
+	METHOD b indexOf (Ljava/lang/Object;I)I
+	METHOD c nextId ()I
+	METHOD c getValue (I)I
+	METHOD c add (Ljava/lang/Object;)I
+	METHOD d grow (I)V
+	METHOD d hash (Ljava/lang/Object;)I
+	METHOD e findEmpty (I)I
+	METHOD iterator iterator ()Ljava/util/Iterator;

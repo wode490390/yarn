@@ -1,0 +1,8 @@
+CLASS cgo net/minecraft/world/level/chunk/storage/RegionFileStorage
+	FIELD a regionCache Lit/unimi/dsi/fastutil/longs/Long2ObjectLinkedOpenHashMap;
+	FIELD b folder Ljava/io/File;
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a read (Lbni;)Lkz;
+	METHOD a write (Lbni;Lkz;)V
+	METHOD b getRegionFile (Lbni;)Lcgn;
+	METHOD close close ()V

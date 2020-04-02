@@ -1,0 +1,2 @@
+CLASS bqk net/minecraft/world/level/biome/GiantSpruceTaigaBiome
+	METHOD <init> <init> ()V

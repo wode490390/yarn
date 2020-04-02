@@ -1,0 +1,5 @@
+CLASS uc net/minecraft/server/RunningOnDifferentThreadException
+	FIELD a RUNNING_ON_DIFFERENT_THREAD Luc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD fillInStackTrace fillInStackTrace ()Ljava/lang/Throwable;

@@ -1,0 +1,4 @@
+CLASS cjo net/minecraft/world/level/levelgen/carver/CarverConfiguration
+	FIELD a NONE Lcjs;
+	METHOD <clinit> <clinit> ()V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,4 @@
+CLASS coc net/minecraft/world/level/levelgen/feature/configurations/DecoratorConfiguration
+	FIELD e NONE Lcom;
+	METHOD <clinit> <clinit> ()V
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

@@ -1,0 +1,8 @@
+CLASS bfg net/minecraft/world/inventory/HopperMenu
+	FIELD c hopper Lalo;
+	METHOD <init> <init> (ILbcg;)V
+	METHOD <init> <init> (ILbcg;Lalo;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD b removed (Lbch;)V
+	METHOD b quickMoveStack (Lbch;I)Lbin;
+	METHOD e getContainer ()Lalo;

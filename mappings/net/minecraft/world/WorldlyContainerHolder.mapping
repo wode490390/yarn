@@ -1,0 +1,2 @@
+CLASS amg net/minecraft/world/WorldlyContainerHolder
+	METHOD a getContainer (Lcdt;Lbny;Lfo;)Lamf;

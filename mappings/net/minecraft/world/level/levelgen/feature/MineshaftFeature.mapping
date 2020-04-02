@@ -1,0 +1,23 @@
+CLASS clx net/minecraft/world/level/levelgen/feature/MineshaftFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lcna$a;
+	METHOD a isFeatureChunk (Lbpb;Lcfl;Ljava/util/Random;IILboy;)Z
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD c getLookupRange ()I
+	CLASS a MineShaftStart
+		METHOD <init> <init> (Lcna;IILcsw;IJ)V
+		METHOD a generatePieces (Lcfl;Lcuq;IILboy;)V
+	CLASS b Type
+		FIELD a NORMAL Lclx$b;
+		FIELD b MESA Lclx$b;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		FIELD e $VALUES [Lclx$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byId (I)Lclx$b;
+		METHOD a lambda$static$0 (Lclx$b;)Lclx$b;
+		METHOD a byName (Ljava/lang/String;)Lclx$b;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lclx$b;
+		METHOD values values ()[Lclx$b;

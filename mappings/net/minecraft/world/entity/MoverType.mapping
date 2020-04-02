@@ -1,0 +1,11 @@
+CLASS anr net/minecraft/world/entity/MoverType
+	FIELD a SELF Lanr;
+	FIELD b PLAYER Lanr;
+	FIELD c PISTON Lanr;
+	FIELD d SHULKER_BOX Lanr;
+	FIELD e SHULKER Lanr;
+	FIELD f $VALUES [Lanr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lanr;
+	METHOD values values ()[Lanr;

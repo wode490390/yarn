@@ -1,0 +1,3 @@
+CLASS bbw net/minecraft/world/entity/npc/VillagerDataHolder
+	METHOD a setVillagerData (Lbbv;)V
+	METHOD eI getVillagerData ()Lbbv;

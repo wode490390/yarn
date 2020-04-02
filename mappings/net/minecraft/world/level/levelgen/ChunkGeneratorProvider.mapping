@@ -1,0 +1,27 @@
+CLASS ciw net/minecraft/world/level/levelgen/ChunkGeneratorProvider
+	FIELD a type Lboe;
+	FIELD b settings Lcom/mojang/datafixers/Dynamic;
+	FIELD c supplier Ljava/util/function/Function;
+	METHOD <init> <init> (Lboe;Lcom/mojang/datafixers/Dynamic;Ljava/util/function/Function;)V
+	METHOD a getType ()Lboe;
+	METHOD a lambda$createBuffetBiomeSource$4 (I)[Lboy;
+	METHOD a lambda$createBuffetBiomeSource$6 (J)Lbpc;
+	METHOD a create (Lbny;)Lcfl;
+	METHOD a lambda$createNormal$0 (Lboe;Lcjg;Lbny;)Lcfl;
+	METHOD a createNormal (Lboe;Lcom/mojang/datafixers/Dynamic;)Lciw;
+	METHOD a lambda$createBuffetBiomeSource$7 (Lboy;J)Lbpc;
+	METHOD a lambda$createBuffetGeneratorCap$8 (Lcfn;Ljava/util/function/LongFunction;Lcix;Lbny;)Lcfl;
+	METHOD a decorateCommonGeneratorSettings (Lcix;Lcom/mojang/datafixers/DynamicLike;)V
+	METHOD a lambda$null$2 (Lcom/mojang/datafixers/Dynamic;)Lboy;
+	METHOD a createBuffetBiomeSource (Lcom/mojang/datafixers/DynamicLike;)Ljava/util/function/LongFunction;
+	METHOD a createBuffetGeneratorCap (Lcom/mojang/datafixers/DynamicLike;Lcfn;Ljava/util/function/LongFunction;)Ljava/util/function/Function;
+	METHOD a getRegistryValue (Lcom/mojang/datafixers/DynamicLike;Lgh;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a createBuffetGenerator (Lcom/mojang/datafixers/DynamicLike;Ljava/util/function/LongFunction;)Ljava/util/function/Function;
+	METHOD a lambda$createFlat$1 (Lcqt;Lbny;)Lcfl;
+	METHOD a lambda$createBuffetBiomeSource$3 (Ljava/util/stream/Stream;)Ljava/util/stream/Stream;
+	METHOD a lambda$createBuffetBiomeSource$5 ([Lboy;IJ)Lbpc;
+	METHOD b getSettings ()Lcom/mojang/datafixers/Dynamic;
+	METHOD b lambda$createDebug$9 (Lbny;)Lcfl;
+	METHOD b createFlat (Lboe;Lcom/mojang/datafixers/Dynamic;)Lciw;
+	METHOD c createBuffet (Lboe;Lcom/mojang/datafixers/Dynamic;)Lciw;
+	METHOD d createDebug (Lboe;Lcom/mojang/datafixers/Dynamic;)Lciw;

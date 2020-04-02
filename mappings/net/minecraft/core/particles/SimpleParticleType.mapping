@@ -1,0 +1,14 @@
+CLASS he net/minecraft/core/particles/SimpleParticleType
+	FIELD a DESERIALIZER Lhb$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a lambda$new$0 (Ljava/util/Random;Lhc;)Lhe;
+	METHOD a writeToNetwork (Lmb;)V
+	METHOD b getType ()Lhc;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lhc;Lcom/mojang/brigadier/StringReader;)Lhe;
+		METHOD a fromNetwork (Lhc;Lmb;)Lhe;
+		METHOD b fromCommand (Lhc;Lcom/mojang/brigadier/StringReader;)Lhb;
+		METHOD b fromNetwork (Lhc;Lmb;)Lhb;

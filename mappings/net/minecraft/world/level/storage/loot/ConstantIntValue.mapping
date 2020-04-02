@@ -1,0 +1,13 @@
+CLASS czy net/minecraft/world/level/storage/loot/ConstantIntValue
+	FIELD d value I
+	METHOD <init> <init> (I)V
+	METHOD a getType ()Lts;
+	METHOD a exactly (I)Lczy;
+	METHOD a access$000 (Lczy;)I
+	METHOD a getInt (Ljava/util/Random;)I
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lczy;
+		METHOD a serialize (Lczy;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

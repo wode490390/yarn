@@ -1,0 +1,6 @@
+CLASS bzh net/minecraft/world/level/block/SlimeBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a bounceUp (Lanb;)V
+	METHOD a updateEntityAfterFallOn (Lbnh;Lanb;)V
+	METHOD a stepOn (Lbnx;Lfo;Lanb;)V
+	METHOD a fallOn (Lbnx;Lfo;Lanb;F)V

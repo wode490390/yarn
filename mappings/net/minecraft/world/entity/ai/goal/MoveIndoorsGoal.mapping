@@ -1,0 +1,10 @@
+CLASS asy net/minecraft/world/entity/ai/goal/MoveIndoorsGoal
+	FIELD a mob Lant;
+	FIELD b insideX I
+	FIELD c insideZ I
+	METHOD <init> <init> (Lant;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD g isInside ()Z

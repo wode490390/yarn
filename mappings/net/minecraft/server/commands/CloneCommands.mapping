@@ -1,0 +1,46 @@
+CLASS ur net/minecraft/server/commands/CloneCommands
+	FIELD a FILTER_AIR Ljava/util/function/Predicate;
+	FIELD b ERROR_OVERLAP Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c ERROR_AREA_TOO_LARGE Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD d ERROR_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$null$11 (Lcdx;)Z
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$20 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$2 (Lcu;)Z
+	METHOD a clone (Lcu;Lfo;Lfo;Lfo;Ljava/util/function/Predicate;Lur$b;)I
+	METHOD a lambda$static$0 (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD b lambda$null$9 (Lcdx;)Z
+	METHOD b lambda$register$19 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$null$7 (Lcdx;)Z
+	METHOD c lambda$register$18 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$null$5 (Lcdx;)Z
+	METHOD d lambda$register$17 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$null$3 (Lcdx;)Z
+	METHOD e lambda$register$16 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$static$1 (Lcdx;)Z
+	METHOD f lambda$register$15 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD g lambda$register$14 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD h lambda$register$13 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD i lambda$register$12 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD j lambda$register$10 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD k lambda$register$8 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD l lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD m lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	CLASS a CloneBlockInfo
+		FIELD a pos Lfo;
+		FIELD b state Lcdt;
+		FIELD c tag Lkz;
+		METHOD <init> <init> (Lfo;Lcdt;Lkz;)V
+	CLASS b Mode
+		FIELD a FORCE Lur$b;
+		FIELD b MOVE Lur$b;
+		FIELD c NORMAL Lur$b;
+		FIELD d canOverlap Z
+		FIELD e $VALUES [Lur$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IZ)V
+		METHOD a canOverlap ()Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Lur$b;
+		METHOD values values ()[Lur$b;

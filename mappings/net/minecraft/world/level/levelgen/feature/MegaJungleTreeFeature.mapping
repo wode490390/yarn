@@ -1,0 +1,5 @@
+CLASS clu net/minecraft/world/level/levelgen/feature/MegaJungleTreeFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a doPlace (Lboc;Ljava/util/Random;Lfo;Ljava/util/Set;Ljava/util/Set;Lcsw;Lcoj;)Z
+	METHOD a doPlace (Lboc;Ljava/util/Random;Lfo;Ljava/util/Set;Ljava/util/Set;Lcsw;Lcpf;)Z
+	METHOD c createCrown (Lboc;Ljava/util/Random;Lfo;ILjava/util/Set;Lcsw;Lcpf;)V

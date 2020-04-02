@@ -1,0 +1,12 @@
+CLASS aym net/minecraft/world/entity/boss/enderdragon/phases/DragonLandingApproachPhase
+	FIELD b NEAR_EGG_TARGETING Lavw;
+	FIELD c currentPath Lcyt;
+	FIELD d targetLocation Lddp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laye;)V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD g getFlyTargetLocation ()Lddp;
+	METHOD i getPhase ()Layu;
+	METHOD j findNewTarget ()V
+	METHOD k navigateToNextPathNode ()V

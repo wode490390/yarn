@@ -1,0 +1,17 @@
+CLASS atm net/minecraft/world/entity/ai/goal/RangedAttackGoal
+	FIELD a mob Lann;
+	FIELD b rangedAttackMob Lbal;
+	FIELD c target Lanm;
+	FIELD d attackTime I
+	FIELD e speedModifier D
+	FIELD f seeTime I
+	FIELD g attackIntervalMin I
+	FIELD h attackIntervalMax I
+	FIELD i attackRadius F
+	FIELD j attackRadiusSqr F
+	METHOD <init> <init> (Lbal;DIF)V
+	METHOD <init> <init> (Lbal;DIIF)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V

@@ -1,0 +1,6 @@
+CLASS gr net/minecraft/core/dispenser/BoatDispenseItemBehavior
+	FIELD b defaultDispenseItemBehavior Lgs;
+	FIELD c type Lbdx$b;
+	METHOD <init> <init> (Lbdx$b;)V
+	METHOD a playSound (Lfp;)V
+	METHOD a execute (Lfp;Lbin;)Lbin;

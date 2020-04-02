@@ -1,0 +1,19 @@
+CLASS bcp net/minecraft/world/entity/projectile/EvokerFangs
+	FIELD b warmupDelayTicks I
+	FIELD c sentSpikeEvent Z
+	FIELD d lifeTicks I
+	FIELD e clientSideAttackStarted Z
+	FIELD f owner Lanm;
+	FIELD g ownerUUID Ljava/util/UUID;
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDDFILanm;)V
+	METHOD O getAddEntityPacket ()Lmz;
+	METHOD a handleEntityEvent (B)V
+	METHOD a getAnimationProgress (F)F
+	METHOD a setOwner (Lanm;)V
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD d dealDamageTo (Lanm;)V
+	METHOD f getOwner ()Lanm;
+	METHOD h tick ()V
+	METHOD w_ defineSynchedData ()V

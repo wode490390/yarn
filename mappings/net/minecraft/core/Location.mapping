@@ -1,0 +1,2 @@
+CLASS gb net/minecraft/core/Location
+	METHOD h getLevel ()Lbnx;

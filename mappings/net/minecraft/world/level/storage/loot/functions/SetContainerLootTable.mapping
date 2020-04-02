@@ -1,0 +1,21 @@
+CLASS dbr net/minecraft/world/level/storage/loot/functions/SetContainerLootTable
+	FIELD a name Lts;
+	FIELD c seed J
+	METHOD <init> <init> ([Ldcq;Lts;J)V
+	METHOD <init> <init> ([Ldcq;Lts;JLdbr$1;)V
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a validate (Ldaj;)V
+	METHOD a access$000 (Ldbr;)Lts;
+	METHOD a withLootTable (Lts;)Ldbl$a;
+	METHOD a withLootTable (Lts;J)Ldbl$a;
+	METHOD a lambda$withLootTable$1 (Lts;J[Ldcq;)Ldbm;
+	METHOD a lambda$withLootTable$0 (Lts;[Ldcq;)Ldbm;
+	METHOD b access$100 (Ldbr;)J
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbr;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbr;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

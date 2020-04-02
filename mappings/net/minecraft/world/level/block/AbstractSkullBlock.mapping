@@ -1,0 +1,5 @@
+CLASS bsv net/minecraft/world/level/block/AbstractSkullBlock
+	FIELD a type Lbzf$a;
+	METHOD <init> <init> (Lbzf$a;Lcds$c;)V
+	METHOD a newBlockEntity (Lbnh;)Lcbt;
+	METHOD c getType ()Lbzf$a;

@@ -1,0 +1,5 @@
+CLASS cjv net/minecraft/world/level/levelgen/carver/UnderwaterCaveWorldCarver
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a hasWater (Lcfj;IIIIIIII)Z
+	METHOD a carveBlock (Lcfj;Ljava/util/function/Function;Ljava/util/BitSet;Ljava/util/Random;Lfo$a;Lfo$a;Lfo$a;IIIIIIIILjava/util/concurrent/atomic/AtomicBoolean;)Z
+	METHOD a carveBlock (Lcjw;Lcfj;Ljava/util/BitSet;Ljava/util/Random;Lfo$a;IIIIIIII)Z

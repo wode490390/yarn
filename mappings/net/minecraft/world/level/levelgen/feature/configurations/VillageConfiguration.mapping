@@ -1,0 +1,9 @@
+CLASS cpg net/minecraft/world/level/levelgen/feature/configurations/VillageConfiguration
+	FIELD a startPool Lts;
+	FIELD b size I
+	FIELD c STARTS Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcpg;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcpg;

@@ -1,0 +1,11 @@
+CLASS dal net/minecraft/world/level/storage/loot/entries/ComposableEntryContainer
+	FIELD a ALWAYS_FALSE Ldal;
+	FIELD b ALWAYS_TRUE Ldal;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$1 (Ldaa;Ljava/util/function/Consumer;)Z
+	METHOD a and (Ldal;)Ldal;
+	METHOD a lambda$or$3 (Ldal;Ldaa;Ljava/util/function/Consumer;)Z
+	METHOD b lambda$static$0 (Ldaa;Ljava/util/function/Consumer;)Z
+	METHOD b or (Ldal;)Ldal;
+	METHOD b lambda$and$2 (Ldal;Ldaa;Ljava/util/function/Consumer;)Z
+	METHOD expand expand (Ldaa;Ljava/util/function/Consumer;)Z

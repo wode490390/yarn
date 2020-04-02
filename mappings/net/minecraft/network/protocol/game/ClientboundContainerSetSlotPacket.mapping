@@ -1,0 +1,13 @@
+CLASS oa net/minecraft/network/protocol/game/ClientboundContainerSetSlotPacket
+	FIELD a containerId I
+	FIELD b slot I
+	FIELD c itemStack Lbin;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (IILbin;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getContainerId ()I
+	METHOD b write (Lmb;)V
+	METHOD c getSlot ()I
+	METHOD d getItem ()Lbin;

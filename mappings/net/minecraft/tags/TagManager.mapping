@@ -1,0 +1,21 @@
+CLASS acl net/minecraft/tags/TagManager
+	FIELD a blocks Laci;
+	FIELD b items Laci;
+	FIELD c fluids Laci;
+	FIELD d entityTypes Laci;
+	METHOD <init> <init> ()V
+	METHOD a getBlocks ()Laci;
+	METHOD a reload (Laag$a;Laal;Lakx;Lakx;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$reload$1 (Lacl$a;)V
+	METHOD a lambda$reload$0 (Lcom/mojang/datafixers/util/Pair;Lcom/mojang/datafixers/util/Pair;)Lacl$a;
+	METHOD a serializeToNetwork (Lmb;)V
+	METHOD b getItems ()Laci;
+	METHOD b deserializeFromNetwork (Lmb;)Lacl;
+	METHOD c getFluids ()Laci;
+	METHOD d getEntityTypes ()Laci;
+	CLASS a Preparations
+		FIELD a blocks Ljava/util/Map;
+		FIELD b items Ljava/util/Map;
+		FIELD c fluids Ljava/util/Map;
+		FIELD d entityTypes Ljava/util/Map;
+		METHOD <init> <init> (Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)V

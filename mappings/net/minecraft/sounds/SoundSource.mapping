@@ -1,0 +1,21 @@
+CLASS abt net/minecraft/sounds/SoundSource
+	FIELD a MASTER Labt;
+	FIELD b MUSIC Labt;
+	FIELD c RECORDS Labt;
+	FIELD d WEATHER Labt;
+	FIELD e BLOCKS Labt;
+	FIELD f HOSTILE Labt;
+	FIELD g NEUTRAL Labt;
+	FIELD h PLAYERS Labt;
+	FIELD i AMBIENT Labt;
+	FIELD j VOICE Labt;
+	FIELD k BY_NAME Ljava/util/Map;
+	FIELD l name Ljava/lang/String;
+	FIELD m $VALUES [Labt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a byName (Ljava/lang/String;)Labt;
+	METHOD b getNames ()Ljava/util/Set;
+	METHOD valueOf valueOf (Ljava/lang/String;)Labt;
+	METHOD values values ()[Labt;

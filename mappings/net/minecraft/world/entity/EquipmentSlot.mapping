@@ -1,0 +1,30 @@
+CLASS ang net/minecraft/world/entity/EquipmentSlot
+	FIELD a MAINHAND Lang;
+	FIELD b OFFHAND Lang;
+	FIELD c FEET Lang;
+	FIELD d LEGS Lang;
+	FIELD e CHEST Lang;
+	FIELD f HEAD Lang;
+	FIELD g type Lang$a;
+	FIELD h index I
+	FIELD i filterFlag I
+	FIELD j name Ljava/lang/String;
+	FIELD k $VALUES [Lang;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILang$a;IILjava/lang/String;)V
+	METHOD a getType ()Lang$a;
+	METHOD a byTypeAndIndex (Lang$a;I)Lang;
+	METHOD a byName (Ljava/lang/String;)Lang;
+	METHOD b getIndex ()I
+	METHOD c getFilterFlag ()I
+	METHOD d getName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lang;
+	METHOD values values ()[Lang;
+	CLASS a Type
+		FIELD a HAND Lang$a;
+		FIELD b ARMOR Lang$a;
+		FIELD c $VALUES [Lang$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lang$a;
+		METHOD values values ()[Lang$a;

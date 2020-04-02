@@ -1,0 +1,19 @@
+CLASS avw net/minecraft/world/entity/ai/targeting/TargetingConditions
+	FIELD a DEFAULT Lavw;
+	FIELD b range D
+	FIELD c allowInvulnerable Z
+	FIELD d allowSameTeam Z
+	FIELD e allowUnseeable Z
+	FIELD f allowNonAttackable Z
+	FIELD g testInvisible Z
+	FIELD h selector Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a allowInvulnerable ()Lavw;
+	METHOD a range (D)Lavw;
+	METHOD a test (Lanm;Lanm;)Z
+	METHOD a selector (Ljava/util/function/Predicate;)Lavw;
+	METHOD b allowSameTeam ()Lavw;
+	METHOD c allowUnseeable ()Lavw;
+	METHOD d allowNonAttackable ()Lavw;
+	METHOD e ignoreInvisibilityTesting ()Lavw;

@@ -1,0 +1,4 @@
+CLASS bqb net/minecraft/world/level/biome/ErodedBadlandsBiome
+	METHOD <init> <init> ()V
+	METHOD a getFoliageColor ()I
+	METHOD a getGrassColor (DD)I

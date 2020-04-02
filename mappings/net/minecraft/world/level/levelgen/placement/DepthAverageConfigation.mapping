@@ -1,0 +1,8 @@
+CLASS crr net/minecraft/world/level/levelgen/placement/DepthAverageConfigation
+	FIELD a count I
+	FIELD b baseline I
+	FIELD c spread I
+	METHOD <init> <init> (III)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcrr;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcrr;

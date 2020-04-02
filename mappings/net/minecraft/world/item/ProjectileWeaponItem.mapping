@@ -1,0 +1,20 @@
+CLASS biz net/minecraft/world/item/ProjectileWeaponItem
+	FIELD a ARROW_ONLY Ljava/util/function/Predicate;
+	FIELD b ARROW_OR_FIREWORK Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a getHeldProjectile (Lanm;Ljava/util/function/Predicate;)Lbin;
+	METHOD b getAllSupportedProjectiles ()Ljava/util/function/Predicate;
+	METHOD c getEnchantmentValue ()I
+	METHOD d getDefaultProjectileRange ()I
+	METHOD e getSupportedHeldProjectiles ()Ljava/util/function/Predicate;
+	METHOD f lambda$static$1 (Lbin;)Z
+	METHOD g lambda$static$0 (Lbin;)Z
+	CLASS a Type
+		FIELD a BOW Lbiz$a;
+		FIELD b CROSSBOW Lbiz$a;
+		FIELD c $VALUES [Lbiz$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbiz$a;
+		METHOD values values ()[Lbiz$a;

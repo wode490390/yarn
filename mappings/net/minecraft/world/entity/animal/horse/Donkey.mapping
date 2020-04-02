@@ -1,0 +1,7 @@
+CLASS axr net/minecraft/world/entity/animal/horse/Donkey
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD a getBreedOffspring (Lamz;)Lamz;
+	METHOD a canMate (Lawo;)Z
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;

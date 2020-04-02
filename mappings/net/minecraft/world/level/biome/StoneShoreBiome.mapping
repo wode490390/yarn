@@ -1,0 +1,2 @@
+CLASS bry net/minecraft/world/level/biome/StoneShoreBiome
+	METHOD <init> <init> ()V

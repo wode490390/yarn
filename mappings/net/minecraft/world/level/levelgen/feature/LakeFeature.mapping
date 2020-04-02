@@ -1,0 +1,6 @@
+CLASS clt net/minecraft/world/level/levelgen/feature/LakeFeature
+	FIELD a AIR Lcdt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcnv;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z

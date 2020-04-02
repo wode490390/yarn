@@ -1,0 +1,9 @@
+CLASS cwp net/minecraft/world/level/material/Fluids
+	FIELD a EMPTY Lcwm;
+	FIELD b FLOWING_WATER Lcwl;
+	FIELD c WATER Lcwl;
+	FIELD d FLOWING_LAVA Lcwl;
+	FIELD e LAVA Lcwl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Ljava/lang/String;Lcwm;)Lcwm;

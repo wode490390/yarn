@@ -1,0 +1,5 @@
+CLASS bzr net/minecraft/world/level/block/SpreadingSnowyDirtBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD b canBeGrass (Lcdt;Lboa;Lfo;)Z
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD c canPropagate (Lcdt;Lboa;Lfo;)Z

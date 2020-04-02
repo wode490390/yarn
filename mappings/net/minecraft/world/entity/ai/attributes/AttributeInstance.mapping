@@ -1,0 +1,17 @@
+CLASS aoe net/minecraft/world/entity/ai/attributes/AttributeInstance
+	METHOD a getAttribute ()Laod;
+	METHOD a setBaseValue (D)V
+	METHOD a copyFrom (Laoe;)V
+	METHOD a getModifiers (Laof$a;)Ljava/util/Set;
+	METHOD a hasModifier (Laof;)Z
+	METHOD a getModifiers (Ljava/lang/String;)Ljava/util/Collection;
+	METHOD a addModifiers (Ljava/util/Collection;)V
+	METHOD a getModifier (Ljava/util/UUID;)Laof;
+	METHOD b getBaseValue ()D
+	METHOD b addModifier (Laof;)V
+	METHOD b removeModifiers (Ljava/lang/String;)V
+	METHOD b removeModifier (Ljava/util/UUID;)V
+	METHOD c getModifiers ()Ljava/util/Set;
+	METHOD c removeModifier (Laof;)V
+	METHOD d removeModifiers ()V
+	METHOD e getValue ()D

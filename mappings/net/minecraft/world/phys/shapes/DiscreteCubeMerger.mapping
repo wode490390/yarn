@@ -1,0 +1,8 @@
+CLASS ddx net/minecraft/world/phys/shapes/DiscreteCubeMerger
+	FIELD a result Lddv;
+	FIELD b firstSize I
+	FIELD c secondSize I
+	FIELD d gcd I
+	METHOD <init> <init> (II)V
+	METHOD a getList ()Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	METHOD a forMergedIndexes (Ldeb$a;)Z

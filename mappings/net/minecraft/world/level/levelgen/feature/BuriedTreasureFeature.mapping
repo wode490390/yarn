@@ -1,0 +1,10 @@
+CLASS ckj net/minecraft/world/level/levelgen/feature/BuriedTreasureFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lcna$a;
+	METHOD a isFeatureChunk (Lbpb;Lcfl;Ljava/util/Random;IILboy;)Z
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD c getLookupRange ()I
+	CLASS a BuriedTreasureStart
+		METHOD <init> <init> (Lcna;IILcsw;IJ)V
+		METHOD a getLocatePos ()Lfo;
+		METHOD a generatePieces (Lcfl;Lcuq;IILboy;)V

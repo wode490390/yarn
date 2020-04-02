@@ -1,0 +1,23 @@
+CLASS bvr net/minecraft/world/level/block/EnderChestBlock
+	FIELD b FACING Lceo;
+	FIELD c WATERLOGGED Lcel;
+	FIELD d SHAPE Ldej;
+	FIELD e CONTAINER_TITLE Lmv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a lambda$use$1 (Lbfr;ILbcg;Lbch;)Lbel;
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a newBlockEntity (Lbnh;)Lcbt;
+	METHOD a playerWillDestroy (Lbnx;Lfo;Lcdt;Lbch;)V
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a combine (Lcdt;Lbnx;Lfo;Z)Lbvi$c;
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getRenderShape (Lcdt;)Lbyq;
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD d lambda$new$0 ()Lcbu;
+	METHOD d getFluidState (Lcdt;)Lcwn;

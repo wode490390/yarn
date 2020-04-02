@@ -1,0 +1,9 @@
+CLASS ow net/minecraft/network/protocol/game/ClientboundOpenSignEditorPacket
+	FIELD a pos Lfo;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lfo;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getPos ()Lfo;
+	METHOD b write (Lmb;)V

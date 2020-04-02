@@ -1,0 +1,64 @@
+CLASS bly net/minecraft/world/item/enchantment/EnchantmentCategory
+	FIELD a ALL Lbly;
+	FIELD b ARMOR Lbly;
+	FIELD c ARMOR_FEET Lbly;
+	FIELD d ARMOR_LEGS Lbly;
+	FIELD e ARMOR_CHEST Lbly;
+	FIELD f ARMOR_HEAD Lbly;
+	FIELD g WEAPON Lbly;
+	FIELD h DIGGER Lbly;
+	FIELD i FISHING_ROD Lbly;
+	FIELD j TRIDENT Lbly;
+	FIELD k BREAKABLE Lbly;
+	FIELD l BOW Lbly;
+	FIELD m WEARABLE Lbly;
+	FIELD n CROSSBOW Lbly;
+	FIELD o $VALUES [Lbly;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD <init> <init> (Ljava/lang/String;ILbly$1;)V
+	METHOD a canEnchant (Lbii;)Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbly;
+	METHOD values values ()[Lbly;
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 2 10
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 3 11
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 4 12
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 5 13
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 6 14
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 7 2
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 8 3
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 9 4
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 10 5
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 11 6
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 12 7
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 13 8
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z
+	CLASS 14 9
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a canEnchant (Lbii;)Z

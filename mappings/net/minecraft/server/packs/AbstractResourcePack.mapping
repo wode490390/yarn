@@ -1,0 +1,16 @@
+CLASS zl net/minecraft/server/packs/AbstractResourcePack
+	FIELD a file Ljava/io/File;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getRelativePath (Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
+	METHOD a getResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD a getResource (Lzp;Lts;)Ljava/io/InputStream;
+	METHOD a getMetadataSection (Lzs;)Ljava/lang/Object;
+	METHOD a getMetadataFromStream (Lzs;Ljava/io/InputStream;)Ljava/lang/Object;
+	METHOD b getRootResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD b hasResource (Lzp;Lts;)Z
+	METHOD c hasResource (Ljava/lang/String;)Z
+	METHOD c getPathFromLocation (Lzp;Lts;)Ljava/lang/String;
+	METHOD d logWarning (Ljava/lang/String;)V

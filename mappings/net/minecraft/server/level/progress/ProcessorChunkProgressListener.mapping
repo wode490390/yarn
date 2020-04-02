@@ -1,0 +1,10 @@
+CLASS yz net/minecraft/server/level/progress/ProcessorChunkProgressListener
+	FIELD b delegate Lyw;
+	FIELD c mailbox Lalf;
+	METHOD <init> <init> (Lyw;Ljava/util/concurrent/Executor;)V
+	METHOD a start ()V
+	METHOD a updateSpawnPos (Lbni;)V
+	METHOD a onStatusChange (Lbni;Lcfp;)V
+	METHOD b stop ()V
+	METHOD b lambda$updateSpawnPos$0 (Lbni;)V
+	METHOD b lambda$onStatusChange$1 (Lbni;Lcfp;)V

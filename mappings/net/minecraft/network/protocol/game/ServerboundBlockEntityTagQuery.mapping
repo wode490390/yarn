@@ -1,0 +1,11 @@
+CLASS qt net/minecraft/network/protocol/game/ServerboundBlockEntityTagQuery
+	FIELD a transactionId I
+	FIELD b pos Lfo;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILfo;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getTransactionId ()I
+	METHOD b write (Lmb;)V
+	METHOD c getPos ()Lfo;

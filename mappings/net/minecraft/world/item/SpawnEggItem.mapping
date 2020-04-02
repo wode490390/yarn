@@ -1,0 +1,15 @@
+CLASS bjl net/minecraft/world/item/SpawnEggItem
+	FIELD a BY_ID Ljava/util/Map;
+	FIELD b color1 I
+	FIELD c color2 I
+	FIELD d defaultType Lanf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;IILbii$a;)V
+	METHOD a getColor (I)I
+	METHOD a byId (Lanf;)Lbjl;
+	METHOD a spawnOffspringFromSpawnEgg (Lbch;Lanf;Lbnx;Lddp;Lbin;)Ljava/util/Optional;
+	METHOD a useOn (Lbjz;)Lalv;
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;
+	METHOD a getType (Lkz;)Lanf;
+	METHOD a spawnsEntity (Lkz;Lanf;)Z
+	METHOD f eggs ()Ljava/lang/Iterable;

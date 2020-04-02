@@ -1,0 +1,8 @@
+CLASS bqc net/minecraft/world/level/biome/FixedBiomeSource
+	FIELD d biome Lboy;
+	METHOD <init> <init> (Lbqd;)V
+	METHOD a getBiomesWithin (IIII)Ljava/util/Set;
+	METHOD a findBiomeHorizontal (IIIIILjava/util/List;Ljava/util/Random;Z)Lfo;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b getNoiseBiome (III)Lboy;
+	METHOD c getType ()Lbpe;

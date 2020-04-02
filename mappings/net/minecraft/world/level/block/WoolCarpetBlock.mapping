@@ -1,0 +1,10 @@
+CLASS cbh net/minecraft/world/level/block/WoolCarpetBlock
+	FIELD a SHAPE Ldej;
+	FIELD b color Lbhi;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbhi;Lcds$c;)V
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD b isUnstable ()Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD d getColor ()Lbhi;

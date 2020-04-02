@@ -1,0 +1,22 @@
+CLASS ke net/minecraft/gametest/framework/GameTestRegistry
+	FIELD a testFunctions Ljava/util/Collection;
+	FIELD b testClassNames Ljava/util/Set;
+	FIELD c beforeBatchFunctions Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getAllTestFunctions ()Ljava/util/Collection;
+	METHOD a register (Ljava/lang/Class;)V
+	METHOD a getTestFunctionsForClassName (Ljava/lang/String;)Ljava/util/Collection;
+	METHOD a lambda$findTestFunction$1 (Ljava/lang/String;Lkq;)Z
+	METHOD a register (Ljava/lang/reflect/Method;)V
+	METHOD a lambda$turnMethodIntoConsumer$2 (Ljava/lang/reflect/Method;Ljava/lang/Object;)V
+	METHOD a isTestFunctionPartOfClass (Lkq;Ljava/lang/String;)Z
+	METHOD b getAllTestClassNames ()Ljava/util/Collection;
+	METHOD b isTestClass (Ljava/lang/String;)Z
+	METHOD b lambda$getTestFunctionsForClassName$0 (Ljava/lang/String;Lkq;)Z
+	METHOD b useTestGeneratorMethod (Ljava/lang/reflect/Method;)Ljava/util/Collection;
+	METHOD c getBeforeBatchFunction (Ljava/lang/String;)Ljava/util/function/Consumer;
+	METHOD c turnMethodIntoTestFunction (Ljava/lang/reflect/Method;)Lkq;
+	METHOD d findTestFunction (Ljava/lang/String;)Ljava/util/Optional;
+	METHOD d turnMethodIntoConsumer (Ljava/lang/reflect/Method;)Ljava/util/function/Consumer;
+	METHOD e getTestFunction (Ljava/lang/String;)Lkq;

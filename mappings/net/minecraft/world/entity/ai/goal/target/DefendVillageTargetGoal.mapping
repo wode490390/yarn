@@ -1,0 +1,7 @@
+CLASS auf net/minecraft/world/entity/ai/goal/target/DefendVillageTargetGoal
+	FIELD a golem Lawx;
+	FIELD b potentialTarget Lanm;
+	FIELD c attackTargeting Lavw;
+	METHOD <init> <init> (Lawx;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V

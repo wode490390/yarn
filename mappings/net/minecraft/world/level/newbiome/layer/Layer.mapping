@@ -1,0 +1,8 @@
+CLASS cxm net/minecraft/world/level/newbiome/layer/Layer
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b area Lcwy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcwx;)V
+	METHOD a getBiome (I)Lboy;
+	METHOD a get (II)Lboy;
+	METHOD a getArea (IIII)[Lboy;

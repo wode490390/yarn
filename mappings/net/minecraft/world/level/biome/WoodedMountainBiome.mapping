@@ -1,0 +1,2 @@
+CLASS bsp net/minecraft/world/level/biome/WoodedMountainBiome
+	METHOD <init> <init> ()V

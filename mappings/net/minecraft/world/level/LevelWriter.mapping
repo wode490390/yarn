@@ -1,0 +1,6 @@
+CLASS bof net/minecraft/world/level/LevelWriter
+	METHOD a setBlock (Lfo;Lcdt;I)Z
+	METHOD a removeBlock (Lfo;Z)Z
+	METHOD a destroyBlock (Lfo;ZLanb;)Z
+	METHOD b destroyBlock (Lfo;Z)Z
+	METHOD c addFreshEntity (Lanb;)Z

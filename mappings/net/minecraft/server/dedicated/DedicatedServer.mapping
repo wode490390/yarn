@@ -1,21 +1,73 @@
-CLASS net/minecraft/class_2994 net/minecraft/server/dedicated/DedicatedServer
-	METHOD method_12916 getPlugins ()Ljava/lang/String;
-	METHOD method_12918 getPort ()I
-	METHOD method_12929 getHostname ()Ljava/lang/String;
-	METHOD method_12930 getMotd ()Ljava/lang/String;
-	METHOD method_12934 executeRconCommand (Ljava/lang/String;)Ljava/lang/String;
-	METHOD method_16705 getProperties ()Lnet/minecraft/class_3806;
-	METHOD method_3720 info (Ljava/lang/String;)V
-		ARG 1 message
-	METHOD method_3743 warn (Ljava/lang/String;)V
-		ARG 1 message
-	METHOD method_3762 logError (Ljava/lang/String;)V
-		ARG 1 message
-	METHOD method_3766 isDebuggingEnabled ()Z
-	METHOD method_3770 log (Ljava/lang/String;)V
-		ARG 1 message
-	METHOD method_3788 getCurrentPlayerCount ()I
-	METHOD method_3802 getMaxPlayerCount ()I
-	METHOD method_3827 getVersion ()Ljava/lang/String;
-	METHOD method_3858 getPlayerNames ()[Ljava/lang/String;
-	METHOD method_3865 getLevelName ()Ljava/lang/String;
+CLASS xn net/minecraft/server/dedicated/DedicatedServer
+	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD i SHA1 Ljava/util/regex/Pattern;
+	FIELD j consoleInput Ljava/util/List;
+	FIELD k queryThreadGs4 Labn;
+	FIELD l rconConsoleSource Labk;
+	FIELD m rconThread Labp;
+	FIELD n settings Lxp;
+	FIELD o gameType Lbnu;
+	FIELD p gui Lxt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;Lxp;Lcom/mojang/datafixers/DataFixer;Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lcom/mojang/authlib/minecraft/MinecraftSessionService;Lcom/mojang/authlib/GameProfileRepository;Laau;Lyx;Ljava/lang/String;)V
+	METHOD A isNetherEnabled ()Z
+	METHOD I_ shouldInformAdmins ()Z
+	METHOD R getSpawnMonsters ()Z
+	METHOD W isSnooperEnabled ()Z
+	METHOD a lambda$setPlayerIdleTimeout$2 (ILxo;)Lxo;
+	METHOD a populateSnooper (Lamd;)V
+	METHOD a setDefaultGameMode (Lbnu;)V
+	METHOD a publishServer (Lbnu;ZI)Z
+	METHOD a isUnderSpawnProtection (Lbnx;Lfo;Lbch;)Z
+	METHOD a isSingleplayerOwner (Lcom/mojang/authlib/GameProfile;)Z
+	METHOD a handleConsoleInput (Ljava/lang/String;Lcu;)V
+	METHOD a lambda$storeUsingWhiteList$4 (ZLxo;)Lxo;
+	METHOD a_ runCommand (Ljava/lang/String;)Ljava/lang/String;
+	METHOD ag getPlayerList ()Laay;
+	METHOD aj hasGui ()Z
+	METHOD an getSpawnProtectionRadius ()I
+	METHOD aw getAbsoluteMaxWorldSize ()I
+	METHOD az getCompressionThreshold ()I
+	METHOD b fillReport (Lj;)Lj;
+	METHOD b tickChildren (Ljava/util/function/BooleanSupplier;)V
+	METHOD bb getPackHash ()Ljava/lang/String;
+	METHOD bc handleConsoleInputs ()V
+	METHOD bd getPlayerList ()Lxm;
+	METHOD be showGui ()V
+	METHOD bf convertOldUsers ()Z
+	METHOD bg getMaxTickLength ()J
+	METHOD bh access$000 ()Lorg/apache/logging/log4j/Logger;
+	METHOD bp waitForRetry ()V
+	METHOD bq lambda$fillReport$1 ()Ljava/lang/String;
+	METHOD br lambda$fillReport$0 ()Ljava/lang/String;
+	METHOD c setPlayerIdleTimeout (I)V
+	METHOD d initServer ()Z
+	METHOD d_ getProperties ()Lxo;
+	METHOD e onServerExit ()V
+	METHOD e_ getServerIp ()Ljava/lang/String;
+	METHOD f canGenerateStructures ()Z
+	METHOD f_ getServerName ()Ljava/lang/String;
+	METHOD g getDefaultGameType ()Lbnu;
+	METHOD h getDefaultDifficulty ()Lals;
+	METHOD i isHardcore ()Z
+	METHOD j getOperatorUserPermissionLevel ()I
+	METHOD k getFunctionCompilationLevel ()I
+	METHOD l shouldRconBroadcast ()Z
+	METHOD l lambda$runCommand$3 (Ljava/lang/String;)V
+	METHOD m isDedicatedServer ()Z
+	METHOD n isEpollEnabled ()Z
+	METHOD o isCommandBlockEnabled ()Z
+	METHOD o storeUsingWhiteList (Z)V
+	METHOD p isPublished ()Z
+	METHOD q getModdedStatus ()Ljava/util/Optional;
+	METHOD r getServerPort ()I
+	METHOD s stopServer ()V
+	METHOD u getPluginNames ()Ljava/lang/String;
+	CLASS 1 1
+		FIELD a this$0 Lxn;
+		METHOD <init> <init> (Lxn;Ljava/lang/String;)V
+		METHOD run run ()V
+	CLASS 2 2
+		FIELD a this$0 Lxn;
+		METHOD <init> <init> (Lxn;Ljava/lang/String;)V
+		METHOD run run ()V

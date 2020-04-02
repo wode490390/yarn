@@ -1,0 +1,11 @@
+CLASS chl net/minecraft/world/level/dimension/special/G08
+	FIELD g GREEN Lg;
+	FIELD h YELLOW Lg;
+	FIELD i BLUE Lg;
+	FIELD j RED Lg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD a s (F)F
+	METHOD a getEntityExtraTint (Lanm;)Lg;
+	METHOD a getExtraTint (Lcdt;Lfo;)Lg;
+	METHOD a getQuadrantColor (Lfo;)Lg;

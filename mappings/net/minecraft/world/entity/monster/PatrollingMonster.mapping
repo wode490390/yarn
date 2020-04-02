@@ -1,0 +1,35 @@
+CLASS bai net/minecraft/world/entity/monster/PatrollingMonster
+	FIELD b patrolTarget Lfo;
+	FIELD c patrolLeader Z
+	FIELD d patrolling Z
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD a finalizeSpawn (Lbny;Lalt;Lanp;Lanz;Lkz;)Lanz;
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD aX getRidingHeight ()D
+	METHOD b checkPatrollingMonsterSpawnRules (Lanf;Lbny;Lanp;Lfo;Ljava/util/Random;)Z
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD eA canBeLeader ()Z
+	METHOD eB getPatrolTarget ()Lfo;
+	METHOD eC hasPatrolTarget ()Z
+	METHOD eD isPatrolLeader ()Z
+	METHOD eF canJoinPatrol ()Z
+	METHOD eG findPatrolTarget ()V
+	METHOD eH isPatrolling ()Z
+	METHOD f setPatrolTarget (Lfo;)V
+	METHOD h removeWhenFarAway (D)Z
+	METHOD o registerGoals ()V
+	METHOD t setPatrolLeader (Z)V
+	METHOD u setPatrolling (Z)V
+	CLASS a LongDistancePatrolGoal
+		FIELD a mob Lbai;
+		FIELD b speedModifier D
+		FIELD c leaderSpeedModifier D
+		FIELD d cooldownUntil J
+		METHOD <init> <init> (Lbai;DD)V
+		METHOD a canUse ()Z
+		METHOD a lambda$findPatrolCompanions$0 (Lbai;)Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+		METHOD g findPatrolCompanions ()Ljava/util/List;
+		METHOD h moveRandomly ()Z

@@ -1,0 +1,4 @@
+CLASS aqi net/minecraft/world/entity/ai/behavior/SetRaidStatus
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V

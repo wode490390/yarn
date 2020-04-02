@@ -1,0 +1,17 @@
+CLASS bdj net/minecraft/world/entity/projectile/WitherSkull
+	FIELD e DATA_DANGEROUS Lth;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDDDDD)V
+	METHOD <init> <init> (Lbnx;Lanm;DDD)V
+	METHOD Q_ shouldBurn ()Z
+	METHOD a hurt (Laml;F)Z
+	METHOD a getBlockExplosionResistance (Lbnq;Lbnh;Lfo;Lcdt;Lcwn;F)F
+	METHOD a onHitEntity (Lddl;)V
+	METHOD a onHit (Lddm;)V
+	METHOD a setDangerous (Z)V
+	METHOD aQ isPickable ()Z
+	METHOD bl isOnFire ()Z
+	METHOD k getInertia ()F
+	METHOD l isDangerous ()Z
+	METHOD w_ defineSynchedData ()V

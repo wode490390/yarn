@@ -1,0 +1,5 @@
+CLASS cbd net/minecraft/world/level/block/WitherRoseBlock
+	METHOD <init> <init> (Lamt;Lcds$c;)V
+	METHOD a entityInside (Lcdt;Lbnx;Lfo;Lanb;)V
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD c mayPlaceOn (Lcdt;Lbnh;Lfo;)Z

@@ -1,0 +1,6 @@
+CLASS cqy net/minecraft/world/level/levelgen/placement/ChanceDecoratorConfiguration
+	FIELD a chance I
+	METHOD <init> <init> (I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcqy;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcqy;

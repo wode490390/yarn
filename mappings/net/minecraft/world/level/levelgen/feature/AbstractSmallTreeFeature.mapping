@@ -1,0 +1,4 @@
+CLASS cka net/minecraft/world/level/levelgen/feature/AbstractSmallTreeFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getProjectedOrigin (Lboc;IIILfo;Lcpc;)Ljava/util/Optional;
+	METHOD a placeTrunk (Lboc;Ljava/util/Random;ILfo;ILjava/util/Set;Lcsw;Lcpc;)V

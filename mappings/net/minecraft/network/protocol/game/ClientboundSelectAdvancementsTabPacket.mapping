@@ -1,0 +1,9 @@
+CLASS pj net/minecraft/network/protocol/game/ClientboundSelectAdvancementsTabPacket
+	FIELD a tab Lts;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lts;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getTab ()Lts;
+	METHOD b write (Lmb;)V

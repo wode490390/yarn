@@ -1,0 +1,11 @@
+CLASS cyw net/minecraft/world/level/pathfinder/SwimNodeEvaluator
+	FIELD j allowBreaching Z
+	METHOD <init> <init> (Z)V
+	METHOD a getGoal (DDD)Lcyx;
+	METHOD a getNode (III)Lcyr;
+	METHOD a getBlockPathType (Lbnh;III)Lcyp;
+	METHOD a getBlockPathType (Lbnh;IIILann;IIIZZ)Lcyp;
+	METHOD a getNeighbors ([Lcyr;Lcyr;)I
+	METHOD b getStart ()Lcyr;
+	METHOD b getWaterNode (III)Lcyr;
+	METHOD c isFree (III)Lcyp;

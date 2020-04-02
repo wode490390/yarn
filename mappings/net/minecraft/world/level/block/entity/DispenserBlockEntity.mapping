@@ -1,0 +1,15 @@
+CLASS ccc net/minecraft/world/level/block/entity/DispenserBlockEntity
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD b items Lge;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcbu;)V
+	METHOD S_ getContainerSize ()I
+	METHOD a createMenu (ILbcg;)Lbel;
+	METHOD a addItem (Lbin;)I
+	METHOD a load (Lcdt;Lkz;)V
+	METHOD a setItems (Lge;)V
+	METHOD a save (Lkz;)Lkz;
+	METHOD f getItems ()Lge;
+	METHOD g getDefaultName ()Lml;
+	METHOD h getRandomSlot ()I

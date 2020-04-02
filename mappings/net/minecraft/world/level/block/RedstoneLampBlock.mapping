@@ -1,0 +1,9 @@
+CLASS byn net/minecraft/world/level/block/RedstoneLampBlock
+	FIELD a LIT Lcel;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a neighborChanged (Lcdt;Lbnx;Lfo;Lbtu;Lfo;Z)V
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V

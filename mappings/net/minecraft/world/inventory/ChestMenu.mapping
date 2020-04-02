@@ -1,0 +1,18 @@
+CLASS bes net/minecraft/world/inventory/ChestMenu
+	FIELD c container Lalo;
+	FIELD d containerRows I
+	METHOD <init> <init> (Lbfn;ILbcg;I)V
+	METHOD <init> <init> (Lbfn;ILbcg;Lalo;I)V
+	METHOD a oneRow (ILbcg;)Lbes;
+	METHOD a threeRows (ILbcg;Lalo;)Lbes;
+	METHOD a stillValid (Lbch;)Z
+	METHOD b twoRows (ILbcg;)Lbes;
+	METHOD b sixRows (ILbcg;Lalo;)Lbes;
+	METHOD b removed (Lbch;)V
+	METHOD b quickMoveStack (Lbch;I)Lbin;
+	METHOD c threeRows (ILbcg;)Lbes;
+	METHOD d fourRows (ILbcg;)Lbes;
+	METHOD e getContainer ()Lalo;
+	METHOD e fiveRows (ILbcg;)Lbes;
+	METHOD f getRowCount ()I
+	METHOD f sixRows (ILbcg;)Lbes;

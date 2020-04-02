@@ -1,0 +1,19 @@
+CLASS sc net/minecraft/network/protocol/game/ServerboundSetJigsawBlockPacket
+	FIELD a pos Lfo;
+	FIELD b name Lts;
+	FIELD c target Lts;
+	FIELD d pool Lts;
+	FIELD e finalState Ljava/lang/String;
+	FIELD f joint Lccj$a;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lfo;Lts;Lts;Lts;Ljava/lang/String;Lccj$a;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getPos ()Lfo;
+	METHOD b write (Lmb;)V
+	METHOD c getName ()Lts;
+	METHOD d getTarget ()Lts;
+	METHOD e getPool ()Lts;
+	METHOD f getFinalState ()Ljava/lang/String;
+	METHOD g getJoint ()Lccj$a;

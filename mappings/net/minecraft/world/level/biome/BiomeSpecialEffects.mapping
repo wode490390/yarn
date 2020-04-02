@@ -1,0 +1,39 @@
+CLASS bpf net/minecraft/world/level/biome/BiomeSpecialEffects
+	FIELD a fogColor I
+	FIELD b waterColor I
+	FIELD c waterFogColor I
+	FIELD d ambientParticleSettings Ljava/util/Optional;
+	FIELD e ambientLoopSoundEvent Ljava/util/Optional;
+	FIELD f ambientMoodSettings Ljava/util/Optional;
+	FIELD g ambientAdditionsSettings Ljava/util/Optional;
+	METHOD <init> <init> (IIILjava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)V
+	METHOD <init> <init> (IIILjava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Lbpf$1;)V
+	METHOD a getFogColor ()I
+	METHOD a random (Ljava/util/Random;)Lbpf;
+	METHOD b getWaterColor ()I
+	METHOD c getWaterFogColor ()I
+	METHOD d getAmbientParticleSettings ()Ljava/util/Optional;
+	METHOD e getAmbientLoopSoundEvent ()Ljava/util/Optional;
+	METHOD f getAmbientMoodSettings ()Ljava/util/Optional;
+	METHOD g getAmbientAdditionsSettings ()Ljava/util/Optional;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a fogColor Ljava/util/OptionalInt;
+		FIELD b waterColor Ljava/util/OptionalInt;
+		FIELD c waterFogColor Ljava/util/OptionalInt;
+		FIELD d ambientParticle Ljava/util/Optional;
+		FIELD e ambientLoopSoundEvent Ljava/util/Optional;
+		FIELD f ambientMoodSettings Ljava/util/Optional;
+		FIELD g ambientAdditionsSettings Ljava/util/Optional;
+		METHOD <init> <init> ()V
+		METHOD a build ()Lbpf;
+		METHOD a fogColor (I)Lbpf$a;
+		METHOD a ambientLoopSound (Labr;)Lbpf$a;
+		METHOD a ambientAdditionsSound (Lboq;)Lbpf$a;
+		METHOD a ambientMoodSound (Lbor;)Lbpf$a;
+		METHOD a ambientParticle (Lbos;)Lbpf$a;
+		METHOD b lambda$build$2 ()Ljava/lang/IllegalStateException;
+		METHOD b waterColor (I)Lbpf$a;
+		METHOD c lambda$build$1 ()Ljava/lang/IllegalStateException;
+		METHOD c waterFogColor (I)Lbpf$a;
+		METHOD d lambda$build$0 ()Ljava/lang/IllegalStateException;

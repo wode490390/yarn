@@ -1,0 +1,12 @@
+CLASS gm net/minecraft/core/SerializableUUID
+	FIELD a value Ljava/util/UUID;
+	METHOD <init> <init> (Ljava/util/UUID;)V
+	METHOD a value ()Ljava/util/UUID;
+	METHOD a leastMostToIntArray (JJ)[I
+	METHOD a of (Lcom/mojang/datafixers/Dynamic;)Lgm;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Ljava/lang/Object;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;Ljava/util/UUID;)Ljava/lang/Object;
+	METHOD a uuidToIntArray (Ljava/util/UUID;)[I
+	METHOD a uuidFromIntArray ([I)Ljava/util/UUID;
+	METHOD b readUUID (Lcom/mojang/datafixers/Dynamic;)Ljava/util/UUID;
+	METHOD toString toString ()Ljava/lang/String;

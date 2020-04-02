@@ -1,0 +1,8 @@
+CLASS cxi net/minecraft/world/level/newbiome/layer/AddSnowLayer
+	FIELD a INSTANCE Lcxi;
+	FIELD b $VALUES [Lcxi;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcxb;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxi;
+	METHOD values values ()[Lcxi;

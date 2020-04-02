@@ -1,0 +1,15 @@
+CLASS im net/minecraft/data/models/blockstates/Selector
+	FIELD a EMPTY Lim;
+	FIELD b COMPARE_BY_NAME Ljava/util/Comparator;
+	FIELD c values Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a empty ()Lim;
+	METHOD a extend (Lil;)Lim;
+	METHOD a extend (Lim;)Lim;
+	METHOD a of ([Lil;)Lim;
+	METHOD b getKey ()Ljava/lang/String;
+	METHOD b lambda$static$0 (Lil;)Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

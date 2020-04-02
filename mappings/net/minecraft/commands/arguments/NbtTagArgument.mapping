@@ -1,0 +1,9 @@
+CLASS dj net/minecraft/commands/arguments/NbtTagArgument
+	FIELD a EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a nbtTag ()Ldj;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Llp;
+	METHOD a getNbtTag (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Llp;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

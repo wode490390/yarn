@@ -1,0 +1,10 @@
+CLASS bwa net/minecraft/world/level/block/FlowerBlock
+	FIELD a SHAPE Ldej;
+	FIELD b suspiciousStewEffect Lamt;
+	FIELD c effectDuration I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lamt;ILcds$c;)V
+	METHOD aa_ getOffsetType ()Lcds$b;
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD d getSuspiciousStewEffect ()Lamt;
+	METHOD e getEffectDuration ()I

@@ -1,0 +1,5 @@
+CLASS coo net/minecraft/world/level/levelgen/feature/configurations/NoneFeatureConfiguration
+	METHOD <init> <init> ()V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcoo;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcoo;

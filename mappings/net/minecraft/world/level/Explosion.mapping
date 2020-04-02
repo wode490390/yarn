@@ -1,0 +1,37 @@
+CLASS bnq net/minecraft/world/level/Explosion
+	FIELD a fire Z
+	FIELD b blockInteraction Lbnq$a;
+	FIELD c random Ljava/util/Random;
+	FIELD d level Lbnx;
+	FIELD e x D
+	FIELD f y D
+	FIELD g z D
+	FIELD h source Lanb;
+	FIELD i radius F
+	FIELD j damageSource Laml;
+	FIELD k toBlow Ljava/util/List;
+	FIELD l hitPlayers Ljava/util/Map;
+	METHOD <init> <init> (Lbnx;Lanb;DDDF)V
+	METHOD <init> <init> (Lbnx;Lanb;DDDFLjava/util/List;)V
+	METHOD <init> <init> (Lbnx;Lanb;DDDFZLbnq$a;)V
+	METHOD <init> <init> (Lbnx;Lanb;DDDFZLbnq$a;Ljava/util/List;)V
+	METHOD a explode ()V
+	METHOD a setDamageSource (Laml;)V
+	METHOD a getSeenPercent (Lddp;Lanb;)F
+	METHOD a addBlockDrops (Lit/unimi/dsi/fastutil/objects/ObjectArrayList;Lbin;Lfo;)V
+	METHOD a lambda$finalizeExplosion$0 (Lit/unimi/dsi/fastutil/objects/ObjectArrayList;Lfo;Lbin;)V
+	METHOD a finalizeExplosion (Z)V
+	METHOD b getDamageSource ()Laml;
+	METHOD c getHitPlayers ()Ljava/util/Map;
+	METHOD d getSourceMob ()Lanm;
+	METHOD e clearToBlow ()V
+	METHOD f getToBlow ()Ljava/util/List;
+	CLASS a BlockInteraction
+		FIELD a NONE Lbnq$a;
+		FIELD b BREAK Lbnq$a;
+		FIELD c DESTROY Lbnq$a;
+		FIELD d $VALUES [Lbnq$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbnq$a;
+		METHOD values values ()[Lbnq$a;

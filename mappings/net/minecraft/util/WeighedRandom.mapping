@@ -1,0 +1,9 @@
+CLASS adp net/minecraft/util/WeighedRandom
+	METHOD <init> <init> ()V
+	METHOD a getTotalWeight (Ljava/util/List;)I
+	METHOD a getWeightedItem (Ljava/util/List;I)Ladp$a;
+	METHOD a getRandomItem (Ljava/util/Random;Ljava/util/List;)Ladp$a;
+	METHOD a getRandomItem (Ljava/util/Random;Ljava/util/List;I)Ladp$a;
+	CLASS a WeighedRandomItem
+		FIELD a weight I
+		METHOD <init> <init> (I)V

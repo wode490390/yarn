@@ -1,0 +1,3 @@
+CLASS biv net/minecraft/world/item/NameTagItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a interactEnemy (Lbin;Lbch;Lanm;Lalu;)Z

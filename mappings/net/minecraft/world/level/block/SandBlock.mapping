@@ -1,0 +1,4 @@
+CLASS byw net/minecraft/world/level/block/SandBlock
+	FIELD a dustColor I
+	METHOD <init> <init> (ILcds$c;)V
+	METHOD c getDustColor (Lcdt;Lbnh;Lfo;)I

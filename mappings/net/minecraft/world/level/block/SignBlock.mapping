@@ -1,0 +1,14 @@
+CLASS bzd net/minecraft/world/level/block/SignBlock
+	FIELD a WATERLOGGED Lcel;
+	FIELD b SHAPE Ldej;
+	FIELD c type Lcfd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;Lcfd;)V
+	METHOD a newBlockEntity (Lbnh;)Lcbt;
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD ab_ isPossibleToRespawnInThis ()Z
+	METHOD b isUnstable ()Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD d type ()Lcfd;
+	METHOD d getFluidState (Lcdt;)Lcwn;

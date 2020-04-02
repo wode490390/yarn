@@ -1,0 +1,9 @@
+CLASS cyu net/minecraft/world/level/pathfinder/PathComputationType
+	FIELD a LAND Lcyu;
+	FIELD b WATER Lcyu;
+	FIELD c AIR Lcyu;
+	FIELD d $VALUES [Lcyu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcyu;
+	METHOD values values ()[Lcyu;

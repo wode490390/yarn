@@ -1,0 +1,14 @@
+CLASS cem net/minecraft/world/level/block/state/properties/ChestType
+	FIELD a SINGLE Lcem;
+	FIELD b LEFT Lcem;
+	FIELD c RIGHT Lcem;
+	FIELD d BY_ID [Lcem;
+	FIELD e name Ljava/lang/String;
+	FIELD f opposite I
+	FIELD g $VALUES [Lcem;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;I)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD b getOpposite ()Lcem;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcem;
+	METHOD values values ()[Lcem;

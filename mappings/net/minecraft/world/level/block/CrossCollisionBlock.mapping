@@ -1,0 +1,28 @@
+CLASS buz net/minecraft/world/level/block/CrossCollisionBlock
+	FIELD a NORTH Lcel;
+	FIELD b EAST Lcel;
+	FIELD c SOUTH Lcel;
+	FIELD d WEST Lcel;
+	FIELD e WATERLOGGED Lcel;
+	FIELD f PROPERTY_BY_DIRECTION Ljava/util/Map;
+	FIELD g collisionShapeByIndex [Ldej;
+	FIELD h shapeByIndex [Ldej;
+	FIELD i stateToIndex Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FFFFFLcds$c;)V
+	METHOD a makeShapes (FFFFF)[Ldej;
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a indexFor (Lft;)I
+	METHOD a lambda$static$0 (Ljava/util/Map$Entry;)Z
+	METHOD b propagatesSkylightDown (Lcdt;Lbnh;Lfo;)Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD c getCollisionShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD d getFluidState (Lcdt;)Lcwn;
+	METHOD g getAABBIndex (Lcdt;)I
+	METHOD h lambda$getAABBIndex$1 (Lcdt;)I
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		FIELD b $SwitchMap$net$minecraft$world$level$block$Mirror [I
+		METHOD <clinit> <clinit> ()V

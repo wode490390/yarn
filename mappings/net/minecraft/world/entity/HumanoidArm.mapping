@@ -1,0 +1,11 @@
+CLASS anj net/minecraft/world/entity/HumanoidArm
+	FIELD a LEFT Lanj;
+	FIELD b RIGHT Lanj;
+	FIELD c name Lml;
+	FIELD d $VALUES [Lanj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILml;)V
+	METHOD a getOpposite ()Lanj;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lanj;
+	METHOD values values ()[Lanj;

@@ -1,0 +1,4 @@
+CLASS bhv net/minecraft/world/item/ExperienceBottleItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;
+	METHOD d isFoil (Lbin;)Z

@@ -1,0 +1,6 @@
+CLASS cnz net/minecraft/world/level/levelgen/feature/configurations/CountFeatureConfiguration
+	FIELD a count I
+	METHOD <init> <init> (I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcnz;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcnz;

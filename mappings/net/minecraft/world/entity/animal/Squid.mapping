@@ -1,0 +1,49 @@
+CLASS axk net/minecraft/world/entity/animal/Squid
+	FIELD bA speed F
+	FIELD bB tentacleSpeed F
+	FIELD bC rotateSpeed F
+	FIELD bD tx F
+	FIELD bE ty F
+	FIELD b xBodyRot F
+	FIELD bF tz F
+	FIELD bv zBodyRotO F
+	FIELD bw tentacleMovement F
+	FIELD bx oldTentacleMovement F
+	FIELD by tentacleAngle F
+	FIELD bz oldTentacleAngle F
+	FIELD c xBodyRotO F
+	FIELD d zBodyRot F
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD a handleEntityEvent (B)V
+	METHOD a setMovementVector (FFF)V
+	METHOD a hurt (Laml;F)Z
+	METHOD a access$100 (Laxk;)Z
+	METHOD ax isMovementNoisy ()Z
+	METHOD b checkSquidSpawnRules (Lanf;Lbny;Lanp;Lfo;Ljava/util/Random;)Z
+	METHOD b getStandingEyeHeight (Lanw;Lanc;)F
+	METHOD cF registerAttributes ()V
+	METHOD dd getDeathSound ()Labr;
+	METHOD dt getSoundVolume ()F
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD e travel (Lddp;)V
+	METHOD f rotateVector (Lddp;)Lddp;
+	METHOD k hasMovementVector ()Z
+	METHOD l aiStep ()V
+	METHOD m spawnInk ()V
+	METHOD o registerGoals ()V
+	CLASS 1 1
+	CLASS a SquidFleeGoal
+		FIELD a this$0 Laxk;
+		FIELD b fleeTicks I
+		METHOD <init> <init> (Laxk;)V
+		METHOD <init> <init> (Laxk;Laxk$1;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+	CLASS b SquidRandomMovementGoal
+		FIELD a this$0 Laxk;
+		FIELD b squid Laxk;
+		METHOD <init> <init> (Laxk;Laxk;)V
+		METHOD a canUse ()Z
+		METHOD e tick ()V

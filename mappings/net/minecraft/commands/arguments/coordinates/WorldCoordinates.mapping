@@ -1,0 +1,17 @@
+CLASS ek net/minecraft/commands/arguments/coordinates/WorldCoordinates
+	FIELD a x Lej;
+	FIELD b y Lej;
+	FIELD c z Lej;
+	METHOD <init> <init> (Lej;Lej;Lej;)V
+	METHOD a isXRelative ()Z
+	METHOD a absolute (DDD)Lek;
+	METHOD a parseInt (Lcom/mojang/brigadier/StringReader;)Lek;
+	METHOD a parseDouble (Lcom/mojang/brigadier/StringReader;Z)Lek;
+	METHOD a getPosition (Lcu;)Lddp;
+	METHOD a absolute (Lddo;)Lek;
+	METHOD b isYRelative ()Z
+	METHOD b getRotation (Lcu;)Lddo;
+	METHOD c isZRelative ()Z
+	METHOD d current ()Lek;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

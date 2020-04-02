@@ -1,0 +1,9 @@
+CLASS ss net/minecraft/network/protocol/login/ClientboundLoginDisconnectPacket
+	FIELD a reason Lml;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lml;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lsn;)V
+	METHOD b getReason ()Lml;
+	METHOD b write (Lmb;)V

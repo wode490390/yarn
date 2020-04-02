@@ -1,0 +1,11 @@
+CLASS bja net/minecraft/world/item/Rarity
+	FIELD a COMMON Lbja;
+	FIELD b UNCOMMON Lbja;
+	FIELD c RARE Lbja;
+	FIELD d EPIC Lbja;
+	FIELD e color Li;
+	FIELD f $VALUES [Lbja;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILi;)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbja;
+	METHOD values values ()[Lbja;

@@ -1,0 +1,21 @@
+CLASS boh net/minecraft/world/level/NaturalSpawner
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a spawnCategoryForPosition (Lano;Lyn;Lcfj;Lfo;)V
+	METHOD a spawnCategoryForChunk (Lano;Lyn;Lcfw;)V
+	METHOD a spawnCategoryForPosition (Lano;Lyn;Lfo;)V
+	METHOD a isSpawnPositionOk (Laoa$c;Lboa;Lfo;Lanf;)Z
+	METHOD a isValidEmptySpawnBlock (Lbnh;Lfo;Lcdt;Lcwn;)Z
+	METHOD a getRandomPosWithin (Lbnx;Lcfw;)Lfo;
+	METHOD a spawnMobsForChunkGeneration (Lbny;Lboy;IILjava/util/Random;)V
+	METHOD a getTopNonCollidingPos (Lboa;Lanf;II)Lfo;
+	METHOD a canSpawnMobAt (Lcfl;Lano;Lboy$f;Lfo;)Z
+	METHOD a getRandomSpawnMobAt (Lcfl;Lano;Ljava/util/Random;Lfo;)Lboy$f;
+	METHOD a getMobForSpawn (Lyn;Lanf;)Lann;
+	METHOD a isValidPositionForMob (Lyn;Lann;D)Z
+	METHOD a isRightDistanceToPlayerAndSpawnPoint (Lyn;Lcfj;Lfo$a;D)Z
+	METHOD a isValidSpawnPostitionForType (Lyn;Lcfl;Lboy$f;Lfo$a;D)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$entity$SpawnPlacements$Type [I
+		METHOD <clinit> <clinit> ()V

@@ -1,0 +1,4 @@
+CLASS mw net/minecraft/network/chat/TranslatableFormatException
+	METHOD <init> <init> (Lmv;I)V
+	METHOD <init> <init> (Lmv;Ljava/lang/String;)V
+	METHOD <init> <init> (Lmv;Ljava/lang/Throwable;)V

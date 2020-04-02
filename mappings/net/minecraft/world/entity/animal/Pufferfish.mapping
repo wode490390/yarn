@@ -1,0 +1,36 @@
+CLASS axe net/minecraft/world/entity/animal/Pufferfish
+	FIELD b PUFF_STATE Lth;
+	FIELD bv NO_SPECTATORS_AND_NO_WATER_MOB Ljava/util/function/Predicate;
+	FIELD c inflateCounter I
+	FIELD d deflateTimer I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD a touch (Lann;)V
+	METHOD a getDimensions (Lanw;)Lanc;
+	METHOD a access$102 (Laxe;I)I
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD a onSyncedDataUpdated (Lth;)V
+	METHOD b setPuffState (I)V
+	METHOD b access$202 (Laxe;I)I
+	METHOD b playerTouch (Lbch;)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD eA getPuffState ()I
+	METHOD eB access$000 ()Ljava/util/function/Predicate;
+	METHOD ez getFlopSound ()Labr;
+	METHOD h tick ()V
+	METHOD j lambda$static$0 (Lanm;)Z
+	METHOD k getBucketItemStack ()Lbin;
+	METHOD l aiStep ()V
+	METHOD o registerGoals ()V
+	METHOD s getScale (I)F
+	METHOD w_ defineSynchedData ()V
+	CLASS a PufferfishPuffGoal
+		FIELD a fish Laxe;
+		METHOD <init> <init> (Laxe;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V

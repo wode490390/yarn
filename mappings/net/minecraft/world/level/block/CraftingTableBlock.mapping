@@ -1,0 +1,7 @@
+CLASS bux net/minecraft/world/level/block/CraftingTableBlock
+	FIELD a CONTAINER_TITLE Lml;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a lambda$getMenuProvider$0 (Lbnx;Lfo;ILbcg;Lbch;)Lbel;
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD b getMenuProvider (Lcdt;Lbnx;Lfo;)Laly;

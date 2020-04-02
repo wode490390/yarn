@@ -1,0 +1,8 @@
+CLASS jx net/minecraft/gametest/framework/GameTestBatch
+	FIELD a name Ljava/lang/String;
+	FIELD b testFunctions Ljava/util/Collection;
+	FIELD c beforeBatchFunction Ljava/util/function/Consumer;
+	METHOD <init> <init> (Ljava/lang/String;Ljava/util/Collection;Ljava/util/function/Consumer;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a runBeforeBatchFunction (Lyn;)V
+	METHOD b getTestFunctions ()Ljava/util/Collection;

@@ -1,0 +1,3 @@
+CLASS adb net/minecraft/util/LinearCongruentialGenerator
+	METHOD <init> <init> ()V
+	METHOD a next (JJ)J

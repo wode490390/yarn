@@ -1,0 +1,3 @@
+CLASS ks net/minecraft/gametest/framework/TestReporter
+	METHOD a onTestFailed (Lkc;)V
+	METHOD b onTestSuccess (Lkc;)V

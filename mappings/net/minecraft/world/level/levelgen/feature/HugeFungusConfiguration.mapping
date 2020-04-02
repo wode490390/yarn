@@ -1,0 +1,15 @@
+CLASS clk net/minecraft/world/level/levelgen/feature/HugeFungusConfiguration
+	FIELD a HUGE_CRIMSON_FUNGI_PLANTED_CONFIG Lclk;
+	FIELD b HUGE_CRIMSON_FUNGI_NOT_PLANTED_CONFIG Lclk;
+	FIELD c HUGE_WARPED_FUNGI_PLANTED_CONFIG Lclk;
+	FIELD d HUGE_WARPED_FUNGI_NOT_PLANTED_CONFIG Lclk;
+	FIELD e validBaseState Lcdt;
+	FIELD f stemState Lcdt;
+	FIELD g hatState Lcdt;
+	FIELD h decorState Lcdt;
+	FIELD i planted Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcdt;Lcdt;Lcdt;Lcdt;Z)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lclk;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lclk;

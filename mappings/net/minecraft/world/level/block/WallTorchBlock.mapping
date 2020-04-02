@@ -1,0 +1,15 @@
+CLASS caw net/minecraft/world/level/block/WallTorchBlock
+	FIELD a FACING Lceo;
+	FIELD b AABBS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;Lhb;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD h getShape (Lcdt;)Ldej;
+	METHOD j getDescriptionId ()Ljava/lang/String;

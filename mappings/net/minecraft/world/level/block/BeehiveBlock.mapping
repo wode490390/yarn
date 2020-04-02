@@ -1,0 +1,27 @@
+CLASS btq net/minecraft/world/level/block/BeehiveBlock
+	FIELD a SPAWN_DIRECTIONS [Lft;
+	FIELD b FACING Lceo;
+	FIELD c HONEY_LEVEL Lcet;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a lambda$use$0 (Lalu;Lbch;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a newBlockEntity (Lbnh;)Lcbt;
+	METHOD a spawnFluidParticle (Lbnx;DDDDD)V
+	METHOD a playerDestroy (Lbnx;Lbch;Lfo;Lcdt;Lcbt;Lbin;)V
+	METHOD a resetHoneyLevel (Lbnx;Lcdt;Lfo;)V
+	METHOD a releaseBeesAndResetHoneyLevel (Lbnx;Lcdt;Lfo;Lbch;Lcbq$b;)V
+	METHOD a dropHoneycomb (Lbnx;Lfo;)V
+	METHOD a trySpawnDripParticles (Lbnx;Lfo;Lcdt;)V
+	METHOD a playerWillDestroy (Lbnx;Lfo;Lcdt;Lbch;)V
+	METHOD a spawnParticle (Lbnx;Lfo;Ldej;D)V
+	METHOD a hasAnalogOutputSignal (Lcdt;)Z
+	METHOD a getAnalogOutputSignal (Lcdt;Lbnx;Lfo;)I
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a getDrops (Lcdt;Ldaa$a;)Ljava/util/List;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b angerNearbyBees (Lbnx;Lfo;)V
+	METHOD b getRenderShape (Lcdt;)Lbyq;
+	METHOD d hiveContainsBees (Lbnx;Lfo;)Z

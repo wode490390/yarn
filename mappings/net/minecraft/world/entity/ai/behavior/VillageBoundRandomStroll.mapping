@@ -1,0 +1,12 @@
+CLASS ard net/minecraft/world/entity/ai/behavior/VillageBoundRandomStroll
+	FIELD b speedModifier F
+	FIELD c maxXyDist I
+	FIELD d maxYDist I
+	METHOD <init> <init> (F)V
+	METHOD <init> <init> (FII)V
+	METHOD a setRandomPos (Lant;)V
+	METHOD a setTargetedPos (Lant;Lgj;)V
+	METHOD a lambda$setRandomPos$1 (Lddp;)Lauv;
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a start (Lyn;Lant;J)V
+	METHOD b lambda$setTargetedPos$0 (Lddp;)Lauv;

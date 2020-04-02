@@ -1,0 +1,106 @@
+CLASS ik net/minecraft/data/models/blockstates/PropertyDispatch
+	FIELD a values Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD a getEntries ()Ljava/util/Map;
+	METHOD a property (Lcew;)Lik$a;
+	METHOD a properties (Lcew;Lcew;)Lik$b;
+	METHOD a properties (Lcew;Lcew;Lcew;)Lik$c;
+	METHOD a properties (Lcew;Lcew;Lcew;Lcew;)Lik$d;
+	METHOD a properties (Lcew;Lcew;Lcew;Lcew;Lcew;)Lik$e;
+	METHOD a lambda$verifyComplete$0 (Lcew;Lim;)Ljava/util/stream/Stream;
+	METHOD a lambda$verifyComplete$1 (Lim;)Z
+	METHOD a putValue (Lim;Ljava/util/List;)V
+	METHOD b getDefinedProperties ()Ljava/util/List;
+	METHOD c verifyComplete ()V
+	CLASS 1 1
+	CLASS a C1
+		FIELD a property1 Lcew;
+		METHOD <init> <init> (Lcew;)V
+		METHOD <init> <init> (Lcew;Lik$1;)V
+		METHOD a select (Ljava/lang/Comparable;Lin;)Lik$a;
+		METHOD a select (Ljava/lang/Comparable;Ljava/util/List;)Lik$a;
+		METHOD a generate (Ljava/util/function/Function;)Lik;
+		METHOD a lambda$generateList$1 (Ljava/util/function/Function;Ljava/lang/Comparable;)V
+		METHOD b getDefinedProperties ()Ljava/util/List;
+		METHOD b generateList (Ljava/util/function/Function;)Lik;
+		METHOD b lambda$generate$0 (Ljava/util/function/Function;Ljava/lang/Comparable;)V
+	CLASS b C2
+		FIELD a property1 Lcew;
+		FIELD b property2 Lcew;
+		METHOD <init> <init> (Lcew;Lcew;)V
+		METHOD <init> <init> (Lcew;Lcew;Lik$1;)V
+		METHOD a select (Ljava/lang/Comparable;Ljava/lang/Comparable;Lin;)Lik$b;
+		METHOD a select (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/util/List;)Lik$b;
+		METHOD a lambda$null$2 (Ljava/lang/Comparable;Ljava/util/function/BiFunction;Ljava/lang/Comparable;)V
+		METHOD a generate (Ljava/util/function/BiFunction;)Lik;
+		METHOD a lambda$generateList$3 (Ljava/util/function/BiFunction;Ljava/lang/Comparable;)V
+		METHOD b getDefinedProperties ()Ljava/util/List;
+		METHOD b lambda$null$0 (Ljava/lang/Comparable;Ljava/util/function/BiFunction;Ljava/lang/Comparable;)V
+		METHOD b generateList (Ljava/util/function/BiFunction;)Lik;
+		METHOD b lambda$generate$1 (Ljava/util/function/BiFunction;Ljava/lang/Comparable;)V
+	CLASS c C3
+		FIELD a property1 Lcew;
+		FIELD b property2 Lcew;
+		FIELD c property3 Lcew;
+		METHOD <init> <init> (Lcew;Lcew;Lcew;)V
+		METHOD <init> <init> (Lcew;Lcew;Lcew;Lik$1;)V
+		METHOD a generate (Lik$h;)Lik;
+		METHOD a lambda$generateList$5 (Lik$h;Ljava/lang/Comparable;)V
+		METHOD a lambda$null$4 (Ljava/lang/Comparable;Lik$h;Ljava/lang/Comparable;)V
+		METHOD a lambda$null$3 (Ljava/lang/Comparable;Ljava/lang/Comparable;Lik$h;Ljava/lang/Comparable;)V
+		METHOD a select (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Lin;)Lik$c;
+		METHOD a select (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/util/List;)Lik$c;
+		METHOD b getDefinedProperties ()Ljava/util/List;
+		METHOD b generateList (Lik$h;)Lik;
+		METHOD b lambda$generate$2 (Lik$h;Ljava/lang/Comparable;)V
+		METHOD b lambda$null$1 (Ljava/lang/Comparable;Lik$h;Ljava/lang/Comparable;)V
+		METHOD b lambda$null$0 (Ljava/lang/Comparable;Ljava/lang/Comparable;Lik$h;Ljava/lang/Comparable;)V
+	CLASS d C4
+		FIELD a property1 Lcew;
+		FIELD b property2 Lcew;
+		FIELD c property3 Lcew;
+		FIELD d property4 Lcew;
+		METHOD <init> <init> (Lcew;Lcew;Lcew;Lcew;)V
+		METHOD <init> <init> (Lcew;Lcew;Lcew;Lcew;Lik$1;)V
+		METHOD a generate (Lik$g;)Lik;
+		METHOD a lambda$generateList$7 (Lik$g;Ljava/lang/Comparable;)V
+		METHOD a lambda$null$6 (Ljava/lang/Comparable;Lik$g;Ljava/lang/Comparable;)V
+		METHOD a lambda$null$5 (Ljava/lang/Comparable;Ljava/lang/Comparable;Lik$g;Ljava/lang/Comparable;)V
+		METHOD a lambda$null$4 (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Lik$g;Ljava/lang/Comparable;)V
+		METHOD a select (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Lin;)Lik$d;
+		METHOD a select (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/util/List;)Lik$d;
+		METHOD b getDefinedProperties ()Ljava/util/List;
+		METHOD b generateList (Lik$g;)Lik;
+		METHOD b lambda$generate$3 (Lik$g;Ljava/lang/Comparable;)V
+		METHOD b lambda$null$2 (Ljava/lang/Comparable;Lik$g;Ljava/lang/Comparable;)V
+		METHOD b lambda$null$1 (Ljava/lang/Comparable;Ljava/lang/Comparable;Lik$g;Ljava/lang/Comparable;)V
+		METHOD b lambda$null$0 (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Lik$g;Ljava/lang/Comparable;)V
+	CLASS e C5
+		FIELD a property1 Lcew;
+		FIELD b property2 Lcew;
+		FIELD c property3 Lcew;
+		FIELD d property4 Lcew;
+		FIELD e property5 Lcew;
+		METHOD <init> <init> (Lcew;Lcew;Lcew;Lcew;Lcew;)V
+		METHOD <init> <init> (Lcew;Lcew;Lcew;Lcew;Lcew;Lik$1;)V
+		METHOD a generate (Lik$f;)Lik;
+		METHOD a lambda$generateList$9 (Lik$f;Ljava/lang/Comparable;)V
+		METHOD a lambda$null$8 (Ljava/lang/Comparable;Lik$f;Ljava/lang/Comparable;)V
+		METHOD a lambda$null$7 (Ljava/lang/Comparable;Ljava/lang/Comparable;Lik$f;Ljava/lang/Comparable;)V
+		METHOD a lambda$null$6 (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Lik$f;Ljava/lang/Comparable;)V
+		METHOD a lambda$null$5 (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Lik$f;Ljava/lang/Comparable;)V
+		METHOD a select (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Lin;)Lik$e;
+		METHOD a select (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/util/List;)Lik$e;
+		METHOD b getDefinedProperties ()Ljava/util/List;
+		METHOD b generateList (Lik$f;)Lik;
+		METHOD b lambda$generate$4 (Lik$f;Ljava/lang/Comparable;)V
+		METHOD b lambda$null$3 (Ljava/lang/Comparable;Lik$f;Ljava/lang/Comparable;)V
+		METHOD b lambda$null$2 (Ljava/lang/Comparable;Ljava/lang/Comparable;Lik$f;Ljava/lang/Comparable;)V
+		METHOD b lambda$null$1 (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Lik$f;Ljava/lang/Comparable;)V
+		METHOD b lambda$null$0 (Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Lik$f;Ljava/lang/Comparable;)V
+	CLASS f PentaFunction
+		METHOD a apply (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	CLASS g QuadFunction
+		METHOD a apply (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	CLASS h TriFunction
+		METHOD apply apply (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

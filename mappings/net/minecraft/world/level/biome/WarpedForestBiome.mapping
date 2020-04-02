@@ -1,0 +1,2 @@
+CLASS bsm net/minecraft/world/level/biome/WarpedForestBiome
+	METHOD <init> <init> ()V

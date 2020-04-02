@@ -1,0 +1,13 @@
+CLASS ccf net/minecraft/world/level/block/entity/EnderChestBlockEntity
+	FIELD a openness F
+	FIELD b oOpenness F
+	FIELD c openCount I
+	FIELD g tickInterval I
+	METHOD <init> <init> ()V
+	METHOD a getOpenNess (F)F
+	METHOD a stillValid (Lbch;)Z
+	METHOD a_ triggerEvent (II)Z
+	METHOD ac_ tick ()V
+	METHOD ae_ setRemoved ()V
+	METHOD d startOpen ()V
+	METHOD f stopOpen ()V

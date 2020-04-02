@@ -1,0 +1,11 @@
+CLASS nr net/minecraft/network/protocol/game/ClientboundChangeDifficultyPacket
+	FIELD a difficulty Lals;
+	FIELD b locked Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lals;Z)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b isLocked ()Z
+	METHOD b write (Lmb;)V
+	METHOD c getDifficulty ()Lals;

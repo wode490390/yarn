@@ -1,0 +1,4 @@
+CLASS ckc net/minecraft/world/level/levelgen/feature/AcaciaFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a doPlace (Lboc;Ljava/util/Random;Lfo;Ljava/util/Set;Ljava/util/Set;Lcsw;Lcpc;)Z
+	METHOD a doPlace (Lboc;Ljava/util/Random;Lfo;Ljava/util/Set;Ljava/util/Set;Lcsw;Lcpf;)Z

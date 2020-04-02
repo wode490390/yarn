@@ -1,0 +1,13 @@
+CLASS bos net/minecraft/world/level/biome/AmbientParticleSettings
+	FIELD a particleType Lhb;
+	FIELD b probability F
+	FIELD c xVelocity D
+	FIELD d yVelocity D
+	FIELD e zVelocity D
+	METHOD <init> <init> (Lhb;FDDD)V
+	METHOD a getParticleType ()Lhb;
+	METHOD a canSpawn (Ljava/util/Random;)Z
+	METHOD b getXVelocity ()D
+	METHOD b random (Ljava/util/Random;)Lbos;
+	METHOD c getYVelocity ()D
+	METHOD d getZVelocity ()D

@@ -1,0 +1,11 @@
+CLASS cyx net/minecraft/world/level/pathfinder/Target
+	FIELD m bestHeuristic F
+	FIELD n bestNode Lcyr;
+	FIELD o reached Z
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Lcyr;)V
+	METHOD a updateBest (FLcyr;)V
+	METHOD c createFromStream (Lmb;)Lcyx;
+	METHOD d getBestNode ()Lcyr;
+	METHOD e setReached ()V
+	METHOD f isReached ()Z

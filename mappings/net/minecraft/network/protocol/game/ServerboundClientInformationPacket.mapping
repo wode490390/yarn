@@ -1,0 +1,19 @@
+CLASS qx net/minecraft/network/protocol/game/ServerboundClientInformationPacket
+	FIELD a language Ljava/lang/String;
+	FIELD b viewDistance I
+	FIELD c chatVisibility Lbcf;
+	FIELD d chatColors Z
+	FIELD e modelCustomisation I
+	FIELD f mainHand Lanj;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILbcf;ZILanj;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getLanguage ()Ljava/lang/String;
+	METHOD b write (Lmb;)V
+	METHOD c getViewDistance ()I
+	METHOD d getChatVisibility ()Lbcf;
+	METHOD e getChatColors ()Z
+	METHOD f getModelCustomisation ()I
+	METHOD g getMainHand ()Lanj;

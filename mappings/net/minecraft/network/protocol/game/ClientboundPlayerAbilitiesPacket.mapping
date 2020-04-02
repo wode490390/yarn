@@ -1,0 +1,25 @@
+CLASS oy net/minecraft/network/protocol/game/ClientboundPlayerAbilitiesPacket
+	FIELD a invulnerable Z
+	FIELD b isFlying Z
+	FIELD c canFly Z
+	FIELD d instabuild Z
+	FIELD e flyingSpeed F
+	FIELD f walkingSpeed F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbce;)V
+	METHOD a setFlyingSpeed (F)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD a setInvulnerable (Z)V
+	METHOD b isInvulnerable ()Z
+	METHOD b setWalkingSpeed (F)V
+	METHOD b write (Lmb;)V
+	METHOD b setFlying (Z)V
+	METHOD c isFlying ()Z
+	METHOD c setCanFly (Z)V
+	METHOD d canFly ()Z
+	METHOD d setInstabuild (Z)V
+	METHOD e canInstabuild ()Z
+	METHOD f getFlyingSpeed ()F
+	METHOD g getWalkingSpeed ()F

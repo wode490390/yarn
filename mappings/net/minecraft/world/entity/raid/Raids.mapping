@@ -1,0 +1,16 @@
+CLASS bdn net/minecraft/world/entity/raid/Raids
+	FIELD a raidMap Ljava/util/Map;
+	FIELD b level Lyn;
+	FIELD c nextAvailableID I
+	FIELD d tick I
+	METHOD <init> <init> (Lyn;)V
+	METHOD a tick ()V
+	METHOD a get (I)Lbdl;
+	METHOD a canJoinRaid (Lbdm;Lbdl;)Z
+	METHOD a getFileId (Lcgt;)Ljava/lang/String;
+	METHOD a getNearbyRaid (Lfo;I)Lbdl;
+	METHOD a load (Lkz;)V
+	METHOD a getOrCreateRaid (Lyn;Lfo;)Lbdl;
+	METHOD a createOrExtendRaid (Lyo;)Lbdl;
+	METHOD b save (Lkz;)Lkz;
+	METHOD e getUniqueId ()I

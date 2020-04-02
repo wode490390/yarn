@@ -1,0 +1,25 @@
+CLASS be net/minecraft/advancements/critereon/EntityTypePredicate
+	FIELD a ANY Lbe;
+	FIELD b COMMA_JOINER Lcom/google/common/base/Joiner;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a of (Lacj;)Lbe;
+	METHOD a matches (Lanf;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbe;
+	METHOD a lambda$fromJson$0 (Lts;)Lcom/google/gson/JsonSyntaxException;
+	METHOD b of (Lanf;)Lbe;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD a matches (Lanf;)Z
+	CLASS a TagPredicate
+		FIELD b tag Lacj;
+		METHOD <init> <init> (Lacj;)V
+		METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD a matches (Lanf;)Z
+	CLASS b TypePredicate
+		FIELD b type Lanf;
+		METHOD <init> <init> (Lanf;)V
+		METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD a matches (Lanf;)Z

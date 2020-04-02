@@ -1,0 +1,15 @@
+CLASS cyo net/minecraft/world/level/pathfinder/BinaryHeap
+	FIELD a heap [Lcyr;
+	FIELD b size I
+	METHOD <init> <init> ()V
+	METHOD a clear ()V
+	METHOD a upHeap (I)V
+	METHOD a insert (Lcyr;)Lcyr;
+	METHOD a changeCost (Lcyr;F)V
+	METHOD b peek ()Lcyr;
+	METHOD b downHeap (I)V
+	METHOD b remove (Lcyr;)V
+	METHOD c pop ()Lcyr;
+	METHOD d size ()I
+	METHOD e isEmpty ()Z
+	METHOD f getHeap ()[Lcyr;

@@ -1,0 +1,4 @@
+CLASS aua net/minecraft/world/entity/ai/goal/WaterAvoidingRandomFlyingGoal
+	METHOD <init> <init> (Lant;D)V
+	METHOD g getPosition ()Lddp;
+	METHOD j getTreePos ()Lddp;

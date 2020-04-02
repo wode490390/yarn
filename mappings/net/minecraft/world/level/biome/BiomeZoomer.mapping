@@ -1,0 +1,2 @@
+CLASS bpg net/minecraft/world/level/biome/BiomeZoomer
+	METHOD a getBiome (JIIILbpb$a;)Lboy;

@@ -1,0 +1,8 @@
+CLASS ahh net/minecraft/util/datafix/fixes/NamedEntityFix
+	FIELD a name Ljava/lang/String;
+	FIELD b entityName Ljava/lang/String;
+	FIELD c type Lcom/mojang/datafixers/DSL$TypeReference;
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;ZLjava/lang/String;Lcom/mojang/datafixers/DSL$TypeReference;Ljava/lang/String;)V
+	METHOD a lambda$makeRule$0 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

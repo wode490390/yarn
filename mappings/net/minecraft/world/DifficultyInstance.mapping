@@ -1,0 +1,10 @@
+CLASS alt net/minecraft/world/DifficultyInstance
+	FIELD a base Lals;
+	FIELD b effectiveDifficulty F
+	METHOD <init> <init> (Lals;JJF)V
+	METHOD a getDifficulty ()Lals;
+	METHOD a isHarderThan (F)Z
+	METHOD a calculateDifficulty (Lals;JJF)F
+	METHOD b getEffectiveDifficulty ()F
+	METHOD c isHard ()Z
+	METHOD d getSpecialMultiplier ()F

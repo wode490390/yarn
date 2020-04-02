@@ -1,0 +1,9 @@
+CLASS ckd net/minecraft/world/level/levelgen/feature/BambooFeature
+	FIELD aB BAMBOO_FINAL_LARGE Lcdt;
+	FIELD aC BAMBOO_TOP_LARGE Lcdt;
+	FIELD aD BAMBOO_TOP_SMALL Lcdt;
+	FIELD a BAMBOO_TRUNK Lcdt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcor;)Z

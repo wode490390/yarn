@@ -1,0 +1,5 @@
+CLASS aed net/minecraft/util/datafix/fixes/BlockEntityBlockStateFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$fix$1 ()Ljava/lang/IllegalStateException;
+	METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD b lambda$fix$0 ()Ljava/lang/IllegalStateException;

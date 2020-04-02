@@ -1,0 +1,17 @@
+CLASS asz net/minecraft/world/entity/ai/goal/MoveThroughVillageGoal
+	FIELD a mob Lant;
+	FIELD b speedModifier D
+	FIELD c path Lcyt;
+	FIELD d poiPos Lfo;
+	FIELD e onlyAtNight Z
+	FIELD f visited Ljava/util/List;
+	FIELD g distanceToPoi I
+	FIELD h canDealWithDoors Ljava/util/function/BooleanSupplier;
+	METHOD <init> <init> (Lant;DZILjava/util/function/BooleanSupplier;)V
+	METHOD a canUse ()Z
+	METHOD a hasNotVisited (Lfo;)Z
+	METHOD a lambda$canUse$0 (Lyn;Lfo;Lfo;)D
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD g updateVisited ()V

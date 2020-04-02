@@ -1,0 +1,22 @@
+CLASS awb net/minecraft/world/entity/ai/village/VillageSiege
+	FIELD a hasSetupSiege Z
+	FIELD b siegeState Lawb$a;
+	FIELD c zombiesToSpawn I
+	FIELD d nextSpawnTime I
+	FIELD e spawnX I
+	FIELD f spawnY I
+	FIELD g spawnZ I
+	METHOD <init> <init> ()V
+	METHOD a tryToSetupSiege (Lyn;)Z
+	METHOD a findRandomSpawnPos (Lyn;Lfo;)Lddp;
+	METHOD a tick (Lyn;ZZ)I
+	METHOD b trySpawn (Lyn;)V
+	CLASS a State
+		FIELD a SIEGE_CAN_ACTIVATE Lawb$a;
+		FIELD b SIEGE_TONIGHT Lawb$a;
+		FIELD c SIEGE_DONE Lawb$a;
+		FIELD d $VALUES [Lawb$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lawb$a;
+		METHOD values values ()[Lawb$a;

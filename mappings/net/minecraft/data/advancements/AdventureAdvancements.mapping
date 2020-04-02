@@ -1,0 +1,9 @@
+CLASS hk net/minecraft/data/advancements/AdventureAdvancements
+	FIELD a EXPLORABLE_BIOMES [Lboy;
+	FIELD b MOBS_TO_KILL [Lanf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a accept (Ljava/util/function/Consumer;)V
+	METHOD a addMobsToKill (Lw$a;)Lw$a;
+	METHOD accept accept (Ljava/lang/Object;)V
+	METHOD b addBiomes (Lw$a;)Lw$a;

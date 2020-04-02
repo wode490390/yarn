@@ -1,0 +1,12 @@
+CLASS aou net/minecraft/world/entity/ai/behavior/CelebrateVillagersSurvivedRaid
+	FIELD b currentRaid Lbdl;
+	METHOD <init> <init> (II)V
+	METHOD a getFirework (Lbhi;I)Lbin;
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a checkExtraStartConditions (Lyn;Lbbu;)Z
+	METHOD a canStillUse (Lyn;Lbbu;J)Z
+	METHOD b canStillUse (Lyn;Lanm;J)Z
+	METHOD b stop (Lyn;Lbbu;J)V
+	METHOD c stop (Lyn;Lanm;J)V
+	METHOD c tick (Lyn;Lbbu;J)V
+	METHOD d tick (Lyn;Lanm;J)V

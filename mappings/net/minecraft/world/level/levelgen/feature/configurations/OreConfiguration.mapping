@@ -1,0 +1,26 @@
+CLASS coq net/minecraft/world/level/levelgen/feature/configurations/OreConfiguration
+	FIELD a target Lcoq$a;
+	FIELD b size I
+	FIELD c state Lcdt;
+	METHOD <init> <init> (Lcoq$a;Lcdt;I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcoq;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcoq;
+	CLASS a Predicates
+		FIELD a NATURAL_STONE Lcoq$a;
+		FIELD b NETHERRACK Lcoq$a;
+		FIELD c ANY Lcoq$a;
+		FIELD d BY_NAME Ljava/util/Map;
+		FIELD e name Ljava/lang/String;
+		FIELD f predicate Ljava/util/function/Predicate;
+		FIELD g $VALUES [Lcoq$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ljava/util/function/Predicate;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a lambda$static$1 (Lcdt;)Z
+		METHOD a lambda$static$2 (Lcoq$a;)Lcoq$a;
+		METHOD a byName (Ljava/lang/String;)Lcoq$a;
+		METHOD b getPredicate ()Ljava/util/function/Predicate;
+		METHOD b lambda$static$0 (Lcdt;)Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcoq$a;
+		METHOD values values ()[Lcoq$a;

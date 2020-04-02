@@ -1,0 +1,9 @@
+CLASS cbi net/minecraft/world/level/block/ZoneBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getShadeBrightness (Lcdt;Lbnh;Lfo;)F
+	METHOD a getVisualShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD a entityInside (Lcdt;Lbnx;Lfo;Lanb;)V
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD b getRenderShape (Lcdt;)Lbyq;
+	METHOD b propagatesSkylightDown (Lcdt;Lbnh;Lfo;)Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;

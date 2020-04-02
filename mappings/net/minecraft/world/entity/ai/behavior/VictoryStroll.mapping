@@ -1,0 +1,4 @@
+CLASS arc net/minecraft/world/entity/ai/behavior/VictoryStroll
+	METHOD <init> <init> (F)V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a checkExtraStartConditions (Lyn;Lant;)Z

@@ -1,0 +1,29 @@
+CLASS ii net/minecraft/data/models/blockstates/MultiPartGenerator
+	FIELD a block Lbtu;
+	FIELD b parts Ljava/util/List;
+	METHOD <init> <init> (Lbtu;)V
+	METHOD a getBlock ()Lbtu;
+	METHOD a multiPart (Lbtu;)Lii;
+	METHOD a lambda$get$0 (Lcdu;Lii$b;)V
+	METHOD a with (Lih;Lin;)Lii;
+	METHOD a with (Lih;Ljava/util/List;)Lii;
+	METHOD a with (Lih;[Lin;)Lii;
+	METHOD a with (Lin;)Lii;
+	METHOD a with (Ljava/util/List;)Lii;
+	METHOD b get ()Lcom/google/gson/JsonElement;
+	METHOD get get ()Ljava/lang/Object;
+	CLASS 1 1
+	CLASS a ConditionalEntry
+		FIELD a condition Lih;
+		METHOD <init> <init> (Lih;Ljava/util/List;)V
+		METHOD <init> <init> (Lih;Ljava/util/List;Lii$1;)V
+		METHOD a validate (Lcdu;)V
+		METHOD a decorate (Lcom/google/gson/JsonObject;)V
+	CLASS b Entry
+		FIELD a variants Ljava/util/List;
+		METHOD <init> <init> (Ljava/util/List;)V
+		METHOD <init> <init> (Ljava/util/List;Lii$1;)V
+		METHOD a get ()Lcom/google/gson/JsonElement;
+		METHOD a validate (Lcdu;)V
+		METHOD a decorate (Lcom/google/gson/JsonObject;)V
+		METHOD get get ()Ljava/lang/Object;

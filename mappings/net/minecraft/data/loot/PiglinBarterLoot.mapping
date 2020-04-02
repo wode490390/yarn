@@ -1,0 +1,6 @@
+CLASS ia net/minecraft/data/loot/PiglinBarterLoot
+	METHOD <init> <init> ()V
+	METHOD a accept (Ljava/util/function/BiConsumer;)V
+	METHOD a lambda$accept$1 (Lkz;)V
+	METHOD accept accept (Ljava/lang/Object;)V
+	METHOD b lambda$accept$0 (Lkz;)V

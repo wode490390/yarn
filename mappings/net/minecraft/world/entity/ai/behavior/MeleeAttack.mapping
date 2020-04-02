@@ -1,0 +1,10 @@
+CLASS apq net/minecraft/world/entity/ai/behavior/MeleeAttack
+	FIELD b cooldownBetweenAttacks I
+	METHOD <init> <init> (I)V
+	METHOD a isHoldingUsableProjectileWeapon (Lann;)Z
+	METHOD a lambda$isHoldingUsableProjectileWeapon$0 (Lann;Lbii;)Z
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a checkExtraStartConditions (Lyn;Lann;)Z
+	METHOD a start (Lyn;Lann;J)V
+	METHOD b getAttackTarget (Lann;)Lanm;

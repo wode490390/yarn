@@ -1,0 +1,26 @@
+CLASS cys net/minecraft/world/level/pathfinder/NodeEvaluator
+	FIELD a level Lboj;
+	FIELD b mob Lann;
+	FIELD c nodes Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD d entityWidth I
+	FIELD e entityHeight I
+	FIELD f entityDepth I
+	FIELD g canPassDoors Z
+	FIELD h canOpenDoors Z
+	FIELD i canFloat Z
+	METHOD <init> <init> ()V
+	METHOD a done ()V
+	METHOD a getGoal (DDD)Lcyx;
+	METHOD a getNode (III)Lcyr;
+	METHOD a lambda$getNode$0 (IIII)Lcyr;
+	METHOD a getBlockPathType (Lbnh;III)Lcyp;
+	METHOD a getBlockPathType (Lbnh;IIILann;IIIZZ)Lcyp;
+	METHOD a prepare (Lboj;Lann;)V
+	METHOD a setCanPassDoors (Z)V
+	METHOD a getNeighbors ([Lcyr;Lcyr;)I
+	METHOD b getStart ()Lcyr;
+	METHOD b setCanOpenDoors (Z)V
+	METHOD c canPassDoors ()Z
+	METHOD c setCanFloat (Z)V
+	METHOD d canOpenDoors ()Z
+	METHOD e canFloat ()Z

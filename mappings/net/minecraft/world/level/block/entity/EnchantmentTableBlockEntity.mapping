@@ -1,0 +1,21 @@
+CLASS cce net/minecraft/world/level/block/entity/EnchantmentTableBlockEntity
+	FIELD a time I
+	FIELD b flip F
+	FIELD c oFlip F
+	FIELD g flipT F
+	FIELD h flipA F
+	FIELD i open F
+	FIELD j oOpen F
+	FIELD k rot F
+	FIELD l oRot F
+	FIELD m tRot F
+	FIELD n RANDOM Ljava/util/Random;
+	FIELD o name Lml;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD P getName ()Lml;
+	METHOD R getCustomName ()Lml;
+	METHOD a load (Lcdt;Lkz;)V
+	METHOD a save (Lkz;)Lkz;
+	METHOD a setCustomName (Lml;)V
+	METHOD ac_ tick ()V

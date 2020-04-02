@@ -1,0 +1,8 @@
+CLASS bub net/minecraft/world/level/block/BushBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD b isUnstable ()Z
+	METHOD b propagatesSkylightDown (Lcdt;Lbnh;Lfo;)Z
+	METHOD c mayPlaceOn (Lcdt;Lbnh;Lfo;)Z

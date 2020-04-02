@@ -1,0 +1,13 @@
+CLASS ctz net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor
+	FIELD a STRUCTURE_BLOCK Lctz;
+	FIELD b AIR Lctz;
+	FIELD c STRUCTURE_AND_AIR Lctz;
+	FIELD d toIgnore Lcom/google/common/collect/ImmutableList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a getType ()Lcut;
+	METHOD a processBlock (Lboa;Lfo;Lfo;Lcuu$b;Lcuu$b;Lcur;)Lcuu$b;
+	METHOD a lambda$new$0 (Lcom/mojang/datafixers/Dynamic;)Lbtu;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$getDynamic$1 (Lcom/mojang/datafixers/types/DynamicOps;Lbtu;)Ljava/lang/Object;

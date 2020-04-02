@@ -1,0 +1,15 @@
+CLASS no net/minecraft/network/protocol/game/ClientboundBlockEventPacket
+	FIELD a pos Lfo;
+	FIELD b b0 I
+	FIELD c b1 I
+	FIELD d block Lbtu;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lfo;Lbtu;II)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getPos ()Lfo;
+	METHOD b write (Lmb;)V
+	METHOD c getB0 ()I
+	METHOD d getB1 ()I
+	METHOD e getBlock ()Lbtu;

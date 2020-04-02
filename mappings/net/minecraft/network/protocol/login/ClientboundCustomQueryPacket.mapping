@@ -1,0 +1,13 @@
+CLASS so net/minecraft/network/protocol/login/ClientboundCustomQueryPacket
+	FIELD a transactionId I
+	FIELD b identifier Lts;
+	FIELD c data Lmb;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILts;Lmb;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lsn;)V
+	METHOD b getTransactionId ()I
+	METHOD b write (Lmb;)V
+	METHOD c getIdentifier ()Lts;
+	METHOD d getData ()Lmb;

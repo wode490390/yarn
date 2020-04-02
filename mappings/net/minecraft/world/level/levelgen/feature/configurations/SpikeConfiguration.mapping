@@ -1,0 +1,13 @@
+CLASS cpd net/minecraft/world/level/levelgen/feature/configurations/SpikeConfiguration
+	FIELD a crystalInvulnerable Z
+	FIELD b spikes Ljava/util/List;
+	FIELD c crystalBeamTarget Lfo;
+	METHOD <init> <init> (ZLjava/util/List;Lfo;)V
+	METHOD a isCrystalInvulnerable ()Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcpd;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lcmx$a;)Ljava/lang/Object;
+	METHOD a random (Ljava/util/Random;)Lcpd;
+	METHOD b getSpikes ()Ljava/util/List;
+	METHOD b lambda$deserialize$1 (Lcom/mojang/datafixers/Dynamic;)Ljava/lang/Integer;
+	METHOD c getCrystalBeamTarget ()Lfo;

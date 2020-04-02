@@ -1,0 +1,12 @@
+CLASS btr net/minecraft/world/level/block/BeetrootBlock
+	FIELD a AGE Lcet;
+	FIELD c SHAPE_BY_AGE [Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getBonemealAgeIncrease (Lbnx;)I
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD d getAgeProperty ()Lcet;
+	METHOD e getMaxAge ()I
+	METHOD f getBaseSeedId ()Lbnw;

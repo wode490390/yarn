@@ -1,0 +1,13 @@
+CLASS qi net/minecraft/network/protocol/game/ClientboundTakeItemEntityPacket
+	FIELD a itemId I
+	FIELD b playerId I
+	FIELD c amount I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (III)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getItemId ()I
+	METHOD b write (Lmb;)V
+	METHOD c getPlayerId ()I
+	METHOD d getAmount ()I

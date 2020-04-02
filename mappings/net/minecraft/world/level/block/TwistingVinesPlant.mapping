@@ -1,0 +1,5 @@
+CLASS caq net/minecraft/world/level/block/TwistingVinesPlant
+	FIELD d SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD d getHeadBlock ()Lbwo;

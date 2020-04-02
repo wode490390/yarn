@@ -1,0 +1,23 @@
+CLASS amk net/minecraft/world/damagesource/CombatTracker
+	FIELD a entries Ljava/util/List;
+	FIELD b mob Lanm;
+	FIELD c lastDamageTime I
+	FIELD d combatStartTime I
+	FIELD e combatEndTime I
+	FIELD f inCombat Z
+	FIELD g takingDamage Z
+	FIELD h nextLocation Ljava/lang/String;
+	METHOD <init> <init> (Lanm;)V
+	METHOD a prepareForDamage ()V
+	METHOD a getFallLocation (Lami;)Ljava/lang/String;
+	METHOD a recordDamage (Laml;FF)V
+	METHOD b getDeathMessage ()Lml;
+	METHOD c getKiller ()Lanm;
+	METHOD d isTakingDamage ()Z
+	METHOD e isInCombat ()Z
+	METHOD f getCombatDuration ()I
+	METHOD g recheckStatus ()V
+	METHOD h getMob ()Lanm;
+	METHOD i getLastEntry ()Lami;
+	METHOD j getMostSignificantFall ()Lami;
+	METHOD k resetPreparedStatus ()V

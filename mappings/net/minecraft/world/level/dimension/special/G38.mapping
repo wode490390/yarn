@@ -1,0 +1,7 @@
+CLASS cip net/minecraft/world/level/dimension/special/G38
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD k createRandomLevelGenerator ()Lcfl;
+	CLASS a Generator
+		METHOD <init> <init> (Lbny;Lbpc;Lcjg;)V
+		METHOD a applyBiomeDecoration (Lyt;)V
+		METHOD g getType ()Lcfn;

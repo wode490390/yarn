@@ -1,0 +1,4 @@
+CLASS cmj net/minecraft/world/level/levelgen/feature/RandomRandomFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcov;)Z

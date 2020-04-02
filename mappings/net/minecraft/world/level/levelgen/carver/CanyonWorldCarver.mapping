@@ -1,0 +1,9 @@
+CLASS cjn net/minecraft/world/level/levelgen/carver/CanyonWorldCarver
+	FIELD m rs [F
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a skip (DDDI)Z
+	METHOD a genCanyon (Lcfj;Ljava/util/function/Function;JIIIDDDFFFIIDLjava/util/BitSet;)V
+	METHOD a carve (Lcfj;Ljava/util/function/Function;Ljava/util/Random;IIIIILjava/util/BitSet;Lcjo;)Z
+	METHOD a carve (Lcfj;Ljava/util/function/Function;Ljava/util/Random;IIIIILjava/util/BitSet;Lcor;)Z
+	METHOD a isStartChunk (Ljava/util/Random;IILcjo;)Z
+	METHOD a isStartChunk (Ljava/util/Random;IILcor;)Z

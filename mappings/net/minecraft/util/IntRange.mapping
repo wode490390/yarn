@@ -1,0 +1,7 @@
+CLASS acy net/minecraft/util/IntRange
+	FIELD a minInclusive I
+	FIELD b maxInclusive I
+	METHOD <init> <init> (II)V
+	METHOD a of (II)Lacy;
+	METHOD a randomValue (Ljava/util/Random;)I
+	METHOD toString toString ()Ljava/lang/String;

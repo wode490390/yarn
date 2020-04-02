@@ -1,0 +1,37 @@
+CLASS bax net/minecraft/world/entity/monster/Vindicator
+	FIELD b DOOR_BREAKING_PREDICATE Ljava/util/function/Predicate;
+	FIELD bv isJohnny Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD N customServerAiStep ()V
+	METHOD a applyRaidBuffs (IZ)V
+	METHOD a lambda$static$0 (Lals;)Z
+	METHOD a populateDefaultEquipmentSlots (Lalt;)V
+	METHOD a access$100 (Lbax;)Ljava/util/Random;
+	METHOD a finalizeSpawn (Lbny;Lalt;Lanp;Lanz;Lkz;)Lanz;
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b access$200 (Lbax;)Z
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD b setCustomName (Lml;)V
+	METHOD cF registerAttributes ()V
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD ez access$000 ()Ljava/util/function/Predicate;
+	METHOD k getArmPose ()Lazp$a;
+	METHOD m getCelebrateSound ()Labr;
+	METHOD o registerGoals ()V
+	METHOD r isAlliedTo (Lanb;)Z
+	CLASS a VindicatorBreakDoorGoal
+		METHOD <init> <init> (Lann;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+	CLASS b VindicatorJohnnyAttackGoal
+		METHOD <init> <init> (Lbax;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+	CLASS c VindicatorMeleeAttackGoal
+		FIELD d this$0 Lbax;
+		METHOD <init> <init> (Lbax;Lbax;)V
+		METHOD a getAttackReachSqr (Lanm;)D

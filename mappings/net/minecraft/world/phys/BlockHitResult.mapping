@@ -1,0 +1,13 @@
+CLASS ddk net/minecraft/world/phys/BlockHitResult
+	FIELD b direction Lft;
+	FIELD c blockPos Lfo;
+	FIELD d miss Z
+	FIELD e inside Z
+	METHOD <init> <init> (Lddp;Lft;Lfo;Z)V
+	METHOD <init> <init> (ZLddp;Lft;Lfo;Z)V
+	METHOD a getBlockPos ()Lfo;
+	METHOD a miss (Lddp;Lft;Lfo;)Lddk;
+	METHOD a withDirection (Lft;)Lddk;
+	METHOD b getDirection ()Lft;
+	METHOD c getType ()Lddm$a;
+	METHOD d isInside ()Z

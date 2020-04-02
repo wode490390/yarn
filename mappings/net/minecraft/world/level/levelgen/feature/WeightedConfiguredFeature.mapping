@@ -1,0 +1,7 @@
+CLASS cnl net/minecraft/world/level/levelgen/feature/WeightedConfiguredFeature
+	FIELD a feature Lckm;
+	FIELD b chance F
+	METHOD <init> <init> (Lckm;F)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;)Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcnl;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

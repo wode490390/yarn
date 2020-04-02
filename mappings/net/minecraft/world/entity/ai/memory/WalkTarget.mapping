@@ -1,0 +1,11 @@
+CLASS auv net/minecraft/world/entity/ai/memory/WalkTarget
+	FIELD a target Lapv;
+	FIELD b speedModifier F
+	FIELD c closeEnoughDist I
+	METHOD <init> <init> (Lanb;FI)V
+	METHOD <init> <init> (Lapv;FI)V
+	METHOD <init> <init> (Lddp;FI)V
+	METHOD <init> <init> (Lfo;FI)V
+	METHOD a getTarget ()Lapv;
+	METHOD b getSpeedModifier ()F
+	METHOD c getCloseEnoughDist ()I

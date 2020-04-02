@@ -1,0 +1,10 @@
+CLASS ccn net/minecraft/world/level/block/entity/NeitherPortalEntity
+	FIELD a dimension I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a getUpdatePacket ()Lnn;
+	METHOD a setDimension (I)V
+	METHOD a load (Lcdt;Lkz;)V
+	METHOD a save (Lkz;)Lkz;
+	METHOD b getUpdateTag ()Lkz;
+	METHOD d getDimension ()I

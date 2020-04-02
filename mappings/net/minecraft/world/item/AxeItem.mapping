@@ -1,0 +1,9 @@
+CLASS bgl net/minecraft/world/item/AxeItem
+	FIELD a STRIPABLES Ljava/util/Map;
+	FIELD e DIGGABLE_MATERIALS Ljava/util/Set;
+	FIELD f OTHER_DIGGABLE_BLOCKS Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbjs;FFLbii$a;)V
+	METHOD a getDestroySpeed (Lbin;Lcdt;)F
+	METHOD a useOn (Lbjz;)Lalv;
+	METHOD a lambda$useOn$0 (Lbjz;Lbch;)V

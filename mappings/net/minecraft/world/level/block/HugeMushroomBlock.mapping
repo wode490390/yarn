@@ -1,0 +1,15 @@
+CLASS bwu net/minecraft/world/level/block/HugeMushroomBlock
+	FIELD a NORTH Lcel;
+	FIELD b EAST Lcel;
+	FIELD c SOUTH Lcel;
+	FIELD d WEST Lcel;
+	FIELD e UP Lcel;
+	FIELD f DOWN Lcel;
+	FIELD g PROPERTY_BY_DIRECTION Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V

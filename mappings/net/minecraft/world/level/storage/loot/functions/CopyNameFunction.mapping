@@ -1,0 +1,30 @@
+CLASS dbd net/minecraft/world/level/storage/loot/functions/CopyNameFunction
+	FIELD a source Ldbd$a;
+	METHOD <init> <init> ([Ldcq;Ldbd$a;)V
+	METHOD <init> <init> ([Ldcq;Ldbd$a;Ldbd$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a copyName (Ldbd$a;)Ldbl$a;
+	METHOD a lambda$copyName$0 (Ldbd$a;[Ldcq;)Ldbm;
+	METHOD a access$000 (Ldbd;)Ldbd$a;
+	CLASS 1 1
+	CLASS a NameSource
+		FIELD a THIS Ldbd$a;
+		FIELD b KILLER Ldbd$a;
+		FIELD c KILLER_PLAYER Ldbd$a;
+		FIELD d BLOCK_ENTITY Ldbd$a;
+		FIELD e name Ljava/lang/String;
+		FIELD f param Ldcb;
+		FIELD g $VALUES [Ldbd$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ldcb;)V
+		METHOD a getByName (Ljava/lang/String;)Ldbd$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldbd$a;
+		METHOD values values ()[Ldbd$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbd;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbd;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

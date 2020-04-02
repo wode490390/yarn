@@ -1,0 +1,18 @@
+CLASS cff net/minecraft/world/level/border/BorderChangeListener
+	METHOD a onBorderSizeSet (Lcfh;D)V
+	METHOD a onBorderCenterSet (Lcfh;DD)V
+	METHOD a onBorderSizeLerping (Lcfh;DDJ)V
+	METHOD a onBorderSetWarningTime (Lcfh;I)V
+	METHOD b onBorderSetDamagePerBlock (Lcfh;D)V
+	METHOD b onBorderSetWarningBlocks (Lcfh;I)V
+	METHOD c onBorderSetDamageSafeZOne (Lcfh;D)V
+	CLASS a DelegateBorderChangeListener
+		FIELD a worldBorder Lcfh;
+		METHOD <init> <init> (Lcfh;)V
+		METHOD a onBorderSizeSet (Lcfh;D)V
+		METHOD a onBorderCenterSet (Lcfh;DD)V
+		METHOD a onBorderSizeLerping (Lcfh;DDJ)V
+		METHOD a onBorderSetWarningTime (Lcfh;I)V
+		METHOD b onBorderSetDamagePerBlock (Lcfh;D)V
+		METHOD b onBorderSetWarningBlocks (Lcfh;I)V
+		METHOD c onBorderSetDamageSafeZOne (Lcfh;D)V

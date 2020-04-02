@@ -1,1 +1,7 @@
-CLASS net/minecraft/class_3902 net/minecraft/util/Unit
+CLASS adn net/minecraft/util/Unit
+	FIELD a INSTANCE Ladn;
+	FIELD b $VALUES [Ladn;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Ladn;
+	METHOD values values ()[Ladn;

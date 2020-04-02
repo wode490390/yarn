@@ -1,0 +1,7 @@
+CLASS aqk net/minecraft/world/entity/ai/behavior/SetWalkTargetFromAttackTargetIfTargetOutOfReach
+	FIELD b speedModifier F
+	METHOD <init> <init> (F)V
+	METHOD a clearWalkTarget (Lanm;)V
+	METHOD a setWalkAndLookTarget (Lanm;Lanm;)V
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a start (Lyn;Lann;J)V

@@ -1,0 +1,20 @@
+CLASS bis net/minecraft/world/item/MapItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a makeKey (I)Ljava/lang/String;
+	METHOD a getSavedData (Lbin;Lbnx;)Lczj;
+	METHOD a scaleMap (Lbin;Lbnx;I)V
+	METHOD a createAndStoreSavedData (Lbin;Lbnx;IIIZZLcgv;)Lczj;
+	METHOD a inventoryTick (Lbin;Lbnx;Lanb;IZ)V
+	METHOD a getUpdatePacket (Lbin;Lbnx;Lbch;)Lmz;
+	METHOD a appendHoverText (Lbin;Lbnx;Ljava/util/List;Lbjw;)V
+	METHOD a useOn (Lbjz;)Lalv;
+	METHOD a create (Lbnx;IIBZZ)Lbin;
+	METHOD a update (Lbnx;Lanb;Lczj;)V
+	METHOD a lockMap (Lbnx;Lbin;)Lbin;
+	METHOD a getCorrectStateForFluidBlock (Lbnx;Lcdt;Lfo;)Lcdt;
+	METHOD a renderBiomePreviewMap (Lyn;Lbin;)V
+	METHOD a isLand ([Lboy;III)Z
+	METHOD b getOrCreateSavedData (Lbin;Lbnx;)Lczj;
+	METHOD b onCraftedBy (Lbin;Lbnx;Lbch;)V
+	METHOD f getMapId (Lbin;)I
+	METHOD g getColor (Lbin;)I

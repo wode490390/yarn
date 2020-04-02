@@ -1,0 +1,11 @@
+CLASS asm net/minecraft/world/entity/ai/goal/FollowParentGoal
+	FIELD a animal Lawo;
+	FIELD b parent Lawo;
+	FIELD c speedModifier D
+	FIELD d timeToRecalcPath I
+	METHOD <init> <init> (Lawo;D)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

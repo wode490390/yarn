@@ -1,0 +1,3 @@
+CLASS bgy net/minecraft/world/item/ChorusFruitItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a finishUsingItem (Lbin;Lbnx;Lanm;)Lbin;

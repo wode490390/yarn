@@ -1,0 +1,6 @@
+CLASS ddu net/minecraft/world/phys/shapes/CollisionContext
+	METHOD a empty ()Lddu;
+	METHOD a of (Lanb;)Lddu;
+	METHOD a isHoldingItem (Lbii;)Z
+	METHOD a isAbove (Ldej;Lfo;Z)Z
+	METHOD b isDescending ()Z

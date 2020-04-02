@@ -1,0 +1,7 @@
+CLASS avb net/minecraft/world/entity/ai/navigation/WallClimberNavigation
+	FIELD p pathToPosition Lfo;
+	METHOD <init> <init> (Lann;Lbnx;)V
+	METHOD a moveTo (Lanb;D)Z
+	METHOD a createPath (Lanb;I)Lcyt;
+	METHOD a createPath (Lfo;I)Lcyt;
+	METHOD c tick ()V

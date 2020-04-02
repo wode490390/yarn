@@ -1,0 +1,9 @@
+CLASS uv net/minecraft/server/commands/DebugDimension
+	FIELD a GSON Lcom/google/gson/Gson;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$0 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a debugDim (Lcu;)I
+	METHOD a lambda$debugDim$1 (Ljava/io/File;Lboy;)V

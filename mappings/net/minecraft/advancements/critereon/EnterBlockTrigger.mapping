@@ -1,0 +1,20 @@
+CLASS az net/minecraft/advancements/critereon/EnterBlockTrigger
+	FIELD a ID Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lts;
+	METHOD a lambda$createInstance$0 (Lbtu;Ljava/lang/String;)V
+	METHOD a lambda$trigger$2 (Lcdt;Laz$a;)Z
+	METHOD a deserializeBlock (Lcom/google/gson/JsonObject;)Lbtu;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lae;
+	METHOD a lambda$deserializeBlock$1 (Lts;)Lcom/google/gson/JsonSyntaxException;
+	METHOD a trigger (Lyo;Lcdt;)V
+	METHOD b access$000 ()Lts;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Laz$a;
+	CLASS a TriggerInstance
+		FIELD a block Lbtu;
+		FIELD b state Lcf;
+		METHOD <init> <init> (Lbtu;Lcf;)V
+		METHOD a entersBlock (Lbtu;)Laz$a;
+		METHOD a matches (Lcdt;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

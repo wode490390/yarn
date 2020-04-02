@@ -1,0 +1,33 @@
+CLASS amz net/minecraft/world/entity/AgableMob
+	FIELD b age I
+	FIELD bv DATA_BABY_ID Lth;
+	FIELD c forcedAge I
+	FIELD d forcedAgeTimer I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD a ageUp (I)V
+	METHOD a ageUp (IZ)V
+	METHOD a getBreedOffspring (Lamz;)Lamz;
+	METHOD a finalizeSpawn (Lbny;Lalt;Lanp;Lanz;Lkz;)Lanz;
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD a onSyncedDataUpdated (Lth;)V
+	METHOD a setBaby (Z)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD b_ setAge (I)V
+	METHOD i canBreed ()Z
+	METHOD k getAge ()I
+	METHOD l aiStep ()V
+	METHOD m ageBoundaryReached ()V
+	METHOD w_ defineSynchedData ()V
+	METHOD x_ isBaby ()Z
+	CLASS a AgableMobGroupData
+		FIELD a groupSize I
+		FIELD b shouldSpawnBaby Z
+		FIELD c babySpawnChance F
+		METHOD <init> <init> ()V
+		METHOD a getGroupSize ()I
+		METHOD a setBabySpawnChance (F)V
+		METHOD a setShouldSpawnBaby (Z)V
+		METHOD b increaseGroupSizeByOne ()V
+		METHOD c isShouldSpawnBaby ()Z
+		METHOD d getBabySpawnChance ()F

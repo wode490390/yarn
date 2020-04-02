@@ -1,0 +1,8 @@
+CLASS cop net/minecraft/world/level/levelgen/feature/configurations/OceanRuinConfiguration
+	FIELD a biomeTemp Lcti$b;
+	FIELD b largeProbability F
+	FIELD c clusterProbability F
+	METHOD <init> <init> (Lcti$b;FF)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcop;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcop;

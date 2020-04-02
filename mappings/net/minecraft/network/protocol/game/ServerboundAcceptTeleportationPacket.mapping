@@ -1,0 +1,9 @@
+CLASS qs net/minecraft/network/protocol/game/ServerboundAcceptTeleportationPacket
+	FIELD a id I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getId ()I
+	METHOD b write (Lmb;)V

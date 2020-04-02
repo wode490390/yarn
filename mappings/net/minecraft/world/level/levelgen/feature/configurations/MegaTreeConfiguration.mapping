@@ -1,0 +1,21 @@
+CLASS coj net/minecraft/world/level/levelgen/feature/configurations/MegaTreeConfiguration
+	FIELD a heightInterval I
+	FIELD b crownHeight I
+	METHOD <init> <init> (Lcpq;Lcpq;Ljava/util/List;III)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcoj;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcoj;
+	CLASS a MegaTreeConfigurationBuilder
+		FIELD c decorators Ljava/util/List;
+		FIELD d baseHeight I
+		FIELD e heightInterval I
+		FIELD f crownHeight I
+		METHOD <init> <init> (Lcpq;Lcpq;)V
+		METHOD a build ()Lcoj;
+		METHOD a baseHeight (I)Lcoj$a;
+		METHOD a decorators (Ljava/util/List;)Lcoj$a;
+		METHOD b build ()Lcpf;
+		METHOD b heightInterval (I)Lcoj$a;
+		METHOD b decorators (Ljava/util/List;)Lcpf$a;
+		METHOD c crownHeight (I)Lcoj$a;
+		METHOD d baseHeight (I)Lcpf$a;

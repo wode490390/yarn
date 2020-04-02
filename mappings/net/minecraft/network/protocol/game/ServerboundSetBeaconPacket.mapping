@@ -1,0 +1,11 @@
+CLASS rx net/minecraft/network/protocol/game/ServerboundSetBeaconPacket
+	FIELD a primary I
+	FIELD b secondary I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (II)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getPrimary ()I
+	METHOD b write (Lmb;)V
+	METHOD c getSecondary ()I

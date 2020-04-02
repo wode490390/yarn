@@ -1,0 +1,18 @@
+CLASS aun net/minecraft/world/entity/ai/goal/target/TargetGoal
+	FIELD a mustReach Z
+	FIELD b reachCache I
+	FIELD c reachCacheTime I
+	FIELD d unseenTicks I
+	FIELD e mob Lann;
+	FIELD f mustSee Z
+	FIELD g targetMob Lanm;
+	FIELD h unseenMemoryTicks I
+	METHOD <init> <init> (Lann;Z)V
+	METHOD <init> <init> (Lann;ZZ)V
+	METHOD a setUnseenMemoryTicks (I)Laun;
+	METHOD a canReach (Lanm;)Z
+	METHOD a canAttack (Lanm;Lavw;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD k getFollowDistance ()D

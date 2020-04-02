@@ -1,0 +1,5 @@
+CLASS bgf net/minecraft/world/item/AirItem
+	FIELD a block Lbtu;
+	METHOD <init> <init> (Lbtu;Lbii$a;)V
+	METHOD a getDescriptionId ()Ljava/lang/String;
+	METHOD a appendHoverText (Lbin;Lbnx;Ljava/util/List;Lbjw;)V

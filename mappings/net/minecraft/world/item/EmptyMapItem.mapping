@@ -1,0 +1,3 @@
+CLASS bhp net/minecraft/world/item/EmptyMapItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;

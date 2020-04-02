@@ -1,0 +1,24 @@
+CLASS bnu net/minecraft/world/level/GameType
+	FIELD a NOT_SET Lbnu;
+	FIELD b SURVIVAL Lbnu;
+	FIELD c CREATIVE Lbnu;
+	FIELD d ADVENTURE Lbnu;
+	FIELD e SPECTATOR Lbnu;
+	FIELD f id I
+	FIELD g name Ljava/lang/String;
+	FIELD h $VALUES [Lbnu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+	METHOD a getId ()I
+	METHOD a byId (I)Lbnu;
+	METHOD a byId (ILbnu;)Lbnu;
+	METHOD a updatePlayerAbilities (Lbce;)V
+	METHOD a byName (Ljava/lang/String;)Lbnu;
+	METHOD a byName (Ljava/lang/String;Lbnu;)Lbnu;
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getDisplayName ()Lml;
+	METHOD d isBlockPlacingRestricted ()Z
+	METHOD e isCreative ()Z
+	METHOD f isSurvival ()Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbnu;
+	METHOD values values ()[Lbnu;

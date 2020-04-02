@@ -1,0 +1,2 @@
+CLASS bhk net/minecraft/world/item/DyeableArmorItem
+	METHOD <init> <init> (Lbgh;Lang;Lbii$a;)V

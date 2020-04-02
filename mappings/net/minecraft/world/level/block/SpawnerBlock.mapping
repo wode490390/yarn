@@ -1,0 +1,6 @@
+CLASS bzp net/minecraft/world/level/block/SpawnerBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a newBlockEntity (Lbnh;)Lcbt;
+	METHOD a getCloneItemStack (Lbnh;Lfo;Lcdt;)Lbin;
+	METHOD a spawnAfterBreak (Lcdt;Lbnx;Lfo;Lbin;)V
+	METHOD b getRenderShape (Lcdt;)Lbyq;

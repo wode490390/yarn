@@ -1,0 +1,17 @@
+CLASS ck net/minecraft/advancements/critereon/TradeTrigger
+	FIELD a ID Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lts;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lae;
+	METHOD a trigger (Lyo;Lbbp;Lbin;)V
+	METHOD a lambda$trigger$0 (Lyo;Lbbp;Lbin;Lck$a;)Z
+	METHOD b access$000 ()Lts;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lck$a;
+	CLASS a TriggerInstance
+		FIELD a villager Lbd;
+		FIELD b item Lbm;
+		METHOD <init> <init> (Lbd;Lbm;)V
+		METHOD a matches (Lyo;Lbbp;Lbin;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD c tradedWithVillager ()Lck$a;

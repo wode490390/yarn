@@ -1,0 +1,19 @@
+CLASS bob net/minecraft/world/level/LevelSettings
+	FIELD a seed J
+	FIELD b gameType Lbnu;
+	FIELD c generateMapFeatures Z
+	FIELD d hardcore Z
+	FIELD e generatorProvider Lciw;
+	FIELD f allowCommands Z
+	FIELD g startingBonusItems Z
+	METHOD <init> <init> (JLbnu;ZZLciw;)V
+	METHOD <init> <init> (Lczp;)V
+	METHOD a enableStartingBonusItems ()Lbob;
+	METHOD b enableSinglePlayerCommands ()Lbob;
+	METHOD c hasStartingBonusItems ()Z
+	METHOD d getSeed ()J
+	METHOD e getGameType ()Lbnu;
+	METHOD f isHardcore ()Z
+	METHOD g isGenerateMapFeatures ()Z
+	METHOD h getGeneratorProvider ()Lciw;
+	METHOD i getAllowCommands ()Z

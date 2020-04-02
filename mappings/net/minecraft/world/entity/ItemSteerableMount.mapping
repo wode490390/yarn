@@ -1,0 +1,8 @@
+CLASS anl net/minecraft/world/entity/ItemSteerableMount
+	METHOD G_ hasSaddle ()Z
+	METHOD H_ boost ()Z
+	METHOD a travel (Lann;Lank;Lddp;)Z
+	METHOD a mobInteract (Lann;Lbch;Lalu;Z)Z
+	METHOD a_ travelWithInput (Lddp;)V
+	METHOD a_ setSaddle (Z)V
+	METHOD c getSteeringSpeed ()F

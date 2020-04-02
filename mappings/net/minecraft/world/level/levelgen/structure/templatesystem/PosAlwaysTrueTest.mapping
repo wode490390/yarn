@@ -1,0 +1,7 @@
+CLASS cuh net/minecraft/world/level/levelgen/structure/templatesystem/PosAlwaysTrueTest
+	FIELD a INSTANCE Lcuh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getType ()Lcuj;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a test (Lfo;Lfo;Lfo;Ljava/util/Random;)Z

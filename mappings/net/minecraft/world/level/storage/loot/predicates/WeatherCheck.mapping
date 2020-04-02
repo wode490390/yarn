@@ -1,0 +1,25 @@
+CLASS dcy net/minecraft/world/level/storage/loot/predicates/WeatherCheck
+	FIELD a isRaining Ljava/lang/Boolean;
+	FIELD b isThundering Ljava/lang/Boolean;
+	METHOD <init> <init> (Ljava/lang/Boolean;Ljava/lang/Boolean;)V
+	METHOD <init> <init> (Ljava/lang/Boolean;Ljava/lang/Boolean;Ldcy$1;)V
+	METHOD a test (Ldaa;)Z
+	METHOD a access$100 (Ldcy;)Ljava/lang/Boolean;
+	METHOD b weather ()Ldcy$a;
+	METHOD b access$200 (Ldcy;)Ljava/lang/Boolean;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a isRaining Ljava/lang/Boolean;
+		FIELD b isThundering Ljava/lang/Boolean;
+		METHOD <init> <init> ()V
+		METHOD a setRaining (Ljava/lang/Boolean;)Ldcy$a;
+		METHOD b build ()Ldcy;
+		METHOD b setThundering (Ljava/lang/Boolean;)Ldcy$a;
+		METHOD build build ()Ldcq;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcy;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldcy;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldcq;

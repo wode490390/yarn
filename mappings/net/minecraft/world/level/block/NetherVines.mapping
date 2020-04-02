@@ -1,0 +1,4 @@
+CLASS bxt net/minecraft/world/level/block/NetherVines
+	METHOD <init> <init> ()V
+	METHOD a isValidGrowthState (Lcdt;)Z
+	METHOD a getBlocksToGrowWhenBonemealed (Ljava/util/Random;)I

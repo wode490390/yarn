@@ -1,0 +1,8 @@
+CLASS cud net/minecraft/world/level/levelgen/structure/templatesystem/GravityProcessor
+	FIELD a heightmap Lcjc$a;
+	FIELD b offset I
+	METHOD <init> <init> (Lcjc$a;I)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getType ()Lcut;
+	METHOD a processBlock (Lboa;Lfo;Lfo;Lcuu$b;Lcuu$b;Lcur;)Lcuu$b;
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

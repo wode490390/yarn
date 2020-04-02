@@ -1,0 +1,5 @@
+CLASS alz net/minecraft/world/Nameable
+	METHOD P getName ()Lml;
+	METHOD Q hasCustomName ()Z
+	METHOD R getCustomName ()Lml;
+	METHOD d getDisplayName ()Lml;

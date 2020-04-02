@@ -1,0 +1,4 @@
+CLASS bhs net/minecraft/world/item/EndCrystalItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a useOn (Lbjz;)Lalv;
+	METHOD d isFoil (Lbin;)Z

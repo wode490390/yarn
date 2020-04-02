@@ -1,0 +1,19 @@
+CLASS brc net/minecraft/world/level/biome/MultiNoiseBiomeSourceSettings
+	FIELD a seed J
+	FIELD b temperatureOctaves Lcom/google/common/collect/ImmutableList;
+	FIELD c humidityOctaves Lcom/google/common/collect/ImmutableList;
+	FIELD d altitudeOctaves Lcom/google/common/collect/ImmutableList;
+	FIELD e weirdnessOctaves Lcom/google/common/collect/ImmutableList;
+	FIELD f biomes Ljava/util/Map;
+	METHOD <init> <init> (J)V
+	METHOD a getBiomes ()Ljava/util/Map;
+	METHOD a setTemperatureOctaves (Lcom/google/common/collect/ImmutableList;)Lbrc;
+	METHOD a setBiomes (Ljava/util/Map;)Lbrc;
+	METHOD b getSeed ()J
+	METHOD b setHumidityOctaves (Lcom/google/common/collect/ImmutableList;)Lbrc;
+	METHOD c getTemperatureOctaves ()Lcom/google/common/collect/ImmutableList;
+	METHOD c setAltitudeOctaves (Lcom/google/common/collect/ImmutableList;)Lbrc;
+	METHOD d getHumidityOctaves ()Lcom/google/common/collect/ImmutableList;
+	METHOD d setWeirdnessOctaves (Lcom/google/common/collect/ImmutableList;)Lbrc;
+	METHOD e getAltitudeOctaves ()Lcom/google/common/collect/ImmutableList;
+	METHOD f getWeirdnessOctaves ()Lcom/google/common/collect/ImmutableList;

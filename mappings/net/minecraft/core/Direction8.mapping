@@ -1,0 +1,25 @@
+CLASS fu net/minecraft/core/Direction8
+	FIELD a NORTH Lfu;
+	FIELD b NORTH_EAST Lfu;
+	FIELD c EAST Lfu;
+	FIELD d SOUTH_EAST Lfu;
+	FIELD e SOUTH Lfu;
+	FIELD f SOUTH_WEST Lfu;
+	FIELD g WEST Lfu;
+	FIELD h NORTH_WEST Lfu;
+	FIELD i NORTH_WEST_MASK I
+	FIELD j WEST_MASK I
+	FIELD k SOUTH_WEST_MASK I
+	FIELD l SOUTH_MASK I
+	FIELD m SOUTH_EAST_MASK I
+	FIELD n EAST_MASK I
+	FIELD o NORTH_EAST_MASK I
+	FIELD p NORTH_MASK I
+	FIELD q directions Ljava/util/Set;
+	FIELD r $VALUES [Lfu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I[Lft;)V
+	METHOD a getDirections ()Ljava/util/Set;
+	METHOD a getSideMask (ZZZZ)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lfu;
+	METHOD values values ()[Lfu;

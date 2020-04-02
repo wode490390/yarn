@@ -1,0 +1,35 @@
+CLASS cij net/minecraft/world/level/dimension/special/G32
+	FIELD h TUNNNEL_N Ljava/util/BitSet;
+	FIELD i TUNNNEL_S Ljava/util/BitSet;
+	FIELD j TUNNNEL_W Ljava/util/BitSet;
+	FIELD k TUNNNEL_E Ljava/util/BitSet;
+	FIELD l TUNNNEL_U Ljava/util/BitSet;
+	FIELD m TUNNNEL_D Ljava/util/BitSet;
+	FIELD n CHAMBER Ljava/util/BitSet;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD A access$700 ()Ljava/util/BitSet;
+	METHOD a isFoggyAt (II)Z
+	METHOD a access$600 (III)I
+	METHOD a getTimeOfDay (JF)F
+	METHOD a getBrightnessDependentFogColor (Lddp;F)Lddp;
+	METHOD b sectionPosToInt (III)I
+	METHOD k createRandomLevelGenerator ()Lcfl;
+	METHOD u access$000 ()Ljava/util/BitSet;
+	METHOD v access$100 ()Ljava/util/BitSet;
+	METHOD w access$200 ()Ljava/util/BitSet;
+	METHOD x access$300 ()Ljava/util/BitSet;
+	METHOD y access$400 ()Ljava/util/BitSet;
+	METHOD z access$500 ()Ljava/util/BitSet;
+	CLASS a Generator
+		METHOD <init> <init> (Lbny;Lbpc;Lcit;)V
+		METHOD a lambda$fillFromNoise$0 (I)Z
+		METHOD a getBaseColumn (II)Lbnh;
+		METHOD a getBaseHeight (IILcjc$a;)I
+		METHOD a applyCarvers (Lbpb;Lcfj;Lcjb$a;)V
+		METHOD a appendSide (Lcjm;IIILjava/util/function/IntPredicate;Ljava/util/BitSet;)Ljava/util/function/IntPredicate;
+		METHOD a applyBiomeDecoration (Lyt;)V
+		METHOD a buildSurfaceAndBedrock (Lyt;Lcfj;)V
+		METHOD b getSpawnHeight ()I
+		METHOD b fillFromNoise (Lbny;Lcfj;)V
+		METHOD g getType ()Lcfn;

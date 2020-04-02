@@ -1,0 +1,10 @@
+CLASS anc net/minecraft/world/entity/EntityDimensions
+	FIELD a width F
+	FIELD b height F
+	FIELD c fixed Z
+	METHOD <init> <init> (FFZ)V
+	METHOD a scale (F)Lanc;
+	METHOD a scale (FF)Lanc;
+	METHOD b scalable (FF)Lanc;
+	METHOD c fixed (FF)Lanc;
+	METHOD toString toString ()Ljava/lang/String;

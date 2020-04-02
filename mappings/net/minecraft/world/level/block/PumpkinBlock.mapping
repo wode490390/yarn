@@ -1,0 +1,6 @@
+CLASS byi net/minecraft/world/level/block/PumpkinBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a lambda$use$0 (Lalu;Lbch;)V
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD d getStem ()Lbzw;
+	METHOD e getAttachedStem ()Lbsz;

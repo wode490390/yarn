@@ -1,0 +1,6 @@
+CLASS bkp net/minecraft/world/item/crafting/CustomRecipe
+	FIELD a id Lts;
+	METHOD <init> <init> (Lts;)V
+	METHOD Y_ isSpecial ()Z
+	METHOD c getResultItem ()Lbin;
+	METHOD f getId ()Lts;

@@ -1,0 +1,8 @@
+CLASS asc net/minecraft/world/entity/ai/goal/CatSitOnBlockGoal
+	FIELD g cat Lawq;
+	METHOD <init> <init> (Lawq;D)V
+	METHOD a canUse ()Z
+	METHOD a isValidTarget (Lboa;Lfo;)Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

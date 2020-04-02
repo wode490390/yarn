@@ -1,0 +1,8 @@
+CLASS cul net/minecraft/world/level/levelgen/structure/templatesystem/RandomBlockMatchTest
+	FIELD a block Lbtu;
+	FIELD b probability F
+	METHOD <init> <init> (Lbtu;F)V
+	METHOD <init> <init> (Lcom/mojang/datafixers/Dynamic;)V
+	METHOD a getType ()Lcup;
+	METHOD a test (Lcdt;Ljava/util/Random;)Z
+	METHOD a getDynamic (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;

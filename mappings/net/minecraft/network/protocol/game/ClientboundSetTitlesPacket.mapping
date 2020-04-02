@@ -1,0 +1,31 @@
+CLASS qc net/minecraft/network/protocol/game/ClientboundSetTitlesPacket
+	FIELD a type Lqc$a;
+	FIELD b text Lml;
+	FIELD c fadeInTime I
+	FIELD d stayTime I
+	FIELD e fadeOutTime I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Lqc$a;Lml;)V
+	METHOD <init> <init> (Lqc$a;Lml;III)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getType ()Lqc$a;
+	METHOD b write (Lmb;)V
+	METHOD c getText ()Lml;
+	METHOD d getFadeInTime ()I
+	METHOD e getStayTime ()I
+	METHOD f getFadeOutTime ()I
+	CLASS a Type
+		FIELD a TITLE Lqc$a;
+		FIELD b SUBTITLE Lqc$a;
+		FIELD c ACTIONBAR Lqc$a;
+		FIELD d TIMES Lqc$a;
+		FIELD e CLEAR Lqc$a;
+		FIELD f RESET Lqc$a;
+		FIELD g $VALUES [Lqc$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lqc$a;
+		METHOD values values ()[Lqc$a;

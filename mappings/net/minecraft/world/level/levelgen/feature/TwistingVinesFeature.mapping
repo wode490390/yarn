@@ -1,0 +1,8 @@
+CLASS cnf net/minecraft/world/level/levelgen/feature/TwistingVinesFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcoo;)Z
+	METHOD a isInvalidPlacementLocation (Lbny;Lfo;)Z
+	METHOD a placeWeepingVinesColumn (Lbny;Ljava/util/Random;Lfo$a;III)V
+	METHOD a place (Lbny;Ljava/util/Random;Lfo;III)Z
+	METHOD b placeTwistingVines (Lbny;Ljava/util/Random;Lfo;III)V

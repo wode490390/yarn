@@ -1,0 +1,16 @@
+CLASS hz net/minecraft/data/loot/LootTableProvider
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d generator Lhg;
+	FIELD e subProviders Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lhg;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a lambda$run$3 (Ldaj;Lts;Ldad;)V
+	METHOD a run (Lhi;)V
+	METHOD a lambda$run$4 (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a lambda$run$5 (Ljava/nio/file/Path;Lhi;Lts;Ldad;)V
+	METHOD a createPath (Ljava/nio/file/Path;Lts;)Ljava/nio/file/Path;
+	METHOD a lambda$run$1 (Ljava/util/Map;Lcom/mojang/datafixers/util/Pair;)V
+	METHOD a lambda$null$0 (Ljava/util/Map;Lcom/mojang/datafixers/util/Pair;Lts;Ldad$a;)V
+	METHOD a lambda$run$2 (Lts;)Ldcq;

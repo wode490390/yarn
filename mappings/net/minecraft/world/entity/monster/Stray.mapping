@@ -1,0 +1,8 @@
+CLASS bau net/minecraft/world/entity/monster/Stray
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD b checkStraySpawnRules (Lanf;Lbny;Lanp;Lfo;Ljava/util/Random;)Z
+	METHOD b getArrow (Lbin;F)Lbcl;
+	METHOD dd getDeathSound ()Labr;
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD k getStepSound ()Labr;

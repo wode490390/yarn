@@ -1,0 +1,27 @@
+CLASS fv net/minecraft/core/FrontAndTop
+	FIELD a DOWN_EAST Lfv;
+	FIELD b DOWN_NORTH Lfv;
+	FIELD c DOWN_SOUTH Lfv;
+	FIELD d DOWN_WEST Lfv;
+	FIELD e UP_EAST Lfv;
+	FIELD f UP_NORTH Lfv;
+	FIELD g UP_SOUTH Lfv;
+	FIELD h UP_WEST Lfv;
+	FIELD i WEST_UP Lfv;
+	FIELD j EAST_UP Lfv;
+	FIELD k NORTH_UP Lfv;
+	FIELD l SOUTH_UP Lfv;
+	FIELD m LOOKUP_TOP_FRONT Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD n name Ljava/lang/String;
+	FIELD o top Lft;
+	FIELD p front Lft;
+	FIELD q $VALUES [Lfv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lft;Lft;)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD a fromFrontAndTop (Lft;Lft;)Lfv;
+	METHOD b front ()Lft;
+	METHOD b lookupKey (Lft;Lft;)I
+	METHOD c top ()Lft;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lfv;
+	METHOD values values ()[Lfv;

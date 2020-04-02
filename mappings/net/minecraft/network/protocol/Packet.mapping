@@ -1,0 +1,5 @@
+CLASS mz net/minecraft/network/protocol/Packet
+	METHOD a isSkippable ()Z
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD b write (Lmb;)V

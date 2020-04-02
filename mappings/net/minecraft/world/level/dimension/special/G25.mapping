@@ -1,0 +1,13 @@
+CLASS cic net/minecraft/world/level/dimension/special/G25
+	FIELD g RED Lg;
+	FIELD h BLUE Lg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD a getEntityExtraTint (Lanm;)Lg;
+	METHOD a getExtraTint (Lcdt;Lfo;)Lg;
+	METHOD a getHalfColor (Lfo;)Lg;
+	METHOD k createRandomLevelGenerator ()Lcfl;
+	CLASS a Generator
+		METHOD <init> <init> (Lbny;Lbpc;Lcjg;)V
+		METHOD a applyBiomeDecoration (Lyt;)V
+		METHOD g getType ()Lcfn;

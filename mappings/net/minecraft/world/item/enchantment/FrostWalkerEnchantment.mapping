@@ -1,0 +1,8 @@
+CLASS bme net/minecraft/world/item/enchantment/FrostWalkerEnchantment
+	METHOD <init> <init> (Lblx$a;[Lang;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a onEntityMoved (Lanm;Lbnx;Lfo;I)V
+	METHOD a checkCompatibility (Lblx;)Z
+	METHOD b isTreasureOnly ()Z
+	METHOD b getMaxCost (I)I

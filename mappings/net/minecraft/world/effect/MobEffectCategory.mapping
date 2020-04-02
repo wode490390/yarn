@@ -1,0 +1,11 @@
+CLASS amu net/minecraft/world/effect/MobEffectCategory
+	FIELD a BENEFICIAL Lamu;
+	FIELD b HARMFUL Lamu;
+	FIELD c NEUTRAL Lamu;
+	FIELD d tooltipFormatting Li;
+	FIELD e $VALUES [Lamu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILi;)V
+	METHOD a getTooltipFormatting ()Li;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lamu;
+	METHOD values values ()[Lamu;

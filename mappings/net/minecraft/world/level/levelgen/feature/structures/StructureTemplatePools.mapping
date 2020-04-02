@@ -1,0 +1,6 @@
+CLASS cqi net/minecraft/world/level/levelgen/feature/structures/StructureTemplatePools
+	FIELD a pools Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD a getPoolLocations ()Ljava/util/Set;
+	METHOD a register (Lcqh;)V
+	METHOD a getPool (Lts;)Lcqh;

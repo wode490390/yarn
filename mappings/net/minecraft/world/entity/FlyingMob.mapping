@@ -1,0 +1,6 @@
+CLASS ani net/minecraft/world/entity/FlyingMob
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD a checkFallDamage (DZLcdt;Lfo;)V
+	METHOD b causeFallDamage (FF)Z
+	METHOD e travel (Lddp;)V
+	METHOD y_ onClimbable ()Z

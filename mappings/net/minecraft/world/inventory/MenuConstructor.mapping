@@ -1,0 +1,2 @@
+CLASS bfm net/minecraft/world/inventory/MenuConstructor
+	METHOD createMenu createMenu (ILbcg;Lbch;)Lbel;

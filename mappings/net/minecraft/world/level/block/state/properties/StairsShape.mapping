@@ -1,0 +1,14 @@
+CLASS cfa net/minecraft/world/level/block/state/properties/StairsShape
+	FIELD a STRAIGHT Lcfa;
+	FIELD b INNER_LEFT Lcfa;
+	FIELD c INNER_RIGHT Lcfa;
+	FIELD d OUTER_LEFT Lcfa;
+	FIELD e OUTER_RIGHT Lcfa;
+	FIELD f name Ljava/lang/String;
+	FIELD g $VALUES [Lcfa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcfa;
+	METHOD values values ()[Lcfa;

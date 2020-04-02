@@ -1,0 +1,11 @@
+CLASS ra net/minecraft/network/protocol/game/ServerboundContainerButtonClickPacket
+	FIELD a containerId I
+	FIELD b buttonId I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (II)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getContainerId ()I
+	METHOD b write (Lmb;)V
+	METHOD c getButtonId ()I

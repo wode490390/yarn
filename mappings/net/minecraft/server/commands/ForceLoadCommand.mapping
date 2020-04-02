@@ -1,0 +1,23 @@
+CLASS vg net/minecraft/server/commands/ForceLoadCommand
+	FIELD a ERROR_TOO_MANY_CHUNKS Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD b ERROR_NOT_TICKING Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD c ERROR_ALL_ADDED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD d ERROR_NONE_REMOVED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$9 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a listForceLoad (Lcu;)I
+	METHOD a queryForceLoad (Lcu;Lyd;)I
+	METHOD a changeForceLoad (Lcu;Lyd;Lyd;Z)I
+	METHOD a lambda$static$1 (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$removeAll$10 (Lyn;J)V
+	METHOD b lambda$register$8 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b removeAll (Lcu;)I
+	METHOD b lambda$static$0 (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD c lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$2 (Lcu;)Z
+	METHOD d lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD g lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I

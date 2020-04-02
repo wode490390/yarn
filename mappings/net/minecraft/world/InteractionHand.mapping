@@ -1,0 +1,8 @@
+CLASS alu net/minecraft/world/InteractionHand
+	FIELD a MAIN_HAND Lalu;
+	FIELD b OFF_HAND Lalu;
+	FIELD c $VALUES [Lalu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lalu;
+	METHOD values values ()[Lalu;

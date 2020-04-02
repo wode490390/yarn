@@ -1,0 +1,13 @@
+CLASS bcb net/minecraft/world/entity/npc/WanderingTraderSpawner
+	FIELD a random Ljava/util/Random;
+	FIELD b level Lyn;
+	FIELD c tickDelay I
+	FIELD d spawnDelay I
+	FIELD e spawnChance I
+	METHOD <init> <init> (Lyn;)V
+	METHOD a tick ()V
+	METHOD a tryToSpawnLlamaFor (Lbca;I)V
+	METHOD a hasEnoughSpace (Lfo;)Z
+	METHOD a findSpawnPositionNear (Lfo;I)Lfo;
+	METHOD b spawn ()Z
+	METHOD b lambda$spawn$0 (Lfo;)Z

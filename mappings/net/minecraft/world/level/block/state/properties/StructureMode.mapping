@@ -1,0 +1,12 @@
+CLASS cfb net/minecraft/world/level/block/state/properties/StructureMode
+	FIELD a SAVE Lcfb;
+	FIELD b LOAD Lcfb;
+	FIELD c CORNER Lcfb;
+	FIELD d DATA Lcfb;
+	FIELD e name Ljava/lang/String;
+	FIELD f $VALUES [Lcfb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcfb;
+	METHOD values values ()[Lcfb;

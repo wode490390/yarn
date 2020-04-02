@@ -1,0 +1,24 @@
+CLASS bdi net/minecraft/world/entity/projectile/ThrownTrident
+	FIELD an ID_FOIL Lth;
+	FIELD ao tridentItem Lbin;
+	FIELD ap dealtDamage Z
+	FIELD f clientSideReturnTridentTickCount I
+	FIELD g ID_LOYALTY Lth;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDD)V
+	METHOD <init> <init> (Lbnx;Lanm;Lbin;)V
+	METHOD a onHitEntity (Lddl;)V
+	METHOD a findHitEntity (Lddp;Lddp;)Lddl;
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b playerTouch (Lbch;)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD h tick ()V
+	METHOD i tickDespawn ()V
+	METHOD i shouldRender (DDD)Z
+	METHOD k getDefaultHitGroundSoundEvent ()Labr;
+	METHOD m getPickupItem ()Lbin;
+	METHOD s getWaterInertia ()F
+	METHOD v isFoil ()Z
+	METHOD w_ defineSynchedData ()V
+	METHOD z isAcceptibleReturnOwner ()Z

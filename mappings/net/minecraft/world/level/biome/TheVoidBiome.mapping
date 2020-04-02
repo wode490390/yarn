@@ -1,0 +1,2 @@
+CLASS bsk net/minecraft/world/level/biome/TheVoidBiome
+	METHOD <init> <init> ()V

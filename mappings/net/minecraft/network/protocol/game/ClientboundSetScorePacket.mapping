@@ -1,0 +1,15 @@
+CLASS qa net/minecraft/network/protocol/game/ClientboundSetScorePacket
+	FIELD a owner Ljava/lang/String;
+	FIELD b objectiveName Ljava/lang/String;
+	FIELD c score I
+	FIELD d method Lug$a;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lug$a;Ljava/lang/String;Ljava/lang/String;I)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getOwner ()Ljava/lang/String;
+	METHOD b write (Lmb;)V
+	METHOD c getObjectiveName ()Ljava/lang/String;
+	METHOD d getScore ()I
+	METHOD e getMethod ()Lug$a;

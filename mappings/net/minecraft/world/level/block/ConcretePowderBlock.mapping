@@ -1,0 +1,10 @@
+CLASS bur net/minecraft/world/level/block/ConcretePowderBlock
+	FIELD a concrete Lcdt;
+	METHOD <init> <init> (Lbtu;Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a touchesLiquid (Lbnh;Lfo;)Z
+	METHOD a onLand (Lbnx;Lfo;Lcdt;Lcdt;Lazl;)V
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD b shouldSolidify (Lbnh;Lfo;Lcdt;)Z
+	METHOD c getDustColor (Lcdt;Lbnh;Lfo;)I
+	METHOD l canSolidify (Lcdt;)Z

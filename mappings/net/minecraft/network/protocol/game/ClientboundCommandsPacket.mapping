@@ -1,0 +1,24 @@
+CLASS nv net/minecraft/network/protocol/game/ClientboundCommandsPacket
+	FIELD a root Lcom/mojang/brigadier/tree/RootCommandNode;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcom/mojang/brigadier/tree/RootCommandNode;)V
+	METHOD a read (Lmb;)V
+	METHOD a createBuilder (Lmb;B)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	METHOD a writeNode (Lmb;Lcom/mojang/brigadier/tree/CommandNode;Ljava/util/Map;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getRoot ()Lcom/mojang/brigadier/tree/RootCommandNode;
+	METHOD b write (Lmb;)V
+	METHOD c readNode (Lmb;)Lnv$a;
+	CLASS 1 1
+	CLASS a Entry
+		FIELD a builder Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		FIELD b flags B
+		FIELD c redirect I
+		FIELD d children [I
+		FIELD e node Lcom/mojang/brigadier/tree/CommandNode;
+		METHOD <init> <init> (Lcom/mojang/brigadier/builder/ArgumentBuilder;BI[I)V
+		METHOD <init> <init> (Lcom/mojang/brigadier/builder/ArgumentBuilder;BI[ILnv$1;)V
+		METHOD a lambda$build$0 (Lcom/mojang/brigadier/context/CommandContext;)I
+		METHOD a access$000 (Lnv$a;)Lcom/mojang/brigadier/tree/CommandNode;
+		METHOD a build ([Lnv$a;)Z

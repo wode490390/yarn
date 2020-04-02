@@ -1,0 +1,21 @@
+CLASS cjh net/minecraft/world/level/levelgen/OverworldLevelSource
+	FIELD e BIOME_WEIGHTS [F
+	FIELD i depthNoise Lcvr;
+	FIELD j isAmplified Z
+	FIELD k phantomSpawner Lcjj;
+	FIELD l patrolSpawner Lcji;
+	FIELD m catSpawner Lbbq;
+	FIELD n villageSiege Lawb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbny;Lbpc;Lcjg;)V
+	METHOD a getYOffset (DDI)D
+	METHOD a getMobsAt (Lano;Lfo;)Ljava/util/List;
+	METHOD a tickCustomSpawners (Lyn;ZZ)V
+	METHOD a fillNoiseColumn ([DII)V
+	METHOD a lambda$static$0 ([F)V
+	METHOD b getSpawnHeight ()I
+	METHOD b getDepthAndScale (II)[D
+	METHOD b spawnOriginalMobs (Lyt;)V
+	METHOD d getRdepth (II)D
+	METHOD f getSeaLevel ()I
+	METHOD g getType ()Lcfn;

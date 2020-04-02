@@ -1,0 +1,3 @@
+CLASS bgk net/minecraft/world/item/ArrowItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a createArrow (Lbnx;Lbin;Lanm;)Lbcl;

@@ -1,0 +1,11 @@
+CLASS bfv net/minecraft/world/inventory/ResultSlot
+	FIELD a craftSlots Lbex;
+	FIELD b player Lbch;
+	FIELD g removeCount I
+	METHOD <init> <init> (Lbch;Lbex;Lalo;III)V
+	METHOD a remove (I)Lbin;
+	METHOD a onTake (Lbch;Lbin;)Lbin;
+	METHOD a mayPlace (Lbin;)Z
+	METHOD a onQuickCraft (Lbin;I)V
+	METHOD b onSwapCraft (I)V
+	METHOD c checkTakeAchievements (Lbin;)V

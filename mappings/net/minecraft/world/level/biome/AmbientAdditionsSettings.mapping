@@ -1,0 +1,6 @@
+CLASS boq net/minecraft/world/level/biome/AmbientAdditionsSettings
+	FIELD a soundEvent Labr;
+	FIELD b tickChance D
+	METHOD <init> <init> (Labr;D)V
+	METHOD a getSoundEvent ()Labr;
+	METHOD b getTickChance ()D

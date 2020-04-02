@@ -1,0 +1,15 @@
+CLASS cbn net/minecraft/world/level/block/entity/BaseContainerBlockEntity
+	FIELD a lockKey Lalx;
+	FIELD b name Lml;
+	METHOD <init> <init> (Lcbu;)V
+	METHOD P getName ()Lml;
+	METHOD R getCustomName ()Lml;
+	METHOD a createMenu (ILbcg;)Lbel;
+	METHOD a canUnlock (Lbch;Lalx;Lml;)Z
+	METHOD a load (Lcdt;Lkz;)V
+	METHOD a save (Lkz;)Lkz;
+	METHOD a setCustomName (Lml;)V
+	METHOD createMenu createMenu (ILbcg;Lbch;)Lbel;
+	METHOD d getDisplayName ()Lml;
+	METHOD e canOpen (Lbch;)Z
+	METHOD g getDefaultName ()Lml;

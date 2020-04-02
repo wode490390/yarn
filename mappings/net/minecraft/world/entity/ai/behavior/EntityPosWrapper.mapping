@@ -1,0 +1,8 @@
+CLASS aoz net/minecraft/world/entity/ai/behavior/EntityPosWrapper
+	FIELD a entity Lanb;
+	METHOD <init> <init> (Lanb;)V
+	METHOD a getPos ()Lfo;
+	METHOD a isVisible (Lanm;)Z
+	METHOD b getLookAtPos ()Lddp;
+	METHOD c getEntity ()Lanb;
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,4 @@
+CLASS bht net/minecraft/world/item/EnderEyeItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a useOn (Lbjz;)Lalv;
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;

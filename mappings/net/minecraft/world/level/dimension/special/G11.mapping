@@ -1,0 +1,6 @@
+CLASS cho net/minecraft/world/level/dimension/special/G11
+	METHOD <init> <init> (Lbnx;Lcgv;)V
+	METHOD a getEntityExtraTint (Lanm;)Lg;
+	METHOD a getExtraTint (Lcdt;Lfo;)Lg;
+	METHOD a getBrightnessDependentFogColor (Lddp;F)Lddp;
+	METHOD a getColor (Lfo;)Lg;

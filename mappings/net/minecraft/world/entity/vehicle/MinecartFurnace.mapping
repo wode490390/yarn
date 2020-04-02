@@ -1,0 +1,22 @@
+CLASS beb net/minecraft/world/entity/vehicle/MinecartFurnace
+	FIELD b xPush D
+	FIELD c zPush D
+	FIELD d DATA_ID_FUEL Lth;
+	FIELD e fuel I
+	FIELD f INGREDIENT Lbkt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDD)V
+	METHOD a destroy (Laml;)V
+	METHOD a interact (Lbch;Lalu;)Z
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b moveAlongTrack (Lfo;Lcdt;)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD f getMaxSpeed ()D
+	METHOD h tick ()V
+	METHOD k applyNaturalSlowdown ()V
+	METHOD o getMinecartType ()Lbdv$a;
+	METHOD o setHasFuel (Z)V
+	METHOD q getDefaultDisplayBlockState ()Lcdt;
+	METHOD v hasFuel ()Z
+	METHOD w_ defineSynchedData ()V

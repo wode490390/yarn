@@ -1,0 +1,5 @@
+CLASS bac net/minecraft/world/entity/monster/Giant
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD a getWalkTargetValue (Lfo;Lboa;)F
+	METHOD b getStandingEyeHeight (Lanw;Lanc;)F
+	METHOD cF registerAttributes ()V

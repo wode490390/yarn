@@ -1,0 +1,6 @@
+CLASS bwv net/minecraft/world/level/block/IceBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a playerDestroy (Lbnx;Lbch;Lfo;Lcdt;Lcbt;Lbin;)V
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD d melt (Lcdt;Lbnx;Lfo;)V
+	METHOD f getPistonPushReaction (Lcdt;)Lcwt;

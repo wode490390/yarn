@@ -1,0 +1,6 @@
+CLASS xg net/minecraft/server/commands/data/DataAccessor
+	METHOD a getData ()Lkz;
+	METHOD a getPrintSuccess (Ldi$h;DI)Lml;
+	METHOD a setData (Lkz;)V
+	METHOD a getPrintSuccess (Llp;)Lml;
+	METHOD b getModifiedSuccess ()Lml;

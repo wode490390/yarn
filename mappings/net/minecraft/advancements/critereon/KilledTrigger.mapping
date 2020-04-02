@@ -1,0 +1,29 @@
+CLASS bp net/minecraft/advancements/critereon/KilledTrigger
+	FIELD a id Lts;
+	METHOD <init> <init> (Lts;)V
+	METHOD a getId ()Lts;
+	METHOD a access$000 (Lbp;)Lts;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lae;
+	METHOD a trigger (Lyo;Lanb;Laml;)V
+	METHOD a lambda$trigger$0 (Lyo;Lanb;Laml;Lbp$a;)Z
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbp$a;
+	CLASS a TriggerInstance
+		FIELD a entityPredicate Lbd;
+		FIELD b killingBlow Lau;
+		METHOD <init> <init> (Lts;Lbd;Lau;)V
+		METHOD a playerKilledEntity (Lbd$a;)Lbp$a;
+		METHOD a playerKilledEntity (Lbd$a;Lau$a;)Lbp$a;
+		METHOD a playerKilledEntity (Lbd$a;Lau;)Lbp$a;
+		METHOD a playerKilledEntity (Lbd;)Lbp$a;
+		METHOD a playerKilledEntity (Lbd;Lau$a;)Lbp$a;
+		METHOD a playerKilledEntity (Lbd;Lau;)Lbp$a;
+		METHOD a matches (Lyo;Lanb;Laml;)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD b entityKilledPlayer (Lbd$a;)Lbp$a;
+		METHOD b entityKilledPlayer (Lbd$a;Lau$a;)Lbp$a;
+		METHOD b entityKilledPlayer (Lbd$a;Lau;)Lbp$a;
+		METHOD b entityKilledPlayer (Lbd;)Lbp$a;
+		METHOD b entityKilledPlayer (Lbd;Lau$a;)Lbp$a;
+		METHOD b entityKilledPlayer (Lbd;Lau;)Lbp$a;
+		METHOD c playerKilledEntity ()Lbp$a;
+		METHOD d entityKilledPlayer ()Lbp$a;

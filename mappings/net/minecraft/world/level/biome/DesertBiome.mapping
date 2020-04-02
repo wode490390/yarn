@@ -1,0 +1,2 @@
+CLASS bpv net/minecraft/world/level/biome/DesertBiome
+	METHOD <init> <init> ()V

@@ -1,0 +1,7 @@
+CLASS bto net/minecraft/world/level/block/BeaconBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getColor ()Lbhi;
+	METHOD a newBlockEntity (Lbnh;)Lcbt;
+	METHOD a setPlacedBy (Lbnx;Lfo;Lcdt;Lanm;Lbin;)V
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD b getRenderShape (Lcdt;)Lbyq;

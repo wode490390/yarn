@@ -1,0 +1,10 @@
+CLASS bvk net/minecraft/world/level/block/DragonEggBlock
+	FIELD a SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a attack (Lcdt;Lbnx;Lfo;Lbch;)V
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD d getDelayAfterPlace ()I
+	METHOD d teleport (Lcdt;Lbnx;Lfo;)V

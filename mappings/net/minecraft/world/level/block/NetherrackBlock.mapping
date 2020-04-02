@@ -1,0 +1,5 @@
+CLASS bxv net/minecraft/world/level/block/NetherrackBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a isValidBonemealTarget (Lbnh;Lfo;Lcdt;Z)Z
+	METHOD a isBonemealSuccess (Lbnx;Ljava/util/Random;Lfo;Lcdt;)Z
+	METHOD a performBonemeal (Lyn;Ljava/util/Random;Lfo;Lcdt;)V

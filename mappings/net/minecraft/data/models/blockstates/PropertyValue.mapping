@@ -1,0 +1,10 @@
+CLASS il net/minecraft/data/models/blockstates/PropertyValue
+	FIELD a property Lcew;
+	FIELD b value Ljava/lang/Comparable;
+	METHOD <init> <init> (Lcew;Ljava/lang/Comparable;)V
+	METHOD a getProperty ()Lcew;
+	METHOD a getAll (Lcew;)Ljava/util/stream/Stream;
+	METHOD a lambda$getAll$0 (Lcew;Ljava/lang/Comparable;)Lil;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

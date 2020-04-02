@@ -1,0 +1,8 @@
+CLASS bpk net/minecraft/world/level/biome/CheckerboardBiomeSourceSettings
+	FIELD a allowedBiomes [Lboy;
+	FIELD b size I
+	METHOD <init> <init> (J)V
+	METHOD a getAllowedBiomes ()[Lboy;
+	METHOD a setSize (I)Lbpk;
+	METHOD a setAllowedBiomes ([Lboy;)Lbpk;
+	METHOD b getSize ()I

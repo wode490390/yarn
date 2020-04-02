@@ -1,0 +1,14 @@
+CLASS dce net/minecraft/world/level/storage/loot/parameters/LootContextParams
+	FIELD a THIS_ENTITY Ldcb;
+	FIELD b LAST_DAMAGE_PLAYER Ldcb;
+	FIELD c DAMAGE_SOURCE Ldcb;
+	FIELD d KILLER_ENTITY Ldcb;
+	FIELD e DIRECT_KILLER_ENTITY Ldcb;
+	FIELD f BLOCK_POS Ldcb;
+	FIELD g BLOCK_STATE Ldcb;
+	FIELD h BLOCK_ENTITY Ldcb;
+	FIELD i TOOL Ldcb;
+	FIELD j EXPLOSION_RADIUS Ldcb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a create (Ljava/lang/String;)Ldcb;

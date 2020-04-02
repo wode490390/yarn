@@ -1,0 +1,24 @@
+CLASS bvg net/minecraft/world/level/block/DispenserBlock
+	FIELD a FACING Lceo;
+	FIELD b TRIGGERED Lcel;
+	FIELD c DISPENSER_REGISTRY Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a getDispenseMethod (Lbin;)Lgt;
+	METHOD a newBlockEntity (Lbnh;)Lcbt;
+	METHOD a registerBehavior (Lbnw;Lgt;)V
+	METHOD a dispenseFrom (Lbnx;Lfo;)V
+	METHOD a setPlacedBy (Lbnx;Lfo;Lcdt;Lanm;Lbin;)V
+	METHOD a hasAnalogOutputSignal (Lcdt;)Z
+	METHOD a getAnalogOutputSignal (Lcdt;Lbnx;Lfo;)I
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a neighborChanged (Lcdt;Lbnx;Lfo;Lbtu;Lfo;Z)V
+	METHOD a onRemove (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD a getDispensePosition (Lfp;)Lgf;
+	METHOD a lambda$static$0 (Lit/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap;)V
+	METHOD b getRenderShape (Lcdt;)Lbyq;

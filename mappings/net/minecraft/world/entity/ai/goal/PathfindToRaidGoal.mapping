@@ -1,0 +1,8 @@
+CLASS ath net/minecraft/world/entity/ai/goal/PathfindToRaidGoal
+	FIELD a mob Lbdm;
+	METHOD <init> <init> (Lbdm;)V
+	METHOD a canUse ()Z
+	METHOD a recruitNearby (Lbdl;)V
+	METHOD a lambda$recruitNearby$0 (Lbdl;Lbdm;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD e tick ()V

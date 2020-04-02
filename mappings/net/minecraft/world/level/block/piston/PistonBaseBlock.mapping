@@ -1,0 +1,30 @@
+CLASS cdl net/minecraft/world/level/block/piston/PistonBaseBlock
+	FIELD b EXTENDED Lcel;
+	FIELD c EAST_AABB Ldej;
+	FIELD d WEST_AABB Ldej;
+	FIELD e SOUTH_AABB Ldej;
+	FIELD f NORTH_AABB Ldej;
+	FIELD g UP_AABB Ldej;
+	FIELD h DOWN_AABB Ldej;
+	FIELD i isSticky Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ZLcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a checkIfExtend (Lbnx;Lfo;Lcdt;)V
+	METHOD a setPlacedBy (Lbnx;Lfo;Lcdt;Lanm;Lbin;)V
+	METHOD a getNeighborSignal (Lbnx;Lfo;Lft;)Z
+	METHOD a moveBlocks (Lbnx;Lfo;Lft;Z)Z
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a triggerEvent (Lcdt;Lbnx;Lfo;II)Z
+	METHOD a neighborChanged (Lcdt;Lbnx;Lfo;Lbtu;Lfo;Z)V
+	METHOD a isPushable (Lcdt;Lbnx;Lfo;Lft;ZLft;)Z
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD c_ useShapeForLightOcclusion (Lcdt;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		FIELD b $SwitchMap$net$minecraft$world$level$material$PushReaction [I
+		METHOD <clinit> <clinit> ()V

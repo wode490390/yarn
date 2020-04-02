@@ -1,0 +1,6 @@
+CLASS cec net/minecraft/world/level/block/state/predicate/BlockPredicate
+	FIELD a block Lbtu;
+	METHOD <init> <init> (Lbtu;)V
+	METHOD a forBlock (Lbtu;)Lcec;
+	METHOD a test (Lcdt;)Z
+	METHOD test test (Ljava/lang/Object;)Z

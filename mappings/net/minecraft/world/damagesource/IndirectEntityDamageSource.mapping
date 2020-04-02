@@ -1,0 +1,6 @@
+CLASS amn net/minecraft/world/damagesource/IndirectEntityDamageSource
+	FIELD x owner Lanb;
+	METHOD <init> <init> (Ljava/lang/String;Lanb;Lanb;)V
+	METHOD a getLocalizedDeathMessage (Lanm;)Lml;
+	METHOD j getDirectEntity ()Lanb;
+	METHOD k getEntity ()Lanb;

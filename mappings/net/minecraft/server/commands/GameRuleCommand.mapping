@@ -1,0 +1,14 @@
+CLASS vj net/minecraft/server/commands/GameRuleCommand
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a access$000 (Lcom/mojang/brigadier/context/CommandContext;Lbnt$d;)I
+	METHOD a lambda$register$0 (Lcu;)Z
+	METHOD a access$100 (Lcu;Lbnt$d;)I
+	METHOD b setRule (Lcom/mojang/brigadier/context/CommandContext;Lbnt$d;)I
+	METHOD b queryRule (Lcu;Lbnt$d;)I
+	CLASS 1 1
+		FIELD a val$base Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+		METHOD <init> <init> (Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;)V
+		METHOD a visit (Lbnt$d;Lbnt$e;)V
+		METHOD a lambda$visit$1 (Lbnt$d;Lcom/mojang/brigadier/context/CommandContext;)I
+		METHOD b lambda$visit$0 (Lbnt$d;Lcom/mojang/brigadier/context/CommandContext;)I

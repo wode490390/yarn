@@ -1,0 +1,7 @@
+CLASS ckk net/minecraft/world/level/levelgen/feature/CharFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcny;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a lambda$place$0 (Lbny;Lcny;Ljava/util/Random;Lfo;)V
+	METHOD a place (Lfo;Lcny;Ljava/util/function/Consumer;)Z
+	METHOD a addPixel (Ljava/util/function/Consumer;Lfo$a;Lft;IB)V

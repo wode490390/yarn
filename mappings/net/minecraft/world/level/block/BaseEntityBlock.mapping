@@ -1,0 +1,5 @@
+CLASS btj net/minecraft/world/level/block/BaseEntityBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a triggerEvent (Lcdt;Lbnx;Lfo;II)Z
+	METHOD b getRenderShape (Lcdt;)Lbyq;
+	METHOD b getMenuProvider (Lcdt;Lbnx;Lfo;)Laly;

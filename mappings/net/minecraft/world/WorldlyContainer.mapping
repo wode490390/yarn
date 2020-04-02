@@ -1,0 +1,4 @@
+CLASS amf net/minecraft/world/WorldlyContainer
+	METHOD a canPlaceItemThroughFace (ILbin;Lft;)Z
+	METHOD a getSlotsForFace (Lft;)[I
+	METHOD b canTakeItemThroughFace (ILbin;Lft;)Z

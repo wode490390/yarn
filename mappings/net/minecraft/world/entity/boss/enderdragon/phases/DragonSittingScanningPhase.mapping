@@ -1,0 +1,10 @@
+CLASS ayr net/minecraft/world/entity/boss/enderdragon/phases/DragonSittingScanningPhase
+	FIELD b CHARGE_TARGETING Lavw;
+	FIELD c scanTargeting Lavw;
+	FIELD d scanningTime I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laye;)V
+	METHOD a lambda$new$0 (Laye;Lanm;)Z
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD i getPhase ()Layu;

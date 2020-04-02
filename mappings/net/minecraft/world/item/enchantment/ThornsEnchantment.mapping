@@ -1,0 +1,11 @@
+CLASS bmo net/minecraft/world/item/enchantment/ThornsEnchantment
+	METHOD <init> <init> (Lblx$a;[Lang;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a shouldHit (ILjava/util/Random;)Z
+	METHOD a canEnchant (Lbin;)Z
+	METHOD a lambda$doPostHurt$1 (Ljava/util/Map$Entry;Lanm;)V
+	METHOD b getMaxCost (I)I
+	METHOD b getDamage (ILjava/util/Random;)I
+	METHOD b doPostHurt (Lanm;Lanb;I)V
+	METHOD b lambda$doPostHurt$0 (Ljava/util/Map$Entry;Lanm;)V

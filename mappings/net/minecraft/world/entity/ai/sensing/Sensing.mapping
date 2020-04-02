@@ -1,0 +1,7 @@
+CLASS avq net/minecraft/world/entity/ai/sensing/Sensing
+	FIELD a mob Lann;
+	FIELD b seen Ljava/util/List;
+	FIELD c unseen Ljava/util/List;
+	METHOD <init> <init> (Lann;)V
+	METHOD a tick ()V
+	METHOD a canSee (Lanb;)Z

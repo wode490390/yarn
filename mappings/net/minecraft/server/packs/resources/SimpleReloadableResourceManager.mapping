@@ -1,0 +1,35 @@
+CLASS aaq net/minecraft/server/packs/resources/SimpleReloadableResourceManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b namespacedPacks Ljava/util/Map;
+	FIELD c listeners Ljava/util/List;
+	FIELD d recentlyRegistered Ljava/util/List;
+	FIELD e namespaces Ljava/util/Set;
+	FIELD f type Lzp;
+	FIELD g mainThread Ljava/lang/Thread;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lzp;Ljava/lang/Thread;)V
+	METHOD a getNamespaces ()Ljava/util/Set;
+	METHOD a registerReloadListener (Laag;)V
+	METHOD a listResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a reload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/List;Ljava/util/concurrent/CompletableFuture;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a createQueuedReload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)Laai;
+	METHOD a createFullReload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;Ljava/util/List;)Laai;
+	METHOD a getResource (Lts;)Laak;
+	METHOD a add (Lzo;)V
+	METHOD b clear ()V
+	METHOD b createReload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/List;Ljava/util/concurrent/CompletableFuture;)Laai;
+	METHOD b hasResource (Lts;)Z
+	METHOD c getResources (Lts;)Ljava/util/List;
+	CLASS a FailingReloadInstance
+		FIELD a exception Laaq$b;
+		FIELD b failedFuture Ljava/util/concurrent/CompletableFuture;
+		METHOD <init> <init> (Laaq$b;)V
+		METHOD a done ()Ljava/util/concurrent/CompletableFuture;
+		METHOD b getActualProgress ()F
+		METHOD c isApplying ()Z
+		METHOD d isDone ()Z
+		METHOD e checkExceptions ()V
+	CLASS b ResourcePackLoadingFailure
+		FIELD a pack Lzo;
+		METHOD <init> <init> (Lzo;Ljava/lang/Throwable;)V
+		METHOD a getPack ()Lzo;

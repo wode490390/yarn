@@ -1,0 +1,19 @@
+CLASS bex net/minecraft/world/inventory/CraftingContainer
+	FIELD a items Lge;
+	FIELD b width I
+	FIELD c height I
+	FIELD d menu Lbel;
+	METHOD <init> <init> (Lbel;II)V
+	METHOD R_ clearContent ()V
+	METHOD S_ getContainerSize ()I
+	METHOD a getItem (I)Lbin;
+	METHOD a removeItem (II)Lbin;
+	METHOD a setItem (ILbin;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD a fillStackedContents (Lbcj;)V
+	METHOD b removeItemNoUpdate (I)Lbin;
+	METHOD b getItem (II)Lbin;
+	METHOD c isEmpty ()Z
+	METHOD e setChanged ()V
+	METHOD f getHeight ()I
+	METHOD g getWidth ()I

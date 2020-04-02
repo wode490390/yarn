@@ -1,0 +1,11 @@
+CLASS cpq net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider
+	FIELD a type Lcpr;
+	FIELD b ROTATABLE_BLOCKS Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcpr;)V
+	METHOD a lambda$static$0 (Lcdt;)Z
+	METHOD a lambda$random$2 (Lcpx;Ljava/util/Random;Lcdt;)V
+	METHOD a random (Ljava/util/Random;)Lcpq;
+	METHOD a getState (Ljava/util/Random;Lfo;)Lcdt;
+	METHOD a random (Ljava/util/Random;Ljava/util/List;)Lcpq;
+	METHOD b lambda$random$1 (Lcpx;Ljava/util/Random;Lcdt;)V

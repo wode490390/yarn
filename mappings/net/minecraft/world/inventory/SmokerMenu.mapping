@@ -1,0 +1,3 @@
+CLASS bgb net/minecraft/world/inventory/SmokerMenu
+	METHOD <init> <init> (ILbcg;)V
+	METHOD <init> <init> (ILbcg;Lalo;Lbeu;)V

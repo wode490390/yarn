@@ -1,0 +1,16 @@
+CLASS bxe net/minecraft/world/level/block/LeavesBlock
+	FIELD a DISTANCE Lcet;
+	FIELD b PERSISTENT Lcel;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a animateTick (Lcdt;Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a updateDistance (Lcdt;Lbny;Lfo;)Lcdt;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD a_ isRandomlyTicking (Lcdt;)Z
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD e getBlockSupportShape (Lcdt;Lbnh;Lfo;)Ldej;
+	METHOD f getLightBlock (Lcdt;Lbnh;Lfo;)I
+	METHOD h getDistanceAt (Lcdt;)I

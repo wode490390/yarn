@@ -1,0 +1,36 @@
+CLASS rs net/minecraft/network/protocol/game/ServerboundRecipeBookUpdatePacket
+	FIELD a purpose Lrs$a;
+	FIELD b recipe Lts;
+	FIELD c guiOpen Z
+	FIELD d filteringCraftable Z
+	FIELD e furnaceGuiOpen Z
+	FIELD f furnaceFilteringCraftable Z
+	FIELD g blastFurnaceGuiOpen Z
+	FIELD h blastFurnaceFilteringCraftable Z
+	FIELD i smokerGuiOpen Z
+	FIELD j smokerFilteringCraftable Z
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbkw;)V
+	METHOD <init> <init> (ZZZZZZ)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getPurpose ()Lrs$a;
+	METHOD b write (Lmb;)V
+	METHOD c getRecipe ()Lts;
+	METHOD d isGuiOpen ()Z
+	METHOD e isFilteringCraftable ()Z
+	METHOD f isFurnaceGuiOpen ()Z
+	METHOD g isFurnaceFilteringCraftable ()Z
+	METHOD h isBlastFurnaceGuiOpen ()Z
+	METHOD i isBlastFurnaceFilteringCraftable ()Z
+	METHOD j isSmokerGuiOpen ()Z
+	METHOD k isSmokerFilteringCraftable ()Z
+	CLASS a Purpose
+		FIELD a SHOWN Lrs$a;
+		FIELD b SETTINGS Lrs$a;
+		FIELD c $VALUES [Lrs$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lrs$a;
+		METHOD values values ()[Lrs$a;

@@ -1,0 +1,4 @@
+CLASS bhb net/minecraft/world/item/ComplexItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD V_ isComplex ()Z
+	METHOD a getUpdatePacket (Lbin;Lbnx;Lbch;)Lmz;

@@ -1,0 +1,11 @@
+CLASS ox net/minecraft/network/protocol/game/ClientboundPlaceGhostRecipePacket
+	FIELD a containerId I
+	FIELD b recipe Lts;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILbkw;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getRecipe ()Lts;
+	METHOD b write (Lmb;)V
+	METHOD c getContainerId ()I

@@ -1,0 +1,13 @@
+CLASS anw net/minecraft/world/entity/Pose
+	FIELD a STANDING Lanw;
+	FIELD b FALL_FLYING Lanw;
+	FIELD c SLEEPING Lanw;
+	FIELD d SWIMMING Lanw;
+	FIELD e SPIN_ATTACK Lanw;
+	FIELD f CROUCHING Lanw;
+	FIELD g DYING Lanw;
+	FIELD h $VALUES [Lanw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lanw;
+	METHOD values values ()[Lanw;

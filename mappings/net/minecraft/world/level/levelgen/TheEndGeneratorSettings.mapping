@@ -1,0 +1,6 @@
+CLASS cjk net/minecraft/world/level/levelgen/TheEndGeneratorSettings
+	FIELD a spawnPosition Lfo;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Random;)V
+	METHOD a setSpawnPosition (Lfo;)Lcjk;
+	METHOD v getSpawnPosition ()Lfo;

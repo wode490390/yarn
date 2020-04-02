@@ -1,0 +1,12 @@
+CLASS fq net/minecraft/core/BlockSourceImpl
+	FIELD a level Lbnx;
+	FIELD b pos Lfo;
+	METHOD <init> <init> (Lbnx;Lfo;)V
+	METHOD a x ()D
+	METHOD b y ()D
+	METHOD c z ()D
+	METHOD d getPos ()Lfo;
+	METHOD e getBlockState ()Lcdt;
+	METHOD f getMaterial ()Lcwr;
+	METHOD g getEntity ()Lcbt;
+	METHOD h getLevel ()Lbnx;

@@ -1,0 +1,10 @@
+CLASS arz net/minecraft/world/entity/ai/goal/BreathAirGoal
+	FIELD a mob Lant;
+	METHOD <init> <init> (Lant;)V
+	METHOD E_ isInterruptable ()Z
+	METHOD a canUse ()Z
+	METHOD a givesAir (Lboa;Lfo;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD e tick ()V
+	METHOD g findAirPosition ()V

@@ -1,0 +1,9 @@
+CLASS asb net/minecraft/world/entity/ai/goal/CatLieOnBedGoal
+	FIELD g cat Lawq;
+	METHOD <init> <init> (Lawq;DI)V
+	METHOD a canUse ()Z
+	METHOD a nextStartTick (Lant;)I
+	METHOD a isValidTarget (Lboa;Lfo;)Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

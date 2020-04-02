@@ -1,0 +1,15 @@
+CLASS bmz net/minecraft/world/item/trading/Merchant
+	METHOD a lambda$openTradingScreen$0 (ILbcg;Lbch;)Lbel;
+	METHOD a openTradingScreen (Lbch;Lml;I)V
+	METHOD a notifyTrade (Lbna;)V
+	METHOD a overrideOffers (Lbnb;)V
+	METHOD e setTradingPlayer (Lbch;)V
+	METHOD eA getVillagerXp ()I
+	METHOD eB getTradingPlayer ()Lbch;
+	METHOD eD getOffers ()Lbnb;
+	METHOD eE showProgressBar ()Z
+	METHOD eF getNotifyTradeSound ()Labr;
+	METHOD eK getLevel ()Lbnx;
+	METHOD eM canRestock ()Z
+	METHOD k notifyTradeUpdated (Lbin;)V
+	METHOD t overrideXp (I)V

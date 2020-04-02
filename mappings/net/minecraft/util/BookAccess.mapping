@@ -1,0 +1,24 @@
+CLASS aco net/minecraft/util/BookAccess
+	FIELD a EMPTY_ACCESS Laco;
+	METHOD <clinit> <clinit> ()V
+	METHOD a getPageCount ()I
+	METHOD a getPageRaw (I)Lml;
+	METHOD a fromItem (Lbin;)Laco;
+	METHOD a convertPages (Lkz;)Ljava/util/List;
+	METHOD b getPage (I)Lml;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getPageCount ()I
+		METHOD a getPageRaw (I)Lml;
+	CLASS a WritableBookAccess
+		FIELD b pages Ljava/util/List;
+		METHOD <init> <init> (Lbin;)V
+		METHOD a getPageCount ()I
+		METHOD a getPageRaw (I)Lml;
+		METHOD b readPages (Lbin;)Ljava/util/List;
+	CLASS b WrittenBookAccess
+		FIELD b pages Ljava/util/List;
+		METHOD <init> <init> (Lbin;)V
+		METHOD a getPageCount ()I
+		METHOD a getPageRaw (I)Lml;
+		METHOD b readPages (Lbin;)Ljava/util/List;

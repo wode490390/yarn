@@ -1,0 +1,6 @@
+CLASS cry net/minecraft/world/level/levelgen/placement/FrequencyDecoratorConfiguration
+	FIELD a count I
+	METHOD <init> <init> (I)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcry;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcry;

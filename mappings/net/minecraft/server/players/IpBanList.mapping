@@ -1,0 +1,7 @@
+CLASS aav net/minecraft/server/players/IpBanList
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a createEntry (Lcom/google/gson/JsonObject;)Labb;
+	METHOD a isBanned (Ljava/lang/String;)Z
+	METHOD a isBanned (Ljava/net/SocketAddress;)Z
+	METHOD b get (Ljava/net/SocketAddress;)Laaw;
+	METHOD c getIpFromAddress (Ljava/net/SocketAddress;)Ljava/lang/String;

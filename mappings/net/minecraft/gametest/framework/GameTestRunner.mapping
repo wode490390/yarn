@@ -1,0 +1,35 @@
+CLASS kf net/minecraft/gametest/framework/GameTestRunner
+	FIELD a TEST_REPORTER Lks;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$null$0 (Ljava/lang/String;)Ljava/util/Collection;
+	METHOD a lambda$say$6 (Ljava/lang/String;Li;Lyo;)V
+	METHOD a lambda$null$2 (Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicInteger;Ljava/util/Collection;Ljava/util/function/Consumer;Ljava/util/List;)Ljx;
+	METHOD a createBook (Ljava/lang/String;ZLjava/lang/String;)Lbin;
+	METHOD a lambda$createBook$4 (Ljava/lang/StringBuffer;Ljava/lang/String;)V
+	METHOD a groupTestsIntoBatches (Ljava/util/Collection;)Ljava/util/Collection;
+	METHOD a runTestBatches (Ljava/util/Collection;Lfo;Lyn;Lki;)Ljava/util/Collection;
+	METHOD a lambda$groupTestsIntoBatches$3 (Ljava/util/Map;Ljava/lang/String;)Ljava/util/stream/Stream;
+	METHOD a lambda$groupTestsIntoBatches$1 (Ljava/util/Map;Lkq;)V
+	METHOD a access$100 (Lkc;)V
+	METHOD a access$000 (Lkc;Lbtu;)V
+	METHOD a access$200 (Lkc;Ljava/lang/String;)V
+	METHOD a runTest (Lkc;Lki;)V
+	METHOD a clearMarkers (Lyn;)V
+	METHOD a lambda$clearAllTests$8 (Lyn;Lfo;)V
+	METHOD a showRedBox (Lyn;Lfo;Ljava/lang/String;)V
+	METHOD a clearAllTests (Lyn;Lfo;Lki;I)V
+	METHOD a say (Lyn;Li;Ljava/lang/String;)V
+	METHOD a lambda$say$5 (Lyo;)Z
+	METHOD b runTests (Ljava/util/Collection;Lfo;Lyn;Lki;)Ljava/util/Collection;
+	METHOD b access$300 (Lkc;)V
+	METHOD b spawnBeacon (Lkc;Lbtu;)V
+	METHOD b spawnLectern (Lkc;Ljava/lang/String;)V
+	METHOD b lambda$clearAllTests$7 (Lyn;Lfo;)Z
+	METHOD c visualizeFailedTest (Lkc;)V
+	METHOD d visualizePassedTest (Lkc;)V
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a testStructureLoaded (Lkc;)V
+		METHOD b testPassed (Lkc;)V
+		METHOD c testFailed (Lkc;)V

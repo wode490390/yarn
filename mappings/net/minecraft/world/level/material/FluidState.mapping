@@ -1,0 +1,24 @@
+CLASS cwn net/minecraft/world/level/material/FluidState
+	METHOD a is (Lacj;)Z
+	METHOD a getHeight (Lbnh;Lfo;)F
+	METHOD a canBeReplacedWith (Lbnh;Lfo;Lcwm;Lft;)Z
+	METHOD a tick (Lbnx;Lfo;)V
+	METHOD a animateTick (Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcwn;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;Lcwn;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Ljava/util/Map$Entry;)Lcom/mojang/datafixers/util/Pair;
+	METHOD b shouldRenderBackwardUpFace (Lbnh;Lfo;)Z
+	METHOD b randomTick (Lbnx;Lfo;Ljava/util/Random;)V
+	METHOD b lambda$deserialize$2 (Lcom/mojang/datafixers/Dynamic;)Ljava/lang/String;
+	METHOD c getType ()Lcwm;
+	METHOD c getFlow (Lbnh;Lfo;)Lddp;
+	METHOD c lambda$deserialize$1 (Lcom/mojang/datafixers/Dynamic;)Ljava/lang/String;
+	METHOD d isSource ()Z
+	METHOD d getShape (Lbnh;Lfo;)Ldej;
+	METHOD e isEmpty ()Z
+	METHOD f getOwnHeight ()F
+	METHOD g getAmount ()I
+	METHOD h isRandomlyTicking ()Z
+	METHOD i createLegacyBlock ()Lcdt;
+	METHOD j getDripParticle ()Lhb;
+	METHOD k getExplosionResistance ()F

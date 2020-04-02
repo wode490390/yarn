@@ -1,0 +1,16 @@
+CLASS aoh net/minecraft/world/entity/ai/attributes/BaseAttributeMap
+	FIELD a attributesByObject Ljava/util/Map;
+	FIELD b attributesByName Ljava/util/Map;
+	FIELD c descendantsByParent Lcom/google/common/collect/Multimap;
+	METHOD <init> <init> ()V
+	METHOD a getAttributes ()Ljava/util/Collection;
+	METHOD a getInstance (Laod;)Laoe;
+	METHOD a onAttributeModified (Laoe;)V
+	METHOD a assignValues (Laoh;)V
+	METHOD a lambda$assignValues$0 (Laoh;Laoe;)V
+	METHOD a removeAttributeModifiers (Lcom/google/common/collect/Multimap;)V
+	METHOD a getInstance (Ljava/lang/String;)Laoe;
+	METHOD b registerAttribute (Laod;)Laoe;
+	METHOD b addAttributeModifiers (Lcom/google/common/collect/Multimap;)V
+	METHOD c createAttributeInstance (Laod;)Laoe;
+	METHOD d getDescendants (Laod;)Ljava/util/Collection;

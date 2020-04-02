@@ -1,0 +1,9 @@
+CLASS cnx net/minecraft/world/level/levelgen/feature/configurations/ChanceRangeDecoratorConfiguration
+	FIELD a chance F
+	FIELD b bottomOffset I
+	FIELD c topOffset I
+	FIELD d top I
+	METHOD <init> <init> (FIII)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcnx;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcnx;

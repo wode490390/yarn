@@ -1,0 +1,18 @@
+CLASS bx net/minecraft/advancements/critereon/NetherTravelTrigger
+	FIELD a ID Lts;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lts;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lae;
+	METHOD a trigger (Lyo;Lddp;)V
+	METHOD a lambda$trigger$0 (Lyo;Lddp;Lbx$a;)Z
+	METHOD b access$000 ()Lts;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lbx$a;
+	CLASS a TriggerInstance
+		FIELD a entered Lbs;
+		FIELD b exited Lbs;
+		FIELD c distance Lav;
+		METHOD <init> <init> (Lbs;Lbs;Lav;)V
+		METHOD a travelledThroughNether (Lav;)Lbx$a;
+		METHOD a matches (Lyn;Lddp;DDD)Z
+		METHOD b serializeToJson ()Lcom/google/gson/JsonElement;

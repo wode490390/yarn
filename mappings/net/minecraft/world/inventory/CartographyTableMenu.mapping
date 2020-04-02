@@ -1,0 +1,46 @@
+CLASS ber net/minecraft/world/inventory/CartographyTableMenu
+	FIELD c container Lalo;
+	FIELD d access Lbev;
+	FIELD e quickMoved Z
+	FIELD f lastSoundTime J
+	FIELD g resultContainer Lbfu;
+	METHOD <init> <init> (ILbcg;)V
+	METHOD <init> <init> (ILbcg;Lbev;)V
+	METHOD a slotsChanged (Lalo;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD a lambda$removed$2 (Lbch;Lbnx;Lfo;)V
+	METHOD a access$000 (Lber;)J
+	METHOD a access$002 (Lber;J)J
+	METHOD a canTakeItemForPickAll (Lbin;Lbfz;)Z
+	METHOD a setupResultSlot (Lbin;Lbin;Lbin;)V
+	METHOD a lambda$setupResultSlot$0 (Lbin;Lbin;Lbin;Lbnx;Lfo;)V
+	METHOD a lambda$quickMoveStack$1 (Lbin;Lbnx;Lfo;)Lbin;
+	METHOD b removed (Lbch;)V
+	METHOD b quickMoveStack (Lbch;I)Lbin;
+	METHOD b access$100 (Lber;)Z
+	CLASS 1 1
+		FIELD a this$0 Lber;
+		METHOD <init> <init> (Lber;I)V
+		METHOD e setChanged ()V
+	CLASS 2 2
+		FIELD a this$0 Lber;
+		METHOD <init> <init> (Lber;)V
+		METHOD e setChanged ()V
+	CLASS 3 3
+		FIELD a this$0 Lber;
+		METHOD <init> <init> (Lber;Lalo;III)V
+		METHOD a mayPlace (Lbin;)Z
+	CLASS 4 4
+		FIELD a this$0 Lber;
+		METHOD <init> <init> (Lber;Lalo;III)V
+		METHOD a mayPlace (Lbin;)Z
+	CLASS 5 5
+		FIELD a val$access Lbev;
+		FIELD b this$0 Lber;
+		METHOD <init> <init> (Lber;Lalo;IIILbev;)V
+		METHOD a remove (I)Lbin;
+		METHOD a onTake (Lbch;Lbin;)Lbin;
+		METHOD a mayPlace (Lbin;)Z
+		METHOD a onQuickCraft (Lbin;I)V
+		METHOD a lambda$remove$0 (Lbin;Lbnx;Lfo;)Lbin;
+		METHOD a lambda$onTake$1 (Lbnx;Lfo;)V

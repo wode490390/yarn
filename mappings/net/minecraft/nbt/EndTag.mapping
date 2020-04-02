@@ -1,3 +1,19 @@
-CLASS net/minecraft/class_2491 net/minecraft/nbt/EndTag
-	FIELD field_21032 READER Lnet/minecraft/class_4614;
-	FIELD field_21033 INSTANCE Lnet/minecraft/class_2491;
+CLASS lb net/minecraft/nbt/EndTag
+	FIELD a TYPE Llr;
+	FIELD b INSTANCE Llb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()B
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a getPrettyDisplay (Ljava/lang/String;I)Lml;
+	METHOD b getType ()Llr;
+	METHOD c copy ()Llp;
+	METHOD d copy ()Llb;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a load (Ljava/io/DataInput;ILli;)Llb;
+		METHOD b getPrettyName ()Ljava/lang/String;
+		METHOD b load (Ljava/io/DataInput;ILli;)Llp;
+		METHOD c isValue ()Z

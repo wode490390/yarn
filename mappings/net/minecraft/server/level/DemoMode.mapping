@@ -1,0 +1,11 @@
+CLASS ye net/minecraft/server/level/DemoMode
+	FIELD c displayedIntro Z
+	FIELD d demoHasEnded Z
+	FIELD e demoEndedReminder I
+	FIELD f gameModeTicks I
+	METHOD <init> <init> (Lyn;)V
+	METHOD a tick ()V
+	METHOD a useItem (Lbch;Lbnx;Lbin;Lalu;)Lalv;
+	METHOD a useItemOn (Lbch;Lbnx;Lbin;Lalu;Lddk;)Lalv;
+	METHOD a handleBlockBreakAction (Lfo;Lrp$a;Lft;I)V
+	METHOD e outputDemoReminder ()V

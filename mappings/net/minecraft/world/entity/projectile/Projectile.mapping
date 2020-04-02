@@ -1,0 +1,13 @@
+CLASS bcw net/minecraft/world/entity/projectile/Projectile
+	FIELD b ownerUUID Ljava/util/UUID;
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD a setOwner (Lanb;)V
+	METHOD a shootFromRotation (Lanb;FFFFF)V
+	METHOD a onHitBlock (Lddk;)V
+	METHOD a onHitEntity (Lddl;)V
+	METHOD a onHit (Lddm;)V
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD c shoot (DDDFF)V
+	METHOD j lerpMotion (DDD)V
+	METHOD w getOwner ()Lanb;

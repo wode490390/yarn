@@ -1,0 +1,24 @@
+CLASS cti net/minecraft/world/level/levelgen/structure/OceanRuinFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getStartFactory ()Lcna$a;
+	METHOD a getSpacing (Lcfl;)I
+	METHOD b getFeatureName ()Ljava/lang/String;
+	METHOD b getSeparation (Lcfl;)I
+	METHOD c getLookupRange ()I
+	METHOD d getRandomSalt ()I
+	CLASS a OceanRuinStart
+		METHOD <init> <init> (Lcna;IILcsw;IJ)V
+		METHOD a generatePieces (Lcfl;Lcuq;IILboy;)V
+	CLASS b Type
+		FIELD a WARM Lcti$b;
+		FIELD b COLD Lcti$b;
+		FIELD c BY_NAME Ljava/util/Map;
+		FIELD d name Ljava/lang/String;
+		FIELD e $VALUES [Lcti$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a lambda$static$0 (Lcti$b;)Lcti$b;
+		METHOD a byName (Ljava/lang/String;)Lcti$b;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcti$b;
+		METHOD values values ()[Lcti$b;

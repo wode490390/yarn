@@ -1,0 +1,23 @@
+CLASS bey net/minecraft/world/inventory/CraftingMenu
+	FIELD c craftSlots Lbex;
+	FIELD d resultSlots Lbfu;
+	FIELD e access Lbev;
+	FIELD f player Lbch;
+	METHOD <init> <init> (ILbcg;)V
+	METHOD <init> <init> (ILbcg;Lbev;)V
+	METHOD a slotChangedCraftingGrid (ILbnx;Lbch;Lbex;Lbfu;)V
+	METHOD a slotsChanged (Lalo;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD a lambda$removed$1 (Lbch;Lbnx;Lfo;)V
+	METHOD a fillCraftSlotsStackedContents (Lbcj;)V
+	METHOD a lambda$quickMoveStack$2 (Lbin;Lbch;Lbnx;Lfo;)V
+	METHOD a canTakeItemForPickAll (Lbin;Lbfz;)Z
+	METHOD a recipeMatches (Lbkw;)Z
+	METHOD a lambda$slotsChanged$0 (Lbnx;Lfo;)V
+	METHOD b removed (Lbch;)V
+	METHOD b quickMoveStack (Lbch;I)Lbin;
+	METHOD e clearCraftingContent ()V
+	METHOD f getResultSlotIndex ()I
+	METHOD g getGridWidth ()I
+	METHOD h getGridHeight ()I
+	METHOD i getSize ()I

@@ -1,0 +1,13 @@
+CLASS cah net/minecraft/world/level/block/TargetBlock
+	FIELD a OUTPUT_POWER Lcet;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a onProjectileHit (Lbnx;Lcdt;Lddk;Lbcw;)V
+	METHOD a setOutputPower (Lbny;Lcdt;ILfo;I)V
+	METHOD a updateRedstoneOutput (Lbny;Lcdt;Lddk;Lanb;)I
+	METHOD a getSignal (Lcdt;Lbnh;Lfo;Lft;)I
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD a getRedstoneStrength (Lddk;Lddp;)I
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD b_ isSignalSource (Lcdt;)Z

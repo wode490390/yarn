@@ -1,0 +1,21 @@
+CLASS ys net/minecraft/server/level/TicketType
+	FIELD a START Lys;
+	FIELD b DRAGON Lys;
+	FIELD c PLAYER Lys;
+	FIELD d FORCED Lys;
+	FIELD e LIGHT Lys;
+	FIELD f PORTAL Lys;
+	FIELD g POST_TELEPORT Lys;
+	FIELD h UNKNOWN Lys;
+	FIELD i name Ljava/lang/String;
+	FIELD j comparator Ljava/util/Comparator;
+	FIELD k timeout J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;Ljava/util/Comparator;J)V
+	METHOD a getComparator ()Ljava/util/Comparator;
+	METHOD a lambda$static$1 (Ladn;Ladn;)I
+	METHOD a create (Ljava/lang/String;Ljava/util/Comparator;)Lys;
+	METHOD a create (Ljava/lang/String;Ljava/util/Comparator;I)Lys;
+	METHOD b timeout ()J
+	METHOD b lambda$static$0 (Ladn;Ladn;)I
+	METHOD toString toString ()Ljava/lang/String;

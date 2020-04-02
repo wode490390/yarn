@@ -1,0 +1,11 @@
+CLASS agl net/minecraft/util/datafix/fixes/ItemIdFix
+	FIELD a ITEM_NAMES Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a getItem (I)Ljava/lang/String;
+	METHOD a lambda$makeRule$4 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$3 (Lcom/mojang/datafixers/util/Either;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$2 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$static$0 (Lit/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap;)V
+	METHOD a lambda$null$1 (Ljava/lang/Integer;)Lcom/mojang/datafixers/util/Pair;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

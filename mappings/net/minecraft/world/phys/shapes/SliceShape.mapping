@@ -1,0 +1,8 @@
+CLASS deh net/minecraft/world/phys/shapes/SliceShape
+	FIELD b delegate Ldej;
+	FIELD c axis Lft$a;
+	FIELD d SLICE_COORDS Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldej;Lft$a;I)V
+	METHOD a makeSlice (Lddy;Lft$a;I)Lddy;
+	METHOD a getCoords (Lft$a;)Lit/unimi/dsi/fastutil/doubles/DoubleList;

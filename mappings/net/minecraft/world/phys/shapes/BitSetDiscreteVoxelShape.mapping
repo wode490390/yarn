@@ -1,0 +1,23 @@
+CLASS dds net/minecraft/world/phys/shapes/BitSetDiscreteVoxelShape
+	FIELD d storage Ljava/util/BitSet;
+	FIELD e xMin I
+	FIELD f yMin I
+	FIELD g zMin I
+	FIELD h xMax I
+	FIELD i yMax I
+	FIELD j zMax I
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (IIIIIIIII)V
+	METHOD <init> <init> (Lddy;)V
+	METHOD a isEmpty ()Z
+	METHOD a getIndex (III)I
+	METHOD a isZStripFull (IIII)Z
+	METHOD a setZStrip (IIIIZ)V
+	METHOD a setFull (IIIZZ)V
+	METHOD a lambda$null$0 (Lddt;Lddy;IILddy;IILdds;II[I[ZIII)Z
+	METHOD a join (Lddy;Lddy;Ldeb;Ldeb;Ldeb;Lddt;)Ldds;
+	METHOD a lambda$null$1 (Ldeb;Lddt;Lddy;ILddy;ILdds;I[I[ZIII)Z
+	METHOD a lambda$join$2 (Ldeb;Ldeb;Lddt;Lddy;Lddy;Ldds;[IIII)Z
+	METHOD a firstFull (Lft$a;)I
+	METHOD b isFull (III)Z
+	METHOD b lastFull (Lft$a;)I

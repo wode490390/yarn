@@ -1,0 +1,13 @@
+CLASS dap net/minecraft/world/level/storage/loot/entries/EntryGroup
+	METHOD <init> <init> ([Ldat;[Ldcq;)V
+	METHOD a lambda$compose$0 (Ldal;Ldal;Ldaa;Ljava/util/function/Consumer;)Z
+	METHOD a compose ([Ldal;)Ldal;
+	METHOD a lambda$compose$1 ([Ldal;Ldaa;Ljava/util/function/Consumer;)Z
+	METHOD a list ([Ldat$a;)Ldap$a;
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		METHOD <init> <init> ([Ldat$a;)V
+		METHOD a getThis ()Ldap$a;
+		METHOD b build ()Ldat;
+		METHOD b append (Ldat$a;)Ldap$a;
+		METHOD d getThis ()Ldat$a;

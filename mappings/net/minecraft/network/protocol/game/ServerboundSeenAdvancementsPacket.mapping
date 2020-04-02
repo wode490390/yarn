@@ -1,0 +1,21 @@
+CLASS rv net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket
+	FIELD a action Lrv$a;
+	FIELD b tab Lts;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lrv$a;Lts;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD a openedTab (Lw;)Lrv;
+	METHOD b closedScreen ()Lrv;
+	METHOD b write (Lmb;)V
+	METHOD c getAction ()Lrv$a;
+	METHOD d getTab ()Lts;
+	CLASS a Action
+		FIELD a OPENED_TAB Lrv$a;
+		FIELD b CLOSED_SCREEN Lrv$a;
+		FIELD c $VALUES [Lrv$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lrv$a;
+		METHOD values values ()[Lrv$a;

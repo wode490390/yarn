@@ -1,0 +1,14 @@
+CLASS bfk net/minecraft/world/inventory/LecternMenu
+	FIELD c lectern Lalo;
+	FIELD d lecternData Lbeu;
+	METHOD <init> <init> (I)V
+	METHOD <init> <init> (ILalo;Lbeu;)V
+	METHOD a setData (II)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD a clickMenuButton (Lbch;I)Z
+	METHOD e getBook ()Lbin;
+	METHOD f getPage ()I
+	CLASS 1 1
+		FIELD a this$0 Lbfk;
+		METHOD <init> <init> (Lbfk;Lalo;III)V
+		METHOD d setChanged ()V

@@ -1,0 +1,6 @@
+CLASS bzm net/minecraft/world/level/block/SoulFireBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD b canSurviveOnBlock (Lbtu;)Z
+	METHOD e canBurn (Lcdt;)Z

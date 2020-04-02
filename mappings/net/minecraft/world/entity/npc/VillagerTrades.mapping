@@ -1,0 +1,100 @@
+CLASS bby net/minecraft/world/entity/npc/VillagerTrades
+	FIELD a TRADES Ljava/util/Map;
+	FIELD b WANDERING_TRADER_TRADES Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a toIntMap (Lcom/google/common/collect/ImmutableMap;)Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V
+	CLASS a DyedArmorForEmeralds
+		FIELD a item Lbii;
+		FIELD b value I
+		FIELD c maxUses I
+		FIELD d villagerXp I
+		METHOD <init> <init> (Lbii;I)V
+		METHOD <init> <init> (Lbii;III)V
+		METHOD a getOffer (Lanb;Ljava/util/Random;)Lbna;
+		METHOD a getRandomDye (Ljava/util/Random;)Lbhj;
+	CLASS b EmeraldForItems
+		FIELD a item Lbii;
+		FIELD b cost I
+		FIELD c maxUses I
+		FIELD d villagerXp I
+		FIELD e priceMultiplier F
+		METHOD <init> <init> (Lbnw;III)V
+		METHOD a getOffer (Lanb;Ljava/util/Random;)Lbna;
+	CLASS c EmeraldsForVillagerTypeItem
+		FIELD a trades Ljava/util/Map;
+		FIELD b cost I
+		FIELD c maxUses I
+		FIELD d villagerXp I
+		METHOD <init> <init> (IIILjava/util/Map;)V
+		METHOD a getOffer (Lanb;Ljava/util/Random;)Lbna;
+		METHOD a lambda$new$1 (Lbbz;)V
+		METHOD a lambda$new$0 (Ljava/util/Map;Lbbz;)Z
+	CLASS d EnchantBookForEmeralds
+		FIELD a villagerXp I
+		METHOD <init> <init> (I)V
+		METHOD a getOffer (Lanb;Ljava/util/Random;)Lbna;
+	CLASS e EnchantedItemForEmeralds
+		FIELD a itemStack Lbin;
+		FIELD b baseEmeraldCost I
+		FIELD c maxUses I
+		FIELD d villagerXp I
+		FIELD e priceMultiplier F
+		METHOD <init> <init> (Lbii;III)V
+		METHOD <init> <init> (Lbii;IIIF)V
+		METHOD a getOffer (Lanb;Ljava/util/Random;)Lbna;
+	CLASS f ItemListing
+		METHOD a getOffer (Lanb;Ljava/util/Random;)Lbna;
+	CLASS g ItemsAndEmeraldsToItems
+		FIELD a fromItem Lbin;
+		FIELD b fromCount I
+		FIELD c emeraldCost I
+		FIELD d toItem Lbin;
+		FIELD e toCount I
+		FIELD f maxUses I
+		FIELD g villagerXp I
+		FIELD h priceMultiplier F
+		METHOD <init> <init> (Lbnw;IILbii;III)V
+		METHOD <init> <init> (Lbnw;ILbii;III)V
+		METHOD a getOffer (Lanb;Ljava/util/Random;)Lbna;
+	CLASS h ItemsForEmeralds
+		FIELD a itemStack Lbin;
+		FIELD b emeraldCost I
+		FIELD c numberOfItems I
+		FIELD d maxUses I
+		FIELD e villagerXp I
+		FIELD f priceMultiplier F
+		METHOD <init> <init> (Lbii;III)V
+		METHOD <init> <init> (Lbii;IIII)V
+		METHOD <init> <init> (Lbin;IIII)V
+		METHOD <init> <init> (Lbin;IIIIF)V
+		METHOD <init> <init> (Lbtu;IIII)V
+		METHOD a getOffer (Lanb;Ljava/util/Random;)Lbna;
+	CLASS i SuspisciousStewForEmerald
+		FIELD a effect Lamt;
+		FIELD b duration I
+		FIELD c xp I
+		FIELD d priceMultiplier F
+		METHOD <init> <init> (Lamt;II)V
+		METHOD a getOffer (Lanb;Ljava/util/Random;)Lbna;
+	CLASS j TippedArrowForItemsAndEmeralds
+		FIELD a toItem Lbin;
+		FIELD b toCount I
+		FIELD c emeraldCost I
+		FIELD d maxUses I
+		FIELD e villagerXp I
+		FIELD f fromItem Lbii;
+		FIELD g fromCount I
+		FIELD h priceMultiplier F
+		METHOD <init> <init> (Lbii;ILbii;IIII)V
+		METHOD a getOffer (Lanb;Ljava/util/Random;)Lbna;
+		METHOD a lambda$getOffer$0 (Lbkd;)Z
+	CLASS k TreasureMapForEmeralds
+		FIELD a emeraldCost I
+		FIELD b destination Ljava/lang/String;
+		FIELD c destinationType Lczg$a;
+		FIELD d maxUses I
+		FIELD e villagerXp I
+		METHOD <init> <init> (ILjava/lang/String;Lczg$a;II)V
+		METHOD a getOffer (Lanb;Ljava/util/Random;)Lbna;

@@ -1,0 +1,13 @@
+CLASS ov net/minecraft/network/protocol/game/ClientboundOpenScreenPacket
+	FIELD a containerId I
+	FIELD b type I
+	FIELD c title Lml;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILbfn;Lml;)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getContainerId ()I
+	METHOD b write (Lmb;)V
+	METHOD c getType ()Lbfn;
+	METHOD d getTitle ()Lml;

@@ -1,0 +1,9 @@
+CLASS cz net/minecraft/commands/arguments/CompoundTagArgument
+	FIELD a EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a compoundTag ()Lcz;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lkz;
+	METHOD a getCompoundTag (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lkz;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

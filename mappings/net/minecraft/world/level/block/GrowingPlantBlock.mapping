@@ -1,0 +1,10 @@
+CLASS bwm net/minecraft/world/level/block/GrowingPlantBlock
+	FIELD a growthDirection Lft;
+	FIELD b scheduleFluidTicks Z
+	FIELD c shape Ldej;
+	METHOD <init> <init> (Lcds$c;Lft;Ldej;Z)V
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD b canAttachToBlock (Lbtu;)Z
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD d getHeadBlock ()Lbwo;
+	METHOD e getBodyBlock ()Lbtu;

@@ -1,0 +1,4 @@
+CLASS bxm net/minecraft/world/level/block/MelonBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD d getStem ()Lbzw;
+	METHOD e getAttachedStem ()Lbsz;

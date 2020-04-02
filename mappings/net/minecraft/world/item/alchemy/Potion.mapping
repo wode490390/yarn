@@ -1,0 +1,9 @@
+CLASS bkd net/minecraft/world/item/alchemy/Potion
+	FIELD a name Ljava/lang/String;
+	FIELD b effects Lcom/google/common/collect/ImmutableList;
+	METHOD <init> <init> (Ljava/lang/String;[Lamv;)V
+	METHOD <init> <init> ([Lamv;)V
+	METHOD a getEffects ()Ljava/util/List;
+	METHOD a byName (Ljava/lang/String;)Lbkd;
+	METHOD b hasInstantEffects ()Z
+	METHOD b getName (Ljava/lang/String;)Ljava/lang/String;

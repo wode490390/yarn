@@ -1,0 +1,12 @@
+CLASS ayi net/minecraft/world/entity/boss/enderdragon/phases/DragonChargePlayerPhase
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c targetLocation Lddp;
+	FIELD d timeSinceCharge I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laye;)V
+	METHOD a setTarget (Lddp;)V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD f getFlySpeed ()F
+	METHOD g getFlyTargetLocation ()Lddp;
+	METHOD i getPhase ()Layu;

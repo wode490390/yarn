@@ -1,0 +1,2 @@
+CLASS bnm net/minecraft/world/level/CustomSpawner
+	METHOD a tick (Lyn;ZZ)I

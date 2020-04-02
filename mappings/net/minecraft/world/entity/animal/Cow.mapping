@@ -1,0 +1,13 @@
+CLASS awt net/minecraft/world/entity/animal/Cow
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD I getAmbientSound ()Labr;
+	METHOD a getBreedOffspring (Lamz;)Lamz;
+	METHOD a playStepSound (Lfo;Lcdt;)V
+	METHOD b getBreedOffspring (Lamz;)Lawt;
+	METHOD b getStandingEyeHeight (Lanw;Lanc;)F
+	METHOD b mobInteract (Lbch;Lalu;)Z
+	METHOD cF registerAttributes ()V
+	METHOD dd getDeathSound ()Labr;
+	METHOD dt getSoundVolume ()F
+	METHOD e getHurtSound (Laml;)Labr;
+	METHOD o registerGoals ()V

@@ -1,0 +1,14 @@
+CLASS ala net/minecraft/util/profiling/SingleTickProfiler
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b realTime Ljava/util/function/LongSupplier;
+	FIELD c saveThreshold J
+	FIELD d tick I
+	FIELD e location Ljava/io/File;
+	FIELD f profiler Lakv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/LongSupplier;Ljava/lang/String;J)V
+	METHOD a startTick ()Lakx;
+	METHOD a decorateFiller (Lakx;Lala;)Lakx;
+	METHOD a createTickProfiler (Ljava/lang/String;)Lala;
+	METHOD b endTick ()V
+	METHOD c lambda$startTick$0 ()I

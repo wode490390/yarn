@@ -1,0 +1,12 @@
+CLASS adf net/minecraft/util/RewindableStream
+	FIELD a cache Ljava/util/List;
+	FIELD b source Ljava/util/Spliterator;
+	METHOD <init> <init> (Ljava/util/stream/Stream;)V
+	METHOD a getStream ()Ljava/util/stream/Stream;
+	METHOD a access$000 (Ladf;)Ljava/util/List;
+	METHOD b access$100 (Ladf;)Ljava/util/Spliterator;
+	CLASS 1 1
+		FIELD a this$0 Ladf;
+		FIELD b index I
+		METHOD <init> <init> (Ladf;JI)V
+		METHOD tryAdvance tryAdvance (Ljava/util/function/Consumer;)Z

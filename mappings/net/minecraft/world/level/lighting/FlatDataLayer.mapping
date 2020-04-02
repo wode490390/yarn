@@ -1,0 +1,5 @@
+CLASS cwa net/minecraft/world/level/lighting/FlatDataLayer
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lcfq;I)V
+	METHOD a getData ()[B
+	METHOD b getIndex (III)I

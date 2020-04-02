@@ -1,0 +1,17 @@
+CLASS uf net/minecraft/server/ServerInterface
+	METHOD E getServerVersion ()Ljava/lang/String;
+	METHOD F getPlayerCount ()I
+	METHOD G getMaxPlayers ()I
+	METHOD H getPlayerNames ()[Ljava/lang/String;
+	METHOD J isDebugging ()Z
+	METHOD P getLevelIdName ()Ljava/lang/String;
+	METHOD a_ runCommand (Ljava/lang/String;)Ljava/lang/String;
+	METHOD d_ getProperties ()Lxo;
+	METHOD e info (Ljava/lang/String;)V
+	METHOD e_ getServerIp ()Ljava/lang/String;
+	METHOD f warn (Ljava/lang/String;)V
+	METHOD f_ getServerName ()Ljava/lang/String;
+	METHOD g error (Ljava/lang/String;)V
+	METHOD h debug (Ljava/lang/String;)V
+	METHOD r getServerPort ()I
+	METHOD u getPluginNames ()Ljava/lang/String;

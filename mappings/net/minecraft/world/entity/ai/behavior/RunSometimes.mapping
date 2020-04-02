@@ -1,0 +1,16 @@
+CLASS aqd net/minecraft/world/entity/ai/behavior/RunSometimes
+	FIELD b resetTicks Z
+	FIELD c wasRunning Z
+	FIELD d interval Lacy;
+	FIELD e wrappedBehavior Laor;
+	FIELD f ticksUntilNextStart I
+	METHOD <init> <init> (Laor;Lacy;)V
+	METHOD <init> <init> (Laor;ZLacy;)V
+	METHOD a timedOut (J)Z
+	METHOD a resetTicksUntilNextStart (Lyn;)V
+	METHOD a checkExtraStartConditions (Lyn;Lanm;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD b canStillUse (Lyn;Lanm;J)Z
+	METHOD c stop (Lyn;Lanm;J)V
+	METHOD d tick (Lyn;Lanm;J)V
+	METHOD toString toString ()Ljava/lang/String;

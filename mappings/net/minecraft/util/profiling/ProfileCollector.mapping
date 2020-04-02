@@ -1,0 +1,2 @@
+CLASS akv net/minecraft/util/profiling/ProfileCollector
+	METHOD d getResults ()Lakw;

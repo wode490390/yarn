@@ -1,0 +1,20 @@
+CLASS cco net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity
+	FIELD g lootTable Lts;
+	FIELD h lootTableSeed J
+	METHOD <init> <init> (Lcbu;)V
+	METHOD R_ clearContent ()V
+	METHOD a getItem (I)Lbin;
+	METHOD a removeItem (II)Lbin;
+	METHOD a setItem (ILbin;)V
+	METHOD a stillValid (Lbch;)Z
+	METHOD a setLootTable (Lbnh;Ljava/util/Random;Lfo;Lts;)V
+	METHOD a setItems (Lge;)V
+	METHOD a setLootTable (Lts;J)V
+	METHOD b removeItemNoUpdate (I)Lbin;
+	METHOD b tryLoadLootTable (Lkz;)Z
+	METHOD c isEmpty ()Z
+	METHOD c trySaveLootTable (Lkz;)Z
+	METHOD createMenu createMenu (ILbcg;Lbch;)Lbel;
+	METHOD d unpackLootTable (Lbch;)V
+	METHOD e canOpen (Lbch;)Z
+	METHOD f getItems ()Lge;

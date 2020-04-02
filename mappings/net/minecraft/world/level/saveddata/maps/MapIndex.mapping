@@ -1,0 +1,6 @@
+CLASS czi net/minecraft/world/level/saveddata/maps/MapIndex
+	FIELD a usedAuxIds Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD <init> <init> ()V
+	METHOD a getFreeAuxValueForMap ()I
+	METHOD a load (Lkz;)V
+	METHOD b save (Lkz;)Lkz;

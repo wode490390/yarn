@@ -1,0 +1,8 @@
+CLASS hc net/minecraft/core/particles/ParticleType
+	FIELD a overrideLimiter Z
+	FIELD b deserializer Lhb$a;
+	FIELD c randomOptionProvider Ljava/util/function/BiFunction;
+	METHOD <init> <init> (ZLhb$a;Ljava/util/function/BiFunction;)V
+	METHOD a getRandom (Ljava/util/Random;)Lhb;
+	METHOD c getOverrideLimiter ()Z
+	METHOD d getDeserializer ()Lhb$a;

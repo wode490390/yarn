@@ -1,0 +1,7 @@
+CLASS cbz net/minecraft/world/level/block/entity/ComparatorBlockEntity
+	FIELD a output I
+	METHOD <init> <init> ()V
+	METHOD a setOutputSignal (I)V
+	METHOD a load (Lcdt;Lkz;)V
+	METHOD a save (Lkz;)Lkz;
+	METHOD d getOutputSignal ()I

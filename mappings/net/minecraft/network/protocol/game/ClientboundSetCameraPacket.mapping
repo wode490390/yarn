@@ -1,0 +1,9 @@
+CLASS pl net/minecraft/network/protocol/game/ClientboundSetCameraPacket
+	FIELD a cameraId I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lanb;)V
+	METHOD a getEntity (Lbnx;)Lanb;
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b write (Lmb;)V

@@ -1,0 +1,9 @@
+CLASS bco net/minecraft/world/entity/projectile/DragonFireball
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDDDDD)V
+	METHOD <init> <init> (Lbnx;Lanm;DDD)V
+	METHOD Q_ shouldBurn ()Z
+	METHOD a hurt (Laml;F)Z
+	METHOD a onHit (Lddm;)V
+	METHOD aQ isPickable ()Z
+	METHOD i getTrailParticle ()Lhb;

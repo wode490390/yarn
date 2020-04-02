@@ -1,0 +1,3 @@
+CLASS adl net/minecraft/util/TimeUtil
+	METHOD <init> <init> ()V
+	METHOD a rangeOfSeconds (II)Lacy;

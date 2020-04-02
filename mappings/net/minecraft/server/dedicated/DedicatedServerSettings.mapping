@@ -1,0 +1,7 @@
+CLASS xp net/minecraft/server/dedicated/DedicatedServerSettings
+	FIELD a source Ljava/nio/file/Path;
+	FIELD b properties Lxo;
+	METHOD <init> <init> (Ljava/nio/file/Path;)V
+	METHOD a getProperties ()Lxo;
+	METHOD a update (Ljava/util/function/UnaryOperator;)Lxp;
+	METHOD b forceSave ()V

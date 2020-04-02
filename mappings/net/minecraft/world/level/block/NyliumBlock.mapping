@@ -1,0 +1,7 @@
+CLASS bxx net/minecraft/world/level/block/NyliumBlock
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a isValidBonemealTarget (Lbnh;Lfo;Lcdt;Z)Z
+	METHOD a isBonemealSuccess (Lbnx;Ljava/util/Random;Lfo;Lcdt;)Z
+	METHOD a performBonemeal (Lyn;Ljava/util/Random;Lfo;Lcdt;)V
+	METHOD b canBeNylium (Lcdt;Lboa;Lfo;)Z
+	METHOD b randomTick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V

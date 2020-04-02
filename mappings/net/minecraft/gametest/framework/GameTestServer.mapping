@@ -1,0 +1,33 @@
+CLASS kh net/minecraft/gametest/framework/GameTestServer
+	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD i testBatches Ljava/util/List;
+	FIELD j spawnPos Lfo;
+	FIELD k testTracker Lkl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;Ljava/lang/String;Ljava/util/Collection;Lfo;)V
+	METHOD I_ shouldInformAdmins ()Z
+	METHOD a publishServer (Lbnu;ZI)Z
+	METHOD a isSingleplayerOwner (Lcom/mojang/authlib/GameProfile;)Z
+	METHOD a onServerCrash (Lj;)V
+	METHOD a tickServer (Ljava/util/function/BooleanSupplier;)V
+	METHOD a lambda$tickServer$1 (Lkc;)V
+	METHOD b lambda$tickServer$0 (Lkc;)V
+	METHOD b startTests (Lyn;)V
+	METHOD bb haveTestsStarted ()Z
+	METHOD d initServer ()Z
+	METHOD e onServerExit ()V
+	METHOD f canGenerateStructures ()Z
+	METHOD g getDefaultGameType ()Lbnu;
+	METHOD h getDefaultDifficulty ()Lals;
+	METHOD i isHardcore ()Z
+	METHOD j getOperatorUserPermissionLevel ()I
+	METHOD k getFunctionCompilationLevel ()I
+	METHOD l shouldRconBroadcast ()Z
+	METHOD m isDedicatedServer ()Z
+	METHOD n isEpollEnabled ()Z
+	METHOD o isCommandBlockEnabled ()Z
+	METHOD p isPublished ()Z
+	METHOD q getModdedStatus ()Ljava/util/Optional;
+	CLASS 1 1
+		FIELD a this$0 Lkh;
+		METHOD <init> <init> (Lkh;Lnet/minecraft/server/MinecraftServer;I)V

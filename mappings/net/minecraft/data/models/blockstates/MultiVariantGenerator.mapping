@@ -1,0 +1,21 @@
+CLASS ij net/minecraft/data/models/blockstates/MultiVariantGenerator
+	FIELD a block Lbtu;
+	FIELD b baseVariants Ljava/util/List;
+	FIELD c seenProperties Ljava/util/Set;
+	FIELD d declaredPropertySets Ljava/util/List;
+	METHOD <init> <init> (Lbtu;Ljava/util/List;)V
+	METHOD a getBlock ()Lbtu;
+	METHOD a multiVariant (Lbtu;)Lij;
+	METHOD a multiVariant (Lbtu;Lin;)Lij;
+	METHOD a multiVariant (Lbtu;[Lin;)Lij;
+	METHOD a lambda$with$0 (Lcew;)V
+	METHOD a lambda$null$5 (Lcom/google/common/collect/ImmutableList$Builder;Lin;Lin;)V
+	METHOD a lambda$null$1 (Lcom/mojang/datafixers/util/Pair;Ljava/util/Map$Entry;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a with (Lik;)Lij;
+	METHOD a lambda$mergeVariants$6 (Ljava/util/List;Lcom/google/common/collect/ImmutableList$Builder;Lin;)V
+	METHOD a mergeVariants (Ljava/util/List;Ljava/util/List;)Ljava/util/List;
+	METHOD a lambda$get$4 (Ljava/util/Map;Lcom/google/gson/JsonObject;)V
+	METHOD a lambda$get$3 (Ljava/util/Map;Lcom/mojang/datafixers/util/Pair;)V
+	METHOD b get ()Lcom/google/gson/JsonElement;
+	METHOD b lambda$get$2 (Ljava/util/Map;Lcom/mojang/datafixers/util/Pair;)Ljava/util/stream/Stream;
+	METHOD get get ()Ljava/lang/Object;

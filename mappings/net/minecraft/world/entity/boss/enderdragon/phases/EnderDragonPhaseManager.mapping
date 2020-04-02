@@ -1,0 +1,10 @@
+CLASS ayv net/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhaseManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b dragon Laye;
+	FIELD c phases [Layo;
+	FIELD d currentPhase Layo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laye;)V
+	METHOD a getCurrentPhase ()Layo;
+	METHOD a setPhase (Layu;)V
+	METHOD b getPhase (Layu;)Layo;

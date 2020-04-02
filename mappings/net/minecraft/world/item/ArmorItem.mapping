@@ -1,0 +1,22 @@
+CLASS bgg net/minecraft/world/item/ArmorItem
+	FIELD a DISPENSE_ITEM_BEHAVIOR Lgt;
+	FIELD b slot Lang;
+	FIELD c defense I
+	FIELD d toughness F
+	FIELD e knockbackResistance F
+	FIELD f material Lbgh;
+	FIELD l ARMOR_MODIFIER_UUID_PER_SLOT [Ljava/util/UUID;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbgh;Lang;Lbii$a;)V
+	METHOD U_ getMaterial ()Lbgh;
+	METHOD a getDefaultAttributeModifiers (Lang;)Lcom/google/common/collect/Multimap;
+	METHOD a isValidRepairItem (Lbin;Lbin;)Z
+	METHOD a use (Lbnx;Lbch;Lalu;)Lalw;
+	METHOD a dispenseArmor (Lfp;Lbin;)Z
+	METHOD b getSlot ()Lang;
+	METHOD c getEnchantmentValue ()I
+	METHOD e getDefense ()I
+	METHOD f getToughness ()F
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a execute (Lfp;Lbin;)Lbin;

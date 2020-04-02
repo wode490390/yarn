@@ -1,0 +1,28 @@
+CLASS aoa net/minecraft/world/entity/SpawnPlacements
+	FIELD a DATA_BY_TYPE Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getPlacementType (Lanf;)Laoa$c;
+	METHOD a register (Lanf;Laoa$c;Lcjc$a;Laoa$b;)V
+	METHOD a checkSpawnRules (Lanf;Lbny;Lanp;Lfo;Ljava/util/Random;)Z
+	METHOD b getHeightmapType (Lanf;)Lcjc$a;
+	CLASS a Data
+		FIELD a heightMap Lcjc$a;
+		FIELD b placement Laoa$c;
+		FIELD c predicate Laoa$b;
+		METHOD <init> <init> (Lcjc$a;Laoa$c;Laoa$b;)V
+		METHOD a access$000 (Laoa$a;)Laoa$c;
+		METHOD b access$100 (Laoa$a;)Lcjc$a;
+		METHOD c access$200 (Laoa$a;)Laoa$b;
+	CLASS b SpawnPredicate
+		METHOD test test (Lanf;Lbny;Lanp;Lfo;Ljava/util/Random;)Z
+	CLASS c Type
+		FIELD a ON_GROUND Laoa$c;
+		FIELD b IN_WATER Laoa$c;
+		FIELD c NO_RESTRICTIONS Laoa$c;
+		FIELD d IN_LAVA Laoa$c;
+		FIELD e $VALUES [Laoa$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Laoa$c;
+		METHOD values values ()[Laoa$c;

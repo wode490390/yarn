@@ -1,0 +1,6 @@
+CLASS blq net/minecraft/world/item/enchantment/ArrowInfiniteEnchantment
+	METHOD <init> <init> (Lblx$a;[Lang;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a checkCompatibility (Lblx;)Z
+	METHOD b getMaxCost (I)I

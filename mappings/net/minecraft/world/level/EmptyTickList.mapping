@@ -1,0 +1,10 @@
+CLASS bno net/minecraft/world/level/EmptyTickList
+	FIELD a INSTANCE Lbno;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a size ()I
+	METHOD a hasScheduledTick (Lfo;Ljava/lang/Object;)Z
+	METHOD a scheduleTick (Lfo;Ljava/lang/Object;I)V
+	METHOD a scheduleTick (Lfo;Ljava/lang/Object;ILbop;)V
+	METHOD b empty ()Lbno;
+	METHOD b willTickThisTick (Lfo;Ljava/lang/Object;)Z

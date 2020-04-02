@@ -1,0 +1,2 @@
+CLASS alq net/minecraft/world/ContainerListener
+	METHOD a containerChanged (Lalo;)V

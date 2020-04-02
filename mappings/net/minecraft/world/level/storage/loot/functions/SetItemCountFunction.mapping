@@ -1,0 +1,16 @@
+CLASS dbs net/minecraft/world/level/storage/loot/functions/SetItemCountFunction
+	FIELD a value Ldag;
+	METHOD <init> <init> ([Ldcq;Ldag;)V
+	METHOD <init> <init> ([Ldcq;Ldag;Ldbs$1;)V
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD a setCount (Ldag;)Ldbl$a;
+	METHOD a lambda$setCount$0 (Ldag;[Ldcq;)Ldbm;
+	METHOD a access$000 (Ldbs;)Ldag;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbs;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbl;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbm;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldbs;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

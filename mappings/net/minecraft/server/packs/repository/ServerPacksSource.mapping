@@ -1,0 +1,5 @@
+CLASS aac net/minecraft/server/packs/repository/ServerPacksSource
+	FIELD a vanillaPack Lzr;
+	METHOD <init> <init> ()V
+	METHOD a lambda$loadPacks$0 ()Lzo;
+	METHOD a loadPacks (Ljava/util/Map;Laad$b;)V

@@ -1,0 +1,8 @@
+CLASS cxl net/minecraft/world/level/newbiome/layer/IslandLayer
+	FIELD a INSTANCE Lcxl;
+	FIELD b $VALUES [Lcxl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Lcxb;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxl;
+	METHOD values values ()[Lcxl;

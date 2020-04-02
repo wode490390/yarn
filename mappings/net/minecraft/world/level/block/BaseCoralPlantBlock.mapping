@@ -1,0 +1,5 @@
+CLASS btg net/minecraft/world/level/block/BaseCoralPlantBlock
+	FIELD a SHAPE Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;

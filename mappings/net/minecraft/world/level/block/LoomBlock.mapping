@@ -1,0 +1,9 @@
+CLASS bxk net/minecraft/world/level/block/LoomBlock
+	FIELD a CONTAINER_TITLE Lmv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a lambda$getMenuProvider$0 (Lbnx;Lfo;ILbcg;Lbch;)Lbel;
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getMenuProvider (Lcdt;Lbnx;Lfo;)Laly;

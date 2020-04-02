@@ -1,0 +1,23 @@
+CLASS amt net/minecraft/world/effect/MobEffect
+	FIELD a attributeModifiers Ljava/util/Map;
+	FIELD b category Lamu;
+	FIELD c color I
+	FIELD d descriptionId Ljava/lang/String;
+	METHOD <init> <init> (Lamu;I)V
+	METHOD a isInstantenous ()Z
+	METHOD a byId (I)Lamt;
+	METHOD a isDurationEffectTick (II)Z
+	METHOD a getAttributeModifierValue (ILaof;)D
+	METHOD a getId (Lamt;)I
+	METHOD a applyInstantenousEffect (Lanb;Lanb;Lanm;ID)V
+	METHOD a applyEffectTick (Lanm;I)V
+	METHOD a removeAttributeModifiers (Lanm;Laoh;I)V
+	METHOD a addAttributeModifier (Laod;Ljava/lang/String;DLaof$a;)Lamt;
+	METHOD b getOrCreateDescriptionId ()Ljava/lang/String;
+	METHOD b addAttributeModifiers (Lanm;Laoh;I)V
+	METHOD c getDescriptionId ()Ljava/lang/String;
+	METHOD d getDisplayName ()Lml;
+	METHOD e getCategory ()Lamu;
+	METHOD f getColor ()I
+	METHOD g getAttributeModifiers ()Ljava/util/Map;
+	METHOD h isBeneficial ()Z

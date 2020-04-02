@@ -1,0 +1,6 @@
+CLASS bjv net/minecraft/world/item/TippedArrowItem
+	METHOD <init> <init> (Lbii$a;)V
+	METHOD a fillItemCategory (Lbhc;Lge;)V
+	METHOD a appendHoverText (Lbin;Lbnx;Ljava/util/List;Lbjw;)V
+	METHOD e getDescriptionId (Lbin;)Ljava/lang/String;
+	METHOD s getDefaultInstance ()Lbin;

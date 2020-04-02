@@ -1,0 +1,10 @@
+CLASS cxv net/minecraft/world/level/newbiome/layer/RiverLayer
+	FIELD a INSTANCE Lcxv;
+	FIELD b RIVER I
+	FIELD c $VALUES [Lcxv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Lcxb;IIIII)I
+	METHOD c riverFilter (I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxv;
+	METHOD values values ()[Lcxv;

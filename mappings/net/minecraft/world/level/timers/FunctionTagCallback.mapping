@@ -1,0 +1,12 @@
+CLASS ddd net/minecraft/world/level/timers/FunctionTagCallback
+	FIELD a tagId Lts;
+	METHOD <init> <init> (Lts;)V
+	METHOD a access$000 (Lddd;)Lts;
+	METHOD a handle (Ljava/lang/Object;Lddg;J)V
+	METHOD a handle (Lnet/minecraft/server/MinecraftServer;Lddg;J)V
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lkz;)Lddd;
+		METHOD a serialize (Lkz;Lddd;)V
+		METHOD a serialize (Lkz;Ldde;)V
+		METHOD b deserialize (Lkz;)Ldde;

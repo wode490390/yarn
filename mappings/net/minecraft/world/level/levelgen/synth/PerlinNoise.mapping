@@ -1,0 +1,14 @@
+CLASS cvr net/minecraft/world/level/levelgen/synth/PerlinNoise
+	FIELD a noiseLevels [Lcvq;
+	FIELD b highestFreqValueFactor D
+	FIELD c highestFreqInputFactor D
+	FIELD d octaves Ljava/util/List;
+	METHOD <init> <init> (Lcjm;Lit/unimi/dsi/fastutil/ints/IntSortedSet;)V
+	METHOD <init> <init> (Lcjm;Ljava/util/List;)V
+	METHOD <init> <init> (Lcjm;Ljava/util/stream/IntStream;)V
+	METHOD a getOctaves ()Ljava/util/List;
+	METHOD a wrap (D)D
+	METHOD a getValue (DDD)D
+	METHOD a getSurfaceNoiseValue (DDDD)D
+	METHOD a getValue (DDDDDZ)D
+	METHOD a getOctaveNoise (I)Lcvq;

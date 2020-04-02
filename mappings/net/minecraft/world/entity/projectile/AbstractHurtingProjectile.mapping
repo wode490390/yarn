@@ -1,0 +1,21 @@
+CLASS bcm net/minecraft/world/entity/projectile/AbstractHurtingProjectile
+	FIELD b xPower D
+	FIELD c yPower D
+	FIELD d zPower D
+	FIELD e flightTime I
+	METHOD <init> <init> (Lanf;DDDDDDLbnx;)V
+	METHOD <init> <init> (Lanf;Lanm;DDDLbnx;)V
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD O getAddEntityPacket ()Lmz;
+	METHOD Q_ shouldBurn ()Z
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a hurt (Laml;F)Z
+	METHOD a readAdditionalSaveData (Lkz;)V
+	METHOD aO getBrightness ()F
+	METHOD aQ isPickable ()Z
+	METHOD b addAdditionalSaveData (Lkz;)V
+	METHOD bb getPickRadius ()F
+	METHOD h tick ()V
+	METHOD i getTrailParticle ()Lhb;
+	METHOD k getInertia ()F
+	METHOD w_ defineSynchedData ()V

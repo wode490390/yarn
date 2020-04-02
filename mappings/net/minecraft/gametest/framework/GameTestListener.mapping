@@ -1,0 +1,4 @@
+CLASS kd net/minecraft/gametest/framework/GameTestListener
+	METHOD a testStructureLoaded (Lkc;)V
+	METHOD b testPassed (Lkc;)V
+	METHOD c testFailed (Lkc;)V

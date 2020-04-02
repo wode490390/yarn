@@ -1,0 +1,5 @@
+CLASS aqt net/minecraft/world/entity/ai/behavior/StopBeingAngryIfTargetDead
+	METHOD <init> <init> ()V
+	METHOD a isCurrentTargetDeadOrRemoved (Lann;)Z
+	METHOD a start (Lyn;Lanm;J)V
+	METHOD a start (Lyn;Lann;J)V

@@ -1,0 +1,7 @@
+CLASS adh net/minecraft/util/SmoothDouble
+	FIELD a targetValue D
+	FIELD b remainingValue D
+	FIELD c lastAmount D
+	METHOD <init> <init> ()V
+	METHOD a reset ()V
+	METHOD a getNewDeltaValue (DD)D

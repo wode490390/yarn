@@ -1,0 +1,10 @@
+CLASS cod net/minecraft/world/level/levelgen/feature/configurations/DiskConfiguration
+	FIELD a state Lcdt;
+	FIELD b radius I
+	FIELD c ySize I
+	FIELD d targets Ljava/util/List;
+	METHOD <init> <init> (Lcdt;IILjava/util/List;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcod;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$serialize$0 (Lcom/mojang/datafixers/types/DynamicOps;Lcdt;)Ljava/lang/Object;
+	METHOD a random (Ljava/util/Random;)Lcod;

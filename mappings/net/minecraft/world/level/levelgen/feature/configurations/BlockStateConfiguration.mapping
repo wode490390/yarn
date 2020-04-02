@@ -1,0 +1,6 @@
+CLASS cnv net/minecraft/world/level/levelgen/feature/configurations/BlockStateConfiguration
+	FIELD a state Lcdt;
+	METHOD <init> <init> (Lcdt;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcnv;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a safeRandom (Ljava/util/Random;)Lcnv;

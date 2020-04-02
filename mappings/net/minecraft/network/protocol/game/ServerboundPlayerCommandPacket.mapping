@@ -1,0 +1,29 @@
+CLASS rq net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket
+	FIELD a id I
+	FIELD b action Lrq$a;
+	FIELD c data I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lanb;Lrq$a;)V
+	METHOD <init> <init> (Lanb;Lrq$a;I)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lqr;)V
+	METHOD b getId ()I
+	METHOD b write (Lmb;)V
+	METHOD c getAction ()Lrq$a;
+	METHOD d getData ()I
+	CLASS a Action
+		FIELD a PRESS_SHIFT_KEY Lrq$a;
+		FIELD b RELEASE_SHIFT_KEY Lrq$a;
+		FIELD c STOP_SLEEPING Lrq$a;
+		FIELD d START_SPRINTING Lrq$a;
+		FIELD e STOP_SPRINTING Lrq$a;
+		FIELD f START_RIDING_JUMP Lrq$a;
+		FIELD g STOP_RIDING_JUMP Lrq$a;
+		FIELD h OPEN_INVENTORY Lrq$a;
+		FIELD i START_FALL_FLYING Lrq$a;
+		FIELD j $VALUES [Lrq$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lrq$a;
+		METHOD values values ()[Lrq$a;

@@ -1,0 +1,13 @@
+CLASS ayg net/minecraft/world/entity/boss/enderdragon/phases/AbstractDragonPhaseInstance
+	FIELD a dragon Laye;
+	METHOD <init> <init> (Laye;)V
+	METHOD a isSitting ()Z
+	METHOD a onHurt (Laml;F)F
+	METHOD a onCrystalDestroyed (Layd;Lfo;Laml;Lbch;)V
+	METHOD b doClientTick ()V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD e end ()V
+	METHOD f getFlySpeed ()F
+	METHOD g getFlyTargetLocation ()Lddp;
+	METHOD h getTurnSpeed ()F

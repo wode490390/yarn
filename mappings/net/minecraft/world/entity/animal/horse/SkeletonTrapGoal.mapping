@@ -1,0 +1,7 @@
+CLASS axw net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+	FIELD a horse Laxv;
+	METHOD <init> <init> (Laxv;)V
+	METHOD a canUse ()Z
+	METHOD a createHorse (Lalt;)Laxq;
+	METHOD a createSkeleton (Lalt;Laxq;)Lbaq;
+	METHOD e tick ()V

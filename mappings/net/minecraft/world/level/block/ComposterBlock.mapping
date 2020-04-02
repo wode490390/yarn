@@ -1,0 +1,55 @@
+CLASS buq net/minecraft/world/level/block/ComposterBlock
+	FIELD a LEVEL Lcet;
+	FIELD b COMPOSTABLES Lit/unimi/dsi/fastutil/objects/Object2FloatMap;
+	FIELD c OUTER_SHAPE Ldej;
+	FIELD d SHAPES [Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;)V
+	METHOD a add (FLbnw;)V
+	METHOD a handleFill (Lbnx;Lfo;Z)V
+	METHOD a hasAnalogOutputSignal (Lcdt;)Z
+	METHOD a isPathfindable (Lcdt;Lbnh;Lfo;Lcyu;)Z
+	METHOD a getAnalogOutputSignal (Lcdt;Lbnx;Lfo;)I
+	METHOD a use (Lcdt;Lbnx;Lfo;Lbch;Lalu;Lddk;)Lalv;
+	METHOD a getContainer (Lcdt;Lbny;Lfo;)Lamf;
+	METHOD a access$100 (Lcdt;Lbny;Lfo;Lbin;)Lcdt;
+	METHOD a insertItem (Lcdt;Lyn;Lbin;Lfo;)Lcdt;
+	METHOD a tick (Lcdt;Lyn;Lfo;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD a lambda$static$0 ([Ldej;)V
+	METHOD a_ getInteractionShape (Lcdt;Lbnh;Lfo;)Ldej;
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD b onPlace (Lcdt;Lbnx;Lfo;Lcdt;Z)V
+	METHOD b addItem (Lcdt;Lbny;Lfo;Lbin;)Lcdt;
+	METHOD c getCollisionShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD c access$000 (Lcdt;Lbny;Lfo;)Lcdt;
+	METHOD d bootStrap ()V
+	METHOD d extractProduce (Lcdt;Lbnx;Lfo;)Lcdt;
+	METHOD d empty (Lcdt;Lbny;Lfo;)Lcdt;
+	CLASS a EmptyContainer
+		METHOD <init> <init> ()V
+		METHOD a canPlaceItemThroughFace (ILbin;Lft;)Z
+		METHOD a getSlotsForFace (Lft;)[I
+		METHOD b canTakeItemThroughFace (ILbin;Lft;)Z
+	CLASS b InputContainer
+		FIELD a state Lcdt;
+		FIELD b level Lbny;
+		FIELD c pos Lfo;
+		FIELD d changed Z
+		METHOD <init> <init> (Lcdt;Lbny;Lfo;)V
+		METHOD P_ getMaxStackSize ()I
+		METHOD a canPlaceItemThroughFace (ILbin;Lft;)Z
+		METHOD a getSlotsForFace (Lft;)[I
+		METHOD b canTakeItemThroughFace (ILbin;Lft;)Z
+		METHOD e setChanged ()V
+	CLASS c OutputContainer
+		FIELD a state Lcdt;
+		FIELD b level Lbny;
+		FIELD c pos Lfo;
+		FIELD d changed Z
+		METHOD <init> <init> (Lcdt;Lbny;Lfo;Lbin;)V
+		METHOD P_ getMaxStackSize ()I
+		METHOD a canPlaceItemThroughFace (ILbin;Lft;)Z
+		METHOD a getSlotsForFace (Lft;)[I
+		METHOD b canTakeItemThroughFace (ILbin;Lft;)Z
+		METHOD e setChanged ()V

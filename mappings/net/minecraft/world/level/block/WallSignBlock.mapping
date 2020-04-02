@@ -1,0 +1,13 @@
+CLASS cau net/minecraft/world/level/block/WallSignBlock
+	FIELD c FACING Lceo;
+	FIELD d AABBS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;Lcfd;)V
+	METHOD a getStateForPlacement (Lbgq;)Lcdt;
+	METHOD a canSurvive (Lcdt;Lboa;Lfo;)Z
+	METHOD a mirror (Lcdt;Lbxn;)Lcdt;
+	METHOD a rotate (Lcdt;Lbyv;)Lcdt;
+	METHOD a updateShape (Lcdt;Lft;Lcdt;Lbny;Lfo;Lfo;)Lcdt;
+	METHOD a createBlockStateDefinition (Lcdu$a;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD j getDescriptionId ()Ljava/lang/String;

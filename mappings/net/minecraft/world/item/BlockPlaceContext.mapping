@@ -1,0 +1,11 @@
+CLASS bgq net/minecraft/world/item/BlockPlaceContext
+	FIELD a replaceClicked Z
+	FIELD g relativePos Lfo;
+	METHOD <init> <init> (Lbjz;)V
+	METHOD <init> <init> (Lbnx;Lbch;Lalu;Lbin;Lddk;)V
+	METHOD a getClickedPos ()Lfo;
+	METHOD a at (Lbgq;Lfo;Lft;)Lbgq;
+	METHOD b canPlace ()Z
+	METHOD c replacingClickedOnBlock ()Z
+	METHOD d getNearestLookingDirection ()Lft;
+	METHOD e getNearestLookingDirections ()[Lft;

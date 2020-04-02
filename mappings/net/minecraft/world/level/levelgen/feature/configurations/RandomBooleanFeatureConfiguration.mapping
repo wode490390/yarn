@@ -1,0 +1,7 @@
+CLASS cos net/minecraft/world/level/levelgen/feature/configurations/RandomBooleanFeatureConfiguration
+	FIELD a featureTrue Lckm;
+	FIELD b featureFalse Lckm;
+	METHOD <init> <init> (Lckm;Lckm;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcos;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcos;

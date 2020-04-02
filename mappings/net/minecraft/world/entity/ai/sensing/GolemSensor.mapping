@@ -1,0 +1,7 @@
+CLASS avg net/minecraft/world/entity/ai/sensing/GolemSensor
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a checkForNearbyGolem (JLanm;)V
+	METHOD a lambda$checkForNearbyGolem$0 (Lanm;)Z
+	METHOD a doTick (Lyn;Lanm;)V

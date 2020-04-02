@@ -1,0 +1,10 @@
+CLASS bwd net/minecraft/world/level/block/FungusBlock
+	FIELD a SHAPE Ldej;
+	FIELD b feature Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcds$c;Ljava/util/function/Supplier;)V
+	METHOD a isValidBonemealTarget (Lbnh;Lfo;Lcdt;Z)Z
+	METHOD a isBonemealSuccess (Lbnx;Ljava/util/Random;Lfo;Lcdt;)Z
+	METHOD a performBonemeal (Lyn;Ljava/util/Random;Lfo;Lcdt;)V
+	METHOD b getShape (Lcdt;Lbnh;Lfo;Lddu;)Ldej;
+	METHOD c mayPlaceOn (Lcdt;Lbnh;Lfo;)Z

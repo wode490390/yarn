@@ -1,0 +1,7 @@
+CLASS coi net/minecraft/world/level/levelgen/feature/configurations/LayerConfiguration
+	FIELD a height I
+	FIELD b state Lcdt;
+	METHOD <init> <init> (ILcdt;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcoi;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcoi;

@@ -1,0 +1,6 @@
+CLASS cmq net/minecraft/world/level/levelgen/feature/ShapeFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcoy;)Z
+	METHOD a lambda$place$1 (Lbny;Lcoy;Ljava/util/Random;Lfo;)V
+	METHOD a lambda$place$0 (Lcoy;Lfo;FLfo;)Z

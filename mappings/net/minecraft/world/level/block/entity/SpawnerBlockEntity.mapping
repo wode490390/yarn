@@ -1,0 +1,18 @@
+CLASS cct net/minecraft/world/level/block/entity/SpawnerBlockEntity
+	FIELD a spawner Lbne;
+	METHOD <init> <init> ()V
+	METHOD a getUpdatePacket ()Lnn;
+	METHOD a load (Lcdt;Lkz;)V
+	METHOD a save (Lkz;)Lkz;
+	METHOD a_ triggerEvent (II)Z
+	METHOD ac_ tick ()V
+	METHOD b getUpdateTag ()Lkz;
+	METHOD d getSpawner ()Lbne;
+	METHOD t onlyOpCanSetNbt ()Z
+	CLASS 1 1
+		FIELD a this$0 Lcct;
+		METHOD <init> <init> (Lcct;)V
+		METHOD a getLevel ()Lbnx;
+		METHOD a broadcastEvent (I)V
+		METHOD a setNextSpawnData (Lbom;)V
+		METHOD b getPos ()Lfo;

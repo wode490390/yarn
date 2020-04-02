@@ -1,0 +1,9 @@
+CLASS aba net/minecraft/server/players/ServerOpListEntry
+	FIELD a level I
+	FIELD b bypassesPlayerLimit Z
+	METHOD <init> <init> (Lcom/google/gson/JsonObject;)V
+	METHOD <init> <init> (Lcom/mojang/authlib/GameProfile;IZ)V
+	METHOD a getLevel ()I
+	METHOD a serialize (Lcom/google/gson/JsonObject;)V
+	METHOD b getBypassesPlayerLimit ()Z
+	METHOD b createGameProfile (Lcom/google/gson/JsonObject;)Lcom/mojang/authlib/GameProfile;

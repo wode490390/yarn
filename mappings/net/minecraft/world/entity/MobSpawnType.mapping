@@ -1,0 +1,22 @@
+CLASS anp net/minecraft/world/entity/MobSpawnType
+	FIELD a NATURAL Lanp;
+	FIELD b CHUNK_GENERATION Lanp;
+	FIELD c SPAWNER Lanp;
+	FIELD d STRUCTURE Lanp;
+	FIELD e BREEDING Lanp;
+	FIELD f MOB_SUMMONED Lanp;
+	FIELD g JOCKEY Lanp;
+	FIELD h EVENT Lanp;
+	FIELD i CONVERSION Lanp;
+	FIELD j REINFORCEMENT Lanp;
+	FIELD k TRIGGERED Lanp;
+	FIELD l BUCKET Lanp;
+	FIELD m SPAWN_EGG Lanp;
+	FIELD n COMMAND Lanp;
+	FIELD o DISPENSER Lanp;
+	FIELD p PATROL Lanp;
+	FIELD q $VALUES [Lanp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lanp;
+	METHOD values values ()[Lanp;

@@ -1,0 +1,7 @@
+CLASS cow net/minecraft/world/level/levelgen/feature/configurations/ReplaceBlockConfiguration
+	FIELD a target Lcdt;
+	FIELD b state Lcdt;
+	METHOD <init> <init> (Lcdt;Lcdt;)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcow;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcow;

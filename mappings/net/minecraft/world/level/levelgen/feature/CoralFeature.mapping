@@ -1,0 +1,6 @@
+CLASS cko net/minecraft/world/level/levelgen/feature/CoralFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcoo;)Z
+	METHOD a placeFeature (Lbny;Ljava/util/Random;Lfo;Lcdt;)Z
+	METHOD b placeCoralBlock (Lbny;Ljava/util/Random;Lfo;Lcdt;)Z

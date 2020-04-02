@@ -1,0 +1,15 @@
+CLASS cuk net/minecraft/world/level/levelgen/structure/templatesystem/ProcessorRule
+	FIELD a inputPredicate Lcuo;
+	FIELD b locPredicate Lcuo;
+	FIELD c posPredicate Lcui;
+	FIELD d outputState Lcdt;
+	FIELD e outputTag Lkz;
+	METHOD <init> <init> (Lcuo;Lcuo;Lcdt;)V
+	METHOD <init> <init> (Lcuo;Lcuo;Lcui;Lcdt;)V
+	METHOD <init> <init> (Lcuo;Lcuo;Lcui;Lcdt;Lkz;)V
+	METHOD a getOutputState ()Lcdt;
+	METHOD a test (Lcdt;Lcdt;Lfo;Lfo;Lfo;Ljava/util/Random;)Z
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcuk;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD b getOutputTag ()Lkz;
+	METHOD b lambda$deserialize$0 (Lcom/mojang/datafixers/Dynamic;)Llp;

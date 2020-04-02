@@ -1,0 +1,4 @@
+CLASS amh net/minecraft/world/damagesource/BadRespawnPointDamage
+	METHOD <init> <init> ()V
+	METHOD a getLocalizedDeathMessage (Lanm;)Lml;
+	METHOD a lambda$getLocalizedDeathMessage$0 (Lmt;)V

@@ -1,0 +1,8 @@
+CLASS cxp net/minecraft/world/level/newbiome/layer/OceanMixerLayer
+	FIELD a INSTANCE Lcxp;
+	FIELD b $VALUES [Lcxp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Lcxb;Lcww;Lcww;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxp;
+	METHOD values values ()[Lcxp;

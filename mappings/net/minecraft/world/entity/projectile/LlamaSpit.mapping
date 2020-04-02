@@ -1,0 +1,10 @@
+CLASS bcv net/minecraft/world/entity/projectile/LlamaSpit
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD <init> <init> (Lbnx;DDDDDD)V
+	METHOD <init> <init> (Lbnx;Laxt;)V
+	METHOD O getAddEntityPacket ()Lmz;
+	METHOD a onHitBlock (Lddk;)V
+	METHOD a onHitEntity (Lddl;)V
+	METHOD b lambda$tick$0 (Lanb;)Z
+	METHOD h tick ()V
+	METHOD w_ defineSynchedData ()V

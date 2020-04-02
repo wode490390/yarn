@@ -1,0 +1,10 @@
+CLASS cuy net/minecraft/world/level/levelgen/surfacebuilders/ConfiguredSurfaceBuilder
+	FIELD a surfaceBuilder Lcvk;
+	FIELD b config Lcvm;
+	METHOD <init> <init> (Lcvk;Lcom/mojang/datafixers/Dynamic;)V
+	METHOD <init> <init> (Lcvk;Lcvm;)V
+	METHOD a getSurfaceBuilderConfiguration ()Lcvm;
+	METHOD a initNoise (J)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcuy;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a apply (Ljava/util/Random;Lcfj;Lboy;IIIDLcdt;Lcdt;IJ)V

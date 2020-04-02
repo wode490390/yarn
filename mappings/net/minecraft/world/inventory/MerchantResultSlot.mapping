@@ -1,0 +1,11 @@
+CLASS bfq net/minecraft/world/inventory/MerchantResultSlot
+	FIELD a slots Lbfo;
+	FIELD b player Lbch;
+	FIELD g removeCount I
+	FIELD h merchant Lbmz;
+	METHOD <init> <init> (Lbch;Lbmz;Lbfo;III)V
+	METHOD a remove (I)Lbin;
+	METHOD a onTake (Lbch;Lbin;)Lbin;
+	METHOD a mayPlace (Lbin;)Z
+	METHOD a onQuickCraft (Lbin;I)V
+	METHOD c checkTakeAchievements (Lbin;)V

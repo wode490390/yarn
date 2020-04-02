@@ -1,0 +1,8 @@
+CLASS anq net/minecraft/world/entity/MobType
+	FIELD a UNDEFINED Lanq;
+	FIELD b UNDEAD Lanq;
+	FIELD c ARTHROPOD Lanq;
+	FIELD d ILLAGER Lanq;
+	FIELD e WATER Lanq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V

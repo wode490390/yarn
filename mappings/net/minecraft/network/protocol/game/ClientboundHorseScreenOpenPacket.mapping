@@ -1,0 +1,13 @@
+CLASS oj net/minecraft/network/protocol/game/ClientboundHorseScreenOpenPacket
+	FIELD a containerId I
+	FIELD b size I
+	FIELD c entityId I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (III)V
+	METHOD a read (Lmb;)V
+	METHOD a handle (Lme;)V
+	METHOD a handle (Lnc;)V
+	METHOD b getContainerId ()I
+	METHOD b write (Lmb;)V
+	METHOD c getSize ()I
+	METHOD d getEntityId ()I

@@ -1,0 +1,17 @@
+CLASS asa net/minecraft/world/entity/ai/goal/BreedGoal
+	FIELD a animal Lawo;
+	FIELD b level Lbnx;
+	FIELD c partner Lawo;
+	FIELD d PARTNER_TARGETING Lavw;
+	FIELD e partnerClass Ljava/lang/Class;
+	FIELD f loveTime I
+	FIELD g speedModifier D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lawo;D)V
+	METHOD <init> <init> (Lawo;DLjava/lang/Class;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g breed ()V
+	METHOD h getFreePartner ()Lawo;

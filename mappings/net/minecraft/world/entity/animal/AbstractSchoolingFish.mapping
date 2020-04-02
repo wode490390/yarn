@@ -1,0 +1,25 @@
+CLASS awn net/minecraft/world/entity/animal/AbstractSchoolingFish
+	FIELD b leader Lawn;
+	FIELD c schoolSize I
+	METHOD <init> <init> (Lanf;Lbnx;)V
+	METHOD a startFollowing (Lawn;)Lawn;
+	METHOD a finalizeSpawn (Lbny;Lalt;Lanp;Lanz;Lkz;)Lanz;
+	METHOD a addFollowers (Ljava/util/stream/Stream;)V
+	METHOD b lambda$addFollowers$1 (Lawn;)V
+	METHOD c lambda$addFollowers$0 (Lawn;)Z
+	METHOD eA getMaxSchoolSize ()I
+	METHOD eB isFollower ()Z
+	METHOD eC stopFollowing ()V
+	METHOD eD canBeFollowed ()Z
+	METHOD eE hasFollowers ()Z
+	METHOD eF inRangeOfLeader ()Z
+	METHOD eG pathToLeader ()V
+	METHOD eH addFollower ()V
+	METHOD eI removeFollower ()V
+	METHOD eg getMaxSpawnClusterSize ()I
+	METHOD h tick ()V
+	METHOD m canRandomSwim ()Z
+	METHOD o registerGoals ()V
+	CLASS a SchoolSpawnGroupData
+		FIELD a leader Lawn;
+		METHOD <init> <init> (Lawn;)V

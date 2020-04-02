@@ -1,0 +1,18 @@
+CLASS ami net/minecraft/world/damagesource/CombatEntry
+	FIELD a source Laml;
+	FIELD b time I
+	FIELD c damage F
+	FIELD d health F
+	FIELD e location Ljava/lang/String;
+	FIELD f fallDistance F
+	METHOD <init> <init> (Laml;IFFLjava/lang/String;F)V
+	METHOD a getSource ()Laml;
+	METHOD b getTime ()I
+	METHOD c getDamage ()F
+	METHOD d getHealthBeforeDamage ()F
+	METHOD e getHealthAfterDamage ()F
+	METHOD f isCombatRelated ()Z
+	METHOD g getLocation ()Ljava/lang/String;
+	METHOD h getAttackerName ()Lml;
+	METHOD i getAttacker ()Lanb;
+	METHOD j getFallDistance ()F

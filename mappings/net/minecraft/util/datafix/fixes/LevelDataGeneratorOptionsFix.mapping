@@ -1,0 +1,14 @@
+CLASS ahb net/minecraft/util/datafix/fixes/LevelDataGeneratorOptionsFix
+	FIELD a MAP Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$1 ()Ljava/lang/IllegalStateException;
+	METHOD a lambda$convert$3 (Lcom/mojang/datafixers/types/DynamicOps;Lcom/mojang/datafixers/util/Pair;)Ljava/lang/Object;
+	METHOD a lambda$convert$5 (Lcom/mojang/datafixers/types/DynamicOps;Ljava/util/Map$Entry;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$makeRule$2 (Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a getLayerInfoFromString (Ljava/lang/String;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a convert (Ljava/lang/String;Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V
+	METHOD b lambda$null$4 (Lcom/mojang/datafixers/types/DynamicOps;Ljava/util/Map$Entry;)Lcom/mojang/datafixers/util/Pair;
+	METHOD b getLayersInfoFromString (Ljava/lang/String;)Ljava/util/List;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

@@ -1,0 +1,37 @@
+CLASS coy net/minecraft/world/level/levelgen/feature/configurations/ShapeConfiguration
+	FIELD a material Lcpq;
+	FIELD b metric Lcoy$a;
+	FIELD c radiusMin F
+	FIELD d radiusMax F
+	METHOD <init> <init> (Lcpq;Lcoy$a;FF)V
+	METHOD a deserialize (Lcom/mojang/datafixers/Dynamic;)Lcoy;
+	METHOD a serialize (Lcom/mojang/datafixers/types/DynamicOps;)Lcom/mojang/datafixers/Dynamic;
+	METHOD a random (Ljava/util/Random;)Lcoy;
+	METHOD a lambda$null$0 (Lts;)Ljava/lang/IllegalStateException;
+	METHOD b lambda$deserialize$1 (Lcom/mojang/datafixers/Dynamic;)Lcpq;
+	CLASS 1 1
+	CLASS a Metric
+		FIELD a EUCLIDIAN Lcoy$a;
+		FIELD b TAXICAB Lcoy$a;
+		FIELD c CHESSBOARD Lcoy$a;
+		FIELD d name Ljava/lang/String;
+		FIELD e $VALUES [Lcoy$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lcoy$1;)V
+		METHOD a access$100 (Lcoy$a;)Ljava/lang/String;
+		METHOD a distance (Lfo;Lfo;)F
+		METHOD a fromId (Ljava/lang/String;)Lcoy$a;
+		METHOD a lambda$fromId$0 (Ljava/lang/String;Lcoy$a;)Z
+		METHOD b lambda$fromId$1 (Ljava/lang/String;)Ljava/lang/IllegalStateException;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcoy$a;
+		METHOD values values ()[Lcoy$a;
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a distance (Lfo;Lfo;)F
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a distance (Lfo;Lfo;)F
+		CLASS 3 3
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a distance (Lfo;Lfo;)F

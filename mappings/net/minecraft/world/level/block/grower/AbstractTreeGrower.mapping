@@ -1,0 +1,5 @@
+CLASS cdb net/minecraft/world/level/block/grower/AbstractTreeGrower
+	METHOD <init> <init> ()V
+	METHOD a growTree (Lbny;Lcfl;Lfo;Lcdt;Ljava/util/Random;)Z
+	METHOD a hasFlowers (Lbny;Lfo;)Z
+	METHOD a getConfiguredFeature (Ljava/util/Random;Z)Lckm;

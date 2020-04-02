@@ -1,0 +1,12 @@
+CLASS bjb net/minecraft/world/item/RecordItem
+	FIELD a BY_NAME Ljava/util/Map;
+	FIELD b analogOutput I
+	FIELD c sound Labr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILabr;Lbii$a;)V
+	METHOD a getBySound (Labr;)Lbjb;
+	METHOD a appendHoverText (Lbin;Lbnx;Ljava/util/List;Lbjw;)V
+	METHOD a useOn (Lbjz;)Lalv;
+	METHOD f getAnalogOutput ()I
+	METHOD g getDisplayName ()Lml;
+	METHOD w getSound ()Labr;

@@ -1,0 +1,10 @@
+CLASS dbb net/minecraft/world/level/storage/loot/functions/ApplyExplosionDecay
+	METHOD <init> <init> ([Ldcq;)V
+	METHOD <init> <init> ([Ldcq;Ldbb$1;)V
+	METHOD a run (Lbin;Ldaa;)Lbin;
+	METHOD b explosionDecay ()Ldbl$a;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbb;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldcq;)Ldbl;

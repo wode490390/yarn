@@ -1,0 +1,5 @@
+CLASS clz net/minecraft/world/level/levelgen/feature/NetherForestVegetationFeature
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcnu;)Z
+	METHOD a place (Lbny;Lcfl;Ljava/util/Random;Lfo;Lcof;)Z
+	METHOD a place (Lbny;Ljava/util/Random;Lfo;Lcnu;II)Z

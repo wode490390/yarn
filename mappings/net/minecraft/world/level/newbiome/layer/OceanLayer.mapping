@@ -1,0 +1,8 @@
+CLASS cxo net/minecraft/world/level/newbiome/layer/OceanLayer
+	FIELD a INSTANCE Lcxo;
+	FIELD b $VALUES [Lcxo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Lcxb;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcxo;
+	METHOD values values ()[Lcxo;

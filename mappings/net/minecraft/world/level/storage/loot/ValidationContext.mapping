@@ -1,0 +1,27 @@
+CLASS daj net/minecraft/world/level/storage/loot/ValidationContext
+	FIELD a problems Lcom/google/common/collect/Multimap;
+	FIELD b context Ljava/util/function/Supplier;
+	FIELD c params Ldcc;
+	FIELD d conditionResolver Ljava/util/function/Function;
+	FIELD e visitedConditions Ljava/util/Set;
+	FIELD f tableResolver Ljava/util/function/Function;
+	FIELD g visitedTables Ljava/util/Set;
+	FIELD h contextCache Ljava/lang/String;
+	METHOD <init> <init> (Lcom/google/common/collect/Multimap;Ljava/util/function/Supplier;Ldcc;Ljava/util/function/Function;Ljava/util/Set;Ljava/util/function/Function;Ljava/util/Set;)V
+	METHOD <init> <init> (Ldcc;Ljava/util/function/Function;Ljava/util/function/Function;)V
+	METHOD a getProblems ()Lcom/google/common/collect/Multimap;
+	METHOD a validateUser (Ldab;)V
+	METHOD a setParams (Ldcc;)Ldaj;
+	METHOD a reportProblem (Ljava/lang/String;)V
+	METHOD a enterTable (Ljava/lang/String;Lts;)Ldaj;
+	METHOD a hasVisitedTable (Lts;)Z
+	METHOD b getContext ()Ljava/lang/String;
+	METHOD b forChild (Ljava/lang/String;)Ldaj;
+	METHOD b enterCondition (Ljava/lang/String;Lts;)Ldaj;
+	METHOD b hasVisitedCondition (Lts;)Z
+	METHOD c lambda$new$0 ()Ljava/lang/String;
+	METHOD c lambda$enterCondition$3 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c resolveLootTable (Lts;)Ldad;
+	METHOD d lambda$enterTable$2 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD d resolveCondition (Lts;)Ldcq;
+	METHOD e lambda$forChild$1 (Ljava/lang/String;)Ljava/lang/String;

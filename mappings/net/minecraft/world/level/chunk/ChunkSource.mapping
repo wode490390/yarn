@@ -1,0 +1,17 @@
+CLASS cfo net/minecraft/world/level/chunk/ChunkSource
+	METHOD <init> <init> ()V
+	METHOD a getChunkNow (II)Lcfw;
+	METHOD a getChunk (IILcfp;Z)Lcfj;
+	METHOD a getChunk (IIZ)Lcfw;
+	METHOD a isEntityTickingChunk (Lanb;)Z
+	METHOD a isEntityTickingChunk (Lbni;)Z
+	METHOD a updateChunkForced (Lbni;Z)V
+	METHOD a isTickingChunk (Lfo;)Z
+	METHOD a tick (Ljava/util/function/BooleanSupplier;)V
+	METHOD a setSpawnSettings (ZZ)V
+	METHOD b hasChunk (II)Z
+	METHOD c getChunkForLighting (II)Lbnh;
+	METHOD close close ()V
+	METHOD e gatherStats ()Ljava/lang/String;
+	METHOD h getLoadedChunksCount ()I
+	METHOD k getLightEngine ()Lcwe;

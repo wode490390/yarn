@@ -1,0 +1,4 @@
+CLASS czd net/minecraft/world/level/saveddata/SaveDataDirtyRunnable
+	FIELD a savedData Lcze;
+	METHOD <init> <init> (Lcze;)V
+	METHOD run run ()V

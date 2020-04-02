@@ -1,0 +1,3 @@
+CLASS ama net/minecraft/world/ShulkerSharedHelper
+	METHOD <init> <init> ()V
+	METHOD a openBoundingBox (Lfo;Lft;)Lddj;
