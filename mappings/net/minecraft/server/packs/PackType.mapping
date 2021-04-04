@@ -1,0 +1,12 @@
+CLASS aco net/minecraft/server/packs/PackType
+	FIELD a CLIENT_RESOURCES Laco;
+	FIELD b SERVER_DATA Laco;
+	FIELD c directory Ljava/lang/String;
+	FIELD d bridgeType Lcom/mojang/bridge/game/PackType;
+	FIELD e $VALUES [Laco;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lcom/mojang/bridge/game/PackType;)V
+	METHOD a getDirectory ()Ljava/lang/String;
+	METHOD a getVersion (Lcom/mojang/bridge/game/GameVersion;)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Laco;
+	METHOD values values ()[Laco;

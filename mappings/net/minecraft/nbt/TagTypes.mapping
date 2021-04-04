@@ -1,0 +1,5 @@
+CLASS nq net/minecraft/nbt/TagTypes
+	FIELD a TYPES [Lnp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getType (I)Lnp;

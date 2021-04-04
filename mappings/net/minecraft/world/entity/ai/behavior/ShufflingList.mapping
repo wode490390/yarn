@@ -1,0 +1,38 @@
+CLASS awo net/minecraft/world/entity/ai/behavior/ShufflingList
+	FIELD a entries Ljava/util/List;
+	FIELD b random Ljava/util/Random;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a shuffle ()Lawo;
+	METHOD a lambda$shuffle$1 (Lawo$a;)V
+	METHOD a lambda$codec$0 (Lawo;)Ljava/util/List;
+	METHOD a codec (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
+	METHOD a lambda$shuffle$2 (Ljava/lang/Object;)D
+	METHOD a add (Ljava/lang/Object;I)Lawo;
+	METHOD b stream ()Ljava/util/stream/Stream;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+	CLASS a WeightedEntry
+		FIELD a data Ljava/lang/Object;
+		FIELD b weight I
+		FIELD c randWeight D
+		METHOD <init> <init> (Ljava/lang/Object;I)V
+		METHOD <init> <init> (Ljava/lang/Object;ILawo$1;)V
+		METHOD a getData ()Ljava/lang/Object;
+		METHOD a setRandom (F)V
+		METHOD a access$100 (Lawo$a;)Ljava/lang/Object;
+		METHOD a access$400 (Lawo$a;F)V
+		METHOD a codec (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
+		METHOD b getWeight ()I
+		METHOD b access$200 (Lawo$a;)I
+		METHOD c getRandWeight ()D
+		METHOD c access$300 (Lawo$a;)D
+		METHOD toString toString ()Ljava/lang/String;
+		CLASS 1 1
+			FIELD a val$elementCodec Lcom/mojang/serialization/Codec;
+			METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+			METHOD a encode (Lawo$a;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+			METHOD a lambda$decode$0 (Lcom/mojang/serialization/Dynamic;Ljava/lang/Object;)Lawo$a;
+			METHOD a lambda$decode$1 (Lcom/mojang/serialization/DynamicOps;Lawo$a;)Lcom/mojang/datafixers/util/Pair;
+			METHOD decode decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+			METHOD encode encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;

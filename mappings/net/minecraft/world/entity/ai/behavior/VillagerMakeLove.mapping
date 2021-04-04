@@ -1,0 +1,23 @@
+CLASS axi net/minecraft/world/entity/ai/behavior/VillagerMakeLove
+	FIELD a INTERACT_DIST_SQR I
+	FIELD c SPEED_MODIFIER F
+	FIELD d birthTimestamp J
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lbis;)Z
+	METHOD a canStillUse (Labj;Lbis;J)Z
+	METHOD a tryToGiveBirth (Labj;Lbis;Lbis;)V
+	METHOD a giveBedToChild (Labj;Lbis;Lgb;)V
+	METHOD a lambda$isBreedingPossible$0 (Lasj;)Z
+	METHOD a isBreedingPossible (Lbis;)Z
+	METHOD a canReach (Lbis;Lgb;)Z
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b takeVacantBed (Labj;Lbis;)Ljava/util/Optional;
+	METHOD b start (Labj;Lbis;J)V
+	METHOD b breed (Labj;Lbis;Lbis;)Ljava/util/Optional;
+	METHOD b lambda$takeVacantBed$1 (Lbis;Lgb;)Z
+	METHOD c stop (Labj;Lasy;J)V
+	METHOD c tick (Labj;Lbis;J)V
+	METHOD d tick (Labj;Lasy;J)V
+	METHOD d stop (Labj;Lbis;J)V

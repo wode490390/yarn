@@ -1,0 +1,27 @@
+CLASS cks net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+	FIELD a HARP Lcks;
+	FIELD b BASEDRUM Lcks;
+	FIELD c SNARE Lcks;
+	FIELD d HAT Lcks;
+	FIELD e BASS Lcks;
+	FIELD f FLUTE Lcks;
+	FIELD g BELL Lcks;
+	FIELD h GUITAR Lcks;
+	FIELD i CHIME Lcks;
+	FIELD j XYLOPHONE Lcks;
+	FIELD k IRON_XYLOPHONE Lcks;
+	FIELD l COW_BELL Lcks;
+	FIELD m DIDGERIDOO Lcks;
+	FIELD n BIT Lcks;
+	FIELD o BANJO Lcks;
+	FIELD p PLING Lcks;
+	FIELD q name Ljava/lang/String;
+	FIELD r soundEvent Laev;
+	FIELD s $VALUES [Lcks;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Laev;)V
+	METHOD a getSoundEvent ()Laev;
+	METHOD a byState (Lcjr;)Lcks;
+	METHOD c getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcks;
+	METHOD values values ()[Lcks;

@@ -1,0 +1,19 @@
+CLASS cbu net/minecraft/world/level/block/GrowingPlantHeadBlock
+	FIELD d AGE Lckr;
+	FIELD e MAX_AGE I
+	FIELD f growPerTickProbability D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;Lgg;Ldmr;ZD)V
+	METHOD a performBonemeal (Labj;Ljava/util/Random;Lgb;Lcjr;)V
+	METHOD a isValidBonemealTarget (Lbuv;Lgb;Lcjr;Z)Z
+	METHOD a isBonemealSuccess (Lbvr;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a getStateForPlacement (Lbvs;)Lcjr;
+	METHOD a updateBodyAfterConvertedFromHead (Lcjr;Lcjr;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a getGrowIntoState (Lcjr;Ljava/util/Random;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a getBlocksToGrowWhenBonemealed (Ljava/util/Random;)I
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD d getHeadBlock ()Lcbu;
+	METHOD d_ isRandomlyTicking (Lcjr;)Z
+	METHOD g canGrowInto (Lcjr;)Z

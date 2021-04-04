@@ -1,0 +1,11 @@
+CLASS azv net/minecraft/world/entity/ai/goal/StrollThroughVillageGoal
+	FIELD a DISTANCE_THRESHOLD I
+	FIELD b mob Latg;
+	FIELD c interval I
+	FIELD d wantedPos Lgb;
+	METHOD <init> <init> (Latg;I)V
+	METHOD a canUse ()Z
+	METHOD a lambda$canUse$0 (Labj;Lgb;)D
+	METHOD b canContinueToUse ()Z
+	METHOD e tick ()V
+	METHOD g moveRandomly ()V

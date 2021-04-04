@@ -1,0 +1,33 @@
+CLASS bmp net/minecraft/world/inventory/MenuType
+	FIELD a GENERIC_9x1 Lbmp;
+	FIELD b GENERIC_9x2 Lbmp;
+	FIELD c GENERIC_9x3 Lbmp;
+	FIELD d GENERIC_9x4 Lbmp;
+	FIELD e GENERIC_9x5 Lbmp;
+	FIELD f GENERIC_9x6 Lbmp;
+	FIELD g GENERIC_3x3 Lbmp;
+	FIELD h ANVIL Lbmp;
+	FIELD i BEACON Lbmp;
+	FIELD j BLAST_FURNACE Lbmp;
+	FIELD k BREWING_STAND Lbmp;
+	FIELD l CRAFTING Lbmp;
+	FIELD m ENCHANTMENT Lbmp;
+	FIELD n FURNACE Lbmp;
+	FIELD o GRINDSTONE Lbmp;
+	FIELD p HOPPER Lbmp;
+	FIELD q LECTERN Lbmp;
+	FIELD r LOOM Lbmp;
+	FIELD s MERCHANT Lbmp;
+	FIELD t SHULKER_BOX Lbmp;
+	FIELD u SMITHING Lbmp;
+	FIELD v SMOKER Lbmp;
+	FIELD w CARTOGRAPHY_TABLE Lbmp;
+	FIELD x STONECUTTER Lbmp;
+	FIELD y constructor Lbmp$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbmp$a;)V
+	METHOD a create (ILbje;)Lbll;
+	METHOD a register (Ljava/lang/String;Lbmp$a;)Lbmp;
+	METHOD b lambda$static$0 (ILbje;)Lbmm;
+	CLASS a MenuSupplier
+		METHOD create create (ILbje;)Lbll;

@@ -1,0 +1,23 @@
+CLASS bgh net/minecraft/world/entity/monster/AbstractIllager
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD ec getMobType ()Latc;
+	METHOD m getArmPose ()Lbgh$a;
+	METHOD u registerGoals ()V
+	CLASS a IllagerArmPose
+		FIELD a CROSSED Lbgh$a;
+		FIELD b ATTACKING Lbgh$a;
+		FIELD c SPELLCASTING Lbgh$a;
+		FIELD d BOW_AND_ARROW Lbgh$a;
+		FIELD e CROSSBOW_HOLD Lbgh$a;
+		FIELD f CROSSBOW_CHARGE Lbgh$a;
+		FIELD g CELEBRATING Lbgh$a;
+		FIELD h NEUTRAL Lbgh$a;
+		FIELD i $VALUES [Lbgh$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbgh$a;
+		METHOD values values ()[Lbgh$a;
+	CLASS b RaiderOpenDoorGoal
+		FIELD a this$0 Lbgh;
+		METHOD <init> <init> (Lbgh;Lbkl;)V
+		METHOD a canUse ()Z

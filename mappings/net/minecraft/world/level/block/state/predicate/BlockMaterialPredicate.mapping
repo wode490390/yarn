@@ -1,0 +1,13 @@
+CLASS cjz net/minecraft/world/level/block/state/predicate/BlockMaterialPredicate
+	FIELD a AIR Lcjz;
+	FIELD b material Lddu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lddu;)V
+	METHOD <init> <init> (Lddu;Lcjz$1;)V
+	METHOD a test (Lcjr;)Z
+	METHOD a forMaterial (Lddu;)Lcjz;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+		METHOD <init> <init> (Lddu;)V
+		METHOD a test (Lcjr;)Z
+		METHOD test test (Ljava/lang/Object;)Z

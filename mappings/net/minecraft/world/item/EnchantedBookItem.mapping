@@ -1,0 +1,10 @@
+CLASS bov net/minecraft/world/item/EnchantedBookItem
+	FIELD a TAG_STORED_ENCHANTMENTS Ljava/lang/String;
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a fillItemCategory (Lboh;Lgn;)V
+	METHOD a addEnchantment (Lbpr;Lbto;)V
+	METHOD a appendHoverText (Lbpr;Lbvr;Ljava/util/List;Lbre;)V
+	METHOD a createForEnchantment (Lbto;)Lbpr;
+	METHOD d getEnchantments (Lbpr;)Lnb;
+	METHOD f_ isEnchantable (Lbpr;)Z
+	METHOD i isFoil (Lbpr;)Z

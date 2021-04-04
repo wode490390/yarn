@@ -1,0 +1,4 @@
+CLASS de net/minecraft/commands/CommandRuntimeException
+	FIELD a message Lon;
+	METHOD <init> <init> (Lon;)V
+	METHOD a getComponent ()Lon;

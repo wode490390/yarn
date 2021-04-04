@@ -1,0 +1,32 @@
+CLASS dd net/minecraft/commands/CommandFunction
+	FIELD a entries [Ldd$c;
+	FIELD b id Lwp;
+	METHOD <init> <init> (Lwp;[Ldd$c;)V
+	METHOD a getId ()Lwp;
+	METHOD a access$000 (Ldd;)Lwp;
+	METHOD a fromLines (Lwp;Lcom/mojang/brigadier/CommandDispatcher;Ldg;Ljava/util/List;)Ldd;
+	METHOD b getEntries ()[Ldd$c;
+	CLASS a CacheableFunction
+		FIELD a NONE Ldd$a;
+		FIELD b id Lwp;
+		FIELD c resolved Z
+		FIELD d function Ljava/util/Optional;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ldd;)V
+		METHOD <init> <init> (Lwp;)V
+		METHOD a getId ()Lwp;
+		METHOD a lambda$getId$0 (Ldd;)Lwp;
+		METHOD a get (Lxb;)Ljava/util/Optional;
+	CLASS b CommandEntry
+		FIELD a parse Lcom/mojang/brigadier/ParseResults;
+		METHOD <init> <init> (Lcom/mojang/brigadier/ParseResults;)V
+		METHOD a execute (Lxb;Ldg;Ljava/util/Deque;I)V
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c Entry
+		METHOD a execute (Lxb;Ldg;Ljava/util/Deque;I)V
+	CLASS d FunctionEntry
+		FIELD a function Ldd$a;
+		METHOD <init> <init> (Ldd;)V
+		METHOD a lambda$execute$0 (ILjava/util/Deque;Lxb;Ldg;Ldd;)V
+		METHOD a execute (Lxb;Ldg;Ljava/util/Deque;I)V
+		METHOD toString toString ()Ljava/lang/String;

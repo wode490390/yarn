@@ -1,0 +1,8 @@
+CLASS cei net/minecraft/world/level/block/RootsBlock
+	FIELD a AABB_OFFSET F
+	FIELD b SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD ak_ getOffsetType ()Lcjq$b;
+	METHOD d mayPlaceOn (Lcjr;Lbuv;Lgb;)Z

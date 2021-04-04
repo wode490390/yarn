@@ -1,0 +1,54 @@
+CLASS ou net/minecraft/network/chat/NbtComponent
+	FIELD d interpreting Z
+	FIELD e nbtPathPattern Ljava/lang/String;
+	FIELD f compiledNbtPath Ldw$g;
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD h SEPARATOR Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;Ldw$g;Z)V
+	METHOD <init> <init> (Ljava/lang/String;Z)V
+	METHOD a getData (Ldg;)Ljava/util/stream/Stream;
+	METHOD a resolve (Ldg;Lasl;I)Lot;
+	METHOD a lambda$resolve$1 (Ldg;Lasl;ILjava/lang/String;)Ljava/util/stream/Stream;
+	METHOD a lambda$resolve$0 (Lmv;)Ljava/util/stream/Stream;
+	METHOD a lambda$resolve$2 (Lot;Lot;)Lot;
+	METHOD d compileNbtPath (Ljava/lang/String;)Ldw$g;
+	METHOD h getNbtPath ()Ljava/lang/String;
+	METHOD i isInterpreting ()Z
+	CLASS a BlockNbtComponent
+		FIELD g posPattern Ljava/lang/String;
+		FIELD h compiledPos Ler;
+		METHOD <init> <init> (Ljava/lang/String;Ldw$g;ZLjava/lang/String;Ler;)V
+		METHOD <init> <init> (Ljava/lang/String;ZLjava/lang/String;)V
+		METHOD a getData (Ldg;)Ljava/util/stream/Stream;
+		METHOD d plainCopy ()Loj;
+		METHOD d compilePos (Ljava/lang/String;)Ler;
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD g plainCopy ()Lot;
+		METHOD j getPos ()Ljava/lang/String;
+		METHOD k plainCopy ()Lou$a;
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS b EntityNbtComponent
+		FIELD g selectorPattern Ljava/lang/String;
+		FIELD h compiledSelector Lfh;
+		METHOD <init> <init> (Ljava/lang/String;Ldw$g;ZLjava/lang/String;Lfh;)V
+		METHOD <init> <init> (Ljava/lang/String;ZLjava/lang/String;)V
+		METHOD a getData (Ldg;)Ljava/util/stream/Stream;
+		METHOD d plainCopy ()Loj;
+		METHOD d compileSelector (Ljava/lang/String;)Lfh;
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD g plainCopy ()Lot;
+		METHOD j getSelector ()Ljava/lang/String;
+		METHOD k plainCopy ()Lou$b;
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c StorageNbtComponent
+		FIELD g id Lwp;
+		METHOD <init> <init> (Ljava/lang/String;Ldw$g;ZLwp;)V
+		METHOD <init> <init> (Ljava/lang/String;ZLwp;)V
+		METHOD a getData (Ldg;)Ljava/util/stream/Stream;
+		METHOD d plainCopy ()Loj;
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD g plainCopy ()Lot;
+		METHOD j getId ()Lwp;
+		METHOD k plainCopy ()Lou$c;
+		METHOD toString toString ()Ljava/lang/String;

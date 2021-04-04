@@ -1,0 +1,14 @@
+CLASS axp net/minecraft/world/entity/ai/control/BodyRotationControl
+	FIELD a mob Lasz;
+	FIELD b HEAD_STABLE_ANGLE I
+	FIELD c DELAY_UNTIL_STARTING_TO_FACE_FORWARD I
+	FIELD d HOW_LONG_IT_TAKES_TO_FACE_FORWARD I
+	FIELD e headStableTime I
+	FIELD f lastStableYHeadRot F
+	METHOD <init> <init> (Lasz;)V
+	METHOD a clientTick ()V
+	METHOD b rotateBodyIfNecessary ()V
+	METHOD c rotateHeadIfNecessary ()V
+	METHOD d rotateHeadTowardsFront ()V
+	METHOD e notCarryingMobPassengers ()Z
+	METHOD f isMoving ()Z

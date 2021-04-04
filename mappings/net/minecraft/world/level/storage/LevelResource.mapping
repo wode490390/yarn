@@ -1,0 +1,15 @@
+CLASS dgx net/minecraft/world/level/storage/LevelResource
+	FIELD a PLAYER_ADVANCEMENTS_DIR Ldgx;
+	FIELD b PLAYER_STATS_DIR Ldgx;
+	FIELD c PLAYER_DATA_DIR Ldgx;
+	FIELD d PLAYER_OLD_DATA_DIR Ldgx;
+	FIELD e LEVEL_DATA_FILE Ldgx;
+	FIELD f GENERATED_DIR Ldgx;
+	FIELD g DATAPACK_DIR Ldgx;
+	FIELD h MAP_RESOURCE_FILE Ldgx;
+	FIELD i ROOT Ldgx;
+	FIELD j id Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a getId ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;

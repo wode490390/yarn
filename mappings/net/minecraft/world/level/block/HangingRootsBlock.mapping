@@ -1,0 +1,8 @@
+CLASS cbw net/minecraft/world/level/block/HangingRootsBlock
+	FIELD a SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD ak_ getOffsetType ()Lcjq$b;

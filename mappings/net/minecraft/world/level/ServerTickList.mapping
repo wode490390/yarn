@@ -1,0 +1,23 @@
+CLASS bwg net/minecraft/world/level/ServerTickList
+	FIELD a MAX_TICK_BLOCKS_PER_TICK I
+	FIELD b ignore Ljava/util/function/Predicate;
+	FIELD c toId Ljava/util/function/Function;
+	FIELD d tickNextTickSet Ljava/util/Set;
+	FIELD e tickNextTickList Ljava/util/Set;
+	FIELD f level Labj;
+	FIELD g currentlyTicking Ljava/util/Queue;
+	FIELD h alreadyTicked Ljava/util/List;
+	FIELD i ticker Ljava/util/function/Consumer;
+	METHOD <init> <init> (Labj;Ljava/util/function/Predicate;Ljava/util/function/Function;Ljava/util/function/Consumer;)V
+	METHOD a size ()I
+	METHOD a save (Lbuw;)Lnb;
+	METHOD a fetchTicksInChunk (Lbuw;ZZ)Ljava/util/List;
+	METHOD a addTickData (Lbwk;)V
+	METHOD a copy (Lczp;Lgb;)V
+	METHOD a fetchTicksInArea (Lczp;ZZ)Ljava/util/List;
+	METHOD a hasScheduledTick (Lgb;Ljava/lang/Object;)Z
+	METHOD a scheduleTick (Lgb;Ljava/lang/Object;ILbwl;)V
+	METHOD a fetchTicksInArea (Ljava/util/List;Ljava/util/Collection;Lczp;Z)Ljava/util/List;
+	METHOD a saveTickList (Ljava/util/function/Function;Ljava/lang/Iterable;J)Lnb;
+	METHOD b tick ()V
+	METHOD b willTickThisTick (Lgb;Ljava/lang/Object;)Z

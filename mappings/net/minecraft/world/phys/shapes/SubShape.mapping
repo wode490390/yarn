@@ -1,0 +1,14 @@
+CLASS dmq net/minecraft/world/phys/shapes/SubShape
+	FIELD d parent Ldmh;
+	FIELD e startX I
+	FIELD f startY I
+	FIELD g startZ I
+	FIELD h endX I
+	FIELD i endY I
+	FIELD j endZ I
+	METHOD <init> <init> (Ldmh;IIIIII)V
+	METHOD a firstFull (Lgg$a;)I
+	METHOD a clampToShape (Lgg$a;I)I
+	METHOD b isFull (III)Z
+	METHOD b lastFull (Lgg$a;)I
+	METHOD c fill (III)V

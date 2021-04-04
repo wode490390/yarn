@@ -1,0 +1,12 @@
+CLASS bqf net/minecraft/world/item/ProjectileWeaponItem
+	FIELD c ARROW_ONLY Ljava/util/function/Predicate;
+	FIELD d ARROW_OR_FIREWORK Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a getHeldProjectile (Lasy;Ljava/util/function/Predicate;)Lbpr;
+	METHOD b getAllSupportedProjectiles ()Ljava/util/function/Predicate;
+	METHOD c getEnchantmentValue ()I
+	METHOD d getDefaultProjectileRange ()I
+	METHOD d lambda$static$1 (Lbpr;)Z
+	METHOD e getSupportedHeldProjectiles ()Ljava/util/function/Predicate;
+	METHOD k lambda$static$0 (Lbpr;)Z

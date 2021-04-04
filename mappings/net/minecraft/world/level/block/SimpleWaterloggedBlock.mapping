@@ -1,0 +1,5 @@
+CLASS cet net/minecraft/world/level/block/SimpleWaterloggedBlock
+	METHOD a canPlaceLiquid (Lbuv;Lgb;Lcjr;Lddp;)Z
+	METHOD a placeLiquid (Lbvs;Lgb;Lcjr;Lddq;)Z
+	METHOD c getPickupSound ()Ljava/util/Optional;
+	METHOD c pickupBlock (Lbvs;Lgb;Lcjr;)Lbpr;

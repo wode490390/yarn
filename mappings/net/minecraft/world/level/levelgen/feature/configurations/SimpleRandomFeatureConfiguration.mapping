@@ -1,0 +1,8 @@
+CLASS cva net/minecraft/world/level/levelgen/feature/configurations/SimpleRandomFeatureConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b features Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a lambda$static$0 (Lcva;)Ljava/util/List;
+	METHOD a lambda$getFeatures$1 (Ljava/util/function/Supplier;)Ljava/util/stream/Stream;
+	METHOD as_ getFeatures ()Ljava/util/stream/Stream;

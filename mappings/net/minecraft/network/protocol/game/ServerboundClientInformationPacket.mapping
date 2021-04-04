@@ -1,0 +1,21 @@
+CLASS tn net/minecraft/network/protocol/game/ServerboundClientInformationPacket
+	FIELD a MAX_LANGUAGE_LENGTH I
+	FIELD b language Ljava/lang/String;
+	FIELD c viewDistance I
+	FIELD d chatVisibility Lbjd;
+	FIELD e chatColors Z
+	FIELD f modelCustomisation I
+	FIELD g mainHand Lasu;
+	FIELD h textFilteringEnabled Z
+	METHOD <init> <init> (Ljava/lang/String;ILbjd;ZILasu;Z)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getLanguage ()Ljava/lang/String;
+	METHOD c getViewDistance ()I
+	METHOD d getChatVisibility ()Lbjd;
+	METHOD e getChatColors ()Z
+	METHOD f getModelCustomisation ()I
+	METHOD g getMainHand ()Lasu;
+	METHOD h isTextFilteringEnabled ()Z

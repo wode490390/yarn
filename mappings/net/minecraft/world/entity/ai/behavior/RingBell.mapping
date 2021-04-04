@@ -1,0 +1,6 @@
+CLASS awa net/minecraft/world/entity/ai/behavior/RingBell
+	FIELD a RING_BELL_FROM_DISTANCE I
+	FIELD c BELL_RING_CHANCE F
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V

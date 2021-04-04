@@ -1,0 +1,6 @@
+CLASS apz net/minecraft/util/random/WeightedRandom
+	METHOD <init> <init> ()V
+	METHOD a getTotalWeight (Ljava/util/List;)I
+	METHOD a getWeightedItem (Ljava/util/List;I)Ljava/util/Optional;
+	METHOD a getRandomItem (Ljava/util/Random;Ljava/util/List;)Ljava/util/Optional;
+	METHOD a getRandomItem (Ljava/util/Random;Ljava/util/List;I)Ljava/util/Optional;

@@ -1,0 +1,3 @@
+CLASS cjc net/minecraft/world/level/block/grower/BirchTreeGrower
+	METHOD <init> <init> ()V
+	METHOD a getConfiguredFeature (Ljava/util/Random;Z)Lcqg;

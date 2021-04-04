@@ -1,0 +1,17 @@
+CLASS agh net/minecraft/util/ExtraCodecs
+	METHOD <init> <init> ()V
+	METHOD a xor (Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
+	CLASS a XorCodec
+		FIELD a first Lcom/mojang/serialization/Codec;
+		FIELD b second Lcom/mojang/serialization/Codec;
+		METHOD <init> <init> (Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/Codec;)V
+		METHOD a encode (Lcom/mojang/datafixers/util/Either;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+		METHOD a lambda$decode$1 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+		METHOD a lambda$encode$3 (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+		METHOD b lambda$decode$0 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+		METHOD b lambda$encode$2 (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+		METHOD decode decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+		METHOD encode encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD hashCode hashCode ()I
+		METHOD toString toString ()Ljava/lang/String;

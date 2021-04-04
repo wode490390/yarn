@@ -1,0 +1,14 @@
+CLASS cpw net/minecraft/world/level/levelgen/feature/BasaltColumnsFeature
+	FIELD a CANNOT_PLACE_ON Lcom/google/common/collect/ImmutableList;
+	FIELD b CLUSTERED_REACH I
+	FIELD c CLUSTERED_SIZE I
+	FIELD d UNCLUSTERED_REACH I
+	FIELD e UNCLUSTERED_SIZE I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a canPlaceAt (Lbvs;ILgb$a;)Z
+	METHOD a findSurface (Lbvs;ILgb$a;I)Lgb;
+	METHOD a isAirOrLavaOcean (Lbvs;ILgb;)Z
+	METHOD a placeColumn (Lbvs;ILgb;II)Z
+	METHOD a findAir (Lbvs;Lgb$a;I)Lgb;
+	METHOD a place (Lcqz;)Z

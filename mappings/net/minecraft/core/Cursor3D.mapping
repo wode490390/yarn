@@ -1,0 +1,22 @@
+CLASS ge net/minecraft/core/Cursor3D
+	FIELD a TYPE_INSIDE I
+	FIELD b TYPE_FACE I
+	FIELD c TYPE_EDGE I
+	FIELD d TYPE_CORNER I
+	FIELD e originX I
+	FIELD f originY I
+	FIELD g originZ I
+	FIELD h width I
+	FIELD i height I
+	FIELD j depth I
+	FIELD k end I
+	FIELD l index I
+	FIELD m x I
+	FIELD n y I
+	FIELD o z I
+	METHOD <init> <init> (IIIIII)V
+	METHOD a advance ()Z
+	METHOD b nextX ()I
+	METHOD c nextY ()I
+	METHOD d nextZ ()I
+	METHOD e getNextType ()I

@@ -1,0 +1,13 @@
+CLASS ts net/minecraft/network/protocol/game/ServerboundCustomPayloadPacket
+	FIELD a BRAND Lwp;
+	FIELD b MAX_PAYLOAD_SIZE I
+	FIELD c identifier Lwp;
+	FIELD d data Lob;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lwp;Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getIdentifier ()Lwp;
+	METHOD c getData ()Lob;

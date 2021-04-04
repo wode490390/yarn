@@ -1,0 +1,25 @@
+CLASS ddq net/minecraft/world/level/material/FluidState
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b AMOUNT_MAX I
+	FIELD g AMOUNT_FULL I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lddp;Lcom/google/common/collect/ImmutableMap;Lcom/mojang/serialization/MapCodec;)V
+	METHOD a getType ()Lddp;
+	METHOD a is (Lafs;)Z
+	METHOD a getHeight (Lbuv;Lgb;)F
+	METHOD a canBeReplacedWith (Lbuv;Lgb;Lddp;Lgg;)Z
+	METHOD a tick (Lbvr;Lgb;)V
+	METHOD a animateTick (Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a isSourceOfType (Lddp;)Z
+	METHOD b isSource ()Z
+	METHOD b shouldRenderBackwardUpFace (Lbuv;Lgb;)Z
+	METHOD b randomTick (Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD c isEmpty ()Z
+	METHOD c getFlow (Lbuv;Lgb;)Ldly;
+	METHOD d getOwnHeight ()F
+	METHOD d getShape (Lbuv;Lgb;)Ldmr;
+	METHOD e getAmount ()I
+	METHOD f isRandomlyTicking ()Z
+	METHOD g createLegacyBlock ()Lcjr;
+	METHOD h getDripParticle ()Lho;
+	METHOD i getExplosionResistance ()F

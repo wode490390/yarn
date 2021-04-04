@@ -1,0 +1,11 @@
+CLASS dav net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b STRUCTURE_BLOCK Ldav;
+	FIELD c AIR Ldav;
+	FIELD d STRUCTURE_AND_AIR Ldav;
+	FIELD e toIgnore Lcom/google/common/collect/ImmutableList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a getType ()Ldbr;
+	METHOD a processBlock (Lbvu;Lgb;Lgb;Ldbs$c;Ldbs$c;Ldbo;)Ldbs$c;
+	METHOD a lambda$static$0 (Ldav;)Ljava/util/List;

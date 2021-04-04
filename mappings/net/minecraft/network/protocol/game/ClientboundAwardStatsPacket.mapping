@@ -1,0 +1,12 @@
+CLASS pq net/minecraft/network/protocol/game/ClientboundAwardStatsPacket
+	FIELD a stats Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD <init> <init> (Lit/unimi/dsi/fastutil/objects/Object2IntMap;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a getStatIdCap (Lafd;)I
+	METHOD a readStatCap (Laff;I)Lafd;
+	METHOD a write (Lob;)V
+	METHOD a lambda$write$1 (Lob;Lafd;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getStats ()Ljava/util/Map;
+	METHOD b lambda$new$0 (Lob;)Lafd;

@@ -1,0 +1,13 @@
+CLASS air net/minecraft/util/datafix/fixes/ChunkToProtochunkFix
+	FIELD a NUM_SECTIONS I
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$5 ()Ljava/lang/IllegalStateException;
+	METHOD a lambda$null$2 (I)Lit/unimi/dsi/fastutil/shorts/ShortArrayList;
+	METHOD a packOffsetCoordinates (III)S
+	METHOD a lambda$makeRule$7 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$6 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$0 (Lcom/mojang/datafixers/Typed;)Ljava/util/Optional;
+	METHOD a lambda$null$1 (Lcom/mojang/serialization/Dynamic;)Ljava/util/Optional;
+	METHOD a lambda$null$4 (Lcom/mojang/serialization/Dynamic;Lit/unimi/dsi/fastutil/shorts/ShortList;)Lcom/mojang/serialization/Dynamic;
+	METHOD a lambda$null$3 (Ljava/util/List;Lcom/mojang/serialization/Dynamic;)V
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

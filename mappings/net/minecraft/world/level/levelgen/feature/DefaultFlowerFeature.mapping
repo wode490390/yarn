@@ -1,0 +1,10 @@
+CLASS cqn net/minecraft/world/level/levelgen/feature/DefaultFlowerFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a isValid (Lbvs;Lgb;Lcua;)Z
+	METHOD a isValid (Lbvs;Lgb;Lcus;)Z
+	METHOD a getCount (Lcua;)I
+	METHOD a getCount (Lcus;)I
+	METHOD a getPos (Ljava/util/Random;Lgb;Lcua;)Lgb;
+	METHOD a getPos (Ljava/util/Random;Lgb;Lcus;)Lgb;
+	METHOD b getRandomFlower (Ljava/util/Random;Lgb;Lcua;)Lcjr;
+	METHOD b getRandomFlower (Ljava/util/Random;Lgb;Lcus;)Lcjr;

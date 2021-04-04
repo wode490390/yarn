@@ -1,0 +1,4 @@
+CLASS asa net/minecraft/world/effect/AttackDamageMobEffect
+	FIELD a multiplier D
+	METHOD <init> <init> (Lase;ID)V
+	METHOD a getAttributeModifierValue (ILatw;)D

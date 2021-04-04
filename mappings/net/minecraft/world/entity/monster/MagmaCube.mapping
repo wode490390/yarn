@@ -1,0 +1,21 @@
+CLASS bgy net/minecraft/world/entity/monster/MagmaCube
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD M getDefaultLootTable ()Lwp;
+	METHOD a causeFallDamage (FFLarv;)Z
+	METHOD a setSize (IZ)V
+	METHOD a checkSpawnObstruction (Lbvu;)Z
+	METHOD aU getBrightness ()F
+	METHOD b checkMagmaCubeSpawnRules (Lasp;Lbvs;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD bv isOnFire ()Z
+	METHOD c jumpInLiquid (Lafs;)V
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD ek jumpFromGround ()V
+	METHOD fl decreaseSquish ()V
+	METHOD fm isDealsDamage ()Z
+	METHOD fn getAttackDamage ()F
+	METHOD fo getSquishSound ()Laev;
+	METHOD fp getJumpSound ()Laev;
+	METHOD m createAttributes ()Latx$a;
+	METHOD o getParticleType ()Lho;
+	METHOD q getDeathSound ()Laev;
+	METHOD s getJumpDelay ()I

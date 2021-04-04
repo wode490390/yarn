@@ -1,0 +1,16 @@
+CLASS aba net/minecraft/server/level/ColumnPos
+	FIELD a x I
+	FIELD b z I
+	FIELD c COORD_BITS J
+	FIELD d COORD_MASK J
+	FIELD e HASH_A I
+	FIELD f HASH_C I
+	FIELD g HASH_Z_XOR I
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> (Lgb;)V
+	METHOD a toChunkPos ()Lbuw;
+	METHOD a asLong (II)J
+	METHOD b toLong ()J
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

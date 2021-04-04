@@ -1,0 +1,7 @@
+CLASS iv net/minecraft/data/models/ItemModelGenerators
+	FIELD a output Ljava/util/function/BiConsumer;
+	METHOD <init> <init> (Ljava/util/function/BiConsumer;)V
+	METHOD a run ()V
+	METHOD a generateFlatItem (Lbpn;Lbpn;Ljj;)V
+	METHOD a generateFlatItem (Lbpn;Ljava/lang/String;Ljj;)V
+	METHOD a generateFlatItem (Lbpn;Ljj;)V

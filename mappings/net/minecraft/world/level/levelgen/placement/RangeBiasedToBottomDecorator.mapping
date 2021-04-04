@@ -1,0 +1,3 @@
+CLASS czc net/minecraft/world/level/levelgen/placement/RangeBiasedToBottomDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a y (Ljava/util/Random;III)I

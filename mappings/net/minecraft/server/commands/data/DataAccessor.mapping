@@ -1,0 +1,6 @@
+CLASS aad net/minecraft/server/commands/data/DataAccessor
+	METHOD a getData ()Lmv;
+	METHOD a getPrintSuccess (Ldw$g;DI)Lon;
+	METHOD a setData (Lmv;)V
+	METHOD a getPrintSuccess (Lnn;)Lon;
+	METHOD b getModifiedSuccess ()Lon;

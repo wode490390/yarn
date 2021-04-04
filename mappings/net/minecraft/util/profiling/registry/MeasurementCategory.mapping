@@ -1,0 +1,10 @@
+CLASS apr net/minecraft/util/profiling/registry/MeasurementCategory
+	FIELD a EVENT_LOOP Lapr;
+	FIELD b MAIL_BOX Lapr;
+	FIELD c name Ljava/lang/String;
+	FIELD d $VALUES [Lapr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lapr;
+	METHOD values values ()[Lapr;

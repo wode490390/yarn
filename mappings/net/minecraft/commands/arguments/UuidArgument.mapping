@@ -1,0 +1,11 @@
+CLASS ej net/minecraft/commands/arguments/UuidArgument
+	FIELD a ERROR_INVALID_UUID Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b EXAMPLES Ljava/util/Collection;
+	FIELD c ALLOWED_CHARACTERS Ljava/util/regex/Pattern;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a uuid ()Lej;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ljava/util/UUID;
+	METHOD a getUuid (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/UUID;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

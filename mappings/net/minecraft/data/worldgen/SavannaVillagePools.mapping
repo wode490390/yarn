@@ -1,0 +1,5 @@
+CLASS la net/minecraft/data/worldgen/SavannaVillagePools
+	FIELD a START Lcwv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V

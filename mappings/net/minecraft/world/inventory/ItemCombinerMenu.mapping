@@ -1,0 +1,34 @@
+CLASS bml net/minecraft/world/inventory/ItemCombinerMenu
+	FIELD k INV_SLOT_START I
+	FIELD l INPUT_SLOT I
+	FIELD m ADDITIONAL_SLOT I
+	FIELD n RESULT_SLOT I
+	FIELD o resultSlots Lbmx;
+	FIELD p inputSlots Laqz;
+	FIELD q access Lblw;
+	FIELD r player Lbjf;
+	FIELD s INV_SLOT_END I
+	FIELD t USE_ROW_SLOT_START I
+	FIELD u USE_ROW_SLOT_END I
+	METHOD <init> <init> (Lbmp;ILbje;Lblw;)V
+	METHOD a slotsChanged (Laqz;)V
+	METHOD a stillValid (Lbjf;)Z
+	METHOD a onTake (Lbjf;Lbpr;)V
+	METHOD a lambda$stillValid$1 (Lbjf;Lbvr;Lgb;)Ljava/lang/Boolean;
+	METHOD a mayPickup (Lbjf;Z)Z
+	METHOD a isValidBlock (Lcjr;)Z
+	METHOD b removed (Lbjf;)V
+	METHOD b quickMoveStack (Lbjf;I)Lbpr;
+	METHOD b lambda$removed$0 (Lbjf;Lbvr;Lgb;)V
+	METHOD c shouldQuickMoveToAdditionalSlot (Lbpr;)Z
+	METHOD i createResult ()V
+	CLASS 1 1
+		FIELD b this$0 Lbml;
+		METHOD <init> <init> (Lbml;I)V
+		METHOD Z_ setChanged ()V
+	CLASS 2 2
+		FIELD a this$0 Lbml;
+		METHOD <init> <init> (Lbml;Laqz;III)V
+		METHOD a mayPickup (Lbjf;)Z
+		METHOD a onTake (Lbjf;Lbpr;)V
+		METHOD a mayPlace (Lbpr;)Z

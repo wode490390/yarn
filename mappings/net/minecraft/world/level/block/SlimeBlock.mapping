@@ -1,0 +1,6 @@
+CLASS cew net/minecraft/world/level/block/SlimeBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a bounceUp (Lasl;)V
+	METHOD a updateEntityAfterFallOn (Lbuv;Lasl;)V
+	METHOD a stepOn (Lbvr;Lgb;Lasl;)V
+	METHOD a fallOn (Lbvr;Lgb;Lasl;F)V

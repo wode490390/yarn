@@ -1,0 +1,26 @@
+CLASS agj net/minecraft/util/FormattedCharSequence
+	FIELD a EMPTY Lagj;
+	METHOD <clinit> <clinit> ()V
+	METHOD a composite ()Lagj;
+	METHOD a codepoint (ILox;)Lagj;
+	METHOD a composite (Lagj;)Lagj;
+	METHOD a composite (Lagj;Lagj;)Lagj;
+	METHOD a lambda$fromPair$7 (Lagj;Lagj;Lagk;)Z
+	METHOD a lambda$static$0 (Lagk;)Z
+	METHOD a decorateOutput (Lagk;Lit/unimi/dsi/fastutil/ints/Int2IntFunction;)Lagk;
+	METHOD a lambda$decorateOutput$6 (Lagk;Lit/unimi/dsi/fastutil/ints/Int2IntFunction;ILox;I)Z
+	METHOD a forward (Ljava/lang/String;Lox;)Lagj;
+	METHOD a lambda$backward$4 (Ljava/lang/String;Lox;Lagk;)Z
+	METHOD a forward (Ljava/lang/String;Lox;Lit/unimi/dsi/fastutil/ints/Int2IntFunction;)Lagj;
+	METHOD a lambda$backward$5 (Ljava/lang/String;Lox;Lit/unimi/dsi/fastutil/ints/Int2IntFunction;Lagk;)Z
+	METHOD a composite (Ljava/util/List;)Lagj;
+	METHOD a lambda$fromList$8 (Ljava/util/List;Lagk;)Z
+	METHOD a lambda$codepoint$1 (Lox;ILagk;)Z
+	METHOD a composite ([Lagj;)Lagj;
+	METHOD accept accept (Lagk;)Z
+	METHOD b fromPair (Lagj;Lagj;)Lagj;
+	METHOD b backward (Ljava/lang/String;Lox;)Lagj;
+	METHOD b lambda$forward$2 (Ljava/lang/String;Lox;Lagk;)Z
+	METHOD b backward (Ljava/lang/String;Lox;Lit/unimi/dsi/fastutil/ints/Int2IntFunction;)Lagj;
+	METHOD b lambda$forward$3 (Ljava/lang/String;Lox;Lit/unimi/dsi/fastutil/ints/Int2IntFunction;Lagk;)Z
+	METHOD b fromList (Ljava/util/List;)Lagj;

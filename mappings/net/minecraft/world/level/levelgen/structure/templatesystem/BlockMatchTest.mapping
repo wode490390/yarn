@@ -1,0 +1,8 @@
+CLASS daw net/minecraft/world/level/levelgen/structure/templatesystem/BlockMatchTest
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b block Lbyq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbyq;)V
+	METHOD a getType ()Ldbm;
+	METHOD a test (Lcjr;Ljava/util/Random;)Z
+	METHOD a lambda$static$0 (Ldaw;)Lbyq;

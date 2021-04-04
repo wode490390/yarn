@@ -1,0 +1,11 @@
+CLASS daz net/minecraft/world/level/levelgen/structure/templatesystem/GravityProcessor
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b heightmap Lcor$a;
+	FIELD c offset I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcor$a;I)V
+	METHOD a getType ()Ldbr;
+	METHOD a processBlock (Lbvu;Lgb;Lgb;Ldbs$c;Ldbs$c;Ldbo;)Ldbs$c;
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$1 (Ldaz;)Ljava/lang/Integer;
+	METHOD b lambda$null$0 (Ldaz;)Lcor$a;

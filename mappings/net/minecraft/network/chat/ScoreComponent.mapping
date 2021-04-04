@@ -1,0 +1,19 @@
+CLASS ov net/minecraft/network/chat/ScoreComponent
+	FIELD d SCORER_PLACEHOLDER Ljava/lang/String;
+	FIELD e name Ljava/lang/String;
+	FIELD f selector Lfh;
+	FIELD g objective Ljava/lang/String;
+	METHOD <init> <init> (Ljava/lang/String;Lfh;Ljava/lang/String;)V
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a findTargetName (Ldg;)Ljava/lang/String;
+	METHOD a resolve (Ldg;Lasl;I)Lot;
+	METHOD a getScore (Ljava/lang/String;Ldg;)Ljava/lang/String;
+	METHOD d plainCopy ()Loj;
+	METHOD d parseSelector (Ljava/lang/String;)Lfh;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD g plainCopy ()Lot;
+	METHOD h getName ()Ljava/lang/String;
+	METHOD i getSelector ()Lfh;
+	METHOD j getObjective ()Ljava/lang/String;
+	METHOD k plainCopy ()Lov;
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,6 @@
+CLASS bns net/minecraft/world/item/BannerItem
+	FIELD c PATTERN_PREFIX Ljava/lang/String;
+	METHOD <init> <init> (Lbyq;Lbyq;Lbpn$a;)V
+	METHOD a appendHoverText (Lbpr;Lbvr;Ljava/util/List;Lbre;)V
+	METHOD a appendHoverTextFromBannerBlockEntityTag (Lbpr;Ljava/util/List;)V
+	METHOD b getColor ()Lbon;

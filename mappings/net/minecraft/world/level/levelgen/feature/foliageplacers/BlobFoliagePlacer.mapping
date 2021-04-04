@@ -1,0 +1,12 @@
+CLASS cvq net/minecraft/world/level/levelgen/feature/foliageplacers/BlobFoliagePlacer
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b height I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laqo;Laqo;I)V
+	METHOD a type ()Lcvv;
+	METHOD a createFoliage (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Lcvg;ILcvu$a;III)V
+	METHOD a blobParts (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/Products$P3;
+	METHOD a lambda$blobParts$1 (Lcvq;)Ljava/lang/Integer;
+	METHOD a shouldSkipLocation (Ljava/util/Random;IIIIZ)Z
+	METHOD a foliageHeight (Ljava/util/Random;ILcvg;)I
+	METHOD c lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;

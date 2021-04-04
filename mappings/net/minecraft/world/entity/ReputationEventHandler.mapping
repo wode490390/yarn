@@ -1,0 +1,2 @@
+CLASS atl net/minecraft/world/entity/ReputationEventHandler
+	METHOD a onReputationEventFrom (Lbcl;Lasl;)V

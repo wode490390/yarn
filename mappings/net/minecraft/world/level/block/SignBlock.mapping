@@ -1,0 +1,14 @@
+CLASS ces net/minecraft/world/level/block/SignBlock
+	FIELD a WATERLOGGED Lcki;
+	FIELD b AABB_OFFSET F
+	FIELD c SHAPE Ldmr;
+	FIELD d type Lcld;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;Lcld;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;
+	METHOD al_ isPossibleToRespawnInThis ()Z
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD e type ()Lcld;

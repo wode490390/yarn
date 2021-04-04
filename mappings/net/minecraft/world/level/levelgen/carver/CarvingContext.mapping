@@ -1,0 +1,5 @@
+CLASS cpm net/minecraft/world/level/levelgen/carver/CarvingContext
+	FIELD a generator Lclm;
+	METHOD <init> <init> (Lclm;)V
+	METHOD a getMinGenY ()I
+	METHOD b getGenDepth ()I

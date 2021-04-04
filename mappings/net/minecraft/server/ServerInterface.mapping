@@ -1,0 +1,12 @@
+CLASS xc net/minecraft/server/ServerInterface
+	METHOD H getServerVersion ()Ljava/lang/String;
+	METHOD I getPlayerCount ()I
+	METHOD J getMaxPlayers ()I
+	METHOD K getPlayerNames ()[Ljava/lang/String;
+	METHOD a runCommand (Ljava/lang/String;)Ljava/lang/String;
+	METHOD f_ getProperties ()Laal;
+	METHOD g_ getServerIp ()Ljava/lang/String;
+	METHOD h_ getServerName ()Ljava/lang/String;
+	METHOD i_ getPluginNames ()Ljava/lang/String;
+	METHOD j_ getLevelIdName ()Ljava/lang/String;
+	METHOD p getServerPort ()I

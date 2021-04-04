@@ -1,0 +1,17 @@
+CLASS dic net/minecraft/world/level/storage/loot/entries/LootItem
+	FIELD i item Lbpn;
+	METHOD <init> <init> (Lbpn;II[Ldkf;[Ldiy;)V
+	METHOD <init> <init> (Lbpn;II[Ldkf;[Ldiy;Ldic$1;)V
+	METHOD a getType ()Ldig;
+	METHOD a lootTableItem (Lbvq;)Ldih$a;
+	METHOD a lambda$lootTableItem$0 (Lbvq;II[Ldkf;[Ldiy;)Ldih;
+	METHOD a access$000 (Ldic;)Lbpn;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Ldhn;)V
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldkf;[Ldiy;)Ldic;
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldic;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldif;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldih;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldkf;[Ldiy;)Ldih;

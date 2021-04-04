@@ -1,0 +1,10 @@
+CLASS sw net/minecraft/network/protocol/game/ClientboundTabListPacket
+	FIELD a header Lon;
+	FIELD b footer Lon;
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lon;Lon;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getHeader ()Lon;
+	METHOD c getFooter ()Lon;

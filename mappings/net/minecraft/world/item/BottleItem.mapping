@@ -1,0 +1,5 @@
+CLASS bnz net/minecraft/world/item/BottleItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a lambda$use$0 (Lask;)Z
+	METHOD a turnBottleIntoItem (Lbpr;Lbjf;Lbpr;)Lbpr;
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;

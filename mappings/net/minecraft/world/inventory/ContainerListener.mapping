@@ -1,0 +1,3 @@
+CLASS blx net/minecraft/world/inventory/ContainerListener
+	METHOD a dataChanged (Lbll;II)V
+	METHOD a slotChanged (Lbll;ILbpr;)V

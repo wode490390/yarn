@@ -1,0 +1,25 @@
+CLASS bnv net/minecraft/world/item/BlockItem
+	FIELD a BLOCK_ENTITY_TAG Ljava/lang/String;
+	FIELD b BLOCK_STATE_TAG Ljava/lang/String;
+	FIELD c block Lbyq;
+	METHOD <init> <init> (Lbyq;Lbpn$a;)V
+	METHOD a getDescriptionId ()Ljava/lang/String;
+	METHOD a onDestroyed (Lbge;)V
+	METHOD a fillItemCategory (Lboh;Lgn;)V
+	METHOD a appendHoverText (Lbpr;Lbvr;Ljava/util/List;Lbre;)V
+	METHOD a place (Lbrr;)Larg;
+	METHOD a placeBlock (Lbrr;Lcjr;)Z
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a updateCustomBlockEntityTag (Lbvr;Lbjf;Lgb;Lbpr;)Z
+	METHOD a getPlaceSound (Lcjr;)Laev;
+	METHOD a lambda$updateState$0 (Lcjr;Lcku;Ljava/lang/Comparable;)Lcjr;
+	METHOD a updateState (Lcjr;Lcku;Ljava/lang/String;)Lcjr;
+	METHOD a updateCustomBlockEntityTag (Lgb;Lbvr;Lbjf;Lbpr;Lcjr;)Z
+	METHOD a updateBlockStateFromTag (Lgb;Lbvr;Lbpr;Lcjr;)Lcjr;
+	METHOD a registerBlocks (Ljava/util/Map;Lbpn;)V
+	METHOD b updatePlacementContext (Lbrr;)Lbrr;
+	METHOD b canPlace (Lbrr;Lcjr;)Z
+	METHOD c getPlacementState (Lbrr;)Lcjr;
+	METHOD d mustSurvive ()Z
+	METHOD e getBlock ()Lbyq;
+	METHOD f canFitInsideContainerItems ()Z

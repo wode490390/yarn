@@ -1,0 +1,14 @@
+CLASS bfm net/minecraft/world/entity/boss/enderdragon/phases/DragonSittingScanningPhase
+	FIELD b SITTING_SCANNING_IDLE_TICKS I
+	FIELD c SITTING_ATTACK_Y_VIEW_RANGE I
+	FIELD d SITTING_ATTACK_VIEW_RANGE I
+	FIELD e SITTING_CHARGE_VIEW_RANGE I
+	FIELD f CHARGE_TARGETING Lbcb;
+	FIELD g scanTargeting Lbcb;
+	FIELD h scanningTime I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbez;)V
+	METHOD a lambda$new$0 (Lbez;Lasy;)Z
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD i getPhase ()Lbfp;

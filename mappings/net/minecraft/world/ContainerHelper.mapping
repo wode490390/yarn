@@ -1,0 +1,9 @@
+CLASS ara net/minecraft/world/ContainerHelper
+	METHOD <init> <init> ()V
+	METHOD a clearOrCountMatchingItems (Laqz;Ljava/util/function/Predicate;IZ)I
+	METHOD a clearOrCountMatchingItems (Lbpr;Ljava/util/function/Predicate;IZ)I
+	METHOD a takeItem (Ljava/util/List;I)Lbpr;
+	METHOD a removeItem (Ljava/util/List;II)Lbpr;
+	METHOD a saveAllItems (Lmv;Lgn;)Lmv;
+	METHOD a saveAllItems (Lmv;Lgn;Z)Lmv;
+	METHOD b loadAllItems (Lmv;Lgn;)V

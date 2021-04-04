@@ -1,0 +1,4 @@
+CLASS abe net/minecraft/server/level/PlayerRespawnLogic
+	METHOD <init> <init> ()V
+	METHOD a getOverworldRespawnPos (Labj;IIZ)Lgb;
+	METHOD a getSpawnPosInChunk (Labj;Lbuw;Z)Lgb;

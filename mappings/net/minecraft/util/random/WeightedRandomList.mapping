@@ -1,0 +1,11 @@
+CLASS aqa net/minecraft/util/random/WeightedRandomList
+	FIELD a totalWeight I
+	FIELD b items Lcom/google/common/collect/ImmutableList;
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a create (Ljava/util/List;)Laqa;
+	METHOD a create ([Lapy;)Laqa;
+	METHOD b create ()Laqa;
+	METHOD b codec (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
+	METHOD b getRandom (Ljava/util/Random;)Ljava/util/Optional;
+	METHOD c isEmpty ()Z
+	METHOD d unwrap ()Ljava/util/List;

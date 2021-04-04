@@ -1,0 +1,11 @@
+CLASS dml net/minecraft/world/phys/shapes/IndirectMerger
+	FIELD a EMPTY Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	FIELD b result [D
+	FIELD c firstIndices [I
+	FIELD d secondIndices [I
+	FIELD e resultLength I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lit/unimi/dsi/fastutil/doubles/DoubleList;Lit/unimi/dsi/fastutil/doubles/DoubleList;ZZ)V
+	METHOD a getList ()Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	METHOD a forMergedIndexes (Ldmk$a;)Z
+	METHOD size size ()I

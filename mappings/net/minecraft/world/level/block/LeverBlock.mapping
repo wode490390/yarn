@@ -1,0 +1,31 @@
+CLASS ccq net/minecraft/world/level/block/LeverBlock
+	FIELD a POWERED Lcki;
+	FIELD b DEPTH I
+	FIELD c WIDTH I
+	FIELD d HEIGHT I
+	FIELD e NORTH_AABB Ldmr;
+	FIELD f SOUTH_AABB Ldmr;
+	FIELD g WEST_AABB Ldmr;
+	FIELD h EAST_AABB Ldmr;
+	FIELD i UP_AABB_Z Ldmr;
+	FIELD j UP_AABB_X Ldmr;
+	FIELD k DOWN_AABB_Z Ldmr;
+	FIELD l DOWN_AABB_X Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a getSignal (Lcjr;Lbuv;Lgb;Lgg;)I
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a onRemove (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a makeParticle (Lcjr;Lbvs;Lgb;F)V
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b getDirectSignal (Lcjr;Lbuv;Lgb;Lgg;)I
+	METHOD d pull (Lcjr;Lbvr;Lgb;)Lcjr;
+	METHOD e updateNeighbours (Lcjr;Lbvr;Lgb;)V
+	METHOD e_ isSignalSource (Lcjr;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction$Axis [I
+		FIELD b $SwitchMap$net$minecraft$core$Direction [I
+		FIELD c $SwitchMap$net$minecraft$world$level$block$state$properties$AttachFace [I
+		METHOD <clinit> <clinit> ()V

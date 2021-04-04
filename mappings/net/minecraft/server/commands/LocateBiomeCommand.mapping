@@ -1,0 +1,14 @@
+CLASS yo net/minecraft/server/commands/LocateBiomeCommand
+	FIELD a ERROR_INVALID_BIOME Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD b ERROR_BIOME_NOT_FOUND Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD c MAX_SEARCH_RADIUS I
+	FIELD d SEARCH_STEP I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$2 (Ldg;)Z
+	METHOD a locateBiome (Ldg;Lwp;)I
+	METHOD a lambda$static$1 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$locateBiome$4 (Lwp;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+	METHOD b lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;

@@ -1,0 +1,20 @@
+CLASS oz net/minecraft/network/chat/TextColor
+	FIELD a CUSTOM_COLOR_PREFIX Ljava/lang/String;
+	FIELD b LEGACY_FORMAT_TO_COLOR Ljava/util/Map;
+	FIELD c NAMED_COLORS Ljava/util/Map;
+	FIELD d value I
+	FIELD e name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD <init> <init> (ILjava/lang/String;)V
+	METHOD a getValue ()I
+	METHOD a fromRgb (I)Loz;
+	METHOD a parseColor (Ljava/lang/String;)Loz;
+	METHOD a lambda$static$1 (Loz;)Ljava/lang/String;
+	METHOD a fromLegacyFormat (Lp;)Loz;
+	METHOD b serialize ()Ljava/lang/String;
+	METHOD b lambda$static$0 (Lp;)Loz;
+	METHOD c formatValue ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

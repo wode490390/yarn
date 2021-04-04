@@ -1,0 +1,14 @@
+CLASS cfy net/minecraft/world/level/block/TallSeagrassBlock
+	FIELD b HALF Lckp;
+	FIELD c AABB_OFFSET F
+	FIELD d SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a canPlaceLiquid (Lbuv;Lgb;Lcjr;Lddp;)Z
+	METHOD a placeLiquid (Lbvs;Lgb;Lcjr;Lddq;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD d mayPlaceOn (Lcjr;Lbuv;Lgb;)Z

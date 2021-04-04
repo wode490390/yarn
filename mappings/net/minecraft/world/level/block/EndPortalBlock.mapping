@@ -1,0 +1,10 @@
+CLASS cat net/minecraft/world/level/block/EndPortalBlock
+	FIELD a SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a entityInside (Lcjr;Lbvr;Lgb;Lasl;)V
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a canBeReplaced (Lcjr;Lddp;)Z
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;

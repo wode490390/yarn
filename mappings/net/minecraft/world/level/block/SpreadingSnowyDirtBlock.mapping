@@ -1,0 +1,5 @@
+CLASS cfi net/minecraft/world/level/block/SpreadingSnowyDirtBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b canBeGrass (Lcjr;Lbvu;Lgb;)Z
+	METHOD c canPropagate (Lcjr;Lbvu;Lgb;)Z

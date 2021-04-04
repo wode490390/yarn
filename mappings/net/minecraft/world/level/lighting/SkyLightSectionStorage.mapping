@@ -1,0 +1,35 @@
+CLASS ddk net/minecraft/world/level/lighting/SkyLightSectionStorage
+	FIELD n HORIZONTALS [Lgg;
+	FIELD o sectionsWithSources Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD p sectionsToAddSourcesTo Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD q sectionsToRemoveSourcesFrom Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD r columnsWithSkySources Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD s hasSourceInconsistencies Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lclx;)V
+	METHOD a hasInconsistencies ()Z
+	METHOD a hasSectionsBelow (I)Z
+	METHOD a markNewInconsistencies (Ldde;ZZ)V
+	METHOD b enableLightSources (JZ)V
+	METHOD d getLightValue (J)I
+	METHOD e getLightValue (JZ)I
+	METHOD f recheckInconsistencyFlag ()V
+	METHOD j createDataLayer (J)Lclp;
+	METHOD k onNodeAdded (J)V
+	METHOD l onNodeRemoved (J)V
+	METHOD m isAboveData (J)Z
+	METHOD n lightOnInSection (J)Z
+	METHOD o queueRemoveSource (J)V
+	METHOD p queueAddSource (J)V
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a SkyDataLayerStorageMap
+		FIELD b currentLowestY I
+		FIELD c topSections Lit/unimi/dsi/fastutil/longs/Long2IntOpenHashMap;
+		METHOD <init> <init> (Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;Lit/unimi/dsi/fastutil/longs/Long2IntOpenHashMap;I)V
+		METHOD a copy ()Lddk$a;
+		METHOD a access$000 (Lddk$a;)Lit/unimi/dsi/fastutil/longs/Long2IntOpenHashMap;
+		METHOD a access$102 (Lddk$a;I)I
+		METHOD b copy ()Lddb;
+		METHOD b access$100 (Lddk$a;)I

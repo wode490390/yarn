@@ -1,0 +1,20 @@
+CLASS avr net/minecraft/world/entity/ai/behavior/MoveToTargetSink
+	FIELD a MAX_COOLDOWN_BEFORE_RETRYING I
+	FIELD c remainingCooldown I
+	FIELD d path Ldfy;
+	FIELD e lastTargetPos Lgb;
+	FIELD f speedModifier F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (II)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lasz;)Z
+	METHOD a canStillUse (Labj;Lasz;J)Z
+	METHOD a reachedTarget (Lasz;Lbax;)Z
+	METHOD a tryComputePath (Lasz;Lbax;J)Z
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b stop (Labj;Lasz;J)V
+	METHOD c stop (Labj;Lasy;J)V
+	METHOD c start (Labj;Lasz;J)V
+	METHOD d tick (Labj;Lasy;J)V
+	METHOD d tick (Labj;Lasz;J)V

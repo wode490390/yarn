@@ -1,0 +1,28 @@
+CLASS atq net/minecraft/world/entity/SpawnPlacements
+	FIELD a DATA_BY_TYPE Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getPlacementType (Lasp;)Latq$c;
+	METHOD a register (Lasp;Latq$c;Lcor$a;Latq$b;)V
+	METHOD a checkSpawnRules (Lasp;Lbwf;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD b getHeightmapType (Lasp;)Lcor$a;
+	CLASS a Data
+		FIELD a heightMap Lcor$a;
+		FIELD b placement Latq$c;
+		FIELD c predicate Latq$b;
+		METHOD <init> <init> (Lcor$a;Latq$c;Latq$b;)V
+		METHOD a access$000 (Latq$a;)Latq$c;
+		METHOD b access$100 (Latq$a;)Lcor$a;
+		METHOD c access$200 (Latq$a;)Latq$b;
+	CLASS b SpawnPredicate
+		METHOD test test (Lasp;Lbwf;Latb;Lgb;Ljava/util/Random;)Z
+	CLASS c Type
+		FIELD a ON_GROUND Latq$c;
+		FIELD b IN_WATER Latq$c;
+		FIELD c NO_RESTRICTIONS Latq$c;
+		FIELD d IN_LAVA Latq$c;
+		FIELD e $VALUES [Latq$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Latq$c;
+		METHOD values values ()[Latq$c;

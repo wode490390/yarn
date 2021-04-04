@@ -1,0 +1,13 @@
+CLASS bfd net/minecraft/world/entity/boss/enderdragon/phases/DragonChargePlayerPhase
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c CHARGE_RECOVERY_TIME I
+	FIELD d targetLocation Ldly;
+	FIELD e timeSinceCharge I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbez;)V
+	METHOD a setTarget (Ldly;)V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD f getFlySpeed ()F
+	METHOD g getFlyTargetLocation ()Ldly;
+	METHOD i getPhase ()Lbfp;

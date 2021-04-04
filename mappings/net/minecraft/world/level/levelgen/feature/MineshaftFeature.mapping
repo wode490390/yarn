@@ -1,0 +1,31 @@
+CLASS cru net/minecraft/world/level/levelgen/feature/MineshaftFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getStartFactory ()Lcsv$a;
+	METHOD a isFeatureChunk (Lclm;Lbwt;JLcph;Lbuw;Lbwq;Lbuw;Lcua;Lbvt;)Z
+	METHOD a isFeatureChunk (Lclm;Lbwt;JLcph;Lbuw;Lbwq;Lbuw;Lcuj;Lbvt;)Z
+	CLASS a MineShaftStart
+		METHOD <init> <init> (Lcsv;Lbuw;IJ)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcua;Lbvt;)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcuj;Lbvt;)V
+	CLASS b Type
+		FIELD a NORMAL Lcru$b;
+		FIELD b MESA Lcru$b;
+		FIELD c CODEC Lcom/mojang/serialization/Codec;
+		FIELD d BY_NAME Ljava/util/Map;
+		FIELD e name Ljava/lang/String;
+		FIELD f woodState Lcjr;
+		FIELD g planksState Lcjr;
+		FIELD h fenceState Lcjr;
+		FIELD i $VALUES [Lcru$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lbyq;Lbyq;Lbyq;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a byId (I)Lcru$b;
+		METHOD a lambda$static$0 (Lcru$b;)Lcru$b;
+		METHOD a byName (Ljava/lang/String;)Lcru$b;
+		METHOD b getWoodState ()Lcjr;
+		METHOD c getSerializedName ()Ljava/lang/String;
+		METHOD d getPlanksState ()Lcjr;
+		METHOD e getFenceState ()Lcjr;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcru$b;
+		METHOD values values ()[Lcru$b;

@@ -1,0 +1,16 @@
+CLASS bwl net/minecraft/world/level/TickPriority
+	FIELD a EXTREMELY_HIGH Lbwl;
+	FIELD b VERY_HIGH Lbwl;
+	FIELD c HIGH Lbwl;
+	FIELD d NORMAL Lbwl;
+	FIELD e LOW Lbwl;
+	FIELD f VERY_LOW Lbwl;
+	FIELD g EXTREMELY_LOW Lbwl;
+	FIELD h value I
+	FIELD i $VALUES [Lbwl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD a getValue ()I
+	METHOD a byValue (I)Lbwl;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbwl;
+	METHOD values values ()[Lbwl;

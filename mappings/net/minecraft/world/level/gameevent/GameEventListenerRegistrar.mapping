@@ -1,0 +1,10 @@
+CLASS cnw net/minecraft/world/level/gameevent/GameEventListenerRegistrar
+	FIELD a listener Lcnv;
+	FIELD b sectionPos Lgu;
+	METHOD <init> <init> (Lcnv;)V
+	METHOD a onListenerRemoved (Lbvr;)V
+	METHOD a ifEventDispatcherExists (Lbvr;Lgu;Ljava/util/function/Consumer;)V
+	METHOD a lambda$onListenerMove$2 (Lcnu;)V
+	METHOD b onListenerMove (Lbvr;)V
+	METHOD b lambda$onListenerMove$1 (Lcnu;)V
+	METHOD c lambda$onListenerRemoved$0 (Lcnu;)V

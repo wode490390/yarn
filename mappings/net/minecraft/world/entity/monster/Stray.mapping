@@ -1,0 +1,8 @@
+CLASS bhl net/minecraft/world/entity/monster/Stray
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a checkStraySpawnRules (Lasp;Lbwf;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD b getArrow (Lbpr;F)Lbjj;
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD o getStepSound ()Laev;
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;

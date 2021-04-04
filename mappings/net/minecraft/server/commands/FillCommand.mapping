@@ -1,0 +1,35 @@
+CLASS yd net/minecraft/server/commands/FillCommand
+	FIELD a MAX_FILL_AREA I
+	FIELD b ERROR_AREA_TOO_LARGE Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD c HOLLOW_CORE Lek;
+	FIELD d ERROR_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Lek;
+	METHOD a lambda$null$5 (Lcjv;)Z
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$9 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$1 (Ldg;)Z
+	METHOD a fillBlocks (Ldg;Lczp;Lek;Lyd$a;Ljava/util/function/Predicate;)I
+	METHOD a lambda$static$0 (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD b lambda$register$8 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD g lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	CLASS a Mode
+		FIELD a REPLACE Lyd$a;
+		FIELD b OUTLINE Lyd$a;
+		FIELD c HOLLOW Lyd$a;
+		FIELD d DESTROY Lyd$a;
+		FIELD e filter Lzi$a;
+		FIELD f $VALUES [Lyd$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILzi$a;)V
+		METHOD a lambda$static$3 (Lczp;Lgb;Lek;Labj;)Lek;
+		METHOD b lambda$static$2 (Lczp;Lgb;Lek;Labj;)Lek;
+		METHOD c lambda$static$1 (Lczp;Lgb;Lek;Labj;)Lek;
+		METHOD d lambda$static$0 (Lczp;Lgb;Lek;Labj;)Lek;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lyd$a;
+		METHOD values values ()[Lyd$a;

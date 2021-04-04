@@ -1,0 +1,7 @@
+CLASS bxn net/minecraft/world/level/block/AbstractSkullBlock
+	FIELD a type Lceu$a;
+	METHOD <init> <init> (Lceu$a;Lcjq$c;)V
+	METHOD a getTicker (Lbvr;Lcjr;Lchr;)Lchq;
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;
+	METHOD b getType ()Lceu$a;

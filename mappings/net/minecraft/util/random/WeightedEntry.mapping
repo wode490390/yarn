@@ -1,0 +1,18 @@
+CLASS apy net/minecraft/util/random/WeightedEntry
+	METHOD a getWeight ()Lapx;
+	METHOD a wrap (Ljava/lang/Object;I)Lapy$b;
+	CLASS 1 1
+	CLASS a IntrusiveBase
+		FIELD a weight Lapx;
+		METHOD <init> <init> (I)V
+		METHOD <init> <init> (Lapx;)V
+		METHOD a getWeight ()Lapx;
+	CLASS b Wrapper
+		FIELD a data Ljava/lang/Object;
+		FIELD b weight Lapx;
+		METHOD <init> <init> (Ljava/lang/Object;Lapx;)V
+		METHOD <init> <init> (Ljava/lang/Object;Lapx;Lapy$1;)V
+		METHOD a getWeight ()Lapx;
+		METHOD a codec (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
+		METHOD a lambda$codec$0 (Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+		METHOD b getData ()Ljava/lang/Object;

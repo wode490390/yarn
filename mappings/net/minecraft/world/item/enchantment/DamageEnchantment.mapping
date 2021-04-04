@@ -1,0 +1,18 @@
+CLASS bti net/minecraft/world/item/enchantment/DamageEnchantment
+	FIELD a ALL I
+	FIELD b UNDEAD I
+	FIELD c ARTHROPODS I
+	FIELD d type I
+	FIELD g NAMES [Ljava/lang/String;
+	FIELD h MIN_COST [I
+	FIELD i LEVEL_COST [I
+	FIELD j LEVEL_COST_SPAN [I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbtl$a;I[Lasq;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a getDamageBonus (ILatc;)F
+	METHOD a doPostAttack (Lasy;Lasl;I)V
+	METHOD a canEnchant (Lbpr;)Z
+	METHOD a checkCompatibility (Lbtl;)Z
+	METHOD b getMaxCost (I)I

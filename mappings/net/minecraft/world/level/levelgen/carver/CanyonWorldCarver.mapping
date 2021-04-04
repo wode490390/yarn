@@ -1,0 +1,13 @@
+CLASS cpj net/minecraft/world/level/levelgen/carver/CanyonWorldCarver
+	FIELD j LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a isStartChunk (Lcpi;Ljava/util/Random;)Z
+	METHOD a updateVerticalRadius (Lcpi;Ljava/util/Random;DFF)D
+	METHOD a isStartChunk (Lcpk;Ljava/util/Random;)Z
+	METHOD a doCarve (Lcpm;Lcpi;Lclk;Ljava/util/function/Function;JIDDDFFFIIDLjava/util/BitSet;)V
+	METHOD a carve (Lcpm;Lcpi;Lclk;Ljava/util/function/Function;Ljava/util/Random;ILbuw;Ljava/util/BitSet;)Z
+	METHOD a initWidthFactors (Lcpm;Lcpi;Ljava/util/Random;)[F
+	METHOD a carve (Lcpm;Lcpk;Lclk;Ljava/util/function/Function;Ljava/util/Random;ILbuw;Ljava/util/BitSet;)Z
+	METHOD a shouldSkip (Lcpm;[FDDDI)Z
+	METHOD a lambda$doCarve$0 ([FLcpm;DDDI)Z

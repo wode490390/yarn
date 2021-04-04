@@ -1,0 +1,10 @@
+CLASS auf net/minecraft/world/entity/ai/behavior/AssignProfessionFromJobSite
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lbis;)Z
+	METHOD a start (Labj;Lbis;J)V
+	METHOD a lambda$start$2 (Lbcr;)Ljava/util/Optional;
+	METHOD a lambda$null$1 (Lbcr;Lbiv;)Z
+	METHOD a lambda$start$3 (Lbis;Labj;Lbiv;)V
+	METHOD a lambda$start$0 (Lgj;Labj;)Ljava/util/Optional;

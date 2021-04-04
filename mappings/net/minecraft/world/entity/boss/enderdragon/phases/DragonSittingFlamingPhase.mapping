@@ -1,0 +1,14 @@
+CLASS bfl net/minecraft/world/entity/boss/enderdragon/phases/DragonSittingFlamingPhase
+	FIELD b FLAME_DURATION I
+	FIELD c SITTING_FLAME_ATTACKS_COUNT I
+	FIELD d WARMUP_TIME I
+	FIELD e flameTicks I
+	FIELD f flameCount I
+	FIELD g flame Lask;
+	METHOD <init> <init> (Lbez;)V
+	METHOD b doClientTick ()V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD e end ()V
+	METHOD i getPhase ()Lbfp;
+	METHOD j resetFlameCount ()V

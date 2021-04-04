@@ -1,0 +1,20 @@
+CLASS cwh net/minecraft/world/level/levelgen/feature/stateproviders/RandomizedIntStateProvider
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c source Lcwd;
+	FIELD d propertyName Ljava/lang/String;
+	FIELD e property Lckr;
+	FIELD f values Laqo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcwd;Lckr;Laqo;)V
+	METHOD <init> <init> (Lcwd;Ljava/lang/String;Laqo;)V
+	METHOD a type ()Lcwe;
+	METHOD a findProperty (Lcjr;Ljava/lang/String;)Lckr;
+	METHOD a lambda$findProperty$6 (Lcku;)Lckr;
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcwh;)Laqo;
+	METHOD a lambda$findProperty$7 (Ljava/lang/String;)Ljava/lang/IllegalArgumentException;
+	METHOD a lambda$findProperty$4 (Ljava/lang/String;Lcku;)Z
+	METHOD a getState (Ljava/util/Random;Lgb;)Lcjr;
+	METHOD b lambda$findProperty$5 (Lcku;)Z
+	METHOD b lambda$null$1 (Lcwh;)Ljava/lang/String;
+	METHOD c lambda$null$0 (Lcwh;)Lcwd;

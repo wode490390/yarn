@@ -1,0 +1,9 @@
+CLASS azk net/minecraft/world/entity/ai/goal/PathfindToRaidGoal
+	FIELD a SPEED_MODIFIER F
+	FIELD b mob Lbkl;
+	METHOD <init> <init> (Lbkl;)V
+	METHOD a canUse ()Z
+	METHOD a recruitNearby (Lbkk;)V
+	METHOD a lambda$recruitNearby$0 (Lbkk;Lbkl;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD e tick ()V

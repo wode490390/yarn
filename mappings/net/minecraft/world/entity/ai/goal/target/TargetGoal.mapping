@@ -1,0 +1,21 @@
+CLASS bap net/minecraft/world/entity/ai/goal/target/TargetGoal
+	FIELD a EMPTY_REACH_CACHE I
+	FIELD b CAN_REACH_CACHE I
+	FIELD c CANT_REACH_CACHE I
+	FIELD d mustReach Z
+	FIELD e mob Lasz;
+	FIELD f mustSee Z
+	FIELD g targetMob Lasy;
+	FIELD h unseenMemoryTicks I
+	FIELD i reachCache I
+	FIELD j reachCacheTime I
+	FIELD k unseenTicks I
+	METHOD <init> <init> (Lasz;Z)V
+	METHOD <init> <init> (Lasz;ZZ)V
+	METHOD a setUnseenMemoryTicks (I)Lbap;
+	METHOD a canReach (Lasy;)Z
+	METHOD a canAttack (Lasy;Lbcb;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD k getFollowDistance ()D

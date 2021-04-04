@@ -1,0 +1,30 @@
+CLASS djb net/minecraft/world/level/storage/loot/functions/LootingEnchantFunction
+	FIELD a NO_LIMIT I
+	FIELD b value Ldla;
+	FIELD c limit I
+	METHOD <init> <init> ([Ldkf;Ldla;I)V
+	METHOD <init> <init> ([Ldkf;Ldla;ILdjb$1;)V
+	METHOD a getType ()Ldiz;
+	METHOD a run (Lbpr;Ldhn;)Lbpr;
+	METHOD a access$100 (Ldjb;)Ldla;
+	METHOD a lootingMultiplier (Ldla;)Ldjb$a;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	METHOD b access$200 (Ldjb;)Z
+	METHOD c hasLimit ()Z
+	METHOD c access$300 (Ldjb;)I
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a count Ldla;
+		FIELD b limit I
+		METHOD <init> <init> (Ldla;)V
+		METHOD a getThis ()Ldjb$a;
+		METHOD a setLimit (I)Ldjb$a;
+		METHOD b build ()Ldiy;
+		METHOD d getThis ()Ldix$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldjb;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldix;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldjb;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldix;

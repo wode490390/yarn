@@ -1,0 +1,7 @@
+CLASS ban net/minecraft/world/entity/ai/goal/target/OwnerHurtTargetGoal
+	FIELD a tameAnimal Latr;
+	FIELD b ownerLastHurt Lasy;
+	FIELD c timestamp I
+	METHOD <init> <init> (Latr;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V

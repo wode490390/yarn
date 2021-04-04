@@ -1,0 +1,2 @@
+CLASS bdh net/minecraft/world/entity/animal/FlyingAnimal
+	METHOD fB isFlying ()Z

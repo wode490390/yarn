@@ -1,0 +1,7 @@
+CLASS xz net/minecraft/server/commands/EmoteCommands
+	METHOD <init> <init> ()V
+	METHOD a lambda$null$0 (Labk;Lon;Lon;Labk;)Lon;
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a createMessage (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lon;
+	METHOD a lambda$null$1 (Lcom/mojang/brigadier/context/CommandContext;Lnet/minecraft/server/MinecraftServer;Labk;Lasl;Lacg$a;)V

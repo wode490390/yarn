@@ -1,0 +1,12 @@
+CLASS cth net/minecraft/world/level/levelgen/feature/WeightedConfiguredFeature
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b feature Ljava/util/function/Supplier;
+	FIELD c chance F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcqg;F)V
+	METHOD <init> <init> (Ljava/util/function/Supplier;F)V
+	METHOD a place (Lbwm;Lclm;Ljava/util/Random;Lgb;)Z
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$new$3 (Lcqg;)Lcqg;
+	METHOD a lambda$null$1 (Lcth;)Ljava/lang/Float;
+	METHOD b lambda$null$0 (Lcth;)Ljava/util/function/Supplier;

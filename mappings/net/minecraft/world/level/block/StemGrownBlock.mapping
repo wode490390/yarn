@@ -1,0 +1,4 @@
+CLASS cfo net/minecraft/world/level/block/StemGrownBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD c getStem ()Lcfn;
+	METHOD d getAttachedStem ()Lbxs;

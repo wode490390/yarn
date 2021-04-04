@@ -1,0 +1,7 @@
+CLASS awg net/minecraft/world/entity/ai/behavior/SetHiddenState
+	FIELD a HIDE_TIMEOUT I
+	FIELD c closeEnoughDist I
+	FIELD d stayHiddenTicks I
+	FIELD e ticksHidden I
+	METHOD <init> <init> (II)V
+	METHOD a start (Labj;Lasy;J)V

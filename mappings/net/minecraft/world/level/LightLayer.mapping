@@ -1,0 +1,9 @@
+CLASS bwa net/minecraft/world/level/LightLayer
+	FIELD a SKY Lbwa;
+	FIELD b BLOCK Lbwa;
+	FIELD c surrounding I
+	FIELD d $VALUES [Lbwa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbwa;
+	METHOD values values ()[Lbwa;

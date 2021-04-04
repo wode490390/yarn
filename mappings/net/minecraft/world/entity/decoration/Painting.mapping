@@ -1,0 +1,15 @@
+CLASS bgb net/minecraft/world/entity/decoration/Painting
+	FIELD e motive Lbga;
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;Lgb;Lgg;)V
+	METHOD <init> <init> (Lbvr;Lgb;Lgg;Lbga;)V
+	METHOD O getAddEntityPacket ()Lpf;
+	METHOD a lerpTo (DDDFFIZ)V
+	METHOD a dropItem (Lasl;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b moveTo (DDDFF)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD cZ getPickResult ()Lbpr;
+	METHOD q getWidth ()I
+	METHOD r getHeight ()I
+	METHOD s playPlacementSound ()V

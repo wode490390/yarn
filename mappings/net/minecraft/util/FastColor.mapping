@@ -1,0 +1,10 @@
+CLASS agi net/minecraft/util/FastColor
+	METHOD <init> <init> ()V
+	CLASS a ARGB32
+		METHOD <init> <init> ()V
+		METHOD a alpha (I)I
+		METHOD a multiply (II)I
+		METHOD a color (IIII)I
+		METHOD b red (I)I
+		METHOD c green (I)I
+		METHOD d blue (I)I

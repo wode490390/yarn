@@ -1,0 +1,13 @@
+CLASS cch net/minecraft/world/level/block/KelpBlock
+	FIELD f SHAPE Ldmr;
+	FIELD g GROW_PER_TICK_PROBABILITY D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a canPlaceLiquid (Lbuv;Lgb;Lcjr;Lddp;)Z
+	METHOD a placeLiquid (Lbvs;Lgb;Lcjr;Lddq;)Z
+	METHOD a getBlocksToGrowWhenBonemealed (Ljava/util/Random;)I
+	METHOD c getBodyBlock ()Lbyq;
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD g canGrowInto (Lcjr;)Z
+	METHOD h canAttachTo (Lcjr;)Z

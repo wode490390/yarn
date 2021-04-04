@@ -1,0 +1,11 @@
+CLASS cun net/minecraft/world/level/levelgen/feature/configurations/OceanRuinConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b biomeTemp Ldac$b;
+	FIELD c largeProbability F
+	FIELD d clusterProbability F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldac$b;FF)V
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcun;)Ljava/lang/Float;
+	METHOD b lambda$null$1 (Lcun;)Ljava/lang/Float;
+	METHOD c lambda$null$0 (Lcun;)Ldac$b;

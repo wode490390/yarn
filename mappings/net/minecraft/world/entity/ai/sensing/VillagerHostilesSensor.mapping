@@ -1,0 +1,8 @@
+CLASS bbz net/minecraft/world/entity/ai/sensing/VillagerHostilesSensor
+	FIELD a ACCEPTABLE_DISTANCE_FROM_HOSTILES Lcom/google/common/collect/ImmutableMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a isMatchingEntity (Lasy;Lasy;)Z
+	METHOD b getMemory ()Lbav;
+	METHOD b isHostile (Lasy;)Z
+	METHOD c isClose (Lasy;Lasy;)Z

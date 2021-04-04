@@ -1,0 +1,21 @@
+CLASS dbv net/minecraft/world/level/levelgen/surfacebuilders/BadlandsSurfaceBuilder
+	FIELD L WHITE_TERRACOTTA Lcjr;
+	FIELD M ORANGE_TERRACOTTA Lcjr;
+	FIELD N TERRACOTTA Lcjr;
+	FIELD O YELLOW_TERRACOTTA Lcjr;
+	FIELD P BROWN_TERRACOTTA Lcjr;
+	FIELD Q RED_TERRACOTTA Lcjr;
+	FIELD R LIGHT_GRAY_TERRACOTTA Lcjr;
+	FIELD a MAX_CLAY_DEPTH I
+	FIELD b clayBands [Lcjr;
+	FIELD c seed J
+	FIELD d pillarNoise Ldcv;
+	FIELD e pillarRoofNoise Ldcv;
+	FIELD f clayBandsOffsetNoise Ldcv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getBand (III)Lcjr;
+	METHOD a initNoise (J)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcl;)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcm;)V
+	METHOD b generateBands (J)V

@@ -1,0 +1,27 @@
+CLASS xd net/minecraft/server/ServerResources
+	FIELD a DATA_RELOAD_INITIAL_TASK Ljava/util/concurrent/CompletableFuture;
+	FIELD b resources Ladj;
+	FIELD c commands Ldh;
+	FIELD d recipes Lbsk;
+	FIELD e tagManager Lafw;
+	FIELD f predicateManager Ldhs;
+	FIELD g lootTables Ldhr;
+	FIELD h itemModifierManager Ldhm;
+	FIELD i advancements Lwz;
+	FIELD j functionLibrary Lxa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgs;Ldh$a;I)V
+	METHOD a getFunctionLibrary ()Lxa;
+	METHOD a loadResources (Ljava/util/List;Lgs;Ldh$a;ILjava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$loadResources$1 (Lxd;Lahe;)Lxd;
+	METHOD a lambda$loadResources$0 (Lxd;Lahe;Ljava/lang/Throwable;)V
+	METHOD b getPredicateManager ()Ldhs;
+	METHOD c getLootTables ()Ldhr;
+	METHOD close close ()V
+	METHOD d getItemModifierManager ()Ldhm;
+	METHOD e getTags ()Lafu;
+	METHOD f getRecipeManager ()Lbsk;
+	METHOD g getCommands ()Ldh;
+	METHOD h getAdvancements ()Lwz;
+	METHOD i getResourceManager ()Ladl;
+	METHOD j updateGlobals ()V

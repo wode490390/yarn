@@ -1,0 +1,209 @@
+CLASS dai net/minecraft/world/level/levelgen/structure/StrongholdPieces
+	FIELD a SMALL_DOOR_WIDTH I
+	FIELD b SMALL_DOOR_HEIGHT I
+	FIELD c MAX_DEPTH I
+	FIELD d LOWEST_Y_POSITION I
+	FIELD e CHECK_AIR Z
+	FIELD f STRONGHOLD_PIECE_WEIGHTS [Ldai$f;
+	FIELD g currentPieces Ljava/util/List;
+	FIELD h imposedPiece Ljava/lang/Class;
+	FIELD i totalWeight I
+	FIELD j SMOOTH_STONE_SELECTOR Ldai$k;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a resetPieces ()V
+	METHOD a access$000 (Ldai$m;Ldal;Ljava/util/Random;IIILgg;I)Ldak;
+	METHOD a access$102 (Ljava/lang/Class;)Ljava/lang/Class;
+	METHOD a findAndCreatePieceFactory (Ljava/lang/Class;Ldal;Ljava/util/Random;IIILgg;I)Ldai$p;
+	METHOD b access$200 ()Ldai$k;
+	METHOD b generatePieceFromSmallDoor (Ldai$m;Ldal;Ljava/util/Random;IIILgg;I)Ldai$p;
+	METHOD c updatePieceWeight ()Z
+	METHOD c generateAndAddPiece (Ldai$m;Ldal;Ljava/util/Random;IIILgg;I)Ldak;
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/Class;II)V
+		METHOD a doPlace (I)Z
+	CLASS 2 2
+		METHOD <init> <init> (Ljava/lang/Class;II)V
+		METHOD a doPlace (I)Z
+	CLASS 3 3
+		FIELD a $SwitchMap$net$minecraft$world$level$levelgen$structure$StrongholdPieces$StrongholdPiece$SmallDoorType [I
+		FIELD b $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a ChestCorridor
+		FIELD a WIDTH I
+		FIELD b HEIGHT I
+		FIELD c DEPTH I
+		FIELD d hasPlacedChest Z
+		METHOD <init> <init> (ILjava/util/Random;Lczp;Lgg;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a createPiece (Ldal;Ljava/util/Random;IIILgg;I)Ldai$a;
+		METHOD av_ getNoiseEffect ()Lcrz;
+	CLASS b FillerCorridor
+		FIELD a steps I
+		METHOD <init> <init> (ILczp;Lgg;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a findPieceBox (Ldal;Ljava/util/Random;IIILgg;)Lczp;
+		METHOD av_ getNoiseEffect ()Lcrz;
+	CLASS c FiveCrossing
+		FIELD a WIDTH I
+		FIELD b HEIGHT I
+		FIELD c DEPTH I
+		FIELD d leftLow Z
+		FIELD f leftHigh Z
+		FIELD g rightLow Z
+		FIELD h rightHigh Z
+		METHOD <init> <init> (ILjava/util/Random;Lczp;Lgg;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a createPiece (Ldal;Ljava/util/Random;IIILgg;I)Ldai$c;
+		METHOD av_ getNoiseEffect ()Lcrz;
+	CLASS d LeftTurn
+		METHOD <init> <init> (ILjava/util/Random;Lczp;Lgg;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a createPiece (Ldal;Ljava/util/Random;IIILgg;I)Ldai$d;
+	CLASS e Library
+		FIELD a WIDTH I
+		FIELD b HEIGHT I
+		FIELD c TALL_HEIGHT I
+		FIELD d DEPTH I
+		FIELD f isTall Z
+		METHOD <init> <init> (ILjava/util/Random;Lczp;Lgg;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a createPiece (Ldal;Ljava/util/Random;IIILgg;I)Ldai$e;
+		METHOD av_ getNoiseEffect ()Lcrz;
+	CLASS f PieceWeight
+		FIELD a pieceClass Ljava/lang/Class;
+		FIELD b weight I
+		FIELD c placeCount I
+		FIELD d maxPlaceCount I
+		METHOD <init> <init> (Ljava/lang/Class;II)V
+		METHOD a isValid ()Z
+		METHOD a doPlace (I)Z
+	CLASS g PortalRoom
+		FIELD a WIDTH I
+		FIELD b HEIGHT I
+		FIELD c DEPTH I
+		FIELD d hasPlacedSpawner Z
+		METHOD <init> <init> (ILczp;Lgg;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a createPiece (Ldal;IIILgg;I)Ldai$g;
+		METHOD av_ getNoiseEffect ()Lcrz;
+	CLASS h PrisonHall
+		FIELD a WIDTH I
+		FIELD b HEIGHT I
+		FIELD c DEPTH I
+		METHOD <init> <init> (ILjava/util/Random;Lczp;Lgg;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a createPiece (Ldal;Ljava/util/Random;IIILgg;I)Ldai$h;
+		METHOD av_ getNoiseEffect ()Lcrz;
+	CLASS i RightTurn
+		METHOD <init> <init> (ILjava/util/Random;Lczp;Lgg;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a createPiece (Ldal;Ljava/util/Random;IIILgg;I)Ldai$i;
+	CLASS j RoomCrossing
+		FIELD a WIDTH I
+		FIELD b HEIGHT I
+		FIELD c DEPTH I
+		FIELD d type I
+		METHOD <init> <init> (ILjava/util/Random;Lczp;Lgg;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a createPiece (Ldal;Ljava/util/Random;IIILgg;I)Ldai$j;
+		METHOD av_ getNoiseEffect ()Lcrz;
+	CLASS k SmoothStoneSelector
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Ldai$1;)V
+		METHOD a next (Ljava/util/Random;IIIZ)V
+	CLASS l StairsDown
+		FIELD a WIDTH I
+		FIELD b HEIGHT I
+		FIELD c DEPTH I
+		FIELD d isSource Z
+		METHOD <init> <init> (ILjava/util/Random;Lczp;Lgg;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD <init> <init> (Lcsw;IIILgg;)V
+		METHOD <init> <init> (Lcsw;Lmv;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a createPiece (Ldal;Ljava/util/Random;IIILgg;I)Ldai$l;
+		METHOD av_ getNoiseEffect ()Lcrz;
+	CLASS m StartPiece
+		FIELD a previousPiece Ldai$f;
+		FIELD b portalRoomPiece Ldai$g;
+		FIELD c pendingChildren Ljava/util/List;
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD <init> <init> (Ljava/util/Random;II)V
+		METHOD c getLocatorPosition ()Lgb;
+	CLASS n Straight
+		FIELD a WIDTH I
+		FIELD b HEIGHT I
+		FIELD c DEPTH I
+		FIELD d leftChild Z
+		FIELD f rightChild Z
+		METHOD <init> <init> (ILjava/util/Random;Lczp;Lgg;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a createPiece (Ldal;Ljava/util/Random;IIILgg;I)Ldai$n;
+		METHOD av_ getNoiseEffect ()Lcrz;
+	CLASS o StraightStairsDown
+		FIELD a WIDTH I
+		FIELD b HEIGHT I
+		FIELD c DEPTH I
+		METHOD <init> <init> (ILjava/util/Random;Lczp;Lgg;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a createPiece (Ldal;Ljava/util/Random;IIILgg;I)Ldai$o;
+		METHOD av_ getNoiseEffect ()Lcrz;
+	CLASS p StrongholdPiece
+		FIELD e entryDoor Ldai$p$a;
+		METHOD <init> <init> (Lcsw;ILczp;)V
+		METHOD <init> <init> (Lcsw;Lmv;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a generateSmallDoor (Lbwm;Ljava/util/Random;Lczp;Ldai$p$a;III)V
+		METHOD a isOkBox (Lczp;)Z
+		METHOD a generateSmallDoorChildForward (Ldai$m;Ldal;Ljava/util/Random;II)Ldak;
+		METHOD a randomSmallDoor (Ljava/util/Random;)Ldai$p$a;
+		METHOD av_ getNoiseEffect ()Lcrz;
+		METHOD b generateSmallDoorChildLeft (Ldai$m;Ldal;Ljava/util/Random;II)Ldak;
+		METHOD c generateSmallDoorChildRight (Ldai$m;Ldal;Ljava/util/Random;II)Ldak;
+		CLASS a SmallDoorType
+			FIELD a OPENING Ldai$p$a;
+			FIELD b WOOD_DOOR Ldai$p$a;
+			FIELD c GRATES Ldai$p$a;
+			FIELD d IRON_DOOR Ldai$p$a;
+			FIELD e $VALUES [Ldai$p$a;
+			METHOD <clinit> <clinit> ()V
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD valueOf valueOf (Ljava/lang/String;)Ldai$p$a;
+			METHOD values values ()[Ldai$p$a;
+	CLASS q Turn
+		FIELD a WIDTH I
+		FIELD b HEIGHT I
+		FIELD c DEPTH I
+		METHOD <init> <init> (Lcsw;ILczp;)V
+		METHOD <init> <init> (Lcsw;Lmv;)V
+		METHOD av_ getNoiseEffect ()Lcrz;

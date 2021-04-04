@@ -1,0 +1,5 @@
+CLASS dme net/minecraft/world/phys/shapes/CubePointRange
+	FIELD a parts I
+	METHOD <init> <init> (I)V
+	METHOD getDouble getDouble (I)D
+	METHOD size size ()I

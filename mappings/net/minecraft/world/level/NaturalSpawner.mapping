@@ -1,0 +1,63 @@
+CLASS bwb net/minecraft/world/level/NaturalSpawner
+	FIELD a SPAWN_DISTANCE_CHUNK I
+	FIELD b SPAWN_DISTANCE_BLOCK I
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d MIN_SPAWN_DISTANCE I
+	FIELD e MAGIC_NUMBER I
+	FIELD f SPAWNING_CATEGORIES [Lata;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$100 ()I
+	METHOD a lambda$static$1 (I)[Lata;
+	METHOD a createState (ILjava/lang/Iterable;Lbwb$b;)Lbwb$d;
+	METHOD a getMobForSpawn (Labj;Lasp;)Lasz;
+	METHOD a isValidPositionForMob (Labj;Lasz;D)Z
+	METHOD a isValidSpawnPostitionForType (Labj;Lata;Lbwi;Lclm;Lbxb$c;Lgb$a;D)Z
+	METHOD a canSpawnMobAt (Labj;Lbwi;Lclm;Lata;Lbxb$c;Lgb;)Z
+	METHOD a mobsAt (Labj;Lbwi;Lclm;Lata;Lgb;Lbwq;)Laqa;
+	METHOD a getRandomSpawnMobAt (Labj;Lbwi;Lclm;Lata;Ljava/util/Random;Lgb;)Ljava/util/Optional;
+	METHOD a isRightDistanceToPlayerAndSpawnPoint (Labj;Lclk;Lgb$a;D)Z
+	METHOD a spawnForChunk (Labj;Lclv;Lbwb$d;ZZZ)V
+	METHOD a lambda$spawnCategoryForPosition$5 (Lasp;Lgb;Lclk;)Z
+	METHOD a lambda$spawnCategoryForPosition$6 (Lasz;Lclk;)V
+	METHOD a lambda$static$0 (Lata;)Z
+	METHOD a spawnCategoryForPosition (Lata;Labj;Lclk;Lgb;Lbwb$c;Lbwb$a;)V
+	METHOD a spawnCategoryForChunk (Lata;Labj;Lclv;Lbwb$c;Lbwb$a;)V
+	METHOD a spawnCategoryForPosition (Lata;Labj;Lgb;)V
+	METHOD a isSpawnPositionOk (Latq$c;Lbvu;Lgb;Lasp;)Z
+	METHOD a isValidEmptySpawnBlock (Lbuv;Lgb;Lcjr;Lddq;Lasp;)Z
+	METHOD a getRandomPosWithin (Lbvr;Lclv;)Lgb;
+	METHOD a getTopNonCollidingPos (Lbvu;Lasp;II)Lgb;
+	METHOD a lambda$spawnForChunk$3 (Lbwb$d;Lasp;Lgb;Lclk;)Z
+	METHOD a lambda$spawnForChunk$4 (Lbwb$d;Lasz;Lclk;)V
+	METHOD a spawnMobsForChunkGeneration (Lbwf;Lbwq;Lbuw;Ljava/util/Random;)V
+	METHOD a lambda$createState$2 (Lgb;Lasl;Lbwe;Lit/unimi/dsi/fastutil/objects/Object2IntOpenHashMap;Lata;Lclv;)V
+	METHOD a access$000 (Lgb;Lclk;)Lbwq;
+	METHOD b getRoughBiome (Lgb;Lclk;)Lbwq;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$entity$SpawnPlacements$Type [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a AfterSpawnCallback
+		METHOD run run (Lasz;Lclk;)V
+	CLASS b ChunkGetter
+		METHOD query query (JLjava/util/function/Consumer;)V
+	CLASS c SpawnPredicate
+		METHOD test test (Lasp;Lgb;Lclk;)Z
+	CLASS d SpawnState
+		FIELD a spawnableChunkCount I
+		FIELD b mobCategoryCounts Lit/unimi/dsi/fastutil/objects/Object2IntOpenHashMap;
+		FIELD c spawnPotential Lbwe;
+		FIELD d unmodifiableMobCategoryCounts Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+		FIELD e lastCheckedPos Lgb;
+		FIELD f lastCheckedType Lasp;
+		FIELD g lastCharge D
+		METHOD <init> <init> (ILit/unimi/dsi/fastutil/objects/Object2IntOpenHashMap;Lbwe;)V
+		METHOD <init> <init> (ILit/unimi/dsi/fastutil/objects/Object2IntOpenHashMap;Lbwe;Lbwb$1;)V
+		METHOD a getSpawnableChunkCount ()I
+		METHOD a canSpawn (Lasp;Lgb;Lclk;)Z
+		METHOD a afterSpawn (Lasz;Lclk;)V
+		METHOD a canSpawnForCategory (Lata;)Z
+		METHOD a access$500 (Lbwb$d;Lasp;Lgb;Lclk;)Z
+		METHOD a access$400 (Lbwb$d;Lasz;Lclk;)V
+		METHOD a access$300 (Lbwb$d;Lata;)Z
+		METHOD b getMobCategoryCounts ()Lit/unimi/dsi/fastutil/objects/Object2IntMap;

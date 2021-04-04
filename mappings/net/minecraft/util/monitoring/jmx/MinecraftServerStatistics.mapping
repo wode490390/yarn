@@ -1,0 +1,32 @@
+CLASS apc net/minecraft/util/monitoring/jmx/MinecraftServerStatistics
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b server Lnet/minecraft/server/MinecraftServer;
+	FIELD c mBeanInfo Ljavax/management/MBeanInfo;
+	FIELD d attributeDescriptionByName Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+	METHOD a getAverageTickTime ()F
+	METHOD a lambda$new$2 (I)[Ljavax/management/MBeanAttributeInfo;
+	METHOD a lambda$getAttributes$3 (Lapc$a;)Ljavax/management/Attribute;
+	METHOD a lambda$new$1 (Ljava/lang/Object;)Ljavax/management/MBeanAttributeInfo;
+	METHOD a registerJmxMonitoring (Lnet/minecraft/server/MinecraftServer;)V
+	METHOD b getTickTimes ()[J
+	METHOD b lambda$new$0 (Lapc$a;)Ljava/lang/String;
+	METHOD getAttribute getAttribute (Ljava/lang/String;)Ljava/lang/Object;
+	METHOD getAttributes getAttributes ([Ljava/lang/String;)Ljavax/management/AttributeList;
+	METHOD getMBeanInfo getMBeanInfo ()Ljavax/management/MBeanInfo;
+	METHOD invoke invoke (Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;
+	METHOD setAttribute setAttribute (Ljavax/management/Attribute;)V
+	METHOD setAttributes setAttributes (Ljavax/management/AttributeList;)Ljavax/management/AttributeList;
+	CLASS 1 1
+	CLASS a AttributeDescription
+		FIELD a name Ljava/lang/String;
+		FIELD b getter Ljava/util/function/Supplier;
+		FIELD c description Ljava/lang/String;
+		FIELD d type Ljava/lang/Class;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/util/function/Supplier;Ljava/lang/String;Ljava/lang/Class;)V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/util/function/Supplier;Ljava/lang/String;Ljava/lang/Class;Lapc$1;)V
+		METHOD a asMBeanAttributeInfo ()Ljavax/management/MBeanAttributeInfo;
+		METHOD a access$100 (Lapc$a;)Ljava/util/function/Supplier;
+		METHOD b access$200 (Lapc$a;)Ljava/lang/String;
+		METHOD c access$300 (Lapc$a;)Ljavax/management/MBeanAttributeInfo;

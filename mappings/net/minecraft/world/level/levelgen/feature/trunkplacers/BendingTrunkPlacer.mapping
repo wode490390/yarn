@@ -1,0 +1,11 @@
+CLASS cxf net/minecraft/world/level/levelgen/feature/trunkplacers/BendingTrunkPlacer
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b minHeightForLeaves I
+	FIELD h bendLength Laqo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (IIIILaqo;)V
+	METHOD a type ()Lcxn;
+	METHOD a placeTrunk (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;ILgb;Lcvg;)Ljava/util/List;
+	METHOD a lambda$null$1 (Lcxf;)Laqo;
+	METHOD b lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b lambda$null$0 (Lcxf;)Ljava/lang/Integer;

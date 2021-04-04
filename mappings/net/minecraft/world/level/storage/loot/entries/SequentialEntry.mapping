@@ -1,0 +1,13 @@
+CLASS dij net/minecraft/world/level/storage/loot/entries/SequentialEntry
+	METHOD <init> <init> ([Ldif;[Ldkf;)V
+	METHOD a getType ()Ldig;
+	METHOD a compose ([Ldhx;)Ldhx;
+	METHOD a lambda$compose$0 ([Ldhx;Ldhn;Ljava/util/function/Consumer;)Z
+	METHOD a sequential ([Ldif$a;)Ldij$a;
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		METHOD <init> <init> ([Ldif$a;)V
+		METHOD a getThis ()Ldij$a;
+		METHOD b build ()Ldif;
+		METHOD c then (Ldif$a;)Ldij$a;
+		METHOD d getThis ()Ldif$a;

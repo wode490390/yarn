@@ -1,0 +1,17 @@
+CLASS cvm net/minecraft/world/level/levelgen/feature/featuresize/ThreeLayersFeatureSize
+	FIELD d CODEC Lcom/mojang/serialization/Codec;
+	FIELD e limit I
+	FIELD f upperLimit I
+	FIELD g lowerSize I
+	FIELD h middleSize I
+	FIELD i upperSize I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (IIIIILjava/util/OptionalInt;)V
+	METHOD a getSizeAtHeight (II)I
+	METHOD a lambda$static$5 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$4 (Lcvm;)Ljava/lang/Integer;
+	METHOD b type ()Lcvl;
+	METHOD b lambda$null$3 (Lcvm;)Ljava/lang/Integer;
+	METHOD c lambda$null$2 (Lcvm;)Ljava/lang/Integer;
+	METHOD d lambda$null$1 (Lcvm;)Ljava/lang/Integer;
+	METHOD e lambda$null$0 (Lcvm;)Ljava/lang/Integer;

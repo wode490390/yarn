@@ -1,0 +1,24 @@
+CLASS bvi net/minecraft/world/level/EntityGetter
+	METHOD a hasNearbyAlivePlayer (DDDD)Z
+	METHOD a getNearestPlayer (DDDDLjava/util/function/Predicate;)Lbjf;
+	METHOD a getNearestPlayer (DDDDZ)Lbjf;
+	METHOD a getNearestPlayer (Lasl;D)Lbjf;
+	METHOD a getEntities (Lasl;Ldlt;)Ljava/util/List;
+	METHOD a getEntities (Lasl;Ldlt;Ljava/util/function/Predicate;)Ljava/util/List;
+	METHOD a isUnobstructed (Lasl;Ldmr;)Z
+	METHOD a lambda$getNearbyEntities$2 (Lasy;)Z
+	METHOD a getNearestPlayer (Lbcb;DDD)Lbjf;
+	METHOD a getNearestPlayer (Lbcb;Lasy;)Lbjf;
+	METHOD a getNearestPlayer (Lbcb;Lasy;DDD)Lbjf;
+	METHOD a getNearbyPlayers (Lbcb;Lasy;Ldlt;)Ljava/util/List;
+	METHOD a getEntities (Lcni;Ldlt;Ljava/util/function/Predicate;)Ljava/util/List;
+	METHOD a lambda$getEntityCollisions$0 (Ldlt;Lasl;Lasl;)Z
+	METHOD a getNearestEntity (Ljava/lang/Class;Lbcb;Lasy;DDDLdlt;)Lasy;
+	METHOD a getNearbyEntities (Ljava/lang/Class;Lbcb;Lasy;Ldlt;)Ljava/util/List;
+	METHOD a getEntitiesOfClass (Ljava/lang/Class;Ldlt;)Ljava/util/List;
+	METHOD a getEntitiesOfClass (Ljava/lang/Class;Ldlt;Ljava/util/function/Predicate;)Ljava/util/List;
+	METHOD a getNearestEntity (Ljava/util/List;Lbcb;Lasy;DDD)Lasy;
+	METHOD b lambda$getNearestEntity$1 (Lasy;)Z
+	METHOD b getPlayerByUUID (Ljava/util/UUID;)Lbjf;
+	METHOD c getEntityCollisions (Lasl;Ldlt;Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+	METHOD z players ()Ljava/util/List;

@@ -1,0 +1,15 @@
+CLASS bbv net/minecraft/world/entity/ai/sensing/Sensor
+	FIELD a RANDOM Ljava/util/Random;
+	FIELD b TARGETING_RANGE I
+	FIELD c DEFAULT_SCAN_RATE I
+	FIELD d TARGET_CONDITIONS Lbcb;
+	FIELD e TARGET_CONDITIONS_IGNORE_INVISIBILITY_TESTING Lbcb;
+	FIELD f scanRate I
+	FIELD g timeToTick J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Labj;Lasy;)V
+	METHOD b tick (Labj;Lasy;)V
+	METHOD b isEntityTargetable (Lasy;Lasy;)Z

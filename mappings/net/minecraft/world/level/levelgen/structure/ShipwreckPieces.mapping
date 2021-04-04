@@ -1,0 +1,17 @@
+CLASS dah net/minecraft/world/level/levelgen/structure/ShipwreckPieces
+	FIELD a PIVOT Lgb;
+	FIELD b STRUCTURE_LOCATION_BEACHED [Lwp;
+	FIELD c STRUCTURE_LOCATION_OCEAN [Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Lgb;
+	METHOD a addPieces (Ldbn;Lgb;Lcek;Ldal;Ljava/util/Random;Lcuy;)V
+	CLASS a ShipwreckPiece
+		FIELD e isBeached Z
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD <init> <init> (Ldbn;Lwp;Lgb;Lcek;Z)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a makeSettings (Lcek;)Ldbo;
+		METHOD a handleDataMarker (Ljava/lang/String;Lgb;Lbwf;Ljava/util/Random;Lczp;)V
+		METHOD a lambda$new$0 (Lmv;Lwp;)Ldbo;

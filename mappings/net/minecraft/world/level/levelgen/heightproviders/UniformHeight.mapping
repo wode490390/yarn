@@ -1,0 +1,16 @@
+CLASS cxw net/minecraft/world/level/levelgen/heightproviders/UniformHeight
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d minInclusive Lcpe;
+	FIELD e maxInclusive Lcpe;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcpe;Lcpe;)V
+	METHOD a getType ()Lcxv;
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a of (Lcpe;Lcpe;)Lcxw;
+	METHOD a lambda$null$1 (Lcxw;)Lcpe;
+	METHOD a sample (Ljava/util/Random;Lcpg;)I
+	METHOD b lambda$null$0 (Lcxw;)Lcpe;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

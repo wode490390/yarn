@@ -1,0 +1,4 @@
+CLASS mo net/minecraft/gametest/framework/TestReporter
+	METHOD a finish ()V
+	METHOD a onTestFailed (Llv;)V
+	METHOD b onTestSuccess (Llv;)V

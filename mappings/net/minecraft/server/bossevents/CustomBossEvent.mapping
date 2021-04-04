@@ -1,0 +1,22 @@
+CLASS xg net/minecraft/server/bossevents/CustomBossEvent
+	FIELD h id Lwp;
+	FIELD i players Ljava/util/Set;
+	FIELD j value I
+	FIELD k max I
+	METHOD <init> <init> (Lwp;Lon;)V
+	METHOD a getTextId ()Lwp;
+	METHOD a setValue (I)V
+	METHOD a addPlayer (Labk;)V
+	METHOD a setPlayers (Ljava/util/Collection;)Z
+	METHOD a addOfflinePlayer (Ljava/util/UUID;)V
+	METHOD a load (Lmv;Lwp;)Lxg;
+	METHOD a lambda$getDisplayName$0 (Lox;)Lox;
+	METHOD b removeAllPlayers ()V
+	METHOD b setMax (I)V
+	METHOD b removePlayer (Labk;)V
+	METHOD c getValue ()I
+	METHOD c onPlayerConnect (Labk;)V
+	METHOD d getMax ()I
+	METHOD d onPlayerDisconnect (Labk;)V
+	METHOD e getDisplayName ()Lon;
+	METHOD f save ()Lmv;

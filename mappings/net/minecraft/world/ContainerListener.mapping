@@ -1,0 +1,2 @@
+CLASS arb net/minecraft/world/ContainerListener
+	METHOD a containerChanged (Laqz;)V

@@ -1,0 +1,18 @@
+CLASS aex net/minecraft/sounds/SoundSource
+	FIELD a MASTER Laex;
+	FIELD b MUSIC Laex;
+	FIELD c RECORDS Laex;
+	FIELD d WEATHER Laex;
+	FIELD e BLOCKS Laex;
+	FIELD f HOSTILE Laex;
+	FIELD g NEUTRAL Laex;
+	FIELD h PLAYERS Laex;
+	FIELD i AMBIENT Laex;
+	FIELD j VOICE Laex;
+	FIELD k name Ljava/lang/String;
+	FIELD l $VALUES [Laex;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Laex;
+	METHOD values values ()[Laex;

@@ -1,0 +1,4 @@
+CLASS atm net/minecraft/world/entity/Saddleable
+	METHOD O_ isSaddled ()Z
+	METHOD a equipSaddle (Laex;)V
+	METHOD c isSaddleable ()Z

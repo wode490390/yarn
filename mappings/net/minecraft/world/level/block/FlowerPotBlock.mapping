@@ -1,0 +1,15 @@
+CLASS cbh net/minecraft/world/level/block/FlowerPotBlock
+	FIELD a AABB_SIZE F
+	FIELD b SHAPE Ldmr;
+	FIELD c POTTED_BY_CONTENT Ljava/util/Map;
+	FIELD d content Lbyq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbyq;Lcjq$c;)V
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD b_ getRenderShape (Lcjr;)Lced;
+	METHOD c getContent ()Lbyq;
+	METHOD e isEmpty ()Z

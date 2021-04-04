@@ -1,0 +1,6 @@
+CLASS axv net/minecraft/world/entity/ai/control/SmoothSwimmingLookControl
+	FIELD h maxYRotFromCenter I
+	FIELD i HEAD_TILT_X I
+	FIELD j HEAD_TILT_Y I
+	METHOD <init> <init> (Lasz;I)V
+	METHOD a tick ()V

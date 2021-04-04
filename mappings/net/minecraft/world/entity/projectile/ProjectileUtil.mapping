@@ -1,0 +1,8 @@
+CLASS bjw net/minecraft/world/entity/projectile/ProjectileUtil
+	METHOD <init> <init> ()V
+	METHOD a rotateTowardsMovement (Lasl;F)V
+	METHOD a getEntityHitResult (Lasl;Ldly;Ldly;Ldlt;Ljava/util/function/Predicate;D)Ldlv;
+	METHOD a getHitResult (Lasl;Ljava/util/function/Predicate;)Ldlw;
+	METHOD a getWeaponHoldingHand (Lasy;Lbpn;)Larf;
+	METHOD a getMobArrow (Lasy;Lbpr;F)Lbjj;
+	METHOD a getEntityHitResult (Lbvr;Lasl;Ldly;Ldly;Ldlt;Ljava/util/function/Predicate;)Ldlv;

@@ -1,0 +1,8 @@
+CLASS dev net/minecraft/world/level/newbiome/layer/RareBiomeSpotLayer
+	FIELD a INSTANCE Ldev;
+	FIELD ar $VALUES [Ldev;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Ldee;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldev;
+	METHOD values values ()[Ldev;

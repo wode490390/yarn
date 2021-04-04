@@ -1,0 +1,6 @@
+CLASS aix net/minecraft/util/datafix/fixes/EntityCodSalmonFix
+	FIELD a RENAMED_IDS Ljava/util/Map;
+	FIELD b RENAMED_EGG_IDS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a rename (Ljava/lang/String;)Ljava/lang/String;

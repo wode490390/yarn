@@ -1,0 +1,19 @@
+CLASS ds net/minecraft/commands/arguments/GameProfileArgument
+	FIELD a ERROR_UNKNOWN_PLAYER Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a gameProfile ()Lds;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lds$a;
+	METHOD a lambda$listSuggestions$1 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)V
+	METHOD a getGameProfiles (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;
+	METHOD a lambda$parse$0 (Ljava/lang/String;Ldg;)Ljava/util/Collection;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	CLASS a Result
+		METHOD getNames getNames (Ldg;)Ljava/util/Collection;
+	CLASS b SelectorResult
+		FIELD a selector Lfh;
+		METHOD <init> <init> (Lfh;)V
+		METHOD getNames getNames (Ldg;)Ljava/util/Collection;

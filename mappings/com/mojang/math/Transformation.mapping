@@ -1,0 +1,26 @@
+CLASS i com/mojang/math/Transformation
+	FIELD a matrix Ld;
+	FIELD b decomposed Z
+	FIELD c translation Lk;
+	FIELD d leftRotation Lg;
+	FIELD e scale Lk;
+	FIELD f rightRotation Lg;
+	FIELD g IDENTITY Li;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ld;)V
+	METHOD <init> <init> (Lk;Lg;Lk;Lg;)V
+	METHOD a identity ()Li;
+	METHOD a toAffine (Ld;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a compose (Li;)Li;
+	METHOD a slerp (Li;F)Li;
+	METHOD a compose (Lk;Lg;Lk;Lg;)Ld;
+	METHOD b inverse ()Li;
+	METHOD c getMatrix ()Ld;
+	METHOD d getTranslation ()Lk;
+	METHOD e getLeftRotation ()Lg;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getScale ()Lk;
+	METHOD g getRightRotation ()Lg;
+	METHOD h ensureDecomposed ()V
+	METHOD hashCode hashCode ()I
+	METHOD i lambda$static$0 ()Li;

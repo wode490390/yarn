@@ -1,0 +1,34 @@
+CLASS chn net/minecraft/world/level/block/entity/BellBlockEntity
+	FIELD a ticks I
+	FIELD b shaking Z
+	FIELD c clickDirection Lgg;
+	FIELD d DURATION I
+	FIELD e GLOW_DURATION I
+	FIELD f MIN_TICKS_BETWEEN_SEARCHES I
+	FIELD g MAX_RESONATION_TICKS I
+	FIELD h TICKS_BEFORE_RESONATION I
+	FIELD i SEARCH_RADIUS I
+	FIELD j HEAR_BELL_RADIUS I
+	FIELD k HIGHLIGHT_RAIDERS_RADIUS I
+	FIELD l lastRingTimestamp J
+	FIELD m nearbyEntities Ljava/util/List;
+	FIELD q resonating Z
+	FIELD r resonationTicks I
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a glow (Lasy;)V
+	METHOD a clientTick (Lbvr;Lgb;Lcjr;Lchn;)V
+	METHOD a tick (Lbvr;Lgb;Lcjr;Lchn;Lchn$a;)V
+	METHOD a makeRaidersGlow (Lbvr;Lgb;Ljava/util/List;)V
+	METHOD a lambda$showBellParticles$3 (Lgb;ILorg/apache/commons/lang3/mutable/MutableInt;Lbvr;Lasy;)V
+	METHOD a isRaiderWithinRange (Lgb;Lasy;)Z
+	METHOD a areRaidersNearby (Lgb;Ljava/util/List;)Z
+	METHOD a onHit (Lgg;)V
+	METHOD a_ triggerEvent (II)Z
+	METHOD b serverTick (Lbvr;Lgb;Lcjr;Lchn;)V
+	METHOD b showBellParticles (Lbvr;Lgb;Ljava/util/List;)V
+	METHOD b lambda$showBellParticles$2 (Lgb;Lasy;)Z
+	METHOD c lambda$showBellParticles$1 (Lgb;Lasy;)Z
+	METHOD d updateEntities ()V
+	METHOD d lambda$makeRaidersGlow$0 (Lgb;Lasy;)Z
+	CLASS a ResonationEndAction
+		METHOD run run (Lbvr;Lgb;Ljava/util/List;)V

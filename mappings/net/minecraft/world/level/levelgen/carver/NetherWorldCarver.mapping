@@ -1,0 +1,7 @@
+CLASS cpq net/minecraft/world/level/levelgen/carver/NetherWorldCarver
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getCaveBound ()I
+	METHOD a carveBlock (Lcpm;Lcpk;Lclk;Ljava/util/function/Function;Ljava/util/BitSet;Ljava/util/Random;Lgb$a;Lgb$a;ILorg/apache/commons/lang3/mutable/MutableBoolean;)Z
+	METHOD a carveBlock (Lcpm;Lcpn;Lclk;Ljava/util/function/Function;Ljava/util/BitSet;Ljava/util/Random;Lgb$a;Lgb$a;ILorg/apache/commons/lang3/mutable/MutableBoolean;)Z
+	METHOD a getThickness (Ljava/util/Random;)F
+	METHOD b getYScale ()D

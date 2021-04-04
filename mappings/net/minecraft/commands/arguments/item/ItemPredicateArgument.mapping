@@ -1,0 +1,29 @@
+CLASS fe net/minecraft/commands/arguments/item/ItemPredicateArgument
+	FIELD a EXAMPLES Ljava/util/Collection;
+	FIELD b ERROR_UNKNOWN_TAG Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a itemPredicate ()Lfe;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lfe$b;
+	METHOD a getItemPredicate (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/function/Predicate;
+	METHOD a lambda$parse$1 (Lfe$a;Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/function/Predicate;
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$null$2 (Lwp;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+	METHOD a lambda$parse$3 (Lwp;Lfd;Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/function/Predicate;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	CLASS a ItemPredicate
+		FIELD a item Lbpn;
+		FIELD b nbt Lmv;
+		METHOD <init> <init> (Lbpn;Lmv;)V
+		METHOD a test (Lbpr;)Z
+		METHOD test test (Ljava/lang/Object;)Z
+	CLASS b Result
+		METHOD create create (Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/function/Predicate;
+	CLASS c TagPredicate
+		FIELD a tag Lafs;
+		FIELD b nbt Lmv;
+		METHOD <init> <init> (Lafs;Lmv;)V
+		METHOD a test (Lbpr;)Z
+		METHOD test test (Ljava/lang/Object;)Z

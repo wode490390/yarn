@@ -1,0 +1,16 @@
+CLASS uh net/minecraft/network/protocol/game/ServerboundPlayerInputPacket
+	FIELD a FLAG_JUMPING I
+	FIELD b FLAG_SHIFT_KEY_DOWN I
+	FIELD c xxa F
+	FIELD d zza F
+	FIELD e isJumping Z
+	FIELD f isShiftKeyDown Z
+	METHOD <init> <init> (FFZZ)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getXxa ()F
+	METHOD c getZza ()F
+	METHOD d isJumping ()Z
+	METHOD e isShiftKeyDown ()Z

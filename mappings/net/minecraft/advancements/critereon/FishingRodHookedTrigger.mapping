@@ -1,0 +1,18 @@
+CLASS bp net/minecraft/advancements/critereon/FishingRodHookedTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;Lbpr;Lbjr;Ljava/util/Collection;)V
+	METHOD a lambda$trigger$0 (Lbpr;Ldhn;Ljava/util/Collection;Lbp$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lbp$a;
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a rod Lbv;
+		FIELD b entity Lbl$b;
+		FIELD c item Lbv;
+		METHOD <init> <init> (Lbl$b;Lbv;Lbl$b;Lbv;)V
+		METHOD a matches (Lbpr;Ldhn;Ljava/util/Collection;)Z
+		METHOD a fishedItem (Lbv;Lbl;Lbv;)Lbp$a;
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;

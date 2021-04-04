@@ -1,0 +1,32 @@
+CLASS bzr net/minecraft/world/level/block/CocoaBlock
+	FIELD F SOUTH_AABB [Ldmr;
+	FIELD a MAX_AGE I
+	FIELD b AGE Lckr;
+	FIELD c AGE_0_WIDTH I
+	FIELD d AGE_0_HEIGHT I
+	FIELD e AGE_0_HALFWIDTH I
+	FIELD f AGE_1_WIDTH I
+	FIELD g AGE_1_HEIGHT I
+	FIELD h AGE_1_HALFWIDTH I
+	FIELD i AGE_2_WIDTH I
+	FIELD j AGE_2_HEIGHT I
+	FIELD k AGE_2_HALFWIDTH I
+	FIELD l EAST_AABB [Ldmr;
+	FIELD m WEST_AABB [Ldmr;
+	FIELD n NORTH_AABB [Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a performBonemeal (Labj;Ljava/util/Random;Lgb;Lcjr;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a isValidBonemealTarget (Lbuv;Lgb;Lcjr;Z)Z
+	METHOD a isBonemealSuccess (Lbvr;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD d_ isRandomlyTicking (Lcjr;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

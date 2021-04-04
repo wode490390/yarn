@@ -1,0 +1,10 @@
+CLASS ame net/minecraft/util/datafix/fixes/SavedDataVillageCropFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a fixTag (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a updateCrop (Lcom/mojang/serialization/Dynamic;Ljava/lang/String;)Lcom/mojang/serialization/Dynamic;
+	METHOD a updateChildren (Ljava/util/stream/Stream;)Ljava/util/stream/Stream;
+	METHOD b updateChildren (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD c updateSingleField (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD d updateDoubleField (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD e lambda$updateChildren$0 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

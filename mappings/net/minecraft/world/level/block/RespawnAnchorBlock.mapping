@@ -1,0 +1,30 @@
+CLASS cef net/minecraft/world/level/block/RespawnAnchorBlock
+	FIELD a MIN_CHARGES I
+	FIELD b MAX_CHARGES I
+	FIELD c CHARGE Lckr;
+	FIELD d RESPAWN_HORIZONTAL_OFFSETS Lcom/google/common/collect/ImmutableList;
+	FIELD e RESPAWN_OFFSETS Lcom/google/common/collect/ImmutableList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a findStandUpPosition (Lasp;Lbva;Lgb;)Ljava/util/Optional;
+	METHOD a findStandUpPosition (Lasp;Lbva;Lgb;Z)Ljava/util/Optional;
+	METHOD a isRespawnFuel (Lbpr;)Z
+	METHOD a canSetSpawn (Lbvr;)Z
+	METHOD a lambda$explode$0 (Lbvr;Lgb;)Z
+	METHOD a charge (Lbvr;Lgb;Lcjr;)V
+	METHOD a getScaledChargeLevel (Lcjr;I)I
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getAnalogOutputSignal (Lcjr;Lbvr;Lgb;)I
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a isWaterThatWouldFlow (Lgb;Lbvr;)Z
+	METHOD d explode (Lcjr;Lbvr;Lgb;)V
+	METHOD g_ hasAnalogOutputSignal (Lcjr;)Z
+	METHOD h canBeCharged (Lcjr;)Z
+	CLASS 1 1
+		FIELD a val$pos Lgb;
+		FIELD b val$inWater Z
+		FIELD c this$0 Lcef;
+		METHOD <init> <init> (Lcef;Lgb;Z)V
+		METHOD a getBlockExplosionResistance (Lbvj;Lbuv;Lgb;Lcjr;Lddq;)Ljava/util/Optional;

@@ -1,0 +1,7 @@
+CLASS bup net/minecraft/world/item/trading/MerchantOffers
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lmv;)V
+	METHOD a createTag ()Lmv;
+	METHOD a getRecipeFor (Lbpr;Lbpr;I)Lbuo;
+	METHOD a writeToStream (Lob;)V
+	METHOD b createFromStream (Lob;)Lbup;

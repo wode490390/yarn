@@ -1,0 +1,4 @@
+CLASS adm net/minecraft/server/packs/resources/ResourceManagerReloadListener
+	METHOD a reload (Ladg$a;Ladl;Lapl;Lapl;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a onResourceManagerReload (Ladl;)V
+	METHOD a lambda$reload$0 (Lapl;Ladl;)V

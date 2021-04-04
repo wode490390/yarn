@@ -1,0 +1,8 @@
+CLASS cwi net/minecraft/world/level/levelgen/feature/stateproviders/RotatedBlockProvider
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c block Lbyq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbyq;)V
+	METHOD a type ()Lcwe;
+	METHOD a lambda$static$0 (Lcwi;)Lbyq;
+	METHOD a getState (Ljava/util/Random;Lgb;)Lcjr;

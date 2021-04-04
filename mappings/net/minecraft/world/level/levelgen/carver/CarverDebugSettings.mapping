@@ -1,0 +1,11 @@
+CLASS cpl net/minecraft/world/level/levelgen/carver/CarverDebugSettings
+	FIELD a DEFAULT Lcpl;
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c debugMode Z
+	FIELD d airState Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ZLcjr;)V
+	METHOD a isDebugMode ()Z
+	METHOD a lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a of (ZLcjr;)Lcpl;
+	METHOD b getAirState ()Lcjr;

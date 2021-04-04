@@ -1,0 +1,16 @@
+CLASS cgn net/minecraft/world/level/block/WallSignBlock
+	FIELD d FACING Lckl;
+	FIELD e AABB_THICKNESS F
+	FIELD f AABB_BOTTOM F
+	FIELD g AABB_TOP F
+	FIELD h AABBS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;Lcld;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD h getDescriptionId ()Ljava/lang/String;

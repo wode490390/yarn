@@ -1,0 +1,32 @@
+CLASS bhg net/minecraft/world/entity/monster/Silverfish
+	FIELD b friendsGoal Lbhg$b;
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a hurt (Larv;F)Z
+	METHOD a getWalkTargetValue (Lgb;Lbvu;)F
+	METHOD aE getMovementEmission ()Lasl$b;
+	METHOD b checkSliverfishSpawnRules (Lasp;Lbvs;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD b getStandingEyeHeight (Latj;Lasm;)F
+	METHOD b playStepSound (Lgb;Lcjr;)V
+	METHOD bg getMyRidingOffset ()D
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD ec getMobType ()Latc;
+	METHOD j tick ()V
+	METHOD m createAttributes ()Latx$a;
+	METHOD m setYBodyRot (F)V
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD u registerGoals ()V
+	CLASS a SilverfishMergeWithStoneGoal
+		FIELD i selectedDirection Lgg;
+		FIELD j doMerge Z
+		METHOD <init> <init> (Lbhg;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+	CLASS b SilverfishWakeUpFriendsGoal
+		FIELD a silverfish Lbhg;
+		FIELD b lookForFriends I
+		METHOD <init> <init> (Lbhg;)V
+		METHOD a canUse ()Z
+		METHOD e tick ()V
+		METHOD g notifyHurt ()V

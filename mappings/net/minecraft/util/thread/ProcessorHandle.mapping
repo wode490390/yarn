@@ -1,0 +1,15 @@
+CLASS aqe net/minecraft/util/thread/ProcessorHandle
+	METHOD a tell (Ljava/lang/Object;)V
+	METHOD a of (Ljava/lang/String;Ljava/util/function/Consumer;)Laqe;
+	METHOD a lambda$askEither$0 (Ljava/util/concurrent/CompletableFuture;Lcom/mojang/datafixers/util/Either;)V
+	METHOD b ask (Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;
+	METHOD bl name ()Ljava/lang/String;
+	METHOD c askEither (Ljava/util/function/Function;)Ljava/util/concurrent/CompletableFuture;
+	METHOD close close ()V
+	CLASS 1 1
+		FIELD a val$name Ljava/lang/String;
+		FIELD b val$tell Ljava/util/function/Consumer;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/util/function/Consumer;)V
+		METHOD a tell (Ljava/lang/Object;)V
+		METHOD bl name ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;

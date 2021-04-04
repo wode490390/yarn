@@ -1,0 +1,14 @@
+CLASS aqm net/minecraft/util/valueproviders/FloatProvider
+	FIELD a CONSTANT_OR_DISPATCH_CODEC Lcom/mojang/serialization/Codec;
+	FIELD c CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getMinValue ()F
+	METHOD a codec (FF)Lcom/mojang/serialization/Codec;
+	METHOD a lambda$codec$3 (FFLaqm;)Lcom/mojang/serialization/DataResult;
+	METHOD a lambda$static$2 (Laqm;)Lcom/mojang/datafixers/util/Either;
+	METHOD a lambda$static$1 (Lcom/mojang/datafixers/util/Either;)Laqm;
+	METHOD a sample (Ljava/util/Random;)F
+	METHOD b getMaxValue ()F
+	METHOD b lambda$null$0 (Laqm;)Laqm;
+	METHOD c getType ()Laqn;

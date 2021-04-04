@@ -1,0 +1,18 @@
+CLASS os net/minecraft/network/chat/KeybindComponent
+	FIELD d keyResolver Ljava/util/function/Function;
+	FIELD e name Ljava/lang/String;
+	FIELD f nameResolver Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a setKeyResolver (Ljava/util/function/Function;)V
+	METHOD b visitSelf (Loq$a;)Ljava/util/Optional;
+	METHOD b visitSelf (Loq$b;Lox;)Ljava/util/Optional;
+	METHOD d plainCopy ()Loj;
+	METHOD d lambda$static$1 (Ljava/lang/String;)Ljava/util/function/Supplier;
+	METHOD e lambda$null$0 (Ljava/lang/String;)Lon;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD g plainCopy ()Lot;
+	METHOD h plainCopy ()Los;
+	METHOD i getName ()Ljava/lang/String;
+	METHOD j getNestedComponent ()Lon;
+	METHOD toString toString ()Ljava/lang/String;

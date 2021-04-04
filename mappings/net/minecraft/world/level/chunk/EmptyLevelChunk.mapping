@@ -1,0 +1,20 @@
+CLASS clq net/minecraft/world/level/chunk/EmptyLevelChunk
+	METHOD <init> <init> (Lbvr;Lbuw;)V
+	METHOD a isYSpaceEmpty (II)Z
+	METHOD a setBlockEntity (Lchp;)V
+	METHOD a setBlockState (Lgb;Lcjr;Z)Lcjr;
+	METHOD a getBlockEntity (Lgb;Lclv$b;)Lchp;
+	METHOD b addAndRegisterBlockEntity (Lchp;)V
+	METHOD b getFluidState (Lgb;)Lddq;
+	METHOD d removeBlockEntity (Lgb;)V
+	METHOD d_ getBlockState (Lgb;)Lcjr;
+	METHOD f getLightEmission (Lgb;)I
+	METHOD t markUnsaved ()V
+	METHOD u isEmpty ()Z
+	METHOD v getFullStatus ()Laav$c;
+	CLASS a EmptyChunkBiomeContainer
+		FIELD b EMPTY_BIOMES [Lbwq;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Lbvr;)V
+		METHOD a writeBiomes ()[I
+		METHOD b getNoiseBiome (III)Lbwq;

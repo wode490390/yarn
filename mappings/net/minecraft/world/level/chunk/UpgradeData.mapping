@@ -1,0 +1,58 @@
+CLASS cmf net/minecraft/world/level/chunk/UpgradeData
+	FIELD a EMPTY Lcmf;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c TAG_INDICES Ljava/lang/String;
+	FIELD d DIRECTIONS [Lgh;
+	FIELD e sides Ljava/util/EnumSet;
+	FIELD f index [[I
+	FIELD g MAP Ljava/util/Map;
+	FIELD h CHUNKY_FIXERS Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbvt;)V
+	METHOD <init> <init> (Lmv;Lbvt;)V
+	METHOD a isEmpty ()Z
+	METHOD a lambda$upgrade$0 (Lbvr;Lcmf$a;)V
+	METHOD a updateState (Lcjr;Lgg;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a upgrade (Lclv;)V
+	METHOD a upgradeSides (Lclv;Lgh;)V
+	METHOD b write ()Lmv;
+	METHOD b upgradeInside (Lclv;)V
+	METHOD c access$200 ()Ljava/util/Map;
+	METHOD d access$300 ()Ljava/util/Set;
+	CLASS 1 1
+	CLASS a BlockFixer
+		METHOD a processChunk (Lbvs;)V
+		METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	CLASS b BlockFixers
+		FIELD a BLACKLIST Lcmf$b;
+		FIELD b DEFAULT Lcmf$b;
+		FIELD c CHEST Lcmf$b;
+		FIELD d LEAVES Lcmf$b;
+		FIELD e STEM_BLOCK Lcmf$b;
+		FIELD f DIRECTIONS [Lgg;
+		FIELD g $VALUES [Lcmf$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IZ[Lbyq;)V
+		METHOD <init> <init> (Ljava/lang/String;IZ[Lbyq;Lcmf$1;)V
+		METHOD <init> <init> (Ljava/lang/String;I[Lbyq;)V
+		METHOD <init> <init> (Ljava/lang/String;I[Lbyq;Lcmf$1;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcmf$b;
+		METHOD values values ()[Lcmf$b;
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;I[Lbyq;)V
+			METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;I[Lbyq;)V
+			METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+		CLASS 3 3
+			METHOD <init> <init> (Ljava/lang/String;I[Lbyq;)V
+			METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+		CLASS 4 4
+			FIELD g queue Ljava/lang/ThreadLocal;
+			METHOD <init> <init> (Ljava/lang/String;IZ[Lbyq;)V
+			METHOD a lambda$$0 ()Ljava/util/List;
+			METHOD a processChunk (Lbvs;)V
+			METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+		CLASS 5 5
+			METHOD <init> <init> (Ljava/lang/String;I[Lbyq;)V
+			METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;

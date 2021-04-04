@@ -1,0 +1,16 @@
+CLASS beo net/minecraft/world/entity/animal/horse/Markings
+	FIELD a NONE Lbeo;
+	FIELD b WHITE Lbeo;
+	FIELD c WHITE_FIELD Lbeo;
+	FIELD d WHITE_DOTS Lbeo;
+	FIELD e BLACK_DOTS Lbeo;
+	FIELD f BY_ID [Lbeo;
+	FIELD g id I
+	FIELD h $VALUES [Lbeo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;II)V
+	METHOD a getId ()I
+	METHOD a byId (I)Lbeo;
+	METHOD b lambda$static$0 (I)[Lbeo;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbeo;
+	METHOD values values ()[Lbeo;

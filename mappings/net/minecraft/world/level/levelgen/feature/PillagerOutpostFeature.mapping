@@ -1,0 +1,8 @@
+CLASS csc net/minecraft/world/level/levelgen/feature/PillagerOutpostFeature
+	FIELD v OUTPOST_ENEMIES Laqa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a isNearVillage (Lclm;JLcph;Lbuw;)Z
+	METHOD a isFeatureChunk (Lclm;Lbwt;JLcph;Lbuw;Lbwq;Lbuw;Lcua;Lbvt;)Z
+	METHOD a isFeatureChunk (Lclm;Lbwt;JLcph;Lbuw;Lbwq;Lbuw;Lcug;Lbvt;)Z
+	METHOD c getSpecialEnemies ()Laqa;

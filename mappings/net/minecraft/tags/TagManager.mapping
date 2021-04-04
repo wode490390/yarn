@@ -1,0 +1,24 @@
+CLASS afw net/minecraft/tags/TagManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b registryAccess Lgs;
+	FIELD c tags Lafu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgs;)V
+	METHOD a getTags ()Lafu;
+	METHOD a lambda$reload$2 (I)[Ljava/util/concurrent/CompletableFuture;
+	METHOD a reload (Ladg$a;Ladl;Lapl;Lapl;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a createLoader (Ladl;Ljava/util/concurrent/Executor;Lafq;)Lafw$a;
+	METHOD a lambda$reload$0 (Ladl;Ljava/util/concurrent/Executor;Ljava/util/List;Lafq;)V
+	METHOD a lambda$null$3 (Lafu$a;Lafw$a;)V
+	METHOD a lambda$createLoader$6 (Lafv;Ladl;)Laft;
+	METHOD a lambda$reload$1 (Lafw$a;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$reload$5 (Ljava/util/List;Ljava/lang/Void;)V
+	METHOD a lambda$null$4 (Ljava/util/Map$Entry;)Ljava/lang/String;
+	CLASS 1 1
+	CLASS a LoaderInfo
+		FIELD a helper Lafq;
+		FIELD b pendingLoad Ljava/util/concurrent/CompletableFuture;
+		METHOD <init> <init> (Lafq;Ljava/util/concurrent/CompletableFuture;)V
+		METHOD <init> <init> (Lafq;Ljava/util/concurrent/CompletableFuture;Lafw$1;)V
+		METHOD a addToBuilder (Lafu$a;)V
+		METHOD a access$100 (Lafw$a;)Ljava/util/concurrent/CompletableFuture;

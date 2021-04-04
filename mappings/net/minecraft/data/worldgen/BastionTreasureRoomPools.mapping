@@ -1,0 +1,4 @@
+CLASS kr net/minecraft/data/worldgen/BastionTreasureRoomPools
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V

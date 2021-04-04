@@ -1,0 +1,12 @@
+CLASS cdg net/minecraft/world/level/block/NetherWartBlock
+	FIELD a MAX_AGE I
+	FIELD b AGE Lckr;
+	FIELD c SHAPE_BY_AGE [Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD d mayPlaceOn (Lcjr;Lbuv;Lgb;)Z
+	METHOD d_ isRandomlyTicking (Lcjr;)Z

@@ -1,0 +1,36 @@
+CLASS cnn net/minecraft/world/level/entity/TransientEntitySectionManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b callbacks Lcnj;
+	FIELD c entityStorage Lcnd;
+	FIELD d sectionStorage Lcng;
+	FIELD e tickingChunks Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD f entityGetter Lcnk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/Class;Lcnj;)V
+	METHOD a getEntityGetter ()Lcnk;
+	METHOD a lambda$new$0 (J)Lcno;
+	METHOD a removeSectionIfEmpty (JLcnf;)V
+	METHOD a startTicking (Lbuw;)V
+	METHOD a addEntity (Lcnb;)V
+	METHOD a lambda$stopTicking$4 (Lcnf;)V
+	METHOD a access$200 (Lcnn;)Lcng;
+	METHOD a access$100 (Lcnn;JLcnf;)V
+	METHOD b count ()I
+	METHOD b stopTicking (Lbuw;)V
+	METHOD b lambda$null$3 (Lcnb;)Z
+	METHOD b lambda$startTicking$2 (Lcnf;)V
+	METHOD b access$300 (Lcnn;)Lcnj;
+	METHOD c gatherStats ()Ljava/lang/String;
+	METHOD c lambda$null$1 (Lcnb;)Z
+	METHOD c access$400 (Lcnn;)Lcnd;
+	METHOD d access$000 ()Lorg/apache/logging/log4j/Logger;
+	CLASS 1 1
+	CLASS a Callback
+		FIELD b this$0 Lcnn;
+		FIELD c entity Lcnb;
+		FIELD d currentSectionKey J
+		FIELD e currentSection Lcnf;
+		METHOD <init> <init> (Lcnn;Lcnb;JLcnf;)V
+		METHOD <init> <init> (Lcnn;Lcnb;JLcnf;Lcnn$1;)V
+		METHOD a onMove ()V
+		METHOD a onRemove (Lasl$c;)V

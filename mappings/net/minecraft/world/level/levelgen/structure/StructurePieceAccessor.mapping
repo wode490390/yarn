@@ -1,0 +1,3 @@
+CLASS dal net/minecraft/world/level/levelgen/structure/StructurePieceAccessor
+	METHOD a findCollisionPiece (Lczp;)Ldak;
+	METHOD a addPiece (Ldak;)V

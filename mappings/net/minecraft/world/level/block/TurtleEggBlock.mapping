@@ -1,0 +1,25 @@
+CLASS cgh net/minecraft/world/level/block/TurtleEggBlock
+	FIELD a MAX_HATCH_LEVEL I
+	FIELD b MIN_EGGS I
+	FIELD c MAX_EGGS I
+	FIELD d HATCH Lckr;
+	FIELD e EGGS Lckr;
+	FIELD f ONE_EGG_AABB Ldmr;
+	FIELD g MULTIPLE_EGGS_AABB Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a onSand (Lbuv;Lgb;)Z
+	METHOD a shouldUpdateHatchLevel (Lbvr;)Z
+	METHOD a canDestroyEgg (Lbvr;Lasl;)Z
+	METHOD a playerDestroy (Lbvr;Lbjf;Lgb;Lcjr;Lchp;Lbpr;)V
+	METHOD a stepOn (Lbvr;Lgb;Lasl;)V
+	METHOD a fallOn (Lbvr;Lgb;Lasl;F)V
+	METHOD a destroyEgg (Lbvr;Lgb;Lasl;I)V
+	METHOD a decreaseEggs (Lbvr;Lgb;Lcjr;)V
+	METHOD a canBeReplaced (Lcjr;Lbrr;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b isSand (Lbuv;Lgb;)Z
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b onPlace (Lcjr;Lbvr;Lgb;Lcjr;Z)V

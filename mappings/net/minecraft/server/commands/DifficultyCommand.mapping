@@ -1,0 +1,10 @@
+CLASS xx net/minecraft/server/commands/DifficultyCommand
+	FIELD a ERROR_ALREADY_DIFFICULT Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$1 (Lard;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$2 (Ldg;)Z
+	METHOD a setDifficulty (Ldg;Lard;)I
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;

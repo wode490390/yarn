@@ -1,0 +1,2 @@
+CLASS ctc net/minecraft/world/level/levelgen/feature/VillageFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V

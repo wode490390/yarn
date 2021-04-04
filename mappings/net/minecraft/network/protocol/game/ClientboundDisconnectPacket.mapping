@@ -1,0 +1,8 @@
+CLASS qj net/minecraft/network/protocol/game/ClientboundDisconnectPacket
+	FIELD a reason Lon;
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lon;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getReason ()Lon;

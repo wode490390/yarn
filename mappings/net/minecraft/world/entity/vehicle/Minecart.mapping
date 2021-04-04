@@ -1,0 +1,6 @@
+CLASS bky net/minecraft/world/entity/vehicle/Minecart
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDD)V
+	METHOD a activateMinecart (IIIZ)V
+	METHOD a interact (Lbjf;Larf;)Larg;
+	METHOD o getMinecartType ()Lbku$a;

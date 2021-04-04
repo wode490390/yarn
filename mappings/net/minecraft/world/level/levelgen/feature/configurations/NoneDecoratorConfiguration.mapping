@@ -1,0 +1,6 @@
+CLASS cul net/minecraft/world/level/levelgen/feature/configurations/NoneDecoratorConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c INSTANCE Lcul;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$static$0 ()Lcul;

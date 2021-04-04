@@ -1,0 +1,20 @@
+CLASS aeq net/minecraft/server/rcon/thread/RconClient
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e SERVERDATA_AUTH I
+	FIELD f SERVERDATA_EXECCOMMAND I
+	FIELD g SERVERDATA_RESPONSE_VALUE I
+	FIELD h SERVERDATA_AUTH_RESPONSE I
+	FIELD i SERVERDATA_AUTH_FAILURE I
+	FIELD j authed Z
+	FIELD k client Ljava/net/Socket;
+	FIELD l buf [B
+	FIELD m rconPassword Ljava/lang/String;
+	FIELD n serverInterface Lxc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lxc;Ljava/lang/String;Ljava/net/Socket;)V
+	METHOD a send (IILjava/lang/String;)V
+	METHOD a sendCmdResponse (ILjava/lang/String;)V
+	METHOD b stop ()V
+	METHOD d sendAuthFailure ()V
+	METHOD e closeSocket ()V
+	METHOD run run ()V

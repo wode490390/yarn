@@ -1,0 +1,21 @@
+CLASS dmv net/minecraft/world/scores/Score
+	FIELD a SCORE_COMPARATOR Ljava/util/Comparator;
+	FIELD b scoreboard Ldmw;
+	FIELD c objective Ldmt;
+	FIELD d owner Ljava/lang/String;
+	FIELD e count I
+	FIELD f locked Z
+	FIELD g forceUpdate Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldmw;Ldmt;Ljava/lang/String;)V
+	METHOD a increment ()V
+	METHOD a add (I)V
+	METHOD a lambda$static$0 (Ldmv;Ldmv;)I
+	METHOD a setLocked (Z)V
+	METHOD b getScore ()I
+	METHOD b setScore (I)V
+	METHOD c reset ()V
+	METHOD d getObjective ()Ldmt;
+	METHOD e getOwner ()Ljava/lang/String;
+	METHOD f getScoreboard ()Ldmw;
+	METHOD g isLocked ()Z

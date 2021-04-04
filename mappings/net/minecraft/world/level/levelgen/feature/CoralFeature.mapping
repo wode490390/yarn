@@ -1,0 +1,5 @@
+CLASS cqj net/minecraft/world/level/levelgen/feature/CoralFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a placeFeature (Lbvs;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a place (Lcqz;)Z
+	METHOD b placeCoralBlock (Lbvs;Ljava/util/Random;Lgb;Lcjr;)Z

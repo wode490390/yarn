@@ -1,0 +1,68 @@
+CLASS bgs net/minecraft/world/entity/monster/Evoker
+	FIELD e wololoTarget Lbdt;
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a applyRaidBuffs (IZ)V
+	METHOD a setWololoTarget (Lbdt;)V
+	METHOD a access$300 (Lbgs;)Lbdt;
+	METHOD a access$900 (Lbgs;Lbdt;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b access$400 (Lbgs;)Ljava/util/Random;
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD c access$500 (Lbgs;)Ljava/util/Random;
+	METHOD d access$600 (Lbgs;)Ljava/util/Random;
+	METHOD e defineSynchedData ()V
+	METHOD e access$700 (Lbgs;)Ljava/util/Random;
+	METHOD eP customServerAiStep ()V
+	METHOD f access$800 (Lbgs;)Ljava/util/Random;
+	METHOD fH getWololoTarget ()Lbdt;
+	METHOD fn getCastingSoundEvent ()Laev;
+	METHOD o createAttributes ()Latx$a;
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD r isAlliedTo (Lasl;)Z
+	METHOD s getCelebrateSound ()Laev;
+	METHOD u registerGoals ()V
+	CLASS 1 1
+	CLASS a EvokerAttackSpellGoal
+		FIELD a this$0 Lbgs;
+		METHOD <init> <init> (Lbgs;)V
+		METHOD <init> <init> (Lbgs;Lbgs$1;)V
+		METHOD a createSpellEntity (DDDDFI)V
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Laev;
+		METHOD l getSpell ()Lbhj$a;
+	CLASS b EvokerCastingSpellGoal
+		FIELD a this$0 Lbgs;
+		METHOD <init> <init> (Lbgs;)V
+		METHOD <init> <init> (Lbgs;Lbgs$1;)V
+		METHOD e tick ()V
+	CLASS c EvokerSummonSpellGoal
+		FIELD a this$0 Lbgs;
+		FIELD e vexCountTargeting Lbcb;
+		METHOD <init> <init> (Lbgs;)V
+		METHOD <init> <init> (Lbgs;Lbgs$1;)V
+		METHOD a canUse ()Z
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Laev;
+		METHOD l getSpell ()Lbhj$a;
+	CLASS d EvokerWololoSpellGoal
+		FIELD a this$0 Lbgs;
+		FIELD e wololoTargeting Lbcb;
+		METHOD <init> <init> (Lbgs;)V
+		METHOD a canUse ()Z
+		METHOD a lambda$new$0 (Lasy;)Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Laev;
+		METHOD l getSpell ()Lbhj$a;
+		METHOD m getCastWarmupTime ()I

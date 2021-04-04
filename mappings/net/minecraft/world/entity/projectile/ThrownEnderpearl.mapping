@@ -1,0 +1,8 @@
+CLASS bke net/minecraft/world/entity/projectile/ThrownEnderpearl
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;Lasy;)V
+	METHOD a onHitEntity (Ldlv;)V
+	METHOD a onHit (Ldlw;)V
+	METHOD b changeDimension (Labj;)Lasl;
+	METHOD h getDefaultItem ()Lbpn;
+	METHOD j tick ()V

@@ -1,0 +1,16 @@
+CLASS ccr net/minecraft/world/level/block/LightBlock
+	FIELD a LEVEL Lckr;
+	FIELD b WATERLOGGED Lcki;
+	FIELD c LIGHT_EMISSION Ljava/util/function/ToIntFunction;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b getShadeBrightness (Lcjr;Lbuv;Lgb;)F
+	METHOD b_ getRenderShape (Lcjr;)Lced;
+	METHOD c propagatesSkylightDown (Lcjr;Lbuv;Lgb;)Z
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD h lambda$static$0 (Lcjr;)I

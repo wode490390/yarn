@@ -1,0 +1,20 @@
+CLASS bgq net/minecraft/world/entity/monster/Endermite
+	FIELD b MAX_LIFE I
+	FIELD c life I
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD aE getMovementEmission ()Lasl$b;
+	METHOD b checkEndermiteSpawnRules (Lasp;Lbvs;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD b getStandingEyeHeight (Latj;Lasm;)F
+	METHOD b playStepSound (Lgb;Lcjr;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD bg getMyRidingOffset ()D
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD ec getMobType ()Latc;
+	METHOD j tick ()V
+	METHOD k aiStep ()V
+	METHOD m createAttributes ()Latx$a;
+	METHOD m setYBodyRot (F)V
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD u registerGoals ()V

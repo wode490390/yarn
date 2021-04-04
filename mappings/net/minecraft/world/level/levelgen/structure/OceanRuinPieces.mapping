@@ -1,0 +1,32 @@
+CLASS dad net/minecraft/world/level/levelgen/structure/OceanRuinPieces
+	FIELD a WARM_RUINS [Lwp;
+	FIELD b RUINS_BRICK [Lwp;
+	FIELD c RUINS_CRACKED [Lwp;
+	FIELD d RUINS_MOSSY [Lwp;
+	FIELD e BIG_RUINS_BRICK [Lwp;
+	FIELD f BIG_RUINS_MOSSY [Lwp;
+	FIELD g BIG_RUINS_CRACKED [Lwp;
+	FIELD h BIG_WARM_RUINS [Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a addPieces (Ldbn;Lgb;Lcek;Ldal;Ljava/util/Random;Lcun;)V
+	METHOD a addPiece (Ldbn;Lgb;Lcek;Ldal;Ljava/util/Random;Lcun;ZF)V
+	METHOD a addClusterRuins (Ldbn;Ljava/util/Random;Lcek;Lgb;Lcun;Ldal;)V
+	METHOD a getSmallWarmRuin (Ljava/util/Random;)Lwp;
+	METHOD a allPositions (Ljava/util/Random;Lgb;)Ljava/util/List;
+	METHOD b getBigWarmRuin (Ljava/util/Random;)Lwp;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$levelgen$structure$OceanRuinFeature$Type [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a OceanRuinPiece
+		FIELD e biomeType Ldac$b;
+		FIELD f integrity F
+		FIELD g isLarge Z
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD <init> <init> (Ldbn;Lwp;Lgb;Lcek;FLdac$b;Z)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a makeSettings (Lcek;)Ldbo;
+		METHOD a getHeight (Lgb;Lbuv;Lgb;)I
+		METHOD a handleDataMarker (Ljava/lang/String;Lgb;Lbwf;Ljava/util/Random;Lczp;)V
+		METHOD a lambda$new$0 (Lmv;Lwp;)Ldbo;

@@ -1,0 +1,26 @@
+CLASS bpx net/minecraft/world/item/MapItem
+	FIELD a IMAGE_WIDTH I
+	FIELD b IMAGE_HEIGHT I
+	FIELD c DEFAULT_MAP_COLOR I
+	FIELD d TAG_MAP Ljava/lang/String;
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a makeKey (I)Ljava/lang/String;
+	METHOD a renderBiomePreviewMap (Labj;Lbpr;)V
+	METHOD a storeMapData (Lbpr;I)V
+	METHOD a getSavedData (Lbpr;Lbvr;)Ldgq;
+	METHOD a scaleMap (Lbpr;Lbvr;I)V
+	METHOD a createAndStoreSavedData (Lbpr;Lbvr;IIIZZLwo;)V
+	METHOD a inventoryTick (Lbpr;Lbvr;Lasl;IZ)V
+	METHOD a getUpdatePacket (Lbpr;Lbvr;Lbjf;)Lpf;
+	METHOD a appendHoverText (Lbpr;Lbvr;Ljava/util/List;Lbre;)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a create (Lbvr;IIBZZ)Lbpr;
+	METHOD a createNewSavedData (Lbvr;IIIZZLwo;)I
+	METHOD a update (Lbvr;Lasl;Ldgq;)V
+	METHOD a lockMap (Lbvr;Lbpr;)V
+	METHOD a getCorrectStateForFluidBlock (Lbvr;Lcjr;Lgb;)Lcjr;
+	METHOD a getSavedData (Ljava/lang/Integer;Lbvr;)Ldgq;
+	METHOD a isLand ([Lbwq;III)Z
+	METHOD b onCraftedBy (Lbpr;Lbvr;Lbjf;)V
+	METHOD d getMapId (Lbpr;)Ljava/lang/Integer;
+	METHOD k getColor (Lbpr;)I

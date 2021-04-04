@@ -1,0 +1,11 @@
+CLASS cxp net/minecraft/world/level/levelgen/flat/FlatLayerInfo
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b block Lbyq;
+	FIELD c height I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILbyq;)V
+	METHOD a getHeight ()I
+	METHOD a lambda$static$1 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$0 (Lcxp;)Lbyq;
+	METHOD b getBlockState ()Lcjr;
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,6 @@
+CLASS csb net/minecraft/world/level/levelgen/feature/OreFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a doPlace (Lbvs;Ljava/util/Random;Lcuo;DDDDDDIIIII)Z
+	METHOD a canPlaceOre (Lcjr;Ljava/util/function/Function;Ljava/util/Random;Lcuo;Lcuo$b;Lgb$a;)Z
+	METHOD a place (Lcqz;)Z
+	METHOD a shouldSkipAirCheck (Ljava/util/Random;F)Z

@@ -1,0 +1,10 @@
+CLASS dgl net/minecraft/world/level/saveddata/SavedData
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b dirty Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a save (Ljava/io/File;)V
+	METHOD a save (Lmv;)Lmv;
+	METHOD a setDirty (Z)V
+	METHOD b setDirty ()V
+	METHOD c isDirty ()Z

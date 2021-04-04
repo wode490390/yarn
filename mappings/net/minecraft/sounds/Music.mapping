@@ -1,0 +1,17 @@
+CLASS aet net/minecraft/sounds/Music
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b event Laev;
+	FIELD c minDelay I
+	FIELD d maxDelay I
+	FIELD e replaceCurrentMusic Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laev;IIZ)V
+	METHOD a getEvent ()Laev;
+	METHOD a lambda$null$3 (Laet;)Ljava/lang/Boolean;
+	METHOD a lambda$static$4 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b getMinDelay ()I
+	METHOD b lambda$null$2 (Laet;)Ljava/lang/Integer;
+	METHOD c getMaxDelay ()I
+	METHOD c lambda$null$1 (Laet;)Ljava/lang/Integer;
+	METHOD d replaceCurrentMusic ()Z
+	METHOD d lambda$null$0 (Laet;)Laev;

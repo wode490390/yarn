@@ -1,0 +1,18 @@
+CLASS bzp net/minecraft/world/level/block/ChorusFlowerBlock
+	FIELD a DEAD_AGE I
+	FIELD b AGE Lckr;
+	FIELD c plant Lbzq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbzq;Lcjq$c;)V
+	METHOD a onProjectileHit (Lbvr;Lcjr;Ldlu;Lbjv;)V
+	METHOD a placeDeadFlower (Lbvr;Lgb;)V
+	METHOD a placeGrownFlower (Lbvr;Lgb;I)V
+	METHOD a generatePlant (Lbvs;Lgb;Ljava/util/Random;I)V
+	METHOD a growTreeRecursive (Lbvs;Lgb;Ljava/util/Random;Lgb;II)V
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b allNeighborsEmpty (Lbvu;Lgb;Lgg;)Z
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD d_ isRandomlyTicking (Lcjr;)Z

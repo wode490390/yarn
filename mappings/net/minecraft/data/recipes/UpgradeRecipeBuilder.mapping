@@ -1,0 +1,26 @@
+CLASS jz net/minecraft/data/recipes/UpgradeRecipeBuilder
+	FIELD a base Lbsg;
+	FIELD b addition Lbsg;
+	FIELD c result Lbpn;
+	FIELD d advancement Lad$a;
+	FIELD e type Lbsl;
+	METHOD <init> <init> (Lbsl;Lbsg;Lbsg;Lbpn;)V
+	METHOD a smithing (Lbsg;Lbsg;Lbpn;)Ljz;
+	METHOD a unlocks (Ljava/lang/String;Lal;)Ljz;
+	METHOD a save (Ljava/util/function/Consumer;Ljava/lang/String;)V
+	METHOD a save (Ljava/util/function/Consumer;Lwp;)V
+	METHOD a ensureValid (Lwp;)V
+	CLASS a Result
+		FIELD a id Lwp;
+		FIELD b base Lbsg;
+		FIELD c addition Lbsg;
+		FIELD d result Lbpn;
+		FIELD e advancement Lad$a;
+		FIELD f advancementId Lwp;
+		FIELD g type Lbsl;
+		METHOD <init> <init> (Lwp;Lbsl;Lbsg;Lbsg;Lbpn;Lad$a;Lwp;)V
+		METHOD a serializeRecipeData (Lcom/google/gson/JsonObject;)V
+		METHOD b getId ()Lwp;
+		METHOD c getType ()Lbsl;
+		METHOD d serializeAdvancement ()Lcom/google/gson/JsonObject;
+		METHOD e getAdvancementId ()Lwp;

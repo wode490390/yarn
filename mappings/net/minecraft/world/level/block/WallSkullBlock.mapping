@@ -1,0 +1,11 @@
+CLASS cgo net/minecraft/world/level/block/WallSkullBlock
+	FIELD a FACING Lckl;
+	FIELD b AABBS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lceu$a;Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD h getDescriptionId ()Ljava/lang/String;

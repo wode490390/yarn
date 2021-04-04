@@ -1,0 +1,21 @@
+CLASS dlc net/minecraft/world/level/storage/loot/providers/number/ScoreboardValue
+	FIELD a target Ldli;
+	FIELD b score Ljava/lang/String;
+	FIELD c scale F
+	METHOD <init> <init> (Ldli;Ljava/lang/String;F)V
+	METHOD <init> <init> (Ldli;Ljava/lang/String;FLdlc$1;)V
+	METHOD a getType ()Ldkz;
+	METHOD a fromScoreboard (Ldhn$c;Ljava/lang/String;)Ldlc;
+	METHOD a fromScoreboard (Ldhn$c;Ljava/lang/String;F)Ldlc;
+	METHOD a access$100 (Ldlc;)Ljava/lang/String;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	METHOD b getFloat (Ldhn;)F
+	METHOD b access$200 (Ldlc;)Ldli;
+	METHOD c access$300 (Ldlc;)F
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldlc;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldlc;

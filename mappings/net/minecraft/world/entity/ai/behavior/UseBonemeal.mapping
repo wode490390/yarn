@@ -1,0 +1,21 @@
+CLASS axc net/minecraft/world/entity/ai/behavior/UseBonemeal
+	FIELD a BONEMEALING_DURATION I
+	FIELD c nextWorkCycleTime J
+	FIELD d lastBonemealingSession J
+	FIELD e timeWorkedSoFar I
+	FIELD f cropPos Ljava/util/Optional;
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lbis;)Z
+	METHOD a canStillUse (Labj;Lbis;J)Z
+	METHOD a setCurrentCropAsTarget (Lbis;)V
+	METHOD a lambda$setCurrentCropAsTarget$0 (Lbis;Lgb;)V
+	METHOD a validPos (Lgb;Labj;)Z
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b pickNextTarget (Labj;Lbis;)Ljava/util/Optional;
+	METHOD b start (Labj;Lbis;J)V
+	METHOD c stop (Labj;Lasy;J)V
+	METHOD c stop (Labj;Lbis;J)V
+	METHOD d tick (Labj;Lasy;J)V
+	METHOD d tick (Labj;Lbis;J)V

@@ -1,0 +1,16 @@
+CLASS bip net/minecraft/world/entity/npc/ClientSideMerchant
+	FIELD a source Lbjf;
+	FIELD b offers Lbup;
+	FIELD c xp I
+	METHOD <init> <init> (Lbjf;)V
+	METHOD a notifyTrade (Lbuo;)V
+	METHOD a overrideOffers (Lbup;)V
+	METHOD f setTradingPlayer (Lbjf;)V
+	METHOD fn getTradingPlayer ()Lbjf;
+	METHOD fp getOffers ()Lbup;
+	METHOD fq showProgressBar ()Z
+	METHOD fr getNotifyTradeSound ()Laev;
+	METHOD fv getLevel ()Lbvr;
+	METHOD k notifyTradeUpdated (Lbpr;)V
+	METHOD s getVillagerXp ()I
+	METHOD u overrideXp (I)V

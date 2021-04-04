@@ -1,0 +1,2 @@
+CLASS mc net/minecraft/gametest/framework/GameTestTimeoutException
+	METHOD <init> <init> (Ljava/lang/String;)V

@@ -1,0 +1,35 @@
+CLASS mi net/minecraft/gametest/framework/StructureUtils
+	FIELD a DEFAULT_TEST_STRUCTURES_DIR Ljava/lang/String;
+	FIELD b testStructuresDir Ljava/lang/String;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d HOW_MANY_CHUNKS_TO_LOAD_IN_EACH_DIRECTION_OF_STRUCTURE I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getRotationForRotationSteps (I)Lcek;
+	METHOD a lambda$clearSpaceForStructure$2 (ILabj;Lgb;)V
+	METHOD a clearBlock (ILgb;Labj;)V
+	METHOD a lambda$clearSpaceForStructure$3 (Lasl;)Z
+	METHOD a getRotationStepsForRotation (Lcek;)I
+	METHOD a getStructureBounds (Lcit;)Ldlt;
+	METHOD a clearSpaceForStructure (Lczp;ILabj;)V
+	METHOD a findStructureBlockContainingPos (Lgb;ILabj;)Ljava/util/Optional;
+	METHOD a forceLoadChunks (Lgb;Labj;)V
+	METHOD a lambda$findStructureBlockContainingPos$4 (Lgb;Labj;Lgb;)Z
+	METHOD a lambda$findNearestStructureBlock$5 (Lgb;Lgb;)I
+	METHOD a doesStructureContain (Lgb;Lgb;Labj;)Z
+	METHOD a addCommandBlockAndButtonToStartTest (Lgb;Lgb;Lcek;Labj;)V
+	METHOD a getStructureBoundingBox (Lgb;Lgw;Lcek;)Lczp;
+	METHOD a getStructureTemplate (Ljava/lang/String;Labj;)Ldbs;
+	METHOD a spawnStructure (Ljava/lang/String;Lgb;Lcek;ILabj;Z)Lcit;
+	METHOD a createStructureBlock (Ljava/lang/String;Lgb;Lcek;Labj;Z)Lcit;
+	METHOD a createNewEmptyStructureBlock (Ljava/lang/String;Lgb;Lgw;Lcek;Labj;)V
+	METHOD a tryLoadStructure (Ljava/nio/file/Path;)Lmv;
+	METHOD a main ([Ljava/lang/String;)V
+	METHOD b getStructureBoundingBox (Lcit;)Lczp;
+	METHOD b findNearestStructureBlock (Lgb;ILabj;)Lgb;
+	METHOD b lambda$main$1 (Ljava/nio/file/Path;)V
+	METHOD c findStructureBlocks (Lgb;ILabj;)Ljava/util/Collection;
+	METHOD c lambda$main$0 (Ljava/nio/file/Path;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		METHOD <clinit> <clinit> ()V

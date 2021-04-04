@@ -1,0 +1,12 @@
+CLASS rv net/minecraft/network/protocol/game/ClientboundSetBorderLerpSizePacket
+	FIELD a oldSize D
+	FIELD b newSize D
+	FIELD c lerpTime J
+	METHOD <init> <init> (Lclh;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getOldSize ()D
+	METHOD c getNewSize ()D
+	METHOD d getLerpTime ()J

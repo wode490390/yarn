@@ -1,0 +1,25 @@
+CLASS bfp net/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhase
+	FIELD a HOLDING_PATTERN Lbfp;
+	FIELD b STRAFE_PLAYER Lbfp;
+	FIELD c LANDING_APPROACH Lbfp;
+	FIELD d LANDING Lbfp;
+	FIELD e TAKEOFF Lbfp;
+	FIELD f SITTING_FLAMING Lbfp;
+	FIELD g SITTING_SCANNING Lbfp;
+	FIELD h SITTING_ATTACKING Lbfp;
+	FIELD i CHARGING_PLAYER Lbfp;
+	FIELD j DYING Lbfp;
+	FIELD k HOVERING Lbfp;
+	FIELD l phases [Lbfp;
+	FIELD m instanceClass Ljava/lang/Class;
+	FIELD n id I
+	FIELD o name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILjava/lang/Class;Ljava/lang/String;)V
+	METHOD a getConstructor ()Ljava/lang/reflect/Constructor;
+	METHOD a getById (I)Lbfp;
+	METHOD a createInstance (Lbez;)Lbfj;
+	METHOD a create (Ljava/lang/Class;Ljava/lang/String;)Lbfp;
+	METHOD b getId ()I
+	METHOD c getCount ()I
+	METHOD toString toString ()Ljava/lang/String;

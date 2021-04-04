@@ -1,0 +1,15 @@
+CLASS agl net/minecraft/util/FrameTimer
+	FIELD a LOGGING_LENGTH I
+	FIELD b loggedTimes [J
+	FIELD c logStart I
+	FIELD d logLength I
+	FIELD e logEnd I
+	METHOD <init> <init> ()V
+	METHOD a getLogStart ()I
+	METHOD a getAverageDuration (I)J
+	METHOD a scaleAverageDurationTo (II)I
+	METHOD a logFrameDuration (J)V
+	METHOD a scaleSampleTo (JII)I
+	METHOD b getLogEnd ()I
+	METHOD b wrapIndex (I)I
+	METHOD c getLog ()[J

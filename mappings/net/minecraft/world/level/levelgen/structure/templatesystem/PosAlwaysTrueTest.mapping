@@ -1,0 +1,8 @@
+CLASS dbe net/minecraft/world/level/levelgen/structure/templatesystem/PosAlwaysTrueTest
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b INSTANCE Ldbe;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getType ()Ldbg;
+	METHOD a test (Lgb;Lgb;Lgb;Ljava/util/Random;)Z
+	METHOD b lambda$static$0 ()Ldbe;

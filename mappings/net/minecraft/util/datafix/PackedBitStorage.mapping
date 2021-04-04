@@ -1,0 +1,12 @@
+CLASS ahj net/minecraft/util/datafix/PackedBitStorage
+	FIELD a BIT_TO_LONG_SHIFT I
+	FIELD b data [J
+	FIELD c bits I
+	FIELD d mask J
+	FIELD e size I
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> (II[J)V
+	METHOD a getRaw ()[J
+	METHOD a get (I)I
+	METHOD a set (II)V
+	METHOD b getBits ()I

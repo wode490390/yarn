@@ -1,0 +1,10 @@
+CLASS qm net/minecraft/network/protocol/game/ClientboundForgetLevelChunkPacket
+	FIELD a x I
+	FIELD b z I
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getX ()I
+	METHOD c getZ ()I

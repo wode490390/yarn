@@ -1,0 +1,6 @@
+CLASS czr net/minecraft/world/level/levelgen/structure/DesertPyramidPiece
+	FIELD e hasPlacedChest [Z
+	METHOD <init> <init> (Labj;Lmv;)V
+	METHOD <init> <init> (Ljava/util/Random;II)V
+	METHOD a addAdditionalSaveData (Labj;Lmv;)V
+	METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z

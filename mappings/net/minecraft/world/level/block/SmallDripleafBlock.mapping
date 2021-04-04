@@ -1,0 +1,20 @@
+CLASS cex net/minecraft/world/level/block/SmallDripleafBlock
+	FIELD b FACING Lckl;
+	FIELD c AABB_OFFSET F
+	FIELD d SHAPE Ldmr;
+	FIELD e WATERLOGGED Lcki;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a performBonemeal (Labj;Ljava/util/Random;Lgb;Lcjr;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a isValidBonemealTarget (Lbuv;Lgb;Lcjr;Z)Z
+	METHOD a setPlacedBy (Lbvr;Lgb;Lcjr;Lasy;Lbpr;)V
+	METHOD a isBonemealSuccess (Lbvr;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD d mayPlaceOn (Lcjr;Lbuv;Lgb;)Z

@@ -1,0 +1,8 @@
+CLASS rs net/minecraft/network/protocol/game/ClientboundSelectAdvancementsTabPacket
+	FIELD a tab Lwp;
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lwp;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getTab ()Lwp;

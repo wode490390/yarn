@@ -1,0 +1,3 @@
+CLASS bpp net/minecraft/world/item/ItemFrameItem
+	METHOD <init> <init> (Lasp;Lbpn$a;)V
+	METHOD a mayPlace (Lbjf;Lgg;Lbpr;Lgb;)Z

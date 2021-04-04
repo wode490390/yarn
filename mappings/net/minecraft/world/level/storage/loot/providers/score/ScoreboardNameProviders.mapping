@@ -1,0 +1,7 @@
+CLASS dlj net/minecraft/world/level/storage/loot/providers/score/ScoreboardNameProviders
+	FIELD a FIXED Ldlh;
+	FIELD b CONTEXT Ldlh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a createGsonAdapter ()Ljava/lang/Object;
+	METHOD a register (Ljava/lang/String;Ldht;)Ldlh;

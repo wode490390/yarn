@@ -1,0 +1,24 @@
+CLASS bjv net/minecraft/world/entity/projectile/Projectile
+	FIELD b ownerUUID Ljava/util/UUID;
+	FIELD c leftOwner Z
+	FIELD d hasBeenShot Z
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD O getAddEntityPacket ()Lpf;
+	METHOD a canHitEntity (Lasl;)Z
+	METHOD a shootFromRotation (Lasl;FFFFF)V
+	METHOD a onHitBlock (Ldlu;)V
+	METHOD a onHitEntity (Ldlv;)V
+	METHOD a onHit (Ldlw;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD a recreateFromPacket (Lpj;)V
+	METHOD b setOwner (Lasl;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c shoot (DDDFF)V
+	METHOD c ownedBy (Lasl;)Z
+	METHOD d lerpRotation (FF)F
+	METHOD d lambda$checkLeftOwner$0 (Lasl;)Z
+	METHOD h checkLeftOwner ()Z
+	METHOD j tick ()V
+	METHOD k lerpMotion (DDD)V
+	METHOD v getOwner ()Lasl;
+	METHOD w updateRotation ()V

@@ -1,0 +1,9 @@
+CLASS zp net/minecraft/server/commands/StopSoundCommand
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$3 (Laex;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$4 (Ldg;)Z
+	METHOD a stopSound (Ldg;Ljava/util/Collection;Laex;Lwp;)I
+	METHOD b lambda$register$2 (Laex;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$register$0 (Lcom/mojang/brigadier/context/CommandContext;)I

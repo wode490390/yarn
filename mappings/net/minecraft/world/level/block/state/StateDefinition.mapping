@@ -1,0 +1,31 @@
+CLASS cjs net/minecraft/world/level/block/state/StateDefinition
+	FIELD a NAME_PATTERN Ljava/util/regex/Pattern;
+	FIELD b owner Ljava/lang/Object;
+	FIELD c propertiesByName Lcom/google/common/collect/ImmutableSortedMap;
+	FIELD d states Lcom/google/common/collect/ImmutableList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/lang/Object;Lcjs$b;Ljava/util/Map;)V
+	METHOD a getPossibleStates ()Lcom/google/common/collect/ImmutableList;
+	METHOD a lambda$new$3 (Lcjs$b;Ljava/lang/Object;Lcom/mojang/serialization/MapCodec;Ljava/util/Map;Ljava/util/List;Ljava/util/List;)V
+	METHOD a lambda$appendPropertyCodec$6 (Lcku;Lcjt;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$appendPropertyCodec$5 (Lcku;Lcom/mojang/datafixers/util/Pair;)Lcjt;
+	METHOD a lambda$new$2 (Lcku;Ljava/util/List;)Ljava/util/stream/Stream;
+	METHOD a lambda$appendPropertyCodec$4 (Lcku;Ljava/util/function/Supplier;)Lcku$a;
+	METHOD a appendPropertyCodec (Lcom/mojang/serialization/MapCodec;Ljava/util/function/Supplier;Ljava/lang/String;Lcku;)Lcom/mojang/serialization/MapCodec;
+	METHOD a getProperty (Ljava/lang/String;)Lcku;
+	METHOD a lambda$null$1 (Ljava/util/List;Lcku;Ljava/lang/Comparable;)Ljava/util/List;
+	METHOD a lambda$new$0 (Ljava/util/function/Function;Ljava/lang/Object;)Lcjt;
+	METHOD b any ()Lcjt;
+	METHOD c getOwner ()Ljava/lang/Object;
+	METHOD d getProperties ()Ljava/util/Collection;
+	METHOD e access$000 ()Ljava/util/regex/Pattern;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Builder
+		FIELD a owner Ljava/lang/Object;
+		FIELD b properties Ljava/util/Map;
+		METHOD <init> <init> (Ljava/lang/Object;)V
+		METHOD a validateProperty (Lcku;)V
+		METHOD a create (Ljava/util/function/Function;Lcjs$b;)Lcjs;
+		METHOD a add ([Lcku;)Lcjs$a;
+	CLASS b Factory
+		METHOD create create (Ljava/lang/Object;Lcom/google/common/collect/ImmutableMap;Lcom/mojang/serialization/MapCodec;)Ljava/lang/Object;

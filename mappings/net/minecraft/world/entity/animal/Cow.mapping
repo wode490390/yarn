@@ -1,0 +1,13 @@
+CLASS bdf net/minecraft/world/entity/animal/Cow
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a getBreedOffspring (Labj;Lasj;)Lasj;
+	METHOD b getBreedOffspring (Labj;Lasj;)Lbdf;
+	METHOD b getStandingEyeHeight (Latj;Lasm;)F
+	METHOD b mobInteract (Lbjf;Larf;)Larg;
+	METHOD b playStepSound (Lgb;Lcjr;)V
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD eg getSoundVolume ()F
+	METHOD o createAttributes ()Latx$a;
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD u registerGoals ()V

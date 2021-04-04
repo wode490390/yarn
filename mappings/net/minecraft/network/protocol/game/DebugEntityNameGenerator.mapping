@@ -1,0 +1,9 @@
+CLASS tf net/minecraft/network/protocol/game/DebugEntityNameGenerator
+	FIELD a NAMES_FIRST_PART [Ljava/lang/String;
+	FIELD b NAMES_SECOND_PART [Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getEntityName (Lasl;)Ljava/lang/String;
+	METHOD a getRandomString (Ljava/util/Random;[Ljava/lang/String;)Ljava/lang/String;
+	METHOD a getEntityName (Ljava/util/UUID;)Ljava/lang/String;
+	METHOD b getRandom (Ljava/util/UUID;)Ljava/util/Random;

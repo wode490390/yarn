@@ -1,0 +1,9 @@
+CLASS axd net/minecraft/world/entity/ai/behavior/ValidateNearbyPoi
+	FIELD a MAX_DISTANCE I
+	FIELD c memoryType Lbav;
+	FIELD d poiPredicate Ljava/util/function/Predicate;
+	METHOD <init> <init> (Lbcr;Lbav;)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a poiDoesntExist (Labj;Lgb;)Z
+	METHOD a bedIsOccupied (Labj;Lgb;Lasy;)Z

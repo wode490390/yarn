@@ -1,0 +1,6 @@
+CLASS bcd net/minecraft/world/entity/ai/util/AirAndWaterRandomPos
+	METHOD <init> <init> ()V
+	METHOD a getPos (Latg;IIIDDD)Ldly;
+	METHOD a generateRandomPos (Latg;IIIDDDZ)Lgb;
+	METHOD a lambda$generateRandomPos$1 (Latg;Lgb;)Z
+	METHOD b lambda$getPos$0 (Latg;IIIDDDZ)Lgb;

@@ -1,0 +1,24 @@
+CLASS cws net/minecraft/world/level/levelgen/feature/structures/SinglePoolElement
+	FIELD a TEMPLATE_CODEC Lcom/mojang/serialization/Codec;
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c template Lcom/mojang/datafixers/util/Either;
+	FIELD d processors Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/util/Either;Ljava/util/function/Supplier;Lcwv$a;)V
+	METHOD <init> <init> (Ldbs;)V
+	METHOD a getType ()Lcwu;
+	METHOD a getSettings (Lcek;Lczp;Z)Ldbo;
+	METHOD a encodeTemplate (Lcom/mojang/datafixers/util/Either;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD a lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$templateCodec$2 (Lcws;)Lcom/mojang/datafixers/util/Either;
+	METHOD a getTemplate (Ldbn;)Ldbs;
+	METHOD a place (Ldbn;Lbwm;Lbwi;Lclm;Lgb;Lgb;Lcek;Lczp;Ljava/util/Random;Z)Z
+	METHOD a getSize (Ldbn;Lcek;)Lgw;
+	METHOD a getBoundingBox (Ldbn;Lgb;Lcek;)Lczp;
+	METHOD a getShuffledJigsawBlocks (Ldbn;Lgb;Lcek;Ljava/util/Random;)Ljava/util/List;
+	METHOD a getDataMarkers (Ldbn;Lgb;Lcek;Z)Ljava/util/List;
+	METHOD b processorsCodec ()Lcom/mojang/serialization/codecs/RecordCodecBuilder;
+	METHOD b lambda$processorsCodec$1 (Lcws;)Ljava/util/function/Supplier;
+	METHOD c templateCodec ()Lcom/mojang/serialization/codecs/RecordCodecBuilder;
+	METHOD h lambda$new$3 ()Ldbq;
+	METHOD toString toString ()Ljava/lang/String;

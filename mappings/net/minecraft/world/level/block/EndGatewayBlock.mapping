@@ -1,0 +1,7 @@
+CLASS cas net/minecraft/world/level/block/EndGatewayBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a getTicker (Lbvr;Lcjr;Lchr;)Lchq;
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a canBeReplaced (Lcjr;Lddp;)Z
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;

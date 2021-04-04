@@ -1,0 +1,25 @@
+CLASS bie net/minecraft/world/entity/monster/piglin/PiglinBrute
+	FIELD bV MEMORY_TYPES Lcom/google/common/collect/ImmutableList;
+	FIELD bW MAX_HEALTH I
+	FIELD bX MOVEMENT_SPEED_WHEN_FIGHTING F
+	FIELD bY ATTACK_DAMAGE I
+	FIELD e SENSOR_TYPES Lcom/google/common/collect/ImmutableList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a populateDefaultEquipmentSlots (Lare;)V
+	METHOD a hurt (Larv;F)Z
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD a makeBrain (Lcom/mojang/serialization/Dynamic;)Lats;
+	METHOD b playStepSound (Lgb;Lcjr;)V
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD dg getBrain ()Lats;
+	METHOD dh brainProvider ()Lats$b;
+	METHOD eP customServerAiStep ()V
+	METHOD fo getArmPose ()Lbid;
+	METHOD fq playConvertedSound ()V
+	METHOD ft createAttributes ()Latx$a;
+	METHOD fu playAngrySound ()V
+	METHOD j wantsToPickUp (Lbpr;)Z
+	METHOD m canHunt ()Z
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;

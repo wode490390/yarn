@@ -1,0 +1,10 @@
+CLASS cqx net/minecraft/world/level/levelgen/feature/EndPodiumFeature
+	FIELD a PODIUM_RADIUS I
+	FIELD ap active Z
+	FIELD b PODIUM_PILLAR_HEIGHT I
+	FIELD c RIM_RADIUS I
+	FIELD d CORNER_ROUNDING F
+	FIELD e END_PODIUM_LOCATION Lgb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a place (Lcqz;)Z

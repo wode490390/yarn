@@ -1,0 +1,15 @@
+CLASS cgb net/minecraft/world/level/block/TntBlock
+	FIELD a UNSTABLE Lcki;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a lambda$use$0 (Larf;Lbjf;)V
+	METHOD a dropFromExplosion (Lbvj;)Z
+	METHOD a onProjectileHit (Lbvr;Lcjr;Ldlu;Lbjv;)V
+	METHOD a explode (Lbvr;Lgb;)V
+	METHOD a explode (Lbvr;Lgb;Lasy;)V
+	METHOD a wasExploded (Lbvr;Lgb;Lbvj;)V
+	METHOD a playerWillDestroy (Lbvr;Lgb;Lcjr;Lbjf;)V
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a neighborChanged (Lcjr;Lbvr;Lgb;Lbyq;Lgb;Z)V
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b onPlace (Lcjr;Lbvr;Lgb;Lcjr;Z)V

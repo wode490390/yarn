@@ -1,0 +1,6 @@
+CLASS ctj net/minecraft/world/level/levelgen/feature/blockplacers/BlockPlacer
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a type ()Lctk;
+	METHOD a place (Lbvs;Lgb;Lcjr;Ljava/util/Random;)V

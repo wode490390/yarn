@@ -1,0 +1,4 @@
+CLASS cfk net/minecraft/world/level/block/StainedGlassPaneBlock
+	FIELD i color Lbon;
+	METHOD <init> <init> (Lbon;Lcjq$c;)V
+	METHOD a getColor ()Lbon;

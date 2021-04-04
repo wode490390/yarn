@@ -1,0 +1,8 @@
+CLASS arf net/minecraft/world/InteractionHand
+	FIELD a MAIN_HAND Larf;
+	FIELD b OFF_HAND Larf;
+	FIELD c $VALUES [Larf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Larf;
+	METHOD values values ()[Larf;

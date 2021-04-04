@@ -1,0 +1,9 @@
+CLASS cte net/minecraft/world/level/levelgen/feature/VoidStartPlatformFeature
+	FIELD a PLATFORM_OFFSET Lgb;
+	FIELD b PLATFORM_ORIGIN_CHUNK Lbuw;
+	FIELD c PLATFORM_RADIUS I
+	FIELD d PLATFORM_RADIUS_CHUNKS I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a checkerboardDistance (IIII)I
+	METHOD a place (Lcqz;)Z

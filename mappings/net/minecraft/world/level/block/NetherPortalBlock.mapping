@@ -1,0 +1,19 @@
+CLASS cdd net/minecraft/world/level/block/NetherPortalBlock
+	FIELD a AXIS Lckp;
+	FIELD b AABB_OFFSET I
+	FIELD c X_AXIS_AABB Ldmr;
+	FIELD d Z_AXIS_AABB Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a entityInside (Lcjr;Lbvr;Lgb;Lasl;)V
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction$Axis [I
+		FIELD b $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		METHOD <clinit> <clinit> ()V

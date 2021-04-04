@@ -1,0 +1,3 @@
+CLASS chd net/minecraft/world/level/block/WoodButtonBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getSound (Z)Laev;

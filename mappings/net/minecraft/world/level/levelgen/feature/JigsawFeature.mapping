@@ -1,0 +1,15 @@
+CLASS crp net/minecraft/world/level/levelgen/feature/JigsawFeature
+	FIELD v startY I
+	FIELD w doExpansionHack Z
+	FIELD x projectStartToHeightmap Z
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;IZZ)V
+	METHOD a getStartFactory ()Lcsv$a;
+	METHOD a access$000 (Lcrp;)I
+	METHOD a lambda$getStartFactory$0 (Lcsv;Lbuw;IJ)Ldam;
+	METHOD b access$100 (Lcrp;)Z
+	METHOD c access$200 (Lcrp;)Z
+	CLASS a FeatureStart
+		FIELD e feature Lcrp;
+		METHOD <init> <init> (Lcrp;Lbuw;IJ)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcua;Lbvt;)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcug;Lbvt;)V

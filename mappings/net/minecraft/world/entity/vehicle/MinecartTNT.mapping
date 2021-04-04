@@ -1,0 +1,21 @@
+CLASS ble net/minecraft/world/entity/vehicle/MinecartTNT
+	FIELD c EVENT_PRIME B
+	FIELD d fuse I
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDD)V
+	METHOD a handleEntityEvent (B)V
+	METHOD a causeFallDamage (FFLarv;)Z
+	METHOD a activateMinecart (IIIZ)V
+	METHOD a destroy (Larv;)V
+	METHOD a hurt (Larv;F)Z
+	METHOD a shouldBlockExplode (Lbvj;Lbuv;Lgb;Lcjr;F)Z
+	METHOD a getBlockExplosionResistance (Lbvj;Lbuv;Lgb;Lcjr;Lddq;F)F
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD h explode (D)V
+	METHOD j tick ()V
+	METHOD o getMinecartType ()Lbku$a;
+	METHOD q getDefaultDisplayBlockState ()Lcjr;
+	METHOD v primeFuse ()V
+	METHOD w getFuse ()I
+	METHOD y isPrimed ()Z

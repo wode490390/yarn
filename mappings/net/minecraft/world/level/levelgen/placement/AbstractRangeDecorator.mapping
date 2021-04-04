@@ -1,0 +1,7 @@
+CLASS cya net/minecraft/world/level/levelgen/placement/AbstractRangeDecorator
+	FIELD y LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a y (Lcyp;Ljava/util/Random;Lctv;I)I
+	METHOD a y (Lcyp;Ljava/util/Random;Lcut;I)I
+	METHOD a y (Ljava/util/Random;II)I

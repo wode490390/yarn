@@ -1,0 +1,14 @@
+CLASS amx net/minecraft/util/datafix/schemas/NamespacedSchema
+	FIELD a NAMESPACED_STRING_CODEC Lcom/mojang/serialization/codecs/PrimitiveCodec;
+	FIELD b NAMESPACED_STRING Lcom/mojang/datafixers/types/Type;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a namespacedString ()Lcom/mojang/datafixers/types/Type;
+	METHOD a ensureNamespaced (Ljava/lang/String;)Ljava/lang/String;
+	METHOD getChoiceType getChoiceType (Lcom/mojang/datafixers/DSL$TypeReference;Ljava/lang/String;)Lcom/mojang/datafixers/types/Type;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a write (Lcom/mojang/serialization/DynamicOps;Ljava/lang/String;)Ljava/lang/Object;
+		METHOD read read (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+		METHOD toString toString ()Ljava/lang/String;
+		METHOD write write (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Ljava/lang/Object;

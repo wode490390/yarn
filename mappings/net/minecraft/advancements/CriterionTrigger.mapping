@@ -1,0 +1,15 @@
+CLASS ak net/minecraft/advancements/CriterionTrigger
+	METHOD a getId ()Lwp;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbc;)Lal;
+	METHOD a removePlayerListeners (Lwx;)V
+	METHOD a addPlayerListener (Lwx;Lak$a;)V
+	METHOD b removePlayerListener (Lwx;Lak$a;)V
+	CLASS a Listener
+		FIELD a trigger Lal;
+		FIELD b advancement Lad;
+		FIELD c criterion Ljava/lang/String;
+		METHOD <init> <init> (Lal;Lad;Ljava/lang/String;)V
+		METHOD a getTriggerInstance ()Lal;
+		METHOD a run (Lwx;)V
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD hashCode hashCode ()I

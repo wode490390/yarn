@@ -1,0 +1,19 @@
+CLASS bye net/minecraft/world/level/block/BaseFireBlock
+	FIELD a AABB_OFFSET F
+	FIELD b DOWN_AABB Ldmr;
+	FIELD c SECONDS_ON_FIRE I
+	FIELD d fireDamage F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;F)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getState (Lbuv;Lgb;)Lcjr;
+	METHOD a inPortalDimension (Lbvr;)Z
+	METHOD a spawnDestroyParticles (Lbvr;Lbjf;Lgb;Lcjr;)V
+	METHOD a playerWillDestroy (Lbvr;Lgb;Lcjr;Lbjf;)V
+	METHOD a canBePlacedAt (Lbvr;Lgb;Lgg;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a entityInside (Lcjr;Lbvr;Lgb;Lasl;)V
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD b isPortal (Lbvr;Lgb;Lgg;)Z
+	METHOD b onPlace (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD f canBurn (Lcjr;)Z

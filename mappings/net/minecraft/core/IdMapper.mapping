@@ -1,0 +1,14 @@
+CLASS gl net/minecraft/core/IdMapper
+	FIELD a DEFAULT I
+	FIELD b nextId I
+	FIELD c tToId Ljava/util/IdentityHashMap;
+	FIELD d idToT Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a size ()I
+	METHOD a byId (I)Ljava/lang/Object;
+	METHOD a getId (Ljava/lang/Object;)I
+	METHOD a addMapping (Ljava/lang/Object;I)V
+	METHOD b contains (I)Z
+	METHOD b add (Ljava/lang/Object;)V
+	METHOD iterator iterator ()Ljava/util/Iterator;

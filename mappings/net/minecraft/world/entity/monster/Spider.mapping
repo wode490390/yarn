@@ -1,0 +1,35 @@
+CLASS bhk net/minecraft/world/entity/monster/Spider
+	FIELD b DATA_FLAGS_ID Lvy;
+	FIELD c SPIDER_SPECIAL_EFFECT_CHANCE F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a createNavigation (Lbvr;)Lbbb;
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD a makeStuckInBlock (Lcjr;Ldly;)V
+	METHOD b getStandingEyeHeight (Latj;Lasm;)F
+	METHOD b playStepSound (Lgb;Lcjr;)V
+	METHOD bh getPassengersRidingOffset ()D
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD c_ onClimbable ()Z
+	METHOD d canBeAffected (Lasf;)Z
+	METHOD e defineSynchedData ()V
+	METHOD ec getMobType ()Latc;
+	METHOD j tick ()V
+	METHOD o createAttributes ()Latx$a;
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD s isClimbing ()Z
+	METHOD u registerGoals ()V
+	METHOD v setClimbing (Z)V
+	CLASS a SpiderAttackGoal
+		METHOD <init> <init> (Lbhk;)V
+		METHOD a canUse ()Z
+		METHOD a getAttackReachSqr (Lasy;)D
+		METHOD b canContinueToUse ()Z
+	CLASS b SpiderEffectsGroupData
+		FIELD a effect Lasd;
+		METHOD <init> <init> ()V
+		METHOD a setRandomEffect (Ljava/util/Random;)V
+	CLASS c SpiderTargetGoal
+		METHOD <init> <init> (Lbhk;Ljava/lang/Class;)V
+		METHOD a canUse ()Z

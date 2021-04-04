@@ -1,0 +1,8 @@
+CLASS cwj net/minecraft/world/level/levelgen/feature/stateproviders/SimpleStateProvider
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c state Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjr;)V
+	METHOD a type ()Lcwe;
+	METHOD a lambda$static$0 (Lcwj;)Lcjr;
+	METHOD a getState (Ljava/util/Random;Lgb;)Lcjr;

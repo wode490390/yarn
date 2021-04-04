@@ -1,0 +1,14 @@
+CLASS coq net/minecraft/world/level/levelgen/GeodeLayerSettings
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b filling D
+	FIELD c innerLayer D
+	FIELD d middleLayer D
+	FIELD e outerLayer D
+	FIELD f LAYER_RANGE Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (DDDD)V
+	METHOD a lambda$static$4 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$3 (Lcoq;)Ljava/lang/Double;
+	METHOD b lambda$null$2 (Lcoq;)Ljava/lang/Double;
+	METHOD c lambda$null$1 (Lcoq;)Ljava/lang/Double;
+	METHOD d lambda$null$0 (Lcoq;)Ljava/lang/Double;

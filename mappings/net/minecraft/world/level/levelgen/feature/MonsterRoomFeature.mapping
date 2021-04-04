@@ -1,0 +1,8 @@
+CLASS crv net/minecraft/world/level/levelgen/feature/MonsterRoomFeature
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b MOBS [Lasp;
+	FIELD c AIR Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a place (Lcqz;)Z
+	METHOD a randomEntityId (Ljava/util/Random;)Lasp;

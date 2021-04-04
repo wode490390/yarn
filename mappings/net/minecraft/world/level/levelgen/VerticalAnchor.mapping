@@ -1,0 +1,35 @@
+CLASS cpe net/minecraft/world/level/levelgen/VerticalAnchor
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b BOTTOM Lcpe;
+	FIELD c TOP Lcpe;
+	FIELD d value I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD a bottom ()Lcpe;
+	METHOD a absolute (I)Lcpe;
+	METHOD a merge (Lcom/mojang/datafixers/util/Either;)Lcpe;
+	METHOD a split (Lcpe;)Lcom/mojang/datafixers/util/Either;
+	METHOD a resolveY (Lcpg;)I
+	METHOD b top ()Lcpe;
+	METHOD b aboveBottom (I)Lcpe;
+	METHOD b lambda$merge$0 (Lcom/mojang/datafixers/util/Either;)Lcpe;
+	METHOD c value ()I
+	METHOD c belowTop (I)Lcpe;
+	CLASS a AboveBottom
+		FIELD b CODEC Lcom/mojang/serialization/Codec;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (I)V
+		METHOD a resolveY (Lcpg;)I
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS b Absolute
+		FIELD b CODEC Lcom/mojang/serialization/Codec;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (I)V
+		METHOD a resolveY (Lcpg;)I
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c BelowTop
+		FIELD b CODEC Lcom/mojang/serialization/Codec;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (I)V
+		METHOD a resolveY (Lcpg;)I
+		METHOD toString toString ()Ljava/lang/String;

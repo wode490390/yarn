@@ -1,0 +1,4 @@
+CLASS ig net/minecraft/data/advancements/TheEndAdvancements
+	METHOD <init> <init> ()V
+	METHOD a accept (Ljava/util/function/Consumer;)V
+	METHOD accept accept (Ljava/lang/Object;)V

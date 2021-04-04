@@ -1,0 +1,16 @@
+CLASS ast net/minecraft/world/entity/GlowSquid
+	FIELD bZ DATA_DARK_TICKS_REMAINING Lvy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a hurt (Larv;F)Z
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b setDarkTicks (I)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD e defineSynchedData ()V
+	METHOD k aiStep ()V
+	METHOD m getInkParticle ()Lho;
+	METHOD o getSquirtSound ()Laev;
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD s getDarkTicksRemaining ()I

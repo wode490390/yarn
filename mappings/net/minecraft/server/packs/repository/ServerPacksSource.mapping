@@ -1,0 +1,8 @@
+CLASS add net/minecraft/server/packs/repository/ServerPacksSource
+	FIELD a BUILT_IN_METADATA Lacs;
+	FIELD b VANILLA_ID Ljava/lang/String;
+	FIELD c vanillaPack Lacq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$loadPacks$0 ()Lacn;
+	METHOD a loadPacks (Ljava/util/function/Consumer;Lacy$a;)V

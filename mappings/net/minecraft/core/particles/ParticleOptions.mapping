@@ -1,0 +1,7 @@
+CLASS ho net/minecraft/core/particles/ParticleOptions
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a writeToNetwork (Lob;)V
+	METHOD b getType ()Lhp;
+	CLASS a Deserializer
+		METHOD b fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lho;
+		METHOD b fromNetwork (Lhp;Lob;)Lho;

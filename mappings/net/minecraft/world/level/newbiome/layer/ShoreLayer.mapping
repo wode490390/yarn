@@ -1,0 +1,12 @@
+CLASS dfb net/minecraft/world/level/newbiome/layer/ShoreLayer
+	FIELD a INSTANCE Ldfb;
+	FIELD ar SNOWY Lit/unimi/dsi/fastutil/ints/IntSet;
+	FIELD as JUNGLES Lit/unimi/dsi/fastutil/ints/IntSet;
+	FIELD at $VALUES [Ldfb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Ldee;IIIII)I
+	METHOD c isJungleCompatible (I)Z
+	METHOD d isMesa (I)Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldfb;
+	METHOD values values ()[Ldfb;

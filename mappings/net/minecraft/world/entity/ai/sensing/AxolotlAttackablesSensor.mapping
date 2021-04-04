@@ -1,0 +1,8 @@
+CLASS bbh net/minecraft/world/entity/ai/sensing/AxolotlAttackablesSensor
+	FIELD a TARGET_DETECTION_DISTANCE F
+	METHOD <init> <init> ()V
+	METHOD a isMatchingEntity (Lasy;Lasy;)Z
+	METHOD b getMemory ()Lbav;
+	METHOD c isHuntTarget (Lasy;Lasy;)Z
+	METHOD d isHostileTarget (Lasy;Lasy;)Z
+	METHOD e isClose (Lasy;Lasy;)Z

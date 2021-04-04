@@ -1,0 +1,10 @@
+CLASS ayc net/minecraft/world/entity/ai/goal/BreathAirGoal
+	FIELD a mob Latg;
+	METHOD <init> <init> (Latg;)V
+	METHOD E_ isInterruptable ()Z
+	METHOD a canUse ()Z
+	METHOD a givesAir (Lbvu;Lgb;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD e tick ()V
+	METHOD g findAirPosition ()V

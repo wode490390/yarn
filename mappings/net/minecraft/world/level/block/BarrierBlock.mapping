@@ -1,0 +1,5 @@
+CLASS bxy net/minecraft/world/level/block/BarrierBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD b getShadeBrightness (Lcjr;Lbuv;Lgb;)F
+	METHOD b_ getRenderShape (Lcjr;)Lced;
+	METHOD c propagatesSkylightDown (Lcjr;Lbuv;Lgb;)Z

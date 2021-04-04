@@ -1,0 +1,8 @@
+CLASS dmd net/minecraft/world/phys/shapes/CollisionContext
+	METHOD a empty ()Ldmd;
+	METHOD a of (Lasl;)Ldmd;
+	METHOD a hasItemOnFeet (Lbpn;)Z
+	METHOD a canStandOnFluid (Lddq;Lddo;)Z
+	METHOD a isAbove (Ldmr;Lgb;Z)Z
+	METHOD b isDescending ()Z
+	METHOD b isHoldingItem (Lbpn;)Z

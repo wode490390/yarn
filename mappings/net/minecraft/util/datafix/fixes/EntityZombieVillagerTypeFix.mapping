@@ -1,0 +1,8 @@
+CLASS ajy net/minecraft/util/datafix/fixes/EntityZombieVillagerTypeFix
+	FIELD a PROFESSION_MAX I
+	FIELD b RANDOM Ljava/util/Random;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a getVillagerProfession (I)I
+	METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a fixTag (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;

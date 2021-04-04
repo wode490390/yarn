@@ -1,0 +1,4 @@
+CLASS cax net/minecraft/world/level/block/EntityBlock
+	METHOD a getListener (Lbvr;Lchp;)Lcnv;
+	METHOD a getTicker (Lbvr;Lcjr;Lchr;)Lchq;
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;

@@ -1,0 +1,36 @@
+CLASS bha net/minecraft/world/entity/monster/PatrollingMonster
+	FIELD b patrolTarget Lgb;
+	FIELD c patrolLeader Z
+	FIELD d patrolling Z
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b checkPatrollingMonsterSpawnRules (Lasp;Lbvs;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD bg getMyRidingOffset ()D
+	METHOD fo canBeLeader ()Z
+	METHOD fp getPatrolTarget ()Lgb;
+	METHOD fq hasPatrolTarget ()Z
+	METHOD ft isPatrolLeader ()Z
+	METHOD fu canJoinPatrol ()Z
+	METHOD fv findPatrolTarget ()V
+	METHOD fw isPatrolling ()Z
+	METHOD g setPatrolTarget (Lgb;)V
+	METHOD h removeWhenFarAway (D)Z
+	METHOD u registerGoals ()V
+	METHOD v setPatrolLeader (Z)V
+	METHOD w setPatrolling (Z)V
+	CLASS a LongDistancePatrolGoal
+		FIELD a NAVIGATION_FAILED_COOLDOWN I
+		FIELD b mob Lbha;
+		FIELD c speedModifier D
+		FIELD d leaderSpeedModifier D
+		FIELD e cooldownUntil J
+		METHOD <init> <init> (Lbha;DD)V
+		METHOD a canUse ()Z
+		METHOD a lambda$findPatrolCompanions$0 (Lbha;)Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+		METHOD g findPatrolCompanions ()Ljava/util/List;
+		METHOD h moveRandomly ()Z

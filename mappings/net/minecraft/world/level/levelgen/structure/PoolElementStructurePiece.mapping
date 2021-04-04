@@ -1,0 +1,25 @@
+CLASS dae net/minecraft/world/level/levelgen/structure/PoolElementStructurePiece
+	FIELD a element Lcwt;
+	FIELD b position Lgb;
+	FIELD c rotation Lcek;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e groundLevelDelta I
+	FIELD f junctions Ljava/util/List;
+	FIELD g structureManager Ldbn;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Labj;Lmv;)V
+	METHOD <init> <init> (Ldbn;Lcwt;Lgb;ILcek;Lczp;)V
+	METHOD a getRotation ()Lcek;
+	METHOD a move (III)V
+	METHOD a addAdditionalSaveData (Labj;Lmv;)V
+	METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+	METHOD a place (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lgb;Z)Z
+	METHOD a addJunction (Lcwo;)V
+	METHOD a lambda$addAdditionalSaveData$2 (Lmv;Lnn;)V
+	METHOD a lambda$new$1 (Lwm;Lnn;)V
+	METHOD au_ getPosition ()Lgb;
+	METHOD b getElement ()Lcwt;
+	METHOD d getGroundLevelDelta ()I
+	METHOD e getJunctions ()Ljava/util/List;
+	METHOD k lambda$new$0 ()Ljava/lang/IllegalStateException;
+	METHOD toString toString ()Ljava/lang/String;

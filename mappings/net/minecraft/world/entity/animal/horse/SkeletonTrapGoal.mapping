@@ -1,0 +1,8 @@
+CLASS ber net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+	FIELD a horse Lbeq;
+	METHOD <init> <init> (Lbeq;)V
+	METHOD a canUse ()Z
+	METHOD a createHorse (Lare;)Lbek;
+	METHOD a createSkeleton (Lare;Lbek;)Lbhh;
+	METHOD a disenchant (Lbpr;)Lbpr;
+	METHOD e tick ()V

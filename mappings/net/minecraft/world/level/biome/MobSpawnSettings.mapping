@@ -1,0 +1,63 @@
+CLASS bxb net/minecraft/world/level/biome/MobSpawnSettings
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b EMPTY_MOB_LIST Laqa;
+	FIELD c EMPTY Lbxb;
+	FIELD d CODEC Lcom/mojang/serialization/MapCodec;
+	FIELD e DEFAULT_CREATURE_SPAWN_PROBABILITY F
+	FIELD f creatureGenerationProbability F
+	FIELD g spawners Ljava/util/Map;
+	FIELD h mobSpawnCosts Ljava/util/Map;
+	FIELD i playerSpawnFriendly Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FLjava/util/Map;Ljava/util/Map;Z)V
+	METHOD <init> <init> (FLjava/util/Map;Ljava/util/Map;ZLbxb$1;)V
+	METHOD a getCreatureProbability ()F
+	METHOD a getMobSpawnCost (Lasp;)Lbxb$b;
+	METHOD a getMobs (Lata;)Laqa;
+	METHOD a lambda$null$4 (Lbxb;)Ljava/util/Map;
+	METHOD a lambda$static$5 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b playerSpawnFriendly ()Z
+	METHOD b lambda$static$1 (Lata;)Laqa;
+	METHOD b lambda$null$3 (Lbxb;)Ljava/util/Map;
+	METHOD c lambda$static$0 (Lata;)Lata;
+	METHOD c lambda$null$2 (Lbxb;)Ljava/lang/Float;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a spawners Ljava/util/Map;
+		FIELD b mobSpawnCosts Ljava/util/Map;
+		FIELD c creatureGenerationProbability F
+		FIELD d playerCanSpawn Z
+		METHOD <init> <init> ()V
+		METHOD a setPlayerCanSpawn ()Lbxb$a;
+		METHOD a creatureGenerationProbability (F)Lbxb$a;
+		METHOD a addMobCharge (Lasp;DD)Lbxb$a;
+		METHOD a lambda$new$1 (Lata;)Ljava/util/List;
+		METHOD a addSpawn (Lata;Lbxb$c;)Lbxb$a;
+		METHOD a lambda$build$2 (Ljava/util/Map$Entry;)Laqa;
+		METHOD b build ()Lbxb;
+		METHOD b lambda$new$0 (Lata;)Lata;
+	CLASS b MobSpawnCost
+		FIELD a CODEC Lcom/mojang/serialization/Codec;
+		FIELD b energyBudget D
+		FIELD c charge D
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (DD)V
+		METHOD <init> <init> (DDLbxb$1;)V
+		METHOD a getEnergyBudget ()D
+		METHOD a lambda$null$1 (Lbxb$b;)Ljava/lang/Double;
+		METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+		METHOD b getCharge ()D
+		METHOD b lambda$null$0 (Lbxb$b;)Ljava/lang/Double;
+	CLASS c SpawnerData
+		FIELD a CODEC Lcom/mojang/serialization/Codec;
+		FIELD b type Lasp;
+		FIELD c minCount I
+		FIELD d maxCount I
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Lasp;III)V
+		METHOD <init> <init> (Lasp;Lapx;II)V
+		METHOD a lambda$null$2 (Lbxb$c;)Ljava/lang/Integer;
+		METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+		METHOD b lambda$null$1 (Lbxb$c;)Ljava/lang/Integer;
+		METHOD c lambda$null$0 (Lbxb$c;)Lasp;
+		METHOD toString toString ()Ljava/lang/String;

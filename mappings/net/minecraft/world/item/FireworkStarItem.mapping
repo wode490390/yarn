@@ -1,0 +1,6 @@
+CLASS bpd net/minecraft/world/item/FireworkStarItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a getColorName (I)Lon;
+	METHOD a appendHoverText (Lbpr;Lbvr;Ljava/util/List;Lbre;)V
+	METHOD a appendHoverText (Lmv;Ljava/util/List;)V
+	METHOD a appendColors (Lot;[I)Lon;

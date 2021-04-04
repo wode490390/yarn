@@ -1,0 +1,23 @@
+CLASS cuh net/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b floorToCeilingSearchRange I
+	FIELD c columnRadius Laqo;
+	FIELD d heightScale Laqm;
+	FIELD e maxColumnRadiusToCaveHeightRatio F
+	FIELD f stalactiteBluntness Laqm;
+	FIELD g stalagmiteBluntness Laqm;
+	FIELD h windSpeed Laqm;
+	FIELD i minRadiusForWind I
+	FIELD j minBluntnessForWind F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILaqo;Laqm;FLaqm;Laqm;Laqm;IF)V
+	METHOD a lambda$static$9 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$8 (Lcuh;)Ljava/lang/Float;
+	METHOD b lambda$null$7 (Lcuh;)Ljava/lang/Integer;
+	METHOD c lambda$null$6 (Lcuh;)Laqm;
+	METHOD d lambda$null$5 (Lcuh;)Laqm;
+	METHOD e lambda$null$4 (Lcuh;)Laqm;
+	METHOD f lambda$null$3 (Lcuh;)Ljava/lang/Float;
+	METHOD g lambda$null$2 (Lcuh;)Laqm;
+	METHOD h lambda$null$1 (Lcuh;)Laqo;
+	METHOD i lambda$null$0 (Lcuh;)Ljava/lang/Integer;

@@ -1,0 +1,13 @@
+CLASS cxn net/minecraft/world/level/levelgen/feature/trunkplacers/TrunkPlacerType
+	FIELD a STRAIGHT_TRUNK_PLACER Lcxn;
+	FIELD b FORKING_TRUNK_PLACER Lcxn;
+	FIELD c GIANT_TRUNK_PLACER Lcxn;
+	FIELD d MEGA_JUNGLE_TRUNK_PLACER Lcxn;
+	FIELD e DARK_OAK_TRUNK_PLACER Lcxn;
+	FIELD f FANCY_TRUNK_PLACER Lcxn;
+	FIELD g BENDING_TRUNK_PLACER Lcxn;
+	FIELD h codec Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a register (Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lcxn;

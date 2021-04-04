@@ -1,0 +1,15 @@
+CLASS dga net/minecraft/world/level/pathfinder/PathFinder
+	FIELD a FUDGING F
+	FIELD b neighbors [Ldfw;
+	FIELD c maxVisitedNodes I
+	FIELD d nodeEvaluator Ldfx;
+	FIELD e DEBUG Z
+	FIELD f openSet Ldft;
+	METHOD <init> <init> (Ldfx;I)V
+	METHOD a findPath (Lbwd;Lasz;Ljava/util/Set;FIF)Ldfy;
+	METHOD a reconstructPath (Ldfw;Lgb;Z)Ldfy;
+	METHOD a findPath (Ldfw;Ljava/util/Map;FIF)Ldfy;
+	METHOD a getBestH (Ldfw;Ljava/util/Set;)F
+	METHOD a lambda$findPath$0 (Lgb;)Ldgc;
+	METHOD a lambda$findPath$2 (Ljava/util/Map;Ldgc;)Ldfy;
+	METHOD b lambda$findPath$1 (Ljava/util/Map;Ldgc;)Ldfy;

@@ -1,75 +1,108 @@
-CLASS net/minecraft/class_2509 net/minecraft/nbt/NbtOps
-	COMMENT Used to handle Minecraft NBTs within {@link com.mojang.serialization.Dynamic
-	COMMENT dynamics} for DataFixerUpper, allowing generalized serialization logic
-	COMMENT shared across different type of data structures. Use {@link NbtOps#INSTANCE}
-	COMMENT for the ops singleton.
-	COMMENT
-	COMMENT <p>For instance, dimension data may be stored as JSON in data packs, but
-	COMMENT they will be transported in packets as NBT. DataFixerUpper allows
-	COMMENT generalizing the dimension serialization logic to prevent duplicate code,
-	COMMENT where the NBT ops allow the DataFixerUpper dimension serialization logic
-	COMMENT to interact with Minecraft NBTs.</p>
-	COMMENT
-	COMMENT @see NbtOps#INSTANCE
-	FIELD field_11560 INSTANCE Lnet/minecraft/class_2509;
-		COMMENT An singleton of the NBT dynamic ops.
-		COMMENT
-		COMMENT <p>This ops does not compress maps (replace field name to value pairs
-		COMMENT with an ordered list of values in serialization). In fact, since
-		COMMENT Minecraft NBT lists can only contain elements of the same type, this op
-		COMMENT cannot compress maps.</p>
-	METHOD convertTo (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Ljava/lang/Object;
-		ARG 2 element
-	METHOD createBoolean (Z)Ljava/lang/Object;
-		ARG 1 value
-	METHOD createByte (B)Ljava/lang/Object;
-		ARG 1 value
-	METHOD createDouble (D)Ljava/lang/Object;
-		ARG 1 value
-	METHOD createFloat (F)Ljava/lang/Object;
-		ARG 1 value
-	METHOD createInt (I)Ljava/lang/Object;
-		ARG 1 value
-	METHOD createLong (J)Ljava/lang/Object;
-		ARG 1 value
-	METHOD createNumeric (Ljava/lang/Number;)Ljava/lang/Object;
-		ARG 1 value
-	METHOD createShort (S)Ljava/lang/Object;
-		ARG 1 value
-	METHOD getByteBuffer (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 element
-	METHOD getIntStream (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 element
-	METHOD getList (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 element
-	METHOD getLongStream (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 element
-	METHOD getMap (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 element
-	METHOD getMapEntries (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 element
-	METHOD getMapValues (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 element
-	METHOD getNumberValue (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 element
-	METHOD getStream (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 element
-	METHOD getStringValue (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 element
-	METHOD mergeToList (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 list
-		ARG 2 value
-	METHOD mergeToMap (Ljava/lang/Object;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;
-		ARG 1 element
-	METHOD mergeToMap (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 map
-		ARG 2 key
-		ARG 3 value
-	METHOD method_10666 (Ljava/lang/String;Ljava/lang/String;)Z
-		ARG 1 k
-	METHOD method_10670 (Lnet/minecraft/class_2487;Lnet/minecraft/class_2487;Ljava/lang/String;)V
-		ARG 2 k
-	METHOD remove (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-		ARG 1 element
-		ARG 2 key
-	CLASS class_5320 MapBuilder
+CLASS ng net/minecraft/nbt/NbtOps
+	FIELD a INSTANCE Lng;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a empty ()Lnn;
+	METHOD a createByte (B)Lnn;
+	METHOD a createGenericList (BB)Lmu;
+	METHOD a typesMatch (BBB)Z
+	METHOD a createDouble (D)Lnn;
+	METHOD a createFloat (F)Lnn;
+	METHOD a createInt (I)Lnn;
+	METHOD a createLong (J)Lnn;
+	METHOD a convertTo (Lcom/mojang/serialization/DynamicOps;Lnn;)Ljava/lang/Object;
+	METHOD a createNumeric (Ljava/lang/Number;)Lnn;
+	METHOD a createString (Ljava/lang/String;)Lnn;
+	METHOD a lambda$remove$14 (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD a createByteList (Ljava/nio/ByteBuffer;)Lnn;
+	METHOD a lambda$mergeToMap$5 (Ljava/util/List;Lmv;Lcom/mojang/datafixers/util/Pair;)V
+	METHOD a lambda$null$7 (Ljava/util/function/BiConsumer;Lmv;Ljava/lang/String;)V
+	METHOD a createIntList (Ljava/util/stream/IntStream;)Lnn;
+	METHOD a createLongList (Ljava/util/stream/LongStream;)Lnn;
+	METHOD a createMap (Ljava/util/stream/Stream;)Lnn;
+	METHOD a lambda$fillMany$2 (Lmu;Lnn;)V
+	METHOD a fillMany (Lmu;Lnn;Ljava/util/List;)V
+	METHOD a fillOne (Lmu;Lnn;Lnn;)V
+	METHOD a lambda$createMap$9 (Lmv;Lcom/mojang/datafixers/util/Pair;)V
+	METHOD a lambda$getMapValues$6 (Lmv;Ljava/lang/String;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$getMapEntries$8 (Lmv;Ljava/util/function/BiConsumer;)V
+	METHOD a lambda$remove$15 (Lmv;Lmv;Ljava/lang/String;)V
+	METHOD a getNumberValue (Lnn;)Lcom/mojang/serialization/DataResult;
+	METHOD a mergeToMap (Lnn;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;
+	METHOD a remove (Lnn;Ljava/lang/String;)Lnn;
+	METHOD a mergeToList (Lnn;Ljava/util/List;)Lcom/mojang/serialization/DataResult;
+	METHOD a mergeToList (Lnn;Lnn;)Lcom/mojang/serialization/DataResult;
+	METHOD a mergeToMap (Lnn;Lnn;Lnn;)Lcom/mojang/serialization/DataResult;
+	METHOD a createShort (S)Lnn;
+	METHOD a createBoolean (Z)Lnn;
+	METHOD b createList (Ljava/util/stream/Stream;)Lnn;
+	METHOD b lambda$fillMany$1 (Lmu;Lnn;)V
+	METHOD b lambda$mergeToMap$4 (Lmv;Lmv;Ljava/lang/String;)V
+	METHOD b getStringValue (Lnn;)Lcom/mojang/serialization/DataResult;
+	METHOD c lambda$fillOne$0 (Lmu;Lnn;)V
+	METHOD c lambda$mergeToMap$3 (Lmv;Lmv;Ljava/lang/String;)V
+	METHOD c getMapValues (Lnn;)Lcom/mojang/serialization/DataResult;
+	METHOD convertTo convertTo (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD createBoolean createBoolean (Z)Ljava/lang/Object;
+	METHOD createByte createByte (B)Ljava/lang/Object;
+	METHOD createByteList createByteList (Ljava/nio/ByteBuffer;)Ljava/lang/Object;
+	METHOD createDouble createDouble (D)Ljava/lang/Object;
+	METHOD createFloat createFloat (F)Ljava/lang/Object;
+	METHOD createInt createInt (I)Ljava/lang/Object;
+	METHOD createIntList createIntList (Ljava/util/stream/IntStream;)Ljava/lang/Object;
+	METHOD createList createList (Ljava/util/stream/Stream;)Ljava/lang/Object;
+	METHOD createLong createLong (J)Ljava/lang/Object;
+	METHOD createLongList createLongList (Ljava/util/stream/LongStream;)Ljava/lang/Object;
+	METHOD createMap createMap (Ljava/util/stream/Stream;)Ljava/lang/Object;
+	METHOD createNumeric createNumeric (Ljava/lang/Number;)Ljava/lang/Object;
+	METHOD createShort createShort (S)Ljava/lang/Object;
+	METHOD createString createString (Ljava/lang/String;)Ljava/lang/Object;
+	METHOD d getMapEntries (Lnn;)Lcom/mojang/serialization/DataResult;
+	METHOD e getMap (Lnn;)Lcom/mojang/serialization/DataResult;
+	METHOD empty empty ()Ljava/lang/Object;
+	METHOD f getStream (Lnn;)Lcom/mojang/serialization/DataResult;
+	METHOD g getList (Lnn;)Lcom/mojang/serialization/DataResult;
+	METHOD getByteBuffer getByteBuffer (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getIntStream getIntStream (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getList getList (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getLongStream getLongStream (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getMap getMap (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getMapEntries getMapEntries (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getMapValues getMapValues (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getNumberValue getNumberValue (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getStream getStream (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD getStringValue getStringValue (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD h getByteBuffer (Lnn;)Lcom/mojang/serialization/DataResult;
+	METHOD i getIntStream (Lnn;)Lcom/mojang/serialization/DataResult;
+	METHOD j getLongStream (Lnn;)Lcom/mojang/serialization/DataResult;
+	METHOD k lambda$createList$13 (Lnn;)Ljava/lang/Long;
+	METHOD l lambda$createList$12 (Lnn;)Ljava/lang/Integer;
+	METHOD m lambda$createList$11 (Lnn;)Ljava/lang/Byte;
+	METHOD mapBuilder mapBuilder ()Lcom/mojang/serialization/RecordBuilder;
+	METHOD mergeToList mergeToList (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD mergeToList mergeToList (Ljava/lang/Object;Ljava/util/List;)Lcom/mojang/serialization/DataResult;
+	METHOD mergeToMap mergeToMap (Ljava/lang/Object;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;
+	METHOD mergeToMap mergeToMap (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD n lambda$getStream$10 (Lnn;)Lnn;
+	METHOD remove remove (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		FIELD a val$tag Lmv;
+		FIELD b this$0 Lng;
+		METHOD <init> <init> (Lng;Lmv;)V
+		METHOD a get (Ljava/lang/String;)Lnn;
+		METHOD a lambda$entries$0 (Lmv;Ljava/lang/String;)Lcom/mojang/datafixers/util/Pair;
+		METHOD a get (Lnn;)Lnn;
+		METHOD entries entries ()Ljava/util/stream/Stream;
+		METHOD get get (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD get get (Ljava/lang/String;)Ljava/lang/Object;
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS a NbtRecordBuilder
+		FIELD a this$0 Lng;
+		METHOD <init> <init> (Lng;)V
+		METHOD a initBuilder ()Lmv;
+		METHOD a append (Ljava/lang/String;Lnn;Lmv;)Lmv;
+		METHOD a build (Lmv;Lnn;)Lcom/mojang/serialization/DataResult;
+		METHOD append append (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD build build (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+		METHOD initBuilder initBuilder ()Ljava/lang/Object;

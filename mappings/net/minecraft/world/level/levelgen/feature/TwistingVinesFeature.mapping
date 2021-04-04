@@ -1,0 +1,8 @@
+CLASS csz net/minecraft/world/level/levelgen/feature/TwistingVinesFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a findFirstAirBlockAboveGround (Lbvs;Lgb$a;)Z
+	METHOD a isInvalidPlacementLocation (Lbvs;Lgb;)Z
+	METHOD a placeWeepingVinesColumn (Lbvs;Ljava/util/Random;Lgb$a;III)V
+	METHOD a place (Lbvs;Ljava/util/Random;Lgb;III)Z
+	METHOD a place (Lcqz;)Z
+	METHOD b placeTwistingVines (Lbvs;Ljava/util/Random;Lgb;III)V

@@ -1,0 +1,8 @@
+CLASS aq net/minecraft/advancements/critereon/AbstractCriterionTriggerInstance
+	FIELD a criterion Lwp;
+	FIELD b player Lbl$b;
+	METHOD <init> <init> (Lwp;Lbl$b;)V
+	METHOD a getCriterion ()Lwp;
+	METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;
+	METHOD b getPlayerPredicate ()Lbl$b;
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,9 @@
+CLASS cyq net/minecraft/world/level/levelgen/placement/DepthAverageConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c baseline Lcpe;
+	FIELD d spread I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcpe;I)V
+	METHOD a baseline ()Lcpe;
+	METHOD a lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b spread ()I

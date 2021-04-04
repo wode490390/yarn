@@ -1,0 +1,3 @@
+CLASS dfn net/minecraft/world/level/newbiome/layer/traits/DimensionOffset1Transformer
+	METHOD a getParentX (I)I
+	METHOD b getParentY (I)I

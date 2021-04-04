@@ -1,0 +1,2 @@
+CLASS bvq net/minecraft/world/level/ItemLike
+	METHOD k asItem ()Lbpn;

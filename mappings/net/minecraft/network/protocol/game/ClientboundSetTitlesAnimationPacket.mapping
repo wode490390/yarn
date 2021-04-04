@@ -1,0 +1,12 @@
+CLASS ss net/minecraft/network/protocol/game/ClientboundSetTitlesAnimationPacket
+	FIELD a fadeIn I
+	FIELD b stay I
+	FIELD c fadeOut I
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getFadeIn ()I
+	METHOD c getStay ()I
+	METHOD d getFadeOut ()I

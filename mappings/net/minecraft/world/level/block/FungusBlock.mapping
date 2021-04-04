@@ -1,0 +1,11 @@
+CLASS cbj net/minecraft/world/level/block/FungusBlock
+	FIELD a SHAPE Ldmr;
+	FIELD b BONEMEAL_SUCCESS_PROBABILITY D
+	FIELD c feature Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;Ljava/util/function/Supplier;)V
+	METHOD a performBonemeal (Labj;Ljava/util/Random;Lgb;Lcjr;)V
+	METHOD a isValidBonemealTarget (Lbuv;Lgb;Lcjr;Z)Z
+	METHOD a isBonemealSuccess (Lbvr;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD d mayPlaceOn (Lcjr;Lbuv;Lgb;)Z

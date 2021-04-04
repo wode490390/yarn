@@ -1,0 +1,10 @@
+CLASS sf net/minecraft/network/protocol/game/ClientboundSetEntityDataPacket
+	FIELD a id I
+	FIELD b packedItems Ljava/util/List;
+	METHOD <init> <init> (ILwb;Z)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getUnpackedData ()Ljava/util/List;
+	METHOD c getId ()I

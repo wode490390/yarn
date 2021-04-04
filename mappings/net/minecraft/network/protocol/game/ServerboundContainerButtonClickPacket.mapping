@@ -1,0 +1,10 @@
+CLASS tp net/minecraft/network/protocol/game/ServerboundContainerButtonClickPacket
+	FIELD a containerId I
+	FIELD b buttonId I
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getContainerId ()I
+	METHOD c getButtonId ()I

@@ -1,0 +1,12 @@
+CLASS ahg net/minecraft/util/WeighedRandom
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Lorg/apache/logging/log4j/Logger;
+	METHOD a getTotalWeight (Ljava/util/List;)I
+	METHOD a getWeightedItem (Ljava/util/List;I)Ljava/util/Optional;
+	METHOD a getRandomItem (Ljava/util/Random;Ljava/util/List;)Ljava/util/Optional;
+	METHOD a getRandomItem (Ljava/util/Random;Ljava/util/List;I)Ljava/util/Optional;
+	CLASS a WeighedRandomItem
+		FIELD a weight I
+		METHOD <init> <init> (I)V

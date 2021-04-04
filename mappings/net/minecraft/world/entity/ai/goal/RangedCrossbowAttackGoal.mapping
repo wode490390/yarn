@@ -1,0 +1,28 @@
+CLASS azq net/minecraft/world/entity/ai/goal/RangedCrossbowAttackGoal
+	FIELD a PATHFINDING_DELAY_RANGE Laqs;
+	FIELD b mob Lbgz;
+	FIELD c crossbowState Lazq$a;
+	FIELD d speedModifier D
+	FIELD e attackRadiusSqr F
+	FIELD f seeTime I
+	FIELD g attackDelay I
+	FIELD h updatePathDelay I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbgz;DF)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g isHoldingCrossbow ()Z
+	METHOD h isValidTarget ()Z
+	METHOD j canRun ()Z
+	CLASS a CrossbowState
+		FIELD a UNCHARGED Lazq$a;
+		FIELD b CHARGING Lazq$a;
+		FIELD c CHARGED Lazq$a;
+		FIELD d READY_TO_ATTACK Lazq$a;
+		FIELD e $VALUES [Lazq$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lazq$a;
+		METHOD values values ()[Lazq$a;

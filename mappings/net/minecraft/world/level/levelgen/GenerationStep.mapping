@@ -1,0 +1,33 @@
+CLASS com net/minecraft/world/level/levelgen/GenerationStep
+	METHOD <init> <init> ()V
+	CLASS a Carving
+		FIELD a AIR Lcom$a;
+		FIELD b LIQUID Lcom$a;
+		FIELD c CODEC Lcom/mojang/serialization/Codec;
+		FIELD d BY_NAME Ljava/util/Map;
+		FIELD e name Ljava/lang/String;
+		FIELD f $VALUES [Lcom$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a lambda$static$0 (Lcom$a;)Lcom$a;
+		METHOD a byName (Ljava/lang/String;)Lcom$a;
+		METHOD c getSerializedName ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcom$a;
+		METHOD values values ()[Lcom$a;
+	CLASS b Decoration
+		FIELD a RAW_GENERATION Lcom$b;
+		FIELD b LAKES Lcom$b;
+		FIELD c LOCAL_MODIFICATIONS Lcom$b;
+		FIELD d UNDERGROUND_STRUCTURES Lcom$b;
+		FIELD e SURFACE_STRUCTURES Lcom$b;
+		FIELD f STRONGHOLDS Lcom$b;
+		FIELD g UNDERGROUND_ORES Lcom$b;
+		FIELD h UNDERGROUND_DECORATION Lcom$b;
+		FIELD i VEGETAL_DECORATION Lcom$b;
+		FIELD j TOP_LAYER_MODIFICATION Lcom$b;
+		FIELD k $VALUES [Lcom$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcom$b;
+		METHOD values values ()[Lcom$b;

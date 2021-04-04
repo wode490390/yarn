@@ -1,0 +1,23 @@
+CLASS byo net/minecraft/world/level/block/BigDripleafStemBlock
+	FIELD a NORTH_SHAPE Ldmr;
+	FIELD b SOUTH_SHAPE Ldmr;
+	FIELD c EAST_SHAPE Ldmr;
+	FIELD d WEST_SHAPE Ldmr;
+	FIELD e WATERLOGGED Lcki;
+	FIELD f STEM_WIDTH I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a performBonemeal (Labj;Ljava/util/Random;Lgb;Lcjr;)V
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a isValidBonemealTarget (Lbuv;Lgb;Lcjr;Z)Z
+	METHOD a isBonemealSuccess (Lbvr;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a place (Lbvs;Lgb;Lddq;Lgg;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

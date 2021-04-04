@@ -1,0 +1,2 @@
+CLASS atk net/minecraft/world/entity/PowerableMob
+	METHOD U_ isPowered ()Z

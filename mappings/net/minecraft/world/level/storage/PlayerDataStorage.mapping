@@ -1,0 +1,9 @@
+CLASS dhd net/minecraft/world/level/storage/PlayerDataStorage
+	FIELD a fixerUpper Lcom/mojang/datafixers/DataFixer;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c playerDir Ljava/io/File;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldgz$a;Lcom/mojang/datafixers/DataFixer;)V
+	METHOD a getSeenPlayers ()[Ljava/lang/String;
+	METHOD a save (Lbjf;)V
+	METHOD b load (Lbjf;)Lmv;

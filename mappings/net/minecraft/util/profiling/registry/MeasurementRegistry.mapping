@@ -1,0 +1,8 @@
+CLASS aps net/minecraft/util/profiling/registry/MeasurementRegistry
+	FIELD a INSTANCE Laps;
+	FIELD b measuredInstances Ljava/util/WeakHashMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getMetricsByCategories ()Ljava/util/Map;
+	METHOD a add (Lapu;)V
+	METHOD b lambda$getMetricsByCategories$0 (Lapu;)Ljava/util/stream/Stream;

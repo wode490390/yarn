@@ -1,0 +1,20 @@
+CLASS nm net/minecraft/nbt/StringTagVisitor
+	FIELD a SIMPLE_VALUE Ljava/util/regex/Pattern;
+	FIELD b builder Ljava/lang/StringBuilder;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a handleEscape (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a visitByteArray (Lms;)V
+	METHOD a visitByte (Lmt;)V
+	METHOD a visitCompound (Lmv;)V
+	METHOD a visitDouble (Lmw;)V
+	METHOD a visitEnd (Lmx;)V
+	METHOD a visitFloat (Lmy;)V
+	METHOD a visitIntArray (Lmz;)V
+	METHOD a visitInt (Lna;)V
+	METHOD a visitList (Lnb;)V
+	METHOD a visitLongArray (Lnc;)V
+	METHOD a visitLong (Lnd;)V
+	METHOD a visitShort (Lnj;)V
+	METHOD a visitString (Lnl;)V
+	METHOD a visit (Lnn;)Ljava/lang/String;

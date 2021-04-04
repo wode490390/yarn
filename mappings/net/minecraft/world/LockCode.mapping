@@ -1,0 +1,9 @@
+CLASS ari net/minecraft/world/LockCode
+	FIELD a NO_LOCK Lari;
+	FIELD b TAG_LOCK Ljava/lang/String;
+	FIELD c key Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a unlocksWith (Lbpr;)Z
+	METHOD a addToTag (Lmv;)V
+	METHOD b fromTag (Lmv;)Lari;

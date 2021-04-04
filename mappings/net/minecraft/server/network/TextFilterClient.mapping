@@ -1,0 +1,58 @@
+CLASS ach net/minecraft/server/network/TextFilterClient
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b WORKER_COUNT Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD c THREAD_FACTORY Ljava/util/concurrent/ThreadFactory;
+	FIELD d chatEndpoint Ljava/net/URL;
+	FIELD e joinEndpoint Ljava/net/URL;
+	FIELD f leaveEndpoint Ljava/net/URL;
+	FIELD g authKey Ljava/lang/String;
+	FIELD h ruleId I
+	FIELD i serverId Ljava/lang/String;
+	FIELD j chatIgnoreStrategy Lach$a;
+	FIELD k workerPool Ljava/util/concurrent/ExecutorService;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/net/URI;Ljava/lang/String;ILjava/lang/String;Lach$a;I)V
+	METHOD a access$200 (Lach;)Ljava/util/concurrent/ExecutorService;
+	METHOD a access$700 (Lach;Lcom/mojang/authlib/GameProfile;Ljava/lang/String;Lach$a;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a access$400 (Lach;Lcom/mojang/authlib/GameProfile;Ljava/net/URL;Ljava/util/concurrent/Executor;)V
+	METHOD a lambda$requestMessageProcessing$2 (Lcom/google/gson/JsonObject;Ljava/lang/String;Lach$a;)Lacg$a;
+	METHOD a processRequestResponse (Lcom/google/gson/JsonObject;Ljava/net/URL;)Lcom/google/gson/JsonObject;
+	METHOD a lambda$processJoinOrLeave$1 (Lcom/google/gson/JsonObject;Ljava/net/URL;Lcom/mojang/authlib/GameProfile;)V
+	METHOD a createContext (Lcom/mojang/authlib/GameProfile;)Lacg;
+	METHOD a requestMessageProcessing (Lcom/mojang/authlib/GameProfile;Ljava/lang/String;Lach$a;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a processJoinOrLeave (Lcom/mojang/authlib/GameProfile;Ljava/net/URL;Ljava/util/concurrent/Executor;)V
+	METHOD a drainStream (Ljava/io/InputStream;)V
+	METHOD a lambda$static$0 (Ljava/lang/Runnable;)Ljava/lang/Thread;
+	METHOD a createFromConfig (Ljava/lang/String;)Lach;
+	METHOD b access$300 (Lach;)Ljava/net/URL;
+	METHOD b processRequest (Lcom/google/gson/JsonObject;Ljava/net/URL;)V
+	METHOD c access$500 (Lach;)Ljava/net/URL;
+	METHOD c makeRequest (Lcom/google/gson/JsonObject;Ljava/net/URL;)Ljava/net/HttpURLConnection;
+	METHOD close close ()V
+	METHOD d access$600 (Lach;)Lach$a;
+	CLASS 1 1
+	CLASS a IgnoreStrategy
+		FIELD a NEVER_IGNORE Lach$a;
+		FIELD b IGNORE_FULLY_FILTERED Lach$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD a ignoreOverThreshold (I)Lach$a;
+		METHOD a lambda$ignoreOverThreshold$2 (ILjava/lang/String;I)Z
+		METHOD a lambda$static$1 (Ljava/lang/String;I)Z
+		METHOD b select (I)Lach$a;
+		METHOD b lambda$static$0 (Ljava/lang/String;I)Z
+		METHOD shouldIgnore shouldIgnore (Ljava/lang/String;I)Z
+	CLASS b PlayerContext
+		FIELD b this$0 Lach;
+		FIELD c profile Lcom/mojang/authlib/GameProfile;
+		FIELD d streamExecutor Ljava/util/concurrent/Executor;
+		METHOD <init> <init> (Lach;Lcom/mojang/authlib/GameProfile;)V
+		METHOD <init> <init> (Lach;Lcom/mojang/authlib/GameProfile;Lach$1;)V
+		METHOD a join ()V
+		METHOD a processStreamMessage (Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;
+		METHOD a lambda$processMessageBundle$1 (Ljava/lang/Throwable;)Ljava/util/List;
+		METHOD a processMessageBundle (Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;
+		METHOD b leave ()V
+		METHOD b lambda$processMessageBundle$0 (Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;
+	CLASS c RequestFailedException
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD <init> <init> (Ljava/lang/String;Lach$1;)V

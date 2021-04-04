@@ -1,0 +1,8 @@
+CLASS axw net/minecraft/world/entity/ai/control/SmoothSwimmingMoveControl
+	FIELD l maxTurnX I
+	FIELD m maxTurnY I
+	FIELD n inWaterSpeedModifier F
+	FIELD o outsideWaterSpeedModifier F
+	FIELD p applyGravity Z
+	METHOD <init> <init> (Lasz;IIFFZ)V
+	METHOD a tick ()V

@@ -1,0 +1,13 @@
+CLASS are net/minecraft/world/DifficultyInstance
+	FIELD a DIFFICULTY_TIME_GLOBAL_OFFSET F
+	FIELD b MAX_DIFFICULTY_TIME_GLOBAL F
+	FIELD c MAX_DIFFICULTY_TIME_LOCAL F
+	FIELD d base Lard;
+	FIELD e effectiveDifficulty F
+	METHOD <init> <init> (Lard;JJF)V
+	METHOD a getDifficulty ()Lard;
+	METHOD a isHarderThan (F)Z
+	METHOD a calculateDifficulty (Lard;JJF)F
+	METHOD b getEffectiveDifficulty ()F
+	METHOD c isHard ()Z
+	METHOD d getSpecialMultiplier ()F

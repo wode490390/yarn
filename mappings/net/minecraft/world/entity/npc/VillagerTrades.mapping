@@ -1,0 +1,114 @@
+CLASS biw net/minecraft/world/entity/npc/VillagerTrades
+	FIELD a TRADES Ljava/util/Map;
+	FIELD b WANDERING_TRADER_TRADES Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD c DEFAULT_SUPPLY I
+	FIELD d COMMON_ITEMS_SUPPLY I
+	FIELD e UNCOMMON_ITEMS_SUPPLY I
+	FIELD f XP_LEVEL_1_SELL I
+	FIELD g XP_LEVEL_1_BUY I
+	FIELD h XP_LEVEL_2_SELL I
+	FIELD i XP_LEVEL_2_BUY I
+	FIELD j XP_LEVEL_3_SELL I
+	FIELD k XP_LEVEL_3_BUY I
+	FIELD l XP_LEVEL_4_SELL I
+	FIELD m XP_LEVEL_4_BUY I
+	FIELD n XP_LEVEL_5_TRADE I
+	FIELD o LOW_TIER_PRICE_MULTIPLIER F
+	FIELD p HIGH_TIER_PRICE_MULTIPLIER F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a toIntMap (Lcom/google/common/collect/ImmutableMap;)Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V
+	CLASS a DyedArmorForEmeralds
+		FIELD a item Lbpn;
+		FIELD b value I
+		FIELD c maxUses I
+		FIELD d villagerXp I
+		METHOD <init> <init> (Lbpn;I)V
+		METHOD <init> <init> (Lbpn;III)V
+		METHOD a getOffer (Lasl;Ljava/util/Random;)Lbuo;
+		METHOD a getRandomDye (Ljava/util/Random;)Lboo;
+	CLASS b EmeraldForItems
+		FIELD a item Lbpn;
+		FIELD b cost I
+		FIELD c maxUses I
+		FIELD d villagerXp I
+		FIELD e priceMultiplier F
+		METHOD <init> <init> (Lbvq;III)V
+		METHOD a getOffer (Lasl;Ljava/util/Random;)Lbuo;
+	CLASS c EmeraldsForVillagerTypeItem
+		FIELD a trades Ljava/util/Map;
+		FIELD b cost I
+		FIELD c maxUses I
+		FIELD d villagerXp I
+		METHOD <init> <init> (IIILjava/util/Map;)V
+		METHOD a getOffer (Lasl;Ljava/util/Random;)Lbuo;
+		METHOD a lambda$new$1 (Lbix;)V
+		METHOD a lambda$new$0 (Ljava/util/Map;Lbix;)Z
+	CLASS d EnchantBookForEmeralds
+		FIELD a villagerXp I
+		METHOD <init> <init> (I)V
+		METHOD a getOffer (Lasl;Ljava/util/Random;)Lbuo;
+	CLASS e EnchantedItemForEmeralds
+		FIELD a itemStack Lbpr;
+		FIELD b baseEmeraldCost I
+		FIELD c maxUses I
+		FIELD d villagerXp I
+		FIELD e priceMultiplier F
+		METHOD <init> <init> (Lbpn;III)V
+		METHOD <init> <init> (Lbpn;IIIF)V
+		METHOD a getOffer (Lasl;Ljava/util/Random;)Lbuo;
+	CLASS f ItemListing
+		METHOD a getOffer (Lasl;Ljava/util/Random;)Lbuo;
+	CLASS g ItemsAndEmeraldsToItems
+		FIELD a fromItem Lbpr;
+		FIELD b fromCount I
+		FIELD c emeraldCost I
+		FIELD d toItem Lbpr;
+		FIELD e toCount I
+		FIELD f maxUses I
+		FIELD g villagerXp I
+		FIELD h priceMultiplier F
+		METHOD <init> <init> (Lbvq;IILbpn;III)V
+		METHOD <init> <init> (Lbvq;ILbpn;III)V
+		METHOD a getOffer (Lasl;Ljava/util/Random;)Lbuo;
+	CLASS h ItemsForEmeralds
+		FIELD a itemStack Lbpr;
+		FIELD b emeraldCost I
+		FIELD c numberOfItems I
+		FIELD d maxUses I
+		FIELD e villagerXp I
+		FIELD f priceMultiplier F
+		METHOD <init> <init> (Lbpn;III)V
+		METHOD <init> <init> (Lbpn;IIII)V
+		METHOD <init> <init> (Lbpr;IIII)V
+		METHOD <init> <init> (Lbpr;IIIIF)V
+		METHOD <init> <init> (Lbyq;IIII)V
+		METHOD a getOffer (Lasl;Ljava/util/Random;)Lbuo;
+	CLASS i SuspisciousStewForEmerald
+		FIELD a effect Lasd;
+		FIELD b duration I
+		FIELD c xp I
+		FIELD d priceMultiplier F
+		METHOD <init> <init> (Lasd;II)V
+		METHOD a getOffer (Lasl;Ljava/util/Random;)Lbuo;
+	CLASS j TippedArrowForItemsAndEmeralds
+		FIELD a toItem Lbpr;
+		FIELD b toCount I
+		FIELD c emeraldCost I
+		FIELD d maxUses I
+		FIELD e villagerXp I
+		FIELD f fromItem Lbpn;
+		FIELD g fromCount I
+		FIELD h priceMultiplier F
+		METHOD <init> <init> (Lbpn;ILbpn;IIII)V
+		METHOD a getOffer (Lasl;Ljava/util/Random;)Lbuo;
+		METHOD a lambda$getOffer$0 (Lbrm;)Z
+	CLASS k TreasureMapForEmeralds
+		FIELD a emeraldCost I
+		FIELD b destination Lcsv;
+		FIELD c destinationType Ldgn$a;
+		FIELD d maxUses I
+		FIELD e villagerXp I
+		METHOD <init> <init> (ILcsv;Ldgn$a;II)V
+		METHOD a getOffer (Lasl;Ljava/util/Random;)Lbuo;

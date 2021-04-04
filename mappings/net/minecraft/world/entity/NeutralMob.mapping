@@ -1,0 +1,22 @@
+CLASS ate net/minecraft/world/entity/NeutralMob
+	FIELD a_ TAG_ANGER_TIME Ljava/lang/String;
+	FIELD b_ TAG_ANGRY_AT Ljava/lang/String;
+	METHOD G getTarget ()Lasy;
+	METHOD H_ getRemainingPersistentAngerTime ()I
+	METHOD I_ getPersistentAngerTarget ()Ljava/util/UUID;
+	METHOD J_ startPersistentAngerTimer ()V
+	METHOD K_ isAngry ()Z
+	METHOD L_ forgetCurrentTargetAndRefreshUniversalAnger ()V
+	METHOD M_ stopBeingAngry ()V
+	METHOD a updatePersistentAnger (Labj;Z)V
+	METHOD a setLastHurtByMob (Lasy;)V
+	METHOD a readPersistentAngerSaveData (Lbvr;Lmv;)V
+	METHOD a setPersistentAngerTarget (Ljava/util/UUID;)V
+	METHOD a_ setRemainingPersistentAngerTime (I)V
+	METHOD a_ isAngryAt (Lasy;)Z
+	METHOD b playerDied (Lbjf;)V
+	METHOD b isAngryAtAllPlayers (Lbvr;)Z
+	METHOD c addPersistentAngerSaveData (Lmv;)V
+	METHOD dy getLastHurtByMob ()Lasy;
+	METHOD e setLastHurtByPlayer (Lbjf;)V
+	METHOD h setTarget (Lasy;)V

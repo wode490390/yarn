@@ -1,0 +1,15 @@
+CLASS bqs net/minecraft/world/item/SpawnEggItem
+	FIELD a BY_ID Ljava/util/Map;
+	FIELD b backgroundColor I
+	FIELD c highlightColor I
+	FIELD d defaultType Lasp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;IILbpn$a;)V
+	METHOD a getColor (I)I
+	METHOD a byId (Lasp;)Lbqs;
+	METHOD a spawnOffspringFromSpawnEgg (Lbjf;Lasz;Lasp;Labj;Ldly;Lbpr;)Ljava/util/Optional;
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD a getType (Lmv;)Lasp;
+	METHOD a spawnsEntity (Lmv;Lasp;)Z
+	METHOD i eggs ()Ljava/lang/Iterable;

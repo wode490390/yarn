@@ -1,0 +1,24 @@
+CLASS asx net/minecraft/world/entity/LightningBolt
+	FIELD ar cause Labk;
+	FIELD b seed J
+	FIELD c START_LIFE I
+	FIELD d life I
+	FIELD e flashes I
+	FIELD f visualOnly Z
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD O getAddEntityPacket ()Lpf;
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a spawnFire (I)V
+	METHOD a clearCopperOnLightningStrike (Lbvr;Lgb;)V
+	METHOD a lambda$randomStepCleaningCopper$0 (Lbvr;Lgb;Lcjr;)V
+	METHOD a randomWalkCleaningCopper (Lbvr;Lgb;Lgb$a;I)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD a setVisualOnly (Z)V
+	METHOD b setCause (Labk;)V
+	METHOD b randomStepCleaningCopper (Lbvr;Lgb;)Ljava/util/Optional;
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD cE getSoundSource ()Laex;
+	METHOD e defineSynchedData ()V
+	METHOD g getCause ()Labk;
+	METHOD h powerLightningRod ()V
+	METHOD j tick ()V

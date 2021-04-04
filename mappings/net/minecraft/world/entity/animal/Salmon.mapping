@@ -1,0 +1,8 @@
+CLASS bds net/minecraft/world/entity/animal/Salmon
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD G_ getBucketItemStack ()Lbpr;
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD fo getFlopSound ()Laev;
+	METHOD fp getMaxSchoolSize ()I
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;

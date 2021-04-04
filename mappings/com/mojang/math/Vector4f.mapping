@@ -1,0 +1,25 @@
+CLASS l com/mojang/math/Vector4f
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F
+	FIELD d w F
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (FFFF)V
+	METHOD <init> <init> (Lk;)V
+	METHOD a x ()F
+	METHOD a mul (F)V
+	METHOD a set (FFFF)V
+	METHOD a transform (Ld;)V
+	METHOD a transform (Lg;)V
+	METHOD a mul (Lk;)V
+	METHOD a dot (Ll;)F
+	METHOD a lerp (Ll;F)V
+	METHOD b y ()F
+	METHOD b add (FFFF)V
+	METHOD c z ()F
+	METHOD d w ()F
+	METHOD e normalize ()Z
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f perspectiveDivide ()V
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

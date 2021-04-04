@@ -1,0 +1,31 @@
+CLASS lr net/minecraft/gametest/framework/GameTestBatchRunner
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b firstTestNorthWestCorner Lgb;
+	FIELD c level Labj;
+	FIELD d testTicker Lmb;
+	FIELD e testsPerRow I
+	FIELD f allTestInfos Ljava/util/List;
+	FIELD g batches Ljava/util/List;
+	FIELD h nextTestNorthWestCorner Lgb$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/Collection;Lgb;Lcek;Labj;Lmb;I)V
+	METHOD a getTestInfos ()Ljava/util/List;
+	METHOD a runBatch (I)V
+	METHOD a lambda$new$1 (Lcek;Labj;Llq;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$0 (Lcek;Labj;Lmm;)Llv;
+	METHOD a lambda$new$2 (Lcom/mojang/datafixers/util/Pair;)Ljava/util/stream/Stream;
+	METHOD a createStructuresForBatch (Ljava/util/Collection;)Ljava/util/Map;
+	METHOD a lambda$runBatch$3 (Ljava/util/Map;Llv;)V
+	METHOD a access$000 (Llr;)Labj;
+	METHOD a access$100 (Llr;I)V
+	METHOD b start ()V
+	CLASS 1 1
+		FIELD a val$currentBatchTracker Lmg;
+		FIELD b val$currentBatch Llq;
+		FIELD c val$batchIndex I
+		FIELD d this$0 Llr;
+		METHOD <init> <init> (Llr;Lmg;Llq;I)V
+		METHOD a testCompleted ()V
+		METHOD a testStructureLoaded (Llv;)V
+		METHOD b testPassed (Llv;)V
+		METHOD c testFailed (Llv;)V

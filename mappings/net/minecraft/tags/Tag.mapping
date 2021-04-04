@@ -1,0 +1,78 @@
+CLASS afs net/minecraft/tags/Tag
+	METHOD a lambda$null$2 (Lafs;)Lcom/mojang/serialization/DataResult;
+	METHOD a contains (Ljava/lang/Object;)Z
+	METHOD a getRandomElement (Ljava/util/Random;)Ljava/lang/Object;
+	METHOD a codec (Ljava/util/function/Supplier;)Lcom/mojang/serialization/Codec;
+	METHOD a lambda$codec$3 (Ljava/util/function/Supplier;Lafs;)Lcom/mojang/serialization/DataResult;
+	METHOD a lambda$codec$1 (Ljava/util/function/Supplier;Lwp;)Lcom/mojang/serialization/DataResult;
+	METHOD a lambda$null$0 (Lwp;)Lcom/mojang/serialization/DataResult;
+	METHOD b getValues ()Ljava/util/List;
+	METHOD b fromSet (Ljava/util/Set;)Lafs;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a tag ()Lafs$a;
+		METHOD a add (Lafs$b;)Lafs$a;
+		METHOD a add (Lafs$d;Ljava/lang/String;)Lafs$a;
+		METHOD a parseEntry (Lcom/google/gson/JsonElement;)Lafs$d;
+		METHOD a addFromJson (Lcom/google/gson/JsonObject;Ljava/lang/String;)Lafs$a;
+		METHOD a lambda$addFromJson$2 (Ljava/lang/String;Lafs$d;)V
+		METHOD a visitRequiredDependencies (Ljava/util/function/Consumer;)V
+		METHOD a lambda$visitOptionalDependencies$1 (Ljava/util/function/Consumer;Lafs$b;)V
+		METHOD a build (Ljava/util/function/Function;Ljava/util/function/Function;)Lcom/mojang/datafixers/util/Either;
+		METHOD a addElement (Lwp;Ljava/lang/String;)Lafs$a;
+		METHOD b getEntries ()Ljava/util/stream/Stream;
+		METHOD b visitOptionalDependencies (Ljava/util/function/Consumer;)V
+		METHOD b lambda$visitRequiredDependencies$0 (Ljava/util/function/Consumer;Lafs$b;)V
+		METHOD b addOptionalElement (Lwp;Ljava/lang/String;)Lafs$a;
+		METHOD c serializeToJson ()Lcom/google/gson/JsonObject;
+		METHOD c addTag (Lwp;Ljava/lang/String;)Lafs$a;
+		METHOD d addOptionalTag (Lwp;Ljava/lang/String;)Lafs$a;
+	CLASS b BuilderEntry
+		FIELD a entry Lafs$d;
+		FIELD b source Ljava/lang/String;
+		METHOD <init> <init> (Lafs$d;Ljava/lang/String;)V
+		METHOD <init> <init> (Lafs$d;Ljava/lang/String;Lafs$1;)V
+		METHOD a getEntry ()Lafs$d;
+		METHOD a access$100 (Lafs$b;)Lafs$d;
+		METHOD b getSource ()Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c ElementEntry
+		FIELD a id Lwp;
+		METHOD <init> <init> (Lwp;)V
+		METHOD a serializeTo (Lcom/google/gson/JsonArray;)V
+		METHOD a build (Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Consumer;)Z
+		METHOD a verifyIfPresent (Ljava/util/function/Predicate;Ljava/util/function/Predicate;)Z
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS d Entry
+		METHOD a serializeTo (Lcom/google/gson/JsonArray;)V
+		METHOD a visitRequiredDependencies (Ljava/util/function/Consumer;)V
+		METHOD a build (Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Consumer;)Z
+		METHOD a verifyIfPresent (Ljava/util/function/Predicate;Ljava/util/function/Predicate;)Z
+		METHOD b visitOptionalDependencies (Ljava/util/function/Consumer;)V
+	CLASS e Named
+		METHOD a getName ()Lwp;
+	CLASS f OptionalElementEntry
+		FIELD a id Lwp;
+		METHOD <init> <init> (Lwp;)V
+		METHOD a serializeTo (Lcom/google/gson/JsonArray;)V
+		METHOD a build (Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Consumer;)Z
+		METHOD a verifyIfPresent (Ljava/util/function/Predicate;Ljava/util/function/Predicate;)Z
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS g OptionalTagEntry
+		FIELD a id Lwp;
+		METHOD <init> <init> (Lwp;)V
+		METHOD a serializeTo (Lcom/google/gson/JsonArray;)V
+		METHOD a build (Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Consumer;)Z
+		METHOD a verifyIfPresent (Ljava/util/function/Predicate;Ljava/util/function/Predicate;)Z
+		METHOD b visitOptionalDependencies (Ljava/util/function/Consumer;)V
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS h TagEntry
+		FIELD a id Lwp;
+		METHOD <init> <init> (Lwp;)V
+		METHOD a serializeTo (Lcom/google/gson/JsonArray;)V
+		METHOD a visitRequiredDependencies (Ljava/util/function/Consumer;)V
+		METHOD a build (Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Consumer;)Z
+		METHOD a verifyIfPresent (Ljava/util/function/Predicate;Ljava/util/function/Predicate;)Z
+		METHOD toString toString ()Ljava/lang/String;

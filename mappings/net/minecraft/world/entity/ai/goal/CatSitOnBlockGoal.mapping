@@ -1,0 +1,10 @@
+CLASS ayf net/minecraft/world/entity/ai/goal/CatSitOnBlockGoal
+	FIELD g cat Lbdc;
+	METHOD <init> <init> (Lbdc;D)V
+	METHOD a canUse ()Z
+	METHOD a isValidTarget (Lbvu;Lgb;)Z
+	METHOD a lambda$isValidTarget$1 (Lcjq$a;)Z
+	METHOD a lambda$null$0 (Lckf;)Ljava/lang/Boolean;
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

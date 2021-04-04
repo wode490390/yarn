@@ -1,0 +1,3 @@
+CLASS cix net/minecraft/world/level/block/entity/TrappedChestBlockEntity
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a signalOpenCount (Lbvr;Lgb;Lcjr;II)V

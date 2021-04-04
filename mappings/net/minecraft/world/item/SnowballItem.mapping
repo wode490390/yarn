@@ -1,0 +1,3 @@
+CLASS bqq net/minecraft/world/item/SnowballItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;

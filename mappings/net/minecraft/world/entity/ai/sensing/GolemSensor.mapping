@@ -1,0 +1,10 @@
+CLASS bbj net/minecraft/world/entity/ai/sensing/GolemSensor
+	FIELD a GOLEM_SCAN_RATE I
+	FIELD c MEMORY_TIME_TO_LIVE I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Labj;Lasy;)V
+	METHOD a checkForNearbyGolem (Lasy;)V
+	METHOD b golemDetected (Lasy;)V
+	METHOD c lambda$checkForNearbyGolem$0 (Lasy;)Z

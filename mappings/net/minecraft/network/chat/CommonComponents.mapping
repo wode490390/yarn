@@ -1,0 +1,15 @@
+CLASS om net/minecraft/network/chat/CommonComponents
+	FIELD a OPTION_ON Lon;
+	FIELD b OPTION_OFF Lon;
+	FIELD c GUI_DONE Lon;
+	FIELD d GUI_CANCEL Lon;
+	FIELD e GUI_YES Lon;
+	FIELD f GUI_NO Lon;
+	FIELD g GUI_PROCEED Lon;
+	FIELD h GUI_BACK Lon;
+	FIELD i CONNECT_FAILED Lon;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a optionNameValue (Lon;Lon;)Lot;
+	METHOD a optionStatus (Lon;Z)Lot;
+	METHOD a optionStatus (Z)Lon;

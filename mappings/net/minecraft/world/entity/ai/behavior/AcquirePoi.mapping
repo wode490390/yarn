@@ -1,0 +1,36 @@
+CLASS auc net/minecraft/world/entity/ai/behavior/AcquirePoi
+	FIELD a SCAN_RANGE I
+	FIELD c BATCH_SIZE I
+	FIELD d RATE I
+	FIELD e poiType Lbcr;
+	FIELD f memoryToAcquire Lbav;
+	FIELD g onlyIfAdult Z
+	FIELD h onPoiAcquisitionEvent Ljava/util/Optional;
+	FIELD i nextScheduledStart J
+	FIELD j batchCache Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
+	METHOD <init> <init> (Lbcr;Lbav;Lbav;ZLjava/util/Optional;)V
+	METHOD <init> <init> (Lbcr;Lbav;ZLjava/util/Optional;)V
+	METHOD a lambda$start$1 (JLgb;)Z
+	METHOD a lambda$start$0 (JLit/unimi/dsi/fastutil/longs/Long2ObjectMap$Entry;)Z
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Latg;)Z
+	METHOD a start (Labj;Latg;J)V
+	METHOD a lambda$null$3 (Labj;Latg;Ljava/lang/Byte;)V
+	METHOD a lambda$start$5 (Latg;JJ)Lauc$a;
+	METHOD a constructEntryConditionMap (Lbav;Lbav;)Lcom/google/common/collect/ImmutableMap;
+	METHOD a lambda$start$4 (Lbco;Lgb;Latg;Labj;Lbcr;)V
+	METHOD a lambda$null$2 (Lgb;Lgb;)Z
+	CLASS a JitteredLinearRetry
+		FIELD a MIN_INTERVAL_INCREASE I
+		FIELD b MAX_INTERVAL_INCREASE I
+		FIELD c MAX_RETRY_PATHFINDING_INTERVAL I
+		FIELD d random Ljava/util/Random;
+		FIELD e previousAttemptTimestamp J
+		FIELD f nextScheduledAttemptTimestamp J
+		FIELD g currentDelay I
+		METHOD <init> <init> (Ljava/util/Random;J)V
+		METHOD a markAttempt (J)V
+		METHOD b isStillValid (J)Z
+		METHOD c shouldRetry (J)Z
+		METHOD toString toString ()Ljava/lang/String;

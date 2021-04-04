@@ -1,0 +1,14 @@
+CLASS pu net/minecraft/network/protocol/game/ClientboundBlockEventPacket
+	FIELD a pos Lgb;
+	FIELD b b0 I
+	FIELD c b1 I
+	FIELD d block Lbyq;
+	METHOD <init> <init> (Lgb;Lbyq;II)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getPos ()Lgb;
+	METHOD c getB0 ()I
+	METHOD d getB1 ()I
+	METHOD e getBlock ()Lbyq;

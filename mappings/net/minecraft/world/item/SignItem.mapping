@@ -1,0 +1,3 @@
+CLASS bqo net/minecraft/world/item/SignItem
+	METHOD <init> <init> (Lbpn$a;Lbyq;Lbyq;)V
+	METHOD a updateCustomBlockEntityTag (Lgb;Lbvr;Lbjf;Lbpr;Lcjr;)Z

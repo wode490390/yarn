@@ -1,0 +1,12 @@
+CLASS afb net/minecraft/stats/ServerRecipeBook
+	FIELD c RECIPE_BOOK_TAG Ljava/lang/String;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a sendInitialRecipeBook (Labk;)V
+	METHOD a addRecipes (Ljava/util/Collection;Labk;)I
+	METHOD a fromNbt (Lmv;Lbsk;)V
+	METHOD a loadRecipes (Lnb;Ljava/util/function/Consumer;Lbsk;)V
+	METHOD a sendRecipes (Lrl$a;Labk;Ljava/util/List;)V
+	METHOD b toNbt ()Lmv;
+	METHOD b removeRecipes (Ljava/util/Collection;Labk;)I

@@ -1,0 +1,20 @@
+CLASS bpo net/minecraft/world/item/ItemCooldowns
+	FIELD a cooldowns Ljava/util/Map;
+	FIELD b tickCount I
+	METHOD <init> <init> ()V
+	METHOD a tick ()V
+	METHOD a isOnCooldown (Lbpn;)Z
+	METHOD a getCooldownPercent (Lbpn;F)F
+	METHOD a addCooldown (Lbpn;I)V
+	METHOD b removeCooldown (Lbpn;)V
+	METHOD b onCooldownStarted (Lbpn;I)V
+	METHOD c onCooldownEnded (Lbpn;)V
+	CLASS 1 1
+	CLASS a CooldownInstance
+		FIELD a this$0 Lbpo;
+		FIELD b startTime I
+		FIELD c endTime I
+		METHOD <init> <init> (Lbpo;II)V
+		METHOD <init> <init> (Lbpo;IILbpo$1;)V
+		METHOD a access$000 (Lbpo$a;)I
+		METHOD b access$100 (Lbpo$a;)I

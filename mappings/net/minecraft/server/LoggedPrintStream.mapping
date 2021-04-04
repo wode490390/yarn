@@ -1,0 +1,8 @@
+CLASS ww net/minecraft/server/LoggedPrintStream
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;Ljava/io/OutputStream;)V
+	METHOD a logLine (Ljava/lang/String;)V
+	METHOD println println (Ljava/lang/Object;)V
+	METHOD println println (Ljava/lang/String;)V

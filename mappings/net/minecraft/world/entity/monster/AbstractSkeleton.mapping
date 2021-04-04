@@ -1,0 +1,27 @@
+CLASS bgi net/minecraft/world/entity/monster/AbstractSkeleton
+	FIELD b bowGoal Lazp;
+	FIELD c meleeGoal Laza;
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a populateDefaultEquipmentSlots (Lare;)V
+	METHOD a setItemSlot (Lasq;Lbpr;)V
+	METHOD a performRangedAttack (Lasy;F)V
+	METHOD a canFireProjectileWeapon (Lbqf;)Z
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b getStandingEyeHeight (Latj;Lasm;)F
+	METHOD b getArrow (Lbpr;F)Lbjj;
+	METHOD b playStepSound (Lgb;Lcjr;)V
+	METHOD bf rideTick ()V
+	METHOD bg getMyRidingOffset ()D
+	METHOD ec getMobType ()Latc;
+	METHOD fn isShaking ()Z
+	METHOD k aiStep ()V
+	METHOD m createAttributes ()Latx$a;
+	METHOD o getStepSound ()Laev;
+	METHOD s reassessWeaponGoal ()V
+	METHOD u registerGoals ()V
+	CLASS 1 1
+		FIELD b this$0 Lbgi;
+		METHOD <init> <init> (Lbgi;Latg;DZ)V
+		METHOD c start ()V
+		METHOD d stop ()V

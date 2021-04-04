@@ -1,0 +1,26 @@
+CLASS ddx net/minecraft/world/level/material/WaterFluid
+	METHOD <init> <init> ()V
+	METHOD a getBucket ()Lbpn;
+	METHOD a animateTick (Lbvr;Lgb;Lddq;Ljava/util/Random;)V
+	METHOD a beforeDestroyingBlock (Lbvs;Lgb;Lcjr;)V
+	METHOD a getTickDelay (Lbvu;)I
+	METHOD a isSame (Lddp;)Z
+	METHOD a canBeReplacedWith (Lddq;Lbuv;Lgb;Lddp;Lgg;)Z
+	METHOD b getSlopeFindDistance (Lbvu;)I
+	METHOD b createLegacyBlock (Lddq;)Lcjr;
+	METHOD c getExplosionResistance ()F
+	METHOD c getDropOff (Lbvu;)I
+	METHOD d getFlowing ()Lddp;
+	METHOD e getSource ()Lddp;
+	METHOD f canConvertToSource ()Z
+	METHOD i getDripParticle ()Lho;
+	METHOD k getPickupSound ()Ljava/util/Optional;
+	CLASS a Flowing
+		METHOD <init> <init> ()V
+		METHOD a createFluidStateDefinition (Lcjs$a;)V
+		METHOD c isSource (Lddq;)Z
+		METHOD d getAmount (Lddq;)I
+	CLASS b Source
+		METHOD <init> <init> ()V
+		METHOD c isSource (Lddq;)Z
+		METHOD d getAmount (Lddq;)I

@@ -1,0 +1,5 @@
+CLASS ati net/minecraft/world/entity/PlayerRideableJumping
+	METHOD S_ canJump ()Z
+	METHOD T_ handleStopJump ()V
+	METHOD b handleStartJump (I)V
+	METHOD b_ onPlayerJump (I)V

@@ -1,0 +1,15 @@
+CLASS api net/minecraft/util/profiling/InactiveProfiler
+	FIELD a INSTANCE Lapi;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a startTick ()V
+	METHOD a push (Ljava/lang/String;)V
+	METHOD a push (Ljava/util/function/Supplier;)V
+	METHOD b endTick ()V
+	METHOD b popPush (Ljava/lang/String;)V
+	METHOD b popPush (Ljava/util/function/Supplier;)V
+	METHOD c pop ()V
+	METHOD c incrementCounter (Ljava/lang/String;)V
+	METHOD c incrementCounter (Ljava/util/function/Supplier;)V
+	METHOD d getResults ()Lapk;
+	METHOD d getEntry (Ljava/lang/String;)Lape$a;

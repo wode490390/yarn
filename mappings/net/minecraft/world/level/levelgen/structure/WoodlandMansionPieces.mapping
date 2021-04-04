@@ -1,0 +1,121 @@
+CLASS dap net/minecraft/world/level/levelgen/structure/WoodlandMansionPieces
+	METHOD <init> <init> ()V
+	METHOD a generateMansion (Ldbn;Lgb;Lcek;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a main ([Ljava/lang/String;)V
+	CLASS 1 1
+	CLASS a FirstFloorRoomCollection
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Ldap$1;)V
+		METHOD a get1x1 (Ljava/util/Random;)Ljava/lang/String;
+		METHOD a get1x2SideEntrance (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD b get1x1Secret (Ljava/util/Random;)Ljava/lang/String;
+		METHOD b get1x2FrontEntrance (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD c get1x2Secret (Ljava/util/Random;)Ljava/lang/String;
+		METHOD d get2x2 (Ljava/util/Random;)Ljava/lang/String;
+		METHOD e get2x2Secret (Ljava/util/Random;)Ljava/lang/String;
+	CLASS b FloorRoomCollection
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Ldap$1;)V
+		METHOD a get1x1 (Ljava/util/Random;)Ljava/lang/String;
+		METHOD a get1x2SideEntrance (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD b get1x1Secret (Ljava/util/Random;)Ljava/lang/String;
+		METHOD b get1x2FrontEntrance (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD c get1x2Secret (Ljava/util/Random;)Ljava/lang/String;
+		METHOD d get2x2 (Ljava/util/Random;)Ljava/lang/String;
+		METHOD e get2x2Secret (Ljava/util/Random;)Ljava/lang/String;
+	CLASS c MansionGrid
+		FIELD a DEFAULT_SIZE I
+		FIELD b CLEAR I
+		FIELD c CORRIDOR I
+		FIELD d ROOM I
+		FIELD e START_ROOM I
+		FIELD f TEST_ROOM I
+		FIELD g BLOCKED I
+		FIELD h ROOM_1x1 I
+		FIELD i ROOM_1x2 I
+		FIELD j ROOM_2x2 I
+		FIELD k ROOM_ORIGIN_FLAG I
+		FIELD l ROOM_DOOR_FLAG I
+		FIELD m ROOM_STAIRS_FLAG I
+		FIELD n ROOM_CORRIDOR_FLAG I
+		FIELD o ROOM_TYPE_MASK I
+		FIELD p ROOM_ID_MASK I
+		FIELD q random Ljava/util/Random;
+		FIELD r baseGrid Ldap$g;
+		FIELD s thirdFloorGrid Ldap$g;
+		FIELD t floorRooms [Ldap$g;
+		FIELD u entranceX I
+		FIELD v entranceY I
+		METHOD <init> <init> (Ljava/util/Random;)V
+		METHOD a print ()V
+		METHOD a access$100 (Ldap$c;)Ldap$g;
+		METHOD a cleanEdges (Ldap$g;)Z
+		METHOD a isHouse (Ldap$g;II)Z
+		METHOD a isRoomId (Ldap$g;IIII)Z
+		METHOD a recursiveCorridor (Ldap$g;IILgg;I)V
+		METHOD a identifyRooms (Ldap$g;Ldap$g;)V
+		METHOD b setupThirdFloor ()V
+		METHOD b access$200 (Ldap$c;)Ldap$g;
+		METHOD b get1x2RoomDirection (Ldap$g;IIII)Lgg;
+		METHOD c access$300 (Ldap$c;)I
+		METHOD d access$400 (Ldap$c;)I
+		METHOD e access$1000 (Ldap$c;)[Ldap$g;
+	CLASS d MansionPiecePlacer
+		FIELD a structureManager Ldbn;
+		FIELD b random Ljava/util/Random;
+		FIELD c startX I
+		FIELD d startY I
+		METHOD <init> <init> (Ldbn;Ljava/util/Random;)V
+		METHOD a createMansion (Lgb;Lcek;Ljava/util/List;Ldap$c;)V
+		METHOD a entrance (Ljava/util/List;Ldap$e;)V
+		METHOD a traverseOuterWalls (Ljava/util/List;Ldap$e;Ldap$g;Lgg;IIII)V
+		METHOD a addRoom2x2Secret (Ljava/util/List;Lgb;Lcek;Ldap$b;)V
+		METHOD a createRoof (Ljava/util/List;Lgb;Lcek;Ldap$g;Ldap$g;)V
+		METHOD a addRoom1x1 (Ljava/util/List;Lgb;Lcek;Lgg;Ldap$b;)V
+		METHOD a addRoom2x2 (Ljava/util/List;Lgb;Lcek;Lgg;Lgg;Ldap$b;)V
+		METHOD a addRoom1x2 (Ljava/util/List;Lgb;Lcek;Lgg;Lgg;Ldap$b;Z)V
+		METHOD b traverseWallPiece (Ljava/util/List;Ldap$e;)V
+		METHOD c traverseTurn (Ljava/util/List;Ldap$e;)V
+		METHOD d traverseInnerTurn (Ljava/util/List;Ldap$e;)V
+	CLASS e PlacementData
+		FIELD a rotation Lcek;
+		FIELD b position Lgb;
+		FIELD c wallType Ljava/lang/String;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Ldap$1;)V
+	CLASS f SecondFloorRoomCollection
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Ldap$1;)V
+		METHOD a get1x1 (Ljava/util/Random;)Ljava/lang/String;
+		METHOD a get1x2SideEntrance (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD b get1x1Secret (Ljava/util/Random;)Ljava/lang/String;
+		METHOD b get1x2FrontEntrance (Ljava/util/Random;Z)Ljava/lang/String;
+		METHOD c get1x2Secret (Ljava/util/Random;)Ljava/lang/String;
+		METHOD d get2x2 (Ljava/util/Random;)Ljava/lang/String;
+		METHOD e get2x2Secret (Ljava/util/Random;)Ljava/lang/String;
+	CLASS g SimpleGrid
+		FIELD a grid [[I
+		FIELD b width I
+		FIELD c height I
+		FIELD d valueIfOutside I
+		METHOD <init> <init> (III)V
+		METHOD a get (II)I
+		METHOD a set (III)V
+		METHOD a setif (IIII)V
+		METHOD a set (IIIII)V
+		METHOD a access$500 (Ldap$g;)I
+		METHOD b edgesTo (III)Z
+		METHOD b access$600 (Ldap$g;)I
+	CLASS h ThirdFloorRoomCollection
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Ldap$1;)V
+	CLASS i WoodlandMansionPiece
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD <init> <init> (Ldbn;Ljava/lang/String;Lgb;Lcek;)V
+		METHOD <init> <init> (Ldbn;Ljava/lang/String;Lgb;Lcek;Lccy;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a makeSettings (Lccy;Lcek;)Ldbo;
+		METHOD a makeLocation (Ljava/lang/String;)Lwp;
+		METHOD a handleDataMarker (Ljava/lang/String;Lgb;Lbwf;Ljava/util/Random;Lczp;)V
+		METHOD a lambda$new$0 (Lmv;Lwp;)Ldbo;
+		METHOD at_ makeTemplateLocation ()Lwp;

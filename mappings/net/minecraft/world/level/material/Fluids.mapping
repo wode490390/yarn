@@ -1,0 +1,9 @@
+CLASS ddr net/minecraft/world/level/material/Fluids
+	FIELD a EMPTY Lddp;
+	FIELD b FLOWING_WATER Lddo;
+	FIELD c WATER Lddo;
+	FIELD d FLOWING_LAVA Lddo;
+	FIELD e LAVA Lddo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Ljava/lang/String;Lddp;)Lddp;

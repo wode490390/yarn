@@ -1,0 +1,12 @@
+CLASS asm net/minecraft/world/entity/EntityDimensions
+	FIELD a width F
+	FIELD b height F
+	FIELD c fixed Z
+	METHOD <init> <init> (FFZ)V
+	METHOD a makeBoundingBox (DDD)Ldlt;
+	METHOD a scale (F)Lasm;
+	METHOD a scale (FF)Lasm;
+	METHOD a makeBoundingBox (Ldly;)Ldlt;
+	METHOD b scalable (FF)Lasm;
+	METHOD c fixed (FF)Lasm;
+	METHOD toString toString ()Ljava/lang/String;

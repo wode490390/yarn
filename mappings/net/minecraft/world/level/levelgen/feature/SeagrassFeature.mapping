@@ -1,0 +1,3 @@
+CLASS csm net/minecraft/world/level/levelgen/feature/SeagrassFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a place (Lcqz;)Z

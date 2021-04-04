@@ -1,0 +1,12 @@
+CLASS apk net/minecraft/util/profiling/ProfileResults
+	FIELD b PATH_SEPARATOR C
+	METHOD a getStartTimeNano ()J
+	METHOD a getTimes (Ljava/lang/String;)Ljava/util/List;
+	METHOD a saveResults (Ljava/nio/file/Path;)Z
+	METHOD b getStartTimeTicks ()I
+	METHOD b demanglePath (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c getEndTimeNano ()J
+	METHOD d getEndTimeTicks ()I
+	METHOD e getProfilerResults ()Ljava/lang/String;
+	METHOD f getTickDuration ()I
+	METHOD g getNanoDuration ()J

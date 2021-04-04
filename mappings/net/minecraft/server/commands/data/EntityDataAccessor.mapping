@@ -1,0 +1,17 @@
+CLASS aaf net/minecraft/server/commands/data/EntityDataAccessor
+	FIELD a PROVIDER Ljava/util/function/Function;
+	FIELD b ERROR_NO_PLAYERS Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c entity Lasl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasl;)V
+	METHOD a getData ()Lmv;
+	METHOD a getPrintSuccess (Ldw$g;DI)Lon;
+	METHOD a lambda$static$0 (Ljava/lang/String;)Laae$c;
+	METHOD a setData (Lmv;)V
+	METHOD a getPrintSuccess (Lnn;)Lon;
+	METHOD b getModifiedSuccess ()Lon;
+	CLASS 1 1
+		FIELD a val$arg Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD a wrap (Lcom/mojang/brigadier/builder/ArgumentBuilder;Ljava/util/function/Function;)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		METHOD a access (Lcom/mojang/brigadier/context/CommandContext;)Laad;

@@ -1,0 +1,7 @@
+CLASS bbc net/minecraft/world/entity/ai/navigation/WallClimberNavigation
+	FIELD p pathToPosition Lgb;
+	METHOD <init> <init> (Lasz;Lbvr;)V
+	METHOD a moveTo (Lasl;D)Z
+	METHOD a createPath (Lasl;I)Ldfy;
+	METHOD a createPath (Lgb;I)Ldfy;
+	METHOD c tick ()V

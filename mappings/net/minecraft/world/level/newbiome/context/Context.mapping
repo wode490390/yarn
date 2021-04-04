@@ -1,0 +1,3 @@
+CLASS dee net/minecraft/world/level/newbiome/context/Context
+	METHOD a getBiomeNoise ()Ldcr;
+	METHOD a nextRandom (I)I

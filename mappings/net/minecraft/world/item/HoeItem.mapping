@@ -1,0 +1,7 @@
+CLASS bpj net/minecraft/world/item/HoeItem
+	FIELD a TILLABLES Ljava/util/Map;
+	FIELD c DIGGABLES Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbra;IFLbpn$a;)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a lambda$useOn$0 (Lbrt;Lbjf;)V

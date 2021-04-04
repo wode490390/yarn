@@ -1,0 +1,8 @@
+CLASS bmz net/minecraft/world/inventory/ShulkerBoxMenu
+	FIELD k CONTAINER_SIZE I
+	FIELD l container Laqz;
+	METHOD <init> <init> (ILbje;)V
+	METHOD <init> <init> (ILbje;Laqz;)V
+	METHOD a stillValid (Lbjf;)Z
+	METHOD b removed (Lbjf;)V
+	METHOD b quickMoveStack (Lbjf;I)Lbpr;

@@ -1,0 +1,8 @@
+CLASS cre net/minecraft/world/level/levelgen/feature/GlowLichenFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a placeGlowLichenIfPossible (Lbwm;Lgb;Lcjr;Lcuc;Ljava/util/Random;Ljava/util/List;)Z
+	METHOD a place (Lcqz;)Z
+	METHOD a getShuffledDirections (Lcuc;Ljava/util/Random;)Ljava/util/List;
+	METHOD a getShuffledDirectionsExcept (Lcuc;Ljava/util/Random;Lgg;)Ljava/util/List;
+	METHOD a lambda$getShuffledDirectionsExcept$0 (Lgg;Lgg;)Z
+	METHOD c isAirOrWater (Lcjr;)Z

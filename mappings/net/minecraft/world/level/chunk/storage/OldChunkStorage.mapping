@@ -1,0 +1,25 @@
+CLASS cml net/minecraft/world/level/chunk/storage/OldChunkStorage
+	FIELD a DATALAYER_BITS I
+	FIELD b OLD_LEVEL_HEIGHT Lbvt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a convertToAnvilFormat (Lgs$b;Lcml$a;Lmv;Lbwt;)V
+	METHOD a load (Lmv;)Lcml$a;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD m getHeight ()I
+		METHOD v_ getMinBuildHeight ()I
+	CLASS a OldLevelChunk
+		FIELD a lastUpdated J
+		FIELD b terrainPopulated Z
+		FIELD c heightmap [B
+		FIELD d blockLight Lclz;
+		FIELD e skyLight Lclz;
+		FIELD f data Lclz;
+		FIELD g blocks [B
+		FIELD h entities Lnb;
+		FIELD i blockEntities Lnb;
+		FIELD j blockTicks Lnb;
+		FIELD k x I
+		FIELD l z I
+		METHOD <init> <init> (II)V

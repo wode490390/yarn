@@ -1,0 +1,10 @@
+CLASS ne net/minecraft/nbt/NbtAccounter
+	FIELD a UNLIMITED Lne;
+	FIELD b quota J
+	FIELD c usage J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (J)V
+	METHOD a accountBits (J)V
+	CLASS 1 1
+		METHOD <init> <init> (J)V
+		METHOD a accountBits (J)V

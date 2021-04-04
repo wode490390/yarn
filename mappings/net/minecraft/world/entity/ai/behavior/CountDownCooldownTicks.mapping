@@ -1,0 +1,8 @@
+CLASS auo net/minecraft/world/entity/ai/behavior/CountDownCooldownTicks
+	FIELD a cooldownTicks Lbav;
+	METHOD <init> <init> (Lbav;)V
+	METHOD a timedOut (J)Z
+	METHOD a getCooldownTickMemory (Lasy;)Ljava/util/Optional;
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD c stop (Labj;Lasy;J)V
+	METHOD d tick (Labj;Lasy;J)V

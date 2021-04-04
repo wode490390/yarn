@@ -1,0 +1,7 @@
+CLASS cci net/minecraft/world/level/block/KelpPlantBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a canPlaceLiquid (Lbuv;Lgb;Lcjr;Lddp;)Z
+	METHOD a placeLiquid (Lbvs;Lgb;Lcjr;Lddq;)Z
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD d getHeadBlock ()Lcbu;
+	METHOD h canAttachTo (Lcjr;)Z

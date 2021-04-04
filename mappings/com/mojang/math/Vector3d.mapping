@@ -1,0 +1,9 @@
+CLASS j com/mojang/math/Vector3d
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	METHOD <init> <init> (DDD)V
+	METHOD a scale (D)V
+	METHOD a set (DDD)V
+	METHOD a set (Lj;)V
+	METHOD b add (Lj;)V

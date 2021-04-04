@@ -1,0 +1,12 @@
+CLASS csx net/minecraft/world/level/levelgen/feature/SwamplandHutFeature
+	FIELD v SWAMPHUT_ENEMIES Laqa;
+	FIELD w SWAMPHUT_ANIMALS Laqa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getStartFactory ()Lcsv$a;
+	METHOD c getSpecialEnemies ()Laqa;
+	METHOD j getSpecialAnimals ()Laqa;
+	CLASS a FeatureStart
+		METHOD <init> <init> (Lcsv;Lbuw;IJ)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcua;Lbvt;)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcum;Lbvt;)V

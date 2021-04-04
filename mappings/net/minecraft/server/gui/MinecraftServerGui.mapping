@@ -1,0 +1,35 @@
+CLASS aaq net/minecraft/server/gui/MinecraftServerGui
+	FIELD a MONOSPACED Ljava/awt/Font;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c TITLE Ljava/lang/String;
+	FIELD d SHUTDOWN_TITLE Ljava/lang/String;
+	FIELD e server Laak;
+	FIELD f logAppenderThread Ljava/lang/Thread;
+	FIELD g finalizers Ljava/util/Collection;
+	FIELD h isClosing Ljava/util/concurrent/atomic/AtomicBoolean;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laak;)V
+	METHOD a start ()V
+	METHOD a showFrameFor (Laak;)Laaq;
+	METHOD a access$000 (Laaq;)Ljava/util/concurrent/atomic/AtomicBoolean;
+	METHOD a addFinalizer (Ljava/lang/Runnable;)V
+	METHOD a lambda$buildChatPanel$1 (Ljavax/swing/JTextArea;Ljavax/swing/JScrollPane;)V
+	METHOD a print (Ljavax/swing/JTextArea;Ljavax/swing/JScrollPane;Ljava/lang/String;)V
+	METHOD a lambda$buildChatPanel$0 (Ljavax/swing/JTextField;Ljava/awt/event/ActionEvent;)V
+	METHOD b close ()V
+	METHOD b access$100 (Laaq;)V
+	METHOD b lambda$print$2 (Ljavax/swing/JTextArea;Ljavax/swing/JScrollPane;Ljava/lang/String;)V
+	METHOD c buildInfoPanel ()Ljavax/swing/JComponent;
+	METHOD d buildPlayerPanel ()Ljavax/swing/JComponent;
+	METHOD e buildChatPanel ()Ljavax/swing/JComponent;
+	METHOD f runFinalizers ()V
+	CLASS 1 1
+		FIELD a val$gui Laaq;
+		FIELD b val$frame Ljavax/swing/JFrame;
+		FIELD c val$server Laak;
+		METHOD <init> <init> (Laaq;Ljavax/swing/JFrame;Laak;)V
+		METHOD windowClosing windowClosing (Ljava/awt/event/WindowEvent;)V
+	CLASS 2 2
+		FIELD a this$0 Laaq;
+		METHOD <init> <init> (Laaq;)V
+		METHOD focusGained focusGained (Ljava/awt/event/FocusEvent;)V

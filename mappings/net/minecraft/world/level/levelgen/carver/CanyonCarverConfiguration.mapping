@@ -1,0 +1,28 @@
+CLASS cpi net/minecraft/world/level/levelgen/carver/CanyonCarverConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b verticalRotation Laqm;
+	FIELD c shape Lcpi$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FLcxu;Laqm;Lcpe;Lcpl;Laqm;Lcpi$a;)V
+	METHOD <init> <init> (Lcpk;Laqm;Lcpi$a;)V
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcpi;)Lcpi$a;
+	METHOD b lambda$null$1 (Lcpi;)Laqm;
+	METHOD c lambda$null$0 (Lcpi;)Lcpk;
+	CLASS a CanyonShapeConfiguration
+		FIELD a CODEC Lcom/mojang/serialization/Codec;
+		FIELD b distanceFactor Laqm;
+		FIELD c thickness Laqm;
+		FIELD d widthSmoothness I
+		FIELD e horizontalRadiusFactor Laqm;
+		FIELD f verticalRadiusDefaultFactor F
+		FIELD g verticalRadiusCenterFactor F
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Laqm;Laqm;ILaqm;FF)V
+		METHOD a lambda$static$6 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+		METHOD a lambda$null$5 (Lcpi$a;)Ljava/lang/Float;
+		METHOD b lambda$null$4 (Lcpi$a;)Ljava/lang/Float;
+		METHOD c lambda$null$3 (Lcpi$a;)Laqm;
+		METHOD d lambda$null$2 (Lcpi$a;)Ljava/lang/Integer;
+		METHOD e lambda$null$1 (Lcpi$a;)Laqm;
+		METHOD f lambda$null$0 (Lcpi$a;)Laqm;

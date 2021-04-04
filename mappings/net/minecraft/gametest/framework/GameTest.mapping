@@ -1,0 +1,9 @@
+CLASS ln net/minecraft/gametest/framework/GameTest
+	METHOD a timeoutTicks ()I
+	METHOD b batch ()Ljava/lang/String;
+	METHOD c rotationSteps ()I
+	METHOD d required ()Z
+	METHOD e template ()Ljava/lang/String;
+	METHOD f setupTicks ()J
+	METHOD g attempts ()I
+	METHOD h requiredSuccesses ()I

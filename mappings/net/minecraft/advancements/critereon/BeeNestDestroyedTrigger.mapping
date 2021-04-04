@@ -1,0 +1,20 @@
+CLASS ar net/minecraft/advancements/critereon/BeeNestDestroyedTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;Lcjr;Lbpr;I)V
+	METHOD a lambda$trigger$1 (Lcjr;Lbpr;ILar$a;)Z
+	METHOD a deserializeBlock (Lcom/google/gson/JsonObject;)Lbyq;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lar$a;
+	METHOD a lambda$deserializeBlock$0 (Lwp;)Lcom/google/gson/JsonSyntaxException;
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a block Lbyq;
+		FIELD b item Lbv;
+		FIELD c numBees Lce$d;
+		METHOD <init> <init> (Lbl$b;Lbyq;Lbv;Lce$d;)V
+		METHOD a destroyedBeeNest (Lbyq;Lbv$a;Lce$d;)Lar$a;
+		METHOD a matches (Lcjr;Lbpr;I)Z
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;

@@ -1,0 +1,2 @@
+CLASS lk net/minecraft/gametest/framework/AfterBatch
+	METHOD a batch ()Ljava/lang/String;

@@ -1,0 +1,3 @@
+CLASS biu net/minecraft/world/entity/npc/VillagerDataHolder
+	METHOD a setVillagerData (Lbit;)V
+	METHOD fy getVillagerData ()Lbit;

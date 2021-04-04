@@ -1,0 +1,8 @@
+CLASS up net/minecraft/network/protocol/game/ServerboundSetCarriedItemPacket
+	FIELD a slot I
+	METHOD <init> <init> (I)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getSlot ()I

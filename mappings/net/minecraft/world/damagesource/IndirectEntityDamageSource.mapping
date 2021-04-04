@@ -1,0 +1,6 @@
+CLASS arx net/minecraft/world/damagesource/IndirectEntityDamageSource
+	FIELD A owner Lasl;
+	METHOD <init> <init> (Ljava/lang/String;Lasl;Lasl;)V
+	METHOD a getLocalizedDeathMessage (Lasy;)Lon;
+	METHOD k getDirectEntity ()Lasl;
+	METHOD l getEntity ()Lasl;

@@ -1,0 +1,16 @@
+CLASS bn net/minecraft/advancements/critereon/FilledBucketTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;Lbpr;)V
+	METHOD a lambda$trigger$0 (Lbpr;Lbn$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lbn$a;
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a item Lbv;
+		METHOD <init> <init> (Lbl$b;Lbv;)V
+		METHOD a matches (Lbpr;)Z
+		METHOD a filledBucket (Lbv;)Lbn$a;
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;

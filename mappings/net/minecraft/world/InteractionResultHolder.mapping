@@ -1,0 +1,11 @@
+CLASS arh net/minecraft/world/InteractionResultHolder
+	FIELD a result Larg;
+	FIELD b object Ljava/lang/Object;
+	METHOD <init> <init> (Larg;Ljava/lang/Object;)V
+	METHOD a getResult ()Larg;
+	METHOD a success (Ljava/lang/Object;)Larh;
+	METHOD a sidedSuccess (Ljava/lang/Object;Z)Larh;
+	METHOD b getObject ()Ljava/lang/Object;
+	METHOD b consume (Ljava/lang/Object;)Larh;
+	METHOD c pass (Ljava/lang/Object;)Larh;
+	METHOD d fail (Ljava/lang/Object;)Larh;

@@ -1,0 +1,4 @@
+CLASS bsa net/minecraft/world/item/crafting/CampfireCookingRecipe
+	METHOD <init> <init> (Lwp;Ljava/lang/String;Lbsg;Lbpr;FI)V
+	METHOD aj_ getSerializer ()Lbsl;
+	METHOD h getToastSymbol ()Lbpr;

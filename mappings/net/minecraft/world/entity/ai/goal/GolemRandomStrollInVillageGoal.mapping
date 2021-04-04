@@ -1,0 +1,15 @@
+CLASS ays net/minecraft/world/entity/ai/goal/GolemRandomStrollInVillageGoal
+	FIELD i POI_SECTION_SCAN_RADIUS I
+	FIELD j VILLAGER_SCAN_RADIUS I
+	FIELD k RANDOM_POS_XY_DISTANCE I
+	FIELD l RANDOM_POS_Y_DISTANCE I
+	METHOD <init> <init> (Latg;D)V
+	METHOD a lambda$getRandomVillageSection$0 (Labj;Lgu;)Z
+	METHOD a lambda$getRandomPoiWithinSection$1 (Lbcr;)Z
+	METHOD a doesVillagerWantGolem (Lbis;)Z
+	METHOD a getRandomPoiWithinSection (Lgu;)Lgb;
+	METHOD g getPosition ()Ldly;
+	METHOD j getPositionTowardsAnywhere ()Ldly;
+	METHOD k getPositionTowardsVillagerWhoWantsGolem ()Ldly;
+	METHOD l getPositionTowardsPoi ()Ldly;
+	METHOD m getRandomVillageSection ()Lgu;

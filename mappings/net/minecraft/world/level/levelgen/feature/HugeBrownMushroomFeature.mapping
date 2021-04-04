@@ -1,0 +1,4 @@
+CLASS crh net/minecraft/world/level/levelgen/feature/HugeBrownMushroomFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getTreeRadiusForHeight (IIII)I
+	METHOD a makeCap (Lbvs;Ljava/util/Random;Lgb;ILgb$a;Lcuf;)V

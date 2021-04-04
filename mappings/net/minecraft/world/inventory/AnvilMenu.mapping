@@ -1,0 +1,28 @@
+CLASS bln net/minecraft/world/inventory/AnvilMenu
+	FIELD A COST_REPAIR_MATERIAL I
+	FIELD B COST_REPAIR_SACRIFICE I
+	FIELD C COST_INCOMPATIBLE_PENALTY I
+	FIELD D COST_RENAME I
+	FIELD k MAX_NAME_LENGTH I
+	FIELD s LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD t DEBUG_COST Z
+	FIELD u repairItemCountCost I
+	FIELD v itemName Ljava/lang/String;
+	FIELD w cost Lbmb;
+	FIELD x COST_FAIL I
+	FIELD y COST_BASE I
+	FIELD z COST_ADDED_BASE I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILbje;)V
+	METHOD <init> <init> (ILbje;Lblw;)V
+	METHOD a onTake (Lbjf;Lbpr;)V
+	METHOD a lambda$onTake$0 (Lbjf;Lbvr;Lgb;)V
+	METHOD a mayPickup (Lbjf;Z)Z
+	METHOD a isValidBlock (Lcjr;)Z
+	METHOD a setItemName (Ljava/lang/String;)V
+	METHOD d calculateIncreasedRepairCost (I)I
+	METHOD i createResult ()V
+	METHOD j getCost ()I
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$item$enchantment$Enchantment$Rarity [I
+		METHOD <clinit> <clinit> ()V

@@ -1,0 +1,2 @@
+CLASS bmo net/minecraft/world/inventory/MenuConstructor
+	METHOD createMenu createMenu (ILbje;Lbjf;)Lbll;

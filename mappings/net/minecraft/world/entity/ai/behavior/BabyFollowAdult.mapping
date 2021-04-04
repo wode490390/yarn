@@ -1,0 +1,11 @@
+CLASS aug net/minecraft/world/entity/ai/behavior/BabyFollowAdult
+	FIELD a followRange Laqs;
+	FIELD c speedModifier Ljava/util/function/Function;
+	METHOD <init> <init> (Laqs;F)V
+	METHOD <init> <init> (Laqs;Ljava/util/function/Function;)V
+	METHOD a lambda$new$0 (FLasy;)Ljava/lang/Float;
+	METHOD a checkExtraStartConditions (Labj;Lasj;)Z
+	METHOD a start (Labj;Lasj;J)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a getNearestAdult (Lasj;)Lasj;

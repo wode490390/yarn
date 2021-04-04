@@ -1,0 +1,20 @@
+CLASS av net/minecraft/advancements/critereon/ChangeDimensionTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;Lwo;Lwo;)V
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lav$a;
+	METHOD a lambda$trigger$0 (Lwo;Lwo;Lav$a;)Z
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a from Lwo;
+		FIELD b to Lwo;
+		METHOD <init> <init> (Lbl$b;Lwo;Lwo;)V
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;
+		METHOD a changedDimensionTo (Lwo;)Lav$a;
+		METHOD a changedDimension (Lwo;Lwo;)Lav$a;
+		METHOD b changedDimensionFrom (Lwo;)Lav$a;
+		METHOD b matches (Lwo;Lwo;)Z
+		METHOD c changedDimension ()Lav$a;

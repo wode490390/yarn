@@ -1,0 +1,10 @@
+CLASS apf net/minecraft/util/profiling/ContinuousProfiler
+	FIELD a realTime Ljava/util/function/LongSupplier;
+	FIELD b tickCount Ljava/util/function/IntSupplier;
+	FIELD c profiler Lapj;
+	METHOD <init> <init> (Ljava/util/function/LongSupplier;Ljava/util/function/IntSupplier;)V
+	METHOD a isEnabled ()Z
+	METHOD b disable ()V
+	METHOD c enable ()V
+	METHOD d getFiller ()Lapl;
+	METHOD e getResults ()Lapk;

@@ -1,0 +1,5 @@
+CLASS avw net/minecraft/world/entity/ai/behavior/RandomSwim
+	METHOD <init> <init> (F)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a checkExtraStartConditions (Labj;Latg;)Z
+	METHOD a getTargetPos (Latg;)Ldly;

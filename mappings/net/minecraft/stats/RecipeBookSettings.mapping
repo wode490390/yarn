@@ -1,0 +1,33 @@
+CLASS afa net/minecraft/stats/RecipeBookSettings
+	FIELD a TAG_FIELDS Ljava/util/Map;
+	FIELD b states Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD a copy ()Lafa;
+	METHOD a replaceFrom (Lafa;)V
+	METHOD a isOpen (Lbmv;)Z
+	METHOD a setOpen (Lbmv;Z)V
+	METHOD a lambda$new$0 (Ljava/util/EnumMap;)V
+	METHOD a read (Lmv;)Lafa;
+	METHOD a lambda$write$2 (Lmv;Lbmv;Lcom/mojang/datafixers/util/Pair;)V
+	METHOD a lambda$read$1 (Lmv;Ljava/util/Map;Lbmv;Lcom/mojang/datafixers/util/Pair;)V
+	METHOD a read (Lob;)Lafa;
+	METHOD b isFiltering (Lbmv;)Z
+	METHOD b setFiltering (Lbmv;Z)V
+	METHOD b write (Lmv;)V
+	METHOD b write (Lob;)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	CLASS a TypeSettings
+		FIELD a open Z
+		FIELD b filtering Z
+		METHOD <init> <init> (ZZ)V
+		METHOD a copy ()Lafa$a;
+		METHOD a access$000 (Lafa$a;)Z
+		METHOD a access$002 (Lafa$a;Z)Z
+		METHOD b access$100 (Lafa$a;)Z
+		METHOD b access$102 (Lafa$a;Z)Z
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD hashCode hashCode ()I
+		METHOD toString toString ()Ljava/lang/String;

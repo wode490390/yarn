@@ -1,0 +1,17 @@
+CLASS cdk net/minecraft/world/level/block/ObserverBlock
+	FIELD b POWERED Lcki;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a updateNeighborsInFront (Lbvr;Lgb;Lcjr;)V
+	METHOD a startSignal (Lbvs;Lgb;)V
+	METHOD a getSignal (Lcjr;Lbuv;Lgb;Lgg;)I
+	METHOD a onRemove (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b getDirectSignal (Lcjr;Lbuv;Lgb;Lgg;)I
+	METHOD b onPlace (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD e_ isSignalSource (Lcjr;)Z

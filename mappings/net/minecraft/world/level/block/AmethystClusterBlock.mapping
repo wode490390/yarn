@@ -1,0 +1,24 @@
+CLASS bxq net/minecraft/world/level/block/AmethystClusterBlock
+	FIELD a LIT Lcki;
+	FIELD b WATERLOGGED Lcki;
+	FIELD c FACING Lckl;
+	FIELD d northAabb Ldmr;
+	FIELD e southAabb Ldmr;
+	FIELD f eastAabb Ldmr;
+	FIELD g westAabb Ldmr;
+	FIELD h upAabb Ldmr;
+	FIELD i downAabb Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (IILcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD d getPistonPushReaction (Lcjr;)Lddw;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

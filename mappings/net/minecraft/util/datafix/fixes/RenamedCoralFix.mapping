@@ -1,0 +1,4 @@
+CLASS ama net/minecraft/util/datafix/fixes/RenamedCoralFix
+	FIELD a RENAMED_IDS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V

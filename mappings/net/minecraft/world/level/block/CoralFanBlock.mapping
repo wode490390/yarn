@@ -1,0 +1,6 @@
+CLASS bzy net/minecraft/world/level/block/CoralFanBlock
+	FIELD a deadBlock Lbyq;
+	METHOD <init> <init> (Lbyq;Lcjq$c;)V
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b onPlace (Lcjr;Lbvr;Lgb;Lcjr;Z)V

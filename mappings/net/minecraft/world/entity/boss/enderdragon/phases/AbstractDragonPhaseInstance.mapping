@@ -1,0 +1,13 @@
+CLASS bfb net/minecraft/world/entity/boss/enderdragon/phases/AbstractDragonPhaseInstance
+	FIELD a dragon Lbez;
+	METHOD <init> <init> (Lbez;)V
+	METHOD a isSitting ()Z
+	METHOD a onHurt (Larv;F)F
+	METHOD a onCrystalDestroyed (Lbey;Lgb;Larv;Lbjf;)V
+	METHOD b doClientTick ()V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD e end ()V
+	METHOD f getFlySpeed ()F
+	METHOD g getFlyTargetLocation ()Ldly;
+	METHOD h getTurnSpeed ()F

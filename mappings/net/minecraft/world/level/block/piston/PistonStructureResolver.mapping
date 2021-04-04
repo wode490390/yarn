@@ -1,0 +1,20 @@
+CLASS cjo net/minecraft/world/level/block/piston/PistonStructureResolver
+	FIELD a MAX_PUSH_DEPTH I
+	FIELD b level Lbvr;
+	FIELD c pistonPos Lgb;
+	FIELD d extending Z
+	FIELD e startPos Lgb;
+	FIELD f pushDirection Lgg;
+	FIELD g toPush Ljava/util/List;
+	FIELD h toDestroy Ljava/util/List;
+	FIELD i pistonDirection Lgg;
+	METHOD <init> <init> (Lbvr;Lgb;Lgg;Z)V
+	METHOD a resolve ()Z
+	METHOD a reorderListAtCollision (II)V
+	METHOD a isSticky (Lcjr;)Z
+	METHOD a canStickToEachOther (Lcjr;Lcjr;)Z
+	METHOD a addBranchingBlocks (Lgb;)Z
+	METHOD a addBlockLine (Lgb;Lgg;)Z
+	METHOD b getPushDirection ()Lgg;
+	METHOD c getToPush ()Ljava/util/List;
+	METHOD d getToDestroy ()Ljava/util/List;

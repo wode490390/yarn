@@ -1,0 +1,5 @@
+CLASS cnx net/minecraft/world/level/gameevent/PositionSource
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD a getType ()Lcny;
+	METHOD a getPosition (Lbvr;)Ljava/util/Optional;

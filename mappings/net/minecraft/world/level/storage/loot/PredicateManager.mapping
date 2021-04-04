@@ -1,0 +1,24 @@
+CLASS dhs net/minecraft/world/level/storage/loot/PredicateManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c conditions Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getKeys ()Ljava/util/Set;
+	METHOD a lambda$apply$0 (Lcom/google/common/collect/ImmutableMap$Builder;Lwp;Lcom/google/gson/JsonElement;)V
+	METHOD a lambda$apply$2 (Ldhv;Lwp;Ldkf;)V
+	METHOD a apply (Ljava/lang/Object;Ladl;Lapl;)V
+	METHOD a lambda$apply$3 (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a apply (Ljava/util/Map;Ladl;Lapl;)V
+	METHOD a get (Lwp;)Ldkf;
+	METHOD b lambda$apply$1 (Lwp;)Ldhq;
+	CLASS 1 1
+	CLASS a CompositePredicate
+		FIELD a terms [Ldkf;
+		FIELD b composedPredicate Ljava/util/function/Predicate;
+		METHOD <init> <init> ([Ldkf;)V
+		METHOD <init> <init> ([Ldkf;Ldhs$1;)V
+		METHOD a getType ()Ldkg;
+		METHOD a test (Ldhn;)Z
+		METHOD a validate (Ldhv;)V
+		METHOD test test (Ljava/lang/Object;)Z

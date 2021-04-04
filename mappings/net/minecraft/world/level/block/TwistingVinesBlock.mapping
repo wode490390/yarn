@@ -1,0 +1,7 @@
+CLASS cgi net/minecraft/world/level/block/TwistingVinesBlock
+	FIELD f SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getBlocksToGrowWhenBonemealed (Ljava/util/Random;)I
+	METHOD c getBodyBlock ()Lbyq;
+	METHOD g canGrowInto (Lcjr;)Z

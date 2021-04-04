@@ -1,0 +1,12 @@
+CLASS ckb net/minecraft/world/level/block/state/predicate/BlockStatePredicate
+	FIELD a ANY Ljava/util/function/Predicate;
+	FIELD b definition Lcjs;
+	FIELD c properties Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjs;)V
+	METHOD a forBlock (Lbyq;)Lckb;
+	METHOD a test (Lcjr;)Z
+	METHOD a applies (Lcjr;Lcku;Ljava/util/function/Predicate;)Z
+	METHOD a where (Lcku;Ljava/util/function/Predicate;)Lckb;
+	METHOD b lambda$static$0 (Lcjr;)Z
+	METHOD test test (Ljava/lang/Object;)Z

@@ -1,0 +1,22 @@
+CLASS bhh net/minecraft/world/entity/monster/Skeleton
+	FIELD b CONVERSION_TAG Ljava/lang/String;
+	FIELD c DATA_STRAY_CONVERSION_ID Lvy;
+	FIELD d inPowderSnowTime I
+	FIELD e conversionTime I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a startFreezeConversion (I)V
+	METHOD a dropCustomDeathLoot (Larv;IZ)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD da canFreeze ()Z
+	METHOD e defineSynchedData ()V
+	METHOD fn isShaking ()Z
+	METHOD fo isFreezeConverting ()Z
+	METHOD fp doFreezeConversion ()V
+	METHOD j tick ()V
+	METHOD o getStepSound ()Laev;
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD v setFreezeConverting (Z)V

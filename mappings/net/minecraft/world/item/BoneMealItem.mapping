@@ -1,0 +1,9 @@
+CLASS bnx net/minecraft/world/item/BoneMealItem
+	FIELD a GRASS_SPREAD_WIDTH I
+	FIELD b GRASS_SPREAD_HEIGHT I
+	FIELD c GRASS_COUNT_MULTIPLIER I
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a growCrop (Lbpr;Lbvr;Lgb;)Z
+	METHOD a growWaterPlant (Lbpr;Lbvr;Lgb;Lgg;)Z
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a addGrowthParticles (Lbvs;Lgb;I)V

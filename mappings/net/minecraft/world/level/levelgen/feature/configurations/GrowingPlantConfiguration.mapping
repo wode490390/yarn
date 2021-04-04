@@ -1,0 +1,15 @@
+CLASS cud net/minecraft/world/level/levelgen/feature/configurations/GrowingPlantConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b heightDistribution Lapw;
+	FIELD c direction Lgg;
+	FIELD d bodyProvider Lcwd;
+	FIELD e headProvider Lcwd;
+	FIELD f allowWater Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lapw;Lgg;Lcwd;Lcwd;Z)V
+	METHOD a lambda$static$5 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$4 (Lcud;)Ljava/lang/Boolean;
+	METHOD b lambda$null$3 (Lcud;)Lcwd;
+	METHOD c lambda$null$2 (Lcud;)Lcwd;
+	METHOD d lambda$null$1 (Lcud;)Lgg;
+	METHOD e lambda$null$0 (Lcud;)Lapw;

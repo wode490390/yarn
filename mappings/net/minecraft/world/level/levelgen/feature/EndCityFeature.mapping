@@ -1,0 +1,13 @@
+CLASS cqu net/minecraft/world/level/levelgen/feature/EndCityFeature
+	FIELD v RANDOM_SALT I
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getStartFactory ()Lcsv$a;
+	METHOD a access$000 (Lbuw;Lclm;Lbvt;)I
+	METHOD a isFeatureChunk (Lclm;Lbwt;JLcph;Lbuw;Lbwq;Lbuw;Lcua;Lbvt;)Z
+	METHOD a isFeatureChunk (Lclm;Lbwt;JLcph;Lbuw;Lbwq;Lbuw;Lcum;Lbvt;)Z
+	METHOD b linearSeparation ()Z
+	METHOD b getYPositionForFeature (Lbuw;Lclm;Lbvt;)I
+	CLASS a EndCityStart
+		METHOD <init> <init> (Lcsv;Lbuw;IJ)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcua;Lbvt;)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcum;Lbvt;)V

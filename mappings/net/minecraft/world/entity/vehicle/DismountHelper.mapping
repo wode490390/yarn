@@ -1,0 +1,10 @@
+CLASS bkx net/minecraft/world/entity/vehicle/DismountHelper
+	METHOD <init> <init> ()V
+	METHOD a isBlockFloorValid (D)Z
+	METHOD a findSafeDismountLocation (Lasp;Lbva;Lgb;Z)Ldly;
+	METHOD a nonClimbableShape (Lbuv;Lgb;)Ldmr;
+	METHOD a canDismountTo (Lbva;Lasy;Ldlt;)Z
+	METHOD a canDismountTo (Lbva;Ldly;Lasy;Latj;)Z
+	METHOD a lambda$findSafeDismountLocation$0 (Lbva;Lgb;)Ldmr;
+	METHOD a findCeilingFrom (Lgb;ILjava/util/function/Function;)D
+	METHOD a offsetsForDirection (Lgg;)[[I

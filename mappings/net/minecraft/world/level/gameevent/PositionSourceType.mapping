@@ -1,0 +1,11 @@
+CLASS cny net/minecraft/world/level/gameevent/PositionSourceType
+	FIELD a BLOCK Lcny;
+	FIELD b ENTITY Lcny;
+	METHOD <clinit> <clinit> ()V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a toNetwork (Lcnx;Lob;)V
+	METHOD a register (Ljava/lang/String;Lcny;)Lcny;
+	METHOD a write (Lob;Lcnx;)V
+	METHOD a lambda$fromNetwork$0 (Lwp;)Ljava/lang/IllegalArgumentException;
+	METHOD b read (Lob;)Lcnx;
+	METHOD c fromNetwork (Lob;)Lcnx;

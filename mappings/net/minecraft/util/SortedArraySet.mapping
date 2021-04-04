@@ -1,0 +1,43 @@
+CLASS agx net/minecraft/util/SortedArraySet
+	FIELD a DEFAULT_INITIAL_CAPACITY I
+	FIELD b comparator Ljava/util/Comparator;
+	FIELD c contents [Ljava/lang/Object;
+	FIELD d size I
+	METHOD <init> <init> (ILjava/util/Comparator;)V
+	METHOD a create ()Lagx;
+	METHOD a create (I)Lagx;
+	METHOD a access$000 (Lagx;)I
+	METHOD a access$200 (Lagx;I)V
+	METHOD a addOrGet (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a addInternal (Ljava/lang/Object;I)V
+	METHOD a create (Ljava/util/Comparator;)Lagx;
+	METHOD a create (Ljava/util/Comparator;I)Lagx;
+	METHOD a castRawArray ([Ljava/lang/Object;)[Ljava/lang/Object;
+	METHOD add add (Ljava/lang/Object;)Z
+	METHOD b first ()Ljava/lang/Object;
+	METHOD b getInsertionPosition (I)I
+	METHOD b access$100 (Lagx;)[Ljava/lang/Object;
+	METHOD b get (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD c last ()Ljava/lang/Object;
+	METHOD c grow (I)V
+	METHOD c findIndex (Ljava/lang/Object;)I
+	METHOD clear clear ()V
+	METHOD contains contains (Ljava/lang/Object;)Z
+	METHOD d removeInternal (I)V
+	METHOD e getInternal (I)Ljava/lang/Object;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD iterator iterator ()Ljava/util/Iterator;
+	METHOD remove remove (Ljava/lang/Object;)Z
+	METHOD size size ()I
+	METHOD toArray toArray ()[Ljava/lang/Object;
+	METHOD toArray toArray ([Ljava/lang/Object;)[Ljava/lang/Object;
+	CLASS 1 1
+	CLASS a ArrayIterator
+		FIELD a this$0 Lagx;
+		FIELD b index I
+		FIELD c last I
+		METHOD <init> <init> (Lagx;)V
+		METHOD <init> <init> (Lagx;Lagx$1;)V
+		METHOD hasNext hasNext ()Z
+		METHOD next next ()Ljava/lang/Object;
+		METHOD remove remove ()V

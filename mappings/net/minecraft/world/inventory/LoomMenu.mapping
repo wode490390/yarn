@@ -1,0 +1,64 @@
+CLASS bmn net/minecraft/world/inventory/LoomMenu
+	FIELD k INV_SLOT_START I
+	FIELD l INV_SLOT_END I
+	FIELD m USE_ROW_SLOT_START I
+	FIELD n USE_ROW_SLOT_END I
+	FIELD o access Lblw;
+	FIELD p selectedBannerPatternIndex Lbmb;
+	FIELD q slotUpdateListener Ljava/lang/Runnable;
+	FIELD r bannerSlot Lbnc;
+	FIELD s dyeSlot Lbnc;
+	FIELD t patternSlot Lbnc;
+	FIELD u resultSlot Lbnc;
+	FIELD v lastSoundTime J
+	FIELD w inputContainer Laqz;
+	FIELD x outputContainer Laqz;
+	METHOD <init> <init> (ILbje;)V
+	METHOD <init> <init> (ILbje;Lblw;)V
+	METHOD a slotsChanged (Laqz;)V
+	METHOD a stillValid (Lbjf;)Z
+	METHOD a clickMenuButton (Lbjf;I)Z
+	METHOD a lambda$removed$1 (Lbjf;Lbvr;Lgb;)V
+	METHOD a access$000 (Lbmn;)Ljava/lang/Runnable;
+	METHOD a access$402 (Lbmn;J)J
+	METHOD a registerUpdateListener (Ljava/lang/Runnable;)V
+	METHOD b removed (Lbjf;)V
+	METHOD b quickMoveStack (Lbjf;I)Lbpr;
+	METHOD b access$100 (Lbmn;)Lbnc;
+	METHOD c access$200 (Lbmn;)Lbnc;
+	METHOD d access$300 (Lbmn;)Lbmb;
+	METHOD e access$400 (Lbmn;)J
+	METHOD i getSelectedBannerPatternIndex ()I
+	METHOD j getBannerSlot ()Lbnc;
+	METHOD k getDyeSlot ()Lbnc;
+	METHOD l getPatternSlot ()Lbnc;
+	METHOD m getResultSlot ()Lbnc;
+	METHOD n setupResultSlot ()V
+	METHOD o lambda$new$0 ()V
+	CLASS 1 1
+		FIELD b this$0 Lbmn;
+		METHOD <init> <init> (Lbmn;I)V
+		METHOD Z_ setChanged ()V
+	CLASS 2 2
+		FIELD b this$0 Lbmn;
+		METHOD <init> <init> (Lbmn;I)V
+		METHOD Z_ setChanged ()V
+	CLASS 3 3
+		FIELD a this$0 Lbmn;
+		METHOD <init> <init> (Lbmn;Laqz;III)V
+		METHOD a mayPlace (Lbpr;)Z
+	CLASS 4 4
+		FIELD a this$0 Lbmn;
+		METHOD <init> <init> (Lbmn;Laqz;III)V
+		METHOD a mayPlace (Lbpr;)Z
+	CLASS 5 5
+		FIELD a this$0 Lbmn;
+		METHOD <init> <init> (Lbmn;Laqz;III)V
+		METHOD a mayPlace (Lbpr;)Z
+	CLASS 6 6
+		FIELD a val$access Lblw;
+		FIELD b this$0 Lbmn;
+		METHOD <init> <init> (Lbmn;Laqz;IIILblw;)V
+		METHOD a onTake (Lbjf;Lbpr;)V
+		METHOD a mayPlace (Lbpr;)Z
+		METHOD a lambda$onTake$0 (Lbvr;Lgb;)V

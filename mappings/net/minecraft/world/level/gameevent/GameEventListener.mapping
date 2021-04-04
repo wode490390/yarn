@@ -1,0 +1,4 @@
+CLASS cnv net/minecraft/world/level/gameevent/GameEventListener
+	METHOD a getListenerSource ()Lcnx;
+	METHOD a handleGameEvent (Lbvr;Lcnt;Lasl;Lgb;)Z
+	METHOD b getListenerRadius ()I

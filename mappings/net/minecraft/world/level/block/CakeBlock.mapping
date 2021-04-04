@@ -1,0 +1,19 @@
+CLASS bza net/minecraft/world/level/block/CakeBlock
+	FIELD a MAX_BITES I
+	FIELD b BITES Lckr;
+	FIELD c FULL_CAKE_SIGNAL I
+	FIELD d AABB_OFFSET F
+	FIELD e AABB_SIZE_PER_BITE F
+	FIELD f SHAPE_BY_BITE [Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a eat (Lbvs;Lgb;Lcjr;Lbjf;)Larg;
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a getAnalogOutputSignal (Lcjr;Lbvr;Lgb;)I
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b getOutputSignal (I)I
+	METHOD g_ hasAnalogOutputSignal (Lcjr;)Z

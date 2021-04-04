@@ -1,0 +1,36 @@
+CLASS cog net/minecraft/world/level/levelgen/Cavifier
+	FIELD a minCellY I
+	FIELD b layerNoiseSource Ldct;
+	FIELD c pillarNoiseSource Ldct;
+	FIELD d pillarRarenessModulator Ldct;
+	FIELD e pillarThicknessModulator Ldct;
+	FIELD f spaghetti2dNoiseSource Ldct;
+	FIELD g spaghetti2dElevationModulator Ldct;
+	FIELD h spaghetti2dRarityModulator Ldct;
+	FIELD i spaghetti2dThicknessModulator Ldct;
+	FIELD j spaghetti3dNoiseSource1 Ldct;
+	FIELD k spaghetti3dNoiseSource2 Ldct;
+	FIELD l spaghetti3dRarityModulator Ldct;
+	FIELD m spaghetti3dThicknessModulator Ldct;
+	FIELD n spaghettiRoughnessNoise Ldct;
+	FIELD o spaghettiRoughnessModulator Ldct;
+	FIELD p caveEntranceNoiseSource Ldct;
+	FIELD q cheeseNoiseSource Ldct;
+	FIELD r CHEESE_NOISE_RANGE I
+	FIELD s SURFACE_DENSITY_THRESHOLD I
+	METHOD <init> <init> (Lcpb;I)V
+	METHOD a clampToUnit (D)D
+	METHOD a addEntrances (DIII)D
+	METHOD a getPillars (III)D
+	METHOD a cavify (IIID)D
+	METHOD a sampleWithRarity (Ldct;DDDD)D
+	METHOD b getLayerizedCaverns (III)D
+	METHOD c getSpaghetti3d (III)D
+	METHOD d getSpaghetti2d (III)D
+	METHOD e spaghettiRoughness (III)D
+	CLASS a QuantizedSpaghettiRarity
+		METHOD <init> <init> ()V
+		METHOD a access$000 (D)D
+		METHOD b access$100 (D)D
+		METHOD c getSphaghettiRarity2D (D)D
+		METHOD d getSpaghettiRarity3D (D)D

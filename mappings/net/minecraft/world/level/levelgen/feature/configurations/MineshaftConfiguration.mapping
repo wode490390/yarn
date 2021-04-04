@@ -1,0 +1,9 @@
+CLASS cuj net/minecraft/world/level/levelgen/feature/configurations/MineshaftConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b probability F
+	FIELD c type Lcru$b;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FLcru$b;)V
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$1 (Lcuj;)Lcru$b;
+	METHOD b lambda$null$0 (Lcuj;)Ljava/lang/Float;

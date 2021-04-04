@@ -1,0 +1,8 @@
+CLASS of net/minecraft/network/RateKickingConnection
+	FIELD g LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD h EXCEED_REASON Lon;
+	FIELD i rateLimitPacketsPerSecond I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD a lambda$tickSecond$0 (Lio/netty/util/concurrent/Future;)V
+	METHOD b tickSecond ()V

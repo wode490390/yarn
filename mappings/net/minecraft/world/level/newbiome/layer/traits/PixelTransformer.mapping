@@ -1,0 +1,2 @@
+CLASS dfp net/minecraft/world/level/newbiome/layer/traits/PixelTransformer
+	METHOD apply apply (II)I

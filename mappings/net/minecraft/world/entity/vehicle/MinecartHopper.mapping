@@ -1,0 +1,25 @@
+CLASS blc net/minecraft/world/entity/vehicle/MinecartHopper
+	FIELD ar cooldownTime I
+	FIELD as lastPosition Lgb;
+	FIELD c MOVE_ITEM_SPEED I
+	FIELD f enabled Z
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDD)V
+	METHOD A suckInItems ()Z
+	METHOD B isOnCooldown ()Z
+	METHOD a activateMinecart (IIIZ)V
+	METHOD a createMenu (ILbje;)Lbll;
+	METHOD a destroy (Larv;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD ab_ getContainerSize ()I
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD j tick ()V
+	METHOD n setCooldown (I)V
+	METHOD o getMinecartType ()Lbku$a;
+	METHOD p setEnabled (Z)V
+	METHOD q getDefaultDisplayBlockState ()Lcjr;
+	METHOD s getDefaultDisplayOffset ()I
+	METHOD v isEnabled ()Z
+	METHOD w getLevelX ()D
+	METHOD y getLevelY ()D
+	METHOD z getLevelZ ()D

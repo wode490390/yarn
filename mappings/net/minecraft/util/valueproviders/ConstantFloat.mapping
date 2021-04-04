@@ -1,0 +1,20 @@
+CLASS aqk net/minecraft/util/valueproviders/ConstantFloat
+	FIELD a ZERO Laqk;
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD d value F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (F)V
+	METHOD a getMinValue ()F
+	METHOD a of (F)Laqk;
+	METHOD a lambda$static$4 (Laqk;)Lcom/mojang/datafixers/util/Either;
+	METHOD a lambda$static$3 (Lcom/mojang/datafixers/util/Either;)Laqk;
+	METHOD a lambda$static$1 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a sample (Ljava/util/Random;)F
+	METHOD b getMaxValue ()F
+	METHOD b lambda$null$2 (Laqk;)Laqk;
+	METHOD c getType ()Laqn;
+	METHOD c lambda$null$0 (Laqk;)Ljava/lang/Float;
+	METHOD d getValue ()F
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

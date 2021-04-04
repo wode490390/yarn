@@ -1,0 +1,11 @@
+CLASS amd net/minecraft/util/datafix/fixes/SavedDataUUIDFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a lambda$makeRule$7 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD b lambda$null$6 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD b lambda$null$5 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD c lambda$null$4 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD d lambda$null$3 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD e lambda$null$2 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD f lambda$null$1 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD g lambda$null$0 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

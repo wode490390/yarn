@@ -1,0 +1,6 @@
+CLASS hd net/minecraft/core/dispenser/OptionalDispenseItemBehavior
+	FIELD b success Z
+	METHOD <init> <init> ()V
+	METHOD a isSuccess ()Z
+	METHOD a playSound (Lgc;)V
+	METHOD a setSuccess (Z)V

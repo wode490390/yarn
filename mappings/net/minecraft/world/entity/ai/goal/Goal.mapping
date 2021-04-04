@@ -1,0 +1,22 @@
+CLASS ayq net/minecraft/world/entity/ai/goal/Goal
+	FIELD a flags Ljava/util/EnumSet;
+	METHOD <init> <init> ()V
+	METHOD E_ isInterruptable ()Z
+	METHOD a canUse ()Z
+	METHOD a setFlags (Ljava/util/EnumSet;)V
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD i getFlags ()Ljava/util/EnumSet;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Flag
+		FIELD a MOVE Layq$a;
+		FIELD b LOOK Layq$a;
+		FIELD c JUMP Layq$a;
+		FIELD d TARGET Layq$a;
+		FIELD e $VALUES [Layq$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Layq$a;
+		METHOD values values ()[Layq$a;

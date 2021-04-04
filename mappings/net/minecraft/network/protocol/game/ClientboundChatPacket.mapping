@@ -1,0 +1,13 @@
+CLASS py net/minecraft/network/protocol/game/ClientboundChatPacket
+	FIELD a message Lon;
+	FIELD b type Lok;
+	FIELD c sender Ljava/util/UUID;
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lon;Lok;Ljava/util/UUID;)V
+	METHOD a isSkippable ()Z
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getMessage ()Lon;
+	METHOD c getType ()Lok;
+	METHOD d getSender ()Ljava/util/UUID;

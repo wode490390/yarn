@@ -1,0 +1,6 @@
+CLASS avy net/minecraft/world/entity/ai/behavior/ResetProfession
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lbis;)Z
+	METHOD a start (Labj;Lbis;J)V

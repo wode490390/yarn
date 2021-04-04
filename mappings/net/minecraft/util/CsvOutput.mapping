@@ -1,0 +1,17 @@
+CLASS agd net/minecraft/util/CsvOutput
+	FIELD a LINE_SEPARATOR Ljava/lang/String;
+	FIELD b FIELD_SEPARATOR Ljava/lang/String;
+	FIELD c output Ljava/io/Writer;
+	FIELD d columnCount I
+	METHOD <init> <init> (Ljava/io/Writer;Ljava/util/List;)V
+	METHOD <init> <init> (Ljava/io/Writer;Ljava/util/List;Lagd$1;)V
+	METHOD a builder ()Lagd$a;
+	METHOD a getStringValue (Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a writeLine (Ljava/util/stream/Stream;)V
+	METHOD a writeRow ([Ljava/lang/Object;)V
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a headers Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a build (Ljava/io/Writer;)Lagd;
+		METHOD a addColumn (Ljava/lang/String;)Lagd$a;

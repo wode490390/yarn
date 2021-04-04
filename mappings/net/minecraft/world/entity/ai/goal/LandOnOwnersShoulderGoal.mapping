@@ -1,0 +1,9 @@
+CLASS ayv net/minecraft/world/entity/ai/goal/LandOnOwnersShoulderGoal
+	FIELD a entity Lbdu;
+	FIELD b owner Labk;
+	FIELD c isSittingOnShoulder Z
+	METHOD <init> <init> (Lbdu;)V
+	METHOD E_ isInterruptable ()Z
+	METHOD a canUse ()Z
+	METHOD c start ()V
+	METHOD e tick ()V

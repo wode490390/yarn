@@ -1,0 +1,15 @@
+CLASS dbc net/minecraft/world/level/levelgen/structure/templatesystem/LinearPosTest
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b minChance F
+	FIELD d maxChance F
+	FIELD e minDist I
+	FIELD f maxDist I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FFII)V
+	METHOD a getType ()Ldbg;
+	METHOD a lambda$static$4 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$3 (Ldbc;)Ljava/lang/Integer;
+	METHOD a test (Lgb;Lgb;Lgb;Ljava/util/Random;)Z
+	METHOD b lambda$null$2 (Ldbc;)Ljava/lang/Integer;
+	METHOD c lambda$null$1 (Ldbc;)Ljava/lang/Float;
+	METHOD d lambda$null$0 (Ldbc;)Ljava/lang/Float;

@@ -1,0 +1,4 @@
+CLASS bpa net/minecraft/world/item/ExperienceBottleItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD i isFoil (Lbpr;)Z

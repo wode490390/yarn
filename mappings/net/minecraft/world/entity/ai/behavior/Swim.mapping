@@ -1,0 +1,9 @@
+CLASS awy net/minecraft/world/entity/ai/behavior/Swim
+	FIELD a chance F
+	METHOD <init> <init> (F)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a checkExtraStartConditions (Labj;Lasz;)Z
+	METHOD a canStillUse (Labj;Lasz;J)Z
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b tick (Labj;Lasz;J)V
+	METHOD d tick (Labj;Lasy;J)V

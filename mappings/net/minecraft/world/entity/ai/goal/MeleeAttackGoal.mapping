@@ -1,0 +1,25 @@
+CLASS aza net/minecraft/world/entity/ai/goal/MeleeAttackGoal
+	FIELD a mob Latg;
+	FIELD b speedModifier D
+	FIELD c followingTargetEvenIfNotSeen Z
+	FIELD d path Ldfy;
+	FIELD e pathedTargetX D
+	FIELD f pathedTargetY D
+	FIELD g pathedTargetZ D
+	FIELD h ticksUntilNextPathRecalculation I
+	FIELD i ticksUntilNextAttack I
+	FIELD j attackInterval I
+	FIELD k lastCanUseCheck J
+	FIELD l COOLDOWN_BETWEEN_CAN_USE_CHECKS J
+	METHOD <init> <init> (Latg;DZ)V
+	METHOD a canUse ()Z
+	METHOD a getAttackReachSqr (Lasy;)D
+	METHOD a checkAndPerformAttack (Lasy;D)V
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g resetAttackCooldown ()V
+	METHOD h isTimeToAttack ()Z
+	METHOD j getTicksUntilNextAttack ()I
+	METHOD k getAttackInterval ()I

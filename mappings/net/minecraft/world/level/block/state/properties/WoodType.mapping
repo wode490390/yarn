@@ -1,0 +1,16 @@
+CLASS cld net/minecraft/world/level/block/state/properties/WoodType
+	FIELD a OAK Lcld;
+	FIELD b SPRUCE Lcld;
+	FIELD c BIRCH Lcld;
+	FIELD d ACACIA Lcld;
+	FIELD e JUNGLE Lcld;
+	FIELD f DARK_OAK Lcld;
+	FIELD g CRIMSON Lcld;
+	FIELD h WARPED Lcld;
+	FIELD i VALUES Ljava/util/Set;
+	FIELD j name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a values ()Ljava/util/stream/Stream;
+	METHOD a register (Lcld;)Lcld;
+	METHOD b name ()Ljava/lang/String;

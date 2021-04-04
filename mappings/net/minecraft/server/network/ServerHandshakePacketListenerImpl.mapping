@@ -1,0 +1,12 @@
+CLASS acc net/minecraft/server/network/ServerHandshakePacketListenerImpl
+	FIELD a IGNORE_STATUS_REASON Lon;
+	FIELD b server Lnet/minecraft/server/MinecraftServer;
+	FIELD c connection Lnz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lnz;)V
+	METHOD a getConnection ()Lnz;
+	METHOD a onDisconnect (Lon;)V
+	METHOD a handleIntention (Lvb;)V
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$network$ConnectionProtocol [I
+		METHOD <clinit> <clinit> ()V

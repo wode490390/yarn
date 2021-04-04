@@ -1,0 +1,37 @@
+CLASS buz net/minecraft/world/level/ClipContext
+	FIELD a from Ldly;
+	FIELD b to Ldly;
+	FIELD c block Lbuz$a;
+	FIELD d fluid Lbuz$b;
+	FIELD e collisionContext Ldmd;
+	METHOD <init> <init> (Ldly;Ldly;Lbuz$a;Lbuz$b;Lasl;)V
+	METHOD a getTo ()Ldly;
+	METHOD a getBlockShape (Lcjr;Lbuv;Lgb;)Ldmr;
+	METHOD a getFluidShape (Lddq;Lbuv;Lgb;)Ldmr;
+	METHOD b getFrom ()Ldly;
+	CLASS a Block
+		FIELD a COLLIDER Lbuz$a;
+		FIELD b OUTLINE Lbuz$a;
+		FIELD c VISUAL Lbuz$a;
+		FIELD d shapeGetter Lbuz$c;
+		FIELD e $VALUES [Lbuz$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILbuz$c;)V
+		METHOD get get (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbuz$a;
+		METHOD values values ()[Lbuz$a;
+	CLASS b Fluid
+		FIELD a NONE Lbuz$b;
+		FIELD b SOURCE_ONLY Lbuz$b;
+		FIELD c ANY Lbuz$b;
+		FIELD d canPick Ljava/util/function/Predicate;
+		FIELD e $VALUES [Lbuz$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/util/function/Predicate;)V
+		METHOD a canPick (Lddq;)Z
+		METHOD b lambda$static$1 (Lddq;)Z
+		METHOD c lambda$static$0 (Lddq;)Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbuz$b;
+		METHOD values values ()[Lbuz$b;
+	CLASS c ShapeGetter
+		METHOD get get (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;

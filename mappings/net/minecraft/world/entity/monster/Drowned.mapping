@@ -1,0 +1,79 @@
+CLASS bgn net/minecraft/world/entity/monster/Drowned
+	FIELD b NAUTILUS_SHELL_CHANCE F
+	FIELD bY searchingForLand Z
+	FIELD c waterNavigation Lbbd;
+	FIELD d groundNavigation Lbba;
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a populateDefaultEquipmentSlots (Lare;)V
+	METHOD a checkDrownedSpawnRules (Lasp;Lbwf;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD a performRangedAttack (Lasy;F)V
+	METHOD a access$100 (Lbgn;)Z
+	METHOD a access$002 (Lbgn;Lbbb;)Lbbb;
+	METHOD a canReplaceCurrentItem (Lbpr;Lbpr;)Z
+	METHOD a isDeepEnoughToSpawn (Lbvs;Lgb;)Z
+	METHOD a checkSpawnObstruction (Lbvu;)Z
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD aM updateSwimming ()V
+	METHOD aw getSwimSound ()Laev;
+	METHOD b access$200 (Lbgn;)Z
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD c access$300 (Lbgn;)Z
+	METHOD cf isPushedByFluid ()Z
+	METHOD fn getSkull ()Lbpr;
+	METHOD fo convertsInWater ()Z
+	METHOD fp closeToNextPos ()Z
+	METHOD fx wantsToSwim ()Z
+	METHOD h travel (Ldly;)V
+	METHOD j okTarget (Lasy;)Z
+	METHOD m addBehaviourGoals ()V
+	METHOD o supportsBreakDoorGoal ()Z
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD s getStepSound ()Laev;
+	METHOD v setSearchingForLand (Z)V
+	CLASS a DrownedAttackGoal
+		FIELD b drowned Lbgn;
+		METHOD <init> <init> (Lbgn;DZ)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+	CLASS b DrownedGoToBeachGoal
+		FIELD g drowned Lbgn;
+		METHOD <init> <init> (Lbgn;D)V
+		METHOD a canUse ()Z
+		METHOD a isValidTarget (Lbvu;Lgb;)Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+	CLASS c DrownedGoToWaterGoal
+		FIELD a mob Latg;
+		FIELD b wantedX D
+		FIELD c wantedY D
+		FIELD d wantedZ D
+		FIELD e speedModifier D
+		FIELD f level Lbvr;
+		METHOD <init> <init> (Latg;D)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD g getWaterPos ()Ldly;
+	CLASS d DrownedMoveControl
+		FIELD l drowned Lbgn;
+		METHOD <init> <init> (Lbgn;)V
+		METHOD a tick ()V
+	CLASS e DrownedSwimUpGoal
+		FIELD a drowned Lbgn;
+		FIELD b speedModifier D
+		FIELD c seaLevel I
+		FIELD d stuck Z
+		METHOD <init> <init> (Lbgn;DI)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS f DrownedTridentAttackGoal
+		FIELD a drowned Lbgn;
+		METHOD <init> <init> (Lbhd;DIF)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V

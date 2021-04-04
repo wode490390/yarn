@@ -1,0 +1,11 @@
+CLASS cvh net/minecraft/world/level/levelgen/feature/configurations/UnderwaterMagmaConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b floorSearchRange I
+	FIELD c placementRadiusAroundFloor I
+	FIELD d placementProbabilityPerValidPosition F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (IIF)V
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcvh;)Ljava/lang/Float;
+	METHOD b lambda$null$1 (Lcvh;)Ljava/lang/Integer;
+	METHOD c lambda$null$0 (Lcvh;)Ljava/lang/Integer;

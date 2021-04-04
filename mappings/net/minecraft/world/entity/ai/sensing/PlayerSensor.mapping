@@ -1,0 +1,6 @@
+CLASS bbs net/minecraft/world/entity/ai/sensing/PlayerSensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Labj;Lasy;)V
+	METHOD a lambda$doTick$0 (Lasy;Labk;)Z
+	METHOD a lambda$doTick$1 (Lasy;Lbjf;)Z

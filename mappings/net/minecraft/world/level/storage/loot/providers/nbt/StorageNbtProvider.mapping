@@ -1,0 +1,15 @@
+CLASS dkv net/minecraft/world/level/storage/loot/providers/nbt/StorageNbtProvider
+	FIELD a id Lwp;
+	METHOD <init> <init> (Lwp;)V
+	METHOD <init> <init> (Lwp;Ldkv$1;)V
+	METHOD a getType ()Ldks;
+	METHOD a get (Ldhn;)Lnn;
+	METHOD a access$000 (Ldkv;)Lwp;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldkv;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldkv;

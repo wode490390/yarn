@@ -1,0 +1,22 @@
+CLASS atb net/minecraft/world/entity/MobSpawnType
+	FIELD a NATURAL Latb;
+	FIELD b CHUNK_GENERATION Latb;
+	FIELD c SPAWNER Latb;
+	FIELD d STRUCTURE Latb;
+	FIELD e BREEDING Latb;
+	FIELD f MOB_SUMMONED Latb;
+	FIELD g JOCKEY Latb;
+	FIELD h EVENT Latb;
+	FIELD i CONVERSION Latb;
+	FIELD j REINFORCEMENT Latb;
+	FIELD k TRIGGERED Latb;
+	FIELD l BUCKET Latb;
+	FIELD m SPAWN_EGG Latb;
+	FIELD n COMMAND Latb;
+	FIELD o DISPENSER Latb;
+	FIELD p PATROL Latb;
+	FIELD q $VALUES [Latb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Latb;
+	METHOD values values ()[Latb;

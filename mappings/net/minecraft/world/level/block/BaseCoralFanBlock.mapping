@@ -1,0 +1,5 @@
+CLASS bxz net/minecraft/world/level/block/BaseCoralFanBlock
+	FIELD a AABB Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;

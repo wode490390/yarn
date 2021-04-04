@@ -1,0 +1,14 @@
+CLASS aym net/minecraft/world/entity/ai/goal/FollowFlockLeaderGoal
+	FIELD a INTERVAL_TICKS I
+	FIELD b mob Lbcy;
+	FIELD c timeToRecalcPath I
+	FIELD d nextStartTick I
+	METHOD <init> <init> (Lbcy;)V
+	METHOD a canUse ()Z
+	METHOD a nextStartTick (Lbcy;)I
+	METHOD b canContinueToUse ()Z
+	METHOD b lambda$canUse$1 (Lbcy;)Z
+	METHOD c start ()V
+	METHOD c lambda$canUse$0 (Lbcy;)Z
+	METHOD d stop ()V
+	METHOD e tick ()V

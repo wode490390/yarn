@@ -1,0 +1,22 @@
+CLASS ada net/minecraft/server/packs/repository/PackRepository
+	FIELD a sources Ljava/util/Set;
+	FIELD b available Ljava/util/Map;
+	FIELD c selected Ljava/util/List;
+	FIELD d constructor Lacy$a;
+	METHOD <init> <init> (Laco;[Ladc;)V
+	METHOD <init> <init> (Lacy$a;[Ladc;)V
+	METHOD a reload ()V
+	METHOD a lambda$new$0 (Laco;Ljava/lang/String;Lon;ZLjava/util/function/Supplier;Lacs;Lacy$b;Ladb;)Lacy;
+	METHOD a getPack (Ljava/lang/String;)Lacy;
+	METHOD a setSelected (Ljava/util/Collection;)V
+	METHOD a lambda$discoverAvailable$1 (Ljava/util/Map;Lacy;)V
+	METHOD b getAvailableIds ()Ljava/util/Collection;
+	METHOD b isAvailable (Ljava/lang/String;)Z
+	METHOD b rebuildSelected (Ljava/util/Collection;)Ljava/util/List;
+	METHOD c getAvailablePacks ()Ljava/util/Collection;
+	METHOD c getAvailablePacks (Ljava/util/Collection;)Ljava/util/stream/Stream;
+	METHOD close close ()V
+	METHOD d getSelectedIds ()Ljava/util/Collection;
+	METHOD e getSelectedPacks ()Ljava/util/Collection;
+	METHOD f openAllSelected ()Ljava/util/List;
+	METHOD g discoverAvailable ()Ljava/util/Map;

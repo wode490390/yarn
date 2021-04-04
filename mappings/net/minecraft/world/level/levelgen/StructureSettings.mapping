@@ -1,0 +1,15 @@
+CLASS cpd net/minecraft/world/level/levelgen/StructureSettings
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b DEFAULTS Lcom/google/common/collect/ImmutableMap;
+	FIELD c DEFAULT_STRONGHOLD Lcve;
+	FIELD d structureConfig Ljava/util/Map;
+	FIELD e stronghold Lcve;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/Optional;Ljava/util/Map;)V
+	METHOD <init> <init> (Z)V
+	METHOD a structureConfig ()Ljava/util/Map;
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$1 (Lcpd;)Ljava/util/Map;
+	METHOD a getConfig (Lcsv;)Lcvf;
+	METHOD b stronghold ()Lcve;
+	METHOD b lambda$null$0 (Lcpd;)Ljava/util/Optional;

@@ -1,0 +1,2 @@
+CLASS bnf net/minecraft/world/inventory/StackedContentsCompatible
+	METHOD a fillStackedContents (Lbjh;)V

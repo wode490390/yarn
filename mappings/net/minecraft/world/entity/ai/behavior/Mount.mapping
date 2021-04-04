@@ -1,0 +1,8 @@
+CLASS avp net/minecraft/world/entity/ai/behavior/Mount
+	FIELD a CLOSE_ENOUGH_TO_START_RIDING_DIST I
+	FIELD c speedModifier F
+	METHOD <init> <init> (F)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a isCloseEnoughToStartRiding (Lasy;)Z
+	METHOD b getRidableEntity (Lasy;)Lasl;

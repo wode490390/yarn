@@ -1,0 +1,29 @@
+CLASS ato net/minecraft/world/entity/SlotAccess
+	FIELD a NULL Lato;
+	METHOD <clinit> <clinit> ()V
+	METHOD a get ()Lbpr;
+	METHOD a forContainer (Laqz;I)Lato;
+	METHOD a forContainer (Laqz;ILjava/util/function/Predicate;)Lato;
+	METHOD a forEquipmentSlot (Lasy;Lasq;)Lato;
+	METHOD a forEquipmentSlot (Lasy;Lasq;Ljava/util/function/Predicate;)Lato;
+	METHOD a set (Lbpr;)Z
+	METHOD b lambda$forEquipmentSlot$1 (Lbpr;)Z
+	METHOD c lambda$forContainer$0 (Lbpr;)Z
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a get ()Lbpr;
+		METHOD a set (Lbpr;)Z
+	CLASS 2 2
+		FIELD b val$inventory Laqz;
+		FIELD c val$id I
+		FIELD d val$validator Ljava/util/function/Predicate;
+		METHOD <init> <init> (Laqz;ILjava/util/function/Predicate;)V
+		METHOD a get ()Lbpr;
+		METHOD a set (Lbpr;)Z
+	CLASS 3 3
+		FIELD b val$entity Lasy;
+		FIELD c val$slot Lasq;
+		FIELD d val$validator Ljava/util/function/Predicate;
+		METHOD <init> <init> (Lasy;Lasq;Ljava/util/function/Predicate;)V
+		METHOD a get ()Lbpr;
+		METHOD a set (Lbpr;)Z

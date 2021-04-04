@@ -1,0 +1,8 @@
+CLASS bfk net/minecraft/world/entity/boss/enderdragon/phases/DragonSittingAttackingPhase
+	FIELD b ROAR_DURATION I
+	FIELD c attackingTicks I
+	METHOD <init> <init> (Lbez;)V
+	METHOD b doClientTick ()V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD i getPhase ()Lbfp;

@@ -1,0 +1,10 @@
+CLASS dma net/minecraft/world/phys/shapes/ArrayVoxelShape
+	FIELD b xs Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	FIELD c ys Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	FIELD d zs Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	METHOD <init> <init> (Ldmh;Lit/unimi/dsi/fastutil/doubles/DoubleList;Lit/unimi/dsi/fastutil/doubles/DoubleList;Lit/unimi/dsi/fastutil/doubles/DoubleList;)V
+	METHOD <init> <init> (Ldmh;[D[D[D)V
+	METHOD a getCoords (Lgg$a;)Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction$Axis [I
+		METHOD <clinit> <clinit> ()V

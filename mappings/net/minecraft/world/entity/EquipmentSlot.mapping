@@ -1,0 +1,31 @@
+CLASS asq net/minecraft/world/entity/EquipmentSlot
+	FIELD a MAINHAND Lasq;
+	FIELD b OFFHAND Lasq;
+	FIELD c FEET Lasq;
+	FIELD d LEGS Lasq;
+	FIELD e CHEST Lasq;
+	FIELD f HEAD Lasq;
+	FIELD g type Lasq$a;
+	FIELD h index I
+	FIELD i filterFlag I
+	FIELD j name Ljava/lang/String;
+	FIELD k $VALUES [Lasq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILasq$a;IILjava/lang/String;)V
+	METHOD a getType ()Lasq$a;
+	METHOD a getIndex (I)I
+	METHOD a byTypeAndIndex (Lasq$a;I)Lasq;
+	METHOD a byName (Ljava/lang/String;)Lasq;
+	METHOD b getIndex ()I
+	METHOD c getFilterFlag ()I
+	METHOD d getName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lasq;
+	METHOD values values ()[Lasq;
+	CLASS a Type
+		FIELD a HAND Lasq$a;
+		FIELD b ARMOR Lasq$a;
+		FIELD c $VALUES [Lasq$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lasq$a;
+		METHOD values values ()[Lasq$a;

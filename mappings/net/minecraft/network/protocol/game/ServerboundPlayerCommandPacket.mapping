@@ -1,0 +1,28 @@
+CLASS ug net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket
+	FIELD a id I
+	FIELD b action Lug$a;
+	FIELD c data I
+	METHOD <init> <init> (Lasl;Lug$a;)V
+	METHOD <init> <init> (Lasl;Lug$a;I)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getId ()I
+	METHOD c getAction ()Lug$a;
+	METHOD d getData ()I
+	CLASS a Action
+		FIELD a PRESS_SHIFT_KEY Lug$a;
+		FIELD b RELEASE_SHIFT_KEY Lug$a;
+		FIELD c STOP_SLEEPING Lug$a;
+		FIELD d START_SPRINTING Lug$a;
+		FIELD e STOP_SPRINTING Lug$a;
+		FIELD f START_RIDING_JUMP Lug$a;
+		FIELD g STOP_RIDING_JUMP Lug$a;
+		FIELD h OPEN_INVENTORY Lug$a;
+		FIELD i START_FALL_FLYING Lug$a;
+		FIELD j $VALUES [Lug$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lug$a;
+		METHOD values values ()[Lug$a;

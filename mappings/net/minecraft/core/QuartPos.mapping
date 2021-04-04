@@ -1,0 +1,9 @@
+CLASS gq net/minecraft/core/QuartPos
+	FIELD a BITS I
+	FIELD b SIZE I
+	FIELD c SECTION_TO_QUARTS_BITS I
+	METHOD <init> <init> ()V
+	METHOD a fromBlock (I)I
+	METHOD b toBlock (I)I
+	METHOD c fromSection (I)I
+	METHOD d toSection (I)I

@@ -1,0 +1,17 @@
+CLASS aty net/minecraft/world/entity/ai/attributes/Attributes
+	FIELD a MAX_HEALTH Latt;
+	FIELD b FOLLOW_RANGE Latt;
+	FIELD c KNOCKBACK_RESISTANCE Latt;
+	FIELD d MOVEMENT_SPEED Latt;
+	FIELD e FLYING_SPEED Latt;
+	FIELD f ATTACK_DAMAGE Latt;
+	FIELD g ATTACK_KNOCKBACK Latt;
+	FIELD h ATTACK_SPEED Latt;
+	FIELD i ARMOR Latt;
+	FIELD j ARMOR_TOUGHNESS Latt;
+	FIELD k LUCK Latt;
+	FIELD l SPAWN_REINFORCEMENTS_CHANCE Latt;
+	FIELD m JUMP_STRENGTH Latt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Ljava/lang/String;Latt;)Latt;

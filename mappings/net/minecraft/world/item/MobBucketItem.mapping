@@ -1,0 +1,8 @@
+CLASS bqa net/minecraft/world/item/MobBucketItem
+	FIELD a type Lasp;
+	FIELD b emptySound Laev;
+	METHOD <init> <init> (Lasp;Lddp;Laev;Lbpn$a;)V
+	METHOD a spawn (Labj;Lbpr;Lgb;)V
+	METHOD a checkExtraContent (Lbjf;Lbvr;Lbpr;Lgb;)V
+	METHOD a playEmptySound (Lbjf;Lbvs;Lgb;)V
+	METHOD a appendHoverText (Lbpr;Lbvr;Ljava/util/List;Lbre;)V

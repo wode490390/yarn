@@ -1,0 +1,13 @@
+CLASS abb net/minecraft/server/level/DemoMode
+	FIELD a DEMO_DAYS I
+	FIELD b TOTAL_PLAY_TICKS I
+	FIELD e displayedIntro Z
+	FIELD f demoHasEnded Z
+	FIELD g demoEndedReminder I
+	FIELD h gameModeTicks I
+	METHOD <init> <init> (Labk;)V
+	METHOD a tick ()V
+	METHOD a useItem (Labk;Lbvr;Lbpr;Larf;)Larg;
+	METHOD a useItemOn (Labk;Lbvr;Lbpr;Larf;Ldlu;)Larg;
+	METHOD a handleBlockBreakAction (Lgb;Luf$a;Lgg;I)V
+	METHOD f outputDemoReminder ()V

@@ -1,0 +1,8 @@
+CLASS amo net/minecraft/util/datafix/fixes/VillagerFollowRangeFix
+	FIELD a ORIGINAL_VALUE D
+	FIELD b NEW_BASE_VALUE D
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a fixValue (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a lambda$fixValue$1 (Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD b lambda$null$0 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;

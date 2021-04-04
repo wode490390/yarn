@@ -1,0 +1,13 @@
+CLASS dr net/minecraft/commands/arguments/EntitySummonArgument
+	FIELD a ERROR_UNKNOWN_ENTITY Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD b EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a id ()Ldr;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lwp;
+	METHOD a getSummonableEntity (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lwp;
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a verifyCanSummon (Lwp;)Lwp;
+	METHOD b lambda$verifyCanSummon$1 (Lwp;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

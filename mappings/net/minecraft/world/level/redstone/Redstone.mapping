@@ -1,0 +1,5 @@
+CLASS dgj net/minecraft/world/level/redstone/Redstone
+	FIELD a SIGNAL_MIN I
+	FIELD b SIGNAL_MAX I
+	FIELD c SIGNAL_NONE I
+	METHOD <init> <init> ()V

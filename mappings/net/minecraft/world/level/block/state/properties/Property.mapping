@@ -1,0 +1,36 @@
+CLASS cku net/minecraft/world/level/block/state/properties/Property
+	FIELD a clazz Ljava/lang/Class;
+	FIELD b name Ljava/lang/String;
+	FIELD c hashCode Ljava/lang/Integer;
+	FIELD d codec Lcom/mojang/serialization/Codec;
+	FIELD e valueCodec Lcom/mojang/serialization/Codec;
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Class;)V
+	METHOD a getPossibleValues ()Ljava/util/Collection;
+	METHOD a value (Lcjt;)Lcku$a;
+	METHOD a lambda$parseValue$2 (Lcjt;Ljava/lang/Comparable;)Lcjt;
+	METHOD a parseValue (Lcom/mojang/serialization/DynamicOps;Lcjt;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD a getName (Ljava/lang/Comparable;)Ljava/lang/String;
+	METHOD a lambda$new$1 (Ljava/lang/String;)Lcom/mojang/serialization/DataResult;
+	METHOD b generateHashCode ()I
+	METHOD b value (Ljava/lang/Comparable;)Lcku$a;
+	METHOD b getValue (Ljava/lang/String;)Ljava/util/Optional;
+	METHOD c getAllValues ()Ljava/util/stream/Stream;
+	METHOD c lambda$null$0 (Ljava/lang/String;)Lcom/mojang/serialization/DataResult;
+	METHOD d codec ()Lcom/mojang/serialization/Codec;
+	METHOD e valueCodec ()Lcom/mojang/serialization/Codec;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getName ()Ljava/lang/String;
+	METHOD g getValueClass ()Ljava/lang/Class;
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+	CLASS a Value
+		FIELD a property Lcku;
+		FIELD b value Ljava/lang/Comparable;
+		METHOD <init> <init> (Lcku;Ljava/lang/Comparable;)V
+		METHOD <init> <init> (Lcku;Ljava/lang/Comparable;Lcku$1;)V
+		METHOD a getProperty ()Lcku;
+		METHOD b value ()Ljava/lang/Comparable;
+		METHOD equals equals (Ljava/lang/Object;)Z
+		METHOD hashCode hashCode ()I
+		METHOD toString toString ()Ljava/lang/String;

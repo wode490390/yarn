@@ -1,0 +1,34 @@
+CLASS bem net/minecraft/world/entity/animal/horse/Horse
+	FIELD bV ARMOR_MODIFIER_UUID Ljava/util/UUID;
+	FIELD cl DATA_ID_TYPE_VARIANT Lvy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a getBreedOffspring (Labj;Lasj;)Lasj;
+	METHOD a containerChanged (Laqz;)V
+	METHOD a canMate (Lbcz;)Z
+	METHOD a setVariantAndMarkings (Lbet;Lbeo;)V
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD a playGallopSound (Lcfe;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b mobInteract (Lbjf;Larf;)Larg;
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD e defineSynchedData ()V
+	METHOD fF updateContainerEquipment ()V
+	METHOD fH getEatingSound ()Laev;
+	METHOD fI getAngrySound ()Laev;
+	METHOD fT canWearArmor ()Z
+	METHOD fn getVariant ()Lbet;
+	METHOD fp getMarkings ()Lbeo;
+	METHOD fv getTypeVariant ()I
+	METHOD k isArmor (Lbpr;)Z
+	METHOD m setArmor (Lbpr;)V
+	METHOD n setArmorEquipment (Lbpr;)V
+	METHOD o randomizeAttributes ()V
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD s getArmor ()Lbpr;
+	METHOD x setTypeVariant (I)V
+	CLASS a HorseGroupData
+		FIELD a variant Lbet;
+		METHOD <init> <init> (Lbet;)V

@@ -1,0 +1,4 @@
+CLASS cds net/minecraft/world/level/block/PoweredBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getSignal (Lcjr;Lbuv;Lgb;Lgg;)I
+	METHOD e_ isSignalSource (Lcjr;)Z

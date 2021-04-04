@@ -1,0 +1,11 @@
+CLASS yp net/minecraft/server/commands/LocateCommand
+	FIELD a ERROR_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a dist (IIII)F
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$0 (Ldg;)Z
+	METHOD a locate (Ldg;Lcsv;)I
+	METHOD a showLocateResult (Ldg;Ljava/lang/String;Lgb;Lgb;Ljava/lang/String;)I
+	METHOD a lambda$showLocateResult$2 (Lgb;Lox;)Lox;
+	METHOD a lambda$register$1 (Ljava/util/Map$Entry;Lcom/mojang/brigadier/context/CommandContext;)I

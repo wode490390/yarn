@@ -1,0 +1,10 @@
+CLASS awq net/minecraft/world/entity/ai/behavior/SocializeAtBell
+	FIELD a SPEED_MODIFIER F
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a lambda$null$1 (Lasy;)Z
+	METHOD a lambda$null$2 (Lasy;Lasy;)Z
+	METHOD a lambda$start$4 (Lasy;Lats;Ljava/util/List;)V
+	METHOD a lambda$null$3 (Lats;Lasy;)V
+	METHOD b lambda$checkExtraStartConditions$0 (Lasy;)Z

@@ -1,0 +1,6 @@
+CLASS dlv net/minecraft/world/phys/EntityHitResult
+	FIELD b entity Lasl;
+	METHOD <init> <init> (Lasl;)V
+	METHOD <init> <init> (Lasl;Ldly;)V
+	METHOD a getEntity ()Lasl;
+	METHOD c getType ()Ldlw$a;

@@ -1,0 +1,10 @@
+CLASS sd net/minecraft/network/protocol/game/ClientboundSetDefaultSpawnPositionPacket
+	FIELD a pos Lgb;
+	FIELD b angle F
+	METHOD <init> <init> (Lgb;F)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getPos ()Lgb;
+	METHOD c getAngle ()F

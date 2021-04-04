@@ -1,0 +1,12 @@
+CLASS dln net/minecraft/world/level/timers/FunctionTagCallback
+	FIELD a tagId Lwp;
+	METHOD <init> <init> (Lwp;)V
+	METHOD a access$000 (Ldln;)Lwp;
+	METHOD a handle (Ljava/lang/Object;Ldlq;J)V
+	METHOD a handle (Lnet/minecraft/server/MinecraftServer;Ldlq;J)V
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lmv;)Ldln;
+		METHOD a serialize (Lmv;Ldln;)V
+		METHOD a serialize (Lmv;Ldlo;)V
+		METHOD b deserialize (Lmv;)Ldlo;

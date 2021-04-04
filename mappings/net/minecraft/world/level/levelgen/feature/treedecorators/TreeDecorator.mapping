@@ -1,0 +1,7 @@
+CLASS cxb net/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator
+	FIELD c CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a type ()Lcxc;
+	METHOD a place (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Ljava/util/List;Ljava/util/List;)V
+	METHOD a placeVine (Ljava/util/function/BiConsumer;Lgb;Lcki;)V

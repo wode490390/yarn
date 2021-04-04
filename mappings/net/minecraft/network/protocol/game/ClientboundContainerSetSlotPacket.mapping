@@ -1,0 +1,14 @@
+CLASS qf net/minecraft/network/protocol/game/ClientboundContainerSetSlotPacket
+	FIELD a CARRIED_ITEM I
+	FIELD b PLAYER_INVENTORY I
+	FIELD c containerId I
+	FIELD d slot I
+	FIELD e itemStack Lbpr;
+	METHOD <init> <init> (IILbpr;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getContainerId ()I
+	METHOD c getSlot ()I
+	METHOD d getItem ()Lbpr;

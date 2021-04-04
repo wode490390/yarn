@@ -1,0 +1,6 @@
+CLASS csk net/minecraft/world/level/levelgen/feature/ScatteredOreFeature
+	FIELD a MAX_DIST_FROM_ORIGIN I
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a place (Lcqz;)Z
+	METHOD a offsetTargetPos (Lgb$a;Ljava/util/Random;Lgb;I)V
+	METHOD a getRandomPlacementInOneAxisRelativeToOrigin (Ljava/util/Random;I)I

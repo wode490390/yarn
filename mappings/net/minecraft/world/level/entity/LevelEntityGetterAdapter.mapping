@@ -1,0 +1,10 @@
+CLASS cnl net/minecraft/world/level/entity/LevelEntityGetterAdapter
+	FIELD a visibleEntities Lcnd;
+	FIELD b sectionStorage Lcng;
+	METHOD <init> <init> (Lcnd;Lcng;)V
+	METHOD a getAll ()Ljava/lang/Iterable;
+	METHOD a get (I)Lcnb;
+	METHOD a get (Lcni;Ldlt;Ljava/util/function/Consumer;)V
+	METHOD a get (Lcni;Ljava/util/function/Consumer;)V
+	METHOD a get (Ldlt;Ljava/util/function/Consumer;)V
+	METHOD a get (Ljava/util/UUID;)Lcnb;

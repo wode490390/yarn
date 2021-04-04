@@ -1,0 +1,15 @@
+CLASS zr net/minecraft/server/commands/TagCommand
+	FIELD a ERROR_ADD_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_REMOVE_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$register$0 (Ldg;)Z
+	METHOD a listTags (Ldg;Ljava/util/Collection;)I
+	METHOD a addTag (Ldg;Ljava/util/Collection;Ljava/lang/String;)I
+	METHOD a getTags (Ljava/util/Collection;)Ljava/util/Collection;
+	METHOD b lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b removeTag (Ldg;Ljava/util/Collection;Ljava/lang/String;)I
+	METHOD c lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

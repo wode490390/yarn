@@ -1,0 +1,2 @@
+CLASS cna net/minecraft/world/level/entity/ChunkStatusUpdateListener
+	METHOD onChunkStatusChange onChunkStatusChange (Lbuw;Laav$c;)V

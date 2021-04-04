@@ -1,0 +1,13 @@
+CLASS arg net/minecraft/world/InteractionResult
+	FIELD a SUCCESS Larg;
+	FIELD b CONSUME Larg;
+	FIELD c PASS Larg;
+	FIELD d FAIL Larg;
+	FIELD e $VALUES [Larg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a consumesAction ()Z
+	METHOD a sidedSuccess (Z)Larg;
+	METHOD b shouldSwing ()Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Larg;
+	METHOD values values ()[Larg;

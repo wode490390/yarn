@@ -1,0 +1,30 @@
+CLASS jx net/minecraft/data/recipes/SingleItemRecipeBuilder
+	FIELD a result Lbpn;
+	FIELD b ingredient Lbsg;
+	FIELD c count I
+	FIELD d advancement Lad$a;
+	FIELD e group Ljava/lang/String;
+	FIELD f type Lbsl;
+	METHOD <init> <init> (Lbsl;Lbsg;Lbvq;I)V
+	METHOD a stonecutting (Lbsg;Lbvq;)Ljx;
+	METHOD a stonecutting (Lbsg;Lbvq;I)Ljx;
+	METHOD a group (Ljava/lang/String;)Ljx;
+	METHOD a unlocks (Ljava/lang/String;Lal;)Ljx;
+	METHOD a save (Ljava/util/function/Consumer;Ljava/lang/String;)V
+	METHOD a save (Ljava/util/function/Consumer;Lwp;)V
+	METHOD a ensureValid (Lwp;)V
+	CLASS a Result
+		FIELD a id Lwp;
+		FIELD b group Ljava/lang/String;
+		FIELD c ingredient Lbsg;
+		FIELD d result Lbpn;
+		FIELD e count I
+		FIELD f advancement Lad$a;
+		FIELD g advancementId Lwp;
+		FIELD h type Lbsl;
+		METHOD <init> <init> (Lwp;Lbsl;Ljava/lang/String;Lbsg;Lbpn;ILad$a;Lwp;)V
+		METHOD a serializeRecipeData (Lcom/google/gson/JsonObject;)V
+		METHOD b getId ()Lwp;
+		METHOD c getType ()Lbsl;
+		METHOD d serializeAdvancement ()Lcom/google/gson/JsonObject;
+		METHOD e getAdvancementId ()Lwp;

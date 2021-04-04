@@ -1,0 +1,11 @@
+CLASS jd net/minecraft/data/models/blockstates/Variant
+	FIELD a values Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD a variant ()Ljd;
+	METHOD a lambda$convertList$1 (Lcom/google/gson/JsonArray;Ljd;)V
+	METHOD a lambda$get$0 (Lcom/google/gson/JsonObject;Ljf$a;)V
+	METHOD a convertList (Ljava/util/List;)Lcom/google/gson/JsonElement;
+	METHOD a merge (Ljd;Ljd;)Ljd;
+	METHOD a with (Ljf;Ljava/lang/Object;)Ljd;
+	METHOD b get ()Lcom/google/gson/JsonElement;
+	METHOD get get ()Ljava/lang/Object;

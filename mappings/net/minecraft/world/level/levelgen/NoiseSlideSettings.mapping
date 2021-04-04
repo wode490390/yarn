@@ -1,0 +1,11 @@
+CLASS coy net/minecraft/world/level/levelgen/NoiseSlideSettings
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b target I
+	FIELD c size I
+	FIELD d offset I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (III)V
+	METHOD a target ()I
+	METHOD a lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b size ()I
+	METHOD c offset ()I

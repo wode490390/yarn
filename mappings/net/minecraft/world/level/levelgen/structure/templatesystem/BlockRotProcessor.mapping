@@ -1,0 +1,8 @@
+CLASS dax net/minecraft/world/level/levelgen/structure/templatesystem/BlockRotProcessor
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b integrity F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (F)V
+	METHOD a getType ()Ldbr;
+	METHOD a processBlock (Lbvu;Lgb;Lgb;Ldbs$c;Ldbs$c;Ldbo;)Ldbs$c;
+	METHOD a lambda$static$0 (Ldax;)Ljava/lang/Float;

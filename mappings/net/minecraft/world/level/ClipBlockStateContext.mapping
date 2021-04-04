@@ -1,0 +1,8 @@
+CLASS buy net/minecraft/world/level/ClipBlockStateContext
+	FIELD a from Ldly;
+	FIELD b to Ldly;
+	FIELD c block Ljava/util/function/Predicate;
+	METHOD <init> <init> (Ldly;Ldly;Ljava/util/function/Predicate;)V
+	METHOD a getTo ()Ldly;
+	METHOD b getFrom ()Ldly;
+	METHOD c isTargetBlock ()Ljava/util/function/Predicate;

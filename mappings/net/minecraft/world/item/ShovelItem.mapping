@@ -1,0 +1,8 @@
+CLASS bqn net/minecraft/world/item/ShovelItem
+	FIELD a FLATTENABLES Ljava/util/Map;
+	FIELD c DIGGABLES Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbra;FFLbpn$a;)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a lambda$useOn$0 (Lbrt;Lbjf;)V
+	METHOD b isCorrectToolForDrops (Lcjr;)Z

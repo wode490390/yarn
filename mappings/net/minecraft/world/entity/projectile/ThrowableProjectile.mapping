@@ -1,0 +1,7 @@
+CLASS bkc net/minecraft/world/entity/projectile/ThrowableProjectile
+	METHOD <init> <init> (Lasp;DDDLbvr;)V
+	METHOD <init> <init> (Lasp;Lasy;Lbvr;)V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD j tick ()V
+	METHOD k getGravity ()F

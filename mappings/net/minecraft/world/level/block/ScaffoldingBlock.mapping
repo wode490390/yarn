@@ -1,0 +1,25 @@
+CLASS cen net/minecraft/world/level/block/ScaffoldingBlock
+	FIELD a STABILITY_MAX_DISTANCE I
+	FIELD b DISTANCE Lckr;
+	FIELD c WATERLOGGED Lcki;
+	FIELD d BOTTOM Lcki;
+	FIELD e TICK_DELAY I
+	FIELD f STABLE_SHAPE Ldmr;
+	FIELD g UNSTABLE_SHAPE Ldmr;
+	FIELD h UNSTABLE_SHAPE_BOTTOM Ldmr;
+	FIELD i BELOW_BLOCK Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getDistance (Lbuv;Lgb;)I
+	METHOD a isBottom (Lbuv;Lgb;I)Z
+	METHOD a canBeReplaced (Lcjr;Lbrr;)Z
+	METHOD a getInteractionShape (Lcjr;Lbuv;Lgb;)Ldmr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b onPlace (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD c getCollisionShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD c_ getFluidState (Lcjr;)Lddq;

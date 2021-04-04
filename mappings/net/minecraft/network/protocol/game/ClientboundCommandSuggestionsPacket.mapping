@@ -1,0 +1,12 @@
+CLASS qa net/minecraft/network/protocol/game/ClientboundCommandSuggestionsPacket
+	FIELD a id I
+	FIELD b suggestions Lcom/mojang/brigadier/suggestion/Suggestions;
+	METHOD <init> <init> (ILcom/mojang/brigadier/suggestion/Suggestions;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a lambda$new$0 (Lcom/mojang/brigadier/context/StringRange;Lob;)Lcom/mojang/brigadier/suggestion/Suggestion;
+	METHOD a write (Lob;)V
+	METHOD a lambda$write$1 (Lob;Lcom/mojang/brigadier/suggestion/Suggestion;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getId ()I
+	METHOD c getSuggestions ()Lcom/mojang/brigadier/suggestion/Suggestions;

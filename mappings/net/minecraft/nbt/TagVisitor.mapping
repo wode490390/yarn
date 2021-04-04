@@ -1,0 +1,14 @@
+CLASS nr net/minecraft/nbt/TagVisitor
+	METHOD a visitByteArray (Lms;)V
+	METHOD a visitByte (Lmt;)V
+	METHOD a visitCompound (Lmv;)V
+	METHOD a visitDouble (Lmw;)V
+	METHOD a visitEnd (Lmx;)V
+	METHOD a visitFloat (Lmy;)V
+	METHOD a visitIntArray (Lmz;)V
+	METHOD a visitInt (Lna;)V
+	METHOD a visitList (Lnb;)V
+	METHOD a visitLongArray (Lnc;)V
+	METHOD a visitLong (Lnd;)V
+	METHOD a visitShort (Lnj;)V
+	METHOD a visitString (Lnl;)V

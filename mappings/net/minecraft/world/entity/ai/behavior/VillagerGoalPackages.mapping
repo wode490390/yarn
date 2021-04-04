@@ -1,0 +1,15 @@
+CLASS axh net/minecraft/world/entity/ai/behavior/VillagerGoalPackages
+	FIELD a STROLL_SPEED_MODIFIER F
+	METHOD <init> <init> ()V
+	METHOD a getFullLookBehavior ()Lcom/mojang/datafixers/util/Pair;
+	METHOD a getPlayPackage (F)Lcom/google/common/collect/ImmutableList;
+	METHOD a getCorePackage (Lbiv;F)Lcom/google/common/collect/ImmutableList;
+	METHOD b getMinimalLookBehavior ()Lcom/mojang/datafixers/util/Pair;
+	METHOD b getWorkPackage (Lbiv;F)Lcom/google/common/collect/ImmutableList;
+	METHOD c getRestPackage (Lbiv;F)Lcom/google/common/collect/ImmutableList;
+	METHOD d getMeetPackage (Lbiv;F)Lcom/google/common/collect/ImmutableList;
+	METHOD e getIdlePackage (Lbiv;F)Lcom/google/common/collect/ImmutableList;
+	METHOD f getPanicPackage (Lbiv;F)Lcom/google/common/collect/ImmutableList;
+	METHOD g getPreRaidPackage (Lbiv;F)Lcom/google/common/collect/ImmutableList;
+	METHOD h getRaidPackage (Lbiv;F)Lcom/google/common/collect/ImmutableList;
+	METHOD i getHidePackage (Lbiv;F)Lcom/google/common/collect/ImmutableList;

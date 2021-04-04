@@ -1,0 +1,4 @@
+CLASS cys net/minecraft/world/level/levelgen/placement/EndGatewayPlacementDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a y (Lcyp;Ljava/util/Random;Lctv;I)I
+	METHOD a y (Lcyp;Ljava/util/Random;Lcul;I)I

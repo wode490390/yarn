@@ -1,0 +1,10 @@
+CLASS dlo net/minecraft/world/level/timers/TimerCallback
+	METHOD a handle (Ljava/lang/Object;Ldlq;J)V
+	CLASS a Serializer
+		FIELD a id Lwp;
+		FIELD b cls Ljava/lang/Class;
+		METHOD <init> <init> (Lwp;Ljava/lang/Class;)V
+		METHOD a getId ()Lwp;
+		METHOD a serialize (Lmv;Ldlo;)V
+		METHOD b getCls ()Ljava/lang/Class;
+		METHOD b deserialize (Lmv;)Ldlo;

@@ -1,0 +1,10 @@
+CLASS ajm net/minecraft/util/datafix/fixes/EntityRedundantChanceTagsFix
+	FIELD a FLOAT_LIST_CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$isZeroList$3 (ILjava/util/List;)Ljava/lang/Boolean;
+	METHOD a lambda$makeRule$1 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$0 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a isZeroList (Lcom/mojang/serialization/OptionalDynamic;I)Z
+	METHOD a lambda$null$2 (Ljava/lang/Float;)Z
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

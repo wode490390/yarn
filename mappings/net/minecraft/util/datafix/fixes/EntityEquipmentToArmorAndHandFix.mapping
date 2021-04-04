@@ -1,0 +1,7 @@
+CLASS aja net/minecraft/util/datafix/fixes/EntityEquipmentToArmorAndHandFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$0 ()Ljava/lang/IllegalStateException;
+	METHOD a lambda$cap$2 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a cap (Lcom/mojang/datafixers/types/Type;)Lcom/mojang/datafixers/TypeRewriteRule;
+	METHOD a lambda$null$1 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

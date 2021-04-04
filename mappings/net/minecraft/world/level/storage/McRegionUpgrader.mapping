@@ -1,0 +1,11 @@
+CLASS dhc net/minecraft/world/level/storage/McRegionUpgrader
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b MCREGION_EXTENSION Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a makeMcrLevelDatBackup (Ldgz$a;)V
+	METHOD a convertLevel (Ldgz$a;Lagu;)Z
+	METHOD a convertRegion (Lgs$b;Ljava/io/File;Ljava/io/File;Lbwt;IILagu;)V
+	METHOD a convertRegions (Lgs$b;Ljava/io/File;Ljava/lang/Iterable;Lbwt;IILagu;)V
+	METHOD a lambda$addRegionFiles$0 (Ljava/io/File;Ljava/lang/String;)Z
+	METHOD a addRegionFiles (Ljava/io/File;Ljava/util/Collection;)V

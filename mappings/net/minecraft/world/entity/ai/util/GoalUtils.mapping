@@ -1,0 +1,10 @@
+CLASS bcg net/minecraft/world/entity/ai/util/GoalUtils
+	METHOD <init> <init> ()V
+	METHOD a hasGroundPathNavigation (Lasz;)Z
+	METHOD a mobRestricted (Latg;I)Z
+	METHOD a isWater (Latg;Lgb;)Z
+	METHOD a isNotStable (Lbbb;Lgb;)Z
+	METHOD a isOutsideLimits (Lgb;Latg;)Z
+	METHOD a isRestricted (ZLatg;Lgb;)Z
+	METHOD b hasMalus (Latg;Lgb;)Z
+	METHOD c isSolid (Latg;Lgb;)Z

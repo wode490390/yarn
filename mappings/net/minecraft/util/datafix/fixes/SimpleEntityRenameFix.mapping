@@ -1,0 +1,4 @@
+CLASS amf net/minecraft/util/datafix/fixes/SimpleEntityRenameFix
+	METHOD <init> <init> (Ljava/lang/String;Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a fix (Ljava/lang/String;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a getNewNameAndTag (Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/datafixers/util/Pair;

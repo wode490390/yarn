@@ -1,0 +1,4 @@
+CLASS lw net/minecraft/gametest/framework/GameTestListener
+	METHOD a testStructureLoaded (Llv;)V
+	METHOD b testPassed (Llv;)V
+	METHOD c testFailed (Llv;)V

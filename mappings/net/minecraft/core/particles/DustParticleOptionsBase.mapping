@@ -1,0 +1,12 @@
+CLASS hl net/minecraft/core/particles/DustParticleOptionsBase
+	FIELD e MIN_SCALE F
+	FIELD f MAX_SCALE F
+	FIELD g color Lk;
+	FIELD h scale F
+	METHOD <init> <init> (Lk;F)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a readVector3f (Lcom/mojang/brigadier/StringReader;)Lk;
+	METHOD a writeToNetwork (Lob;)V
+	METHOD b readVector3f (Lob;)Lk;
+	METHOD e getColor ()Lk;
+	METHOD f getScale ()F

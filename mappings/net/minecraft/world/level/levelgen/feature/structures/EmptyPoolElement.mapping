@@ -1,0 +1,12 @@
+CLASS cwm net/minecraft/world/level/levelgen/feature/structures/EmptyPoolElement
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b INSTANCE Lcwm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getType ()Lcwu;
+	METHOD a place (Ldbn;Lbwm;Lbwi;Lclm;Lgb;Lgb;Lcek;Lczp;Ljava/util/Random;Z)Z
+	METHOD a getSize (Ldbn;Lcek;)Lgw;
+	METHOD a getBoundingBox (Ldbn;Lgb;Lcek;)Lczp;
+	METHOD a getShuffledJigsawBlocks (Ldbn;Lgb;Lcek;Ljava/util/Random;)Ljava/util/List;
+	METHOD b lambda$static$0 ()Lcwm;
+	METHOD toString toString ()Ljava/lang/String;

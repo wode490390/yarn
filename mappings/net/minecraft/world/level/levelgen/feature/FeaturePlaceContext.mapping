@@ -1,0 +1,12 @@
+CLASS cqz net/minecraft/world/level/levelgen/feature/FeaturePlaceContext
+	FIELD a level Lbwm;
+	FIELD b chunkGenerator Lclm;
+	FIELD c random Ljava/util/Random;
+	FIELD d origin Lgb;
+	FIELD e config Lcua;
+	METHOD <init> <init> (Lbwm;Lclm;Ljava/util/Random;Lgb;Lcua;)V
+	METHOD a level ()Lbwm;
+	METHOD b chunkGenerator ()Lclm;
+	METHOD c random ()Ljava/util/Random;
+	METHOD d origin ()Lgb;
+	METHOD e config ()Lcua;

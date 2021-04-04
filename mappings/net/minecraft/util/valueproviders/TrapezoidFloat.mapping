@@ -1,0 +1,20 @@
+CLASS aqq net/minecraft/util/valueproviders/TrapezoidFloat
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b min F
+	FIELD d max F
+	FIELD e plateau F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FFF)V
+	METHOD a getMinValue ()F
+	METHOD a of (FFF)Laqq;
+	METHOD a lambda$static$4 (Laqq;)Lcom/mojang/serialization/DataResult;
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a sample (Ljava/util/Random;)F
+	METHOD b getMaxValue ()F
+	METHOD b lambda$null$2 (Laqq;)Ljava/lang/Float;
+	METHOD c getType ()Laqn;
+	METHOD c lambda$null$1 (Laqq;)Ljava/lang/Float;
+	METHOD d lambda$null$0 (Laqq;)Ljava/lang/Float;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

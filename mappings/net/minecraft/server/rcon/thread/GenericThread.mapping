@@ -1,0 +1,12 @@
+CLASS aeo net/minecraft/server/rcon/thread/GenericThread
+	FIELD a running Z
+	FIELD b name Ljava/lang/String;
+	FIELD c thread Ljava/lang/Thread;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e UNIQUE_THREAD_ID Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD f MAX_STOP_WAIT I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a start ()Z
+	METHOD b stop ()V
+	METHOD c isRunning ()Z

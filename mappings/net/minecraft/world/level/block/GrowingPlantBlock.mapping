@@ -1,0 +1,13 @@
+CLASS cbs net/minecraft/world/level/block/GrowingPlantBlock
+	FIELD c shape Ldmr;
+	FIELD n_ growthDirection Lgg;
+	FIELD o_ scheduleFluidTicks Z
+	METHOD <init> <init> (Lcjq$c;Lgg;Ldmr;Z)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getStateForPlacement (Lbvs;)Lcjr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD c getBodyBlock ()Lbyq;
+	METHOD d getHeadBlock ()Lcbu;
+	METHOD h canAttachTo (Lcjr;)Z

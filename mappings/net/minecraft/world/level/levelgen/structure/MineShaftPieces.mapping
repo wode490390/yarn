@@ -1,0 +1,71 @@
+CLASS czw net/minecraft/world/level/levelgen/structure/MineShaftPieces
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b DEFAULT_SHAFT_WIDTH I
+	FIELD c DEFAULT_SHAFT_HEIGHT I
+	FIELD d DEFAULT_SHAFT_LENGTH I
+	FIELD e MAX_PILLAR_HEIGHT I
+	FIELD f MAX_CHAIN_HEIGHT I
+	FIELD g MAX_DEPTH I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Lorg/apache/logging/log4j/Logger;
+	METHOD a access$100 (Ldak;Ldal;Ljava/util/Random;IIILgg;I)Lczw$c;
+	METHOD a createRandomShaftPiece (Ldal;Ljava/util/Random;IIILgg;ILcru$b;)Lczw$c;
+	METHOD b generateAndAddPiece (Ldak;Ldal;Ljava/util/Random;IIILgg;I)Lczw$c;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a MineShaftCorridor
+		FIELD b hasRails Z
+		FIELD c spiderCorridor Z
+		FIELD d hasPlacedSpider Z
+		FIELD e numSections I
+		METHOD <init> <init> (ILjava/util/Random;Lczp;Lgg;Lcru$b;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a canHangChainBelow (Lbvu;Lgb;Lcjr;)Z
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a fillColumnDown (Lbwm;Lcjr;IIILczp;)V
+		METHOD a fillColumnBetween (Lbwm;Lcjr;Lgb$a;II)V
+		METHOD a placeDoubleLowerOrUpperSupport (Lbwm;Lczp;III)V
+		METHOD a placeSupport (Lbwm;Lczp;IIIIILjava/util/Random;)V
+		METHOD a placeCobWeb (Lbwm;Lczp;Ljava/util/Random;FIII)V
+		METHOD a createChest (Lbwm;Lczp;Ljava/util/Random;IIILwp;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a findCorridorSize (Ldal;Ljava/util/Random;IIILgg;)Lczp;
+		METHOD b fillPillarDownOrChainUp (Lbwm;Lcjr;IIILczp;)V
+		METHOD b canPlaceColumnOnTopOf (Lcjr;)Z
+	CLASS b MineShaftCrossing
+		FIELD b direction Lgg;
+		FIELD c isTwoFloored Z
+		METHOD <init> <init> (ILczp;Lgg;Lcru$b;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a placeSupportPillar (Lbwm;Lczp;IIII)V
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a findCrossing (Ldal;Ljava/util/Random;IIILgg;)Lczp;
+	CLASS c MineShaftPiece
+		FIELD a type Lcru$b;
+		METHOD <init> <init> (Lcsw;ILcru$b;Lczp;)V
+		METHOD <init> <init> (Lcsw;Lmv;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a edgesLiquid (Lbuv;Lczp;)Z
+		METHOD a isSupportingBox (Lbuv;Lczp;IIII)Z
+		METHOD a canBeReplaced (Lbvu;IIILczp;)Z
+		METHOD a setPlanksBlock (Lbwm;Lczp;Lcjr;III)V
+	CLASS d MineShaftRoom
+		FIELD b childEntranceBoxes Ljava/util/List;
+		METHOD <init> <init> (ILjava/util/Random;IILcru$b;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a move (III)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a lambda$addAdditionalSaveData$0 (Lmv;Lnn;)V
+	CLASS e MineShaftStairs
+		METHOD <init> <init> (ILczp;Lgg;Lcru$b;)V
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a addChildren (Ldak;Ldal;Ljava/util/Random;)V
+		METHOD a findStairs (Ldal;Ljava/util/Random;IIILgg;)Lczp;

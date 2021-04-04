@@ -1,0 +1,5 @@
+CLASS he net/minecraft/core/dispenser/ShearsDispenseItemBehavior
+	METHOD <init> <init> ()V
+	METHOD a tryShearBeehive (Labj;Lgb;)Z
+	METHOD a execute (Lgc;Lbpr;)Lbpr;
+	METHOD b tryShearLivingEntity (Labj;Lgb;)Z

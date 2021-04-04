@@ -1,0 +1,13 @@
+CLASS cnd net/minecraft/world/level/entity/EntityLookup
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b byId Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD c byUuid Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getAllEntities ()Ljava/lang/Iterable;
+	METHOD a getEntity (I)Lcnb;
+	METHOD a add (Lcnb;)V
+	METHOD a getEntities (Lcni;Ljava/util/function/Consumer;)V
+	METHOD a getEntity (Ljava/util/UUID;)Lcnb;
+	METHOD b count ()I
+	METHOD b remove (Lcnb;)V

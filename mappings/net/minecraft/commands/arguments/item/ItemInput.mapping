@@ -1,0 +1,12 @@
+CLASS fc net/minecraft/commands/arguments/item/ItemInput
+	FIELD a ERROR_STACK_TOO_BIG Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+	FIELD b item Lbpn;
+	FIELD c tag Lmv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpn;Lmv;)V
+	METHOD a getItem ()Lbpn;
+	METHOD a createItemStack (IZ)Lbpr;
+	METHOD a test (Lbpr;)Z
+	METHOD a lambda$static$0 (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD b serialize ()Ljava/lang/String;
+	METHOD test test (Ljava/lang/Object;)Z

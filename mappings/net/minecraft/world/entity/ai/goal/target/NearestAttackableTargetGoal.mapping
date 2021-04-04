@@ -1,0 +1,14 @@
+CLASS bai net/minecraft/world/entity/ai/goal/target/NearestAttackableTargetGoal
+	FIELD a targetType Ljava/lang/Class;
+	FIELD b randomInterval I
+	FIELD c target Lasy;
+	FIELD d targetConditions Lbcb;
+	METHOD <init> <init> (Lasz;Ljava/lang/Class;IZZLjava/util/function/Predicate;)V
+	METHOD <init> <init> (Lasz;Ljava/lang/Class;Z)V
+	METHOD <init> <init> (Lasz;Ljava/lang/Class;ZZ)V
+	METHOD a canUse ()Z
+	METHOD a getTargetSearchArea (D)Ldlt;
+	METHOD a setTarget (Lasy;)V
+	METHOD b lambda$findTarget$0 (Lasy;)Z
+	METHOD c start ()V
+	METHOD g findTarget ()V

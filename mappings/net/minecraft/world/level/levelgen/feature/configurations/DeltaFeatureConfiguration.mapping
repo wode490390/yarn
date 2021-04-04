@@ -1,0 +1,17 @@
+CLASS ctw net/minecraft/world/level/levelgen/feature/configurations/DeltaFeatureConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b contents Lcjr;
+	FIELD c rim Lcjr;
+	FIELD d size Laqo;
+	FIELD e rimSize Laqo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjr;Lcjr;Laqo;Laqo;)V
+	METHOD a lambda$static$4 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$3 (Lctw;)Laqo;
+	METHOD b contents ()Lcjr;
+	METHOD b lambda$null$2 (Lctw;)Laqo;
+	METHOD c rim ()Lcjr;
+	METHOD c lambda$null$1 (Lctw;)Lcjr;
+	METHOD d size ()Laqo;
+	METHOD d lambda$null$0 (Lctw;)Lcjr;
+	METHOD e rimSize ()Laqo;

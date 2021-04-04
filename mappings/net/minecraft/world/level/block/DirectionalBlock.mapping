@@ -1,0 +1,4 @@
+CLASS caj net/minecraft/world/level/block/DirectionalBlock
+	FIELD a FACING Lckl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V

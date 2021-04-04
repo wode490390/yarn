@@ -1,0 +1,5 @@
+CLASS bvx net/minecraft/world/level/LevelSimulatedReader
+	METHOD a getHeightmapPos (Lcor$a;Lgb;)Lgb;
+	METHOD a getBlockEntity (Lgb;Lchr;)Ljava/util/Optional;
+	METHOD a isStateAtPosition (Lgb;Ljava/util/function/Predicate;)Z
+	METHOD b isFluidAtPosition (Lgb;Ljava/util/function/Predicate;)Z

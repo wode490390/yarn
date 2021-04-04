@@ -1,0 +1,10 @@
+CLASS cqh net/minecraft/world/level/levelgen/feature/ConfiguredStructureFeature
+	FIELD a DIRECT_CODEC Lcom/mojang/serialization/Codec;
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c LIST_CODEC Lcom/mojang/serialization/Codec;
+	FIELD d feature Lcsv;
+	FIELD e config Lcua;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcsv;Lcua;)V
+	METHOD a lambda$static$0 (Lcqh;)Lcsv;
+	METHOD a generate (Lgs;Lclm;Lbwt;Ldbn;JLbuw;Lbwq;ILcvf;Lbvt;)Ldam;

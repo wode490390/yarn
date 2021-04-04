@@ -1,0 +1,5 @@
+CLASS btf net/minecraft/world/item/enchantment/ArrowKnockbackEnchantment
+	METHOD <init> <init> (Lbtl$a;[Lasq;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD b getMaxCost (I)I

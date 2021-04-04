@@ -1,0 +1,33 @@
+CLASS dio net/minecraft/world/level/storage/loot/functions/CopyBlockState
+	FIELD a block Lbyq;
+	FIELD b properties Ljava/util/Set;
+	METHOD <init> <init> ([Ldkf;Lbyq;Ljava/util/Set;)V
+	METHOD <init> <init> ([Ldkf;Lbyq;Ljava/util/Set;Ldio$1;)V
+	METHOD a getType ()Ldiz;
+	METHOD a run (Lbpr;Ldhn;)Lbpr;
+	METHOD a copyState (Lbyq;)Ldio$a;
+	METHOD a serialize (Lcjr;Lcku;)Ljava/lang/String;
+	METHOD a access$200 (Ldio;)Lbyq;
+	METHOD a lambda$run$0 (Lmv;Lcjr;Lcku;)V
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	METHOD b access$300 (Ldio;)Ljava/util/Set;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a block Lbyq;
+		FIELD b properties Ljava/util/Set;
+		METHOD <init> <init> (Lbyq;)V
+		METHOD <init> <init> (Lbyq;Ldio$1;)V
+		METHOD a getThis ()Ldio$a;
+		METHOD a copy (Lcku;)Ldio$a;
+		METHOD b build ()Ldiy;
+		METHOD d getThis ()Ldix$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a lambda$serialize$0 (Lcom/google/gson/JsonArray;Lcku;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldio;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldio;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldix;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$2 (Ljava/util/Set;Lcjs;Lcom/google/gson/JsonElement;)V
+		METHOD a lambda$deserialize$1 (Lwp;)Ljava/lang/IllegalArgumentException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldix;

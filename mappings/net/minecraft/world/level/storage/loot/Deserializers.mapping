@@ -1,0 +1,5 @@
+CLASS dhj net/minecraft/world/level/storage/loot/Deserializers
+	METHOD <init> <init> ()V
+	METHOD a createConditionSerializer ()Lcom/google/gson/GsonBuilder;
+	METHOD b createFunctionSerializer ()Lcom/google/gson/GsonBuilder;
+	METHOD c createLootTableSerializer ()Lcom/google/gson/GsonBuilder;

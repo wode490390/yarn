@@ -1,0 +1,15 @@
+CLASS dfv net/minecraft/world/level/pathfinder/FlyNodeEvaluator
+	FIELD l pathTypeByPosCache Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
+	METHOD <init> <init> ()V
+	METHOD a done ()V
+	METHOD a getGoal (DDD)Ldgc;
+	METHOD a getNode (III)Ldfw;
+	METHOD a lambda$getCachedBlockPathType$0 (IIIJ)Ldfu;
+	METHOD a getBlockPathType (Lbuv;III)Ldfu;
+	METHOD a getBlockPathType (Lbuv;IIILasz;IIIZZ)Ldfu;
+	METHOD a prepare (Lbwd;Lasz;)V
+	METHOD a hasMalus (Ldfw;)Z
+	METHOD a getNeighbors ([Ldfw;Ldfw;)I
+	METHOD b getStart ()Ldfw;
+	METHOD b getCachedBlockPathType (III)Ldfu;
+	METHOD b isOpen (Ldfw;)Z

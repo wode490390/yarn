@@ -1,0 +1,23 @@
+CLASS acg net/minecraft/server/network/TextFilter
+	FIELD a DUMMY Lacg;
+	METHOD <clinit> <clinit> ()V
+	METHOD a join ()V
+	METHOD a processStreamMessage (Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a processMessageBundle (Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;
+	METHOD b leave ()V
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a join ()V
+		METHOD a processStreamMessage (Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;
+		METHOD a processMessageBundle (Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;
+		METHOD b leave ()V
+	CLASS a FilteredText
+		FIELD a EMPTY Lacg$a;
+		FIELD b raw Ljava/lang/String;
+		FIELD c filtered Ljava/lang/String;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V
+		METHOD a getRaw ()Ljava/lang/String;
+		METHOD a passThrough (Ljava/lang/String;)Lacg$a;
+		METHOD b getFiltered ()Ljava/lang/String;
+		METHOD b fullyFiltered (Ljava/lang/String;)Lacg$a;

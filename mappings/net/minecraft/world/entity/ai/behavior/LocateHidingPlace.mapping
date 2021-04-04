@@ -1,0 +1,12 @@
+CLASS avi net/minecraft/world/entity/ai/behavior/LocateHidingPlace
+	FIELD a speedModifier F
+	FIELD c radius I
+	FIELD d closeEnoughDist I
+	FIELD e currentPos Ljava/util/Optional;
+	METHOD <init> <init> (IFI)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a lambda$start$2 (Lbcr;)Z
+	METHOD a lambda$start$3 (Lgb;)Z
+	METHOD b lambda$checkExtraStartConditions$0 (Lbcr;)Z
+	METHOD b lambda$checkExtraStartConditions$1 (Lgb;)Z

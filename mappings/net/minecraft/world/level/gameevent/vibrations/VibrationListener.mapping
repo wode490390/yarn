@@ -1,0 +1,19 @@
+CLASS coa net/minecraft/world/level/gameevent/vibrations/VibrationListener
+	FIELD a listenerSource Lcnx;
+	FIELD b listenerRange I
+	FIELD c config Lcoa$a;
+	FIELD d receivingEvent Ljava/util/Optional;
+	FIELD e receivingDistance I
+	FIELD f travelTimeInTicks I
+	METHOD <init> <init> (Lcnx;ILcoa$a;)V
+	METHOD a getListenerSource ()Lcnx;
+	METHOD a tick (Lbvr;)V
+	METHOD a handleGameEvent (Lbvr;Lcnt;Lasl;Lgb;)Z
+	METHOD a sendSignal (Lbvr;Lcnt;Lgb;Lgb;)V
+	METHOD a isOccluded (Lbvr;Lgb;Lgb;)Z
+	METHOD a lambda$isOccluded$0 (Lcjr;)Z
+	METHOD a isValidVibration (Lcnt;Lasl;)Z
+	METHOD b getListenerRadius ()I
+	CLASS a VibrationListenerConfig
+		METHOD a onSignalReceive (Lbvr;Lcnv;Lcnt;I)V
+		METHOD a shouldListen (Lbvr;Lcnv;Lgb;Lcnt;Lasl;)Z

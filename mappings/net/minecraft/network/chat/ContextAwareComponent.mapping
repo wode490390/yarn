@@ -1,0 +1,2 @@
+CLASS op net/minecraft/network/chat/ContextAwareComponent
+	METHOD a resolve (Ldg;Lasl;I)Lot;

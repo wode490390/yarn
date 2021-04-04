@@ -1,0 +1,5 @@
+CLASS bvy net/minecraft/world/level/LevelTimeAccess
+	METHOD ae dayTime ()J
+	METHOD ak getMoonBrightness ()F
+	METHOD al getMoonPhase ()I
+	METHOD f getTimeOfDay (F)F

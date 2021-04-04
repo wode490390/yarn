@@ -1,0 +1,7 @@
+CLASS adp net/minecraft/server/packs/resources/SimplePreparableReloadListener
+	METHOD <init> <init> ()V
+	METHOD a reload (Ladg$a;Ladl;Lapl;Lapl;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$reload$0 (Ladl;Lapl;)Ljava/lang/Object;
+	METHOD a lambda$reload$1 (Ladl;Lapl;Ljava/lang/Object;)V
+	METHOD a apply (Ljava/lang/Object;Ladl;Lapl;)V
+	METHOD b prepare (Ladl;Lapl;)Ljava/lang/Object;

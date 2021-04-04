@@ -1,0 +1,7 @@
+CLASS bag net/minecraft/world/entity/ai/goal/target/DefendVillageTargetGoal
+	FIELD a golem Lbdj;
+	FIELD b potentialTarget Lasy;
+	FIELD c attackTargeting Lbcb;
+	METHOD <init> <init> (Lbdj;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V

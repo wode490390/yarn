@@ -1,0 +1,8 @@
+CLASS cfg net/minecraft/world/level/block/SpongeBlock
+	FIELD a MAX_DEPTH I
+	FIELD b MAX_COUNT I
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a tryAbsorbWater (Lbvr;Lgb;)V
+	METHOD a neighborChanged (Lcjr;Lbvr;Lgb;Lbyq;Lgb;Z)V
+	METHOD b removeWaterBreadthFirstSearch (Lbvr;Lgb;)Z
+	METHOD b onPlace (Lcjr;Lbvr;Lgb;Lcjr;Z)V

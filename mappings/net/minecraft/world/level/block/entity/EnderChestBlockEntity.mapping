@@ -1,0 +1,18 @@
+CLASS cie net/minecraft/world/level/block/entity/EnderChestBlockEntity
+	FIELD a chestLidController Lchv;
+	FIELD b openersCounter Lchz;
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a getOpenNess (F)F
+	METHOD a startOpen (Lbjf;)V
+	METHOD a lidAnimateTick (Lbvr;Lgb;Lcjr;Lcie;)V
+	METHOD a_ triggerEvent (II)Z
+	METHOD b stopOpen (Lbjf;)V
+	METHOD c stillValid (Lbjf;)Z
+	METHOD d recheckOpen ()V
+	CLASS 1 1
+		FIELD a this$0 Lcie;
+		METHOD <init> <init> (Lcie;)V
+		METHOD a isOwnContainer (Lbjf;)Z
+		METHOD a onOpen (Lbvr;Lgb;Lcjr;)V
+		METHOD a openerCountChanged (Lbvr;Lgb;Lcjr;II)V
+		METHOD b onClose (Lbvr;Lgb;Lcjr;)V

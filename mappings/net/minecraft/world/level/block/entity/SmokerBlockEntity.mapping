@@ -1,0 +1,5 @@
+CLASS cir net/minecraft/world/level/block/entity/SmokerBlockEntity
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a createMenu (ILbje;)Lbll;
+	METHOD a getBurnDuration (Lbpr;)I
+	METHOD g getDefaultName ()Lon;

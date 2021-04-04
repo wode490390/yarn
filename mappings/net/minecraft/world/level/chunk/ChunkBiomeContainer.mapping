@@ -1,0 +1,18 @@
+CLASS cll net/minecraft/world/level/chunk/ChunkBiomeContainer
+	FIELD a MAX_SIZE I
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c WIDTH_BITS I
+	FIELD d HORIZONTAL_MASK I
+	FIELD e biomeRegistry Lgk;
+	FIELD f biomes [Lbwq;
+	FIELD g quartMinY I
+	FIELD h quartHeight I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgk;Lbvt;Lbuw;Lbwt;)V
+	METHOD <init> <init> (Lgk;Lbvt;Lbuw;Lbwt;[I)V
+	METHOD <init> <init> (Lgk;Lbvt;[I)V
+	METHOD <init> <init> (Lgk;Lbvt;[Lbwq;)V
+	METHOD a writeBiomes ()[I
+	METHOD a ceilDiv (II)I
+	METHOD a biomeForIndex (Lbwt;IIII)Lbwq;
+	METHOD b getNoiseBiome (III)Lbwq;

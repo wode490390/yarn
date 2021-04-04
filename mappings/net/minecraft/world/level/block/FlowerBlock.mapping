@@ -1,0 +1,11 @@
+CLASS cbg net/minecraft/world/level/block/FlowerBlock
+	FIELD a AABB_OFFSET F
+	FIELD b SHAPE Ldmr;
+	FIELD c suspiciousStewEffect Lasd;
+	FIELD d effectDuration I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasd;ILcjq$c;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD ak_ getOffsetType ()Lcjq$b;
+	METHOD c getSuspiciousStewEffect ()Lasd;
+	METHOD d getEffectDuration ()I

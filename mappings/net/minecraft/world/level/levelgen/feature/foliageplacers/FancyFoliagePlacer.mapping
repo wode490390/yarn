@@ -1,0 +1,8 @@
+CLASS cvt net/minecraft/world/level/levelgen/feature/foliageplacers/FancyFoliagePlacer
+	FIELD c CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laqo;Laqo;I)V
+	METHOD a type ()Lcvv;
+	METHOD a createFoliage (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Lcvg;ILcvu$a;III)V
+	METHOD a shouldSkipLocation (Ljava/util/Random;IIIIZ)Z
+	METHOD c lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;

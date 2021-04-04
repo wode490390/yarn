@@ -1,0 +1,17 @@
+CLASS bkm net/minecraft/world/entity/raid/Raids
+	FIELD a RAID_FILE_ID Ljava/lang/String;
+	FIELD b raidMap Ljava/util/Map;
+	FIELD c level Labj;
+	FIELD d nextAvailableID I
+	FIELD e tick I
+	METHOD <init> <init> (Labj;)V
+	METHOD a tick ()V
+	METHOD a get (I)Lbkk;
+	METHOD a getOrCreateRaid (Labj;Lgb;)Lbkk;
+	METHOD a load (Labj;Lmv;)Lbkm;
+	METHOD a createOrExtendRaid (Labk;)Lbkk;
+	METHOD a canJoinRaid (Lbkl;Lbkk;)Z
+	METHOD a getFileId (Lcmt;)Ljava/lang/String;
+	METHOD a getNearbyRaid (Lgb;I)Lbkk;
+	METHOD a save (Lmv;)Lmv;
+	METHOD d getUniqueId ()I

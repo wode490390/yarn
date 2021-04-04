@@ -1,0 +1,33 @@
+CLASS axu net/minecraft/world/entity/ai/control/MoveControl
+	FIELD a MIN_SPEED F
+	FIELD b MIN_SPEED_SQR F
+	FIELD c MAX_TURN I
+	FIELD d mob Lasz;
+	FIELD e wantedX D
+	FIELD f wantedY D
+	FIELD g wantedZ D
+	FIELD h speedModifier D
+	FIELD i strafeForwards F
+	FIELD j strafeRight F
+	FIELD k operation Laxu$a;
+	METHOD <init> <init> (Lasz;)V
+	METHOD a tick ()V
+	METHOD a setWantedPosition (DDDD)V
+	METHOD a strafe (FF)V
+	METHOD a rotlerp (FFF)F
+	METHOD b hasWanted ()Z
+	METHOD b isWalkable (FF)Z
+	METHOD c getSpeedModifier ()D
+	METHOD d getWantedX ()D
+	METHOD e getWantedY ()D
+	METHOD f getWantedZ ()D
+	CLASS a Operation
+		FIELD a WAIT Laxu$a;
+		FIELD b MOVE_TO Laxu$a;
+		FIELD c STRAFE Laxu$a;
+		FIELD d JUMPING Laxu$a;
+		FIELD e $VALUES [Laxu$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Laxu$a;
+		METHOD values values ()[Laxu$a;

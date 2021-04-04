@@ -1,0 +1,3 @@
+CLASS ace net/minecraft/server/network/ServerPlayerConnection
+	METHOD a send (Lpf;)V
+	METHOD d getPlayer ()Labk;

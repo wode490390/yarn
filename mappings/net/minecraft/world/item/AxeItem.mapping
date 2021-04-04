@@ -1,0 +1,12 @@
+CLASS bnr net/minecraft/world/item/AxeItem
+	FIELD a STRIPPABLES Ljava/util/Map;
+	FIELD c DIGGABLE_MATERIALS Ljava/util/Set;
+	FIELD d OTHER_DIGGABLE_BLOCKS Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbra;FFLbpn$a;)V
+	METHOD a getDestroySpeed (Lbpr;Lcjr;)F
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a lambda$useOn$1 (Lbrt;Lbjf;)V
+	METHOD a getStripped (Lcjr;)Ljava/util/Optional;
+	METHOD a lambda$getStripped$2 (Lcjr;Lbyq;)Lcjr;
+	METHOD b lambda$useOn$0 (Lcjr;Lbyq;)Lcjr;

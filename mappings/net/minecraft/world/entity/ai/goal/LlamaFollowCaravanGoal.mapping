@@ -1,0 +1,12 @@
+CLASS ayx net/minecraft/world/entity/ai/goal/LlamaFollowCaravanGoal
+	FIELD a llama Lben;
+	FIELD b speedModifier D
+	FIELD c CARAVAN_LIMIT I
+	FIELD d distCheckCounter I
+	METHOD <init> <init> (Lben;D)V
+	METHOD a canUse ()Z
+	METHOD a lambda$canUse$0 (Lasl;)Z
+	METHOD a firstIsLeashed (Lben;I)Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V

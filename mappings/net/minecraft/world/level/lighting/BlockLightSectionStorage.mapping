@@ -1,0 +1,7 @@
+CLASS dda net/minecraft/world/level/lighting/BlockLightSectionStorage
+	METHOD <init> <init> (Lclx;)V
+	METHOD d getLightValue (J)I
+	CLASS a BlockDataLayerStorageMap
+		METHOD <init> <init> (Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;)V
+		METHOD a copy ()Ldda$a;
+		METHOD b copy ()Lddb;

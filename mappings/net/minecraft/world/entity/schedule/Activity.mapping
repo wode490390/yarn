@@ -1,0 +1,27 @@
+CLASS bko net/minecraft/world/entity/schedule/Activity
+	FIELD a CORE Lbko;
+	FIELD b IDLE Lbko;
+	FIELD c WORK Lbko;
+	FIELD d PLAY Lbko;
+	FIELD e REST Lbko;
+	FIELD f MEET Lbko;
+	FIELD g PANIC Lbko;
+	FIELD h RAID Lbko;
+	FIELD i PRE_RAID Lbko;
+	FIELD j HIDE Lbko;
+	FIELD k FIGHT Lbko;
+	FIELD l CELEBRATE Lbko;
+	FIELD m ADMIRE_ITEM Lbko;
+	FIELD n AVOID Lbko;
+	FIELD o RIDE Lbko;
+	FIELD p PLAY_DEAD Lbko;
+	FIELD q LONG_JUMP Lbko;
+	FIELD r name Ljava/lang/String;
+	FIELD s hashCode I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a register (Ljava/lang/String;)Lbko;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

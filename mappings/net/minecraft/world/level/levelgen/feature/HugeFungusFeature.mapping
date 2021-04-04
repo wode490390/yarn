@@ -1,0 +1,11 @@
+CLASS crj net/minecraft/world/level/levelgen/feature/HugeFungusFeature
+	FIELD a HUGE_PROBABILITY F
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a isReplaceable (Lbvs;Lgb;Z)Z
+	METHOD a placeHatBlock (Lbvs;Ljava/util/Random;Lcri;Lgb$a;FFF)V
+	METHOD a placeStem (Lbvs;Ljava/util/Random;Lcri;Lgb;IZ)V
+	METHOD a placeHatDropBlock (Lbvs;Ljava/util/Random;Lgb;Lcjr;Z)V
+	METHOD a place (Lcqz;)Z
+	METHOD a tryPlaceWeepingVines (Lgb;Lbvs;Ljava/util/Random;)V
+	METHOD a lambda$isReplaceable$0 (ZLcjr;)Z
+	METHOD b placeHat (Lbvs;Ljava/util/Random;Lcri;Lgb;IZ)V

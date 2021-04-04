@@ -1,0 +1,5 @@
+CLASS asw net/minecraft/world/entity/ItemSteerable
+	METHOD P_ getSteeringSpeed ()F
+	METHOD Q_ boost ()Z
+	METHOD a travel (Lasz;Lasv;Ldly;)Z
+	METHOD a_ travelWithInput (Ldly;)V

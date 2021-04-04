@@ -1,0 +1,14 @@
+CLASS dfs net/minecraft/world/level/pathfinder/AmphibiousNodeEvaluator
+	FIELD l prefersShallowSwimming Z
+	FIELD m oldWalkableCost F
+	FIELD n oldWaterBorderCost F
+	METHOD <init> <init> (Z)V
+	METHOD a done ()V
+	METHOD a getGoal (DDD)Ldgc;
+	METHOD a getAcceptedNode (IIIID)Ldfw;
+	METHOD a getBlockPathType (Lbuv;III)Ldfu;
+	METHOD a evaluateBlockPathType (Lbuv;ZZLgb;Ldfu;)Ldfu;
+	METHOD a prepare (Lbwd;Lasz;)V
+	METHOD a getNeighbors ([Ldfw;Ldfw;)I
+	METHOD b getStart ()Ldfw;
+	METHOD b inWaterDependentPosHeight (Lgb;)D

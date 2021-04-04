@@ -1,0 +1,20 @@
+CLASS bgz net/minecraft/world/entity/monster/Monster
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD P shouldDespawnInPeaceful ()Z
+	METHOD a isDarkEnoughToSpawn (Lbwf;Lgb;Ljava/util/Random;)Z
+	METHOD a getWalkTargetValue (Lgb;Lbvu;)F
+	METHOD aw getSwimSound ()Laev;
+	METHOD ax getSwimSplashSound ()Laev;
+	METHOD b checkMonsterSpawnRules (Lasp;Lbwf;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD c checkAnyLightMonsterSpawnRules (Lasp;Lbvs;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD cE getSoundSource ()Laex;
+	METHOD du shouldDropExperience ()Z
+	METHOD dv shouldDropLoot ()Z
+	METHOD f isPreventingPlayerRest (Lbjf;)Z
+	METHOD f getProjectile (Lbpr;)Lbpr;
+	METHOD fr updateNoActionTime ()V
+	METHOD fs createMonsterAttributes ()Latx$a;
+	METHOD k aiStep ()V
+	METHOD p getFallDamageSound (I)Laev;
+	METHOD q getDeathSound ()Laev;

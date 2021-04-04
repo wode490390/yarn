@@ -1,0 +1,63 @@
+CLASS xj net/minecraft/server/commands/AdvancementCommands
+	FIELD a SUGGEST_ADVANCEMENTS Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a addChildren (Lad;Ljava/util/List;)V
+	METHOD a getAdvancements (Lad;Lxj$b;)Ljava/util/List;
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$15 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$10 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$register$1 (Ldg;)Z
+	METHOD a performCriterion (Ldg;Ljava/util/Collection;Lxj$a;Lad;Ljava/lang/String;)I
+	METHOD a perform (Ldg;Ljava/util/Collection;Lxj$a;Ljava/util/Collection;)I
+	METHOD b lambda$register$14 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD c lambda$register$13 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$static$0 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD d lambda$register$12 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$11 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$9 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD g lambda$register$8 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD h lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD i lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD j lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD k lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD l lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	CLASS 1 1
+	CLASS a Action
+		FIELD a GRANT Lxj$a;
+		FIELD b REVOKE Lxj$a;
+		FIELD c key Ljava/lang/String;
+		FIELD d $VALUES [Lxj$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Lxj$1;)V
+		METHOD a getKey ()Ljava/lang/String;
+		METHOD a perform (Labk;Lad;)Z
+		METHOD a performCriterion (Labk;Lad;Ljava/lang/String;)Z
+		METHOD a perform (Labk;Ljava/lang/Iterable;)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lxj$a;
+		METHOD values values ()[Lxj$a;
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a perform (Labk;Lad;)Z
+			METHOD a performCriterion (Labk;Lad;Ljava/lang/String;)Z
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a perform (Labk;Lad;)Z
+			METHOD a performCriterion (Labk;Lad;Ljava/lang/String;)Z
+	CLASS b Mode
+		FIELD a ONLY Lxj$b;
+		FIELD b THROUGH Lxj$b;
+		FIELD c FROM Lxj$b;
+		FIELD d UNTIL Lxj$b;
+		FIELD e EVERYTHING Lxj$b;
+		FIELD f parents Z
+		FIELD g children Z
+		FIELD h $VALUES [Lxj$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IZZ)V
+		METHOD a access$000 (Lxj$b;)Z
+		METHOD b access$100 (Lxj$b;)Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Lxj$b;
+		METHOD values values ()[Lxj$b;

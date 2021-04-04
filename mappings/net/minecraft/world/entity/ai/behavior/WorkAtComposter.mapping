@@ -1,0 +1,8 @@
+CLASS axl net/minecraft/world/entity/ai/behavior/WorkAtComposter
+	FIELD a COMPOSTABLE_ITEMS Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a useWorkstation (Labj;Lbis;)V
+	METHOD a compostItems (Labj;Lbis;Lgj;Lcjr;)V
+	METHOD a spawnComposterFillEffects (Labj;Lcjr;Lgb;Lcjr;)V
+	METHOD a makeBread (Lbis;)V

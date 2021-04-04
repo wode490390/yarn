@@ -1,0 +1,13 @@
+CLASS ip net/minecraft/data/loot/FishingLoot
+	FIELD a IN_JUNGLE Ldkf$a;
+	FIELD b IN_JUNGLE_HILLS Ldkf$a;
+	FIELD c IN_JUNGLE_EDGE Ldkf$a;
+	FIELD d IN_BAMBOO_JUNGLE Ldkf$a;
+	FIELD e IN_MODIFIED_JUNGLE Ldkf$a;
+	FIELD f IN_MODIFIED_JUNGLE_EDGE Ldkf$a;
+	FIELD g IN_BAMBOO_JUNGLE_HILLS Ldkf$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a accept (Ljava/util/function/BiConsumer;)V
+	METHOD a lambda$accept$0 (Lmv;)V
+	METHOD accept accept (Ljava/lang/Object;)V

@@ -1,0 +1,9 @@
+CLASS cyo net/minecraft/world/level/levelgen/placement/DecoratedDecoratorConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c outer Lcyi;
+	FIELD d inner Lcyi;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcyi;Lcyi;)V
+	METHOD a outer ()Lcyi;
+	METHOD a lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b inner ()Lcyi;

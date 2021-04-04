@@ -1,0 +1,9 @@
+CLASS bcf net/minecraft/world/entity/ai/util/DefaultRandomPos
+	METHOD <init> <init> ()V
+	METHOD a getPos (Latg;II)Ldly;
+	METHOD a getPosAway (Latg;IILdly;)Ldly;
+	METHOD a getPosTowards (Latg;IILdly;D)Ldly;
+	METHOD a lambda$getPosTowards$1 (Latg;IILdly;DZ)Lgb;
+	METHOD a lambda$getPosAway$2 (Latg;IILdly;Z)Lgb;
+	METHOD a lambda$getPos$0 (Latg;IIZ)Lgb;
+	METHOD a generateRandomPosTowardDirection (Latg;IZLgb;)Lgb;

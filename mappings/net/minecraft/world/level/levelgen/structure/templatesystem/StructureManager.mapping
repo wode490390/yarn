@@ -1,0 +1,23 @@
+CLASS dbn net/minecraft/world/level/levelgen/structure/templatesystem/StructureManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b STRUCTURE_DIRECTORY_NAME Ljava/lang/String;
+	FIELD c STRUCTURE_FILE_EXTENSION Ljava/lang/String;
+	FIELD d STRUCTURE_TEXT_FILE_EXTENSION Ljava/lang/String;
+	FIELD e structureRepository Ljava/util/Map;
+	FIELD f fixerUpper Lcom/mojang/datafixers/DataFixer;
+	FIELD g resourceManager Ladl;
+	FIELD h generatedDir Ljava/nio/file/Path;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ladl;Ldgz$a;Lcom/mojang/datafixers/DataFixer;)V
+	METHOD a onResourceManagerReload (Ladl;)V
+	METHOD a readStructure (Ljava/io/InputStream;)Ldbs;
+	METHOD a readStructure (Lmv;)Ldbs;
+	METHOD a getOrCreate (Lwp;)Ldbs;
+	METHOD a createPathToStructure (Lwp;Ljava/lang/String;)Ljava/nio/file/Path;
+	METHOD b get (Lwp;)Ldbs;
+	METHOD b createAndValidatePathToStructure (Lwp;Ljava/lang/String;)Ljava/nio/file/Path;
+	METHOD c save (Lwp;)Z
+	METHOD d remove (Lwp;)V
+	METHOD e loadFromResource (Lwp;)Ldbs;
+	METHOD f loadFromGenerated (Lwp;)Ldbs;
+	METHOD g lambda$get$0 (Lwp;)Ldbs;

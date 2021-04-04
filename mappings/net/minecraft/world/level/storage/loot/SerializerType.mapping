@@ -1,0 +1,4 @@
+CLASS dhu net/minecraft/world/level/storage/loot/SerializerType
+	FIELD a serializer Ldht;
+	METHOD <init> <init> (Ldht;)V
+	METHOD a getSerializer ()Ldht;

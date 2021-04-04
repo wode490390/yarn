@@ -1,0 +1,5 @@
+CLASS awu net/minecraft/world/entity/ai/behavior/StopBeingAngryIfTargetDead
+	METHOD <init> <init> ()V
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a start (Labj;Lasz;J)V
+	METHOD a lambda$start$0 (Labj;Lasz;Lasy;)V

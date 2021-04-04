@@ -1,0 +1,15 @@
+CLASS cvd net/minecraft/world/level/levelgen/feature/configurations/SpringConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b state Lddq;
+	FIELD c requiresBlockBelow Z
+	FIELD d rockCount I
+	FIELD e holeCount I
+	FIELD f validBlocks Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lddq;ZIILjava/util/Set;)V
+	METHOD a lambda$static$5 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$4 (Lcvd;)Ljava/util/Set;
+	METHOD b lambda$null$3 (Lcvd;)Ljava/lang/Integer;
+	METHOD c lambda$null$2 (Lcvd;)Ljava/lang/Integer;
+	METHOD d lambda$null$1 (Lcvd;)Ljava/lang/Boolean;
+	METHOD e lambda$null$0 (Lcvd;)Lddq;

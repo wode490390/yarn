@@ -1,0 +1,8 @@
+CLASS kd net/minecraft/data/structures/StructureUpdater
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a apply (Ljava/lang/String;Lmv;)Lmv;
+	METHOD a patchVersion (Lmv;)Lmv;
+	METHOD b update (Ljava/lang/String;Lmv;)Lmv;
+	METHOD c updateStructure (Ljava/lang/String;Lmv;)Lmv;

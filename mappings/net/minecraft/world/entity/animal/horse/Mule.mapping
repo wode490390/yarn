@@ -1,0 +1,9 @@
+CLASS bep net/minecraft/world/entity/animal/horse/Mule
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a getBreedOffspring (Labj;Lasj;)Lasj;
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD fH getEatingSound ()Laev;
+	METHOD fI getAngrySound ()Laev;
+	METHOD fp playChestEquipsSound ()V
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;

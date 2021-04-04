@@ -1,0 +1,17 @@
+CLASS dgw net/minecraft/world/level/storage/LevelData
+	METHOD a getXSpawn ()I
+	METHOD a lambda$fillCrashReportCategory$0 (Lbvt;)Ljava/lang/String;
+	METHOD a fillCrashReportCategory (Lr;Lbvt;)V
+	METHOD b getYSpawn ()I
+	METHOD b setRaining (Z)V
+	METHOD c getZSpawn ()I
+	METHOD d getSpawnAngle ()F
+	METHOD e getGameTime ()J
+	METHOD f getDayTime ()J
+	METHOD g lambda$fillCrashReportCategory$1 ()Ljava/lang/String;
+	METHOD i isThundering ()Z
+	METHOD k isRaining ()Z
+	METHOD n isHardcore ()Z
+	METHOD q getGameRules ()Lbvn;
+	METHOD s getDifficulty ()Lard;
+	METHOD t isDifficultyLocked ()Z

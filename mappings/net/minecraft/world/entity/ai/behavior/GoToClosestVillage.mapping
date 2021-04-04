@@ -1,0 +1,9 @@
+CLASS ava net/minecraft/world/entity/ai/behavior/GoToClosestVillage
+	FIELD a speedModifier F
+	FIELD c closeEnoughDistance I
+	METHOD <init> <init> (FI)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lbis;)Z
+	METHOD a start (Labj;Lbis;J)V
+	METHOD a lambda$start$0 (Lbco;Lgb;)D

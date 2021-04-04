@@ -1,0 +1,8 @@
+CLASS dfc net/minecraft/world/level/newbiome/layer/SmoothLayer
+	FIELD a INSTANCE Ldfc;
+	FIELD ar $VALUES [Ldfc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Ldee;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldfc;
+	METHOD values values ()[Ldfc;

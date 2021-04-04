@@ -1,0 +1,13 @@
+CLASS ai net/minecraft/advancements/Criterion
+	FIELD a trigger Lal;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lal;)V
+	METHOD a getTrigger ()Lal;
+	METHOD a criterionFromJson (Lcom/google/gson/JsonObject;Lbc;)Lai;
+	METHOD a serializeToNetwork (Ljava/util/Map;Lob;)V
+	METHOD a serializeToNetwork (Lob;)V
+	METHOD a lambda$serializeToNetwork$0 (Lob;Lai;)V
+	METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD b criteriaFromJson (Lcom/google/gson/JsonObject;Lbc;)Ljava/util/Map;
+	METHOD b criterionFromNetwork (Lob;)Lai;
+	METHOD c criteriaFromNetwork (Lob;)Ljava/util/Map;

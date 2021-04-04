@@ -1,0 +1,15 @@
+CLASS amc net/minecraft/util/datafix/fixes/SavedDataFeaturePoolElementFix
+	FIELD a INDEX_PATTERN Ljava/util/regex/Pattern;
+	FIELD b PIECE_TYPE Ljava/util/Set;
+	FIELD c FEATURES Ljava/util/Set;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a fixFeature (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a get (Lcom/mojang/serialization/Dynamic;[Ljava/lang/String;)Lcom/mojang/serialization/OptionalDynamic;
+	METHOD a getReplacement (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Optional;
+	METHOD a updateChildren (Ljava/util/stream/Stream;)Ljava/util/stream/Stream;
+	METHOD b fixTag (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD c updateChildren (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD d lambda$updateChildren$1 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD e lambda$null$0 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

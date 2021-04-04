@@ -1,0 +1,10 @@
+CLASS bmt net/minecraft/world/inventory/PlayerEnderChestContainer
+	FIELD b activeChest Lcie;
+	METHOD <init> <init> ()V
+	METHOD a stillValid (Lbjf;)Z
+	METHOD a setActiveChest (Lcie;)V
+	METHOD a fromTag (Lnb;)V
+	METHOD b isActiveChest (Lcie;)Z
+	METHOD b_ stopOpen (Lbjf;)V
+	METHOD c_ startOpen (Lbjf;)V
+	METHOD g createTag ()Lnb;

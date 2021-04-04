@@ -1,0 +1,7 @@
+CLASS bpy net/minecraft/world/item/MilkBucketItem
+	FIELD a DRINK_DURATION I
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a finishUsingItem (Lbpr;Lbvr;Lasy;)Lbpr;
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD d_ getUseAnimation (Lbpr;)Lbrg;
+	METHOD e_ getUseDuration (Lbpr;)I

@@ -1,0 +1,7 @@
+CLASS bra net/minecraft/world/item/Tier
+	METHOD a getUses ()I
+	METHOD b getSpeed ()F
+	METHOD c getAttackDamageBonus ()F
+	METHOD d getLevel ()I
+	METHOD e getEnchantmentValue ()I
+	METHOD f getRepairIngredient ()Lbsg;

@@ -1,0 +1,34 @@
+CLASS xe net/minecraft/server/ServerScoreboard
+	FIELD h server Lnet/minecraft/server/MinecraftServer;
+	FIELD i trackedObjectives Ljava/util/Set;
+	FIELD j dirtyListeners Ljava/util/List;
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+	METHOD a setDirty ()V
+	METHOD a setDisplayObjective (ILdmt;)V
+	METHOD a onObjectiveAdded (Ldmt;)V
+	METHOD a onTeamAdded (Ldmu;)V
+	METHOD a onScoreChanged (Ldmv;)V
+	METHOD a addDirtyListener (Ljava/lang/Runnable;)V
+	METHOD a onPlayerRemoved (Ljava/lang/String;)V
+	METHOD a onPlayerScoreRemoved (Ljava/lang/String;Ldmt;)V
+	METHOD a addPlayerToTeam (Ljava/lang/String;Ldmu;)Z
+	METHOD a createData (Lmv;)Ldmx;
+	METHOD b createData ()Ldmx;
+	METHOD b onObjectiveChanged (Ldmt;)V
+	METHOD b onTeamChanged (Ldmu;)V
+	METHOD b removePlayerFromTeam (Ljava/lang/String;Ldmu;)V
+	METHOD c onObjectiveRemoved (Ldmt;)V
+	METHOD c onTeamRemoved (Ldmu;)V
+	METHOD d getStartTrackingPackets (Ldmt;)Ljava/util/List;
+	METHOD e startTrackingObjective (Ldmt;)V
+	METHOD f getStopTrackingPackets (Ldmt;)Ljava/util/List;
+	METHOD g stopTrackingObjective (Ldmt;)V
+	METHOD h getObjectiveDisplaySlotCount (Ldmt;)I
+	CLASS a Method
+		FIELD a CHANGE Lxe$a;
+		FIELD b REMOVE Lxe$a;
+		FIELD c $VALUES [Lxe$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lxe$a;
+		METHOD values values ()[Lxe$a;

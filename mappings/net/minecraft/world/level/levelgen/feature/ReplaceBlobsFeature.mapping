@@ -1,0 +1,4 @@
+CLASS csg net/minecraft/world/level/levelgen/feature/ReplaceBlobsFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a findTarget (Lbvs;Lgb$a;Lbyq;)Lgb;
+	METHOD a place (Lcqz;)Z

@@ -1,0 +1,19 @@
+CLASS cri net/minecraft/world/level/levelgen/feature/HugeFungusConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b HUGE_CRIMSON_FUNGI_PLANTED_CONFIG Lcri;
+	FIELD c HUGE_CRIMSON_FUNGI_NOT_PLANTED_CONFIG Lcri;
+	FIELD d HUGE_WARPED_FUNGI_PLANTED_CONFIG Lcri;
+	FIELD e HUGE_WARPED_FUNGI_NOT_PLANTED_CONFIG Lcri;
+	FIELD f validBaseState Lcjr;
+	FIELD g stemState Lcjr;
+	FIELD h hatState Lcjr;
+	FIELD i decorState Lcjr;
+	FIELD j planted Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjr;Lcjr;Lcjr;Lcjr;Z)V
+	METHOD a lambda$static$5 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$4 (Lcri;)Ljava/lang/Boolean;
+	METHOD b lambda$null$3 (Lcri;)Lcjr;
+	METHOD c lambda$null$2 (Lcri;)Lcjr;
+	METHOD d lambda$null$1 (Lcri;)Lcjr;
+	METHOD e lambda$null$0 (Lcri;)Lcjr;

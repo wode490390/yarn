@@ -1,0 +1,9 @@
+CLASS bkz net/minecraft/world/entity/vehicle/MinecartChest
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDD)V
+	METHOD a createMenu (ILbje;)Lbll;
+	METHOD a destroy (Larv;)V
+	METHOD ab_ getContainerSize ()I
+	METHOD o getMinecartType ()Lbku$a;
+	METHOD q getDefaultDisplayBlockState ()Lcjr;
+	METHOD s getDefaultDisplayOffset ()I

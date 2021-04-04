@@ -1,0 +1,8 @@
+CLASS rw net/minecraft/network/protocol/game/ClientboundSetBorderSizePacket
+	FIELD a size D
+	METHOD <init> <init> (Lclh;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getSize ()D

@@ -1,0 +1,14 @@
+CLASS agf net/minecraft/util/DirectoryLock
+	FIELD a LOCK_FILE Ljava/lang/String;
+	FIELD b lockFile Ljava/nio/channels/FileChannel;
+	FIELD c lock Ljava/nio/channels/FileLock;
+	FIELD d DUMMY Ljava/nio/ByteBuffer;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/nio/channels/FileChannel;Ljava/nio/channels/FileLock;)V
+	METHOD a isValid ()Z
+	METHOD a create (Ljava/nio/file/Path;)Lagf;
+	METHOD b isLocked (Ljava/nio/file/Path;)Z
+	METHOD close close ()V
+	CLASS a LockException
+		METHOD <init> <init> (Ljava/nio/file/Path;Ljava/lang/String;)V
+		METHOD a alreadyLocked (Ljava/nio/file/Path;)Lagf$a;

@@ -1,0 +1,13 @@
+CLASS zq net/minecraft/server/commands/SummonCommand
+	FIELD a ERROR_FAILED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_DUPLICATE_UUID Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c INVALID_POSITION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Ldg;)Z
+	METHOD a spawnEntity (Ldg;Lwp;Ldly;Lmv;Z)I
+	METHOD a lambda$spawnEntity$4 (Ldly;Lasl;)Lasl;
+	METHOD b lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

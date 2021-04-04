@@ -1,0 +1,14 @@
+CLASS aer net/minecraft/server/rcon/thread/RconThread
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e socket Ljava/net/ServerSocket;
+	FIELD f rconPassword Ljava/lang/String;
+	FIELD g clients Ljava/util/List;
+	FIELD h serverInterface Lxc;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lxc;Ljava/net/ServerSocket;Ljava/lang/String;)V
+	METHOD a lambda$clearClients$0 (Laeq;)Z
+	METHOD a closeSocket (Ljava/net/ServerSocket;)V
+	METHOD a create (Lxc;)Laer;
+	METHOD b stop ()V
+	METHOD d clearClients ()V
+	METHOD run run ()V

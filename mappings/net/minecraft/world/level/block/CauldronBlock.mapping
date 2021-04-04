@@ -1,0 +1,7 @@
+CLASS bzi net/minecraft/world/level/block/CauldronBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a shouldHandlePrecipitation (Lbvr;)Z
+	METHOD a handlePrecipitation (Lcjr;Lbvr;Lgb;Lbwq$e;)V
+	METHOD a receiveStalactiteDrip (Lcjr;Lbvr;Lgb;Lddp;)V
+	METHOD a canReceiveStalactiteDrip (Lddp;)Z
+	METHOD c isFull (Lcjr;)Z

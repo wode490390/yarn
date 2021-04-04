@@ -1,0 +1,23 @@
+CLASS rp net/minecraft/network/protocol/game/ClientboundRespawnPacket
+	FIELD a dimensionType Lcmt;
+	FIELD b dimension Lwo;
+	FIELD c seed J
+	FIELD d playerGameType Lbvo;
+	FIELD e previousPlayerGameType Lbvo;
+	FIELD f isDebug Z
+	FIELD g isFlat Z
+	FIELD h keepAllPlayerData Z
+	METHOD <init> <init> (Lcmt;Lwo;JLbvo;Lbvo;ZZZ)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getDimensionType ()Lcmt;
+	METHOD c getDimension ()Lwo;
+	METHOD d getSeed ()J
+	METHOD e getPlayerGameType ()Lbvo;
+	METHOD f getPreviousPlayerGameType ()Lbvo;
+	METHOD g isDebug ()Z
+	METHOD h isFlat ()Z
+	METHOD i shouldKeepAllPlayerData ()Z
+	METHOD j lambda$write$0 ()Lcmt;

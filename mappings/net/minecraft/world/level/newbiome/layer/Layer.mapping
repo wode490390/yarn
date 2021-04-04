@@ -1,0 +1,6 @@
+CLASS dep net/minecraft/world/level/newbiome/layer/Layer
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b area Ldeb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldea;)V
+	METHOD a get (Lgr;II)Lbwq;

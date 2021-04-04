@@ -1,0 +1,17 @@
+CLASS cye net/minecraft/world/level/levelgen/placement/CaveSurface
+	FIELD a CEILING Lcye;
+	FIELD b FLOOR Lcye;
+	FIELD c CODEC Lcom/mojang/serialization/Codec;
+	FIELD d direction Lgg;
+	FIELD e y I
+	FIELD f id Ljava/lang/String;
+	FIELD g VALUES [Lcye;
+	FIELD h $VALUES [Lcye;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILgg;ILjava/lang/String;)V
+	METHOD a getDirection ()Lgg;
+	METHOD a byName (Ljava/lang/String;)Lcye;
+	METHOD b getY ()I
+	METHOD c getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcye;
+	METHOD values values ()[Lcye;

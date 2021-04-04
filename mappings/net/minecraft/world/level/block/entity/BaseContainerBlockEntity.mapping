@@ -1,0 +1,15 @@
+CLASS chj net/minecraft/world/level/block/entity/BaseContainerBlockEntity
+	FIELD b lockKey Lari;
+	FIELD c name Lon;
+	METHOD <init> <init> (Lchr;Lgb;Lcjr;)V
+	METHOD R getName ()Lon;
+	METHOD T getCustomName ()Lon;
+	METHOD a createMenu (ILbje;)Lbll;
+	METHOD a canUnlock (Lbjf;Lari;Lon;)Z
+	METHOD a load (Lmv;)V
+	METHOD a setCustomName (Lon;)V
+	METHOD b save (Lmv;)Lmv;
+	METHOD createMenu createMenu (ILbje;Lbjf;)Lbll;
+	METHOD d getDisplayName ()Lon;
+	METHOD d canOpen (Lbjf;)Z
+	METHOD g getDefaultName ()Lon;

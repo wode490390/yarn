@@ -1,0 +1,9 @@
+CLASS ced net/minecraft/world/level/block/RenderShape
+	FIELD a INVISIBLE Lced;
+	FIELD b ENTITYBLOCK_ANIMATED Lced;
+	FIELD c MODEL Lced;
+	FIELD d $VALUES [Lced;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lced;
+	METHOD values values ()[Lced;

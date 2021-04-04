@@ -1,0 +1,8 @@
+CLASS ty net/minecraft/network/protocol/game/ServerboundLockDifficultyPacket
+	FIELD a locked Z
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Z)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b isLocked ()Z

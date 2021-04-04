@@ -1,0 +1,26 @@
+CLASS pb net/minecraft/network/chat/TranslatableComponent
+	FIELD d NO_ARGS [Ljava/lang/Object;
+	FIELD e TEXT_PERCENT Loq;
+	FIELD f TEXT_NULL Loq;
+	FIELD g key Ljava/lang/String;
+	FIELD h args [Ljava/lang/Object;
+	FIELD i decomposedWith Lmq;
+	FIELD j decomposedParts Ljava/util/List;
+	FIELD k FORMAT_PATTERN Ljava/util/regex/Pattern;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD <init> <init> (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD a resolve (Ldg;Lasl;I)Lot;
+	METHOD b getArgument (I)Loq;
+	METHOD b visitSelf (Loq$a;)Ljava/util/Optional;
+	METHOD b visitSelf (Loq$b;Lox;)Ljava/util/Optional;
+	METHOD d plainCopy ()Loj;
+	METHOD d decomposeTemplate (Ljava/lang/String;)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD g plainCopy ()Lot;
+	METHOD h plainCopy ()Lpb;
+	METHOD hashCode hashCode ()I
+	METHOD i getKey ()Ljava/lang/String;
+	METHOD j getArgs ()[Ljava/lang/Object;
+	METHOD k decompose ()V
+	METHOD toString toString ()Ljava/lang/String;

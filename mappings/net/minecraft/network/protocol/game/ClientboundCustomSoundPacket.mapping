@@ -1,0 +1,21 @@
+CLASS qi net/minecraft/network/protocol/game/ClientboundCustomSoundPacket
+	FIELD a LOCATION_ACCURACY F
+	FIELD b name Lwp;
+	FIELD c source Laex;
+	FIELD d x I
+	FIELD e y I
+	FIELD f z I
+	FIELD g volume F
+	FIELD h pitch F
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lwp;Laex;Ldly;FF)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getName ()Lwp;
+	METHOD c getSource ()Laex;
+	METHOD d getX ()D
+	METHOD e getY ()D
+	METHOD f getZ ()D
+	METHOD g getVolume ()F
+	METHOD h getPitch ()F

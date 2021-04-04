@@ -1,0 +1,11 @@
+CLASS sx net/minecraft/network/protocol/game/ClientboundTagQueryPacket
+	FIELD a transactionId I
+	FIELD b tag Lmv;
+	METHOD <init> <init> (ILmv;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a isSkippable ()Z
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getTransactionId ()I
+	METHOD c getTag ()Lmv;

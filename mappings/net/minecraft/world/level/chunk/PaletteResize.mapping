@@ -1,0 +1,2 @@
+CLASS cmb net/minecraft/world/level/chunk/PaletteResize
+	METHOD onResize onResize (ILjava/lang/Object;)I

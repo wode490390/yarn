@@ -1,0 +1,47 @@
+CLASS dmy net/minecraft/world/scores/Team
+	METHOD <init> <init> ()V
+	METHOD a isAlliedTo (Ldmy;)Z
+	METHOD b getName ()Ljava/lang/String;
+	METHOD d getFormattedName (Lon;)Lot;
+	METHOD g getPlayers ()Ljava/util/Collection;
+	METHOD h isAllowFriendlyFire ()Z
+	METHOD i canSeeFriendlyInvisibles ()Z
+	METHOD j getNameTagVisibility ()Ldmy$b;
+	METHOD k getDeathMessageVisibility ()Ldmy$b;
+	METHOD l getCollisionRule ()Ldmy$a;
+	METHOD n getColor ()Lp;
+	CLASS a CollisionRule
+		FIELD a ALWAYS Ldmy$a;
+		FIELD b NEVER Ldmy$a;
+		FIELD c PUSH_OTHER_TEAMS Ldmy$a;
+		FIELD d PUSH_OWN_TEAM Ldmy$a;
+		FIELD e name Ljava/lang/String;
+		FIELD f id I
+		FIELD g BY_NAME Ljava/util/Map;
+		FIELD h $VALUES [Ldmy$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;I)V
+		METHOD a getDisplayName ()Lon;
+		METHOD a lambda$static$1 (Ldmy$a;)Ldmy$a;
+		METHOD a byName (Ljava/lang/String;)Ldmy$a;
+		METHOD b lambda$static$0 (Ldmy$a;)Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldmy$a;
+		METHOD values values ()[Ldmy$a;
+	CLASS b Visibility
+		FIELD a ALWAYS Ldmy$b;
+		FIELD b NEVER Ldmy$b;
+		FIELD c HIDE_FOR_OTHER_TEAMS Ldmy$b;
+		FIELD d HIDE_FOR_OWN_TEAM Ldmy$b;
+		FIELD e name Ljava/lang/String;
+		FIELD f id I
+		FIELD g BY_NAME Ljava/util/Map;
+		FIELD h $VALUES [Ldmy$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;I)V
+		METHOD a getAllNames ()[Ljava/lang/String;
+		METHOD a lambda$static$1 (Ldmy$b;)Ldmy$b;
+		METHOD a byName (Ljava/lang/String;)Ldmy$b;
+		METHOD b getDisplayName ()Lon;
+		METHOD b lambda$static$0 (Ldmy$b;)Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldmy$b;
+		METHOD values values ()[Ldmy$b;

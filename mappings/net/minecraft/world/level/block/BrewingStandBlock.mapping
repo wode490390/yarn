@@ -1,0 +1,17 @@
+CLASS byt net/minecraft/world/level/block/BrewingStandBlock
+	FIELD a HAS_BOTTLE [Lcki;
+	FIELD b SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getTicker (Lbvr;Lcjr;Lchr;)Lchq;
+	METHOD a setPlacedBy (Lbvr;Lgb;Lcjr;Lasy;Lbpr;)V
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a getAnalogOutputSignal (Lcjr;Lbvr;Lgb;)I
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a onRemove (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;
+	METHOD b_ getRenderShape (Lcjr;)Lced;
+	METHOD g_ hasAnalogOutputSignal (Lcjr;)Z

@@ -1,0 +1,14 @@
+CLASS cdb net/minecraft/world/level/block/MushroomBlock
+	FIELD a AABB_OFFSET F
+	FIELD b SHAPE Ldmr;
+	FIELD c featureSupplier Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;Ljava/util/function/Supplier;)V
+	METHOD a growMushroom (Labj;Lgb;Lcjr;Ljava/util/Random;)Z
+	METHOD a performBonemeal (Labj;Ljava/util/Random;Lgb;Lcjr;)V
+	METHOD a isValidBonemealTarget (Lbuv;Lgb;Lcjr;Z)Z
+	METHOD a isBonemealSuccess (Lbvr;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD d mayPlaceOn (Lcjr;Lbuv;Lgb;)Z

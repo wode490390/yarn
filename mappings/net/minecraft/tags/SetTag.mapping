@@ -1,0 +1,11 @@
+CLASS afp net/minecraft/tags/SetTag
+	FIELD a closestCommonSuperType Ljava/lang/Class;
+	FIELD b valuesList Lcom/google/common/collect/ImmutableList;
+	FIELD c values Ljava/util/Set;
+	METHOD <init> <init> (Ljava/util/Set;Ljava/lang/Class;)V
+	METHOD a empty ()Lafp;
+	METHOD a findClosestAncestor (Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/Class;
+	METHOD a contains (Ljava/lang/Object;)Z
+	METHOD a create (Ljava/util/Set;)Lafp;
+	METHOD b getValues ()Ljava/util/List;
+	METHOD c findCommonSuperClass (Ljava/util/Set;)Ljava/lang/Class;

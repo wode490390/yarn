@@ -1,0 +1,22 @@
+CLASS bjn net/minecraft/world/entity/projectile/EvokerFangs
+	FIELD ar lifeTicks I
+	FIELD as clientSideAttackStarted Z
+	FIELD at owner Lasy;
+	FIELD au ownerUUID Ljava/util/UUID;
+	FIELD b ATTACK_DURATION I
+	FIELD c LIFE_OFFSET I
+	FIELD d ATTACK_TRIGGER_TICKS I
+	FIELD e warmupDelayTicks I
+	FIELD f sentSpikeEvent Z
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDDFILasy;)V
+	METHOD O getAddEntityPacket ()Lpf;
+	METHOD a handleEntityEvent (B)V
+	METHOD a getAnimationProgress (F)F
+	METHOD a setOwner (Lasy;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c dealDamageTo (Lasy;)V
+	METHOD e defineSynchedData ()V
+	METHOD g getOwner ()Lasy;
+	METHOD j tick ()V

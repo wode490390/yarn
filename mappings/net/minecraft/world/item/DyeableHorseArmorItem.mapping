@@ -1,0 +1,2 @@
+CLASS boq net/minecraft/world/item/DyeableHorseArmorItem
+	METHOD <init> <init> (ILjava/lang/String;Lbpn$a;)V

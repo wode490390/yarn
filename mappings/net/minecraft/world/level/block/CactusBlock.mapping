@@ -1,0 +1,17 @@
+CLASS byz net/minecraft/world/level/block/CactusBlock
+	FIELD a AGE Lckr;
+	FIELD b MAX_AGE I
+	FIELD c AABB_OFFSET I
+	FIELD d COLLISION_SHAPE Ldmr;
+	FIELD e OUTLINE_SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a entityInside (Lcjr;Lbvr;Lgb;Lasl;)V
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD c getCollisionShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;

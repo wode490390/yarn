@@ -1,0 +1,6 @@
+CLASS bme net/minecraft/world/inventory/FurnaceFuelSlot
+	FIELD a menu Lblm;
+	METHOD <init> <init> (Lblm;Laqz;III)V
+	METHOD a mayPlace (Lbpr;)Z
+	METHOD b getMaxStackSize (Lbpr;)I
+	METHOD c_ isBucket (Lbpr;)Z

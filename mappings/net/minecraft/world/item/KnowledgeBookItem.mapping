@@ -1,0 +1,6 @@
+CLASS bpu net/minecraft/world/item/KnowledgeBookItem
+	FIELD a RECIPE_TAG Ljava/lang/String;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;

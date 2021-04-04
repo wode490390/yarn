@@ -1,0 +1,25 @@
+CLASS cgr net/minecraft/world/level/block/WeatheringCopper
+	FIELD r_ PREVIOUS_BY_BLOCK Ljava/util/function/Supplier;
+	FIELD s_ NEXT_BY_BLOCK Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD a getChanceModifier ()F
+	METHOD a getPrevious (Lbyq;)Ljava/util/Optional;
+	METHOD a getNext (Lcjr;)Ljava/util/Optional;
+	METHOD a lambda$getNext$3 (Lcjr;Lbyq;)Lcjr;
+	METHOD b getFirst (Lbyq;)Lbyq;
+	METHOD b getPrevious (Lcjr;)Ljava/util/Optional;
+	METHOD b lambda$getPrevious$2 (Lcjr;Lbyq;)Lcjr;
+	METHOD c getNext (Lbyq;)Ljava/util/Optional;
+	METHOD c getFirst (Lcjr;)Lcjr;
+	METHOD d lambda$static$1 ()Lcom/google/common/collect/BiMap;
+	METHOD e lambda$static$0 ()Lcom/google/common/collect/BiMap;
+	CLASS a WeatherState
+		FIELD a UNAFFECTED Lcgr$a;
+		FIELD b EXPOSED Lcgr$a;
+		FIELD c WEATHERED Lcgr$a;
+		FIELD d OXIDIZED Lcgr$a;
+		FIELD e $VALUES [Lcgr$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcgr$a;
+		METHOD values values ()[Lcgr$a;

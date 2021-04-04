@@ -1,0 +1,11 @@
+CLASS dgb net/minecraft/world/level/pathfinder/SwimNodeEvaluator
+	FIELD j allowBreaching Z
+	METHOD <init> <init> (Z)V
+	METHOD a getGoal (DDD)Ldgc;
+	METHOD a getNode (III)Ldfw;
+	METHOD a getBlockPathType (Lbuv;III)Ldfu;
+	METHOD a getBlockPathType (Lbuv;IIILasz;IIIZZ)Ldfu;
+	METHOD a getNeighbors ([Ldfw;Ldfw;)I
+	METHOD b getStart ()Ldfw;
+	METHOD b getWaterNode (III)Ldfw;
+	METHOD c isFree (III)Ldfu;

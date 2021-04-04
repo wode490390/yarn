@@ -1,0 +1,11 @@
+CLASS dbj net/minecraft/world/level/levelgen/structure/templatesystem/RandomBlockStateMatchTest
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b blockState Lcjr;
+	FIELD d probability F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjr;F)V
+	METHOD a getType ()Ldbm;
+	METHOD a test (Lcjr;Ljava/util/Random;)Z
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$1 (Ldbj;)Ljava/lang/Float;
+	METHOD b lambda$null$0 (Ldbj;)Lcjr;

@@ -1,0 +1,8 @@
+CLASS bio net/minecraft/world/entity/npc/CatSpawner
+	FIELD a TICK_DELAY I
+	FIELD b nextTick I
+	METHOD <init> <init> ()V
+	METHOD a spawnInVillage (Labj;Lgb;)I
+	METHOD a tick (Labj;ZZ)I
+	METHOD a spawnCat (Lgb;Labj;)I
+	METHOD b spawnInHut (Labj;Lgb;)I

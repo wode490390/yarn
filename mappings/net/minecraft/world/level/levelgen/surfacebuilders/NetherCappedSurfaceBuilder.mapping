@@ -1,0 +1,15 @@
+CLASS dce net/minecraft/world/level/levelgen/surfacebuilders/NetherCappedSurfaceBuilder
+	FIELD a seed J
+	FIELD b floorNoises Lcom/google/common/collect/ImmutableMap;
+	FIELD c ceilingNoises Lcom/google/common/collect/ImmutableMap;
+	FIELD d patchNoise Ldcu;
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getFloorBlockStates ()Lcom/google/common/collect/ImmutableList;
+	METHOD a lambda$apply$1 (IIILjava/util/Map$Entry;)Ljava/lang/Double;
+	METHOD a initNoise (J)V
+	METHOD a initPerlinNoises (Lcom/google/common/collect/ImmutableList;J)Lcom/google/common/collect/ImmutableMap;
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcl;)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcm;)V
+	METHOD b getCeilingBlockStates ()Lcom/google/common/collect/ImmutableList;
+	METHOD b lambda$apply$0 (IIILjava/util/Map$Entry;)Ljava/lang/Double;
+	METHOD c getPatchBlockState ()Lcjr;

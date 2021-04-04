@@ -1,0 +1,8 @@
+CLASS rz net/minecraft/network/protocol/game/ClientboundSetCameraPacket
+	FIELD a cameraId I
+	METHOD <init> <init> (Lasl;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a getEntity (Lbvr;)Lasl;
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V

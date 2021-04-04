@@ -1,0 +1,13 @@
+CLASS baz net/minecraft/world/entity/ai/navigation/FlyingPathNavigation
+	METHOD <init> <init> (Lasz;Lbvr;)V
+	METHOD a canUpdatePath ()Z
+	METHOD a createPathFinder (I)Ldga;
+	METHOD a createPath (Lasl;I)Ldfy;
+	METHOD a canMoveDirectly (Ldly;Ldly;III)Z
+	METHOD a isStableDestination (Lgb;)Z
+	METHOD a setCanOpenDoors (Z)V
+	METHOD b getTempMobPos ()Ldly;
+	METHOD b setCanPassDoors (Z)V
+	METHOD c tick ()V
+	METHOD d canPassDoors ()Z
+	METHOD e canOpenDoors ()Z

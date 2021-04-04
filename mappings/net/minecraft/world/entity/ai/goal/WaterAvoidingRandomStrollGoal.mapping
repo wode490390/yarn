@@ -1,0 +1,6 @@
+CLASS bac net/minecraft/world/entity/ai/goal/WaterAvoidingRandomStrollGoal
+	FIELD i PROBABILITY F
+	FIELD j probability F
+	METHOD <init> <init> (Latg;D)V
+	METHOD <init> <init> (Latg;DF)V
+	METHOD g getPosition ()Ldly;

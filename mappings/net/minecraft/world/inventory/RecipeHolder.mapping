@@ -1,0 +1,5 @@
+CLASS bmw net/minecraft/world/inventory/RecipeHolder
+	METHOD a setRecipeUsed (Lbsj;)V
+	METHOD a setRecipeUsed (Lbvr;Labk;Lbsj;)Z
+	METHOD ap_ getRecipeUsed ()Lbsj;
+	METHOD b awardUsedRecipes (Lbjf;)V

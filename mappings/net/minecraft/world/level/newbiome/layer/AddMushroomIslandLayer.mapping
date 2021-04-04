@@ -1,0 +1,8 @@
+CLASS dek net/minecraft/world/level/newbiome/layer/AddMushroomIslandLayer
+	FIELD a INSTANCE Ldek;
+	FIELD ar $VALUES [Ldek;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Ldee;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldek;
+	METHOD values values ()[Ldek;

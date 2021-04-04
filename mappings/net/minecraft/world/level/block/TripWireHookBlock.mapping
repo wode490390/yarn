@@ -1,0 +1,33 @@
+CLASS cgg net/minecraft/world/level/block/TripWireHookBlock
+	FIELD a FACING Lckl;
+	FIELD b POWERED Lcki;
+	FIELD c ATTACHED Lcki;
+	FIELD d WIRE_DIST_MIN I
+	FIELD e WIRE_DIST_MAX I
+	FIELD f AABB_OFFSET I
+	FIELD g NORTH_AABB Ldmr;
+	FIELD h SOUTH_AABB Ldmr;
+	FIELD i WEST_AABB Ldmr;
+	FIELD j EAST_AABB Ldmr;
+	FIELD k RECHECK_PERIOD I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a setPlacedBy (Lbvr;Lgb;Lcjr;Lasy;Lbpr;)V
+	METHOD a calculateState (Lbvr;Lgb;Lcjr;ZZILcjr;)V
+	METHOD a notifyNeighbors (Lbvr;Lgb;Lgg;)V
+	METHOD a playSound (Lbvr;Lgb;ZZZZ)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a getSignal (Lcjr;Lbuv;Lgb;Lgg;)I
+	METHOD a onRemove (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b getDirectSignal (Lcjr;Lbuv;Lgb;Lgg;)I
+	METHOD e_ isSignalSource (Lcjr;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

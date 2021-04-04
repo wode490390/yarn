@@ -1,0 +1,18 @@
+CLASS ch net/minecraft/advancements/critereon/NetherTravelTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;Ldly;)V
+	METHOD a lambda$trigger$0 (Labk;Ldly;Lch$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lch$a;
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a entered Lcb;
+		FIELD b exited Lcb;
+		FIELD c distance Lbd;
+		METHOD <init> <init> (Lbl$b;Lcb;Lcb;Lbd;)V
+		METHOD a matches (Labj;Ldly;DDD)Z
+		METHOD a travelledThroughNether (Lbd;)Lch$a;
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;

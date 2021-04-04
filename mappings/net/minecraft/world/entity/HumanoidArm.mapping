@@ -1,0 +1,12 @@
+CLASS asu net/minecraft/world/entity/HumanoidArm
+	FIELD a LEFT Lasu;
+	FIELD b RIGHT Lasu;
+	FIELD c name Lon;
+	FIELD d $VALUES [Lasu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILon;)V
+	METHOD a getOpposite ()Lasu;
+	METHOD b getName ()Lon;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lasu;
+	METHOD values values ()[Lasu;

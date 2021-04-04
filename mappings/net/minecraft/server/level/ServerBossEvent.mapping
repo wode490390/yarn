@@ -1,0 +1,19 @@
+CLASS abg net/minecraft/server/level/ServerBossEvent
+	FIELD h players Ljava/util/Set;
+	FIELD i unmodifiablePlayers Ljava/util/Set;
+	FIELD j visible Z
+	METHOD <init> <init> (Lon;Laqw$a;Laqw$b;)V
+	METHOD a setProgress (F)V
+	METHOD a addPlayer (Labk;)V
+	METHOD a setColor (Laqw$a;)V
+	METHOD a setOverlay (Laqw$b;)V
+	METHOD a broadcast (Ljava/util/function/Function;)V
+	METHOD a setName (Lon;)V
+	METHOD a setDarkenScreen (Z)Laqw;
+	METHOD b removeAllPlayers ()V
+	METHOD b removePlayer (Labk;)V
+	METHOD b setPlayBossMusic (Z)Laqw;
+	METHOD c setCreateWorldFog (Z)Laqw;
+	METHOD d setVisible (Z)V
+	METHOD g isVisible ()Z
+	METHOD h getPlayers ()Ljava/util/Collection;

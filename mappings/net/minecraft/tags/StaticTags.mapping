@@ -1,0 +1,17 @@
+CLASS afr net/minecraft/tags/StaticTags
+	FIELD a HELPERS_IDS Ljava/util/Set;
+	FIELD b HELPERS Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a resetAllToEmpty ()V
+	METHOD a lambda$createCollection$2 (Lafu$a;Lafq;)V
+	METHOD a resetAll (Lafu;)V
+	METHOD a lambda$resetAll$0 (Lafu;Lafq;)V
+	METHOD a lambda$getAllMissingTags$1 (Lcom/google/common/collect/Multimap;Lafu;Lafq;)V
+	METHOD a visitHelpers (Ljava/util/function/Consumer;)V
+	METHOD a create (Lwo;Ljava/lang/String;)Lafq;
+	METHOD b bootStrap ()V
+	METHOD b getAllMissingTags (Lafu;)Lcom/google/common/collect/Multimap;
+	METHOD c createCollection ()Lafu;
+	METHOD d getAllKnownHelpers ()Ljava/util/Set;
+	METHOD e makeSureAllKnownHelpersAreLoaded ()V

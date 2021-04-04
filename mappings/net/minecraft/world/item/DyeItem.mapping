@@ -1,0 +1,8 @@
+CLASS boo net/minecraft/world/item/DyeItem
+	FIELD a ITEM_BY_COLOR Ljava/util/Map;
+	FIELD b dyeColor Lbon;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbon;Lbpn$a;)V
+	METHOD a byColor (Lbon;)Lboo;
+	METHOD a interactLivingEntity (Lbpr;Lbjf;Lasy;Larf;)Larg;
+	METHOD d getDyeColor ()Lbon;

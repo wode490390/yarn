@@ -1,0 +1,15 @@
+CLASS es net/minecraft/commands/arguments/coordinates/LocalCoordinates
+	FIELD a PREFIX_LOCAL_COORDINATE C
+	FIELD b left D
+	FIELD c up D
+	FIELD d forwards D
+	METHOD <init> <init> (DDD)V
+	METHOD a isXRelative ()Z
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Les;
+	METHOD a readDouble (Lcom/mojang/brigadier/StringReader;I)D
+	METHOD a getPosition (Ldg;)Ldly;
+	METHOD b isYRelative ()Z
+	METHOD b getRotation (Ldg;)Ldlx;
+	METHOD c isZRelative ()Z
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

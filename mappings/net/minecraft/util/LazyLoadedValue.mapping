@@ -1,0 +1,4 @@
+CLASS agp net/minecraft/util/LazyLoadedValue
+	FIELD a factory Ljava/util/function/Supplier;
+	METHOD <init> <init> (Ljava/util/function/Supplier;)V
+	METHOD a get ()Ljava/lang/Object;

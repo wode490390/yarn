@@ -1,0 +1,2 @@
+CLASS coe net/minecraft/world/level/levelgen/BaseStoneSource
+	METHOD a getBaseStone (IIILcot;)Lcjr;

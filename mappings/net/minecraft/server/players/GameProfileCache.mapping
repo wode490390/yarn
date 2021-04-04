@@ -1,0 +1,45 @@
+CLASS adv net/minecraft/server/players/GameProfileCache
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GAMEPROFILES_MRU_LIMIT I
+	FIELD c GAMEPROFILES_EXPIRATION_MONTHS I
+	FIELD d usesAuthentication Z
+	FIELD e profilesByName Ljava/util/Map;
+	FIELD f profilesByUUID Ljava/util/Map;
+	FIELD g profileRepository Lcom/mojang/authlib/GameProfileRepository;
+	FIELD h gson Lcom/google/gson/Gson;
+	FIELD i file Ljava/io/File;
+	FIELD j operationCount Ljava/util/concurrent/atomic/AtomicLong;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/authlib/GameProfileRepository;Ljava/io/File;)V
+	METHOD a load ()Ljava/util/List;
+	METHOD a getTopMRUProfiles (I)Ljava/util/stream/Stream;
+	METHOD a safeAdd (Ladv$a;)V
+	METHOD a writeGameProfile (Ladv$a;Ljava/text/DateFormat;)Lcom/google/gson/JsonElement;
+	METHOD a lambda$save$1 (Lcom/google/gson/JsonArray;Ljava/text/DateFormat;Ladv$a;)V
+	METHOD a readGameProfile (Lcom/google/gson/JsonElement;Ljava/text/DateFormat;)Ladv$a;
+	METHOD a add (Lcom/mojang/authlib/GameProfile;)V
+	METHOD a lookupGameProfile (Lcom/mojang/authlib/GameProfileRepository;Ljava/lang/String;)Lcom/mojang/authlib/GameProfile;
+	METHOD a get (Ljava/lang/String;)Lcom/mojang/authlib/GameProfile;
+	METHOD a lambda$load$0 (Ljava/text/DateFormat;Ljava/util/List;Lcom/google/gson/JsonElement;)V
+	METHOD a get (Ljava/util/UUID;)Lcom/mojang/authlib/GameProfile;
+	METHOD a setUsesAuthentication (Z)V
+	METHOD b save ()V
+	METHOD c usesAuthentication ()Z
+	METHOD d getNextOperation ()J
+	METHOD e createDateFormat ()Ljava/text/DateFormat;
+	CLASS 1 1
+		FIELD a val$result Ljava/util/concurrent/atomic/AtomicReference;
+		METHOD <init> <init> (Ljava/util/concurrent/atomic/AtomicReference;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS a GameProfileInfo
+		FIELD a profile Lcom/mojang/authlib/GameProfile;
+		FIELD b expirationDate Ljava/util/Date;
+		FIELD c lastAccess J
+		METHOD <init> <init> (Lcom/mojang/authlib/GameProfile;Ljava/util/Date;)V
+		METHOD <init> <init> (Lcom/mojang/authlib/GameProfile;Ljava/util/Date;Ladv$1;)V
+		METHOD a getProfile ()Lcom/mojang/authlib/GameProfile;
+		METHOD a setLastAccess (J)V
+		METHOD a access$100 (Ladv$a;)Ljava/util/Date;
+		METHOD b getExpirationDate ()Ljava/util/Date;
+		METHOD c getLastAccess ()J

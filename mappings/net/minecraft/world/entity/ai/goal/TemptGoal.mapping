@@ -1,0 +1,25 @@
+CLASS azx net/minecraft/world/entity/ai/goal/TemptGoal
+	FIELD a mob Latg;
+	FIELD b player Lbjf;
+	FIELD c TEMP_TARGETING Lbcb;
+	FIELD d targetingConditions Lbcb;
+	FIELD e speedModifier D
+	FIELD f px D
+	FIELD g py D
+	FIELD h pz D
+	FIELD i pRotX D
+	FIELD j pRotY D
+	FIELD k calmDown I
+	FIELD l isRunning Z
+	FIELD m items Lbsg;
+	FIELD n canScare Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Latg;DLbsg;Z)V
+	METHOD a canUse ()Z
+	METHOD a shouldFollow (Lasy;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g canScare ()Z
+	METHOD h isRunning ()Z

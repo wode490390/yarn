@@ -1,0 +1,14 @@
+CLASS acm net/minecraft/server/packs/FolderPackResources
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e ON_WINDOWS Z
+	FIELD f BACKSLASH_MATCHER Lcom/google/common/base/CharMatcher;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getNamespaces (Laco;)Ljava/util/Set;
+	METHOD a getResources (Laco;Ljava/lang/String;Ljava/lang/String;ILjava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a listResources (Ljava/io/File;ILjava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/util/function/Predicate;)V
+	METHOD a validatePath (Ljava/io/File;Ljava/lang/String;)Z
+	METHOD a getResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD c hasResource (Ljava/lang/String;)Z
+	METHOD close close ()V
+	METHOD e getFile (Ljava/lang/String;)Ljava/io/File;

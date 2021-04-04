@@ -1,0 +1,23 @@
+CLASS rl net/minecraft/network/protocol/game/ClientboundRecipePacket
+	FIELD a state Lrl$a;
+	FIELD b recipes Ljava/util/List;
+	FIELD c toHighlight Ljava/util/List;
+	FIELD d bookSettings Lafa;
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lrl$a;Ljava/util/Collection;Ljava/util/Collection;Lafa;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getRecipes ()Ljava/util/List;
+	METHOD c getHighlights ()Ljava/util/List;
+	METHOD d getBookSettings ()Lafa;
+	METHOD e getState ()Lrl$a;
+	CLASS a State
+		FIELD a INIT Lrl$a;
+		FIELD b ADD Lrl$a;
+		FIELD c REMOVE Lrl$a;
+		FIELD d $VALUES [Lrl$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lrl$a;
+		METHOD values values ()[Lrl$a;

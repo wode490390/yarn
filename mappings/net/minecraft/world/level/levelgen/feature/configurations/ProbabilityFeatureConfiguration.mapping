@@ -1,0 +1,7 @@
+CLASS cup net/minecraft/world/level/levelgen/feature/configurations/ProbabilityFeatureConfiguration
+	FIELD j CODEC Lcom/mojang/serialization/Codec;
+	FIELD k probability F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (F)V
+	METHOD a lambda$static$1 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$0 (Lcup;)Ljava/lang/Float;

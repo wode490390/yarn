@@ -1,0 +1,6 @@
+CLASS cdf net/minecraft/world/level/block/NetherVines
+	FIELD a GROW_PER_TICK_PROBABILITY D
+	FIELD b BONEMEAL_GROW_PROBABILITY_DECREASE_RATE D
+	METHOD <init> <init> ()V
+	METHOD a isValidGrowthState (Lcjr;)Z
+	METHOD a getBlocksToGrowWhenBonemealed (Ljava/util/Random;)I

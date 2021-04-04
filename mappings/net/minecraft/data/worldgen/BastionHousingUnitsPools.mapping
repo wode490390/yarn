@@ -1,0 +1,4 @@
+CLASS ko net/minecraft/data/worldgen/BastionHousingUnitsPools
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V

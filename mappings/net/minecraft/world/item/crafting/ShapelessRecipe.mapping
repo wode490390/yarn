@@ -1,0 +1,28 @@
+CLASS bsp net/minecraft/world/item/crafting/ShapelessRecipe
+	FIELD a id Lwp;
+	FIELD b group Ljava/lang/String;
+	FIELD c result Lbpr;
+	FIELD d ingredients Lgn;
+	METHOD <init> <init> (Lwp;Ljava/lang/String;Lbpr;Lgn;)V
+	METHOD a getIngredients ()Lgn;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Laqz;)Lbpr;
+	METHOD a matches (Laqz;Lbvr;)Z
+	METHOD a assemble (Lblz;)Lbpr;
+	METHOD a matches (Lblz;Lbvr;)Z
+	METHOD a access$000 (Lbsp;)Ljava/lang/String;
+	METHOD aj_ getSerializer ()Lbsl;
+	METHOD b access$100 (Lbsp;)Lgn;
+	METHOD c getResultItem ()Lbpr;
+	METHOD c access$200 (Lbsp;)Lbpr;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD f getId ()Lwp;
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a itemsFromJson (Lcom/google/gson/JsonArray;)Lgn;
+		METHOD a toNetwork (Lob;Lbsj;)V
+		METHOD a toNetwork (Lob;Lbsp;)V
+		METHOD a fromJson (Lwp;Lcom/google/gson/JsonObject;)Lbsj;
+		METHOD a fromNetwork (Lwp;Lob;)Lbsj;
+		METHOD b fromJson (Lwp;Lcom/google/gson/JsonObject;)Lbsp;
+		METHOD b fromNetwork (Lwp;Lob;)Lbsp;

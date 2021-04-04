@@ -1,0 +1,24 @@
+CLASS bia net/minecraft/world/entity/monster/piglin/AbstractPiglin
+	FIELD b DATA_IMMUNE_TO_ZOMBIFICATION Lvy;
+	FIELD c CONVERSION_TIME I
+	FIELD d timeInOverworld I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD G getTarget ()Lasy;
+	METHOD J playAmbientSound ()V
+	METHOD Q sendDebugPackets ()V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD bg getMyRidingOffset ()D
+	METHOD c finishConversion (Labj;)V
+	METHOD e defineSynchedData ()V
+	METHOD eP customServerAiStep ()V
+	METHOD fn isAdult ()Z
+	METHOD fo getArmPose ()Lbid;
+	METHOD fp isHoldingMeleeWeapon ()Z
+	METHOD fq playConvertedSound ()V
+	METHOD ft applyOpenDoorsAbility ()V
+	METHOD m canHunt ()Z
+	METHOD o isImmuneToZombification ()Z
+	METHOD s isConverting ()Z
+	METHOD v setImmuneToZombification (Z)V

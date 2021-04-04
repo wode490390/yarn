@@ -1,0 +1,15 @@
+CLASS ayb net/minecraft/world/entity/ai/goal/BreakDoorGoal
+	FIELD a breakTime I
+	FIELD b lastBreakProgress I
+	FIELD c doorBreakTime I
+	FIELD g DEFAULT_DOOR_BREAK_TIME I
+	FIELD h validDifficulties Ljava/util/function/Predicate;
+	METHOD <init> <init> (Lasz;ILjava/util/function/Predicate;)V
+	METHOD <init> <init> (Lasz;Ljava/util/function/Predicate;)V
+	METHOD a canUse ()Z
+	METHOD a isValidDifficulty (Lard;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD f getDoorBreakTime ()I

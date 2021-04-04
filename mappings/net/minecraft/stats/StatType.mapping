@@ -1,0 +1,13 @@
+CLASS aff net/minecraft/stats/StatType
+	FIELD a registry Lgr;
+	FIELD b map Ljava/util/Map;
+	FIELD c displayName Lon;
+	METHOD <init> <init> (Lgr;)V
+	METHOD a getRegistry ()Lgr;
+	METHOD a lambda$get$0 (Lafe;Ljava/lang/Object;)Lafd;
+	METHOD a contains (Ljava/lang/Object;)Z
+	METHOD a get (Ljava/lang/Object;Lafe;)Lafd;
+	METHOD b getTranslationKey ()Ljava/lang/String;
+	METHOD b get (Ljava/lang/Object;)Lafd;
+	METHOD c getDisplayName ()Lon;
+	METHOD iterator iterator ()Ljava/util/Iterator;

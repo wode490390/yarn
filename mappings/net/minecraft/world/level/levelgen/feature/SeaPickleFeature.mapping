@@ -1,0 +1,3 @@
+CLASS csl net/minecraft/world/level/levelgen/feature/SeaPickleFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a place (Lcqz;)Z

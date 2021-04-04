@@ -1,0 +1,18 @@
+CLASS brf net/minecraft/world/item/TridentItem
+	FIELD a THROW_THRESHOLD_TIME I
+	FIELD b BASE_DAMAGE F
+	FIELD c SHOOT_POWER F
+	FIELD d defaultModifiers Lcom/google/common/collect/Multimap;
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a getDefaultAttributeModifiers (Lasq;)Lcom/google/common/collect/Multimap;
+	METHOD a lambda$mineBlock$2 (Lasy;)V
+	METHOD a lambda$releaseUsing$0 (Lasy;Lbjf;)V
+	METHOD a hurtEnemy (Lbpr;Lasy;Lasy;)Z
+	METHOD a releaseUsing (Lbpr;Lbvr;Lasy;I)V
+	METHOD a mineBlock (Lbpr;Lbvr;Lcjr;Lgb;Lasy;)Z
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD a canAttackBlock (Lcjr;Lbvr;Lgb;Lbjf;)Z
+	METHOD b lambda$hurtEnemy$1 (Lasy;)V
+	METHOD c getEnchantmentValue ()I
+	METHOD d_ getUseAnimation (Lbpr;)Lbrg;
+	METHOD e_ getUseDuration (Lbpr;)I

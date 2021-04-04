@@ -1,0 +1,4 @@
+CLASS cua net/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration
+	FIELD m NONE Lcum;
+	METHOD <clinit> <clinit> ()V
+	METHOD as_ getFeatures ()Ljava/util/stream/Stream;

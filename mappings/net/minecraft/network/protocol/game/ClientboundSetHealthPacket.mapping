@@ -1,0 +1,12 @@
+CLASS sk net/minecraft/network/protocol/game/ClientboundSetHealthPacket
+	FIELD a health F
+	FIELD b food I
+	FIELD c saturation F
+	METHOD <init> <init> (FIF)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getHealth ()F
+	METHOD c getFood ()I
+	METHOD d getSaturation ()F

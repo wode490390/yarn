@@ -1,0 +1,7 @@
+CLASS azu net/minecraft/world/entity/ai/goal/SitWhenOrderedToGoal
+	FIELD a mob Latr;
+	METHOD <init> <init> (Latr;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

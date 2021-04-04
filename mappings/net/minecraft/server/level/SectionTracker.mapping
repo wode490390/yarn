@@ -1,0 +1,8 @@
+CLASS abf net/minecraft/server/level/SectionTracker
+	METHOD <init> <init> (III)V
+	METHOD a isSource (J)Z
+	METHOD a checkNeighborsAfterUpdate (JIZ)V
+	METHOD a getComputedLevel (JJI)I
+	METHOD b getLevelFromSource (J)I
+	METHOD b update (JIZ)V
+	METHOD b computeLevelFromNeighbor (JJI)I

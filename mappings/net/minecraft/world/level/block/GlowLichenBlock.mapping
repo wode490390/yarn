@@ -1,0 +1,12 @@
+CLASS cbo net/minecraft/world/level/block/GlowLichenBlock
+	FIELD b WATERLOGGED Lcki;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a performBonemeal (Labj;Ljava/util/Random;Lgb;Lcjr;)V
+	METHOD a isValidBonemealTarget (Lbuv;Lgb;Lcjr;Z)Z
+	METHOD a isBonemealSuccess (Lbvr;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a canBeReplaced (Lcjr;Lbrr;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD e lambda$isValidBonemealTarget$0 (Lcjr;Lbuv;Lgb;Lgg;)Z

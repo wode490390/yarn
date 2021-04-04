@@ -1,0 +1,14 @@
+CLASS cpk net/minecraft/world/level/levelgen/carver/CarverConfiguration
+	FIELD d CODEC Lcom/mojang/serialization/MapCodec;
+	FIELD e y Lcxu;
+	FIELD f yScale Laqm;
+	FIELD g lavaLevel Lcpe;
+	FIELD h debugSettings Lcpl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FLcxu;Laqm;Lcpe;Lcpl;)V
+	METHOD a lambda$static$5 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$4 (Lcpk;)Lcpl;
+	METHOD b lambda$null$3 (Lcpk;)Lcpe;
+	METHOD c lambda$null$2 (Lcpk;)Laqm;
+	METHOD d lambda$null$1 (Lcpk;)Lcxu;
+	METHOD e lambda$null$0 (Lcpk;)Ljava/lang/Float;

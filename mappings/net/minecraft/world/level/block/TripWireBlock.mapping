@@ -1,0 +1,33 @@
+CLASS cgf net/minecraft/world/level/block/TripWireBlock
+	FIELD a POWERED Lcki;
+	FIELD b ATTACHED Lcki;
+	FIELD c DISARMED Lcki;
+	FIELD d NORTH Lcki;
+	FIELD e EAST Lcki;
+	FIELD f SOUTH Lcki;
+	FIELD g WEST Lcki;
+	FIELD h AABB Ldmr;
+	FIELD i NOT_ATTACHED_AABB Ldmr;
+	FIELD j PROPERTY_BY_DIRECTION Ljava/util/Map;
+	FIELD k RECHECK_PERIOD I
+	FIELD l hook Lcgg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcgg;Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a checkPressed (Lbvr;Lgb;)V
+	METHOD a updateSource (Lbvr;Lgb;Lcjr;)V
+	METHOD a playerWillDestroy (Lbvr;Lgb;Lcjr;Lbjf;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a entityInside (Lcjr;Lbvr;Lgb;Lasl;)V
+	METHOD a onRemove (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a shouldConnectTo (Lcjr;Lgg;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b onPlace (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		FIELD b $SwitchMap$net$minecraft$world$level$block$Mirror [I
+		METHOD <clinit> <clinit> ()V

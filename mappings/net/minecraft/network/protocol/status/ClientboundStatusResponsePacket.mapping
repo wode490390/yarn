@@ -1,0 +1,10 @@
+CLASS vs net/minecraft/network/protocol/status/ClientboundStatusResponsePacket
+	FIELD a GSON Lcom/google/gson/Gson;
+	FIELD b status Lvt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lvt;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lvq;)V
+	METHOD b getStatus ()Lvt;

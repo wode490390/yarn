@@ -1,0 +1,25 @@
+CLASS bty net/minecraft/world/item/enchantment/ProtectionEnchantment
+	FIELD a type Lbty$a;
+	METHOD <init> <init> (Lbtl$a;Lbty$a;[Lasq;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a getDamageProtection (ILarv;)I
+	METHOD a getExplosionKnockbackAfterDampener (Lasy;D)D
+	METHOD a getFireAfterDampener (Lasy;I)I
+	METHOD a checkCompatibility (Lbtl;)Z
+	METHOD b getMaxCost (I)I
+	CLASS a Type
+		FIELD a ALL Lbty$a;
+		FIELD b FIRE Lbty$a;
+		FIELD c FALL Lbty$a;
+		FIELD d EXPLOSION Lbty$a;
+		FIELD e PROJECTILE Lbty$a;
+		FIELD f minCost I
+		FIELD g levelCost I
+		FIELD h $VALUES [Lbty$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;III)V
+		METHOD a getMinCost ()I
+		METHOD b getLevelCost ()I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbty$a;
+		METHOD values values ()[Lbty$a;

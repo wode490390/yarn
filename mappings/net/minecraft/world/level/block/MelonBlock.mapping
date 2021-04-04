@@ -1,0 +1,4 @@
+CLASS ccx net/minecraft/world/level/block/MelonBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD c getStem ()Lcfn;
+	METHOD d getAttachedStem ()Lbxs;

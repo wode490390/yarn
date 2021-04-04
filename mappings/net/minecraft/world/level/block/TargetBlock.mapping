@@ -1,0 +1,15 @@
+CLASS cfz net/minecraft/world/level/block/TargetBlock
+	FIELD a OUTPUT_POWER Lckr;
+	FIELD b ACTIVATION_TICKS_ARROWS I
+	FIELD c ACTIVATION_TICKS_OTHER I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a onProjectileHit (Lbvr;Lcjr;Ldlu;Lbjv;)V
+	METHOD a setOutputPower (Lbvs;Lcjr;ILgb;I)V
+	METHOD a updateRedstoneOutput (Lbvs;Lcjr;Ldlu;Lasl;)I
+	METHOD a getSignal (Lcjr;Lbuv;Lgb;Lgg;)I
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a getRedstoneStrength (Ldlu;Ldly;)I
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b onPlace (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD e_ isSignalSource (Lcjr;)Z

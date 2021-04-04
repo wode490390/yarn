@@ -1,0 +1,7 @@
+CLASS abz net/minecraft/server/network/MemoryServerHandshakePacketListenerImpl
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b connection Lnz;
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lnz;)V
+	METHOD a getConnection ()Lnz;
+	METHOD a onDisconnect (Lon;)V
+	METHOD a handleIntention (Lvb;)V

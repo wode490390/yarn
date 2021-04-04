@@ -1,0 +1,2 @@
+CLASS dig net/minecraft/world/level/storage/loot/entries/LootPoolEntryType
+	METHOD <init> <init> (Ldht;)V

@@ -1,0 +1,10 @@
+CLASS ru net/minecraft/network/protocol/game/ClientboundSetBorderCenterPacket
+	FIELD a newCenterX D
+	FIELD b newCenterZ D
+	METHOD <init> <init> (Lclh;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getNewCenterZ ()D
+	METHOD c getNewCenterX ()D

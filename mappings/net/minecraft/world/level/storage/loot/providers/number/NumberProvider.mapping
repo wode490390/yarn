@@ -1,0 +1,4 @@
+CLASS dla net/minecraft/world/level/storage/loot/providers/number/NumberProvider
+	METHOD a getType ()Ldkz;
+	METHOD a getInt (Ldhn;)I
+	METHOD b getFloat (Ldhn;)F

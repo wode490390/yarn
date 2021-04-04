@@ -1,0 +1,17 @@
+CLASS hk net/minecraft/core/particles/DustParticleOptions
+	FIELD a REDSTONE_PARTICLE_COLOR Lk;
+	FIELD b REDSTONE Lhk;
+	FIELD c CODEC Lcom/mojang/serialization/Codec;
+	FIELD d DESERIALIZER Lho$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lk;F)V
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$1 (Lhk;)Ljava/lang/Float;
+	METHOD b getType ()Lhp;
+	METHOD b lambda$null$0 (Lhk;)Lk;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lhk;
+		METHOD a fromNetwork (Lhp;Lob;)Lhk;
+		METHOD b fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lho;
+		METHOD b fromNetwork (Lhp;Lob;)Lho;

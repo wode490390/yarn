@@ -1,0 +1,10 @@
+CLASS azg net/minecraft/world/entity/ai/goal/OcelotAttackGoal
+	FIELD a level Lbuv;
+	FIELD b mob Lasz;
+	FIELD c target Lasy;
+	FIELD d attackTime I
+	METHOD <init> <init> (Lasz;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V

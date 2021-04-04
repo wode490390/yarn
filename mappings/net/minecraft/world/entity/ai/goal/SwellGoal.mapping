@@ -1,0 +1,8 @@
+CLASS azw net/minecraft/world/entity/ai/goal/SwellGoal
+	FIELD a creeper Lbgl;
+	FIELD b target Lasy;
+	METHOD <init> <init> (Lbgl;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

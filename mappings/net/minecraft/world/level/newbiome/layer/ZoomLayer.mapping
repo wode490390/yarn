@@ -1,0 +1,18 @@
+CLASS dfd net/minecraft/world/level/newbiome/layer/ZoomLayer
+	FIELD a NORMAL Ldfd;
+	FIELD ar FUZZY Ldfd;
+	FIELD as ZOOM_BITS I
+	FIELD at ZOOM_MASK I
+	FIELD au $VALUES [Ldfd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD <init> <init> (Ljava/lang/String;ILdfd$1;)V
+	METHOD a getParentX (I)I
+	METHOD a modeOrRandom (Lded;IIII)I
+	METHOD a applyPixel (Lded;Lddz;II)I
+	METHOD b getParentY (I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldfd;
+	METHOD values values ()[Ldfd;
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a modeOrRandom (Lded;IIII)I

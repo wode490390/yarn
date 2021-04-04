@@ -1,0 +1,4 @@
+CLASS bto net/minecraft/world/item/enchantment/EnchantmentInstance
+	FIELD a enchantment Lbtl;
+	FIELD b level I
+	METHOD <init> <init> (Lbtl;I)V

@@ -1,0 +1,12 @@
+CLASS kt net/minecraft/data/worldgen/Carvers
+	FIELD a OLD_CAVE Lcpp;
+	FIELD b CAVE Lcpp;
+	FIELD c OLD_CANYON Lcpp;
+	FIELD d CANYON Lcpp;
+	FIELD e OLD_OCEAN_CAVE Lcpp;
+	FIELD f OCEAN_CAVE Lcpp;
+	FIELD g NETHER_CAVE Lcpp;
+	FIELD h CRACK Lcpp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Ljava/lang/String;Lcpp;)Lcpp;

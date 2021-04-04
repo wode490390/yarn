@@ -1,0 +1,12 @@
+CLASS cwe net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProviderType
+	FIELD a SIMPLE_STATE_PROVIDER Lcwe;
+	FIELD b WEIGHTED_STATE_PROVIDER Lcwe;
+	FIELD c PLAIN_FLOWER_PROVIDER Lcwe;
+	FIELD d FOREST_FLOWER_PROVIDER Lcwe;
+	FIELD e ROTATED_BLOCK_PROVIDER Lcwe;
+	FIELD f RANDOMIZED_INT_STATE_PROVIDER Lcwe;
+	FIELD g codec Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a register (Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lcwe;

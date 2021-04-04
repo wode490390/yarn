@@ -1,0 +1,104 @@
+CLASS dw net/minecraft/commands/arguments/NbtPathArgument
+	FIELD a ERROR_INVALID_NODE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_NOTHING_FOUND Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD c EXAMPLES Ljava/util/Collection;
+	FIELD d INDEX_MATCH_START C
+	FIELD e INDEX_MATCH_END C
+	FIELD f KEY_MATCH_START C
+	FIELD g KEY_MATCH_END C
+	FIELD h QUOTED_KEY_START C
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a nbtPath ()Ldw;
+	METHOD a isAllowedInUnquotedName (C)Z
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ldw$g;
+	METHOD a readObjectNode (Lcom/mojang/brigadier/StringReader;Ljava/lang/String;)Ldw$h;
+	METHOD a parseNode (Lcom/mojang/brigadier/StringReader;Z)Ldw$h;
+	METHOD a getPath (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ldw$g;
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a access$000 (Lmv;)Ljava/util/function/Predicate;
+	METHOD a lambda$createTagPredicate$1 (Lmv;Lnn;)Z
+	METHOD b readUnquotedName (Lcom/mojang/brigadier/StringReader;)Ljava/lang/String;
+	METHOD b createTagPredicate (Lmv;)Ljava/util/function/Predicate;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	CLASS a AllElementsNode
+		FIELD a INSTANCE Ldw$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD a createPreferredParentTag ()Lnn;
+		METHOD a removeTag (Lnn;)I
+		METHOD a getTag (Lnn;Ljava/util/List;)V
+		METHOD a setTag (Lnn;Ljava/util/function/Supplier;)I
+		METHOD a getOrCreateTag (Lnn;Ljava/util/function/Supplier;Ljava/util/List;)V
+	CLASS b CompoundChildNode
+		FIELD a name Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD a createPreferredParentTag ()Lnn;
+		METHOD a removeTag (Lnn;)I
+		METHOD a getTag (Lnn;Ljava/util/List;)V
+		METHOD a setTag (Lnn;Ljava/util/function/Supplier;)I
+		METHOD a getOrCreateTag (Lnn;Ljava/util/function/Supplier;Ljava/util/List;)V
+	CLASS c IndexedElementNode
+		FIELD a index I
+		METHOD <init> <init> (I)V
+		METHOD a createPreferredParentTag ()Lnn;
+		METHOD a removeTag (Lnn;)I
+		METHOD a getTag (Lnn;Ljava/util/List;)V
+		METHOD a setTag (Lnn;Ljava/util/function/Supplier;)I
+		METHOD a getOrCreateTag (Lnn;Ljava/util/function/Supplier;Ljava/util/List;)V
+	CLASS d MatchElementNode
+		FIELD a pattern Lmv;
+		FIELD b predicate Ljava/util/function/Predicate;
+		METHOD <init> <init> (Lmv;)V
+		METHOD a createPreferredParentTag ()Lnn;
+		METHOD a lambda$getOrCreateTag$0 (Ljava/util/List;Lorg/apache/commons/lang3/mutable/MutableBoolean;Lnn;)V
+		METHOD a removeTag (Lnn;)I
+		METHOD a getTag (Lnn;Ljava/util/List;)V
+		METHOD a setTag (Lnn;Ljava/util/function/Supplier;)I
+		METHOD a getOrCreateTag (Lnn;Ljava/util/function/Supplier;Ljava/util/List;)V
+	CLASS e MatchObjectNode
+		FIELD a name Ljava/lang/String;
+		FIELD b pattern Lmv;
+		FIELD c predicate Ljava/util/function/Predicate;
+		METHOD <init> <init> (Ljava/lang/String;Lmv;)V
+		METHOD a createPreferredParentTag ()Lnn;
+		METHOD a removeTag (Lnn;)I
+		METHOD a getTag (Lnn;Ljava/util/List;)V
+		METHOD a setTag (Lnn;Ljava/util/function/Supplier;)I
+		METHOD a getOrCreateTag (Lnn;Ljava/util/function/Supplier;Ljava/util/List;)V
+	CLASS f MatchRootObjectNode
+		FIELD a predicate Ljava/util/function/Predicate;
+		METHOD <init> <init> (Lmv;)V
+		METHOD a createPreferredParentTag ()Lnn;
+		METHOD a removeTag (Lnn;)I
+		METHOD a getTag (Lnn;Ljava/util/List;)V
+		METHOD a setTag (Lnn;Ljava/util/function/Supplier;)I
+		METHOD a getOrCreateTag (Lnn;Ljava/util/function/Supplier;Ljava/util/List;)V
+	CLASS g NbtPath
+		FIELD a original Ljava/lang/String;
+		FIELD b nodeToOriginalPosition Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+		FIELD c nodes [Ldw$h;
+		METHOD <init> <init> (Ljava/lang/String;[Ldw$h;Lit/unimi/dsi/fastutil/objects/Object2IntMap;)V
+		METHOD a createNotFoundException (Ldw$h;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+		METHOD a lambda$set$1 (Ldw$h;Ljava/util/function/Supplier;Lnn;)Ljava/lang/Integer;
+		METHOD a lambda$apply$0 (Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;
+		METHOD a apply (Ljava/util/List;Ljava/util/function/Function;)I
+		METHOD a get (Lnn;)Ljava/util/List;
+		METHOD a getOrCreate (Lnn;Ljava/util/function/Supplier;)Ljava/util/List;
+		METHOD a set (Lnn;Lnn;)I
+		METHOD b countMatching (Lnn;)I
+		METHOD b set (Lnn;Ljava/util/function/Supplier;)I
+		METHOD c remove (Lnn;)I
+		METHOD d getOrCreateParents (Lnn;)Ljava/util/List;
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS h Node
+		METHOD a createPreferredParentTag ()Lnn;
+		METHOD a get (Ljava/util/List;)Ljava/util/List;
+		METHOD a collect (Ljava/util/List;Ljava/util/function/BiConsumer;)Ljava/util/List;
+		METHOD a getOrCreate (Ljava/util/List;Ljava/util/function/Supplier;)Ljava/util/List;
+		METHOD a lambda$getOrCreate$0 (Ljava/util/function/Supplier;Lnn;Ljava/util/List;)V
+		METHOD a removeTag (Lnn;)I
+		METHOD a getTag (Lnn;Ljava/util/List;)V
+		METHOD a setTag (Lnn;Ljava/util/function/Supplier;)I
+		METHOD a getOrCreateTag (Lnn;Ljava/util/function/Supplier;Ljava/util/List;)V

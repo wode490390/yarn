@@ -1,0 +1,14 @@
+CLASS cpn net/minecraft/world/level/levelgen/carver/CaveCarverConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b horizontalRadiusMultiplier Laqm;
+	FIELD c verticalRadiusMultiplier Laqm;
+	FIELD i floorLevel Laqm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FLcxu;Laqm;Lcpe;Laqm;Laqm;Laqm;)V
+	METHOD <init> <init> (FLcxu;Laqm;Lcpe;Lcpl;Laqm;Laqm;Laqm;)V
+	METHOD <init> <init> (Lcpk;Laqm;Laqm;Laqm;)V
+	METHOD a lambda$static$4 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$3 (Lcpn;)Laqm;
+	METHOD b lambda$null$2 (Lcpn;)Laqm;
+	METHOD c lambda$null$1 (Lcpn;)Laqm;
+	METHOD d lambda$null$0 (Lcpn;)Lcpk;

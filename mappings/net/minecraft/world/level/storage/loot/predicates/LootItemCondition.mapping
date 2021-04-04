@@ -1,0 +1,6 @@
+CLASS dkf net/minecraft/world/level/storage/loot/predicates/LootItemCondition
+	METHOD a getType ()Ldkg;
+	CLASS a Builder
+		METHOD a invert ()Ldkf$a;
+		METHOD a or (Ldkf$a;)Ldjv$a;
+		METHOD build build ()Ldkf;

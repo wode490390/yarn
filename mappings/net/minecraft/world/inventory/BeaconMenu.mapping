@@ -1,0 +1,33 @@
+CLASS blo net/minecraft/world/inventory/BeaconMenu
+	FIELD k PAYMENT_SLOT I
+	FIELD l SLOT_COUNT I
+	FIELD m DATA_COUNT I
+	FIELD n INV_SLOT_START I
+	FIELD o INV_SLOT_END I
+	FIELD p USE_ROW_SLOT_START I
+	FIELD q USE_ROW_SLOT_END I
+	FIELD r beacon Laqz;
+	FIELD s paymentSlot Lblo$a;
+	FIELD t access Lblw;
+	FIELD u beaconData Lblv;
+	METHOD <init> <init> (ILaqz;)V
+	METHOD <init> <init> (ILaqz;Lblv;Lblw;)V
+	METHOD a setData (II)V
+	METHOD a stillValid (Lbjf;)Z
+	METHOD b removed (Lbjf;)V
+	METHOD b quickMoveStack (Lbjf;I)Lbpr;
+	METHOD c updateEffects (II)V
+	METHOD i getLevels ()I
+	METHOD j getPrimaryEffect ()Lasd;
+	METHOD k getSecondaryEffect ()Lasd;
+	METHOD l hasPayment ()Z
+	CLASS 1 1
+		FIELD b this$0 Lblo;
+		METHOD <init> <init> (Lblo;I)V
+		METHOD X_ getMaxStackSize ()I
+		METHOD b canPlaceItem (ILbpr;)Z
+	CLASS a PaymentSlot
+		FIELD a this$0 Lblo;
+		METHOD <init> <init> (Lblo;Laqz;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbpr;)Z

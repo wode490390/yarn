@@ -1,0 +1,12 @@
+CLASS bpz net/minecraft/world/item/MinecartItem
+	FIELD a DISPENSE_ITEM_BEHAVIOR Lhc;
+	FIELD b type Lbku$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbku$a;Lbpn$a;)V
+	METHOD a access$000 (Lbpz;)Lbku$a;
+	METHOD a useOn (Lbrt;)Larg;
+	CLASS 1 1
+		FIELD b defaultDispenseItemBehavior Lhb;
+		METHOD <init> <init> ()V
+		METHOD a playSound (Lgc;)V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;

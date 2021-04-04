@@ -1,0 +1,27 @@
+CLASS cgd net/minecraft/world/level/block/TrapDoorBlock
+	FIELD a OPEN Lcki;
+	FIELD b HALF Lckp;
+	FIELD c POWERED Lcki;
+	FIELD d WATERLOGGED Lcki;
+	FIELD e AABB_THICKNESS I
+	FIELD f EAST_OPEN_AABB Ldmr;
+	FIELD g WEST_OPEN_AABB Ldmr;
+	FIELD h SOUTH_OPEN_AABB Ldmr;
+	FIELD i NORTH_OPEN_AABB Ldmr;
+	FIELD j BOTTOM_AABB Ldmr;
+	FIELD k TOP_AABB Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a playSound (Lbjf;Lbvr;Lgb;Z)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a neighborChanged (Lcjr;Lbvr;Lgb;Lbyq;Lgb;Z)V
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		FIELD b $SwitchMap$net$minecraft$world$level$pathfinder$PathComputationType [I
+		METHOD <clinit> <clinit> ()V

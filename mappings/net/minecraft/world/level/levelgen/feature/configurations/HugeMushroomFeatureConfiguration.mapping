@@ -1,0 +1,11 @@
+CLASS cuf net/minecraft/world/level/levelgen/feature/configurations/HugeMushroomFeatureConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b capProvider Lcwd;
+	FIELD c stemProvider Lcwd;
+	FIELD d foliageRadius I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcwd;Lcwd;I)V
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcuf;)Ljava/lang/Integer;
+	METHOD b lambda$null$1 (Lcuf;)Lcwd;
+	METHOD c lambda$null$0 (Lcuf;)Lcwd;

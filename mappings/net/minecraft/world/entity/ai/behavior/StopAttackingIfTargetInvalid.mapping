@@ -1,0 +1,19 @@
+CLASS awt net/minecraft/world/entity/ai/behavior/StopAttackingIfTargetInvalid
+	FIELD a TIMEOUT_TO_GET_WITHIN_ATTACK_RANGE I
+	FIELD c stopAttackingWhen Ljava/util/function/Predicate;
+	FIELD d onTargetErased Ljava/util/function/Consumer;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/function/Consumer;)V
+	METHOD <init> <init> (Ljava/util/function/Predicate;)V
+	METHOD <init> <init> (Ljava/util/function/Predicate;Ljava/util/function/Consumer;)V
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a start (Labj;Lasz;J)V
+	METHOD a isTiredOfTryingToReachTarget (Lasy;)Z
+	METHOD a clearAttackTarget (Lasz;)V
+	METHOD b lambda$new$2 (Lasy;)Z
+	METHOD b isCurrentTargetInDifferentLevel (Lasz;)Z
+	METHOD c lambda$new$1 (Lasy;)Z
+	METHOD c getAttackTarget (Lasz;)Lasy;
+	METHOD d isCurrentTargetDeadOrRemoved (Lasz;)Z
+	METHOD e lambda$new$3 (Lasz;)V
+	METHOD f lambda$new$0 (Lasz;)V

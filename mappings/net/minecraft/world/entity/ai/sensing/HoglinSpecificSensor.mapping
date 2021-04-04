@@ -1,0 +1,7 @@
+CLASS bbk net/minecraft/world/entity/ai/sensing/HoglinSpecificSensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Labj;Lasy;)V
+	METHOD a doTick (Labj;Lbhv;)V
+	METHOD a lambda$findNearestRepellent$0 (Labj;Lgb;)Z
+	METHOD b findNearestRepellent (Labj;Lbhv;)Ljava/util/Optional;

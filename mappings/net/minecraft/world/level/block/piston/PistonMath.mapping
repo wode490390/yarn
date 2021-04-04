@@ -1,0 +1,6 @@
+CLASS cjm net/minecraft/world/level/block/piston/PistonMath
+	METHOD <init> <init> ()V
+	METHOD a getMovementArea (Ldlt;Lgg;D)Ldlt;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

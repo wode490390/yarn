@@ -1,0 +1,5 @@
+CLASS cyn net/minecraft/world/level/levelgen/placement/DecoratedDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a lambda$getPositions$0 (Lcyo;Lcyp;Ljava/util/Random;Lgb;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lctv;Lgb;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lcyo;Lgb;)Ljava/util/stream/Stream;

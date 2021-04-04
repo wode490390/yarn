@@ -1,0 +1,4 @@
+CLASS dbp net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor
+	METHOD <init> <init> ()V
+	METHOD a getType ()Ldbr;
+	METHOD a processBlock (Lbvu;Lgb;Lgb;Ldbs$c;Ldbs$c;Ldbo;)Ldbs$c;

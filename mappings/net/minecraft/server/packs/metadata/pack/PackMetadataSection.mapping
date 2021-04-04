@@ -1,0 +1,8 @@
+CLASS acs net/minecraft/server/packs/metadata/pack/PackMetadataSection
+	FIELD a SERIALIZER Lact;
+	FIELD b description Lon;
+	FIELD c packFormat I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lon;I)V
+	METHOD a getDescription ()Lon;
+	METHOD b getPackFormat ()I

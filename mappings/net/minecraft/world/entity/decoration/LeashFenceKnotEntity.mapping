@@ -1,0 +1,20 @@
+CLASS bfz net/minecraft/world/entity/decoration/LeashFenceKnotEntity
+	FIELD e OFFSET_Y D
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;Lgb;)V
+	METHOD O getAddEntityPacket ()Lpf;
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a dropItem (Lasl;)V
+	METHOD a getEyeHeight (Latj;Lasm;)F
+	METHOD a interact (Lbjf;Larf;)Larg;
+	METHOD a getOrCreateKnot (Lbvr;Lgb;)Lbfz;
+	METHOD a setDirection (Lgg;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD cZ getPickResult ()Lbpr;
+	METHOD n getRopeHoldPosition (F)Ldly;
+	METHOD o recalculateBoundingBox ()V
+	METHOD p survives ()Z
+	METHOD q getWidth ()I
+	METHOD r getHeight ()I
+	METHOD s playPlacementSound ()V

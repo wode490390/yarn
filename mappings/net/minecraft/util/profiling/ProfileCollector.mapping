@@ -1,0 +1,3 @@
+CLASS apj net/minecraft/util/profiling/ProfileCollector
+	METHOD d getResults ()Lapk;
+	METHOD d getEntry (Ljava/lang/String;)Lape$a;

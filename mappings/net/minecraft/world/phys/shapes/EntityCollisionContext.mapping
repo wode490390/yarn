@@ -1,0 +1,22 @@
+CLASS dmi net/minecraft/world/phys/shapes/EntityCollisionContext
+	FIELD a EMPTY Ldmd;
+	FIELD b descending Z
+	FIELD c entityBottom D
+	FIELD d heldItem Lbpr;
+	FIELD e footItem Lbpr;
+	FIELD f canStandOnFluid Ljava/util/function/Predicate;
+	FIELD g entity Ljava/util/Optional;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasl;)V
+	METHOD <init> <init> (ZDLbpr;Lbpr;Ljava/util/function/Predicate;Ljava/util/Optional;)V
+	METHOD a hasItemOnFeet (Lbpn;)Z
+	METHOD a lambda$new$1 (Lddp;)Z
+	METHOD a canStandOnFluid (Lddq;Lddo;)Z
+	METHOD a isAbove (Ldmr;Lgb;Z)Z
+	METHOD b isDescending ()Z
+	METHOD b isHoldingItem (Lbpn;)Z
+	METHOD b lambda$static$0 (Lddp;)Z
+	METHOD c getEntity ()Ljava/util/Optional;
+	CLASS 1 1
+		METHOD <init> <init> (ZDLbpr;Lbpr;Ljava/util/function/Predicate;Ljava/util/Optional;)V
+		METHOD a isAbove (Ldmr;Lgb;Z)Z

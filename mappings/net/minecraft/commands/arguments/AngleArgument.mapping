@@ -1,0 +1,18 @@
+CLASS dj net/minecraft/commands/arguments/AngleArgument
+	FIELD a ERROR_NOT_COMPLETE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_INVALID_ANGLE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a angle ()Ldj;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ldj$a;
+	METHOD a getAngle (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)F
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	CLASS 1 1
+	CLASS a SingleAngle
+		FIELD a angle F
+		FIELD b isRelative Z
+		METHOD <init> <init> (FZ)V
+		METHOD <init> <init> (FZLdj$1;)V
+		METHOD a getAngle (Ldg;)F

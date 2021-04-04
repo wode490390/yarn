@@ -1,0 +1,6 @@
+CLASS byp net/minecraft/world/level/block/BlastFurnaceBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getTicker (Lbvr;Lcjr;Lchr;)Lchq;
+	METHOD a openContainer (Lbvr;Lgb;Lbjf;)V
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;

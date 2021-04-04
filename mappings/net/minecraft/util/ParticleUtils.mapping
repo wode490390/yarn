@@ -1,0 +1,5 @@
+CLASS agt net/minecraft/util/ParticleUtils
+	METHOD <init> <init> ()V
+	METHOD a spawnParticleOnFace (Lbvr;Lgb;Lgg;Lho;)V
+	METHOD a spawnParticlesOnBlockFaces (Lbvr;Lgb;Lho;Laqs;)V
+	METHOD a spawnParticlesAlongAxis (Lgg$a;Lbvr;Lgb;DLho;Laqs;)V

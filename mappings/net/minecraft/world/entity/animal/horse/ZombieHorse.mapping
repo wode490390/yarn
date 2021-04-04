@@ -1,0 +1,11 @@
+CLASS beu net/minecraft/world/entity/animal/horse/ZombieHorse
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a getBreedOffspring (Labj;Lasj;)Lasj;
+	METHOD b mobInteract (Lbjf;Larf;)Larg;
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD ec getMobType ()Latc;
+	METHOD fw addBehaviourGoals ()V
+	METHOD o randomizeAttributes ()V
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD s createAttributes ()Latx$a;

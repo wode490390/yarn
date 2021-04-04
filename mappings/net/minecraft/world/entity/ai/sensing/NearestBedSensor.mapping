@@ -1,0 +1,13 @@
+CLASS bbm net/minecraft/world/entity/ai/sensing/NearestBedSensor
+	FIELD a CACHE_TIMEOUT I
+	FIELD c BATCH_SIZE I
+	FIELD d RATE I
+	FIELD e batchCache Lit/unimi/dsi/fastutil/longs/Long2LongMap;
+	FIELD f triedCount I
+	FIELD g lastUpdate J
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Labj;Lasy;)V
+	METHOD a doTick (Labj;Lasz;)V
+	METHOD a lambda$doTick$0 (Lgb;)Z
+	METHOD a lambda$doTick$1 (Lit/unimi/dsi/fastutil/longs/Long2LongMap$Entry;)Z

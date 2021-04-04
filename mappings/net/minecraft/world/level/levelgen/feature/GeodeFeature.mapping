@@ -1,0 +1,5 @@
+CLASS crd net/minecraft/world/level/levelgen/feature/GeodeFeature
+	FIELD a DIRECTIONS [Lgg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a place (Lcqz;)Z

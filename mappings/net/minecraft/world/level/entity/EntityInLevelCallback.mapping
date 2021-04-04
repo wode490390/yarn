@@ -1,0 +1,9 @@
+CLASS cnc net/minecraft/world/level/entity/EntityInLevelCallback
+	FIELD a NULL Lcnc;
+	METHOD <clinit> <clinit> ()V
+	METHOD a onMove ()V
+	METHOD a onRemove (Lasl$c;)V
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a onMove ()V
+		METHOD a onRemove (Lasl$c;)V

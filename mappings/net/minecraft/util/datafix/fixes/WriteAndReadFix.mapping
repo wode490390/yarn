@@ -1,0 +1,5 @@
+CLASS amt net/minecraft/util/datafix/fixes/WriteAndReadFix
+	FIELD a name Ljava/lang/String;
+	FIELD b type Lcom/mojang/datafixers/DSL$TypeReference;
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Ljava/lang/String;Lcom/mojang/datafixers/DSL$TypeReference;)V
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

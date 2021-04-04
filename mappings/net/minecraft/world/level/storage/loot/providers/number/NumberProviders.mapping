@@ -1,0 +1,9 @@
+CLASS dlb net/minecraft/world/level/storage/loot/providers/number/NumberProviders
+	FIELD a CONSTANT Ldkz;
+	FIELD b UNIFORM Ldkz;
+	FIELD c BINOMIAL Ldkz;
+	FIELD d SCORE Ldkz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a createGsonAdapter ()Ljava/lang/Object;
+	METHOD a register (Ljava/lang/String;Ldht;)Ldkz;

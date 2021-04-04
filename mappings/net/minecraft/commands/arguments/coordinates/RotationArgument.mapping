@@ -1,0 +1,10 @@
+CLASS et net/minecraft/commands/arguments/coordinates/RotationArgument
+	FIELD a ERROR_NOT_COMPLETE Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a rotation ()Let;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ler;
+	METHOD a getRotation (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ler;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

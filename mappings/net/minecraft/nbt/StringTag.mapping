@@ -1,0 +1,30 @@
+CLASS nl net/minecraft/nbt/StringTag
+	FIELD A data Ljava/lang/String;
+	FIELD a TYPE Lnp;
+	FIELD b SELF_SIZE_IN_BITS I
+	FIELD c EMPTY Lnl;
+	FIELD w DOUBLE_QUOTE C
+	FIELD x SINGLE_QUOTE C
+	FIELD y ESCAPE C
+	FIELD z NOT_SET C
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a getId ()B
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a valueOf (Ljava/lang/String;)Lnl;
+	METHOD a accept (Lnr;)V
+	METHOD b getType ()Lnp;
+	METHOD b quoteAndEscape (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c copy ()Lnn;
+	METHOD d copy ()Lnl;
+	METHOD e_ getAsString ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a load (Ljava/io/DataInput;ILne;)Lnl;
+		METHOD b getPrettyName ()Ljava/lang/String;
+		METHOD b load (Ljava/io/DataInput;ILne;)Lnn;
+		METHOD c isValue ()Z

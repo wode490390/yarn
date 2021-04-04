@@ -1,0 +1,10 @@
+CLASS coj net/minecraft/world/level/levelgen/Decoratable
+	METHOD a squared ()Ljava/lang/Object;
+	METHOD a rarity (I)Ljava/lang/Object;
+	METHOD a count (Laqo;)Ljava/lang/Object;
+	METHOD a depthAverage (Lcpe;I)Ljava/lang/Object;
+	METHOD a range (Lcpe;Lcpe;)Ljava/lang/Object;
+	METHOD a range (Lcut;)Ljava/lang/Object;
+	METHOD a decorated (Lcyi;)Ljava/lang/Object;
+	METHOD b count (I)Ljava/lang/Object;
+	METHOD c countRandom (I)Ljava/lang/Object;

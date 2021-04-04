@@ -1,0 +1,18 @@
+CLASS dgm net/minecraft/world/level/saveddata/maps/MapBanner
+	FIELD a pos Lgb;
+	FIELD b color Lbon;
+	FIELD c name Lon;
+	METHOD <init> <init> (Lgb;Lbon;Lon;)V
+	METHOD a getPos ()Lgb;
+	METHOD a fromWorld (Lbuv;Lgb;)Ldgm;
+	METHOD a load (Lmv;)Ldgm;
+	METHOD b getColor ()Lbon;
+	METHOD c getDecoration ()Ldgn$a;
+	METHOD d getName ()Lon;
+	METHOD e save ()Lmv;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getId ()Ljava/lang/String;
+	METHOD hashCode hashCode ()I
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$item$DyeColor [I
+		METHOD <clinit> <clinit> ()V

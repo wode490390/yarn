@@ -1,0 +1,4 @@
+CLASS bce net/minecraft/world/entity/ai/util/AirRandomPos
+	METHOD <init> <init> ()V
+	METHOD a getPosTowards (Latg;IIILdly;D)Ldly;
+	METHOD a lambda$getPosTowards$0 (Latg;IIILdly;DZ)Lgb;

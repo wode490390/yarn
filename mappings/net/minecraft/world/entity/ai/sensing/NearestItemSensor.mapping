@@ -1,0 +1,11 @@
+CLASS bbn net/minecraft/world/entity/ai/sensing/NearestItemSensor
+	FIELD a MAX_DISTANCE_TO_WANTED_ITEM I
+	FIELD c XZ_RANGE J
+	FIELD d Y_RANGE J
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Labj;Lasy;)V
+	METHOD a doTick (Labj;Lasz;)V
+	METHOD a lambda$doTick$2 (Lasz;Lbge;)Z
+	METHOD a lambda$doTick$0 (Lbge;)Z
+	METHOD b lambda$doTick$1 (Lasz;Lbge;)Z

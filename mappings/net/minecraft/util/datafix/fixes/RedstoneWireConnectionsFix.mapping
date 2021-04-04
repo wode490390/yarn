@@ -1,0 +1,11 @@
+CLASS alv net/minecraft/util/datafix/fixes/RedstoneWireConnectionsFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a lambda$makeRule$0 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a updateRedstoneConnections (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a isConnected (Ljava/lang/String;)Z
+	METHOD a lambda$null$4 (Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD b lambda$updateRedstoneConnections$5 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD b lambda$null$3 (Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD c lambda$null$2 (Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD d lambda$null$1 (Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

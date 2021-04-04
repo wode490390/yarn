@@ -1,0 +1,3 @@
+CLASS cfp net/minecraft/world/level/block/StoneButtonBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getSound (Z)Laev;

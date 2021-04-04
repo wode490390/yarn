@@ -1,0 +1,7 @@
+CLASS aws net/minecraft/world/entity/ai/behavior/StartCelebratingIfTargetDead
+	FIELD a celebrateDuration I
+	FIELD c dancePredicate Ljava/util/function/BiPredicate;
+	METHOD <init> <init> (ILjava/util/function/BiPredicate;)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a getAttackTarget (Lasy;)Lasy;

@@ -1,0 +1,7 @@
+CLASS chl net/minecraft/world/level/block/entity/BedBlockEntity
+	FIELD a color Lbon;
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD <init> <init> (Lgb;Lcjr;Lbon;)V
+	METHOD a getUpdatePacket ()Lpt;
+	METHOD a setColor (Lbon;)V
+	METHOD d getColor ()Lbon;

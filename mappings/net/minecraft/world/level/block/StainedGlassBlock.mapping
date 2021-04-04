@@ -1,0 +1,4 @@
+CLASS cfj net/minecraft/world/level/block/StainedGlassBlock
+	FIELD a color Lbon;
+	METHOD <init> <init> (Lbon;Lcjq$c;)V
+	METHOD a getColor ()Lbon;

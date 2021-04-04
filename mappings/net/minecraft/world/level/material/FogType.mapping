@@ -1,0 +1,10 @@
+CLASS dds net/minecraft/world/level/material/FogType
+	FIELD a LAVA Ldds;
+	FIELD b WATER Ldds;
+	FIELD c POWDER_SNOW Ldds;
+	FIELD d NONE Ldds;
+	FIELD e $VALUES [Ldds;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldds;
+	METHOD values values ()[Ldds;

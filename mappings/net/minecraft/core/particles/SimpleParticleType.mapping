@@ -1,0 +1,16 @@
+CLASS hr net/minecraft/core/particles/SimpleParticleType
+	FIELD a DESERIALIZER Lho$a;
+	FIELD b codec Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a writeToNetwork (Lob;)V
+	METHOD b getType ()Lhp;
+	METHOD e codec ()Lcom/mojang/serialization/Codec;
+	METHOD f getType ()Lhr;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lhr;
+		METHOD a fromNetwork (Lhp;Lob;)Lhr;
+		METHOD b fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lho;
+		METHOD b fromNetwork (Lhp;Lob;)Lho;

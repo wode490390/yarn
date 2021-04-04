@@ -1,0 +1,8 @@
+CLASS axa net/minecraft/world/entity/ai/behavior/TryFindWater
+	FIELD a range I
+	FIELD c speedModifier F
+	METHOD <init> <init> (IF)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Latg;)Z
+	METHOD a start (Labj;Latg;J)V

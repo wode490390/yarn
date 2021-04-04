@@ -1,0 +1,6 @@
+CLASS amb net/minecraft/util/datafix/fixes/ReorganizePoi
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$0 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a cap (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a lambda$makeRule$1 (Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

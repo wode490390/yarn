@@ -1,0 +1,19 @@
+CLASS hi net/minecraft/core/particles/BlockParticleOption
+	FIELD a DESERIALIZER Lho$a;
+	FIELD b type Lhp;
+	FIELD c state Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lhp;Lcjr;)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a lambda$codec$1 (Lhi;)Lcjr;
+	METHOD a codec (Lhp;)Lcom/mojang/serialization/Codec;
+	METHOD a lambda$codec$0 (Lhp;Lcjr;)Lhi;
+	METHOD a writeToNetwork (Lob;)V
+	METHOD b getType ()Lhp;
+	METHOD c getState ()Lcjr;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lhi;
+		METHOD a fromNetwork (Lhp;Lob;)Lhi;
+		METHOD b fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lho;
+		METHOD b fromNetwork (Lhp;Lob;)Lho;

@@ -1,0 +1,12 @@
+CLASS xl net/minecraft/server/commands/BanIpCommands
+	FIELD a IP_ADDRESS_PATTERN Ljava/util/regex/Pattern;
+	FIELD b ERROR_INVALID_IP Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c ERROR_ALREADY_BANNED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Ldg;)Z
+	METHOD a banIpOrName (Ldg;Ljava/lang/String;Lon;)I
+	METHOD b lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b banIp (Ldg;Ljava/lang/String;Lon;)I

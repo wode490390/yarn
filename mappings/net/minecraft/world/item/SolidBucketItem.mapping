@@ -1,0 +1,7 @@
+CLASS bqr net/minecraft/world/item/SolidBucketItem
+	FIELD c placeSound Laev;
+	METHOD <init> <init> (Lbyq;Laev;Lbpn$a;)V
+	METHOD a getDescriptionId ()Ljava/lang/String;
+	METHOD a emptyContents (Lbjf;Lbvr;Lgb;Ldlu;)Z
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a getPlaceSound (Lcjr;)Laev;

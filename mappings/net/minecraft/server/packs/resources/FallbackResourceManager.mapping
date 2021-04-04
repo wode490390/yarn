@@ -1,0 +1,25 @@
+CLASS adf net/minecraft/server/packs/resources/FallbackResourceManager
+	FIELD a fallbacks Ljava/util/List;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c type Laco;
+	FIELD d namespace Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laco;Ljava/lang/String;)V
+	METHOD a getNamespaces ()Ljava/util/Set;
+	METHOD a add (Lacn;)V
+	METHOD a listResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a getResource (Lwp;)Ladk;
+	METHOD a getWrappedResource (Lwp;Lacn;)Ljava/io/InputStream;
+	METHOD b listPacks ()Ljava/util/stream/Stream;
+	METHOD b hasResource (Lwp;)Z
+	METHOD c access$000 ()Lorg/apache/logging/log4j/Logger;
+	METHOD c getResources (Lwp;)Ljava/util/List;
+	METHOD d getMetadataLocation (Lwp;)Lwp;
+	METHOD e validateLocation (Lwp;)V
+	METHOD f isValidLocation (Lwp;)Z
+	CLASS a LeakedResourceWarningInputStream
+		FIELD a message Ljava/lang/String;
+		FIELD b closed Z
+		METHOD <init> <init> (Ljava/io/InputStream;Lwp;Ljava/lang/String;)V
+		METHOD close close ()V
+		METHOD finalize finalize ()V

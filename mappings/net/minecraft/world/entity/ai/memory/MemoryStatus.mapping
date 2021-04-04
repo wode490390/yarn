@@ -1,0 +1,9 @@
+CLASS baw net/minecraft/world/entity/ai/memory/MemoryStatus
+	FIELD a VALUE_PRESENT Lbaw;
+	FIELD b VALUE_ABSENT Lbaw;
+	FIELD c REGISTERED Lbaw;
+	FIELD d $VALUES [Lbaw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbaw;
+	METHOD values values ()[Lbaw;

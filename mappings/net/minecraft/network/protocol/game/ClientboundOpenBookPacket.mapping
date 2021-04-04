@@ -1,0 +1,8 @@
+CLASS ra net/minecraft/network/protocol/game/ClientboundOpenBookPacket
+	FIELD a hand Larf;
+	METHOD <init> <init> (Larf;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getHand ()Larf;

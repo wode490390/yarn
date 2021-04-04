@@ -1,0 +1,41 @@
+CLASS chw net/minecraft/world/level/block/entity/CommandBlockEntity
+	FIELD a powered Z
+	FIELD b auto Z
+	FIELD c conditionMet Z
+	FIELD d sendToClient Z
+	FIELD e commandBlock Lbur;
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a getUpdatePacket ()Lpt;
+	METHOD a load (Lmv;)V
+	METHOD a setPowered (Z)V
+	METHOD b save (Lmv;)Lmv;
+	METHOD b setAutomatic (Z)V
+	METHOD c setSendToClient (Z)V
+	METHOD d getCommandBlock ()Lbur;
+	METHOD f isPowered ()Z
+	METHOD g isAutomatic ()Z
+	METHOD h onModeSwitch ()V
+	METHOD i wasConditionMet ()Z
+	METHOD j markConditionMet ()Z
+	METHOD q onlyOpCanSetNbt ()Z
+	METHOD s isSendToClient ()Z
+	METHOD t getMode ()Lchw$a;
+	METHOD u isConditional ()Z
+	METHOD v scheduleTick ()V
+	CLASS 1 1
+		FIELD b this$0 Lchw;
+		METHOD <init> <init> (Lchw;)V
+		METHOD a setCommand (Ljava/lang/String;)V
+		METHOD d getLevel ()Labj;
+		METHOD e onUpdated ()V
+		METHOD f getPosition ()Ldly;
+		METHOD h createCommandSourceStack ()Ldg;
+	CLASS a Mode
+		FIELD a SEQUENCE Lchw$a;
+		FIELD b AUTO Lchw$a;
+		FIELD c REDSTONE Lchw$a;
+		FIELD d $VALUES [Lchw$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lchw$a;
+		METHOD values values ()[Lchw$a;

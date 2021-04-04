@@ -1,0 +1,7 @@
+CLASS but net/minecraft/world/level/BlockAndTintGetter
+	METHOD a getBrightness (Lbwa;Lgb;)I
+	METHOD a getBlockTint (Lgb;Lnet/minecraft/world/level/ColorResolver;)I
+	METHOD a getShade (Lgg;Z)F
+	METHOD b getRawBrightness (Lgb;I)I
+	METHOD e canSeeSky (Lgb;)Z
+	METHOD t_ getLightEngine ()Lddh;

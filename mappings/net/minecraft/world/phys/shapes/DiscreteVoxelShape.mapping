@@ -1,0 +1,30 @@
+CLASS dmh net/minecraft/world/phys/shapes/DiscreteVoxelShape
+	FIELD a xSize I
+	FIELD b ySize I
+	FIELD c zSize I
+	FIELD d AXIS_VALUES [Lgg$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (III)V
+	METHOD a isEmpty ()Z
+	METHOD a forAllFaces (Ldmh$a;)V
+	METHOD a forAllAxisFaces (Ldmh$a;Lfz;)V
+	METHOD a forAllAxisEdges (Ldmh$b;Lfz;Z)V
+	METHOD a forAllEdges (Ldmh$b;Z)V
+	METHOD a isFullWide (Lfz;III)Z
+	METHOD a firstFull (Lgg$a;)I
+	METHOD a firstFull (Lgg$a;II)I
+	METHOD b getXSize ()I
+	METHOD b isFull (III)Z
+	METHOD b forAllBoxes (Ldmh$b;Z)V
+	METHOD b isFull (Lfz;III)Z
+	METHOD b lastFull (Lgg$a;)I
+	METHOD b lastFull (Lgg$a;II)I
+	METHOD c getYSize ()I
+	METHOD c fill (III)V
+	METHOD c getSize (Lgg$a;)I
+	METHOD d getZSize ()I
+	METHOD d isFullWide (III)Z
+	CLASS a IntFaceConsumer
+		METHOD consume consume (Lgg;III)V
+	CLASS b IntLineConsumer
+		METHOD consume consume (IIIIII)V

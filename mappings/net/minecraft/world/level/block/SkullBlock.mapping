@@ -1,0 +1,26 @@
+CLASS ceu net/minecraft/world/level/block/SkullBlock
+	FIELD a MAX I
+	FIELD b ROTATION Lckr;
+	FIELD c SHAPE Ldmr;
+	FIELD d ROTATIONS I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lceu$a;Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a_ getOcclusionShape (Lcjr;Lbuv;Lgb;)Ldmr;
+	CLASS a Type
+	CLASS b Types
+		FIELD a SKELETON Lceu$b;
+		FIELD b WITHER_SKELETON Lceu$b;
+		FIELD c PLAYER Lceu$b;
+		FIELD d ZOMBIE Lceu$b;
+		FIELD e CREEPER Lceu$b;
+		FIELD f DRAGON Lceu$b;
+		FIELD g $VALUES [Lceu$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lceu$b;
+		METHOD values values ()[Lceu$b;

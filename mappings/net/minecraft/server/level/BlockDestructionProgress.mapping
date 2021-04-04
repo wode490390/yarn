@@ -1,0 +1,16 @@
+CLASS aau net/minecraft/server/level/BlockDestructionProgress
+	FIELD a id I
+	FIELD b pos Lgb;
+	FIELD c progress I
+	FIELD d updatedRenderTick I
+	METHOD <init> <init> (ILgb;)V
+	METHOD a getId ()I
+	METHOD a setProgress (I)V
+	METHOD a compareTo (Laau;)I
+	METHOD b getPos ()Lgb;
+	METHOD b updateTick (I)V
+	METHOD c getProgress ()I
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD d getUpdatedRenderTick ()I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

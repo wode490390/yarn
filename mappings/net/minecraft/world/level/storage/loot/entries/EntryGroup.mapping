@@ -1,0 +1,14 @@
+CLASS dib net/minecraft/world/level/storage/loot/entries/EntryGroup
+	METHOD <init> <init> ([Ldif;[Ldkf;)V
+	METHOD a getType ()Ldig;
+	METHOD a lambda$compose$0 (Ldhx;Ldhx;Ldhn;Ljava/util/function/Consumer;)Z
+	METHOD a compose ([Ldhx;)Ldhx;
+	METHOD a lambda$compose$1 ([Ldhx;Ldhn;Ljava/util/function/Consumer;)Z
+	METHOD a list ([Ldif$a;)Ldib$a;
+	CLASS a Builder
+		FIELD a entries Ljava/util/List;
+		METHOD <init> <init> ([Ldif$a;)V
+		METHOD a getThis ()Ldib$a;
+		METHOD b build ()Ldif;
+		METHOD b append (Ldif$a;)Ldib$a;
+		METHOD d getThis ()Ldif$a;

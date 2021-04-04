@@ -1,0 +1,19 @@
+CLASS tq net/minecraft/network/protocol/game/ServerboundContainerClickPacket
+	FIELD a containerId I
+	FIELD b slotNum I
+	FIELD c buttonNum I
+	FIELD d clickType Lblu;
+	FIELD e carriedItem Lbpr;
+	FIELD f changedSlots Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD <init> <init> (IIILblu;Lbpr;Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getContainerId ()I
+	METHOD b lambda$new$0 (Lob;)Ljava/lang/Integer;
+	METHOD c getSlotNum ()I
+	METHOD d getButtonNum ()I
+	METHOD e getCarriedItem ()Lbpr;
+	METHOD f getChangedSlots ()Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD g getClickType ()Lblu;

@@ -1,0 +1,25 @@
+CLASS apl net/minecraft/util/profiling/ProfilerFiller
+	FIELD b ROOT Ljava/lang/String;
+	METHOD a startTick ()V
+	METHOD a tee (Lapl;Lapl;)Lapl;
+	METHOD a push (Ljava/lang/String;)V
+	METHOD a push (Ljava/util/function/Supplier;)V
+	METHOD b endTick ()V
+	METHOD b popPush (Ljava/lang/String;)V
+	METHOD b popPush (Ljava/util/function/Supplier;)V
+	METHOD c pop ()V
+	METHOD c incrementCounter (Ljava/lang/String;)V
+	METHOD c incrementCounter (Ljava/util/function/Supplier;)V
+	CLASS 1 1
+		FIELD a val$first Lapl;
+		FIELD c val$second Lapl;
+		METHOD <init> <init> (Lapl;Lapl;)V
+		METHOD a startTick ()V
+		METHOD a push (Ljava/lang/String;)V
+		METHOD a push (Ljava/util/function/Supplier;)V
+		METHOD b endTick ()V
+		METHOD b popPush (Ljava/lang/String;)V
+		METHOD b popPush (Ljava/util/function/Supplier;)V
+		METHOD c pop ()V
+		METHOD c incrementCounter (Ljava/lang/String;)V
+		METHOD c incrementCounter (Ljava/util/function/Supplier;)V

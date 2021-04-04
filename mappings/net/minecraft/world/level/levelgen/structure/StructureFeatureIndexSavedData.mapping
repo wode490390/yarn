@@ -1,0 +1,14 @@
+CLASS daj net/minecraft/world/level/levelgen/structure/StructureFeatureIndexSavedData
+	FIELD a TAG_REMAINING_INDEXES Ljava/lang/String;
+	FIELD b TAG_All_INDEXES Ljava/lang/String;
+	FIELD c all Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD d remaining Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lit/unimi/dsi/fastutil/longs/LongSet;Lit/unimi/dsi/fastutil/longs/LongSet;)V
+	METHOD a getAll ()Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD a addIndex (J)V
+	METHOD a save (Lmv;)Lmv;
+	METHOD b hasStartIndex (J)Z
+	METHOD b load (Lmv;)Ldaj;
+	METHOD c hasUnhandledIndex (J)Z
+	METHOD d removeIndex (J)V

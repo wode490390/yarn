@@ -1,0 +1,14 @@
+CLASS chz net/minecraft/world/level/block/entity/ContainerOpenersCounter
+	FIELD a CHECK_TICK_DELAY I
+	FIELD b openCount I
+	METHOD <init> <init> ()V
+	METHOD a getOpenerCount ()I
+	METHOD a isOwnContainer (Lbjf;)Z
+	METHOD a incrementOpeners (Lbjf;Lbvr;Lgb;Lcjr;)V
+	METHOD a getOpenCount (Lbvr;Lgb;)I
+	METHOD a onOpen (Lbvr;Lgb;Lcjr;)V
+	METHOD a openerCountChanged (Lbvr;Lgb;Lcjr;II)V
+	METHOD b decrementOpeners (Lbjf;Lbvr;Lgb;Lcjr;)V
+	METHOD b onClose (Lbvr;Lgb;Lcjr;)V
+	METHOD c recheckOpeners (Lbvr;Lgb;Lcjr;)V
+	METHOD d scheduleRecheck (Lbvr;Lgb;Lcjr;)V

@@ -1,0 +1,6 @@
+CLASS diy net/minecraft/world/level/storage/loot/functions/LootItemFunction
+	METHOD a getType ()Ldiz;
+	METHOD a decorate (Ljava/util/function/BiFunction;Ljava/util/function/Consumer;Ldhn;)Ljava/util/function/Consumer;
+	METHOD a lambda$decorate$0 (Ljava/util/function/Consumer;Ljava/util/function/BiFunction;Ldhn;Lbpr;)V
+	CLASS a Builder
+		METHOD b build ()Ldiy;

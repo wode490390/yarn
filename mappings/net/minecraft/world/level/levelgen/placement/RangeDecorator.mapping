@@ -1,0 +1,3 @@
+CLASS czd net/minecraft/world/level/levelgen/placement/RangeDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a y (Ljava/util/Random;II)I

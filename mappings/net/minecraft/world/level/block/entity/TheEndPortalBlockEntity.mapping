@@ -1,0 +1,4 @@
+CLASS civ net/minecraft/world/level/block/entity/TheEndPortalBlockEntity
+	METHOD <init> <init> (Lchr;Lgb;Lcjr;)V
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a shouldRenderFace (Lgg;)Z

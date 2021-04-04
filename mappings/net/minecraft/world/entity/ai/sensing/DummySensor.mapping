@@ -1,0 +1,4 @@
+CLASS bbi net/minecraft/world/entity/ai/sensing/DummySensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Labj;Lasy;)V

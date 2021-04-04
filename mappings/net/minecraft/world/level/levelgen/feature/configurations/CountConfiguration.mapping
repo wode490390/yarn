@@ -1,0 +1,7 @@
+CLASS ctt net/minecraft/world/level/levelgen/feature/configurations/CountConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c count Laqo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD <init> <init> (Laqo;)V
+	METHOD a count ()Laqo;

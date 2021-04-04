@@ -1,0 +1,12 @@
+CLASS pa net/minecraft/network/chat/TextComponent
+	FIELD d EMPTY Lon;
+	FIELD e text Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a getContents ()Ljava/lang/String;
+	METHOD d plainCopy ()Loj;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD g plainCopy ()Lot;
+	METHOD h getText ()Ljava/lang/String;
+	METHOD i plainCopy ()Lpa;
+	METHOD toString toString ()Ljava/lang/String;

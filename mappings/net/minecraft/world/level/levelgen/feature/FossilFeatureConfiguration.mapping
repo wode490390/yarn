@@ -1,0 +1,18 @@
+CLASS crc net/minecraft/world/level/levelgen/feature/FossilFeatureConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b fossilStructures Ljava/util/List;
+	FIELD c overlayStructures Ljava/util/List;
+	FIELD d fossilProcessors Ljava/util/function/Supplier;
+	FIELD e overlayProcessors Ljava/util/function/Supplier;
+	FIELD f maxEmptyCornersAllowed I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;Ljava/util/List;Ldbq;Ldbq;I)V
+	METHOD <init> <init> (Ljava/util/List;Ljava/util/List;Ljava/util/function/Supplier;Ljava/util/function/Supplier;I)V
+	METHOD a lambda$static$5 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$4 (Lcrc;)Ljava/lang/Integer;
+	METHOD a lambda$new$7 (Ldbq;)Ldbq;
+	METHOD b lambda$null$3 (Lcrc;)Ljava/util/function/Supplier;
+	METHOD b lambda$new$6 (Ldbq;)Ldbq;
+	METHOD c lambda$null$2 (Lcrc;)Ljava/util/function/Supplier;
+	METHOD d lambda$null$1 (Lcrc;)Ljava/util/List;
+	METHOD e lambda$null$0 (Lcrc;)Ljava/util/List;

@@ -1,0 +1,18 @@
+CLASS beh net/minecraft/world/entity/animal/goat/GoatAi
+	FIELD a SPEED_MULTIPLIER_WHEN_MAKING_LOVE F
+	FIELD b SPEED_MULTIPLIER_WHEN_IDLING F
+	FIELD c ADULT_FOLLOW_RANGE Laqs;
+	FIELD d SPEED_MULTIPLIER_WHEN_FOLLOWING_ADULT F
+	FIELD e SPEED_MULTIPLIER_WHEN_TEMPTED F
+	FIELD f SPEED_MULTIPLIER_WHEN_PANICKING F
+	FIELD g TIMES_BETWEEN_LONG_JUMPS Laqs;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getTemptations ()Lbsg;
+	METHOD a lambda$initIdleActivity$0 (Lasy;)Ljava/lang/Float;
+	METHOD a makeBrain (Lats;)Lats;
+	METHOD a initMemories (Lbeg;)V
+	METHOD b initCoreActivity (Lats;)V
+	METHOD b updateActivity (Lbeg;)V
+	METHOD c initIdleActivity (Lats;)V
+	METHOD d initLongJumpActivity (Lats;)V

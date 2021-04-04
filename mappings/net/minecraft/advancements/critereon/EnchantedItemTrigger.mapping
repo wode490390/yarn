@@ -1,0 +1,17 @@
+CLASS bf net/minecraft/advancements/critereon/EnchantedItemTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;Lbpr;I)V
+	METHOD a lambda$trigger$0 (Lbpr;ILbf$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lbf$a;
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a item Lbv;
+		FIELD b levels Lce$d;
+		METHOD <init> <init> (Lbl$b;Lbv;Lce$d;)V
+		METHOD a matches (Lbpr;I)Z
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;
+		METHOD c enchantedItem ()Lbf$a;

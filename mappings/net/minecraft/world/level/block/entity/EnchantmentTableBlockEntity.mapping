@@ -1,0 +1,21 @@
+CLASS cid net/minecraft/world/level/block/entity/EnchantmentTableBlockEntity
+	FIELD a time I
+	FIELD b flip F
+	FIELD c oFlip F
+	FIELD d flipT F
+	FIELD e flipA F
+	FIELD f open F
+	FIELD g oOpen F
+	FIELD h rot F
+	FIELD i oRot F
+	FIELD j tRot F
+	FIELD k RANDOM Ljava/util/Random;
+	FIELD l name Lon;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD R getName ()Lon;
+	METHOD T getCustomName ()Lon;
+	METHOD a bookAnimationTick (Lbvr;Lgb;Lcjr;Lcid;)V
+	METHOD a load (Lmv;)V
+	METHOD a setCustomName (Lon;)V
+	METHOD b save (Lmv;)Lmv;

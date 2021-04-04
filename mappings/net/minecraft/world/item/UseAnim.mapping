@@ -1,0 +1,14 @@
+CLASS brg net/minecraft/world/item/UseAnim
+	FIELD a NONE Lbrg;
+	FIELD b EAT Lbrg;
+	FIELD c DRINK Lbrg;
+	FIELD d BLOCK Lbrg;
+	FIELD e BOW Lbrg;
+	FIELD f SPEAR Lbrg;
+	FIELD g CROSSBOW Lbrg;
+	FIELD h SPYGLASS Lbrg;
+	FIELD i $VALUES [Lbrg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbrg;
+	METHOD values values ()[Lbrg;

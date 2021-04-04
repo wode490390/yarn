@@ -1,0 +1,5 @@
+CLASS cqm net/minecraft/world/level/levelgen/feature/DecoratedFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a lambda$place$0 (Lcqg;Lbwm;Lclm;Ljava/util/Random;Lorg/apache/commons/lang3/mutable/MutableBoolean;Lgb;)V
+	METHOD a place (Lcqz;)Z
+	METHOD toString toString ()Ljava/lang/String;

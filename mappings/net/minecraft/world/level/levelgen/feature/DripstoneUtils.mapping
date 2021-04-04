@@ -1,0 +1,15 @@
+CLASS cqt net/minecraft/world/level/levelgen/feature/DripstoneUtils
+	METHOD <init> <init> ()V
+	METHOD a getDripstoneHeight (DDDD)D
+	METHOD a isEmptyOrWater (Lbvs;Lgb;)Z
+	METHOD a lambda$growPointedDripstone$0 (Lbwm;Lgb$a;Lgg;Lcjr;)V
+	METHOD a placeDripstoneBlockIfPossible (Lbwm;Lgb;)Z
+	METHOD a isCircleMostlyEmbeddedInStone (Lbwm;Lgb;I)Z
+	METHOD a growPointedDripstone (Lbwm;Lgb;Lgg;IZ)V
+	METHOD a isDripstoneBaseOrLava (Lcjr;)Z
+	METHOD a buildBaseToTipColumn (Lgg;IZLjava/util/function/Consumer;)V
+	METHOD a createPointedDripstone (Lgg;Lcko;)Lcjr;
+	METHOD b isEmptyOrWaterOrLava (Lbvs;Lgb;)Z
+	METHOD b isDripstoneBase (Lcjr;)Z
+	METHOD c isEmptyOrWater (Lcjr;)Z
+	METHOD d isEmptyOrWaterOrLava (Lcjr;)Z

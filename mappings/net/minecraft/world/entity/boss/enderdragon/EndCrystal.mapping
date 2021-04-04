@@ -1,0 +1,23 @@
+CLASS bey net/minecraft/world/entity/boss/enderdragon/EndCrystal
+	FIELD b time I
+	FIELD c DATA_BEAM_TARGET Lvy;
+	FIELD d DATA_SHOW_BOTTOM Lvy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDD)V
+	METHOD O getAddEntityPacket ()Lpf;
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a onDestroyedBy (Larv;)V
+	METHOD a hurt (Larv;F)Z
+	METHOD a setBeamTarget (Lgb;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD a setShowBottom (Z)V
+	METHOD aE getMovementEmission ()Lasl$b;
+	METHOD aY isPickable ()Z
+	METHOD aa kill ()V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD cZ getPickResult ()Lbpr;
+	METHOD e defineSynchedData ()V
+	METHOD g getBeamTarget ()Lgb;
+	METHOD h showsBottom ()Z
+	METHOD j tick ()V

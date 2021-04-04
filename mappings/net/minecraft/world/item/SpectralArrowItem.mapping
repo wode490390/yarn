@@ -1,0 +1,3 @@
+CLASS bqt net/minecraft/world/item/SpectralArrowItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a createArrow (Lbvr;Lbpr;Lasy;)Lbjj;

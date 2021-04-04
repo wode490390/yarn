@@ -1,0 +1,4 @@
+CLASS vk net/minecraft/network/protocol/login/ServerLoginPacketListener
+	METHOD a handleCustomQueryPacket (Lvl;)V
+	METHOD a handleHello (Lvm;)V
+	METHOD a handleKey (Lvn;)V

@@ -1,0 +1,12 @@
+CLASS acl net/minecraft/server/packs/FilePackResources
+	FIELD b SPLITTER Lcom/google/common/base/Splitter;
+	FIELD e zipFile Ljava/util/zip/ZipFile;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getNamespaces (Laco;)Ljava/util/Set;
+	METHOD a getResources (Laco;Ljava/lang/String;Ljava/lang/String;ILjava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a getResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD b getOrCreateZipFile ()Ljava/util/zip/ZipFile;
+	METHOD c hasResource (Ljava/lang/String;)Z
+	METHOD close close ()V
+	METHOD finalize finalize ()V

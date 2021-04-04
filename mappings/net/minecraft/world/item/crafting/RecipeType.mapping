@@ -1,0 +1,15 @@
+CLASS bsm net/minecraft/world/item/crafting/RecipeType
+	FIELD a CRAFTING Lbsm;
+	FIELD b SMELTING Lbsm;
+	FIELD c BLASTING Lbsm;
+	FIELD d SMOKING Lbsm;
+	FIELD e CAMPFIRE_COOKING Lbsm;
+	FIELD f STONECUTTING Lbsm;
+	FIELD g SMITHING Lbsm;
+	METHOD <clinit> <clinit> ()V
+	METHOD a tryMatch (Lbsj;Lbvr;Laqz;)Ljava/util/Optional;
+	METHOD a register (Ljava/lang/String;)Lbsm;
+	CLASS 1 1
+		FIELD h val$name Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD toString toString ()Ljava/lang/String;

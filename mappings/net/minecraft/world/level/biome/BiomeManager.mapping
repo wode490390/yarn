@@ -1,0 +1,18 @@
+CLASS bws net/minecraft/world/level/biome/BiomeManager
+	FIELD a CHUNK_CENTER_QUART I
+	FIELD b noiseBiomeSource Lbws$a;
+	FIELD c biomeZoomSeed J
+	FIELD d zoomer Lbwv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbws$a;JLbwv;)V
+	METHOD a access$000 ()I
+	METHOD a getNoiseBiomeAtPosition (DDD)Lbwq;
+	METHOD a getNoiseBiomeAtQuart (III)Lbwq;
+	METHOD a obfuscateSeed (J)J
+	METHOD a getPrimaryBiomeAtChunk (Lbuw;)Lbwq;
+	METHOD a withDifferentSource (Lbwt;)Lbws;
+	METHOD a getBiome (Lgb;)Lbwq;
+	METHOD b getNoiseBiomeAtPosition (Lgb;)Lbwq;
+	CLASS a NoiseBiomeSource
+		METHOD a getPrimaryBiome (Lbuw;)Lbwq;
+		METHOD b getNoiseBiome (III)Lbwq;

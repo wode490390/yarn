@@ -1,0 +1,24 @@
+CLASS bux net/minecraft/world/level/ChunkTickList
+	FIELD a ticks Ljava/util/List;
+	FIELD b toId Ljava/util/function/Function;
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/List;)V
+	METHOD <init> <init> (Ljava/util/function/Function;Ljava/util/List;J)V
+	METHOD a size ()I
+	METHOD a lambda$new$0 (JLbwk;)Lbux$a;
+	METHOD a copyOut (Lbwj;)V
+	METHOD a lambda$copyOut$1 (Lbwj;Lbux$a;)V
+	METHOD a hasScheduledTick (Lgb;Ljava/lang/Object;)Z
+	METHOD a scheduleTick (Lgb;Ljava/lang/Object;ILbwl;)V
+	METHOD a create (Lnb;Ljava/util/function/Function;Ljava/util/function/Function;)Lbux;
+	METHOD b save ()Lnb;
+	METHOD b willTickThisTick (Lgb;Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a ScheduledTick
+		FIELD a pos Lgb;
+		FIELD b delay I
+		FIELD c priority Lbwl;
+		FIELD d type Ljava/lang/Object;
+		METHOD <init> <init> (Ljava/lang/Object;Lgb;ILbwl;)V
+		METHOD <init> <init> (Ljava/lang/Object;Lgb;ILbwl;Lbux$1;)V
+		METHOD a access$100 (Lbux$a;)Ljava/lang/Object;
+		METHOD toString toString ()Ljava/lang/String;

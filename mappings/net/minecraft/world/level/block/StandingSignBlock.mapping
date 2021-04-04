@@ -1,0 +1,10 @@
+CLASS cfm net/minecraft/world/level/block/StandingSignBlock
+	FIELD d ROTATION Lckr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;Lcld;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V

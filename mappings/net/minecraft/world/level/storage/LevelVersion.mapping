@@ -1,0 +1,13 @@
+CLASS dhb net/minecraft/world/level/storage/LevelVersion
+	FIELD a levelDataVersion I
+	FIELD b lastPlayed J
+	FIELD c minecraftVersionName Ljava/lang/String;
+	FIELD d minecraftVersion I
+	FIELD e snapshot Z
+	METHOD <init> <init> (IJLjava/lang/String;IZ)V
+	METHOD a levelDataVersion ()I
+	METHOD a parse (Lcom/mojang/serialization/Dynamic;)Ldhb;
+	METHOD b lastPlayed ()J
+	METHOD c minecraftVersionName ()Ljava/lang/String;
+	METHOD d minecraftVersion ()I
+	METHOD e snapshot ()Z

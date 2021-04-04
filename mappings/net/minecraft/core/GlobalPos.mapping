@@ -1,0 +1,13 @@
+CLASS gj net/minecraft/core/GlobalPos
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b dimension Lwo;
+	FIELD c pos Lgb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lwo;Lgb;)V
+	METHOD a dimension ()Lwo;
+	METHOD a lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a of (Lwo;Lgb;)Lgj;
+	METHOD b pos ()Lgb;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

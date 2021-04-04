@@ -1,0 +1,26 @@
+CLASS dei net/minecraft/world/level/newbiome/layer/AddEdgeLayer
+	METHOD <init> <init> ()V
+	CLASS a CoolWarm
+		FIELD a INSTANCE Ldei$a;
+		FIELD ar $VALUES [Ldei$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Ldee;IIIII)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldei$a;
+		METHOD values values ()[Ldei$a;
+	CLASS b HeatIce
+		FIELD a INSTANCE Ldei$b;
+		FIELD ar $VALUES [Ldei$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Ldee;IIIII)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldei$b;
+		METHOD values values ()[Ldei$b;
+	CLASS c IntroduceSpecial
+		FIELD a INSTANCE Ldei$c;
+		FIELD ar $VALUES [Ldei$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a apply (Ldee;I)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldei$c;
+		METHOD values values ()[Ldei$c;

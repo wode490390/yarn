@@ -1,0 +1,11 @@
+CLASS bwn net/minecraft/world/level/biome/AmbientAdditionsSettings
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b soundEvent Laev;
+	FIELD c tickChance D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laev;D)V
+	METHOD a getSoundEvent ()Laev;
+	METHOD a lambda$null$1 (Lbwn;)Ljava/lang/Double;
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b getTickChance ()D
+	METHOD b lambda$null$0 (Lbwn;)Laev;

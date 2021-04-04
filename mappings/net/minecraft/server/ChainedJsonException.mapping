@@ -1,0 +1,21 @@
+CLASS ws net/minecraft/server/ChainedJsonException
+	FIELD a entries Ljava/util/List;
+	FIELD b message Ljava/lang/String;
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Throwable;)V
+	METHOD a forException (Ljava/lang/Exception;)Lws;
+	METHOD a prependJsonKey (Ljava/lang/String;)V
+	METHOD b setFilenameAndFlush (Ljava/lang/String;)V
+	METHOD getMessage getMessage ()Ljava/lang/String;
+	CLASS 1 1
+	CLASS a Entry
+		FIELD a filename Ljava/lang/String;
+		FIELD b jsonKeys Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lws$1;)V
+		METHOD a getFilename ()Ljava/lang/String;
+		METHOD a addJsonKey (Ljava/lang/String;)V
+		METHOD a access$100 (Lws$a;Ljava/lang/String;)V
+		METHOD b getJsonKeys ()Ljava/lang/String;
+		METHOD b access$202 (Lws$a;Ljava/lang/String;)Ljava/lang/String;
+		METHOD toString toString ()Ljava/lang/String;

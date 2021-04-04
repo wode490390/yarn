@@ -1,0 +1,34 @@
+CLASS cuo net/minecraft/world/level/levelgen/feature/configurations/OreConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b targetStates Ljava/util/List;
+	FIELD c size I
+	FIELD d discardChanceOnAirExposure F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldbl;Lcjr;I)V
+	METHOD <init> <init> (Ldbl;Lcjr;IF)V
+	METHOD <init> <init> (Ljava/util/List;I)V
+	METHOD <init> <init> (Ljava/util/List;IF)V
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcuo;)Ljava/lang/Float;
+	METHOD a target (Ldbl;Lcjr;)Lcuo$b;
+	METHOD b lambda$null$1 (Lcuo;)Ljava/lang/Integer;
+	METHOD c lambda$null$0 (Lcuo;)Ljava/util/List;
+	CLASS 1 1
+	CLASS a Predicates
+		FIELD a NATURAL_STONE Ldbl;
+		FIELD b STONE_ORE_REPLACEABLES Ldbl;
+		FIELD c DEEPSLATE_ORE_REPLACEABLES Ldbl;
+		FIELD d NETHERRACK Ldbl;
+		FIELD e NETHER_ORE_REPLACEABLES Ldbl;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+	CLASS b TargetBlockState
+		FIELD a CODEC Lcom/mojang/serialization/Codec;
+		FIELD b target Ldbl;
+		FIELD c state Lcjr;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ldbl;Lcjr;)V
+		METHOD <init> <init> (Ldbl;Lcjr;Lcuo$1;)V
+		METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+		METHOD a lambda$null$1 (Lcuo$b;)Lcjr;
+		METHOD b lambda$null$0 (Lcuo$b;)Ldbl;

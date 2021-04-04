@@ -1,0 +1,14 @@
+CLASS awv net/minecraft/world/entity/ai/behavior/StrollAroundPoi
+	FIELD a MIN_TIME_BETWEEN_STROLLS I
+	FIELD c STROLL_MAX_XZ_DIST I
+	FIELD d STROLL_MAX_Y_DIST I
+	FIELD e memoryType Lbav;
+	FIELD f nextOkStartTime J
+	FIELD g maxDistanceFromPoi I
+	FIELD h speedModifier F
+	METHOD <init> <init> (Lbav;FI)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Latg;)Z
+	METHOD a start (Labj;Latg;J)V
+	METHOD a lambda$start$0 (Ldly;)Lbax;

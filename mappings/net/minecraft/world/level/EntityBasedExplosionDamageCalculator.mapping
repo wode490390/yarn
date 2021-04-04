@@ -1,0 +1,6 @@
+CLASS bvh net/minecraft/world/level/EntityBasedExplosionDamageCalculator
+	FIELD a source Lasl;
+	METHOD <init> <init> (Lasl;)V
+	METHOD a shouldBlockExplode (Lbvj;Lbuv;Lgb;Lcjr;F)Z
+	METHOD a getBlockExplosionResistance (Lbvj;Lbuv;Lgb;Lcjr;Lddq;)Ljava/util/Optional;
+	METHOD a lambda$getBlockExplosionResistance$0 (Lbvj;Lbuv;Lgb;Lcjr;Lddq;Ljava/lang/Float;)Ljava/lang/Float;

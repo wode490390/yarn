@@ -1,0 +1,6 @@
+CLASS ctr net/minecraft/world/level/levelgen/feature/configurations/BlockStateConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b state Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjr;)V
+	METHOD a lambda$static$0 (Lctr;)Lcjr;

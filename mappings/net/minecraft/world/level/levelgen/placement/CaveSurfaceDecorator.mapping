@@ -1,0 +1,5 @@
+CLASS cyf net/minecraft/world/level/levelgen/placement/CaveSurfaceDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a lambda$getPositions$0 (Lcjr;)Z
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lctv;Lgb;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lcyd;Lgb;)Ljava/util/stream/Stream;

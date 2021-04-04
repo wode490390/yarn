@@ -1,0 +1,11 @@
+CLASS dbx net/minecraft/world/level/levelgen/surfacebuilders/ConfiguredSurfaceBuilder
+	FIELD a DIRECT_CODEC Lcom/mojang/serialization/Codec;
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c surfaceBuilder Ldck;
+	FIELD d config Ldcm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldck;Ldcm;)V
+	METHOD a config ()Ldcm;
+	METHOD a initNoise (J)V
+	METHOD a lambda$static$0 (Ldbx;)Ldck;
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJ)V

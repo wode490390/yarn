@@ -1,0 +1,42 @@
+CLASS dkr net/minecraft/world/level/storage/loot/providers/nbt/ContextNbtProvider
+	FIELD a BLOCK_ENTITY Ldkr;
+	FIELD b BLOCK_ENTITY_ID Ljava/lang/String;
+	FIELD c BLOCK_ENTITY_PROVIDER Ldkr$a;
+	FIELD d getter Ldkr$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldkr$a;)V
+	METHOD a getType ()Ldks;
+	METHOD a forContextEntity (Ldhn$c;)Ldkt;
+	METHOD a get (Ldhn;)Lnn;
+	METHOD a access$000 (Ldkr;)Ldkr$a;
+	METHOD a access$100 (Ljava/lang/String;)Ldkr;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	METHOD b forEntity (Ldhn$c;)Ldkr$a;
+	METHOD b createFromContext (Ljava/lang/String;)Ldkr;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getId ()Ljava/lang/String;
+		METHOD a get (Ldhn;)Lnn;
+		METHOD b getReferencedContextParams ()Ljava/util/Set;
+	CLASS 2 2
+		FIELD a val$target Ldhn$c;
+		METHOD <init> <init> (Ldhn$c;)V
+		METHOD a getId ()Ljava/lang/String;
+		METHOD a get (Ldhn;)Lnn;
+		METHOD b getReferencedContextParams ()Ljava/util/Set;
+	CLASS a Getter
+		METHOD a getId ()Ljava/lang/String;
+		METHOD a get (Ldhn;)Lnn;
+		METHOD b getReferencedContextParams ()Ljava/util/Set;
+	CLASS b InlineSerializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Ldkr;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a serialize (Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD b deserialize (Lcom/google/gson/JsonElement;Lcom/google/gson/JsonDeserializationContext;)Ldkr;
+	CLASS c Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldkr;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldkr;

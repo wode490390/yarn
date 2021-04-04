@@ -1,0 +1,8 @@
+CLASS chv net/minecraft/world/level/block/entity/ChestLidController
+	FIELD a shouldBeOpen Z
+	FIELD b openness F
+	FIELD c oOpenness F
+	METHOD <init> <init> ()V
+	METHOD a tickLid ()V
+	METHOD a getOpenness (F)F
+	METHOD a shouldBeOpen (Z)V

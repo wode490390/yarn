@@ -1,0 +1,11 @@
+CLASS cti net/minecraft/world/level/levelgen/feature/WoodlandMansionFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getStartFactory ()Lcsv$a;
+	METHOD a isFeatureChunk (Lclm;Lbwt;JLcph;Lbuw;Lbwq;Lbuw;Lcua;Lbvt;)Z
+	METHOD a isFeatureChunk (Lclm;Lbwt;JLcph;Lbuw;Lbwq;Lbuw;Lcum;Lbvt;)Z
+	METHOD b linearSeparation ()Z
+	CLASS a WoodlandMansionStart
+		METHOD <init> <init> (Lcsv;Lbuw;IJ)V
+		METHOD a placeInChunk (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcua;Lbvt;)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcum;Lbvt;)V

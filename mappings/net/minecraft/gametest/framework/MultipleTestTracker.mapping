@@ -1,0 +1,33 @@
+CLASS mg net/minecraft/gametest/framework/MultipleTestTracker
+	FIELD a NOT_STARTED_TEST_CHAR C
+	FIELD b ONGOING_TEST_CHAR C
+	FIELD c SUCCESSFUL_TEST_CHAR C
+	FIELD d FAILED_OPTIONAL_TEST_CHAR C
+	FIELD e FAILED_REQUIRED_TEST_CHAR C
+	FIELD f tests Ljava/util/Collection;
+	FIELD g listeners Ljava/util/Collection;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Collection;)V
+	METHOD a getFailedRequiredCount ()I
+	METHOD a lambda$getProgressBar$1 (Ljava/lang/StringBuffer;Llv;)V
+	METHOD a addFailureListener (Ljava/util/function/Consumer;)V
+	METHOD a addTestToTrack (Llv;)V
+	METHOD a addListener (Llw;)V
+	METHOD a lambda$addListener$0 (Llw;Llv;)V
+	METHOD b getFailedOptionalCount ()I
+	METHOD c getDoneCount ()I
+	METHOD d hasFailedRequired ()Z
+	METHOD e hasFailedOptional ()Z
+	METHOD f getFailedRequired ()Ljava/util/Collection;
+	METHOD g getFailedOptional ()Ljava/util/Collection;
+	METHOD h getTotalCount ()I
+	METHOD i isDone ()Z
+	METHOD j getProgressBar ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		FIELD a val$listener Ljava/util/function/Consumer;
+		FIELD b this$0 Lmg;
+		METHOD <init> <init> (Lmg;Ljava/util/function/Consumer;)V
+		METHOD a testStructureLoaded (Llv;)V
+		METHOD b testPassed (Llv;)V
+		METHOD c testFailed (Llv;)V

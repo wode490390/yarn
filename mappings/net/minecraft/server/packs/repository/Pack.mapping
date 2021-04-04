@@ -1,0 +1,41 @@
+CLASS acy net/minecraft/server/packs/repository/Pack
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b id Ljava/lang/String;
+	FIELD c supplier Ljava/util/function/Supplier;
+	FIELD d title Lon;
+	FIELD e description Lon;
+	FIELD f compatibility Lacz;
+	FIELD g defaultPosition Lacy$b;
+	FIELD h required Z
+	FIELD i fixedPosition Z
+	FIELD j packSource Ladb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;Lon;ZLjava/util/function/Supplier;Lacs;Laco;Lacy$b;Ladb;)V
+	METHOD <init> <init> (Ljava/lang/String;ZLjava/util/function/Supplier;Lon;Lon;Lacz;Lacy$b;ZLadb;)V
+	METHOD a getTitle ()Lon;
+	METHOD a create (Ljava/lang/String;ZLjava/util/function/Supplier;Lacy$a;Lacy$b;Ladb;)Lacy;
+	METHOD a getChatLink (Z)Lon;
+	METHOD a lambda$getChatLink$0 (ZLox;)Lox;
+	METHOD b getDescription ()Lon;
+	METHOD c getCompatibility ()Lacz;
+	METHOD close close ()V
+	METHOD d open ()Lacn;
+	METHOD e getId ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f isRequired ()Z
+	METHOD g isFixedPosition ()Z
+	METHOD h getDefaultPosition ()Lacy$b;
+	METHOD hashCode hashCode ()I
+	METHOD i getPackSource ()Ladb;
+	CLASS a PackConstructor
+		METHOD create create (Ljava/lang/String;Lon;ZLjava/util/function/Supplier;Lacs;Lacy$b;Ladb;)Lacy;
+	CLASS b Position
+		FIELD a TOP Lacy$b;
+		FIELD b BOTTOM Lacy$b;
+		FIELD c $VALUES [Lacy$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a opposite ()Lacy$b;
+		METHOD a insert (Ljava/util/List;Ljava/lang/Object;Ljava/util/function/Function;Z)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lacy$b;
+		METHOD values values ()[Lacy$b;

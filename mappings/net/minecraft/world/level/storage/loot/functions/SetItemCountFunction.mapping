@@ -1,0 +1,22 @@
+CLASS djh net/minecraft/world/level/storage/loot/functions/SetItemCountFunction
+	FIELD a value Ldla;
+	FIELD b add Z
+	METHOD <init> <init> ([Ldkf;Ldla;Z)V
+	METHOD <init> <init> ([Ldkf;Ldla;ZLdjh$1;)V
+	METHOD a getType ()Ldiz;
+	METHOD a run (Lbpr;Ldhn;)Lbpr;
+	METHOD a access$000 (Ldjh;)Ldla;
+	METHOD a setCount (Ldla;)Ldix$a;
+	METHOD a setCount (Ldla;Z)Ldix$a;
+	METHOD a lambda$setCount$1 (Ldla;Z[Ldkf;)Ldiy;
+	METHOD a lambda$setCount$0 (Ldla;[Ldkf;)Ldiy;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	METHOD b access$100 (Ldjh;)Z
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldjh;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldix;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldjh;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldix;

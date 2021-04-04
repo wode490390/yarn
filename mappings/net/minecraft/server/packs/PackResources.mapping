@@ -1,0 +1,11 @@
+CLASS acn net/minecraft/server/packs/PackResources
+	FIELD c METADATA_EXTENSION Ljava/lang/String;
+	FIELD d PACK_META Ljava/lang/String;
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getNamespaces (Laco;)Ljava/util/Set;
+	METHOD a getResources (Laco;Ljava/lang/String;Ljava/lang/String;ILjava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a getResource (Laco;Lwp;)Ljava/io/InputStream;
+	METHOD a getMetadataSection (Lacr;)Ljava/lang/Object;
+	METHOD b hasResource (Laco;Lwp;)Z
+	METHOD b getRootResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD close close ()V

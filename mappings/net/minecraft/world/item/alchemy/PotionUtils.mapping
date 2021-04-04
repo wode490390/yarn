@@ -1,0 +1,22 @@
+CLASS bro net/minecraft/world/item/alchemy/PotionUtils
+	FIELD a TAG_CUSTOM_POTION_EFFECTS Ljava/lang/String;
+	FIELD b TAG_CUSTOM_POTION_COLOR Ljava/lang/String;
+	FIELD c TAG_POTION Ljava/lang/String;
+	FIELD d EMPTY_COLOR I
+	FIELD e NO_EFFECT Lon;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getMobEffects (Lbpr;)Ljava/util/List;
+	METHOD a setPotion (Lbpr;Lbrm;)Lbpr;
+	METHOD a setCustomEffects (Lbpr;Ljava/util/Collection;)Lbpr;
+	METHOD a addPotionTooltip (Lbpr;Ljava/util/List;F)V
+	METHOD a getColor (Lbrm;)I
+	METHOD a getAllEffects (Lbrm;Ljava/util/Collection;)Ljava/util/List;
+	METHOD a getColor (Ljava/util/Collection;)I
+	METHOD a getAllEffects (Lmv;)Ljava/util/List;
+	METHOD a getCustomEffects (Lmv;Ljava/util/List;)V
+	METHOD b getCustomEffects (Lbpr;)Ljava/util/List;
+	METHOD b getCustomEffects (Lmv;)Ljava/util/List;
+	METHOD c getColor (Lbpr;)I
+	METHOD c getPotion (Lmv;)Lbrm;
+	METHOD d getPotion (Lbpr;)Lbrm;

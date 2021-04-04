@@ -1,0 +1,8 @@
+CLASS lh net/minecraft/data/worldgen/biome/Biomes
+	FIELD a PLAINS Lbwq;
+	FIELD b THE_VOID Lbwq;
+	FIELD c TO_NAME Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a byId (I)Lwo;
+	METHOD a register (ILwo;Lbwq;)Lbwq;

@@ -1,0 +1,12 @@
+CLASS bci net/minecraft/world/entity/ai/util/LandRandomPos
+	METHOD <init> <init> ()V
+	METHOD a getPos (Latg;II)Ldly;
+	METHOD a getPosTowards (Latg;IILdly;)Ldly;
+	METHOD a getPosInDirection (Latg;IILdly;Z)Ldly;
+	METHOD a getPos (Latg;IILjava/util/function/ToDoubleFunction;)Ldly;
+	METHOD a lambda$getPos$0 (Latg;IIZ)Lgb;
+	METHOD a generateRandomPosTowardDirection (Latg;IZLgb;)Lgb;
+	METHOD a movePosUpOutOfSolid (Latg;Lgb;)Lgb;
+	METHOD b getPosAway (Latg;IILdly;)Ldly;
+	METHOD b lambda$getPosInDirection$1 (Latg;IILdly;Z)Lgb;
+	METHOD b lambda$movePosUpOutOfSolid$2 (Latg;Lgb;)Z

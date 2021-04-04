@@ -1,0 +1,8 @@
+CLASS dbd net/minecraft/world/level/levelgen/structure/templatesystem/NopProcessor
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b INSTANCE Ldbd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getType ()Ldbr;
+	METHOD a processBlock (Lbvu;Lgb;Lgb;Ldbs$c;Ldbs$c;Ldbo;)Ldbs$c;
+	METHOD b lambda$static$0 ()Ldbd;

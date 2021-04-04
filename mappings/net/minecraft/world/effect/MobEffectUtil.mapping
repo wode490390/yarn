@@ -1,0 +1,6 @@
+CLASS asg net/minecraft/world/effect/MobEffectUtil
+	METHOD <init> <init> ()V
+	METHOD a formatDuration (Lasf;F)Ljava/lang/String;
+	METHOD a hasDigSpeed (Lasy;)Z
+	METHOD b getDigSpeedAmplification (Lasy;)I
+	METHOD c hasWaterBreathing (Lasy;)Z

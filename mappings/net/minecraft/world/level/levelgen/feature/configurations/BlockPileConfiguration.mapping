@@ -1,0 +1,6 @@
+CLASS ctq net/minecraft/world/level/levelgen/feature/configurations/BlockPileConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b stateProvider Lcwd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcwd;)V
+	METHOD a lambda$static$0 (Lctq;)Lcwd;

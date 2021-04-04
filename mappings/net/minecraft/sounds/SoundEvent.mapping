@@ -1,0 +1,7 @@
+CLASS aev net/minecraft/sounds/SoundEvent
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b location Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lwp;)V
+	METHOD a getLocation ()Lwp;
+	METHOD a lambda$static$0 (Laev;)Lwp;

@@ -1,0 +1,11 @@
+CLASS cts net/minecraft/world/level/levelgen/feature/configurations/ColumnFeatureConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b reach Laqo;
+	FIELD c height Laqo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laqo;Laqo;)V
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$1 (Lcts;)Laqo;
+	METHOD ar_ reach ()Laqo;
+	METHOD b height ()Laqo;
+	METHOD b lambda$null$0 (Lcts;)Laqo;

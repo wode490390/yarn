@@ -1,0 +1,7 @@
+CLASS axg net/minecraft/world/entity/ai/behavior/VillagerCalmDown
+	FIELD a SAFE_DISTANCE_FROM_DANGER I
+	METHOD <init> <init> ()V
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a start (Labj;Lbis;J)V
+	METHOD a isCloseToEntityThatHurtMe (Lbis;)Z
+	METHOD a lambda$isCloseToEntityThatHurtMe$0 (Lbis;Lasy;)Z

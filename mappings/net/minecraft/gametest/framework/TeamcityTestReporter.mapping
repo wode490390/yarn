@@ -1,0 +1,7 @@
+CLASS mj net/minecraft/gametest/framework/TeamcityTestReporter
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b ESCAPER Lcom/google/common/escape/Escaper;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a onTestFailed (Llv;)V
+	METHOD b onTestSuccess (Llv;)V

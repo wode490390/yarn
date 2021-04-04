@@ -1,0 +1,37 @@
+CLASS adq net/minecraft/server/packs/resources/SimpleReloadInstance
+	FIELD a resourceManager Ladl;
+	FIELD b allPreparations Ljava/util/concurrent/CompletableFuture;
+	FIELD c allDone Ljava/util/concurrent/CompletableFuture;
+	FIELD d PREPARATION_PROGRESS_WEIGHT I
+	FIELD e EXTRA_RELOAD_PROGRESS_WEIGHT I
+	FIELD f LISTENER_PROGRESS_WEIGHT I
+	FIELD g preparingListeners Ljava/util/Set;
+	FIELD h listenerCount I
+	FIELD i startedReloads I
+	FIELD j finishedReloads I
+	FIELD k startedTaskCounter Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD l doneTaskCounter Ljava/util/concurrent/atomic/AtomicInteger;
+	METHOD <init> <init> (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ladl;Ljava/util/List;Ladq$a;Ljava/util/concurrent/CompletableFuture;)V
+	METHOD a done ()Ljava/util/concurrent/CompletableFuture;
+	METHOD a of (Ladl;Ljava/util/List;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)Ladq;
+	METHOD a access$000 (Ladq;)Ljava/util/Set;
+	METHOD a lambda$null$3 (Ljava/lang/Runnable;)V
+	METHOD a lambda$done$5 (Ljava/util/List;)Lahe;
+	METHOD a lambda$of$0 (Ljava/util/concurrent/Executor;Ladg$a;Ladl;Ladg;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$new$4 (Ljava/util/concurrent/Executor;Ljava/lang/Runnable;)V
+	METHOD b getActualProgress ()F
+	METHOD b lambda$null$1 (Ljava/lang/Runnable;)V
+	METHOD b lambda$new$2 (Ljava/util/concurrent/Executor;Ljava/lang/Runnable;)V
+	METHOD c isDone ()Z
+	METHOD d checkExceptions ()V
+	CLASS 1 1
+		FIELD a val$mainThreadExecutor Ljava/util/concurrent/Executor;
+		FIELD b val$listener Ladg;
+		FIELD c val$previousTask Ljava/util/concurrent/CompletableFuture;
+		FIELD d this$0 Ladq;
+		METHOD <init> <init> (Ladq;Ljava/util/concurrent/Executor;Ladg;Ljava/util/concurrent/CompletableFuture;)V
+		METHOD a lambda$wait$0 (Ladg;)V
+		METHOD a wait (Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;
+		METHOD a lambda$wait$1 (Ljava/lang/Object;Lahe;Ljava/lang/Object;)Ljava/lang/Object;
+	CLASS a StateFactory
+		METHOD create create (Ladg$a;Ladl;Ladg;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;

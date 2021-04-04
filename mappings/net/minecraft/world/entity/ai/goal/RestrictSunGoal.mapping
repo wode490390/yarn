@@ -1,0 +1,6 @@
+CLASS azs net/minecraft/world/entity/ai/goal/RestrictSunGoal
+	FIELD a mob Latg;
+	METHOD <init> <init> (Latg;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

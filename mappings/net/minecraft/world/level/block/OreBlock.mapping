@@ -1,0 +1,5 @@
+CLASS cdl net/minecraft/world/level/block/OreBlock
+	FIELD a xpRange Laqs;
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD <init> <init> (Lcjq$c;Laqs;)V
+	METHOD a spawnAfterBreak (Lcjr;Labj;Lgb;Lbpr;)V

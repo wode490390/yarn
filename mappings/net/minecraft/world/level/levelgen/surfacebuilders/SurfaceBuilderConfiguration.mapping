@@ -1,0 +1,4 @@
+CLASS dcm net/minecraft/world/level/levelgen/surfacebuilders/SurfaceBuilderConfiguration
+	METHOD a getTopMaterial ()Lcjr;
+	METHOD b getUnderMaterial ()Lcjr;
+	METHOD c getUnderwaterMaterial ()Lcjr;

@@ -1,0 +1,45 @@
+CLASS csj net/minecraft/world/level/levelgen/feature/RuinedPortalFeature
+	FIELD A UNDERWATER_MOSSINESS F
+	FIELD B JUNGLE_MOSSINESS F
+	FIELD C SWAMP_MOSSINESS F
+	FIELD D MIN_Y I
+	FIELD v STRUCTURE_LOCATION_PORTALS [Ljava/lang/String;
+	FIELD w STRUCTURE_LOCATION_GIANT_PORTALS [Ljava/lang/String;
+	FIELD x PROBABILITY_OF_GIANT_PORTAL F
+	FIELD y PROBABILITY_OF_AIR_POCKET F
+	FIELD z PROBABILITY_OF_UNDERGROUND F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getStartFactory ()Lcsv$a;
+	METHOD a lambda$findSuitableY$0 (Lclm;Lbvt;Lgb;)Lbwc;
+	METHOD a access$300 (Lgb;Lbwq;)Z
+	METHOD a getRandomWithinInterval (Ljava/util/Random;II)I
+	METHOD a access$200 (Ljava/util/Random;Lclm;Ldaf$b;ZIILczp;Lbvt;)I
+	METHOD b isCold (Lgb;Lbwq;)Z
+	METHOD b findSuitableY (Ljava/util/Random;Lclm;Ldaf$b;ZIILczp;Lbvt;)I
+	METHOD d access$000 ()[Ljava/lang/String;
+	METHOD e access$100 ()[Ljava/lang/String;
+	CLASS a FeatureStart
+		METHOD <init> <init> (Lcsv;Lbuw;IJ)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcua;Lbvt;)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcux;Lbvt;)V
+	CLASS b Type
+		FIELD a STANDARD Lcsj$b;
+		FIELD b DESERT Lcsj$b;
+		FIELD c JUNGLE Lcsj$b;
+		FIELD d SWAMP Lcsj$b;
+		FIELD e MOUNTAIN Lcsj$b;
+		FIELD f OCEAN Lcsj$b;
+		FIELD g NETHER Lcsj$b;
+		FIELD h CODEC Lcom/mojang/serialization/Codec;
+		FIELD i BY_NAME Ljava/util/Map;
+		FIELD j name Ljava/lang/String;
+		FIELD k $VALUES [Lcsj$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a lambda$static$0 (Lcsj$b;)Lcsj$b;
+		METHOD a byName (Ljava/lang/String;)Lcsj$b;
+		METHOD c getSerializedName ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcsj$b;
+		METHOD values values ()[Lcsj$b;

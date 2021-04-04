@@ -1,0 +1,19 @@
+CLASS hm net/minecraft/core/particles/ItemParticleOption
+	FIELD a DESERIALIZER Lho$a;
+	FIELD b type Lhp;
+	FIELD c itemStack Lbpr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lhp;Lbpr;)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a lambda$codec$1 (Lhm;)Lbpr;
+	METHOD a codec (Lhp;)Lcom/mojang/serialization/Codec;
+	METHOD a lambda$codec$0 (Lhp;Lbpr;)Lhm;
+	METHOD a writeToNetwork (Lob;)V
+	METHOD b getType ()Lhp;
+	METHOD c getItem ()Lbpr;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lhm;
+		METHOD a fromNetwork (Lhp;Lob;)Lhm;
+		METHOD b fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lho;
+		METHOD b fromNetwork (Lhp;Lob;)Lho;

@@ -1,0 +1,8 @@
+CLASS md net/minecraft/gametest/framework/GlobalTestReporter
+	FIELD a DELEGATE Lmo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a finish ()V
+	METHOD a onTestFailed (Llv;)V
+	METHOD a replaceWith (Lmo;)V
+	METHOD b onTestSuccess (Llv;)V

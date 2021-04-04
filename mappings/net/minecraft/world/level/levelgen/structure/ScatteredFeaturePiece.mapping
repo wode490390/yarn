@@ -1,0 +1,9 @@
+CLASS dag net/minecraft/world/level/levelgen/structure/ScatteredFeaturePiece
+	FIELD a width I
+	FIELD b height I
+	FIELD c depth I
+	FIELD d heightPosition I
+	METHOD <init> <init> (Lcsw;IIIIIILgg;)V
+	METHOD <init> <init> (Lcsw;Lmv;)V
+	METHOD a addAdditionalSaveData (Labj;Lmv;)V
+	METHOD a updateAverageGroundHeight (Lbvs;Lczp;I)Z

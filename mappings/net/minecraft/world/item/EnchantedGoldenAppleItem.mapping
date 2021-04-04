@@ -1,0 +1,3 @@
+CLASS bow net/minecraft/world/item/EnchantedGoldenAppleItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD i isFoil (Lbpr;)Z

@@ -1,0 +1,13 @@
+CLASS bwx net/minecraft/world/level/biome/CheckerboardColumnBiomeSource
+	FIELD e CODEC Lcom/mojang/serialization/Codec;
+	FIELD f allowedBiomes Ljava/util/List;
+	FIELD g bitShift I
+	FIELD h size I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;I)V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a withSeed (J)Lbwt;
+	METHOD a lambda$null$1 (Lbwx;)Ljava/lang/Integer;
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b getNoiseBiome (III)Lbwq;
+	METHOD b lambda$null$0 (Lbwx;)Ljava/util/List;

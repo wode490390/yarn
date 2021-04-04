@@ -1,0 +1,27 @@
+CLASS byg net/minecraft/world/level/block/BaseRailBlock
+	FIELD a FLAT_AABB Ldmr;
+	FIELD b HALF_BLOCK_AABB Ldmr;
+	FIELD c WATERLOGGED Lcki;
+	FIELD d isStraight Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ZLcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a isRail (Lbvr;Lgb;)Z
+	METHOD a updateDir (Lbvr;Lgb;Lcjr;Z)Lcjr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a updateState (Lcjr;Lbvr;Lgb;Lbyq;)V
+	METHOD a neighborChanged (Lcjr;Lbvr;Lgb;Lbyq;Lgb;Z)V
+	METHOD a onRemove (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD a updateState (Lcjr;Lbvr;Lgb;Z)Lcjr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a shouldBeRemoved (Lgb;Lbvr;Lckv;)Z
+	METHOD am_ isStraight ()Z
+	METHOD an_ getShapeProperty ()Lcku;
+	METHOD b onPlace (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD d getPistonPushReaction (Lcjr;)Lddw;
+	METHOD g isRail (Lcjr;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$state$properties$RailShape [I
+		METHOD <clinit> <clinit> ()V

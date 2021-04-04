@@ -1,0 +1,3 @@
+CLASS div net/minecraft/world/level/storage/loot/functions/FunctionUserBuilder
+	METHOD b apply (Ldiy$a;)Ljava/lang/Object;
+	METHOD c unwrap ()Ljava/lang/Object;

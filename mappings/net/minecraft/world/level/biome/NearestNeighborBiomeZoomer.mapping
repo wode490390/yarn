@@ -1,0 +1,8 @@
+CLASS bxd net/minecraft/world/level/biome/NearestNeighborBiomeZoomer
+	FIELD a INSTANCE Lbxd;
+	FIELD b $VALUES [Lbxd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a getBiome (JIIILbws$a;)Lbwq;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbxd;
+	METHOD values values ()[Lbxd;

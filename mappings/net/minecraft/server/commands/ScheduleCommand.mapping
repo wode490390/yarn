@@ -1,0 +1,18 @@
+CLASS zf net/minecraft/server/commands/ScheduleCommand
+	FIELD a ERROR_SAME_TICK Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_CANT_REMOVE Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+	FIELD c SUGGEST_SCHEDULE Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$static$1 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$register$2 (Ldg;)Z
+	METHOD a schedule (Ldg;Lcom/mojang/datafixers/util/Pair;IZ)I
+	METHOD a remove (Ldg;Ljava/lang/String;)I
+	METHOD a lambda$static$0 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a lambda$schedule$8 (Lwp;ZLdlq;JLdg;ILafs;)V
+	METHOD a lambda$schedule$7 (Lwp;ZLdlq;JLdg;ILdd;)V
+	METHOD b lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I

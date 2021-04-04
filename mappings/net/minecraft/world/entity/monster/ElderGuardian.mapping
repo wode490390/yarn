@@ -1,0 +1,12 @@
+CLASS bgo net/minecraft/world/entity/monster/ElderGuardian
+	FIELD b ELDER_SIZE_SCALE F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD b lambda$customServerAiStep$0 (Labk;)Z
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD eP customServerAiStep ()V
+	METHOD m createAttributes ()Latx$a;
+	METHOD o getAttackDuration ()I
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD s getFlopSound ()Laev;

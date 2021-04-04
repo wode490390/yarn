@@ -1,0 +1,18 @@
+CLASS bwo net/minecraft/world/level/biome/AmbientMoodSettings
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b LEGACY_CAVE_SETTINGS Lbwo;
+	FIELD c soundEvent Laev;
+	FIELD d tickDelay I
+	FIELD e blockSearchExtent I
+	FIELD f soundPositionOffset D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laev;IID)V
+	METHOD a getSoundEvent ()Laev;
+	METHOD a lambda$null$3 (Lbwo;)Ljava/lang/Double;
+	METHOD a lambda$static$4 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b getTickDelay ()I
+	METHOD b lambda$null$2 (Lbwo;)Ljava/lang/Integer;
+	METHOD c getBlockSearchExtent ()I
+	METHOD c lambda$null$1 (Lbwo;)Ljava/lang/Integer;
+	METHOD d getSoundPositionOffset ()D
+	METHOD d lambda$null$0 (Lbwo;)Laev;

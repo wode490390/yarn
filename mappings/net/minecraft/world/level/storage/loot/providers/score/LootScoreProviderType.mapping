@@ -1,0 +1,2 @@
+CLASS dlh net/minecraft/world/level/storage/loot/providers/score/LootScoreProviderType
+	METHOD <init> <init> (Ldht;)V

@@ -1,0 +1,11 @@
+CLASS dcg net/minecraft/world/level/levelgen/surfacebuilders/NetherSurfaceBuilder
+	FIELD a seed J
+	FIELD b decorationNoise Ldcu;
+	FIELD c AIR Lcjr;
+	FIELD d GRAVEL Lcjr;
+	FIELD e SOUL_SAND Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a initNoise (J)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcl;)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcm;)V

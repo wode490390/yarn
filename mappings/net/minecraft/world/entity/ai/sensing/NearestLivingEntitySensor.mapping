@@ -1,0 +1,6 @@
+CLASS bbo net/minecraft/world/entity/ai/sensing/NearestLivingEntitySensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Labj;Lasy;)V
+	METHOD a lambda$doTick$1 (Lasy;Lasy;)Z
+	METHOD c lambda$doTick$0 (Lasy;Lasy;)Z

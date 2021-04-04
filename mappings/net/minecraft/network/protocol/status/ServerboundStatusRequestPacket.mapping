@@ -1,0 +1,6 @@
+CLASS vw net/minecraft/network/protocol/status/ServerboundStatusRequestPacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lvu;)V

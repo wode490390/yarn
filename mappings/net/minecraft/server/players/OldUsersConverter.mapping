@@ -1,0 +1,69 @@
+CLASS ady net/minecraft/server/players/OldUsersConverter
+	FIELD a OLD_IPBANLIST Ljava/io/File;
+	FIELD b OLD_USERBANLIST Ljava/io/File;
+	FIELD c OLD_OPLIST Ljava/io/File;
+	FIELD d OLD_WHITELIST Ljava/io/File;
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Lorg/apache/logging/log4j/Logger;
+	METHOD a lambda$lookupPlayers$1 (I)[Ljava/lang/String;
+	METHOD a convertPlayers (Laak;)Z
+	METHOD a access$400 (Ljava/io/File;)V
+	METHOD a readOldListFormat (Ljava/io/File;Ljava/util/Map;)Ljava/util/List;
+	METHOD a lambda$lookupPlayers$0 (Ljava/lang/String;)Z
+	METHOD a access$200 (Ljava/lang/String;Ljava/util/Date;)Ljava/util/Date;
+	METHOD a convertUserBanlist (Lnet/minecraft/server/MinecraftServer;)Z
+	METHOD a convertMobOwnerIfNecessary (Lnet/minecraft/server/MinecraftServer;Ljava/lang/String;)Ljava/util/UUID;
+	METHOD a lookupPlayers (Lnet/minecraft/server/MinecraftServer;Ljava/util/Collection;Lcom/mojang/authlib/ProfileLookupCallback;)V
+	METHOD b areOldUserlistsRemoved ()Z
+	METHOD b ensureDirectoryExists (Ljava/io/File;)V
+	METHOD b parseDate (Ljava/lang/String;Ljava/util/Date;)Ljava/util/Date;
+	METHOD b convertIpBanlist (Lnet/minecraft/server/MinecraftServer;)Z
+	METHOD c renameOldFile (Ljava/io/File;)V
+	METHOD c convertOpsList (Lnet/minecraft/server/MinecraftServer;)Z
+	METHOD d convertWhiteList (Lnet/minecraft/server/MinecraftServer;)Z
+	METHOD e serverReadyAfterUserconversion (Lnet/minecraft/server/MinecraftServer;)Z
+	METHOD f areOldPlayersConverted (Lnet/minecraft/server/MinecraftServer;)Z
+	METHOD g getWorldPlayersDirectory (Lnet/minecraft/server/MinecraftServer;)Ljava/io/File;
+	CLASS 1 1
+		FIELD a val$server Lnet/minecraft/server/MinecraftServer;
+		FIELD b val$userMap Ljava/util/Map;
+		FIELD c val$bans Laef;
+		METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/util/Map;Laef;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS 2 2
+		FIELD a val$server Lnet/minecraft/server/MinecraftServer;
+		FIELD b val$opsList Laea;
+		METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Laea;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS 3 3
+		FIELD a val$server Lnet/minecraft/server/MinecraftServer;
+		FIELD b val$whitelist Laeh;
+		METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Laeh;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS 4 4
+		FIELD a val$server Lnet/minecraft/server/MinecraftServer;
+		FIELD b val$profiles Ljava/util/List;
+		METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/util/List;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS 5 5
+		FIELD a val$server Laak;
+		FIELD b val$worldNewPlayerDirectory Ljava/io/File;
+		FIELD c val$unknownPlayerDirectory Ljava/io/File;
+		FIELD d val$worldPlayerDirectory Ljava/io/File;
+		FIELD e val$names [Ljava/lang/String;
+		METHOD <init> <init> (Laak;Ljava/io/File;Ljava/io/File;Ljava/io/File;[Ljava/lang/String;)V
+		METHOD a getFileNameForProfile (Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;
+		METHOD a movePlayerFile (Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)V
+		METHOD onProfileLookupFailed onProfileLookupFailed (Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V
+		METHOD onProfileLookupSucceeded onProfileLookupSucceeded (Lcom/mojang/authlib/GameProfile;)V
+	CLASS a ConversionError
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD <init> <init> (Ljava/lang/String;Lady$1;)V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Throwable;)V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/Throwable;Lady$1;)V

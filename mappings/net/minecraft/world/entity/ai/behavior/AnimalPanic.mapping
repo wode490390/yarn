@@ -1,0 +1,13 @@
+CLASS aue net/minecraft/world/entity/ai/behavior/AnimalPanic
+	FIELD a PANIC_MIN_DURATION I
+	FIELD c PANIC_MAX_DURATION I
+	FIELD d PANIC_DISTANCE_HORIZANTAL I
+	FIELD e PANIC_DISTANCE_VERTICAL I
+	FIELD f speedMultiplier F
+	METHOD <init> <init> (F)V
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a canStillUse (Labj;Latg;J)Z
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b start (Labj;Latg;J)V
+	METHOD c tick (Labj;Latg;J)V
+	METHOD d tick (Labj;Lasy;J)V

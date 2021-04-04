@@ -1,0 +1,32 @@
+CLASS chu net/minecraft/world/level/block/entity/ChestBlockEntity
+	FIELD b EVENT_SET_OPEN_COUNT I
+	FIELD c items Lgn;
+	FIELD f openersCounter Lchz;
+	FIELD i chestLidController Lchv;
+	METHOD <init> <init> (Lchr;Lgb;Lcjr;)V
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a getOpenNess (F)F
+	METHOD a createMenu (ILbje;)Lbll;
+	METHOD a getOpenCount (Lbuv;Lgb;)I
+	METHOD a signalOpenCount (Lbvr;Lgb;Lcjr;II)V
+	METHOD a access$000 (Lbvr;Lgb;Lcjr;Laev;)V
+	METHOD a lidAnimateTick (Lbvr;Lgb;Lcjr;Lchu;)V
+	METHOD a swapContents (Lchu;Lchu;)V
+	METHOD a setItems (Lgn;)V
+	METHOD a load (Lmv;)V
+	METHOD a_ triggerEvent (II)Z
+	METHOD ab_ getContainerSize ()I
+	METHOD b playSound (Lbvr;Lgb;Lcjr;Laev;)V
+	METHOD b save (Lmv;)Lmv;
+	METHOD b_ stopOpen (Lbjf;)V
+	METHOD c_ startOpen (Lbjf;)V
+	METHOD f getItems ()Lgn;
+	METHOD g getDefaultName ()Lon;
+	METHOD h recheckOpen ()V
+	CLASS 1 1
+		FIELD a this$0 Lchu;
+		METHOD <init> <init> (Lchu;)V
+		METHOD a isOwnContainer (Lbjf;)Z
+		METHOD a onOpen (Lbvr;Lgb;Lcjr;)V
+		METHOD a openerCountChanged (Lbvr;Lgb;Lcjr;II)V
+		METHOD b onClose (Lbvr;Lgb;Lcjr;)V

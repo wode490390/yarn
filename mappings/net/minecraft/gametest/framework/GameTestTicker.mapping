@@ -1,0 +1,8 @@
+CLASS mb net/minecraft/gametest/framework/GameTestTicker
+	FIELD a SINGLETON Lmb;
+	FIELD b testInfos Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a clear ()V
+	METHOD a add (Llv;)V
+	METHOD b tick ()V

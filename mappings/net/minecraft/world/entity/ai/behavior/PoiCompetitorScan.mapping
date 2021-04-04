@@ -1,0 +1,11 @@
+CLASS avt net/minecraft/world/entity/ai/behavior/PoiCompetitorScan
+	FIELD a profession Lbiv;
+	METHOD <init> <init> (Lbiv;)V
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a start (Labj;Lbis;J)V
+	METHOD a hasMatchingProfession (Lbcr;Lbiv;)Z
+	METHOD a hasJobSite (Lbis;)Z
+	METHOD a selectWinner (Lbis;Lbis;)Lbis;
+	METHOD a lambda$start$1 (Lbis;Lgj;Lbcr;)V
+	METHOD a competesForSameJobsite (Lgj;Lbcr;Lbis;)Z
+	METHOD b lambda$null$0 (Lgj;Lbcr;Lbis;)Z

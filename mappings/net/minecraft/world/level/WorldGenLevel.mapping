@@ -1,0 +1,3 @@
+CLASS bwm net/minecraft/world/level/WorldGenLevel
+	METHOD E getSeed ()J
+	METHOD a startsForFeature (Lgu;Lcsv;)Ljava/util/stream/Stream;

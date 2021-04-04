@@ -1,0 +1,4 @@
+CLASS axk net/minecraft/world/entity/ai/behavior/WakeUp
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V

@@ -1,0 +1,5 @@
+CLASS brk net/minecraft/world/item/WritableBookItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD a makeSureTagIsValid (Lmv;)Z

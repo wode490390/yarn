@@ -1,0 +1,21 @@
+CLASS bcb net/minecraft/world/entity/ai/targeting/TargetingConditions
+	FIELD a DEFAULT Lbcb;
+	FIELD b MIN_VISIBILITY_DISTANCE_FOR_INVISIBLE_TARGET D
+	FIELD c range D
+	FIELD d allowInvulnerable Z
+	FIELD e allowSameTeam Z
+	FIELD f allowUnseeable Z
+	FIELD g allowNonAttackable Z
+	FIELD h testInvisible Z
+	FIELD i selector Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a copy ()Lbcb;
+	METHOD a range (D)Lbcb;
+	METHOD a test (Lasy;Lasy;)Z
+	METHOD a selector (Ljava/util/function/Predicate;)Lbcb;
+	METHOD b allowInvulnerable ()Lbcb;
+	METHOD c allowSameTeam ()Lbcb;
+	METHOD d allowUnseeable ()Lbcb;
+	METHOD e allowNonAttackable ()Lbcb;
+	METHOD f ignoreInvisibilityTesting ()Lbcb;

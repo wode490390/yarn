@@ -1,0 +1,11 @@
+CLASS bwp net/minecraft/world/level/biome/AmbientParticleSettings
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b options Lho;
+	FIELD c probability F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lho;F)V
+	METHOD a getOptions ()Lho;
+	METHOD a lambda$null$1 (Lbwp;)Ljava/lang/Float;
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a canSpawn (Ljava/util/Random;)Z
+	METHOD b lambda$null$0 (Lbwp;)Lho;

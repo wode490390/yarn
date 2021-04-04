@@ -1,0 +1,22 @@
+CLASS bvv net/minecraft/world/level/LevelSettings
+	FIELD a levelName Ljava/lang/String;
+	FIELD b gameType Lbvo;
+	FIELD c hardcore Z
+	FIELD d difficulty Lard;
+	FIELD e allowCommands Z
+	FIELD f gameRules Lbvn;
+	FIELD g dataPackConfig Lbve;
+	METHOD <init> <init> (Ljava/lang/String;Lbvo;ZLard;ZLbvn;Lbve;)V
+	METHOD a levelName ()Ljava/lang/String;
+	METHOD a withDifficulty (Lard;)Lbvv;
+	METHOD a withDataPackConfig (Lbve;)Lbvv;
+	METHOD a withGameType (Lbvo;)Lbvv;
+	METHOD a parse (Lcom/mojang/serialization/Dynamic;Lbve;)Lbvv;
+	METHOD a lambda$parse$0 (Ljava/lang/Number;)Lard;
+	METHOD b gameType ()Lbvo;
+	METHOD c hardcore ()Z
+	METHOD d difficulty ()Lard;
+	METHOD e allowCommands ()Z
+	METHOD f gameRules ()Lbvn;
+	METHOD g getDataPackConfig ()Lbve;
+	METHOD h copy ()Lbvv;

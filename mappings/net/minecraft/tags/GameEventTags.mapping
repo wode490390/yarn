@@ -1,0 +1,8 @@
+CLASS afm net/minecraft/tags/GameEventTags
+	FIELD a HELPER Lafq;
+	FIELD b VIBRATIONS Lafs$e;
+	FIELD c IGNORE_VIBRATIONS_SNEAKING Lafs$e;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getAllTags ()Laft;
+	METHOD a bind (Ljava/lang/String;)Lafs$e;

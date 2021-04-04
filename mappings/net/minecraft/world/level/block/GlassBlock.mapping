@@ -1,0 +1,2 @@
+CLASS cbm net/minecraft/world/level/block/GlassBlock
+	METHOD <init> <init> (Lcjq$c;)V

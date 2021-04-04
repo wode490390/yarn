@@ -1,0 +1,7 @@
+CLASS cnj net/minecraft/world/level/entity/LevelCallback
+	METHOD a onTrackingEnd (Ljava/lang/Object;)V
+	METHOD b onTrackingStart (Ljava/lang/Object;)V
+	METHOD c onTickingEnd (Ljava/lang/Object;)V
+	METHOD d onTickingStart (Ljava/lang/Object;)V
+	METHOD e onDestroyed (Ljava/lang/Object;)V
+	METHOD f onCreated (Ljava/lang/Object;)V

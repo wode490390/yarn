@@ -1,0 +1,9 @@
+CLASS bjz net/minecraft/world/entity/projectile/Snowball
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDD)V
+	METHOD <init> <init> (Lbvr;Lasy;)V
+	METHOD a handleEntityEvent (B)V
+	METHOD a onHitEntity (Ldlv;)V
+	METHOD a onHit (Ldlw;)V
+	METHOD h getDefaultItem ()Lbpn;
+	METHOD m getParticle ()Lho;

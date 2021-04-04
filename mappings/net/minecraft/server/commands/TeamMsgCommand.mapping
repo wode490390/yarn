@@ -1,0 +1,8 @@
+CLASS zt net/minecraft/server/commands/TeamMsgCommand
+	FIELD a SUGGEST_STYLE Lox;
+	FIELD b ERROR_NOT_ON_TEAM Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$0 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a sendMessage (Ldg;Lon;)I

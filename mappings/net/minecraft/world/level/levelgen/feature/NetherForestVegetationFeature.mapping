@@ -1,0 +1,4 @@
+CLASS crw net/minecraft/world/level/levelgen/feature/NetherForestVegetationFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a place (Lbvs;Ljava/util/Random;Lgb;Lctq;II)Z
+	METHOD a place (Lcqz;)Z

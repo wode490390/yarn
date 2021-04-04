@@ -1,0 +1,4 @@
+CLASS bee net/minecraft/world/entity/animal/axolotl/ValidatePlayDead
+	METHOD <init> <init> ()V
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a start (Labj;Lbeb;J)V

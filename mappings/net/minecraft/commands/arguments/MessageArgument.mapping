@@ -1,0 +1,26 @@
+CLASS du net/minecraft/commands/arguments/MessageArgument
+	FIELD a EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a message ()Ldu;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ldu$a;
+	METHOD a getMessage (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lon;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	CLASS a Message
+		FIELD a text Ljava/lang/String;
+		FIELD b parts [Ldu$b;
+		METHOD <init> <init> (Ljava/lang/String;[Ldu$b;)V
+		METHOD a getText ()Ljava/lang/String;
+		METHOD a parseText (Lcom/mojang/brigadier/StringReader;Z)Ldu$a;
+		METHOD a toComponent (Ldg;Z)Lon;
+		METHOD b getParts ()[Ldu$b;
+	CLASS b Part
+		FIELD a start I
+		FIELD b end I
+		FIELD c selector Lfh;
+		METHOD <init> <init> (IILfh;)V
+		METHOD a getStart ()I
+		METHOD a toComponent (Ldg;)Lon;
+		METHOD b getEnd ()I
+		METHOD c getSelector ()Lfh;

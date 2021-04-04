@@ -1,0 +1,12 @@
+CLASS cbc net/minecraft/world/level/block/FenceBlock
+	FIELD i occlusionByIndex [Ldmr;
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a connectsTo (Lcjr;ZLgg;)Z
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a_ getOcclusionShape (Lcjr;Lbuv;Lgb;)Ldmr;
+	METHOD b getVisualShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD h isSameFence (Lcjr;)Z

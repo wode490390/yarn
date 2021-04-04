@@ -1,0 +1,27 @@
+CLASS chg net/minecraft/world/level/block/entity/BannerBlockEntity
+	FIELD a MAX_PATTERNS I
+	FIELD b TAG_PATTERNS Ljava/lang/String;
+	FIELD c TAG_PATTERN Ljava/lang/String;
+	FIELD d TAG_COLOR Ljava/lang/String;
+	FIELD e name Lon;
+	FIELD f baseColor Lbon;
+	FIELD g itemPatterns Lnb;
+	FIELD h receivedData Z
+	FIELD i patterns Ljava/util/List;
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD <init> <init> (Lgb;Lcjr;Lbon;)V
+	METHOD R getName ()Lon;
+	METHOD T getCustomName ()Lon;
+	METHOD a getUpdatePacket ()Lpt;
+	METHOD a createPatterns (Lbon;Lnb;)Ljava/util/List;
+	METHOD a getItemPatterns (Lbpr;)Lnb;
+	METHOD a fromItem (Lbpr;Lbon;)V
+	METHOD a load (Lmv;)V
+	METHOD a setCustomName (Lon;)V
+	METHOD b getUpdateTag ()Lmv;
+	METHOD b getPatternCount (Lbpr;)I
+	METHOD b save (Lmv;)Lmv;
+	METHOD c getPatterns ()Ljava/util/List;
+	METHOD c removeLastPattern (Lbpr;)V
+	METHOD f getItem ()Lbpr;
+	METHOD g getBaseColor ()Lbon;

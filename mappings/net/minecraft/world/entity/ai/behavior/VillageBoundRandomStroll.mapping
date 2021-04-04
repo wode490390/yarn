@@ -1,0 +1,14 @@
+CLASS axf net/minecraft/world/entity/ai/behavior/VillageBoundRandomStroll
+	FIELD a MAX_XZ_DIST I
+	FIELD c MAX_Y_DIST I
+	FIELD d speedModifier F
+	FIELD e maxXyDist I
+	FIELD f maxYDist I
+	METHOD <init> <init> (F)V
+	METHOD <init> <init> (FII)V
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a start (Labj;Latg;J)V
+	METHOD a setRandomPos (Latg;)V
+	METHOD a setTargetedPos (Latg;Lgu;)V
+	METHOD a lambda$setRandomPos$1 (Ldly;)Lbax;
+	METHOD b lambda$setTargetedPos$0 (Ldly;)Lbax;

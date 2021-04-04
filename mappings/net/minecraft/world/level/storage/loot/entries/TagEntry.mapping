@@ -1,0 +1,30 @@
+CLASS dik net/minecraft/world/level/storage/loot/entries/TagEntry
+	FIELD i tag Lafs;
+	FIELD j expand Z
+	METHOD <init> <init> (Lafs;ZII[Ldkf;[Ldiy;)V
+	METHOD <init> <init> (Lafs;ZII[Ldkf;[Ldiy;Ldik$1;)V
+	METHOD a getType ()Ldig;
+	METHOD a tagContents (Lafs;)Ldih$a;
+	METHOD a lambda$expandTag$2 (Lafs;II[Ldkf;[Ldiy;)Ldih;
+	METHOD a expandTag (Ldhn;Ljava/util/function/Consumer;)Z
+	METHOD a access$000 (Ldik;)Lafs;
+	METHOD a lambda$createItemStack$0 (Ljava/util/function/Consumer;Lbpn;)V
+	METHOD a createItemStack (Ljava/util/function/Consumer;Ldhn;)V
+	METHOD b expandTag (Lafs;)Ldih$a;
+	METHOD b lambda$tagContents$1 (Lafs;II[Ldkf;[Ldiy;)Ldih;
+	METHOD b access$100 (Ldik;)Z
+	METHOD expand expand (Ldhn;Ljava/util/function/Consumer;)Z
+	CLASS 1 1
+		FIELD a val$item Lbpn;
+		FIELD c this$0 Ldik;
+		METHOD <init> <init> (Ldik;Lbpn;)V
+		METHOD a createItemStack (Ljava/util/function/Consumer;Ldhn;)V
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a lambda$serializeCustom$0 ()Ljava/lang/IllegalStateException;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldkf;[Ldiy;)Ldik;
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldif;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldih;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldik;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$1 (Lwp;)Lcom/google/gson/JsonParseException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldkf;[Ldiy;)Ldih;

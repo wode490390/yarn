@@ -1,0 +1,6 @@
+CLASS dbl net/minecraft/world/level/levelgen/structure/templatesystem/RuleTest
+	FIELD c CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getType ()Ldbm;
+	METHOD a test (Lcjr;Ljava/util/Random;)Z

@@ -1,0 +1,7 @@
+CLASS bps net/minecraft/world/item/ItemUtils
+	METHOD <init> <init> ()V
+	METHOD a onContainerDestroyed (Lbge;Ljava/util/stream/Stream;)V
+	METHOD a createFilledResult (Lbpr;Lbjf;Lbpr;)Lbpr;
+	METHOD a createFilledResult (Lbpr;Lbjf;Lbpr;Z)Lbpr;
+	METHOD a lambda$onContainerDestroyed$0 (Lbvr;Lbge;Lbpr;)V
+	METHOD a startUsingInstantly (Lbvr;Lbjf;Larf;)Larh;

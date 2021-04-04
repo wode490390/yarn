@@ -1,0 +1,20 @@
+CLASS ciq net/minecraft/world/level/block/entity/SkullBlockEntity
+	FIELD a TAG_SKULL_OWNER Ljava/lang/String;
+	FIELD b profileCache Ladv;
+	FIELD c sessionService Lcom/mojang/authlib/minecraft/MinecraftSessionService;
+	FIELD d owner Lcom/mojang/authlib/GameProfile;
+	FIELD e mouthTickCount I
+	FIELD f isMovingMouth Z
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a getUpdatePacket ()Lpt;
+	METHOD a getMouthAnimation (F)F
+	METHOD a setProfileCache (Ladv;)V
+	METHOD a dragonHeadAnimation (Lbvr;Lgb;Lcjr;Lciq;)V
+	METHOD a setOwner (Lcom/mojang/authlib/GameProfile;)V
+	METHOD a setSessionService (Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V
+	METHOD a load (Lmv;)V
+	METHOD b getUpdateTag ()Lmv;
+	METHOD b updateGameprofile (Lcom/mojang/authlib/GameProfile;)Lcom/mojang/authlib/GameProfile;
+	METHOD b save (Lmv;)Lmv;
+	METHOD d getOwnerProfile ()Lcom/mojang/authlib/GameProfile;
+	METHOD f updateOwnerProfile ()V

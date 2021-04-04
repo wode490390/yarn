@@ -1,0 +1,4 @@
+CLASS aro net/minecraft/world/SnooperPopulator
+	METHOD U isSnooperEnabled ()Z
+	METHOD a populateSnooper (Larn;)V
+	METHOD b populateSnooperInitial (Larn;)V

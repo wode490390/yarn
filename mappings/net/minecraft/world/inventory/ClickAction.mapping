@@ -1,0 +1,8 @@
+CLASS blt net/minecraft/world/inventory/ClickAction
+	FIELD a PRIMARY Lblt;
+	FIELD b SECONDARY Lblt;
+	FIELD c $VALUES [Lblt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lblt;
+	METHOD values values ()[Lblt;

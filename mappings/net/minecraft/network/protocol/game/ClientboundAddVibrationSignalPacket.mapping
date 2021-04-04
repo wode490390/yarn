@@ -1,0 +1,8 @@
+CLASS po net/minecraft/network/protocol/game/ClientboundAddVibrationSignalPacket
+	FIELD a vibrationPath Lcob;
+	METHOD <init> <init> (Lcob;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getVibrationPath ()Lcob;

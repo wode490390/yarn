@@ -1,0 +1,8 @@
+CLASS o net/minecraft/CharPredicate
+	METHOD a negate ()Lo;
+	METHOD a lambda$negate$1 (C)Z
+	METHOD a and (Lo;)Lo;
+	METHOD a lambda$or$2 (Lo;C)Z
+	METHOD b or (Lo;)Lo;
+	METHOD b lambda$and$0 (Lo;C)Z
+	METHOD test test (C)Z

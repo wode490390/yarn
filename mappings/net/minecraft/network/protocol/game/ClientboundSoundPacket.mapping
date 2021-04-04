@@ -1,0 +1,21 @@
+CLASS su net/minecraft/network/protocol/game/ClientboundSoundPacket
+	FIELD a LOCATION_ACCURACY F
+	FIELD b sound Laev;
+	FIELD c source Laex;
+	FIELD d x I
+	FIELD e y I
+	FIELD f z I
+	FIELD g volume F
+	FIELD h pitch F
+	METHOD <init> <init> (Laev;Laex;DDDFF)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getSound ()Laev;
+	METHOD c getSource ()Laex;
+	METHOD d getX ()D
+	METHOD e getY ()D
+	METHOD f getZ ()D
+	METHOD g getVolume ()F
+	METHOD h getPitch ()F

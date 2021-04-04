@@ -1,0 +1,16 @@
+CLASS bwi net/minecraft/world/level/StructureFeatureManager
+	FIELD a level Lbvs;
+	FIELD b worldGenSettings Lcpf;
+	METHOD <init> <init> (Lbvs;Lcpf;)V
+	METHOD a shouldGenerateFeatures ()Z
+	METHOD a forWorldGenRegion (Labp;)Lbwi;
+	METHOD a lambda$startsForFeature$1 (Lcsv;Lgu;)Ldam;
+	METHOD a lambda$startsForFeature$2 (Ldam;)Z
+	METHOD a lambda$null$3 (Lgb;Ldak;)Z
+	METHOD a getStructureAt (Lgb;ZLcsv;)Ldam;
+	METHOD a startsForFeature (Lgu;Lcsv;)Ljava/util/stream/Stream;
+	METHOD a addReferenceForFeature (Lgu;Lcsv;JLclr;)V
+	METHOD a getStartForFeature (Lgu;Lcsv;Lclr;)Ldam;
+	METHOD a setStartForFeature (Lgu;Lcsv;Ldam;Lclr;)V
+	METHOD a lambda$startsForFeature$0 (Ljava/lang/Long;)Lgu;
+	METHOD a lambda$getStructureAt$4 (ZLgb;Ldam;)Z

@@ -1,0 +1,4 @@
+CLASS bpv net/minecraft/world/item/LeadItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a bindPlayerMobs (Lbjf;Lbvr;Lgb;)Larg;
+	METHOD a useOn (Lbrt;)Larg;

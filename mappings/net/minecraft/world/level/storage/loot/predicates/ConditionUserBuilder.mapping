@@ -1,0 +1,3 @@
+CLASS djy net/minecraft/world/level/storage/loot/predicates/ConditionUserBuilder
+	METHOD b when (Ldkf$a;)Ljava/lang/Object;
+	METHOD c unwrap ()Ljava/lang/Object;

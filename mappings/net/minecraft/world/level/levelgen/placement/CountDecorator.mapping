@@ -1,0 +1,4 @@
+CLASS cyj net/minecraft/world/level/levelgen/placement/CountDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a count (Ljava/util/Random;Lctt;Lgb;)I
+	METHOD a count (Ljava/util/Random;Lctv;Lgb;)I

@@ -1,0 +1,35 @@
+CLASS bpc net/minecraft/world/item/FireworkRocketItem
+	FIELD a TAG_FIREWORKS Ljava/lang/String;
+	FIELD b TAG_EXPLOSION Ljava/lang/String;
+	FIELD c TAG_EXPLOSIONS Ljava/lang/String;
+	FIELD d TAG_FLIGHT Ljava/lang/String;
+	FIELD e TAG_EXPLOSION_TYPE Ljava/lang/String;
+	FIELD f TAG_EXPLOSION_TRAIL Ljava/lang/String;
+	FIELD g TAG_EXPLOSION_FLICKER Ljava/lang/String;
+	FIELD h TAG_EXPLOSION_COLORS Ljava/lang/String;
+	FIELD i TAG_EXPLOSION_FADECOLORS Ljava/lang/String;
+	FIELD j ROCKET_PLACEMENT_OFFSET D
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a appendHoverText (Lbpr;Lbvr;Ljava/util/List;Lbre;)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD ah_ getDefaultInstance ()Lbpr;
+	CLASS a Shape
+		FIELD a SMALL_BALL Lbpc$a;
+		FIELD b LARGE_BALL Lbpc$a;
+		FIELD c STAR Lbpc$a;
+		FIELD d CREEPER Lbpc$a;
+		FIELD e BURST Lbpc$a;
+		FIELD f BY_ID [Lbpc$a;
+		FIELD g id I
+		FIELD h name Ljava/lang/String;
+		FIELD i $VALUES [Lbpc$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+		METHOD a getId ()I
+		METHOD a byId (I)Lbpc$a;
+		METHOD a lambda$static$0 (Lbpc$a;)I
+		METHOD b getName ()Ljava/lang/String;
+		METHOD b lambda$static$1 (I)[Lbpc$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbpc$a;
+		METHOD values values ()[Lbpc$a;

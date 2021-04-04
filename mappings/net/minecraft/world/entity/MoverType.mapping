@@ -1,0 +1,11 @@
+CLASS atd net/minecraft/world/entity/MoverType
+	FIELD a SELF Latd;
+	FIELD b PLAYER Latd;
+	FIELD c PISTON Latd;
+	FIELD d SHULKER_BOX Latd;
+	FIELD e SHULKER Latd;
+	FIELD f $VALUES [Latd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Latd;
+	METHOD values values ()[Latd;

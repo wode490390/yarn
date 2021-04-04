@@ -1,0 +1,11 @@
+CLASS cnb net/minecraft/world/level/entity/EntityAccess
+	METHOD Y getId ()I
+	METHOD a setLevelCallback (Lcnc;)V
+	METHOD b setRemoved (Lasl$c;)V
+	METHOD cM blockPosition ()Lgb;
+	METHOD cc getUUID ()Ljava/util/UUID;
+	METHOD cm getBoundingBox ()Ldlt;
+	METHOD cx getSelfAndPassengers ()Ljava/util/stream/Stream;
+	METHOD cy getPassengersAndSelf ()Ljava/util/stream/Stream;
+	METHOD de shouldBeSaved ()Z
+	METHOD df isAlwaysTicking ()Z

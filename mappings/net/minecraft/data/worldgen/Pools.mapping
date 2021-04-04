@@ -1,0 +1,7 @@
+CLASS ky net/minecraft/data/worldgen/Pools
+	FIELD a EMPTY Lwo;
+	FIELD b BUILTIN_EMPTY Lcwv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()Lcwv;
+	METHOD a register (Lcwv;)Lcwv;

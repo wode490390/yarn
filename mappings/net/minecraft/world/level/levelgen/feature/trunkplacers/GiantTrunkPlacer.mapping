@@ -1,0 +1,8 @@
+CLASS cxj net/minecraft/world/level/levelgen/feature/trunkplacers/GiantTrunkPlacer
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (III)V
+	METHOD a type ()Lcxn;
+	METHOD a placeTrunk (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;ILgb;Lcvg;)Ljava/util/List;
+	METHOD a placeLogIfFreeWithOffset (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Lgb$a;Lcvg;Lgb;III)V
+	METHOD b lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;

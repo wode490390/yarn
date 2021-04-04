@@ -1,0 +1,16 @@
+CLASS cd net/minecraft/advancements/critereon/LootTableTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;Lwp;)V
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lcd$a;
+	METHOD a lambda$trigger$0 (Lwp;Lcd$a;)Z
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a lootTable Lwp;
+		METHOD <init> <init> (Lbl$b;Lwp;)V
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;
+		METHOD a lootTableUsed (Lwp;)Lcd$a;
+		METHOD b matches (Lwp;)Z

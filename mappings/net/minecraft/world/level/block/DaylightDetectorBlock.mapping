@@ -1,0 +1,17 @@
+CLASS caf net/minecraft/world/level/block/DaylightDetectorBlock
+	FIELD a POWER Lckr;
+	FIELD b INVERTED Lcki;
+	FIELD c SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getTicker (Lbvr;Lcjr;Lchr;)Lchq;
+	METHOD a tickEntity (Lbvr;Lgb;Lcjr;Lcia;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a getSignal (Lcjr;Lbuv;Lgb;Lgg;)I
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;
+	METHOD b_ getRenderShape (Lcjr;)Lced;
+	METHOD d updateSignalStrength (Lcjr;Lbvr;Lgb;)V
+	METHOD e_ isSignalSource (Lcjr;)Z
+	METHOD f_ useShapeForLightOcclusion (Lcjr;)Z

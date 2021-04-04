@@ -1,0 +1,7 @@
+CLASS cgt net/minecraft/world/level/block/WeatheringCopperSlabBlock
+	FIELD e weatherState Lcgr$a;
+	METHOD <init> <init> (Lcgr$a;Lcjq$c;)V
+	METHOD b getAge ()Ljava/lang/Enum;
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD d_ isRandomlyTicking (Lcjr;)Z
+	METHOD e getAge ()Lcgr$a;

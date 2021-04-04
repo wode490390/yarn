@@ -1,0 +1,12 @@
+CLASS bvf net/minecraft/world/level/EmptyBlockGetter
+	FIELD a INSTANCE Lbvf;
+	FIELD b $VALUES [Lbvf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD b getFluidState (Lgb;)Lddq;
+	METHOD c getBlockEntity (Lgb;)Lchp;
+	METHOD d_ getBlockState (Lgb;)Lcjr;
+	METHOD m getHeight ()I
+	METHOD v_ getMinBuildHeight ()I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbvf;
+	METHOD values values ()[Lbvf;

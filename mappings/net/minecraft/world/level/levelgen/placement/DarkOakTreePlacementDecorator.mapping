@@ -1,0 +1,5 @@
+CLASS cym net/minecraft/world/level/levelgen/placement/DarkOakTreePlacementDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lctv;Lgb;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lcul;Lgb;)Ljava/util/stream/Stream;
+	METHOD a lambda$getPositions$0 (Ljava/util/Random;Lgb;I)Lgb;

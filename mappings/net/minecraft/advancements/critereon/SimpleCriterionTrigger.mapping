@@ -1,0 +1,11 @@
+CLASS cp net/minecraft/advancements/critereon/SimpleCriterionTrigger
+	FIELD a players Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD a trigger (Labk;Ljava/util/function/Predicate;)V
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbc;)Lal;
+	METHOD a removePlayerListeners (Lwx;)V
+	METHOD a addPlayerListener (Lwx;Lak$a;)V
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbc;)Laq;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	METHOD b lambda$addPlayerListener$0 (Lwx;)Ljava/util/Set;
+	METHOD b removePlayerListener (Lwx;Lak$a;)V

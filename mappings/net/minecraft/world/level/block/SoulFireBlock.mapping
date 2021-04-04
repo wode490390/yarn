@@ -1,0 +1,6 @@
+CLASS cfc net/minecraft/world/level/block/SoulFireBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD f canBurn (Lcjr;)Z
+	METHOD h canSurviveOnBlock (Lcjr;)Z

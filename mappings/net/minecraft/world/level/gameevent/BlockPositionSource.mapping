@@ -1,0 +1,18 @@
+CLASS cnq net/minecraft/world/level/gameevent/BlockPositionSource
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c pos Ljava/util/Optional;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgb;)V
+	METHOD <init> <init> (Ljava/util/Optional;)V
+	METHOD a getType ()Lcny;
+	METHOD a getPosition (Lbvr;)Ljava/util/Optional;
+	METHOD a access$000 (Lcnq;)Ljava/util/Optional;
+	METHOD a lambda$static$1 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b lambda$null$0 (Lcnq;)Ljava/util/Optional;
+	CLASS a Type
+		METHOD <init> <init> ()V
+		METHOD a codec ()Lcom/mojang/serialization/Codec;
+		METHOD a read (Lob;)Lcnq;
+		METHOD a write (Lob;Lcnq;)V
+		METHOD a write (Lob;Lcnx;)V
+		METHOD b read (Lob;)Lcnx;

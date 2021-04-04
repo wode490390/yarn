@@ -1,0 +1,8 @@
+CLASS cqq net/minecraft/world/level/levelgen/feature/DesertWellFeature
+	FIELD a IS_SAND Lckb;
+	FIELD b sandSlab Lcjr;
+	FIELD c sandstone Lcjr;
+	FIELD d water Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a place (Lcqz;)Z

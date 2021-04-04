@@ -1,0 +1,7 @@
+CLASS cnk net/minecraft/world/level/entity/LevelEntityGetter
+	METHOD a getAll ()Ljava/lang/Iterable;
+	METHOD a get (I)Lcnb;
+	METHOD a get (Lcni;Ldlt;Ljava/util/function/Consumer;)V
+	METHOD a get (Lcni;Ljava/util/function/Consumer;)V
+	METHOD a get (Ldlt;Ljava/util/function/Consumer;)V
+	METHOD a get (Ljava/util/UUID;)Lcnb;

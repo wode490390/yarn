@@ -1,0 +1,18 @@
+CLASS cxs net/minecraft/world/level/levelgen/heightproviders/BiasedToBottomHeight
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d minInclusive Lcpe;
+	FIELD e maxInclusive Lcpe;
+	FIELD f inner I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcpe;Lcpe;I)V
+	METHOD a getType ()Lcxv;
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a of (Lcpe;Lcpe;I)Lcxs;
+	METHOD a lambda$null$2 (Lcxs;)Ljava/lang/Integer;
+	METHOD a sample (Ljava/util/Random;Lcpg;)I
+	METHOD b lambda$null$1 (Lcxs;)Lcpe;
+	METHOD c lambda$null$0 (Lcxs;)Lcpe;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

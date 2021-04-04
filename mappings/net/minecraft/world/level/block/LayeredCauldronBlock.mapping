@@ -1,0 +1,22 @@
+CLASS ccm net/minecraft/world/level/block/LayeredCauldronBlock
+	FIELD c MIN_FILL_LEVEL I
+	FIELD d MAX_FILL_LEVEL I
+	FIELD e LEVEL Lckr;
+	FIELD f RAIN Ljava/util/function/Predicate;
+	FIELD g SNOW Ljava/util/function/Predicate;
+	FIELD h BASE_CONTENT_HEIGHT I
+	FIELD i HEIGHT_PER_LEVEL D
+	FIELD j fillPredicate Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;Ljava/util/function/Predicate;Ljava/util/Map;)V
+	METHOD a lambda$static$1 (Lbwq$e;)Z
+	METHOD a getContentHeight (Lcjr;)D
+	METHOD a getAnalogOutputSignal (Lcjr;Lbvr;Lgb;)I
+	METHOD a entityInside (Lcjr;Lbvr;Lgb;Lasl;)V
+	METHOD a handlePrecipitation (Lcjr;Lbvr;Lgb;Lbwq$e;)V
+	METHOD a receiveStalactiteDrip (Lcjr;Lbvr;Lgb;Lddp;)V
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a canReceiveStalactiteDrip (Lddp;)Z
+	METHOD b lambda$static$0 (Lbwq$e;)Z
+	METHOD c isFull (Lcjr;)Z
+	METHOD d lowerFillLevel (Lcjr;Lbvr;Lgb;)V

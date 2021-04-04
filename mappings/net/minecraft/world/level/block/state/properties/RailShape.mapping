@@ -1,0 +1,21 @@
+CLASS ckv net/minecraft/world/level/block/state/properties/RailShape
+	FIELD a NORTH_SOUTH Lckv;
+	FIELD b EAST_WEST Lckv;
+	FIELD c ASCENDING_EAST Lckv;
+	FIELD d ASCENDING_WEST Lckv;
+	FIELD e ASCENDING_NORTH Lckv;
+	FIELD f ASCENDING_SOUTH Lckv;
+	FIELD g SOUTH_EAST Lckv;
+	FIELD h SOUTH_WEST Lckv;
+	FIELD i NORTH_WEST Lckv;
+	FIELD j NORTH_EAST Lckv;
+	FIELD k name Ljava/lang/String;
+	FIELD l $VALUES [Lckv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD b isAscending ()Z
+	METHOD c getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lckv;
+	METHOD values values ()[Lckv;

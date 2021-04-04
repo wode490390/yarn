@@ -1,0 +1,15 @@
+CLASS azr net/minecraft/world/entity/ai/goal/RemoveBlockGoal
+	FIELD g blockToRemove Lbyq;
+	FIELD h removerMob Lasz;
+	FIELD i ticksSinceReachedGoal I
+	FIELD j WAIT_AFTER_BLOCK_FOUND I
+	METHOD <init> <init> (Lbyq;Latg;DI)V
+	METHOD a canUse ()Z
+	METHOD a playBreakSound (Lbvr;Lgb;)V
+	METHOD a playDestroyProgressSound (Lbvs;Lgb;)V
+	METHOD a isValidTarget (Lbvu;Lgb;)Z
+	METHOD a getPosWithBlock (Lgb;Lbuv;)Lgb;
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD n tryFindBlock ()Z

@@ -1,0 +1,12 @@
+CLASS bvt net/minecraft/world/level/LevelHeightAccessor
+	METHOD ag getMaxBuildHeight ()I
+	METHOD ah getSectionsCount ()I
+	METHOD ai getMinSection ()I
+	METHOD aj getMaxSection ()I
+	METHOD d isOutsideBuildHeight (I)Z
+	METHOD e getSectionIndex (I)I
+	METHOD f getSectionIndexFromSectionY (I)I
+	METHOD g getSectionYFromSectionIndex (I)I
+	METHOD m getHeight ()I
+	METHOD t isOutsideBuildHeight (Lgb;)Z
+	METHOD v_ getMinBuildHeight ()I

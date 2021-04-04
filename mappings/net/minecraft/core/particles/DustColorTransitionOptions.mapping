@@ -1,0 +1,23 @@
+CLASS hj net/minecraft/core/particles/DustColorTransitionOptions
+	FIELD a SCULK_PARTICLE_COLOR Lk;
+	FIELD b SCULK_TO_REDSTONE Lhj;
+	FIELD c CODEC Lcom/mojang/serialization/Codec;
+	FIELD d DESERIALIZER Lho$a;
+	FIELD i toColor Lk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lk;Lk;F)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lhj;)Ljava/lang/Float;
+	METHOD a writeToNetwork (Lob;)V
+	METHOD b getType ()Lhp;
+	METHOD b lambda$null$1 (Lhj;)Lk;
+	METHOD c getFromColor ()Lk;
+	METHOD c lambda$null$0 (Lhj;)Lk;
+	METHOD d getToColor ()Lk;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lhj;
+		METHOD a fromNetwork (Lhp;Lob;)Lhj;
+		METHOD b fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lho;
+		METHOD b fromNetwork (Lhp;Lob;)Lho;

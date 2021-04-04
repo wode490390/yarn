@@ -1,0 +1,2 @@
+CLASS chq net/minecraft/world/level/block/entity/BlockEntityTicker
+	METHOD tick tick (Lbvr;Lgb;Lcjr;Lchp;)V

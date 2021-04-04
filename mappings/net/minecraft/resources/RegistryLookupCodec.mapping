@@ -1,0 +1,9 @@
+CLASS wl net/minecraft/resources/RegistryLookupCodec
+	FIELD a registryKey Lwo;
+	METHOD <init> <init> (Lwo;)V
+	METHOD a encode (Lgr;Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/RecordBuilder;)Lcom/mojang/serialization/RecordBuilder;
+	METHOD a create (Lwo;)Lwl;
+	METHOD decode decode (Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;
+	METHOD encode encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/RecordBuilder;)Lcom/mojang/serialization/RecordBuilder;
+	METHOD keys keys (Lcom/mojang/serialization/DynamicOps;)Ljava/util/stream/Stream;
+	METHOD toString toString ()Ljava/lang/String;

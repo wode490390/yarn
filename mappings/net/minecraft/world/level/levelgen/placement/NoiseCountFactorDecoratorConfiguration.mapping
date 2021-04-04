@@ -1,0 +1,11 @@
+CLASS cza net/minecraft/world/level/levelgen/placement/NoiseCountFactorDecoratorConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c noiseToCountRatio I
+	FIELD d noiseFactor D
+	FIELD e noiseOffset D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (IDD)V
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcza;)Ljava/lang/Double;
+	METHOD b lambda$null$1 (Lcza;)Ljava/lang/Double;
+	METHOD c lambda$null$0 (Lcza;)Ljava/lang/Integer;

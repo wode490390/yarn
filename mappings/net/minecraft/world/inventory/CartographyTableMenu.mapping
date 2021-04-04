@@ -1,0 +1,47 @@
+CLASS blr net/minecraft/world/inventory/CartographyTableMenu
+	FIELD k MAP_SLOT I
+	FIELD l ADDITIONAL_SLOT I
+	FIELD m RESULT_SLOT I
+	FIELD n container Laqz;
+	FIELD o INV_SLOT_START I
+	FIELD p INV_SLOT_END I
+	FIELD q USE_ROW_SLOT_START I
+	FIELD r USE_ROW_SLOT_END I
+	FIELD s access Lblw;
+	FIELD t lastSoundTime J
+	FIELD u resultContainer Lbmx;
+	METHOD <init> <init> (ILbje;)V
+	METHOD <init> <init> (ILbje;Lblw;)V
+	METHOD a slotsChanged (Laqz;)V
+	METHOD a stillValid (Lbjf;)Z
+	METHOD a lambda$removed$1 (Lbjf;Lbvr;Lgb;)V
+	METHOD a access$000 (Lblr;)J
+	METHOD a access$002 (Lblr;J)J
+	METHOD a canTakeItemForPickAll (Lbpr;Lbnc;)Z
+	METHOD a setupResultSlot (Lbpr;Lbpr;Lbpr;)V
+	METHOD a lambda$setupResultSlot$0 (Lbpr;Lbpr;Lbpr;Lbvr;Lgb;)V
+	METHOD b removed (Lbjf;)V
+	METHOD b quickMoveStack (Lbjf;I)Lbpr;
+	CLASS 1 1
+		FIELD b this$0 Lblr;
+		METHOD <init> <init> (Lblr;I)V
+		METHOD Z_ setChanged ()V
+	CLASS 2 2
+		FIELD b this$0 Lblr;
+		METHOD <init> <init> (Lblr;)V
+		METHOD Z_ setChanged ()V
+	CLASS 3 3
+		FIELD a this$0 Lblr;
+		METHOD <init> <init> (Lblr;Laqz;III)V
+		METHOD a mayPlace (Lbpr;)Z
+	CLASS 4 4
+		FIELD a this$0 Lblr;
+		METHOD <init> <init> (Lblr;Laqz;III)V
+		METHOD a mayPlace (Lbpr;)Z
+	CLASS 5 5
+		FIELD a val$access Lblw;
+		FIELD b this$0 Lblr;
+		METHOD <init> <init> (Lblr;Laqz;IIILblw;)V
+		METHOD a onTake (Lbjf;Lbpr;)V
+		METHOD a mayPlace (Lbpr;)Z
+		METHOD a lambda$onTake$0 (Lbvr;Lgb;)V

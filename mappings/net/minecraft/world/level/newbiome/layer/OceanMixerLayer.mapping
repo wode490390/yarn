@@ -1,0 +1,8 @@
+CLASS det net/minecraft/world/level/newbiome/layer/OceanMixerLayer
+	FIELD a INSTANCE Ldet;
+	FIELD ar $VALUES [Ldet;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Ldee;Lddz;Lddz;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldet;
+	METHOD values values ()[Ldet;

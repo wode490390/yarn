@@ -1,0 +1,4 @@
+CLASS avu net/minecraft/world/entity/ai/behavior/PositionTracker
+	METHOD a currentPosition ()Ldly;
+	METHOD a isVisibleBy (Lasy;)Z
+	METHOD b currentBlockPosition ()Lgb;

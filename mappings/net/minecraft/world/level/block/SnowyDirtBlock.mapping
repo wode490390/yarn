@@ -1,0 +1,8 @@
+CLASS cfb net/minecraft/world/level/block/SnowyDirtBlock
+	FIELD a SNOWY Lcki;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD h isSnowySetting (Lcjr;)Z

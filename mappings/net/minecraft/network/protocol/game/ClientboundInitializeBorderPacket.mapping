@@ -1,0 +1,22 @@
+CLASS qp net/minecraft/network/protocol/game/ClientboundInitializeBorderPacket
+	FIELD a newCenterX D
+	FIELD b newCenterZ D
+	FIELD c oldSize D
+	FIELD d newSize D
+	FIELD e lerpTime J
+	FIELD f newAbsoluteMaxSize I
+	FIELD g warningBlocks I
+	FIELD h warningTime I
+	METHOD <init> <init> (Lclh;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getNewCenterX ()D
+	METHOD c getNewCenterZ ()D
+	METHOD d getNewSize ()D
+	METHOD e getOldSize ()D
+	METHOD f getLerpTime ()J
+	METHOD g getNewAbsoluteMaxSize ()I
+	METHOD h getWarningTime ()I
+	METHOD i getWarningBlocks ()I

@@ -1,0 +1,2 @@
+CLASS agc net/minecraft/util/CryptException
+	METHOD <init> <init> (Ljava/lang/Throwable;)V

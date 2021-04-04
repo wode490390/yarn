@@ -1,0 +1,10 @@
+CLASS cap net/minecraft/world/level/block/DragonEggBlock
+	FIELD a SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a attack (Lcjr;Lbvr;Lgb;Lbjf;)V
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD c getDelayAfterPlace ()I
+	METHOD d teleport (Lcjr;Lbvr;Lgb;)V

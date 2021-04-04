@@ -1,0 +1,7 @@
+CLASS bqx net/minecraft/world/item/SuspiciousStewItem
+	FIELD a EFFECTS_TAG Ljava/lang/String;
+	FIELD b EFFECT_ID_TAG Ljava/lang/String;
+	FIELD c EFFECT_DURATION_TAG Ljava/lang/String;
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a saveMobEffect (Lbpr;Lasd;I)V
+	METHOD a finishUsingItem (Lbpr;Lbvr;Lasy;)Lbpr;

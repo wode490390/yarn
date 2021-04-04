@@ -1,0 +1,11 @@
+CLASS adb net/minecraft/server/packs/repository/PackSource
+	FIELD a DEFAULT Ladb;
+	FIELD b BUILT_IN Ladb;
+	FIELD c WORLD Ladb;
+	FIELD d SERVER Ladb;
+	METHOD <clinit> <clinit> ()V
+	METHOD a passThrough ()Ladb;
+	METHOD a decorating (Ljava/lang/String;)Ladb;
+	METHOD a lambda$passThrough$0 (Lon;)Lon;
+	METHOD a lambda$decorating$1 (Lon;Lon;)Lon;
+	METHOD decorate decorate (Lon;)Lon;

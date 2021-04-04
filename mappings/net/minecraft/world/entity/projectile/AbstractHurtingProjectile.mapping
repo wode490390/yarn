@@ -1,0 +1,22 @@
+CLASS bjk net/minecraft/world/entity/projectile/AbstractHurtingProjectile
+	FIELD b xPower D
+	FIELD c yPower D
+	FIELD d zPower D
+	METHOD <init> <init> (Lasp;DDDDDDLbvr;)V
+	METHOD <init> <init> (Lasp;Lasy;DDDLbvr;)V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD O getAddEntityPacket ()Lpf;
+	METHOD Y_ shouldBurn ()Z
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a hurt (Larv;F)Z
+	METHOD a canHitEntity (Lasl;)Z
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD a recreateFromPacket (Lpj;)V
+	METHOD aU getBrightness ()F
+	METHOD aY isPickable ()Z
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD bl getPickRadius ()F
+	METHOD e defineSynchedData ()V
+	METHOD h getTrailParticle ()Lho;
+	METHOD i getInertia ()F
+	METHOD j tick ()V

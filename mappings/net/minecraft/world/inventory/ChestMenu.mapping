@@ -1,0 +1,19 @@
+CLASS bls net/minecraft/world/inventory/ChestMenu
+	FIELD k SLOTS_PER_ROW I
+	FIELD l container Laqz;
+	FIELD m containerRows I
+	METHOD <init> <init> (Lbmp;ILbje;I)V
+	METHOD <init> <init> (Lbmp;ILbje;Laqz;I)V
+	METHOD a oneRow (ILbje;)Lbls;
+	METHOD a threeRows (ILbje;Laqz;)Lbls;
+	METHOD a stillValid (Lbjf;)Z
+	METHOD b twoRows (ILbje;)Lbls;
+	METHOD b sixRows (ILbje;Laqz;)Lbls;
+	METHOD b removed (Lbjf;)V
+	METHOD b quickMoveStack (Lbjf;I)Lbpr;
+	METHOD c threeRows (ILbje;)Lbls;
+	METHOD d fourRows (ILbje;)Lbls;
+	METHOD e fiveRows (ILbje;)Lbls;
+	METHOD f sixRows (ILbje;)Lbls;
+	METHOD i getContainer ()Laqz;
+	METHOD j getRowCount ()I

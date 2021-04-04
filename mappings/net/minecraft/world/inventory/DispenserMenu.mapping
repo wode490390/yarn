@@ -1,0 +1,12 @@
+CLASS bmc net/minecraft/world/inventory/DispenserMenu
+	FIELD k SLOT_COUNT I
+	FIELD l INV_SLOT_START I
+	FIELD m INV_SLOT_END I
+	FIELD n USE_ROW_SLOT_START I
+	FIELD o USE_ROW_SLOT_END I
+	FIELD p dispenser Laqz;
+	METHOD <init> <init> (ILbje;)V
+	METHOD <init> <init> (ILbje;Laqz;)V
+	METHOD a stillValid (Lbjf;)Z
+	METHOD b removed (Lbjf;)V
+	METHOD b quickMoveStack (Lbjf;I)Lbpr;

@@ -1,0 +1,25 @@
+CLASS cvi net/minecraft/world/level/levelgen/feature/configurations/VegetationPatchConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b replaceable Lwp;
+	FIELD c groundState Lcwd;
+	FIELD d vegetationFeature Ljava/util/function/Supplier;
+	FIELD e surface Lcye;
+	FIELD f depth Laqo;
+	FIELD g extraBottomBlockChance F
+	FIELD h verticalRange I
+	FIELD i vegetationChance F
+	FIELD j xzRadius Laqo;
+	FIELD k extraEdgeColumnChance F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lwp;Lcwd;Ljava/util/function/Supplier;Lcye;Laqo;FIFLaqo;F)V
+	METHOD a lambda$static$10 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$9 (Lcvi;)Ljava/lang/Float;
+	METHOD b lambda$null$8 (Lcvi;)Laqo;
+	METHOD c lambda$null$7 (Lcvi;)Ljava/lang/Float;
+	METHOD d lambda$null$6 (Lcvi;)Ljava/lang/Integer;
+	METHOD e lambda$null$5 (Lcvi;)Ljava/lang/Float;
+	METHOD f lambda$null$4 (Lcvi;)Laqo;
+	METHOD g lambda$null$3 (Lcvi;)Lcye;
+	METHOD h lambda$null$2 (Lcvi;)Ljava/util/function/Supplier;
+	METHOD i lambda$null$1 (Lcvi;)Lcwd;
+	METHOD j lambda$null$0 (Lcvi;)Lwp;

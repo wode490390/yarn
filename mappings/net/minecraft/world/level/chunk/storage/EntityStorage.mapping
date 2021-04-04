@@ -1,0 +1,23 @@
+CLASS cmj net/minecraft/world/level/chunk/storage/EntityStorage
+	FIELD a fixerUpper Lcom/mojang/datafixers/DataFixer;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c ENTITIES_TAG Ljava/lang/String;
+	FIELD d POSITION_TAG Ljava/lang/String;
+	FIELD e level Labj;
+	FIELD f worker Lcmk;
+	FIELD g emptyChunks Lit/unimi/dsi/fastutil/longs/LongSet;
+	FIELD h mainThreadExecutor Ljava/util/concurrent/Executor;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Labj;Ljava/io/File;Lcom/mojang/datafixers/DataFixer;ZLjava/util/concurrent/Executor;)V
+	METHOD a flush ()V
+	METHOD a loadEntities (Lbuw;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$storeEntities$2 (Lbuw;Ljava/lang/Throwable;)Ljava/lang/Void;
+	METHOD a lambda$loadEntities$0 (Lbuw;Lmv;)Lcmz;
+	METHOD a storeEntities (Lcmz;)V
+	METHOD a getVersion (Lmv;)I
+	METHOD a writeChunkPos (Lmv;Lbuw;)V
+	METHOD a lambda$storeEntities$1 (Lnb;Lasl;)V
+	METHOD b emptyChunk (Lbuw;)Lcmz;
+	METHOD b readChunkPos (Lmv;)Lbuw;
+	METHOD c upgradeChunkTag (Lmv;)Lmv;
+	METHOD close close ()V

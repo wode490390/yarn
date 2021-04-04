@@ -1,0 +1,58 @@
+CLASS djc net/minecraft/world/level/storage/loot/functions/SetAttributesFunction
+	FIELD a modifiers Ljava/util/List;
+	METHOD <init> <init> ([Ldkf;Ljava/util/List;)V
+	METHOD <init> <init> ([Ldkf;Ljava/util/List;Ldjc$1;)V
+	METHOD a getType ()Ldiz;
+	METHOD a run (Lbpr;Ldhn;)Lbpr;
+	METHOD a lambda$getReferencedContextParams$0 (Ldjc$b;)Ljava/util/stream/Stream;
+	METHOD a access$800 (Ldjc;)Ljava/util/List;
+	METHOD a modifier (Ljava/lang/String;Latt;Latw$a;Ldla;)Ldjc$c;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	METHOD c setAttributes ()Ldjc$a;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$entity$ai$attributes$AttributeModifier$Operation [I
+		METHOD <clinit> <clinit> ()V
+	CLASS a Builder
+		FIELD a modifiers Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Ldjc$a;
+		METHOD a withModifier (Ldjc$c;)Ldjc$a;
+		METHOD b build ()Ldiy;
+		METHOD d getThis ()Ldix$a;
+	CLASS b Modifier
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Latt;
+		FIELD c operation Latw$a;
+		FIELD d amount Ldla;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots [Lasq;
+		METHOD <init> <init> (Ljava/lang/String;Latt;Latw$a;Ldla;[Lasq;Ljava/util/UUID;)V
+		METHOD <init> <init> (Ljava/lang/String;Latt;Latw$a;Ldla;[Lasq;Ljava/util/UUID;Ldjc$1;)V
+		METHOD a operationToString (Latw$a;)Ljava/lang/String;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldjc$b;
+		METHOD a serialize (Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonObject;
+		METHOD a access$000 (Ldjc$b;)Ljava/util/UUID;
+		METHOD a operationFromString (Ljava/lang/String;)Latw$a;
+		METHOD b access$100 (Ldjc$b;)[Lasq;
+		METHOD c access$200 (Ldjc$b;)Latt;
+		METHOD d access$300 (Ldjc$b;)Ljava/lang/String;
+		METHOD e access$400 (Ldjc$b;)Ldla;
+		METHOD f access$500 (Ldjc$b;)Latw$a;
+	CLASS c ModifierBuilder
+		FIELD a name Ljava/lang/String;
+		FIELD b attribute Latt;
+		FIELD c operation Latw$a;
+		FIELD d amount Ldla;
+		FIELD e id Ljava/util/UUID;
+		FIELD f slots Ljava/util/Set;
+		METHOD <init> <init> (Ljava/lang/String;Latt;Latw$a;Ldla;)V
+		METHOD a build ()Ldjc$b;
+		METHOD a forSlot (Lasq;)Ldjc$c;
+		METHOD a withUuid (Ljava/util/UUID;)Ldjc$c;
+	CLASS d Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldjc;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldix;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldjc;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldix;

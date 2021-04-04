@@ -1,0 +1,16 @@
+CLASS ca net/minecraft/advancements/critereon/LightPredicate
+	FIELD a ANY Lca;
+	FIELD b composite Lce$d;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lce$d;)V
+	METHOD <init> <init> (Lce$d;Lca$1;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a matches (Labj;Lgb;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lca;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a composite Lce$d;
+		METHOD <init> <init> ()V
+		METHOD a light ()Lca$a;
+		METHOD a setComposite (Lce$d;)Lca$a;
+		METHOD b build ()Lca;

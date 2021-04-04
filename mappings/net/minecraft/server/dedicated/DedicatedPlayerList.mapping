@@ -1,0 +1,20 @@
+CLASS aaj net/minecraft/server/dedicated/DedicatedPlayerList
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laak;Lgs$b;Ldhd;)V
+	METHOD A saveOps ()V
+	METHOD B loadWhiteList ()V
+	METHOD C saveWhiteList ()V
+	METHOD a reloadWhiteList ()V
+	METHOD a op (Lcom/mojang/authlib/GameProfile;)V
+	METHOD a setUsingWhiteList (Z)V
+	METHOD b getServer ()Laak;
+	METHOD b deop (Lcom/mojang/authlib/GameProfile;)V
+	METHOD c getServer ()Lnet/minecraft/server/MinecraftServer;
+	METHOD c isWhiteListed (Lcom/mojang/authlib/GameProfile;)Z
+	METHOD d canBypassPlayerLimit (Lcom/mojang/authlib/GameProfile;)Z
+	METHOD v saveIpBanList ()V
+	METHOD w saveUserBanList ()V
+	METHOD x loadIpBanList ()V
+	METHOD y loadUserBanList ()V
+	METHOD z loadOps ()V

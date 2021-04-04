@@ -1,0 +1,2 @@
+CLASS adn net/minecraft/server/packs/resources/ResourceProvider
+	METHOD a getResource (Lwp;)Ladk;

@@ -1,0 +1,11 @@
+CLASS cxc net/minecraft/world/level/levelgen/feature/treedecorators/TreeDecoratorType
+	FIELD a TRUNK_VINE Lcxc;
+	FIELD b LEAVE_VINE Lcxc;
+	FIELD c COCOA Lcxc;
+	FIELD d BEEHIVE Lcxc;
+	FIELD e ALTER_GROUND Lcxc;
+	FIELD f codec Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a register (Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lcxc;

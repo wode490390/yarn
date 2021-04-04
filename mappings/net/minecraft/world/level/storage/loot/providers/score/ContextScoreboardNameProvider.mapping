@@ -1,0 +1,22 @@
+CLASS dlf net/minecraft/world/level/storage/loot/providers/score/ContextScoreboardNameProvider
+	FIELD a target Ldhn$c;
+	METHOD <init> <init> (Ldhn$c;)V
+	METHOD <init> <init> (Ldhn$c;Ldlf$1;)V
+	METHOD a getType ()Ldlh;
+	METHOD a forTarget (Ldhn$c;)Ldli;
+	METHOD a getScoreboardName (Ldhn;)Ljava/lang/String;
+	METHOD a access$000 (Ldlf;)Ldhn$c;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	CLASS 1 1
+	CLASS a InlineSerializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Ldlf;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a serialize (Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD b deserialize (Lcom/google/gson/JsonElement;Lcom/google/gson/JsonDeserializationContext;)Ldlf;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldlf;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldlf;

@@ -1,0 +1,12 @@
+CLASS cmo net/minecraft/world/level/chunk/storage/RegionFileStorage
+	FIELD a ANVIL_EXTENSION Ljava/lang/String;
+	FIELD b MAX_CACHE_SIZE I
+	FIELD c regionCache Lit/unimi/dsi/fastutil/longs/Long2ObjectLinkedOpenHashMap;
+	FIELD d folder Ljava/io/File;
+	FIELD e sync Z
+	METHOD <init> <init> (Ljava/io/File;Z)V
+	METHOD a flush ()V
+	METHOD a read (Lbuw;)Lmv;
+	METHOD a write (Lbuw;Lmv;)V
+	METHOD b getRegionFile (Lbuw;)Lcmn;
+	METHOD close close ()V

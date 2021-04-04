@@ -1,0 +1,24 @@
+CLASS bej net/minecraft/world/entity/animal/horse/AbstractChestedHorse
+	FIELD bV INV_CHEST_COUNT I
+	FIELD cl DATA_ID_CHEST Lvy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b mobInteract (Lbjf;Larf;)Larg;
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD bh getPassengersRidingOffset ()D
+	METHOD dO dropEquipment ()V
+	METHOD e defineSynchedData ()V
+	METHOD fn hasChest ()Z
+	METHOD fo getInventorySize ()I
+	METHOD fp playChestEquipsSound ()V
+	METHOD fv getInventoryColumns ()I
+	METHOD k getSlot (I)Lato;
+	METHOD o randomizeAttributes ()V
+	METHOD s createBaseChestedHorseAttributes ()Latx$a;
+	METHOD v setChest (Z)V
+	CLASS 1 1
+		FIELD b this$0 Lbej;
+		METHOD <init> <init> (Lbej;)V
+		METHOD a get ()Lbpr;
+		METHOD a set (Lbpr;)Z

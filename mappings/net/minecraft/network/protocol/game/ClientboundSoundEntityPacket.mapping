@@ -1,0 +1,16 @@
+CLASS st net/minecraft/network/protocol/game/ClientboundSoundEntityPacket
+	FIELD a sound Laev;
+	FIELD b source Laex;
+	FIELD c id I
+	FIELD d volume F
+	FIELD e pitch F
+	METHOD <init> <init> (Laev;Laex;Lasl;FF)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getSound ()Laev;
+	METHOD c getSource ()Laex;
+	METHOD d getId ()I
+	METHOD e getVolume ()F
+	METHOD f getPitch ()F

@@ -1,0 +1,4 @@
+CLASS avz net/minecraft/world/entity/ai/behavior/ResetRaidStatus
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V

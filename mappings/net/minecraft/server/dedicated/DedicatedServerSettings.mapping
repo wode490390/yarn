@@ -1,0 +1,7 @@
+CLASS aam net/minecraft/server/dedicated/DedicatedServerSettings
+	FIELD a source Ljava/nio/file/Path;
+	FIELD b properties Laal;
+	METHOD <init> <init> (Lgs;Ljava/nio/file/Path;)V
+	METHOD a getProperties ()Laal;
+	METHOD a update (Ljava/util/function/UnaryOperator;)Laam;
+	METHOD b forceSave ()V

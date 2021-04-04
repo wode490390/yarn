@@ -1,0 +1,8 @@
+CLASS deu net/minecraft/world/level/newbiome/layer/RareBiomeLargeLayer
+	FIELD a INSTANCE Ldeu;
+	FIELD ar $VALUES [Ldeu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Ldee;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldeu;
+	METHOD values values ()[Ldeu;

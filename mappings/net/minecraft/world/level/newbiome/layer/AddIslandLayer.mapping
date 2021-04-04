@@ -1,0 +1,8 @@
+CLASS dej net/minecraft/world/level/newbiome/layer/AddIslandLayer
+	FIELD a INSTANCE Ldej;
+	FIELD ar $VALUES [Ldej;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Ldee;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldej;
+	METHOD values values ()[Ldej;

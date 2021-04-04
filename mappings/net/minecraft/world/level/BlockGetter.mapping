@@ -1,0 +1,19 @@
+CLASS buv net/minecraft/world/level/BlockGetter
+	METHOD O getMaxLightLevel ()I
+	METHOD a isBlockInLine (Lbuy;)Ldlu;
+	METHOD a lambda$isBlockInLine$0 (Lbuy;Lgb;)Ldlu;
+	METHOD a clip (Lbuz;)Ldlu;
+	METHOD a lambda$clip$2 (Lbuz;Lgb;)Ldlu;
+	METHOD a getBlockStates (Ldlt;)Ljava/util/stream/Stream;
+	METHOD a clipWithInteractionOverride (Ldly;Ldly;Lgb;Ldmr;Lcjr;)Ldlu;
+	METHOD a traverseBlocks (Ldly;Ldly;Ljava/lang/Object;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Ljava/lang/Object;
+	METHOD a getBlockFloorHeight (Ldmr;Ljava/util/function/Supplier;)D
+	METHOD a getBlockEntity (Lgb;Lchr;)Ljava/util/Optional;
+	METHOD b lambda$isBlockInLine$1 (Lbuy;)Ldlu;
+	METHOD b lambda$clip$3 (Lbuz;)Ldlu;
+	METHOD b getFluidState (Lgb;)Lddq;
+	METHOD c getBlockEntity (Lgb;)Lchp;
+	METHOD d_ getBlockState (Lgb;)Lcjr;
+	METHOD f getLightEmission (Lgb;)I
+	METHOD g getBlockFloorHeight (Lgb;)D
+	METHOD i lambda$getBlockFloorHeight$4 (Lgb;)Ldmr;

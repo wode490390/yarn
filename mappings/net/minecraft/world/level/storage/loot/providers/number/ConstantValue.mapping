@@ -1,0 +1,23 @@
+CLASS dky net/minecraft/world/level/storage/loot/providers/number/ConstantValue
+	FIELD a value F
+	METHOD <init> <init> (F)V
+	METHOD <init> <init> (FLdky$1;)V
+	METHOD a getType ()Ldkz;
+	METHOD a exactly (F)Ldky;
+	METHOD a access$000 (Ldky;)F
+	METHOD b getFloat (Ldhn;)F
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	CLASS 1 1
+	CLASS a InlineSerializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Ldky;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a serialize (Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD b deserialize (Lcom/google/gson/JsonElement;Lcom/google/gson/JsonDeserializationContext;)Ldky;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldky;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldky;

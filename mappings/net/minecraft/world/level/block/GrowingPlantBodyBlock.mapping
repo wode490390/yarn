@@ -1,0 +1,11 @@
+CLASS cbt net/minecraft/world/level/block/GrowingPlantBodyBlock
+	METHOD <init> <init> (Lcjq$c;Lgg;Ldmr;Z)V
+	METHOD a performBonemeal (Labj;Ljava/util/Random;Lgb;Lcjr;)V
+	METHOD a getHeadPos (Lbuv;Lgb;Lbyq;)Ljava/util/Optional;
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a isValidBonemealTarget (Lbuv;Lgb;Lcjr;Z)Z
+	METHOD a isBonemealSuccess (Lbvr;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a canBeReplaced (Lcjr;Lbrr;)Z
+	METHOD a updateHeadAfterConvertedFromBody (Lcjr;Lcjr;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD c getBodyBlock ()Lbyq;

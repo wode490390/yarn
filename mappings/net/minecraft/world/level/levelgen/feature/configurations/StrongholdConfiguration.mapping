@@ -1,0 +1,11 @@
+CLASS cve net/minecraft/world/level/levelgen/feature/configurations/StrongholdConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b distance I
+	FIELD c spread I
+	FIELD d count I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (III)V
+	METHOD a distance ()I
+	METHOD a lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b spread ()I
+	METHOD c count ()I

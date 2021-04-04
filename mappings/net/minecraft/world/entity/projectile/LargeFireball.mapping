@@ -1,0 +1,8 @@
+CLASS bjt net/minecraft/world/entity/projectile/LargeFireball
+	FIELD e explosionPower I
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;Lasy;DDD)V
+	METHOD a onHitEntity (Ldlv;)V
+	METHOD a onHit (Ldlw;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b addAdditionalSaveData (Lmv;)V

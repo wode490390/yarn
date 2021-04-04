@@ -1,0 +1,28 @@
+CLASS cmv net/minecraft/world/level/dimension/end/DragonRespawnAnimation
+	FIELD a START Lcmv;
+	FIELD b PREPARING_TO_SUMMON_PILLARS Lcmv;
+	FIELD c SUMMONING_PILLARS Lcmv;
+	FIELD d SUMMONING_DRAGON Lcmv;
+	FIELD e END Lcmv;
+	FIELD f $VALUES [Lcmv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD <init> <init> (Ljava/lang/String;ILcmv$1;)V
+	METHOD a tick (Labj;Lcmw;Ljava/util/List;ILgb;)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcmv;
+	METHOD values values ()[Lcmv;
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Labj;Lcmw;Ljava/util/List;ILgb;)V
+	CLASS 2 2
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Labj;Lcmw;Ljava/util/List;ILgb;)V
+	CLASS 3 3
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Labj;Lcmw;Ljava/util/List;ILgb;)V
+	CLASS 4 4
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Labj;Lcmw;Ljava/util/List;ILgb;)V
+	CLASS 5 5
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a tick (Labj;Lcmw;Ljava/util/List;ILgb;)V

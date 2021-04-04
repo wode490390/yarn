@@ -1,0 +1,12 @@
+CLASS cfd net/minecraft/world/level/block/SoulSandBlock
+	FIELD a SHAPE Ldmr;
+	FIELD b BUBBLE_COLUMN_CHECK_DELAY I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b getVisualShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD b onPlace (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD c getCollisionShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD e getBlockSupportShape (Lcjr;Lbuv;Lgb;)Ldmr;

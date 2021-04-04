@@ -1,0 +1,2 @@
+CLASS dea net/minecraft/world/level/newbiome/area/AreaFactory
+	METHOD make make ()Lddz;

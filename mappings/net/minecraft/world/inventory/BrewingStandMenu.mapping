@@ -1,0 +1,35 @@
+CLASS blq net/minecraft/world/inventory/BrewingStandMenu
+	FIELD k BOTTLE_SLOT_START I
+	FIELD l BOTTLE_SLOT_END I
+	FIELD m INGREDIENT_SLOT I
+	FIELD n FUEL_SLOT I
+	FIELD o SLOT_COUNT I
+	FIELD p DATA_COUNT I
+	FIELD q INV_SLOT_START I
+	FIELD r INV_SLOT_END I
+	FIELD s USE_ROW_SLOT_START I
+	FIELD t USE_ROW_SLOT_END I
+	FIELD u brewingStand Laqz;
+	FIELD v brewingStandData Lblv;
+	FIELD w ingredientSlot Lbnc;
+	METHOD <init> <init> (ILbje;)V
+	METHOD <init> <init> (ILbje;Laqz;Lblv;)V
+	METHOD a stillValid (Lbjf;)Z
+	METHOD b quickMoveStack (Lbjf;I)Lbpr;
+	METHOD i getFuel ()I
+	METHOD j getBrewingTicks ()I
+	CLASS a FuelSlot
+		METHOD <init> <init> (Laqz;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbpr;)Z
+		METHOD a_ mayPlaceItem (Lbpr;)Z
+	CLASS b IngredientsSlot
+		METHOD <init> <init> (Laqz;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a mayPlace (Lbpr;)Z
+	CLASS c PotionSlot
+		METHOD <init> <init> (Laqz;III)V
+		METHOD a getMaxStackSize ()I
+		METHOD a onTake (Lbjf;Lbpr;)V
+		METHOD a mayPlace (Lbpr;)Z
+		METHOD b_ mayPlaceItem (Lbpr;)Z

@@ -1,0 +1,4 @@
+CLASS bvk net/minecraft/world/level/ExplosionDamageCalculator
+	METHOD <init> <init> ()V
+	METHOD a shouldBlockExplode (Lbvj;Lbuv;Lgb;Lcjr;F)Z
+	METHOD a getBlockExplosionResistance (Lbvj;Lbuv;Lgb;Lcjr;Lddq;)Ljava/util/Optional;

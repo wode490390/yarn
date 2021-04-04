@@ -1,0 +1,8 @@
+CLASS bmi net/minecraft/world/inventory/HopperMenu
+	FIELD k CONTAINER_SIZE I
+	FIELD l hopper Laqz;
+	METHOD <init> <init> (ILbje;)V
+	METHOD <init> <init> (ILbje;Laqz;)V
+	METHOD a stillValid (Lbjf;)Z
+	METHOD b removed (Lbjf;)V
+	METHOD b quickMoveStack (Lbjf;I)Lbpr;

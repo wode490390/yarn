@@ -1,0 +1,12 @@
+CLASS avv net/minecraft/world/entity/ai/behavior/RandomStroll
+	FIELD a maxHorizontalDistance I
+	FIELD c maxVerticalDistance I
+	FIELD d MAX_XZ_DIST I
+	FIELD e MAX_Y_DIST I
+	FIELD f speedModifier F
+	METHOD <init> <init> (F)V
+	METHOD <init> <init> (FII)V
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a start (Labj;Latg;J)V
+	METHOD a getTargetPos (Latg;)Ldly;
+	METHOD a lambda$start$0 (Ldly;)Lbax;

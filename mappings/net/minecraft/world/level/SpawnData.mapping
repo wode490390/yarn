@@ -1,0 +1,9 @@
+CLASS bwh net/minecraft/world/level/SpawnData
+	FIELD a DEFAULT_WEIGHT I
+	FIELD b DEFAULT_TYPE Ljava/lang/String;
+	FIELD c tag Lmv;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (ILmv;)V
+	METHOD <init> <init> (Lmv;)V
+	METHOD b save ()Lmv;
+	METHOD c getTag ()Lmv;

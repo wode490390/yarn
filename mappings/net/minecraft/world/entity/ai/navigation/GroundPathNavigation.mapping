@@ -1,0 +1,19 @@
+CLASS bba net/minecraft/world/entity/ai/navigation/GroundPathNavigation
+	FIELD p avoidSun Z
+	METHOD <init> <init> (Lasz;Lbvr;)V
+	METHOD F_ trimPath ()V
+	METHOD a canUpdatePath ()Z
+	METHOD a createPathFinder (I)Ldga;
+	METHOD a canWalkOn (IIIIIILdly;DD)Z
+	METHOD a createPath (Lasl;I)Ldfy;
+	METHOD a hasValidPathType (Ldfu;)Z
+	METHOD a canMoveDirectly (Ldly;Ldly;III)Z
+	METHOD a createPath (Lgb;I)Ldfy;
+	METHOD a setCanOpenDoors (Z)V
+	METHOD b getTempMobPos ()Ldly;
+	METHOD b canWalkAbove (IIIIIILdly;DD)Z
+	METHOD b setCanPassDoors (Z)V
+	METHOD c setAvoidSun (Z)V
+	METHOD e canPassDoors ()Z
+	METHOD f canOpenDoors ()Z
+	METHOD u getSurfaceY ()I

@@ -1,0 +1,17 @@
+CLASS qw net/minecraft/network/protocol/game/ClientboundMapItemDataPacket
+	FIELD a mapId I
+	FIELD b scale B
+	FIELD c locked Z
+	FIELD d decorations Ljava/util/List;
+	FIELD e colorPatch Ldgq$b;
+	METHOD <init> <init> (IBZLjava/util/Collection;Ldgq$b;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a applyToMap (Ldgq;)V
+	METHOD a write (Lob;)V
+	METHOD a lambda$write$1 (Lob;Ldgn;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getMapId ()I
+	METHOD b lambda$new$0 (Lob;)Ldgn;
+	METHOD c getScale ()B
+	METHOD d isLocked ()Z

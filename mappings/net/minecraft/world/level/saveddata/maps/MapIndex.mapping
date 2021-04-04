@@ -1,0 +1,7 @@
+CLASS dgp net/minecraft/world/level/saveddata/maps/MapIndex
+	FIELD a FILE_NAME Ljava/lang/String;
+	FIELD b usedAuxIds Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD <init> <init> ()V
+	METHOD a getFreeAuxValueForMap ()I
+	METHOD a save (Lmv;)Lmv;
+	METHOD b load (Lmv;)Ldgp;

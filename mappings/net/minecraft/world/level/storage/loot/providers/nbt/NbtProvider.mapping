@@ -1,0 +1,4 @@
+CLASS dkt net/minecraft/world/level/storage/loot/providers/nbt/NbtProvider
+	METHOD a getType ()Ldks;
+	METHOD a get (Ldhn;)Lnn;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;

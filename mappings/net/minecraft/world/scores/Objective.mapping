@@ -1,0 +1,19 @@
+CLASS dmt net/minecraft/world/scores/Objective
+	FIELD a MAX_NAME_LENGTH I
+	FIELD b scoreboard Ldmw;
+	FIELD c name Ljava/lang/String;
+	FIELD d criteria Ldmz;
+	FIELD e displayName Lon;
+	FIELD f formattedDisplayName Lon;
+	FIELD g renderType Ldmz$a;
+	METHOD <init> <init> (Ldmw;Ljava/lang/String;Ldmz;Lon;Ldmz$a;)V
+	METHOD a getScoreboard ()Ldmw;
+	METHOD a setRenderType (Ldmz$a;)V
+	METHOD a setDisplayName (Lon;)V
+	METHOD a lambda$createFormattedDisplayName$0 (Lox;)Lox;
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getCriteria ()Ldmz;
+	METHOD d getDisplayName ()Lon;
+	METHOD e getFormattedDisplayName ()Lon;
+	METHOD f getRenderType ()Ldmz$a;
+	METHOD g createFormattedDisplayName ()Lon;

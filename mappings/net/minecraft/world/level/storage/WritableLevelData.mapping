@@ -1,0 +1,6 @@
+CLASS dhh net/minecraft/world/level/storage/WritableLevelData
+	METHOD a setSpawnAngle (F)V
+	METHOD a setSpawn (Lgb;F)V
+	METHOD b setXSpawn (I)V
+	METHOD c setYSpawn (I)V
+	METHOD d setZSpawn (I)V

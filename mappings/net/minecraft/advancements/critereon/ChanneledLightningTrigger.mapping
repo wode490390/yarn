@@ -1,0 +1,18 @@
+CLASS aw net/minecraft/advancements/critereon/ChanneledLightningTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a lambda$trigger$0 (Labk;Lasl;)Ldhn;
+	METHOD a trigger (Labk;Ljava/util/Collection;)V
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Law$a;
+	METHOD a lambda$trigger$1 (Ljava/util/List;Law$a;)Z
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a victims [Lbl$b;
+		METHOD <init> <init> (Lbl$b;[Lbl$b;)V
+		METHOD a lambda$channeledLightning$0 (I)[Lbl$b;
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;
+		METHOD a matches (Ljava/util/Collection;)Z
+		METHOD a channeledLightning ([Lbl;)Law$a;

@@ -1,0 +1,9 @@
+CLASS aus net/minecraft/world/entity/ai/behavior/EntityTracker
+	FIELD a entity Lasl;
+	FIELD b trackEyeHeight Z
+	METHOD <init> <init> (Lasl;Z)V
+	METHOD a currentPosition ()Ldly;
+	METHOD a isVisibleBy (Lasy;)Z
+	METHOD b currentBlockPosition ()Lgb;
+	METHOD c getEntity ()Lasl;
+	METHOD toString toString ()Ljava/lang/String;

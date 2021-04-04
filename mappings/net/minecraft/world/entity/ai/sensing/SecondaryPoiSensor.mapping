@@ -1,0 +1,6 @@
+CLASS bbt net/minecraft/world/entity/ai/sensing/SecondaryPoiSensor
+	FIELD a SCAN_RATE I
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Labj;Lasy;)V
+	METHOD a doTick (Labj;Lbis;)V

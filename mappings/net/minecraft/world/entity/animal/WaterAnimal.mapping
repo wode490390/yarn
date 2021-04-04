@@ -1,0 +1,12 @@
+CLASS bdz net/minecraft/world/entity/animal/WaterAnimal
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD I getAmbientSoundInterval ()I
+	METHOD a handleAirSupply (I)V
+	METHOD a canBeLeashed (Lbjf;)Z
+	METHOD a checkSpawnObstruction (Lbvu;)Z
+	METHOD ag baseTick ()V
+	METHOD c checkUndergroundWaterCreatureSpawnRules (Lasp;Lbvs;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD cf isPushedByFluid ()Z
+	METHOD d getExperienceReward (Lbjf;)I
+	METHOD dj canBreatheUnderwater ()Z
+	METHOD ec getMobType ()Latc;

@@ -1,0 +1,11 @@
+CLASS bc net/minecraft/advancements/critereon/DeserializationContext
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b id Lwp;
+	FIELD c predicateManager Ldhs;
+	FIELD d predicateGson Lcom/google/gson/Gson;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lwp;Ldhs;)V
+	METHOD a getAdvancementId ()Lwp;
+	METHOD a deserializeConditions (Lcom/google/gson/JsonArray;Ljava/lang/String;Ldjr;)[Ldkf;
+	METHOD a lambda$deserializeConditions$1 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a lambda$deserializeConditions$0 (Lwp;)Ldhq;

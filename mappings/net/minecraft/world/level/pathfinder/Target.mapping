@@ -1,0 +1,11 @@
+CLASS dgc net/minecraft/world/level/pathfinder/Target
+	FIELD m bestHeuristic F
+	FIELD n bestNode Ldfw;
+	FIELD o reached Z
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Ldfw;)V
+	METHOD a updateBest (FLdfw;)V
+	METHOD c createFromStream (Lob;)Ldgc;
+	METHOD d getBestNode ()Ldfw;
+	METHOD e setReached ()V
+	METHOD f isReached ()Z

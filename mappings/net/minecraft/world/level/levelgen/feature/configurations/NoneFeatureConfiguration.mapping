@@ -1,0 +1,6 @@
+CLASS cum net/minecraft/world/level/levelgen/feature/configurations/NoneFeatureConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b INSTANCE Lcum;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD b lambda$static$0 ()Lcum;

@@ -1,0 +1,10 @@
+CLASS lg net/minecraft/data/worldgen/biome/BiomeReport
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d generator Lhx;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lhx;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a lambda$run$0 (Lbwq;)Lbwq;
+	METHOD a run (Lhz;)V
+	METHOD a createPath (Ljava/nio/file/Path;Lwp;)Ljava/nio/file/Path;

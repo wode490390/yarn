@@ -1,0 +1,25 @@
+CLASS uf net/minecraft/network/protocol/game/ServerboundPlayerActionPacket
+	FIELD a pos Lgb;
+	FIELD b direction Lgg;
+	FIELD c action Luf$a;
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Luf$a;Lgb;Lgg;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getPos ()Lgb;
+	METHOD c getDirection ()Lgg;
+	METHOD d getAction ()Luf$a;
+	CLASS a Action
+		FIELD a START_DESTROY_BLOCK Luf$a;
+		FIELD b ABORT_DESTROY_BLOCK Luf$a;
+		FIELD c STOP_DESTROY_BLOCK Luf$a;
+		FIELD d DROP_ALL_ITEMS Luf$a;
+		FIELD e DROP_ITEM Luf$a;
+		FIELD f RELEASE_USE_ITEM Luf$a;
+		FIELD g SWAP_ITEM_WITH_OFFHAND Luf$a;
+		FIELD h $VALUES [Luf$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Luf$a;
+		METHOD values values ()[Luf$a;

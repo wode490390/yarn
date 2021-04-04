@@ -1,0 +1,5 @@
+CLASS kp net/minecraft/data/worldgen/BastionPieces
+	FIELD a START Lcwv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V

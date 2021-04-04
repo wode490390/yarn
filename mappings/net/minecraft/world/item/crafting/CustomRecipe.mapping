@@ -1,0 +1,6 @@
+CLASS bsc net/minecraft/world/item/crafting/CustomRecipe
+	FIELD a id Lwp;
+	METHOD <init> <init> (Lwp;)V
+	METHOD ai_ isSpecial ()Z
+	METHOD c getResultItem ()Lbpr;
+	METHOD f getId ()Lwp;

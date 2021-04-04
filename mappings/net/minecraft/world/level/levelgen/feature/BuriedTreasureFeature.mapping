@@ -1,0 +1,11 @@
+CLASS cqe net/minecraft/world/level/levelgen/feature/BuriedTreasureFeature
+	FIELD v RANDOM_SALT I
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getStartFactory ()Lcsv$a;
+	METHOD a isFeatureChunk (Lclm;Lbwt;JLcph;Lbuw;Lbwq;Lbuw;Lcua;Lbvt;)Z
+	METHOD a isFeatureChunk (Lclm;Lbwt;JLcph;Lbuw;Lbwq;Lbuw;Lcup;Lbvt;)Z
+	CLASS a BuriedTreasureStart
+		METHOD <init> <init> (Lcsv;Lbuw;IJ)V
+		METHOD a getLocatePos ()Lgb;
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcua;Lbvt;)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcup;Lbvt;)V

@@ -1,0 +1,23 @@
+CLASS dlx net/minecraft/world/phys/Vec2
+	FIELD a ZERO Ldlx;
+	FIELD b ONE Ldlx;
+	FIELD c UNIT_X Ldlx;
+	FIELD d NEG_UNIT_X Ldlx;
+	FIELD e UNIT_Y Ldlx;
+	FIELD f NEG_UNIT_Y Ldlx;
+	FIELD g MAX Ldlx;
+	FIELD h MIN Ldlx;
+	FIELD i x F
+	FIELD j y F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FF)V
+	METHOD a normalized ()Ldlx;
+	METHOD a scale (F)Ldlx;
+	METHOD a dot (Ldlx;)F
+	METHOD b length ()F
+	METHOD b add (F)Ldlx;
+	METHOD b add (Ldlx;)Ldlx;
+	METHOD c lengthSquared ()F
+	METHOD c equals (Ldlx;)Z
+	METHOD d negated ()Ldlx;
+	METHOD d distanceToSqr (Ldlx;)F

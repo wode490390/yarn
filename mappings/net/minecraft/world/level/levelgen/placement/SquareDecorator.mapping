@@ -1,0 +1,4 @@
+CLASS czh net/minecraft/world/level/levelgen/placement/SquareDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lctv;Lgb;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lcul;Lgb;)Ljava/util/stream/Stream;

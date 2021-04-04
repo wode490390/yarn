@@ -1,0 +1,10 @@
+CLASS avc net/minecraft/world/entity/ai/behavior/GoToWantedItem
+	FIELD a predicate Ljava/util/function/Predicate;
+	FIELD c maxDistToWalk I
+	FIELD d speedModifier F
+	METHOD <init> <init> (FZI)V
+	METHOD <init> <init> (Ljava/util/function/Predicate;FZI)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a getClosestLovedItem (Lasy;)Lbge;
+	METHOD b lambda$new$0 (Lasy;)Z

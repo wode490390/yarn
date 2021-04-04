@@ -1,0 +1,14 @@
+CLASS ccf net/minecraft/world/level/block/JigsawBlock
+	FIELD a ORIENTATION Lckp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a canAttach (Ldbs$c;Ldbs$c;)Z
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;
+	METHOD a lambda$canAttach$0 (Lgg;)Lcii$a;
+	METHOD h getFrontFacing (Lcjr;)Lgg;
+	METHOD n getTopFacing (Lcjr;)Lgg;

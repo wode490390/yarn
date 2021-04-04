@@ -1,0 +1,18 @@
+CLASS cnr net/minecraft/world/level/gameevent/EntityPositionSource
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c sourceEntityId I
+	FIELD d sourceEntity Ljava/util/Optional;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD a getType ()Lcny;
+	METHOD a getPosition (Lbvr;)Ljava/util/Optional;
+	METHOD a access$000 (Lcnr;)I
+	METHOD a lambda$static$1 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b lambda$null$0 (Lcnr;)Ljava/lang/Integer;
+	CLASS a Type
+		METHOD <init> <init> ()V
+		METHOD a codec ()Lcom/mojang/serialization/Codec;
+		METHOD a read (Lob;)Lcnr;
+		METHOD a write (Lob;Lcnr;)V
+		METHOD a write (Lob;Lcnx;)V
+		METHOD b read (Lob;)Lcnx;

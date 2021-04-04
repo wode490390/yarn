@@ -1,0 +1,24 @@
+CLASS caw net/minecraft/world/level/block/EnderChestBlock
+	FIELD b FACING Lckl;
+	FIELD c WATERLOGGED Lcki;
+	FIELD d SHAPE Ldmr;
+	FIELD e CONTAINER_TITLE Lon;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a lambda$use$1 (Lbmt;ILbje;Lbjf;)Lbll;
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getTicker (Lbvr;Lcjr;Lchr;)Lchq;
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a combine (Lcjr;Lbvr;Lgb;Z)Lcan$c;
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b_ getRenderShape (Lcjr;)Lced;
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD e lambda$new$0 ()Lchr;

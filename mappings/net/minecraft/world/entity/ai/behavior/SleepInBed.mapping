@@ -1,0 +1,9 @@
+CLASS awp net/minecraft/world/entity/ai/behavior/SleepInBed
+	FIELD a COOLDOWN_AFTER_BEING_WOKEN I
+	FIELD c nextOkStartTime J
+	METHOD <init> <init> ()V
+	METHOD a timedOut (J)Z
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD c stop (Labj;Lasy;J)V

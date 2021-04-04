@@ -1,0 +1,7 @@
+CLASS csq net/minecraft/world/level/levelgen/feature/SmallDripstoneFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a createPatchOfDripstoneBlocks (Lbwm;Ljava/util/Random;Lgb;)V
+	METHOD a searchAndTryToPlaceDripstone (Lbwm;Ljava/util/Random;Lgb;Lcvb;)Z
+	METHOD a tryToPlaceDripstone (Lbwm;Ljava/util/Random;Lgb;Lgg;Lcvb;)Z
+	METHOD a place (Lcqz;)Z
+	METHOD a randomOffset (Ljava/util/Random;Lgb;Lcvb;)Lgb;

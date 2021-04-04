@@ -1,0 +1,25 @@
+CLASS chi net/minecraft/world/level/block/entity/BarrelBlockEntity
+	FIELD b items Lgn;
+	FIELD c openersCounter Lchz;
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a createMenu (ILbje;)Lbll;
+	METHOD a access$000 (Lchi;Lcjr;Laev;)V
+	METHOD a access$100 (Lchi;Lcjr;Z)V
+	METHOD a playSound (Lcjr;Laev;)V
+	METHOD a updateBlockState (Lcjr;Z)V
+	METHOD a setItems (Lgn;)V
+	METHOD a load (Lmv;)V
+	METHOD ab_ getContainerSize ()I
+	METHOD b save (Lmv;)Lmv;
+	METHOD b_ stopOpen (Lbjf;)V
+	METHOD c_ startOpen (Lbjf;)V
+	METHOD f getItems ()Lgn;
+	METHOD g getDefaultName ()Lon;
+	METHOD h recheckOpen ()V
+	CLASS 1 1
+		FIELD a this$0 Lchi;
+		METHOD <init> <init> (Lchi;)V
+		METHOD a isOwnContainer (Lbjf;)Z
+		METHOD a onOpen (Lbvr;Lgb;Lcjr;)V
+		METHOD a openerCountChanged (Lbvr;Lgb;Lcjr;II)V
+		METHOD b onClose (Lbvr;Lgb;Lcjr;)V

@@ -1,0 +1,12 @@
+CLASS cgy net/minecraft/world/level/block/WeightedPressurePlateBlock
+	FIELD d POWER Lckr;
+	FIELD e maxWeight I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILcjq$c;)V
+	METHOD a playOnSound (Lbvs;Lgb;)V
+	METHOD a setSignalForState (Lcjr;I)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b getSignalStrength (Lbvr;Lgb;)I
+	METHOD b playOffSound (Lbvs;Lgb;)V
+	METHOD c getPressedTime ()I
+	METHOD g getSignalForState (Lcjr;)I

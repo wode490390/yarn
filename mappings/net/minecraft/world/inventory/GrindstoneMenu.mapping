@@ -1,0 +1,45 @@
+CLASS bmh net/minecraft/world/inventory/GrindstoneMenu
+	FIELD k MAX_NAME_LENGTH I
+	FIELD l INPUT_SLOT I
+	FIELD m ADDITIONAL_SLOT I
+	FIELD n RESULT_SLOT I
+	FIELD o INV_SLOT_START I
+	FIELD p INV_SLOT_END I
+	FIELD q USE_ROW_SLOT_START I
+	FIELD r USE_ROW_SLOT_END I
+	FIELD s resultSlots Laqz;
+	FIELD t repairSlots Laqz;
+	FIELD u access Lblw;
+	METHOD <init> <init> (ILbje;)V
+	METHOD <init> <init> (ILbje;Lblw;)V
+	METHOD a slotsChanged (Laqz;)V
+	METHOD a stillValid (Lbjf;)Z
+	METHOD a lambda$removed$1 (Lbjf;Lbvr;Lgb;)V
+	METHOD a access$000 (Lbmh;)Laqz;
+	METHOD a removeNonCurses (Lbpr;II)Lbpr;
+	METHOD a mergeEnchants (Lbpr;Lbpr;)Lbpr;
+	METHOD a lambda$removeNonCurses$0 (Ljava/util/Map$Entry;)Z
+	METHOD b removed (Lbjf;)V
+	METHOD b quickMoveStack (Lbjf;I)Lbpr;
+	METHOD i createResult ()V
+	CLASS 1 1
+		FIELD b this$0 Lbmh;
+		METHOD <init> <init> (Lbmh;I)V
+		METHOD Z_ setChanged ()V
+	CLASS 2 2
+		FIELD a this$0 Lbmh;
+		METHOD <init> <init> (Lbmh;Laqz;III)V
+		METHOD a mayPlace (Lbpr;)Z
+	CLASS 3 3
+		FIELD a this$0 Lbmh;
+		METHOD <init> <init> (Lbmh;Laqz;III)V
+		METHOD a mayPlace (Lbpr;)Z
+	CLASS 4 4
+		FIELD a val$access Lblw;
+		FIELD b this$0 Lbmh;
+		METHOD <init> <init> (Lbmh;Laqz;IIILblw;)V
+		METHOD a onTake (Lbjf;Lbpr;)V
+		METHOD a mayPlace (Lbpr;)Z
+		METHOD a getExperienceAmount (Lbvr;)I
+		METHOD a lambda$onTake$0 (Lbvr;Lgb;)V
+		METHOD f getExperienceFromItem (Lbpr;)I

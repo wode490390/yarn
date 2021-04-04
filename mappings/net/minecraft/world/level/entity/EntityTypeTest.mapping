@@ -1,0 +1,9 @@
+CLASS cni net/minecraft/world/level/entity/EntityTypeTest
+	METHOD a getBaseClass ()Ljava/lang/Class;
+	METHOD a forClass (Ljava/lang/Class;)Lcni;
+	METHOD a tryCast (Ljava/lang/Object;)Ljava/lang/Object;
+	CLASS 1 1
+		FIELD a val$cls Ljava/lang/Class;
+		METHOD <init> <init> (Ljava/lang/Class;)V
+		METHOD a getBaseClass ()Ljava/lang/Class;
+		METHOD a tryCast (Ljava/lang/Object;)Ljava/lang/Object;

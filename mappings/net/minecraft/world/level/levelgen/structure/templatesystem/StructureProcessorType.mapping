@@ -1,0 +1,21 @@
+CLASS dbr net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorType
+	FIELD a BLOCK_IGNORE Ldbr;
+	FIELD b BLOCK_ROT Ldbr;
+	FIELD c GRAVITY Ldbr;
+	FIELD d JIGSAW_REPLACEMENT Ldbr;
+	FIELD e RULE Ldbr;
+	FIELD f NOP Ldbr;
+	FIELD g BLOCK_AGE Ldbr;
+	FIELD h BLACKSTONE_REPLACE Ldbr;
+	FIELD i LAVA_SUBMERGED_BLOCK Ldbr;
+	FIELD j SINGLE_CODEC Lcom/mojang/serialization/Codec;
+	FIELD k LIST_OBJECT_CODEC Lcom/mojang/serialization/Codec;
+	FIELD l DIRECT_CODEC Lcom/mojang/serialization/Codec;
+	FIELD m LIST_CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$2 (Lcom/mojang/datafixers/util/Either;)Ldbq;
+	METHOD a lambda$register$3 (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
+	METHOD a lambda$null$1 (Ldbq;)Ldbq;
+	METHOD a register (Ljava/lang/String;Lcom/mojang/serialization/Codec;)Ldbr;
+	METHOD b lambda$null$0 (Ldbq;)Ldbq;
+	METHOD codec codec ()Lcom/mojang/serialization/Codec;

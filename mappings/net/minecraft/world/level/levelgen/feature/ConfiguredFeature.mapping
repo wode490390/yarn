@@ -1,0 +1,18 @@
+CLASS cqg net/minecraft/world/level/levelgen/feature/ConfiguredFeature
+	FIELD a DIRECT_CODEC Lcom/mojang/serialization/Codec;
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c LIST_CODEC Lcom/mojang/serialization/Codec;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e feature Lcqy;
+	FIELD f config Lcua;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcqy;Lcua;)V
+	METHOD a weighted (F)Lcth;
+	METHOD a place (Lbwm;Lclm;Ljava/util/Random;Lgb;)Z
+	METHOD a lambda$static$0 (Lcqg;)Lcqy;
+	METHOD a decorated (Lcyi;)Ljava/lang/Object;
+	METHOD b feature ()Lcqy;
+	METHOD b decorated (Lcyi;)Lcqg;
+	METHOD c config ()Lcua;
+	METHOD d getFeatures ()Ljava/util/stream/Stream;
+	METHOD e lambda$decorated$1 ()Lcqg;

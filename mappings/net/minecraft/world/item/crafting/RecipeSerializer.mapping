@@ -1,0 +1,27 @@
+CLASS bsl net/minecraft/world/item/crafting/RecipeSerializer
+	FIELD a SHAPED_RECIPE Lbsl;
+	FIELD b SHAPELESS_RECIPE Lbsl;
+	FIELD c ARMOR_DYE Lbst;
+	FIELD d BOOK_CLONING Lbst;
+	FIELD e MAP_CLONING Lbst;
+	FIELD f MAP_EXTENDING Lbst;
+	FIELD g FIREWORK_ROCKET Lbst;
+	FIELD h FIREWORK_STAR Lbst;
+	FIELD i FIREWORK_STAR_FADE Lbst;
+	FIELD j TIPPED_ARROW Lbst;
+	FIELD k BANNER_DUPLICATE Lbst;
+	FIELD l SHIELD_DECORATION Lbst;
+	FIELD m SHULKER_BOX_COLORING Lbst;
+	FIELD n SUSPICIOUS_STEW Lbst;
+	FIELD o REPAIR_ITEM Lbst;
+	FIELD p SMELTING_RECIPE Lbss;
+	FIELD q BLASTING_RECIPE Lbss;
+	FIELD r SMOKING_RECIPE Lbss;
+	FIELD s CAMPFIRE_COOKING_RECIPE Lbss;
+	FIELD t STONECUTTER Lbsl;
+	FIELD u SMITHING Lbsl;
+	METHOD <clinit> <clinit> ()V
+	METHOD a register (Ljava/lang/String;Lbsl;)Lbsl;
+	METHOD a toNetwork (Lob;Lbsj;)V
+	METHOD a fromJson (Lwp;Lcom/google/gson/JsonObject;)Lbsj;
+	METHOD a fromNetwork (Lwp;Lob;)Lbsj;

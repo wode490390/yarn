@@ -1,0 +1,5 @@
+CLASS bhx net/minecraft/world/entity/monster/hoglin/HoglinBase
+	FIELD a ATTACK_ANIMATION_DURATION I
+	METHOD a hurtAndThrowTarget (Lasy;Lasy;)Z
+	METHOD b throwTarget (Lasy;Lasy;)V
+	METHOD fn getAttackAnimationRemainingTicks ()I

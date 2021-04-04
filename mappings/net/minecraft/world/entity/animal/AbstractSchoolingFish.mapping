@@ -1,0 +1,25 @@
+CLASS bcy net/minecraft/world/entity/animal/AbstractSchoolingFish
+	FIELD b leader Lbcy;
+	FIELD c schoolSize I
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a startFollowing (Lbcy;)Lbcy;
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD a addFollowers (Ljava/util/stream/Stream;)V
+	METHOD b lambda$addFollowers$1 (Lbcy;)V
+	METHOD c lambda$addFollowers$0 (Lbcy;)Z
+	METHOD eT getMaxSpawnClusterSize ()I
+	METHOD fn canRandomSwim ()Z
+	METHOD fp getMaxSchoolSize ()I
+	METHOD fq isFollower ()Z
+	METHOD fr stopFollowing ()V
+	METHOD fs canBeFollowed ()Z
+	METHOD ft hasFollowers ()Z
+	METHOD fu inRangeOfLeader ()Z
+	METHOD fv pathToLeader ()V
+	METHOD fw addFollower ()V
+	METHOD fx removeFollower ()V
+	METHOD j tick ()V
+	METHOD u registerGoals ()V
+	CLASS a SchoolSpawnGroupData
+		FIELD a leader Lbcy;
+		METHOD <init> <init> (Lbcy;)V

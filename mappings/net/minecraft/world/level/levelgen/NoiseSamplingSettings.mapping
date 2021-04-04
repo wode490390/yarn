@@ -1,0 +1,14 @@
+CLASS cow net/minecraft/world/level/levelgen/NoiseSamplingSettings
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b SCALE_RANGE Lcom/mojang/serialization/Codec;
+	FIELD c xzScale D
+	FIELD d yScale D
+	FIELD e xzFactor D
+	FIELD f yFactor D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (DDDD)V
+	METHOD a xzScale ()D
+	METHOD a lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b yScale ()D
+	METHOD c xzFactor ()D
+	METHOD d yFactor ()D

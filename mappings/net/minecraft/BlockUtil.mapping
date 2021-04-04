@@ -1,0 +1,16 @@
+CLASS n net/minecraft/BlockUtil
+	METHOD <init> <init> ()V
+	METHOD a getTopConnectedBlock (Lbuv;Lgb;Lbyq;Lgg;Lbyq;)Ljava/util/Optional;
+	METHOD a getLargestRectangleAround (Lgb;Lgg$a;ILgg$a;ILjava/util/function/Predicate;)Ln$a;
+	METHOD a getLimit (Ljava/util/function/Predicate;Lgb$a;Lgg;I)I
+	METHOD a getMaxRectangleLocation ([I)Lcom/mojang/datafixers/util/Pair;
+	CLASS a FoundRectangle
+		FIELD a minCorner Lgb;
+		FIELD b axis1Size I
+		FIELD c axis2Size I
+		METHOD <init> <init> (Lgb;II)V
+	CLASS b IntBounds
+		FIELD a min I
+		FIELD b max I
+		METHOD <init> <init> (II)V
+		METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,10 @@
+CLASS afl net/minecraft/tags/FluidTags
+	FIELD a HELPER Lafq;
+	FIELD b WATER Lafs$e;
+	FIELD c LAVA Lafs$e;
+	FIELD d KNOWN_TAGS Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getAllTags ()Laft;
+	METHOD a bind (Ljava/lang/String;)Lafs$e;
+	METHOD b getStaticTags ()Ljava/util/List;

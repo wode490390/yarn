@@ -1,0 +1,6 @@
+CLASS anp net/minecraft/util/datafix/schemas/V1466
+	METHOD <init> <init> (ILcom/mojang/datafixers/schemas/Schema;)V
+	METHOD a lambda$registerTypes$1 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD b lambda$registerTypes$0 (Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;
+	METHOD registerBlockEntities registerBlockEntities (Lcom/mojang/datafixers/schemas/Schema;)Ljava/util/Map;
+	METHOD registerTypes registerTypes (Lcom/mojang/datafixers/schemas/Schema;Ljava/util/Map;Ljava/util/Map;)V

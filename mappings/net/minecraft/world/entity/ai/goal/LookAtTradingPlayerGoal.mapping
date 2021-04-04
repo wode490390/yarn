@@ -1,0 +1,4 @@
+CLASS ayz net/minecraft/world/entity/ai/goal/LookAtTradingPlayerGoal
+	FIELD g villager Lbin;
+	METHOD <init> <init> (Lbin;)V
+	METHOD a canUse ()Z

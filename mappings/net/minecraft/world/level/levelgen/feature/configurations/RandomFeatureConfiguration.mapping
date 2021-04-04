@@ -1,0 +1,13 @@
+CLASS cur net/minecraft/world/level/levelgen/feature/configurations/RandomFeatureConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b features Ljava/util/List;
+	FIELD c defaultFeature Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;Lcqg;)V
+	METHOD <init> <init> (Ljava/util/List;Ljava/util/function/Supplier;)V
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$new$3 (Lcqg;)Lcqg;
+	METHOD a lambda$getFeatures$4 (Lcth;)Ljava/util/stream/Stream;
+	METHOD a lambda$null$1 (Lcur;)Ljava/util/function/Supplier;
+	METHOD as_ getFeatures ()Ljava/util/stream/Stream;
+	METHOD b lambda$null$0 (Lcur;)Ljava/util/List;

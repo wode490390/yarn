@@ -1,0 +1,9 @@
+CLASS bjm net/minecraft/world/entity/projectile/DragonFireball
+	FIELD e SPLASH_RANGE F
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;Lasy;DDD)V
+	METHOD Y_ shouldBurn ()Z
+	METHOD a hurt (Larv;F)Z
+	METHOD a onHit (Ldlw;)V
+	METHOD aY isPickable ()Z
+	METHOD h getTrailParticle ()Lho;

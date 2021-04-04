@@ -1,0 +1,16 @@
+CLASS asv net/minecraft/world/entity/ItemBasedSteering
+	FIELD a boosting Z
+	FIELD b boostTime I
+	FIELD c boostTimeTotal I
+	FIELD d MIN_BOOST_TIME I
+	FIELD e MAX_BOOST_TIME I
+	FIELD f entityData Lwb;
+	FIELD g boostTimeAccessor Lvy;
+	FIELD h hasSaddleAccessor Lvy;
+	METHOD <init> <init> (Lwb;Lvy;Lvy;)V
+	METHOD a onSynced ()V
+	METHOD a boost (Ljava/util/Random;)Z
+	METHOD a addAdditionalSaveData (Lmv;)V
+	METHOD a setSaddle (Z)V
+	METHOD b hasSaddle ()Z
+	METHOD b readAdditionalSaveData (Lmv;)V

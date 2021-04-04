@@ -1,0 +1,5 @@
+CLASS ciw net/minecraft/world/level/block/entity/TickingBlockEntity
+	METHOD a tick ()V
+	METHOD b isRemoved ()Z
+	METHOD c getPos ()Lgb;
+	METHOD d getType ()Ljava/lang/String;

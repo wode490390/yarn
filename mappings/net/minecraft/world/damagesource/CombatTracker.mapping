@@ -1,0 +1,26 @@
+CLASS aru net/minecraft/world/damagesource/CombatTracker
+	FIELD a RESET_DAMAGE_STATUS_TIME I
+	FIELD b RESET_COMBAT_STATUS_TIME I
+	FIELD c entries Ljava/util/List;
+	FIELD d mob Lasy;
+	FIELD e lastDamageTime I
+	FIELD f combatStartTime I
+	FIELD g combatEndTime I
+	FIELD h inCombat Z
+	FIELD i takingDamage Z
+	FIELD j nextLocation Ljava/lang/String;
+	METHOD <init> <init> (Lasy;)V
+	METHOD a prepareForDamage ()V
+	METHOD a getFallLocation (Lars;)Ljava/lang/String;
+	METHOD a recordDamage (Larv;FF)V
+	METHOD b getDeathMessage ()Lon;
+	METHOD c getKiller ()Lasy;
+	METHOD d isTakingDamage ()Z
+	METHOD e isInCombat ()Z
+	METHOD f getCombatDuration ()I
+	METHOD g recheckStatus ()V
+	METHOD h getMob ()Lasy;
+	METHOD i getLastEntry ()Lars;
+	METHOD j getKillerId ()I
+	METHOD k getMostSignificantFall ()Lars;
+	METHOD l resetPreparedStatus ()V

@@ -1,0 +1,11 @@
+CLASS acx net/minecraft/server/packs/repository/FolderRepositorySource
+	FIELD a RESOURCEPACK_FILTER Ljava/io/FileFilter;
+	FIELD b folder Ljava/io/File;
+	FIELD c packSource Ladb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;Ladb;)V
+	METHOD a createSupplier (Ljava/io/File;)Ljava/util/function/Supplier;
+	METHOD a loadPacks (Ljava/util/function/Consumer;Lacy$a;)V
+	METHOD b lambda$createSupplier$2 (Ljava/io/File;)Lacn;
+	METHOD c lambda$createSupplier$1 (Ljava/io/File;)Lacn;
+	METHOD d lambda$static$0 (Ljava/io/File;)Z

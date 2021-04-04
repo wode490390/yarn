@@ -1,0 +1,10 @@
+CLASS bwe net/minecraft/world/level/PotentialCalculator
+	FIELD a charges Ljava/util/List;
+	METHOD <init> <init> ()V
+	METHOD a addCharge (Lgb;D)V
+	METHOD b getPotentialEnergyChange (Lgb;D)D
+	CLASS a PointCharge
+		FIELD a pos Lgb;
+		FIELD b charge D
+		METHOD <init> <init> (Lgb;D)V
+		METHOD a getPotentialChange (Lgb;)D

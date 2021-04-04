@@ -1,0 +1,27 @@
+CLASS cty net/minecraft/world/level/levelgen/feature/configurations/DripstoneClusterConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b floorToCeilingSearchRange I
+	FIELD c height Laqo;
+	FIELD d radius Laqo;
+	FIELD e maxStalagmiteStalactiteHeightDiff I
+	FIELD f heightDeviation I
+	FIELD g dripstoneBlockLayerThickness Laqo;
+	FIELD h density Laqm;
+	FIELD i wetness Laqm;
+	FIELD j chanceOfDripstoneColumnAtMaxDistanceFromCenter F
+	FIELD k maxDistanceFromEdgeAffectingChanceOfDripstoneColumn I
+	FIELD l maxDistanceFromCenterAffectingHeightBias I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILaqo;Laqo;IILaqo;Laqm;Laqm;FII)V
+	METHOD a lambda$static$11 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$10 (Lcty;)Ljava/lang/Integer;
+	METHOD b lambda$null$9 (Lcty;)Ljava/lang/Integer;
+	METHOD c lambda$null$8 (Lcty;)Ljava/lang/Float;
+	METHOD d lambda$null$7 (Lcty;)Laqm;
+	METHOD e lambda$null$6 (Lcty;)Laqm;
+	METHOD f lambda$null$5 (Lcty;)Laqo;
+	METHOD g lambda$null$4 (Lcty;)Ljava/lang/Integer;
+	METHOD h lambda$null$3 (Lcty;)Ljava/lang/Integer;
+	METHOD i lambda$null$2 (Lcty;)Laqo;
+	METHOD j lambda$null$1 (Lcty;)Laqo;
+	METHOD k lambda$null$0 (Lcty;)Ljava/lang/Integer;

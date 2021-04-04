@@ -1,0 +1,46 @@
+CLASS bgx net/minecraft/world/entity/monster/Illusioner
+	FIELD bV ILLUSION_TRANSITION_TICKS I
+	FIELD bW ILLUSION_SPREAD I
+	FIELD bX clientSideIllusionTicks I
+	FIELD bY clientSideIllusionOffsets [[Ldly;
+	FIELD e NUM_ILLUSIONS I
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a applyRaidBuffs (IZ)V
+	METHOD a performRangedAttack (Lasy;F)V
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD cn getBoundingBoxForCulling ()Ldlt;
+	METHOD e defineSynchedData ()V
+	METHOD fn getCastingSoundEvent ()Laev;
+	METHOD k aiStep ()V
+	METHOD m getArmPose ()Lbgh$a;
+	METHOD o createAttributes ()Latx$a;
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD r isAlliedTo (Lasl;)Z
+	METHOD s getCelebrateSound ()Laev;
+	METHOD u registerGoals ()V
+	METHOD x getIllusionOffsets (F)[Ldly;
+	CLASS 1 1
+	CLASS a IllusionerBlindnessSpellGoal
+		FIELD a this$0 Lbgx;
+		FIELD e lastTargetId I
+		METHOD <init> <init> (Lbgx;)V
+		METHOD <init> <init> (Lbgx;Lbgx$1;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Laev;
+		METHOD l getSpell ()Lbhj$a;
+	CLASS b IllusionerMirrorSpellGoal
+		FIELD a this$0 Lbgx;
+		METHOD <init> <init> (Lbgx;)V
+		METHOD <init> <init> (Lbgx;Lbgx$1;)V
+		METHOD a canUse ()Z
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Laev;
+		METHOD l getSpell ()Lbhj$a;

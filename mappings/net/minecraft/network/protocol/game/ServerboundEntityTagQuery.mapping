@@ -1,0 +1,10 @@
+CLASS tu net/minecraft/network/protocol/game/ServerboundEntityTagQuery
+	FIELD a transactionId I
+	FIELD b entityId I
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getTransactionId ()I
+	METHOD c getEntityId ()I

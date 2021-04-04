@@ -1,0 +1,5 @@
+CLASS czf net/minecraft/world/level/levelgen/placement/RepeatingDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lctv;Lgb;)Ljava/util/stream/Stream;
+	METHOD a lambda$getPositions$0 (Lgb;I)Lgb;
+	METHOD a count (Ljava/util/Random;Lctv;Lgb;)I

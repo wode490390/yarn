@@ -1,0 +1,10 @@
+CLASS den net/minecraft/world/level/newbiome/layer/BiomeInitLayer
+	FIELD a LEGACY_WARM_BIOMES [I
+	FIELD ar WARM_BIOMES [I
+	FIELD as MEDIUM_BIOMES [I
+	FIELD at COLD_BIOMES [I
+	FIELD au ICE_BIOMES [I
+	FIELD av warmBiomes [I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a apply (Ldee;I)I

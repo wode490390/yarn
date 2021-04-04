@@ -1,0 +1,9 @@
+CLASS cfs net/minecraft/world/level/block/StructureVoidBlock
+	FIELD a SIZE D
+	FIELD b SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD b getShadeBrightness (Lcjr;Lbuv;Lgb;)F
+	METHOD b_ getRenderShape (Lcjr;)Lced;
+	METHOD d getPistonPushReaction (Lcjr;)Lddw;

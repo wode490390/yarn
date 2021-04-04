@@ -1,0 +1,16 @@
+CLASS bxv net/minecraft/world/level/block/BambooSaplingBlock
+	FIELD a SAPLING_AABB_OFFSET F
+	FIELD b SAPLING_SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a performBonemeal (Labj;Ljava/util/Random;Lgb;Lcjr;)V
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a isValidBonemealTarget (Lbuv;Lgb;Lcjr;Z)Z
+	METHOD a growBamboo (Lbvr;Lgb;)V
+	METHOD a isBonemealSuccess (Lbvr;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a getDestroyProgress (Lcjr;Lbjf;Lbuv;Lgb;)F
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD ak_ getOffsetType ()Lcjq$b;
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V

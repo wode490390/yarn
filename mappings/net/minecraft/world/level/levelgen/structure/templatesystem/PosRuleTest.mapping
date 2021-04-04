@@ -1,0 +1,6 @@
+CLASS dbf net/minecraft/world/level/levelgen/structure/templatesystem/PosRuleTest
+	FIELD c CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getType ()Ldbg;
+	METHOD a test (Lgb;Lgb;Lgb;Ljava/util/Random;)Z

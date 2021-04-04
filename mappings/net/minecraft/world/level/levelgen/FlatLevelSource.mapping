@@ -1,0 +1,15 @@
+CLASS col net/minecraft/world/level/levelgen/FlatLevelSource
+	FIELD d CODEC Lcom/mojang/serialization/Codec;
+	FIELD e settings Lcxq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcxq;)V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a lambda$getBaseColumn$1 (I)[Lcjr;
+	METHOD a getBaseColumn (IILbvt;)Lbwc;
+	METHOD a getBaseHeight (IILcor$a;Lbvt;)I
+	METHOD a withSeed (J)Lclm;
+	METHOD a buildSurfaceAndBedrock (Labp;Lclk;)V
+	METHOD a getSpawnHeight (Lbvt;)I
+	METHOD a lambda$getBaseColumn$0 (Lcjr;)Lcjr;
+	METHOD a fillFromNoise (Ljava/util/concurrent/Executor;Lbwi;Lclk;)Ljava/util/concurrent/CompletableFuture;
+	METHOD g settings ()Lcxq;

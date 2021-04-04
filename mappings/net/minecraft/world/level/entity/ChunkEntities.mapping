@@ -1,0 +1,7 @@
+CLASS cmz net/minecraft/world/level/entity/ChunkEntities
+	FIELD a pos Lbuw;
+	FIELD b entities Ljava/util/List;
+	METHOD <init> <init> (Lbuw;Ljava/util/List;)V
+	METHOD a getPos ()Lbuw;
+	METHOD b getEntities ()Ljava/util/stream/Stream;
+	METHOD c isEmpty ()Z

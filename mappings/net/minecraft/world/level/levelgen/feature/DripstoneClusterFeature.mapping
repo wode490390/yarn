@@ -1,0 +1,11 @@
+CLASS cqs net/minecraft/world/level/levelgen/feature/DripstoneClusterFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getChanceOfStalagmiteOrStalactite (IIIILcty;)D
+	METHOD a canBeAdjacentToWater (Lbvs;Lgb;)Z
+	METHOD a isLava (Lbvu;Lgb;)Z
+	METHOD a canPlacePool (Lbwm;Lgb;)Z
+	METHOD a replaceBlocksWithDripstoneBlocks (Lbwm;Lgb;ILgg;)V
+	METHOD a placeColumn (Lbwm;Ljava/util/Random;Lgb;IIFDIFLcty;)V
+	METHOD a place (Lcqz;)Z
+	METHOD a randomBetweenBiased (Ljava/util/Random;FFFF)F
+	METHOD a getDripstoneHeight (Ljava/util/Random;IIFILcty;)I

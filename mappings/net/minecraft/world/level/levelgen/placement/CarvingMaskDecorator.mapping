@@ -1,0 +1,5 @@
+CLASS cyb net/minecraft/world/level/levelgen/placement/CarvingMaskDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a lambda$getPositions$0 (Lbuw;I)Lgb;
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lctv;Lgb;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lcyc;Lgb;)Ljava/util/stream/Stream;

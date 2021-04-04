@@ -1,0 +1,11 @@
+CLASS ckq net/minecraft/world/level/block/state/properties/Half
+	FIELD a TOP Lckq;
+	FIELD b BOTTOM Lckq;
+	FIELD c name Ljava/lang/String;
+	FIELD d $VALUES [Lckq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD c getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lckq;
+	METHOD values values ()[Lckq;

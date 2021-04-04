@@ -1,0 +1,13 @@
+CLASS bbx net/minecraft/world/entity/ai/sensing/TemptingSensor
+	FIELD a TEMPTATION_RANGE I
+	FIELD c TEMPT_TARGETING Lbcb;
+	FIELD d temptations Lbsg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbsg;)V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Labj;Lasy;)V
+	METHOD a doTick (Labj;Latg;)V
+	METHOD a lambda$doTick$1 (Latg;Labk;)Z
+	METHOD a playerHoldingTemptation (Lbjf;)Z
+	METHOD a isTemptation (Lbpr;)Z
+	METHOD b lambda$doTick$0 (Latg;Labk;)Z

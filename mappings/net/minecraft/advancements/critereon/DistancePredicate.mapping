@@ -1,0 +1,14 @@
+CLASS bd net/minecraft/advancements/critereon/DistancePredicate
+	FIELD a ANY Lbd;
+	FIELD b x Lce$c;
+	FIELD c y Lce$c;
+	FIELD d z Lce$c;
+	FIELD e horizontal Lce$c;
+	FIELD f absolute Lce$c;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lce$c;Lce$c;Lce$c;Lce$c;Lce$c;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a matches (DDDDDD)Z
+	METHOD a horizontal (Lce$c;)Lbd;
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbd;
+	METHOD b vertical (Lce$c;)Lbd;

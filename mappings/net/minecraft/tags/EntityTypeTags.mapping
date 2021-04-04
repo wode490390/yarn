@@ -1,0 +1,16 @@
+CLASS afk net/minecraft/tags/EntityTypeTags
+	FIELD a HELPER Lafq;
+	FIELD b SKELETONS Lafs$e;
+	FIELD c RAIDERS Lafs$e;
+	FIELD d BEEHIVE_INHABITORS Lafs$e;
+	FIELD e ARROWS Lafs$e;
+	FIELD f IMPACT_PROJECTILES Lafs$e;
+	FIELD g POWDER_SNOW_WALKABLE_MOBS Lafs$e;
+	FIELD h AXOLOTL_ALWAYS_HOSTILES Lafs$e;
+	FIELD i AXOLOTL_HUNT_TARGETS Lafs$e;
+	FIELD j FREEZE_IMMUNE_ENTITY_TYPES Lafs$e;
+	FIELD k FREEZE_HURTS_EXTRA_TYPES Lafs$e;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getAllTags ()Laft;
+	METHOD a bind (Ljava/lang/String;)Lafs$e;

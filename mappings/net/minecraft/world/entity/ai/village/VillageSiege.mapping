@@ -1,0 +1,24 @@
+CLASS bcm net/minecraft/world/entity/ai/village/VillageSiege
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b hasSetupSiege Z
+	FIELD c siegeState Lbcm$a;
+	FIELD d zombiesToSpawn I
+	FIELD e nextSpawnTime I
+	FIELD f spawnX I
+	FIELD g spawnY I
+	FIELD h spawnZ I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a tryToSetupSiege (Labj;)Z
+	METHOD a findRandomSpawnPos (Labj;Lgb;)Ldly;
+	METHOD a tick (Labj;ZZ)I
+	METHOD b trySpawn (Labj;)V
+	CLASS a State
+		FIELD a SIEGE_CAN_ACTIVATE Lbcm$a;
+		FIELD b SIEGE_TONIGHT Lbcm$a;
+		FIELD c SIEGE_DONE Lbcm$a;
+		FIELD d $VALUES [Lbcm$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbcm$a;
+		METHOD values values ()[Lbcm$a;

@@ -1,0 +1,21 @@
+CLASS bva net/minecraft/world/level/CollisionGetter
+	METHOD a lambda$findFreePosition$4 (DDDLdlt;)Ldlt;
+	METHOD a lambda$noCollision$2 (Lasl;)Z
+	METHOD a hasBlockCollision (Lasl;Ldlt;Ljava/util/function/BiPredicate;)Z
+	METHOD a isUnobstructed (Lasl;Ldmr;)Z
+	METHOD a findFreePosition (Lasl;Ldmr;Ldly;DDD)Ljava/util/Optional;
+	METHOD a isUnobstructed (Lcjr;Lgb;Ldmd;)Z
+	METHOD a lambda$findFreePosition$3 (Ldmr;)Ljava/util/stream/Stream;
+	METHOD a_ noCollision (Lasl;Ldlt;)Z
+	METHOD b getBlockCollisions (Lasl;Ldlt;)Ljava/util/stream/Stream;
+	METHOD b getBlockCollisions (Lasl;Ldlt;Ljava/util/function/BiPredicate;)Ljava/util/stream/Stream;
+	METHOD b noCollision (Lasl;Ldlt;Ljava/util/function/Predicate;)Z
+	METHOD b noCollision (Ldlt;)Z
+	METHOD c getChunkForCollisions (II)Lbuv;
+	METHOD c lambda$noCollision$1 (Lasl;)Z
+	METHOD c getEntityCollisions (Lasl;Ldlt;Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+	METHOD d lambda$noCollision$0 (Lasl;)Z
+	METHOD d getCollisions (Lasl;Ldlt;Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+	METHOD e getWorldBorder ()Lclh;
+	METHOD f isUnobstructed (Lasl;)Z
+	METHOD g noCollision (Lasl;)Z

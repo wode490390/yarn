@@ -1,0 +1,16 @@
+CLASS pr net/minecraft/network/protocol/game/ClientboundBlockBreakAckPacket
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b pos Lgb;
+	FIELD c state Lcjr;
+	FIELD d action Luf$a;
+	FIELD e allGood Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgb;Lcjr;Luf$a;ZLjava/lang/String;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getState ()Lcjr;
+	METHOD c getPos ()Lgb;
+	METHOD d allGood ()Z
+	METHOD e action ()Luf$a;

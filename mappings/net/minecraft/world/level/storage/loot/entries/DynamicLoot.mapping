@@ -1,0 +1,17 @@
+CLASS dhz net/minecraft/world/level/storage/loot/entries/DynamicLoot
+	FIELD i name Lwp;
+	METHOD <init> <init> (Lwp;II[Ldkf;[Ldiy;)V
+	METHOD <init> <init> (Lwp;II[Ldkf;[Ldiy;Ldhz$1;)V
+	METHOD a getType ()Ldig;
+	METHOD a access$000 (Ldhz;)Lwp;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Ldhn;)V
+	METHOD a dynamicEntry (Lwp;)Ldih$a;
+	METHOD a lambda$dynamicEntry$0 (Lwp;II[Ldkf;[Ldiy;)Ldih;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldkf;[Ldiy;)Ldhz;
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldhz;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldif;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldih;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldkf;[Ldiy;)Ldih;

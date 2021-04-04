@@ -1,0 +1,4 @@
+CLASS che net/minecraft/world/level/block/WoolCarpetBlock
+	FIELD b color Lbon;
+	METHOD <init> <init> (Lbon;Lcjq$c;)V
+	METHOD c getColor ()Lbon;

@@ -1,0 +1,38 @@
+CLASS css net/minecraft/world/level/levelgen/feature/SpikeFeature
+	FIELD a NUMBER_OF_SPIKES I
+	FIELD b SPIKE_DISTANCE I
+	FIELD c SPIKE_CACHE Lcom/google/common/cache/LoadingCache;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a placeSpike (Lbwf;Ljava/util/Random;Lcvc;Lcss$a;)V
+	METHOD a getSpikesForLevel (Lbwm;)Ljava/util/List;
+	METHOD a place (Lcqz;)Z
+	CLASS 1 1
+	CLASS a EndSpike
+		FIELD a CODEC Lcom/mojang/serialization/Codec;
+		FIELD b centerX I
+		FIELD c centerZ I
+		FIELD d radius I
+		FIELD e height I
+		FIELD f guarded Z
+		FIELD g topBoundingBox Ldlt;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (IIIIZ)V
+		METHOD a getCenterX ()I
+		METHOD a lambda$static$5 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+		METHOD a lambda$null$4 (Lcss$a;)Ljava/lang/Boolean;
+		METHOD a isCenterWithinChunk (Lgb;)Z
+		METHOD b getCenterZ ()I
+		METHOD b lambda$null$3 (Lcss$a;)Ljava/lang/Integer;
+		METHOD c getRadius ()I
+		METHOD c lambda$null$2 (Lcss$a;)Ljava/lang/Integer;
+		METHOD d getHeight ()I
+		METHOD d lambda$null$1 (Lcss$a;)Ljava/lang/Integer;
+		METHOD e isGuarded ()Z
+		METHOD e lambda$null$0 (Lcss$a;)Ljava/lang/Integer;
+		METHOD f getTopBoundingBox ()Ldlt;
+	CLASS b SpikeCacheLoader
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lcss$1;)V
+		METHOD a load (Ljava/lang/Long;)Ljava/util/List;
+		METHOD load load (Ljava/lang/Object;)Ljava/lang/Object;

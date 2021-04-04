@@ -1,0 +1,45 @@
+CLASS cmk net/minecraft/world/level/chunk/storage/IOWorker
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b shutdownRequested Ljava/util/concurrent/atomic/AtomicBoolean;
+	FIELD c mailbox Laqf;
+	FIELD d storage Lcmo;
+	FIELD e pendingWrites Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;ZLjava/lang/String;)V
+	METHOD a synchronize ()Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$null$4 (I)[Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$close$11 (Laqe;)Laqh$b;
+	METHOD a lambda$null$8 (Laqe;Ljava/util/function/Supplier;)V
+	METHOD a load (Lbuw;)Lmv;
+	METHOD a runStore (Lbuw;Lcmk$a;)V
+	METHOD a store (Lbuw;Lmv;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$null$3 (Lcmk$a;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$synchronize$7 (Ljava/lang/Void;)Ljava/util/concurrent/CompletionStage;
+	METHOD a submitTask (Ljava/util/function/Supplier;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$submitTask$9 (Ljava/util/function/Supplier;Laqe;)Laqh$b;
+	METHOD a lambda$null$0 (Lmv;Lbuw;)Lcmk$a;
+	METHOD b storePendingChunk ()V
+	METHOD b lambda$null$10 (Laqe;)V
+	METHOD b loadAsync (Lbuw;)Ljava/util/concurrent/CompletableFuture;
+	METHOD b lambda$store$1 (Lbuw;Lmv;)Lcom/mojang/datafixers/util/Either;
+	METHOD c tellStorePending ()V
+	METHOD c lambda$loadAsync$2 (Lbuw;)Lcom/mojang/datafixers/util/Either;
+	METHOD close close ()V
+	METHOD d lambda$null$6 ()Lcom/mojang/datafixers/util/Either;
+	METHOD e lambda$synchronize$5 ()Lcom/mojang/datafixers/util/Either;
+	CLASS a PendingStore
+		FIELD a data Lmv;
+		FIELD b result Ljava/util/concurrent/CompletableFuture;
+		METHOD <init> <init> (Lmv;)V
+		METHOD a access$000 (Lcmk$a;)Lmv;
+		METHOD a access$002 (Lcmk$a;Lmv;)Lmv;
+		METHOD b access$100 (Lcmk$a;)Ljava/util/concurrent/CompletableFuture;
+	CLASS b Priority
+		FIELD a FOREGROUND Lcmk$b;
+		FIELD b BACKGROUND Lcmk$b;
+		FIELD c SHUTDOWN Lcmk$b;
+		FIELD d $VALUES [Lcmk$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcmk$b;
+		METHOD values values ()[Lcmk$b;

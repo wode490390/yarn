@@ -1,0 +1,71 @@
+CLASS diq net/minecraft/world/level/storage/loot/functions/CopyNbtFunction
+	FIELD a source Ldkt;
+	FIELD b operations Ljava/util/List;
+	METHOD <init> <init> ([Ldkf;Ldkt;Ljava/util/List;)V
+	METHOD <init> <init> ([Ldkf;Ldkt;Ljava/util/List;Ldiq$1;)V
+	METHOD a getType ()Ldiz;
+	METHOD a run (Lbpr;Ldhn;)Lbpr;
+	METHOD a lambda$run$0 (Lbpr;Lnn;Ldiq$b;)V
+	METHOD a copyData (Ldhn$c;)Ldiq$a;
+	METHOD a access$600 (Ldiq;)Ldkt;
+	METHOD a copyData (Ldkt;)Ldiq$a;
+	METHOD a access$000 (Ljava/lang/String;)Ldw$g;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	METHOD b access$700 (Ldiq;)Ljava/util/List;
+	METHOD b compileNbtPath (Ljava/lang/String;)Ldw$g;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a source Ldkt;
+		FIELD b ops Ljava/util/List;
+		METHOD <init> <init> (Ldkt;)V
+		METHOD <init> <init> (Ldkt;Ldiq$1;)V
+		METHOD a getThis ()Ldiq$a;
+		METHOD a copy (Ljava/lang/String;Ljava/lang/String;)Ldiq$a;
+		METHOD a copy (Ljava/lang/String;Ljava/lang/String;Ldiq$c;)Ldiq$a;
+		METHOD b build ()Ldiy;
+		METHOD d getThis ()Ldix$a;
+	CLASS b CopyOperation
+		FIELD a sourcePathText Ljava/lang/String;
+		FIELD b sourcePath Ldw$g;
+		FIELD c targetPathText Ljava/lang/String;
+		FIELD d targetPath Ldw$g;
+		FIELD e op Ldiq$c;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Ldiq$c;)V
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Ldiq$c;Ldiq$1;)V
+		METHOD a toJson ()Lcom/google/gson/JsonObject;
+		METHOD a fromJson (Lcom/google/gson/JsonObject;)Ldiq$b;
+		METHOD a apply (Ljava/util/function/Supplier;Lnn;)V
+	CLASS c MergeStrategy
+		FIELD a REPLACE Ldiq$c;
+		FIELD b APPEND Ldiq$c;
+		FIELD c MERGE Ldiq$c;
+		FIELD d name Ljava/lang/String;
+		FIELD e $VALUES [Ldiq$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ldiq$1;)V
+		METHOD a access$100 (Ldiq$c;)Ljava/lang/String;
+		METHOD a getByName (Ljava/lang/String;)Ldiq$c;
+		METHOD a merge (Lnn;Ldw$g;Ljava/util/List;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldiq$c;
+		METHOD values values ()[Ldiq$c;
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a merge (Lnn;Ldw$g;Ljava/util/List;)V
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a lambda$merge$1 (Ljava/util/List;Lnn;)V
+			METHOD a merge (Lnn;Ldw$g;Ljava/util/List;)V
+			METHOD a lambda$null$0 (Lnn;Lnn;)V
+		CLASS 3 3
+			METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+			METHOD a lambda$merge$1 (Ljava/util/List;Lnn;)V
+			METHOD a merge (Lnn;Ldw$g;Ljava/util/List;)V
+			METHOD a lambda$null$0 (Lnn;Lnn;)V
+	CLASS d Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldiq;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldiq;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldix;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldix;

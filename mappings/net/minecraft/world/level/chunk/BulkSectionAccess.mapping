@@ -1,0 +1,10 @@
+CLASS clj net/minecraft/world/level/chunk/BulkSectionAccess
+	FIELD a level Lbvs;
+	FIELD b acquiredSections Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
+	FIELD c lastSection Lclw;
+	FIELD d lastSectionKey J
+	METHOD <init> <init> (Lbvs;)V
+	METHOD a getSection (Lgb;)Lclw;
+	METHOD a lambda$getSection$0 (Lgb;J)Lclw;
+	METHOD b getBlockState (Lgb;)Lcjr;
+	METHOD close close ()V

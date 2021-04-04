@@ -1,0 +1,12 @@
+CLASS awr net/minecraft/world/entity/ai/behavior/StartAttacking
+	FIELD a canAttackPredicate Ljava/util/function/Predicate;
+	FIELD c targetFinderFunction Ljava/util/function/Function;
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD <init> <init> (Ljava/util/function/Predicate;Ljava/util/function/Function;)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lasz;)Z
+	METHOD a start (Labj;Lasz;J)V
+	METHOD a lambda$new$0 (Lasz;)Z
+	METHOD a setAttackTarget (Lasz;Lasy;)V
+	METHOD b lambda$start$1 (Lasz;Lasy;)V

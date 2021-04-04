@@ -1,0 +1,10 @@
+CLASS aha net/minecraft/util/StringUtil
+	FIELD a STRIP_COLOR_PATTERN Ljava/util/regex/Pattern;
+	FIELD b LINE_PATTERN Ljava/util/regex/Pattern;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a formatTickDuration (I)Ljava/lang/String;
+	METHOD a stripColor (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a truncateStringIfNecessary (Ljava/lang/String;IZ)Ljava/lang/String;
+	METHOD b isNullOrEmpty (Ljava/lang/String;)Z
+	METHOD c lineCount (Ljava/lang/String;)I

@@ -1,0 +1,14 @@
+CLASS cdi net/minecraft/world/level/block/NoteBlock
+	FIELD a INSTRUMENT Lckp;
+	FIELD b POWERED Lcki;
+	FIELD c NOTE Lckr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a playNote (Lbvr;Lgb;)V
+	METHOD a triggerEvent (Lcjr;Lbvr;Lgb;II)Z
+	METHOD a attack (Lcjr;Lbvr;Lgb;Lbjf;)V
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a neighborChanged (Lcjr;Lbvr;Lgb;Lbyq;Lgb;Z)V
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V

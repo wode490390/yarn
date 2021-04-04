@@ -1,0 +1,6 @@
+CLASS cuy net/minecraft/world/level/levelgen/feature/configurations/ShipwreckConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b isBeached Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a lambda$static$0 (Lcuy;)Ljava/lang/Boolean;

@@ -1,0 +1,3 @@
+CLASS bwf net/minecraft/world/level/ServerLevelAccessor
+	METHOD G getLevel ()Labj;
+	METHOD h addFreshEntityWithPassengers (Lasl;)V

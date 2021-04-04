@@ -1,0 +1,10 @@
+CLASS cwk net/minecraft/world/level/levelgen/feature/stateproviders/WeightedStateProvider
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c weightedList Lapw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lapw$a;)V
+	METHOD <init> <init> (Lapw;)V
+	METHOD a type ()Lcwe;
+	METHOD a create (Lapw;)Lcom/mojang/serialization/DataResult;
+	METHOD a lambda$static$0 (Lcwk;)Lapw;
+	METHOD a getState (Ljava/util/Random;Lgb;)Lcjr;

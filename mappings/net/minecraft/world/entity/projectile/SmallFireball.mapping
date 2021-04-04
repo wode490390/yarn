@@ -1,0 +1,9 @@
+CLASS bjy net/minecraft/world/entity/projectile/SmallFireball
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDDDDD)V
+	METHOD <init> <init> (Lbvr;Lasy;DDD)V
+	METHOD a hurt (Larv;F)Z
+	METHOD a onHitBlock (Ldlu;)V
+	METHOD a onHitEntity (Ldlv;)V
+	METHOD a onHit (Ldlw;)V
+	METHOD aY isPickable ()Z

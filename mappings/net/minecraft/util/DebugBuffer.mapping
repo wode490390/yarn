@@ -1,0 +1,6 @@
+CLASS age net/minecraft/util/DebugBuffer
+	FIELD a data Ljava/util/concurrent/atomic/AtomicReferenceArray;
+	FIELD b index Ljava/util/concurrent/atomic/AtomicInteger;
+	METHOD <init> <init> (I)V
+	METHOD a dump ()Ljava/util/List;
+	METHOD a push (Ljava/lang/Object;)V

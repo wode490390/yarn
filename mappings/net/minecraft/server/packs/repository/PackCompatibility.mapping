@@ -1,0 +1,16 @@
+CLASS acz net/minecraft/server/packs/repository/PackCompatibility
+	FIELD a TOO_OLD Lacz;
+	FIELD b TOO_NEW Lacz;
+	FIELD c COMPATIBLE Lacz;
+	FIELD d description Lon;
+	FIELD e confirmation Lon;
+	FIELD f $VALUES [Lacz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a isCompatible ()Z
+	METHOD a forFormat (ILaco;)Lacz;
+	METHOD a forMetadata (Lacs;Laco;)Lacz;
+	METHOD b getDescription ()Lon;
+	METHOD c getConfirmation ()Lon;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lacz;
+	METHOD values values ()[Lacz;

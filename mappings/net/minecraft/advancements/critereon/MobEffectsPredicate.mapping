@@ -1,0 +1,24 @@
+CLASS cf net/minecraft/advancements/critereon/MobEffectsPredicate
+	FIELD a ANY Lcf;
+	FIELD b effects Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD a effects ()Lcf;
+	METHOD a and (Lasd;)Lcf;
+	METHOD a and (Lasd;Lcf$a;)Lcf;
+	METHOD a matches (Lasl;)Z
+	METHOD a matches (Lasy;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lcf;
+	METHOD a matches (Ljava/util/Map;)Z
+	METHOD a lambda$fromJson$0 (Lwp;)Lcom/google/gson/JsonSyntaxException;
+	METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+	CLASS a MobEffectInstancePredicate
+		FIELD a amplifier Lce$d;
+		FIELD b duration Lce$d;
+		FIELD c ambient Ljava/lang/Boolean;
+		FIELD d visible Ljava/lang/Boolean;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lce$d;Lce$d;Ljava/lang/Boolean;Ljava/lang/Boolean;)V
+		METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+		METHOD a matches (Lasf;)Z
+		METHOD a fromJson (Lcom/google/gson/JsonObject;)Lcf$a;

@@ -1,0 +1,8 @@
+CLASS ji net/minecraft/data/models/model/ModelLocationUtils
+	METHOD <init> <init> ()V
+	METHOD a getModelLocation (Lbpn;)Lwp;
+	METHOD a getModelLocation (Lbpn;Ljava/lang/String;)Lwp;
+	METHOD a getModelLocation (Lbyq;)Lwp;
+	METHOD a getModelLocation (Lbyq;Ljava/lang/String;)Lwp;
+	METHOD a decorateBlockModelLocation (Ljava/lang/String;)Lwp;
+	METHOD b decorateItemModelLocation (Ljava/lang/String;)Lwp;

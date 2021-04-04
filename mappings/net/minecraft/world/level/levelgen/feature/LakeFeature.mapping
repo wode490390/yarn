@@ -1,0 +1,5 @@
+CLASS crs net/minecraft/world/level/levelgen/feature/LakeFeature
+	FIELD a AIR Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a place (Lcqz;)Z

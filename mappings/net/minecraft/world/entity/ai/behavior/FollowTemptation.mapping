@@ -1,0 +1,17 @@
+CLASS auu net/minecraft/world/entity/ai/behavior/FollowTemptation
+	FIELD a TEMPTATION_COOLDOWN I
+	FIELD c CLOSE_ENOUGH_DIST D
+	FIELD d speedModifier Ljava/util/function/Function;
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a timedOut (J)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a canStillUse (Labj;Latg;J)Z
+	METHOD a getSpeedModifier (Latg;)F
+	METHOD b lambda$new$0 ()Lcom/google/common/collect/ImmutableMap;
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b start (Labj;Latg;J)V
+	METHOD b getTemptingPlayer (Latg;)Ljava/util/Optional;
+	METHOD c stop (Labj;Lasy;J)V
+	METHOD c stop (Labj;Latg;J)V
+	METHOD d tick (Labj;Lasy;J)V
+	METHOD d tick (Labj;Latg;J)V

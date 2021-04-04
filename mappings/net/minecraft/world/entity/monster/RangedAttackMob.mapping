@@ -1,0 +1,2 @@
+CLASS bhd net/minecraft/world/entity/monster/RangedAttackMob
+	METHOD a performRangedAttack (Lasy;F)V

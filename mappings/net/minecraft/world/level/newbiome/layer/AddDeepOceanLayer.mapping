@@ -1,0 +1,8 @@
+CLASS deh net/minecraft/world/level/newbiome/layer/AddDeepOceanLayer
+	FIELD a INSTANCE Ldeh;
+	FIELD ar $VALUES [Ldeh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Ldee;IIIII)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldeh;
+	METHOD values values ()[Ldeh;

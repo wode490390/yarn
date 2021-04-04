@@ -1,0 +1,8 @@
+CLASS dmp net/minecraft/world/phys/shapes/SliceShape
+	FIELD b delegate Ldmr;
+	FIELD c axis Lgg$a;
+	FIELD d SLICE_COORDS Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldmr;Lgg$a;I)V
+	METHOD a makeSlice (Ldmh;Lgg$a;I)Ldmh;
+	METHOD a getCoords (Lgg$a;)Lit/unimi/dsi/fastutil/doubles/DoubleList;

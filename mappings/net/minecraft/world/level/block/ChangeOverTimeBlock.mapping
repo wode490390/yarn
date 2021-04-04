@@ -1,0 +1,8 @@
+CLASS bzn net/minecraft/world/level/block/ChangeOverTimeBlock
+	FIELD t_ SCAN_DISTANCE I
+	METHOD a getChanceModifier ()F
+	METHOD a lambda$applyChangeOverTime$0 (Labj;Lgb;Lcjr;)V
+	METHOD a getNext (Lcjr;)Ljava/util/Optional;
+	METHOD a onRandomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b getAge ()Ljava/lang/Enum;
+	METHOD c applyChangeOverTime (Lcjr;Labj;Lgb;Ljava/util/Random;)V

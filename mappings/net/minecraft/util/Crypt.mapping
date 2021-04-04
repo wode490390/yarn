@@ -1,0 +1,19 @@
+CLASS agb net/minecraft/util/Crypt
+	FIELD a SYMMETRIC_ALGORITHM Ljava/lang/String;
+	FIELD b SYMMETRIC_BITS I
+	FIELD c ASYMMETRIC_ALGORITHM Ljava/lang/String;
+	FIELD d ASYMMETRIC_BITS I
+	FIELD e BYTE_ENCODING Ljava/lang/String;
+	FIELD f HASH_ALGORITHM Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD a generateSecretKey ()Ljavax/crypto/SecretKey;
+	METHOD a setupCipher (ILjava/lang/String;Ljava/security/Key;)Ljavax/crypto/Cipher;
+	METHOD a getCipher (ILjava/security/Key;)Ljavax/crypto/Cipher;
+	METHOD a cipherData (ILjava/security/Key;[B)[B
+	METHOD a digestData (Ljava/lang/String;Ljava/security/PublicKey;Ljavax/crypto/SecretKey;)[B
+	METHOD a encryptUsingKey (Ljava/security/Key;[B)[B
+	METHOD a decryptByteToSecretKey (Ljava/security/PrivateKey;[B)Ljavax/crypto/SecretKey;
+	METHOD a byteToPublicKey ([B)Ljava/security/PublicKey;
+	METHOD a digestData ([[B)[B
+	METHOD b generateKeyPair ()Ljava/security/KeyPair;
+	METHOD b decryptUsingKey (Ljava/security/Key;[B)[B

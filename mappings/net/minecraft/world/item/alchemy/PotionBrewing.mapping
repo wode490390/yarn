@@ -1,0 +1,29 @@
+CLASS brn net/minecraft/world/item/alchemy/PotionBrewing
+	FIELD a BREWING_TIME_SECONDS I
+	FIELD b POTION_MIXES Ljava/util/List;
+	FIELD c CONTAINER_MIXES Ljava/util/List;
+	FIELD d ALLOWED_CONTAINERS Ljava/util/List;
+	FIELD e ALLOWED_CONTAINER Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootStrap ()V
+	METHOD a addContainer (Lbpn;)V
+	METHOD a addContainerRecipe (Lbpn;Lbpn;Lbpn;)V
+	METHOD a isIngredient (Lbpr;)Z
+	METHOD a hasMix (Lbpr;Lbpr;)Z
+	METHOD a isBrewablePotion (Lbrm;)Z
+	METHOD a addMix (Lbrm;Lbpn;Lbrm;)V
+	METHOD b isContainerIngredient (Lbpr;)Z
+	METHOD b hasContainerMix (Lbpr;Lbpr;)Z
+	METHOD c isPotionIngredient (Lbpr;)Z
+	METHOD c hasPotionMix (Lbpr;Lbpr;)Z
+	METHOD d lambda$static$0 (Lbpr;)Z
+	METHOD d mix (Lbpr;Lbpr;)Lbpr;
+	CLASS a Mix
+		FIELD a from Ljava/lang/Object;
+		FIELD b ingredient Lbsg;
+		FIELD c to Ljava/lang/Object;
+		METHOD <init> <init> (Ljava/lang/Object;Lbsg;Ljava/lang/Object;)V
+		METHOD a access$000 (Lbrn$a;)Lbsg;
+		METHOD b access$100 (Lbrn$a;)Ljava/lang/Object;
+		METHOD c access$200 (Lbrn$a;)Ljava/lang/Object;

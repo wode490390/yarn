@@ -1,0 +1,29 @@
+CLASS kk net/minecraft/data/tags/TagsProvider
+	FIELD b generator Lhx;
+	FIELD c registry Lgr;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD e GSON Lcom/google/gson/Gson;
+	FIELD f builders Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lhx;Lgr;)V
+	METHOD a lambda$null$0 (Lafs$b;)Z
+	METHOD a tag (Lafs$e;)Lkk$a;
+	METHOD a run (Lhz;)V
+	METHOD a lambda$run$1 (Lhz;Lwp;Lafs$a;)V
+	METHOD a getPath (Lwp;)Ljava/nio/file/Path;
+	METHOD b addTags ()V
+	METHOD b getOrCreateRawBuilder (Lafs$e;)Lafs$a;
+	METHOD b lambda$getOrCreateRawBuilder$2 (Lwp;)Lafs$a;
+	CLASS 1 1
+	CLASS a TagAppender
+		FIELD a builder Lafs$a;
+		FIELD b registry Lgr;
+		FIELD c source Ljava/lang/String;
+		METHOD <init> <init> (Lafs$a;Lgr;Ljava/lang/String;)V
+		METHOD <init> <init> (Lafs$a;Lgr;Ljava/lang/String;Lkk$1;)V
+		METHOD a addTag (Lafs$e;)Lkk$a;
+		METHOD a add (Ljava/lang/Object;)Lkk$a;
+		METHOD a addOptional (Lwp;)Lkk$a;
+		METHOD a add ([Ljava/lang/Object;)Lkk$a;
+		METHOD b addOptionalTag (Lwp;)Lkk$a;
+		METHOD c lambda$add$0 (Lwp;)V

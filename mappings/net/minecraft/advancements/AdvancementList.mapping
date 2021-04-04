@@ -1,0 +1,22 @@
+CLASS ae net/minecraft/advancements/AdvancementList
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b advancements Ljava/util/Map;
+	FIELD c roots Ljava/util/Set;
+	FIELD d tasks Ljava/util/Set;
+	FIELD e listener Lae$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a clear ()V
+	METHOD a remove (Lad;)V
+	METHOD a setListener (Lae$a;)V
+	METHOD a add (Ljava/util/Map;)V
+	METHOD a remove (Ljava/util/Set;)V
+	METHOD a get (Lwp;)Lad;
+	METHOD b getRoots ()Ljava/lang/Iterable;
+	METHOD c getAllAdvancements ()Ljava/util/Collection;
+	CLASS a Listener
+		METHOD a onAdvancementsCleared ()V
+		METHOD a onAddAdvancementRoot (Lad;)V
+		METHOD b onRemoveAdvancementRoot (Lad;)V
+		METHOD c onAddAdvancementTask (Lad;)V
+		METHOD d onRemoveAdvancementTask (Lad;)V

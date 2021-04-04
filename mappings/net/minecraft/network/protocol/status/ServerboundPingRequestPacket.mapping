@@ -1,0 +1,8 @@
+CLASS vv net/minecraft/network/protocol/status/ServerboundPingRequestPacket
+	FIELD a time J
+	METHOD <init> <init> (J)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lvu;)V
+	METHOD b getTime ()J

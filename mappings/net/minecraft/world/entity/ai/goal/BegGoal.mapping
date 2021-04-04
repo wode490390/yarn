@@ -1,0 +1,14 @@
+CLASS axz net/minecraft/world/entity/ai/goal/BegGoal
+	FIELD a wolf Lbea;
+	FIELD b player Lbjf;
+	FIELD c level Lbvr;
+	FIELD d lookDistance F
+	FIELD e lookTime I
+	FIELD f begTargeting Lbcb;
+	METHOD <init> <init> (Lbea;F)V
+	METHOD a canUse ()Z
+	METHOD a playerHoldingInteresting (Lbjf;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

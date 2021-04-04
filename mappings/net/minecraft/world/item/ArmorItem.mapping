@@ -1,0 +1,24 @@
+CLASS bnm net/minecraft/world/item/ArmorItem
+	FIELD a DISPENSE_ITEM_BEHAVIOR Lhc;
+	FIELD d material Lbnn;
+	FIELD e ARMOR_MODIFIER_UUID_PER_SLOT [Ljava/util/UUID;
+	FIELD f defense I
+	FIELD g toughness F
+	FIELD h defaultModifiers Lcom/google/common/collect/Multimap;
+	FIELD k_ slot Lasq;
+	FIELD l_ knockbackResistance F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbnn;Lasq;Lbpn$a;)V
+	METHOD a getDefaultAttributeModifiers (Lasq;)Lcom/google/common/collect/Multimap;
+	METHOD a isValidRepairItem (Lbpr;Lbpr;)Z
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD a dispenseArmor (Lgc;Lbpr;)Z
+	METHOD ad_ getMaterial ()Lbnn;
+	METHOD ae_ getToughness ()F
+	METHOD b getSlot ()Lasq;
+	METHOD c getEnchantmentValue ()I
+	METHOD e getDefense ()I
+	METHOD g getEquipSound ()Laev;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;

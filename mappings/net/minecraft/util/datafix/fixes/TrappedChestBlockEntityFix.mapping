@@ -1,0 +1,18 @@
+CLASS amm net/minecraft/util/datafix/fixes/TrappedChestBlockEntityFix
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b SIZE I
+	FIELD c SIZE_BITS S
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$2 (IILit/unimi/dsi/fastutil/ints/IntSet;Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$makeRule$5 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$4 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$3 (Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;IILit/unimi/dsi/fastutil/ints/IntSet;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$1 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$0 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;
+	CLASS a TrappedChestSection
+		FIELD h chestIds Lit/unimi/dsi/fastutil/ints/IntSet;
+		METHOD <init> <init> (Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/schemas/Schema;)V
+		METHOD a skippable ()Z
+		METHOD a isTrappedChest (I)Z

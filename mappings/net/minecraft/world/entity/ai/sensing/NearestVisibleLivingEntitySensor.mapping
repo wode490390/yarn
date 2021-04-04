@@ -1,0 +1,10 @@
+CLASS bbp net/minecraft/world/entity/ai/sensing/NearestVisibleLivingEntitySensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Labj;Lasy;)V
+	METHOD a getVisibleEntities (Lasy;)Ljava/util/Optional;
+	METHOD a isMatchingEntity (Lasy;Lasy;)Z
+	METHOD a lambda$getNearestEntity$1 (Lasy;Ljava/util/List;)Ljava/util/Optional;
+	METHOD b getMemory ()Lbav;
+	METHOD b getNearestEntity (Lasy;)Ljava/util/Optional;
+	METHOD c lambda$null$0 (Lasy;Lasy;)Z

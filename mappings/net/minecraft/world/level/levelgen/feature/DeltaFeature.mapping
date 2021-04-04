@@ -1,0 +1,8 @@
+CLASS cqo net/minecraft/world/level/levelgen/feature/DeltaFeature
+	FIELD a CANNOT_REPLACE Lcom/google/common/collect/ImmutableList;
+	FIELD b DIRECTIONS [Lgg;
+	FIELD c RIM_SPAWN_CHANCE D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a isClear (Lbvs;Lgb;Lctw;)Z
+	METHOD a place (Lcqz;)Z

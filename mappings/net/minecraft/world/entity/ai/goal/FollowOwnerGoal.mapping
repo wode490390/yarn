@@ -1,0 +1,25 @@
+CLASS ayo net/minecraft/world/entity/ai/goal/FollowOwnerGoal
+	FIELD a TELEPORT_WHEN_DISTANCE_IS I
+	FIELD b MIN_HORIZONTAL_DISTANCE_FROM_PLAYER_WHEN_TELEPORTING I
+	FIELD c MAX_HORIZONTAL_DISTANCE_FROM_PLAYER_WHEN_TELEPORTING I
+	FIELD d MAX_VERTICAL_DISTANCE_FROM_PLAYER_WHEN_TELEPORTING I
+	FIELD e tamable Latr;
+	FIELD f owner Lasy;
+	FIELD g level Lbvu;
+	FIELD h speedModifier D
+	FIELD i navigation Lbbb;
+	FIELD j timeToRecalcPath I
+	FIELD k stopDistance F
+	FIELD l startDistance F
+	FIELD m oldWaterCost F
+	FIELD n canFly Z
+	METHOD <init> <init> (Latr;DFFZ)V
+	METHOD a canUse ()Z
+	METHOD a randomIntInclusive (II)I
+	METHOD a maybeTeleportTo (III)Z
+	METHOD a canTeleportTo (Lgb;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g teleportToOwner ()V

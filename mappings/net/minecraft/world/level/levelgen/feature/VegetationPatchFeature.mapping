@@ -1,0 +1,11 @@
+CLASS ctb net/minecraft/world/level/levelgen/feature/VegetationPatchFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a lambda$getReplaceableTag$2 (Lafs;Lcjr;)Z
+	METHOD a placeVegetation (Lbwm;Lcvi;Lclm;Ljava/util/Random;Lgb;)Z
+	METHOD a placeGroundPatch (Lbwm;Lcvi;Ljava/util/Random;Lgb;Ljava/util/function/Predicate;II)Ljava/util/Set;
+	METHOD a placeGround (Lbwm;Lcvi;Ljava/util/function/Predicate;Ljava/util/Random;Lgb$a;I)Z
+	METHOD a place (Lcqz;)Z
+	METHOD a distributeVegetation (Lcqz;Lbwm;Lcvi;Ljava/util/Random;Ljava/util/Set;II)V
+	METHOD a getReplaceableTag (Lcvi;)Ljava/util/function/Predicate;
+	METHOD c lambda$getReplaceableTag$1 (Lcjr;)Z
+	METHOD d lambda$placeGroundPatch$0 (Lcjr;)Z

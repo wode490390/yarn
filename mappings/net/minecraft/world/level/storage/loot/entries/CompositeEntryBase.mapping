@@ -1,0 +1,17 @@
+CLASS dhy net/minecraft/world/level/storage/loot/entries/CompositeEntryBase
+	FIELD c children [Ldif;
+	FIELD e composedChildren Ldhx;
+	METHOD <init> <init> ([Ldif;[Ldkf;)V
+	METHOD a validate (Ldhv;)V
+	METHOD a createSerializer (Ldhy$a;)Ldif$b;
+	METHOD a compose ([Ldhx;)Ldhx;
+	METHOD expand expand (Ldhn;Ljava/util/function/Consumer;)Z
+	CLASS 1 1
+		FIELD a val$constructor Ldhy$a;
+		METHOD <init> <init> (Ldhy$a;)V
+		METHOD a deserializeCustom (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldhy;
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldhy;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldif;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserializeCustom (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldif;
+	CLASS a CompositeEntryConstructor
+		METHOD create create ([Ldif;[Ldkf;)Ldhy;

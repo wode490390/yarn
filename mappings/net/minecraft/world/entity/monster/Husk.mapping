@@ -1,0 +1,12 @@
+CLASS bgw net/minecraft/world/entity/monster/Husk
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD B doHurtTarget (Lasl;)Z
+	METHOD V_ isSunSensitive ()Z
+	METHOD a checkHuskSpawnRules (Lasp;Lbwf;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD fn getSkull ()Lbpr;
+	METHOD fo convertsInWater ()Z
+	METHOD fq doUnderWaterConversion ()V
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD s getStepSound ()Laev;

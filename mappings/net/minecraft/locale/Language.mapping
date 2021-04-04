@@ -1,0 +1,26 @@
+CLASS mq net/minecraft/locale/Language
+	FIELD a DEFAULT Ljava/lang/String;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c GSON Lcom/google/gson/Gson;
+	FIELD d UNSUPPORTED_FORMAT_PATTERN Ljava/util/regex/Pattern;
+	FIELD e instance Lmq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getInstance ()Lmq;
+	METHOD a loadFromJson (Ljava/io/InputStream;Ljava/util/function/BiConsumer;)V
+	METHOD a getOrDefault (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a getVisualOrder (Ljava/util/List;)Ljava/util/List;
+	METHOD a inject (Lmq;)V
+	METHOD a getVisualOrder (Loq;)Lagj;
+	METHOD b isDefaultRightToLeft ()Z
+	METHOD b has (Ljava/lang/String;)Z
+	METHOD c loadDefault ()Lmq;
+	CLASS 1 1
+		FIELD b val$storage Ljava/util/Map;
+		METHOD <init> <init> (Ljava/util/Map;)V
+		METHOD a lambda$null$0 (Lagk;Lox;Ljava/lang/String;)Ljava/util/Optional;
+		METHOD a getOrDefault (Ljava/lang/String;)Ljava/lang/String;
+		METHOD a getVisualOrder (Loq;)Lagj;
+		METHOD a lambda$getVisualOrder$1 (Loq;Lagk;)Z
+		METHOD b isDefaultRightToLeft ()Z
+		METHOD b has (Ljava/lang/String;)Z

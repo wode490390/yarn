@@ -1,0 +1,28 @@
+CLASS ol net/minecraft/network/chat/ClickEvent
+	FIELD a action Lol$a;
+	FIELD b value Ljava/lang/String;
+	METHOD <init> <init> (Lol$a;Ljava/lang/String;)V
+	METHOD a getAction ()Lol$a;
+	METHOD b getValue ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Action
+		FIELD a OPEN_URL Lol$a;
+		FIELD b OPEN_FILE Lol$a;
+		FIELD c RUN_COMMAND Lol$a;
+		FIELD d SUGGEST_COMMAND Lol$a;
+		FIELD e CHANGE_PAGE Lol$a;
+		FIELD f COPY_TO_CLIPBOARD Lol$a;
+		FIELD g LOOKUP Ljava/util/Map;
+		FIELD h allowFromServer Z
+		FIELD i name Ljava/lang/String;
+		FIELD j $VALUES [Lol$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Z)V
+		METHOD a isAllowedFromServer ()Z
+		METHOD a getByName (Ljava/lang/String;)Lol$a;
+		METHOD a lambda$static$0 (Lol$a;)Lol$a;
+		METHOD b getName ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lol$a;
+		METHOD values values ()[Lol$a;

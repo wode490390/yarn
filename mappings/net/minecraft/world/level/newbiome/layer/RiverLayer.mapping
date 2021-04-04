@@ -1,0 +1,9 @@
+CLASS dez net/minecraft/world/level/newbiome/layer/RiverLayer
+	FIELD a INSTANCE Ldez;
+	FIELD ar $VALUES [Ldez;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Ldee;IIIII)I
+	METHOD c riverFilter (I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldez;
+	METHOD values values ()[Ldez;

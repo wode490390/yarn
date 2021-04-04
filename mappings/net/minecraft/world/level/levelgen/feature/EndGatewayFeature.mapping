@@ -1,0 +1,4 @@
+CLASS cqv net/minecraft/world/level/levelgen/feature/EndGatewayFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a lambda$place$0 (Lbwm;Lgb;Lctz;Lgb;)V
+	METHOD a place (Lcqz;)Z

@@ -1,0 +1,5 @@
+CLASS bpe net/minecraft/world/item/FishingRodItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a lambda$use$0 (Larf;Lbjf;)V
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD c getEnchantmentValue ()I

@@ -1,0 +1,17 @@
+CLASS az net/minecraft/advancements/critereon/CuredZombieVillagerTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;Lbhs;Lbis;)V
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laz$a;
+	METHOD a lambda$trigger$0 (Ldhn;Ldhn;Laz$a;)Z
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a zombie Lbl$b;
+		FIELD b villager Lbl$b;
+		METHOD <init> <init> (Lbl$b;Lbl$b;Lbl$b;)V
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;
+		METHOD a matches (Ldhn;Ldhn;)Z
+		METHOD c curedZombieVillager ()Laz$a;

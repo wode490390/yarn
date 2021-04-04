@@ -1,0 +1,9 @@
+CLASS akj net/minecraft/util/datafix/fixes/ItemPotionFix
+	FIELD a DEFAULT Ljava/lang/String;
+	FIELD b SPLASH I
+	FIELD c POTIONS [Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$makeRule$1 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$static$0 ([Ljava/lang/String;)V
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

@@ -1,0 +1,6 @@
+CLASS cca net/minecraft/world/level/block/HorizontalDirectionalBlock
+	FIELD aE FACING Lckl;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;

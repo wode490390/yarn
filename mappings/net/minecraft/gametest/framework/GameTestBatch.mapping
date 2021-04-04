@@ -1,0 +1,11 @@
+CLASS lq net/minecraft/gametest/framework/GameTestBatch
+	FIELD a DEFAULT_BATCH_NAME Ljava/lang/String;
+	FIELD b name Ljava/lang/String;
+	FIELD c testFunctions Ljava/util/Collection;
+	FIELD d beforeBatchFunction Ljava/util/function/Consumer;
+	FIELD e afterBatchFunction Ljava/util/function/Consumer;
+	METHOD <init> <init> (Ljava/lang/String;Ljava/util/Collection;Ljava/util/function/Consumer;Ljava/util/function/Consumer;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a runBeforeBatchFunction (Labj;)V
+	METHOD b getTestFunctions ()Ljava/util/Collection;
+	METHOD b runAfterBatchFunction (Labj;)V

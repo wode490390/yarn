@@ -1,0 +1,9 @@
+CLASS dbt net/minecraft/world/level/levelgen/structure/templatesystem/TagMatchTest
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b tag Lafs;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lafs;)V
+	METHOD a getType ()Ldbm;
+	METHOD a test (Lcjr;Ljava/util/Random;)Z
+	METHOD a lambda$static$1 (Ldbt;)Lafs;
+	METHOD b lambda$static$0 ()Laft;

@@ -1,0 +1,5 @@
+CLASS agq net/minecraft/util/LinearCongruentialGenerator
+	FIELD a MULTIPLIER J
+	FIELD b INCREMENT J
+	METHOD <init> <init> ()V
+	METHOD a next (JJ)J

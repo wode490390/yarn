@@ -1,0 +1,10 @@
+CLASS cxu net/minecraft/world/level/levelgen/heightproviders/HeightProvider
+	FIELD a CONSTANT_OR_DISPATCH_CODEC Lcom/mojang/serialization/Codec;
+	FIELD c CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getType ()Lcxv;
+	METHOD a lambda$static$1 (Lcom/mojang/datafixers/util/Either;)Lcxu;
+	METHOD a lambda$static$2 (Lcxu;)Lcom/mojang/datafixers/util/Either;
+	METHOD a sample (Ljava/util/Random;Lcpg;)I
+	METHOD b lambda$null$0 (Lcxu;)Lcxu;

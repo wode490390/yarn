@@ -1,0 +1,7 @@
+CLASS dcq net/minecraft/world/level/levelgen/synth/BlendedNoise
+	FIELD a minLimitNoise Ldcu;
+	FIELD b maxLimitNoise Ldcu;
+	FIELD c mainNoise Ldcu;
+	METHOD <init> <init> (Lcpb;)V
+	METHOD <init> <init> (Ldcu;Ldcu;Ldcu;)V
+	METHOD a sampleAndClampNoise (IIIDDDD)D

@@ -1,0 +1,4 @@
+CLASS boy net/minecraft/world/item/EnderEyeItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;

@@ -1,0 +1,5 @@
+CLASS bnp net/minecraft/world/item/ArmorStandItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a lambda$useOn$0 (Lasl;)Z
+	METHOD a randomizePose (Lbfv;Ljava/util/Random;)V
+	METHOD a useOn (Lbrt;)Larg;

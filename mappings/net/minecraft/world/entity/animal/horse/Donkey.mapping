@@ -1,0 +1,9 @@
+CLASS bel net/minecraft/world/entity/animal/horse/Donkey
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a getBreedOffspring (Labj;Lasj;)Lasj;
+	METHOD a canMate (Lbcz;)Z
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD fH getEatingSound ()Laev;
+	METHOD fI getAngrySound ()Laev;
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;

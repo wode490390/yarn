@@ -1,0 +1,28 @@
+CLASS bta net/minecraft/world/item/crafting/UpgradeRecipe
+	FIELD a base Lbsg;
+	FIELD b addition Lbsg;
+	FIELD c result Lbpr;
+	FIELD d id Lwp;
+	METHOD <init> <init> (Lwp;Lbsg;Lbsg;Lbpr;)V
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Laqz;)Lbpr;
+	METHOD a matches (Laqz;Lbvr;)Z
+	METHOD a isAdditionIngredient (Lbpr;)Z
+	METHOD a lambda$isIncomplete$0 (Lbsg;)Z
+	METHOD a access$000 (Lbta;)Lbsg;
+	METHOD aj_ getSerializer ()Lbsl;
+	METHOD b access$100 (Lbta;)Lbsg;
+	METHOD c getResultItem ()Lbpr;
+	METHOD c access$200 (Lbta;)Lbpr;
+	METHOD f getId ()Lwp;
+	METHOD g getType ()Lbsm;
+	METHOD h getToastSymbol ()Lbpr;
+	METHOD i isIncomplete ()Z
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a toNetwork (Lob;Lbsj;)V
+		METHOD a toNetwork (Lob;Lbta;)V
+		METHOD a fromJson (Lwp;Lcom/google/gson/JsonObject;)Lbsj;
+		METHOD a fromNetwork (Lwp;Lob;)Lbsj;
+		METHOD b fromJson (Lwp;Lcom/google/gson/JsonObject;)Lbta;
+		METHOD b fromNetwork (Lwp;Lob;)Lbta;

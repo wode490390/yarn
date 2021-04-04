@@ -1,0 +1,8 @@
+CLASS bed net/minecraft/world/entity/animal/axolotl/PlayDead
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lbeb;)Z
+	METHOD a canStillUse (Labj;Lbeb;J)Z
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b start (Labj;Lbeb;J)V

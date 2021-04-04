@@ -1,0 +1,6 @@
+CLASS bzj net/minecraft/world/level/block/CaveVines
+	FIELD a SHAPE Ldmr;
+	FIELD b BERRIES Lcki;
+	METHOD <clinit> <clinit> ()V
+	METHOD a hasGlowBerries (Lcjr;)Z
+	METHOD a_ use (Lcjr;Lbvr;Lgb;)Larg;

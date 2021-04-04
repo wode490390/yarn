@@ -1,0 +1,12 @@
+CLASS wj net/minecraft/resources/RegistryDataPackCodec
+	FIELD a directCodec Lcom/mojang/serialization/Codec;
+	FIELD b registryKey Lwo;
+	FIELD c elementCodec Lcom/mojang/serialization/Codec;
+	METHOD <init> <init> (Lwo;Lcom/mojang/serialization/Lifecycle;Lcom/mojang/serialization/Codec;)V
+	METHOD a lambda$null$0 (Lcom/mojang/datafixers/util/Pair;Lgm;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$decode$1 (Lcom/mojang/serialization/DynamicOps;Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/serialization/DataResult;
+	METHOD a encode (Lgm;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD a create (Lwo;Lcom/mojang/serialization/Lifecycle;Lcom/mojang/serialization/Codec;)Lwj;
+	METHOD decode decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD encode encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD toString toString ()Ljava/lang/String;

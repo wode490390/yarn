@@ -1,0 +1,2 @@
+CLASS arj net/minecraft/world/MenuProvider
+	METHOD d getDisplayName ()Lon;

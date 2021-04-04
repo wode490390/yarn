@@ -1,0 +1,47 @@
+CLASS dih net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer
+	FIELD c DEFAULT_WEIGHT I
+	FIELD e DEFAULT_QUALITY I
+	FIELD f weight I
+	FIELD g quality I
+	FIELD h functions [Ldiy;
+	FIELD i compositeFunction Ljava/util/function/BiFunction;
+	FIELD j entry Ldie;
+	METHOD <init> <init> (II[Ldkf;[Ldiy;)V
+	METHOD a validate (Ldhv;)V
+	METHOD a simpleBuilder (Ldih$d;)Ldih$a;
+	METHOD a access$000 (Ldih;)Ljava/util/function/BiFunction;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Ldhn;)V
+	METHOD expand expand (Ldhn;Ljava/util/function/Consumer;)Z
+	CLASS 1 1
+		FIELD a this$0 Ldih;
+		METHOD <init> <init> (Ldih;)V
+		METHOD a createItemStack (Ljava/util/function/Consumer;Ldhn;)V
+	CLASS a Builder
+		FIELD a weight I
+		FIELD b quality I
+		FIELD c functions Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a getFunctions ()[Ldiy;
+		METHOD a setWeight (I)Ldih$a;
+		METHOD a apply (Ldiy$a;)Ldih$a;
+		METHOD b setQuality (I)Ldih$a;
+		METHOD b apply (Ldiy$a;)Ljava/lang/Object;
+	CLASS b DummyBuilder
+		FIELD c constructor Ldih$d;
+		METHOD <init> <init> (Ldih$d;)V
+		METHOD b build ()Ldif;
+		METHOD d getThis ()Ldif$a;
+		METHOD g getThis ()Ldih$b;
+	CLASS c EntryBase
+		FIELD b this$0 Ldih;
+		METHOD <init> <init> (Ldih;)V
+		METHOD a getWeight (F)I
+	CLASS d EntryConstructor
+		METHOD build build (II[Ldkf;[Ldiy;)Ldih;
+	CLASS e Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserializeCustom (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldih;
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldif;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldih;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldkf;[Ldiy;)Ldih;
+		METHOD b deserializeCustom (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldif;

@@ -1,0 +1,11 @@
+CLASS apg net/minecraft/util/profiling/EmptyProfileResults
+	FIELD a EMPTY Lapg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getStartTimeNano ()J
+	METHOD a getTimes (Ljava/lang/String;)Ljava/util/List;
+	METHOD a saveResults (Ljava/nio/file/Path;)Z
+	METHOD b getStartTimeTicks ()I
+	METHOD c getEndTimeNano ()J
+	METHOD d getEndTimeTicks ()I
+	METHOD e getProfilerResults ()Ljava/lang/String;

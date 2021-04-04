@@ -1,0 +1,32 @@
+CLASS lz net/minecraft/gametest/framework/GameTestSequence
+	FIELD a parent Llv;
+	FIELD b events Ljava/util/List;
+	FIELD c lastTick J
+	METHOD <init> <init> (Llv;)V
+	METHOD a thenSucceed ()V
+	METHOD a thenIdle (I)Llz;
+	METHOD a thenExecuteAfter (ILjava/lang/Runnable;)Llz;
+	METHOD a tickAndContinue (J)V
+	METHOD a thenWaitUntil (JLjava/lang/Runnable;)Llz;
+	METHOD a thenWaitUntil (Ljava/lang/Runnable;)Llz;
+	METHOD a thenFail (Ljava/util/function/Supplier;)V
+	METHOD a lambda$thenTrigger$5 (Llz$a;)V
+	METHOD a access$000 (Llz;)Llv;
+	METHOD b thenTrigger ()Llz$a;
+	METHOD b thenExecuteFor (ILjava/lang/Runnable;)Llz;
+	METHOD b tickAndFailIfNotComplete (J)V
+	METHOD b thenExecute (Ljava/lang/Runnable;)Llz;
+	METHOD b lambda$thenFail$4 (Ljava/util/function/Supplier;)V
+	METHOD c lambda$thenIdle$0 ()V
+	METHOD c lambda$thenExecuteFor$3 (ILjava/lang/Runnable;)V
+	METHOD c tick (J)V
+	METHOD c executeWithoutFail (Ljava/lang/Runnable;)V
+	METHOD d lambda$thenExecuteAfter$2 (ILjava/lang/Runnable;)V
+	METHOD d lambda$thenExecute$1 (Ljava/lang/Runnable;)V
+	CLASS a Condition
+		FIELD a this$0 Llz;
+		FIELD b NOT_TRIGGERED J
+		FIELD c triggerTime J
+		METHOD <init> <init> (Llz;)V
+		METHOD a assertTriggeredThisTick ()V
+		METHOD a trigger (J)V

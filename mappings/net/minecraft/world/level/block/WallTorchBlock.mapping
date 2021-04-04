@@ -1,0 +1,16 @@
+CLASS cgp net/minecraft/world/level/block/WallTorchBlock
+	FIELD a FACING Lckl;
+	FIELD b AABB_OFFSET F
+	FIELD c AABBS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;Lho;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD h getDescriptionId ()Ljava/lang/String;
+	METHOD h getShape (Lcjr;)Ldmr;

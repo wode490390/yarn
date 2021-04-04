@@ -1,0 +1,8 @@
+CLASS aea net/minecraft/server/players/ServerOpList
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getUserList ()[Ljava/lang/String;
+	METHOD a lambda$getUserList$0 (I)[Ljava/lang/String;
+	METHOD a createEntry (Lcom/google/gson/JsonObject;)Laed;
+	METHOD a canBypassPlayerLimit (Lcom/mojang/authlib/GameProfile;)Z
+	METHOD a getKeyForUser (Ljava/lang/Object;)Ljava/lang/String;
+	METHOD b getKeyForUser (Lcom/mojang/authlib/GameProfile;)Ljava/lang/String;

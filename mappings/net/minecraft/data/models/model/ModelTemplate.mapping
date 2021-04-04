@@ -1,0 +1,13 @@
+CLASS jj net/minecraft/data/models/model/ModelTemplate
+	FIELD a model Ljava/util/Optional;
+	FIELD b requiredSlots Ljava/util/Set;
+	FIELD c suffix Ljava/util/Optional;
+	METHOD <init> <init> (Ljava/util/Optional;Ljava/util/Optional;[Ljm;)V
+	METHOD a createWithSuffix (Lbyq;Ljava/lang/String;Ljl;Ljava/util/function/BiConsumer;)Lwp;
+	METHOD a create (Lbyq;Ljl;Ljava/util/function/BiConsumer;)Lwp;
+	METHOD a lambda$null$1 (Lcom/google/gson/JsonObject;Ljm;Lwp;)V
+	METHOD a lambda$null$0 (Lcom/google/gson/JsonObject;Lwp;)V
+	METHOD a lambda$create$2 (Ljava/util/Map;)Lcom/google/gson/JsonElement;
+	METHOD a createMap (Ljl;)Ljava/util/Map;
+	METHOD a create (Lwp;Ljl;Ljava/util/function/BiConsumer;)Lwp;
+	METHOD b createWithOverride (Lbyq;Ljava/lang/String;Ljl;Ljava/util/function/BiConsumer;)Lwp;

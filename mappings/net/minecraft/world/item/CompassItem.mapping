@@ -1,0 +1,15 @@
+CLASS bof net/minecraft/world/item/CompassItem
+	FIELD a TAG_LODESTONE_POS Ljava/lang/String;
+	FIELD b TAG_LODESTONE_DIMENSION Ljava/lang/String;
+	FIELD c TAG_LODESTONE_TRACKED Ljava/lang/String;
+	FIELD d LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a inventoryTick (Lbpr;Lbvr;Lasl;IZ)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a getLodestoneDimension (Lmv;)Ljava/util/Optional;
+	METHOD a lambda$addLodestoneTags$0 (Lmv;Lnn;)V
+	METHOD a addLodestoneTags (Lwo;Lgb;Lmv;)V
+	METHOD d isLodestoneCompass (Lbpr;)Z
+	METHOD i isFoil (Lbpr;)Z
+	METHOD j getDescriptionId (Lbpr;)Ljava/lang/String;

@@ -1,0 +1,11 @@
+CLASS arw net/minecraft/world/damagesource/EntityDamageSource
+	FIELD A isThorns Z
+	FIELD z entity Lasl;
+	METHOD <init> <init> (Ljava/lang/String;Lasl;)V
+	METHOD A getSourcePosition ()Ldly;
+	METHOD B setThorns ()Larw;
+	METHOD C isThorns ()Z
+	METHOD a getLocalizedDeathMessage (Lasy;)Lon;
+	METHOD l getEntity ()Lasl;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD u scalesWithDifficulty ()Z

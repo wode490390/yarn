@@ -1,0 +1,5 @@
+CLASS bqd net/minecraft/world/item/PlayerHeadItem
+	FIELD c TAG_SKULL_OWNER Ljava/lang/String;
+	METHOD <init> <init> (Lbyq;Lbyq;Lbpn$a;)V
+	METHOD b verifyTagAfterLoad (Lmv;)Z
+	METHOD m getName (Lbpr;)Lon;

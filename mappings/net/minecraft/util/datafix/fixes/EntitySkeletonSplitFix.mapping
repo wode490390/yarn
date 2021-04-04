@@ -1,0 +1,3 @@
+CLASS ajr net/minecraft/util/datafix/fixes/EntitySkeletonSplitFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a getNewNameAndTag (Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/datafixers/util/Pair;

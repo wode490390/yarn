@@ -1,0 +1,17 @@
+CLASS bkq net/minecraft/world/entity/schedule/Schedule
+	FIELD a WORK_START_TIME I
+	FIELD b TOTAL_WORK_TIME I
+	FIELD c EMPTY Lbkq;
+	FIELD d SIMPLE Lbkq;
+	FIELD e VILLAGER_BABY Lbkq;
+	FIELD f VILLAGER_DEFAULT Lbkq;
+	FIELD g timelines Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getActivityAt (I)Lbko;
+	METHOD a lambda$getActivityAt$1 (ILjava/util/Map$Entry;)D
+	METHOD a ensureTimelineExistsFor (Lbko;)V
+	METHOD a lambda$getAllTimelinesExceptFor$0 (Lbko;Ljava/util/Map$Entry;)Z
+	METHOD a register (Ljava/lang/String;)Lbkr;
+	METHOD b getTimelineFor (Lbko;)Lbks;
+	METHOD c getAllTimelinesExceptFor (Lbko;)Ljava/util/List;

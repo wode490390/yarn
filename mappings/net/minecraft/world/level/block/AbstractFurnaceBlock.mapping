@@ -1,0 +1,17 @@
+CLASS bxl net/minecraft/world/level/block/AbstractFurnaceBlock
+	FIELD a FACING Lckl;
+	FIELD b LIT Lcki;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a createFurnaceTicker (Lbvr;Lchr;Lchr;)Lchq;
+	METHOD a openContainer (Lbvr;Lgb;Lbjf;)V
+	METHOD a setPlacedBy (Lbvr;Lgb;Lcjr;Lasy;Lbpr;)V
+	METHOD a getAnalogOutputSignal (Lcjr;Lbvr;Lgb;)I
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a onRemove (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b_ getRenderShape (Lcjr;)Lced;
+	METHOD g_ hasAnalogOutputSignal (Lcjr;)Z

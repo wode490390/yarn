@@ -1,0 +1,26 @@
+CLASS ea net/minecraft/commands/arguments/OperationArgument
+	FIELD a EXAMPLES Ljava/util/Collection;
+	FIELD b ERROR_INVALID_OPERATION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c ERROR_DIVIDE_BY_ZERO Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a operation ()Lea;
+	METHOD a lambda$getSimpleOperation$6 (II)I
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lea$a;
+	METHOD a getOperation (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lea$a;
+	METHOD a lambda$getOperation$0 (Ldmv;Ldmv;)V
+	METHOD a getOperation (Ljava/lang/String;)Lea$a;
+	METHOD b lambda$getSimpleOperation$5 (II)I
+	METHOD b getSimpleOperation (Ljava/lang/String;)Lea$b;
+	METHOD c lambda$getSimpleOperation$4 (II)I
+	METHOD d lambda$getSimpleOperation$3 (II)I
+	METHOD e lambda$getSimpleOperation$2 (II)I
+	METHOD f lambda$getSimpleOperation$1 (II)I
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	CLASS a Operation
+		METHOD apply apply (Ldmv;Ldmv;)V
+	CLASS b SimpleOperation
+		METHOD apply apply (II)I
+		METHOD apply apply (Ldmv;Ldmv;)V

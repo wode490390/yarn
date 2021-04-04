@@ -1,0 +1,11 @@
+CLASS dbw net/minecraft/world/level/levelgen/surfacebuilders/BasaltDeltasSurfaceBuilder
+	FIELD a BASALT Lcjr;
+	FIELD b BLACKSTONE Lcjr;
+	FIELD c GRAVEL Lcjr;
+	FIELD d FLOOR_BLOCK_STATES Lcom/google/common/collect/ImmutableList;
+	FIELD e CEILING_BLOCK_STATES Lcom/google/common/collect/ImmutableList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getFloorBlockStates ()Lcom/google/common/collect/ImmutableList;
+	METHOD b getCeilingBlockStates ()Lcom/google/common/collect/ImmutableList;
+	METHOD c getPatchBlockState ()Lcjr;

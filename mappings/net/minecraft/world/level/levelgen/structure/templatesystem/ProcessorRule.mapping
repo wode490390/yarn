@@ -1,0 +1,20 @@
+CLASS dbh net/minecraft/world/level/levelgen/structure/templatesystem/ProcessorRule
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b inputPredicate Ldbl;
+	FIELD c locPredicate Ldbl;
+	FIELD d posPredicate Ldbf;
+	FIELD e outputState Lcjr;
+	FIELD f outputTag Lmv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldbl;Ldbl;Lcjr;)V
+	METHOD <init> <init> (Ldbl;Ldbl;Ldbf;Lcjr;)V
+	METHOD <init> <init> (Ldbl;Ldbl;Ldbf;Lcjr;Ljava/util/Optional;)V
+	METHOD a getOutputState ()Lcjr;
+	METHOD a test (Lcjr;Lcjr;Lgb;Lgb;Lgb;Ljava/util/Random;)Z
+	METHOD a lambda$static$5 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$4 (Ldbh;)Ljava/util/Optional;
+	METHOD b getOutputTag ()Lmv;
+	METHOD b lambda$null$3 (Ldbh;)Lcjr;
+	METHOD c lambda$null$2 (Ldbh;)Ldbf;
+	METHOD d lambda$null$1 (Ldbh;)Ldbl;
+	METHOD e lambda$null$0 (Ldbh;)Ldbl;

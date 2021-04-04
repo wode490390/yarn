@@ -1,0 +1,43 @@
+CLASS qy net/minecraft/network/protocol/game/ClientboundMoveEntityPacket
+	FIELD a entityId I
+	FIELD b xa S
+	FIELD c ya S
+	FIELD d za S
+	FIELD e yRot B
+	FIELD f xRot B
+	FIELD g onGround Z
+	FIELD h hasRot Z
+	FIELD i hasPos Z
+	FIELD j TRUNCATION_STEPS D
+	METHOD <init> <init> (ISSSBBZZZ)V
+	METHOD a entityToPacket (D)J
+	METHOD a packetToEntity (J)D
+	METHOD a packetToEntity (JJJ)Ldly;
+	METHOD a getEntity (Lbvr;)Lasl;
+	METHOD a updateEntityPosition (Ldly;)Ldly;
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getXa ()S
+	METHOD c getYa ()S
+	METHOD d getZa ()S
+	METHOD e getyRot ()B
+	METHOD f getxRot ()B
+	METHOD g hasRotation ()Z
+	METHOD h hasPosition ()Z
+	METHOD i isOnGround ()Z
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Pos
+		METHOD <init> <init> (ISSSZ)V
+		METHOD a write (Lob;)V
+		METHOD a handle (Loe;)V
+		METHOD b read (Lob;)Lqy$a;
+	CLASS b PosRot
+		METHOD <init> <init> (ISSSBBZ)V
+		METHOD a write (Lob;)V
+		METHOD a handle (Loe;)V
+		METHOD b read (Lob;)Lqy$b;
+	CLASS c Rot
+		METHOD <init> <init> (IBBZ)V
+		METHOD a write (Lob;)V
+		METHOD a handle (Loe;)V
+		METHOD b read (Lob;)Lqy$c;

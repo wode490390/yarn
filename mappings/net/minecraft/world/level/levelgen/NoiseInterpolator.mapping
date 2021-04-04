@@ -1,0 +1,35 @@
+CLASS cou net/minecraft/world/level/levelgen/NoiseInterpolator
+	FIELD a slice0 [[D
+	FIELD b slice1 [[D
+	FIELD c cellCountY I
+	FIELD d cellCountZ I
+	FIELD e cellNoiseMinY I
+	FIELD f noiseColumnFiller Lcou$a;
+	FIELD g noise000 D
+	FIELD h noise001 D
+	FIELD i noise100 D
+	FIELD j noise101 D
+	FIELD k noise010 D
+	FIELD l noise011 D
+	FIELD m noise110 D
+	FIELD n noise111 D
+	FIELD o valueXZ00 D
+	FIELD p valueXZ10 D
+	FIELD q valueXZ01 D
+	FIELD r valueXZ11 D
+	FIELD s valueZ0 D
+	FIELD t valueZ1 D
+	FIELD u firstCellXInChunk I
+	FIELD v firstCellZInChunk I
+	METHOD <init> <init> (IIIIIILcou$a;)V
+	METHOD a initializeForFirstCellX ()V
+	METHOD a updateForY (D)V
+	METHOD a advanceCellX (I)V
+	METHOD a selectCellYZ (II)V
+	METHOD a fillSlice ([[DI)V
+	METHOD b swapSlices ()V
+	METHOD b updateForX (D)V
+	METHOD b allocateSlice (II)[[D
+	METHOD c calculateValue (D)D
+	CLASS a NoiseColumnFiller
+		METHOD fillNoiseColumn fillNoiseColumn ([DIIII)V

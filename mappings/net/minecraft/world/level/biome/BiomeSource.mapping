@@ -1,0 +1,18 @@
+CLASS bwt net/minecraft/world/level/biome/BiomeSource
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b supportedStructures Ljava/util/Map;
+	FIELD c surfaceBlocks Ljava/util/Set;
+	FIELD d possibleBiomes Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD <init> <init> (Ljava/util/stream/Stream;)V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a getBiomesWithin (IIII)Ljava/util/Set;
+	METHOD a findBiomeHorizontal (IIIIILjava/util/function/Predicate;Ljava/util/Random;Z)Lgb;
+	METHOD a findBiomeHorizontal (IIIILjava/util/function/Predicate;Ljava/util/Random;)Lgb;
+	METHOD a withSeed (J)Lbwt;
+	METHOD a canGenerateStructure (Lcsv;)Z
+	METHOD a lambda$null$0 (Lcsv;Lbwq;)Z
+	METHOD b possibleBiomes ()Ljava/util/List;
+	METHOD b lambda$canGenerateStructure$1 (Lcsv;)Ljava/lang/Boolean;
+	METHOD c getSurfaceBlocks ()Ljava/util/Set;

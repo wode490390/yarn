@@ -1,0 +1,5 @@
+CLASS bly net/minecraft/world/inventory/ContainerSynchronizer
+	METHOD a sendDataChange (Lbll;II)V
+	METHOD a sendSlotChange (Lbll;ILbpr;)V
+	METHOD a sendCarriedChange (Lbll;Lbpr;)V
+	METHOD a sendInitialData (Lbll;Lgn;Lbpr;[I)V

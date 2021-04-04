@@ -1,0 +1,7 @@
+CLASS cpt net/minecraft/world/level/levelgen/feature/AbstractFlowerFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a isValid (Lbvs;Lgb;Lcua;)Z
+	METHOD a place (Lcqz;)Z
+	METHOD a getCount (Lcua;)I
+	METHOD a getPos (Ljava/util/Random;Lgb;Lcua;)Lgb;
+	METHOD b getRandomFlower (Ljava/util/Random;Lgb;Lcua;)Lcjr;

@@ -1,0 +1,43 @@
+CLASS dh net/minecraft/commands/Commands
+	FIELD a LEVEL_ALL I
+	FIELD b LEVEL_MODERATORS I
+	FIELD c LEVEL_GAMEMASTERS I
+	FIELD d LEVEL_ADMINS I
+	FIELD e LEVEL_OWNERS I
+	FIELD f LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD g dispatcher Lcom/mojang/brigadier/CommandDispatcher;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldh$a;)V
+	METHOD a getDispatcher ()Lcom/mojang/brigadier/CommandDispatcher;
+	METHOD a sendCommands (Labk;)V
+	METHOD a getParseException (Lcom/mojang/brigadier/ParseResults;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;
+	METHOD a lambda$validate$8 (Lcom/mojang/brigadier/arguments/ArgumentType;)Ljava/lang/String;
+	METHOD a lambda$fillUsableCommands$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$new$1 (Lcom/mojang/brigadier/context/CommandContext;ZI)V
+	METHOD a lambda$new$0 (Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Ljava/util/Collection;)V
+	METHOD a fillUsableCommands (Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Ldg;Ljava/util/Map;)V
+	METHOD a performCommand (Ldg;Ljava/lang/String;)I
+	METHOD a createValidator (Ldh$b;)Ljava/util/function/Predicate;
+	METHOD a lambda$createValidator$6 (Ldh$b;Ljava/lang/String;)Z
+	METHOD a lambda$fillUsableCommands$4 (Ldi;)Z
+	METHOD a literal (Ljava/lang/String;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;
+	METHOD a argument (Ljava/lang/String;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/RequiredArgumentBuilder;
+	METHOD a lambda$performCommand$2 (Ljava/lang/String;Lox;)Lox;
+	METHOD a lambda$performCommand$3 (Lot;Lox;)Lox;
+	METHOD b validate ()V
+	METHOD b lambda$validate$7 (Lcom/mojang/brigadier/arguments/ArgumentType;)Z
+	CLASS a CommandSelection
+		FIELD a ALL Ldh$a;
+		FIELD b DEDICATED Ldh$a;
+		FIELD c INTEGRATED Ldh$a;
+		FIELD d includeIntegrated Z
+		FIELD e includeDedicated Z
+		FIELD f $VALUES [Ldh$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IZZ)V
+		METHOD a access$000 (Ldh$a;)Z
+		METHOD b access$100 (Ldh$a;)Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldh$a;
+		METHOD values values ()[Ldh$a;
+	CLASS b ParseFunction
+		METHOD parse parse (Lcom/mojang/brigadier/StringReader;)V

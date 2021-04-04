@@ -1,0 +1,8 @@
+CLASS cwq net/minecraft/world/level/levelgen/feature/structures/LegacySinglePoolElement
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/util/Either;Ljava/util/function/Supplier;Lcwv$a;)V
+	METHOD a getType ()Lcwu;
+	METHOD a getSettings (Lcek;Lczp;Z)Ldbo;
+	METHOD a lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,52 @@
+CLASS auv net/minecraft/world/entity/ai/behavior/GateBehavior
+	FIELD a exitErasedMemories Ljava/util/Set;
+	FIELD c orderPolicy Lauv$a;
+	FIELD d runningPolicy Lauv$b;
+	FIELD e behaviors Lawo;
+	METHOD <init> <init> (Ljava/util/Map;Ljava/util/Set;Lauv$a;Lauv$b;Ljava/util/List;)V
+	METHOD a timedOut (J)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a lambda$stop$6 (Labj;Lasy;JLauj;)V
+	METHOD a lambda$toString$7 (Lauj;)Z
+	METHOD a lambda$new$0 (Lcom/mojang/datafixers/util/Pair;)V
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b lambda$tick$4 (Labj;Lasy;JLauj;)V
+	METHOD b lambda$stop$5 (Lauj;)Z
+	METHOD c stop (Labj;Lasy;J)V
+	METHOD c lambda$canStillUse$2 (Labj;Lasy;JLauj;)Z
+	METHOD c lambda$tick$3 (Lauj;)Z
+	METHOD d tick (Labj;Lasy;J)V
+	METHOD d lambda$canStillUse$1 (Lauj;)Z
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+	CLASS a OrderPolicy
+		FIELD a ORDERED Lauv$a;
+		FIELD b SHUFFLED Lauv$a;
+		FIELD c consumer Ljava/util/function/Consumer;
+		FIELD d $VALUES [Lauv$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/util/function/Consumer;)V
+		METHOD a apply (Lawo;)V
+		METHOD b lambda$static$0 (Lawo;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lauv$a;
+		METHOD values values ()[Lauv$a;
+	CLASS b RunningPolicy
+		FIELD a RUN_ONE Lauv$b;
+		FIELD b TRY_ALL Lauv$b;
+		FIELD c $VALUES [Lauv$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD <init> <init> (Ljava/lang/String;ILauv$1;)V
+		METHOD a apply (Ljava/util/stream/Stream;Labj;Lasy;J)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lauv$b;
+		METHOD values values ()[Lauv$b;
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD a lambda$apply$1 (Labj;Lasy;JLauj;)Z
+			METHOD a lambda$apply$0 (Lauj;)Z
+			METHOD a apply (Ljava/util/stream/Stream;Labj;Lasy;J)V
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD a lambda$apply$1 (Labj;Lasy;JLauj;)V
+			METHOD a lambda$apply$0 (Lauj;)Z
+			METHOD a apply (Ljava/util/stream/Stream;Labj;Lasy;J)V

@@ -1,0 +1,21 @@
+CLASS h com/mojang/math/SymmetricGroup3
+	FIELD a P123 Lh;
+	FIELD b P213 Lh;
+	FIELD c P132 Lh;
+	FIELD d P231 Lh;
+	FIELD e P312 Lh;
+	FIELD f P321 Lh;
+	FIELD g permutation [I
+	FIELD h transformation Lc;
+	FIELD i ORDER I
+	FIELD j cayleyTable [[Lh;
+	FIELD k $VALUES [Lh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IIII)V
+	METHOD a transformation ()Lc;
+	METHOD a permutation (I)I
+	METHOD a compose (Lh;)Lh;
+	METHOD a lambda$null$0 ([ILh;)Z
+	METHOD a lambda$static$1 ([[Lh;)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lh;
+	METHOD values values ()[Lh;

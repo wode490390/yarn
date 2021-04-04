@@ -1,0 +1,24 @@
+CLASS bxf net/minecraft/world/level/biome/TheEndBiomeSource
+	FIELD e CODEC Lcom/mojang/serialization/Codec;
+	FIELD f ISLAND_CHUNK_DISTANCE I
+	FIELD g ISLAND_THRESHOLD F
+	FIELD h ISLAND_CHUNK_DISTANCE_SQR J
+	FIELD i islandNoise Ldcw;
+	FIELD j biomes Lgr;
+	FIELD k seed J
+	FIELD l end Lbwq;
+	FIELD m highlands Lbwq;
+	FIELD n midlands Lbwq;
+	FIELD o islands Lbwq;
+	FIELD p barrens Lbwq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgr;J)V
+	METHOD <init> <init> (Lgr;JLbwq;Lbwq;Lbwq;Lbwq;Lbwq;)V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a withSeed (J)Lbwt;
+	METHOD a lambda$null$1 (Lbxf;)Ljava/lang/Long;
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a getHeightValue (Ldcw;II)F
+	METHOD b getNoiseBiome (III)Lbwq;
+	METHOD b stable (J)Z
+	METHOD b lambda$null$0 (Lbxf;)Lgr;

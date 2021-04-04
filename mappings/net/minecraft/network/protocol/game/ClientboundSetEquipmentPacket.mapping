@@ -1,0 +1,11 @@
+CLASS si net/minecraft/network/protocol/game/ClientboundSetEquipmentPacket
+	FIELD a CONTINUE_MASK B
+	FIELD b entity I
+	FIELD c slots Ljava/util/List;
+	METHOD <init> <init> (ILjava/util/List;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getEntity ()I
+	METHOD c getSlots ()Ljava/util/List;

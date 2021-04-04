@@ -1,0 +1,14 @@
+CLASS ddn net/minecraft/world/level/material/EmptyFluid
+	METHOD <init> <init> ()V
+	METHOD a getBucket ()Lbpn;
+	METHOD a getFlow (Lbuv;Lgb;Lddq;)Ldly;
+	METHOD a getTickDelay (Lbvu;)I
+	METHOD a getOwnHeight (Lddq;)F
+	METHOD a getHeight (Lddq;Lbuv;Lgb;)F
+	METHOD a canBeReplacedWith (Lddq;Lbuv;Lgb;Lddp;Lgg;)Z
+	METHOD b isEmpty ()Z
+	METHOD b createLegacyBlock (Lddq;)Lcjr;
+	METHOD b getShape (Lddq;Lbuv;Lgb;)Ldmr;
+	METHOD c getExplosionResistance ()F
+	METHOD c isSource (Lddq;)Z
+	METHOD d getAmount (Lddq;)I

@@ -1,0 +1,20 @@
+CLASS byu net/minecraft/world/level/block/BubbleColumnBlock
+	FIELD a DRAG_DOWN Lcki;
+	FIELD b CHECK_PERIOD I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a updateColumn (Lbvs;Lgb;Lcjr;Lcjr;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a entityInside (Lcjr;Lbvr;Lgb;Lasl;)V
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b updateColumn (Lbvs;Lgb;Lcjr;)V
+	METHOD b_ getRenderShape (Lcjr;)Lced;
+	METHOD c getPickupSound ()Ljava/util/Optional;
+	METHOD c pickupBlock (Lbvs;Lgb;Lcjr;)Lbpr;
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD h canExistIn (Lcjr;)Z
+	METHOD n getColumnState (Lcjr;)Lcjr;

@@ -1,0 +1,10 @@
+CLASS bmv net/minecraft/world/inventory/RecipeBookType
+	FIELD a CRAFTING Lbmv;
+	FIELD b FURNACE Lbmv;
+	FIELD c BLAST_FURNACE Lbmv;
+	FIELD d SMOKER Lbmv;
+	FIELD e $VALUES [Lbmv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbmv;
+	METHOD values values ()[Lbmv;

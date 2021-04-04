@@ -1,0 +1,24 @@
+CLASS cxh net/minecraft/world/level/levelgen/feature/trunkplacers/FancyTrunkPlacer
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b TRUNK_HEIGHT_SCALE D
+	FIELD h CLUSTER_DENSITY_MAGIC D
+	FIELD i BRANCH_SLOPE D
+	FIELD j BRANCH_LENGTH_MAGIC D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (III)V
+	METHOD a type ()Lcxn;
+	METHOD a trimBranches (II)Z
+	METHOD a placeTrunk (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;ILgb;Lcvg;)Ljava/util/List;
+	METHOD a makeBranches (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;ILgb;Ljava/util/List;Lcvg;)V
+	METHOD a makeLimb (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Lgb;Lgb;ZLcvg;)Z
+	METHOD a getSteps (Lgb;)I
+	METHOD a getLogAxis (Lgb;Lgb;)Lgg$a;
+	METHOD a lambda$makeLimb$1 (Lgb;Lgb;Lcjr;)Lcjr;
+	METHOD b treeShape (II)F
+	METHOD b lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	CLASS a FoliageCoords
+		FIELD a attachment Lcvu$a;
+		FIELD b branchBase I
+		METHOD <init> <init> (Lgb;I)V
+		METHOD a getBranchBase ()I
+		METHOD a access$000 (Lcxh$a;)Lcvu$a;

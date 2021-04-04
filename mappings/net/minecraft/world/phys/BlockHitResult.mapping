@@ -1,0 +1,14 @@
+CLASS dlu net/minecraft/world/phys/BlockHitResult
+	FIELD b direction Lgg;
+	FIELD c blockPos Lgb;
+	FIELD d miss Z
+	FIELD e inside Z
+	METHOD <init> <init> (Ldly;Lgg;Lgb;Z)V
+	METHOD <init> <init> (ZLdly;Lgg;Lgb;Z)V
+	METHOD a getBlockPos ()Lgb;
+	METHOD a miss (Ldly;Lgg;Lgb;)Ldlu;
+	METHOD a withPosition (Lgb;)Ldlu;
+	METHOD a withDirection (Lgg;)Ldlu;
+	METHOD b getDirection ()Lgg;
+	METHOD c getType ()Ldlw$a;
+	METHOD d isInside ()Z

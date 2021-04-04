@@ -1,0 +1,12 @@
+CLASS qe net/minecraft/network/protocol/game/ClientboundContainerSetDataPacket
+	FIELD a containerId I
+	FIELD b id I
+	FIELD c value I
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getContainerId ()I
+	METHOD c getId ()I
+	METHOD d getValue ()I

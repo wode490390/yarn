@@ -1,0 +1,22 @@
+CLASS tc net/minecraft/network/protocol/game/ClientboundUpdateMobEffectPacket
+	FIELD a FLAG_AMBIENT I
+	FIELD b FLAG_VISIBLE I
+	FIELD c FLAG_SHOW_ICON I
+	FIELD d entityId I
+	FIELD e effectId B
+	FIELD f effectAmplifier B
+	FIELD g effectDurationTicks I
+	FIELD h flags B
+	METHOD <init> <init> (ILasf;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b isSuperLongDuration ()Z
+	METHOD c getEntityId ()I
+	METHOD d getEffectId ()B
+	METHOD e getEffectAmplifier ()B
+	METHOD f getEffectDurationTicks ()I
+	METHOD g isEffectVisible ()Z
+	METHOD h isEffectAmbient ()Z
+	METHOD i effectShowsIcon ()Z

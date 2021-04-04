@@ -1,0 +1,26 @@
+CLASS bmb net/minecraft/world/inventory/DataSlot
+	FIELD a prevValue I
+	METHOD <init> <init> ()V
+	METHOD a standalone ()Lbmb;
+	METHOD a set (I)V
+	METHOD a forContainer (Lblv;I)Lbmb;
+	METHOD a shared ([II)Lbmb;
+	METHOD b get ()I
+	METHOD c checkAndClearUpdateFlag ()Z
+	CLASS 1 1
+		FIELD a val$container Lblv;
+		FIELD b val$dataId I
+		METHOD <init> <init> (Lblv;I)V
+		METHOD a set (I)V
+		METHOD b get ()I
+	CLASS 2 2
+		FIELD a val$storage [I
+		FIELD b val$index I
+		METHOD <init> <init> ([II)V
+		METHOD a set (I)V
+		METHOD b get ()I
+	CLASS 3 3
+		FIELD a value I
+		METHOD <init> <init> ()V
+		METHOD a set (I)V
+		METHOD b get ()I

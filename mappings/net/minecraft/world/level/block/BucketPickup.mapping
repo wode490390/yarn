@@ -1,0 +1,3 @@
+CLASS byv net/minecraft/world/level/block/BucketPickup
+	METHOD c getPickupSound ()Ljava/util/Optional;
+	METHOD c pickupBlock (Lbvs;Lgb;Lcjr;)Lbpr;

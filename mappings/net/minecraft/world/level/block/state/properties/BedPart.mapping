@@ -1,0 +1,11 @@
+CLASS ckf net/minecraft/world/level/block/state/properties/BedPart
+	FIELD a HEAD Lckf;
+	FIELD b FOOT Lckf;
+	FIELD c name Ljava/lang/String;
+	FIELD d $VALUES [Lckf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD c getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lckf;
+	METHOD values values ()[Lckf;

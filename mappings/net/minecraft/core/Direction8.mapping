@@ -1,0 +1,16 @@
+CLASS gh net/minecraft/core/Direction8
+	FIELD a NORTH Lgh;
+	FIELD b NORTH_EAST Lgh;
+	FIELD c EAST Lgh;
+	FIELD d SOUTH_EAST Lgh;
+	FIELD e SOUTH Lgh;
+	FIELD f SOUTH_WEST Lgh;
+	FIELD g WEST Lgh;
+	FIELD h NORTH_WEST Lgh;
+	FIELD i directions Ljava/util/Set;
+	FIELD j $VALUES [Lgh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I[Lgg;)V
+	METHOD a getDirections ()Ljava/util/Set;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lgh;
+	METHOD values values ()[Lgh;

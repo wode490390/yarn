@@ -1,0 +1,21 @@
+CLASS wr net/minecraft/server/Bootstrap
+	FIELD a STDOUT Ljava/io/PrintStream;
+	FIELD b isBootstrapped Z
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootStrap ()V
+	METHOD a checkTranslations (Ljava/lang/Iterable;Ljava/util/function/Function;Ljava/util/Set;)V
+	METHOD a realStdoutPrintln (Ljava/lang/String;)V
+	METHOD a checkGameruleTranslations (Ljava/util/Set;)V
+	METHOD a lambda$checkTranslations$0 (Ljava/util/function/Function;Lmq;Ljava/util/Set;Ljava/lang/Object;)V
+	METHOD a lambda$getMissingTranslations$1 (Lwp;)Ljava/lang/String;
+	METHOD b getMissingTranslations ()Ljava/util/Set;
+	METHOD b lambda$validate$2 (Ljava/lang/String;)V
+	METHOD c validate ()V
+	METHOD d wrapStreams ()V
+	CLASS 1 1
+		FIELD a val$language Lmq;
+		FIELD b val$missing Ljava/util/Set;
+		METHOD <init> <init> (Lmq;Ljava/util/Set;)V
+		METHOD a visit (Lbvn$e;Lbvn$f;)V

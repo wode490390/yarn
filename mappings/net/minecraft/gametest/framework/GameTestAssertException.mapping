@@ -1,0 +1,2 @@
+CLASS lo net/minecraft/gametest/framework/GameTestAssertException
+	METHOD <init> <init> (Ljava/lang/String;)V

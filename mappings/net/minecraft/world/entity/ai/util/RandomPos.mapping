@@ -1,0 +1,10 @@
+CLASS bcj net/minecraft/world/entity/ai/util/RandomPos
+	FIELD a RANDOM_POS_ATTEMPTS I
+	METHOD <init> <init> ()V
+	METHOD a generateRandomPosTowardDirection (Latg;ILjava/util/Random;Lgb;)Lgb;
+	METHOD a generateRandomPos (Latg;Ljava/util/function/Supplier;)Ldly;
+	METHOD a moveUpToAboveSolid (Lgb;IILjava/util/function/Predicate;)Lgb;
+	METHOD a moveUpOutOfSolid (Lgb;ILjava/util/function/Predicate;)Lgb;
+	METHOD a generateRandomDirection (Ljava/util/Random;II)Lgb;
+	METHOD a generateRandomDirectionWithinRadians (Ljava/util/Random;IIIDDD)Lgb;
+	METHOD a generateRandomPos (Ljava/util/function/Supplier;Ljava/util/function/ToDoubleFunction;)Ldly;

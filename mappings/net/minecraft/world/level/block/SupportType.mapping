@@ -1,0 +1,24 @@
+CLASS cfu net/minecraft/world/level/block/SupportType
+	FIELD a FULL Lcfu;
+	FIELD b CENTER Lcfu;
+	FIELD c RIGID Lcfu;
+	FIELD d $VALUES [Lcfu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD <init> <init> (Ljava/lang/String;ILcfu$1;)V
+	METHOD a isSupporting (Lcjr;Lbuv;Lgb;Lgg;)Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcfu;
+	METHOD values values ()[Lcfu;
+	CLASS 1 1
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a isSupporting (Lcjr;Lbuv;Lgb;Lgg;)Z
+	CLASS 2 2
+		FIELD d CENTER_SUPPORT_WIDTH I
+		FIELD e CENTER_SUPPORT_SHAPE Ldmr;
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a isSupporting (Lcjr;Lbuv;Lgb;Lgg;)Z
+	CLASS 3 3
+		FIELD d RIGID_SUPPORT_WIDTH I
+		FIELD e RIGID_SUPPORT_SHAPE Ldmr;
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a isSupporting (Lcjr;Lbuv;Lgb;Lgg;)Z

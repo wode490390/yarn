@@ -1,0 +1,10 @@
+CLASS rq net/minecraft/network/protocol/game/ClientboundRotateHeadPacket
+	FIELD a entityId I
+	FIELD b yHeadRot B
+	METHOD <init> <init> (Lasl;B)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a getEntity (Lbvr;)Lasl;
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getYHeadRot ()B

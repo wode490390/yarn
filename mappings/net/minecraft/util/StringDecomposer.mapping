@@ -1,0 +1,17 @@
+CLASS agy net/minecraft/util/StringDecomposer
+	FIELD a REPLACEMENT_CHAR C
+	FIELD b STOP_ITERATION Ljava/util/Optional;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$iterateFormatted$0 (Lagk;Lox;Ljava/lang/String;)Ljava/util/Optional;
+	METHOD a filterBrokenSurrogates (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a iterateFormatted (Ljava/lang/String;ILox;Lagk;)Z
+	METHOD a iterateFormatted (Ljava/lang/String;ILox;Lox;Lagk;)Z
+	METHOD a iterate (Ljava/lang/String;Lox;Lagk;)Z
+	METHOD a lambda$getPlainText$2 (Ljava/lang/StringBuilder;ILox;I)Z
+	METHOD a getPlainText (Loq;)Ljava/lang/String;
+	METHOD a iterateFormatted (Loq;Lox;Lagk;)Z
+	METHOD a feedChar (Lox;Lagk;IC)Z
+	METHOD b iterateBackwards (Ljava/lang/String;Lox;Lagk;)Z
+	METHOD b lambda$filterBrokenSurrogates$1 (Ljava/lang/StringBuilder;ILox;I)Z
+	METHOD c iterateFormatted (Ljava/lang/String;Lox;Lagk;)Z

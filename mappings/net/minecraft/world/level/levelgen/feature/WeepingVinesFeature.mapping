@@ -1,0 +1,8 @@
+CLASS ctg net/minecraft/world/level/levelgen/feature/WeepingVinesFeature
+	FIELD a DIRECTIONS [Lgg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a placeWeepingVinesColumn (Lbvs;Ljava/util/Random;Lgb$a;III)V
+	METHOD a placeRoofNetherWart (Lbvs;Ljava/util/Random;Lgb;)V
+	METHOD a place (Lcqz;)Z
+	METHOD b placeRoofWeepingVines (Lbvs;Ljava/util/Random;Lgb;)V

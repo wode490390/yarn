@@ -1,0 +1,35 @@
+CLASS yc net/minecraft/server/commands/ExperienceCommand
+	FIELD a ERROR_SET_POINTS_INVALID Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$8 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$9 (Ldg;)Z
+	METHOD a queryExperience (Ldg;Labk;Lyc$a;)I
+	METHOD a addExperience (Ldg;Ljava/util/Collection;ILyc$a;)I
+	METHOD b lambda$register$7 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$register$0 (Ldg;)Z
+	METHOD b setExperience (Ldg;Ljava/util/Collection;ILyc$a;)I
+	METHOD c lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD g lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD h lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I
+	CLASS a Type
+		FIELD a POINTS Lyc$a;
+		FIELD b LEVELS Lyc$a;
+		FIELD c add Ljava/util/function/BiConsumer;
+		FIELD d set Ljava/util/function/BiPredicate;
+		FIELD e name Ljava/lang/String;
+		FIELD f query Ljava/util/function/ToIntFunction;
+		FIELD g $VALUES [Lyc$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ljava/util/function/BiConsumer;Ljava/util/function/BiPredicate;Ljava/util/function/ToIntFunction;)V
+		METHOD a lambda$static$3 (Labk;)I
+		METHOD a lambda$static$2 (Labk;Ljava/lang/Integer;)Z
+		METHOD a access$000 (Lyc$a;)Ljava/util/function/ToIntFunction;
+		METHOD b lambda$static$1 (Labk;)I
+		METHOD b lambda$static$0 (Labk;Ljava/lang/Integer;)Z
+		METHOD valueOf valueOf (Ljava/lang/String;)Lyc$a;
+		METHOD values values ()[Lyc$a;

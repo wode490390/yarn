@@ -1,0 +1,14 @@
+CLASS aem net/minecraft/server/rcon/RconConsoleSource
+	FIELD b RCON Ljava/lang/String;
+	FIELD c RCON_COMPONENT Lon;
+	FIELD d buffer Ljava/lang/StringBuffer;
+	FIELD e server Lnet/minecraft/server/MinecraftServer;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+	METHOD R_ shouldInformAdmins ()Z
+	METHOD a acceptsSuccess ()Z
+	METHOD a sendMessage (Lon;Ljava/util/UUID;)V
+	METHOD b acceptsFailure ()Z
+	METHOD d prepareForCommand ()V
+	METHOD e getCommandResponse ()Ljava/lang/String;
+	METHOD f createCommandSourceStack ()Ldg;

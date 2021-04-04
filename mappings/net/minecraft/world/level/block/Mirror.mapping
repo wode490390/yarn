@@ -1,0 +1,19 @@
+CLASS ccy net/minecraft/world/level/block/Mirror
+	FIELD a NONE Lccy;
+	FIELD b LEFT_RIGHT Lccy;
+	FIELD c FRONT_BACK Lccy;
+	FIELD d symbol Lon;
+	FIELD e rotation Lf;
+	FIELD f $VALUES [Lccy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILon;Lf;)V
+	METHOD a rotation ()Lf;
+	METHOD a mirror (II)I
+	METHOD a getRotation (Lgg;)Lcek;
+	METHOD b symbol ()Lon;
+	METHOD b mirror (Lgg;)Lgg;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lccy;
+	METHOD values values ()[Lccy;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$Mirror [I
+		METHOD <clinit> <clinit> ()V

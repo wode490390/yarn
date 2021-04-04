@@ -1,0 +1,18 @@
+CLASS bzm net/minecraft/world/level/block/ChainBlock
+	FIELD a WATERLOGGED Lcki;
+	FIELD b AABB_MIN F
+	FIELD c AABB_MAX F
+	FIELD d Y_AXIS_AABB Ldmr;
+	FIELD e Z_AXIS_AABB Ldmr;
+	FIELD f X_AXIS_AABB Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction$Axis [I
+		METHOD <clinit> <clinit> ()V

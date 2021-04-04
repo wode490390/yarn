@@ -1,0 +1,3 @@
+CLASS bmf net/minecraft/world/inventory/FurnaceMenu
+	METHOD <init> <init> (ILbje;)V
+	METHOD <init> <init> (ILbje;Laqz;Lblv;)V

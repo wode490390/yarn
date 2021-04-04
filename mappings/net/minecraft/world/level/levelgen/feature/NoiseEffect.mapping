@@ -1,0 +1,9 @@
+CLASS crz net/minecraft/world/level/levelgen/feature/NoiseEffect
+	FIELD a NONE Lcrz;
+	FIELD b BURY Lcrz;
+	FIELD c BEARD Lcrz;
+	FIELD d $VALUES [Lcrz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcrz;
+	METHOD values values ()[Lcrz;

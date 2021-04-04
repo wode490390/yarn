@@ -1,0 +1,3 @@
+CLASS bol net/minecraft/world/item/DispensibleContainerItem
+	METHOD a checkExtraContent (Lbjf;Lbvr;Lbpr;Lgb;)V
+	METHOD a emptyContents (Lbjf;Lbvr;Lgb;Ldlu;)Z

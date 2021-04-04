@@ -1,0 +1,4 @@
+CLASS dli net/minecraft/world/level/storage/loot/providers/score/ScoreboardNameProvider
+	METHOD a getType ()Ldlh;
+	METHOD a getScoreboardName (Ldhn;)Ljava/lang/String;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;

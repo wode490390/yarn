@@ -1,0 +1,31 @@
+CLASS xb net/minecraft/server/ServerFunctionManager
+	FIELD a TICK_FUNCTION_TAG Lwp;
+	FIELD b LOAD_FUNCTION_TAG Lwp;
+	FIELD c server Lnet/minecraft/server/MinecraftServer;
+	FIELD d isInFunction Z
+	FIELD e commandQueue Ljava/util/ArrayDeque;
+	FIELD f nestedCalls Ljava/util/List;
+	FIELD g ticking Ljava/util/List;
+	FIELD h postReload Z
+	FIELD i library Lxa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Lxa;)V
+	METHOD a getCommandLimit ()I
+	METHOD a execute (Ldd;Ldg;)I
+	METHOD a executeTagFunctions (Ljava/util/Collection;Lwp;)V
+	METHOD a get (Lwp;)Ljava/util/Optional;
+	METHOD a replaceLibrary (Lxa;)V
+	METHOD b getDispatcher ()Lcom/mojang/brigadier/CommandDispatcher;
+	METHOD b getTag (Lwp;)Lafs;
+	METHOD b postReload (Lxa;)V
+	METHOD c tick ()V
+	METHOD d getGameLoopSender ()Ldg;
+	METHOD e getFunctionNames ()Ljava/lang/Iterable;
+	METHOD f getTagNames ()Ljava/lang/Iterable;
+	CLASS a QueuedCommand
+		FIELD a manager Lxb;
+		FIELD b sender Ldg;
+		FIELD c entry Ldd$c;
+		METHOD <init> <init> (Lxb;Ldg;Ldd$c;)V
+		METHOD a execute (Ljava/util/ArrayDeque;I)V
+		METHOD toString toString ()Ljava/lang/String;

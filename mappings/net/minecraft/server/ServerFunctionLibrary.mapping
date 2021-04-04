@@ -1,0 +1,27 @@
+CLASS xa net/minecraft/server/ServerFunctionLibrary
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b FILE_EXTENSION Ljava/lang/String;
+	FIELD c PATH_PREFIX_LENGTH I
+	FIELD d PATH_SUFFIX_LENGTH I
+	FIELD e functions Ljava/util/Map;
+	FIELD f tagsLoader Lafv;
+	FIELD g tags Laft;
+	FIELD h functionCompilationLevel I
+	FIELD i dispatcher Lcom/mojang/brigadier/CommandDispatcher;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a getFunctions ()Ljava/util/Map;
+	METHOD a reload (Ladg$a;Ladl;Lapl;Lapl;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a lambda$reload$2 (Ladl;)Ljava/util/Collection;
+	METHOD a lambda$reload$5 (Ladl;Ljava/util/concurrent/Executor;Ljava/util/Collection;)Ljava/util/concurrent/CompletionStage;
+	METHOD a readLines (Ladl;Lwp;)Ljava/util/List;
+	METHOD a lambda$null$3 (Ladl;Lwp;Lwp;Ldg;)Ldd;
+	METHOD a lambda$null$7 (Lcom/google/common/collect/ImmutableMap$Builder;Lwp;Ljava/util/concurrent/CompletableFuture;)V
+	METHOD a lambda$reload$8 (Lcom/mojang/datafixers/util/Pair;)V
+	METHOD a lambda$null$1 (Ljava/lang/String;)Z
+	METHOD a lambda$null$4 (Ljava/util/Map;Ljava/lang/Void;Ljava/lang/Throwable;)Ljava/util/Map;
+	METHOD a getFunction (Lwp;)Ljava/util/Optional;
+	METHOD a lambda$null$6 (Lwp;Lcom/google/common/collect/ImmutableMap$Builder;Ldd;Ljava/lang/Throwable;)Ljava/lang/Object;
+	METHOD b getTags ()Laft;
+	METHOD b lambda$reload$0 (Ladl;)Ljava/util/Map;
+	METHOD b getTag (Lwp;)Lafs;

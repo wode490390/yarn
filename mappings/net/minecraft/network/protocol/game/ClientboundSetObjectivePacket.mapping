@@ -1,0 +1,17 @@
+CLASS sl net/minecraft/network/protocol/game/ClientboundSetObjectivePacket
+	FIELD a METHOD_ADD I
+	FIELD b METHOD_REMOVE I
+	FIELD c METHOD_CHANGE I
+	FIELD d objectiveName Ljava/lang/String;
+	FIELD e displayName Lon;
+	FIELD f renderType Ldmz$a;
+	FIELD g method I
+	METHOD <init> <init> (Ldmt;I)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getObjectiveName ()Ljava/lang/String;
+	METHOD c getDisplayName ()Lon;
+	METHOD d getMethod ()I
+	METHOD e getRenderType ()Ldmz$a;

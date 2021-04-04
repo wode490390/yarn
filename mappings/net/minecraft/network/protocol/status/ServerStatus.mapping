@@ -1,0 +1,49 @@
+CLASS vt net/minecraft/network/protocol/status/ServerStatus
+	FIELD a FAVICON_WIDTH I
+	FIELD b FAVICON_HEIGHT I
+	FIELD c description Lon;
+	FIELD d players Lvt$a;
+	FIELD e version Lvt$c;
+	FIELD f favicon Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD a getDescription ()Lon;
+	METHOD a setFavicon (Ljava/lang/String;)V
+	METHOD a setDescription (Lon;)V
+	METHOD a setPlayers (Lvt$a;)V
+	METHOD a setVersion (Lvt$c;)V
+	METHOD b getPlayers ()Lvt$a;
+	METHOD c getVersion ()Lvt$c;
+	METHOD d getFavicon ()Ljava/lang/String;
+	CLASS a Players
+		FIELD a maxPlayers I
+		FIELD b numPlayers I
+		FIELD c sample [Lcom/mojang/authlib/GameProfile;
+		METHOD <init> <init> (II)V
+		METHOD a getMaxPlayers ()I
+		METHOD a setSample ([Lcom/mojang/authlib/GameProfile;)V
+		METHOD b getNumPlayers ()I
+		METHOD c getSample ()[Lcom/mojang/authlib/GameProfile;
+		CLASS a Serializer
+			METHOD <init> <init> ()V
+			METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lvt$a;
+			METHOD a serialize (Lvt$a;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+			METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+			METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lvt;
+		METHOD a serialize (Lvt;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+	CLASS c Version
+		FIELD a name Ljava/lang/String;
+		FIELD b protocol I
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD b getProtocol ()I
+		CLASS a Serializer
+			METHOD <init> <init> ()V
+			METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lvt$c;
+			METHOD a serialize (Lvt$c;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+			METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+			METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

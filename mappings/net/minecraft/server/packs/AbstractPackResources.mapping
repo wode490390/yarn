@@ -1,0 +1,16 @@
+CLASS ack net/minecraft/server/packs/AbstractPackResources
+	FIELD a file Ljava/io/File;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a getResource (Laco;Lwp;)Ljava/io/InputStream;
+	METHOD a getMetadataSection (Lacr;)Ljava/lang/Object;
+	METHOD a getMetadataFromStream (Lacr;Ljava/io/InputStream;)Ljava/lang/Object;
+	METHOD a getRelativePath (Ljava/io/File;Ljava/io/File;)Ljava/lang/String;
+	METHOD a getResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD b hasResource (Laco;Lwp;)Z
+	METHOD b getRootResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD c getPathFromLocation (Laco;Lwp;)Ljava/lang/String;
+	METHOD c hasResource (Ljava/lang/String;)Z
+	METHOD d logWarning (Ljava/lang/String;)V

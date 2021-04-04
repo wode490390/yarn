@@ -1,0 +1,7 @@
+CLASS id net/minecraft/data/advancements/NetherAdvancements
+	FIELD a EXPLORABLE_BIOMES Ljava/util/List;
+	FIELD b DISTRACT_PIGLIN_PLAYER_ARMOR_PREDICATE Lbl$b;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a accept (Ljava/util/function/Consumer;)V
+	METHOD accept accept (Ljava/lang/Object;)V

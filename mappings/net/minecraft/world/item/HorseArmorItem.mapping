@@ -1,0 +1,7 @@
+CLASS bpm net/minecraft/world/item/HorseArmorItem
+	FIELD a TEX_FOLDER Ljava/lang/String;
+	FIELD b protection I
+	FIELD c texture Ljava/lang/String;
+	METHOD <init> <init> (ILjava/lang/String;Lbpn$a;)V
+	METHOD i getTexture ()Lwp;
+	METHOD j getProtection ()I

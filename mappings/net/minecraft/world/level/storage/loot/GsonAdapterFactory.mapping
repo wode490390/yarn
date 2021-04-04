@@ -1,0 +1,30 @@
+CLASS dhk net/minecraft/world/level/storage/loot/GsonAdapterFactory
+	METHOD <init> <init> ()V
+	METHOD a builder (Lgr;Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Function;)Ldhk$a;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a registry Lgr;
+		FIELD b elementName Ljava/lang/String;
+		FIELD c typeKey Ljava/lang/String;
+		FIELD d typeGetter Ljava/util/function/Function;
+		FIELD e inlineType Lcom/mojang/datafixers/util/Pair;
+		FIELD f defaultType Ldhu;
+		METHOD <init> <init> (Lgr;Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Function;)V
+		METHOD <init> <init> (Lgr;Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Function;Ldhk$1;)V
+		METHOD a build ()Ljava/lang/Object;
+		METHOD a withDefaultType (Ldhu;)Ldhk$a;
+		METHOD a withInlineSerializer (Ldhu;Ldhk$b;)Ldhk$a;
+	CLASS b InlineSerializer
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+	CLASS c JsonAdapter
+		FIELD a registry Lgr;
+		FIELD b elementName Ljava/lang/String;
+		FIELD c typeKey Ljava/lang/String;
+		FIELD d typeGetter Ljava/util/function/Function;
+		FIELD e defaultType Ldhu;
+		FIELD f inlineType Lcom/mojang/datafixers/util/Pair;
+		METHOD <init> <init> (Lgr;Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Function;Ldhu;Lcom/mojang/datafixers/util/Pair;)V
+		METHOD <init> <init> (Lgr;Ljava/lang/String;Ljava/lang/String;Ljava/util/function/Function;Ldhu;Lcom/mojang/datafixers/util/Pair;Ldhk$1;)V
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

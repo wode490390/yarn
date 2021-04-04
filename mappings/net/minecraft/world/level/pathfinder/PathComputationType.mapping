@@ -1,0 +1,9 @@
+CLASS dfz net/minecraft/world/level/pathfinder/PathComputationType
+	FIELD a LAND Ldfz;
+	FIELD b WATER Ldfz;
+	FIELD c AIR Ldfz;
+	FIELD d $VALUES [Ldfz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldfz;
+	METHOD values values ()[Ldfz;

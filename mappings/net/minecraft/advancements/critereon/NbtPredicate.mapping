@@ -1,0 +1,11 @@
+CLASS cg net/minecraft/advancements/critereon/NbtPredicate
+	FIELD a ANY Lcg;
+	FIELD b tag Lmv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lmv;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a matches (Lasl;)Z
+	METHOD a matches (Lbpr;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lcg;
+	METHOD a matches (Lnn;)Z
+	METHOD b getEntityTagToCompare (Lasl;)Lmv;

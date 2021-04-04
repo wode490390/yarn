@@ -1,0 +1,14 @@
+CLASS zz net/minecraft/server/commands/WeatherCommand
+	FIELD a DEFAULT_TIME I
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$6 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Ldg;)Z
+	METHOD a setClear (Ldg;I)I
+	METHOD b lambda$register$5 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b setRain (Ldg;I)I
+	METHOD c lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c setThunder (Ldg;I)I
+	METHOD d lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD e lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD f lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

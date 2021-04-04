@@ -1,0 +1,10 @@
+CLASS fb net/minecraft/commands/arguments/item/ItemArgument
+	FIELD a EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a item ()Lfb;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lfc;
+	METHOD a getItem (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lfc;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

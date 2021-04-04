@@ -1,0 +1,6 @@
+CLASS cdv net/minecraft/world/level/block/PumpkinBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a lambda$use$0 (Larf;Lbjf;)V
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD c getStem ()Lcfn;
+	METHOD d getAttachedStem ()Lbxs;

@@ -1,0 +1,20 @@
+CLASS brt net/minecraft/world/item/context/UseOnContext
+	FIELD a player Lbjf;
+	FIELD b hand Larf;
+	FIELD c hitResult Ldlu;
+	FIELD d level Lbvr;
+	FIELD e itemStack Lbpr;
+	METHOD <init> <init> (Lbjf;Larf;Ldlu;)V
+	METHOD <init> <init> (Lbvr;Lbjf;Larf;Lbpr;Ldlu;)V
+	METHOD a getClickedPos ()Lgb;
+	METHOD g getHorizontalDirection ()Lgg;
+	METHOD h isSecondaryUseActive ()Z
+	METHOD i getRotation ()F
+	METHOD j getHitResult ()Ldlu;
+	METHOD k getClickedFace ()Lgg;
+	METHOD l getClickLocation ()Ldly;
+	METHOD m isInside ()Z
+	METHOD n getItemInHand ()Lbpr;
+	METHOD o getPlayer ()Lbjf;
+	METHOD p getHand ()Larf;
+	METHOD q getLevel ()Lbvr;

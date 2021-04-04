@@ -1,0 +1,15 @@
+CLASS cvf net/minecraft/world/level/levelgen/feature/configurations/StructureFeatureConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b spacing I
+	FIELD c separation I
+	FIELD d salt I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (III)V
+	METHOD a spacing ()I
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$static$4 (Lcvf;)Lcom/mojang/serialization/DataResult;
+	METHOD b separation ()I
+	METHOD b lambda$null$2 (Lcvf;)Ljava/lang/Integer;
+	METHOD c salt ()I
+	METHOD c lambda$null$1 (Lcvf;)Ljava/lang/Integer;
+	METHOD d lambda$null$0 (Lcvf;)Ljava/lang/Integer;

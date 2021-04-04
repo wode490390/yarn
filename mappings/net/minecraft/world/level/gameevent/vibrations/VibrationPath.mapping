@@ -1,0 +1,16 @@
+CLASS cob net/minecraft/world/level/gameevent/vibrations/VibrationPath
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b origin Lgb;
+	FIELD c destination Lcnx;
+	FIELD d arrivalInTicks I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgb;Lcnx;I)V
+	METHOD a getArrivalInTicks ()I
+	METHOD a lambda$null$2 (Lcob;)Ljava/lang/Integer;
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a read (Lob;)Lcob;
+	METHOD a write (Lob;Lcob;)V
+	METHOD b getOrigin ()Lgb;
+	METHOD b lambda$null$1 (Lcob;)Lcnx;
+	METHOD c getDestination ()Lcnx;
+	METHOD c lambda$null$0 (Lcob;)Lgb;

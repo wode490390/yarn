@@ -1,0 +1,10 @@
+CLASS bbg net/minecraft/world/entity/ai/sensing/AdultSensor
+	METHOD <init> <init> ()V
+	METHOD a requires ()Ljava/util/Set;
+	METHOD a doTick (Labj;Lasj;)V
+	METHOD a doTick (Labj;Lasy;)V
+	METHOD a lambda$setNearestVisibleAdult$3 (Lasj;)Z
+	METHOD a lambda$setNearestVisibleAdult$1 (Lasj;Lasy;)Z
+	METHOD a setNearestVisibleAdult (Lasj;Ljava/util/List;)V
+	METHOD a lambda$setNearestVisibleAdult$2 (Lasy;)Lasj;
+	METHOD b lambda$doTick$0 (Lasj;Ljava/util/List;)V

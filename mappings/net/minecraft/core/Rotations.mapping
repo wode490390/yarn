@@ -1,0 +1,14 @@
+CLASS gt net/minecraft/core/Rotations
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F
+	METHOD <init> <init> (FFF)V
+	METHOD <init> <init> (Lnb;)V
+	METHOD a save ()Lnb;
+	METHOD b getX ()F
+	METHOD c getY ()F
+	METHOD d getZ ()F
+	METHOD e getWrappedX ()F
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getWrappedY ()F
+	METHOD g getWrappedZ ()F

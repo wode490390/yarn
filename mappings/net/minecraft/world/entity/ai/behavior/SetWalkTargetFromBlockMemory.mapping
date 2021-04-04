@@ -1,0 +1,15 @@
+CLASS awl net/minecraft/world/entity/ai/behavior/SetWalkTargetFromBlockMemory
+	FIELD a memoryType Lbav;
+	FIELD c speedModifier F
+	FIELD d closeEnoughDist I
+	FIELD e tooFarDistance I
+	FIELD f tooLongUnreachableDuration I
+	METHOD <init> <init> (Lbav;FIII)V
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a tiredOfTryingToFindTarget (Labj;Lbis;)Z
+	METHOD a start (Labj;Lbis;J)V
+	METHOD a lambda$start$0 (Labj;Lbis;JLats;Lgj;)V
+	METHOD a closeEnough (Labj;Lbis;Lgj;)Z
+	METHOD a wrongDimension (Labj;Lgj;)Z
+	METHOD a dropPOI (Lbis;J)V
+	METHOD a tooFar (Lbis;Lgj;)Z

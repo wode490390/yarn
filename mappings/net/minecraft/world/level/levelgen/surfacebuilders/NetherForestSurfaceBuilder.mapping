@@ -1,0 +1,9 @@
+CLASS dcf net/minecraft/world/level/levelgen/surfacebuilders/NetherForestSurfaceBuilder
+	FIELD a seed J
+	FIELD b AIR Lcjr;
+	FIELD c decorationNoise Ldcu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a initNoise (J)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcl;)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcm;)V

@@ -1,0 +1,3 @@
+CLASS bqi net/minecraft/world/item/SaddleItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a interactLivingEntity (Lbpr;Lbjf;Lasy;Larf;)Larg;

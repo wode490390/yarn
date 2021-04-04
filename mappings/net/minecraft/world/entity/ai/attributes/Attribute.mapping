@@ -1,0 +1,11 @@
+CLASS att net/minecraft/world/entity/ai/attributes/Attribute
+	FIELD a MAX_NAME_LENGTH I
+	FIELD b defaultValue D
+	FIELD c syncable Z
+	FIELD d descriptionId Ljava/lang/String;
+	METHOD <init> <init> (Ljava/lang/String;D)V
+	METHOD a getDefaultValue ()D
+	METHOD a sanitizeValue (D)D
+	METHOD a setSyncable (Z)Latt;
+	METHOD b isClientSyncable ()Z
+	METHOD c getDescriptionId ()Ljava/lang/String;

@@ -1,0 +1,9 @@
+CLASS ue net/minecraft/network/protocol/game/ServerboundPlayerAbilitiesPacket
+	FIELD a FLAG_FLYING I
+	FIELD b isFlying Z
+	METHOD <init> <init> (Lbjc;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b isFlying ()Z

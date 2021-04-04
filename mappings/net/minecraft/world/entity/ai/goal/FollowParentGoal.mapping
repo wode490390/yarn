@@ -1,0 +1,14 @@
+CLASS ayp net/minecraft/world/entity/ai/goal/FollowParentGoal
+	FIELD a HORIZONTAL_SCAN_RANGE I
+	FIELD b VERTICAL_SCAN_RANGE I
+	FIELD c DONT_FOLLOW_IF_CLOSER_THAN I
+	FIELD d animal Lbcz;
+	FIELD e parent Lbcz;
+	FIELD f speedModifier D
+	FIELD g timeToRecalcPath I
+	METHOD <init> <init> (Lbcz;D)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

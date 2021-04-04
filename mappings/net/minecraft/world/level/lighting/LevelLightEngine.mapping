@@ -1,0 +1,21 @@
+CLASS ddh net/minecraft/world/level/lighting/LevelLightEngine
+	FIELD a MAX_SOURCE_LEVEL I
+	FIELD b LIGHT_SECTION_PADDING I
+	FIELD c levelHeightAccessor Lbvt;
+	FIELD d blockEngine Ldde;
+	FIELD e skyEngine Ldde;
+	METHOD <init> <init> (Lclx;ZZ)V
+	METHOD a hasLightWork ()Z
+	METHOD a runUpdates (IZZ)I
+	METHOD a enableLightSources (Lbuw;Z)V
+	METHOD a getLayerListener (Lbwa;)Lddf;
+	METHOD a getDebugData (Lbwa;Lgu;)Ljava/lang/String;
+	METHOD a queueSectionData (Lbwa;Lgu;Lclp;Z)V
+	METHOD a checkBlock (Lgb;)V
+	METHOD a onBlockEmissionIncrease (Lgb;I)V
+	METHOD a updateSectionStatus (Lgu;Z)V
+	METHOD b getLightSectionCount ()I
+	METHOD b retainData (Lbuw;Z)V
+	METHOD b getRawBrightness (Lgb;I)I
+	METHOD c getMinLightSection ()I
+	METHOD d getMaxLightSection ()I

@@ -1,0 +1,11 @@
+CLASS me net/minecraft/gametest/framework/JUnitLikeTestReporter
+	FIELD a document Lorg/w3c/dom/Document;
+	FIELD b testSuite Lorg/w3c/dom/Element;
+	FIELD c stopwatch Lcom/google/common/base/Stopwatch;
+	FIELD d destination Ljava/io/File;
+	METHOD <init> <init> (Ljava/io/File;)V
+	METHOD a finish ()V
+	METHOD a save (Ljava/io/File;)V
+	METHOD a onTestFailed (Llv;)V
+	METHOD a createTestCase (Llv;Ljava/lang/String;)Lorg/w3c/dom/Element;
+	METHOD b onTestSuccess (Llv;)V

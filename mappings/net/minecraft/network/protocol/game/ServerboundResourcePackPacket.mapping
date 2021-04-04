@@ -1,0 +1,18 @@
+CLASS ul net/minecraft/network/protocol/game/ServerboundResourcePackPacket
+	FIELD a action Lul$a;
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lul$a;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getAction ()Lul$a;
+	CLASS a Action
+		FIELD a SUCCESSFULLY_LOADED Lul$a;
+		FIELD b DECLINED Lul$a;
+		FIELD c FAILED_DOWNLOAD Lul$a;
+		FIELD d ACCEPTED Lul$a;
+		FIELD e $VALUES [Lul$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lul$a;
+		METHOD values values ()[Lul$a;

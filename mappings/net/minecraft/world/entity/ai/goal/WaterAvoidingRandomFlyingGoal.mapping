@@ -1,0 +1,4 @@
+CLASS bab net/minecraft/world/entity/ai/goal/WaterAvoidingRandomFlyingGoal
+	METHOD <init> <init> (Latg;D)V
+	METHOD g getPosition ()Ldly;
+	METHOD j getTreePos ()Ldly;

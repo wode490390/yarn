@@ -1,0 +1,2 @@
+CLASS lm net/minecraft/gametest/framework/ExhaustedAttemptsException
+	METHOD <init> <init> (IILlv;)V

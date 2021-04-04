@@ -1,0 +1,24 @@
+CLASS qr net/minecraft/network/protocol/game/ClientboundLevelChunkPacket
+	FIELD a TWO_MEGABYTES I
+	FIELD b x I
+	FIELD c z I
+	FIELD d availableSections Ljava/util/BitSet;
+	FIELD e heightmaps Lmv;
+	FIELD f biomes [I
+	FIELD g buffer [B
+	FIELD h blockEntitiesTags Ljava/util/List;
+	METHOD <init> <init> (Lclv;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a calculateChunkSize (Lclv;)I
+	METHOD a write (Lob;)V
+	METHOD a extractChunkData (Lob;Lclv;)Ljava/util/BitSet;
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getReadBuffer ()Lob;
+	METHOD c getX ()I
+	METHOD d getZ ()I
+	METHOD e getAvailableSections ()Ljava/util/BitSet;
+	METHOD f getHeightmaps ()Lmv;
+	METHOD g getBlockEntitiesTags ()Ljava/util/List;
+	METHOD h getBiomes ()[I
+	METHOD i getWriteBuffer ()Lio/netty/buffer/ByteBuf;

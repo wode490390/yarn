@@ -1,0 +1,4 @@
+CLASS dcs net/minecraft/world/level/levelgen/synth/NoiseUtils
+	METHOD <init> <init> ()V
+	METHOD a biasTowardsExtreme (DD)D
+	METHOD a sampleNoiseAndMapToRange (Ldct;DDDDD)D

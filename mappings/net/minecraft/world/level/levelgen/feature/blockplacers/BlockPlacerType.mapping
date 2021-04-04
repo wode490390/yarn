@@ -1,0 +1,9 @@
+CLASS ctk net/minecraft/world/level/levelgen/feature/blockplacers/BlockPlacerType
+	FIELD a SIMPLE_BLOCK_PLACER Lctk;
+	FIELD b DOUBLE_PLANT_PLACER Lctk;
+	FIELD c COLUMN_PLACER Lctk;
+	FIELD d codec Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a register (Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lctk;

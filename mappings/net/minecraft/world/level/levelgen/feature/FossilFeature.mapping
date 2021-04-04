@@ -1,0 +1,7 @@
+CLASS crb net/minecraft/world/level/levelgen/feature/FossilFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a countEmptyCorners (Lbwm;Lczp;)I
+	METHOD a lambda$countEmptyCorners$2 (Lbwm;Lorg/apache/commons/lang3/mutable/MutableInt;Lgb;)V
+	METHOD a place (Lcqz;)Z
+	METHOD a lambda$place$1 (Ldbo;Ldbp;)V
+	METHOD b lambda$place$0 (Ldbo;Ldbp;)V

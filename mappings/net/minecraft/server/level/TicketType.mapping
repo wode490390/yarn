@@ -1,0 +1,21 @@
+CLASS abo net/minecraft/server/level/TicketType
+	FIELD a START Labo;
+	FIELD b DRAGON Labo;
+	FIELD c PLAYER Labo;
+	FIELD d FORCED Labo;
+	FIELD e LIGHT Labo;
+	FIELD f PORTAL Labo;
+	FIELD g POST_TELEPORT Labo;
+	FIELD h UNKNOWN Labo;
+	FIELD i name Ljava/lang/String;
+	FIELD j comparator Ljava/util/Comparator;
+	FIELD k timeout J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;Ljava/util/Comparator;J)V
+	METHOD a getComparator ()Ljava/util/Comparator;
+	METHOD a lambda$static$1 (Lahe;Lahe;)I
+	METHOD a create (Ljava/lang/String;Ljava/util/Comparator;)Labo;
+	METHOD a create (Ljava/lang/String;Ljava/util/Comparator;I)Labo;
+	METHOD b timeout ()J
+	METHOD b lambda$static$0 (Lahe;Lahe;)I
+	METHOD toString toString ()Ljava/lang/String;

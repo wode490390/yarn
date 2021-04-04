@@ -1,0 +1,6 @@
+CLASS azy net/minecraft/world/entity/ai/goal/TradeWithPlayerGoal
+	FIELD a mob Lbin;
+	METHOD <init> <init> (Lbin;)V
+	METHOD a canUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V

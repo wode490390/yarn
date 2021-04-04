@@ -1,0 +1,10 @@
+CLASS dcz net/minecraft/world/level/lighting/BlockLightEngine
+	FIELD f DIRECTIONS [Lgg;
+	FIELD g pos Lgb$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lclx;)V
+	METHOD a checkNeighborsAfterUpdate (JIZ)V
+	METHOD a getComputedLevel (JJI)I
+	METHOD a onBlockEmissionIncrease (Lgb;I)V
+	METHOD b computeLevelFromNeighbor (JJI)I
+	METHOD d getLightEmission (J)I

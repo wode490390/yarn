@@ -1,0 +1,14 @@
+CLASS djt net/minecraft/world/level/storage/loot/parameters/LootContextParams
+	FIELD a THIS_ENTITY Ldjq;
+	FIELD b LAST_DAMAGE_PLAYER Ldjq;
+	FIELD c DAMAGE_SOURCE Ldjq;
+	FIELD d KILLER_ENTITY Ldjq;
+	FIELD e DIRECT_KILLER_ENTITY Ldjq;
+	FIELD f ORIGIN Ldjq;
+	FIELD g BLOCK_STATE Ldjq;
+	FIELD h BLOCK_ENTITY Ldjq;
+	FIELD i TOOL Ldjq;
+	FIELD j EXPLOSION_RADIUS Ldjq;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a create (Ljava/lang/String;)Ldjq;

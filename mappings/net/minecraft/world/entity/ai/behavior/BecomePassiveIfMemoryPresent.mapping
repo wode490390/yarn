@@ -1,0 +1,4 @@
+CLASS aui net/minecraft/world/entity/ai/behavior/BecomePassiveIfMemoryPresent
+	FIELD a pacifyDuration I
+	METHOD <init> <init> (Lbav;I)V
+	METHOD a start (Labj;Lasy;J)V

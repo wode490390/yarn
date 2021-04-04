@@ -1,0 +1,22 @@
+CLASS bxj net/minecraft/world/level/block/AbstractCauldronBlock
+	FIELD a FLOOR_LEVEL I
+	FIELD b SHAPE Ldmr;
+	FIELD c SIDE_THICKNESS I
+	FIELD d LEG_WIDTH I
+	FIELD e LEG_HEIGHT I
+	FIELD f LEG_DEPTH I
+	FIELD g INSIDE Ldmr;
+	FIELD h interactions Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;Ljava/util/Map;)V
+	METHOD a getContentHeight (Lcjr;)D
+	METHOD a getInteractionShape (Lcjr;Lbuv;Lgb;)Ldmr;
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a receiveStalactiteDrip (Lcjr;Lbvr;Lgb;Lddp;)V
+	METHOD a isEntityInsideContent (Lcjr;Lgb;Lasl;)Z
+	METHOD a canReceiveStalactiteDrip (Lddp;)Z
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD c isFull (Lcjr;)Z
+	METHOD g_ hasAnalogOutputSignal (Lcjr;)Z

@@ -1,0 +1,5 @@
+CLASS caz net/minecraft/world/level/block/Fallable
+	METHOD a getHurtsEntitySelector ()Ljava/util/function/Predicate;
+	METHOD a onBrokenAfterFall (Lbvr;Lgb;Lbgd;)V
+	METHOD a onLand (Lbvr;Lgb;Lcjr;Lcjr;Lbgd;)V
+	METHOD b getFallDamageSource ()Larv;

@@ -1,0 +1,6 @@
+CLASS ctf net/minecraft/world/level/levelgen/feature/WaterloggedVegetationPatchFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a placeVegetation (Lbwm;Lcvi;Lclm;Ljava/util/Random;Lgb;)Z
+	METHOD a placeGroundPatch (Lbwm;Lcvi;Ljava/util/Random;Lgb;Ljava/util/function/Predicate;II)Ljava/util/Set;
+	METHOD a isExposedDirection (Lbwm;Lgb;Lgb$a;Lgg;)Z
+	METHOD a isExposed (Lbwm;Ljava/util/Set;Lgb;Lgb$a;)Z

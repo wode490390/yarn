@@ -1,0 +1,9 @@
+CLASS ake net/minecraft/util/datafix/fixes/IglooMetadataRemovalFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a fixTag (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a lambda$removeIglooPieces$2 (Ljava/util/stream/Stream;)Ljava/util/stream/Stream;
+	METHOD b removeIglooPieces (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD b lambda$fixTag$0 (Ljava/util/stream/Stream;)Ljava/lang/Boolean;
+	METHOD c isIglooPiece (Lcom/mojang/serialization/Dynamic;)Z
+	METHOD d lambda$null$1 (Lcom/mojang/serialization/Dynamic;)Z
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

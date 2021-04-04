@@ -1,0 +1,20 @@
+CLASS cjj net/minecraft/world/level/block/piston/MovingPistonBlock
+	FIELD a FACING Lckl;
+	FIELD b TYPE Lckp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getBlockEntity (Lbuv;Lgb;)Lcjn;
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a getTicker (Lbvr;Lcjr;Lchr;)Lchq;
+	METHOD a destroy (Lbvs;Lgb;Lcjr;)V
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a onRemove (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a getDrops (Lcjr;Ldhn$a;)Ljava/util/List;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;
+	METHOD a newMovingBlockEntity (Lgb;Lcjr;Lcjr;Lgg;ZZ)Lchp;
+	METHOD c getCollisionShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;

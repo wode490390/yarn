@@ -1,0 +1,10 @@
+CLASS rd net/minecraft/network/protocol/game/ClientboundPlaceGhostRecipePacket
+	FIELD a containerId I
+	FIELD b recipe Lwp;
+	METHOD <init> <init> (ILbsj;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getRecipe ()Lwp;
+	METHOD c getContainerId ()I

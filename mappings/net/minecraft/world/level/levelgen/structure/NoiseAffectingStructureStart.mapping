@@ -1,0 +1,3 @@
+CLASS daa net/minecraft/world/level/levelgen/structure/NoiseAffectingStructureStart
+	METHOD <init> <init> (Lcsv;Lbuw;IJ)V
+	METHOD b getBoundingBox ()Lczp;

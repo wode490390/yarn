@@ -1,0 +1,9 @@
+CLASS vy net/minecraft/network/syncher/EntityDataAccessor
+	FIELD a id I
+	FIELD b serializer Lvz;
+	METHOD <init> <init> (ILvz;)V
+	METHOD a getId ()I
+	METHOD b getSerializer ()Lvz;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

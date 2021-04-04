@@ -1,0 +1,22 @@
+CLASS cht net/minecraft/world/level/block/entity/CampfireBlockEntity
+	FIELD a BURN_COOL_SPEED I
+	FIELD b NUM_SLOTS I
+	FIELD c items Lgn;
+	FIELD d cookingProgress [I
+	FIELD e cookingTime [I
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a getUpdatePacket ()Lpt;
+	METHOD a lambda$cookTick$0 (Laqz;Lbsa;)Lbpr;
+	METHOD a getCookableRecipe (Lbpr;)Ljava/util/Optional;
+	METHOD a placeFood (Lbpr;I)Z
+	METHOD a cookTick (Lbvr;Lgb;Lcjr;Lcht;)V
+	METHOD a load (Lmv;)V
+	METHOD aa_ clearContent ()V
+	METHOD b getUpdateTag ()Lmv;
+	METHOD b cooldownTick (Lbvr;Lgb;Lcjr;Lcht;)V
+	METHOD b save (Lmv;)Lmv;
+	METHOD c particleTick (Lbvr;Lgb;Lcjr;Lcht;)V
+	METHOD c saveMetadataAndItems (Lmv;)Lmv;
+	METHOD d getItems ()Lgn;
+	METHOD f dowse ()V
+	METHOD g markUpdated ()V

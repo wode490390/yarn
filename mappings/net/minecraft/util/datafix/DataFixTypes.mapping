@@ -1,0 +1,20 @@
+CLASS ahh net/minecraft/util/datafix/DataFixTypes
+	FIELD a LEVEL Lahh;
+	FIELD b PLAYER Lahh;
+	FIELD c CHUNK Lahh;
+	FIELD d HOTBAR Lahh;
+	FIELD e OPTIONS Lahh;
+	FIELD f STRUCTURE Lahh;
+	FIELD g STATS Lahh;
+	FIELD h SAVED_DATA Lahh;
+	FIELD i ADVANCEMENTS Lahh;
+	FIELD j POI_CHUNK Lahh;
+	FIELD k WORLD_GEN_SETTINGS Lahh;
+	FIELD l ENTITY_CHUNK Lahh;
+	FIELD m type Lcom/mojang/datafixers/DSL$TypeReference;
+	FIELD n $VALUES [Lahh;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILcom/mojang/datafixers/DSL$TypeReference;)V
+	METHOD a getType ()Lcom/mojang/datafixers/DSL$TypeReference;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lahh;
+	METHOD values values ()[Lahh;

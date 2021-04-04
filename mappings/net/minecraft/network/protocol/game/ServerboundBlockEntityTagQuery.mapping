@@ -1,0 +1,10 @@
+CLASS tj net/minecraft/network/protocol/game/ServerboundBlockEntityTagQuery
+	FIELD a transactionId I
+	FIELD b pos Lgb;
+	METHOD <init> <init> (ILgb;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getTransactionId ()I
+	METHOD c getPos ()Lgb;

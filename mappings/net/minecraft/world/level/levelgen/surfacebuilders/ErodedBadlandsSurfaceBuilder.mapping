@@ -1,0 +1,8 @@
+CLASS dbz net/minecraft/world/level/levelgen/surfacebuilders/ErodedBadlandsSurfaceBuilder
+	FIELD L WHITE_TERRACOTTA Lcjr;
+	FIELD M ORANGE_TERRACOTTA Lcjr;
+	FIELD N TERRACOTTA Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcl;)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcm;)V

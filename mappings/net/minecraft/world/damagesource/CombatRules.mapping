@@ -1,0 +1,9 @@
+CLASS art net/minecraft/world/damagesource/CombatRules
+	FIELD a MAX_ARMOR F
+	FIELD b ARMOR_PROTECTION_DIVIDER F
+	FIELD c BASE_ARMOR_TOUGHNESS F
+	FIELD d MIN_ARMOR_RATIO F
+	FIELD e NUM_ARMOR_ITEMS I
+	METHOD <init> <init> ()V
+	METHOD a getDamageAfterMagicAbsorb (FF)F
+	METHOD a getDamageAfterAbsorb (FFF)F

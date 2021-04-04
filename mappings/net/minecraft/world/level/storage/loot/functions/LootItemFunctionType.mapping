@@ -1,0 +1,2 @@
+CLASS diz net/minecraft/world/level/storage/loot/functions/LootItemFunctionType
+	METHOD <init> <init> (Ldht;)V

@@ -1,0 +1,22 @@
+CLASS tb net/minecraft/network/protocol/game/ClientboundUpdateAttributesPacket
+	FIELD a entityId I
+	FIELD b attributes Ljava/util/List;
+	METHOD <init> <init> (ILjava/util/Collection;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a lambda$null$2 (Lob;Latw;)V
+	METHOD a lambda$write$3 (Lob;Ltb$a;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getEntityId ()I
+	METHOD b lambda$new$1 (Lob;)Ltb$a;
+	METHOD c getValues ()Ljava/util/List;
+	METHOD c lambda$null$0 (Lob;)Latw;
+	CLASS a AttributeSnapshot
+		FIELD a attribute Latt;
+		FIELD b base D
+		FIELD c modifiers Ljava/util/Collection;
+		METHOD <init> <init> (Latt;DLjava/util/Collection;)V
+		METHOD a getAttribute ()Latt;
+		METHOD b getBase ()D
+		METHOD c getModifiers ()Ljava/util/Collection;

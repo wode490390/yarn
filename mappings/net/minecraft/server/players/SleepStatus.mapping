@@ -1,0 +1,10 @@
+CLASS aec net/minecraft/server/players/SleepStatus
+	FIELD a activePlayers I
+	FIELD b sleepingPlayers I
+	METHOD <init> <init> ()V
+	METHOD a removeAllSleepers ()V
+	METHOD a areEnoughSleeping (I)Z
+	METHOD a areEnoughDeepSleeping (ILjava/util/List;)Z
+	METHOD a update (Ljava/util/List;)Z
+	METHOD b amountSleeping ()I
+	METHOD b sleepersNeeded (I)I

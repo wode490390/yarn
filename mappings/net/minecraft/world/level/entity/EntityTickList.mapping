@@ -1,0 +1,10 @@
+CLASS cnh net/minecraft/world/level/entity/EntityTickList
+	FIELD a active Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD b passive Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD c iterated Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	METHOD <init> <init> ()V
+	METHOD a ensureActiveIsNotIterated ()V
+	METHOD a add (Lasl;)V
+	METHOD a forEach (Ljava/util/function/Consumer;)V
+	METHOD b remove (Lasl;)V
+	METHOD c contains (Lasl;)Z

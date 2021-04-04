@@ -1,0 +1,14 @@
+CLASS dmx net/minecraft/world/scores/ScoreboardSaveData
+	FIELD a FILE_ID Ljava/lang/String;
+	FIELD b scoreboard Ldmw;
+	METHOD <init> <init> (Ldmw;)V
+	METHOD a saveTeams ()Lnb;
+	METHOD a loadTeamPlayers (Ldmu;Lnb;)V
+	METHOD a save (Lmv;)Lmv;
+	METHOD a lambda$loadObjectives$0 (Lmv;Ldmz;)V
+	METHOD a loadTeams (Lnb;)V
+	METHOD b load (Lmv;)Ldmx;
+	METHOD b loadObjectives (Lnb;)V
+	METHOD c loadDisplaySlots (Lmv;)V
+	METHOD d saveObjectives ()Lnb;
+	METHOD d saveDisplaySlots (Lmv;)V

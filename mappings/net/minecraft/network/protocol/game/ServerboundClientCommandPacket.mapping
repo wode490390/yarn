@@ -1,0 +1,16 @@
+CLASS tm net/minecraft/network/protocol/game/ServerboundClientCommandPacket
+	FIELD a action Ltm$a;
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Ltm$a;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getAction ()Ltm$a;
+	CLASS a Action
+		FIELD a PERFORM_RESPAWN Ltm$a;
+		FIELD b REQUEST_STATS Ltm$a;
+		FIELD c $VALUES [Ltm$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Ltm$a;
+		METHOD values values ()[Ltm$a;

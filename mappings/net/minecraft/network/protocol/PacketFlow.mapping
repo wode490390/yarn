@@ -1,0 +1,9 @@
+CLASS pg net/minecraft/network/protocol/PacketFlow
+	FIELD a SERVERBOUND Lpg;
+	FIELD b CLIENTBOUND Lpg;
+	FIELD c $VALUES [Lpg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a getOpposite ()Lpg;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lpg;
+	METHOD values values ()[Lpg;

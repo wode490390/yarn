@@ -1,0 +1,57 @@
+CLASS bhj net/minecraft/world/entity/monster/SpellcasterIllager
+	FIELD b spellCastingTickCount I
+	FIELD bV currentSpell Lbhj$a;
+	FIELD e DATA_SPELL_CASTING_ID Lvy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a setIsCastingSpell (Lbhj$a;)V
+	METHOD a access$200 (Lbhj;)Lbbb;
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD e defineSynchedData ()V
+	METHOD eP customServerAiStep ()V
+	METHOD fn getCastingSoundEvent ()Laev;
+	METHOD fx isCastingSpell ()Z
+	METHOD fy getCurrentSpell ()Lbhj$a;
+	METHOD fz getSpellCastingTime ()I
+	METHOD j tick ()V
+	METHOD m getArmPose ()Lbgh$a;
+	CLASS a IllagerSpell
+		FIELD a NONE Lbhj$a;
+		FIELD b SUMMON_VEX Lbhj$a;
+		FIELD c FANGS Lbhj$a;
+		FIELD d WOLOLO Lbhj$a;
+		FIELD e DISAPPEAR Lbhj$a;
+		FIELD f BLINDNESS Lbhj$a;
+		FIELD g id I
+		FIELD h spellColor [D
+		FIELD i $VALUES [Lbhj$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;IIDDD)V
+		METHOD a byId (I)Lbhj$a;
+		METHOD a access$000 (Lbhj$a;)I
+		METHOD b access$100 (Lbhj$a;)[D
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbhj$a;
+		METHOD values values ()[Lbhj$a;
+	CLASS b SpellcasterCastingSpellGoal
+		FIELD b this$0 Lbhj;
+		METHOD <init> <init> (Lbhj;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS c SpellcasterUseSpellGoal
+		FIELD b attackWarmupDelay I
+		FIELD c nextAttackTickCount I
+		FIELD d this$0 Lbhj;
+		METHOD <init> <init> (Lbhj;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+		METHOD g getCastingTime ()I
+		METHOD h getCastingInterval ()I
+		METHOD j performSpellCasting ()V
+		METHOD k getSpellPrepareSound ()Laev;
+		METHOD l getSpell ()Lbhj$a;
+		METHOD m getCastWarmupTime ()I

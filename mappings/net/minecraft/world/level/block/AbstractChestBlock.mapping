@@ -1,0 +1,4 @@
+CLASS bxk net/minecraft/world/level/block/AbstractChestBlock
+	FIELD a blockEntityType Ljava/util/function/Supplier;
+	METHOD <init> <init> (Lcjq$c;Ljava/util/function/Supplier;)V
+	METHOD a combine (Lcjr;Lbvr;Lgb;Z)Lcan$c;

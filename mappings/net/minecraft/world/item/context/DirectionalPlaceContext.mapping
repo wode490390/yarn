@@ -1,0 +1,14 @@
+CLASS brs net/minecraft/world/item/context/DirectionalPlaceContext
+	FIELD b direction Lgg;
+	METHOD <init> <init> (Lbvr;Lgb;Lgg;Lbpr;Lgg;)V
+	METHOD a getClickedPos ()Lgb;
+	METHOD b canPlace ()Z
+	METHOD c replacingClickedOnBlock ()Z
+	METHOD d getNearestLookingDirection ()Lgg;
+	METHOD f getNearestLookingDirections ()[Lgg;
+	METHOD g getHorizontalDirection ()Lgg;
+	METHOD h isSecondaryUseActive ()Z
+	METHOD i getRotation ()F
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

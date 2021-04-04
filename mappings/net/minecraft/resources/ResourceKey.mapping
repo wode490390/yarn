@@ -1,0 +1,15 @@
+CLASS wo net/minecraft/resources/ResourceKey
+	FIELD a VALUES Ljava/util/Map;
+	FIELD b registryName Lwp;
+	FIELD c location Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lwp;Lwp;)V
+	METHOD a location ()Lwp;
+	METHOD a isFor (Lwo;)Z
+	METHOD a create (Lwo;Lwp;)Lwo;
+	METHOD a createRegistryKey (Lwp;)Lwo;
+	METHOD a create (Lwp;Lwp;)Lwo;
+	METHOD a lambda$create$0 (Lwp;Lwp;Ljava/lang/String;)Lwo;
+	METHOD b elementKey (Lwo;)Ljava/util/function/Function;
+	METHOD b lambda$elementKey$1 (Lwo;Lwp;)Lwo;
+	METHOD toString toString ()Ljava/lang/String;

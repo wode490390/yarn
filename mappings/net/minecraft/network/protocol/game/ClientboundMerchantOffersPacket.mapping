@@ -1,0 +1,18 @@
+CLASS qx net/minecraft/network/protocol/game/ClientboundMerchantOffersPacket
+	FIELD a containerId I
+	FIELD b offers Lbup;
+	FIELD c villagerLevel I
+	FIELD d villagerXp I
+	FIELD e showProgress Z
+	FIELD f canRestock Z
+	METHOD <init> <init> (ILbup;IIZZ)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getContainerId ()I
+	METHOD c getOffers ()Lbup;
+	METHOD d getVillagerLevel ()I
+	METHOD e getVillagerXp ()I
+	METHOD f showProgress ()Z
+	METHOD g canRestock ()Z

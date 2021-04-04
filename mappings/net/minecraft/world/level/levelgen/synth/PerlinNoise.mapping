@@ -1,0 +1,21 @@
+CLASS dcu net/minecraft/world/level/levelgen/synth/PerlinNoise
+	FIELD a ROUND_OFF I
+	FIELD b noiseLevels [Ldcr;
+	FIELD c amplitudes Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	FIELD d lowestFreqValueFactor D
+	FIELD e lowestFreqInputFactor D
+	METHOD <init> <init> (Lcpb;Lcom/mojang/datafixers/util/Pair;)V
+	METHOD <init> <init> (Lcpb;Lcom/mojang/datafixers/util/Pair;Ljava/util/function/LongFunction;)V
+	METHOD <init> <init> (Lcpb;Lit/unimi/dsi/fastutil/ints/IntSortedSet;)V
+	METHOD <init> <init> (Lcpb;Lit/unimi/dsi/fastutil/ints/IntSortedSet;Ljava/util/function/LongFunction;)V
+	METHOD <init> <init> (Lcpb;Ljava/util/List;)V
+	METHOD <init> <init> (Lcpb;Ljava/util/stream/IntStream;)V
+	METHOD a wrap (D)D
+	METHOD a getValue (DDD)D
+	METHOD a getSurfaceNoiseValue (DDDD)D
+	METHOD a getValue (DDDDDZ)D
+	METHOD a getOctaveNoise (I)Ldcr;
+	METHOD a skipOctave (Lcpb;)V
+	METHOD a create (Lcpb;ILit/unimi/dsi/fastutil/doubles/DoubleList;)Ldcu;
+	METHOD a create (Lcpb;I[D)Ldcu;
+	METHOD a makeAmplitudes (Lit/unimi/dsi/fastutil/ints/IntSortedSet;)Lcom/mojang/datafixers/util/Pair;

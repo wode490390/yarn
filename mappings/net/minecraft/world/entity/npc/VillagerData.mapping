@@ -1,0 +1,25 @@
+CLASS bit net/minecraft/world/entity/npc/VillagerData
+	FIELD a MIN_VILLAGER_LEVEL I
+	FIELD b MAX_VILLAGER_LEVEL I
+	FIELD c CODEC Lcom/mojang/serialization/Codec;
+	FIELD d NEXT_LEVEL_XP_THRESHOLDS [I
+	FIELD e type Lbix;
+	FIELD f profession Lbiv;
+	FIELD g level I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbix;Lbiv;I)V
+	METHOD a getType ()Lbix;
+	METHOD a setLevel (I)Lbit;
+	METHOD a lambda$null$4 (Lbit;)Ljava/lang/Integer;
+	METHOD a setProfession (Lbiv;)Lbit;
+	METHOD a setType (Lbix;)Lbit;
+	METHOD a lambda$static$5 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b getProfession ()Lbiv;
+	METHOD b getMinXpPerLevel (I)I
+	METHOD b lambda$null$3 (Lbit;)Lbiv;
+	METHOD c getLevel ()I
+	METHOD c getMaxXpPerLevel (I)I
+	METHOD c lambda$null$1 (Lbit;)Lbix;
+	METHOD d lambda$null$2 ()Lbiv;
+	METHOD d canLevelUp (I)Z
+	METHOD e lambda$null$0 ()Lbix;

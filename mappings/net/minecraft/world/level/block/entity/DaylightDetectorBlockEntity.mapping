@@ -1,0 +1,2 @@
+CLASS cia net/minecraft/world/level/block/entity/DaylightDetectorBlockEntity
+	METHOD <init> <init> (Lgb;Lcjr;)V

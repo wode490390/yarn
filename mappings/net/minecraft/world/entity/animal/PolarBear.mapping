@@ -1,0 +1,57 @@
+CLASS bdp net/minecraft/world/entity/animal/PolarBear
+	FIELD bV DATA_STANDING_ID Lvy;
+	FIELD bW STAND_ANIMATION_TICKS F
+	FIELD bY clientSideStandAnimationO F
+	FIELD bZ clientSideStandAnimation F
+	FIELD ca warningSoundTicks I
+	FIELD cb PERSISTENT_ANGER_TIME Laqs;
+	FIELD cc remainingPersistentAngerTime I
+	FIELD cd persistentAngerTarget Ljava/util/UUID;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD B doHurtTarget (Lasl;)Z
+	METHOD H_ getRemainingPersistentAngerTime ()I
+	METHOD I_ getPersistentAngerTarget ()Ljava/util/UUID;
+	METHOD J_ startPersistentAngerTimer ()V
+	METHOD a getBreedOffspring (Labj;Lasj;)Lasj;
+	METHOD a getDimensions (Latj;)Lasm;
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD a setPersistentAngerTarget (Ljava/util/UUID;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD a_ setRemainingPersistentAngerTime (I)V
+	METHOD b playStepSound (Lgb;Lcjr;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD c checkPolarBearSpawnRules (Lasp;Lbvs;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD e defineSynchedData ()V
+	METHOD em getWaterSlowDown ()F
+	METHOD fn isStanding ()Z
+	METHOD j tick ()V
+	METHOD l isFood (Lbpr;)Z
+	METHOD o createAttributes ()Latx$a;
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD s playWarningSound ()V
+	METHOD u registerGoals ()V
+	METHOD v setStanding (Z)V
+	METHOD x getStandingAnimationScale (F)F
+	CLASS a PolarBearAttackPlayersGoal
+		FIELD i this$0 Lbdp;
+		METHOD <init> <init> (Lbdp;)V
+		METHOD a canUse ()Z
+		METHOD k getFollowDistance ()D
+	CLASS b PolarBearHurtByTargetGoal
+		FIELD a this$0 Lbdp;
+		METHOD <init> <init> (Lbdp;)V
+		METHOD a alertOther (Lasz;Lasy;)V
+		METHOD c start ()V
+	CLASS c PolarBearMeleeAttackGoal
+		FIELD b this$0 Lbdp;
+		METHOD <init> <init> (Lbdp;)V
+		METHOD a getAttackReachSqr (Lasy;)D
+		METHOD a checkAndPerformAttack (Lasy;D)V
+		METHOD d stop ()V
+	CLASS d PolarBearPanicGoal
+		FIELD g this$0 Lbdp;
+		METHOD <init> <init> (Lbdp;)V
+		METHOD a canUse ()Z

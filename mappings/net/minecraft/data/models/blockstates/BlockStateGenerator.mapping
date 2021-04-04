@@ -1,0 +1,2 @@
+CLASS ix net/minecraft/data/models/blockstates/BlockStateGenerator
+	METHOD a getBlock ()Lbyq;

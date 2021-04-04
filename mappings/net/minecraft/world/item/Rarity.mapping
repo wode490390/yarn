@@ -1,0 +1,11 @@
+CLASS bqg net/minecraft/world/item/Rarity
+	FIELD a COMMON Lbqg;
+	FIELD b UNCOMMON Lbqg;
+	FIELD c RARE Lbqg;
+	FIELD d EPIC Lbqg;
+	FIELD e color Lp;
+	FIELD f $VALUES [Lbqg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILp;)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbqg;
+	METHOD values values ()[Lbqg;

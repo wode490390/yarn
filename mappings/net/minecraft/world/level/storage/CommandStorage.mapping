@@ -1,0 +1,28 @@
+CLASS dgt net/minecraft/world/level/storage/CommandStorage
+	FIELD a ID_PREFIX Ljava/lang/String;
+	FIELD b namespaces Ljava/util/Map;
+	FIELD c storage Ldgv;
+	METHOD <init> <init> (Ldgv;)V
+	METHOD a keys ()Ljava/util/stream/Stream;
+	METHOD a newStorage (Ljava/lang/String;)Ldgt$a;
+	METHOD a lambda$set$1 (Ljava/lang/String;Lmv;)Ldgt$a;
+	METHOD a lambda$keys$3 (Ljava/util/Map$Entry;)Ljava/util/stream/Stream;
+	METHOD a get (Lwp;)Lmv;
+	METHOD a set (Lwp;Lmv;)V
+	METHOD b createId (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b lambda$get$0 (Ljava/lang/String;Lmv;)Ldgt$a;
+	METHOD c lambda$set$2 (Ljava/lang/String;)Ldgt$a;
+	CLASS 1 1
+	CLASS a Container
+		FIELD a TAG_CONTENTS Ljava/lang/String;
+		FIELD b storage Ljava/util/Map;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Ldgt$1;)V
+		METHOD a access$100 (Ldgt$a;Lmv;)Ldgt$a;
+		METHOD a get (Ljava/lang/String;)Lmv;
+		METHOD a lambda$getKeys$1 (Ljava/lang/String;Ljava/lang/String;)Lwp;
+		METHOD a put (Ljava/lang/String;Lmv;)V
+		METHOD a save (Lmv;)Lmv;
+		METHOD a lambda$save$0 (Lmv;Ljava/lang/String;Lmv;)V
+		METHOD b getKeys (Ljava/lang/String;)Ljava/util/stream/Stream;
+		METHOD b load (Lmv;)Ldgt$a;

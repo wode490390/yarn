@@ -1,0 +1,13 @@
+CLASS cvb net/minecraft/world/level/levelgen/feature/configurations/SmallDripstoneConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b maxPlacements I
+	FIELD c emptySpaceSearchRadius I
+	FIELD d maxOffsetFromOrigin I
+	FIELD e chanceOfTallerDripstone F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (IIIF)V
+	METHOD a lambda$static$4 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$3 (Lcvb;)Ljava/lang/Float;
+	METHOD b lambda$null$2 (Lcvb;)Ljava/lang/Integer;
+	METHOD c lambda$null$1 (Lcvb;)Ljava/lang/Integer;
+	METHOD d lambda$null$0 (Lcvb;)Ljava/lang/Integer;

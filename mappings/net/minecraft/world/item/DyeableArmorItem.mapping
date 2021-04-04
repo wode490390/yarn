@@ -1,0 +1,2 @@
+CLASS bop net/minecraft/world/item/DyeableArmorItem
+	METHOD <init> <init> (Lbnn;Lasq;Lbpn$a;)V

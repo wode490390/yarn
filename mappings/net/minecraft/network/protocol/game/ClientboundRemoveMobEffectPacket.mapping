@@ -1,0 +1,10 @@
+CLASS rn net/minecraft/network/protocol/game/ClientboundRemoveMobEffectPacket
+	FIELD a entityId I
+	FIELD b effect Lasd;
+	METHOD <init> <init> (ILasd;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a getEntity (Lbvr;)Lasl;
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getEffect ()Lasd;

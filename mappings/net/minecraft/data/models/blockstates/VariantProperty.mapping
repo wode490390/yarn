@@ -1,0 +1,15 @@
+CLASS jf net/minecraft/data/models/blockstates/VariantProperty
+	FIELD a key Ljava/lang/String;
+	FIELD b serializer Ljava/util/function/Function;
+	METHOD <init> <init> (Ljava/lang/String;Ljava/util/function/Function;)V
+	METHOD a withValue (Ljava/lang/Object;)Ljf$a;
+	METHOD a access$000 (Ljf;)Ljava/lang/String;
+	METHOD b access$100 (Ljf;)Ljava/util/function/Function;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Value
+		FIELD a this$0 Ljf;
+		FIELD b value Ljava/lang/Object;
+		METHOD <init> <init> (Ljf;Ljava/lang/Object;)V
+		METHOD a getKey ()Ljf;
+		METHOD a addToVariant (Lcom/google/gson/JsonObject;)V
+		METHOD toString toString ()Ljava/lang/String;

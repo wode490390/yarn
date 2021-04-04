@@ -1,0 +1,6 @@
+CLASS ddd net/minecraft/world/level/lighting/FlatDataLayer
+	FIELD d SIZE I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lclp;I)V
+	METHOD a getData ()[B
+	METHOD b getIndex (III)I

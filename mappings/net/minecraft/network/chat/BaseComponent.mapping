@@ -1,0 +1,18 @@
+CLASS oj net/minecraft/network/chat/BaseComponent
+	FIELD a siblings Ljava/util/List;
+	FIELD d visualOrderText Lagj;
+	FIELD e decomposedWith Lmq;
+	FIELD f style Lox;
+	METHOD <init> <init> ()V
+	METHOD a getContents ()Ljava/lang/String;
+	METHOD a append (Lon;)Lot;
+	METHOD a setStyle (Lox;)Lot;
+	METHOD b getSiblings ()Ljava/util/List;
+	METHOD c getStyle ()Lox;
+	METHOD d plainCopy ()Loj;
+	METHOD e copy ()Lot;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getVisualOrderText ()Lagj;
+	METHOD g plainCopy ()Lot;
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,3 @@
+CLASS boe net/minecraft/world/item/ChorusFruitItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a finishUsingItem (Lbpr;Lbvr;Lasy;)Lbpr;

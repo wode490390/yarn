@@ -1,0 +1,16 @@
+CLASS be net/minecraft/advancements/critereon/EffectsChangedTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;)V
+	METHOD a lambda$trigger$0 (Labk;Lbe$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lbe$a;
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a effects Lcf;
+		METHOD <init> <init> (Lbl$b;Lcf;)V
+		METHOD a matches (Labk;)Z
+		METHOD a hasEffects (Lcf;)Lbe$a;
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;

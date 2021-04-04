@@ -1,0 +1,7 @@
+CLASS cde net/minecraft/world/level/block/NetherSproutsBlock
+	FIELD a SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD ak_ getOffsetType ()Lcjq$b;
+	METHOD d mayPlaceOn (Lcjr;Lbuv;Lgb;)Z

@@ -1,0 +1,9 @@
+CLASS bor net/minecraft/world/item/DyeableLeatherItem
+	FIELD b TAG_DISPLAY Ljava/lang/String;
+	FIELD c DEFAULT_LEATHER_COLOR I
+	FIELD m_ TAG_COLOR Ljava/lang/String;
+	METHOD a hasCustomColor (Lbpr;)Z
+	METHOD a setColor (Lbpr;I)V
+	METHOD a dyeArmor (Lbpr;Ljava/util/List;)Lbpr;
+	METHOD b getColor (Lbpr;)I
+	METHOD c clearColor (Lbpr;)V

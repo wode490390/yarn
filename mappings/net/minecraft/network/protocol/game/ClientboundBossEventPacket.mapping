@@ -1,0 +1,113 @@
+CLASS pw net/minecraft/network/protocol/game/ClientboundBossEventPacket
+	FIELD a FLAG_DARKEN I
+	FIELD b FLAG_MUSIC I
+	FIELD c FLAG_FOG I
+	FIELD d id Ljava/util/UUID;
+	FIELD e operation Lpw$c;
+	FIELD f REMOVE_OPERATION Lpw$c;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/UUID;Lpw$c;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a createAddPacket (Laqw;)Lpw;
+	METHOD a createRemovePacket (Ljava/util/UUID;)Lpw;
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD a dispatch (Lpw$b;)V
+	METHOD a access$1200 (ZZZ)I
+	METHOD b access$1000 ()Lpw$c;
+	METHOD b createUpdateProgressPacket (Laqw;)Lpw;
+	METHOD b encodeProperties (ZZZ)I
+	METHOD c createUpdateNamePacket (Laqw;)Lpw;
+	METHOD d createUpdateStylePacket (Laqw;)Lpw;
+	METHOD e createUpdatePropertiesPacket (Laqw;)Lpw;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getType ()Lpw$d;
+		METHOD a dispatch (Ljava/util/UUID;Lpw$b;)V
+		METHOD a write (Lob;)V
+	CLASS a AddOperation
+		FIELD a name Lon;
+		FIELD b progress F
+		FIELD c color Laqw$a;
+		FIELD d overlay Laqw$b;
+		FIELD e darkenScreen Z
+		FIELD f playMusic Z
+		FIELD g createWorldFog Z
+		METHOD <init> <init> (Laqw;)V
+		METHOD <init> <init> (Laqw;Lpw$1;)V
+		METHOD <init> <init> (Lob;)V
+		METHOD <init> <init> (Lob;Lpw$1;)V
+		METHOD a getType ()Lpw$d;
+		METHOD a dispatch (Ljava/util/UUID;Lpw$b;)V
+		METHOD a write (Lob;)V
+	CLASS b Handler
+		METHOD a remove (Ljava/util/UUID;)V
+		METHOD a updateProgress (Ljava/util/UUID;F)V
+		METHOD a updateStyle (Ljava/util/UUID;Laqw$a;Laqw$b;)V
+		METHOD a updateName (Ljava/util/UUID;Lon;)V
+		METHOD a add (Ljava/util/UUID;Lon;FLaqw$a;Laqw$b;ZZZ)V
+		METHOD a updateProperties (Ljava/util/UUID;ZZZ)V
+	CLASS c Operation
+		METHOD a getType ()Lpw$d;
+		METHOD a dispatch (Ljava/util/UUID;Lpw$b;)V
+		METHOD a write (Lob;)V
+	CLASS d OperationType
+		FIELD a ADD Lpw$d;
+		FIELD b REMOVE Lpw$d;
+		FIELD c UPDATE_PROGRESS Lpw$d;
+		FIELD d UPDATE_NAME Lpw$d;
+		FIELD e UPDATE_STYLE Lpw$d;
+		FIELD f UPDATE_PROPERTIES Lpw$d;
+		FIELD g reader Ljava/util/function/Function;
+		FIELD h $VALUES [Lpw$d;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/util/function/Function;)V
+		METHOD a lambda$static$5 (Lob;)Lpw$c;
+		METHOD a access$000 (Lpw$d;)Ljava/util/function/Function;
+		METHOD b lambda$static$4 (Lob;)Lpw$c;
+		METHOD c lambda$static$3 (Lob;)Lpw$c;
+		METHOD d lambda$static$2 (Lob;)Lpw$c;
+		METHOD e lambda$static$1 (Lob;)Lpw$c;
+		METHOD f lambda$static$0 (Lob;)Lpw$c;
+		METHOD valueOf valueOf (Ljava/lang/String;)Lpw$d;
+		METHOD values values ()[Lpw$d;
+	CLASS e UpdateNameOperation
+		FIELD a name Lon;
+		METHOD <init> <init> (Lob;)V
+		METHOD <init> <init> (Lob;Lpw$1;)V
+		METHOD <init> <init> (Lon;)V
+		METHOD <init> <init> (Lon;Lpw$1;)V
+		METHOD a getType ()Lpw$d;
+		METHOD a dispatch (Ljava/util/UUID;Lpw$b;)V
+		METHOD a write (Lob;)V
+	CLASS f UpdateProgressOperation
+		FIELD a progress F
+		METHOD <init> <init> (F)V
+		METHOD <init> <init> (FLpw$1;)V
+		METHOD <init> <init> (Lob;)V
+		METHOD <init> <init> (Lob;Lpw$1;)V
+		METHOD a getType ()Lpw$d;
+		METHOD a dispatch (Ljava/util/UUID;Lpw$b;)V
+		METHOD a write (Lob;)V
+	CLASS g UpdatePropertiesOperation
+		FIELD a darkenScreen Z
+		FIELD b playMusic Z
+		FIELD c createWorldFog Z
+		METHOD <init> <init> (Lob;)V
+		METHOD <init> <init> (Lob;Lpw$1;)V
+		METHOD <init> <init> (ZZZ)V
+		METHOD <init> <init> (ZZZLpw$1;)V
+		METHOD a getType ()Lpw$d;
+		METHOD a dispatch (Ljava/util/UUID;Lpw$b;)V
+		METHOD a write (Lob;)V
+	CLASS h UpdateStyleOperation
+		FIELD a color Laqw$a;
+		FIELD b overlay Laqw$b;
+		METHOD <init> <init> (Laqw$a;Laqw$b;)V
+		METHOD <init> <init> (Laqw$a;Laqw$b;Lpw$1;)V
+		METHOD <init> <init> (Lob;)V
+		METHOD <init> <init> (Lob;Lpw$1;)V
+		METHOD a getType ()Lpw$d;
+		METHOD a dispatch (Ljava/util/UUID;Lpw$b;)V
+		METHOD a write (Lob;)V

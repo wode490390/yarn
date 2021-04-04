@@ -1,0 +1,27 @@
+CLASS dka net/minecraft/world/level/storage/loot/predicates/EntityHasScoreCondition
+	FIELD a scores Ljava/util/Map;
+	FIELD b entityTarget Ldhn$c;
+	METHOD <init> <init> (Ljava/util/Map;Ldhn$c;)V
+	METHOD <init> <init> (Ljava/util/Map;Ldhn$c;Ldka$1;)V
+	METHOD a getType ()Ldkg;
+	METHOD a lambda$getReferencedContextParams$0 (Ldhl;)Ljava/util/stream/Stream;
+	METHOD a hasScores (Ldhn$c;)Ldka$a;
+	METHOD a test (Ldhn;)Z
+	METHOD a hasScore (Ldhn;Lasl;Ldmw;Ljava/lang/String;Ldhl;)Z
+	METHOD a access$100 (Ldka;)Ljava/util/Map;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	METHOD b access$200 (Ldka;)Ldhn$c;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a scores Ljava/util/Map;
+		FIELD b entityTarget Ldhn$c;
+		METHOD <init> <init> (Ldhn$c;)V
+		METHOD a withScore (Ljava/lang/String;Ldhl;)Ldka$a;
+		METHOD build build ()Ldkf;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldka;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldka;

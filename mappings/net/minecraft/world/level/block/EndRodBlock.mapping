@@ -1,0 +1,6 @@
+CLASS cav net/minecraft/world/level/block/EndRodBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD d getPistonPushReaction (Lcjr;)Lddw;

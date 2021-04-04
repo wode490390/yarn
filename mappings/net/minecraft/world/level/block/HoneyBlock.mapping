@@ -1,0 +1,19 @@
+CLASS cby net/minecraft/world/level/block/HoneyBlock
+	FIELD a SHAPE Ldmr;
+	FIELD b SLIDE_STARTS_WHEN_VERTICAL_SPEED_IS_AT_LEAST D
+	FIELD c MIN_FALL_SPEED_TO_BE_CONSIDERED_SLIDING D
+	FIELD d THROTTLE_SLIDE_SPEED_TO D
+	FIELD e SLIDE_ADVANCEMENT_CHECK_INTERVAL I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a showSlideParticles (Lasl;)V
+	METHOD a showParticles (Lasl;I)V
+	METHOD a maybeDoSlideAchievement (Lasl;Lgb;)V
+	METHOD a maybeDoSlideEffects (Lbvr;Lasl;)V
+	METHOD a fallOn (Lbvr;Lgb;Lasl;F)V
+	METHOD a entityInside (Lcjr;Lbvr;Lgb;Lasl;)V
+	METHOD a isSlidingDown (Lgb;Lasl;)Z
+	METHOD b showJumpParticles (Lasl;)V
+	METHOD c doesEntityDoHoneyBlockSlideEffects (Lasl;)Z
+	METHOD c getCollisionShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD d doSlideMovement (Lasl;)V

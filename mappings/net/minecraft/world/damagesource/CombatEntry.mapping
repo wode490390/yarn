@@ -1,0 +1,18 @@
+CLASS ars net/minecraft/world/damagesource/CombatEntry
+	FIELD a source Larv;
+	FIELD b time I
+	FIELD c damage F
+	FIELD d health F
+	FIELD e location Ljava/lang/String;
+	FIELD f fallDistance F
+	METHOD <init> <init> (Larv;IFFLjava/lang/String;F)V
+	METHOD a getSource ()Larv;
+	METHOD b getTime ()I
+	METHOD c getDamage ()F
+	METHOD d getHealthBeforeDamage ()F
+	METHOD e getHealthAfterDamage ()F
+	METHOD f isCombatRelated ()Z
+	METHOD g getLocation ()Ljava/lang/String;
+	METHOD h getAttackerName ()Lon;
+	METHOD i getAttacker ()Lasl;
+	METHOD j getFallDistance ()F

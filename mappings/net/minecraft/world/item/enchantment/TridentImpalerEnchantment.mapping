@@ -1,0 +1,6 @@
+CLASS bue net/minecraft/world/item/enchantment/TridentImpalerEnchantment
+	METHOD <init> <init> (Lbtl$a;[Lasq;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD a getDamageBonus (ILatc;)F
+	METHOD b getMaxCost (I)I

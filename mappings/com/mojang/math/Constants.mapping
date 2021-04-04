@@ -1,0 +1,6 @@
+CLASS a com/mojang/math/Constants
+	FIELD a PI F
+	FIELD b RAD_TO_DEG F
+	FIELD c DEG_TO_RAD F
+	FIELD d EPSILON F
+	METHOD <init> <init> ()V

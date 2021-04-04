@@ -1,0 +1,3 @@
+CLASS cae net/minecraft/world/level/block/CryingObsidianBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V

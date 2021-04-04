@@ -1,0 +1,9 @@
+CLASS cns net/minecraft/world/level/gameevent/EuclideanGameEventDispatcher
+	FIELD b listeners Ljava/util/List;
+	FIELD c level Lbvr;
+	METHOD <init> <init> (Lbvr;)V
+	METHOD a isEmpty ()Z
+	METHOD a postToListener (Lbvr;Lcnt;Lasl;Lgb;Lcnv;)Z
+	METHOD a post (Lcnt;Lasl;Lgb;)V
+	METHOD a register (Lcnv;)V
+	METHOD b unregister (Lcnv;)V

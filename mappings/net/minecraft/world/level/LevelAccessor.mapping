@@ -1,0 +1,21 @@
+CLASS bvs net/minecraft/world/level/LevelAccessor
+	METHOD L getChunkSource ()Lcln;
+	METHOD M getLiquidTicks ()Lbwj;
+	METHOD N getBlockTicks ()Lbwj;
+	METHOD a gameEvent (Lasl;Lcnt;Lasl;)V
+	METHOD a gameEvent (Lasl;Lcnt;Lgb;)V
+	METHOD a levelEvent (Lbjf;ILgb;I)V
+	METHOD a playSound (Lbjf;Lgb;Laev;Laex;FF)V
+	METHOD a gameEvent (Lcnt;Lasl;)V
+	METHOD a gameEvent (Lcnt;Lgb;)V
+	METHOD a blockUpdated (Lgb;Lbyq;)V
+	METHOD a addParticle (Lho;DDDDDD)V
+	METHOD ae dayTime ()J
+	METHOD af getDifficulty ()Lard;
+	METHOD b hasChunk (II)Z
+	METHOD c levelEvent (ILgb;I)V
+	METHOD d getCurrentDifficultyAt (Lgb;)Lare;
+	METHOD g getLevelData ()Ldgw;
+	METHOD i getRandom ()Ljava/util/Random;
+	METHOD j getLogicalHeight ()I
+	METHOD n getServer ()Lnet/minecraft/server/MinecraftServer;

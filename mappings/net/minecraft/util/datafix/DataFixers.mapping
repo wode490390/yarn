@@ -1,0 +1,22 @@
+CLASS ahi net/minecraft/util/datafix/DataFixers
+	FIELD a SAME Ljava/util/function/BiFunction;
+	FIELD b SAME_NAMESPACED Ljava/util/function/BiFunction;
+	FIELD c DATA_FIXER Lcom/mojang/datafixers/DataFixer;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getDataFixer ()Lcom/mojang/datafixers/DataFixer;
+	METHOD a addFixers (Lcom/mojang/datafixers/DataFixerBuilder;)V
+	METHOD a lambda$addFixers$2 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a createRenamer (Ljava/lang/String;Ljava/lang/String;)Ljava/util/function/UnaryOperator;
+	METHOD a lambda$createRenamer$4 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a createRenamer (Ljava/util/Map;)Ljava/util/function/UnaryOperator;
+	METHOD a lambda$createRenamer$3 (Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
+	METHOD b createFixerUpper ()Lcom/mojang/datafixers/DataFixer;
+	METHOD b lambda$addFixers$1 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c lambda$addFixers$0 (Ljava/lang/String;)Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;ZLjava/lang/String;Lcom/mojang/datafixers/DSL$TypeReference;Ljava/lang/String;)V
+		METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	CLASS 2 2
+		METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;ZLjava/lang/String;Lcom/mojang/datafixers/DSL$TypeReference;Ljava/lang/String;)V
+		METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;

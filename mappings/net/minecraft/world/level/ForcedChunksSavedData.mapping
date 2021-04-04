@@ -1,0 +1,9 @@
+CLASS bvm net/minecraft/world/level/ForcedChunksSavedData
+	FIELD a FILE_ID Ljava/lang/String;
+	FIELD b TAG_FORCED Ljava/lang/String;
+	FIELD c chunks Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lit/unimi/dsi/fastutil/longs/LongSet;)V
+	METHOD a getChunks ()Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD a save (Lmv;)Lmv;
+	METHOD b load (Lmv;)Lbvm;

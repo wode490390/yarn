@@ -1,0 +1,17 @@
+CLASS das net/minecraft/world/level/levelgen/structure/templatesystem/AxisAlignedLinearPosTest
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b minChance F
+	FIELD d maxChance F
+	FIELD e minDist I
+	FIELD f maxDist I
+	FIELD g axis Lgg$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FFIILgg$a;)V
+	METHOD a getType ()Ldbg;
+	METHOD a lambda$static$5 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$4 (Ldas;)Lgg$a;
+	METHOD a test (Lgb;Lgb;Lgb;Ljava/util/Random;)Z
+	METHOD b lambda$null$3 (Ldas;)Ljava/lang/Integer;
+	METHOD c lambda$null$2 (Ldas;)Ljava/lang/Integer;
+	METHOD d lambda$null$1 (Ldas;)Ljava/lang/Float;
+	METHOD e lambda$null$0 (Ldas;)Ljava/lang/Float;

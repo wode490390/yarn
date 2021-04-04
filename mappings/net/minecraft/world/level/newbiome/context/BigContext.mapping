@@ -1,0 +1,7 @@
+CLASS ded net/minecraft/world/level/newbiome/context/BigContext
+	METHOD a random (II)I
+	METHOD a random (IIII)I
+	METHOD a initRandom (JJ)V
+	METHOD a createResult (Ldfp;)Lddz;
+	METHOD a createResult (Ldfp;Lddz;)Lddz;
+	METHOD a createResult (Ldfp;Lddz;Lddz;)Lddz;

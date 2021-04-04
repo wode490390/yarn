@@ -1,0 +1,15 @@
+CLASS alr net/minecraft/util/datafix/fixes/PoiTypeRename
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$4 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a cap (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a lambda$renameRecords$8 (Lcom/mojang/serialization/Dynamic;Ljava/util/stream/Stream;)Lcom/mojang/serialization/Dynamic;
+	METHOD a lambda$makeRule$1 (Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
+	METHOD a rename (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b lambda$null$0 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD b renameRecords (Lcom/mojang/serialization/Dynamic;)Ljava/util/Optional;
+	METHOD c lambda$null$7 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD d lambda$null$6 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD e lambda$cap$5 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD f lambda$null$3 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD g lambda$null$2 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

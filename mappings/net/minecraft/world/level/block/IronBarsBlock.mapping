@@ -1,0 +1,8 @@
+CLASS cce net/minecraft/world/level/block/IronBarsBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a skipRendering (Lcjr;Lcjr;Lgg;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a attachsTo (Lcjr;Z)Z
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b getVisualShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;

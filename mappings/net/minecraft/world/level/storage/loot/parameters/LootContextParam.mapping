@@ -1,0 +1,5 @@
+CLASS djq net/minecraft/world/level/storage/loot/parameters/LootContextParam
+	FIELD a name Lwp;
+	METHOD <init> <init> (Lwp;)V
+	METHOD a getName ()Lwp;
+	METHOD toString toString ()Ljava/lang/String;

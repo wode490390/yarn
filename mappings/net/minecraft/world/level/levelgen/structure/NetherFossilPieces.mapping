@@ -1,0 +1,13 @@
+CLASS czz net/minecraft/world/level/levelgen/structure/NetherFossilPieces
+	FIELD a FOSSILS [Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a addPieces (Ldbn;Ldal;Ljava/util/Random;Lgb;)V
+	CLASS a NetherFossilPiece
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD <init> <init> (Ldbn;Lwp;Lgb;Lcek;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a makeSettings (Lcek;)Ldbo;
+		METHOD a handleDataMarker (Ljava/lang/String;Lgb;Lbwf;Ljava/util/Random;Lczp;)V
+		METHOD a lambda$new$0 (Lmv;Lwp;)Ldbo;

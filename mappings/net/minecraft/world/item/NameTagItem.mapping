@@ -1,0 +1,3 @@
+CLASS bqb net/minecraft/world/item/NameTagItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a interactLivingEntity (Lbpr;Lbjf;Lasy;Larf;)Larg;

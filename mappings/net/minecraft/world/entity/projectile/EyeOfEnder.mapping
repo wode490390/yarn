@@ -1,0 +1,24 @@
+CLASS bjo net/minecraft/world/entity/projectile/EyeOfEnder
+	FIELD ar surviveAfterDeath Z
+	FIELD b DATA_ITEM_STACK Lvy;
+	FIELD c tx D
+	FIELD d ty D
+	FIELD e tz D
+	FIELD f life I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDD)V
+	METHOD O getAddEntityPacket ()Lpf;
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a signalTo (Lgb;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD aU getBrightness ()F
+	METHOD b setItem (Lbpr;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD bV isAttackable ()Z
+	METHOD c lambda$setItem$0 (Lbpr;)V
+	METHOD e defineSynchedData ()V
+	METHOD g getItem ()Lbpr;
+	METHOD h getItemRaw ()Lbpr;
+	METHOD j tick ()V
+	METHOD k lerpMotion (DDD)V

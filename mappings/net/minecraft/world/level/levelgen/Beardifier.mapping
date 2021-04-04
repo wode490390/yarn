@@ -1,0 +1,18 @@
+CLASS cof net/minecraft/world/level/levelgen/Beardifier
+	FIELD a NO_BEARDS Lcof;
+	FIELD b BEARD_KERNEL_RADIUS I
+	FIELD c BEARD_KERNEL_SIZE I
+	FIELD d BEARD_KERNEL [F
+	FIELD e rigids Lit/unimi/dsi/fastutil/objects/ObjectList;
+	FIELD f junctions Lit/unimi/dsi/fastutil/objects/ObjectList;
+	FIELD g pieceIterator Lit/unimi/dsi/fastutil/objects/ObjectListIterator;
+	FIELD h junctionIterator Lit/unimi/dsi/fastutil/objects/ObjectListIterator;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lbwi;Lclk;)V
+	METHOD a beardifyOrBury (III)D
+	METHOD a lambda$new$1 (Lbuw;IILdam;)V
+	METHOD a lambda$static$0 ([F)V
+	METHOD b getBuryContribution (III)D
+	METHOD c getBeardContribution (III)D
+	METHOD d computeBeardContribution (III)D

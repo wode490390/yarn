@@ -1,0 +1,15 @@
+CLASS ccb net/minecraft/world/level/block/HugeMushroomBlock
+	FIELD a NORTH Lcki;
+	FIELD b EAST Lcki;
+	FIELD c SOUTH Lcki;
+	FIELD d WEST Lcki;
+	FIELD e UP Lcki;
+	FIELD f DOWN Lcki;
+	FIELD g PROPERTY_BY_DIRECTION Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V

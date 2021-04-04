@@ -1,0 +1,4 @@
+CLASS box net/minecraft/world/item/EndCrystalItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD i isFoil (Lbpr;)Z

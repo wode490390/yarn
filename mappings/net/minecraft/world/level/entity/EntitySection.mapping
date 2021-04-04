@@ -1,0 +1,15 @@
+CLASS cnf net/minecraft/world/level/entity/EntitySection
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b storage Lafz;
+	FIELD c chunkStatus Lcno;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/Class;Lcno;)V
+	METHOD a isEmpty ()Z
+	METHOD a getEntities (Lcni;Ljava/util/function/Predicate;Ljava/util/function/Consumer;)V
+	METHOD a updateChunkStatus (Lcno;)Lcno;
+	METHOD a add (Ljava/lang/Object;)V
+	METHOD a getEntities (Ljava/util/function/Predicate;Ljava/util/function/Consumer;)V
+	METHOD b getEntities ()Ljava/util/stream/Stream;
+	METHOD b remove (Ljava/lang/Object;)Z
+	METHOD c getStatus ()Lcno;
+	METHOD d size ()I

@@ -1,0 +1,21 @@
+CLASS uq net/minecraft/network/protocol/game/ServerboundSetCommandBlockPacket
+	FIELD a FLAG_TRACK_OUTPUT I
+	FIELD b FLAG_CONDITIONAL I
+	FIELD c FLAG_AUTOMATIC I
+	FIELD d pos Lgb;
+	FIELD e command Ljava/lang/String;
+	FIELD f trackOutput Z
+	FIELD g conditional Z
+	FIELD h automatic Z
+	FIELD i mode Lchw$a;
+	METHOD <init> <init> (Lgb;Ljava/lang/String;Lchw$a;ZZZ)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getPos ()Lgb;
+	METHOD c getCommand ()Ljava/lang/String;
+	METHOD d isTrackOutput ()Z
+	METHOD e isConditional ()Z
+	METHOD f isAutomatic ()Z
+	METHOD g getMode ()Lchw$a;

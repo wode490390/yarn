@@ -1,0 +1,6 @@
+CLASS afo net/minecraft/tags/SerializationTags
+	FIELD a instance Lafu;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getInstance ()Lafu;
+	METHOD a bind (Lafu;)V

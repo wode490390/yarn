@@ -1,0 +1,17 @@
+CLASS cis net/minecraft/world/level/block/entity/SpawnerBlockEntity
+	FIELD a spawner Lbus;
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a getUpdatePacket ()Lpt;
+	METHOD a clientTick (Lbvr;Lgb;Lcjr;Lcis;)V
+	METHOD a load (Lmv;)V
+	METHOD a_ triggerEvent (II)Z
+	METHOD b getUpdateTag ()Lmv;
+	METHOD b serverTick (Lbvr;Lgb;Lcjr;Lcis;)V
+	METHOD b save (Lmv;)Lmv;
+	METHOD d getSpawner ()Lbus;
+	METHOD q onlyOpCanSetNbt ()Z
+	CLASS 1 1
+		FIELD a this$0 Lcis;
+		METHOD <init> <init> (Lcis;)V
+		METHOD a broadcastEvent (Lbvr;Lgb;I)V
+		METHOD a setNextSpawnData (Lbvr;Lgb;Lbwh;)V

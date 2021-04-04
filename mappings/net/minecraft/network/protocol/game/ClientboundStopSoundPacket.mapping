@@ -1,0 +1,12 @@
+CLASS sv net/minecraft/network/protocol/game/ClientboundStopSoundPacket
+	FIELD a HAS_SOURCE I
+	FIELD b HAS_SOUND I
+	FIELD c name Lwp;
+	FIELD d source Laex;
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lwp;Laex;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getName ()Lwp;
+	METHOD c getSource ()Laex;

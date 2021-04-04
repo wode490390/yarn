@@ -1,0 +1,5 @@
+CLASS kx net/minecraft/data/worldgen/PlainVillagePools
+	FIELD a START Lcwv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V

@@ -1,0 +1,16 @@
+CLASS ads net/minecraft/server/packs/resources/SimpleResource
+	FIELD a sourceName Ljava/lang/String;
+	FIELD b location Lwp;
+	FIELD c resourceStream Ljava/io/InputStream;
+	FIELD d metadataStream Ljava/io/InputStream;
+	FIELD e triedMetadata Z
+	FIELD f metadata Lcom/google/gson/JsonObject;
+	METHOD <init> <init> (Ljava/lang/String;Lwp;Ljava/io/InputStream;Ljava/io/InputStream;)V
+	METHOD a getLocation ()Lwp;
+	METHOD a getMetadata (Lacr;)Ljava/lang/Object;
+	METHOD b getInputStream ()Ljava/io/InputStream;
+	METHOD c hasMetadata ()Z
+	METHOD close close ()V
+	METHOD d getSourceName ()Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

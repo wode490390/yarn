@@ -1,0 +1,7 @@
+CLASS clr net/minecraft/world/level/chunk/FeatureAccess
+	METHOD a getStartForFeature (Lcsv;)Ldam;
+	METHOD a addReferenceForFeature (Lcsv;J)V
+	METHOD a setStartForFeature (Lcsv;Ldam;)V
+	METHOD b getReferencesForFeature (Lcsv;)Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD b setAllReferences (Ljava/util/Map;)V
+	METHOD w getAllReferences ()Ljava/util/Map;

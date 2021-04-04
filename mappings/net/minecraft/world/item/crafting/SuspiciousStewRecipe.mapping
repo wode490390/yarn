@@ -1,0 +1,8 @@
+CLASS bsy net/minecraft/world/item/crafting/SuspiciousStewRecipe
+	METHOD <init> <init> (Lwp;)V
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Laqz;)Lbpr;
+	METHOD a matches (Laqz;Lbvr;)Z
+	METHOD a assemble (Lblz;)Lbpr;
+	METHOD a matches (Lblz;Lbvr;)Z
+	METHOD aj_ getSerializer ()Lbsl;

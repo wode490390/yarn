@@ -1,0 +1,18 @@
+CLASS bwd net/minecraft/world/level/PathNavigationRegion
+	FIELD a centerX I
+	FIELD b centerZ I
+	FIELD c chunks [[Lclk;
+	FIELD d allEmpty Z
+	FIELD e level Lbvr;
+	METHOD <init> <init> (Lbvr;Lgb;Lgb;)V
+	METHOD a getChunk (II)Lclk;
+	METHOD b getFluidState (Lgb;)Lddq;
+	METHOD c getChunkForCollisions (II)Lbuv;
+	METHOD c getEntityCollisions (Lasl;Ldlt;Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+	METHOD c getBlockEntity (Lgb;)Lchp;
+	METHOD d getCollisions (Lasl;Ldlt;Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+	METHOD d getChunk (Lgb;)Lclk;
+	METHOD d_ getBlockState (Lgb;)Lcjr;
+	METHOD e getWorldBorder ()Lclh;
+	METHOD m getHeight ()I
+	METHOD v_ getMinBuildHeight ()I

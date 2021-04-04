@@ -1,0 +1,10 @@
+CLASS cxa net/minecraft/world/level/levelgen/feature/treedecorators/LeaveVineDecorator
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b INSTANCE Lcxa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a type ()Lcxc;
+	METHOD a addHangingVine (Lbvx;Lgb;Lcki;Ljava/util/function/BiConsumer;)V
+	METHOD a place (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Ljava/util/List;Ljava/util/List;)V
+	METHOD a lambda$place$1 (Ljava/util/Random;Lbvx;Ljava/util/function/BiConsumer;Lgb;)V
+	METHOD b lambda$static$0 ()Lcxa;

@@ -1,0 +1,17 @@
+CLASS bau net/minecraft/world/entity/ai/memory/ExpirableValue
+	FIELD a value Ljava/lang/Object;
+	FIELD b timeToLive J
+	METHOD <init> <init> (Ljava/lang/Object;J)V
+	METHOD a tick ()V
+	METHOD a lambda$null$1 (Lbau;)Ljava/util/Optional;
+	METHOD a codec (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
+	METHOD a lambda$codec$3 (Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a of (Ljava/lang/Object;)Lbau;
+	METHOD a of (Ljava/lang/Object;J)Lbau;
+	METHOD a lambda$null$2 (Ljava/lang/Object;Ljava/util/Optional;)Lbau;
+	METHOD b getTimeToLive ()J
+	METHOD b lambda$null$0 (Lbau;)Ljava/lang/Object;
+	METHOD c getValue ()Ljava/lang/Object;
+	METHOD d hasExpired ()Z
+	METHOD e canExpire ()Z
+	METHOD toString toString ()Ljava/lang/String;

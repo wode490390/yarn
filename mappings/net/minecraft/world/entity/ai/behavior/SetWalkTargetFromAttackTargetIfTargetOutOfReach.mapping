@@ -1,0 +1,10 @@
+CLASS awk net/minecraft/world/entity/ai/behavior/SetWalkTargetFromAttackTargetIfTargetOutOfReach
+	FIELD a PROJECTILE_ATTACK_RANGE_BUFFER I
+	FIELD c speedModifier Ljava/util/function/Function;
+	METHOD <init> <init> (F)V
+	METHOD <init> <init> (Ljava/util/function/Function;)V
+	METHOD a lambda$new$0 (FLasy;)Ljava/lang/Float;
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a start (Labj;Lasz;J)V
+	METHOD a clearWalkTarget (Lasy;)V
+	METHOD a setWalkAndLookTarget (Lasy;Lasy;)V

@@ -1,0 +1,18 @@
+CLASS ccn net/minecraft/world/level/block/LeavesBlock
+	FIELD a DECAY_DISTANCE I
+	FIELD b DISTANCE Lckr;
+	FIELD c PERSISTENT Lcki;
+	FIELD d TICK_DELAY I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a updateDistance (Lcjr;Lbvs;Lgb;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD d_ isRandomlyTicking (Lcjr;)Z
+	METHOD e getBlockSupportShape (Lcjr;Lbuv;Lgb;)Ldmr;
+	METHOD f getLightBlock (Lcjr;Lbuv;Lgb;)I
+	METHOD h getDistanceAt (Lcjr;)I

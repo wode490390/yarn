@@ -1,0 +1,15 @@
+CLASS bxi net/minecraft/world/level/block/AbstractCandleBlock
+	FIELD a LIGHT_PER_CANDLE I
+	FIELD b LIT Lcki;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a extinguish (Lbjf;Lcjr;Lbvs;Lgb;)V
+	METHOD a onProjectileHit (Lbvr;Lcjr;Ldlu;Lbjv;)V
+	METHOD a addParticlesAndSound (Lbvr;Ldly;Ljava/util/Random;)V
+	METHOD a lambda$animateTick$0 (Lbvr;Lgb;Ljava/util/Random;Ldly;)V
+	METHOD a setLit (Lbvs;Lcjr;Lgb;Z)V
+	METHOD a lambda$extinguish$1 (Lbvs;Lgb;Ldly;)V
+	METHOD a getParticleOffsets (Lcjr;)Ljava/lang/Iterable;
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a_ isLit (Lcjr;)Z
+	METHOD c canBeLit (Lcjr;)Z

@@ -1,0 +1,4 @@
+CLASS kq net/minecraft/data/worldgen/BastionSharedPools
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V

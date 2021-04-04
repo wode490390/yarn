@@ -1,0 +1,24 @@
+CLASS cdx net/minecraft/world/level/block/RailState
+	FIELD a level Lbvr;
+	FIELD b pos Lgb;
+	FIELD c block Lbyg;
+	FIELD d state Lcjr;
+	FIELD e isStraight Z
+	FIELD f connections Ljava/util/List;
+	METHOD <init> <init> (Lbvr;Lgb;Lcjr;)V
+	METHOD a getConnections ()Ljava/util/List;
+	METHOD a connectsTo (Lcdx;)Z
+	METHOD a updateConnections (Lckv;)V
+	METHOD a hasRail (Lgb;)Z
+	METHOD a place (ZZLckv;)Lcdx;
+	METHOD b countPotentialConnections ()I
+	METHOD b canConnectTo (Lcdx;)Z
+	METHOD b getRail (Lgb;)Lcdx;
+	METHOD c getState ()Lcjr;
+	METHOD c connectTo (Lcdx;)V
+	METHOD c hasConnection (Lgb;)Z
+	METHOD d removeSoftConnections ()V
+	METHOD d hasNeighborRail (Lgb;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$state$properties$RailShape [I
+		METHOD <clinit> <clinit> ()V

@@ -1,0 +1,12 @@
+CLASS cpp net/minecraft/world/level/levelgen/carver/ConfiguredWorldCarver
+	FIELD a DIRECT_CODEC Lcom/mojang/serialization/Codec;
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c LIST_CODEC Lcom/mojang/serialization/Codec;
+	FIELD d worldCarver Lcpr;
+	FIELD e config Lcpk;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcpr;Lcpk;)V
+	METHOD a config ()Lcpk;
+	METHOD a carve (Lcpm;Lclk;Ljava/util/function/Function;Ljava/util/Random;ILbuw;Ljava/util/BitSet;)Z
+	METHOD a lambda$static$0 (Lcpp;)Lcpr;
+	METHOD a isStartChunk (Ljava/util/Random;)Z

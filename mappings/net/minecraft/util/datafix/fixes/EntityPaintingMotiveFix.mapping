@@ -1,0 +1,7 @@
+CLASS aji net/minecraft/util/datafix/fixes/EntityPaintingMotiveFix
+	FIELD a MAP Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a fixTag (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V

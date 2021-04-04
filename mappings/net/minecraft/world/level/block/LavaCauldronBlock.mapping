@@ -1,0 +1,6 @@
+CLASS ccl net/minecraft/world/level/block/LavaCauldronBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getContentHeight (Lcjr;)D
+	METHOD a getAnalogOutputSignal (Lcjr;Lbvr;Lgb;)I
+	METHOD a entityInside (Lcjr;Lbvr;Lgb;Lasl;)V
+	METHOD c isFull (Lcjr;)Z

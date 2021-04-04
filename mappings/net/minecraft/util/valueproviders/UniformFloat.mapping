@@ -1,0 +1,18 @@
+CLASS aqr net/minecraft/util/valueproviders/UniformFloat
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b minInclusive F
+	FIELD d maxExclusive F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FF)V
+	METHOD a getMinValue ()F
+	METHOD a lambda$static$3 (Laqr;)Lcom/mojang/serialization/DataResult;
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a sample (Ljava/util/Random;)F
+	METHOD b getMaxValue ()F
+	METHOD b of (FF)Laqr;
+	METHOD b lambda$null$1 (Laqr;)Ljava/lang/Float;
+	METHOD c getType ()Laqn;
+	METHOD c lambda$null$0 (Laqr;)Ljava/lang/Float;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

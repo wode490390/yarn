@@ -1,0 +1,16 @@
+CLASS bzw net/minecraft/world/level/block/ConduitBlock
+	FIELD a WATERLOGGED Lcki;
+	FIELD b SHAPE Ldmr;
+	FIELD c SIZE I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getTicker (Lbvr;Lcjr;Lchr;)Lchq;
+	METHOD a setPlacedBy (Lbvr;Lgb;Lcjr;Lasy;Lbpr;)V
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;
+	METHOD b_ getRenderShape (Lcjr;)Lced;
+	METHOD c_ getFluidState (Lcjr;)Lddq;

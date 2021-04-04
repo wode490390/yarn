@@ -1,0 +1,14 @@
+CLASS cvn net/minecraft/world/level/levelgen/feature/featuresize/TwoLayersFeatureSize
+	FIELD d CODEC Lcom/mojang/serialization/Codec;
+	FIELD e limit I
+	FIELD f lowerSize I
+	FIELD g upperSize I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (IIILjava/util/OptionalInt;)V
+	METHOD a getSizeAtHeight (II)I
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcvn;)Ljava/lang/Integer;
+	METHOD b type ()Lcvl;
+	METHOD b lambda$null$1 (Lcvn;)Ljava/lang/Integer;
+	METHOD c lambda$null$0 (Lcvn;)Ljava/lang/Integer;

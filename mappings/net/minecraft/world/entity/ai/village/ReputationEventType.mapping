@@ -1,0 +1,12 @@
+CLASS bcl net/minecraft/world/entity/ai/village/ReputationEventType
+	FIELD a ZOMBIE_VILLAGER_CURED Lbcl;
+	FIELD b GOLEM_KILLED Lbcl;
+	FIELD c VILLAGER_HURT Lbcl;
+	FIELD d VILLAGER_KILLED Lbcl;
+	FIELD e TRADE Lbcl;
+	METHOD <clinit> <clinit> ()V
+	METHOD a register (Ljava/lang/String;)Lbcl;
+	CLASS 1 1
+		FIELD f val$name Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD toString toString ()Ljava/lang/String;

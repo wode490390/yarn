@@ -1,0 +1,2 @@
+CLASS dkg net/minecraft/world/level/storage/loot/predicates/LootItemConditionType
+	METHOD <init> <init> (Ldht;)V

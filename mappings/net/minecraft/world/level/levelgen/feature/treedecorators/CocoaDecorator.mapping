@@ -1,0 +1,10 @@
+CLASS cwz net/minecraft/world/level/levelgen/feature/treedecorators/CocoaDecorator
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b probability F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (F)V
+	METHOD a type ()Lcxc;
+	METHOD a lambda$place$1 (ILgb;)Z
+	METHOD a place (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Ljava/util/List;Ljava/util/List;)V
+	METHOD a lambda$static$0 (Lcwz;)Ljava/lang/Float;
+	METHOD a lambda$place$2 (Ljava/util/Random;Lbvx;Ljava/util/function/BiConsumer;Lgb;)V

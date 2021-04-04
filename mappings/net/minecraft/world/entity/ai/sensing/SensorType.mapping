@@ -1,0 +1,25 @@
+CLASS bbw net/minecraft/world/entity/ai/sensing/SensorType
+	FIELD a DUMMY Lbbw;
+	FIELD b NEAREST_ITEMS Lbbw;
+	FIELD c NEAREST_LIVING_ENTITIES Lbbw;
+	FIELD d NEAREST_PLAYERS Lbbw;
+	FIELD e NEAREST_BED Lbbw;
+	FIELD f HURT_BY Lbbw;
+	FIELD g VILLAGER_HOSTILES Lbbw;
+	FIELD h VILLAGER_BABIES Lbbw;
+	FIELD i SECONDARY_POIS Lbbw;
+	FIELD j GOLEM_DETECTED Lbbw;
+	FIELD k PIGLIN_SPECIFIC_SENSOR Lbbw;
+	FIELD l PIGLIN_BRUTE_SPECIFIC_SENSOR Lbbw;
+	FIELD m HOGLIN_SPECIFIC_SENSOR Lbbw;
+	FIELD n NEAREST_ADULT Lbbw;
+	FIELD o AXOLOTL_ATTACKABLES Lbbw;
+	FIELD p AXOLOTL_TEMPTATIONS Lbbw;
+	FIELD q GOAT_TEMPTATIONS Lbbw;
+	FIELD r factory Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Supplier;)V
+	METHOD a create ()Lbbv;
+	METHOD a register (Ljava/lang/String;Ljava/util/function/Supplier;)Lbbw;
+	METHOD b lambda$static$1 ()Lbbx;
+	METHOD c lambda$static$0 ()Lbbx;

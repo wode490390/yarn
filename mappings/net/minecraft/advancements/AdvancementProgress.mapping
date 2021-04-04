@@ -1,0 +1,31 @@
+CLASS af net/minecraft/advancements/AdvancementProgress
+	FIELD a criteria Ljava/util/Map;
+	FIELD b requirements [[Ljava/lang/String;
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD a isDone ()Z
+	METHOD a compareTo (Laf;)I
+	METHOD a grantProgress (Ljava/lang/String;)Z
+	METHOD a update (Ljava/util/Map;[[Ljava/lang/String;)V
+	METHOD a lambda$update$0 (Ljava/util/Set;Ljava/util/Map$Entry;)Z
+	METHOD a serializeToNetwork (Lob;)V
+	METHOD a lambda$serializeToNetwork$1 (Lob;Laj;)V
+	METHOD b hasProgress ()Z
+	METHOD b access$000 (Laf;)Ljava/util/Map;
+	METHOD b revokeProgress (Ljava/lang/String;)Z
+	METHOD b fromNetwork (Lob;)Laf;
+	METHOD c getPercent ()F
+	METHOD c getCriterion (Ljava/lang/String;)Laj;
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD d getProgressText ()Ljava/lang/String;
+	METHOD e getRemainingCriteria ()Ljava/lang/Iterable;
+	METHOD f getCompletedCriteria ()Ljava/lang/Iterable;
+	METHOD g getFirstProgressDate ()Ljava/util/Date;
+	METHOD h countCompletedRequirements ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a serialize (Laf;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Laf;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

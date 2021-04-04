@@ -1,0 +1,5 @@
+CLASS agg net/minecraft/util/ExceptionCollector
+	FIELD a result Ljava/lang/Throwable;
+	METHOD <init> <init> ()V
+	METHOD a throwIfPresent ()V
+	METHOD a add (Ljava/lang/Throwable;)V

@@ -1,0 +1,6 @@
+CLASS agn net/minecraft/util/HeapDumper
+	FIELD a HOTSPOT_BEAN_NAME Ljava/lang/String;
+	FIELD b hotspotMBean Lcom/sun/management/HotSpotDiagnosticMXBean;
+	METHOD <init> <init> ()V
+	METHOD a getHotspotMBean ()Lcom/sun/management/HotSpotDiagnosticMXBean;
+	METHOD a dumpHeap (Ljava/lang/String;Z)V

@@ -1,0 +1,11 @@
+CLASS cta net/minecraft/world/level/levelgen/feature/UnderwaterMagmaFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a isWaterOrAir (Lbvs;Lgb;)Z
+	METHOD a isValidPlacement (Lbwm;Lgb;)Z
+	METHOD a getFloorY (Lbwm;Lgb;Lcvh;)Ljava/util/OptionalInt;
+	METHOD a place (Lcqz;)Z
+	METHOD a lambda$place$0 (Ljava/util/Random;Lcvh;Lgb;)Z
+	METHOD b lambda$place$2 (Lbwm;Lgb;)I
+	METHOD c lambda$place$1 (Lbwm;Lgb;)Z
+	METHOD c lambda$getFloorY$4 (Lcjr;)Z
+	METHOD d lambda$getFloorY$3 (Lcjr;)Z

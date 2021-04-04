@@ -1,0 +1,20 @@
+CLASS bvb net/minecraft/world/level/CollisionSpliterator
+	FIELD a source Lasl;
+	FIELD b box Ldlt;
+	FIELD c context Ldmd;
+	FIELD d cursor Lge;
+	FIELD e pos Lgb$a;
+	FIELD f entityShape Ldmr;
+	FIELD g collisionGetter Lbva;
+	FIELD h needsBorderCheck Z
+	FIELD i predicate Ljava/util/function/BiPredicate;
+	METHOD <init> <init> (Lbva;Lasl;Ldlt;)V
+	METHOD <init> <init> (Lbva;Lasl;Ldlt;Ljava/util/function/BiPredicate;)V
+	METHOD a getChunk (II)Lbuv;
+	METHOD a lambda$new$0 (Lcjr;Lgb;)Z
+	METHOD a isBoxFullyWithinWorldBorder (Lclh;Ldlt;)Z
+	METHOD a isCloseToBorder (Ldmr;Ldlt;)Z
+	METHOD a collisionCheck (Ljava/util/function/Consumer;)Z
+	METHOD b isOutsideBorder (Ldmr;Ldlt;)Z
+	METHOD b worldBorderCheck (Ljava/util/function/Consumer;)Z
+	METHOD tryAdvance tryAdvance (Ljava/util/function/Consumer;)Z

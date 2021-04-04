@@ -1,0 +1,6 @@
+CLASS dgg net/minecraft/world/level/portal/PortalInfo
+	FIELD a pos Ldly;
+	FIELD b speed Ldly;
+	FIELD c yRot F
+	FIELD d xRot F
+	METHOD <init> <init> (Ldly;Ldly;FF)V

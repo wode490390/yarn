@@ -1,0 +1,23 @@
+CLASS je net/minecraft/data/models/blockstates/VariantProperties
+	FIELD a X_ROT Ljf;
+	FIELD b Y_ROT Ljf;
+	FIELD c MODEL Ljf;
+	FIELD d UV_LOCK Ljf;
+	FIELD e WEIGHT Ljf;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a lambda$static$1 (Lje$a;)Lcom/google/gson/JsonElement;
+	METHOD a lambda$static$2 (Lwp;)Lcom/google/gson/JsonElement;
+	METHOD b lambda$static$0 (Lje$a;)Lcom/google/gson/JsonElement;
+	CLASS a Rotation
+		FIELD a R0 Lje$a;
+		FIELD b R90 Lje$a;
+		FIELD c R180 Lje$a;
+		FIELD d R270 Lje$a;
+		FIELD e value I
+		FIELD f $VALUES [Lje$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;II)V
+		METHOD a access$000 (Lje$a;)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lje$a;
+		METHOD values values ()[Lje$a;

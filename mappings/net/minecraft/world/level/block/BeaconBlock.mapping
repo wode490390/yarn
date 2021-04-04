@@ -1,0 +1,8 @@
+CLASS byi net/minecraft/world/level/block/BeaconBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getColor ()Lbon;
+	METHOD a getTicker (Lbvr;Lcjr;Lchr;)Lchq;
+	METHOD a setPlacedBy (Lbvr;Lgb;Lcjr;Lasy;Lbpr;)V
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;
+	METHOD b_ getRenderShape (Lcjr;)Lced;

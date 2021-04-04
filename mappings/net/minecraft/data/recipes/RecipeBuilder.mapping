@@ -1,0 +1,4 @@
+CLASS js net/minecraft/data/recipes/RecipeBuilder
+	METHOD a group (Ljava/lang/String;)Ljs;
+	METHOD a unlockedBy (Ljava/lang/String;Lal;)Ljs;
+	METHOD a save (Ljava/util/function/Consumer;)V

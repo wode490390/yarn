@@ -1,0 +1,11 @@
+CLASS bax net/minecraft/world/entity/ai/memory/WalkTarget
+	FIELD a target Lavu;
+	FIELD b speedModifier F
+	FIELD c closeEnoughDist I
+	METHOD <init> <init> (Lasl;FI)V
+	METHOD <init> <init> (Lavu;FI)V
+	METHOD <init> <init> (Ldly;FI)V
+	METHOD <init> <init> (Lgb;FI)V
+	METHOD a getTarget ()Lavu;
+	METHOD b getSpeedModifier ()F
+	METHOD c getCloseEnoughDist ()I

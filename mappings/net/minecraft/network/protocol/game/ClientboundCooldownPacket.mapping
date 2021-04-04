@@ -1,0 +1,10 @@
+CLASS qg net/minecraft/network/protocol/game/ClientboundCooldownPacket
+	FIELD a item Lbpn;
+	FIELD b duration I
+	METHOD <init> <init> (Lbpn;I)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getItem ()Lbpn;
+	METHOD c getDuration ()I

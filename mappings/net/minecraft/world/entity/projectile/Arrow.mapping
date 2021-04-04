@@ -1,0 +1,26 @@
+CLASS bjl net/minecraft/world/entity/projectile/Arrow
+	FIELD ar NO_EFFECT_COLOR I
+	FIELD as ID_EFFECT_COLOR Lvy;
+	FIELD at EVENT_POTION_PUFF B
+	FIELD au potion Lbrm;
+	FIELD av effects Ljava/util/Set;
+	FIELD aw fixedColor Z
+	FIELD f EXPOSED_POTION_DECAY_TIME I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDD)V
+	METHOD <init> <init> (Lbvr;Lasy;)V
+	METHOD a handleEntityEvent (B)V
+	METHOD a addEffect (Lasf;)V
+	METHOD a doPostHurtEffects (Lasy;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b makeParticle (I)V
+	METHOD b setEffectsFromItem (Lbpr;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c setFixedColor (I)V
+	METHOD c getCustomColor (Lbpr;)I
+	METHOD e defineSynchedData ()V
+	METHOD j tick ()V
+	METHOD k getPickupItem ()Lbpr;
+	METHOD u getColor ()I
+	METHOD y updateColor ()V

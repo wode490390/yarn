@@ -1,0 +1,6 @@
+CLASS cka net/minecraft/world/level/block/state/predicate/BlockPredicate
+	FIELD a block Lbyq;
+	METHOD <init> <init> (Lbyq;)V
+	METHOD a forBlock (Lbyq;)Lcka;
+	METHOD a test (Lcjr;)Z
+	METHOD test test (Ljava/lang/Object;)Z

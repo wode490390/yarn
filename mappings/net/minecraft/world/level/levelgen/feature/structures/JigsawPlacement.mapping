@@ -1,0 +1,39 @@
+CLASS cwp net/minecraft/world/level/levelgen/feature/structures/JigsawPlacement
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Lorg/apache/logging/log4j/Logger;
+	METHOD a addPieces (Lgs;Lcug;Lcwp$a;Lclm;Ldbn;Lgb;Ldal;Ljava/util/Random;ZZLbvt;)V
+	METHOD a addPieces (Lgs;Ldae;ILcwp$a;Lclm;Ldbn;Ljava/util/List;Ljava/util/Random;Lbvt;)V
+	CLASS 1 1
+	CLASS a PieceFactory
+		METHOD create create (Ldbn;Lcwt;Lgb;ILcek;Lczp;)Ldae;
+	CLASS b PieceState
+		FIELD a piece Ldae;
+		FIELD b free Lorg/apache/commons/lang3/mutable/MutableObject;
+		FIELD c boundsTop I
+		FIELD d depth I
+		METHOD <init> <init> (Ldae;Lorg/apache/commons/lang3/mutable/MutableObject;II)V
+		METHOD <init> <init> (Ldae;Lorg/apache/commons/lang3/mutable/MutableObject;IILcwp$1;)V
+		METHOD a access$400 (Lcwp$b;)Ldae;
+		METHOD b access$500 (Lcwp$b;)Lorg/apache/commons/lang3/mutable/MutableObject;
+		METHOD c access$600 (Lcwp$b;)I
+		METHOD d access$700 (Lcwp$b;)I
+	CLASS c Placer
+		FIELD a pools Lgr;
+		FIELD b maxDepth I
+		FIELD c factory Lcwp$a;
+		FIELD d chunkGenerator Lclm;
+		FIELD e structureManager Ldbn;
+		FIELD f pieces Ljava/util/List;
+		FIELD g random Ljava/util/Random;
+		FIELD h placing Ljava/util/Deque;
+		METHOD <init> <init> (Lgr;ILcwp$a;Lclm;Ldbn;Ljava/util/List;Ljava/util/Random;)V
+		METHOD <init> <init> (Lgr;ILcwp$a;Lclm;Ldbn;Ljava/util/List;Ljava/util/Random;Lcwp$1;)V
+		METHOD a access$300 (Lcwp$c;)Ljava/util/Deque;
+		METHOD a access$800 (Lcwp$c;Ldae;Lorg/apache/commons/lang3/mutable/MutableObject;IIZLbvt;)V
+		METHOD a lambda$null$2 (Lcwv;)Ljava/lang/Integer;
+		METHOD a lambda$tryPlacingChildren$3 (Lczp;Ldbs$c;)I
+		METHOD a tryPlacingChildren (Ldae;Lorg/apache/commons/lang3/mutable/MutableObject;IIZLbvt;)V
+		METHOD b lambda$null$1 (Lcwv;)Ljava/lang/Integer;
+		METHOD c lambda$null$0 (Lcwv;)Ljava/util/Optional;

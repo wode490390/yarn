@@ -1,0 +1,7 @@
+CLASS kj net/minecraft/data/tags/ItemTagsProvider
+	FIELD d blockTags Ljava/util/function/Function;
+	METHOD <init> <init> (Lhx;Lkf;)V
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a copy (Lafs$e;Lafs$e;)V
+	METHOD a getPath (Lwp;)Ljava/nio/file/Path;
+	METHOD b addTags ()V

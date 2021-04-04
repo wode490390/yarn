@@ -1,0 +1,17 @@
+CLASS amh net/minecraft/util/datafix/fixes/StatsCounterFix
+	FIELD a SKIP Ljava/util/Set;
+	FIELD b CUSTOM_MAP Ljava/util/Map;
+	FIELD c BLOCK_KEY Ljava/lang/String;
+	FIELD d NEW_BLOCK_KEY Ljava/lang/String;
+	FIELD e ITEM_KEYS Ljava/util/Map;
+	FIELD f ENTITY_KEYS Ljava/util/Map;
+	FIELD g ENTITIES Ljava/util/Map;
+	FIELD h NEW_CUSTOM_KEY Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$1 ()Ljava/lang/IllegalStateException;
+	METHOD a lambda$makeRule$2 (Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$0 (Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a upgradeItem (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b upgradeBlock (Ljava/lang/String;)Ljava/lang/String;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

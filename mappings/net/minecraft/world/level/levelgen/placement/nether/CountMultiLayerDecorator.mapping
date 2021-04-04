@@ -1,0 +1,6 @@
+CLASS czl net/minecraft/world/level/levelgen/placement/nether/CountMultiLayerDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a isEmpty (Lcjr;)Z
+	METHOD a findOnGroundYPosition (Lcyp;IIII)I
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lctt;Lgb;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lctv;Lgb;)Ljava/util/stream/Stream;

@@ -1,0 +1,5 @@
+CLASS ark net/minecraft/world/Nameable
+	METHOD R getName ()Lon;
+	METHOD S hasCustomName ()Z
+	METHOD T getCustomName ()Lon;
+	METHOD d getDisplayName ()Lon;

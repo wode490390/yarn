@@ -1,0 +1,12 @@
+CLASS bid net/minecraft/world/entity/monster/piglin/PiglinArmPose
+	FIELD a ATTACKING_WITH_MELEE_WEAPON Lbid;
+	FIELD b CROSSBOW_HOLD Lbid;
+	FIELD c CROSSBOW_CHARGE Lbid;
+	FIELD d ADMIRING_ITEM Lbid;
+	FIELD e DANCING Lbid;
+	FIELD f DEFAULT Lbid;
+	FIELD g $VALUES [Lbid;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbid;
+	METHOD values values ()[Lbid;

@@ -1,0 +1,7 @@
+CLASS aqp net/minecraft/util/valueproviders/IntProviderType
+	FIELD a CONSTANT Laqp;
+	FIELD b UNIFORM Laqp;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$register$0 (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
+	METHOD a register (Ljava/lang/String;Lcom/mojang/serialization/Codec;)Laqp;
+	METHOD codec codec ()Lcom/mojang/serialization/Codec;

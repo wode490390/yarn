@@ -1,0 +1,4 @@
+CLASS arz net/minecraft/world/effect/AbsoptionMobEffect
+	METHOD <init> <init> (Lase;I)V
+	METHOD a removeAttributeModifiers (Lasy;Latv;I)V
+	METHOD b addAttributeModifiers (Lasy;Latv;I)V

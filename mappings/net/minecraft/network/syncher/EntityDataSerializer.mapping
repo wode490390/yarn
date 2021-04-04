@@ -1,0 +1,5 @@
+CLASS vz net/minecraft/network/syncher/EntityDataSerializer
+	METHOD a createAccessor (I)Lvy;
+	METHOD a copy (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD a read (Lob;)Ljava/lang/Object;
+	METHOD a write (Lob;Ljava/lang/Object;)V

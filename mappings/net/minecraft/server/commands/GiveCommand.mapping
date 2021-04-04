@@ -1,0 +1,8 @@
+CLASS yi net/minecraft/server/commands/GiveCommand
+	FIELD a MAX_ALLOWED_ITEMSTACKS I
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Ldg;)Z
+	METHOD a giveItem (Ldg;Lfc;Ljava/util/Collection;I)I
+	METHOD b lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

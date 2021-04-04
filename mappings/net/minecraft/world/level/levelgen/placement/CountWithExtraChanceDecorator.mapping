@@ -1,0 +1,4 @@
+CLASS cyl net/minecraft/world/level/levelgen/placement/CountWithExtraChanceDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a count (Ljava/util/Random;Lctv;Lgb;)I
+	METHOD a count (Ljava/util/Random;Lcyu;Lgb;)I

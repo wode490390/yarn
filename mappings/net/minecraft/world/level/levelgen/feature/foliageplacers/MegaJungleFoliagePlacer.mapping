@@ -1,0 +1,11 @@
+CLASS cvw net/minecraft/world/level/levelgen/feature/foliageplacers/MegaJungleFoliagePlacer
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b height I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laqo;Laqo;I)V
+	METHOD a type ()Lcvv;
+	METHOD a createFoliage (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Lcvg;ILcvu$a;III)V
+	METHOD a lambda$static$1 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$0 (Lcvw;)Ljava/lang/Integer;
+	METHOD a shouldSkipLocation (Ljava/util/Random;IIIIZ)Z
+	METHOD a foliageHeight (Ljava/util/Random;ILcvg;)I

@@ -1,0 +1,11 @@
+CLASS vl net/minecraft/network/protocol/login/ServerboundCustomQueryPacket
+	FIELD a MAX_PAYLOAD_SIZE I
+	FIELD b transactionId I
+	FIELD c data Lob;
+	METHOD <init> <init> (ILob;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lvk;)V
+	METHOD b getTransactionId ()I
+	METHOD c getData ()Lob;

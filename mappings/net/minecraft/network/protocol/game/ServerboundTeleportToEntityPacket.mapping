@@ -1,0 +1,8 @@
+CLASS ux net/minecraft/network/protocol/game/ServerboundTeleportToEntityPacket
+	FIELD a uuid Ljava/util/UUID;
+	METHOD <init> <init> (Ljava/util/UUID;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a getEntity (Labj;)Lasl;
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V

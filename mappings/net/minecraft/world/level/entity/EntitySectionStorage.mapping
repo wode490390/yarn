@@ -1,0 +1,24 @@
+CLASS cng net/minecraft/world/level/entity/EntitySectionStorage
+	FIELD a entityClass Ljava/lang/Class;
+	FIELD b intialSectionVisibility Lit/unimi/dsi/fastutil/longs/Long2ObjectFunction;
+	FIELD c sections Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
+	FIELD d sectionIds Lit/unimi/dsi/fastutil/longs/LongSortedSet;
+	METHOD <init> <init> (Ljava/lang/Class;Lit/unimi/dsi/fastutil/longs/Long2ObjectFunction;)V
+	METHOD a getAllChunksWithExistingSections ()Lit/unimi/dsi/fastutil/longs/LongSet;
+	METHOD a getChunkSections (II)Lit/unimi/dsi/fastutil/longs/LongSortedSet;
+	METHOD a getExistingSectionPositionsInChunk (J)Ljava/util/stream/LongStream;
+	METHOD a getEntities (Lcni;Ldlt;Ljava/util/function/Consumer;)V
+	METHOD a lambda$getEntities$3 (Lcni;Ldlt;Ljava/util/function/Consumer;Lcnf;)V
+	METHOD a createBoundingBoxCheck (Ldlt;)Ljava/util/function/Predicate;
+	METHOD a lambda$createBoundingBoxCheck$1 (Ldlt;Lcnb;)Z
+	METHOD a forEachAccessibleSection (Ldlt;Ljava/util/function/Consumer;)V
+	METHOD a lambda$getEntities$2 (Ldlt;Ljava/util/function/Consumer;Lcnf;)V
+	METHOD a lambda$getAllChunksWithExistingSections$0 (Lit/unimi/dsi/fastutil/longs/LongSet;J)V
+	METHOD b count ()I
+	METHOD b getExistingSectionsInChunk (J)Ljava/util/stream/Stream;
+	METHOD b getEntities (Ldlt;Ljava/util/function/Consumer;)V
+	METHOD c getOrCreateSection (J)Lcnf;
+	METHOD d getSection (J)Lcnf;
+	METHOD e remove (J)V
+	METHOD f getChunkKeyFromSectionKey (J)J
+	METHOD g createSection (J)Lcnf;

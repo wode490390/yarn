@@ -1,0 +1,18 @@
+CLASS def net/minecraft/world/level/newbiome/context/LazyAreaContext
+	FIELD a MAX_CACHE I
+	FIELD b cache Lit/unimi/dsi/fastutil/longs/Long2IntLinkedOpenHashMap;
+	FIELD c maxCache I
+	FIELD d biomeNoise Ldcr;
+	FIELD e seed J
+	FIELD f rval J
+	METHOD <init> <init> (IJJ)V
+	METHOD a getBiomeNoise ()Ldcr;
+	METHOD a nextRandom (I)I
+	METHOD a initRandom (JJ)V
+	METHOD a createResult (Ldfp;)Lddz;
+	METHOD a createResult (Ldfp;Lddz;)Lddz;
+	METHOD a createResult (Ldfp;Lddz;Lddz;)Lddz;
+	METHOD a createResult (Ldfp;Ldeb;)Ldeb;
+	METHOD a createResult (Ldfp;Ldeb;Ldeb;)Ldeb;
+	METHOD b mixSeed (JJ)J
+	METHOD b createResult (Ldfp;)Ldeb;

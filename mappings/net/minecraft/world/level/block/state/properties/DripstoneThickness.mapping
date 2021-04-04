@@ -1,0 +1,14 @@
+CLASS cko net/minecraft/world/level/block/state/properties/DripstoneThickness
+	FIELD a TIP_MERGE Lcko;
+	FIELD b TIP Lcko;
+	FIELD c FRUSTUM Lcko;
+	FIELD d MIDDLE Lcko;
+	FIELD e BASE Lcko;
+	FIELD f name Ljava/lang/String;
+	FIELD g $VALUES [Lcko;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD c getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcko;
+	METHOD values values ()[Lcko;

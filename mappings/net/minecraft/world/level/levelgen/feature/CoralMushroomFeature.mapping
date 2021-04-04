@@ -1,0 +1,3 @@
+CLASS cqk net/minecraft/world/level/levelgen/feature/CoralMushroomFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a placeFeature (Lbvs;Ljava/util/Random;Lgb;Lcjr;)Z

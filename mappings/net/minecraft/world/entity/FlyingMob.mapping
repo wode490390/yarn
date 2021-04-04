@@ -1,0 +1,6 @@
+CLASS ass net/minecraft/world/entity/FlyingMob
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a checkFallDamage (DZLcjr;Lgb;)V
+	METHOD a causeFallDamage (FFLarv;)Z
+	METHOD c_ onClimbable ()Z
+	METHOD h travel (Ldly;)V

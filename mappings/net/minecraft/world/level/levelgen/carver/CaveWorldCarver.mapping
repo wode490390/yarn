@@ -1,0 +1,13 @@
+CLASS cpo net/minecraft/world/level/levelgen/carver/CaveWorldCarver
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getCaveBound ()I
+	METHOD a shouldSkip (DDDD)Z
+	METHOD a lambda$carve$0 (DLcpm;DDDI)Z
+	METHOD a isStartChunk (Lcpk;Ljava/util/Random;)Z
+	METHOD a carve (Lcpm;Lcpk;Lclk;Ljava/util/function/Function;Ljava/util/Random;ILbuw;Ljava/util/BitSet;)Z
+	METHOD a createTunnel (Lcpm;Lcpn;Lclk;Ljava/util/function/Function;JIDDDDDFFFIIDLjava/util/BitSet;Lcpr$a;)V
+	METHOD a createRoom (Lcpm;Lcpn;Lclk;Ljava/util/function/Function;JIDDDFDLjava/util/BitSet;Lcpr$a;)V
+	METHOD a carve (Lcpm;Lcpn;Lclk;Ljava/util/function/Function;Ljava/util/Random;ILbuw;Ljava/util/BitSet;)Z
+	METHOD a isStartChunk (Lcpn;Ljava/util/Random;)Z
+	METHOD a getThickness (Ljava/util/Random;)F
+	METHOD b getYScale ()D

@@ -1,0 +1,7 @@
+CLASS awm net/minecraft/world/entity/ai/behavior/SetWalkTargetFromLookTarget
+	FIELD a speedModifier Ljava/util/function/Function;
+	FIELD c closeEnoughDistance I
+	METHOD <init> <init> (FI)V
+	METHOD <init> <init> (Ljava/util/function/Function;I)V
+	METHOD a lambda$new$0 (FLasy;)Ljava/lang/Float;
+	METHOD a start (Labj;Lasy;J)V

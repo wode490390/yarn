@@ -1,0 +1,15 @@
+CLASS bsj net/minecraft/world/item/crafting/Recipe
+	METHOD a getIngredients ()Lgn;
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Laqz;)Lbpr;
+	METHOD a matches (Laqz;Lbvr;)Z
+	METHOD a lambda$isIncomplete$0 (Lbsg;)Z
+	METHOD ai_ isSpecial ()Z
+	METHOD aj_ getSerializer ()Lbsl;
+	METHOD b getRemainingItems (Laqz;)Lgn;
+	METHOD c getResultItem ()Lbpr;
+	METHOD d getGroup ()Ljava/lang/String;
+	METHOD f getId ()Lwp;
+	METHOD g getType ()Lbsm;
+	METHOD h getToastSymbol ()Lbpr;
+	METHOD i isIncomplete ()Z

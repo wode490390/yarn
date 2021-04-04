@@ -1,0 +1,10 @@
+CLASS bfi net/minecraft/world/entity/boss/enderdragon/phases/DragonLandingPhase
+	FIELD b targetLocation Ldly;
+	METHOD <init> <init> (Lbez;)V
+	METHOD b doClientTick ()V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD f getFlySpeed ()F
+	METHOD g getFlyTargetLocation ()Ldly;
+	METHOD h getTurnSpeed ()F
+	METHOD i getPhase ()Lbfp;

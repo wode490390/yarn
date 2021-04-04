@@ -1,0 +1,22 @@
+CLASS bas net/minecraft/world/entity/ai/gossip/GossipType
+	FIELD a MAJOR_NEGATIVE Lbas;
+	FIELD b MINOR_NEGATIVE Lbas;
+	FIELD c MINOR_POSITIVE Lbas;
+	FIELD d MAJOR_POSITIVE Lbas;
+	FIELD e TRADING Lbas;
+	FIELD f REPUTATION_CHANGE_PER_EVENT I
+	FIELD g REPUTATION_CHANGE_PER_EVERLASTING_MEMORY I
+	FIELD h REPUTATION_CHANGE_PER_TRADE I
+	FIELD i id Ljava/lang/String;
+	FIELD j weight I
+	FIELD k max I
+	FIELD l decayPerDay I
+	FIELD m decayPerTransfer I
+	FIELD n BY_ID Ljava/util/Map;
+	FIELD o $VALUES [Lbas;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+	METHOD a lambda$static$0 (Lbas;)Ljava/lang/String;
+	METHOD a byId (Ljava/lang/String;)Lbas;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbas;
+	METHOD values values ()[Lbas;

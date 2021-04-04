@@ -1,0 +1,14 @@
+CLASS bzk net/minecraft/world/level/block/CaveVinesBlock
+	FIELD f CHANCE_OF_BERRIES_ON_GROWTH F
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a performBonemeal (Labj;Ljava/util/Random;Lgb;Lcjr;)V
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a isValidBonemealTarget (Lbuv;Lgb;Lcjr;Z)Z
+	METHOD a isBonemealSuccess (Lbvr;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a updateBodyAfterConvertedFromHead (Lcjr;Lcjr;)Lcjr;
+	METHOD a getGrowIntoState (Lcjr;Ljava/util/Random;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a getBlocksToGrowWhenBonemealed (Ljava/util/Random;)I
+	METHOD c getBodyBlock ()Lbyq;
+	METHOD g canGrowInto (Lcjr;)Z

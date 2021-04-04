@@ -1,0 +1,12 @@
+CLASS cls net/minecraft/world/level/chunk/GlobalPalette
+	FIELD a registry Lgl;
+	FIELD b defaultValue Ljava/lang/Object;
+	METHOD <init> <init> (Lgl;Ljava/lang/Object;)V
+	METHOD a getSerializedSize ()I
+	METHOD a valueFor (I)Ljava/lang/Object;
+	METHOD a idFor (Ljava/lang/Object;)I
+	METHOD a maybeHas (Ljava/util/function/Predicate;)Z
+	METHOD a read (Lnb;)V
+	METHOD a read (Lob;)V
+	METHOD b getSize ()I
+	METHOD b write (Lob;)V

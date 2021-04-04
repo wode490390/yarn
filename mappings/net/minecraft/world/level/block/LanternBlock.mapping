@@ -1,0 +1,16 @@
+CLASS cck net/minecraft/world/level/block/LanternBlock
+	FIELD a HANGING Lcki;
+	FIELD b WATERLOGGED Lcki;
+	FIELD c AABB Ldmr;
+	FIELD d HANGING_AABB Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD d getPistonPushReaction (Lcjr;)Lddw;
+	METHOD h getConnectedDirection (Lcjr;)Lgg;

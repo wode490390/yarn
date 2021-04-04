@@ -1,0 +1,12 @@
+CLASS bve net/minecraft/world/level/DataPackConfig
+	FIELD a DEFAULT Lbve;
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c enabled Ljava/util/List;
+	FIELD d disabled Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;Ljava/util/List;)V
+	METHOD a getEnabled ()Ljava/util/List;
+	METHOD a lambda$null$1 (Lbve;)Ljava/util/List;
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b getDisabled ()Ljava/util/List;
+	METHOD b lambda$null$0 (Lbve;)Ljava/util/List;

@@ -1,0 +1,6 @@
+CLASS cyc net/minecraft/world/level/levelgen/placement/CarvingMaskDecoratorConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c step Lcom$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom$a;)V
+	METHOD a lambda$static$0 (Lcyc;)Lcom$a;

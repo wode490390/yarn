@@ -1,0 +1,11 @@
+CLASS cyp net/minecraft/world/level/levelgen/placement/DecorationContext
+	FIELD a level Lbwm;
+	FIELD b generator Lclm;
+	METHOD <init> <init> (Lbwm;Lclm;)V
+	METHOD a getMinGenY ()I
+	METHOD a getCarvingMask (Lbuw;Lcom$a;)Ljava/util/BitSet;
+	METHOD a getHeight (Lcor$a;II)I
+	METHOD a getBlockState (Lgb;)Lcjr;
+	METHOD b getGenDepth ()I
+	METHOD c getMinBuildHeight ()I
+	METHOD d getLevel ()Lbwm;

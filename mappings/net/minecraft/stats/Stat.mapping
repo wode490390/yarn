@@ -1,0 +1,13 @@
+CLASS afd net/minecraft/stats/Stat
+	FIELD o formatter Lafe;
+	FIELD p value Ljava/lang/Object;
+	FIELD q type Laff;
+	METHOD <init> <init> (Laff;Ljava/lang/Object;Lafe;)V
+	METHOD a getType ()Laff;
+	METHOD a format (I)Ljava/lang/String;
+	METHOD a buildName (Laff;Ljava/lang/Object;)Ljava/lang/String;
+	METHOD a locationToKey (Lwp;)Ljava/lang/String;
+	METHOD b getValue ()Ljava/lang/Object;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

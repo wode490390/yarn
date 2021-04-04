@@ -1,0 +1,18 @@
+CLASS aqy net/minecraft/world/CompoundContainer
+	FIELD b container1 Laqz;
+	FIELD c container2 Laqz;
+	METHOD <init> <init> (Laqz;Laqz;)V
+	METHOD X_ getMaxStackSize ()I
+	METHOD Z_ setChanged ()V
+	METHOD a getItem (I)Lbpr;
+	METHOD a removeItem (II)Lbpr;
+	METHOD a setItem (ILbpr;)V
+	METHOD a contains (Laqz;)Z
+	METHOD a stillValid (Lbjf;)Z
+	METHOD aa_ clearContent ()V
+	METHOD ab_ getContainerSize ()I
+	METHOD b removeItemNoUpdate (I)Lbpr;
+	METHOD b canPlaceItem (ILbpr;)Z
+	METHOD b_ stopOpen (Lbjf;)V
+	METHOD c isEmpty ()Z
+	METHOD c_ startOpen (Lbjf;)V

@@ -1,0 +1,8 @@
+CLASS bxa net/minecraft/world/level/biome/FuzzyOffsetConstantColumnBiomeZoomer
+	FIELD a INSTANCE Lbxa;
+	FIELD b $VALUES [Lbxa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a getBiome (JIIILbws$a;)Lbwq;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbxa;
+	METHOD values values ()[Lbxa;

@@ -1,0 +1,31 @@
+CLASS dix net/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction
+	FIELD a compositePredicates Ljava/util/function/Predicate;
+	FIELD g predicates [Ldkf;
+	METHOD <init> <init> ([Ldkf;)V
+	METHOD a run (Lbpr;Ldhn;)Lbpr;
+	METHOD a validate (Ldhv;)V
+	METHOD a simpleBuilder (Ljava/util/function/Function;)Ldix$a;
+	METHOD apply apply (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD b apply (Lbpr;Ldhn;)Lbpr;
+	CLASS a Builder
+		FIELD a conditions Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a when (Ldkf$a;)Ldix$a;
+		METHOD b when (Ldkf$a;)Ljava/lang/Object;
+		METHOD c unwrap ()Ljava/lang/Object;
+		METHOD d getThis ()Ldix$a;
+		METHOD f unwrap ()Ldix$a;
+		METHOD g getConditions ()[Ldkf;
+	CLASS b DummyBuilder
+		FIELD a constructor Ljava/util/function/Function;
+		METHOD <init> <init> (Ljava/util/function/Function;)V
+		METHOD a getThis ()Ldix$b;
+		METHOD b build ()Ldiy;
+		METHOD d getThis ()Ldix$a;
+	CLASS c Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldix;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldix;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldix;

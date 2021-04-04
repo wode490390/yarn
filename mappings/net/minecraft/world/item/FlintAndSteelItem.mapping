@@ -1,0 +1,5 @@
+CLASS bpf net/minecraft/world/item/FlintAndSteelItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a lambda$useOn$1 (Lbrt;Lbjf;)V
+	METHOD b lambda$useOn$0 (Lbrt;Lbjf;)V

@@ -1,0 +1,8 @@
+CLASS dfa net/minecraft/world/level/newbiome/layer/RiverMixerLayer
+	FIELD a INSTANCE Ldfa;
+	FIELD ar $VALUES [Ldfa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Ldee;Lddz;Lddz;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldfa;
+	METHOD values values ()[Ldfa;

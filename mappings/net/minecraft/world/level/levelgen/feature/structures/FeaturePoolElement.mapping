@@ -1,0 +1,15 @@
+CLASS cwn net/minecraft/world/level/levelgen/feature/structures/FeaturePoolElement
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b feature Ljava/util/function/Supplier;
+	FIELD c defaultJigsawNBT Lmv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Supplier;Lcwv$a;)V
+	METHOD a getType ()Lcwu;
+	METHOD a lambda$static$1 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$0 (Lcwn;)Ljava/util/function/Supplier;
+	METHOD a place (Ldbn;Lbwm;Lbwi;Lclm;Lgb;Lgb;Lcek;Lczp;Ljava/util/Random;Z)Z
+	METHOD a getSize (Ldbn;Lcek;)Lgw;
+	METHOD a getBoundingBox (Ldbn;Lgb;Lcek;)Lczp;
+	METHOD a getShuffledJigsawBlocks (Ldbn;Lgb;Lcek;Ljava/util/Random;)Ljava/util/List;
+	METHOD b fillDefaultJigsawNBT ()Lmv;
+	METHOD toString toString ()Ljava/lang/String;

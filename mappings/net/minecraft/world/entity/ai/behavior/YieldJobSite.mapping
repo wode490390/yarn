@@ -1,0 +1,13 @@
+CLASS axn net/minecraft/world/entity/ai/behavior/YieldJobSite
+	FIELD a speedModifier F
+	METHOD <init> <init> (F)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lbis;)Z
+	METHOD a start (Labj;Lbis;J)V
+	METHOD a yieldJobSite (Labj;Lbis;Lbis;Lgb;Z)V
+	METHOD a lambda$start$1 (Labj;Lbis;Lgb;Lbis;)V
+	METHOD a nearbyWantsJobsite (Lbcr;Lbis;Lgb;)Z
+	METHOD a eraseMemories (Lbis;)V
+	METHOD a canReachPos (Lbis;Lgb;Lbcr;)Z
+	METHOD a lambda$start$0 (Ljava/util/Optional;Lgb;Lbis;)Z

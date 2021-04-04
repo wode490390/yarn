@@ -1,0 +1,4 @@
+CLASS clx net/minecraft/world/level/chunk/LightChunkGetter
+	METHOD a onLightUpdate (Lbwa;Lgu;)V
+	METHOD c getChunkForLighting (II)Lbuv;
+	METHOD m getLevel ()Lbuv;

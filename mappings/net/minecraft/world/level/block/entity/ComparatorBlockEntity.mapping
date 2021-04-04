@@ -1,0 +1,7 @@
+CLASS chx net/minecraft/world/level/block/entity/ComparatorBlockEntity
+	FIELD a output I
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a setOutputSignal (I)V
+	METHOD a load (Lmv;)V
+	METHOD b save (Lmv;)Lmv;
+	METHOD d getOutputSignal ()I

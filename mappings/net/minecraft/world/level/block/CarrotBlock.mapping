@@ -1,0 +1,6 @@
+CLASS bzf net/minecraft/world/level/block/CarrotBlock
+	FIELD a SHAPE_BY_AGE [Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD e getBaseSeedId ()Lbvq;

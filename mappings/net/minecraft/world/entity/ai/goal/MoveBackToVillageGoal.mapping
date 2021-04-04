@@ -1,0 +1,6 @@
+CLASS azb net/minecraft/world/entity/ai/goal/MoveBackToVillageGoal
+	FIELD i MAX_XZ_DIST I
+	FIELD j MAX_Y_DIST I
+	METHOD <init> <init> (Latg;DZ)V
+	METHOD a canUse ()Z
+	METHOD g getPosition ()Ldly;

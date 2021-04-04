@@ -1,0 +1,50 @@
+CLASS dit net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction
+	FIELD a DEFAULT_FEATURE Lcsv;
+	FIELD b DEFAULT_DECORATION_NAME Ljava/lang/String;
+	FIELD c DEFAULT_DECORATION Ldgn$a;
+	FIELD d DEFAULT_ZOOM B
+	FIELD e DEFAULT_SEARCH_RADIUS I
+	FIELD f DEFAULT_SKIP_EXISTING Z
+	FIELD h LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD i destination Lcsv;
+	FIELD j mapDecoration Ldgn$a;
+	FIELD k zoom B
+	FIELD l searchRadius I
+	FIELD m skipKnownStructures Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ([Ldkf;Lcsv;Ldgn$a;BIZ)V
+	METHOD <init> <init> ([Ldkf;Lcsv;Ldgn$a;BIZLdit$1;)V
+	METHOD a getType ()Ldiz;
+	METHOD a run (Lbpr;Ldhn;)Lbpr;
+	METHOD a access$100 (Ldit;)Lcsv;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	METHOD b access$200 (Ldit;)Ldgn$a;
+	METHOD c makeExplorationMap ()Ldit$a;
+	METHOD c access$300 (Ldit;)B
+	METHOD d access$600 ()Lorg/apache/logging/log4j/Logger;
+	METHOD d access$400 (Ldit;)I
+	METHOD e access$500 (Ldit;)Z
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a destination Lcsv;
+		FIELD b mapDecoration Ldgn$a;
+		FIELD c zoom B
+		FIELD d searchRadius I
+		FIELD e skipKnownStructures Z
+		METHOD <init> <init> ()V
+		METHOD a getThis ()Ldit$a;
+		METHOD a setZoom (B)Ldit$a;
+		METHOD a setSearchRadius (I)Ldit$a;
+		METHOD a setDestination (Lcsv;)Ldit$a;
+		METHOD a setMapDecoration (Ldgn$a;)Ldit$a;
+		METHOD a setSkipKnownStructures (Z)Ldit$a;
+		METHOD b build ()Ldiy;
+		METHOD d getThis ()Ldix$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a readStructure (Lcom/google/gson/JsonObject;)Lcsv;
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldit;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldit;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldix;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldix;

@@ -1,0 +1,11 @@
+CLASS bpl net/minecraft/world/item/HoneycombItem
+	FIELD a WAXABLES Ljava/util/function/Supplier;
+	FIELD b WAX_OFF_BY_BLOCK Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a lambda$useOn$2 (Lbrt;Lbvr;Lgb;Lcjr;)Larg;
+	METHOD a getWaxed (Lcjr;)Ljava/util/Optional;
+	METHOD a lambda$getWaxed$3 (Lcjr;Lbyq;)Lcjr;
+	METHOD i lambda$static$1 ()Lcom/google/common/collect/BiMap;
+	METHOD j lambda$static$0 ()Lcom/google/common/collect/BiMap;

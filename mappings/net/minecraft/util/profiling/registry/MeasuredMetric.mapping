@@ -1,0 +1,8 @@
+CLASS apq net/minecraft/util/profiling/registry/MeasuredMetric
+	FIELD a metric Lapt;
+	FIELD b currentValue Ljava/util/function/DoubleSupplier;
+	FIELD c getCategory Lapr;
+	METHOD <init> <init> (Lapt;Ljava/util/function/DoubleSupplier;Lapr;)V
+	METHOD a getMetric ()Lapt;
+	METHOD b getCurrentValue ()Ljava/util/function/DoubleSupplier;
+	METHOD c getGetCategory ()Lapr;

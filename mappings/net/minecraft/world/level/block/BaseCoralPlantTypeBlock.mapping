@@ -1,0 +1,13 @@
+CLASS byb net/minecraft/world/level/block/BaseCoralPlantTypeBlock
+	FIELD a AABB Ldmr;
+	FIELD c WATERLOGGED Lcki;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a tryScheduleDieTick (Lcjr;Lbvs;Lgb;)V
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD d scanForWater (Lcjr;Lbuv;Lgb;)Z

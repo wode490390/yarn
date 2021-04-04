@@ -1,0 +1,27 @@
+CLASS dfx net/minecraft/world/level/pathfinder/NodeEvaluator
+	FIELD a level Lbwd;
+	FIELD b mob Lasz;
+	FIELD c nodes Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD d entityWidth I
+	FIELD e entityHeight I
+	FIELD f entityDepth I
+	FIELD g canPassDoors Z
+	FIELD h canOpenDoors Z
+	FIELD i canFloat Z
+	METHOD <init> <init> ()V
+	METHOD a done ()V
+	METHOD a getGoal (DDD)Ldgc;
+	METHOD a getNode (III)Ldfw;
+	METHOD a lambda$getNode$0 (IIII)Ldfw;
+	METHOD a getBlockPathType (Lbuv;III)Ldfu;
+	METHOD a getBlockPathType (Lbuv;IIILasz;IIIZZ)Ldfu;
+	METHOD a prepare (Lbwd;Lasz;)V
+	METHOD a getNode (Lgb;)Ldfw;
+	METHOD a setCanPassDoors (Z)V
+	METHOD a getNeighbors ([Ldfw;Ldfw;)I
+	METHOD b getStart ()Ldfw;
+	METHOD b setCanOpenDoors (Z)V
+	METHOD c canPassDoors ()Z
+	METHOD c setCanFloat (Z)V
+	METHOD d canOpenDoors ()Z
+	METHOD e canFloat ()Z

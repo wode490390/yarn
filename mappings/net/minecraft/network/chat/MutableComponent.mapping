@@ -1,0 +1,8 @@
+CLASS ot net/minecraft/network/chat/MutableComponent
+	METHOD a withStyle (Ljava/util/function/UnaryOperator;)Lot;
+	METHOD a append (Lon;)Lot;
+	METHOD a setStyle (Lox;)Lot;
+	METHOD a withStyle (Lp;)Lot;
+	METHOD a withStyle ([Lp;)Lot;
+	METHOD c append (Ljava/lang/String;)Lot;
+	METHOD c withStyle (Lox;)Lot;

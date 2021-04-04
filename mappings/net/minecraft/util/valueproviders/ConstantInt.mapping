@@ -1,0 +1,20 @@
+CLASS aql net/minecraft/util/valueproviders/ConstantInt
+	FIELD a ZERO Laql;
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD d value I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD a getValue ()I
+	METHOD a of (I)Laql;
+	METHOD a lambda$static$4 (Laql;)Lcom/mojang/datafixers/util/Either;
+	METHOD a lambda$static$3 (Lcom/mojang/datafixers/util/Either;)Laql;
+	METHOD a lambda$static$1 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a sample (Ljava/util/Random;)I
+	METHOD b getMinValue ()I
+	METHOD b lambda$null$2 (Laql;)Laql;
+	METHOD c getMaxValue ()I
+	METHOD c lambda$null$0 (Laql;)Ljava/lang/Integer;
+	METHOD d getType ()Laqp;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

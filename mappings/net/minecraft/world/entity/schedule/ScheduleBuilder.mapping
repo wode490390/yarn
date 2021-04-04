@@ -1,0 +1,14 @@
+CLASS bkr net/minecraft/world/entity/schedule/ScheduleBuilder
+	FIELD a schedule Lbkq;
+	FIELD b transitions Ljava/util/List;
+	METHOD <init> <init> (Lbkq;)V
+	METHOD a build ()Lbkq;
+	METHOD a changeActivityAt (ILbko;)Lbkr;
+	METHOD a lambda$build$1 (Lbkr$a;)V
+	METHOD a lambda$null$0 (Lbkr$a;Lbks;)V
+	CLASS a ActivityTransition
+		FIELD a time I
+		FIELD b activity Lbko;
+		METHOD <init> <init> (ILbko;)V
+		METHOD a getTime ()I
+		METHOD b getActivity ()Lbko;

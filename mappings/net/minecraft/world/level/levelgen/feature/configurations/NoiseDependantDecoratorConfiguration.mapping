@@ -1,0 +1,11 @@
+CLASS cuk net/minecraft/world/level/levelgen/feature/configurations/NoiseDependantDecoratorConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c noiseLevel D
+	FIELD d belowNoise I
+	FIELD e aboveNoise I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (DII)V
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcuk;)Ljava/lang/Integer;
+	METHOD b lambda$null$1 (Lcuk;)Ljava/lang/Integer;
+	METHOD c lambda$null$0 (Lcuk;)Ljava/lang/Double;

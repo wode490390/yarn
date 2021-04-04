@@ -1,0 +1,14 @@
+CLASS cno net/minecraft/world/level/entity/Visibility
+	FIELD a HIDDEN Lcno;
+	FIELD b TRACKED Lcno;
+	FIELD c TICKING Lcno;
+	FIELD d accessible Z
+	FIELD e ticking Z
+	FIELD f $VALUES [Lcno;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IZZ)V
+	METHOD a isTicking ()Z
+	METHOD a fromFullChunkStatus (Laav$c;)Lcno;
+	METHOD b isAccessible ()Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcno;
+	METHOD values values ()[Lcno;

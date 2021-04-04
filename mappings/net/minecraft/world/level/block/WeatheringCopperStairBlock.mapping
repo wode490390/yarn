@@ -1,0 +1,7 @@
+CLASS cgu net/minecraft/world/level/block/WeatheringCopperStairBlock
+	FIELD H weatherState Lcgr$a;
+	METHOD <init> <init> (Lcgr$a;Lcjr;Lcjq$c;)V
+	METHOD b getAge ()Ljava/lang/Enum;
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD d_ isRandomlyTicking (Lcjr;)Z
+	METHOD e getAge ()Lcgr$a;

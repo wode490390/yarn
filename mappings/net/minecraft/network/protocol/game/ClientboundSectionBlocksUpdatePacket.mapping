@@ -1,0 +1,13 @@
+CLASS rr net/minecraft/network/protocol/game/ClientboundSectionBlocksUpdatePacket
+	FIELD a POS_IN_SECTION_BITS I
+	FIELD b sectionPos Lgu;
+	FIELD c positions [S
+	FIELD d states [Lcjr;
+	FIELD e suppressLightUpdates Z
+	METHOD <init> <init> (Lgu;Lit/unimi/dsi/fastutil/shorts/ShortSet;Lclw;Z)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a runUpdates (Ljava/util/function/BiConsumer;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b shouldSuppressLightUpdates ()Z

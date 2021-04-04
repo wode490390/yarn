@@ -1,0 +1,9 @@
+CLASS dcv net/minecraft/world/level/levelgen/synth/PerlinSimplexNoise
+	FIELD a noiseLevels [Ldcw;
+	FIELD b highestFreqValueFactor D
+	FIELD c highestFreqInputFactor D
+	METHOD <init> <init> (Lcpb;Lit/unimi/dsi/fastutil/ints/IntSortedSet;)V
+	METHOD <init> <init> (Lcpb;Ljava/util/List;)V
+	METHOD <init> <init> (Lcpb;Ljava/util/stream/IntStream;)V
+	METHOD a getSurfaceNoiseValue (DDDD)D
+	METHOD a getValue (DDZ)D

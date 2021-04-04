@@ -1,0 +1,4 @@
+CLASS wt net/minecraft/server/ConsoleInput
+	FIELD a msg Ljava/lang/String;
+	FIELD b source Ldg;
+	METHOD <init> <init> (Ljava/lang/String;Ldg;)V

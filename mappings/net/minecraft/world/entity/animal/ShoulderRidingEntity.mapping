@@ -1,0 +1,7 @@
+CLASS bdu net/minecraft/world/entity/animal/ShoulderRidingEntity
+	FIELD bY RIDE_COOLDOWN I
+	FIELD bZ rideCooldownCounter I
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD b setEntityOnShoulder (Labk;)Z
+	METHOD fz canSitOnShoulder ()Z
+	METHOD j tick ()V

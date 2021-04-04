@@ -1,0 +1,14 @@
+CLASS dca net/minecraft/world/level/levelgen/surfacebuilders/FrozenOceanSurfaceBuilder
+	FIELD L icebergRoofNoise Ldcv;
+	FIELD M seed J
+	FIELD a PACKED_ICE Lcjr;
+	FIELD b SNOW_BLOCK Lcjr;
+	FIELD c AIR Lcjr;
+	FIELD d GRAVEL Lcjr;
+	FIELD e ICE Lcjr;
+	FIELD f icebergNoise Ldcv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a initNoise (J)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcl;)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcm;)V

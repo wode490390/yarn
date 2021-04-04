@@ -1,0 +1,20 @@
+CLASS at net/minecraft/advancements/critereon/BredAnimalsTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;Lbcz;Lbcz;Lasj;)V
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lat$a;
+	METHOD a lambda$trigger$0 (Ldhn;Ldhn;Ldhn;Lat$a;)Z
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a parent Lbl$b;
+		FIELD b partner Lbl$b;
+		FIELD c child Lbl$b;
+		METHOD <init> <init> (Lbl$b;Lbl$b;Lbl$b;Lbl$b;)V
+		METHOD a bredAnimals (Lbl$a;)Lat$a;
+		METHOD a bredAnimals (Lbl;Lbl;Lbl;)Lat$a;
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;
+		METHOD a matches (Ldhn;Ldhn;Ldhn;)Z
+		METHOD c bredAnimals ()Lat$a;

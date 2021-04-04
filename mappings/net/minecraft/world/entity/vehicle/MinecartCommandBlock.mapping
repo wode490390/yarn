@@ -1,0 +1,29 @@
+CLASS bla net/minecraft/world/entity/vehicle/MinecartCommandBlock
+	FIELD ar lastActivated I
+	FIELD c DATA_ID_COMMAND_NAME Lvy;
+	FIELD d DATA_ID_LAST_OUTPUT Lvy;
+	FIELD e commandBlock Lbur;
+	FIELD f ACTIVATION_DELAY I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDD)V
+	METHOD a activateMinecart (IIIZ)V
+	METHOD a interact (Lbjf;Larf;)Larg;
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD a onSyncedDataUpdated (Lvy;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD ct onlyOpCanSetNbt ()Z
+	METHOD e defineSynchedData ()V
+	METHOD o getMinecartType ()Lbku$a;
+	METHOD q getDefaultDisplayBlockState ()Lcjr;
+	METHOD v getCommandBlock ()Lbur;
+	METHOD w access$000 ()Lvy;
+	METHOD y access$100 ()Lvy;
+	CLASS a MinecartCommandBase
+		FIELD b this$0 Lbla;
+		METHOD <init> <init> (Lbla;)V
+		METHOD d getLevel ()Labj;
+		METHOD e onUpdated ()V
+		METHOD f getPosition ()Ldly;
+		METHOD g getMinecart ()Lbla;
+		METHOD h createCommandSourceStack ()Ldg;

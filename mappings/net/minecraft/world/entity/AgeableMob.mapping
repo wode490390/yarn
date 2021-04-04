@@ -1,0 +1,35 @@
+CLASS asj net/minecraft/world/entity/AgeableMob
+	FIELD b BABY_START_AGE I
+	FIELD bV DATA_BABY_ID Lvy;
+	FIELD bW FORCED_AGE_PARTICLE_TICKS I
+	FIELD c age I
+	FIELD d forcedAge I
+	FIELD e forcedAgeTimer I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a ageUp (I)V
+	METHOD a ageUp (IZ)V
+	METHOD a getBreedOffspring (Labj;Lasj;)Lasj;
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD a onSyncedDataUpdated (Lvy;)V
+	METHOD a setBaby (Z)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c_ setAge (I)V
+	METHOD e defineSynchedData ()V
+	METHOD f canBreed ()Z
+	METHOD i getAge ()I
+	METHOD k aiStep ()V
+	METHOD m ageBoundaryReached ()V
+	METHOD y_ isBaby ()Z
+	CLASS a AgeableMobGroupData
+		FIELD a groupSize I
+		FIELD b shouldSpawnBaby Z
+		FIELD c babySpawnChance F
+		METHOD <init> <init> (F)V
+		METHOD <init> <init> (Z)V
+		METHOD <init> <init> (ZF)V
+		METHOD a getGroupSize ()I
+		METHOD b increaseGroupSizeByOne ()V
+		METHOD c isShouldSpawnBaby ()Z
+		METHOD d getBabySpawnChance ()F

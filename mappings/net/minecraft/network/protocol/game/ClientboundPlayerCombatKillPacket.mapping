@@ -1,0 +1,14 @@
+CLASS rh net/minecraft/network/protocol/game/ClientboundPlayerCombatKillPacket
+	FIELD a playerId I
+	FIELD b killerId I
+	FIELD c message Lon;
+	METHOD <init> <init> (IILon;)V
+	METHOD <init> <init> (Laru;Lon;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a isSkippable ()Z
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getKillerId ()I
+	METHOD c getPlayerId ()I
+	METHOD d getMessage ()Lon;

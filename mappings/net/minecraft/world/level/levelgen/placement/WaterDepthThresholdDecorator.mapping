@@ -1,0 +1,4 @@
+CLASS czk net/minecraft/world/level/levelgen/placement/WaterDepthThresholdDecorator
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lctv;Lgb;)Ljava/util/stream/Stream;
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lczj;Lgb;)Ljava/util/stream/Stream;

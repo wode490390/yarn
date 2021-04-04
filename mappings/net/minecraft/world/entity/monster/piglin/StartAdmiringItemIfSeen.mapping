@@ -1,0 +1,7 @@
+CLASS bih net/minecraft/world/entity/monster/piglin/StartAdmiringItemIfSeen
+	FIELD a admireDuration I
+	METHOD <init> <init> (I)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lbib;)Z
+	METHOD a start (Labj;Lbib;J)V

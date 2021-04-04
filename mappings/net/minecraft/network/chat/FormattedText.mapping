@@ -1,0 +1,36 @@
+CLASS oq net/minecraft/network/chat/FormattedText
+	FIELD b STOP_ITERATION Ljava/util/Optional;
+	FIELD c EMPTY Loq;
+	METHOD <clinit> <clinit> ()V
+	METHOD a of (Ljava/lang/String;Lox;)Loq;
+	METHOD a lambda$getString$0 (Ljava/lang/StringBuilder;Ljava/lang/String;)Ljava/util/Optional;
+	METHOD a composite (Ljava/util/List;)Loq;
+	METHOD a visit (Loq$a;)Ljava/util/Optional;
+	METHOD a visit (Loq$b;Lox;)Ljava/util/Optional;
+	METHOD a composite ([Loq;)Loq;
+	METHOD b of (Ljava/lang/String;)Loq;
+	METHOD getString getString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a visit (Loq$a;)Ljava/util/Optional;
+		METHOD a visit (Loq$b;Lox;)Ljava/util/Optional;
+	CLASS 2 2
+		FIELD a val$text Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD a visit (Loq$a;)Ljava/util/Optional;
+		METHOD a visit (Loq$b;Lox;)Ljava/util/Optional;
+	CLASS 3 3
+		FIELD a val$text Ljava/lang/String;
+		FIELD d val$style Lox;
+		METHOD <init> <init> (Ljava/lang/String;Lox;)V
+		METHOD a visit (Loq$a;)Ljava/util/Optional;
+		METHOD a visit (Loq$b;Lox;)Ljava/util/Optional;
+	CLASS 4 4
+		FIELD a val$parts Ljava/util/List;
+		METHOD <init> <init> (Ljava/util/List;)V
+		METHOD a visit (Loq$a;)Ljava/util/Optional;
+		METHOD a visit (Loq$b;Lox;)Ljava/util/Optional;
+	CLASS a ContentConsumer
+		METHOD accept accept (Ljava/lang/String;)Ljava/util/Optional;
+	CLASS b StyledContentConsumer
+		METHOD accept accept (Lox;Ljava/lang/String;)Ljava/util/Optional;

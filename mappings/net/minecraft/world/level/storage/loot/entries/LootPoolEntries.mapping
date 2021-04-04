@@ -1,0 +1,13 @@
+CLASS did net/minecraft/world/level/storage/loot/entries/LootPoolEntries
+	FIELD a EMPTY Ldig;
+	FIELD b ITEM Ldig;
+	FIELD c REFERENCE Ldig;
+	FIELD d DYNAMIC Ldig;
+	FIELD e TAG Ldig;
+	FIELD f ALTERNATIVES Ldig;
+	FIELD g SEQUENCE Ldig;
+	FIELD h GROUP Ldig;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a createGsonAdapter ()Ljava/lang/Object;
+	METHOD a register (Ljava/lang/String;Ldht;)Ldig;

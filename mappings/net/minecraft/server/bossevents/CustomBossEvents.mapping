@@ -1,0 +1,12 @@
+CLASS xh net/minecraft/server/bossevents/CustomBossEvents
+	FIELD a events Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD a getIds ()Ljava/util/Collection;
+	METHOD a onPlayerConnect (Labk;)V
+	METHOD a load (Lmv;)V
+	METHOD a get (Lwp;)Lxg;
+	METHOD a create (Lwp;Lon;)Lxg;
+	METHOD a remove (Lxg;)V
+	METHOD b getEvents ()Ljava/util/Collection;
+	METHOD b onPlayerDisconnect (Labk;)V
+	METHOD c save ()Lmv;

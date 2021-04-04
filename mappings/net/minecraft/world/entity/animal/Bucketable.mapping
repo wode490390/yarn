@@ -1,0 +1,10 @@
+CLASS bdb net/minecraft/world/entity/animal/Bucketable
+	METHOD G_ getBucketItemStack ()Lbpr;
+	METHOD a saveDefaultDataToBucketTag (Lasz;Lbpr;)V
+	METHOD a loadDefaultDataFromBucketTag (Lasz;Lmv;)V
+	METHOD a bucketMobPickup (Lbjf;Larf;Lasy;)Ljava/util/Optional;
+	METHOD c loadFromBucketTag (Lmv;)V
+	METHOD k saveToBucketTag (Lbpr;)V
+	METHOD o fromBucket ()Z
+	METHOD s getPickupSound ()Laev;
+	METHOD v setFromBucket (Z)V

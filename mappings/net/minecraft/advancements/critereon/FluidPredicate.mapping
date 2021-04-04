@@ -1,0 +1,22 @@
+CLASS bq net/minecraft/advancements/critereon/FluidPredicate
+	FIELD a ANY Lbq;
+	FIELD b tag Lafs;
+	FIELD c fluid Lddp;
+	FIELD d properties Lcr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lafs;Lddp;Lcr;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a matches (Labj;Lgb;)Z
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lbq;
+	METHOD a lambda$fromJson$0 (Lwp;)Lcom/google/gson/JsonSyntaxException;
+	METHOD b lambda$serializeToJson$1 ()Ljava/lang/IllegalStateException;
+	CLASS a Builder
+		FIELD a fluid Lddp;
+		FIELD b fluids Lafs;
+		FIELD c properties Lcr;
+		METHOD <init> <init> ()V
+		METHOD a fluid ()Lbq$a;
+		METHOD a of (Lafs;)Lbq$a;
+		METHOD a setProperties (Lcr;)Lbq$a;
+		METHOD a of (Lddp;)Lbq$a;
+		METHOD b build ()Lbq;

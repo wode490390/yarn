@@ -1,0 +1,10 @@
+CLASS avk net/minecraft/world/entity/ai/behavior/LongJumpMidJump
+	FIELD a TIME_OUT_DURATION I
+	FIELD c timeBetweenLongJumps Laqs;
+	METHOD <init> <init> (Laqs;)V
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a canStillUse (Labj;Lasz;J)Z
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b start (Labj;Lasz;J)V
+	METHOD c stop (Labj;Lasy;J)V
+	METHOD c stop (Labj;Lasz;J)V

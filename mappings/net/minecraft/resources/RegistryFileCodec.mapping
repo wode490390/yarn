@@ -1,0 +1,20 @@
+CLASS wk net/minecraft/resources/RegistryFileCodec
+	FIELD a registryKey Lwo;
+	FIELD b elementCodec Lcom/mojang/serialization/Codec;
+	FIELD c allowInline Z
+	METHOD <init> <init> (Lwo;Lcom/mojang/serialization/Codec;Z)V
+	METHOD a lambda$homogeneousList$4 (Lcom/mojang/datafixers/util/Either;)Ljava/util/List;
+	METHOD a lambda$decode$7 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$6 (Ljava/lang/Object;)Ljava/util/function/Supplier;
+	METHOD a lambda$null$3 (Ljava/util/List;)Ljava/util/List;
+	METHOD a encode (Ljava/util/function/Supplier;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD a create (Lwo;Lcom/mojang/serialization/Codec;)Lwk;
+	METHOD a create (Lwo;Lcom/mojang/serialization/Codec;Z)Lwk;
+	METHOD b lambda$null$5 (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD b lambda$null$2 (Ljava/util/List;)Ljava/util/List;
+	METHOD b homogeneousList (Lwo;Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
+	METHOD c lambda$homogeneousList$1 (Ljava/lang/Object;)Ljava/util/function/Supplier;
+	METHOD d lambda$null$0 (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD decode decode (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD encode encode (Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
+	METHOD toString toString ()Ljava/lang/String;

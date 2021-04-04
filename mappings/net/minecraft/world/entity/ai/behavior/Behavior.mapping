@@ -1,0 +1,30 @@
+CLASS auj net/minecraft/world/entity/ai/behavior/Behavior
+	FIELD a DEFAULT_DURATION I
+	FIELD b entryCondition Ljava/util/Map;
+	FIELD c status Lauj$a;
+	FIELD d endTimestamp J
+	FIELD e minDuration I
+	FIELD f maxDuration I
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD <init> <init> (Ljava/util/Map;I)V
+	METHOD <init> <init> (Ljava/util/Map;II)V
+	METHOD a getStatus ()Lauj$a;
+	METHOD a timedOut (J)Z
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a hasRequiredMemories (Lasy;)Z
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD c stop (Labj;Lasy;J)V
+	METHOD d tick (Labj;Lasy;J)V
+	METHOD e tryStart (Labj;Lasy;J)Z
+	METHOD f tickOrStop (Labj;Lasy;J)V
+	METHOD g doStop (Labj;Lasy;J)V
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Status
+		FIELD a STOPPED Lauj$a;
+		FIELD b RUNNING Lauj$a;
+		FIELD c $VALUES [Lauj$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lauj$a;
+		METHOD values values ()[Lauj$a;

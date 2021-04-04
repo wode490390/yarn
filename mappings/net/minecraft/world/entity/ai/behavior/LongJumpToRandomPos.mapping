@@ -1,0 +1,33 @@
+CLASS avl net/minecraft/world/entity/ai/behavior/LongJumpToRandomPos
+	FIELD a TIME_OUT_DURATION I
+	FIELD c FIND_JUMP_TRIES I
+	FIELD d PREPARE_JUMP_DURATION I
+	FIELD e MIN_PATHFIND_DISTANCE_TO_VALID_JUMP I
+	FIELD f timeBetweenLongJumps Laqs;
+	FIELD g maxLongJumpHeight I
+	FIELD h maxLongJumpWidth I
+	FIELD i maxJumpVelocity F
+	FIELD j jumpCandidates Ljava/util/List;
+	FIELD k initialPosition Ljava/util/Optional;
+	FIELD l chosenJump Ljava/util/Optional;
+	FIELD m findJumpTries I
+	FIELD n prepareJumpStart J
+	METHOD <init> <init> (Laqs;IIF)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lasz;)Z
+	METHOD a canStillUse (Labj;Lasz;J)Z
+	METHOD a calculateOptimalJumpVector (Lasz;Ldly;)Ljava/util/Optional;
+	METHOD a calculateJumpVectorForAngle (Lasz;Ldly;I)Ljava/util/Optional;
+	METHOD a isClearTransition (Lasz;Ldly;Ldly;)Z
+	METHOD a lambda$start$0 (Lgb;DLdly;)V
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b start (Labj;Lasz;J)V
+	METHOD c tick (Labj;Lasz;J)V
+	METHOD d tick (Labj;Lasy;J)V
+	CLASS a PossibleJump
+		FIELD b jumpTarget Lgb;
+		FIELD c jumpVector Ldly;
+		METHOD <init> <init> (Lgb;Ldly;I)V
+		METHOD a getJumpTarget ()Lgb;
+		METHOD b getJumpVector ()Ldly;

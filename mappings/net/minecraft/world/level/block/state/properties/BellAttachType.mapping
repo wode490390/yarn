@@ -1,0 +1,12 @@
+CLASS ckg net/minecraft/world/level/block/state/properties/BellAttachType
+	FIELD a FLOOR Lckg;
+	FIELD b CEILING Lckg;
+	FIELD c SINGLE_WALL Lckg;
+	FIELD d DOUBLE_WALL Lckg;
+	FIELD e name Ljava/lang/String;
+	FIELD f $VALUES [Lckg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD c getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lckg;
+	METHOD values values ()[Lckg;

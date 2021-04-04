@@ -1,0 +1,14 @@
+CLASS atj net/minecraft/world/entity/Pose
+	FIELD a STANDING Latj;
+	FIELD b FALL_FLYING Latj;
+	FIELD c SLEEPING Latj;
+	FIELD d SWIMMING Latj;
+	FIELD e SPIN_ATTACK Latj;
+	FIELD f CROUCHING Latj;
+	FIELD g LONG_JUMPING Latj;
+	FIELD h DYING Latj;
+	FIELD i $VALUES [Latj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Latj;
+	METHOD values values ()[Latj;

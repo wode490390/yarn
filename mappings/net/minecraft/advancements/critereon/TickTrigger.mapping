@@ -1,0 +1,11 @@
+CLASS cv net/minecraft/advancements/critereon/TickTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;)V
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lcv$a;
+	METHOD a lambda$trigger$0 (Lcv$a;)Z
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		METHOD <init> <init> (Lbl$b;)V

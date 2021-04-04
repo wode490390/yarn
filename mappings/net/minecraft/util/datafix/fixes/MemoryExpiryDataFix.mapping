@@ -1,0 +1,8 @@
+CLASS alb net/minecraft/util/datafix/fixes/MemoryExpiryDataFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Ljava/lang/String;)V
+	METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a updateMemoryEntry (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a fixTag (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD b updateBrain (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD c updateMemories (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD d wrapMemoryValue (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;

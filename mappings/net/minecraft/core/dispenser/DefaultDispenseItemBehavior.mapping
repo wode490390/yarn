@@ -1,0 +1,7 @@
+CLASS hb net/minecraft/core/dispenser/DefaultDispenseItemBehavior
+	METHOD <init> <init> ()V
+	METHOD a spawnItem (Lbvr;Lbpr;ILgg;Lgo;)V
+	METHOD a playSound (Lgc;)V
+	METHOD a execute (Lgc;Lbpr;)Lbpr;
+	METHOD a playAnimation (Lgc;Lgg;)V
+	METHOD dispense dispense (Lgc;Lbpr;)Lbpr;

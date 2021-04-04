@@ -1,0 +1,15 @@
+CLASS dft net/minecraft/world/level/pathfinder/BinaryHeap
+	FIELD a heap [Ldfw;
+	FIELD b size I
+	METHOD <init> <init> ()V
+	METHOD a clear ()V
+	METHOD a upHeap (I)V
+	METHOD a insert (Ldfw;)Ldfw;
+	METHOD a changeCost (Ldfw;F)V
+	METHOD b peek ()Ldfw;
+	METHOD b downHeap (I)V
+	METHOD b remove (Ldfw;)V
+	METHOD c pop ()Ldfw;
+	METHOD d size ()I
+	METHOD e isEmpty ()Z
+	METHOD f getHeap ()[Ldfw;

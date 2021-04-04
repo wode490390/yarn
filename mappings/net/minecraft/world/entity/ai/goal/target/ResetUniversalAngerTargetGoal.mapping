@@ -1,0 +1,12 @@
+CLASS bao net/minecraft/world/entity/ai/goal/target/ResetUniversalAngerTargetGoal
+	FIELD a ALERT_RANGE_Y I
+	FIELD b mob Lasz;
+	FIELD c alertOthersOfSameType Z
+	FIELD d lastHurtByPlayerTimestamp I
+	METHOD <init> <init> (Lasz;Z)V
+	METHOD a canUse ()Z
+	METHOD a lambda$start$1 (Lasz;)Late;
+	METHOD b lambda$start$0 (Lasz;)Z
+	METHOD c start ()V
+	METHOD g wasHurtByPlayer ()Z
+	METHOD h getNearbyMobsOfSameType ()Ljava/util/List;

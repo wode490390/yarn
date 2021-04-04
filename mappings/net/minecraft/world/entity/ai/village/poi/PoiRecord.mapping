@@ -1,0 +1,21 @@
+CLASS bcp net/minecraft/world/entity/ai/village/poi/PoiRecord
+	FIELD a pos Lgb;
+	FIELD b poiType Lbcr;
+	FIELD c freeTickets I
+	FIELD d setDirty Ljava/lang/Runnable;
+	METHOD <init> <init> (Lgb;Lbcr;ILjava/lang/Runnable;)V
+	METHOD <init> <init> (Lgb;Lbcr;Ljava/lang/Runnable;)V
+	METHOD a getFreeTickets ()I
+	METHOD a lambda$null$2 (Lbcp;)Ljava/lang/Integer;
+	METHOD a codec (Ljava/lang/Runnable;)Lcom/mojang/serialization/Codec;
+	METHOD a lambda$codec$3 (Ljava/lang/Runnable;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b acquireTicket ()Z
+	METHOD b lambda$null$1 (Lbcp;)Lbcr;
+	METHOD c releaseTicket ()Z
+	METHOD c lambda$null$0 (Lbcp;)Lgb;
+	METHOD d hasSpace ()Z
+	METHOD e isOccupied ()Z
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD f getPos ()Lgb;
+	METHOD g getPoiType ()Lbcr;
+	METHOD hashCode hashCode ()I

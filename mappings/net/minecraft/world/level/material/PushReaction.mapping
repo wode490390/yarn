@@ -1,0 +1,11 @@
+CLASS ddw net/minecraft/world/level/material/PushReaction
+	FIELD a NORMAL Lddw;
+	FIELD b DESTROY Lddw;
+	FIELD c BLOCK Lddw;
+	FIELD d IGNORE Lddw;
+	FIELD e PUSH_ONLY Lddw;
+	FIELD f $VALUES [Lddw;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lddw;
+	METHOD values values ()[Lddw;

@@ -1,0 +1,33 @@
+CLASS adr net/minecraft/server/packs/resources/SimpleReloadableResourceManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b namespacedPacks Ljava/util/Map;
+	FIELD c listeners Ljava/util/List;
+	FIELD d namespaces Ljava/util/Set;
+	FIELD e packs Ljava/util/List;
+	FIELD f type Laco;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laco;)V
+	METHOD a getNamespaces ()Ljava/util/Set;
+	METHOD a add (Lacn;)V
+	METHOD a registerReloadListener (Ladg;)V
+	METHOD a listResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD a lambda$createReload$0 (Ljava/util/List;)Ljava/lang/Object;
+	METHOD a createReload (Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;Ljava/util/List;)Ladi;
+	METHOD a getResource (Lwp;)Ladk;
+	METHOD b listPacks ()Ljava/util/stream/Stream;
+	METHOD b hasResource (Lwp;)Z
+	METHOD c clear ()V
+	METHOD c getResources (Lwp;)Ljava/util/List;
+	METHOD close close ()V
+	CLASS a FailingReloadInstance
+		FIELD a exception Ladr$b;
+		FIELD b failedFuture Ljava/util/concurrent/CompletableFuture;
+		METHOD <init> <init> (Ladr$b;)V
+		METHOD a done ()Ljava/util/concurrent/CompletableFuture;
+		METHOD b getActualProgress ()F
+		METHOD c isDone ()Z
+		METHOD d checkExceptions ()V
+	CLASS b ResourcePackLoadingFailure
+		FIELD a pack Lacn;
+		METHOD <init> <init> (Lacn;Ljava/lang/Throwable;)V
+		METHOD a getPack ()Lacn;

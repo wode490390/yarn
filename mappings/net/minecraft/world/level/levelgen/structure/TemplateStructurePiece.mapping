@@ -1,0 +1,15 @@
+CLASS dao net/minecraft/world/level/levelgen/structure/TemplateStructurePiece
+	FIELD a templateName Ljava/lang/String;
+	FIELD b template Ldbs;
+	FIELD c placeSettings Ldbo;
+	FIELD d templatePosition Lgb;
+	FIELD e LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcsw;ILdbn;Lwp;Ljava/lang/String;Ldbo;Lgb;)V
+	METHOD <init> <init> (Lcsw;Lmv;Labj;Ljava/util/function/Function;)V
+	METHOD a getRotation ()Lcek;
+	METHOD a move (III)V
+	METHOD a addAdditionalSaveData (Labj;Lmv;)V
+	METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+	METHOD a handleDataMarker (Ljava/lang/String;Lgb;Lbwf;Ljava/util/Random;Lczp;)V
+	METHOD at_ makeTemplateLocation ()Lwp;

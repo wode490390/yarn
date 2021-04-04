@@ -1,0 +1,36 @@
+CLASS ee net/minecraft/commands/arguments/ScoreHolderArgument
+	FIELD a SUGGEST_SCORE_HOLDERS Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+	FIELD b EXAMPLES Ljava/util/Collection;
+	FIELD c ERROR_NO_RESULTS Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD d FLAG_MULTIPLE B
+	FIELD e multiple Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Z)V
+	METHOD a scoreHolder ()Lee;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Lee$a;
+	METHOD a lambda$static$1 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a getName (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a getNames (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Ljava/util/function/Supplier;)Ljava/util/Collection;
+	METHOD a lambda$parse$2 (Ldg;Ljava/util/function/Supplier;)Ljava/util/Collection;
+	METHOD a access$000 (Lee;)Z
+	METHOD a lambda$parse$3 (Ljava/util/Collection;Ldg;Ljava/util/function/Supplier;)Ljava/util/Collection;
+	METHOD b scoreHolders ()Lee;
+	METHOD b lambda$null$0 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)V
+	METHOD b getNames (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;
+	METHOD c getNamesWithDefaultWildcard (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+	CLASS a Result
+		METHOD getNames getNames (Ldg;Ljava/util/function/Supplier;)Ljava/util/Collection;
+	CLASS b SelectorResult
+		FIELD a selector Lfh;
+		METHOD <init> <init> (Lfh;)V
+		METHOD getNames getNames (Ldg;Ljava/util/function/Supplier;)Ljava/util/Collection;
+	CLASS c Serializer
+		METHOD <init> <init> ()V
+		METHOD a serializeToJson (Lcom/mojang/brigadier/arguments/ArgumentType;Lcom/google/gson/JsonObject;)V
+		METHOD a serializeToNetwork (Lcom/mojang/brigadier/arguments/ArgumentType;Lob;)V
+		METHOD a serializeToJson (Lee;Lcom/google/gson/JsonObject;)V
+		METHOD a serializeToNetwork (Lee;Lob;)V
+		METHOD a deserializeFromNetwork (Lob;)Lee;
+		METHOD b deserializeFromNetwork (Lob;)Lcom/mojang/brigadier/arguments/ArgumentType;

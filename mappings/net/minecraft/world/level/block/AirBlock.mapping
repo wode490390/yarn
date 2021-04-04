@@ -1,0 +1,4 @@
+CLASS bxo net/minecraft/world/level/block/AirBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD b_ getRenderShape (Lcjr;)Lced;

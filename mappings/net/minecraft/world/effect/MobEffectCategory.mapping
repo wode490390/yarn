@@ -1,0 +1,11 @@
+CLASS ase net/minecraft/world/effect/MobEffectCategory
+	FIELD a BENEFICIAL Lase;
+	FIELD b HARMFUL Lase;
+	FIELD c NEUTRAL Lase;
+	FIELD d tooltipFormatting Lp;
+	FIELD e $VALUES [Lase;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILp;)V
+	METHOD a getTooltipFormatting ()Lp;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lase;
+	METHOD values values ()[Lase;

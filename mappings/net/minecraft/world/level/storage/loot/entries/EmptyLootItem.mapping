@@ -1,0 +1,11 @@
+CLASS dia net/minecraft/world/level/storage/loot/entries/EmptyLootItem
+	METHOD <init> <init> (II[Ldkf;[Ldiy;)V
+	METHOD <init> <init> (II[Ldkf;[Ldiy;Ldia$1;)V
+	METHOD a getType ()Ldig;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Ldhn;)V
+	METHOD b emptyItem ()Ldih$a;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldkf;[Ldiy;)Ldia;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldkf;[Ldiy;)Ldih;

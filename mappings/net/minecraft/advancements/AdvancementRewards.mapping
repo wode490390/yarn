@@ -1,0 +1,29 @@
+CLASS ag net/minecraft/advancements/AdvancementRewards
+	FIELD a EMPTY Lag;
+	FIELD b experience I
+	FIELD c loot [Lwp;
+	FIELD d recipes [Lwp;
+	FIELD e function Ldd$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I[Lwp;[Lwp;Ldd$a;)V
+	METHOD a getRecipes ()[Lwp;
+	METHOD a grant (Labk;)V
+	METHOD a deserialize (Lcom/google/gson/JsonObject;)Lag;
+	METHOD a lambda$grant$0 (Lnet/minecraft/server/MinecraftServer;Labk;Ldd;)V
+	METHOD b serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Builder
+		FIELD a experience I
+		FIELD b loot Ljava/util/List;
+		FIELD c recipes Ljava/util/List;
+		FIELD d function Lwp;
+		METHOD <init> <init> ()V
+		METHOD a build ()Lag;
+		METHOD a experience (I)Lag$a;
+		METHOD a loot (Lwp;)Lag$a;
+		METHOD b addExperience (I)Lag$a;
+		METHOD b addLootTable (Lwp;)Lag$a;
+		METHOD c recipe (Lwp;)Lag$a;
+		METHOD d addRecipe (Lwp;)Lag$a;
+		METHOD e function (Lwp;)Lag$a;
+		METHOD f runs (Lwp;)Lag$a;

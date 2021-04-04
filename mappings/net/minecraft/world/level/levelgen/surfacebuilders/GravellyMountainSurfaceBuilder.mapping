@@ -1,0 +1,4 @@
+CLASS dcc net/minecraft/world/level/levelgen/surfacebuilders/GravellyMountainSurfaceBuilder
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcl;)V
+	METHOD a apply (Ljava/util/Random;Lclk;Lbwq;IIIDLcjr;Lcjr;IJLdcm;)V

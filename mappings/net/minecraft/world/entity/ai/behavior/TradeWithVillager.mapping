@@ -1,0 +1,18 @@
+CLASS awz net/minecraft/world/entity/ai/behavior/TradeWithVillager
+	FIELD a INTERACT_DIST_SQR I
+	FIELD c SPEED_MODIFIER F
+	FIELD d trades Ljava/util/Set;
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lbis;)Z
+	METHOD a canStillUse (Labj;Lbis;J)Z
+	METHOD a figureOutWhatIAmWillingToTrade (Lbis;Lbis;)Ljava/util/Set;
+	METHOD a throwHalfStack (Lbis;Ljava/util/Set;Lasy;)V
+	METHOD a lambda$figureOutWhatIAmWillingToTrade$0 (Lcom/google/common/collect/ImmutableSet;Lbpn;)Z
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b start (Labj;Lbis;J)V
+	METHOD c stop (Labj;Lasy;J)V
+	METHOD c tick (Labj;Lbis;J)V
+	METHOD d tick (Labj;Lasy;J)V
+	METHOD d stop (Labj;Lbis;J)V

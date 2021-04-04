@@ -1,0 +1,8 @@
+CLASS czq net/minecraft/world/level/levelgen/structure/BuriedTreasurePieces
+	METHOD <init> <init> ()V
+	CLASS a BuriedTreasurePiece
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD <init> <init> (Lgb;)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD b isLiquid (Lcjr;)Z

@@ -1,0 +1,17 @@
+CLASS avg net/minecraft/world/entity/ai/behavior/InteractWithDoor
+	FIELD a COOLDOWN_BEFORE_RERUNNING_IN_SAME_NODE I
+	FIELD c SKIP_CLOSING_DOOR_IF_FURTHER_AWAY_THAN D
+	FIELD d MAX_DISTANCE_TO_HOLD_DOOR_OPEN_FOR_OTHER_MOBS D
+	FIELD e lastCheckedNode Ldfw;
+	FIELD f remainingCooldown I
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a closeDoorsThatIHaveOpenedOrPassedThrough (Labj;Lasy;Ldfw;Ldfw;)V
+	METHOD a areOtherMobsComingThroughDoor (Labj;Lasy;Lgb;)Z
+	METHOD a isDoorTooFarAway (Labj;Lasy;Lgj;)Z
+	METHOD a lambda$areOtherMobsComingThroughDoor$2 (Labj;Lgb;Lasy;)Z
+	METHOD a lambda$areOtherMobsComingThroughDoor$0 (Lasy;Lasy;)Z
+	METHOD a lambda$areOtherMobsComingThroughDoor$1 (Lgb;Lasy;)Z
+	METHOD b isMobComingThroughDoor (Labj;Lasy;Lgb;)Z
+	METHOD c rememberDoorToClose (Labj;Lasy;Lgb;)V

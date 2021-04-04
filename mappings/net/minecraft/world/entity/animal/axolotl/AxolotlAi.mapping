@@ -1,0 +1,21 @@
+CLASS bec net/minecraft/world/entity/animal/axolotl/AxolotlAi
+	FIELD a ADULT_FOLLOW_RANGE Laqs;
+	FIELD b SPEED_MULTIPLIER_WHEN_MAKING_LOVE F
+	FIELD c SPEED_MULTIPLIER_ON_LAND F
+	FIELD d SPEED_MULTIPLIER_WHEN_IDLING_IN_WATER F
+	FIELD e SPEED_MULTIPLIER_WHEN_CHASING_IN_WATER F
+	FIELD f SPEED_MULTIPLIER_WHEN_FOLLOWING_ADULT_IN_WATER F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getTemptations ()Lbsg;
+	METHOD a getSpeedModifierChasing (Lasy;)F
+	METHOD a makeBrain (Lats;)Lats;
+	METHOD a updateActivity (Lbeb;)V
+	METHOD b getSpeedModifierFollowingAdult (Lasy;)F
+	METHOD b initPlayDeadActivity (Lats;)V
+	METHOD b findNearestValidAttackTarget (Lbeb;)Ljava/util/Optional;
+	METHOD c getSpeedModifier (Lasy;)F
+	METHOD c initFightActivity (Lats;)V
+	METHOD c isBreeding (Lbeb;)Z
+	METHOD d initCoreActivity (Lats;)V
+	METHOD e initIdleActivity (Lats;)V

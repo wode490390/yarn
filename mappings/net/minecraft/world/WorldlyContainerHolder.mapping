@@ -1,0 +1,2 @@
+CLASS arq net/minecraft/world/WorldlyContainerHolder
+	METHOD a getContainer (Lcjr;Lbvs;Lgb;)Larp;

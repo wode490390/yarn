@@ -1,0 +1,2 @@
+CLASS bjs net/minecraft/world/entity/projectile/ItemSupplier
+	METHOD g getItem ()Lbpr;

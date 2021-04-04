@@ -1,0 +1,3 @@
+CLASS bnu net/minecraft/world/item/BedItem
+	METHOD <init> <init> (Lbyq;Lbpn$a;)V
+	METHOD a placeBlock (Lbrr;Lcjr;)Z

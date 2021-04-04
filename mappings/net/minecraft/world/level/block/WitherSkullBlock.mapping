@@ -1,0 +1,11 @@
+CLASS chb net/minecraft/world/level/block/WitherSkullBlock
+	FIELD d witherPatternFull Lcjw;
+	FIELD e witherPatternBase Lcjw;
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a checkSpawn (Lbvr;Lgb;Lciq;)V
+	METHOD a setPlacedBy (Lbvr;Lgb;Lcjr;Lasy;Lbpr;)V
+	METHOD a lambda$getOrCreateWitherBase$1 (Lcjv;)Z
+	METHOD b canSpawnMob (Lbvr;Lgb;Lbpr;)Z
+	METHOD b lambda$getOrCreateWitherFull$0 (Lcjv;)Z
+	METHOD c getOrCreateWitherFull ()Lcjw;
+	METHOD e getOrCreateWitherBase ()Lcjw;

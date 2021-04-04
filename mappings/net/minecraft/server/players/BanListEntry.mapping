@@ -1,0 +1,17 @@
+CLASS adu net/minecraft/server/players/BanListEntry
+	FIELD a DATE_FORMAT Ljava/text/SimpleDateFormat;
+	FIELD b EXPIRES_NEVER Ljava/lang/String;
+	FIELD c created Ljava/util/Date;
+	FIELD d source Ljava/lang/String;
+	FIELD e expires Ljava/util/Date;
+	FIELD f reason Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/Object;Lcom/google/gson/JsonObject;)V
+	METHOD <init> <init> (Ljava/lang/Object;Ljava/util/Date;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)V
+	METHOD a getCreated ()Ljava/util/Date;
+	METHOD a serialize (Lcom/google/gson/JsonObject;)V
+	METHOD b getSource ()Ljava/lang/String;
+	METHOD c getExpires ()Ljava/util/Date;
+	METHOD d getReason ()Ljava/lang/String;
+	METHOD e getDisplayName ()Lon;
+	METHOD f hasExpired ()Z

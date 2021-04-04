@@ -1,0 +1,20 @@
+CLASS bxe net/minecraft/world/level/biome/OverworldBiomeSource
+	FIELD e CODEC Lcom/mojang/serialization/Codec;
+	FIELD f noiseBiomeLayer Ldep;
+	FIELD g POSSIBLE_BIOMES Ljava/util/List;
+	FIELD h seed J
+	FIELD i legacyBiomeInitLayer Z
+	FIELD j largeBiomes Z
+	FIELD k biomes Lgr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (JZZLgr;)V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a withSeed (J)Lbwt;
+	METHOD a lambda$null$3 (Lbxe;)Lgr;
+	METHOD a lambda$static$4 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$new$6 (Lgr;Lwo;)Ljava/util/function/Supplier;
+	METHOD b getNoiseBiome (III)Lbwq;
+	METHOD b lambda$null$2 (Lbxe;)Ljava/lang/Boolean;
+	METHOD b lambda$null$5 (Lgr;Lwo;)Lbwq;
+	METHOD c lambda$null$1 (Lbxe;)Ljava/lang/Boolean;
+	METHOD d lambda$null$0 (Lbxe;)Ljava/lang/Long;

@@ -1,0 +1,7 @@
+CLASS czy net/minecraft/world/level/levelgen/structure/NetherFossilFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getStartFactory ()Lcsv$a;
+	CLASS a FeatureStart
+		METHOD <init> <init> (Lcsv;Lbuw;IJ)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcua;Lbvt;)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcum;Lbvt;)V

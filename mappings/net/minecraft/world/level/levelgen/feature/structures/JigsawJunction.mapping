@@ -1,0 +1,17 @@
+CLASS cwo net/minecraft/world/level/levelgen/feature/structures/JigsawJunction
+	FIELD a sourceX I
+	FIELD b sourceGroundY I
+	FIELD c sourceZ I
+	FIELD d deltaY I
+	FIELD e destProjection Lcwv$a;
+	METHOD <init> <init> (IIIILcwv$a;)V
+	METHOD a getSourceX ()I
+	METHOD a deserialize (Lcom/mojang/serialization/Dynamic;)Lcwo;
+	METHOD a serialize (Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/Dynamic;
+	METHOD b getSourceGroundY ()I
+	METHOD c getSourceZ ()I
+	METHOD d getDeltaY ()I
+	METHOD e getDestProjection ()Lcwv$a;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

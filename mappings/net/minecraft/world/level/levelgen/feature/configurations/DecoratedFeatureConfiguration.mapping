@@ -1,0 +1,11 @@
+CLASS ctu net/minecraft/world/level/levelgen/feature/configurations/DecoratedFeatureConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b feature Ljava/util/function/Supplier;
+	FIELD c decorator Lcyi;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Supplier;Lcyi;)V
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$1 (Lctu;)Lcyi;
+	METHOD as_ getFeatures ()Ljava/util/stream/Stream;
+	METHOD b lambda$null$0 (Lctu;)Ljava/util/function/Supplier;
+	METHOD toString toString ()Ljava/lang/String;

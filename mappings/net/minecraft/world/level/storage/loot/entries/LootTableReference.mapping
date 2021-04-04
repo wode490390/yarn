@@ -1,0 +1,18 @@
+CLASS dii net/minecraft/world/level/storage/loot/entries/LootTableReference
+	FIELD i name Lwp;
+	METHOD <init> <init> (Lwp;II[Ldkf;[Ldiy;)V
+	METHOD <init> <init> (Lwp;II[Ldkf;[Ldiy;Ldii$1;)V
+	METHOD a getType ()Ldig;
+	METHOD a validate (Ldhv;)V
+	METHOD a access$000 (Ldii;)Lwp;
+	METHOD a createItemStack (Ljava/util/function/Consumer;Ldhn;)V
+	METHOD a lootTableReference (Lwp;)Ldih$a;
+	METHOD a lambda$lootTableReference$0 (Lwp;II[Ldkf;[Ldiy;)Ldih;
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldkf;[Ldiy;)Ldii;
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldif;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldih;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serializeCustom (Lcom/google/gson/JsonObject;Ldii;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;II[Ldkf;[Ldiy;)Ldih;

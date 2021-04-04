@@ -1,0 +1,19 @@
+CLASS cwr net/minecraft/world/level/levelgen/feature/structures/ListPoolElement
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b elements Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;Lcwv$a;)V
+	METHOD a getType ()Lcwu;
+	METHOD a lambda$static$1 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$0 (Lcwr;)Ljava/util/List;
+	METHOD a lambda$getBoundingBox$2 (Lcwt;)Z
+	METHOD a setProjection (Lcwv$a;)Lcwt;
+	METHOD a lambda$setProjectionOnEachElement$5 (Lcwv$a;Lcwt;)V
+	METHOD a place (Ldbn;Lbwm;Lbwi;Lclm;Lgb;Lgb;Lcek;Lczp;Ljava/util/Random;Z)Z
+	METHOD a getSize (Ldbn;Lcek;)Lgw;
+	METHOD a getBoundingBox (Ldbn;Lgb;Lcek;)Lczp;
+	METHOD a lambda$getBoundingBox$3 (Ldbn;Lgb;Lcek;Lcwt;)Lczp;
+	METHOD a getShuffledJigsawBlocks (Ldbn;Lgb;Lcek;Ljava/util/Random;)Ljava/util/List;
+	METHOD b lambda$getBoundingBox$4 ()Ljava/lang/IllegalStateException;
+	METHOD b setProjectionOnEachElement (Lcwv$a;)V
+	METHOD toString toString ()Ljava/lang/String;

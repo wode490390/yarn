@@ -1,0 +1,11 @@
+CLASS dew net/minecraft/world/level/newbiome/layer/RegionHillsLayer
+	FIELD a INSTANCE Ldew;
+	FIELD ar LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD as MUTATIONS Lit/unimi/dsi/fastutil/ints/Int2IntMap;
+	FIELD at $VALUES [Ldew;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Ldee;Lddz;Lddz;II)I
+	METHOD a lambda$static$0 (Lit/unimi/dsi/fastutil/ints/Int2IntOpenHashMap;)V
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldew;
+	METHOD values values ()[Ldew;

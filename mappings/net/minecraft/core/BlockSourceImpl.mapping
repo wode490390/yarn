@@ -1,0 +1,11 @@
+CLASS gd net/minecraft/core/BlockSourceImpl
+	FIELD a level Labj;
+	FIELD b pos Lgb;
+	METHOD <init> <init> (Labj;Lgb;)V
+	METHOD a x ()D
+	METHOD b y ()D
+	METHOD c z ()D
+	METHOD d getPos ()Lgb;
+	METHOD e getBlockState ()Lcjr;
+	METHOD f getEntity ()Lchp;
+	METHOD g getLevel ()Labj;

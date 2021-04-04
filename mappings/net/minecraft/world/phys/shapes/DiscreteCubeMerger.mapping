@@ -1,0 +1,8 @@
+CLASS dmg net/minecraft/world/phys/shapes/DiscreteCubeMerger
+	FIELD a result Ldme;
+	FIELD b firstDiv I
+	FIELD c secondDiv I
+	METHOD <init> <init> (II)V
+	METHOD a getList ()Lit/unimi/dsi/fastutil/doubles/DoubleList;
+	METHOD a forMergedIndexes (Ldmk$a;)Z
+	METHOD size size ()I

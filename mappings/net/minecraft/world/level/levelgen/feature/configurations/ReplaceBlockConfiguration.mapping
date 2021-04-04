@@ -1,0 +1,9 @@
+CLASS cuu net/minecraft/world/level/levelgen/feature/configurations/ReplaceBlockConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b target Lcjr;
+	FIELD c state Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjr;Lcjr;)V
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$1 (Lcuu;)Lcjr;
+	METHOD b lambda$null$0 (Lcuu;)Lcjr;

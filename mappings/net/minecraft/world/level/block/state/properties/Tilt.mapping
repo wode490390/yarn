@@ -1,0 +1,14 @@
+CLASS clb net/minecraft/world/level/block/state/properties/Tilt
+	FIELD a NONE Lclb;
+	FIELD b UNSTABLE Lclb;
+	FIELD c PARTIAL Lclb;
+	FIELD d FULL Lclb;
+	FIELD e name Ljava/lang/String;
+	FIELD f causesVibration Z
+	FIELD g $VALUES [Lclb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Z)V
+	METHOD a causesVibration ()Z
+	METHOD c getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lclb;
+	METHOD values values ()[Lclb;

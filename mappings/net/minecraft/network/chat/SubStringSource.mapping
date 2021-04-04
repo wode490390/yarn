@@ -1,0 +1,13 @@
+CLASS oy net/minecraft/network/chat/SubStringSource
+	FIELD a plainText Ljava/lang/String;
+	FIELD b charStyles Ljava/util/List;
+	FIELD c reverseCharModifier Lit/unimi/dsi/fastutil/ints/Int2IntFunction;
+	METHOD <init> <init> (Ljava/lang/String;Ljava/util/List;Lit/unimi/dsi/fastutil/ints/Int2IntFunction;)V
+	METHOD a getPlainText ()Ljava/lang/String;
+	METHOD a lambda$create$0 (I)I
+	METHOD a substring (IIZ)Ljava/util/List;
+	METHOD a lambda$create$1 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a lambda$null$2 (Ljava/lang/StringBuilder;Ljava/util/List;ILox;I)Z
+	METHOD a lambda$create$3 (Ljava/lang/StringBuilder;Ljava/util/List;Lox;Ljava/lang/String;)Ljava/util/Optional;
+	METHOD a create (Loq;)Loy;
+	METHOD a create (Loq;Lit/unimi/dsi/fastutil/ints/Int2IntFunction;Ljava/util/function/UnaryOperator;)Loy;

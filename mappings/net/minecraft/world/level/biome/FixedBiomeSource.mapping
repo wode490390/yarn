@@ -1,0 +1,13 @@
+CLASS bwy net/minecraft/world/level/biome/FixedBiomeSource
+	FIELD e CODEC Lcom/mojang/serialization/Codec;
+	FIELD f biome Ljava/util/function/Supplier;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbwq;)V
+	METHOD <init> <init> (Ljava/util/function/Supplier;)V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a getBiomesWithin (IIII)Ljava/util/Set;
+	METHOD a findBiomeHorizontal (IIIIILjava/util/function/Predicate;Ljava/util/Random;Z)Lgb;
+	METHOD a withSeed (J)Lbwt;
+	METHOD a lambda$new$1 (Lbwq;)Lbwq;
+	METHOD a lambda$static$0 (Lbwy;)Ljava/util/function/Supplier;
+	METHOD b getNoiseBiome (III)Lbwq;

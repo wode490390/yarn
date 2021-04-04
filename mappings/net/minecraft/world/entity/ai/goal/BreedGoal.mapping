@@ -1,0 +1,17 @@
+CLASS ayd net/minecraft/world/entity/ai/goal/BreedGoal
+	FIELD a animal Lbcz;
+	FIELD b level Lbvr;
+	FIELD c partner Lbcz;
+	FIELD d PARTNER_TARGETING Lbcb;
+	FIELD e partnerClass Ljava/lang/Class;
+	FIELD f loveTime I
+	FIELD g speedModifier D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbcz;D)V
+	METHOD <init> <init> (Lbcz;DLjava/lang/Class;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V
+	METHOD g breed ()V
+	METHOD h getFreePartner ()Lbcz;

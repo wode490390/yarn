@@ -1,0 +1,7 @@
+CLASS bvc net/minecraft/world/level/CommonLevelAccessor
+	METHOD a isUnobstructed (Lasl;Ldmr;)Z
+	METHOD a getHeightmapPos (Lcor$a;Lgb;)Lgb;
+	METHOD a getBlockEntity (Lgb;Lchr;)Ljava/util/Optional;
+	METHOD c getEntityCollisions (Lasl;Ldlt;Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
+	METHOD h getBiomeName (Lgb;)Ljava/util/Optional;
+	METHOD t registryAccess ()Lgs;

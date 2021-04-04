@@ -1,0 +1,14 @@
+CLASS cuz net/minecraft/world/level/levelgen/feature/configurations/SimpleBlockConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b toPlace Lcwd;
+	FIELD c placeOn Ljava/util/List;
+	FIELD d placeIn Ljava/util/List;
+	FIELD e placeUnder Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcwd;)V
+	METHOD <init> <init> (Lcwd;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
+	METHOD a lambda$static$4 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$3 (Lcuz;)Ljava/util/List;
+	METHOD b lambda$null$2 (Lcuz;)Ljava/util/List;
+	METHOD c lambda$null$1 (Lcuz;)Ljava/util/List;
+	METHOD d lambda$null$0 (Lcuz;)Lcwd;

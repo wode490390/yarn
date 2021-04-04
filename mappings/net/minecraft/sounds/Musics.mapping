@@ -1,0 +1,16 @@
+CLASS aeu net/minecraft/sounds/Musics
+	FIELD a MENU Laet;
+	FIELD b CREATIVE Laet;
+	FIELD c CREDITS Laet;
+	FIELD d END_BOSS Laet;
+	FIELD e END Laet;
+	FIELD f UNDER_WATER Laet;
+	FIELD g GAME Laet;
+	FIELD h ONE_SECOND I
+	FIELD i THIRTY_SECONDS I
+	FIELD j TEN_MINUTES I
+	FIELD k TWENTY_MINUTES I
+	FIELD l FIVE_MINUTES I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a createGameMusic (Laev;)Laet;

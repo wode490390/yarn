@@ -1,0 +1,15 @@
+CLASS car net/minecraft/world/level/block/EnchantmentTableBlock
+	FIELD a SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getTicker (Lbvr;Lcjr;Lchr;)Lchq;
+	METHOD a lambda$getMenuProvider$0 (Lbvr;Lgb;ILbje;Lbjf;)Lbll;
+	METHOD a setPlacedBy (Lbvr;Lgb;Lcjr;Lasy;Lbpr;)V
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;
+	METHOD b getMenuProvider (Lcjr;Lbvr;Lgb;)Larj;
+	METHOD b_ getRenderShape (Lcjr;)Lced;
+	METHOD f_ useShapeForLightOcclusion (Lcjr;)Z

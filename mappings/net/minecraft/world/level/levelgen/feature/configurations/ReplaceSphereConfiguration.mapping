@@ -1,0 +1,12 @@
+CLASS cuv net/minecraft/world/level/levelgen/feature/configurations/ReplaceSphereConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b targetState Lcjr;
+	FIELD c replaceState Lcjr;
+	FIELD d radius Laqo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjr;Lcjr;Laqo;)V
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcuv;)Laqo;
+	METHOD b radius ()Laqo;
+	METHOD b lambda$null$1 (Lcuv;)Lcjr;
+	METHOD c lambda$null$0 (Lcuv;)Lcjr;

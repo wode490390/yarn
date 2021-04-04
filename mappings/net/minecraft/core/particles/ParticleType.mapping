@@ -1,0 +1,7 @@
+CLASS hp net/minecraft/core/particles/ParticleType
+	FIELD a overrideLimiter Z
+	FIELD b deserializer Lho$a;
+	METHOD <init> <init> (ZLho$a;)V
+	METHOD c getOverrideLimiter ()Z
+	METHOD d getDeserializer ()Lho$a;
+	METHOD e codec ()Lcom/mojang/serialization/Codec;

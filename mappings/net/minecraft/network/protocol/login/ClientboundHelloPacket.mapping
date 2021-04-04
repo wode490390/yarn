@@ -1,0 +1,12 @@
+CLASS vh net/minecraft/network/protocol/login/ClientboundHelloPacket
+	FIELD a serverId Ljava/lang/String;
+	FIELD b publicKey [B
+	FIELD c nonce [B
+	METHOD <init> <init> (Ljava/lang/String;[B[B)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lve;)V
+	METHOD b getServerId ()Ljava/lang/String;
+	METHOD c getPublicKey ()Ljava/security/PublicKey;
+	METHOD d getNonce ()[B

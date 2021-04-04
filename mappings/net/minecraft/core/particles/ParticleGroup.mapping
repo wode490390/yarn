@@ -1,0 +1,6 @@
+CLASS hn net/minecraft/core/particles/ParticleGroup
+	FIELD a SPORE_BLOSSOM Lhn;
+	FIELD b limit I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD a getLimit ()I

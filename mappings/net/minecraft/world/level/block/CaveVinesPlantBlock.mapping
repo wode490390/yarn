@@ -1,0 +1,10 @@
+CLASS bzl net/minecraft/world/level/block/CaveVinesPlantBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a performBonemeal (Labj;Ljava/util/Random;Lgb;Lcjr;)V
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a isValidBonemealTarget (Lbuv;Lgb;Lcjr;Z)Z
+	METHOD a isBonemealSuccess (Lbvr;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a updateHeadAfterConvertedFromBody (Lcjr;Lcjr;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD d getHeadBlock ()Lcbu;

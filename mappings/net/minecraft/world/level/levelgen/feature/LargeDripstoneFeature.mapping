@@ -1,0 +1,34 @@
+CLASS crt net/minecraft/world/level/levelgen/feature/LargeDripstoneFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a placeDebugMarkers (Lbwm;Lgb;Lcoh$b;Lcrt$b;)V
+	METHOD a place (Lcqz;)Z
+	METHOD a makeDripstone (Lgb;ZLjava/util/Random;ILaqm;Laqm;)Lcrt$a;
+	CLASS 1 1
+	CLASS a LargeDripstone
+		FIELD a root Lgb;
+		FIELD b pointingUp Z
+		FIELD c radius I
+		FIELD d bluntness D
+		FIELD e scale D
+		METHOD <init> <init> (Lgb;ZIDD)V
+		METHOD <init> <init> (Lgb;ZIDDLcrt$1;)V
+		METHOD a getHeight ()I
+		METHOD a getHeightAtRadius (F)I
+		METHOD a moveBackUntilBaseIsInsideStoneAndShrinkRadiusIfNecessary (Lbwm;Lcrt$b;)Z
+		METHOD a placeBlocks (Lbwm;Ljava/util/Random;Lcrt$b;)V
+		METHOD a access$300 (Lcrt$a;Lbwm;Lcrt$b;)Z
+		METHOD a access$400 (Lcrt$a;Lbwm;Ljava/util/Random;Lcrt$b;)V
+		METHOD a access$000 (Lcrt$a;Lcuh;)Z
+		METHOD a isSuitableForWind (Lcuh;)Z
+		METHOD b getMinY ()I
+		METHOD c getMaxY ()I
+	CLASS b WindOffsetter
+		FIELD a originY I
+		FIELD b windSpeed Ldly;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (ILjava/util/Random;Laqm;)V
+		METHOD <init> <init> (ILjava/util/Random;Laqm;Lcrt$1;)V
+		METHOD a access$200 ()Lcrt$b;
+		METHOD a access$600 (Lcrt$b;Lgb;)Lgb;
+		METHOD a offset (Lgb;)Lgb;
+		METHOD b noWind ()Lcrt$b;

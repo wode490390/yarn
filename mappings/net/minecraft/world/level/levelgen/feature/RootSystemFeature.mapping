@@ -1,0 +1,10 @@
+CLASS csi net/minecraft/world/level/levelgen/feature/RootSystemFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a lambda$placeRootedDirt$1 (Lafs;Lcjr;)Z
+	METHOD a placeDirtAndTree (Lbwm;Lclm;Lcuw;Ljava/util/Random;Lgb$a;Lgb;)Z
+	METHOD a tryPlaceAzaleaTree (Lbwm;Lclm;Lcuw;Ljava/util/Random;Lgb;)Z
+	METHOD a spaceForTree (Lbwm;Lcuw;Lgb;)Z
+	METHOD a placeRootedDirt (Lbwm;Lcuw;Ljava/util/Random;IILgb$a;)V
+	METHOD a placeRoots (Lbwm;Lcuw;Ljava/util/Random;Lgb;Lgb$a;)V
+	METHOD a place (Lcqz;)Z
+	METHOD c lambda$placeRootedDirt$0 (Lcjr;)Z

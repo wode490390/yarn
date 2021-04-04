@@ -1,0 +1,15 @@
+CLASS bnd net/minecraft/world/inventory/SmithingMenu
+	FIELD k level Lbvr;
+	FIELD s selectedRecipe Lbta;
+	FIELD t recipes Ljava/util/List;
+	METHOD <init> <init> (ILbje;)V
+	METHOD <init> <init> (ILbje;Lblw;)V
+	METHOD a onTake (Lbjf;Lbpr;)V
+	METHOD a mayPickup (Lbjf;Z)Z
+	METHOD a canTakeItemForPickAll (Lbpr;Lbnc;)Z
+	METHOD a lambda$shouldQuickMoveToAdditionalSlot$1 (Lbpr;Lbta;)Z
+	METHOD a lambda$onTake$0 (Lbvr;Lgb;)V
+	METHOD a isValidBlock (Lcjr;)Z
+	METHOD c shouldQuickMoveToAdditionalSlot (Lbpr;)Z
+	METHOD d shrinkStackInSlot (I)V
+	METHOD i createResult ()V

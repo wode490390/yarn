@@ -1,0 +1,10 @@
+CLASS cpb net/minecraft/world/level/levelgen/RandomSource
+	METHOD a consumeCount (I)V
+	METHOD nextBoolean nextBoolean ()Z
+	METHOD nextDouble nextDouble ()D
+	METHOD nextFloat nextFloat ()F
+	METHOD nextGaussian nextGaussian ()D
+	METHOD nextInt nextInt ()I
+	METHOD nextInt nextInt (I)I
+	METHOD nextLong nextLong ()J
+	METHOD setSeed setSeed (J)V

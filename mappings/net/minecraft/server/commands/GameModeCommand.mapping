@@ -1,0 +1,9 @@
+CLASS yg net/minecraft/server/commands/GameModeCommand
+	FIELD a PERMISSION_LEVEL I
+	METHOD <init> <init> ()V
+	METHOD a lambda$register$2 (Lbvo;Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a setMode (Lcom/mojang/brigadier/context/CommandContext;Ljava/util/Collection;Lbvo;)I
+	METHOD a lambda$register$0 (Ldg;)Z
+	METHOD a logGamemodeChange (Ldg;Labk;Lbvo;)V
+	METHOD b lambda$register$1 (Lbvo;Lcom/mojang/brigadier/context/CommandContext;)I

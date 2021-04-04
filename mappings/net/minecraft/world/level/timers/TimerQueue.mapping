@@ -1,0 +1,31 @@
+CLASS dlq net/minecraft/world/level/timers/TimerQueue
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b CALLBACK_DATA_TAG Ljava/lang/String;
+	FIELD c TIMER_NAME_TAG Ljava/lang/String;
+	FIELD d TIMER_TRIGGER_TIME_TAG Ljava/lang/String;
+	FIELD e callbacksRegistry Ldlp;
+	FIELD f queue Ljava/util/Queue;
+	FIELD g sequentialId Lcom/google/common/primitives/UnsignedLong;
+	FIELD h events Lcom/google/common/collect/Table;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldlp;)V
+	METHOD <init> <init> (Ldlp;Ljava/util/stream/Stream;)V
+	METHOD a getEventsIds ()Ljava/util/Set;
+	METHOD a lambda$new$2 (Lcom/mojang/serialization/Dynamic;)V
+	METHOD a storeEvent (Ldlq$a;)Lmv;
+	METHOD a tick (Ljava/lang/Object;J)V
+	METHOD a remove (Ljava/lang/String;)I
+	METHOD a schedule (Ljava/lang/String;JLdlo;)V
+	METHOD a loadEvent (Lmv;)V
+	METHOD b store ()Lnb;
+	METHOD b lambda$createComparator$1 (Ldlq$a;)Lcom/google/common/primitives/UnsignedLong;
+	METHOD c createComparator ()Ljava/util/Comparator;
+	METHOD c lambda$createComparator$0 (Ldlq$a;)J
+	CLASS 1 1
+	CLASS a Event
+		FIELD a triggerTime J
+		FIELD b sequentialId Lcom/google/common/primitives/UnsignedLong;
+		FIELD c id Ljava/lang/String;
+		FIELD d callback Ldlo;
+		METHOD <init> <init> (JLcom/google/common/primitives/UnsignedLong;Ljava/lang/String;Ldlo;)V
+		METHOD <init> <init> (JLcom/google/common/primitives/UnsignedLong;Ljava/lang/String;Ldlo;Ldlq$1;)V

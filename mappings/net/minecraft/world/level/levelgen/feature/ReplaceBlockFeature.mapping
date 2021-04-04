@@ -1,0 +1,3 @@
+CLASS csh net/minecraft/world/level/levelgen/feature/ReplaceBlockFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a place (Lcqz;)Z

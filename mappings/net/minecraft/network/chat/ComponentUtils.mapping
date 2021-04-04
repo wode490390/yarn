@@ -1,0 +1,12 @@
+CLASS oo net/minecraft/network/chat/ComponentUtils
+	METHOD <init> <init> ()V
+	METHOD a getDisplayName (Lcom/mojang/authlib/GameProfile;)Lon;
+	METHOD a fromMessage (Lcom/mojang/brigadier/Message;)Lon;
+	METHOD a updateForEntity (Ldg;Lon;Lasl;I)Lot;
+	METHOD a resolveStyle (Ldg;Lox;Lasl;I)Lox;
+	METHOD a lambda$formatList$0 (Ljava/lang/String;)Lon;
+	METHOD a formatList (Ljava/util/Collection;)Lon;
+	METHOD a formatAndSortList (Ljava/util/Collection;Ljava/util/function/Function;)Lon;
+	METHOD a wrapInSquareBrackets (Lon;)Lot;
+	METHOD a mergeStyles (Lot;Lox;)Lot;
+	METHOD b formatList (Ljava/util/Collection;Ljava/util/function/Function;)Lot;

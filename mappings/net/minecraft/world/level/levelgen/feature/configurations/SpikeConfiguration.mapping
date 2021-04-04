@@ -1,0 +1,15 @@
+CLASS cvc net/minecraft/world/level/levelgen/feature/configurations/SpikeConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b crystalInvulnerable Z
+	FIELD c spikes Ljava/util/List;
+	FIELD d crystalBeamTarget Lgb;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ZLjava/util/List;Lgb;)V
+	METHOD <init> <init> (ZLjava/util/List;Ljava/util/Optional;)V
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcvc;)Ljava/util/Optional;
+	METHOD b isCrystalInvulnerable ()Z
+	METHOD b lambda$null$1 (Lcvc;)Ljava/util/List;
+	METHOD c getSpikes ()Ljava/util/List;
+	METHOD c lambda$null$0 (Lcvc;)Ljava/lang/Boolean;
+	METHOD d getCrystalBeamTarget ()Lgb;

@@ -1,0 +1,9 @@
+CLASS bqc net/minecraft/world/item/PickaxeItem
+	FIELD a DIGGABLES Ljava/util/Set;
+	FIELD c MISSING_LEVEL I
+	FIELD d MIN_LEVEL_FOR_DROPS Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbra;IFLbpn$a;)V
+	METHOD a getDestroySpeed (Lbpr;Lcjr;)F
+	METHOD a lambda$static$0 (Lit/unimi/dsi/fastutil/objects/Object2IntOpenHashMap;)V
+	METHOD b isCorrectToolForDrops (Lcjr;)Z

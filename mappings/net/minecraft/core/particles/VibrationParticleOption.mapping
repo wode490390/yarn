@@ -1,0 +1,18 @@
+CLASS hs net/minecraft/core/particles/VibrationParticleOption
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b DESERIALIZER Lho$a;
+	FIELD c vibrationPath Lcob;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcob;)V
+	METHOD a writeToString ()Ljava/lang/String;
+	METHOD a lambda$static$1 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$0 (Lhs;)Lcob;
+	METHOD a writeToNetwork (Lob;)V
+	METHOD b getType ()Lhp;
+	METHOD c getVibrationPath ()Lcob;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lhs;
+		METHOD a fromNetwork (Lhp;Lob;)Lhs;
+		METHOD b fromCommand (Lhp;Lcom/mojang/brigadier/StringReader;)Lho;
+		METHOD b fromNetwork (Lhp;Lob;)Lho;

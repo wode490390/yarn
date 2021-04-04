@@ -1,0 +1,13 @@
+CLASS azh net/minecraft/world/entity/ai/goal/OfferFlowerGoal
+	FIELD a OFFER_TICKS I
+	FIELD b OFFER_TARGER_CONTEXT Lbcb;
+	FIELD c golem Lbdj;
+	FIELD d villager Lbis;
+	FIELD e tick I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbdj;)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

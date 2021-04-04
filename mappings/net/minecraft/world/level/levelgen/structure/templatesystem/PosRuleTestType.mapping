@@ -1,0 +1,8 @@
+CLASS dbg net/minecraft/world/level/levelgen/structure/templatesystem/PosRuleTestType
+	FIELD a ALWAYS_TRUE_TEST Ldbg;
+	FIELD b LINEAR_POS_TEST Ldbg;
+	FIELD c AXIS_ALIGNED_LINEAR_POS_TEST Ldbg;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$register$0 (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
+	METHOD a register (Ljava/lang/String;Lcom/mojang/serialization/Codec;)Ldbg;
+	METHOD codec codec ()Lcom/mojang/serialization/Codec;

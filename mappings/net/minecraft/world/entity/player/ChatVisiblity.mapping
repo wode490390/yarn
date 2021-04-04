@@ -1,0 +1,16 @@
+CLASS bjd net/minecraft/world/entity/player/ChatVisiblity
+	FIELD a FULL Lbjd;
+	FIELD b SYSTEM Lbjd;
+	FIELD c HIDDEN Lbjd;
+	FIELD d BY_ID [Lbjd;
+	FIELD e id I
+	FIELD f key Ljava/lang/String;
+	FIELD g $VALUES [Lbjd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILjava/lang/String;)V
+	METHOD a getId ()I
+	METHOD a byId (I)Lbjd;
+	METHOD b getKey ()Ljava/lang/String;
+	METHOD b lambda$static$0 (I)[Lbjd;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbjd;
+	METHOD values values ()[Lbjd;

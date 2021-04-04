@@ -1,0 +1,12 @@
+CLASS io net/minecraft/data/loot/EntityLoot
+	FIELD a ENTITY_ON_FIRE Lbl$a;
+	FIELD b SPECIAL_LOOT_TABLE_TYPES Ljava/util/Set;
+	FIELD c map Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a add (Lasp;Ldhq$a;)V
+	METHOD a createSheepTable (Lbvq;)Ldhq$a;
+	METHOD a accept (Ljava/util/function/BiConsumer;)V
+	METHOD a lambda$accept$0 (Lmv;)V
+	METHOD a add (Lwp;Ldhq$a;)V
+	METHOD accept accept (Ljava/lang/Object;)V

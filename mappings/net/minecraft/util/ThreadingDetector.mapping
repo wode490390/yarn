@@ -1,0 +1,5 @@
+CLASS ahb net/minecraft/util/ThreadingDetector
+	METHOD <init> <init> ()V
+	METHOD a makeThreadingException (Ljava/lang/String;Lage;)Lz;
+	METHOD a lambda$makeThreadingException$0 (Ljava/lang/Thread;)Ljava/lang/String;
+	METHOD a checkAndLock (Ljava/util/concurrent/Semaphore;Lage;Ljava/lang/String;)V

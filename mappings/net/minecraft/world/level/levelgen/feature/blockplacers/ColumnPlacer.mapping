@@ -1,0 +1,11 @@
+CLASS ctl net/minecraft/world/level/levelgen/feature/blockplacers/ColumnPlacer
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c minSize I
+	FIELD d extraSize I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (II)V
+	METHOD a type ()Lctk;
+	METHOD a place (Lbvs;Lgb;Lcjr;Ljava/util/Random;)V
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$1 (Lctl;)Ljava/lang/Integer;
+	METHOD b lambda$null$0 (Lctl;)Ljava/lang/Integer;

@@ -1,0 +1,7 @@
+CLASS cmm net/minecraft/world/level/chunk/storage/RegionBitmap
+	FIELD a used Ljava/util/BitSet;
+	METHOD <init> <init> ()V
+	METHOD a getUsed ()Lit/unimi/dsi/fastutil/ints/IntSet;
+	METHOD a allocate (I)I
+	METHOD a force (II)V
+	METHOD b free (II)V

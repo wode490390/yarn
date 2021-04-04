@@ -1,0 +1,8 @@
+CLASS cvl net/minecraft/world/level/levelgen/feature/featuresize/FeatureSizeType
+	FIELD a TWO_LAYERS_FEATURE_SIZE Lcvl;
+	FIELD b THREE_LAYERS_FEATURE_SIZE Lcvl;
+	FIELD c codec Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a register (Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lcvl;

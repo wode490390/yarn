@@ -1,0 +1,17 @@
+CLASS aan net/minecraft/server/dedicated/ServerWatchdog
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b MAX_SHUTDOWN_TIME J
+	FIELD c SHUTDOWN_STATUS I
+	FIELD d server Laak;
+	FIELD e maxTickTime J
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laak;)V
+	METHOD a exit ()V
+	METHOD a lambda$null$1 (Labj;)Ljava/lang/String;
+	METHOD b lambda$run$2 ()Ljava/lang/String;
+	METHOD c lambda$run$0 ()Ljava/lang/String;
+	METHOD run run ()V
+	CLASS 1 1
+		FIELD a this$0 Laan;
+		METHOD <init> <init> (Laan;)V
+		METHOD run run ()V

@@ -1,0 +1,32 @@
+CLASS bgj net/minecraft/world/entity/monster/Blaze
+	FIELD b allowedHeightOffset F
+	FIELD c nextHeightOffsetChangeTick I
+	FIELD d DATA_FLAGS_ID Lvy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a causeFallDamage (FFLarv;)Z
+	METHOD a access$000 (Lbgj;Z)V
+	METHOD aU getBrightness ()F
+	METHOD bv isOnFire ()Z
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD e defineSynchedData ()V
+	METHOD eP customServerAiStep ()V
+	METHOD eo isSensitiveToWater ()Z
+	METHOD k aiStep ()V
+	METHOD m createAttributes ()Latx$a;
+	METHOD o isCharged ()Z
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD u registerGoals ()V
+	METHOD v setCharged (Z)V
+	CLASS a BlazeAttackGoal
+		FIELD a blaze Lbgj;
+		FIELD b attackStep I
+		FIELD c attackTime I
+		FIELD d lastSeen I
+		METHOD <init> <init> (Lbgj;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+		METHOD g getFollowDistance ()D

@@ -1,0 +1,11 @@
+CLASS cfh net/minecraft/world/level/block/SporeBlossomBlock
+	FIELD a SHAPE Ldmr;
+	FIELD b ADD_PARTICLE_ATTEMPTS I
+	FIELD c PARTICLE_XZ_RADIUS I
+	FIELD d PARTICLE_Y_MAX I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a animateTick (Lcjr;Lbvr;Lgb;Ljava/util/Random;)V
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;

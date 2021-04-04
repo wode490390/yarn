@@ -1,0 +1,8 @@
+CLASS vr net/minecraft/network/protocol/status/ClientboundPongResponsePacket
+	FIELD a time J
+	METHOD <init> <init> (J)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lvq;)V
+	METHOD b getTime ()J

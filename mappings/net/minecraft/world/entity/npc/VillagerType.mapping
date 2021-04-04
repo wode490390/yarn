@@ -1,0 +1,17 @@
+CLASS bix net/minecraft/world/entity/npc/VillagerType
+	FIELD a DESERT Lbix;
+	FIELD b JUNGLE Lbix;
+	FIELD c PLAINS Lbix;
+	FIELD d SAVANNA Lbix;
+	FIELD e SNOW Lbix;
+	FIELD f SWAMP Lbix;
+	FIELD g TAIGA Lbix;
+	FIELD h name Ljava/lang/String;
+	FIELD i BY_BIOME Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;)V
+	METHOD a register (Ljava/lang/String;)Lbix;
+	METHOD a lambda$static$0 (Ljava/util/HashMap;)V
+	METHOD a byBiome (Ljava/util/Optional;)Lbix;
+	METHOD a lambda$byBiome$1 (Lwo;)Ljava/util/Optional;
+	METHOD toString toString ()Ljava/lang/String;

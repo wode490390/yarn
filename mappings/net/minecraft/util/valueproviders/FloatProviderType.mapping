@@ -1,0 +1,9 @@
+CLASS aqn net/minecraft/util/valueproviders/FloatProviderType
+	FIELD a CONSTANT Laqn;
+	FIELD b UNIFORM Laqn;
+	FIELD c CLAMPED_NORMAL Laqn;
+	FIELD d TRAPEZOID Laqn;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$register$0 (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
+	METHOD a register (Ljava/lang/String;Lcom/mojang/serialization/Codec;)Laqn;
+	METHOD codec codec ()Lcom/mojang/serialization/Codec;

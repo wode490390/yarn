@@ -1,0 +1,45 @@
+CLASS cr net/minecraft/advancements/critereon/StatePropertiesPredicate
+	FIELD a ANY Lcr;
+	FIELD b properties Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD <init> <init> (Ljava/util/List;Lcr$1;)V
+	METHOD a serializeToJson ()Lcom/google/gson/JsonElement;
+	METHOD a matches (Lcjr;)Z
+	METHOD a matches (Lcjs;Lcjt;)Z
+	METHOD a checkState (Lcjs;Ljava/util/function/Consumer;)V
+	METHOD a lambda$checkState$0 (Lcjs;Ljava/util/function/Consumer;Lcr$c;)V
+	METHOD a fromJson (Lcom/google/gson/JsonElement;)Lcr;
+	METHOD a lambda$serializeToJson$1 (Lcom/google/gson/JsonObject;Lcr$c;)V
+	METHOD a matches (Lddq;)Z
+	METHOD a fromJson (Ljava/lang/String;Lcom/google/gson/JsonElement;)Lcr$c;
+	METHOD b getStringOrNull (Lcom/google/gson/JsonElement;)Ljava/lang/String;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a matchers Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD a properties ()Lcr$a;
+		METHOD a hasProperty (Lcku;I)Lcr$a;
+		METHOD a hasProperty (Lcku;Ljava/lang/Comparable;)Lcr$a;
+		METHOD a hasProperty (Lcku;Ljava/lang/String;)Lcr$a;
+		METHOD a hasProperty (Lcku;Z)Lcr$a;
+		METHOD b build ()Lcr;
+	CLASS b ExactPropertyMatcher
+		FIELD a value Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;)V
+		METHOD a toJson ()Lcom/google/gson/JsonElement;
+		METHOD a match (Lcjt;Lcku;)Z
+	CLASS c PropertyMatcher
+		FIELD a name Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;)V
+		METHOD a toJson ()Lcom/google/gson/JsonElement;
+		METHOD a match (Lcjs;Lcjt;)Z
+		METHOD a checkState (Lcjs;Ljava/util/function/Consumer;)V
+		METHOD a match (Lcjt;Lcku;)Z
+		METHOD b getName ()Ljava/lang/String;
+	CLASS d RangedPropertyMatcher
+		FIELD a minValue Ljava/lang/String;
+		FIELD b maxValue Ljava/lang/String;
+		METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		METHOD a toJson ()Lcom/google/gson/JsonElement;
+		METHOD a match (Lcjt;Lcku;)Z

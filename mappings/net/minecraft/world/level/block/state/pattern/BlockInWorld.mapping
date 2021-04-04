@@ -1,0 +1,14 @@
+CLASS cjv net/minecraft/world/level/block/state/pattern/BlockInWorld
+	FIELD a level Lbvu;
+	FIELD b pos Lgb;
+	FIELD c loadChunks Z
+	FIELD d state Lcjr;
+	FIELD e entity Lchp;
+	FIELD f cachedEntity Z
+	METHOD <init> <init> (Lbvu;Lgb;Z)V
+	METHOD a getState ()Lcjr;
+	METHOD a hasState (Ljava/util/function/Predicate;)Ljava/util/function/Predicate;
+	METHOD a lambda$hasState$0 (Ljava/util/function/Predicate;Lcjv;)Z
+	METHOD b getEntity ()Lchp;
+	METHOD c getLevel ()Lbvu;
+	METHOD d getPos ()Lgb;

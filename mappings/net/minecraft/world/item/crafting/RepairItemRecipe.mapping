@@ -1,0 +1,9 @@
+CLASS bsn net/minecraft/world/item/crafting/RepairItemRecipe
+	METHOD <init> <init> (Lwp;)V
+	METHOD a canCraftInDimensions (II)Z
+	METHOD a assemble (Laqz;)Lbpr;
+	METHOD a matches (Laqz;Lbvr;)Z
+	METHOD a assemble (Lblz;)Lbpr;
+	METHOD a matches (Lblz;Lbvr;)Z
+	METHOD a lambda$assemble$0 (Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lbtl;)V
+	METHOD aj_ getSerializer ()Lbsl;

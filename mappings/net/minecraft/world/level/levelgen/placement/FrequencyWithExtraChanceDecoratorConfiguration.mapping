@@ -1,0 +1,11 @@
+CLASS cyu net/minecraft/world/level/levelgen/placement/FrequencyWithExtraChanceDecoratorConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c count I
+	FIELD d extraChance F
+	FIELD e extraCount I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (IFI)V
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcyu;)Ljava/lang/Integer;
+	METHOD b lambda$null$1 (Lcyu;)Ljava/lang/Float;
+	METHOD c lambda$null$0 (Lcyu;)Ljava/lang/Integer;

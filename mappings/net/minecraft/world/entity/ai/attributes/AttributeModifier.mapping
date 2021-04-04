@@ -1,0 +1,34 @@
+CLASS atw net/minecraft/world/entity/ai/attributes/AttributeModifier
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b amount D
+	FIELD c operation Latw$a;
+	FIELD d nameGetter Ljava/util/function/Supplier;
+	FIELD e id Ljava/util/UUID;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;DLatw$a;)V
+	METHOD <init> <init> (Ljava/util/UUID;Ljava/lang/String;DLatw$a;)V
+	METHOD <init> <init> (Ljava/util/UUID;Ljava/util/function/Supplier;DLatw$a;)V
+	METHOD a getId ()Ljava/util/UUID;
+	METHOD a lambda$new$1 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a load (Lmv;)Latw;
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b lambda$new$0 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c getOperation ()Latw$a;
+	METHOD d getAmount ()D
+	METHOD e save ()Lmv;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS a Operation
+		FIELD a ADDITION Latw$a;
+		FIELD b MULTIPLY_BASE Latw$a;
+		FIELD c MULTIPLY_TOTAL Latw$a;
+		FIELD d OPERATIONS [Latw$a;
+		FIELD e value I
+		FIELD f $VALUES [Latw$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;II)V
+		METHOD a toValue ()I
+		METHOD a fromValue (I)Latw$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Latw$a;
+		METHOD values values ()[Latw$a;

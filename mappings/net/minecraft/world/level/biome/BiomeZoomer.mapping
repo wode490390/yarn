@@ -1,0 +1,2 @@
+CLASS bwv net/minecraft/world/level/biome/BiomeZoomer
+	METHOD a getBiome (JIIILbws$a;)Lbwq;

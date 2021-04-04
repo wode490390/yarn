@@ -1,0 +1,115 @@
+CLASS hc net/minecraft/core/dispenser/DispenseItemBehavior
+	FIELD a NOOP Lhc;
+	METHOD <clinit> <clinit> ()V
+	METHOD a setEntityPokingOutOfBlock (Lgc;Lasl;Lgg;)V
+	METHOD a lambda$static$0 (Lgc;Lbpr;)Lbpr;
+	METHOD c bootStrap ()V
+	METHOD dispense dispense (Lgc;Lbpr;)Lbpr;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getProjectile (Lbvr;Lgo;Lbpr;)Lbjv;
+	CLASS 2 10
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 3 11
+		METHOD <init> <init> ()V
+		METHOD a lambda$execute$0 (Lasy;)Z
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 4 12
+		METHOD <init> <init> ()V
+		METHOD a lambda$execute$0 (Lbek;)Z
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 5 13
+		METHOD <init> <init> ()V
+		METHOD a lambda$execute$0 (Lbej;)Z
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 6 14
+		METHOD <init> <init> ()V
+		METHOD a playSound (Lgc;)V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 7 15
+		METHOD <init> <init> ()V
+		METHOD a lambda$execute$0 (Lbpr;Lbjy;)V
+		METHOD a playSound (Lgc;)V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 8 16
+		FIELD b defaultDispenseItemBehavior Lhb;
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 9 17
+		FIELD b defaultDispenseItemBehavior Lhb;
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 10 18
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 11 19
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 12 2
+		METHOD <init> <init> ()V
+		METHOD a getProjectile (Lbvr;Lgo;Lbpr;)Lbjv;
+	CLASS 13 20
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 14 21
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 15 22
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 16 23
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 17 24
+		FIELD b defaultDispenseItemBehavior Lhb;
+		METHOD <init> <init> ()V
+		METHOD a lambda$execute$0 (Lcjq$a;)Z
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+		METHOD a takeLiquid (Lgc;Lbpr;Lbpr;)Lbpr;
+	CLASS 18 25
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 19 26
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;
+	CLASS 20 3
+		METHOD <init> <init> ()V
+		METHOD a getProjectile (Lbvr;Lgo;Lbpr;)Lbjv;
+	CLASS 21 4
+		METHOD <init> <init> ()V
+		METHOD a lambda$getProjectile$0 (Lbpr;Lbkd;)V
+		METHOD a getProjectile (Lbvr;Lgo;Lbpr;)Lbjv;
+	CLASS 22 5
+		METHOD <init> <init> ()V
+		METHOD a lambda$getProjectile$0 (Lbpr;Lbjz;)V
+		METHOD a getProjectile (Lbvr;Lgo;Lbpr;)Lbjv;
+	CLASS 23 6
+		METHOD <init> <init> ()V
+		METHOD a getUncertainty ()F
+		METHOD a lambda$getProjectile$0 (Lbpr;Lbkf;)V
+		METHOD a getProjectile (Lbvr;Lgo;Lbpr;)Lbjv;
+		METHOD b getPower ()F
+	CLASS 24 7
+		METHOD <init> <init> ()V
+		METHOD dispense dispense (Lgc;Lbpr;)Lbpr;
+		CLASS 1 1
+			FIELD b this$0 Lhc$24;
+			METHOD <init> <init> (Lhc$24;)V
+			METHOD a getUncertainty ()F
+			METHOD a lambda$getProjectile$0 (Lbpr;Lbkg;)V
+			METHOD a getProjectile (Lbvr;Lgo;Lbpr;)Lbjv;
+			METHOD b getPower ()F
+	CLASS 25 8
+		METHOD <init> <init> ()V
+		METHOD dispense dispense (Lgc;Lbpr;)Lbpr;
+		CLASS 1 1
+			FIELD b this$0 Lhc$25;
+			METHOD <init> <init> (Lhc$25;)V
+			METHOD a getUncertainty ()F
+			METHOD a lambda$getProjectile$0 (Lbpr;Lbkg;)V
+			METHOD a getProjectile (Lbvr;Lgo;Lbpr;)Lbjv;
+			METHOD b getPower ()F
+	CLASS 26 9
+		METHOD <init> <init> ()V
+		METHOD a execute (Lgc;Lbpr;)Lbpr;

@@ -1,0 +1,6 @@
+CLASS rg net/minecraft/network/protocol/game/ClientboundPlayerCombatEnterPacket
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V

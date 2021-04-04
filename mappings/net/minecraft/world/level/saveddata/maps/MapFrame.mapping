@@ -1,0 +1,12 @@
+CLASS dgo net/minecraft/world/level/saveddata/maps/MapFrame
+	FIELD a pos Lgb;
+	FIELD b rotation I
+	FIELD c entityId I
+	METHOD <init> <init> (Lgb;II)V
+	METHOD a save ()Lmv;
+	METHOD a frameId (Lgb;)Ljava/lang/String;
+	METHOD a load (Lmv;)Ldgo;
+	METHOD b getPos ()Lgb;
+	METHOD c getRotation ()I
+	METHOD d getEntityId ()I
+	METHOD e getId ()Ljava/lang/String;

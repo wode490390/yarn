@@ -1,0 +1,17 @@
+CLASS dkj net/minecraft/world/level/storage/loot/predicates/LootItemKilledByPlayerCondition
+	FIELD a INSTANCE Ldkj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getType ()Ldkg;
+	METHOD a test (Ldhn;)Z
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	METHOD c killedByPlayer ()Ldkf$a;
+	METHOD d access$000 ()Ldkj;
+	METHOD e lambda$killedByPlayer$0 ()Ldkf;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldkj;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldkj;

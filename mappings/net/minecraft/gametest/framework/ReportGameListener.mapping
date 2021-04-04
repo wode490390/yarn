@@ -1,0 +1,23 @@
+CLASS mh net/minecraft/gametest/framework/ReportGameListener
+	FIELD a attempts I
+	FIELD b successes I
+	FIELD c originalTestInfo Llv;
+	FIELD d testTicker Lmb;
+	FIELD e structurePos Lgb;
+	METHOD <init> <init> (Llv;Lmb;Lgb;)V
+	METHOD a rerunTest ()V
+	METHOD a showRedBox (Labj;Lgb;Ljava/lang/String;)V
+	METHOD a say (Labj;Lp;Ljava/lang/String;)V
+	METHOD a lambda$say$1 (Labk;)Z
+	METHOD a lambda$say$2 (Ljava/lang/String;Lp;Labk;)V
+	METHOD a createBook (Ljava/lang/String;ZLjava/lang/String;)Lbpr;
+	METHOD a lambda$createBook$0 (Ljava/lang/StringBuffer;Ljava/lang/String;)V
+	METHOD a testStructureLoaded (Llv;)V
+	METHOD a spawnBeacon (Llv;Lbyq;)V
+	METHOD a reportPassed (Llv;Ljava/lang/String;)V
+	METHOD a reportFailure (Llv;Ljava/lang/Throwable;)V
+	METHOD b testPassed (Llv;)V
+	METHOD b visualizePassedTest (Llv;Ljava/lang/String;)V
+	METHOD b visualizeFailedTest (Llv;Ljava/lang/Throwable;)V
+	METHOD c testFailed (Llv;)V
+	METHOD c spawnLectern (Llv;Ljava/lang/String;)V

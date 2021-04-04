@@ -1,0 +1,67 @@
+CLASS dhn net/minecraft/world/level/storage/loot/LootContext
+	FIELD a random Ljava/util/Random;
+	FIELD b luck F
+	FIELD c level Labj;
+	FIELD d lootTables Ljava/util/function/Function;
+	FIELD e visitedTables Ljava/util/Set;
+	FIELD f conditions Ljava/util/function/Function;
+	FIELD g visitedConditions Ljava/util/Set;
+	FIELD h params Ljava/util/Map;
+	FIELD i dynamicDrops Ljava/util/Map;
+	METHOD <init> <init> (Ljava/util/Random;FLabj;Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/Map;Ljava/util/Map;)V
+	METHOD <init> <init> (Ljava/util/Random;FLabj;Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/Map;Ljava/util/Map;Ldhn$1;)V
+	METHOD a getRandom ()Ljava/util/Random;
+	METHOD a addVisitedTable (Ldhq;)Z
+	METHOD a hasParam (Ldjq;)Z
+	METHOD a addVisitedCondition (Ldkf;)Z
+	METHOD a getLootTable (Lwp;)Ldhq;
+	METHOD a addDynamicDrops (Lwp;Ljava/util/function/Consumer;)V
+	METHOD b getLuck ()F
+	METHOD b removeVisitedTable (Ldhq;)V
+	METHOD b getParam (Ldjq;)Ljava/lang/Object;
+	METHOD b removeVisitedCondition (Ldkf;)V
+	METHOD b getCondition (Lwp;)Ldkf;
+	METHOD c getLevel ()Labj;
+	METHOD c getParamOrNull (Ldjq;)Ljava/lang/Object;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a level Labj;
+		FIELD b params Ljava/util/Map;
+		FIELD c dynamicDrops Ljava/util/Map;
+		FIELD d random Ljava/util/Random;
+		FIELD e luck F
+		METHOD <init> <init> (Labj;)V
+		METHOD a getLevel ()Labj;
+		METHOD a withLuck (F)Ldhn$a;
+		METHOD a withOptionalRandomSeed (J)Ldhn$a;
+		METHOD a withOptionalRandomSeed (JLjava/util/Random;)Ldhn$a;
+		METHOD a getParameter (Ldjq;)Ljava/lang/Object;
+		METHOD a withParameter (Ldjq;Ljava/lang/Object;)Ldhn$a;
+		METHOD a create (Ldjr;)Ldhn;
+		METHOD a withRandom (Ljava/util/Random;)Ldhn$a;
+		METHOD a withDynamicDrop (Lwp;Ldhn$b;)Ldhn$a;
+		METHOD b getOptionalParameter (Ldjq;)Ljava/lang/Object;
+		METHOD b withOptionalParameter (Ldjq;Ljava/lang/Object;)Ldhn$a;
+	CLASS b DynamicDrop
+		METHOD add add (Ldhn;Ljava/util/function/Consumer;)V
+	CLASS c EntityTarget
+		FIELD a THIS Ldhn$c;
+		FIELD b KILLER Ldhn$c;
+		FIELD c DIRECT_KILLER Ldhn$c;
+		FIELD d KILLER_PLAYER Ldhn$c;
+		FIELD e name Ljava/lang/String;
+		FIELD f param Ldjq;
+		FIELD g $VALUES [Ldhn$c;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ldjq;)V
+		METHOD a getParam ()Ldjq;
+		METHOD a access$100 (Ldhn$c;)Ljava/lang/String;
+		METHOD a getByName (Ljava/lang/String;)Ldhn$c;
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldhn$c;
+		METHOD values values ()[Ldhn$c;
+		CLASS a Serializer
+			METHOD <init> <init> ()V
+			METHOD a read (Lcom/google/gson/stream/JsonReader;)Ldhn$c;
+			METHOD a write (Lcom/google/gson/stream/JsonWriter;Ldhn$c;)V
+			METHOD read read (Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;
+			METHOD write write (Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V

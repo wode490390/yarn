@@ -1,0 +1,20 @@
+CLASS cuc net/minecraft/world/level/levelgen/feature/configurations/GlowLichenConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b searchRange I
+	FIELD c canPlaceOnFloor Z
+	FIELD d canPlaceOnCeiling Z
+	FIELD e canPlaceOnWall Z
+	FIELD f chanceOfSpreading F
+	FIELD g canBePlacedOn Ljava/util/List;
+	FIELD h validDirections Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (IZZZFLjava/util/List;)V
+	METHOD a canBePlacedOn (Lbyq;)Z
+	METHOD a lambda$canBePlacedOn$7 (Lbyq;Lcjr;)Z
+	METHOD a lambda$static$6 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$5 (Lcuc;)Ljava/util/List;
+	METHOD b lambda$null$4 (Lcuc;)Ljava/lang/Float;
+	METHOD c lambda$null$3 (Lcuc;)Ljava/lang/Boolean;
+	METHOD d lambda$null$2 (Lcuc;)Ljava/lang/Boolean;
+	METHOD e lambda$null$1 (Lcuc;)Ljava/lang/Boolean;
+	METHOD f lambda$null$0 (Lcuc;)Ljava/lang/Integer;

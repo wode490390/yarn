@@ -1,0 +1,19 @@
+CLASS adl net/minecraft/server/packs/resources/ResourceManager
+	METHOD a getNamespaces ()Ljava/util/Set;
+	METHOD a listResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
+	METHOD b listPacks ()Ljava/util/stream/Stream;
+	METHOD b hasResource (Lwp;)Z
+	METHOD c getResources (Lwp;)Ljava/util/List;
+	CLASS a Empty
+		FIELD a INSTANCE Ladl$a;
+		FIELD b $VALUES [Ladl$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a getNamespaces ()Ljava/util/Set;
+		METHOD a listResources (Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Collection;
+		METHOD a getResource (Lwp;)Ladk;
+		METHOD b listPacks ()Ljava/util/stream/Stream;
+		METHOD b hasResource (Lwp;)Z
+		METHOD c getResources (Lwp;)Ljava/util/List;
+		METHOD valueOf valueOf (Ljava/lang/String;)Ladl$a;
+		METHOD values values ()[Ladl$a;

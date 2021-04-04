@@ -1,0 +1,118 @@
+CLASS bhb net/minecraft/world/entity/monster/Phantom
+	FIELD b FLAP_DEGREES_PER_TICK F
+	FIELD bV anchorPoint Lgb;
+	FIELD bW attackPhase Lbhb$a;
+	FIELD c TICKS_PER_FLAP I
+	FIELD d ID_SIZE Lvy;
+	FIELD e moveTargetPoint Ldly;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD P shouldDespawnInPeaceful ()Z
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a setPhantomSize (I)V
+	METHOD a canAttackType (Lasp;)Z
+	METHOD a getDimensions (Latj;)Lasm;
+	METHOD a access$400 (Lbhb;)Ldly;
+	METHOD a access$502 (Lbhb;Lbhb$a;)Lbhb$a;
+	METHOD a access$402 (Lbhb;Ldly;)Ldly;
+	METHOD a access$1402 (Lbhb;Lgb;)Lgb;
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD a onSyncedDataUpdated (Lvy;)V
+	METHOD aB isFlapping ()Z
+	METHOD b getStandingEyeHeight (Latj;Lasm;)F
+	METHOD b access$500 (Lbhb;)Lbhb$a;
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD c access$600 (Lbhb;)Ljava/util/Random;
+	METHOD cE getSoundSource ()Laex;
+	METHOD d access$700 (Lbhb;)Ljava/util/Random;
+	METHOD e defineSynchedData ()V
+	METHOD e access$800 (Lbhb;)Ljava/util/Random;
+	METHOD eP customServerAiStep ()V
+	METHOD ec getMobType ()Latc;
+	METHOD eg getSoundVolume ()F
+	METHOD f access$900 (Lbhb;)Ljava/util/Random;
+	METHOD g access$1000 (Lbhb;)Ljava/util/Random;
+	METHOD h access$1100 (Lbhb;)Ljava/util/Random;
+	METHOD i access$1200 (Lbhb;)Ljava/util/Random;
+	METHOD j tick ()V
+	METHOD j access$1300 (Lbhb;)Ljava/util/Random;
+	METHOD k aiStep ()V
+	METHOD k access$1400 (Lbhb;)Lgb;
+	METHOD l access$1500 (Lbhb;)Ljava/util/Random;
+	METHOD m getPhantomSize ()I
+	METHOD m access$1600 (Lbhb;)Ljava/util/Random;
+	METHOD n access$1700 (Lbhb;)Ljava/util/Random;
+	METHOD o getUniqueFlapTickOffset ()I
+	METHOD o access$1800 (Lbhb;)Ljava/util/Random;
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD s updatePhantomSizeInfo ()V
+	METHOD u registerGoals ()V
+	METHOD y createBodyControl ()Laxp;
+	CLASS 1 1
+	CLASS a AttackPhase
+		FIELD a CIRCLE Lbhb$a;
+		FIELD b SWOOP Lbhb$a;
+		FIELD c $VALUES [Lbhb$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lbhb$a;
+		METHOD values values ()[Lbhb$a;
+	CLASS b PhantomAttackPlayerTargetGoal
+		FIELD a this$0 Lbhb;
+		FIELD b attackTargeting Lbcb;
+		FIELD c nextScanTick I
+		METHOD <init> <init> (Lbhb;)V
+		METHOD <init> <init> (Lbhb;Lbhb$1;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+	CLASS c PhantomAttackStrategyGoal
+		FIELD a this$0 Lbhb;
+		FIELD b nextSweepTick I
+		METHOD <init> <init> (Lbhb;)V
+		METHOD <init> <init> (Lbhb;Lbhb$1;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+		METHOD g setAnchorAboveTarget ()V
+	CLASS d PhantomBodyRotationControl
+		FIELD a this$0 Lbhb;
+		METHOD <init> <init> (Lbhb;Lasz;)V
+		METHOD a clientTick ()V
+	CLASS e PhantomCircleAroundAnchorGoal
+		FIELD a this$0 Lbhb;
+		FIELD c angle F
+		FIELD d distance F
+		FIELD e height F
+		FIELD f clockwise F
+		METHOD <init> <init> (Lbhb;)V
+		METHOD <init> <init> (Lbhb;Lbhb$1;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD e tick ()V
+		METHOD h selectNext ()V
+	CLASS f PhantomLookControl
+		FIELD h this$0 Lbhb;
+		METHOD <init> <init> (Lbhb;Lasz;)V
+		METHOD a tick ()V
+	CLASS g PhantomMoveControl
+		FIELD l this$0 Lbhb;
+		FIELD m speed F
+		METHOD <init> <init> (Lbhb;Lasz;)V
+		METHOD a tick ()V
+	CLASS h PhantomMoveTargetGoal
+		FIELD b this$0 Lbhb;
+		METHOD <init> <init> (Lbhb;)V
+		METHOD g touchingTarget ()Z
+	CLASS i PhantomSweepAttackGoal
+		FIELD a this$0 Lbhb;
+		METHOD <init> <init> (Lbhb;)V
+		METHOD <init> <init> (Lbhb;Lbhb$1;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V

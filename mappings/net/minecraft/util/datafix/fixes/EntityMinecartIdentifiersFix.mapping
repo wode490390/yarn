@@ -1,0 +1,9 @@
+CLASS ajg net/minecraft/util/datafix/fixes/EntityMinecartIdentifiersFix
+	FIELD a MINECART_BY_ID Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$1 ()Ljava/lang/IllegalStateException;
+	METHOD a lambda$makeRule$3 (Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
+	METHOD a lambda$null$2 (Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/serialization/DynamicOps;Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$0 (Lcom/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType;Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/DataResult;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

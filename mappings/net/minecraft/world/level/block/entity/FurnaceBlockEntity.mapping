@@ -1,0 +1,4 @@
+CLASS cif net/minecraft/world/level/block/entity/FurnaceBlockEntity
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a createMenu (ILbje;)Lbll;
+	METHOD g getDefaultName ()Lon;

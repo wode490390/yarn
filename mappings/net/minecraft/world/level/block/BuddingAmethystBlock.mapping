@@ -1,0 +1,8 @@
+CLASS byw net/minecraft/world/level/block/BuddingAmethystBlock
+	FIELD a GROWTH_CHANCE I
+	FIELD b DIRECTIONS [Lgg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD b randomTick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD d getPistonPushReaction (Lcjr;)Lddw;
+	METHOD g canClusterGrowAtState (Lcjr;)Z

@@ -1,0 +1,24 @@
+CLASS coi net/minecraft/world/level/levelgen/DebugLevelSource
+	FIELD d CODEC Lcom/mojang/serialization/Codec;
+	FIELD e AIR Lcjr;
+	FIELD f BARRIER Lcjr;
+	FIELD g HEIGHT I
+	FIELD h BARRIER_HEIGHT I
+	FIELD i BLOCK_MARGIN I
+	FIELD j ALL_BLOCKS Ljava/util/List;
+	FIELD k GRID_WIDTH I
+	FIELD l GRID_HEIGHT I
+	FIELD m biomes Lgr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lgr;)V
+	METHOD a codec ()Lcom/mojang/serialization/Codec;
+	METHOD a getBlockStateFor (II)Lcjr;
+	METHOD a getBaseColumn (IILbvt;)Lbwc;
+	METHOD a getBaseHeight (IILcor$a;Lbvt;)I
+	METHOD a withSeed (J)Lclm;
+	METHOD a applyCarvers (JLbws;Lclk;Lcom$a;)V
+	METHOD a applyBiomeDecoration (Labp;Lbwi;)V
+	METHOD a buildSurfaceAndBedrock (Labp;Lclk;)V
+	METHOD a lambda$static$0 (Lbyq;)Ljava/util/stream/Stream;
+	METHOD a fillFromNoise (Ljava/util/concurrent/Executor;Lbwi;Lclk;)Ljava/util/concurrent/CompletableFuture;
+	METHOD g biomes ()Lgr;

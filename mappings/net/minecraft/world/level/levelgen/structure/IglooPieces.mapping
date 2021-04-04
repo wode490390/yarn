@@ -1,0 +1,22 @@
+CLASS czt net/minecraft/world/level/levelgen/structure/IglooPieces
+	FIELD a GENERATION_HEIGHT I
+	FIELD b STRUCTURE_LOCATION_IGLOO Lwp;
+	FIELD c STRUCTURE_LOCATION_LADDER Lwp;
+	FIELD d STRUCTURE_LOCATION_LABORATORY Lwp;
+	FIELD e PIVOTS Ljava/util/Map;
+	FIELD f OFFSETS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a access$000 ()Ljava/util/Map;
+	METHOD a addPieces (Ldbn;Lgb;Lcek;Ldal;Ljava/util/Random;)V
+	METHOD b access$100 ()Ljava/util/Map;
+	METHOD c access$200 ()Lwp;
+	CLASS a IglooPiece
+		METHOD <init> <init> (Labj;Lmv;)V
+		METHOD <init> <init> (Ldbn;Lwp;Lgb;Lcek;I)V
+		METHOD a addAdditionalSaveData (Labj;Lmv;)V
+		METHOD a postProcess (Lbwm;Lbwi;Lclm;Ljava/util/Random;Lczp;Lbuw;Lgb;)Z
+		METHOD a makeSettings (Lcek;Lwp;)Ldbo;
+		METHOD a handleDataMarker (Ljava/lang/String;Lgb;Lbwf;Ljava/util/Random;Lczp;)V
+		METHOD a lambda$new$0 (Lmv;Lwp;)Ldbo;
+		METHOD a makePosition (Lwp;Lgb;I)Lgb;

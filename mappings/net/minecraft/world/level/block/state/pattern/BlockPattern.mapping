@@ -1,0 +1,38 @@
+CLASS cjw net/minecraft/world/level/block/state/pattern/BlockPattern
+	FIELD a pattern [[[Ljava/util/function/Predicate;
+	FIELD b depth I
+	FIELD c height I
+	FIELD d width I
+	METHOD <init> <init> ([[[Ljava/util/function/Predicate;)V
+	METHOD a getDepth ()I
+	METHOD a find (Lbvu;Lgb;)Lcjw$b;
+	METHOD a matches (Lbvu;Lgb;Lgg;Lgg;)Lcjw$b;
+	METHOD a createLevelCache (Lbvu;Z)Lcom/google/common/cache/LoadingCache;
+	METHOD a translateAndRotate (Lgb;Lgg;Lgg;III)Lgb;
+	METHOD a matches (Lgb;Lgg;Lgg;Lcom/google/common/cache/LoadingCache;)Lcjw$b;
+	METHOD b getHeight ()I
+	METHOD c getWidth ()I
+	METHOD d getPattern ()[[[Ljava/util/function/Predicate;
+	CLASS a BlockCacheLoader
+		FIELD a level Lbvu;
+		FIELD b loadChunks Z
+		METHOD <init> <init> (Lbvu;Z)V
+		METHOD a load (Lgb;)Lcjv;
+		METHOD load load (Ljava/lang/Object;)Ljava/lang/Object;
+	CLASS b BlockPatternMatch
+		FIELD a frontTopLeft Lgb;
+		FIELD b forwards Lgg;
+		FIELD c up Lgg;
+		FIELD d cache Lcom/google/common/cache/LoadingCache;
+		FIELD e width I
+		FIELD f height I
+		FIELD g depth I
+		METHOD <init> <init> (Lgb;Lgg;Lgg;Lcom/google/common/cache/LoadingCache;III)V
+		METHOD a getFrontTopLeft ()Lgb;
+		METHOD a getBlock (III)Lcjv;
+		METHOD b getForwards ()Lgg;
+		METHOD c getUp ()Lgg;
+		METHOD d getWidth ()I
+		METHOD e getHeight ()I
+		METHOD f getDepth ()I
+		METHOD toString toString ()Ljava/lang/String;

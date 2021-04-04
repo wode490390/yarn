@@ -1,0 +1,6 @@
+CLASS bql net/minecraft/world/item/ShearsItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a lambda$mineBlock$0 (Lasy;)V
+	METHOD a mineBlock (Lbpr;Lbvr;Lcjr;Lgb;Lasy;)Z
+	METHOD a getDestroySpeed (Lbpr;Lcjr;)F
+	METHOD b isCorrectToolForDrops (Lcjr;)Z

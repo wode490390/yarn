@@ -1,0 +1,5 @@
+CLASS btr net/minecraft/world/item/enchantment/FishingSpeedEnchantment
+	METHOD <init> <init> (Lbtl$a;Lbtm;[Lasq;)V
+	METHOD a getMaxLevel ()I
+	METHOD a getMinCost (I)I
+	METHOD b getMaxCost (I)I

@@ -1,0 +1,15 @@
+CLASS vb net/minecraft/network/protocol/handshake/ClientIntentionPacket
+	FIELD a MAX_HOST_LENGTH I
+	FIELD b protocolVersion I
+	FIELD c hostName Ljava/lang/String;
+	FIELD d port I
+	FIELD e intention Loa;
+	METHOD <init> <init> (Ljava/lang/String;ILoa;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lvc;)V
+	METHOD b getIntention ()Loa;
+	METHOD c getProtocolVersion ()I
+	METHOD d getHostName ()Ljava/lang/String;
+	METHOD e getPort ()I

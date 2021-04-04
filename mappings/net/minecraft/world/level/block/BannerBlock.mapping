@@ -1,0 +1,14 @@
+CLASS bxw net/minecraft/world/level/block/BannerBlock
+	FIELD a ROTATION Lckr;
+	FIELD b BY_COLOR Ljava/util/Map;
+	FIELD c SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbon;Lcjq$c;)V
+	METHOD a byColor (Lbon;)Lbyq;
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V

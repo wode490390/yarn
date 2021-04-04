@@ -1,0 +1,5 @@
+CLASS adi net/minecraft/server/packs/resources/ReloadInstance
+	METHOD a done ()Ljava/util/concurrent/CompletableFuture;
+	METHOD b getActualProgress ()F
+	METHOD c isDone ()Z
+	METHOD d checkExceptions ()V

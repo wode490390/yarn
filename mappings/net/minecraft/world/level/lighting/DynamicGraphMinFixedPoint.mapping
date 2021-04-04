@@ -1,0 +1,38 @@
+CLASS ddc net/minecraft/world/level/lighting/DynamicGraphMinFixedPoint
+	FIELD a NO_COMPUTED_LEVEL I
+	FIELD b levelCount I
+	FIELD c queues [Lit/unimi/dsi/fastutil/longs/LongLinkedOpenHashSet;
+	FIELD d computedLevels Lit/unimi/dsi/fastutil/longs/Long2ByteMap;
+	FIELD e firstQueuedLevel I
+	FIELD f hasWork Z
+	METHOD <init> <init> (III)V
+	METHOD a checkFirstQueuedLevel (I)V
+	METHOD a getKey (II)I
+	METHOD a isSource (J)Z
+	METHOD a setLevel (JI)V
+	METHOD a enqueue (JII)V
+	METHOD a dequeue (JIIZ)V
+	METHOD a checkNeighborsAfterUpdate (JIZ)V
+	METHOD a getComputedLevel (JJI)I
+	METHOD a checkEdge (JJIIIZ)V
+	METHOD a checkEdge (JJIZ)V
+	METHOD a removeIf (Ljava/util/function/LongPredicate;)V
+	METHOD a lambda$removeIf$0 (Ljava/util/function/LongPredicate;Lit/unimi/dsi/fastutil/longs/LongList;J)V
+	METHOD b hasWork ()Z
+	METHOD b runUpdates (I)I
+	METHOD b computeLevelFromNeighbor (JJI)I
+	METHOD b checkNeighbor (JJIZ)V
+	METHOD c getQueueSize ()I
+	METHOD c getLevel (J)I
+	METHOD e removeFromQueue (J)V
+	METHOD f checkNode (J)V
+	CLASS 1 1
+		FIELD a val$minQueueSize I
+		FIELD b this$0 Lddc;
+		METHOD <init> <init> (Lddc;IFI)V
+		METHOD rehash rehash (I)V
+	CLASS 2 2
+		FIELD a val$minMapSize I
+		FIELD b this$0 Lddc;
+		METHOD <init> <init> (Lddc;IFI)V
+		METHOD rehash rehash (I)V

@@ -1,0 +1,3 @@
+CLASS atn net/minecraft/world/entity/Shearable
+	METHOD N_ readyForShearing ()Z
+	METHOD a shear (Laex;)V

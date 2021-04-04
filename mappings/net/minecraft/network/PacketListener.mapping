@@ -1,0 +1,3 @@
+CLASS oe net/minecraft/network/PacketListener
+	METHOD a getConnection ()Lnz;
+	METHOD a onDisconnect (Lon;)V

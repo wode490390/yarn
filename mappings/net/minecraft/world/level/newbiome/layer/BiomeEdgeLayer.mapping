@@ -1,0 +1,10 @@
+CLASS dem net/minecraft/world/level/newbiome/layer/BiomeEdgeLayer
+	FIELD a INSTANCE Ldem;
+	FIELD ar $VALUES [Ldem;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Ldee;IIIII)I
+	METHOD a checkEdge ([II)Z
+	METHOD a checkEdgeStrict ([IIIIIIII)Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldem;
+	METHOD values values ()[Ldem;

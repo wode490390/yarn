@@ -1,0 +1,26 @@
+CLASS aqf net/minecraft/util/thread/ProcessorMailbox
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b CLOSED_BIT I
+	FIELD c SCHEDULED_BIT I
+	FIELD d status Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD e queue Laqh;
+	FIELD f dispatcher Ljava/util/concurrent/Executor;
+	FIELD g name Ljava/lang/String;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Laqh;Ljava/util/concurrent/Executor;Ljava/lang/String;)V
+	METHOD a size ()I
+	METHOD a lambda$run$0 (I)Z
+	METHOD a pollUntil (Lit/unimi/dsi/fastutil/ints/Int2BooleanFunction;)I
+	METHOD a tell (Ljava/lang/Object;)V
+	METHOD a create (Ljava/util/concurrent/Executor;Ljava/lang/String;)Laqf;
+	METHOD b setAsScheduled ()Z
+	METHOD bi metrics ()Ljava/util/List;
+	METHOD bl name ()Ljava/lang/String;
+	METHOD c setAsIdle ()V
+	METHOD close close ()V
+	METHOD d canBeScheduled ()Z
+	METHOD e shouldProcess ()Z
+	METHOD f pollTask ()Z
+	METHOD g registerForExecution ()V
+	METHOD run run ()V
+	METHOD toString toString ()Ljava/lang/String;

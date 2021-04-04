@@ -1,0 +1,9 @@
+CLASS rm net/minecraft/network/protocol/game/ClientboundRemoveEntitiesPacket
+	FIELD a entityIds Lit/unimi/dsi/fastutil/ints/IntList;
+	METHOD <init> <init> (Lit/unimi/dsi/fastutil/ints/IntList;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> ([I)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getEntityIds ()Lit/unimi/dsi/fastutil/ints/IntList;

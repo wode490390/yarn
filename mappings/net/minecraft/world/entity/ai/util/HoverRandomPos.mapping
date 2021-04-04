@@ -1,0 +1,5 @@
+CLASS bch net/minecraft/world/entity/ai/util/HoverRandomPos
+	METHOD <init> <init> ()V
+	METHOD a getPos (Latg;IIDDFII)Ldly;
+	METHOD a lambda$getPos$1 (Latg;IIDDFZII)Lgb;
+	METHOD a lambda$null$0 (Latg;Lgb;)Z

@@ -1,0 +1,20 @@
+CLASS bld net/minecraft/world/entity/vehicle/MinecartSpawner
+	FIELD c spawner Lbus;
+	FIELD d ticker Ljava/lang/Runnable;
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDD)V
+	METHOD a handleEntityEvent (B)V
+	METHOD a createTicker (Lbvr;)Ljava/lang/Runnable;
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b lambda$createTicker$1 (Lbvr;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c lambda$createTicker$0 (Lbvr;)V
+	METHOD ct onlyOpCanSetNbt ()Z
+	METHOD j tick ()V
+	METHOD o getMinecartType ()Lbku$a;
+	METHOD q getDefaultDisplayBlockState ()Lcjr;
+	METHOD v getSpawner ()Lbus;
+	CLASS 1 1
+		FIELD a this$0 Lbld;
+		METHOD <init> <init> (Lbld;)V
+		METHOD a broadcastEvent (Lbvr;Lgb;I)V

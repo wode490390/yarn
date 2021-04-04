@@ -1,0 +1,17 @@
+CLASS bkg net/minecraft/world/entity/projectile/ThrownPotion
+	FIELD b SPLASH_RANGE D
+	FIELD c WATER_SENSITIVE Ljava/util/function/Predicate;
+	FIELD d SPLASH_RANGE_SQ D
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;DDD)V
+	METHOD <init> <init> (Lbvr;Lasy;)V
+	METHOD a makeAreaOfEffectCloud (Lbpr;Lbrm;)V
+	METHOD a onHitBlock (Ldlu;)V
+	METHOD a onHit (Ldlw;)V
+	METHOD a dowseFire (Lgb;Lgg;)V
+	METHOD a applySplash (Ljava/util/List;Lasl;)V
+	METHOD h getDefaultItem ()Lbpn;
+	METHOD k getGravity ()F
+	METHOD m applyWater ()V
+	METHOD n isLingering ()Z

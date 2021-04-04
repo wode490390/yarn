@@ -1,0 +1,13 @@
+CLASS ro net/minecraft/network/protocol/game/ClientboundResourcePackPacket
+	FIELD a MAX_HASH_LENGTH I
+	FIELD b url Ljava/lang/String;
+	FIELD c hash Ljava/lang/String;
+	FIELD d required Z
+	METHOD <init> <init> (Ljava/lang/String;Ljava/lang/String;Z)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getUrl ()Ljava/lang/String;
+	METHOD c getHash ()Ljava/lang/String;
+	METHOD d isRequired ()Z

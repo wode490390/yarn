@@ -1,0 +1,6 @@
+CLASS bgk net/minecraft/world/entity/monster/CaveSpider
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD B doHurtTarget (Lasl;)Z
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD b getStandingEyeHeight (Latj;Lasm;)F
+	METHOD m createCaveSpider ()Latx$a;

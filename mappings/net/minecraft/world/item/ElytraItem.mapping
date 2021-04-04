@@ -1,0 +1,6 @@
+CLASS bot net/minecraft/world/item/ElytraItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a isValidRepairItem (Lbpr;Lbpr;)Z
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD d isFlyEnabled (Lbpr;)Z
+	METHOD g getEquipSound ()Laev;

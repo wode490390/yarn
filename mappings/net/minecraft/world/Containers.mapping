@@ -1,0 +1,10 @@
+CLASS arc net/minecraft/world/Containers
+	FIELD a RANDOM Ljava/util/Random;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a dropContents (Lbvr;DDDLaqz;)V
+	METHOD a dropItemStack (Lbvr;DDDLbpr;)V
+	METHOD a dropContents (Lbvr;Lasl;Laqz;)V
+	METHOD a dropContents (Lbvr;Lgb;Laqz;)V
+	METHOD a lambda$dropContents$0 (Lbvr;Lgb;Lbpr;)V
+	METHOD a dropContents (Lbvr;Lgb;Lgn;)V

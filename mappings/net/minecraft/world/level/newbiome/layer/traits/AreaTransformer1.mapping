@@ -1,0 +1,5 @@
+CLASS dfg net/minecraft/world/level/newbiome/layer/traits/AreaTransformer1
+	METHOD a lambda$run$1 (Ldea;Lded;)Lddz;
+	METHOD a applyPixel (Lded;Lddz;II)I
+	METHOD a run (Lded;Ldea;)Ldea;
+	METHOD b lambda$null$0 (Lded;Lddz;II)I

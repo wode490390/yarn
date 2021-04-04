@@ -1,0 +1,11 @@
+CLASS uv net/minecraft/network/protocol/game/ServerboundSignUpdatePacket
+	FIELD a MAX_STRING_LENGTH I
+	FIELD b pos Lgb;
+	FIELD c lines [Ljava/lang/String;
+	METHOD <init> <init> (Lgb;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b getPos ()Lgb;
+	METHOD c getLines ()[Ljava/lang/String;

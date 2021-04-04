@@ -1,0 +1,11 @@
+CLASS dhx net/minecraft/world/level/storage/loot/entries/ComposableEntryContainer
+	FIELD a ALWAYS_FALSE Ldhx;
+	FIELD b ALWAYS_TRUE Ldhx;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$static$1 (Ldhn;Ljava/util/function/Consumer;)Z
+	METHOD a and (Ldhx;)Ldhx;
+	METHOD a lambda$or$3 (Ldhx;Ldhn;Ljava/util/function/Consumer;)Z
+	METHOD b lambda$static$0 (Ldhn;Ljava/util/function/Consumer;)Z
+	METHOD b or (Ldhx;)Ldhx;
+	METHOD b lambda$and$2 (Ldhx;Ldhn;Ljava/util/function/Consumer;)Z
+	METHOD expand expand (Ldhn;Ljava/util/function/Consumer;)Z

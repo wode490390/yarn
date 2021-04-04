@@ -1,0 +1,4 @@
+CLASS km net/minecraft/data/worldgen/BastionBridgePools
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V

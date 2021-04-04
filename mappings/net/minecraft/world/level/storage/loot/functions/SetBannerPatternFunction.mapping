@@ -1,0 +1,28 @@
+CLASS djd net/minecraft/world/level/storage/loot/functions/SetBannerPatternFunction
+	FIELD a patterns Ljava/util/List;
+	FIELD b append Z
+	METHOD <init> <init> ([Ldkf;Ljava/util/List;Z)V
+	METHOD <init> <init> ([Ldkf;Ljava/util/List;ZLdjd$1;)V
+	METHOD a getType ()Ldiz;
+	METHOD a run (Lbpr;Ldhn;)Lbpr;
+	METHOD a access$200 (Ldjd;)Ljava/util/List;
+	METHOD a setBannerPattern (Z)Ldjd$a;
+	METHOD b access$300 (Ldjd;)Z
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a patterns Lcom/google/common/collect/ImmutableList$Builder;
+		FIELD b append Z
+		METHOD <init> <init> (Z)V
+		METHOD <init> <init> (ZLdjd$1;)V
+		METHOD a getThis ()Ldjd$a;
+		METHOD a addPattern (Lchh;Lbon;)Ldjd$a;
+		METHOD b build ()Ldiy;
+		METHOD d getThis ()Ldix$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a lambda$serialize$0 (Lcom/google/gson/JsonArray;Lcom/mojang/datafixers/util/Pair;)V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldjd;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldix;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldjd;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldix;

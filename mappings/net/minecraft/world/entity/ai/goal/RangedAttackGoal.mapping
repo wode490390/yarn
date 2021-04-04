@@ -1,0 +1,17 @@
+CLASS azo net/minecraft/world/entity/ai/goal/RangedAttackGoal
+	FIELD a mob Lasz;
+	FIELD b rangedAttackMob Lbhd;
+	FIELD c target Lasy;
+	FIELD d attackTime I
+	FIELD e speedModifier D
+	FIELD f seeTime I
+	FIELD g attackIntervalMin I
+	FIELD h attackIntervalMax I
+	FIELD i attackRadius F
+	FIELD j attackRadiusSqr F
+	METHOD <init> <init> (Lbhd;DIF)V
+	METHOD <init> <init> (Lbhd;DIIF)V
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD d stop ()V
+	METHOD e tick ()V

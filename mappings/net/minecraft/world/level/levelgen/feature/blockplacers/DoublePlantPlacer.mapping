@@ -1,0 +1,8 @@
+CLASS ctm net/minecraft/world/level/levelgen/feature/blockplacers/DoublePlantPlacer
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c INSTANCE Lctm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a type ()Lctk;
+	METHOD a place (Lbvs;Lgb;Lcjr;Ljava/util/Random;)V
+	METHOD b lambda$static$0 ()Lctm;

@@ -1,0 +1,5 @@
+CLASS cjr net/minecraft/world/level/block/state/BlockState
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbyq;Lcom/google/common/collect/ImmutableMap;Lcom/mojang/serialization/MapCodec;)V
+	METHOD q asState ()Lcjr;

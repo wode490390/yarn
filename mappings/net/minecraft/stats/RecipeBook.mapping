@@ -1,0 +1,24 @@
+CLASS aez net/minecraft/stats/RecipeBook
+	FIELD a known Ljava/util/Set;
+	FIELD b highlight Ljava/util/Set;
+	FIELD c bookSettings Lafa;
+	METHOD <init> <init> ()V
+	METHOD a getBookSettings ()Lafa;
+	METHOD a copyOverData (Laez;)V
+	METHOD a setBookSettings (Lafa;)V
+	METHOD a isFiltering (Lbmu;)Z
+	METHOD a isOpen (Lbmv;)Z
+	METHOD a setOpen (Lbmv;Z)V
+	METHOD a setBookSetting (Lbmv;ZZ)V
+	METHOD a add (Lbsj;)V
+	METHOD a add (Lwp;)V
+	METHOD b isFiltering (Lbmv;)Z
+	METHOD b setFiltering (Lbmv;Z)V
+	METHOD b contains (Lbsj;)Z
+	METHOD b contains (Lwp;)Z
+	METHOD c remove (Lbsj;)V
+	METHOD c remove (Lwp;)V
+	METHOD d willHighlight (Lbsj;)Z
+	METHOD d addHighlight (Lwp;)V
+	METHOD e removeHighlight (Lbsj;)V
+	METHOD f addHighlight (Lbsj;)V

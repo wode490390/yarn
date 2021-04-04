@@ -1,0 +1,34 @@
+CLASS cjk net/minecraft/world/level/block/piston/PistonBaseBlock
+	FIELD b EXTENDED Lcki;
+	FIELD c TRIGGER_EXTEND I
+	FIELD d TRIGGER_CONTRACT I
+	FIELD e TRIGGER_DROP I
+	FIELD f PLATFORM_THICKNESS F
+	FIELD g EAST_AABB Ldmr;
+	FIELD h WEST_AABB Ldmr;
+	FIELD i SOUTH_AABB Ldmr;
+	FIELD j NORTH_AABB Ldmr;
+	FIELD k UP_AABB Ldmr;
+	FIELD l DOWN_AABB Ldmr;
+	FIELD m isSticky Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ZLcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a checkIfExtend (Lbvr;Lgb;Lcjr;)V
+	METHOD a setPlacedBy (Lbvr;Lgb;Lcjr;Lasy;Lbpr;)V
+	METHOD a getNeighborSignal (Lbvr;Lgb;Lgg;)Z
+	METHOD a moveBlocks (Lbvr;Lgb;Lgg;Z)Z
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a triggerEvent (Lcjr;Lbvr;Lgb;II)Z
+	METHOD a neighborChanged (Lcjr;Lbvr;Lgb;Lbyq;Lgb;Z)V
+	METHOD a isPushable (Lcjr;Lbvr;Lgb;Lgg;ZLgg;)Z
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b onPlace (Lcjr;Lbvr;Lgb;Lcjr;Z)V
+	METHOD f_ useShapeForLightOcclusion (Lcjr;)Z
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		FIELD b $SwitchMap$net$minecraft$world$level$material$PushReaction [I
+		METHOD <clinit> <clinit> ()V

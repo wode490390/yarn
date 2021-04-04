@@ -1,0 +1,15 @@
+CLASS ceq net/minecraft/world/level/block/SeagrassBlock
+	FIELD a AABB_OFFSET F
+	FIELD b SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a performBonemeal (Labj;Ljava/util/Random;Lgb;Lcjr;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a canPlaceLiquid (Lbuv;Lgb;Lcjr;Lddp;)Z
+	METHOD a isValidBonemealTarget (Lbuv;Lgb;Lcjr;Z)Z
+	METHOD a isBonemealSuccess (Lbvr;Ljava/util/Random;Lgb;Lcjr;)Z
+	METHOD a placeLiquid (Lbvs;Lgb;Lcjr;Lddq;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	METHOD d mayPlaceOn (Lcjr;Lbuv;Lgb;)Z

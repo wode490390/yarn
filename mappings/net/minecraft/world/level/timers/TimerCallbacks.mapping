@@ -1,0 +1,11 @@
+CLASS dlp net/minecraft/world/level/timers/TimerCallbacks
+	FIELD a SERVER_CALLBACKS Ldlp;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c idToSerializer Ljava/util/Map;
+	FIELD d classToSerializer Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Ldlo$a;)Ldlp;
+	METHOD a serialize (Ldlo;)Lmv;
+	METHOD a getSerializer (Ljava/lang/Class;)Ldlo$a;
+	METHOD a deserialize (Lmv;)Ldlo;

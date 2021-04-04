@@ -1,0 +1,18 @@
+CLASS cxt net/minecraft/world/level/levelgen/heightproviders/ConstantHeight
+	FIELD a ZERO Lcxt;
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD d value Lcpe;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcpe;)V
+	METHOD a getType ()Lcxv;
+	METHOD a lambda$static$3 (Lcom/mojang/datafixers/util/Either;)Lcxt;
+	METHOD a lambda$static$1 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a of (Lcpe;)Lcxt;
+	METHOD a lambda$static$4 (Lcxt;)Lcom/mojang/datafixers/util/Either;
+	METHOD a sample (Ljava/util/Random;Lcpg;)I
+	METHOD b getValue ()Lcpe;
+	METHOD b lambda$null$2 (Lcxt;)Lcxt;
+	METHOD c lambda$null$0 (Lcxt;)Lcpe;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

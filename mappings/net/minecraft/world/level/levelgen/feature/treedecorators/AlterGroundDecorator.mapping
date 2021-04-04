@@ -1,0 +1,12 @@
+CLASS cwx net/minecraft/world/level/levelgen/feature/treedecorators/AlterGroundDecorator
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b provider Lcwd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcwd;)V
+	METHOD a type ()Lcxc;
+	METHOD a lambda$place$1 (ILgb;)Z
+	METHOD a placeCircle (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Lgb;)V
+	METHOD a place (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Ljava/util/List;Ljava/util/List;)V
+	METHOD a lambda$static$0 (Lcwx;)Lcwd;
+	METHOD b placeBlockAt (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Lgb;)V
+	METHOD c lambda$place$2 (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Lgb;)V

@@ -1,0 +1,5 @@
+CLASS cpx net/minecraft/world/level/levelgen/feature/BasaltPillarFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a placeBaseHangOff (Lbvs;Ljava/util/Random;Lgb;)V
+	METHOD a place (Lcqz;)Z
+	METHOD b placeHangOff (Lbvs;Ljava/util/Random;Lgb;)Z

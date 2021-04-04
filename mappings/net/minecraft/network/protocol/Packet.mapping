@@ -1,0 +1,4 @@
+CLASS pf net/minecraft/network/protocol/Packet
+	METHOD a isSkippable ()Z
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V

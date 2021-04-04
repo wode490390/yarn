@@ -1,0 +1,13 @@
+CLASS afz net/minecraft/util/ClassInstanceMultiMap
+	FIELD a byClass Ljava/util/Map;
+	FIELD b baseClass Ljava/lang/Class;
+	FIELD c allInstances Ljava/util/List;
+	METHOD <init> <init> (Ljava/lang/Class;)V
+	METHOD a getAllInstances ()Ljava/util/List;
+	METHOD a find (Ljava/lang/Class;)Ljava/util/Collection;
+	METHOD add add (Ljava/lang/Object;)Z
+	METHOD b lambda$find$0 (Ljava/lang/Class;)Ljava/util/List;
+	METHOD contains contains (Ljava/lang/Object;)Z
+	METHOD iterator iterator ()Ljava/util/Iterator;
+	METHOD remove remove (Ljava/lang/Object;)Z
+	METHOD size size ()I

@@ -1,0 +1,5 @@
+CLASS bgu net/minecraft/world/entity/monster/Giant
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a getWalkTargetValue (Lgb;Lbvu;)F
+	METHOD b getStandingEyeHeight (Latj;Lasm;)F
+	METHOD m createAttributes ()Latx$a;

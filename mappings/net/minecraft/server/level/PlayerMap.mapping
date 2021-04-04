@@ -1,0 +1,11 @@
+CLASS abd net/minecraft/server/level/PlayerMap
+	FIELD a players Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;
+	METHOD <init> <init> ()V
+	METHOD a getPlayers (J)Ljava/util/stream/Stream;
+	METHOD a updatePlayer (JJLabk;)V
+	METHOD a removePlayer (JLabk;)V
+	METHOD a addPlayer (JLabk;Z)V
+	METHOD a ignorePlayer (Labk;)V
+	METHOD b unIgnorePlayer (Labk;)V
+	METHOD c ignoredOrUnknown (Labk;)Z
+	METHOD d ignored (Labk;)Z

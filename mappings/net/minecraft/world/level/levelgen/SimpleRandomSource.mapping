@@ -1,0 +1,20 @@
+CLASS cpc net/minecraft/world/level/levelgen/SimpleRandomSource
+	FIELD a MODULUS_BITS I
+	FIELD b MODULUS_MASK J
+	FIELD c MULTIPLIER J
+	FIELD d INCREMENT J
+	FIELD e FLOAT_MULTIPLIER F
+	FIELD f DOUBLE_MULTIPLIER D
+	FIELD g seed Ljava/util/concurrent/atomic/AtomicLong;
+	FIELD h nextNextGaussian D
+	FIELD i haveNextNextGaussian Z
+	METHOD <init> <init> (J)V
+	METHOD b next (I)I
+	METHOD nextBoolean nextBoolean ()Z
+	METHOD nextDouble nextDouble ()D
+	METHOD nextFloat nextFloat ()F
+	METHOD nextGaussian nextGaussian ()D
+	METHOD nextInt nextInt ()I
+	METHOD nextInt nextInt (I)I
+	METHOD nextLong nextLong ()J
+	METHOD setSeed setSeed (J)V

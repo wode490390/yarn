@@ -1,0 +1,4 @@
+CLASS arr net/minecraft/world/damagesource/BadRespawnPointDamage
+	METHOD <init> <init> ()V
+	METHOD a getLocalizedDeathMessage (Lasy;)Lon;
+	METHOD a lambda$getLocalizedDeathMessage$0 (Lox;)Lox;

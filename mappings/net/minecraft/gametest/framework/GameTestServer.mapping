@@ -1,0 +1,35 @@
+CLASS ma net/minecraft/gametest/framework/GameTestServer
+	FIELD p LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD q PROGRESS_REPORT_INTERVAL I
+	FIELD r testBatches Ljava/util/List;
+	FIELD s spawnPos Lgb;
+	FIELD t TEST_GAME_RULES Lbvn;
+	FIELD u TEST_SETTINGS Lbvv;
+	FIELD v testTracker Lmg;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/Thread;Ldgz$a;Lada;Lxd;Ljava/util/Collection;Lgb;Lgs$b;)V
+	METHOD <init> <init> (Ljava/lang/Thread;Ldgz$a;Lada;Lxd;Ljava/util/Collection;Lgb;Lgs$b;Lgr;Lgr;)V
+	METHOD R_ shouldInformAdmins ()Z
+	METHOD a lambda$static$0 (Lbvn;)V
+	METHOD a isSingleplayerOwner (Lcom/mojang/authlib/GameProfile;)Z
+	METHOD a tickServer (Ljava/util/function/BooleanSupplier;)V
+	METHOD a lambda$tickServer$2 (Llv;)V
+	METHOD a onServerCrash (Lq;)V
+	METHOD b startTests (Labj;)V
+	METHOD b lambda$tickServer$1 (Llv;)V
+	METHOD bb haveTestsStarted ()Z
+	METHOD d initServer ()Z
+	METHOD e onServerExit ()V
+	METHOD f isHardcore ()Z
+	METHOD g getOperatorUserPermissionLevel ()I
+	METHOD h getFunctionCompilationLevel ()I
+	METHOD i shouldRconBroadcast ()Z
+	METHOD j isDedicatedServer ()Z
+	METHOD k getRateLimitPacketsPerSecond ()I
+	METHOD l isEpollEnabled ()Z
+	METHOD m isCommandBlockEnabled ()Z
+	METHOD n isPublished ()Z
+	METHOD o getModdedStatus ()Ljava/util/Optional;
+	CLASS 1 1
+		FIELD a this$0 Lma;
+		METHOD <init> <init> (Lma;Lnet/minecraft/server/MinecraftServer;Lgs$b;Ldhd;I)V

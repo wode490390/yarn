@@ -1,0 +1,24 @@
+CLASS afc net/minecraft/stats/ServerStatsCounter
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c STAT_REQUEST_COOLDOWN I
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	FIELD e file Ljava/io/File;
+	FIELD f dirty Ljava/util/Set;
+	FIELD g lastStatRequest I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;)V
+	METHOD a save ()V
+	METHOD a sendStats (Labk;)V
+	METHOD a lambda$toJson$4 (Laff;)Lcom/google/gson/JsonObject;
+	METHOD a getStat (Laff;Ljava/lang/String;)Ljava/util/Optional;
+	METHOD a setValue (Lbjf;Lafd;I)V
+	METHOD a fromJson (Lcom/google/gson/JsonObject;)Lmv;
+	METHOD a parseLocal (Lcom/mojang/datafixers/DataFixer;Ljava/lang/String;)V
+	METHOD a lambda$parseLocal$3 (Ljava/lang/String;)V
+	METHOD a lambda$null$0 (Lmv;Ljava/lang/String;Lafd;)V
+	METHOD a lambda$parseLocal$2 (Lmv;Ljava/lang/String;Laff;)V
+	METHOD b toJson ()Ljava/lang/String;
+	METHOD b getKey (Lafd;)Lwp;
+	METHOD b lambda$null$1 (Ljava/lang/String;)V
+	METHOD c markAllDirty ()V
+	METHOD d getDirty ()Ljava/util/Set;

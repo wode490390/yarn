@@ -1,0 +1,67 @@
+CLASS bhn net/minecraft/world/entity/monster/Vex
+	FIELD b FLAP_DEGREES_PER_TICK F
+	FIELD bV owner Lasz;
+	FIELD bW boundOrigin Lgb;
+	FIELD bX hasLimitedLife Z
+	FIELD bY limitedLifeTicks I
+	FIELD c TICKS_PER_FLAP I
+	FIELD d DATA_FLAGS_ID Lvy;
+	FIELD e FLAG_IS_CHARGING I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a setLimitedLife (I)V
+	METHOD a setVexFlag (IZ)V
+	METHOD a populateDefaultEquipmentSlots (Lare;)V
+	METHOD a setOwner (Lasz;)V
+	METHOD a move (Latd;Ldly;)V
+	METHOD a access$000 (Lbhn;)Ljava/util/Random;
+	METHOD a finalizeSpawn (Lbwf;Lare;Latb;Latp;Lmv;)Latp;
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD aB isFlapping ()Z
+	METHOD aU getBrightness ()F
+	METHOD b getVexFlag (I)Z
+	METHOD b access$100 (Lbhn;)Laxu;
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD c access$200 (Lbhn;)Laxu;
+	METHOD d access$300 (Lbhn;)Ljava/util/Random;
+	METHOD e defineSynchedData ()V
+	METHOD e access$400 (Lbhn;)Ljava/util/Random;
+	METHOD f access$500 (Lbhn;)Ljava/util/Random;
+	METHOD fn isCharging ()Z
+	METHOD g access$600 (Lbhn;)Ljava/util/Random;
+	METHOD g setBoundOrigin (Lgb;)V
+	METHOD h access$700 (Lbhn;)Laxu;
+	METHOD i access$800 (Lbhn;)Lasz;
+	METHOD j tick ()V
+	METHOD m createAttributes ()Latx$a;
+	METHOD o getOwner ()Lasz;
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD s getBoundOrigin ()Lgb;
+	METHOD u registerGoals ()V
+	METHOD v setIsCharging (Z)V
+	CLASS a VexChargeAttackGoal
+		FIELD a this$0 Lbhn;
+		METHOD <init> <init> (Lbhn;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS b VexCopyOwnerTargetGoal
+		FIELD a this$0 Lbhn;
+		FIELD b copyOwnerTargeting Lbcb;
+		METHOD <init> <init> (Lbhn;Latg;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+	CLASS c VexMoveControl
+		FIELD l this$0 Lbhn;
+		METHOD <init> <init> (Lbhn;Lbhn;)V
+		METHOD a tick ()V
+	CLASS d VexRandomMoveGoal
+		FIELD a this$0 Lbhn;
+		METHOD <init> <init> (Lbhn;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD e tick ()V

@@ -1,0 +1,13 @@
+CLASS apx net/minecraft/util/random/Weight
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b ONE Lapx;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d value I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD a asInt ()I
+	METHOD a of (I)Lapx;
+	METHOD b validateWeight (I)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

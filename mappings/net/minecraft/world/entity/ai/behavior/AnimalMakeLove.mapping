@@ -1,0 +1,23 @@
+CLASS aud net/minecraft/world/entity/ai/behavior/AnimalMakeLove
+	FIELD a BREED_RANGE I
+	FIELD c MIN_DURATION I
+	FIELD d MAX_DURATION I
+	FIELD e partnerType Lasp;
+	FIELD f speedModifier F
+	FIELD g spawnChildAtTime J
+	METHOD <init> <init> (Lasp;F)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lbcz;)Z
+	METHOD a start (Labj;Lbcz;J)V
+	METHOD a lambda$findValidBreedPartner$1 (Lasy;)Lbcz;
+	METHOD a getBreedTarget (Lbcz;)Lbcz;
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b canStillUse (Labj;Lbcz;J)Z
+	METHOD b lambda$findValidBreedPartner$0 (Lasy;)Z
+	METHOD b hasBreedTargetOfRightType (Lbcz;)Z
+	METHOD c stop (Labj;Lasy;J)V
+	METHOD c tick (Labj;Lbcz;J)V
+	METHOD c findValidBreedPartner (Lbcz;)Ljava/util/Optional;
+	METHOD d tick (Labj;Lasy;J)V
+	METHOD d stop (Labj;Lbcz;J)V

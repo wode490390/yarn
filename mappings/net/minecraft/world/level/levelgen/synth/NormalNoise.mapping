@@ -1,0 +1,11 @@
+CLASS dct net/minecraft/world/level/levelgen/synth/NormalNoise
+	FIELD a INPUT_FACTOR D
+	FIELD b TARGET_DEVIATION D
+	FIELD c valueFactor D
+	FIELD d first Ldcu;
+	FIELD e second Ldcu;
+	METHOD <init> <init> (Lcpb;ILit/unimi/dsi/fastutil/doubles/DoubleList;)V
+	METHOD a getValue (DDD)D
+	METHOD a expectedDeviation (I)D
+	METHOD a create (Lcpb;ILit/unimi/dsi/fastutil/doubles/DoubleList;)Ldct;
+	METHOD a create (Lcpb;I[D)Ldct;

@@ -1,0 +1,13 @@
+CLASS ctz net/minecraft/world/level/levelgen/feature/configurations/EndGatewayConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b exit Ljava/util/Optional;
+	FIELD c exact Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/Optional;Z)V
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$1 (Lctz;)Ljava/lang/Boolean;
+	METHOD a knownExit (Lgb;Z)Lctz;
+	METHOD b delayedExitSearch ()Lctz;
+	METHOD b lambda$null$0 (Lctz;)Ljava/util/Optional;
+	METHOD c getExit ()Ljava/util/Optional;
+	METHOD d isExitExact ()Z

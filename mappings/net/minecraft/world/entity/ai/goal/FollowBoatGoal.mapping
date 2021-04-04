@@ -1,0 +1,12 @@
+CLASS ayl net/minecraft/world/entity/ai/goal/FollowBoatGoal
+	FIELD a timeToRecalcPath I
+	FIELD b mob Latg;
+	FIELD c following Lbjf;
+	FIELD d currentGoal Laya;
+	METHOD <init> <init> (Latg;)V
+	METHOD E_ isInterruptable ()Z
+	METHOD a canUse ()Z
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

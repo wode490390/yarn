@@ -1,0 +1,9 @@
+CLASS cig net/minecraft/world/level/block/entity/Hopper
+	FIELD b INSIDE Ldmr;
+	FIELD d ABOVE Ldmr;
+	FIELD v_ SUCK Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD ac_ getSuckShape ()Ldmr;
+	METHOD w getLevelX ()D
+	METHOD y getLevelY ()D
+	METHOD z getLevelZ ()D

@@ -1,0 +1,12 @@
+CLASS cke net/minecraft/world/level/block/state/properties/BambooLeaves
+	FIELD a NONE Lcke;
+	FIELD b SMALL Lcke;
+	FIELD c LARGE Lcke;
+	FIELD d name Ljava/lang/String;
+	FIELD e $VALUES [Lcke;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD c getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcke;
+	METHOD values values ()[Lcke;

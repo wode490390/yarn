@@ -1,0 +1,24 @@
+CLASS bzd net/minecraft/world/level/block/CandleCakeBlock
+	FIELD c LIT Lcki;
+	FIELD d AABB_OFFSET F
+	FIELD e CAKE_SHAPE Ldmr;
+	FIELD f CANDLE_SHAPE Ldmr;
+	FIELD g SHAPE Ldmr;
+	FIELD h BY_CANDLE Ljava/util/Map;
+	FIELD i PARTICLE_OFFSETS Ljava/lang/Iterable;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbyq;Lcjq$c;)V
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a byCandle (Lbyq;)Lcjr;
+	METHOD a getParticleOffsets (Lcjr;)Ljava/lang/Iterable;
+	METHOD a isPathfindable (Lcjr;Lbuv;Lgb;Ldfz;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a getAnalogOutputSignal (Lcjr;Lbvr;Lgb;)I
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a lambda$canLight$0 (Lcjr;Lcjq$a;)Z
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a candleHit (Ldlu;)Z
+	METHOD g canLight (Lcjr;)Z
+	METHOD g_ hasAnalogOutputSignal (Lcjr;)Z

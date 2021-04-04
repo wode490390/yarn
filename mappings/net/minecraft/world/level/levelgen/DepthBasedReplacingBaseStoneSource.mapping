@@ -1,0 +1,9 @@
+CLASS cok net/minecraft/world/level/levelgen/DepthBasedReplacingBaseStoneSource
+	FIELD a ALWAYS_REPLACE_BELOW_Y I
+	FIELD b NEVER_REPLACE_ABOVE_Y I
+	FIELD c random Lcph;
+	FIELD d seed J
+	FIELD e normalBlock Lcjr;
+	FIELD f replacementBlock Lcjr;
+	METHOD <init> <init> (JLcjr;Lcjr;)V
+	METHOD a getBaseStone (IIILcot;)Lcjr;

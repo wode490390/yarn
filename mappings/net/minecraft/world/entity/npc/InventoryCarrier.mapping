@@ -1,0 +1,2 @@
+CLASS biq net/minecraft/world/entity/npc/InventoryCarrier
+	METHOD fx getInventory ()Laqz;

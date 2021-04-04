@@ -1,0 +1,3 @@
+CLASS cbv net/minecraft/world/level/block/HalfTransparentBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a skipRendering (Lcjr;Lcjr;Lgg;)Z

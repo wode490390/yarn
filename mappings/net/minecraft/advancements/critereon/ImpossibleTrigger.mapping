@@ -1,0 +1,15 @@
+CLASS br net/minecraft/advancements/critereon/ImpossibleTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbc;)Lal;
+	METHOD a removePlayerListeners (Lwx;)V
+	METHOD a addPlayerListener (Lwx;Lak$a;)V
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbc;)Lbr$a;
+	METHOD b removePlayerListener (Lwx;Lak$a;)V
+	CLASS a TriggerInstance
+		METHOD <init> <init> ()V
+		METHOD a getCriterion ()Lwp;
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;

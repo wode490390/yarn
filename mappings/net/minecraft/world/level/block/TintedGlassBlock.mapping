@@ -1,0 +1,4 @@
+CLASS cga net/minecraft/world/level/block/TintedGlassBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD c propagatesSkylightDown (Lcjr;Lbuv;Lgb;)Z
+	METHOD f getLightBlock (Lcjr;Lbuv;Lgb;)I

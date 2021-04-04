@@ -1,0 +1,8 @@
+CLASS des net/minecraft/world/level/newbiome/layer/OceanLayer
+	FIELD a INSTANCE Ldes;
+	FIELD b $VALUES [Ldes;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Ldee;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldes;
+	METHOD values values ()[Ldes;

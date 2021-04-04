@@ -1,0 +1,22 @@
+CLASS cj net/minecraft/advancements/critereon/PlayerHurtEntityTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;Lasl;Larv;FFZ)V
+	METHOD a lambda$trigger$0 (Labk;Ldhn;Larv;FFZLcj$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lcj$a;
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a damage Lba;
+		FIELD b entity Lbl$b;
+		METHOD <init> <init> (Lbl$b;Lba;Lbl$b;)V
+		METHOD a matches (Labk;Ldhn;Larv;FFZ)Z
+		METHOD a playerHurtEntity (Lba$a;)Lcj$a;
+		METHOD a playerHurtEntity (Lba$a;Lbl;)Lcj$a;
+		METHOD a playerHurtEntity (Lba;)Lcj$a;
+		METHOD a playerHurtEntity (Lba;Lbl;)Lcj$a;
+		METHOD a playerHurtEntity (Lbl;)Lcj$a;
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;
+		METHOD c playerHurtEntity ()Lcj$a;

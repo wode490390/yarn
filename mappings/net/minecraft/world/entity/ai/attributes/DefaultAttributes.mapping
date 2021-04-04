@@ -1,0 +1,11 @@
+CLASS atz net/minecraft/world/entity/ai/attributes/DefaultAttributes
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b SUPPLIERS Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a validate ()V
+	METHOD a getSupplier (Lasp;)Latx;
+	METHOD a lambda$validate$2 (Lwp;)V
+	METHOD b hasSupplier (Lasp;)Z
+	METHOD c lambda$validate$1 (Lasp;)Z
+	METHOD d lambda$validate$0 (Lasp;)Z

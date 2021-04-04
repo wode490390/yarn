@@ -1,0 +1,10 @@
+CLASS avo net/minecraft/world/entity/ai/behavior/MeleeAttack
+	FIELD a cooldownBetweenAttacks I
+	METHOD <init> <init> (I)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Lasz;)Z
+	METHOD a start (Labj;Lasz;J)V
+	METHOD a isHoldingUsableProjectileWeapon (Lasz;)Z
+	METHOD a lambda$isHoldingUsableProjectileWeapon$0 (Lasz;Lbpr;)Z
+	METHOD b getAttackTarget (Lasz;)Lasy;

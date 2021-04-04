@@ -1,0 +1,3 @@
+CLASS bct net/minecraft/world/entity/ambient/AmbientCreature
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a canBeLeashed (Lbjf;)Z

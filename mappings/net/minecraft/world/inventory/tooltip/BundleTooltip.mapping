@@ -1,0 +1,6 @@
+CLASS bni net/minecraft/world/inventory/tooltip/BundleTooltip
+	FIELD a items Lgn;
+	FIELD b weight I
+	METHOD <init> <init> (Lgn;I)V
+	METHOD a getItems ()Lgn;
+	METHOD b getWeight ()I

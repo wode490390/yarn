@@ -1,0 +1,4 @@
+CLASS bri net/minecraft/world/item/WaterLilyBlockItem
+	METHOD <init> <init> (Lbyq;Lbpn$a;)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;

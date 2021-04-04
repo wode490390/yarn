@@ -1,0 +1,16 @@
+CLASS cs net/minecraft/advancements/critereon/SummonedEntityTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;Lasl;)V
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lcs$a;
+	METHOD a lambda$trigger$0 (Ldhn;Lcs$a;)Z
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a entity Lbl$b;
+		METHOD <init> <init> (Lbl$b;Lbl$b;)V
+		METHOD a summonedEntity (Lbl$a;)Lcs$a;
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;
+		METHOD a matches (Ldhn;)Z

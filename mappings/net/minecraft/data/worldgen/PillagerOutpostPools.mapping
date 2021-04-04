@@ -1,0 +1,5 @@
+CLASS kw net/minecraft/data/worldgen/PillagerOutpostPools
+	FIELD a START Lcwv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a bootstrap ()V

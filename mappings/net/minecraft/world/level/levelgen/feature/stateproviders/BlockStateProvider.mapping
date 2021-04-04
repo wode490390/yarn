@@ -1,0 +1,6 @@
+CLASS cwd net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a type ()Lcwe;
+	METHOD a getState (Ljava/util/Random;Lgb;)Lcjr;

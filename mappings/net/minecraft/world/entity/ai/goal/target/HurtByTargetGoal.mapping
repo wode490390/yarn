@@ -1,0 +1,14 @@
+CLASS bah net/minecraft/world/entity/ai/goal/target/HurtByTargetGoal
+	FIELD a HURT_BY_TARGETING Lbcb;
+	FIELD b ALERT_RANGE_Y I
+	FIELD c alertSameType Z
+	FIELD d timestamp I
+	FIELD i toIgnoreDamage [Ljava/lang/Class;
+	FIELD j toIgnoreAlert [Ljava/lang/Class;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Latg;[Ljava/lang/Class;)V
+	METHOD a canUse ()Z
+	METHOD a alertOther (Lasz;Lasy;)V
+	METHOD a setAlertOthers ([Ljava/lang/Class;)Lbah;
+	METHOD c start ()V
+	METHOD g alertOthers ()V

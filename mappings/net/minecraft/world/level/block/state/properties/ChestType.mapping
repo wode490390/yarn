@@ -1,0 +1,14 @@
+CLASS ckj net/minecraft/world/level/block/state/properties/ChestType
+	FIELD a SINGLE Lckj;
+	FIELD b LEFT Lckj;
+	FIELD c RIGHT Lckj;
+	FIELD d BY_ID [Lckj;
+	FIELD e name Ljava/lang/String;
+	FIELD f opposite I
+	FIELD g $VALUES [Lckj;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;I)V
+	METHOD a getOpposite ()Lckj;
+	METHOD c getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lckj;
+	METHOD values values ()[Lckj;

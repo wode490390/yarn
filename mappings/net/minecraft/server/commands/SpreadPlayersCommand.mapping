@@ -1,0 +1,35 @@
+CLASS zn net/minecraft/server/commands/SpreadPlayersCommand
+	FIELD a MAX_ITERATION_COUNT I
+	FIELD b ERROR_FAILED_TO_SPREAD_TEAMS Lcom/mojang/brigadier/exceptions/Dynamic4CommandExceptionType;
+	FIELD c ERROR_FAILED_TO_SPREAD_ENTITIES Lcom/mojang/brigadier/exceptions/Dynamic4CommandExceptionType;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$2 (Ldg;)Z
+	METHOD a spreadPlayers (Ldg;Ldlx;FFIZLjava/util/Collection;)I
+	METHOD a spreadPositions (Ldlx;DLabj;Ljava/util/Random;DDDDI[Lzn$a;Z)V
+	METHOD a lambda$static$1 (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	METHOD a getNumberOfTeams (Ljava/util/Collection;)I
+	METHOD a setPlayerPositions (Ljava/util/Collection;Labj;[Lzn$a;IZ)D
+	METHOD a createInitialPositions (Ljava/util/Random;IDDDD)[Lzn$a;
+	METHOD b lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b lambda$static$0 (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
+	CLASS 1 1
+	CLASS a Position
+		FIELD a x D
+		FIELD b z D
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lzn$1;)V
+		METHOD a normalize ()V
+		METHOD a clamp (DDDD)Z
+		METHOD a getSpawnY (Lbuv;I)I
+		METHOD a randomize (Ljava/util/Random;DDDD)V
+		METHOD a dist (Lzn$a;)D
+		METHOD a access$102 (Lzn$a;D)D
+		METHOD b getLength ()F
+		METHOD b isSafe (Lbuv;I)Z
+		METHOD b moveAway (Lzn$a;)V
+		METHOD b access$202 (Lzn$a;D)D
+		METHOD c access$100 (Lzn$a;)D
+		METHOD d access$200 (Lzn$a;)D

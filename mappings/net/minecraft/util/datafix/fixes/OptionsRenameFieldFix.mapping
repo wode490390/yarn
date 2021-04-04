@@ -1,0 +1,9 @@
+CLASS alp net/minecraft/util/datafix/fixes/OptionsRenameFieldFix
+	FIELD a fixName Ljava/lang/String;
+	FIELD b fieldFrom Ljava/lang/String;
+	FIELD c fieldTo Ljava/lang/String;
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a lambda$makeRule$2 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$1 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a lambda$null$0 (Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

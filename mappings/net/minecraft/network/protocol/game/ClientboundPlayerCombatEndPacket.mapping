@@ -1,0 +1,9 @@
+CLASS rf net/minecraft/network/protocol/game/ClientboundPlayerCombatEndPacket
+	FIELD a killerId I
+	FIELD b duration I
+	METHOD <init> <init> (II)V
+	METHOD <init> <init> (Laru;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V

@@ -1,0 +1,4 @@
+CLASS bpb net/minecraft/world/item/FireChargeItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a playSound (Lbvr;Lgb;)V

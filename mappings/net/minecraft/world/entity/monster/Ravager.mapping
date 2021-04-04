@@ -1,0 +1,58 @@
+CLASS bhe net/minecraft/world/entity/monster/Ravager
+	FIELD b STUN_DURATION I
+	FIELD bV BASE_MOVEMENT_SPEED D
+	FIELD bW ATTACK_MOVEMENT_SPEED D
+	FIELD bX STUNNED_COLOR I
+	FIELD bY STUNNED_COLOR_BLUE D
+	FIELD bZ STUNNED_COLOR_GREEN D
+	FIELD ca STUNNED_COLOR_RED D
+	FIELD cb ATTACK_DURATION I
+	FIELD cc attackTick I
+	FIELD cd stunnedTick I
+	FIELD ce roarTick I
+	FIELD e NO_RAVAGER_AND_ALIVE Ljava/util/function/Predicate;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD B doHurtTarget (Lasl;)Z
+	METHOD D canSee (Lasl;)Z
+	METHOD L updateControlFlags ()V
+	METHOD a handleEntityEvent (B)V
+	METHOD a applyRaidBuffs (IZ)V
+	METHOD a strongKnockback (Lasl;)V
+	METHOD a createNavigation (Lbvr;)Lbbb;
+	METHOD a checkSpawnObstruction (Lbvu;)Z
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b lambda$static$0 (Lasl;)Z
+	METHOD b playStepSound (Lgb;Lcjr;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD bh getPassengersRidingOffset ()D
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD cu getControllingPassenger ()Lasl;
+	METHOD e blockedByShield (Lasy;)V
+	METHOD eR getMaxHeadYRot ()I
+	METHOD eU canBeControlledByRider ()Z
+	METHOD ei isImmobile ()Z
+	METHOD fn getStunnedTick ()I
+	METHOD fo canBeLeader ()Z
+	METHOD fx getRoarTick ()I
+	METHOD fy stunEffect ()V
+	METHOD fz roar ()V
+	METHOD k aiStep ()V
+	METHOD m createAttributes ()Latx$a;
+	METHOD o getAttackTick ()I
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD s getCelebrateSound ()Laev;
+	METHOD u registerGoals ()V
+	CLASS 1 1
+	CLASS a RavagerMeleeAttackGoal
+		FIELD b this$0 Lbhe;
+		METHOD <init> <init> (Lbhe;)V
+		METHOD a getAttackReachSqr (Lasy;)D
+	CLASS b RavagerNavigation
+		METHOD <init> <init> (Lasz;Lbvr;)V
+		METHOD a createPathFinder (I)Ldga;
+	CLASS c RavagerNodeEvaluator
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbhe$1;)V
+		METHOD a evaluateBlockPathType (Lbuv;ZZLgb;Ldfu;)Ldfu;

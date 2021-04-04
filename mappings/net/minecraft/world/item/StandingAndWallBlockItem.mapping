@@ -1,0 +1,5 @@
+CLASS bqw net/minecraft/world/item/StandingAndWallBlockItem
+	FIELD d wallBlock Lbyq;
+	METHOD <init> <init> (Lbyq;Lbyq;Lbpn$a;)V
+	METHOD a registerBlocks (Ljava/util/Map;Lbpn;)V
+	METHOD c getPlacementState (Lbrr;)Lcjr;

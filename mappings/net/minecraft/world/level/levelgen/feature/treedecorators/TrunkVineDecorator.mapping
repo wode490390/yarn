@@ -1,0 +1,9 @@
+CLASS cxd net/minecraft/world/level/levelgen/feature/treedecorators/TrunkVineDecorator
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b INSTANCE Lcxd;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a type ()Lcxc;
+	METHOD a place (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Ljava/util/List;Ljava/util/List;)V
+	METHOD a lambda$place$1 (Ljava/util/Random;Lbvx;Ljava/util/function/BiConsumer;Lgb;)V
+	METHOD b lambda$static$0 ()Lcxd;

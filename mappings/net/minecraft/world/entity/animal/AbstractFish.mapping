@@ -1,0 +1,35 @@
+CLASS bcw net/minecraft/world/entity/animal/AbstractFish
+	FIELD b FROM_BUCKET Lvy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD N requiresCustomPersistence ()Z
+	METHOD a createNavigation (Lbvr;)Lbbb;
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD aw getSwimSound ()Laev;
+	METHOD b checkFishSpawnRules (Lasp;Lbvs;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD b getStandingEyeHeight (Latj;Lasm;)F
+	METHOD b mobInteract (Lbjf;Larf;)Larg;
+	METHOD b playStepSound (Lgb;Lcjr;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c loadFromBucketTag (Lmv;)V
+	METHOD e defineSynchedData ()V
+	METHOD eT getMaxSpawnClusterSize ()I
+	METHOD fn canRandomSwim ()Z
+	METHOD fo getFlopSound ()Laev;
+	METHOD h removeWhenFarAway (D)Z
+	METHOD h travel (Ldly;)V
+	METHOD k aiStep ()V
+	METHOD k saveToBucketTag (Lbpr;)V
+	METHOD m createAttributes ()Latx$a;
+	METHOD o fromBucket ()Z
+	METHOD s getPickupSound ()Laev;
+	METHOD u registerGoals ()V
+	METHOD v setFromBucket (Z)V
+	CLASS a FishMoveControl
+		FIELD l fish Lbcw;
+		METHOD <init> <init> (Lbcw;)V
+		METHOD a tick ()V
+	CLASS b FishSwimGoal
+		FIELD i fish Lbcw;
+		METHOD <init> <init> (Lbcw;)V
+		METHOD a canUse ()Z

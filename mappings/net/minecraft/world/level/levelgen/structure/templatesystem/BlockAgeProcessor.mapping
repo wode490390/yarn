@@ -1,0 +1,20 @@
+CLASS dau net/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b PROBABILITY_OF_REPLACING_FULL_BLOCK F
+	FIELD c PROBABILITY_OF_REPLACING_STAIRS F
+	FIELD d PROBABILITY_OF_REPLACING_OBSIDIAN F
+	FIELD e NON_MOSSY_REPLACEMENTS [Lcjr;
+	FIELD f mossiness F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (F)V
+	METHOD a getType ()Ldbr;
+	METHOD a processBlock (Lbvu;Lgb;Lgb;Ldbs$c;Ldbs$c;Ldbo;)Ldbs$c;
+	METHOD a lambda$static$0 (Ldau;)Ljava/lang/Float;
+	METHOD a maybeReplaceFullStoneBlock (Ljava/util/Random;)Lcjr;
+	METHOD a getRandomFacingStairs (Ljava/util/Random;Lbyq;)Lcjr;
+	METHOD a maybeReplaceStairs (Ljava/util/Random;Lcjr;)Lcjr;
+	METHOD a getRandomBlock (Ljava/util/Random;[Lcjr;)Lcjr;
+	METHOD a getRandomBlock (Ljava/util/Random;[Lcjr;[Lcjr;)Lcjr;
+	METHOD b maybeReplaceSlab (Ljava/util/Random;)Lcjr;
+	METHOD c maybeReplaceWall (Ljava/util/Random;)Lcjr;
+	METHOD d maybeReplaceObsidian (Ljava/util/Random;)Lcjr;

@@ -1,0 +1,6 @@
+CLASS cux net/minecraft/world/level/levelgen/feature/configurations/RuinedPortalConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b portalType Lcsj$b;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcsj$b;)V
+	METHOD a lambda$static$0 (Lcux;)Lcsj$b;

@@ -1,0 +1,13 @@
+CLASS df net/minecraft/commands/CommandSource
+	FIELD i_ NULL Ldf;
+	METHOD <clinit> <clinit> ()V
+	METHOD R_ shouldInformAdmins ()Z
+	METHOD a acceptsSuccess ()Z
+	METHOD a sendMessage (Lon;Ljava/util/UUID;)V
+	METHOD b acceptsFailure ()Z
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD R_ shouldInformAdmins ()Z
+		METHOD a acceptsSuccess ()Z
+		METHOD a sendMessage (Lon;Ljava/util/UUID;)V
+		METHOD b acceptsFailure ()Z

@@ -1,0 +1,5 @@
+CLASS dbq net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorList
+	FIELD a list Ljava/util/List;
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a list ()Ljava/util/List;
+	METHOD toString toString ()Ljava/lang/String;

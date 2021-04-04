@@ -1,0 +1,9 @@
+CLASS cut net/minecraft/world/level/levelgen/feature/configurations/RangeDecoratorConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c bottomInclusive Lcpe;
+	FIELD d topInclusive Lcpe;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcpe;Lcpe;)V
+	METHOD a bottomInclusive ()Lcpe;
+	METHOD a lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b topInclusive ()Lcpe;

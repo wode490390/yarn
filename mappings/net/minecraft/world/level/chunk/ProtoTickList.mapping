@@ -1,0 +1,13 @@
+CLASS cme net/minecraft/world/level/chunk/ProtoTickList
+	FIELD a ignore Ljava/util/function/Predicate;
+	FIELD b chunkPos Lbuw;
+	FIELD c toBeTicked [Lit/unimi/dsi/fastutil/shorts/ShortList;
+	FIELD d levelHeightAccessor Lbvt;
+	METHOD <init> <init> (Ljava/util/function/Predicate;Lbuw;Lbvt;)V
+	METHOD <init> <init> (Ljava/util/function/Predicate;Lbuw;Lnb;Lbvt;)V
+	METHOD a size ()I
+	METHOD a copyOut (Lbwj;Ljava/util/function/Function;)V
+	METHOD a hasScheduledTick (Lgb;Ljava/lang/Object;)Z
+	METHOD a scheduleTick (Lgb;Ljava/lang/Object;ILbwl;)V
+	METHOD b save ()Lnb;
+	METHOD b willTickThisTick (Lgb;Ljava/lang/Object;)Z

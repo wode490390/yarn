@@ -1,0 +1,23 @@
+CLASS aqj net/minecraft/util/valueproviders/ClampedNormalFloat
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b mean F
+	FIELD d deviation F
+	FIELD e min F
+	FIELD f max F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (FFFF)V
+	METHOD a getMinValue ()F
+	METHOD a of (FFFF)Laqj;
+	METHOD a lambda$static$5 (Laqj;)Lcom/mojang/serialization/DataResult;
+	METHOD a lambda$static$4 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a sample (Ljava/util/Random;)F
+	METHOD a sample (Ljava/util/Random;FFFF)F
+	METHOD b getMaxValue ()F
+	METHOD b lambda$null$3 (Laqj;)Ljava/lang/Float;
+	METHOD c getType ()Laqn;
+	METHOD c lambda$null$2 (Laqj;)Ljava/lang/Float;
+	METHOD d lambda$null$1 (Laqj;)Ljava/lang/Float;
+	METHOD e lambda$null$0 (Laqj;)Ljava/lang/Float;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,18 @@
+CLASS ddf net/minecraft/world/level/lighting/LayerLightEventListener
+	METHOD a getDataLayerData (Lgu;)Lclp;
+	METHOD b getLightValue (Lgb;)I
+	CLASS a DummyLightLayerEventListener
+		FIELD a INSTANCE Lddf$a;
+		FIELD b $VALUES [Lddf$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD a hasLightWork ()Z
+		METHOD a runUpdates (IZZ)I
+		METHOD a enableLightSources (Lbuw;Z)V
+		METHOD a checkBlock (Lgb;)V
+		METHOD a onBlockEmissionIncrease (Lgb;I)V
+		METHOD a getDataLayerData (Lgu;)Lclp;
+		METHOD a updateSectionStatus (Lgu;Z)V
+		METHOD b getLightValue (Lgb;)I
+		METHOD valueOf valueOf (Ljava/lang/String;)Lddf$a;
+		METHOD values values ()[Lddf$a;

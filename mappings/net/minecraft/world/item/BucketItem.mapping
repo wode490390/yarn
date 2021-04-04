@@ -1,0 +1,9 @@
+CLASS boc net/minecraft/world/item/BucketItem
+	FIELD a content Lddp;
+	METHOD <init> <init> (Lddp;Lbpn$a;)V
+	METHOD a lambda$use$0 (Lbjf;Laev;)V
+	METHOD a checkExtraContent (Lbjf;Lbvr;Lbpr;Lgb;)V
+	METHOD a emptyContents (Lbjf;Lbvr;Lgb;Ldlu;)Z
+	METHOD a playEmptySound (Lbjf;Lbvs;Lgb;)V
+	METHOD a getEmptySuccessItem (Lbpr;Lbjf;)Lbpr;
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;

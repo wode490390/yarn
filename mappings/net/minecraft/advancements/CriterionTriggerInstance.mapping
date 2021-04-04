@@ -1,0 +1,3 @@
+CLASS al net/minecraft/advancements/CriterionTriggerInstance
+	METHOD a getCriterion ()Lwp;
+	METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;

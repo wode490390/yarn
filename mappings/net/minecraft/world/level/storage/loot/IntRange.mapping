@@ -1,0 +1,35 @@
+CLASS dhl net/minecraft/world/level/storage/loot/IntRange
+	FIELD a min Ldla;
+	FIELD b max Ldla;
+	FIELD c limiter Ldhl$b;
+	FIELD d predicate Ldhl$a;
+	METHOD <init> <init> (Ldla;Ldla;)V
+	METHOD <init> <init> (Ldla;Ldla;Ldhl$1;)V
+	METHOD a getReferencedContextParams ()Ljava/util/Set;
+	METHOD a exact (I)Ldhl;
+	METHOD a range (II)Ldhl;
+	METHOD a access$100 (Ldhl;)Ldla;
+	METHOD a clamp (Ldhn;I)I
+	METHOD a lambda$new$5 (Ldla;Ldhn;I)Z
+	METHOD a lambda$new$7 (Ldla;Ldla;Ldhn;I)Z
+	METHOD b lowerBound (I)Ldhl;
+	METHOD b access$200 (Ldhl;)Ldla;
+	METHOD b test (Ldhn;I)Z
+	METHOD b lambda$new$4 (Ldla;Ldhn;I)I
+	METHOD b lambda$new$6 (Ldla;Ldla;Ldhn;I)I
+	METHOD c upperBound (I)Ldhl;
+	METHOD c lambda$new$1 (Ldhn;I)Z
+	METHOD c lambda$new$3 (Ldla;Ldhn;I)Z
+	METHOD d lambda$new$0 (Ldhn;I)I
+	METHOD d lambda$new$2 (Ldla;Ldhn;I)I
+	CLASS 1 1
+	CLASS a IntChecker
+		METHOD test test (Ldhn;I)Z
+	CLASS b IntLimiter
+		METHOD apply apply (Ldhn;I)I
+	CLASS c Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ldhl;
+		METHOD a serialize (Ldhl;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

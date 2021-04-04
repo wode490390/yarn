@@ -1,0 +1,8 @@
+CLASS deo net/minecraft/world/level/newbiome/layer/IslandLayer
+	FIELD a INSTANCE Ldeo;
+	FIELD b $VALUES [Ldeo;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a applyPixel (Ldee;II)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldeo;
+	METHOD values values ()[Ldeo;

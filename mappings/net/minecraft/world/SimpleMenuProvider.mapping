@@ -1,0 +1,6 @@
+CLASS arm net/minecraft/world/SimpleMenuProvider
+	FIELD a title Lon;
+	FIELD b menuConstructor Lbmo;
+	METHOD <init> <init> (Lbmo;Lon;)V
+	METHOD createMenu createMenu (ILbje;Lbjf;)Lbll;
+	METHOD d getDisplayName ()Lon;

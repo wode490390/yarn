@@ -1,0 +1,5 @@
+CLASS cne net/minecraft/world/level/entity/EntityPersistentStorage
+	METHOD a flush ()V
+	METHOD a loadEntities (Lbuw;)Ljava/util/concurrent/CompletableFuture;
+	METHOD a storeEntities (Lcmz;)V
+	METHOD close close ()V

@@ -1,0 +1,17 @@
+CLASS dkk net/minecraft/world/level/storage/loot/predicates/LootItemRandomChanceCondition
+	FIELD a probability F
+	METHOD <init> <init> (F)V
+	METHOD <init> <init> (FLdkk$1;)V
+	METHOD a getType ()Ldkg;
+	METHOD a randomChance (F)Ldkf$a;
+	METHOD a test (Ldhn;)Z
+	METHOD a access$000 (Ldkk;)F
+	METHOD b lambda$randomChance$0 (F)Ldkf;
+	METHOD test test (Ljava/lang/Object;)Z
+	CLASS 1 1
+	CLASS a Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldkk;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Ldkk;

@@ -1,0 +1,6 @@
+CLASS ve net/minecraft/network/protocol/login/ClientLoginPacketListener
+	METHOD a handleCustomQuery (Lvf;)V
+	METHOD a handleGameProfile (Lvg;)V
+	METHOD a handleHello (Lvh;)V
+	METHOD a handleCompression (Lvi;)V
+	METHOD a handleDisconnect (Lvj;)V

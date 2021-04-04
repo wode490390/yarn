@@ -1,0 +1,6 @@
+CLASS bya net/minecraft/world/level/block/BaseCoralPlantBlock
+	FIELD a AABB_OFFSET F
+	FIELD b SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;

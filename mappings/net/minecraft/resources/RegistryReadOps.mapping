@@ -1,0 +1,59 @@
+CLASS wm net/minecraft/resources/RegistryReadOps
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c JSON Ljava/lang/String;
+	FIELD d resources Lwm$b;
+	FIELD e registryAccess Lgs;
+	FIELD f readCache Ljava/util/Map;
+	FIELD g jsonOps Lwm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/DynamicOps;Lwm$b;Lgs;Ljava/util/IdentityHashMap;)V
+	METHOD a access$100 ()Lorg/apache/logging/log4j/Logger;
+	METHOD a lambda$decodeElement$2 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$decodeElement$3 (Lcom/mojang/datafixers/util/Pair;Ljava/util/function/Supplier;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a create (Lcom/mojang/serialization/DynamicOps;Ladl;Lgs;)Lwm;
+	METHOD a create (Lcom/mojang/serialization/DynamicOps;Lwm$b;Lgs;)Lwm;
+	METHOD a lambda$null$4 (Lgm;Ljava/util/function/Supplier;)Lgm;
+	METHOD a decodeElements (Lgm;Lwo;Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/DataResult;
+	METHOD a lambda$registry$11 (Lgx;)Lcom/mojang/serialization/DataResult;
+	METHOD a lambda$null$8 (Lgx;Lwo;)Ljava/lang/Object;
+	METHOD a lambda$readAndRegisterElement$9 (Lgx;Lwo;Lcom/mojang/datafixers/util/Pair;)Ljava/util/function/Supplier;
+	METHOD a lambda$null$1 (Ljava/lang/Object;)Ljava/util/function/Supplier;
+	METHOD a decodeElement (Ljava/lang/Object;Lwo;Lcom/mojang/serialization/Codec;Z)Lcom/mojang/serialization/DataResult;
+	METHOD a registry (Lwo;)Lcom/mojang/serialization/DataResult;
+	METHOD a lambda$decodeElements$5 (Lwo;Lcom/mojang/serialization/Codec;Lwp;Lgm;)Lcom/mojang/serialization/DataResult;
+	METHOD a readAndRegisterElement (Lwo;Lgx;Lcom/mojang/serialization/Codec;Lwp;)Lcom/mojang/serialization/DataResult;
+	METHOD b lambda$readAndRegisterElement$7 (Lgx;Lwo;)Ljava/lang/Object;
+	METHOD b lambda$null$0 (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD b readCache (Lwo;)Lwm$a;
+	METHOD c lambda$readAndRegisterElement$6 (Lgx;Lwo;)Ljava/lang/Object;
+	METHOD c lambda$registry$12 (Lwo;)Lcom/mojang/serialization/DataResult;
+	METHOD d lambda$readCache$10 (Lwo;)Lwm$a;
+	CLASS 1 1
+	CLASS a ReadCache
+		FIELD a values Ljava/util/Map;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lwm$1;)V
+		METHOD a access$000 (Lwm$a;)Ljava/util/Map;
+	CLASS b ResourceAccess
+		METHOD a forResourceManager (Ladl;)Lwm$b;
+		METHOD a parseElement (Lcom/mojang/serialization/DynamicOps;Lwo;Lwo;Lcom/mojang/serialization/Decoder;)Lcom/mojang/serialization/DataResult;
+		METHOD a listResources (Lwo;)Ljava/util/Collection;
+		CLASS 1 1
+			FIELD a val$manager Ladl;
+			METHOD <init> <init> (Ladl;)V
+			METHOD a parseElement (Lcom/mojang/serialization/DynamicOps;Lwo;Lwo;Lcom/mojang/serialization/Decoder;)Lcom/mojang/serialization/DataResult;
+			METHOD a lambda$parseElement$1 (Ljava/lang/Object;)Lcom/mojang/datafixers/util/Pair;
+			METHOD a lambda$listResources$0 (Ljava/lang/String;)Z
+			METHOD a listResources (Lwo;)Ljava/util/Collection;
+			METHOD toString toString ()Ljava/lang/String;
+		CLASS a MemoryMap
+			FIELD a data Ljava/util/Map;
+			FIELD b ids Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+			FIELD c lifecycles Ljava/util/Map;
+			METHOD <init> <init> ()V
+			METHOD a parseElement (Lcom/mojang/serialization/DynamicOps;Lwo;Lwo;Lcom/mojang/serialization/Decoder;)Lcom/mojang/serialization/DataResult;
+			METHOD a add (Lgs$b;Lwo;Lcom/mojang/serialization/Encoder;ILjava/lang/Object;Lcom/mojang/serialization/Lifecycle;)V
+			METHOD a listResources (Lwo;)Ljava/util/Collection;
+			METHOD a lambda$parseElement$2 (Lwo;Ljava/lang/Object;)Lcom/mojang/datafixers/util/Pair;
+			METHOD a lambda$listResources$1 (Lwo;Lwo;)Lwp;
+			METHOD b lambda$listResources$0 (Lwo;Lwo;)Z

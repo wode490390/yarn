@@ -1,0 +1,29 @@
+CLASS aft net/minecraft/tags/TagCollection
+	METHOD a getAllTags ()Ljava/util/Map;
+	METHOD a getId (Lafs$e;)Lwp;
+	METHOD a getId (Lafs;)Lwp;
+	METHOD a createFromNetwork (Laft$a;Lgr;)Laft;
+	METHOD a serializeToNetwork (Lgr;)Laft$a;
+	METHOD a lambda$serializeToNetwork$0 (Lgr;Ljava/util/Map;Lwp;Lafs;)V
+	METHOD a lambda$createFromNetwork$1 (Lgr;Ljava/util/Map;Lwp;Lit/unimi/dsi/fastutil/ints/IntList;)V
+	METHOD a getMatchingTags (Ljava/lang/Object;)Ljava/util/Collection;
+	METHOD a of (Ljava/util/Map;)Laft;
+	METHOD a getTag (Lwp;)Lafs;
+	METHOD b getAvailableTags ()Ljava/util/Collection;
+	METHOD b getTagOrEmpty (Lwp;)Lafs;
+	METHOD c empty ()Laft;
+	METHOD c hasTag (Lwp;)Z
+	CLASS 1 1
+		FIELD a val$tags Lcom/google/common/collect/BiMap;
+		FIELD b empty Lafs;
+		METHOD <init> <init> (Lcom/google/common/collect/BiMap;)V
+		METHOD a getAllTags ()Ljava/util/Map;
+		METHOD a getId (Lafs;)Lwp;
+		METHOD b getTagOrEmpty (Lwp;)Lafs;
+	CLASS a NetworkPayload
+		FIELD a tags Ljava/util/Map;
+		METHOD <init> <init> (Ljava/util/Map;)V
+		METHOD <init> <init> (Ljava/util/Map;Laft$1;)V
+		METHOD a access$100 (Laft$a;)Ljava/util/Map;
+		METHOD a write (Lob;)V
+		METHOD b read (Lob;)Laft$a;

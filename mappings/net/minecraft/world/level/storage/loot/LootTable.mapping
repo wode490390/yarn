@@ -1,0 +1,45 @@
+CLASS dhq net/minecraft/world/level/storage/loot/LootTable
+	FIELD a EMPTY Ldhq;
+	FIELD b DEFAULT_PARAM_SET Ldjr;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d paramSet Ldjr;
+	FIELD e pools [Ldhp;
+	FIELD f functions [Ldiy;
+	FIELD g compositeFunction Ljava/util/function/BiFunction;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldjr;[Ldhp;[Ldiy;)V
+	METHOD <init> <init> (Ldjr;[Ldhp;[Ldiy;Ldhq$1;)V
+	METHOD a getParamSet ()Ldjr;
+	METHOD a fill (Laqz;Ldhn;)V
+	METHOD a getAvailableSlots (Laqz;Ljava/util/Random;)Ljava/util/List;
+	METHOD a getRandomItems (Ldhn;)Ljava/util/List;
+	METHOD a getRandomItemsRaw (Ldhn;Ljava/util/function/Consumer;)V
+	METHOD a access$100 (Ldhq;)Ldjr;
+	METHOD a validate (Ldhv;)V
+	METHOD a shuffleAndSplitItems (Ljava/util/List;ILjava/util/Random;)V
+	METHOD a createStackSplitter (Ljava/util/function/Consumer;)Ljava/util/function/Consumer;
+	METHOD a lambda$createStackSplitter$0 (Ljava/util/function/Consumer;Lbpr;)V
+	METHOD b lootTable ()Ldhq$a;
+	METHOD b getRandomItems (Ldhn;Ljava/util/function/Consumer;)V
+	METHOD b access$300 (Ldhq;)[Ldhp;
+	METHOD c access$200 ()Lorg/apache/logging/log4j/Logger;
+	METHOD c access$400 (Ldhq;)[Ldiy;
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a pools Ljava/util/List;
+		FIELD b functions Ljava/util/List;
+		FIELD c paramSet Ldjr;
+		METHOD <init> <init> ()V
+		METHOD a unwrap ()Ldhq$a;
+		METHOD a withPool (Ldhp$a;)Ldhq$a;
+		METHOD a apply (Ldiy$a;)Ldhq$a;
+		METHOD a setParamSet (Ldjr;)Ldhq$a;
+		METHOD b build ()Ldhq;
+		METHOD b apply (Ldiy$a;)Ljava/lang/Object;
+		METHOD c unwrap ()Ljava/lang/Object;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ldhq;
+		METHOD a serialize (Ldhq;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;
+		METHOD deserialize deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
+		METHOD serialize serialize (Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;

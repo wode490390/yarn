@@ -1,0 +1,15 @@
+CLASS abn net/minecraft/server/level/Ticket
+	FIELD a type Labo;
+	FIELD b ticketLevel I
+	FIELD c key Ljava/lang/Object;
+	FIELD d createdTick J
+	METHOD <init> <init> (Labo;ILjava/lang/Object;)V
+	METHOD a getType ()Labo;
+	METHOD a setCreatedTick (J)V
+	METHOD a compareTo (Labn;)I
+	METHOD b getTicketLevel ()I
+	METHOD b timedOut (J)Z
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,16 @@
+CLASS amp net/minecraft/util/datafix/fixes/VillagerRebuildLevelAndXpFix
+	FIELD a TRADES_PER_LEVEL I
+	FIELD b LEVEL_XP_THRESHOLDS [I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a getMinXpPerLevel (I)I
+	METHOD a lambda$addXpFromLevel$6 (ILcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a lambda$null$2 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a lambda$null$1 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Ljava/lang/Integer;
+	METHOD a lambda$makeRule$3 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a addLevel (Lcom/mojang/datafixers/Typed;I)Lcom/mojang/datafixers/Typed;
+	METHOD b lambda$addLevel$5 (ILcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD b lambda$null$0 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Ljava/util/Optional;
+	METHOD b addXpFromLevel (Lcom/mojang/datafixers/Typed;I)Lcom/mojang/datafixers/Typed;
+	METHOD c lambda$null$4 (ILcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

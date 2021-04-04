@@ -1,0 +1,10 @@
+CLASS za net/minecraft/server/commands/ReloadCommand
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a discoverNewPacks (Lada;Ldhg;Ljava/util/Collection;)Ljava/util/Collection;
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$1 (Ldg;)Z
+	METHOD a lambda$reloadPacks$0 (Ldg;Ljava/lang/Throwable;)Ljava/lang/Void;
+	METHOD a reloadPacks (Ljava/util/Collection;Ldg;)V

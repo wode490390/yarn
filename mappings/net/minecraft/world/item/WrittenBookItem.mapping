@@ -1,0 +1,25 @@
+CLASS brl net/minecraft/world/item/WrittenBookItem
+	FIELD a TITLE_LENGTH I
+	FIELD b TITLE_MAX_LENGTH I
+	FIELD c PAGE_EDIT_LENGTH I
+	FIELD d PAGE_LENGTH I
+	FIELD e MAX_PAGES I
+	FIELD f MAX_GENERATION I
+	FIELD g TAG_TITLE Ljava/lang/String;
+	FIELD h TAG_FILTERED_TITLE Ljava/lang/String;
+	FIELD i TAG_AUTHOR Ljava/lang/String;
+	FIELD j TAG_PAGES Ljava/lang/String;
+	FIELD r TAG_FILTERED_PAGES Ljava/lang/String;
+	FIELD s TAG_GENERATION Ljava/lang/String;
+	FIELD t TAG_RESOLVED Ljava/lang/String;
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a appendHoverText (Lbpr;Lbvr;Ljava/util/List;Lbre;)V
+	METHOD a resolveBookComponents (Lbpr;Ldg;Lbjf;)Z
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD a resolvePage (Ldg;Lbjf;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a makeSureTagIsValid (Lmv;)Z
+	METHOD d getGeneration (Lbpr;)I
+	METHOD i isFoil (Lbpr;)Z
+	METHOD k getPageCount (Lbpr;)I
+	METHOD m getName (Lbpr;)Lon;

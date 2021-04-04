@@ -1,0 +1,13 @@
+CLASS cnu net/minecraft/world/level/gameevent/GameEventDispatcher
+	FIELD a NOOP Lcnu;
+	METHOD <clinit> <clinit> ()V
+	METHOD a isEmpty ()Z
+	METHOD a post (Lcnt;Lasl;Lgb;)V
+	METHOD a register (Lcnv;)V
+	METHOD b unregister (Lcnv;)V
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a isEmpty ()Z
+		METHOD a post (Lcnt;Lasl;Lgb;)V
+		METHOD a register (Lcnv;)V
+		METHOD b unregister (Lcnv;)V

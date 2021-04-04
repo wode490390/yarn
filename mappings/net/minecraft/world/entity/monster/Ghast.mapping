@@ -1,0 +1,49 @@
+CLASS bgt net/minecraft/world/entity/monster/Ghast
+	FIELD b DATA_IS_CHARGING Lvy;
+	FIELD c explosionPower I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD P shouldDespawnInPeaceful ()Z
+	METHOD a hurt (Larv;F)Z
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b checkGhastSpawnRules (Lasp;Lbvs;Latb;Lgb;Ljava/util/Random;)Z
+	METHOD b getStandingEyeHeight (Latj;Lasm;)F
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c getHurtSound (Larv;)Laev;
+	METHOD cE getSoundSource ()Laex;
+	METHOD e defineSynchedData ()V
+	METHOD eT getMaxSpawnClusterSize ()I
+	METHOD eg getSoundVolume ()F
+	METHOD j lambda$registerGoals$0 (Lasy;)Z
+	METHOD m isCharging ()Z
+	METHOD o getExplosionPower ()I
+	METHOD p getAmbientSound ()Laev;
+	METHOD q getDeathSound ()Laev;
+	METHOD s createAttributes ()Latx$a;
+	METHOD u registerGoals ()V
+	METHOD v setCharging (Z)V
+	CLASS a GhastLookGoal
+		FIELD a ghast Lbgt;
+		METHOD <init> <init> (Lbgt;)V
+		METHOD a canUse ()Z
+		METHOD e tick ()V
+	CLASS b GhastMoveControl
+		FIELD l ghast Lbgt;
+		FIELD m floatDuration I
+		METHOD <init> <init> (Lbgt;)V
+		METHOD a tick ()V
+		METHOD a canReach (Ldly;I)Z
+	CLASS c GhastShootFireballGoal
+		FIELD a chargeTime I
+		FIELD b ghast Lbgt;
+		METHOD <init> <init> (Lbgt;)V
+		METHOD a canUse ()Z
+		METHOD c start ()V
+		METHOD d stop ()V
+		METHOD e tick ()V
+	CLASS d RandomFloatAroundGoal
+		FIELD a ghast Lbgt;
+		METHOD <init> <init> (Lbgt;)V
+		METHOD a canUse ()Z
+		METHOD b canContinueToUse ()Z
+		METHOD c start ()V

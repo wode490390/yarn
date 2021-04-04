@@ -1,0 +1,6 @@
+CLASS cyh net/minecraft/world/level/levelgen/placement/ChanceDecoratorConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c chance I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD a lambda$static$0 (Lcyh;)Ljava/lang/Integer;

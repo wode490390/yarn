@@ -1,0 +1,5 @@
+CLASS aei net/minecraft/server/players/UserWhiteListEntry
+	METHOD <init> <init> (Lcom/google/gson/JsonObject;)V
+	METHOD <init> <init> (Lcom/mojang/authlib/GameProfile;)V
+	METHOD a serialize (Lcom/google/gson/JsonObject;)V
+	METHOD b createGameProfile (Lcom/google/gson/JsonObject;)Lcom/mojang/authlib/GameProfile;

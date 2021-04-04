@@ -1,0 +1,10 @@
+CLASS mk net/minecraft/gametest/framework/TestClassNameArgument
+	FIELD a EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a testClassName ()Lmk;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/String;
+	METHOD a getTestClassName (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/lang/String;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

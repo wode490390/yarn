@@ -1,0 +1,14 @@
+CLASS dcl net/minecraft/world/level/levelgen/surfacebuilders/SurfaceBuilderBaseConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b topMaterial Lcjr;
+	FIELD c underMaterial Lcjr;
+	FIELD d underwaterMaterial Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjr;Lcjr;Lcjr;)V
+	METHOD a getTopMaterial ()Lcjr;
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Ldcl;)Lcjr;
+	METHOD b getUnderMaterial ()Lcjr;
+	METHOD b lambda$null$1 (Ldcl;)Lcjr;
+	METHOD c getUnderwaterMaterial ()Lcjr;
+	METHOD c lambda$null$0 (Ldcl;)Lcjr;

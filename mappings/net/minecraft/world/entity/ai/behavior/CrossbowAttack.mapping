@@ -1,0 +1,26 @@
+CLASS aup net/minecraft/world/entity/ai/behavior/CrossbowAttack
+	FIELD a TIMEOUT I
+	FIELD c attackDelay I
+	FIELD d crossbowState Laup$a;
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a checkExtraStartConditions (Labj;Lasz;)Z
+	METHOD a canStillUse (Labj;Lasz;J)Z
+	METHOD a getAttackTarget (Lasy;)Lasy;
+	METHOD a crossbowAttack (Lasz;Lasy;)V
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b tick (Labj;Lasz;J)V
+	METHOD b lookAtTarget (Lasz;Lasy;)V
+	METHOD c stop (Labj;Lasy;J)V
+	METHOD c stop (Labj;Lasz;J)V
+	METHOD d tick (Labj;Lasy;J)V
+	CLASS a CrossbowState
+		FIELD a UNCHARGED Laup$a;
+		FIELD b CHARGING Laup$a;
+		FIELD c CHARGED Laup$a;
+		FIELD d READY_TO_ATTACK Laup$a;
+		FIELD e $VALUES [Laup$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Laup$a;
+		METHOD values values ()[Laup$a;

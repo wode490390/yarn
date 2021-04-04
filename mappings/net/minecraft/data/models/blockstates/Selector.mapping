@@ -1,0 +1,15 @@
+CLASS jc net/minecraft/data/models/blockstates/Selector
+	FIELD a EMPTY Ljc;
+	FIELD b COMPARE_BY_NAME Ljava/util/Comparator;
+	FIELD c values Ljava/util/List;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/List;)V
+	METHOD a empty ()Ljc;
+	METHOD a extend (Lcku$a;)Ljc;
+	METHOD a extend (Ljc;)Ljc;
+	METHOD a of ([Lcku$a;)Ljc;
+	METHOD b getKey ()Ljava/lang/String;
+	METHOD b lambda$static$0 (Lcku$a;)Ljava/lang/String;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

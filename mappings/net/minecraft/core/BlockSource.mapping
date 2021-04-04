@@ -1,0 +1,8 @@
+CLASS gc net/minecraft/core/BlockSource
+	METHOD a x ()D
+	METHOD b y ()D
+	METHOD c z ()D
+	METHOD d getPos ()Lgb;
+	METHOD e getBlockState ()Lcjr;
+	METHOD f getEntity ()Lchp;
+	METHOD g getLevel ()Labj;

@@ -1,0 +1,12 @@
+CLASS bqe net/minecraft/world/item/PotionItem
+	FIELD a DRINK_DURATION I
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a fillItemCategory (Lboh;Lgn;)V
+	METHOD a finishUsingItem (Lbpr;Lbvr;Lasy;)Lbpr;
+	METHOD a appendHoverText (Lbpr;Lbvr;Ljava/util/List;Lbre;)V
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD ah_ getDefaultInstance ()Lbpr;
+	METHOD d_ getUseAnimation (Lbpr;)Lbrg;
+	METHOD e_ getUseDuration (Lbpr;)I
+	METHOD i isFoil (Lbpr;)Z
+	METHOD j getDescriptionId (Lbpr;)Ljava/lang/String;

@@ -1,0 +1,41 @@
+CLASS oa net/minecraft/network/ConnectionProtocol
+	FIELD a HANDSHAKING Loa;
+	FIELD b PLAY Loa;
+	FIELD c STATUS Loa;
+	FIELD d LOGIN Loa;
+	FIELD e MIN_PROTOCOL_ID I
+	FIELD f MAX_PROTOCOL_ID I
+	FIELD g LOOKUP [Loa;
+	FIELD h PROTOCOL_BY_PACKET Ljava/util/Map;
+	FIELD i id I
+	FIELD j flows Ljava/util/Map;
+	FIELD k $VALUES [Loa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;IILoa$b;)V
+	METHOD a getId ()I
+	METHOD a getById (I)Loa;
+	METHOD a lambda$null$0 (Loa;Ljava/lang/Class;)V
+	METHOD a lambda$static$1 (Loa;Lpg;Loa$a;)V
+	METHOD a getProtocolForPacket (Lpf;)Loa;
+	METHOD a createPacket (Lpg;ILob;)Lpf;
+	METHOD a getPacketId (Lpg;Lpf;)Ljava/lang/Integer;
+	METHOD b protocol ()Loa$b;
+	METHOD valueOf valueOf (Ljava/lang/String;)Loa;
+	METHOD values values ()[Loa;
+	CLASS 1 1
+	CLASS a PacketSet
+		FIELD a classToId Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+		FIELD b idToDeserializer Ljava/util/List;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Loa$1;)V
+		METHOD a getAllPackets ()Ljava/lang/Iterable;
+		METHOD a createPacket (ILob;)Lpf;
+		METHOD a lambda$new$0 (Lit/unimi/dsi/fastutil/objects/Object2IntOpenHashMap;)V
+		METHOD a getId (Ljava/lang/Class;)Ljava/lang/Integer;
+		METHOD a addPacket (Ljava/lang/Class;Ljava/util/function/Function;)Loa$a;
+	CLASS b ProtocolBuilder
+		FIELD a flows Ljava/util/Map;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Loa$1;)V
+		METHOD a access$200 (Loa$b;)Ljava/util/Map;
+		METHOD a addFlow (Lpg;Loa$a;)Loa$b;

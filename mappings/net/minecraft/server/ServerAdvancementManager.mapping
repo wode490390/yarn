@@ -1,0 +1,12 @@
+CLASS wz net/minecraft/server/ServerAdvancementManager
+	FIELD a LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD b GSON Lcom/google/gson/Gson;
+	FIELD c advancements Lae;
+	FIELD d predicateManager Ldhs;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ldhs;)V
+	METHOD a getAllAdvancements ()Ljava/util/Collection;
+	METHOD a apply (Ljava/lang/Object;Ladl;Lapl;)V
+	METHOD a apply (Ljava/util/Map;Ladl;Lapl;)V
+	METHOD a lambda$apply$0 (Ljava/util/Map;Lwp;Lcom/google/gson/JsonElement;)V
+	METHOD a getAdvancement (Lwp;)Lad;

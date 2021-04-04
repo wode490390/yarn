@@ -1,0 +1,15 @@
+CLASS bjc net/minecraft/world/entity/player/Abilities
+	FIELD a invulnerable Z
+	FIELD b flying Z
+	FIELD c mayfly Z
+	FIELD d instabuild Z
+	FIELD e mayBuild Z
+	FIELD f flyingSpeed F
+	FIELD g walkingSpeed F
+	METHOD <init> <init> ()V
+	METHOD a getFlyingSpeed ()F
+	METHOD a setFlyingSpeed (F)V
+	METHOD a addSaveData (Lmv;)V
+	METHOD b getWalkingSpeed ()F
+	METHOD b setWalkingSpeed (F)V
+	METHOD b loadSaveData (Lmv;)V

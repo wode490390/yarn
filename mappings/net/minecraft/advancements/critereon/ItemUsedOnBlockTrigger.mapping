@@ -1,0 +1,17 @@
+CLASS bw net/minecraft/advancements/critereon/ItemUsedOnBlockTrigger
+	FIELD a ID Lwp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()Lwp;
+	METHOD a trigger (Labk;Lgb;Lbpr;)V
+	METHOD a lambda$trigger$0 (Lcjr;Labk;Lgb;Lbpr;Lbw$a;)Z
+	METHOD a createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Lbw$a;
+	METHOD b access$000 ()Lwp;
+	METHOD b createInstance (Lcom/google/gson/JsonObject;Lbl$b;Lbc;)Laq;
+	CLASS a TriggerInstance
+		FIELD a location Lcb;
+		FIELD b item Lbv;
+		METHOD <init> <init> (Lbl$b;Lcb;Lbv;)V
+		METHOD a itemUsedOnBlock (Lcb$a;Lbv$a;)Lbw$a;
+		METHOD a matches (Lcjr;Labj;Lgb;Lbpr;)Z
+		METHOD a serializeToJson (Lcn;)Lcom/google/gson/JsonObject;

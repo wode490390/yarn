@@ -1,0 +1,5 @@
+CLASS adg net/minecraft/server/packs/resources/PreparableReloadListener
+	METHOD a reload (Ladg$a;Ladl;Lapl;Lapl;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+	METHOD c getName ()Ljava/lang/String;
+	CLASS a PreparationBarrier
+		METHOD a wait (Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;

@@ -1,0 +1,9 @@
+CLASS ib net/minecraft/data/advancements/AdventureAdvancements
+	FIELD a EXPLORABLE_BIOMES Ljava/util/List;
+	FIELD b MOBS_TO_KILL [Lasp;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a addMobsToKill (Lad$a;)Lad$a;
+	METHOD a addBiomes (Lad$a;Ljava/util/List;)Lad$a;
+	METHOD a accept (Ljava/util/function/Consumer;)V
+	METHOD accept accept (Ljava/lang/Object;)V

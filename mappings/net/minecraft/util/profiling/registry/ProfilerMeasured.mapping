@@ -1,0 +1,2 @@
+CLASS apu net/minecraft/util/profiling/registry/ProfilerMeasured
+	METHOD bi metrics ()Ljava/util/List;

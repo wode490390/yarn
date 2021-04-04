@@ -1,0 +1,8 @@
+CLASS ddi net/minecraft/world/level/lighting/LightEventListener
+	METHOD a hasLightWork ()Z
+	METHOD a runUpdates (IZZ)I
+	METHOD a enableLightSources (Lbuw;Z)V
+	METHOD a checkBlock (Lgb;)V
+	METHOD a onBlockEmissionIncrease (Lgb;I)V
+	METHOD a updateSectionStatus (Lgb;Z)V
+	METHOD a updateSectionStatus (Lgu;Z)V

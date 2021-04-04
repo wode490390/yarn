@@ -1,0 +1,14 @@
+CLASS cla net/minecraft/world/level/block/state/properties/StructureMode
+	FIELD a SAVE Lcla;
+	FIELD b LOAD Lcla;
+	FIELD c CORNER Lcla;
+	FIELD d DATA Lcla;
+	FIELD e name Ljava/lang/String;
+	FIELD f displayName Lon;
+	FIELD g $VALUES [Lcla;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD a getDisplayName ()Lon;
+	METHOD c getSerializedName ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcla;
+	METHOD values values ()[Lcla;

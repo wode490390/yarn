@@ -1,0 +1,23 @@
+CLASS cxm net/minecraft/world/level/levelgen/feature/trunkplacers/TrunkPlacer
+	FIELD a MAX_BASE_HEIGHT I
+	FIELD b MAX_RAND I
+	FIELD c CODEC Lcom/mojang/serialization/Codec;
+	FIELD d MAX_HEIGHT I
+	FIELD e baseHeight I
+	FIELD f heightRandA I
+	FIELD g heightRandB I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (III)V
+	METHOD a type ()Lcxn;
+	METHOD a isDirt (Lbvx;Lgb;)Z
+	METHOD a placeTrunk (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;ILgb;Lcvg;)Ljava/util/List;
+	METHOD a placeLogIfFree (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Lgb$a;Lcvg;)V
+	METHOD a setDirtAt (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Lgb;Lcvg;)V
+	METHOD a placeLog (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Lgb;Lcvg;Ljava/util/function/Function;)Z
+	METHOD a lambda$isDirt$3 (Lcjr;)Z
+	METHOD a trunkPlacerParts (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/Products$P3;
+	METHOD a lambda$trunkPlacerParts$2 (Lcxm;)Ljava/lang/Integer;
+	METHOD a getTreeHeight (Ljava/util/Random;)I
+	METHOD b placeLog (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;Lgb;Lcvg;)Z
+	METHOD b lambda$trunkPlacerParts$1 (Lcxm;)Ljava/lang/Integer;
+	METHOD c lambda$trunkPlacerParts$0 (Lcxm;)Ljava/lang/Integer;

@@ -1,0 +1,64 @@
+CLASS tv net/minecraft/network/protocol/game/ServerboundInteractPacket
+	FIELD a entityId I
+	FIELD b action Ltv$a;
+	FIELD c usingSecondaryAction Z
+	FIELD d ATTACK_ACTION Ltv$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (IZLtv$a;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a getTarget (Labj;)Lasl;
+	METHOD a createAttackPacket (Lasl;Z)Ltv;
+	METHOD a createInteractionPacket (Lasl;ZLarf;)Ltv;
+	METHOD a createInteractionPacket (Lasl;ZLarf;Ldly;)Ltv;
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD a dispatch (Ltv$c;)V
+	METHOD b isUsingSecondaryAction ()Z
+	METHOD c access$400 ()Ltv$a;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getType ()Ltv$b;
+		METHOD a write (Lob;)V
+		METHOD a dispatch (Ltv$c;)V
+	CLASS a Action
+		METHOD a getType ()Ltv$b;
+		METHOD a write (Lob;)V
+		METHOD a dispatch (Ltv$c;)V
+	CLASS b ActionType
+		FIELD a INTERACT Ltv$b;
+		FIELD b ATTACK Ltv$b;
+		FIELD c INTERACT_AT Ltv$b;
+		FIELD d reader Ljava/util/function/Function;
+		FIELD e $VALUES [Ltv$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/util/function/Function;)V
+		METHOD a lambda$static$2 (Lob;)Ltv$a;
+		METHOD a access$200 (Ltv$b;)Ljava/util/function/Function;
+		METHOD b lambda$static$1 (Lob;)Ltv$a;
+		METHOD c lambda$static$0 (Lob;)Ltv$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Ltv$b;
+		METHOD values values ()[Ltv$b;
+	CLASS c Handler
+		METHOD a onAttack ()V
+		METHOD a onInteraction (Larf;)V
+		METHOD a onInteraction (Larf;Ldly;)V
+	CLASS d InteractionAction
+		FIELD a hand Larf;
+		METHOD <init> <init> (Larf;)V
+		METHOD <init> <init> (Larf;Ltv$1;)V
+		METHOD <init> <init> (Lob;)V
+		METHOD <init> <init> (Lob;Ltv$1;)V
+		METHOD a getType ()Ltv$b;
+		METHOD a write (Lob;)V
+		METHOD a dispatch (Ltv$c;)V
+	CLASS e InteractionAtLocationAction
+		FIELD a hand Larf;
+		FIELD b location Ldly;
+		METHOD <init> <init> (Larf;Ldly;)V
+		METHOD <init> <init> (Larf;Ldly;Ltv$1;)V
+		METHOD <init> <init> (Lob;)V
+		METHOD <init> <init> (Lob;Ltv$1;)V
+		METHOD a getType ()Ltv$b;
+		METHOD a write (Lob;)V
+		METHOD a dispatch (Ltv$c;)V

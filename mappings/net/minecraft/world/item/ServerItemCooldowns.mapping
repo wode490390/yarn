@@ -1,0 +1,5 @@
+CLASS bqk net/minecraft/world/item/ServerItemCooldowns
+	FIELD a player Labk;
+	METHOD <init> <init> (Labk;)V
+	METHOD b onCooldownStarted (Lbpn;I)V
+	METHOD c onCooldownEnded (Lbpn;)V

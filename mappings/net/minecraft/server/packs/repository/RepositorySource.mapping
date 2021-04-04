@@ -1,0 +1,2 @@
+CLASS adc net/minecraft/server/packs/repository/RepositorySource
+	METHOD a loadPacks (Ljava/util/function/Consumer;Lacy$a;)V

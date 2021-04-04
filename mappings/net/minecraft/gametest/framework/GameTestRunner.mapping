@@ -1,0 +1,17 @@
+CLASS ly net/minecraft/gametest/framework/GameTestRunner
+	FIELD a PADDING_AROUND_EACH_STRUCTURE I
+	FIELD b SPACE_BETWEEN_COLUMNS I
+	FIELD c SPACE_BETWEEN_ROWS I
+	FIELD d DEFAULT_TESTS_PER_ROW I
+	FIELD e MAX_TESTS_PER_BATCH I
+	METHOD <init> <init> ()V
+	METHOD a clearMarkers (Labj;)V
+	METHOD a lambda$clearAllTests$3 (Labj;Lgb;)V
+	METHOD a clearAllTests (Labj;Lgb;Lmb;I)V
+	METHOD a lambda$null$0 (Ljava/lang/String;Lorg/apache/commons/lang3/mutable/MutableInt;Ljava/util/function/Consumer;Ljava/util/function/Consumer;Ljava/util/List;)Llq;
+	METHOD a groupTestsIntoBatches (Ljava/util/Collection;)Ljava/util/Collection;
+	METHOD a runTestBatches (Ljava/util/Collection;Lgb;Lcek;Labj;Lmb;I)Ljava/util/Collection;
+	METHOD a lambda$groupTestsIntoBatches$1 (Ljava/util/Map$Entry;)Ljava/util/stream/Stream;
+	METHOD a runTest (Llv;Lgb;Lmb;)V
+	METHOD b lambda$clearAllTests$2 (Labj;Lgb;)Z
+	METHOD b runTests (Ljava/util/Collection;Lgb;Lcek;Labj;Lmb;I)Ljava/util/Collection;

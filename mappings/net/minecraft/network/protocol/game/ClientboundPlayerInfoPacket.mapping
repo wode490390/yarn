@@ -1,0 +1,64 @@
+CLASS ri net/minecraft/network/protocol/game/ClientboundPlayerInfoPacket
+	FIELD a action Lri$a;
+	FIELD b entries Ljava/util/List;
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lri$a;Ljava/util/Collection;)V
+	METHOD <init> <init> (Lri$a;[Labk;)V
+	METHOD a write (Lob;)V
+	METHOD a access$200 (Lob;Lon;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getEntries ()Ljava/util/List;
+	METHOD b access$100 (Lob;)Lon;
+	METHOD b writeDisplayName (Lob;Lon;)V
+	METHOD c getAction ()Lri$a;
+	METHOD c readDisplayName (Lob;)Lon;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+	CLASS a Action
+		FIELD a ADD_PLAYER Lri$a;
+		FIELD b UPDATE_GAME_MODE Lri$a;
+		FIELD c UPDATE_LATENCY Lri$a;
+		FIELD d UPDATE_DISPLAY_NAME Lri$a;
+		FIELD e REMOVE_PLAYER Lri$a;
+		FIELD f $VALUES [Lri$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD <init> <init> (Ljava/lang/String;ILri$1;)V
+		METHOD a read (Lob;)Lri$b;
+		METHOD a write (Lob;Lri$b;)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lri$a;
+		METHOD values values ()[Lri$a;
+		CLASS 1 1
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD a lambda$read$0 (Lcom/mojang/authlib/properties/PropertyMap;Lob;)V
+			METHOD a read (Lob;)Lri$b;
+			METHOD a lambda$write$1 (Lob;Lcom/mojang/authlib/properties/Property;)V
+			METHOD a write (Lob;Lri$b;)V
+		CLASS 2 2
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD a read (Lob;)Lri$b;
+			METHOD a write (Lob;Lri$b;)V
+		CLASS 3 3
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD a read (Lob;)Lri$b;
+			METHOD a write (Lob;Lri$b;)V
+		CLASS 4 4
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD a read (Lob;)Lri$b;
+			METHOD a write (Lob;Lri$b;)V
+		CLASS 5 5
+			METHOD <init> <init> (Ljava/lang/String;I)V
+			METHOD a read (Lob;)Lri$b;
+			METHOD a write (Lob;Lri$b;)V
+	CLASS b PlayerUpdate
+		FIELD a latency I
+		FIELD b gameMode Lbvo;
+		FIELD c profile Lcom/mojang/authlib/GameProfile;
+		FIELD d displayName Lon;
+		METHOD <init> <init> (Lcom/mojang/authlib/GameProfile;ILbvo;Lon;)V
+		METHOD a getProfile ()Lcom/mojang/authlib/GameProfile;
+		METHOD b getLatency ()I
+		METHOD c getGameMode ()Lbvo;
+		METHOD d getDisplayName ()Lon;
+		METHOD toString toString ()Ljava/lang/String;

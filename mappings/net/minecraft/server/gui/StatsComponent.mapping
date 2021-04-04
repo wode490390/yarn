@@ -1,0 +1,15 @@
+CLASS aas net/minecraft/server/gui/StatsComponent
+	FIELD a DECIMAL_FORMAT Ljava/text/DecimalFormat;
+	FIELD b values [I
+	FIELD c vp I
+	FIELD d msgs [Ljava/lang/String;
+	FIELD e server Lnet/minecraft/server/MinecraftServer;
+	FIELD f timer Ljavax/swing/Timer;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+	METHOD a close ()V
+	METHOD a lambda$new$1 (Ljava/awt/event/ActionEvent;)V
+	METHOD a lambda$static$0 (Ljava/text/DecimalFormat;)V
+	METHOD a getAverage ([J)D
+	METHOD b tick ()V
+	METHOD paint paint (Ljava/awt/Graphics;)V

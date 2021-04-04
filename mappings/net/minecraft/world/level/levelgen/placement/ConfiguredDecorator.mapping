@@ -1,0 +1,12 @@
+CLASS cyi net/minecraft/world/level/levelgen/placement/ConfiguredDecorator
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b decorator Lcyt;
+	FIELD c config Lctv;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcyt;Lctv;)V
+	METHOD a decorated (Lcyi;)Ljava/lang/Object;
+	METHOD a getPositions (Lcyp;Ljava/util/Random;Lgb;)Ljava/util/stream/Stream;
+	METHOD b config ()Lctv;
+	METHOD b decorated (Lcyi;)Lcyi;
+	METHOD c lambda$static$0 (Lcyi;)Lcyt;
+	METHOD toString toString ()Ljava/lang/String;

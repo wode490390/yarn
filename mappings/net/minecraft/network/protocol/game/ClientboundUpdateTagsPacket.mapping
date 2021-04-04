@@ -1,0 +1,11 @@
+CLASS te net/minecraft/network/protocol/game/ClientboundUpdateTagsPacket
+	FIELD a tags Ljava/util/Map;
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a lambda$write$2 (Lob;Laft$a;)V
+	METHOD a lambda$write$1 (Lob;Lwo;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getTags ()Ljava/util/Map;
+	METHOD b lambda$new$0 (Lob;)Lwo;

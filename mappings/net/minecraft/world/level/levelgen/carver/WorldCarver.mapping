@@ -1,0 +1,30 @@
+CLASS cpr net/minecraft/world/level/levelgen/carver/WorldCarver
+	FIELD a CAVE Lcpr;
+	FIELD b NETHER_CAVE Lcpr;
+	FIELD c CANYON Lcpr;
+	FIELD d AIR Lcjr;
+	FIELD e CAVE_AIR Lcjr;
+	FIELD f WATER Lddq;
+	FIELD g LAVA Lddq;
+	FIELD h replaceableBlocks Ljava/util/Set;
+	FIELD i liquids Ljava/util/Set;
+	FIELD j configuredCodec Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a isEdge (IIIIII)Z
+	METHOD a canReach (Lbuw;DDIIF)Z
+	METHOD a canReplaceBlock (Lcjr;)Z
+	METHOD a canReplaceBlock (Lcjr;Lcjr;)Z
+	METHOD a hasDisallowedLiquid (Lclk;IIIIII)Z
+	METHOD a configured (Lcpk;)Lcpp;
+	METHOD a isStartChunk (Lcpk;Ljava/util/Random;)Z
+	METHOD a carveEllipsoid (Lcpm;Lcpk;Lclk;Ljava/util/function/Function;JIDDDDDLjava/util/BitSet;Lcpr$a;)Z
+	METHOD a carveBlock (Lcpm;Lcpk;Lclk;Ljava/util/function/Function;Ljava/util/BitSet;Ljava/util/Random;Lgb$a;Lgb$a;ILorg/apache/commons/lang3/mutable/MutableBoolean;)Z
+	METHOD a carve (Lcpm;Lcpk;Lclk;Ljava/util/function/Function;Ljava/util/Random;ILbuw;Ljava/util/BitSet;)Z
+	METHOD a register (Ljava/lang/String;Lcpr;)Lcpr;
+	METHOD b getCaveAirState (Lcpk;)Lcjr;
+	METHOD c configuredCodec ()Lcom/mojang/serialization/Codec;
+	METHOD c isDebugEnabled (Lcpk;)Z
+	METHOD d getRange ()I
+	CLASS a CarveSkipChecker
+		METHOD shouldSkip shouldSkip (Lcpm;DDDI)Z

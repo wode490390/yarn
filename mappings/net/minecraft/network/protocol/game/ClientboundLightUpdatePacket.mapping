@@ -1,0 +1,27 @@
+CLASS qu net/minecraft/network/protocol/game/ClientboundLightUpdatePacket
+	FIELD a x I
+	FIELD b z I
+	FIELD c skyYMask Ljava/util/BitSet;
+	FIELD d blockYMask Ljava/util/BitSet;
+	FIELD e emptySkyYMask Ljava/util/BitSet;
+	FIELD f emptyBlockYMask Ljava/util/BitSet;
+	FIELD g skyUpdates Ljava/util/List;
+	FIELD h blockUpdates Ljava/util/List;
+	FIELD i trustEdges Z
+	METHOD <init> <init> (Lbuw;Lddh;Ljava/util/BitSet;Ljava/util/BitSet;Z)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a prepareSectionData (Lbuw;Lddh;Lbwa;ILjava/util/BitSet;Ljava/util/BitSet;Ljava/util/List;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getX ()I
+	METHOD b lambda$new$1 (Lob;)[B
+	METHOD c getZ ()I
+	METHOD c lambda$new$0 (Lob;)[B
+	METHOD d getSkyYMask ()Ljava/util/BitSet;
+	METHOD e getEmptySkyYMask ()Ljava/util/BitSet;
+	METHOD f getSkyUpdates ()Ljava/util/List;
+	METHOD g getBlockYMask ()Ljava/util/BitSet;
+	METHOD h getEmptyBlockYMask ()Ljava/util/BitSet;
+	METHOD i getBlockUpdates ()Ljava/util/List;
+	METHOD j getTrustEdges ()Z

@@ -1,0 +1,10 @@
+CLASS bfe net/minecraft/world/entity/boss/enderdragon/phases/DragonDeathPhase
+	FIELD b targetLocation Ldly;
+	FIELD c time I
+	METHOD <init> <init> (Lbez;)V
+	METHOD b doClientTick ()V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD f getFlySpeed ()F
+	METHOD g getFlyTargetLocation ()Ldly;
+	METHOD i getPhase ()Lbfp;

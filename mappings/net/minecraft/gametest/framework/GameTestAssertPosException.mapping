@@ -1,0 +1,9 @@
+CLASS lp net/minecraft/gametest/framework/GameTestAssertPosException
+	FIELD a absolutePos Lgb;
+	FIELD b relativePos Lgb;
+	FIELD c tick J
+	METHOD <init> <init> (Ljava/lang/String;Lgb;Lgb;J)V
+	METHOD a getMessageToShowAtBlock ()Ljava/lang/String;
+	METHOD b getRelativePos ()Lgb;
+	METHOD c getAbsolutePos ()Lgb;
+	METHOD getMessage getMessage ()Ljava/lang/String;

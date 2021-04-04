@@ -1,0 +1,9 @@
+CLASS yn net/minecraft/server/commands/ListPlayersCommand
+	METHOD <init> <init> ()V
+	METHOD a lambda$listPlayersWithUuids$2 (Labk;)Lon;
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a listPlayers (Ldg;)I
+	METHOD a format (Ldg;Ljava/util/function/Function;)I
+	METHOD b lambda$register$0 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD b listPlayersWithUuids (Ldg;)I

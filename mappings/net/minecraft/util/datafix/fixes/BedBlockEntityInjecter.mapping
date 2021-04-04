@@ -1,0 +1,9 @@
+CLASS ahq net/minecraft/util/datafix/fixes/BedBlockEntityInjecter
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a lambda$null$3 ()Ljava/lang/IllegalStateException;
+	METHOD a lambda$cap$4 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a cap (Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/types/templates/List$ListType;)Lcom/mojang/datafixers/TypeRewriteRule;
+	METHOD a lambda$null$0 (Lcom/mojang/datafixers/util/Pair;)Lcom/mojang/datafixers/util/Pair;
+	METHOD a lambda$null$2 (Lcom/mojang/serialization/Dynamic;)Ljava/lang/Integer;
+	METHOD a lambda$cap$1 (Lcom/mojang/serialization/DynamicOps;)Ljava/util/function/Function;
+	METHOD makeRule makeRule ()Lcom/mojang/datafixers/TypeRewriteRule;

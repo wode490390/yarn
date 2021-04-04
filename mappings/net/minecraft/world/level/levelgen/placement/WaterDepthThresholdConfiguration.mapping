@@ -1,0 +1,7 @@
+CLASS czj net/minecraft/world/level/levelgen/placement/WaterDepthThresholdConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD c maxWaterDepth I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (I)V
+	METHOD a lambda$static$1 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$0 (Lczj;)Ljava/lang/Integer;

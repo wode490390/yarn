@@ -1,0 +1,13 @@
+CLASS cvk net/minecraft/world/level/levelgen/feature/featuresize/FeatureSize
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b MAX_WIDTH I
+	FIELD c minClippedHeight Ljava/util/OptionalInt;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/OptionalInt;)V
+	METHOD a minClippedHeightCodec ()Lcom/mojang/serialization/codecs/RecordCodecBuilder;
+	METHOD a getSizeAtHeight (II)I
+	METHOD a lambda$minClippedHeightCodec$2 (Lcvk;)Ljava/util/OptionalInt;
+	METHOD a lambda$minClippedHeightCodec$0 (Ljava/util/Optional;)Ljava/util/OptionalInt;
+	METHOD a lambda$minClippedHeightCodec$1 (Ljava/util/OptionalInt;)Ljava/util/Optional;
+	METHOD b type ()Lcvl;
+	METHOD c minClippedHeight ()Ljava/util/OptionalInt;

@@ -1,0 +1,17 @@
+CLASS bfn net/minecraft/world/entity/boss/enderdragon/phases/DragonStrafePlayerPhase
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c FIREBALL_CHARGE_AMOUNT I
+	FIELD d fireballCharge I
+	FIELD e currentPath Ldfy;
+	FIELD f targetLocation Ldly;
+	FIELD g attackTarget Lasy;
+	FIELD h holdingPatternClockwise Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbez;)V
+	METHOD a setTarget (Lasy;)V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD g getFlyTargetLocation ()Ldly;
+	METHOD i getPhase ()Lbfp;
+	METHOD j findNewTarget ()V
+	METHOD k navigateToNextPathNode ()V

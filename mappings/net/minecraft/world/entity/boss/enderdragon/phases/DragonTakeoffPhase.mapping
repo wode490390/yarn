@@ -1,0 +1,11 @@
+CLASS bfo net/minecraft/world/entity/boss/enderdragon/phases/DragonTakeoffPhase
+	FIELD b firstTick Z
+	FIELD c currentPath Ldfy;
+	FIELD d targetLocation Ldly;
+	METHOD <init> <init> (Lbez;)V
+	METHOD c doServerTick ()V
+	METHOD d begin ()V
+	METHOD g getFlyTargetLocation ()Ldly;
+	METHOD i getPhase ()Lbfp;
+	METHOD j findNewTarget ()V
+	METHOD k navigateToNextPathNode ()V

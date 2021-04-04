@@ -1,0 +1,11 @@
+CLASS ek net/minecraft/commands/arguments/blocks/BlockInput
+	FIELD a state Lcjr;
+	FIELD b properties Ljava/util/Set;
+	FIELD c tag Lmv;
+	METHOD <init> <init> (Lcjr;Ljava/util/Set;Lmv;)V
+	METHOD a getState ()Lcjr;
+	METHOD a test (Labj;Lgb;)Z
+	METHOD a place (Labj;Lgb;I)Z
+	METHOD a test (Lcjv;)Z
+	METHOD b getDefinedProperties ()Ljava/util/Set;
+	METHOD test test (Ljava/lang/Object;)Z

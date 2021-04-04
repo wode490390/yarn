@@ -1,0 +1,35 @@
+CLASS qn net/minecraft/network/protocol/game/ClientboundGameEventPacket
+	FIELD a NO_RESPAWN_BLOCK_AVAILABLE Lqn$a;
+	FIELD b START_RAINING Lqn$a;
+	FIELD c STOP_RAINING Lqn$a;
+	FIELD d CHANGE_GAME_MODE Lqn$a;
+	FIELD e WIN_GAME Lqn$a;
+	FIELD f DEMO_EVENT Lqn$a;
+	FIELD g ARROW_HIT_PLAYER Lqn$a;
+	FIELD h RAIN_LEVEL_CHANGE Lqn$a;
+	FIELD i THUNDER_LEVEL_CHANGE Lqn$a;
+	FIELD j PUFFER_FISH_STING Lqn$a;
+	FIELD k GUARDIAN_ELDER_EFFECT Lqn$a;
+	FIELD l IMMEDIATE_RESPAWN Lqn$a;
+	FIELD m DEMO_PARAM_INTRO I
+	FIELD n DEMO_PARAM_HINT_1 I
+	FIELD o DEMO_PARAM_HINT_2 I
+	FIELD p DEMO_PARAM_HINT_3 I
+	FIELD q DEMO_PARAM_HINT_4 I
+	FIELD r event Lqn$a;
+	FIELD s param F
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lqn$a;F)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getEvent ()Lqn$a;
+	METHOD c getParam ()F
+	CLASS a Type
+		FIELD a TYPES Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+		FIELD b id I
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (I)V
+		METHOD a access$000 ()Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+		METHOD a access$100 (Lqn$a;)I

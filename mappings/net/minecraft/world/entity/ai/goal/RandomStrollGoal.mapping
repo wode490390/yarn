@@ -1,0 +1,20 @@
+CLASS azm net/minecraft/world/entity/ai/goal/RandomStrollGoal
+	FIELD a DEFAULT_INTERVAL I
+	FIELD b mob Latg;
+	FIELD c wantedX D
+	FIELD d wantedY D
+	FIELD e wantedZ D
+	FIELD f speedModifier D
+	FIELD g interval I
+	FIELD h forceTrigger Z
+	FIELD i checkNoActionTime Z
+	METHOD <init> <init> (Latg;D)V
+	METHOD <init> <init> (Latg;DI)V
+	METHOD <init> <init> (Latg;DIZ)V
+	METHOD a canUse ()Z
+	METHOD a setInterval (I)V
+	METHOD b canContinueToUse ()Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD g getPosition ()Ldly;
+	METHOD h trigger ()V

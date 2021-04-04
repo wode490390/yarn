@@ -1,0 +1,20 @@
+CLASS cek net/minecraft/world/level/block/Rotation
+	FIELD a NONE Lcek;
+	FIELD b CLOCKWISE_90 Lcek;
+	FIELD c CLOCKWISE_180 Lcek;
+	FIELD d COUNTERCLOCKWISE_90 Lcek;
+	FIELD e rotation Lf;
+	FIELD f $VALUES [Lcek;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILf;)V
+	METHOD a rotation ()Lf;
+	METHOD a rotate (II)I
+	METHOD a getRotated (Lcek;)Lcek;
+	METHOD a rotate (Lgg;)Lgg;
+	METHOD a getRandom (Ljava/util/Random;)Lcek;
+	METHOD b getShuffled (Ljava/util/Random;)Ljava/util/List;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcek;
+	METHOD values values ()[Lcek;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$world$level$block$Rotation [I
+		METHOD <clinit> <clinit> ()V

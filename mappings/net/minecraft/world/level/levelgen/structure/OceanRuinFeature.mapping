@@ -1,0 +1,22 @@
+CLASS dac net/minecraft/world/level/levelgen/structure/OceanRuinFeature
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getStartFactory ()Lcsv$a;
+	CLASS a OceanRuinStart
+		METHOD <init> <init> (Lcsv;Lbuw;IJ)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcua;Lbvt;)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcun;Lbvt;)V
+	CLASS b Type
+		FIELD a WARM Ldac$b;
+		FIELD b COLD Ldac$b;
+		FIELD c CODEC Lcom/mojang/serialization/Codec;
+		FIELD d BY_NAME Ljava/util/Map;
+		FIELD e name Ljava/lang/String;
+		FIELD f $VALUES [Ldac$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a lambda$static$0 (Ldac$b;)Ldac$b;
+		METHOD a byName (Ljava/lang/String;)Ldac$b;
+		METHOD c getSerializedName ()Ljava/lang/String;
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldac$b;
+		METHOD values values ()[Ldac$b;

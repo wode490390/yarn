@@ -1,0 +1,4 @@
+CLASS cjg net/minecraft/world/level/block/grower/SpruceTreeGrower
+	METHOD <init> <init> ()V
+	METHOD a getConfiguredMegaFeature (Ljava/util/Random;)Lcqg;
+	METHOD a getConfiguredFeature (Ljava/util/Random;Z)Lcqg;

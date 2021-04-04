@@ -1,0 +1,5 @@
+CLASS aar net/minecraft/server/gui/PlayerListComponent
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	FIELD b tickCount I
+	METHOD <init> <init> (Lnet/minecraft/server/MinecraftServer;)V
+	METHOD a tick ()V

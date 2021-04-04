@@ -1,0 +1,27 @@
+CLASS cuw net/minecraft/world/level/levelgen/feature/configurations/RootSystemConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b treeFeature Ljava/util/function/Supplier;
+	FIELD c requiredVerticalSpaceForTree I
+	FIELD d rootRadius I
+	FIELD e rootReplaceable Lwp;
+	FIELD f rootStateProvider Lcwd;
+	FIELD g rootPlacementAttempts I
+	FIELD h rootColumnMaxHeight I
+	FIELD i hangingRootRadius I
+	FIELD j hangingRootsVerticalSpan I
+	FIELD k hangingRootStateProvider Lcwd;
+	FIELD l hangingRootPlacementAttempts I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Supplier;IILwp;Lcwd;IIIILcwd;I)V
+	METHOD a lambda$static$11 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$10 (Lcuw;)Ljava/lang/Integer;
+	METHOD b lambda$null$9 (Lcuw;)Lcwd;
+	METHOD c lambda$null$8 (Lcuw;)Ljava/lang/Integer;
+	METHOD d lambda$null$7 (Lcuw;)Ljava/lang/Integer;
+	METHOD e lambda$null$6 (Lcuw;)Ljava/lang/Integer;
+	METHOD f lambda$null$5 (Lcuw;)Ljava/lang/Integer;
+	METHOD g lambda$null$4 (Lcuw;)Lcwd;
+	METHOD h lambda$null$3 (Lcuw;)Lwp;
+	METHOD i lambda$null$2 (Lcuw;)Ljava/lang/Integer;
+	METHOD j lambda$null$1 (Lcuw;)Ljava/lang/Integer;
+	METHOD k lambda$null$0 (Lcuw;)Ljava/util/function/Supplier;

@@ -1,0 +1,6 @@
+CLASS bnw net/minecraft/world/item/BoatItem
+	FIELD a ENTITY_PREDICATE Ljava/util/function/Predicate;
+	FIELD b type Lbkw$b;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbkw$b;Lbpn$a;)V
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;

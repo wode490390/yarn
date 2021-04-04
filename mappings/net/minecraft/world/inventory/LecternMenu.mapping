@@ -1,0 +1,20 @@
+CLASS bmm net/minecraft/world/inventory/LecternMenu
+	FIELD k BUTTON_PREV_PAGE I
+	FIELD l BUTTON_NEXT_PAGE I
+	FIELD m BUTTON_TAKE_BOOK I
+	FIELD n BUTTON_PAGE_JUMP_RANGE_START I
+	FIELD o DATA_COUNT I
+	FIELD p SLOT_COUNT I
+	FIELD q lectern Laqz;
+	FIELD r lecternData Lblv;
+	METHOD <init> <init> (I)V
+	METHOD <init> <init> (ILaqz;Lblv;)V
+	METHOD a setData (II)V
+	METHOD a stillValid (Lbjf;)Z
+	METHOD a clickMenuButton (Lbjf;I)Z
+	METHOD i getBook ()Lbpr;
+	METHOD j getPage ()I
+	CLASS 1 1
+		FIELD a this$0 Lbmm;
+		METHOD <init> <init> (Lbmm;Laqz;III)V
+		METHOD d setChanged ()V

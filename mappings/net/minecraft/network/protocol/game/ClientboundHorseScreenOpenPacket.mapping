@@ -1,0 +1,12 @@
+CLASS qo net/minecraft/network/protocol/game/ClientboundHorseScreenOpenPacket
+	FIELD a containerId I
+	FIELD b size I
+	FIELD c entityId I
+	METHOD <init> <init> (III)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getContainerId ()I
+	METHOD c getSize ()I
+	METHOD d getEntityId ()I

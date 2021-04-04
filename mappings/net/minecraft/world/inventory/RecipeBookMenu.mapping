@@ -1,0 +1,12 @@
+CLASS bmu net/minecraft/world/inventory/RecipeBookMenu
+	METHOD <init> <init> (Lbmp;I)V
+	METHOD a fillCraftSlotsStackedContents (Lbjh;)V
+	METHOD a recipeMatches (Lbsj;)Z
+	METHOD a handlePlacement (ZLbsj;Labk;)V
+	METHOD d shouldMoveToInventory (I)Z
+	METHOD i clearCraftingContent ()V
+	METHOD j getResultSlotIndex ()I
+	METHOD k getGridWidth ()I
+	METHOD l getGridHeight ()I
+	METHOD m getSize ()I
+	METHOD q getRecipeBookType ()Lbmv;

@@ -1,0 +1,10 @@
+CLASS cwg net/minecraft/world/level/levelgen/feature/stateproviders/PlainFlowerProvider
+	FIELD b CODEC Lcom/mojang/serialization/Codec;
+	FIELD c INSTANCE Lcwg;
+	FIELD d LOW_NOISE_FLOWERS [Lcjr;
+	FIELD e HIGH_NOISE_FLOWERS [Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a type ()Lcwe;
+	METHOD a getState (Ljava/util/Random;Lgb;)Lcjr;
+	METHOD b lambda$static$0 ()Lcwg;

@@ -1,0 +1,7 @@
+CLASS cxg net/minecraft/world/level/levelgen/feature/trunkplacers/DarkOakTrunkPlacer
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (III)V
+	METHOD a type ()Lcxn;
+	METHOD a placeTrunk (Lbvx;Ljava/util/function/BiConsumer;Ljava/util/Random;ILgb;Lcvg;)Ljava/util/List;
+	METHOD b lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;

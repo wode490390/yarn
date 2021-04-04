@@ -1,0 +1,20 @@
+CLASS mx net/minecraft/nbt/EndTag
+	FIELD a TYPE Lnp;
+	FIELD b INSTANCE Lmx;
+	FIELD c SELF_SIZE_IN_BITS I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a getId ()B
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a accept (Lnr;)V
+	METHOD b getType ()Lnp;
+	METHOD c copy ()Lnn;
+	METHOD d copy ()Lmx;
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1 1
+		METHOD <init> <init> ()V
+		METHOD a getName ()Ljava/lang/String;
+		METHOD a load (Ljava/io/DataInput;ILne;)Lmx;
+		METHOD b getPrettyName ()Ljava/lang/String;
+		METHOD b load (Ljava/io/DataInput;ILne;)Lnn;
+		METHOD c isValue ()Z

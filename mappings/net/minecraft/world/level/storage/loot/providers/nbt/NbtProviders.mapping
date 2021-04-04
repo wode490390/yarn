@@ -1,0 +1,7 @@
+CLASS dku net/minecraft/world/level/storage/loot/providers/nbt/NbtProviders
+	FIELD a STORAGE Ldks;
+	FIELD b CONTEXT Ldks;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a createGsonAdapter ()Ljava/lang/Object;
+	METHOD a register (Ljava/lang/String;Ldht;)Ldks;

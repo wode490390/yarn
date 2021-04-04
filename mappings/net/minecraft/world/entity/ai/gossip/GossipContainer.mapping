@@ -1,0 +1,56 @@
+CLASS bar net/minecraft/world/entity/ai/gossip/GossipContainer
+	FIELD a DISCARD_THRESHOLD I
+	FIELD b gossips Ljava/util/Map;
+	METHOD <init> <init> ()V
+	METHOD a getGossipEntries ()Ljava/util/Map;
+	METHOD a mergeValuesForTransfer (II)I
+	METHOD a lambda$update$8 (Lbar$b;)V
+	METHOD a transferFrom (Lbar;Ljava/util/Random;I)V
+	METHOD a remove (Lbas;)V
+	METHOD a mergeValuesForAddition (Lbas;II)I
+	METHOD a lambda$add$5 (Lbas;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;
+	METHOD a getCountForType (Lbas;Ljava/util/function/DoublePredicate;)J
+	METHOD a lambda$update$7 (Lcom/mojang/serialization/DataResult;)Ljava/util/stream/Stream;
+	METHOD a update (Lcom/mojang/serialization/Dynamic;)V
+	METHOD a store (Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/Dynamic;
+	METHOD a lambda$store$6 (Lcom/mojang/serialization/DynamicOps;Lbar$b;)Lcom/mojang/serialization/Dynamic;
+	METHOD a lambda$unpack$1 (Ljava/util/Map$Entry;)Ljava/util/stream/Stream;
+	METHOD a lambda$getGossipEntries$0 (Ljava/util/Map;Ljava/util/UUID;)V
+	METHOD a selectGossipsForTransfer (Ljava/util/Random;I)Ljava/util/Collection;
+	METHOD a getOrCreate (Ljava/util/UUID;)Lbar$a;
+	METHOD a remove (Ljava/util/UUID;Lbas;)V
+	METHOD a add (Ljava/util/UUID;Lbas;I)V
+	METHOD a getReputation (Ljava/util/UUID;Ljava/util/function/Predicate;)I
+	METHOD a lambda$getCountForType$4 (Ljava/util/function/DoublePredicate;Lbas;Lbar$a;)Z
+	METHOD b decay ()V
+	METHOD b lambda$transferFrom$3 (Lbar$b;)V
+	METHOD b lambda$getOrCreate$2 (Ljava/util/UUID;)Lbar$a;
+	METHOD b remove (Ljava/util/UUID;Lbas;I)V
+	METHOD c unpack ()Ljava/util/stream/Stream;
+	CLASS 1 1
+	CLASS a EntityGossips
+		FIELD a entries Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Lbar$1;)V
+		METHOD a decay ()V
+		METHOD a access$000 (Lbar$a;)Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+		METHOD a makeSureValueIsntTooLowOrTooHigh (Lbas;)V
+		METHOD a lambda$weightedValue$1 (Lit/unimi/dsi/fastutil/objects/Object2IntMap$Entry;)I
+		METHOD a unpack (Ljava/util/UUID;)Ljava/util/stream/Stream;
+		METHOD a lambda$unpack$2 (Ljava/util/UUID;Lit/unimi/dsi/fastutil/objects/Object2IntMap$Entry;)Lbar$b;
+		METHOD a weightedValue (Ljava/util/function/Predicate;)I
+		METHOD a lambda$weightedValue$0 (Ljava/util/function/Predicate;Lit/unimi/dsi/fastutil/objects/Object2IntMap$Entry;)Z
+		METHOD b isEmpty ()Z
+		METHOD b remove (Lbas;)V
+	CLASS b GossipEntry
+		FIELD a TAG_TARGET Ljava/lang/String;
+		FIELD b TAG_TYPE Ljava/lang/String;
+		FIELD c TAG_VALUE Ljava/lang/String;
+		FIELD d target Ljava/util/UUID;
+		FIELD e type Lbas;
+		FIELD f value I
+		METHOD <init> <init> (Ljava/util/UUID;Lbas;I)V
+		METHOD a weightedValue ()I
+		METHOD a load (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/DataResult;
+		METHOD a store (Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/Dynamic;
+		METHOD toString toString ()Ljava/lang/String;

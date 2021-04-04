@@ -1,0 +1,14 @@
+CLASS bkb net/minecraft/world/entity/projectile/ThrowableItemProjectile
+	FIELD b DATA_ITEM_STACK Lvy;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lasp;DDDLbvr;)V
+	METHOD <init> <init> (Lasp;Lasy;Lbvr;)V
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD a readAdditionalSaveData (Lmv;)V
+	METHOD b setItem (Lbpr;)V
+	METHOD b addAdditionalSaveData (Lmv;)V
+	METHOD c lambda$setItem$0 (Lbpr;)V
+	METHOD e defineSynchedData ()V
+	METHOD g getItem ()Lbpr;
+	METHOD h getDefaultItem ()Lbpn;
+	METHOD i getItemRaw ()Lbpr;

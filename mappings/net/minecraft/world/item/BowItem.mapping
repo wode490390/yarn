@@ -1,0 +1,12 @@
+CLASS boa net/minecraft/world/item/BowItem
+	FIELD a MAX_DRAW_DURATION I
+	FIELD b DEFAULT_RANGE I
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a getPowerForTime (I)F
+	METHOD a lambda$releaseUsing$0 (Lbjf;Lbjf;)V
+	METHOD a releaseUsing (Lbpr;Lbvr;Lasy;I)V
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD b getAllSupportedProjectiles ()Ljava/util/function/Predicate;
+	METHOD d getDefaultProjectileRange ()I
+	METHOD d_ getUseAnimation (Lbpr;)Lbrg;
+	METHOD e_ getUseDuration (Lbpr;)I

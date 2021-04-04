@@ -1,0 +1,11 @@
+CLASS cop net/minecraft/world/level/levelgen/GeodeCrackSettings
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b generateCrackChance D
+	FIELD c baseCrackSize D
+	FIELD d crackPointOffset I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (DDI)V
+	METHOD a lambda$static$3 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$2 (Lcop;)Ljava/lang/Integer;
+	METHOD b lambda$null$1 (Lcop;)Ljava/lang/Double;
+	METHOD c lambda$null$0 (Lcop;)Ljava/lang/Double;

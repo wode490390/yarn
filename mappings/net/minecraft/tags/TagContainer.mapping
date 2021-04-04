@@ -1,0 +1,33 @@
+CLASS afu net/minecraft/tags/TagContainer
+	FIELD a EMPTY Lafu;
+	FIELD b LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD c collections Ljava/util/Map;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD <init> <init> (Ljava/util/Map;Lafu$1;)V
+	METHOD a bindToGlobal ()V
+	METHOD a getAll (Lafu$b;)V
+	METHOD a acceptCap (Lafu$b;Lwo;Laft;)V
+	METHOD a serializeToNetwork (Lgs;)Ljava/util/Map;
+	METHOD a addTagsFromPayload (Lgs;Lafu$a;Lwo;Laft$a;)V
+	METHOD a deserializeFromNetwork (Lgs;Ljava/util/Map;)Lafu;
+	METHOD a getOrEmpty (Lwo;)Laft;
+	METHOD a getIdOrThrow (Lwo;Lafs;Ljava/util/function/Supplier;)Lwp;
+	METHOD a getTagOrThrow (Lwo;Lwp;Ljava/util/function/Function;)Lafs;
+	METHOD b access$000 ()Lorg/apache/logging/log4j/Logger;
+	METHOD b lambda$getAll$0 (Lafu$b;Lwo;Laft;)V
+	METHOD b lambda$deserializeFromNetwork$1 (Lgs;Lafu$a;Lwo;Laft$a;)V
+	METHOD b get (Lwo;)Laft;
+	CLASS 1 1
+		FIELD a val$access Lgs;
+		FIELD b val$result Ljava/util/Map;
+		FIELD c this$0 Lafu;
+		METHOD <init> <init> (Lafu;Lgs;Ljava/util/Map;)V
+		METHOD a accept (Lwo;Laft;)V
+	CLASS a Builder
+		FIELD a result Lcom/google/common/collect/ImmutableMap$Builder;
+		METHOD <init> <init> ()V
+		METHOD a build ()Lafu;
+		METHOD a add (Lwo;Laft;)Lafu$a;
+	CLASS b CollectionConsumer
+		METHOD a accept (Lwo;Laft;)V

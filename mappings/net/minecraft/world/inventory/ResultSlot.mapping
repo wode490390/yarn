@@ -1,0 +1,11 @@
+CLASS bmy net/minecraft/world/inventory/ResultSlot
+	FIELD a craftSlots Lblz;
+	FIELD b player Lbjf;
+	FIELD g removeCount I
+	METHOD <init> <init> (Lbjf;Lblz;Laqz;III)V
+	METHOD a remove (I)Lbpr;
+	METHOD a onTake (Lbjf;Lbpr;)V
+	METHOD a mayPlace (Lbpr;)Z
+	METHOD a onQuickCraft (Lbpr;I)V
+	METHOD b onSwapCraft (I)V
+	METHOD c checkTakeAchievements (Lbpr;)V

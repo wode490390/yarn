@@ -1,0 +1,35 @@
+CLASS qb net/minecraft/network/protocol/game/ClientboundCommandsPacket
+	FIELD a MASK_TYPE B
+	FIELD b FLAG_EXECUTABLE B
+	FIELD c FLAG_REDIRECT B
+	FIELD d FLAG_CUSTOM_SUGGESTIONS B
+	FIELD e TYPE_ROOT B
+	FIELD f TYPE_LITERAL B
+	FIELD g TYPE_ARGUMENT B
+	FIELD h root Lcom/mojang/brigadier/tree/RootCommandNode;
+	METHOD <init> <init> (Lcom/mojang/brigadier/tree/RootCommandNode;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a enumerateNodes (Lcom/mojang/brigadier/tree/RootCommandNode;)Lit/unimi/dsi/fastutil/objects/Object2IntMap;
+	METHOD a getNodesInIdOrder (Lit/unimi/dsi/fastutil/objects/Object2IntMap;)Ljava/util/List;
+	METHOD a lambda$write$0 (Lit/unimi/dsi/fastutil/objects/Object2IntMap;Lob;Lcom/mojang/brigadier/tree/CommandNode;)V
+	METHOD a resolveEntries (Ljava/util/List;)V
+	METHOD a lambda$resolveEntries$1 (Ljava/util/List;Lqb$a;)Z
+	METHOD a write (Lob;)V
+	METHOD a createBuilder (Lob;B)Lcom/mojang/brigadier/builder/ArgumentBuilder;
+	METHOD a writeNode (Lob;Lcom/mojang/brigadier/tree/CommandNode;Ljava/util/Map;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getRoot ()Lcom/mojang/brigadier/tree/RootCommandNode;
+	METHOD b readNode (Lob;)Lqb$a;
+	CLASS 1 1
+	CLASS a Entry
+		FIELD a builder Lcom/mojang/brigadier/builder/ArgumentBuilder;
+		FIELD b flags B
+		FIELD c redirect I
+		FIELD d children [I
+		FIELD e node Lcom/mojang/brigadier/tree/CommandNode;
+		METHOD <init> <init> (Lcom/mojang/brigadier/builder/ArgumentBuilder;BI[I)V
+		METHOD <init> <init> (Lcom/mojang/brigadier/builder/ArgumentBuilder;BI[ILqb$1;)V
+		METHOD a lambda$build$0 (Lcom/mojang/brigadier/context/CommandContext;)I
+		METHOD a build (Ljava/util/List;)Z
+		METHOD a access$000 (Lqb$a;)Lcom/mojang/brigadier/tree/CommandNode;

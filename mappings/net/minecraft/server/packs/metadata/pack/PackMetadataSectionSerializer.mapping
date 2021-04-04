@@ -1,0 +1,5 @@
+CLASS act net/minecraft/server/packs/metadata/pack/PackMetadataSectionSerializer
+	METHOD <init> <init> ()V
+	METHOD a getMetadataSectionName ()Ljava/lang/String;
+	METHOD a fromJson (Lcom/google/gson/JsonObject;)Ljava/lang/Object;
+	METHOD b fromJson (Lcom/google/gson/JsonObject;)Lacs;

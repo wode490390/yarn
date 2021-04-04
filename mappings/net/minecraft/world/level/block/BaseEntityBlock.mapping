@@ -1,0 +1,6 @@
+CLASS byd net/minecraft/world/level/block/BaseEntityBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a createTickerHelper (Lchr;Lchr;Lchq;)Lchq;
+	METHOD a triggerEvent (Lcjr;Lbvr;Lgb;II)Z
+	METHOD b getMenuProvider (Lcjr;Lbvr;Lgb;)Larj;
+	METHOD b_ getRenderShape (Lcjr;)Lced;

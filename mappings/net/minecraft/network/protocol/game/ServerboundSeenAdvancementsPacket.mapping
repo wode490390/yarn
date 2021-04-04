@@ -1,0 +1,20 @@
+CLASS um net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket
+	FIELD a action Lum$a;
+	FIELD b tab Lwp;
+	METHOD <init> <init> (Lob;)V
+	METHOD <init> <init> (Lum$a;Lwp;)V
+	METHOD a openedTab (Lad;)Lum;
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lth;)V
+	METHOD b closedScreen ()Lum;
+	METHOD c getAction ()Lum$a;
+	METHOD d getTab ()Lwp;
+	CLASS a Action
+		FIELD a OPENED_TAB Lum$a;
+		FIELD b CLOSED_SCREEN Lum$a;
+		FIELD c $VALUES [Lum$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lum$a;
+		METHOD values values ()[Lum$a;

@@ -1,0 +1,16 @@
+CLASS pp net/minecraft/network/protocol/game/ClientboundAnimatePacket
+	FIELD a SWING_MAIN_HAND I
+	FIELD b HURT I
+	FIELD c WAKE_UP I
+	FIELD d SWING_OFF_HAND I
+	FIELD e CRITICAL_HIT I
+	FIELD f MAGIC_CRITICAL_HIT I
+	FIELD g id I
+	FIELD h action I
+	METHOD <init> <init> (Lasl;I)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getId ()I
+	METHOD c getAction ()I

@@ -1,0 +1,31 @@
+CLASS dip net/minecraft/world/level/storage/loot/functions/CopyNameFunction
+	FIELD a source Ldip$a;
+	METHOD <init> <init> ([Ldkf;Ldip$a;)V
+	METHOD <init> <init> ([Ldkf;Ldip$a;Ldip$1;)V
+	METHOD a getType ()Ldiz;
+	METHOD a run (Lbpr;Ldhn;)Lbpr;
+	METHOD a copyName (Ldip$a;)Ldix$a;
+	METHOD a lambda$copyName$0 (Ldip$a;[Ldkf;)Ldiy;
+	METHOD a access$000 (Ldip;)Ldip$a;
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	CLASS 1 1
+	CLASS a NameSource
+		FIELD a THIS Ldip$a;
+		FIELD b KILLER Ldip$a;
+		FIELD c KILLER_PLAYER Ldip$a;
+		FIELD d BLOCK_ENTITY Ldip$a;
+		FIELD e name Ljava/lang/String;
+		FIELD f param Ldjq;
+		FIELD g $VALUES [Ldip$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;Ldjq;)V
+		METHOD a getByName (Ljava/lang/String;)Ldip$a;
+		METHOD valueOf valueOf (Ljava/lang/String;)Ldip$a;
+		METHOD values values ()[Ldip$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldip;
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldip;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldix;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldix;

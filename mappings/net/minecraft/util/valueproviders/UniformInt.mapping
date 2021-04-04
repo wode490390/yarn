@@ -1,0 +1,18 @@
+CLASS aqs net/minecraft/util/valueproviders/UniformInt
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b minInclusive I
+	FIELD d maxInclusive I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (II)V
+	METHOD a lambda$static$3 (Laqs;)Lcom/mojang/serialization/DataResult;
+	METHOD a lambda$static$2 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a sample (Ljava/util/Random;)I
+	METHOD b getMinValue ()I
+	METHOD b of (II)Laqs;
+	METHOD b lambda$null$1 (Laqs;)Ljava/lang/Integer;
+	METHOD c getMaxValue ()I
+	METHOD c lambda$null$0 (Laqs;)Ljava/lang/Integer;
+	METHOD d getType ()Laqp;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

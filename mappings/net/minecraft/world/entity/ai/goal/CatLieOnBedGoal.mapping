@@ -1,0 +1,9 @@
+CLASS aye net/minecraft/world/entity/ai/goal/CatLieOnBedGoal
+	FIELD g cat Lbdc;
+	METHOD <init> <init> (Lbdc;DI)V
+	METHOD a canUse ()Z
+	METHOD a nextStartTick (Latg;)I
+	METHOD a isValidTarget (Lbvu;Lgb;)Z
+	METHOD c start ()V
+	METHOD d stop ()V
+	METHOD e tick ()V

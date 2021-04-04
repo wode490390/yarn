@@ -1,0 +1,56 @@
+CLASS chm net/minecraft/world/level/block/entity/BeehiveBlockEntity
+	FIELD a TAG_FLOWER_POS Ljava/lang/String;
+	FIELD b MIN_OCCUPATION_TICKS Ljava/lang/String;
+	FIELD c ENTITY_DATA Ljava/lang/String;
+	FIELD d TICKS_IN_HIVE Ljava/lang/String;
+	FIELD e HAS_NECTAR Ljava/lang/String;
+	FIELD f BEES Ljava/lang/String;
+	FIELD g MAX_OCCUPANTS I
+	FIELD h MIN_OCCUPATION_TICKS_NECTARLESS I
+	FIELD i MIN_TICKS_BEFORE_REENTERING_HIVE I
+	FIELD j MIN_OCCUPATION_TICKS_NECTAR I
+	FIELD k stored Ljava/util/List;
+	FIELD l savedFlowerPos Lgb;
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD Z_ setChanged ()V
+	METHOD a setBeeReleaseData (ILbda;)V
+	METHOD a lambda$releaseOccupant$1 (Lasl;)Lasl;
+	METHOD a addOccupant (Lasl;Z)V
+	METHOD a addOccupantWithPresetTicks (Lasl;ZI)V
+	METHOD a emptyAllLivingFromHive (Lbjf;Lcjr;Lchm$b;)V
+	METHOD a releaseOccupant (Lbvr;Lgb;Lcjr;Lchm$a;Ljava/util/List;Lchm$b;Lgb;)Z
+	METHOD a serverTick (Lbvr;Lgb;Lcjr;Lchm;)V
+	METHOD a tickOccupants (Lbvr;Lgb;Lcjr;Ljava/util/List;Lgb;)V
+	METHOD a getHoneyLevel (Lcjr;)I
+	METHOD a releaseAllOccupants (Lcjr;Lchm$b;)Ljava/util/List;
+	METHOD a lambda$releaseAllOccupants$0 (Lcjr;Ljava/util/List;Lchm$b;Lchm$a;)Z
+	METHOD a load (Lmv;)V
+	METHOD a storeBee (Lmv;IZ)V
+	METHOD b save (Lmv;)Lmv;
+	METHOD d isFireNearby ()Z
+	METHOD f isEmpty ()Z
+	METHOD g isFull ()Z
+	METHOD h getOccupantCount ()I
+	METHOD i isSedated ()Z
+	METHOD j writeBees ()Lnb;
+	METHOD s hasSavedFlowerPos ()Z
+	CLASS 1 1
+	CLASS a BeeData
+		FIELD a entityData Lmv;
+		FIELD b ticksInHive I
+		FIELD c minOccupationTicks I
+		METHOD <init> <init> (Lmv;II)V
+		METHOD <init> <init> (Lmv;IILchm$1;)V
+		METHOD a access$100 (Lchm$a;)Lmv;
+		METHOD b access$200 (Lchm$a;)I
+		METHOD c access$300 (Lchm$a;)I
+		METHOD d access$208 (Lchm$a;)I
+	CLASS b BeeReleaseStatus
+		FIELD a HONEY_DELIVERED Lchm$b;
+		FIELD b BEE_RELEASED Lchm$b;
+		FIELD c EMERGENCY Lchm$b;
+		FIELD d $VALUES [Lchm$b;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lchm$b;
+		METHOD values values ()[Lchm$b;

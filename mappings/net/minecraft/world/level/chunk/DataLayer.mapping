@@ -1,0 +1,20 @@
+CLASS clp net/minecraft/world/level/chunk/DataLayer
+	FIELD a SIZE I
+	FIELD b LAYER_SIZE I
+	FIELD c data [B
+	FIELD d NIBBLE_SIZE I
+	METHOD <init> <init> ()V
+	METHOD <init> <init> (I)V
+	METHOD <init> <init> ([B)V
+	METHOD a getData ()[B
+	METHOD a layerToString (I)Ljava/lang/String;
+	METHOD a set (II)V
+	METHOD a get (III)I
+	METHOD a set (IIII)V
+	METHOD b copy ()Lclp;
+	METHOD b get (I)I
+	METHOD b getIndex (III)I
+	METHOD c isEmpty ()Z
+	METHOD c isFirst (I)Z
+	METHOD d getPosition (I)I
+	METHOD toString toString ()Ljava/lang/String;

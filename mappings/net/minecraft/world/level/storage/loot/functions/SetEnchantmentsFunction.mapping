@@ -1,0 +1,35 @@
+CLASS djg net/minecraft/world/level/storage/loot/functions/SetEnchantmentsFunction
+	FIELD a enchantments Ljava/util/Map;
+	FIELD b add Z
+	METHOD <init> <init> ([Ldkf;Ljava/util/Map;Z)V
+	METHOD <init> <init> ([Ldkf;Ljava/util/Map;ZLdjg$1;)V
+	METHOD a getType ()Ldiz;
+	METHOD a lambda$run$2 (Lbpr;Lbtl;Ljava/lang/Integer;)V
+	METHOD a run (Lbpr;Ldhn;)Lbpr;
+	METHOD a access$100 (Ldjg;)Ljava/util/Map;
+	METHOD a lambda$getReferencedContextParams$0 (Ldla;)Ljava/util/stream/Stream;
+	METHOD a lambda$run$1 (Lit/unimi/dsi/fastutil/objects/Object2IntMap;Ldhn;Lbtl;Ldla;)V
+	METHOD a updateEnchantment (Ljava/util/Map;Lbtl;I)V
+	METHOD a lambda$run$4 (Ljava/util/Map;Lbtl;Ljava/lang/Integer;)V
+	METHOD b getReferencedContextParams ()Ljava/util/Set;
+	METHOD b access$200 (Ldjg;)Z
+	METHOD b lambda$run$3 (Ljava/util/Map;Lbtl;Ljava/lang/Integer;)V
+	CLASS 1 1
+	CLASS a Builder
+		FIELD a enchantments Ljava/util/Map;
+		FIELD b add Z
+		METHOD <init> <init> ()V
+		METHOD <init> <init> (Z)V
+		METHOD a getThis ()Ldjg$a;
+		METHOD a withEnchantment (Lbtl;Ldla;)Ldjg$a;
+		METHOD b build ()Ldiy;
+		METHOD d getThis ()Ldix$a;
+	CLASS b Serializer
+		METHOD <init> <init> ()V
+		METHOD a deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldjg;
+		METHOD a lambda$serialize$0 (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonSerializationContext;Lbtl;Ldla;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldix;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ldjg;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a serialize (Lcom/google/gson/JsonObject;Ljava/lang/Object;Lcom/google/gson/JsonSerializationContext;)V
+		METHOD a lambda$deserialize$1 (Ljava/lang/String;)Lcom/google/gson/JsonSyntaxException;
+		METHOD b deserialize (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;[Ldkf;)Ldix;

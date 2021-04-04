@@ -1,0 +1,23 @@
+CLASS axy net/minecraft/world/entity/ai/goal/AvoidEntityGoal
+	FIELD a mob Latg;
+	FIELD b toAvoid Lasy;
+	FIELD c maxDist F
+	FIELD d path Ldfy;
+	FIELD e pathNav Lbbb;
+	FIELD f avoidClass Ljava/lang/Class;
+	FIELD g avoidPredicate Ljava/util/function/Predicate;
+	FIELD h predicateOnAvoidEntity Ljava/util/function/Predicate;
+	FIELD i walkSpeedModifier D
+	FIELD j sprintSpeedModifier D
+	FIELD k avoidEntityTargeting Lbcb;
+	METHOD <init> <init> (Latg;Ljava/lang/Class;FDD)V
+	METHOD <init> <init> (Latg;Ljava/lang/Class;FDDLjava/util/function/Predicate;)V
+	METHOD <init> <init> (Latg;Ljava/lang/Class;Ljava/util/function/Predicate;FDDLjava/util/function/Predicate;)V
+	METHOD a canUse ()Z
+	METHOD a lambda$canUse$2 (Lasy;)Z
+	METHOD b canContinueToUse ()Z
+	METHOD b lambda$new$1 (Lasy;)Z
+	METHOD c start ()V
+	METHOD c lambda$new$0 (Lasy;)Z
+	METHOD d stop ()V
+	METHOD e tick ()V

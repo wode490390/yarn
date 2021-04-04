@@ -1,0 +1,15 @@
+CLASS awj net/minecraft/world/entity/ai/behavior/SetWalkTargetAwayFrom
+	FIELD a walkAwayFromMemory Lbav;
+	FIELD c speedModifier F
+	FIELD d desiredDistance I
+	FIELD e toPosition Ljava/util/function/Function;
+	METHOD <init> <init> (Lbav;FIZLjava/util/function/Function;)V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a checkExtraStartConditions (Labj;Latg;)Z
+	METHOD a start (Labj;Latg;J)V
+	METHOD a getPosToAvoid (Latg;)Ldly;
+	METHOD a moveAwayFrom (Latg;Ldly;F)V
+	METHOD a pos (Lbav;FIZ)Lawj;
+	METHOD b alreadyWalkingAwayFromPosWithSameSpeed (Latg;)Z
+	METHOD b entity (Lbav;FIZ)Lawj;

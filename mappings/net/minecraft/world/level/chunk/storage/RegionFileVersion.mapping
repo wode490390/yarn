@@ -1,0 +1,20 @@
+CLASS cmp net/minecraft/world/level/chunk/storage/RegionFileVersion
+	FIELD a VERSION_GZIP Lcmp;
+	FIELD b VERSION_DEFLATE Lcmp;
+	FIELD c VERSION_NONE Lcmp;
+	FIELD d VERSIONS Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;
+	FIELD e id I
+	FIELD f inputWrapper Lcmp$a;
+	FIELD g outputWrapper Lcmp$a;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILcmp$a;Lcmp$a;)V
+	METHOD a getId ()I
+	METHOD a fromId (I)Lcmp;
+	METHOD a register (Lcmp;)Lcmp;
+	METHOD a wrap (Ljava/io/InputStream;)Ljava/io/InputStream;
+	METHOD a wrap (Ljava/io/OutputStream;)Ljava/io/OutputStream;
+	METHOD b isValidVersion (I)Z
+	METHOD b lambda$static$0 (Ljava/io/InputStream;)Ljava/io/InputStream;
+	METHOD b lambda$static$1 (Ljava/io/OutputStream;)Ljava/io/OutputStream;
+	CLASS a StreamWrapper
+		METHOD wrap wrap (Ljava/lang/Object;)Ljava/lang/Object;

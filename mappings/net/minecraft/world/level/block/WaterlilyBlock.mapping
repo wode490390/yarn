@@ -1,0 +1,7 @@
+CLASS cgq net/minecraft/world/level/block/WaterlilyBlock
+	FIELD a AABB Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a entityInside (Lcjr;Lbvr;Lgb;Lasl;)V
+	METHOD d mayPlaceOn (Lcjr;Lbuv;Lgb;)Z

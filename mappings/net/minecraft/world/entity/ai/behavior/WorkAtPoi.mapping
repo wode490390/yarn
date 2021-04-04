@@ -1,0 +1,13 @@
+CLASS axm net/minecraft/world/entity/ai/behavior/WorkAtPoi
+	FIELD a CHECK_COOLDOWN I
+	FIELD c DISTANCE D
+	FIELD d lastCheck J
+	METHOD <init> <init> ()V
+	METHOD a checkExtraStartConditions (Labj;Lasy;)Z
+	METHOD a start (Labj;Lasy;J)V
+	METHOD a useWorkstation (Labj;Lbis;)V
+	METHOD a start (Labj;Lbis;J)V
+	METHOD a lambda$start$0 (Lats;Lgj;)V
+	METHOD b canStillUse (Labj;Lasy;J)Z
+	METHOD b checkExtraStartConditions (Labj;Lbis;)Z
+	METHOD b canStillUse (Labj;Lbis;J)Z

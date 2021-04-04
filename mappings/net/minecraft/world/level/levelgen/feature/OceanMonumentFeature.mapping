@@ -1,0 +1,13 @@
+CLASS csa net/minecraft/world/level/levelgen/feature/OceanMonumentFeature
+	FIELD v MONUMENT_ENEMIES Laqa;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getStartFactory ()Lcsv$a;
+	METHOD a isFeatureChunk (Lclm;Lbwt;JLcph;Lbuw;Lbwq;Lbuw;Lcua;Lbvt;)Z
+	METHOD a isFeatureChunk (Lclm;Lbwt;JLcph;Lbuw;Lbwq;Lbuw;Lcum;Lbvt;)Z
+	METHOD b linearSeparation ()Z
+	METHOD c getSpecialEnemies ()Laqa;
+	CLASS a OceanMonumentStart
+		METHOD <init> <init> (Lcsv;Lbuw;IJ)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcua;Lbvt;)V
+		METHOD a generatePieces (Lgs;Lclm;Ldbn;Lbuw;Lbwq;Lcum;Lbvt;)V

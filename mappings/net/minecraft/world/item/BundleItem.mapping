@@ -1,0 +1,27 @@
+CLASS bod net/minecraft/world/item/BundleItem
+	FIELD a MAX_WEIGHT I
+	FIELD b TAG_ITEMS Ljava/lang/String;
+	FIELD c BUNDLE_IN_BUNDLE_WEIGHT I
+	FIELD d BAR_COLOR I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD a onDestroyed (Lbge;)V
+	METHOD a dropContents (Lbpr;Lbjf;)Z
+	METHOD a overrideStackedOnOther (Lbpr;Lbnc;Lblt;Lbjf;)Z
+	METHOD a lambda$overrideStackedOnOther$0 (Lbpr;Lbnc;Lbpr;)V
+	METHOD a overrideOtherStackedOnMe (Lbpr;Lbpr;Lbnc;Lblt;Lbjf;Lato;)Z
+	METHOD a appendHoverText (Lbpr;Lbvr;Ljava/util/List;Lbre;)V
+	METHOD a lambda$getMatchingItem$1 (Lbpr;Lmv;)Z
+	METHOD a getMatchingItem (Lbpr;Lnb;)Ljava/util/Optional;
+	METHOD a use (Lbvr;Lbjf;Larf;)Larh;
+	METHOD b add (Lbpr;Lbpr;)I
+	METHOD d getFullnessDisplay (Lbpr;)F
+	METHOD e isBarVisible (Lbpr;)Z
+	METHOD f getBarWidth (Lbpr;)I
+	METHOD g getBarColor (Lbpr;)I
+	METHOD h getTooltipImage (Lbpr;)Ljava/util/Optional;
+	METHOD k getWeight (Lbpr;)I
+	METHOD o getContentWeight (Lbpr;)I
+	METHOD p removeOne (Lbpr;)Ljava/util/Optional;
+	METHOD q getContents (Lbpr;)Ljava/util/stream/Stream;
+	METHOD r lambda$getContentWeight$2 (Lbpr;)I

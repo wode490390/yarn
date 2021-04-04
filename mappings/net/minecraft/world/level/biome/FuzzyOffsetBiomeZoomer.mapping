@@ -1,0 +1,14 @@
+CLASS bwz net/minecraft/world/level/biome/FuzzyOffsetBiomeZoomer
+	FIELD a INSTANCE Lbwz;
+	FIELD b ZOOM_BITS I
+	FIELD c ZOOM I
+	FIELD d ZOOM_MASK I
+	FIELD e $VALUES [Lbwz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a sqr (D)D
+	METHOD a getFiddle (J)D
+	METHOD a getFiddledDistance (JIIIDDD)D
+	METHOD a getBiome (JIIILbws$a;)Lbwq;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lbwz;
+	METHOD values values ()[Lbwz;

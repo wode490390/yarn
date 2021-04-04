@@ -1,0 +1,8 @@
+CLASS cpv net/minecraft/world/level/levelgen/feature/BambooFeature
+	FIELD a BAMBOO_TRUNK Lcjr;
+	FIELD b BAMBOO_FINAL_LARGE Lcjr;
+	FIELD c BAMBOO_TOP_LARGE Lcjr;
+	FIELD d BAMBOO_TOP_SMALL Lcjr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a place (Lcqz;)Z

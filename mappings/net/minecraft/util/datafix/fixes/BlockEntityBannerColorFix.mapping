@@ -1,0 +1,9 @@
+CLASS ahv net/minecraft/util/datafix/fixes/BlockEntityBannerColorFix
+	METHOD <init> <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+	METHOD a fix (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+	METHOD a fixTag (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD a lambda$null$3 (Ljava/util/stream/Stream;)Ljava/util/stream/Stream;
+	METHOD b lambda$fixTag$4 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD c lambda$null$2 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD d lambda$null$1 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+	METHOD e lambda$fixTag$0 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;

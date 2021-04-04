@@ -1,0 +1,10 @@
+CLASS gv net/minecraft/core/SerializableUUID
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a leastMostToIntArray (JJ)[I
+	METHOD a readUUID (Lcom/mojang/serialization/Dynamic;)Ljava/util/UUID;
+	METHOD a uuidToIntArray (Ljava/util/UUID;)[I
+	METHOD a lambda$static$0 (Ljava/util/stream/IntStream;)Lcom/mojang/serialization/DataResult;
+	METHOD a uuidFromIntArray ([I)Ljava/util/UUID;
+	METHOD b lambda$static$1 (Ljava/util/UUID;)Ljava/util/stream/IntStream;

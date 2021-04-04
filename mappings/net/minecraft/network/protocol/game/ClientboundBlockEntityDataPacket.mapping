@@ -1,0 +1,25 @@
+CLASS pt net/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket
+	FIELD a TYPE_MOB_SPAWNER I
+	FIELD b TYPE_ADV_COMMAND I
+	FIELD c TYPE_BEACON I
+	FIELD d TYPE_SKULL I
+	FIELD e TYPE_CONDUIT I
+	FIELD f TYPE_BANNER I
+	FIELD g TYPE_STRUCT_COMMAND I
+	FIELD h TYPE_END_GATEWAY I
+	FIELD i TYPE_SIGN I
+	FIELD j TYPE_BED I
+	FIELD k TYPE_JIGSAW I
+	FIELD l TYPE_CAMPFIRE I
+	FIELD m TYPE_BEEHIVE I
+	FIELD n pos Lgb;
+	FIELD o type I
+	FIELD p tag Lmv;
+	METHOD <init> <init> (Lgb;ILmv;)V
+	METHOD <init> <init> (Lob;)V
+	METHOD a write (Lob;)V
+	METHOD a handle (Loe;)V
+	METHOD a handle (Lpi;)V
+	METHOD b getPos ()Lgb;
+	METHOD c getType ()I
+	METHOD d getTag ()Lmv;

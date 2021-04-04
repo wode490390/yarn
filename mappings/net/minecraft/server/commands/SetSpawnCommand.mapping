@@ -1,0 +1,9 @@
+CLASS zk net/minecraft/server/commands/SetSpawnCommand
+	METHOD <init> <init> ()V
+	METHOD a register (Lcom/mojang/brigadier/CommandDispatcher;)V
+	METHOD a lambda$register$4 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD a lambda$register$0 (Ldg;)Z
+	METHOD a setSpawn (Ldg;Ljava/util/Collection;Lgb;F)I
+	METHOD b lambda$register$3 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD c lambda$register$2 (Lcom/mojang/brigadier/context/CommandContext;)I
+	METHOD d lambda$register$1 (Lcom/mojang/brigadier/context/CommandContext;)I

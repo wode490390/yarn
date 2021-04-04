@@ -1,0 +1,16 @@
+CLASS cmu net/minecraft/world/level/dimension/LevelStem
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b OVERWORLD Lwo;
+	FIELD c NETHER Lwo;
+	FIELD d END Lwo;
+	FIELD e BUILTIN_ORDER Ljava/util/Set;
+	FIELD f type Ljava/util/function/Supplier;
+	FIELD g generator Lclm;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Supplier;Lclm;)V
+	METHOD a typeSupplier ()Ljava/util/function/Supplier;
+	METHOD a stable (JLgm;)Z
+	METHOD a lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a sortMap (Lgm;)Lgm;
+	METHOD b type ()Lcmt;
+	METHOD c generator ()Lclm;

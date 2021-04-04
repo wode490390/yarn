@@ -1,0 +1,10 @@
+CLASS dcj net/minecraft/world/level/levelgen/surfacebuilders/SoulSandValleySurfaceBuilder
+	FIELD a SOUL_SAND Lcjr;
+	FIELD b SOUL_SOIL Lcjr;
+	FIELD c GRAVEL Lcjr;
+	FIELD d BLOCK_STATES Lcom/google/common/collect/ImmutableList;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcom/mojang/serialization/Codec;)V
+	METHOD a getFloorBlockStates ()Lcom/google/common/collect/ImmutableList;
+	METHOD b getCeilingBlockStates ()Lcom/google/common/collect/ImmutableList;
+	METHOD c getPatchBlockState ()Lcjr;

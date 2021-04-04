@@ -1,0 +1,14 @@
+CLASS ckz net/minecraft/world/level/block/state/properties/StairsShape
+	FIELD a STRAIGHT Lckz;
+	FIELD b INNER_LEFT Lckz;
+	FIELD c INNER_RIGHT Lckz;
+	FIELD d OUTER_LEFT Lckz;
+	FIELD e OUTER_RIGHT Lckz;
+	FIELD f name Ljava/lang/String;
+	FIELD g $VALUES [Lckz;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;ILjava/lang/String;)V
+	METHOD c getSerializedName ()Ljava/lang/String;
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lckz;
+	METHOD values values ()[Lckz;

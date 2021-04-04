@@ -1,0 +1,12 @@
+CLASS bbd net/minecraft/world/entity/ai/navigation/WaterBoundPathNavigation
+	FIELD p allowBreaching Z
+	METHOD <init> <init> (Lasz;Lbvr;)V
+	METHOD a canUpdatePath ()Z
+	METHOD a createPathFinder (I)Ldga;
+	METHOD a doStuckDetection (Ldly;)V
+	METHOD a canMoveDirectly (Ldly;Ldly;III)Z
+	METHOD a isStableDestination (Lgb;)Z
+	METHOD b getTempMobPos ()Ldly;
+	METHOD c tick ()V
+	METHOD d setCanFloat (Z)V
+	METHOD l followThePath ()V

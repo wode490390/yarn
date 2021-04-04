@@ -1,0 +1,7 @@
+CLASS cff net/minecraft/world/level/block/SpawnerBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getCloneItemStack (Lbuv;Lgb;Lcjr;)Lbpr;
+	METHOD a getTicker (Lbvr;Lcjr;Lchr;)Lchq;
+	METHOD a spawnAfterBreak (Lcjr;Labj;Lgb;Lbpr;)V
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;
+	METHOD b_ getRenderShape (Lcjr;)Lced;

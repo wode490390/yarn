@@ -1,0 +1,11 @@
+CLASS mu net/minecraft/nbt/CollectionTag
+	METHOD <init> <init> ()V
+	METHOD a setTag (ILnn;)Z
+	METHOD add add (ILjava/lang/Object;)V
+	METHOD b addTag (ILnn;)Z
+	METHOD c remove (I)Lnn;
+	METHOD c add (ILnn;)V
+	METHOD d set (ILnn;)Lnn;
+	METHOD d_ getElementType ()B
+	METHOD remove remove (I)Ljava/lang/Object;
+	METHOD set set (ILjava/lang/Object;)Ljava/lang/Object;

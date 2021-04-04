@@ -1,0 +1,9 @@
+CLASS ccv net/minecraft/world/level/block/LoomBlock
+	FIELD a CONTAINER_TITLE Lon;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a lambda$getMenuProvider$0 (Lbvr;Lgb;ILbje;Lbjf;)Lbll;
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD b getMenuProvider (Lcjr;Lbvr;Lgb;)Larj;

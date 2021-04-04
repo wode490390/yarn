@@ -1,0 +1,45 @@
+CLASS coh net/minecraft/world/level/levelgen/Column
+	METHOD <init> <init> ()V
+	METHOD a line ()Lcoh;
+	METHOD a below (I)Lcoh;
+	METHOD a around (II)Lcoh$b;
+	METHOD a scanDirection (Lbvx;ILjava/util/function/Predicate;Ljava/util/function/Predicate;Lgb$a;ILgg;)Ljava/util/OptionalInt;
+	METHOD a scan (Lbvx;Lgb;ILjava/util/function/Predicate;Ljava/util/function/Predicate;)Ljava/util/Optional;
+	METHOD a withFloor (Ljava/util/OptionalInt;)Lcoh;
+	METHOD a create (Ljava/util/OptionalInt;Ljava/util/OptionalInt;)Lcoh;
+	METHOD b getCeiling ()Ljava/util/OptionalInt;
+	METHOD b fromHighest (I)Lcoh;
+	METHOD b inside (II)Lcoh$b;
+	METHOD b withCeiling (Ljava/util/OptionalInt;)Lcoh;
+	METHOD c getFloor ()Ljava/util/OptionalInt;
+	METHOD c above (I)Lcoh;
+	METHOD d getHeight ()Ljava/util/OptionalInt;
+	METHOD d fromLowest (I)Lcoh;
+	CLASS a Line
+		FIELD a INSTANCE Lcoh$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> ()V
+		METHOD b getCeiling ()Ljava/util/OptionalInt;
+		METHOD c getFloor ()Ljava/util/OptionalInt;
+		METHOD d getHeight ()Ljava/util/OptionalInt;
+		METHOD e access$000 ()Lcoh$a;
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS b Range
+		FIELD a floor I
+		FIELD b ceiling I
+		METHOD <init> <init> (II)V
+		METHOD b getCeiling ()Ljava/util/OptionalInt;
+		METHOD c getFloor ()Ljava/util/OptionalInt;
+		METHOD d getHeight ()Ljava/util/OptionalInt;
+		METHOD e ceiling ()I
+		METHOD f floor ()I
+		METHOD g height ()I
+		METHOD toString toString ()Ljava/lang/String;
+	CLASS c Ray
+		FIELD a edge I
+		FIELD b pointingUp Z
+		METHOD <init> <init> (IZ)V
+		METHOD b getCeiling ()Ljava/util/OptionalInt;
+		METHOD c getFloor ()Ljava/util/OptionalInt;
+		METHOD d getHeight ()Ljava/util/OptionalInt;
+		METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,5 @@
+CLASS ayk net/minecraft/world/entity/ai/goal/FloatGoal
+	FIELD a mob Lasz;
+	METHOD <init> <init> (Lasz;)V
+	METHOD a canUse ()Z
+	METHOD e tick ()V

@@ -1,0 +1,9 @@
+CLASS cug net/minecraft/world/level/levelgen/feature/configurations/JigsawConfiguration
+	FIELD a CODEC Lcom/mojang/serialization/Codec;
+	FIELD b startPool Ljava/util/function/Supplier;
+	FIELD c maxDepth I
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/util/function/Supplier;I)V
+	METHOD a lambda$static$0 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD b maxDepth ()I
+	METHOD c startPool ()Ljava/util/function/Supplier;

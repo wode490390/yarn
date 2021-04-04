@@ -1,0 +1,9 @@
+CLASS bfw net/minecraft/world/entity/decoration/GlowItemFrame
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;Lgb;Lgg;)V
+	METHOD g getRemoveItemSound ()Laev;
+	METHOD h getBreakSound ()Laev;
+	METHOD i getPlaceSound ()Laev;
+	METHOD k getAddItemSound ()Laev;
+	METHOD m getRotateItemSound ()Laev;
+	METHOD n getFrameItemStack ()Lbpr;

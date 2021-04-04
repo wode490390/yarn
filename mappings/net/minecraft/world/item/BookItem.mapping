@@ -1,0 +1,4 @@
+CLASS bny net/minecraft/world/item/BookItem
+	METHOD <init> <init> (Lbpn$a;)V
+	METHOD c getEnchantmentValue ()I
+	METHOD f_ isEnchantable (Lbpr;)Z

@@ -1,0 +1,17 @@
+CLASS coo net/minecraft/world/level/levelgen/GeodeBlockSettings
+	FIELD a fillingProvider Lcwd;
+	FIELD b innerLayerProvider Lcwd;
+	FIELD c alternateInnerLayerProvider Lcwd;
+	FIELD d middleLayerProvider Lcwd;
+	FIELD e outerLayerProvider Lcwd;
+	FIELD f innerPlacements Ljava/util/List;
+	FIELD g CODEC Lcom/mojang/serialization/Codec;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcwd;Lcwd;Lcwd;Lcwd;Lcwd;Ljava/util/List;)V
+	METHOD a lambda$static$6 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+	METHOD a lambda$null$5 (Lcoo;)Ljava/util/List;
+	METHOD b lambda$null$4 (Lcoo;)Lcwd;
+	METHOD c lambda$null$3 (Lcoo;)Lcwd;
+	METHOD d lambda$null$2 (Lcoo;)Lcwd;
+	METHOD e lambda$null$1 (Lcoo;)Lcwd;
+	METHOD f lambda$null$0 (Lcoo;)Lcwd;

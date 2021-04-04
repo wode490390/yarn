@@ -1,0 +1,29 @@
+CLASS afq net/minecraft/tags/StaticTagHelper
+	FIELD a key Lwo;
+	FIELD b directory Ljava/lang/String;
+	FIELD c source Laft;
+	FIELD d wrappers Ljava/util/List;
+	METHOD <init> <init> (Lwo;Ljava/lang/String;)V
+	METHOD a resetToEmpty ()V
+	METHOD a lambda$addToCollection$3 (Lafq$a;)Lafs;
+	METHOD a lambda$resetToEmpty$1 (Lafs;Lafq$a;)V
+	METHOD a lambda$null$0 (Lafs;Lwp;)Lafs;
+	METHOD a lambda$reset$2 (Laft;Lafq$a;)V
+	METHOD a addToCollection (Lafu$a;)V
+	METHOD a reset (Lafu;)V
+	METHOD a bind (Ljava/lang/String;)Lafs$e;
+	METHOD b getAllTags ()Laft;
+	METHOD b getMissingTags (Lafu;)Ljava/util/Set;
+	METHOD c getKey ()Lwo;
+	METHOD d getDirectory ()Ljava/lang/String;
+	CLASS 1 1
+	CLASS a Wrapper
+		FIELD a name Lwp;
+		FIELD b tag Lafs;
+		METHOD <init> <init> (Lwp;)V
+		METHOD <init> <init> (Lwp;Lafq$1;)V
+		METHOD a getName ()Lwp;
+		METHOD a contains (Ljava/lang/Object;)Z
+		METHOD a rebind (Ljava/util/function/Function;)V
+		METHOD b getValues ()Ljava/util/List;
+		METHOD c resolve ()Lafs;

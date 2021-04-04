@@ -1,0 +1,14 @@
+CLASS ep net/minecraft/commands/arguments/coordinates/BlockPosArgument
+	FIELD a ERROR_NOT_LOADED Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD b ERROR_OUT_OF_WORLD Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD c ERROR_OUT_OF_BOUNDS Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+	FIELD d EXAMPLES Ljava/util/Collection;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a blockPos ()Lep;
+	METHOD a parse (Lcom/mojang/brigadier/StringReader;)Ler;
+	METHOD a getLoadedBlockPos (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lgb;
+	METHOD b getSpawnablePos (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lgb;
+	METHOD getExamples getExamples ()Ljava/util/Collection;
+	METHOD listSuggestions listSuggestions (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+	METHOD parse parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;

@@ -1,0 +1,20 @@
+CLASS atx net/minecraft/world/entity/ai/attributes/AttributeSupplier
+	FIELD a instances Ljava/util/Map;
+	METHOD <init> <init> (Ljava/util/Map;)V
+	METHOD a builder ()Latx$a;
+	METHOD a getValue (Latt;)D
+	METHOD a getModifierValue (Latt;Ljava/util/UUID;)D
+	METHOD a createInstance (Ljava/util/function/Consumer;Latt;)Latu;
+	METHOD b getBaseValue (Latt;)D
+	METHOD b hasModifier (Latt;Ljava/util/UUID;)Z
+	METHOD c hasAttribute (Latt;)Z
+	METHOD d getAttributeInstance (Latt;)Latu;
+	CLASS a Builder
+		FIELD a builder Ljava/util/Map;
+		FIELD b instanceFrozen Z
+		METHOD <init> <init> ()V
+		METHOD a build ()Latx;
+		METHOD a add (Latt;)Latx$a;
+		METHOD a add (Latt;D)Latx$a;
+		METHOD a lambda$create$0 (Latt;Latu;)V
+		METHOD b create (Latt;)Latu;

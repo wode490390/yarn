@@ -1,0 +1,12 @@
+CLASS bqh net/minecraft/world/item/RecordItem
+	FIELD a BY_NAME Ljava/util/Map;
+	FIELD b analogOutput I
+	FIELD c sound Laev;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (ILaev;Lbpn$a;)V
+	METHOD a getBySound (Laev;)Lbqh;
+	METHOD a appendHoverText (Lbpr;Lbvr;Ljava/util/List;Lbre;)V
+	METHOD a useOn (Lbrt;)Larg;
+	METHOD i getAnalogOutput ()I
+	METHOD j getDisplayName ()Lot;
+	METHOD x getSound ()Laev;

@@ -1,0 +1,20 @@
+CLASS biz net/minecraft/world/entity/npc/WanderingTraderSpawner
+	FIELD a DEFAULT_SPAWN_DELAY I
+	FIELD b DEFAULT_TICK_DELAY I
+	FIELD c MIN_SPAWN_CHANCE I
+	FIELD d MAX_SPAWN_CHANCE I
+	FIELD e SPAWN_CHANCE_INCREASE I
+	FIELD f SPAWN_ONE_IN_X_CHANCE I
+	FIELD g NUMBER_OF_SPAWN_ATTEMPTS I
+	FIELD h random Ljava/util/Random;
+	FIELD i serverLevelData Ldhf;
+	FIELD j tickDelay I
+	FIELD k spawnDelay I
+	FIELD l spawnChance I
+	METHOD <init> <init> (Ldhf;)V
+	METHOD a spawn (Labj;)Z
+	METHOD a tryToSpawnLlamaFor (Labj;Lbiy;I)V
+	METHOD a tick (Labj;ZZ)I
+	METHOD a hasEnoughSpace (Lbuv;Lgb;)Z
+	METHOD a findSpawnPositionNear (Lbvu;Lgb;I)Lgb;
+	METHOD a lambda$spawn$0 (Lgb;)Z

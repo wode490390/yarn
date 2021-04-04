@@ -1,0 +1,27 @@
+CLASS can net/minecraft/world/level/block/DoubleBlockCombiner
+	METHOD <init> <init> ()V
+	METHOD a combineWithNeigbour (Lchr;Ljava/util/function/Function;Ljava/util/function/Function;Lckl;Lcjr;Lbvs;Lgb;Ljava/util/function/BiPredicate;)Lcan$c;
+	CLASS a BlockType
+		FIELD a SINGLE Lcan$a;
+		FIELD b FIRST Lcan$a;
+		FIELD c SECOND Lcan$a;
+		FIELD d $VALUES [Lcan$a;
+		METHOD <clinit> <clinit> ()V
+		METHOD <init> <init> (Ljava/lang/String;I)V
+		METHOD valueOf valueOf (Ljava/lang/String;)Lcan$a;
+		METHOD values values ()[Lcan$a;
+	CLASS b Combiner
+		METHOD a acceptSingle (Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD a acceptDouble (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+		METHOD b acceptNone ()Ljava/lang/Object;
+	CLASS c NeighborCombineResult
+		METHOD apply apply (Lcan$b;)Ljava/lang/Object;
+		CLASS a Double
+			FIELD a first Ljava/lang/Object;
+			FIELD b second Ljava/lang/Object;
+			METHOD <init> <init> (Ljava/lang/Object;Ljava/lang/Object;)V
+			METHOD apply apply (Lcan$b;)Ljava/lang/Object;
+		CLASS b Single
+			FIELD a single Ljava/lang/Object;
+			METHOD <init> <init> (Ljava/lang/Object;)V
+			METHOD apply apply (Lcan$b;)Ljava/lang/Object;

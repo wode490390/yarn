@@ -1,0 +1,8 @@
+CLASS bgm net/minecraft/world/entity/monster/CrossbowAttackMob
+	METHOD G getTarget ()Lasy;
+	METHOD W_ onCrossbowAttackPerformed ()V
+	METHOD a shootCrossbowProjectile (Lasy;Lasy;Lbjv;FF)V
+	METHOD a shootCrossbowProjectile (Lasy;Lbpr;Lbjv;F)V
+	METHOD a getProjectileShotVector (Lasy;Ldly;F)Lk;
+	METHOD b performCrossbowAttack (Lasy;F)V
+	METHOD b setChargingCrossbow (Z)V

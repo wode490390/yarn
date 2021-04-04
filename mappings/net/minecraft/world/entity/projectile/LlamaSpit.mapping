@@ -1,0 +1,8 @@
+CLASS bju net/minecraft/world/entity/projectile/LlamaSpit
+	METHOD <init> <init> (Lasp;Lbvr;)V
+	METHOD <init> <init> (Lbvr;Lben;)V
+	METHOD a onHitBlock (Ldlu;)V
+	METHOD a onHitEntity (Ldlv;)V
+	METHOD a recreateFromPacket (Lpj;)V
+	METHOD e defineSynchedData ()V
+	METHOD j tick ()V

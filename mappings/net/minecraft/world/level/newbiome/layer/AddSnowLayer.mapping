@@ -1,0 +1,8 @@
+CLASS del net/minecraft/world/level/newbiome/layer/AddSnowLayer
+	FIELD a INSTANCE Ldel;
+	FIELD ar $VALUES [Ldel;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Ljava/lang/String;I)V
+	METHOD a apply (Ldee;I)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Ldel;
+	METHOD values values ()[Ldel;

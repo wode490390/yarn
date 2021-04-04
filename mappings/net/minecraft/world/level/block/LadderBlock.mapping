@@ -1,0 +1,22 @@
+CLASS ccj net/minecraft/world/level/block/LadderBlock
+	FIELD a FACING Lckl;
+	FIELD b WATERLOGGED Lcki;
+	FIELD c AABB_OFFSET F
+	FIELD d EAST_AABB Ldmr;
+	FIELD e WEST_AABB Ldmr;
+	FIELD f SOUTH_AABB Ldmr;
+	FIELD g NORTH_AABB Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a canAttachTo (Lbuv;Lgb;Lgg;)Z
+	METHOD a getShape (Lcjr;Lbuv;Lgb;Ldmd;)Ldmr;
+	METHOD a canSurvive (Lcjr;Lbvu;Lgb;)Z
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a updateShape (Lcjr;Lgg;Lcjr;Lbvs;Lgb;Lgb;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD c_ getFluidState (Lcjr;)Lddq;
+	CLASS 1 1
+		FIELD a $SwitchMap$net$minecraft$core$Direction [I
+		METHOD <clinit> <clinit> ()V

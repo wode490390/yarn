@@ -1,0 +1,11 @@
+CLASS dbm net/minecraft/world/level/levelgen/structure/templatesystem/RuleTestType
+	FIELD a ALWAYS_TRUE_TEST Ldbm;
+	FIELD b BLOCK_TEST Ldbm;
+	FIELD c BLOCKSTATE_TEST Ldbm;
+	FIELD d TAG_TEST Ldbm;
+	FIELD e RANDOM_BLOCK_TEST Ldbm;
+	FIELD f RANDOM_BLOCKSTATE_TEST Ldbm;
+	METHOD <clinit> <clinit> ()V
+	METHOD a lambda$register$0 (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
+	METHOD a register (Ljava/lang/String;Lcom/mojang/serialization/Codec;)Ldbm;
+	METHOD codec codec ()Lcom/mojang/serialization/Codec;

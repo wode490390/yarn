@@ -1,0 +1,3 @@
+CLASS cbq net/minecraft/world/level/block/GravelBlock
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD d getDustColor (Lcjr;Lbuv;Lgb;)I

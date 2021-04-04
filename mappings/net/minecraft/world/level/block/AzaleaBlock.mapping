@@ -1,0 +1,6 @@
+CLASS bxt net/minecraft/world/level/block/AzaleaBlock
+	FIELD a SUPPORT_SHAPE Ldmr;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;)V
+	METHOD d mayPlaceOn (Lcjr;Lbuv;Lgb;)Z
+	METHOD e getBlockSupportShape (Lcjr;Lbuv;Lgb;)Ldmr;

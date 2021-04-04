@@ -1,0 +1,25 @@
+CLASS dgf net/minecraft/world/level/portal/PortalForcer
+	FIELD a TICKET_RADIUS I
+	FIELD b SEARCH_RADIUS I
+	FIELD c CREATE_RADIUS I
+	FIELD d FRAME_HEIGHT I
+	FIELD e FRAME_WIDTH I
+	FIELD f FRAME_BOX I
+	FIELD g FRAME_HEIGHT_START I
+	FIELD h FRAME_HEIGHT_END I
+	FIELD i FRAME_WIDTH_START I
+	FIELD j FRAME_WIDTH_END I
+	FIELD k FRAME_BOX_START I
+	FIELD l FRAME_BOX_END I
+	FIELD m NOTHING_FOUND I
+	FIELD n level Labj;
+	METHOD <init> <init> (Labj;)V
+	METHOD a lambda$findPortalAround$5 (Lbcp;)Ln$a;
+	METHOD a lambda$findPortalAround$0 (Lbcr;)Z
+	METHOD a lambda$null$4 (Lcjr;Lgb;)Z
+	METHOD a lambda$findPortalAround$1 (Lgb;Lbcp;)D
+	METHOD a canHostFrame (Lgb;Lgb$a;Lgg;I)Z
+	METHOD a createPortal (Lgb;Lgg$a;)Ljava/util/Optional;
+	METHOD a findPortalAround (Lgb;Z)Ljava/util/Optional;
+	METHOD b lambda$findPortalAround$3 (Lbcp;)Z
+	METHOD c lambda$findPortalAround$2 (Lbcp;)I

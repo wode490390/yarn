@@ -1,0 +1,21 @@
+CLASS bzs net/minecraft/world/level/block/CommandBlock
+	FIELD a FACING Lckl;
+	FIELD b CONDITIONAL Lcki;
+	FIELD c LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD d automatic Z
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> (Lcjq$c;Z)V
+	METHOD a getStateForPlacement (Lbrr;)Lcjr;
+	METHOD a setPlacedBy (Lbvr;Lgb;Lcjr;Lasy;Lbpr;)V
+	METHOD a executeChain (Lbvr;Lgb;Lgg;)V
+	METHOD a getAnalogOutputSignal (Lcjr;Lbvr;Lgb;)I
+	METHOD a use (Lcjr;Lbvr;Lgb;Lbjf;Larf;Ldlu;)Larg;
+	METHOD a execute (Lcjr;Lbvr;Lgb;Lbur;Z)V
+	METHOD a neighborChanged (Lcjr;Lbvr;Lgb;Lbyq;Lgb;Z)V
+	METHOD a mirror (Lcjr;Lccy;)Lcjr;
+	METHOD a rotate (Lcjr;Lcek;)Lcjr;
+	METHOD a createBlockStateDefinition (Lcjs$a;)V
+	METHOD a newBlockEntity (Lgb;Lcjr;)Lchp;
+	METHOD a_ tick (Lcjr;Labj;Lgb;Ljava/util/Random;)V
+	METHOD b_ getRenderShape (Lcjr;)Lced;
+	METHOD g_ hasAnalogOutputSignal (Lcjr;)Z

@@ -1,0 +1,27 @@
+CLASS ld net/minecraft/data/worldgen/SurfaceBuilders
+	FIELD a BADLANDS Ldbx;
+	FIELD b BASALT_DELTAS Ldbx;
+	FIELD c CRIMSON_FOREST Ldbx;
+	FIELD d DESERT Ldbx;
+	FIELD e END Ldbx;
+	FIELD f ERODED_BADLANDS Ldbx;
+	FIELD g FROZEN_OCEAN Ldbx;
+	FIELD h FULL_SAND Ldbx;
+	FIELD i GIANT_TREE_TAIGA Ldbx;
+	FIELD j GRASS Ldbx;
+	FIELD k GRAVELLY_MOUNTAIN Ldbx;
+	FIELD l ICE_SPIKES Ldbx;
+	FIELD m MOUNTAIN Ldbx;
+	FIELD n MYCELIUM Ldbx;
+	FIELD o NETHER Ldbx;
+	FIELD p NOPE Ldbx;
+	FIELD q OCEAN_SAND Ldbx;
+	FIELD r SHATTERED_SAVANNA Ldbx;
+	FIELD s SOUL_SAND_VALLEY Ldbx;
+	FIELD t STONE Ldbx;
+	FIELD u SWAMP Ldbx;
+	FIELD v WARPED_FOREST Ldbx;
+	FIELD w WOODED_BADLANDS Ldbx;
+	METHOD <clinit> <clinit> ()V
+	METHOD <init> <init> ()V
+	METHOD a register (Ljava/lang/String;Ldbx;)Ldbx;

@@ -1,0 +1,11 @@
+CLASS cin net/minecraft/world/level/block/entity/SculkSensorBlockEntity
+	FIELD a listener Lcoa;
+	FIELD b lastVibrationFrequency I
+	METHOD <init> <init> (Lgb;Lcjr;)V
+	METHOD a onSignalReceive (Lbvr;Lcnv;Lcnt;I)V
+	METHOD a shouldListen (Lbvr;Lcnv;Lgb;Lcnt;Lasl;)Z
+	METHOD a load (Lmv;)V
+	METHOD b getRedstoneStrengthForDistance (II)I
+	METHOD b save (Lmv;)Lmv;
+	METHOD d getListener ()Lcoa;
+	METHOD f getLastVibrationFrequency ()I
